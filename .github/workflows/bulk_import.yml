@@ -1,0 +1,73 @@
+name: 全量批次迁移
+
+on:
+  workflow_dispatch:
+    inputs:
+      batch_num:
+        description: '批次号（1-37，0=全部自动运行）'
+        required: true
+        default: '1'
+        type: string
+      batch_size:
+        description: '每批项目数量'
+        required: false
+        default: '100'
+        type: string
+      rebuild_index:
+        description: '重新构建项目索引（首次运行或强制刷新时选是）'
+        required: false
+        default: 'false'
+        type: boolean
+
+jobs:
+  bulk-import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300   # 全自动模式最多 5 小时
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 openai
+
+      - name: Run bulk scraper
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          GEMINI_API_KEY:   ${{ secrets.GEMINI_API_KEY }}
+          OPENAI_API_KEY:   ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          cd pipeline
+          REBUILD_FLAG=""
+          if [ "${{ inputs.rebuild_index }}" == "true" ]; then
+            REBUILD_FLAG="--rebuild-index"
+          fi
+          python3 bulk_scraper.py \
+            --batch ${{ inputs.batch_num }} \
+            --batch-size ${{ inputs.batch_size }} \
+            $REBUILD_FLAG
+
+      - name: Commit new data
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Bot"
+          git add data/ pipeline/data/ pipeline/drafts/
+          git diff --quiet && git diff --staged --quiet \
+            && echo "No new data to commit" \
+            || (git commit -m "📊 批次${{ inputs.batch_num }} 导入完成：$(date '+%Y-%m-%d %H:%M')" && git push)
+
+      - name: Print summary
+        run: |
+          TOTAL=$(python3 -c "import json; d=json.load(open('data/projects_live.json')); print(len(d))" 2>/dev/null || echo "0")
+          echo "=========================================="
+          echo "  ✅ 批次 ${{ inputs.batch_num }} 执行完毕"
+          echo "  📊 数据库当前总计: $TOTAL 个项目"
+          echo "  🔗 网站: https://ai-shengyi-jing.pages.dev"
+          echo "=========================================="
