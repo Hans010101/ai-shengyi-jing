@@ -389,20 +389,17 @@ def run_batch(batch_num: int, batch_size: int = BATCH_SIZE, rebuild_index: bool 
     print(f"[INFO] Total index entries: {len(index)}")
     print(f"[INFO] Already processed: {len(seen_ids)}")
 
-    # Step 3: Determine batch slice using absolute sitemap offsets
-    start = (batch_num - 1) * batch_size
-    end = start + batch_size
-    batch_in_index = index[start:end]
-    batch = [e for e in batch_in_index if e["id"] not in seen_ids]
+    # Step 3: Determine batch slice using unprocessed list directly
     unprocessed = [e for e in index if e["id"] not in seen_ids]
+    batch = unprocessed[:batch_size]
 
     if not batch:
-        print(f"[INFO] No projects to process in batch {batch_num}. All done or out of range!")
+        print(f"[INFO] No projects to process. All done!")
         total = len(load_json(OUTPUT_FILE, []))
         print(f"[INFO] Current total in database: {total}")
         return
 
-    print(f"[INFO] Unprocessed remaining: {len(unprocessed)} | This batch absolute range [{start+1}~{min(end, len(index))}], actual to process: {len(batch)} projects")
+    print(f"[INFO] Unprocessed remaining: {len(unprocessed)} | Actual to process this batch: {len(batch)} projects")
 
     # Step 4: Process each project
     results = []
