@@ -38,7 +38,7 @@
   <div class="container">
     <div class="hero-badge">
       <span class="badge-dot"></span>
-      全球 2,933+ 真实盈利项目大盘 · 实时监控更新
+      全球 <span id="hero-badge-total">2,661+</span> 真实盈利项目大盘 · 实时监控更新
     </div>
     <h1 class="hero-title">
       发现全球最赚钱的<br>
@@ -55,7 +55,7 @@
       </div>
       <div class="stat-divider"></div>
       <div class="stat-item">
-        <span class="stat-number" data-target="2933">0</span>
+        <span class="stat-number" id="hero-total-number" data-target="0">0</span>
         <span class="stat-label">全球项目总库</span>
       </div>
       <div class="stat-divider"></div>
@@ -104,7 +104,7 @@
 <section class="all-projects-section" id="all-projects">
   <div class="container">
     <div class="section-header">
-      <h2 class="section-title">📊 全量项目数据库 (<span id="totalDbCount">2933+</span>)</h2>
+      <h2 class="section-title">📊 全量项目数据库 (<span id="totalDbCount">加载中...</span>)</h2>
       <div class="sort-controls">
         <select id="sortSelect" class="sort-select">
           <option value="revenue-desc">按月收入从高到低</option>
@@ -266,6 +266,39 @@
       <button class="btn-sub-submit" id="subSubmit">立即订阅 →</button>
     </div>
     <p class="sub-note">已有 1,240+ 创业者订阅 · 随时可退订</p>
+  </div>
+</div>
+
+<!-- =========== AI BUSINESS ADVISOR WIDGET =========== -->
+<div class="ai-advisor-bubble" id="aiAdvisorBubble">
+  <span>🤖</span> AI 商业顾问
+</div>
+
+<div class="ai-advisor-panel" id="aiAdvisorPanel">
+  <div class="panel-header">
+    <div class="panel-avatar">🤖</div>
+    <div class="panel-title-group">
+      <div class="panel-title">AI 生意商业顾问</div>
+      <div class="panel-status">基于大盘 3,000+ 案例为您解答</div>
+    </div>
+    <button class="panel-close" id="panelCloseBtn">✕</button>
+  </div>
+  <div class="panel-messages" id="panelMessages">
+    <div class="msg bot-msg">
+      👋 你好！我是「AI生意经」的智能顾问。我可以基于本站 3,000+ 全球前沿 AI 与数字项目大盘，为你提供项目拆解、冷启动方案及中国落地思路分析。
+    </div>
+    <div class="msg bot-msg">
+      你可以直接向我提问，或选择以下热门探索：
+    </div>
+  </div>
+  <div class="panel-suggestions">
+    <button onclick="sendSuggestion('推荐几个低成本启动的 AI 生意')">💡 低成本 AI 生意</button>
+    <button onclick="sendSuggestion('如何快速上线一个 Micro-SaaS？')">⚡ 快速模仿 SaaS</button>
+    <button onclick="sendSuggestion('有适合个人开发的 PDF 类工具吗？')">📄 PDF工具案例</button>
+  </div>
+  <div class="panel-input-area">
+    <input type="text" id="aiMessageInput" placeholder="输入你的想法（例如：想做PDF生成...）" autocomplete="off">
+    <button id="sendAiMessageBtn">发送</button>
   </div>
 </div>
 

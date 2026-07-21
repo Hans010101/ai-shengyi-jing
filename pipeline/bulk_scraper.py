@@ -149,18 +149,38 @@ def scrape_project_page(url):
         domain_match = re.search(r'(?:website|domain|url)[:\s]+([a-z0-9.-]+\.[a-z]{2,})', all_text[:3000], re.IGNORECASE)
         data["domain"] = domain_match.group(1) if domain_match else ""
 
+        # Extract external links (website, twitter, github)
+        links = soup.find_all("a", href=True)
+        github_links = []
+        twitter_links = []
+        external_links = []
+        for a in links:
+            href = a["href"].strip().lower()
+            if "github.com/" in href and not any(x in href for x in ["/sponsors", "/features", "/about", "/pricing", "/join", "/login"]):
+                github_links.append(a["href"])
+            elif ("twitter.com/" in href or "x.com/" in href) and not any(x in href for x in ["/share", "/intent", "/search", "/status", "/privacy"]):
+                twitter_links.append(a["href"])
+            elif href.startswith("http") and not any(x in href for x in ["starterstory.com", "google.com", "facebook.com", "linkedin.com", "instagram.com", "youtube.com"]):
+                external_links.append(a["href"])
+
+        data["github_url"] = github_links[0] if github_links else ""
+        data["twitter_url"] = twitter_links[0] if twitter_links else ""
+        data["website"] = external_links[0] if external_links else (f"https://{data['domain']}" if data["domain"] else "")
+
         return data
 
     except Exception as e:
         return {"_error": str(e), "url": url}
 
-# ===== STEP 3: AI ANALYSIS =====
 def generate_analysis(project_info):
     """调用 AI 生成中文商业拆解"""
     name = project_info.get("name") or project_info.get("slug", "Unknown")
     desc = project_info.get("description", "")
     revenue = project_info.get("revenue", "未披露")
     keywords = project_info.get("keywords", "")
+    default_web = project_info.get("website", "")
+    default_tw = project_info.get("twitter_url", "")
+    default_gh = project_info.get("github_url", "")
 
     prompt = f"""你是「AI生意经」的首席商业分析师，专门从中国创业者视角深度解读全球热门创业案例。
 
@@ -169,6 +189,9 @@ def generate_analysis(project_info):
 - 月营收: {revenue}
 - 项目描述: {desc}
 - 关键词: {keywords}
+- 爬虫抓取到的官网网址: {default_web}
+- 爬虫抓取到的X(Twitter)账号: {default_tw}
+- 爬虫抓取到的GitHub仓库: {default_gh}
 
 请以中文完成以下分析，帮助中国创业者能快速了解并模仿上手：
 
@@ -178,6 +201,8 @@ def generate_analysis(project_info):
 4. 绘制产品架构流（用 ➔ 连接各模块，例如：用户注册 ➔ AI处理 ➔ 导出结果 ➔ 付费解锁）
 5. 描述商业闭环（用【引流】➔【产品】➔【变现】➔【留存】格式）
 6. 给出3步可执行的模仿上手路径（每步50-80字，具体可操作）
+7. 尽可能提供该项目的官网地址(website)、官方X链接(twitter_url)、开源仓库(github_url)。
+   如果没有抓取到，且你（AI）已知该知名项目的官网、X账号或GitHub，请根据你已知的信息补齐；如果实在没有则填入空字符串。
 
 请严格按以下JSON格式输出，不要输出任何JSON以外的内容：
 {{
@@ -196,7 +221,10 @@ def generate_analysis(project_info):
   "difficulty": "低",
   "startupCost": "$500-2000",
   "timeToRevenue": "1-3个月",
-  "tags": ["AI工具", "SaaS"]
+  "tags": ["AI工具", "SaaS"],
+  "website": "官网网址或空字",
+  "twitter_url": "Twitter链接或空字",
+  "github_url": "GitHub链接或空字"
 }}"""
 
     if DEEPSEEK_API_KEY:

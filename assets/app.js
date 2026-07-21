@@ -1,25 +1,52 @@
-/* ========================================
-   AI生意经 - Main Application Logic
-======================================== */
-
 // =========== STATE ===========
 let currentFilter = 'all';
 let currentSearch = '';
 let currentSort = 'revenue-desc';
+let ALL_PROJECTS = []; // Holds normalized live database items
 
 // =========== INIT ===========
 document.addEventListener('DOMContentLoaded', () => {
+  // 1. Initial render of static featured items
   renderFeatured();
   renderCategories();
-  renderProjects();
+  
+  // 2. Fetch live full database asynchronously
+  fetch('data/projects_live.json')
+    .then(r => r.json())
+    .then(data => {
+      ALL_PROJECTS = data.map(p => normalizeProject(p));
+      
+      // Update dynamic total stats
+      const totalCount = ALL_PROJECTS.length;
+      const heroBadgeTotal = document.getElementById('hero-badge-total');
+      if (heroBadgeTotal) heroBadgeTotal.innerText = totalCount.toLocaleString('zh-CN') + '+';
+      
+      const heroTotalNum = document.getElementById('hero-total-number');
+      if (heroTotalNum) {
+        heroTotalNum.setAttribute('data-target', totalCount);
+        countUpStats(); // Re-trigger smooth stats animation
+      }
+      
+      const totalDbCount = document.getElementById('totalDbCount');
+      if (totalDbCount) totalDbCount.innerText = totalCount.toLocaleString('zh-CN') + '个';
+      
+      // Initial render for the main projects list
+      renderProjects();
+    })
+    .catch(err => {
+      console.warn('[WARN] Failed to fetch data/projects_live.json, fallback to projects.js static list.', err);
+      ALL_PROJECTS = PROJECTS.map(p => normalizeProject(p));
+      renderProjects();
+    });
+
   setupSearch();
   setupFilters();
   setupSort();
   setupModal();
   setupSubscribe();
   setupScrollAnimations();
-  countUpStats();
   setupHeader();
+  setupAiAdvisor(); // Init chatbot listeners
 });
 
 // =========== RENDER FEATURED ===========
@@ -37,11 +64,21 @@ function renderProjects() {
   const grid = document.getElementById('projectsGrid');
   const empty = document.getElementById('emptyState');
 
-  let filtered = PROJECTS.filter(p => {
+  if (!ALL_PROJECTS || ALL_PROJECTS.length === 0) {
+    grid.innerHTML = '';
+    empty.style.display = 'block';
+    return;
+  }
+
+  let filtered = ALL_PROJECTS.filter(p => {
     const matchFilter = currentFilter === 'all' || p.category.includes(currentFilter) || p.tags.includes(currentFilter);
     const q = currentSearch.toLowerCase();
-    const matchSearch = !q || p.name.includes(q) || p.nameEn.toLowerCase().includes(q) ||
-      p.summary.includes(q) || p.category.some(c => c.includes(q)) || p.tags.some(t => t.includes(q));
+    const matchSearch = !q || 
+      p.name.toLowerCase().includes(q) || 
+      p.nameEn.toLowerCase().includes(q) ||
+      p.summary.toLowerCase().includes(q) || 
+      p.category.some(c => c.toLowerCase().includes(q)) || 
+      p.tags.some(t => t.toLowerCase().includes(q));
     return matchFilter && matchSearch;
   });
 
@@ -53,14 +90,20 @@ function renderProjects() {
     empty.style.display = 'block';
   } else {
     empty.style.display = 'none';
-    grid.innerHTML = filtered.map(p => createProjectCard(p, false)).join('');
+    
+    // Performance optimization: Render maximum of 100 items at a time to prevent DOM lag
+    const limit = 100;
+    const toRender = filtered.slice(0, limit);
+    
+    grid.innerHTML = toRender.map(p => createProjectCard(p, false)).join('');
     grid.querySelectorAll('.project-card').forEach(card => {
       card.addEventListener('click', () => openModal(card.dataset.id));
     });
-    // Animate in
+    
+    // Smooth micro-animation entrance
     setTimeout(() => {
       grid.querySelectorAll('.project-card').forEach((card, i) => {
-        setTimeout(() => card.classList.add('visible'), i * 50);
+        setTimeout(() => card.classList.add('visible'), i * 15);
       });
     }, 10);
   }
@@ -193,7 +236,7 @@ function setupModal() {
 }
 
 function openModal(id) {
-  const p = PROJECTS.find(x => x.id === id);
+  const p = ALL_PROJECTS.find(x => x.id === id) || PROJECTS.find(x => x.id === id);
   if (!p) return;
   const content = document.getElementById('modalContent');
   const repPct = (p.replicabilityScore / 10 * 100).toFixed(0);
@@ -208,6 +251,11 @@ function openModal(id) {
         ${[...p.category, ...p.tags].map(t => `<span class="modal-tag">${t}</span>`).join('')}
       </div>
       <p class="modal-summary">${p.summary}</p>
+      <div class="modal-links-row" style="margin-top: 14px; display: flex; gap: 8px; flex-wrap: wrap;">
+        ${p.website ? `<a href="${p.website}" target="_blank" class="modal-link-btn" style="background:var(--accent-blue);color:#fff;padding:6px 14px;border-radius:8px;font-size:12px;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:4px;transition:opacity 0.2s;">🌐 官网链接</a>` : ''}
+        ${p.twitter_url ? `<a href="${p.twitter_url}" target="_blank" class="modal-link-btn" style="background:#0f172a;color:#fff;padding:6px 14px;border-radius:8px;font-size:12px;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:4px;transition:opacity 0.2s;">🐦 官方 X</a>` : ''}
+        ${p.github_url ? `<a href="${p.github_url}" target="_blank" class="modal-link-btn" style="background:#334155;color:#fff;padding:6px 14px;border-radius:8px;font-size:12px;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:4px;transition:opacity 0.2s;">🐙 GitHub 开源</a>` : ''}
+      </div>
     </div>
     <div class="modal-metrics">
       <div class="modal-metric">
@@ -443,3 +491,238 @@ function hexToRgba(hex, alpha) {
   const b = parseInt(hex.slice(5,7), 16);
   return `rgba(${r},${g},${b},${alpha})`;
 }
+
+// =========== NORMALIZE LIVE DATABASE ITEMS ===========
+function normalizeProject(p) {
+  if (p.nameEn && p.revenueDisplay && p.category) return p;
+
+  let rawRevenue = 0;
+  let revenueDisplay = p.revenue || '未披露';
+  if (p.revenue && typeof p.revenue === 'string') {
+    const cleanRev = p.revenue.replace(/,/g, '');
+    const numMatch = cleanRev.match(/\$([\d.]+)\s*([KkMm]?)/);
+    if (numMatch) {
+      let val = parseFloat(numMatch[1]);
+      let multiplier = numMatch[2].toLowerCase();
+      if (multiplier === 'k') val *= 1000;
+      else if (multiplier === 'm') val *= 1000000;
+      rawRevenue = val;
+    }
+  }
+
+  let rawCost = 0;
+  if (p.startupCost && typeof p.startupCost === 'string') {
+    const costMatch = p.startupCost.replace(/,/g, '').match(/\$?(\d+)/);
+    if (costMatch) {
+      rawCost = parseInt(costMatch[1]);
+    }
+  }
+
+  let rawDays = 30;
+  if (p.timeToRevenue && typeof p.timeToRevenue === 'string') {
+    const daysMatch = p.timeToRevenue.match(/(\d+)\s*(?:个)?月/);
+    if (daysMatch) {
+      rawDays = parseInt(daysMatch[1]) * 30;
+    }
+  }
+
+  const category = p.tags && p.tags.length > 0 ? [p.niche || '其他'] : ['其他'];
+  const tags = p.tags || [];
+
+  return {
+    id: p.id || Math.random().toString(36).substr(2, 9),
+    name: p.name || p.slug || '未命名项目',
+    nameEn: p.slug ? p.slug.replace(/-/g, ' ').toUpperCase() : 'AI PROJECT',
+    category: category,
+    tags: tags,
+    revenue: rawRevenue,
+    revenueDisplay: revenueDisplay,
+    startupCost: rawCost,
+    startupDays: rawDays,
+    replicabilityScore: p.replicabilityScore || 7,
+    featured: p.featured || false,
+    heroEmoji: getEmojiForNiche(p.niche || '其他'),
+    heroColor: getColorForNiche(p.niche || '其他'),
+    summary: p.summary || p.description || '暂无项目介绍',
+    insight: p.insight || p.description || '暂无商业解读',
+    businessModel: p.businessModel || '订阅付费/按量收费',
+    productArch: p.productArch || '用户入口 ➔ AI运算 ➔ 支付结算',
+    businessLoop: p.businessLoop || '【引流】线上SEO ➔ 【体验】免费额度 ➔ 【变现】订阅升级 ➔ 【留存】粘性数据',
+    getStartedPath: p.getStartedPath || [
+      '第一步：用1天跑通MVP模型，快速收集第一批国内用户反馈。',
+      '第二步：选择开源低代码模板，1周内完成支付与用户系统集成。',
+      '第三步：利用微信公众号/小红书引流，完成第一笔收费转化。'
+    ],
+    chinaOpportunity: p.chinaOpportunity || '国内在该垂直细分领域需求旺盛，适合快速复刻落地。',
+    marketingChannels: p.tags ? p.tags.slice(0, 3) : ['社交媒体', '内容营销'],
+    techStack: p.tags ? p.tags.slice(2, 5) : ['Node.js', 'LLM API'],
+    teamSize: p.difficulty === '高' ? 3 : (p.difficulty === '中' ? 2 : 1)
+  };
+}
+
+function getEmojiForNiche(niche) {
+  const emojis = {
+    'AI工具': '🤖',
+    'SaaS': '⚡',
+    '内容/媒体': '✍️',
+    '电商/DTC': '🛒',
+    '开发者工具': '🔧',
+    '营销工具': '📢',
+    '金融/支付': '💳',
+    '健康/生活': '❤️',
+    'B2B服务': '🤝',
+    '游戏/娱乐': '🎮'
+  };
+  return emojis[niche] || '💡';
+}
+
+function getColorForNiche(niche) {
+  const colors = {
+    'AI工具': '#8b5cf6',
+    'SaaS': '#3b82f6',
+    '内容/媒体': '#ec4899',
+    '电商/DTC': '#f59e0b',
+    '开发者工具': '#10b981',
+    '营销工具': '#ef4444',
+    '金融/支付': '#06b6d4',
+    '健康/生活': '#14b8a6',
+    'B2B服务': '#6366f1',
+    '游戏/娱乐': '#f43f5e'
+  };
+  return colors[niche] || '#64748b';
+}
+
+// =========== AI BUSINESS ADVISOR CHATBOT LOGIC ===========
+function setupAiAdvisor() {
+  const bubble = document.getElementById('aiAdvisorBubble');
+  const panel = document.getElementById('aiAdvisorPanel');
+  const closeBtn = document.getElementById('panelCloseBtn');
+  const sendBtn = document.getElementById('sendAiMessageBtn');
+  const input = document.getElementById('aiMessageInput');
+  const messagesWrap = document.getElementById('panelMessages');
+
+  if (!bubble || !panel) return;
+
+  // Toggle Panel
+  bubble.addEventListener('click', () => {
+    panel.classList.toggle('open');
+    if (panel.classList.contains('open')) {
+      input.focus();
+    }
+  });
+
+  closeBtn.addEventListener('click', () => {
+    panel.classList.remove('open');
+  });
+
+  // Send message
+  function handleSend() {
+    const text = input.value.trim();
+    if (!text) return;
+    
+    // Append User Message
+    appendMessage(text, 'user-msg');
+    input.value = '';
+
+    // Show Typing Indicator
+    const typingId = appendMessage('🤖 AI 顾问正在检索商业大盘并构思方案...', 'bot-msg');
+    
+    setTimeout(() => {
+      // Remove typing message
+      const typingEl = document.getElementById(typingId);
+      if (typingEl) typingEl.remove();
+
+      // Retrieve Top Matches from live database
+      const matches = findBestMatches(text);
+      const reply = generateAdvisorResponse(text, matches);
+      
+      appendMessage(reply, 'bot-msg', matches);
+    }, 1200);
+  }
+
+  sendBtn.addEventListener('click', handleSend);
+  input.addEventListener('keydown', e => {
+    if (e.key === 'Enter') handleSend();
+  });
+}
+
+// Global Suggestion Trigger
+window.sendSuggestion = function(text) {
+  const panel = document.getElementById('aiAdvisorPanel');
+  const input = document.getElementById('aiMessageInput');
+  if (panel && input) {
+    panel.classList.add('open');
+    input.value = text;
+    document.getElementById('sendAiMessageBtn').click();
+  }
+};
+
+function appendMessage(text, className, matches = []) {
+  const messagesWrap = document.getElementById('panelMessages');
+  const msg = document.createElement('div');
+  const id = 'msg-' + Math.random().toString(36).substr(2, 9);
+  msg.id = id;
+  msg.className = `msg ${className}`;
+  
+  // Format line breaks
+  let html = text.replace(/\n/g, '<br>');
+  
+  // If we have recommended projects, append clickable action buttons
+  if (matches && matches.length > 0) {
+    html += '<div style="margin-top: 10px; border-top: 1px solid rgba(0,0,0,0.05); padding-top: 6px; font-weight:700;">💡 关联大盘推荐项目（点击直达架构拆解）：</div>';
+    matches.forEach(p => {
+      html += `
+        <a class="chat-project-link" href="javascript:void(0);" onclick="openModal('${p.id}')">
+          ${p.heroEmoji} 【${p.category[0]}】${p.name} · 月入 ${p.revenueDisplay}
+        </a>
+      `;
+    });
+  }
+
+  msg.innerHTML = html;
+  messagesWrap.appendChild(msg);
+  messagesWrap.scrollTop = messagesWrap.scrollHeight;
+  return id;
+}
+
+function findBestMatches(query) {
+  if (!ALL_PROJECTS || ALL_PROJECTS.length === 0) return [];
+  const q = query.toLowerCase();
+  
+  // Scoring
+  const scored = ALL_PROJECTS.map(p => {
+    let score = 0;
+    if (p.name.toLowerCase().includes(q)) score += 10;
+    if (p.summary.toLowerCase().includes(q)) score += 5;
+    if (p.insight.toLowerCase().includes(q)) score += 3;
+    if (p.category.some(c => c.toLowerCase().includes(q))) score += 8;
+    if (p.tags.some(t => t.toLowerCase().includes(q))) score += 6;
+    return { project: p, score: score };
+  });
+
+  // Filter & sort
+  const filtered = scored.filter(s => s.score > 0).sort((a, b) => b.score - a.score);
+  return filtered.slice(0, 3).map(s => s.project);
+}
+
+function generateAdvisorResponse(query, matches) {
+  if (matches.length === 0) {
+    return `关于您提到的 "${query}"，我检索了全球 3,000+ 案例，目前在出海大盘中暂时没有完全重合的垂直项目。
+
+但从相似赛道的商业逻辑来看，我建议您可以参考「AI工具」或「Micro-SaaS」的发展路径：
+1. **MVP极速上线**：利用 Webflow/Vite + Claude API 在 3 天内制作一个极简表单或生成式页面，跑通核心功能。
+2. **本土冷启动**：在中国市场利用小红书发布解决痛点的短视频或图文，引流私域微信群。
+3. **闭环变现**：前期通过国内爱发电或直接微信扫码支付提供周卡/月卡，验证用户的真金白银付费意愿。`;
+  }
+
+  const p1 = matches[0];
+  let reply = `🧠 **商业顾问分析报告：**\n根据您咨询的创意，为您精准匹配到本站最成功的出海案例 **${p1.name}**（月营收达 **${p1.revenueDisplay}**）。\n\n`;
+  reply += `💡 **核心商业逻辑**：\n该项目成功的关键在于 **${p1.summary}**。它以极低的团队成本（团队通常仅有 1 人），通过精细的流量获客，实现了超高利润率。\n\n`;
+  reply += `🇨🇳 **中国本土落地冷启动方案**：\n`;
+  reply += `1. **系统克隆**：国内开发者可以完全复刻其系统架构。国内可直接调用 DeepSeek API 作为模型底座，接口成本可降低 90% 以上。\n`;
+  reply += `2. **精准获客**：放弃高昂的搜索引擎竞价，转为在小红书、即刻或掘金等垂直社区发布“痛点实战解决方案”相关图文，自动引流私域粉丝。\n`;
+  reply += `3. **支付闭环**：使用国内免签支付接口（如虎皮椒或面包多），在微信小程序内直接完成订阅转化，当天即可看到首笔现金流。`;
+
+  return reply;
+}
+

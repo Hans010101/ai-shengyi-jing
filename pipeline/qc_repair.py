@@ -63,6 +63,7 @@ def generate_perfect_analysis(p):
 4. 绘制产品架构流（用 ➔ 连接各模块，例如：用户注册 ➔ AI处理 ➔ 导出结果 ➔ 付费解锁）
 5. 描述商业闭环（用【引流】➔【产品】➔【变现】➔【留存】格式）
 6. 给出3步可执行的模仿上手路径（每步50-80字，具体可操作）
+7. 尽可能提供该项目的官网地址(website)、官方X链接(twitter_url)、开源仓库(github_url)。如果你已知该知名项目的官网、X账号或GitHub，请根据你已知的信息填写；如果实在没有则填入空字符串。
 
 请严格按以下JSON格式输出，不要输出任何JSON以外的内容：
 {{
@@ -81,7 +82,10 @@ def generate_perfect_analysis(p):
   "difficulty": "低",
   "startupCost": "$500-2000",
   "timeToRevenue": "1-3个月",
-  "tags": ["AI工具", "SaaS"]
+  "tags": ["AI工具", "SaaS"],
+  "website": "官网网址或空字",
+  "twitter_url": "Twitter链接或空字",
+  "github_url": "GitHub链接或空字"
 }}"""
 
     # 依次调用配置的 API
