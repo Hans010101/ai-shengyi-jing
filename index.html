@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI生意经 — 发现全球最赚钱的生意模型</title>
-  <meta name="description" content="精选来自Starter Story的全球真实盈利案例，以中国创业者视角深度解读，帮你找到下一个月入万元的生意机会。">
+  <title>AI生意经 — 发现全球最赚钱的 AI 与数字生意</title>
+  <meta name="description" content="精选全球 AI 前沿创业项目，以中国创业者视角深度拆解产品架构与商业闭环，帮你找到下一个月入万元的生意机会。">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
@@ -19,7 +19,8 @@
       <span class="logo-text">AI<span class="logo-accent">生意经</span></span>
     </a>
     <nav class="main-nav">
-      <a href="#projects" class="nav-link">项目库</a>
+      <a href="#projects" class="nav-link">精选案例</a>
+      <a href="#all-projects" class="nav-link">全量项目库</a>
       <a href="#categories" class="nav-link">分类浏览</a>
       <a href="#radar" class="nav-link">生意雷达</a>
       <a href="#about" class="nav-link">关于我们</a>
@@ -37,41 +38,41 @@
   <div class="container">
     <div class="hero-badge">
       <span class="badge-dot"></span>
-      全球 2,933+ 真实盈利项目 · 实时更新
+      全球 2,933+ 真实盈利项目大盘 · 实时监控更新
     </div>
     <h1 class="hero-title">
       发现全球最赚钱的<br>
-      <span class="gradient-text">生意模型</span>
+      <span class="gradient-text">AI 与数字生意模型</span>
     </h1>
     <p class="hero-subtitle">
-      精选 Starter Story 上月入万美元的真实案例，以<strong>中国创业者视角</strong>深度拆解，
+      精选全球 AI 前沿创业项目，月入万美元的真实案例，以<strong>中国创业者视角</strong>深度拆解系统架构与商业闭环，
       帮你找到下一个可复制的生意机会。
     </p>
     <div class="hero-stats">
       <div class="stat-item">
-        <span class="stat-number" data-target="15">0</span>
-        <span class="stat-label">精选案例</span>
+        <span class="stat-number" id="statCuratedCount">15+</span>
+        <span class="stat-label">深度拆解案例</span>
       </div>
       <div class="stat-divider"></div>
       <div class="stat-item">
         <span class="stat-number" data-target="2933">0</span>
-        <span class="stat-label">全球项目库</span>
+        <span class="stat-label">全球项目总库</span>
       </div>
       <div class="stat-divider"></div>
       <div class="stat-item">
         <span class="stat-number">$3B+</span>
-        <span class="stat-label">月总营收</span>
+        <span class="stat-label">月总营收追踪</span>
       </div>
       <div class="stat-divider"></div>
       <div class="stat-item">
         <span class="stat-number">每日</span>
-        <span class="stat-label">更新频率</span>
+        <span class="stat-label">自动化更新</span>
       </div>
     </div>
     <div class="hero-search">
       <div class="search-box">
         <span class="search-icon">🔍</span>
-        <input type="text" id="searchInput" placeholder="搜索生意方向，例如：AI工具、内容创业、服务类..." autocomplete="off">
+        <input type="text" id="searchInput" placeholder="搜索全球项目，例如：AI工具、Micro-SaaS、PDF、知识付费..." autocomplete="off">
       </div>
     </div>
     <div class="hero-tags">
@@ -90,8 +91,8 @@
 <section class="featured-section" id="projects">
   <div class="container">
     <div class="section-header">
-      <h2 class="section-title">🔥 本周精选生意</h2>
-      <p class="section-subtitle">由AI生意经团队手工筛选，最值得中国创业者关注的海外盈利模型</p>
+      <h2 class="section-title">🔥 爆款深度拆解项目</h2>
+      <p class="section-subtitle">AI生意经团队手工精调，附带完整【系统架构 ➔ 商业闭环 ➔ 3步上手路径】</p>
     </div>
     <div class="featured-grid" id="featuredGrid">
       <!-- JS inject -->
@@ -100,10 +101,10 @@
 </section>
 
 <!-- =========== ALL PROJECTS =========== -->
-<section class="all-projects-section">
+<section class="all-projects-section" id="all-projects">
   <div class="container">
     <div class="section-header">
-      <h2 class="section-title">📊 全部项目库</h2>
+      <h2 class="section-title">📊 全量项目数据库 (<span id="totalDbCount">2933+</span>)</h2>
       <div class="sort-controls">
         <select id="sortSelect" class="sort-select">
           <option value="revenue-desc">按月收入从高到低</option>
@@ -127,8 +128,8 @@
 <section class="categories-section" id="categories">
   <div class="container">
     <div class="section-header">
-      <h2 class="section-title">🗂️ 按类型浏览</h2>
-      <p class="section-subtitle">覆盖 48 个商业类别，总有一个适合你</p>
+      <h2 class="section-title">🗂️ 按赛道分类浏览</h2>
+      <p class="section-subtitle">覆盖 48 个商业细分赛道，快速锁定适合你的切入点</p>
     </div>
     <div class="categories-grid" id="categoriesGrid">
       <!-- JS inject -->
@@ -141,24 +142,24 @@
   <div class="container">
     <div class="radar-content">
       <div class="radar-text">
-        <div class="radar-badge">🛰️ 生意雷达</div>
-        <h2 class="radar-title">实时对标 Starter Story<br>新项目第一时间推送</h2>
+        <div class="radar-badge">🛰️ AI 生意雷达</div>
+        <h2 class="radar-title">全球前沿创业动态<br>第一时间自动拆解推送</h2>
         <p class="radar-desc">
-          我们每日自动扫描 Starter Story 上线的新项目，
-          经 AI 筛选 + 人工审核后，第一时间推送中文解读到你的手边。
+          基于全网监控流水线，自动扫描全球最新放榜与增长迅猛的 AI 及数字小生意，
+          经过算法清洗 + 深度拆解，第一时间送到你的手边。
         </p>
         <div class="radar-features">
           <div class="radar-feature">
             <span class="feature-icon">⚡</span>
-            <span>新项目实时同步，最快24小时内解读</span>
+            <span>前沿 AI 创业项目实时监测，24小时内自动出库</span>
           </div>
           <div class="radar-feature">
             <span class="feature-icon">🇨🇳</span>
-            <span>每个项目都有「中国机会」深度分析</span>
+            <span>每个项目均附带「中国本土落地机会」独家洞察</span>
           </div>
           <div class="radar-feature">
             <span class="feature-icon">📱</span>
-            <span>同步推送：公众号 + 小红书 + 社群</span>
+            <span>多端同步：微信公众号 + 小红书卡片 + 专属社群</span>
           </div>
         </div>
         <button class="btn-radar" id="radarBtn">🔔 开启生意雷达</button>
@@ -182,13 +183,13 @@
   <div class="container">
     <div class="wechat-card">
       <div class="wechat-left">
-        <h2 class="wechat-title">加入 AI生意经 社群</h2>
-        <p class="wechat-desc">每周精选 3-5 个全球热门生意模型，以中国视角深度拆解。关注公众号，第一时间获取：</p>
+        <h2 class="wechat-title">加入 AI生意经 创作者社群</h2>
+        <p class="wechat-desc">每周精选全球热门 AI 与数字生意模型，以中国视角深度拆解。关注公众号，第一时间获取：</p>
         <ul class="wechat-list">
-          <li>📊 海外盈利项目周报</li>
-          <li>🇨🇳 国内可复制机会分析</li>
-          <li>💰 实操启动指南 + 资源清单</li>
-          <li>🔔 新热门项目实时预警</li>
+          <li>📊 全球前沿 AI 盈利项目周报</li>
+          <li>🇨🇳 国内可复制机会与产品架构流</li>
+          <li>💰 极简启动指南 + 开箱即用技术栈</li>
+          <li>🔔 爆款小生意实时预警推送</li>
         </ul>
         <div class="social-links">
           <a href="#" class="social-btn wechat-btn">📱 微信公众号</a>
@@ -200,7 +201,6 @@
         <div class="qr-placeholder">
           <div class="qr-mock">
             <div class="qr-grid">
-              <!-- QR代码样式装饰 -->
               <div class="qr-corner tl"></div>
               <div class="qr-corner tr"></div>
               <div class="qr-corner bl"></div>
@@ -221,11 +221,11 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <div class="footer-logo">💡 AI生意经</div>
-        <p class="footer-tagline">发现全球，启发中国</p>
-        <p class="footer-desc">数据来源：Starter Story (starterstory.com)<br>版权声明：内容为原创中文解读，非直接翻译。</p>
+        <p class="footer-tagline">发现全球前沿 AI 项目，启发中国创业者</p>
+        <p class="footer-desc">数据来源：全球 AI 与数字小生意大盘 | AI生意经团队独家拆解<br>版权声明：内容为原创中文架构分析，未经允许请勿转载。</p>
       </div>
       <div class="footer-links">
-        <h4>项目分类</h4>
+        <h4>热门赛道</h4>
         <a href="#">AI工具</a>
         <a href="#">Micro SaaS</a>
         <a href="#">内容创业</a>
@@ -235,13 +235,13 @@
       <div class="footer-links">
         <h4>关于我们</h4>
         <a href="#">内容合作</a>
-        <a href="#">提交案例</a>
-        <a href="#">广告合作</a>
+        <a href="#">提交优质案例</a>
+        <a href="#">商务合作</a>
         <a href="#">联系我们</a>
       </div>
     </div>
     <div class="footer-bottom">
-      <p>© 2025 AI生意经. 内容仅供参考，投资需谨慎。</p>
+      <p>© 2025-2026 AI生意经 (AI Business Insights). 内容仅供参考，创业需谨慎。</p>
     </div>
   </div>
 </footer>
@@ -260,12 +260,12 @@
     <button class="modal-close" id="subscribeClose">✕</button>
     <div class="subscribe-icon">🔔</div>
     <h3>订阅 AI生意经</h3>
-    <p>每周精选 3-5 个全球热门生意案例，中国视角深度解读，直达你的手机。</p>
+    <p>每周精选全球热门 AI 生意案例，中国视角深度拆解系统架构与商业闭环，直达你的手机。</p>
     <div class="subscribe-form">
       <input type="text" placeholder="你的微信号" class="sub-input" id="wechatInput">
       <button class="btn-sub-submit" id="subSubmit">立即订阅 →</button>
     </div>
-    <p class="sub-note">已有 1,240+ 人订阅 · 随时可退订</p>
+    <p class="sub-note">已有 1,240+ 创业者订阅 · 随时可退订</p>
   </div>
 </div>
 
