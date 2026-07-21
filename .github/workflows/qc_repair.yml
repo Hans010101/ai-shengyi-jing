@@ -34,8 +34,21 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Bot"
-          git pull --rebase origin main || true
           git add data/
           git diff --quiet && git diff --staged --quiet \
             && echo "No changes to commit" \
-            || (git commit -m "🔧 自动质检：修复低质量兜底项目数据" && git push origin main)
+            || (
+              git commit -m "🔧 自动质检：修复低质量兜底项目数据"
+              for i in {1..5}; do
+                echo "Attempt $i to pull and push repaired data..."
+                git pull --rebase origin main -X theirs || true
+                if git push origin main; then
+                  echo "QC Push successful!"
+                  exit 0
+                fi
+                echo "QC Push failed, retrying in 5 seconds..."
+                sleep 5
+              done
+              echo "All QC push attempts failed."
+              exit 1
+            )

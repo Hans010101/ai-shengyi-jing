@@ -62,11 +62,24 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Bot"
-          git pull --rebase origin main || true
           git add data/ pipeline/data/ pipeline/drafts/
           git diff --quiet && git diff --staged --quiet \
             && echo "No new data to commit" \
-            || (git commit -m "📊 批次${{ inputs.batch_num }} 导入完成：$(date '+%Y-%m-%d %H:%M')" && git push origin main)
+            || (
+              git commit -m "📊 批次${{ inputs.batch_num }} 导入完成：$(date '+%Y-%m-%d %H:%M')"
+              for i in {1..5}; do
+                echo "Attempt $i to pull and push..."
+                git pull --rebase origin main -X theirs || true
+                if git push origin main; then
+                  echo "Push successful!"
+                  exit 0
+                fi
+                echo "Push failed, retrying in 5 seconds..."
+                sleep 5
+              done
+              echo "All push attempts failed."
+              exit 1
+            )
 
       - name: Print summary
         run: |
