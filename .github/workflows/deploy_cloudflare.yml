@@ -1,29 +1,19 @@
 name: 自动部署到 Cloudflare Pages
 
+# NOTE: Cloudflare Pages 已通过官方 GitHub 集成自动部署（在 Cloudflare 控制台配置）
+# 本 workflow 已停用，避免因 Secret 缺失导致 Actions 报错红叉。
+# 所有推送到 main 的代码将由 Cloudflare Pages 的原生 GitHub 集成自动完成部署。
+
 on:
-  push:
-    branches:
-      - main
-  workflow_run:
-    workflows: ["每日项目采集"]
-    types:
-      - completed
+  workflow_dispatch:  # 仅允许手动触发，不监听 push
 
 jobs:
-  deploy:
+  skip:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      deployments: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Publish to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: "ai-shengyi-jing"  # 项目在 Cloudflare Pages 中的名字
-          directory: "."                # 静态网页的根目录
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+      - name: ℹ️ 跳过 - Cloudflare Pages 使用原生 GitHub 集成自动部署
+        run: |
+          echo "==================================================="
+          echo "✅ 部署由 Cloudflare Pages 官方集成完成，无需此 Action。"
+          echo "   访问 https://dash.cloudflare.com 查看部署状态。"
+          echo "==================================================="
