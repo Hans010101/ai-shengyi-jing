@@ -191,6 +191,25 @@ def run_controller(start_batch=1, max_batches=37):
                     # Sync local data
                     sync_local_data()
 
+                    # Perform Instant QC and Self-Healing Repair
+                    try:
+                        log("正在对本批次拉回的数据进行即时质检 (QC)...", "INFO")
+                        import sys
+                        sys.path.append(str(Path(__file__).parent))
+                        import qc_repair
+                        qc_repair.run_qc_repair()
+                        
+                        # If local repaired data generated, commit & push it
+                        subprocess.run(["git", "add", "data/"], capture_output=True, cwd=str(REPO_DIR))
+                        diff_check = subprocess.run(["git", "diff", "--staged", "--quiet"], cwd=str(REPO_DIR))
+                        if diff_check.returncode != 0:
+                            log("质检发现并成功原地修复了低质量数据，正在推送更新到 GitHub...", "OK")
+                            subprocess.run(["git", "commit", "-m", f"🔧 自动质检自愈：批次 {batch_num} 项目质量重刷"], capture_output=True, cwd=str(REPO_DIR))
+                            subprocess.run(["git", "pull", "--rebase", "origin", "main"], capture_output=True, cwd=str(REPO_DIR))
+                            subprocess.run(["git", "push", "origin", "main"], capture_output=True, cwd=str(REPO_DIR))
+                    except Exception as qce:
+                        log(f"质检自愈过程发生偶发异常: {qce}", "WARN")
+
                     # Record
                     stats["success"] = True
                     stats["attempt"] = attempt
