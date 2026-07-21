@@ -1,13 +1,7 @@
 #!/usr/bin/env python3
 """
-AI生意经 - Starter Story 自动采集流水线
-功能：自动发现新项目 → 结构化提取 → AI生成中文解读（包含架构与商业闭环） → 输出JSON
-
-使用前安装依赖：
-  pip install requests beautifulsoup4 openai python-dotenv
-
-运行：
-  python3 scraper.py
+AI生意经 - 自动采集与拆解流水线
+支持：DeepSeek API / Google Gemini API (免费) / OpenAI API
 """
 
 import os
@@ -25,9 +19,10 @@ DATA_DIR = Path(__file__).parent / "data"
 SEEN_FILE = DATA_DIR / "seen_ids.json"
 OUTPUT_FILE = Path(__file__).parent.parent / "data" / "projects_live.json"
 
-# API Keys
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")      # 用于AI解读
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")      # 备选：Gemini API
+# API Keys 环境变量（按优先级读取）
+DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "")  # 推荐：DeepSeek API
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")      # 推荐：Google Gemini (免费)
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")      # OpenAI API
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
@@ -64,7 +59,7 @@ def fetch_page(url, retries=3):
     return None
 
 def scrape_listing_page():
-    print("[INFO] Fetching Starter Story listing...")
+    print("[INFO] Fetching global listings...")
     html = fetch_page(f"{BASE_URL}/data")
     if not html:
         return []
@@ -164,22 +159,27 @@ def generate_chinese_analysis(project):
   "tags": ["标签1", "标签2"]
 }}"""
 
-    if OPENAI_API_KEY:
-        return call_openai(prompt)
+    if DEEPSEEK_API_KEY:
+        print("  [AI] Using DeepSeek API...")
+        return call_deepseek(prompt)
     elif GEMINI_API_KEY:
+        print("  [AI] Using Gemini API...")
         return call_gemini(prompt)
+    elif OPENAI_API_KEY:
+        print("  [AI] Using OpenAI API...")
+        return call_openai(prompt)
     else:
         print("  [WARN] No AI API key configured. Returning placeholder.")
         return {
             "summary": f"{project.get('name','')}，月收入{project.get('revenue','')}",
-            "insight": "AI解读功能需要配置API Key",
+            "insight": "AI解读功能需要配置 DEEPSEEK_API_KEY 或 GEMINI_API_KEY",
             "businessModel": "按使用付费",
             "chinaOpportunity": "请配置 API Key 启动完整分析",
             "productArch": "输入端 ➔ 处理端 ➔ 支付结算 ➔ 交付端",
             "businessLoop": "【引流】：自媒体内容曝光 ➔ 【产品】：极简页面 ➔ 【变现】：按次充值",
             "getStartedPath": [
                 "第一步：克隆基础 Web 前端模板，连接国内主流模型 API 调试提示词。",
-                "...第二步：设置微信或支付宝等免签收款通道，进行测试闭环。",
+                "第二步：设置微信或支付宝等免签收款通道，进行测试闭环。",
                 "第三步：在小红书、抖音制作解压或技巧类演示视频获取自然流量。"
             ],
             "replicabilityScore": 7,
@@ -187,22 +187,34 @@ def generate_chinese_analysis(project):
             "tags": ["待分析"]
         }
 
-def call_openai(prompt):
+def call_deepseek(prompt):
+    """调用 DeepSeek API (兼容 OpenAI 规范)"""
     try:
-        import openai
-        client = openai.OpenAI(api_key=OPENAI_API_KEY)
-        response = client.chat.completions.create(
-            model="gpt-4o-mini",
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.7,
-            response_format={"type": "json_object"}
-        )
-        return json.loads(response.choices[0].message.content)
+        url = "https://api.deepseek.com/chat/completions"
+        headers = {
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {DEEPSEEK_API_KEY}"
+        }
+        payload = {
+            "model": "deepseek-chat",
+            "messages": [
+                {"role": "system", "content": "You are a helpful business and tech analyst assistant. Respond strictly in valid JSON format."},
+                {"role": "user", "content": prompt}
+            ],
+            "response_format": {"type": "json_object"},
+            "temperature": 0.7
+        }
+        resp = requests.post(url, json=payload, headers=headers, timeout=45)
+        resp.raise_for_status()
+        data = resp.json()
+        content = data["choices"][0]["message"]["content"]
+        return json.loads(content)
     except Exception as e:
-        print(f"  [ERROR] OpenAI API error: {e}")
+        print(f"  [ERROR] DeepSeek API error: {e}")
         return {}
 
 def call_gemini(prompt):
+    """调用 Google Gemini API (免费)"""
     try:
         url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
         payload = {
@@ -218,9 +230,25 @@ def call_gemini(prompt):
         print(f"  [ERROR] Gemini API error: {e}")
         return {}
 
+def call_openai(prompt):
+    """调用 OpenAI API"""
+    try:
+        import openai
+        client = openai.OpenAI(api_key=OPENAI_API_KEY)
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.7,
+            response_format={"type": "json_object"}
+        )
+        return json.loads(response.choices[0].message.content)
+    except Exception as e:
+        print(f"  [ERROR] OpenAI API error: {e}")
+        return {}
+
 def run_pipeline():
     print(f"\n{'='*60}")
-    print(f"AI生意经 采集流水线 | {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')}")
+    print(f"AI生意经 采集与拆解流水线 | {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')}")
     print(f"{'='*60}\n")
 
     seen_ids = load_seen_ids()
@@ -283,7 +311,6 @@ def generate_content_drafts(projects):
     for p in projects:
         date_str = datetime.date.today().strftime("%Y%m%d")
 
-        # 微信公众号草稿 - 去掉 Starter Story 来源，聚焦产品与上手
         wechat_draft = f"""# 【AI生意经】{p.get('name', '')}：月入{p.get('revenue', '')}，国内可完美复制！
 
 > 日期：{p.get('updatedAt', '')} | 可复制指数：{p.get('replicabilityScore', '')}/10
@@ -329,7 +356,6 @@ def generate_content_drafts(projects):
         with open(wechat_file, "w", encoding="utf-8") as f:
             f.write(wechat_draft)
 
-        # 小红书图文草稿 - 精简化，突出产品架构与上手
         xhs_draft = f"""📊 月入{p.get('revenue', '')} | 普通人如何复制？
 
 【{p.get('name', '')}】商业拆解！
