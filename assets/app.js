@@ -689,14 +689,36 @@ function findBestMatches(query) {
   if (!ALL_PROJECTS || ALL_PROJECTS.length === 0) return [];
   const q = query.toLowerCase();
   
+  // Tokenize query by removing common stop words and splitting by punctuation
+  const stopWords = ['我想', '做', '一个', '什么', '推荐', '有适合', '如何', '怎么', '的', '了', '吗', '？', '，', '。', '想做', '工具', '生意', '项目', '快速', '如何冷启动', '冷启动', '个人', '适合', '开发'];
+  let cleanQuery = q;
+  stopWords.forEach(w => {
+    cleanQuery = cleanQuery.split(w).join(' ');
+  });
+  
+  const tokens = cleanQuery.split(/[\s,./?#@!%^&*()_+\-=\[\]{};':"\\|<>，。？、！；：]+/).filter(t => t.trim().length > 0);
+  
+  if (tokens.length === 0) {
+    tokens.push(q);
+  }
+
   // Scoring
   const scored = ALL_PROJECTS.map(p => {
     let score = 0;
-    if (p.name.toLowerCase().includes(q)) score += 10;
-    if (p.summary.toLowerCase().includes(q)) score += 5;
-    if (p.insight.toLowerCase().includes(q)) score += 3;
-    if (p.category.some(c => c.toLowerCase().includes(q))) score += 8;
-    if (p.tags.some(t => t.toLowerCase().includes(q))) score += 6;
+    
+    // Direct full-query matches
+    if (p.name.toLowerCase().includes(q)) score += 50;
+    if (p.summary.toLowerCase().includes(q)) score += 20;
+
+    // Token-based keyword matching
+    tokens.forEach(tok => {
+      if (p.name.toLowerCase().includes(tok)) score += 20;
+      if (p.summary.toLowerCase().includes(tok)) score += 10;
+      if (p.insight && p.insight.toLowerCase().includes(tok)) score += 5;
+      if (p.category && p.category.some(c => c.toLowerCase().includes(tok))) score += 15;
+      if (p.tags && p.tags.some(t => t.toLowerCase().includes(tok))) score += 12;
+    });
+
     return { project: p, score: score };
   });
 
