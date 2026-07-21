@@ -1,0 +1,126 @@
+[
+  {
+    "name": "Crm marketing attri...",
+    "revenue": "$100K/mo",
+    "startupInfo": "",
+    "url": "https://www.starterstory.com/data",
+    "id": "6ae8668638d0",
+    "scrapedAt": "2026-07-21T06:57:28.584690",
+    "revenueDetail": "Productivity apps making $10K+/mo",
+    "metaDesc": "Search, filter, and sort through our database of 2,933 case studies.",
+    "summary": "案例数据库付费搜索，满足创业者研究需求。",
+    "insight": "通过结构化案例数据库，降低用户搜索成本，满足快速获取成功模式的需求。",
+    "businessModel": "按月订阅，提供高级筛选、导出等功能，客户为创业者、投资者。",
+    "chinaOpportunity": "国内创业者同样需要成功案例参考，可本地化建立中文案例库，整合本土企业。",
+    "productArch": "用户搜索 ➔ 数据库筛选 ➔ 订阅付费 ➔ 导出报告",
+    "businessLoop": "【引流】：SEO+社交媒体内容营销 ➔ 【产品】：案例数据库搜索 ➔ 【变现】：订阅付费",
+    "getStartedPath": [
+      "第一步：收集100个本土创业案例，结构化数据（行业、模式、营收等）。",
+      "第二步：搭建简易搜索网站，实现按关键词、行业筛选。",
+      "第三步：设置月度订阅制（如9.9元/月），通过内容营销获取种子用户。"
+    ],
+    "replicabilityScore": 8,
+    "difficulty": "低",
+    "tags": [
+      "创业案例",
+      "数据库",
+      "订阅模式",
+      "信息整合"
+    ],
+    "updatedAt": "2026-07-21",
+    "featured": false
+  },
+  {
+    "name": "Data import tool fo...",
+    "revenue": "$20K/mo",
+    "startupInfo": "",
+    "url": "https://www.starterstory.com/data",
+    "id": "0e3bea798045",
+    "scrapedAt": "2026-07-21T06:57:28.584820",
+    "revenueDetail": "Design tools making $10K+/mo",
+    "metaDesc": "Search, filter, and sort through our database of 2,933 case studies.",
+    "summary": "基于2,933个案例的搜索筛选工具，月入2万美元。",
+    "insight": "成功在于精准解决创业者寻找案例的痛点，提供高效筛选和排序功能，降低信息检索成本。",
+    "businessModel": "订阅制收费，按月或年付费，客户为创业者、投资人和学生。",
+    "chinaOpportunity": "国内创业者同样需要案例库，可整合本土案例（如36氪、虎嗅），加入行业、融资轮次等筛选维度。",
+    "productArch": "前端搜索界面 ➔ 后端数据库查询 ➔ 筛选排序逻辑 ➔ 结果展示",
+    "businessLoop": "【引流】：SEO（长尾关键词如'创业案例 融资'） ➔ 【产品】：案例数据库搜索工具 ➔ 【变现】：免费试用后订阅付费",
+    "getStartedPath": [
+      "第一步：收集国内创业案例（如从公开报道、投资机构网站爬取），建立结构化数据库。",
+      "第二步：开发简单的搜索和筛选功能（可用Elasticsearch），支持关键词、行业、年份过滤。",
+      "第三步：部署网站，通过SEO和社交媒体推广，提供7天免费试用，引导付费订阅。"
+    ],
+    "replicabilityScore": 7,
+    "difficulty": "低",
+    "tags": [
+      "案例库",
+      "创业工具",
+      "订阅模式"
+    ],
+    "updatedAt": "2026-07-21",
+    "featured": false
+  },
+  {
+    "name": "Website building vi...",
+    "revenue": "$40K/mo",
+    "startupInfo": "",
+    "url": "https://www.starterstory.com/data",
+    "id": "4445644e3dc3",
+    "scrapedAt": "2026-07-21T06:57:28.584929",
+    "revenueDetail": "AI tools making $10K+/mo",
+    "metaDesc": "Search, filter, and sort through our database of 2,933 case studies.",
+    "summary": "建立案例研究数据库，通过搜索过滤功能吸引用户付费访问。",
+    "insight": "成功关键在于聚合大量案例研究，提供高效筛选工具，满足用户快速获取商业灵感的需求，形成信息差价值。",
+    "businessModel": "通过网站订阅或单次付费提供案例库访问权限。定价$40K/月，主要客户为创业者、投资人、企业战略人员。",
+    "chinaOpportunity": "国内创业者同样需要案例研究，可本土化收集中国创业案例（如抖音、拼多多等），或翻译国外案例，提供中文搜索过滤。",
+    "productArch": "案例数据收集 ➔ 数据库存储 ➔ 前端搜索/过滤/排序界面 ➔ 用户付费订阅 ➔ 导出/分享功能",
+    "businessLoop": "【引流】：SEO优化、社交媒体分享免费案例摘要 ➔ 【产品】：网站提供搜索过滤案例库 ➔ 【变现】：付费订阅获取完整案例",
+    "getStartedPath": [
+      "第一步：确定案例来源（如公开创业报道、访谈），收集100个案例，结构化存储（标题、摘要、标签、完整内容）。",
+      "第二步：开发简单网站，实现搜索、过滤（按行业、年份、营收等）、排序功能，并设置付费墙，免费用户只能看摘要。",
+      "第三步：通过SEO（长尾关键词如“月入10万案例”）和知乎/小红书发布案例摘要引流，设置月费或单次付费解锁完整内容。"
+    ],
+    "replicabilityScore": 8,
+    "difficulty": "低",
+    "tags": [
+      "案例研究",
+      "数据库",
+      "付费订阅",
+      "创业灵感"
+    ],
+    "updatedAt": "2026-07-21",
+    "featured": false
+  },
+  {
+    "name": "Pdf bank statement ...",
+    "revenue": "$40K/mo",
+    "startupInfo": "",
+    "url": "https://www.starterstory.com/data",
+    "id": "2ee993a0510e",
+    "scrapedAt": "2026-07-21T06:57:28.585045",
+    "revenueDetail": "Apps making $20K+/mo",
+    "metaDesc": "Search, filter, and sort through our database of 2,933 case studies.",
+    "summary": "靠银行流水PDF搜索分析工具月入4万美元。",
+    "insight": "核心洞察是金融数据非结构化痛点，用户需要快速筛选、排序和分析大量银行流水PDF文件，而现有工具要么太贵要么太复杂。通过构建一个专注、易用的数据库工具，解决了特定人群的精准需求。",
+    "businessModel": "按月订阅制，定价约$29-$99/月。客户群体为财务分析师、小企业主、贷款经纪人等需要处理银行流水的人群。",
+    "chinaOpportunity": "国内有类似需求，尤其在中小企业财务、个人贷款申请、电商对账等场景。本土化需支持国内主流银行PDF格式，对接微信/支付宝流水，并考虑合规与数据隐私。",
+    "productArch": "用户上传PDF ➔ 前端解析模块 ➔ OCR/PDF文本提取 ➔ 结构化数据存储 ➔ 搜索/筛选/排序引擎 ➔ 结果展示与导出",
+    "businessLoop": "【引流】：SEO内容营销（“银行流水分析工具”）+ 金融社区推广 ➔ 【产品】：在线PDF分析工具 ➔ 【变现】：免费试用有限次数 ➔ 付费订阅解锁完整功能 ➔ 邮件跟进留存",
+    "getStartedPath": [
+      "第一步：用Python（PyMuPDF/PDFPlumber）或现成API（如Adobe PDF Extract）搭建PDF文本提取后端，支持主流银行流水格式。",
+      "第二步：开发前端上传界面，实现搜索、筛选、排序功能，使用React/Vue快速搭建MVP，数据库用PostgreSQL或MongoDB。",
+      "第三步：部署上线，通过SEO（长尾关键词如“银行流水PDF分析”）和金融类论坛（如知乎、雪球）获客，设置免费试用5次后引导订阅。"
+    ],
+    "replicabilityScore": 8,
+    "difficulty": "低",
+    "tags": [
+      "PDF工具",
+      "金融数据",
+      "SaaS",
+      "数据分析",
+      "银行流水"
+    ],
+    "updatedAt": "2026-07-21",
+    "featured": false
+  }
+]
