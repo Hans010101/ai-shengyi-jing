@@ -19,6 +19,10 @@ on:
         default: 'false'
         type: boolean
 
+concurrency:
+  group: bulk-import-group
+  cancel-in-progress: true
+
 jobs:
   bulk-import:
     runs-on: ubuntu-latest

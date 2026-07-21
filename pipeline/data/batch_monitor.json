@@ -1,0 +1,71 @@
+{
+  "batches": [
+    {
+      "batch_num": 2,
+      "run_id": 29810075947,
+      "completed_at": "2026-07-21T15:32:15.833137",
+      "processed": 100,
+      "ai_success": 100,
+      "ai_fallback": 0,
+      "db_total": 204,
+      "remaining": 3457,
+      "batches_remaining": 35,
+      "success": true,
+      "attempt": 1
+    },
+    {
+      "batch_num": 3,
+      "run_id": 29810845116,
+      "completed_at": "2026-07-21T15:44:56.908732",
+      "processed": 100,
+      "ai_success": 100,
+      "ai_fallback": 0,
+      "db_total": 304,
+      "remaining": 3357,
+      "batches_remaining": 34,
+      "success": true,
+      "attempt": 1
+    },
+    {
+      "batch_num": 4,
+      "run_id": 29811636616,
+      "completed_at": "2026-07-21T15:57:28.240704",
+      "processed": 100,
+      "ai_success": 100,
+      "ai_fallback": 0,
+      "db_total": 404,
+      "remaining": 3257,
+      "batches_remaining": 33,
+      "success": true,
+      "attempt": 1
+    },
+    {
+      "batch_num": 5,
+      "run_id": 29812423180,
+      "completed_at": "2026-07-21T16:10:08.361862",
+      "processed": 100,
+      "ai_success": 100,
+      "ai_fallback": 0,
+      "db_total": 504,
+      "remaining": 3157,
+      "batches_remaining": 32,
+      "success": true,
+      "attempt": 1
+    },
+    {
+      "batch_num": 6,
+      "run_id": 29813266652,
+      "completed_at": "2026-07-21T16:21:59.316842",
+      "processed": 100,
+      "ai_success": 100,
+      "ai_fallback": 0,
+      "db_total": 604,
+      "remaining": 3057,
+      "batches_remaining": 31,
+      "success": true,
+      "attempt": 1
+    }
+  ],
+  "total_processed": 604,
+  "started_at": "2026-07-21T15:20:14.565211"
+}
