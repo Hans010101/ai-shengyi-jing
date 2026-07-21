@@ -54,14 +54,15 @@ jobs:
             --batch-size ${{ inputs.batch_size }} \
             $REBUILD_FLAG
 
-      - name: Commit new data
+      - name: Commit and Push new data
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Bot"
+          git pull --rebase origin main || true
           git add data/ pipeline/data/ pipeline/drafts/
           git diff --quiet && git diff --staged --quiet \
             && echo "No new data to commit" \
-            || (git commit -m "📊 批次${{ inputs.batch_num }} 导入完成：$(date '+%Y-%m-%d %H:%M')" && git push)
+            || (git commit -m "📊 批次${{ inputs.batch_num }} 导入完成：$(date '+%Y-%m-%d %H:%M')" && git push origin main)
 
       - name: Print summary
         run: |
