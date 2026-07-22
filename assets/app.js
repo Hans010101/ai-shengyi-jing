@@ -597,10 +597,13 @@ function normalizeProject(p) {
   const category = p.tags && p.tags.length > 0 ? [p.niche || '其他'] : ['其他'];
   const tags = p.tags || [];
 
+  const cnTitle = getChineseName(p);
+  const enTitle = (p.name && !/[\u4e00-\u9fff]/.test(p.name)) ? p.name : (p.slug ? p.slug.replace(/-/g, ' ').toUpperCase() : 'AI PROJECT');
+
   return {
     id: p.id || Math.random().toString(36).substr(2, 9),
-    name: p.name || p.slug || '未命名项目',
-    nameEn: p.slug ? p.slug.replace(/-/g, ' ').toUpperCase() : 'AI PROJECT',
+    name: cnTitle,
+    nameEn: enTitle,
     category: category,
     tags: tags,
     revenue: rawRevenue,
