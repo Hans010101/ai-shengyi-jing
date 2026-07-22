@@ -34,57 +34,52 @@
 <!-- =========== HERO =========== -->
 <section class="hero">
   <div class="hero-bg-grid"></div>
+  <div class="hero-glow"></div>
   <div class="container">
-    <div class="hero-badge">
-      <span class="badge-dot"></span>
-      全球 <span id="hero-badge-total">3,650+</span> 真实盈利项目大盘 · 实时监控更新
-    </div>
-    <h1 class="hero-title">
-      发现全球最赚钱的<br>
-      <span class="gradient-text">AI 与数字生意模型</span>
-    </h1>
-    <p class="hero-subtitle">
-      精选全球 AI 前沿创业项目，月入万美元的真实案例，以<strong>中国创业者视角</strong>深度拆解系统架构与商业闭环，
-      帮你找到下一个可复制的生意机会。
-    </p>
-    <div class="hero-stats">
-      <div class="stat-item">
-        <span class="stat-number" id="statCuratedCount">15+</span>
-        <span class="stat-label">深度拆解案例</span>
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          全球 <span id="hero-badge-total">3,650+</span> 真实盈利项目大盘 · 实时监控更新
+        </div>
+        <h1 class="hero-title">
+          发现全球最赚钱的 <span class="gradient-text">AI 与数字生意</span>
+        </h1>
+        <p class="hero-subtitle">
+          精选全球 AI 前沿创业项目，以<strong>中国创业者视角</strong>深度拆解商业闭环，
+          找到你下一个可复制的生意机会。
+        </p>
+        <div class="hero-cta-row">
+          <a href="#all-projects" class="btn-hero-primary">🚀 浏览全量项目库</a>
+          <a href="#projects" class="btn-hero-ghost">🔥 查看精选案例</a>
+        </div>
       </div>
-      <div class="stat-divider"></div>
-      <div class="stat-item">
-        <span class="stat-number" id="hero-total-number" data-target="0">0</span>
-        <span class="stat-label">全球项目总库</span>
+      <div class="hero-stats-compact">
+        <div class="stat-item">
+          <span class="stat-number" id="statCuratedCount">15+</span>
+          <span class="stat-label">深度拆解案例</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number" id="hero-total-number" data-target="0">0</span>
+          <span class="stat-label">全球项目总库</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">$3B+</span>
+          <span class="stat-label">月总营收追踪</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">每日</span>
+          <span class="stat-label">自动化更新</span>
+        </div>
       </div>
-      <div class="stat-divider"></div>
-      <div class="stat-item">
-        <span class="stat-number">$3B+</span>
-        <span class="stat-label">月总营收追踪</span>
-      </div>
-      <div class="stat-divider"></div>
-      <div class="stat-item">
-        <span class="stat-number">每日</span>
-        <span class="stat-label">自动化更新</span>
-      </div>
-    </div>
-    <div class="hero-search">
-      <div class="search-box">
-        <span class="search-icon">🔍</span>
-        <input type="text" id="searchInput" placeholder="搜索全球项目，例如：AI工具、Micro-SaaS、PDF、知识付费..." autocomplete="off">
-      </div>
-      <div id="searchResultHint" class="search-result-hint" style="display:none;"></div>
-    </div>
-    <div class="hero-tags">
-      <span class="tag-label">热门方向：</span>
-      <button class="filter-tag active" data-filter="all">全部</button>
-      <button class="filter-tag" data-filter="AI工具">🤖 AI工具</button>
-      <button class="filter-tag" data-filter="Micro-SaaS">⚡ Micro SaaS</button>
-      <button class="filter-tag" data-filter="知识付费">🎓 知识付费</button>
-      <button class="filter-tag" data-filter="服务类">🤝 服务类</button>
-      <button class="filter-tag" data-filter="内容创业">✍️ 内容创业</button>
     </div>
   </div>
+  <!-- Hidden search input kept for JS compatibility -->
+  <input type="text" id="searchInput" style="display:none;" autocomplete="off">
+  <div id="searchResultHint" style="display:none;"></div>
 </section>
 
 <!-- =========== FEATURED =========== -->
