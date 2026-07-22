@@ -10,7 +10,7 @@ let ALL_PROJECTS = []; // Holds normalized live database items
 document.addEventListener('DOMContentLoaded', () => {
   // 1. Initial render of static featured items
   renderFeatured();
-  renderCategories();
+  renderCategoryPills();
   
   // 2. Fetch live full database asynchronously
   // Use GitHub raw CDN (CORS open) as primary source; fallback to relative path for local dev
@@ -112,13 +112,14 @@ function renderProjects() {
   filtered = sortProjects(filtered, currentSort);
   window.LAST_FILTERED_COUNT = filtered.length;
 
+  // Sync category pills active state
+  renderCategoryPills();
+
   // Toggle other sections when search is active
   if (currentSearch && currentSearch.trim().length > 0) {
     if (projectsSection) projectsSection.style.display = 'none';
-    if (categoriesSection) categoriesSection.style.display = 'none';
   } else {
     if (projectsSection) projectsSection.style.display = 'block';
-    if (categoriesSection) categoriesSection.style.display = 'block';
   }
 
   if (filtered.length === 0) {
@@ -272,26 +273,45 @@ function createProjectCard(p, featured) {
   `;
 }
 
-// =========== CATEGORIES ===========
-function renderCategories() {
-  const grid = document.getElementById('categoriesGrid');
-  grid.innerHTML = CATEGORIES.map(c => `
-    <div class="category-card fade-in" onclick="filterByCategory('${c.name}')">
-      <div class="category-icon">${c.icon}</div>
-      <div class="category-name">${c.name}</div>
-      <div class="category-count">${c.count}+ 案例</div>
-    </div>
-  `).join('');
-}
+// =========== DB CATEGORY PILLS ===========
+function renderCategoryPills() {
+  const bar = document.getElementById('dbCategoryBar');
+  if (!bar) return;
 
-function filterByCategory(name) {
-  currentFilter = name;
-  currentSearch = '';
-  currentPage = 1;
-  document.getElementById('searchInput').value = '';
-  document.querySelectorAll('.filter-tag').forEach(t => t.classList.remove('active'));
-  renderProjects();
-  document.getElementById('all-projects').scrollIntoView({ behavior: 'smooth' });
+  const items = [
+    { name: 'all', label: '✨ 全部', icon: '' },
+    ...CATEGORIES.map(c => ({ name: c.name, label: `${c.icon} ${c.name}` }))
+  ];
+
+  bar.innerHTML = items.map(c => `
+    <button class="db-category-pill ${currentFilter === c.name ? 'active' : ''}" data-filter="${c.name}">
+      ${c.label}
+    </button>
+  `).join('');
+
+  bar.querySelectorAll('.db-category-pill').forEach(btn => {
+    btn.addEventListener('click', () => {
+      bar.querySelectorAll('.db-category-pill').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentFilter = btn.dataset.filter;
+      currentSearch = '';
+      currentPage = 1;
+
+      const searchInput = document.getElementById('searchInput');
+      if (searchInput) searchInput.value = '';
+      if (document.getElementById('searchResultHint')) {
+        document.getElementById('searchResultHint').style.display = 'none';
+      }
+
+      // Sync hero tags active state if present
+      document.querySelectorAll('.filter-tag').forEach(t => {
+        if (t.dataset.filter === currentFilter) t.classList.add('active');
+        else t.classList.remove('active');
+      });
+
+      renderProjects();
+    });
+  });
 }
 
 // =========== SEARCH ===========
