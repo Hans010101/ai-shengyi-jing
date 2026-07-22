@@ -83,6 +83,9 @@ function renderFeatured() {
 function renderProjects() {
   const grid = document.getElementById('projectsGrid');
   const empty = document.getElementById('emptyState');
+  
+  const projectsSection = document.getElementById('projects');
+  const categoriesSection = document.getElementById('categories');
 
   if (!ALL_PROJECTS || ALL_PROJECTS.length === 0) {
     grid.innerHTML = '';
@@ -104,6 +107,15 @@ function renderProjects() {
 
   // Sort
   filtered = sortProjects(filtered, currentSort);
+
+  // Toggle other sections when search is active
+  if (currentSearch && currentSearch.trim().length > 0) {
+    if (projectsSection) projectsSection.style.display = 'none';
+    if (categoriesSection) categoriesSection.style.display = 'none';
+  } else {
+    if (projectsSection) projectsSection.style.display = 'block';
+    if (categoriesSection) categoriesSection.style.display = 'block';
+  }
 
   if (filtered.length === 0) {
     grid.innerHTML = '';
@@ -205,7 +217,7 @@ function filterByCategory(name) {
   document.getElementById('searchInput').value = '';
   document.querySelectorAll('.filter-tag').forEach(t => t.classList.remove('active'));
   renderProjects();
-  document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });
+  document.getElementById('all-projects').scrollIntoView({ behavior: 'smooth' });
 }
 
 // =========== SEARCH ===========
@@ -237,20 +249,21 @@ function setupSearch() {
         if (hint) {
           hint.style.display = 'block';
           if (count > 0) {
-            hint.innerHTML = `🎯 找到 <strong>${count}</strong> 个与 "<strong>${currentSearch}</strong>" 相关的项目 ↓`;
+            hint.innerHTML = `🎯 找到 <strong>${count}</strong> 个与 "<strong>${currentSearch}</strong>" 相关的项目 (点击直达结果) ↓`;
             hint.style.color = '#e67e22';
+            hint.style.cursor = 'pointer';
+            hint.onclick = () => {
+              const projectsSection = document.getElementById('all-projects');
+              if (projectsSection) {
+                projectsSection.scrollIntoView({ behavior: 'smooth' });
+              }
+            };
           } else {
             hint.innerHTML = `😔 没有找到与 "<strong>${currentSearch}</strong>" 匹配的项目，试试其他关键词？`;
             hint.style.color = '#999';
+            hint.style.cursor = 'default';
+            hint.onclick = null;
           }
-        }
-        
-        // Auto-scroll to results section
-        const projectsSection = document.getElementById('all-projects');
-        if (projectsSection && count > 0) {
-          setTimeout(() => {
-            projectsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-          }, 100);
         }
       } else {
         if (hint) hint.style.display = 'none';
@@ -712,6 +725,26 @@ window.sendSuggestion = function(text) {
   }
 };
 
+function getChineseName(p) {
+  if (!p) return '';
+  // Curated project name check: if name contains Chinese characters, return it
+  if (p.name && /[\u4e00-\u9fff]/.test(p.name)) {
+    return p.name;
+  }
+  // Extract clean Chinese name from summary
+  if (p.summary) {
+    const parts = p.summary.split(/[，；。：,;.:]/);
+    if (parts[0] && parts[0].trim().length > 0) {
+      let shortName = parts[0].trim();
+      if (shortName.length > 20) {
+        shortName = shortName.substring(0, 20) + '...';
+      }
+      return shortName;
+    }
+  }
+  return p.nameEn || p.name || '出海项目';
+}
+
 function appendMessage(text, className, matches = []) {
   const messagesWrap = document.getElementById('panelMessages');
   const msg = document.createElement('div');
@@ -728,7 +761,7 @@ function appendMessage(text, className, matches = []) {
     matches.forEach(p => {
       html += `
         <a class="chat-project-link" href="javascript:void(0);" onclick="openModal('${p.id}')">
-          ${p.heroEmoji} 【${p.category[0]}】${p.name} · 月入 ${p.revenueDisplay}
+          ${p.heroEmoji} 【${p.category[0]}】${getChineseName(p)} · 月入 ${p.revenueDisplay}
         </a>
       `;
     });
@@ -793,7 +826,12 @@ function generateAdvisorResponse(query, matches) {
   }
 
   const p1 = matches[0];
-  let reply = `🧠 **商业顾问分析报告：**\n根据您咨询的创意，为您精准匹配到本站最成功的出海案例 **${p1.name}**（月营收达 **${p1.revenueDisplay}**）。\n\n`;
+  const cnName = getChineseName(p1);
+  const displayTitle = cnName !== p1.nameEn && cnName !== p1.name
+    ? `${cnName} (${p1.nameEn || p1.name})`
+    : cnName;
+
+  let reply = `🧠 **商业顾问分析报告：**\n根据您咨询的创意，为您精准匹配到本站最成功的出海案例 **${displayTitle}**（月营收达 **${p1.revenueDisplay}**）。\n\n`;
   reply += `💡 **核心商业逻辑**：\n该项目成功的关键在于 **${p1.summary}**。它以极低的团队成本（团队通常仅有 1 人），通过精细的流量获客，实现了超高利润率。\n\n`;
   reply += `🇨🇳 **中国本土落地冷启动方案**：\n`;
   reply += `1. **系统克隆**：国内开发者可以完全复刻其系统架构。国内可直接调用 DeepSeek API 作为模型底座，接口成本可降低 90% 以上。\n`;
