@@ -1,7 +1,9 @@
 // =========== STATE ===========
 let currentFilter = 'all';
 let currentSearch = '';
-let currentSort = 'revenue-desc';
+let currentSort = 'date-desc';
+let currentPage = 1;
+const ITEMS_PER_PAGE = 9;
 let ALL_PROJECTS = []; // Holds normalized live database items
 
 // =========== INIT ===========
@@ -90,6 +92,7 @@ function renderProjects() {
   if (!ALL_PROJECTS || ALL_PROJECTS.length === 0) {
     grid.innerHTML = '';
     empty.style.display = 'block';
+    renderPagination(0, 1);
     return;
   }
 
@@ -107,6 +110,7 @@ function renderProjects() {
 
   // Sort
   filtered = sortProjects(filtered, currentSort);
+  window.LAST_FILTERED_COUNT = filtered.length;
 
   // Toggle other sections when search is active
   if (currentSearch && currentSearch.trim().length > 0) {
@@ -120,18 +124,25 @@ function renderProjects() {
   if (filtered.length === 0) {
     grid.innerHTML = '';
     empty.style.display = 'block';
+    renderPagination(0, 1);
   } else {
     empty.style.display = 'none';
     
-    // Performance optimization: Render maximum of 100 items at a time to prevent DOM lag
-    const limit = 100;
-    const toRender = filtered.slice(0, limit);
+    // Pagination (3x3 = 9 items per page)
+    const totalPages = Math.ceil(filtered.length / ITEMS_PER_PAGE) || 1;
+    if (currentPage > totalPages) currentPage = totalPages;
+    if (currentPage < 1) currentPage = 1;
+
+    const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+    const pageItems = filtered.slice(startIndex, startIndex + ITEMS_PER_PAGE);
     
-    grid.innerHTML = toRender.map(p => createProjectCard(p, false)).join('');
+    grid.innerHTML = pageItems.map(p => createProjectCard(p, false)).join('');
     grid.querySelectorAll('.project-card').forEach(card => {
       card.addEventListener('click', () => openModal(card.dataset.id));
     });
     
+    renderPagination(filtered.length, totalPages);
+
     // Smooth micro-animation entrance
     setTimeout(() => {
       grid.querySelectorAll('.project-card').forEach((card, i) => {
@@ -141,9 +152,71 @@ function renderProjects() {
   }
 }
 
+function renderPagination(totalItems, totalPages) {
+  const wrapper = document.getElementById('paginationWrapper');
+  if (!wrapper) return;
+
+  if (totalItems === 0 || totalPages <= 1) {
+    wrapper.style.display = 'none';
+    wrapper.innerHTML = '';
+    return;
+  }
+
+  wrapper.style.display = 'flex';
+
+  let pageNumsHtml = '';
+  const maxButtons = 5;
+  let startPage = Math.max(1, currentPage - 2);
+  let endPage = Math.min(totalPages, startPage + maxButtons - 1);
+  if (endPage - startPage + 1 < maxButtons) {
+    startPage = Math.max(1, endPage - maxButtons + 1);
+  }
+
+  if (startPage > 1) {
+    pageNumsHtml += `<button class="page-num" onclick="goToPage(1)">1</button>`;
+    if (startPage > 2) pageNumsHtml += `<span class="page-ellipsis">...</span>`;
+  }
+
+  for (let i = startPage; i <= endPage; i++) {
+    pageNumsHtml += `<button class="page-num ${i === currentPage ? 'active' : ''}" onclick="goToPage(${i})">${i}</button>`;
+  }
+
+  if (endPage < totalPages) {
+    if (endPage < totalPages - 1) pageNumsHtml += `<span class="page-ellipsis">...</span>`;
+    pageNumsHtml += `<button class="page-num" onclick="goToPage(${totalPages})">${totalPages}</button>`;
+  }
+
+  const prevDisabled = currentPage === 1 ? 'disabled' : '';
+  const nextDisabled = currentPage === totalPages ? 'disabled' : '';
+
+  wrapper.innerHTML = `
+    <div class="pagination-info">
+      共 <strong>${totalItems.toLocaleString('zh-CN')}</strong> 个项目 · 第 ${currentPage} / ${totalPages} 页
+    </div>
+    <div class="pagination-buttons">
+      <button class="page-nav-btn" ${prevDisabled} onclick="goToPage(${currentPage - 1})">← 上一页</button>
+      ${pageNumsHtml}
+      <button class="page-nav-btn" ${nextDisabled} onclick="goToPage(${currentPage + 1})">下一页 →</button>
+    </div>
+  `;
+}
+
+window.goToPage = function(page) {
+  if (page < 1) return;
+  const totalPages = Math.ceil((window.LAST_FILTERED_COUNT || ALL_PROJECTS.length) / ITEMS_PER_PAGE) || 1;
+  if (page > totalPages) return;
+  currentPage = page;
+  renderProjects();
+  const projectsSection = document.getElementById('all-projects');
+  if (projectsSection) {
+    projectsSection.scrollIntoView({ behavior: 'smooth' });
+  }
+};
+
 function sortProjects(projects, sort) {
   return [...projects].sort((a, b) => {
     switch (sort) {
+      case 'date-desc': return (b.dateVal || 0) - (a.dateVal || 0);
       case 'revenue-desc': return b.revenue - a.revenue;
       case 'revenue-asc': return a.revenue - b.revenue;
       case 'startup-asc': return a.startupCost - b.startupCost;
@@ -214,6 +287,7 @@ function renderCategories() {
 function filterByCategory(name) {
   currentFilter = name;
   currentSearch = '';
+  currentPage = 1;
   document.getElementById('searchInput').value = '';
   document.querySelectorAll('.filter-tag').forEach(t => t.classList.remove('active'));
   renderProjects();
@@ -230,6 +304,7 @@ function setupSearch() {
     timer = setTimeout(() => {
       currentSearch = input.value.trim();
       currentFilter = 'all';
+      currentPage = 1;
       document.querySelectorAll('.filter-tag').forEach(t => t.classList.remove('active'));
       const allTag = document.querySelector('.filter-tag[data-filter="all"]');
       if (allTag) allTag.classList.add('active');
@@ -280,6 +355,7 @@ function setupFilters() {
       btn.classList.add('active');
       currentFilter = btn.dataset.filter;
       currentSearch = '';
+      currentPage = 1;
       document.getElementById('searchInput').value = '';
       renderProjects();
     });
@@ -290,6 +366,7 @@ function setupFilters() {
 function setupSort() {
   document.getElementById('sortSelect').addEventListener('change', e => {
     currentSort = e.target.value;
+    currentPage = 1;
     renderProjects();
   });
 }
@@ -600,10 +677,15 @@ function normalizeProject(p) {
   const cnTitle = getChineseName(p);
   const enTitle = (p.name && !/[\u4e00-\u9fff]/.test(p.name)) ? p.name : (p.slug ? p.slug.replace(/-/g, ' ').toUpperCase() : 'AI PROJECT');
 
+  let dateVal = 0;
+  if (p.scrapedAt) dateVal = new Date(p.scrapedAt).getTime() || 0;
+  else if (p.updatedAt) dateVal = new Date(p.updatedAt).getTime() || 0;
+
   return {
     id: p.id || Math.random().toString(36).substr(2, 9),
     name: cnTitle,
     nameEn: enTitle,
+    dateVal: dateVal,
     category: category,
     tags: tags,
     revenue: rawRevenue,

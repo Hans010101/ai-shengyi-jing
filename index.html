@@ -108,17 +108,19 @@
       <h2 class="section-title">📊 全量项目数据库 (<span id="totalDbCount">3,650个</span>)</h2>
       <div class="sort-controls">
         <select id="sortSelect" class="sort-select">
-          <option value="revenue-desc">按月收入从高到低</option>
-          <option value="revenue-asc">按月收入从低到高</option>
-          <option value="startup-asc">按启动成本从低到高</option>
-          <option value="days-asc">按上线速度最快</option>
-          <option value="score-desc">按可复制指数</option>
+          <option value="date-desc" selected>📅 按最新更新时间</option>
+          <option value="revenue-desc">💰 按月收入从高到低</option>
+          <option value="revenue-asc">📉 按月收入从低到高</option>
+          <option value="startup-asc">🚀 按启动成本从低到高</option>
+          <option value="days-asc">⚡ 按上线速度最快</option>
+          <option value="score-desc">⭐ 按可复制指数</option>
         </select>
       </div>
     </div>
     <div class="projects-grid" id="projectsGrid">
       <!-- JS inject -->
     </div>
+    <div class="pagination-wrapper" id="paginationWrapper"></div>
     <div class="empty-state" id="emptyState" style="display:none;">
       <p>😅 暂无匹配项目，换个关键词试试</p>
     </div>
