@@ -211,15 +211,50 @@ function filterByCategory(name) {
 // =========== SEARCH ===========
 function setupSearch() {
   const input = document.getElementById('searchInput');
+  const hint = document.getElementById('searchResultHint');
   let timer;
   input.addEventListener('input', () => {
     clearTimeout(timer);
     timer = setTimeout(() => {
-      currentSearch = input.value;
+      currentSearch = input.value.trim();
       currentFilter = 'all';
       document.querySelectorAll('.filter-tag').forEach(t => t.classList.remove('active'));
-      document.querySelector('.filter-tag[data-filter="all"]').classList.add('active');
+      const allTag = document.querySelector('.filter-tag[data-filter="all"]');
+      if (allTag) allTag.classList.add('active');
       renderProjects();
+      
+      // Show search result feedback
+      if (currentSearch) {
+        const q = currentSearch.toLowerCase();
+        const count = ALL_PROJECTS.filter(p => {
+          return p.name.toLowerCase().includes(q) || 
+                 (p.nameEn && p.nameEn.toLowerCase().includes(q)) ||
+                 p.summary.toLowerCase().includes(q) || 
+                 p.category.some(c => c.toLowerCase().includes(q)) || 
+                 p.tags.some(t => t.toLowerCase().includes(q));
+        }).length;
+        
+        if (hint) {
+          hint.style.display = 'block';
+          if (count > 0) {
+            hint.innerHTML = `🎯 找到 <strong>${count}</strong> 个与 "<strong>${currentSearch}</strong>" 相关的项目 ↓`;
+            hint.style.color = '#e67e22';
+          } else {
+            hint.innerHTML = `😔 没有找到与 "<strong>${currentSearch}</strong>" 匹配的项目，试试其他关键词？`;
+            hint.style.color = '#999';
+          }
+        }
+        
+        // Auto-scroll to results section
+        const projectsSection = document.getElementById('all-projects');
+        if (projectsSection && count > 0) {
+          setTimeout(() => {
+            projectsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }, 100);
+        }
+      } else {
+        if (hint) hint.style.display = 'none';
+      }
     }, 250);
   });
 }

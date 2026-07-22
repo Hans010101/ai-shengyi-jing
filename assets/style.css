@@ -295,6 +295,19 @@ body {
 
 .search-box input::placeholder { color: var(--text-muted); }
 
+.search-result-hint {
+  text-align: center;
+  padding: 10px 16px;
+  font-size: 14px;
+  color: var(--primary);
+  background: rgba(230, 126, 34, 0.06);
+  border-radius: 12px;
+  margin-top: 10px;
+  animation: fadeInUp 0.3s ease;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
 .hero-tags {
   display: flex;
   align-items: center;
