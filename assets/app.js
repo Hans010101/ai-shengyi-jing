@@ -752,8 +752,10 @@ function appendMessage(text, className, matches = []) {
   msg.id = id;
   msg.className = `msg ${className}`;
   
-  // Format line breaks
-  let html = text.replace(/\n/g, '<br>');
+  // Format markdown bold (**text**) and line breaks
+  let html = text
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\n/g, '<br>');
   
   // If we have recommended projects, append clickable action buttons
   if (matches && matches.length > 0) {
