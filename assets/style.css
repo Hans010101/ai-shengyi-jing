@@ -2092,8 +2092,9 @@ body {
 .member-modal {
   background: #ffffff;
   width: 100%;
-  max-width: 900px;
-  height: 600px;
+  max-width: 980px;
+  height: 660px;
+  max-height: 88vh;
   border-radius: 24px;
   display: flex;
   overflow: hidden;

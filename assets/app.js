@@ -1019,7 +1019,6 @@ function updateHeaderUserUI() {
   const loginBtn = document.getElementById('headerLoginBtn');
   const userNavGroup = document.getElementById('userNavGroup');
   const headerUserName = document.getElementById('headerUserName');
-  const menuAdminDash = document.getElementById('menuAdminDashboard');
   const adminNavBtn = document.getElementById('adminDashboardNavBtn');
 
   if (CURRENT_USER) {
@@ -1027,8 +1026,8 @@ function updateHeaderUserUI() {
     if (userNavGroup) userNavGroup.style.display = 'inline-block';
     if (headerUserName) headerUserName.innerText = CURRENT_USER.nickname || CURRENT_USER.email || CURRENT_USER.phone || '会员';
     
-    const isAdmin = CURRENT_USER.role === 'admin';
-    if (menuAdminDash) menuAdminDash.style.display = isAdmin ? 'flex' : 'none';
+    const isAdmin = (CURRENT_USER.email && CURRENT_USER.email.toLowerCase() === 'hans.pan007@gmail.com') || CURRENT_USER.role === 'admin';
+    if (isAdmin) CURRENT_USER.role = 'admin';
     if (adminNavBtn) adminNavBtn.style.display = isAdmin ? 'block' : 'none';
   } else {
     if (loginBtn) loginBtn.style.display = 'inline-flex';
@@ -1052,6 +1051,11 @@ function hideAuthModal() {
 }
 
 function loginAsUser(userObj) {
+  if (userObj.email && userObj.email.toLowerCase() === 'hans.pan007@gmail.com') {
+    userObj.role = 'admin';
+    userObj.nickname = '站长 (Hans)';
+  }
+
   CURRENT_USER = userObj;
   localStorage.setItem('ai_shengyi_user', JSON.stringify(CURRENT_USER));
   
@@ -1252,6 +1256,11 @@ function setupMemberEventListeners() {
 
   function openMemberModalTab(tabName) {
     if (memberOverlay) memberOverlay.style.display = 'flex';
+    
+    const isAdmin = CURRENT_USER && ((CURRENT_USER.email && CURRENT_USER.email.toLowerCase() === 'hans.pan007@gmail.com') || CURRENT_USER.role === 'admin');
+    const adminNavBtn = document.getElementById('adminDashboardNavBtn');
+    if (adminNavBtn) adminNavBtn.style.display = isAdmin ? 'block' : 'none';
+
     document.querySelectorAll('.member-nav-btn').forEach(btn => {
       if (btn.dataset.tab === tabName) btn.classList.add('active');
       else btn.classList.remove('active');
@@ -1264,6 +1273,7 @@ function setupMemberEventListeners() {
     if (tabName === 'favorites') renderMemberFavorites();
     if (tabName === 'history') renderMemberHistory();
     if (tabName === 'profile') renderMemberProfileInfo();
+    if (tabName === 'admin') renderAdminDashboard();
   }
 
   if (menuMemberCenter) menuMemberCenter.addEventListener('click', () => openMemberModalTab('favorites'));
@@ -1277,12 +1287,7 @@ function setupMemberEventListeners() {
   document.querySelectorAll('.member-nav-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       const tab = btn.dataset.tab;
-      if (tab === 'admin') {
-        if (memberOverlay) memberOverlay.style.display = 'none';
-        showAdminDashboard();
-      } else {
-        openMemberModalTab(tab);
-      }
+      openMemberModalTab(tab);
     });
   });
 
@@ -1290,11 +1295,20 @@ function setupMemberEventListeners() {
   if (roleToggleBtn) {
     roleToggleBtn.addEventListener('click', () => {
       if (!CURRENT_USER) return;
-      CURRENT_USER.role = CURRENT_USER.role === 'admin' ? 'member' : 'admin';
+      if (CURRENT_USER.role === 'admin') {
+        CURRENT_USER.role = 'member';
+        CURRENT_USER.email = 'user@domain.com';
+        CURRENT_USER.nickname = '普通会员';
+      } else {
+        CURRENT_USER.role = 'admin';
+        CURRENT_USER.email = 'hans.pan007@gmail.com';
+        CURRENT_USER.nickname = '站长 (Hans)';
+      }
       localStorage.setItem('ai_shengyi_user', JSON.stringify(CURRENT_USER));
       updateHeaderUserUI();
       renderMemberProfileInfo();
-      alert(`已切换角色为: ${CURRENT_USER.role === 'admin' ? '👑 管理员 (已开启管理员后台入口)' : '💎 普通会员'}`);
+      openMemberModalTab('profile');
+      alert(`已切换账号为: ${CURRENT_USER.email} (${CURRENT_USER.role === 'admin' ? '👑 管理员 - 已启用⚙️系统管理功能' : '💎 普通会员'})`);
     });
   }
 }

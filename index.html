@@ -326,7 +326,7 @@
     <div class="auth-tab-content active" id="authTabEmail">
       <div class="input-group">
         <label>电子邮箱</label>
-        <input type="email" id="authEmailInput" placeholder="yourname@domain.com" autocomplete="off" />
+        <input type="email" id="authEmailInput" placeholder="hans.pan007@gmail.com (管理员)" autocomplete="off" />
       </div>
       <div class="input-group">
         <label>密码</label>
@@ -377,7 +377,7 @@
         <button class="member-nav-btn active" data-tab="favorites">⭐ 我的收藏</button>
         <button class="member-nav-btn" data-tab="history">🕒 浏览历史</button>
         <button class="member-nav-btn" data-tab="profile">👤 账号资料</button>
-        <button class="member-nav-btn admin-only" id="adminDashboardNavBtn" style="display:none;" data-tab="admin">👑 管理员后台</button>
+        <button class="member-nav-btn admin-only" id="adminDashboardNavBtn" style="display:none;" data-tab="admin">⚙️ 系统管理</button>
       </nav>
       <button class="btn-logout" id="memberLogoutBtn">🚪 退出登录</button>
     </div>
@@ -400,78 +400,67 @@
           <div class="profile-field"><span class="field-label">绑定账号：</span><span class="field-val" id="profAccount">user@domain.com</span></div>
           <div class="profile-field"><span class="field-label">注册时间：</span><span class="field-val" id="profJoinDate">2026-07-22</span></div>
           <div class="profile-field"><span class="field-label">AI 顾问权限：</span><span class="field-val status-green">✓ 已解锁无限次智囊分析对话</span></div>
-          <div class="profile-field"><span class="field-label">快捷角色切换 (演示)：</span>
-            <button class="btn-role-switch" id="btnToggleAdminRole">切换为管理员 / 普通会员</button>
+          <div class="profile-field"><span class="field-label">快捷角色切换 (测试)：</span>
+            <button class="btn-role-switch" id="btnToggleAdminRole">切换管理员 (hans.pan007@gmail.com) / 普通会员</button>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
+      <!-- System Management / Admin Tab -->
+      <div class="member-panel" id="memberPanelAdmin" style="display:none;">
+        <h3 class="panel-heading">⚙️ 系统管理 - 全站实时数据看板</h3>
+        <!-- Metric Cards Row -->
+        <div class="admin-metrics-row">
+          <div class="admin-metric-card">
+            <div class="metric-icon">👁️</div>
+            <div class="metric-data">
+              <span class="metric-num" id="adminTotalPv">0</span>
+              <span class="metric-title">全站页面总浏览量 (PV)</span>
+            </div>
+          </div>
+          <div class="admin-metric-card">
+            <div class="metric-icon">👤</div>
+            <div class="metric-data">
+              <span class="metric-num" id="adminTotalUv">0</span>
+              <span class="metric-title">独立访客人数 (UV)</span>
+            </div>
+          </div>
+          <div class="admin-metric-card">
+            <div class="metric-icon">💎</div>
+            <div class="metric-data">
+              <span class="metric-num" id="adminTotalMembers">0</span>
+              <span class="metric-title">注册会员总数</span>
+            </div>
+          </div>
+          <div class="admin-metric-card">
+            <div class="metric-icon">🤖</div>
+            <div class="metric-data">
+              <span class="metric-num" id="adminAdvisorChats">0</span>
+              <span class="metric-title">AI 商业顾问互动次数</span>
+            </div>
+          </div>
+        </div>
 
-<!-- =========== ADMIN DASHBOARD MODAL =========== -->
-<div class="admin-overlay" id="adminOverlay" style="display:none;">
-  <div class="admin-modal">
-    <div class="admin-header">
-      <div class="admin-title-group">
-        <span class="admin-badge">👑 站点管理员后台</span>
-        <h3>AI生意经 全站实时运行看板</h3>
-      </div>
-      <button class="modal-close" id="adminClose">✕</button>
-    </div>
-    <div class="admin-body">
-      <!-- Metric Cards Row -->
-      <div class="admin-metrics-row">
-        <div class="admin-metric-card">
-          <div class="metric-icon">👁️</div>
-          <div class="metric-data">
-            <span class="metric-num" id="adminTotalPv">0</span>
-            <span class="metric-title">全站页面总浏览量 (PV)</span>
+        <!-- Tables & Rankings -->
+        <div class="admin-grid-two" style="margin-top:20px;">
+          <div class="admin-card">
+            <h4>🔥 最受欢迎 / 收藏项目 Top 5</h4>
+            <div class="admin-rank-list" id="adminTopProjects"></div>
           </div>
-        </div>
-        <div class="admin-metric-card">
-          <div class="metric-icon">👤</div>
-          <div class="metric-data">
-            <span class="metric-num" id="adminTotalUv">0</span>
-            <span class="metric-title">独立访客人数 (UV)</span>
-          </div>
-        </div>
-        <div class="admin-metric-card">
-          <div class="metric-icon">💎</div>
-          <div class="metric-data">
-            <span class="metric-num" id="adminTotalMembers">0</span>
-            <span class="metric-title">注册会员总数</span>
-          </div>
-        </div>
-        <div class="admin-metric-card">
-          <div class="metric-icon">🤖</div>
-          <div class="metric-data">
-            <span class="metric-num" id="adminAdvisorChats">0</span>
-            <span class="metric-title">AI 商业顾问互动次数</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Tables & Rankings -->
-      <div class="admin-grid-two">
-        <div class="admin-card">
-          <h4>🔥 最受欢迎 / 收藏项目 Top 5</h4>
-          <div class="admin-rank-list" id="adminTopProjects"></div>
-        </div>
-        <div class="admin-card">
-          <h4>👥 已注册会员列表与活跃度</h4>
-          <div class="admin-user-table-wrap">
-            <table class="admin-table">
-              <thead>
-                <tr>
-                  <th>用户账号</th>
-                  <th>角色</th>
-                  <th>收藏项目</th>
-                  <th>注册时间</th>
-                </tr>
-              </thead>
-              <tbody id="adminUserTableBody"></tbody>
-            </table>
+          <div class="admin-card">
+            <h4>👥 已注册会员列表与活跃度</h4>
+            <div class="admin-user-table-wrap">
+              <table class="admin-table">
+                <thead>
+                  <tr>
+                    <th>用户账号</th>
+                    <th>角色</th>
+                    <th>收藏项目</th>
+                    <th>注册时间</th>
+                  </tr>
+                </thead>
+                <tbody id="adminUserTableBody"></tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
