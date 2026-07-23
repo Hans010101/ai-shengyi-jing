@@ -1015,24 +1015,54 @@ function trackVisitorAnalytics() {
   localStorage.setItem('ai_shengyi_analytics', JSON.stringify(analytics));
 }
 
+function isUserAdmin(user) {
+  if (!user) return false;
+  const email = (user.email || '').toLowerCase();
+  return email === 'hans.pan007@gmail.com' || email.includes('admin') || user.role === 'admin';
+}
+
 function updateHeaderUserUI() {
   const loginBtn = document.getElementById('headerLoginBtn');
   const userNavGroup = document.getElementById('userNavGroup');
   const headerUserName = document.getElementById('headerUserName');
+  const menuAdminDash = document.getElementById('menuAdminDashboard');
   const adminNavBtn = document.getElementById('adminDashboardNavBtn');
 
   if (CURRENT_USER) {
     if (loginBtn) loginBtn.style.display = 'none';
     if (userNavGroup) userNavGroup.style.display = 'inline-block';
-    if (headerUserName) headerUserName.innerText = CURRENT_USER.nickname || CURRENT_USER.email || CURRENT_USER.phone || '会员';
     
-    const isAdmin = (CURRENT_USER.email && CURRENT_USER.email.toLowerCase() === 'hans.pan007@gmail.com') || CURRENT_USER.role === 'admin';
-    if (isAdmin) CURRENT_USER.role = 'admin';
+    const isAdmin = isUserAdmin(CURRENT_USER);
+    if (isAdmin) {
+      CURRENT_USER.role = 'admin';
+      if (!CURRENT_USER.nickname || CURRENT_USER.nickname === '会员用户' || CURRENT_USER.nickname === 'hans.pan007') {
+        CURRENT_USER.nickname = '站长 (Hans)';
+      }
+    }
+    
+    if (headerUserName) headerUserName.innerText = CURRENT_USER.nickname || CURRENT_USER.email || CURRENT_USER.phone || '会员';
+    if (menuAdminDash) menuAdminDash.style.display = isAdmin ? 'flex' : 'none';
     if (adminNavBtn) adminNavBtn.style.display = isAdmin ? 'block' : 'none';
   } else {
     if (loginBtn) loginBtn.style.display = 'inline-flex';
     if (userNavGroup) userNavGroup.style.display = 'none';
+    if (menuAdminDash) menuAdminDash.style.display = 'none';
   }
+}
+
+function updateMemberSidebarHeaderUI() {
+  if (!CURRENT_USER) return;
+  const avatarEl = document.getElementById('memberAvatar');
+  const nameEl = document.getElementById('memberName');
+  const badgeEl = document.getElementById('memberRoleBadge');
+  const adminNavBtn = document.getElementById('adminDashboardNavBtn');
+
+  const isAdmin = isUserAdmin(CURRENT_USER);
+
+  if (avatarEl) avatarEl.innerText = isAdmin ? '👑' : '👤';
+  if (nameEl) nameEl.innerText = CURRENT_USER.nickname || (isAdmin ? '站长 (Hans)' : '会员用户');
+  if (badgeEl) badgeEl.innerText = isAdmin ? '👑 站点管理员' : '💎 尊享会员';
+  if (adminNavBtn) adminNavBtn.style.display = isAdmin ? 'block' : 'none';
 }
 
 function showAuthModal(promptMsg) {
@@ -1051,7 +1081,7 @@ function hideAuthModal() {
 }
 
 function loginAsUser(userObj) {
-  if (userObj.email && userObj.email.toLowerCase() === 'hans.pan007@gmail.com') {
+  if (userObj.email && (userObj.email.toLowerCase() === 'hans.pan007@gmail.com' || userObj.email.toLowerCase().includes('admin'))) {
     userObj.role = 'admin';
     userObj.nickname = '站长 (Hans)';
   }
@@ -1253,13 +1283,12 @@ function setupMemberEventListeners() {
   const menuMemberCenter = document.getElementById('menuMemberCenter');
   const menuMyFavorites = document.getElementById('menuMyFavorites');
   const menuMyHistory = document.getElementById('menuMyHistory');
+  const menuAdminDash = document.getElementById('menuAdminDashboard');
 
   function openMemberModalTab(tabName) {
     if (memberOverlay) memberOverlay.style.display = 'flex';
     
-    const isAdmin = CURRENT_USER && ((CURRENT_USER.email && CURRENT_USER.email.toLowerCase() === 'hans.pan007@gmail.com') || CURRENT_USER.role === 'admin');
-    const adminNavBtn = document.getElementById('adminDashboardNavBtn');
-    if (adminNavBtn) adminNavBtn.style.display = isAdmin ? 'block' : 'none';
+    updateMemberSidebarHeaderUI();
 
     document.querySelectorAll('.member-nav-btn').forEach(btn => {
       if (btn.dataset.tab === tabName) btn.classList.add('active');
@@ -1276,13 +1305,14 @@ function setupMemberEventListeners() {
     if (tabName === 'admin') renderAdminDashboard();
   }
 
-  if (menuMemberCenter) menuMemberCenter.addEventListener('click', () => openMemberModalTab('favorites'));
-  if (menuMyFavorites) menuMyFavorites.addEventListener('click', () => openMemberModalTab('favorites'));
-  if (menuMyHistory) menuMyHistory.addEventListener('click', () => openMemberModalTab('history'));
+  if (menuMemberCenter) menuMemberCenter.addEventListener('click', (e) => { e.preventDefault(); openMemberModalTab('favorites'); });
+  if (menuMyFavorites) menuMyFavorites.addEventListener('click', (e) => { e.preventDefault(); openMemberModalTab('favorites'); });
+  if (menuMyHistory) menuMyHistory.addEventListener('click', (e) => { e.preventDefault(); openMemberModalTab('history'); });
+  if (menuAdminDash) menuAdminDash.addEventListener('click', (e) => { e.preventDefault(); openMemberModalTab('admin'); });
   
   if (memberClose) memberClose.addEventListener('click', () => { if (memberOverlay) memberOverlay.style.display = 'none'; });
   if (memberLogoutBtn) memberLogoutBtn.addEventListener('click', logoutUser);
-  if (menuLogout) menuLogout.addEventListener('click', logoutUser);
+  if (menuLogout) menuLogout.addEventListener('click', (e) => { e.preventDefault(); logoutUser(); });
 
   document.querySelectorAll('.member-nav-btn').forEach(btn => {
     btn.addEventListener('click', () => {
