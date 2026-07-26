@@ -1,106 +1,88 @@
 # 💡 AI生意经
 
-> 发现全球最赚钱的生意模型，以中国创业者视角深度解读
+发现全球可验证的盈利项目，以中国创业者视角拆解产品架构、商业闭环和落地路径。
 
-## 🚀 项目概述
+- 生产站点：<https://ai-shengyi-jing.pages.dev>
+- 托管平台：Cloudflare Pages
+- 生产分支：`main`
+- 当前数据库：3,646 个已完成中文商业拆解的唯一项目
+- 更新频率：每天 09:00（Asia/Shanghai）
 
-**AI生意经** 是一个以 Starter Story (starterstory.com) 为数据源，向中国创业者输出全球热门盈利项目解读的内容平台。
+## 项目组成
 
-## 📁 项目结构
-
-```
-ai-shengyi-jing/
-├── index.html              # 主网站
-├── assets/
-│   ├── style.css           # 全局样式（暗色主题）
-│   └── app.js              # 前端逻辑（搜索/筛选/弹窗）
+```text
+.
+├── index.html                       # 单页站点
+├── assets/                          # 前端脚本与样式
 ├── data/
-│   └── projects.js         # 精选项目数据库（15个案例）
+│   ├── projects.js                  # 手工精选案例
+│   └── projects_live.json           # 全量项目数据库
 ├── pipeline/
-│   └── scraper.py          # 自动化采集流水线
-└── README.md
+│   ├── scraper.py                   # 每日增量采集
+│   ├── bulk_scraper.py              # 全量批次采集
+│   ├── project_store.py             # 数据去重与合并规则
+│   └── data/seen_ids.json           # 已处理项目索引
+├── scripts/
+│   ├── build_site.py                # 生成最小公开发布目录
+│   ├── validate_data.py             # 部署前数据校验
+│   └── repair_project_data.py       # 去重并同步已处理索引
+├── tests/                            # 维护回归测试
+└── .github/workflows/               # CI、采集与部署工作流
 ```
 
-## ✨ 功能特性
+`pipeline/`、内容草稿、GitHub 工作流和本地缓存不会发布到生产站点。Cloudflare 只接收 `dist/` 中的 5 个公开文件。
 
-### 网站端
-- 🔍 实时搜索 + 多维度筛选（类别/排序）
-- 📊 项目卡片展示（营收/启动成本/可复制指数）
-- 🪟 详情弹窗（AI解读 + 中国机会分析 + 技术栈）
-- 📱 响应式设计，手机端完美适配
-- ⚡ 流畅动画与微交互
+## 本地运行
 
-### 自动化流水线
-- 🕷️ 每日采集 Starter Story 新项目
-- 🤖 AI自动生成中文解读（支持 GPT-4o / Gemini）
-- 📝 自动输出微信公众号草稿 + 小红书图文草稿
-- 🗄️ 去重存储，增量更新
+要求 Python 3.11+；站点本身不需要 Node.js 构建。
 
-## 🏃 快速开始
-
-### 运行网站
 ```bash
-# 直接用浏览器打开
-open index.html
-
-# 或启动本地服务器
-python3 -m http.server 8080
-# 访问 http://localhost:8080
+python3 scripts/validate_data.py data/projects_live.json
+python3 -m unittest discover -s tests -v
+python3 scripts/build_site.py --output dist
+python3 -m http.server 8080 --directory dist
 ```
 
-### 运行采集流水线
-```bash
-cd pipeline
+然后访问 <http://localhost:8080>。
 
-# 安装依赖
+## 数据维护
+
+每日增量采集：
+
+```bash
 pip install requests beautifulsoup4 openai
-
-# 配置 API Key（二选一）
-export OPENAI_API_KEY="sk-..."
-export GEMINI_API_KEY="AIza..."
-
-# 运行
-python3 scraper.py
+export DEEPSEEK_API_KEY="..."
+python3 pipeline/scraper.py
 ```
 
-### 设置定时任务（每日9点运行）
+数据异常时可执行：
+
 ```bash
-crontab -e
-# 添加：
-0 9 * * * cd /path/to/ai-shengyi-jing/pipeline && python3 scraper.py >> logs/daily.log 2>&1
+python3 scripts/repair_project_data.py
+python3 scripts/validate_data.py data/projects_live.json
 ```
 
-## 📊 数据说明
+合并规则是“新记录优先、每个项目 ID 只保留一条”。采集器会同时参考数据库和 `seen_ids.json`，避免状态文件滞后导致重复写入。每条公开项目必须包含中文项目名、项目介绍、商业模式、产品架构、商业闭环和三步上手路径。
 
-目前预置 **15 个精选案例**，涵盖：
-- AI工具 / Micro-SaaS / 无代码工具
-- 内容创业 / 知识付费 / Newsletter
-- 本地服务 / 效率工具 / B2B SaaS
+## 自动化流程
 
-每个案例包含：
-- 月营收（MRR）、启动成本、首次盈利时间
-- AI生意经中文解读（创意亮点 + 商业模式）
-- 🇨🇳 中国机会分析（本土化建议）
-- 可复制指数（1-10分）
+- `代码与数据检查`：PR 和 `main` 推送时执行数据校验、测试和公开产物边界检查。
+- `每日项目采集`：每天采集新项目，提交数据库、草稿和 `seen_ids.json`。
+- `自动部署到 Cloudflare Pages`：
+  - 普通代码合并到 `main` 后部署；
+  - 每日采集工作流成功完成后部署最新 `main`；
+  - 支持手动触发，用于预览或故障恢复。
 
-## 🗺️ 下一步计划
+部署依赖以下 GitHub Actions 配置：
 
-| 阶段 | 功能 | 状态 |
-|------|------|------|
-| MVP | 网站 + 15个精选案例 | ✅ 完成 |
-| Phase 2 | 公众号 + 小红书内容发布 | 🚧 进行中 |
-| Phase 3 | 自动化流水线全量上线 | 📋 规划中 |
-| Phase 4 | 付费社群 + 订阅变现 | 📋 规划中 |
+- Repository variable：`CLOUDFLARE_ACCOUNT_ID`
+- Repository secret：`CLOUDFLARE_API_TOKEN`
+- Repository secret：`DEEPSEEK_API_KEY`
 
-## ⚠️ 合规说明
+完整运维流程、故障处理和回滚方式见 [docs/OPERATIONS.md](docs/OPERATIONS.md)。
 
-- 本平台内容为**原创中文解读**，非Starter Story原文翻译
-- 数据采集遵守 robots.txt 协议，添加合理延迟
-- 所有案例均注明原始来源
-- 商业使用请遵守相关法律法规
+## 合规说明
 
-## 📞 联系
-
-- 公众号：AI生意经（建设中）
-- 小红书：AI生意经
-- 邮件：hello@ai-shengyi-jing.com（占位）
+- 平台输出原创中文商业分析，不复制原始文章全文。
+- 数据采集应遵守来源网站条款、robots.txt 和合理请求频率。
+- 商业数据仅作研究参考，创业和投资决策需独立核验。
