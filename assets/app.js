@@ -416,7 +416,6 @@ function openModal(id) {
     <div class="modal-hero" style="background:linear-gradient(135deg, ${hexToRgba(p.heroColor,0.02)}, transparent)">
       <div class="modal-emoji-wrap" style="background:${emojiAlpha}">${p.heroEmoji}</div>
       <h2 class="modal-name">${p.name}</h2>
-      <p class="modal-name-en">${p.nameEn}</p>
       <div class="modal-tags-row" style="margin-bottom:16px">
         ${[...p.category, ...p.tags].map(t => `<span class="modal-tag">${t}</span>`).join('')}
       </div>

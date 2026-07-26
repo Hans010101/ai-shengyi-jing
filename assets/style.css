@@ -1162,15 +1162,8 @@ body {
 .modal-name {
   font-size: 28px;
   font-weight: 900;
-  margin-bottom: 6px;
-  letter-spacing: -0.5px;
-}
-
-.modal-name-en {
-  font-size: 14px;
-  color: var(--text-muted);
-  font-style: italic;
   margin-bottom: 16px;
+  letter-spacing: -0.5px;
 }
 
 .modal-summary {
