@@ -49,6 +49,18 @@ class BuildTests(unittest.TestCase):
         self.assertNotIn(Path(".github/workflows/deploy_cloudflare.yml"), actual)
         self.assertNotIn(Path("pipeline/drafts/example.md"), actual)
 
+    def test_public_ui_does_not_render_english_project_subtitles(self):
+        with tempfile.TemporaryDirectory(dir=Path.cwd()) as temp_dir:
+            output = Path(temp_dir) / "dist"
+            build(output)
+            app_js = (output / "assets/app.js").read_text(encoding="utf-8")
+            style_css = (output / "assets/style.css").read_text(encoding="utf-8")
+
+        self.assertNotIn('class="card-name-en"', app_js)
+        self.assertNotIn('class="modal-name-en"', app_js)
+        self.assertNotIn(".card-name-en", style_css)
+        self.assertNotIn(".modal-name-en", style_css)
+
 
 class ValidationTests(unittest.TestCase):
     def test_duplicate_ids_fail_validation(self):
