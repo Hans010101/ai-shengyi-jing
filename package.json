@@ -3,6 +3,6 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test:functions": "node --test tests/advisor_function.test.mjs"
+    "test:functions": "node --test tests/*.mjs"
   }
 }

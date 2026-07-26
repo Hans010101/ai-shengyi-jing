@@ -14,7 +14,7 @@
 | Pages Git 直连 | 未启用 |
 | 发布方式 | GitHub Actions + Wrangler |
 | 发布目录 | `dist/` |
-| 生产环境变量/绑定 | Workers AI binding：`AI` |
+| 生产环境变量/绑定 | Workers AI binding：`AI`；Secret：`EDITORIAL_API_TOKEN` |
 
 ## 发布边界
 
@@ -22,13 +22,17 @@
 
 ```text
 index.html
+case.html
 assets/app.js
+assets/case.js
 assets/style.css
+assets/case.css
 data/projects.js
 data/projects_live.json
+data/case_articles.json
 ```
 
-任何新增的静态公开文件必须显式加入 `PUBLISH_PATHS`，并通过测试确认。`functions/api/advisor.js` 由 Cloudflare 单独编译为 Pages Function，不会作为静态文件公开。禁止直接执行 `wrangler pages deploy .`，因为仓库包含采集脚本、工作流、内容草稿和内部状态数据。
+任何新增的静态公开文件必须显式加入 `PUBLISH_PATHS`，并通过测试确认。`functions/api/advisor.js` 与 `functions/api/editorial.js` 由 Cloudflare 单独编译为 Pages Function，不会作为静态文件公开。禁止直接执行 `wrangler pages deploy .`，因为仓库包含采集脚本、工作流、内容草稿和内部状态数据。
 
 ## 正常发布流程
 
@@ -49,7 +53,7 @@ data/projects_live.json
 ```bash
 python3 scripts/validate_data.py data/projects_live.json
 python3 -m unittest discover -s tests -v
-node --test tests/advisor_function.test.mjs
+node --test tests/*.mjs
 python3 scripts/build_site.py --output dist
 npx wrangler@4.113.0 pages functions build functions --outdir .wrangler/functions-build --project-directory . --build-output-directory dist
 find dist -type f | sort
@@ -60,7 +64,7 @@ find dist -type f | sort
 - 数据 JSON 合法且项目 ID 唯一；
 - 回归测试全部通过；
 - Pages Function 编译成功，且 `AI` binding 配置存在；
-- `dist/` 恰好包含预期的 5 个文件；
+- `dist/` 恰好包含预期的 9 个文件；
 - 不包含 `.github/`、`.wrangler/`、`pipeline/` 或内容草稿。
 
 ## AI 商业顾问
@@ -69,7 +73,16 @@ find dist -type f | sort
 
 若 Workers AI 绑定缺失、达到额度或推理服务暂时不可用，接口会返回可识别的错误，前端自动使用本地项目匹配与固定分析作为降级，不阻断页面功能。收藏与浏览记录仅保存在访客当前浏览器中。
 
-DeepSeek 仅用于每日采集流水线生成中文项目内容，对应密钥是 `DEEPSEEK_API_KEY`，不得放入 Cloudflare Pages 前端或 Function 环境。
+访客侧顾问仍不使用 DeepSeek。DeepSeek 只作为后台案例编辑的降级模型，对应密钥是 `DEEPSEEK_API_KEY`，不得放入 Cloudflare Pages 前端或 Function 环境。
+
+## 案例详情与编辑链路
+
+- 所有项目按钮都进入 `case.html?id=<项目ID>`；没有深度稿时展示站内简版资料；
+- `POST /api/editorial` 是受 `EDITORIAL_API_TOKEN` 保护的后台接口，通过 `AI` binding 运行 Workers AI；
+- 每日采集先调用该接口生成微信公众号风格原创稿，失败或额度不足时再调用 DeepSeek；
+- 不采集需要登录或付费解锁的正文，不保存来源原文；
+- 图片只允许项目官网公开链接，视频只允许 YouTube/Vimeo 的公开嵌入链接；
+- 每篇文章必须保留 Starter Story 事实来源链接和原创编辑声明。
 
 ## 每日采集
 
@@ -80,13 +93,13 @@ DeepSeek 仅用于每日采集流水线生成中文项目内容，对应密钥�
 1. `data/projects_live.json` 中已有的项目 ID；
 2. `pipeline/data/seen_ids.json` 中已处理的项目 ID。
 
-数据库是最终事实来源。写入时新项目优先，并按 ID 去重。流水线必须同时提交数据库和 `seen_ids.json`。
+数据库是最终事实来源。写入时新项目优先，并按 ID 去重。流水线必须同时提交数据库、`case_articles.json` 和 `seen_ids.json`。新项目会在结构化内容生成后进入案例编辑链路。
 
 ## 故障处理
 
 ### Cloudflare 返回认证错误 10000
 
-1. 确认 GitHub Secrets 中两个 Cloudflare 配置均存在；
+1. 确认 GitHub 中 Cloudflare Account ID、API Token 与编辑接口 Token 配置均存在；
 2. 确认 Repository variable `CLOUDFLARE_ACCOUNT_ID` 和 Repository secret `CLOUDFLARE_API_TOKEN` 均可用；
 3. Token 至少需要该账户的 Cloudflare Pages 编辑权限；
 4. 确认 `wrangler.jsonc` 中存在 `AI` binding，并在功能分支手动触发部署工作流，先验证预览部署；
@@ -126,3 +139,4 @@ python3 scripts/validate_data.py data/projects_live.json
 - 仓库内只记录密钥名称，不记录值；
 - `.wrangler/` 是本地缓存，已加入 `.gitignore`；
 - 更新 Token 后必须通过一次预览部署验证权限。
+- `EDITORIAL_API_TOKEN` 必须在 Cloudflare Pages Secret 与 GitHub Actions Secret 中保持同一个值。

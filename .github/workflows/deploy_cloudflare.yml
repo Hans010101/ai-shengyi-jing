@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - "index.html"
+      - "case.html"
       - "assets/**"
       - "data/**"
       - "functions/**"
@@ -59,7 +60,7 @@ jobs:
         run: python3 scripts/validate_data.py data/projects_live.json
 
       - name: Test AI advisor function
-        run: node --test tests/advisor_function.test.mjs
+        run: node --test tests/*.mjs
 
       - name: Build minimal Pages artifact
         run: python3 scripts/build_site.py --output dist

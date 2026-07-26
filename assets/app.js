@@ -426,7 +426,7 @@ function openModal(id) {
         <button class="modal-fav-btn" onclick="toggleFavorite('${p.id}'); this.innerText = isProjectFavorited('${p.id}') ? '⭐ 已收藏' : '☆ 收藏案例';" style="background:rgba(230, 126, 34, 0.1);color:var(--primary);border:1px solid rgba(230, 126, 34, 0.3);padding:6px 14px;border-radius:8px;font-size:12px;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;gap:4px;">
           ${favText}
         </button>
-        ${p.sourceUrl ? `<a href="${p.sourceUrl}" target="_blank" rel="noopener noreferrer" class="modal-link-btn modal-source-link">📚 原始案例</a>` : ''}
+        <a href="case.html?id=${encodeURIComponent(p.id)}" class="modal-link-btn modal-source-link">📖 案例详情</a>
         ${p.website ? `<a href="${p.website}" target="_blank" rel="noopener noreferrer" class="modal-link-btn" style="background:var(--accent-blue);color:#fff;padding:6px 14px;border-radius:8px;font-size:12px;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:4px;transition:opacity 0.2s;">🌐 官网链接</a>` : ''}
         ${p.twitter_url ? `<a href="${p.twitter_url}" target="_blank" rel="noopener noreferrer" class="modal-link-btn" style="background:#0f172a;color:#fff;padding:6px 14px;border-radius:8px;font-size:12px;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:4px;transition:opacity 0.2s;">🐦 官方 X</a>` : ''}
         ${p.github_url ? `<a href="${p.github_url}" target="_blank" rel="noopener noreferrer" class="modal-link-btn" style="background:#334155;color:#fff;padding:6px 14px;border-radius:8px;font-size:12px;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:4px;transition:opacity 0.2s;">🐙 GitHub 开源</a>` : ''}

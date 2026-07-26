@@ -11,10 +11,14 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 PUBLISH_PATHS = (
     Path("index.html"),
+    Path("case.html"),
     Path("assets/app.js"),
+    Path("assets/case.js"),
     Path("assets/style.css"),
+    Path("assets/case.css"),
     Path("data/projects.js"),
     Path("data/projects_live.json"),
+    Path("data/case_articles.json"),
 )
 
 

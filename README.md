@@ -12,14 +12,18 @@
 
 ```text
 .
-├── index.html                       # 单页站点
+├── index.html                       # 项目发现页
+├── case.html                        # 站内案例详情页
 ├── assets/                          # 前端脚本与样式
 ├── functions/api/advisor.js         # Cloudflare Workers AI 顾问接口
+├── functions/api/editorial.js       # 私有案例编辑接口
 ├── data/
 │   ├── projects.js                  # 手工精选案例
-│   └── projects_live.json           # 全量项目数据库
+│   ├── projects_live.json           # 全量项目数据库
+│   └── case_articles.json           # 已发布深度案例文章
 ├── pipeline/
 │   ├── scraper.py                   # 每日增量采集
+│   ├── article_pipeline.py           # 案例采集与原创编辑
 │   ├── bulk_scraper.py              # 全量批次采集
 │   ├── project_store.py             # 数据去重与合并规则
 │   └── data/seen_ids.json           # 已处理项目索引
@@ -32,7 +36,7 @@
 └── .github/workflows/               # CI、采集与部署工作流
 ```
 
-`pipeline/`、内容草稿、GitHub 工作流和本地缓存不会发布到生产站点。Cloudflare 只接收 `dist/` 中的 5 个静态公开文件，并在服务端编译 `functions/` 中的 Pages Function。
+`pipeline/`、内容草稿、GitHub 工作流和本地缓存不会发布到生产站点。Cloudflare 只接收 `dist/` 中显式允许的 9 个静态公开文件，并在服务端编译 `functions/` 中的 Pages Function。
 
 ## 本地运行
 
@@ -41,7 +45,7 @@
 ```bash
 python3 scripts/validate_data.py data/projects_live.json
 python3 -m unittest discover -s tests -v
-node --test tests/advisor_function.test.mjs
+node --test tests/*.mjs
 python3 scripts/build_site.py --output dist
 npx wrangler@4.113.0 pages functions build functions --outdir .wrangler/functions-build --project-directory . --build-output-directory dist
 python3 -m http.server 8080 --directory dist
@@ -59,11 +63,16 @@ python3 -m http.server 8080 --directory dist
 
 ## 数据维护
 
+所有项目的“案例详情”均指向站内页面。已生成深度稿的项目显示微信公众号风格文章，其余项目显示现有结构化数据组成的站内简版，避免再把访客直接带离本站。
+
+案例编辑链路先调用 Cloudflare Workers AI；额度耗尽、超时或服务不可用时，才使用 DeepSeek。采集器只读取无需登录即可看到的公开事实，不绕过付费墙；文章不逐句翻译或复刻来源结构。图片只引用项目官网公开素材，视频只允许 YouTube/Vimeo 的公开嵌入链接，正文末尾保留事实来源链接。
+
 每日增量采集：
 
 ```bash
 pip install requests beautifulsoup4 openai
 export DEEPSEEK_API_KEY="..."
+export EDITORIAL_API_TOKEN="..."
 python3 pipeline/scraper.py
 ```
 
@@ -89,12 +98,14 @@ python3 scripts/validate_data.py data/projects_live.json
 
 - Repository variable：`CLOUDFLARE_ACCOUNT_ID`
 - Repository secret：`CLOUDFLARE_API_TOKEN`
+- Repository secret：`EDITORIAL_API_TOKEN`（调用私有案例编辑接口）
 - Repository secret：`DEEPSEEK_API_KEY`（仅每日采集）
 
 完整运维流程、故障处理和回滚方式见 [docs/OPERATIONS.md](docs/OPERATIONS.md)。
 
 ## 合规说明
 
-- 平台输出原创中文商业分析，不复制原始文章全文。
+- 平台输出原创中文商业分析，不复制或改写受限文章全文。
 - 数据采集应遵守来源网站条款、robots.txt 和合理请求频率。
+- 每篇深度案例保留事实来源链接；第三方素材仅在获准范围内引用。
 - 商业数据仅作研究参考，创业和投资决策需独立核验。
