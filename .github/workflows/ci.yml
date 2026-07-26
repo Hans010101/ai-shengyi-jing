@@ -18,14 +18,25 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+
       - name: Validate project database
         run: python3 scripts/validate_data.py data/projects_live.json
 
       - name: Run maintenance tests
         run: python3 -m unittest discover -s tests -v
 
+      - name: Test AI advisor function
+        run: node --test tests/advisor_function.test.mjs
+
       - name: Build public artifact
         run: python3 scripts/build_site.py --output dist
+
+      - name: Build Pages Functions
+        run: npx --yes wrangler@4.113.0 pages functions build functions --outdir .wrangler/functions-build --project-directory . --build-output-directory dist
 
       - name: Verify publish boundary
         shell: bash

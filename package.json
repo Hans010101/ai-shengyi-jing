@@ -1,0 +1,8 @@
+{
+  "name": "ai-shengyi-jing",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:functions": "node --test tests/advisor_function.test.mjs"
+  }
+}
