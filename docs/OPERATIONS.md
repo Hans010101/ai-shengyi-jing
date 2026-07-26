@@ -75,7 +75,7 @@ find dist -type f | sort
 ### Cloudflare 返回认证错误 10000
 
 1. 确认 GitHub Secrets 中两个 Cloudflare 配置均存在；
-2. 确认 API Token 属于正确账户；
+2. 确认 Repository variable `CLOUDFLARE_ACCOUNT_ID` 和 Repository secret `CLOUDFLARE_API_TOKEN` 均可用；
 3. Token 至少需要该账户的 Cloudflare Pages 编辑权限；
 4. 在功能分支手动触发部署工作流，先验证预览部署；
 5. 不要在日志、仓库或 Issue 中粘贴 Token。
@@ -110,6 +110,7 @@ python3 scripts/validate_data.py data/projects_live.json
 ## 密钥与权限
 
 - 密钥只保存在 GitHub Actions Secrets 或 Cloudflare 的受控配置中；
+- Cloudflare Account ID 不是密钥，保存在 GitHub Repository variables 中；
 - 仓库内只记录密钥名称，不记录值；
 - `.wrangler/` 是本地缓存，已加入 `.gitignore`；
 - 更新 Token 后必须通过一次预览部署验证权限。

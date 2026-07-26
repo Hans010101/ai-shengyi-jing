@@ -73,11 +73,11 @@ python3 scripts/validate_data.py data/projects_live.json
   - 每日采集工作流成功完成后部署最新 `main`；
   - 支持手动触发，用于预览或故障恢复。
 
-部署依赖以下 GitHub Actions Secrets：
+部署依赖以下 GitHub Actions 配置：
 
-- `CLOUDFLARE_ACCOUNT_ID`
-- `CLOUDFLARE_API_TOKEN`
-- `DEEPSEEK_API_KEY`
+- Repository variable：`CLOUDFLARE_ACCOUNT_ID`
+- Repository secret：`CLOUDFLARE_API_TOKEN`
+- Repository secret：`DEEPSEEK_API_KEY`
 
 完整运维流程、故障处理和回滚方式见 [docs/OPERATIONS.md](docs/OPERATIONS.md)。
 
