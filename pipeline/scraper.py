@@ -14,8 +14,10 @@ from bs4 import BeautifulSoup
 from pathlib import Path
 
 try:
+    from .content_quality import derive_chinese_name
     from .project_store import merge_projects, project_ids
 except ImportError:
+    from content_quality import derive_chinese_name
     from project_store import merge_projects, project_ids
 
 # ========== CONFIG ==========
@@ -86,6 +88,10 @@ def scrape_listing_page():
 
             link_el = row.find("a", href=True)
             url = BASE_URL + link_el["href"] if link_el and link_el["href"].startswith("/") else ""
+            if not url or not any(path in url for path in ("/stories/", "/businesses/")):
+                continue
+            if name.endswith("..."):
+                continue
 
             cells = row.find_all("td")
             startup_info = ""
@@ -149,6 +155,7 @@ def generate_chinese_analysis(project):
 
 请以JSON格式输出：
 {{
+  "nameZh": "简洁准确的中文项目名（2-16字）",
   "summary": "一句话总结（30字以内）",
   "insight": "创意亮点分析",
   "businessModel": "商业模式描述",
@@ -177,6 +184,7 @@ def generate_chinese_analysis(project):
     else:
         print("  [WARN] No AI API key configured. Returning placeholder.")
         return {
+            "nameZh": "海外创业项目",
             "summary": f"{project.get('name','')}，月收入{project.get('revenue','')}",
             "insight": "AI解读功能需要配置 DEEPSEEK_API_KEY 或 GEMINI_API_KEY",
             "businessModel": "按使用付费",
@@ -294,6 +302,7 @@ def run_pipeline():
         print(f"  Generating AI analysis...")
         analysis = generate_chinese_analysis(project)
         project.update(analysis)
+        project["nameZh"] = derive_chinese_name(project)
 
         project["updatedAt"] = datetime.date.today().isoformat()
         project["featured"] = False

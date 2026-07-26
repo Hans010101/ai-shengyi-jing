@@ -418,6 +418,11 @@ body {
   box-shadow: var(--shadow-hover);
 }
 
+.project-card:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--card-color) 45%, white);
+  outline-offset: 4px;
+}
+
 .project-card:hover::before { transform: scaleX(1); }
 
 .card-header {
@@ -537,6 +542,30 @@ body {
   background: var(--accent-blue);
   border-color: var(--accent-blue);
   color: #ffffff;
+}
+
+.card-detail-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--card-color);
+  font-size: 12px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.modal-source-link {
+  background: #fff7ed;
+  border: 1px solid #fed7aa;
+  border-radius: 8px;
+  color: #c2410c;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 14px;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 /* Featured badge */
@@ -2359,5 +2388,4 @@ body {
 .admin-table { width: 100%; border-collapse: collapse; font-size: 13px; }
 .admin-table th, .admin-table td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--border); }
 .admin-table th { color: var(--text-muted); font-weight: 600; }
-
 

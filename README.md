@@ -5,7 +5,7 @@
 - 生产站点：<https://ai-shengyi-jing.pages.dev>
 - 托管平台：Cloudflare Pages
 - 生产分支：`main`
-- 当前数据库：3,650 个唯一项目
+- 当前数据库：3,646 个已完成中文商业拆解的唯一项目
 - 更新频率：每天 09:00（Asia/Shanghai）
 
 ## 项目组成
@@ -62,7 +62,7 @@ python3 scripts/repair_project_data.py
 python3 scripts/validate_data.py data/projects_live.json
 ```
 
-合并规则是“新记录优先、每个项目 ID 只保留一条”。采集器会同时参考数据库和 `seen_ids.json`，避免状态文件滞后导致重复写入。
+合并规则是“新记录优先、每个项目 ID 只保留一条”。采集器会同时参考数据库和 `seen_ids.json`，避免状态文件滞后导致重复写入。每条公开项目必须包含中文项目名、项目介绍、商业模式、产品架构、商业闭环和三步上手路径。
 
 ## 自动化流程
 

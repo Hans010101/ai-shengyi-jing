@@ -5,11 +5,18 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from collections import Counter
 from pathlib import Path
 
 
-REQUIRED_FIELDS = ("id", "name", "url", "updatedAt", "revenue")
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+
+from pipeline.content_quality import project_content_errors  # noqa: E402
+
+
+REQUIRED_FIELDS = ("id", "name", "nameZh", "url", "updatedAt", "revenue")
 
 
 def validate(path: Path) -> tuple[int, list[str]]:
@@ -34,6 +41,10 @@ def validate(path: Path) -> tuple[int, list[str]]:
 
         if project.get("id"):
             ids.append(str(project["id"]))
+
+        project_id = project.get("id") or f"row-{index}"
+        for content_error in project_content_errors(project):
+            errors.append(f"Project {project_id} {content_error}")
 
     duplicate_ids = sorted(
         project_id

@@ -13,8 +13,10 @@ from bs4 import BeautifulSoup
 from pathlib import Path
 
 try:
+    from .content_quality import derive_chinese_name
     from .project_store import merge_projects, project_ids
 except ImportError:
+    from content_quality import derive_chinese_name
     from project_store import merge_projects, project_ids
 
 # ===== PATHS =====
@@ -211,6 +213,7 @@ def generate_analysis(project_info):
 
 请严格按以下JSON格式输出，不要输出任何JSON以外的内容：
 {{
+  "nameZh": "简洁准确的中文项目名（2-16字）",
   "summary": "一句话总结",
   "insight": "核心洞察（100字以内）",
   "businessModel": "商业模式描述（80字以内）",
@@ -250,6 +253,7 @@ def generate_analysis(project_info):
     # Fallback: generate basic info without AI
     niche = detect_niche(desc + " " + keywords + " " + name)
     return {
+        "nameZh": f"海外{niche}项目",
         "summary": f"{name}，月收入{revenue}",
         "insight": desc[:100] if desc else f"这是一个{niche}领域的创业项目",
         "businessModel": "订阅制/按使用付费",
@@ -493,6 +497,7 @@ def run_batch(batch_num: int, batch_size: int = BATCH_SIZE, rebuild_index: bool 
         print(f"    {ai_label} | {ai_elapsed:.1f}s | {analysis.get('summary', '')[:40]}")
 
         project.update(analysis)
+        project["nameZh"] = derive_chinese_name(project)
         results.append(project)
         seen_ids.add(pid)
 

@@ -60,9 +60,7 @@ function renderFeatured() {
   const grid = document.getElementById('featuredGrid');
   const featured = PROJECTS.filter(p => p.featured);
   grid.innerHTML = featured.map(p => createProjectCard(p, true)).join('');
-  grid.querySelectorAll('.project-card').forEach(card => {
-    card.addEventListener('click', () => openModal(card.dataset.id));
-  });
+  bindProjectCards(grid);
 }
 
 // =========== RENDER PROJECTS ===========
@@ -122,9 +120,7 @@ function renderProjects() {
     const pageItems = filtered.slice(startIndex, startIndex + ITEMS_PER_PAGE);
     
     grid.innerHTML = pageItems.map(p => createProjectCard(p, false)).join('');
-    grid.querySelectorAll('.project-card').forEach(card => {
-      card.addEventListener('click', () => openModal(card.dataset.id));
-    });
+    bindProjectCards(grid);
     
     renderPagination(filtered.length, totalPages);
 
@@ -212,6 +208,19 @@ function sortProjects(projects, sort) {
   });
 }
 
+function bindProjectCards(grid) {
+  grid.querySelectorAll('.project-card').forEach(card => {
+    const open = () => openModal(card.dataset.id);
+    card.addEventListener('click', open);
+    card.addEventListener('keydown', event => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        open();
+      }
+    });
+  });
+}
+
 // =========== CREATE CARD ===========
 function createProjectCard(p, featured) {
   const stars = '★'.repeat(Math.round(p.replicabilityScore / 2)) + '☆'.repeat(5 - Math.round(p.replicabilityScore / 2));
@@ -221,7 +230,8 @@ function createProjectCard(p, featured) {
   const favActive = isFav ? 'active' : '';
 
   return `
-    <div class="project-card fade-in" data-id="${p.id}" style="--card-color:${p.heroColor}">
+    <article class="project-card fade-in" data-id="${p.id}" style="--card-color:${p.heroColor}"
+      tabindex="0" aria-label="查看${p.name}的项目介绍与商业逻辑">
       <button class="card-fav-btn ${favActive}" onclick="event.stopPropagation(); toggleFavorite('${p.id}')" title="${isFav ? '已收藏' : '加入收藏'}">
         ${favIcon}
       </button>
@@ -257,9 +267,9 @@ function createProjectCard(p, featured) {
           <span class="score-stars">${stars}</span>
           <span>可复制 ${p.replicabilityScore}/10</span>
         </div>
-        <div class="card-arrow">→</div>
+        <div class="card-detail-link">查看完整拆解 <span class="card-arrow">→</span></div>
       </div>
-    </div>
+    </article>
   `;
 }
 
@@ -401,6 +411,7 @@ function openModal(id) {
   const emojiAlpha = hexToRgba(p.heroColor, 0.08);
   const isFav = isProjectFavorited(p.id);
   const favText = isFav ? '⭐ 已收藏' : '☆ 收藏案例';
+  const repPct = Math.min(100, Math.max(0, Number(p.replicabilityScore) || 0) * 10);
 
   content.innerHTML = `
     <div class="modal-hero" style="background:linear-gradient(135deg, ${hexToRgba(p.heroColor,0.02)}, transparent)">
@@ -415,9 +426,10 @@ function openModal(id) {
         <button class="modal-fav-btn" onclick="toggleFavorite('${p.id}'); this.innerText = isProjectFavorited('${p.id}') ? '⭐ 已收藏' : '☆ 收藏案例';" style="background:rgba(230, 126, 34, 0.1);color:var(--primary);border:1px solid rgba(230, 126, 34, 0.3);padding:6px 14px;border-radius:8px;font-size:12px;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;gap:4px;">
           ${favText}
         </button>
-        ${p.website ? `<a href="${p.website}" target="_blank" class="modal-link-btn" style="background:var(--accent-blue);color:#fff;padding:6px 14px;border-radius:8px;font-size:12px;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:4px;transition:opacity 0.2s;">🌐 官网链接</a>` : ''}
-        ${p.twitter_url ? `<a href="${p.twitter_url}" target="_blank" class="modal-link-btn" style="background:#0f172a;color:#fff;padding:6px 14px;border-radius:8px;font-size:12px;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:4px;transition:opacity 0.2s;">🐦 官方 X</a>` : ''}
-        ${p.github_url ? `<a href="${p.github_url}" target="_blank" class="modal-link-btn" style="background:#334155;color:#fff;padding:6px 14px;border-radius:8px;font-size:12px;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:4px;transition:opacity 0.2s;">🐙 GitHub 开源</a>` : ''}
+        ${p.sourceUrl ? `<a href="${p.sourceUrl}" target="_blank" rel="noopener noreferrer" class="modal-link-btn modal-source-link">📚 原始案例</a>` : ''}
+        ${p.website ? `<a href="${p.website}" target="_blank" rel="noopener noreferrer" class="modal-link-btn" style="background:var(--accent-blue);color:#fff;padding:6px 14px;border-radius:8px;font-size:12px;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:4px;transition:opacity 0.2s;">🌐 官网链接</a>` : ''}
+        ${p.twitter_url ? `<a href="${p.twitter_url}" target="_blank" rel="noopener noreferrer" class="modal-link-btn" style="background:#0f172a;color:#fff;padding:6px 14px;border-radius:8px;font-size:12px;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:4px;transition:opacity 0.2s;">🐦 官方 X</a>` : ''}
+        ${p.github_url ? `<a href="${p.github_url}" target="_blank" rel="noopener noreferrer" class="modal-link-btn" style="background:#334155;color:#fff;padding:6px 14px;border-radius:8px;font-size:12px;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:4px;transition:opacity 0.2s;">🐙 GitHub 开源</a>` : ''}
       </div>
     </div>
     <div class="modal-metrics">
@@ -703,6 +715,7 @@ function normalizeProject(p) {
     id: p.id || Math.random().toString(36).substr(2, 9),
     name: cnTitle,
     nameEn: enTitle,
+    sourceUrl: p.url || '',
     dateVal: dateVal,
     category: category,
     tags: tags,
@@ -847,6 +860,9 @@ window.sendSuggestion = function(text) {
 
 function getChineseName(p) {
   if (!p) return '';
+  if (p.nameZh && /[\u4e00-\u9fff]/.test(p.nameZh)) {
+    return p.nameZh;
+  }
   if (p.name && /[\u4e00-\u9fff]/.test(p.name)) {
     return p.name;
   }
