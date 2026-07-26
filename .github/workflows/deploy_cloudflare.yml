@@ -4,10 +4,31 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "index.html"
+      - "assets/**"
+      - "data/**"
+      - "scripts/build_site.py"
+      - "scripts/validate_data.py"
+      - ".github/workflows/deploy_cloudflare.yml"
+  workflow_run:
+    workflows:
+      - 每日项目采集
+    types:
+      - completed
+    branches:
+      - main
   workflow_dispatch:
+
+concurrency:
+  group: cloudflare-pages-ai-shengyi-jing
+  cancel-in-progress: false
 
 jobs:
   deploy:
+    if: >-
+      github.event_name != 'workflow_run' ||
+      github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -15,10 +36,35 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # workflow_run.head_sha is the commit that started the scraper, not
+          # the data commit pushed at the end, so always deploy current main.
+          ref: ${{ github.event_name == 'workflow_run' && 'main' || github.ref }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Validate project database
+        run: python3 scripts/validate_data.py data/projects_live.json
+
+      - name: Build minimal Pages artifact
+        run: python3 scripts/build_site.py --output dist
+
+      - name: Resolve deployment branch
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_run" ]]; then
+            echo "DEPLOY_BRANCH=main" >> "$GITHUB_ENV"
+          else
+            echo "DEPLOY_BRANCH=${GITHUB_REF_NAME}" >> "$GITHUB_ENV"
+          fi
 
       - name: Deploy to Cloudflare Pages via Wrangler
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy . --project-name=ai-shengyi-jing --branch=main --commit-dirty=true
+          wranglerVersion: "4.113.0"
+          command: pages deploy dist --project-name=ai-shengyi-jing --branch=${{ env.DEPLOY_BRANCH }} --commit-dirty=true

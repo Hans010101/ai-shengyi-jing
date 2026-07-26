@@ -1,0 +1,36 @@
+name: 代码与数据检查
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Validate project database
+        run: python3 scripts/validate_data.py data/projects_live.json
+
+      - name: Run maintenance tests
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Build public artifact
+        run: python3 scripts/build_site.py --output dist
+
+      - name: Verify publish boundary
+        shell: bash
+        run: |
+          test "$(find dist -type f | wc -l | tr -d ' ')" = "5"
+          test ! -e dist/.github
+          test ! -e dist/.wrangler
+          test ! -e dist/pipeline

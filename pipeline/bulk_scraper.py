@@ -12,6 +12,11 @@ import requests
 from bs4 import BeautifulSoup
 from pathlib import Path
 
+try:
+    from .project_store import merge_projects, project_ids
+except ImportError:
+    from project_store import merge_projects, project_ids
+
 # ===== PATHS =====
 ROOT = Path(__file__).parent.parent
 DATA_DIR = Path(__file__).parent / "data"
@@ -413,7 +418,8 @@ def run_batch(batch_num: int, batch_size: int = BATCH_SIZE, rebuild_index: bool 
     index = build_index()
 
     # Step 2: Load seen IDs
-    seen_ids = set(load_json(SEEN_FILE, []))
+    existing = load_json(OUTPUT_FILE, [])
+    seen_ids = set(load_json(SEEN_FILE, [])) | project_ids(existing)
     print(f"[INFO] Total index entries: {len(index)}")
     print(f"[INFO] Already processed: {len(seen_ids)}")
 
@@ -491,12 +497,11 @@ def run_batch(batch_num: int, batch_size: int = BATCH_SIZE, rebuild_index: bool 
         seen_ids.add(pid)
 
     # Step 5: Save results
-    existing = load_json(OUTPUT_FILE, [])
-    all_projects = results + existing
+    all_projects = merge_projects(results, existing)
 
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     save_json(OUTPUT_FILE, all_projects)
-    save_json(SEEN_FILE, list(seen_ids))
+    save_json(SEEN_FILE, sorted(seen_ids))
 
     # Step 6: Generate content drafts
     for p in results:

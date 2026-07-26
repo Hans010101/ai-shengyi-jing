@@ -15,12 +15,9 @@ document.addEventListener('DOMContentLoaded', () => {
   renderFeatured();
   renderCategoryPills();
   
-  // 2. Fetch live full database asynchronously
-  // Use GitHub raw CDN (CORS open) as primary source; fallback to relative path for local dev
-  const DATA_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
-    ? 'data/projects_live.json'
-    : 'https://raw.githubusercontent.com/Hans010101/ai-shengyi-jing/main/data/projects_live.json';
-  fetch(DATA_URL)
+  // 2. Fetch the database shipped with this exact deployment. Keeping code
+  // and data in one immutable artifact avoids mixed GitHub/Cloudflare versions.
+  fetch('data/projects_live.json')
     .then(r => r.json())
     .then(data => {
       ALL_PROJECTS = data.map(p => normalizeProject(p));
@@ -43,25 +40,9 @@ document.addEventListener('DOMContentLoaded', () => {
       renderProjects();
     })
     .catch(err => {
-      console.warn('[WARN] Failed to fetch from GitHub raw CDN, retrying with local path...', err);
-      // Final fallback: local path (works in localhost) or static PROJECTS list
-      fetch('data/projects_live.json')
-        .then(r => r.json())
-        .then(data => {
-          ALL_PROJECTS = data.map(p => normalizeProject(p));
-          const totalCount = ALL_PROJECTS.length;
-          const heroBadgeTotal = document.getElementById('hero-badge-total');
-          if (heroBadgeTotal) heroBadgeTotal.innerText = totalCount.toLocaleString('zh-CN') + '+';
-          const heroTotalNum = document.getElementById('hero-total-number');
-          if (heroTotalNum) { heroTotalNum.setAttribute('data-target', totalCount); countUpStats(); }
-          const totalDbCount = document.getElementById('totalDbCount');
-          if (totalDbCount) totalDbCount.innerText = totalCount.toLocaleString('zh-CN') + '个';
-          renderProjects();
-        })
-        .catch(() => {
-          ALL_PROJECTS = PROJECTS.map(p => normalizeProject(p));
-          renderProjects();
-        });
+      console.warn('[WARN] Failed to fetch deployment database; using curated fallback.', err);
+      ALL_PROJECTS = PROJECTS.map(p => normalizeProject(p));
+      renderProjects();
     });
 
   setupSearch();
@@ -1468,4 +1449,3 @@ function renderAdminDashboard() {
     `).join('');
   }
 }
-

@@ -13,6 +13,11 @@ import requests
 from bs4 import BeautifulSoup
 from pathlib import Path
 
+try:
+    from .project_store import merge_projects, project_ids
+except ImportError:
+    from project_store import merge_projects, project_ids
+
 # ========== CONFIG ==========
 BASE_URL = "https://www.starterstory.com"
 DATA_DIR = Path(__file__).parent / "data"
@@ -41,8 +46,9 @@ def load_seen_ids():
 
 def save_seen_ids(ids):
     DATA_DIR.mkdir(parents=True, exist_ok=True)
-    with open(SEEN_FILE, "w") as f:
-        json.dump(list(ids), f)
+    with open(SEEN_FILE, "w", encoding="utf-8") as f:
+        json.dump(sorted(ids), f, ensure_ascii=False, indent=2)
+        f.write("\n")
 
 def make_id(name):
     return hashlib.md5(name.lower().encode()).hexdigest()[:12]
@@ -251,7 +257,15 @@ def run_pipeline():
     print(f"AI生意经 采集与拆解流水线 | {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')}")
     print(f"{'='*60}\n")
 
-    seen_ids = load_seen_ids()
+    existing = []
+    if OUTPUT_FILE.exists():
+        with open(OUTPUT_FILE, encoding="utf-8") as f:
+            existing = json.load(f)
+
+    # The database is the source of truth. This protects scheduled runs even
+    # when the separate seen-ID file is stale or was not committed.
+    seen_ids = load_seen_ids() | project_ids(existing)
+    save_seen_ids(seen_ids)
     print(f"[INFO] Already seen: {len(seen_ids)} projects")
 
     projects = scrape_listing_page()
@@ -259,7 +273,10 @@ def run_pipeline():
         print("[WARN] No projects found. Exiting.")
         return
 
-    new_projects = [p for p in projects if p["id"] not in seen_ids]
+    new_projects = merge_projects(
+        [p for p in projects if p["id"] not in seen_ids],
+        [],
+    )
     print(f"[INFO] New projects: {len(new_projects)}")
 
     if not new_projects:
@@ -287,12 +304,7 @@ def run_pipeline():
 
     save_seen_ids(seen_ids)
 
-    existing = []
-    if OUTPUT_FILE.exists():
-        with open(OUTPUT_FILE) as f:
-            existing = json.load(f)
-
-    all_projects = results + existing
+    all_projects = merge_projects(results, existing)
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(all_projects, f, ensure_ascii=False, indent=2)

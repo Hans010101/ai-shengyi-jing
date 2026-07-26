@@ -1,0 +1,8 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+.wrangler/
+dist/
+__pycache__/
+*.py[cod]
