@@ -23,6 +23,9 @@ jobs:
         with:
           node-version: "24"
 
+      - name: Install pipeline test dependencies
+        run: pip install requests beautifulsoup4
+
       - name: Validate project database
         run: python3 scripts/validate_data.py data/projects_live.json
 
