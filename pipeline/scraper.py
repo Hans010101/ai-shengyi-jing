@@ -14,9 +14,11 @@ from bs4 import BeautifulSoup
 from pathlib import Path
 
 try:
+    from .article_pipeline import upsert_articles
     from .content_quality import derive_chinese_name
     from .project_store import merge_projects, project_ids
 except ImportError:
+    from article_pipeline import upsert_articles
     from content_quality import derive_chinese_name
     from project_store import merge_projects, project_ids
 
@@ -324,6 +326,8 @@ def run_pipeline():
 
     if results:
         generate_content_drafts(results)
+        print("\n[INFO] Generating on-site case articles...")
+        upsert_articles(results, len(results))
 
 def generate_content_drafts(projects):
     draft_dir = Path(__file__).parent / "drafts"

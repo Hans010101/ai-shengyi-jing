@@ -23,6 +23,9 @@ jobs:
         with:
           node-version: "24"
 
+      - name: Install pipeline test dependencies
+        run: pip install requests beautifulsoup4
+
       - name: Validate project database
         run: python3 scripts/validate_data.py data/projects_live.json
 
@@ -30,7 +33,7 @@ jobs:
         run: python3 -m unittest discover -s tests -v
 
       - name: Test AI advisor function
-        run: node --test tests/advisor_function.test.mjs
+        run: node --test tests/*.mjs
 
       - name: Build public artifact
         run: python3 scripts/build_site.py --output dist
@@ -41,7 +44,7 @@ jobs:
       - name: Verify publish boundary
         shell: bash
         run: |
-          test "$(find dist -type f | wc -l | tr -d ' ')" = "5"
+          test "$(find dist -type f | wc -l | tr -d ' ')" = "9"
           test ! -e dist/.github
           test ! -e dist/.wrangler
           test ! -e dist/pipeline

@@ -3,6 +3,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
+from pipeline.article_pipeline import normalize_article, normalize_media
 from pipeline.project_store import merge_projects, project_ids
 from pipeline.content_quality import derive_chinese_name, is_placeholder
 from scripts.build_site import PUBLISH_PATHS, build
@@ -90,6 +91,17 @@ class BuildTests(unittest.TestCase):
         self.assertIn("context.env.AI.run", function_js)
         self.assertIn("@cf/meta/llama-3.2-3b-instruct", function_js)
 
+    def test_case_details_are_published_inside_the_site(self):
+        app_js = Path("assets/app.js").read_text(encoding="utf-8")
+        case_js = Path("assets/case.js").read_text(encoding="utf-8")
+
+        self.assertIn("case.html?id=", app_js)
+        self.assertNotIn("📚 原始案例", app_js)
+        self.assertIn("data/case_articles.json", case_js)
+        self.assertIn("查看事实来源", case_js)
+        self.assertIn(Path("case.html"), PUBLISH_PATHS)
+        self.assertIn(Path("data/case_articles.json"), PUBLISH_PATHS)
+
 
 class ValidationTests(unittest.TestCase):
     def test_duplicate_ids_fail_validation(self):
@@ -152,6 +164,117 @@ class ContentQualityTests(unittest.TestCase):
                 }
             )
         )
+
+    def test_case_article_normalization_bounds_sections_and_media(self):
+        project = {
+            "id": "example",
+            "nameZh": "示例项目",
+            "url": "https://www.starterstory.com/stories/example",
+            "website": "https://example.com",
+        }
+        generated = {
+            "title": "示例文章",
+            "dek": "摘要",
+            "opening": "开篇",
+            "keyFacts": [{"label": "模式", "value": "订阅"}] * 8,
+            "sections": [
+                {
+                    "heading": f"章节{i}",
+                    "paragraphs": ["正文"],
+                    "callout": "",
+                }
+                for i in range(9)
+            ],
+            "conclusion": "结论",
+            "riskNote": "风险",
+        }
+
+        article = normalize_article(
+            project,
+            generated,
+            "cloudflare-workers-ai",
+            [
+                {
+                    "type": "image",
+                    "url": "https://example.com/a.jpg",
+                    "sourceUrl": "https://example.com",
+                    "origin": "official-site",
+                }
+            ]
+            * 6,
+        )
+
+        self.assertGreaterEqual(len(article["sections"]), 5)
+        self.assertLessEqual(len(article["sections"]), 7)
+        self.assertEqual(len(article["keyFacts"]), 6)
+        self.assertEqual(len(article["media"]), 4)
+        self.assertEqual(article["source"]["name"], "Starter Story")
+
+    def test_case_article_media_rejects_source_images_and_unapproved_embeds(self):
+        media = normalize_media(
+            [
+                {
+                    "type": "image",
+                    "url": "https://assets.starterstory.com/photo.jpg",
+                    "origin": "official-site",
+                },
+                {
+                    "type": "image",
+                    "url": "https://cdn.example.com/product.jpg",
+                    "sourceUrl": "https://example.com",
+                    "origin": "official-site",
+                },
+                {
+                    "type": "video",
+                    "url": "https://example.com/embed/1",
+                    "origin": "embeddable-video",
+                },
+                {
+                    "type": "video",
+                    "url": "https://www.youtube.com/embed/1",
+                    "sourceUrl": "https://www.youtube.com/watch?v=1",
+                    "origin": "embeddable-video",
+                },
+            ]
+        )
+
+        self.assertEqual(
+            [item["url"] for item in media],
+            [
+                "https://cdn.example.com/product.jpg",
+                "https://www.youtube.com/embed/1",
+            ],
+        )
+
+    def test_pilot_articles_have_required_editorial_and_source_fields(self):
+        projects = {
+            project["id"]
+            for project in json.loads(
+                Path("data/projects_live.json").read_text(encoding="utf-8")
+            )
+        }
+        articles = json.loads(
+            Path("data/case_articles.json").read_text(encoding="utf-8")
+        )
+
+        self.assertGreaterEqual(len(articles), 3)
+        self.assertLessEqual(len(articles), 10)
+        for article in articles:
+            self.assertIn(article["projectId"], projects)
+            self.assertIn(article["provider"], {"cloudflare-workers-ai", "deepseek"})
+            self.assertGreaterEqual(len(article["sections"]), 5)
+            self.assertTrue(article["opening"])
+            self.assertTrue(article["conclusion"])
+            self.assertTrue(article["riskNote"])
+            self.assertTrue(
+                article["source"]["url"].startswith(
+                    "https://www.starterstory.com/"
+                )
+            )
+            for media in article.get("media", []):
+                host = (media.get("url") or "").lower()
+                self.assertNotIn("starterstory.com", host)
+                self.assertNotIn("cloudfront.net", host)
 
 
 if __name__ == "__main__":
