@@ -14,7 +14,7 @@
 | Pages Git 直连 | 未启用 |
 | 发布方式 | GitHub Actions + Wrangler |
 | 发布目录 | `dist/` |
-| 生产环境变量/绑定 | 无 |
+| 生产环境变量/绑定 | Workers AI binding：`AI` |
 
 ## 发布边界
 
@@ -28,7 +28,7 @@ data/projects.js
 data/projects_live.json
 ```
 
-任何新增的公开文件必须显式加入 `PUBLISH_PATHS`，并通过测试确认。禁止直接执行 `wrangler pages deploy .`，因为仓库包含采集脚本、工作流、内容草稿和内部状态数据。
+任何新增的静态公开文件必须显式加入 `PUBLISH_PATHS`，并通过测试确认。`functions/api/advisor.js` 由 Cloudflare 单独编译为 Pages Function，不会作为静态文件公开。禁止直接执行 `wrangler pages deploy .`，因为仓库包含采集脚本、工作流、内容草稿和内部状态数据。
 
 ## 正常发布流程
 
@@ -37,7 +37,8 @@ data/projects_live.json
   → GitHub main
   → 数据校验
   → 最小站点构建
-  → Wrangler 上传 dist/
+  → Pages Function 编译与测试
+  → Wrangler 上传 dist/ 并部署 Function
   → Cloudflare Pages
 ```
 
@@ -48,7 +49,9 @@ data/projects_live.json
 ```bash
 python3 scripts/validate_data.py data/projects_live.json
 python3 -m unittest discover -s tests -v
+node --test tests/advisor_function.test.mjs
 python3 scripts/build_site.py --output dist
+npx wrangler@4.113.0 pages functions build functions --outdir .wrangler/functions-build --project-directory . --build-output-directory dist
 find dist -type f | sort
 ```
 
@@ -56,8 +59,17 @@ find dist -type f | sort
 
 - 数据 JSON 合法且项目 ID 唯一；
 - 回归测试全部通过；
+- Pages Function 编译成功，且 `AI` binding 配置存在；
 - `dist/` 恰好包含预期的 5 个文件；
 - 不包含 `.github/`、`.wrangler/`、`pipeline/` 或内容草稿。
+
+## AI 商业顾问
+
+访客侧顾问不使用 DeepSeek。`POST /api/advisor` 通过 `wrangler.jsonc` 中的 `AI` binding 调用 Cloudflare Workers AI；当前模型为 `@cf/meta/llama-3.2-3b-instruct`。站点没有用户登录系统，所有访客都可直接调用。
+
+若 Workers AI 绑定缺失、达到额度或推理服务暂时不可用，接口会返回可识别的错误，前端自动使用本地项目匹配与固定分析作为降级，不阻断页面功能。收藏与浏览记录仅保存在访客当前浏览器中。
+
+DeepSeek 仅用于每日采集流水线生成中文项目内容，对应密钥是 `DEEPSEEK_API_KEY`，不得放入 Cloudflare Pages 前端或 Function 环境。
 
 ## 每日采集
 
@@ -77,7 +89,7 @@ find dist -type f | sort
 1. 确认 GitHub Secrets 中两个 Cloudflare 配置均存在；
 2. 确认 Repository variable `CLOUDFLARE_ACCOUNT_ID` 和 Repository secret `CLOUDFLARE_API_TOKEN` 均可用；
 3. Token 至少需要该账户的 Cloudflare Pages 编辑权限；
-4. 在功能分支手动触发部署工作流，先验证预览部署；
+4. 确认 `wrangler.jsonc` 中存在 `AI` binding，并在功能分支手动触发部署工作流，先验证预览部署；
 5. 不要在日志、仓库或 Issue 中粘贴 Token。
 
 ### 每日采集成功但生产数据未更新

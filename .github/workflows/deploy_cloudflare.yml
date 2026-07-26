@@ -8,6 +8,10 @@ on:
       - "index.html"
       - "assets/**"
       - "data/**"
+      - "functions/**"
+      - "tests/advisor_function.test.mjs"
+      - "package.json"
+      - "wrangler.jsonc"
       - "scripts/build_site.py"
       - "scripts/validate_data.py"
       - ".github/workflows/deploy_cloudflare.yml"
@@ -46,11 +50,22 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+
       - name: Validate project database
         run: python3 scripts/validate_data.py data/projects_live.json
 
+      - name: Test AI advisor function
+        run: node --test tests/advisor_function.test.mjs
+
       - name: Build minimal Pages artifact
         run: python3 scripts/build_site.py --output dist
+
+      - name: Build Pages Functions
+        run: npx --yes wrangler@4.113.0 pages functions build functions --outdir .wrangler/functions-build --project-directory . --build-output-directory dist
 
       - name: Resolve deployment branch
         shell: bash
@@ -87,4 +102,4 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
           wranglerVersion: "4.113.0"
-          command: pages deploy dist --project-name=ai-shengyi-jing --branch=${{ env.DEPLOY_BRANCH }} --commit-dirty=true
+          command: pages deploy --branch=${{ env.DEPLOY_BRANCH }} --commit-dirty=true

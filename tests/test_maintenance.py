@@ -61,6 +61,35 @@ class BuildTests(unittest.TestCase):
         self.assertNotIn(".card-name-en", style_css)
         self.assertNotIn(".modal-name-en", style_css)
 
+    def test_public_ui_has_no_login_gate(self):
+        index_html = Path("index.html").read_text(encoding="utf-8")
+        app_js = Path("assets/app.js").read_text(encoding="utf-8")
+
+        for removed_id in (
+            "headerLoginBtn",
+            "authOverlay",
+            "memberOverlay",
+            "menuAdminDashboard",
+        ):
+            self.assertNotIn(removed_id, index_html)
+            self.assertNotIn(removed_id, app_js)
+
+        self.assertNotIn("CURRENT_USER", app_js)
+        self.assertNotIn("showAuthModal", app_js)
+        self.assertIn('id="headerLibraryBtn"', index_html)
+        self.assertIn('id="libraryOverlay"', index_html)
+        self.assertIn("Cloudflare Workers AI", index_html)
+        self.assertIn("'/api/advisor'", app_js)
+
+    def test_cloudflare_ai_binding_and_function_are_configured(self):
+        config = json.loads(Path("wrangler.jsonc").read_text(encoding="utf-8"))
+        function_js = Path("functions/api/advisor.js").read_text(encoding="utf-8")
+
+        self.assertEqual(config["pages_build_output_dir"], "./dist")
+        self.assertEqual(config["ai"]["binding"], "AI")
+        self.assertIn("context.env.AI.run", function_js)
+        self.assertIn("@cf/meta/llama-3.2-3b-instruct", function_js)
+
 
 class ValidationTests(unittest.TestCase):
     def test_duplicate_ids_fail_validation(self):

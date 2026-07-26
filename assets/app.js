@@ -8,8 +8,8 @@ let ALL_PROJECTS = []; // Holds normalized live database items
 
 // =========== INIT ===========
 document.addEventListener('DOMContentLoaded', () => {
-  // 0. Init Auth, Analytics, Member & Admin listeners
-  initAuthAndAnalytics();
+  // 0. Initialize the login-free local favorites and history library.
+  setupLocalLibrary();
 
   // 1. Initial render of static featured items
   renderFeatured();
@@ -21,6 +21,8 @@ document.addEventListener('DOMContentLoaded', () => {
     .then(r => r.json())
     .then(data => {
       ALL_PROJECTS = data.map(p => normalizeProject(p));
+      renderLocalFavorites();
+      renderLocalHistory();
       
       // Update dynamic total stats
       const totalCount = ALL_PROJECTS.length;
@@ -784,12 +786,7 @@ function setupAiAdvisor() {
 
   if (!bubble || !panel) return;
 
-  // Toggle Panel with Auth Gating
   bubble.addEventListener('click', () => {
-    if (!CURRENT_USER) {
-      showAuthModal('🔒 成为注册会员即可解锁「AI 商业顾问」专属商业剖析智囊与案例推荐');
-      return;
-    }
     panel.classList.toggle('open');
     if (panel.classList.contains('open')) {
       input.focus();
@@ -801,38 +798,36 @@ function setupAiAdvisor() {
   });
 
   // Send message
-  function handleSend() {
-    if (!CURRENT_USER) {
-      showAuthModal('🔒 成为注册会员即可解锁「AI 商业顾问」专属商业剖析智囊与案例推荐');
-      return;
-    }
-
+  let isSending = false;
+  async function handleSend() {
     const text = input.value.trim();
-    if (!text) return;
+    if (!text || isSending) return;
+    isSending = true;
+    input.disabled = true;
+    sendBtn.disabled = true;
     
-    // Append User Message
     appendMessage(text, 'user-msg');
     input.value = '';
-
-    // Track AI advisor interaction in analytics
-    let analytics = JSON.parse(localStorage.getItem('ai_shengyi_analytics') || '{}');
-    analytics.advisorChats = (analytics.advisorChats || 1420) + 1;
-    localStorage.setItem('ai_shengyi_analytics', JSON.stringify(analytics));
-
-    // Show Typing Indicator
-    const typingId = appendMessage('🤖 AI 顾问正在检索商业大盘并构思方案...', 'bot-msg');
     
-    setTimeout(() => {
-      // Remove typing message
+    const matches = findBestMatches(text);
+    const typingId = appendMessage('🤖 Cloudflare AI 正在结合项目大盘生成建议...', 'bot-msg');
+
+    try {
+      const reply = await requestAdvisorResponse(text, matches);
       const typingEl = document.getElementById(typingId);
       if (typingEl) typingEl.remove();
-
-      // Retrieve Top Matches from live database
-      const matches = findBestMatches(text);
-      const reply = generateAdvisorResponse(text, matches);
-      
       appendMessage(reply, 'bot-msg', matches);
-    }, 1200);
+    } catch (error) {
+      console.warn('[WARN] Cloudflare AI unavailable; using local advisor fallback.', error);
+      const typingEl = document.getElementById(typingId);
+      if (typingEl) typingEl.remove();
+      appendMessage(generateAdvisorFallbackResponse(text, matches), 'bot-msg', matches);
+    } finally {
+      isSending = false;
+      input.disabled = false;
+      sendBtn.disabled = false;
+      input.focus();
+    }
   }
 
   sendBtn.addEventListener('click', handleSend);
@@ -843,10 +838,6 @@ function setupAiAdvisor() {
 
 // Global Suggestion Trigger
 window.sendSuggestion = function(text) {
-  if (!CURRENT_USER) {
-    showAuthModal('🔒 成为注册会员即可解锁「AI 商业顾问」专属商业剖析智囊与案例推荐');
-    return;
-  }
   const panel = document.getElementById('aiAdvisorPanel');
   const input = document.getElementById('aiMessageInput');
   if (panel && input) {
@@ -855,6 +846,31 @@ window.sendSuggestion = function(text) {
     document.getElementById('sendAiMessageBtn').click();
   }
 };
+
+async function requestAdvisorResponse(query, matches) {
+  const projects = matches.map(p => ({
+    id: p.id,
+    name: getChineseName(p),
+    summary: p.summary,
+    revenue: p.revenueDisplay,
+    category: p.category,
+    businessModel: p.businessModel,
+    chinaOpportunity: p.chinaOpportunity,
+    productArch: p.productArch,
+    businessLoop: p.businessLoop
+  }));
+
+  const response = await fetch('/api/advisor', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ query, projects })
+  });
+  const payload = await response.json().catch(() => ({}));
+  if (!response.ok || typeof payload.answer !== 'string' || !payload.answer.trim()) {
+    throw new Error(payload.error || `Advisor request failed with status ${response.status}`);
+  }
+  return payload.answer.trim();
+}
 
 function getChineseName(p) {
   if (!p) return '';
@@ -884,7 +900,7 @@ function appendMessage(text, className, matches = []) {
   msg.id = id;
   msg.className = `msg ${className}`;
   
-  let html = text
+  let html = escapeHtml(String(text))
     .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
     .replace(/\n/g, '<br>');
   
@@ -903,6 +919,15 @@ function appendMessage(text, className, matches = []) {
   messagesWrap.appendChild(msg);
   messagesWrap.scrollTop = messagesWrap.scrollHeight;
   return id;
+}
+
+function escapeHtml(text) {
+  return text
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
 }
 
 function findBestMatches(query) {
@@ -938,192 +963,92 @@ function findBestMatches(query) {
   return filtered.slice(0, 3).map(s => s.project);
 }
 
-function generateAdvisorResponse(query, matches) {
+function generateAdvisorFallbackResponse(query, matches) {
   if (matches.length === 0) {
-    return `关于您提到的 "${query}"，我检索了全球 3,000+ 案例，目前在出海大盘中暂时没有完全重合的垂直项目。
+    return `当前 Cloudflare AI 免费额度暂时不可用，先为你提供本地项目库分析。
 
-但从相似赛道的商业逻辑来看，我建议您可以参考「AI工具」或「Micro-SaaS」的发展路径：
-1. **MVP极速上线**：利用 Webflow/Vite + Claude API 在 3 天内制作一个极简表单或生成式页面，跑通核心功能。
+关于你提到的“${query}”，目前在项目大盘中没有完全重合的垂直案例，可以参考「AI工具」或「Micro-SaaS」路径：
+
+1. **MVP 极速上线**：先用成熟组件和 Cloudflare Workers AI 做一个极简页面，验证核心需求。
 2. **本土冷启动**：在中国市场利用小红书发布解决痛点的短视频或图文，引流私域微信群。
 3. **闭环变现**：前期通过国内爱发电或直接微信扫码支付提供周卡/月卡，验证用户的真金白银付费意愿。`;
   }
 
   const p1 = matches[0];
   const cnName = getChineseName(p1);
-  const displayTitle = cnName !== p1.nameEn && cnName !== p1.name
-    ? `${cnName} (${p1.nameEn || p1.name})`
-    : cnName;
 
-  let reply = `🧠 **商业顾问分析报告：**\n根据您咨询的创意，为您精准匹配到本站最成功的出海案例 **${displayTitle}**（月营收达 **${p1.revenueDisplay}**）。\n\n`;
+  let reply = `当前 Cloudflare AI 免费额度暂时不可用，先为你提供本地项目库分析。\n\n`;
+  reply += `🧠 **商业顾问分析报告：**\n根据你的想法，项目库匹配到案例 **${cnName}**（营收数据 **${p1.revenueDisplay}**）。\n\n`;
   reply += `💡 **核心商业逻辑**：\n该项目成功的关键在于 **${p1.summary}**。它以极低的团队成本（团队通常仅有 1 人），通过精细的流量获客，实现了超高利润率。\n\n`;
   reply += `🇨🇳 **中国本土落地冷启动方案**：\n`;
-  reply += `1. **系统克隆**：国内开发者可以完全复刻其系统架构。国内可直接调用 DeepSeek API 作为模型底座，接口成本可降低 90% 以上。\n`;
+  reply += `1. **系统验证**：先使用 Cloudflare Workers AI 免费额度验证核心智能功能，再根据真实使用量决定是否扩容。\n`;
   reply += `2. **精准获客**：放弃高昂的搜索引擎竞价，转为在小红书、即刻或掘金等垂直社区发布“痛点实战解决方案”相关图文，自动引流私域粉丝。\n`;
   reply += `3. **支付闭环**：使用国内免签支付接口（如虎皮椒或面包多），在微信小程序内直接完成订阅转化，当天即可看到首笔现金流。`;
 
   return reply;
 }
 
-// =========== MEMBER & AUTH SYSTEM MODULES ===========
-let CURRENT_USER = null;
+// =========== LOGIN-FREE LOCAL PROJECT LIBRARY ===========
+const FAVORITES_KEY = 'ai_shengyi_favorites';
+const HISTORY_KEY = 'ai_shengyi_history';
 
-function initAuthAndAnalytics() {
-  trackVisitorAnalytics();
-  
-  const storedUser = localStorage.getItem('ai_shengyi_user');
-  if (storedUser) {
-    try {
-      CURRENT_USER = JSON.parse(storedUser);
-    } catch (e) {
-      CURRENT_USER = null;
+function readLocalArray(key) {
+  try {
+    const value = JSON.parse(localStorage.getItem(key) || '[]');
+    return Array.isArray(value) ? value : [];
+  } catch {
+    return [];
+  }
+}
+
+function migrateLegacyLibraryData() {
+  const favorites = new Set(readLocalArray(FAVORITES_KEY));
+  const historyById = new Map(
+    readLocalArray(HISTORY_KEY)
+      .filter(item => item && item.id)
+      .map(item => [item.id, item])
+  );
+  const legacyKeys = [];
+
+  for (let index = 0; index < localStorage.length; index += 1) {
+    const key = localStorage.key(index);
+    if (!key) continue;
+
+    if (key.startsWith('ai_shengyi_fav_')) {
+      readLocalArray(key).forEach(id => favorites.add(id));
+      legacyKeys.push(key);
     }
-  }
-  
-  updateHeaderUserUI();
-  setupAuthEventListeners();
-  setupMemberEventListeners();
-  setupAdminEventListeners();
-}
 
-function trackVisitorAnalytics() {
-  let analytics = JSON.parse(localStorage.getItem('ai_shengyi_analytics') || '{"pv": 12850, "uvs": [], "advisorChats": 1420, "members": []}');
-  
-  analytics.pv = (analytics.pv || 12850) + 1;
-  
-  let visitorId = localStorage.getItem('ai_shengyi_visitor_id');
-  if (!visitorId) {
-    visitorId = 'uv_' + Math.random().toString(36).substr(2, 9);
-    localStorage.setItem('ai_shengyi_visitor_id', visitorId);
-  }
-  if (!analytics.uvs.includes(visitorId)) {
-    analytics.uvs.push(visitorId);
-  }
-
-  if (!analytics.members || analytics.members.length === 0) {
-    analytics.members = [
-      { email: 'admin@ai-shengyi.com', role: 'admin', joinDate: '2026-07-01', favs: ['p_001', 'p_003'] },
-      { email: 'founder_alex@gmail.com', role: 'member', joinDate: '2026-07-15', favs: ['p_002'] },
-      { email: '13800138000', role: 'member', joinDate: '2026-07-20', favs: ['p_001', 'p_004'] }
-    ];
-  }
-
-  localStorage.setItem('ai_shengyi_analytics', JSON.stringify(analytics));
-}
-
-function isUserAdmin(user) {
-  if (!user) return false;
-  const email = (user.email || '').toLowerCase();
-  return email === 'hans.pan007@gmail.com' || email.includes('admin') || user.role === 'admin';
-}
-
-function updateHeaderUserUI() {
-  const loginBtn = document.getElementById('headerLoginBtn');
-  const userNavGroup = document.getElementById('userNavGroup');
-  const headerUserName = document.getElementById('headerUserName');
-  const menuAdminDash = document.getElementById('menuAdminDashboard');
-  const adminNavBtn = document.getElementById('adminDashboardNavBtn');
-
-  if (CURRENT_USER) {
-    if (loginBtn) loginBtn.style.display = 'none';
-    if (userNavGroup) userNavGroup.style.display = 'inline-block';
-    
-    const isAdmin = isUserAdmin(CURRENT_USER);
-    if (isAdmin) {
-      CURRENT_USER.role = 'admin';
-      if (!CURRENT_USER.nickname || CURRENT_USER.nickname === '会员用户' || CURRENT_USER.nickname === 'hans.pan007') {
-        CURRENT_USER.nickname = '站长 (Hans)';
-      }
-    }
-    
-    if (headerUserName) headerUserName.innerText = CURRENT_USER.nickname || CURRENT_USER.email || CURRENT_USER.phone || '会员';
-    if (menuAdminDash) menuAdminDash.style.display = isAdmin ? 'flex' : 'none';
-    if (adminNavBtn) adminNavBtn.style.display = isAdmin ? 'block' : 'none';
-  } else {
-    if (loginBtn) loginBtn.style.display = 'inline-flex';
-    if (userNavGroup) userNavGroup.style.display = 'none';
-    if (menuAdminDash) menuAdminDash.style.display = 'none';
-  }
-}
-
-function updateMemberSidebarHeaderUI() {
-  if (!CURRENT_USER) return;
-  const avatarEl = document.getElementById('memberAvatar');
-  const nameEl = document.getElementById('memberName');
-  const badgeEl = document.getElementById('memberRoleBadge');
-  const adminNavBtn = document.getElementById('adminDashboardNavBtn');
-
-  const isAdmin = isUserAdmin(CURRENT_USER);
-
-  if (avatarEl) avatarEl.innerText = isAdmin ? '👑' : '👤';
-  if (nameEl) nameEl.innerText = CURRENT_USER.nickname || (isAdmin ? '站长 (Hans)' : '会员用户');
-  if (badgeEl) badgeEl.innerText = isAdmin ? '👑 站点管理员' : '💎 尊享会员';
-  if (adminNavBtn) adminNavBtn.style.display = isAdmin ? 'block' : 'none';
-}
-
-function showAuthModal(promptMsg) {
-  const overlay = document.getElementById('authOverlay');
-  if (!overlay) return;
-  const subtitle = overlay.querySelector('.auth-subtitle');
-  if (subtitle && promptMsg) {
-    subtitle.innerText = promptMsg;
-  }
-  overlay.style.display = 'flex';
-}
-
-function hideAuthModal() {
-  const overlay = document.getElementById('authOverlay');
-  if (overlay) overlay.style.display = 'none';
-}
-
-function loginAsUser(userObj) {
-  if (userObj.email && (userObj.email.toLowerCase() === 'hans.pan007@gmail.com' || userObj.email.toLowerCase().includes('admin'))) {
-    userObj.role = 'admin';
-    userObj.nickname = '站长 (Hans)';
-  }
-
-  CURRENT_USER = userObj;
-  localStorage.setItem('ai_shengyi_user', JSON.stringify(CURRENT_USER));
-  
-  let analytics = JSON.parse(localStorage.getItem('ai_shengyi_analytics') || '{}');
-  if (analytics.members) {
-    const existing = analytics.members.find(m => (m.email && m.email === userObj.email) || (m.phone && m.phone === userObj.phone));
-    if (!existing) {
-      analytics.members.push(userObj);
-      localStorage.setItem('ai_shengyi_analytics', JSON.stringify(analytics));
+    if (key.startsWith('ai_shengyi_hist_')) {
+      readLocalArray(key).forEach(item => {
+        if (!item || !item.id) return;
+        const existing = historyById.get(item.id);
+        if (!existing || Number(item.timestamp || 0) > Number(existing.timestamp || 0)) {
+          historyById.set(item.id, item);
+        }
+      });
+      legacyKeys.push(key);
     }
   }
 
-  updateHeaderUserUI();
-  hideAuthModal();
-  renderProjects();
-}
+  const history = [...historyById.values()]
+    .sort((a, b) => Number(b.timestamp || 0) - Number(a.timestamp || 0))
+    .slice(0, 50);
+  localStorage.setItem(FAVORITES_KEY, JSON.stringify([...favorites]));
+  localStorage.setItem(HISTORY_KEY, JSON.stringify(history));
 
-function logoutUser() {
-  CURRENT_USER = null;
+  legacyKeys.forEach(key => localStorage.removeItem(key));
   localStorage.removeItem('ai_shengyi_user');
-  updateHeaderUserUI();
-  const memberOverlay = document.getElementById('memberOverlay');
-  if (memberOverlay) memberOverlay.style.display = 'none';
-  const userDropdown = document.getElementById('userDropdownMenu');
-  if (userDropdown) userDropdown.style.display = 'none';
-  renderProjects();
+  localStorage.removeItem('ai_shengyi_analytics');
 }
 
 function isProjectFavorited(id) {
-  if (!CURRENT_USER) return false;
-  const key = 'ai_shengyi_fav_' + (CURRENT_USER.id || CURRENT_USER.email || CURRENT_USER.phone || 'user');
-  const favs = JSON.parse(localStorage.getItem(key) || '[]');
+  const favs = readLocalArray(FAVORITES_KEY);
   return favs.includes(id);
 }
 
 function toggleFavorite(id) {
-  if (!CURRENT_USER) {
-    showAuthModal('⭐️ 登录账户即可收藏心仪案例并同步至会员个人中心');
-    return;
-  }
-
-  const key = 'ai_shengyi_fav_' + (CURRENT_USER.id || CURRENT_USER.email || CURRENT_USER.phone || 'user');
-  let favs = JSON.parse(localStorage.getItem(key) || '[]');
+  let favs = readLocalArray(FAVORITES_KEY);
   
   if (favs.includes(id)) {
     favs = favs.filter(f => f !== id);
@@ -1131,25 +1056,14 @@ function toggleFavorite(id) {
     favs.push(id);
   }
 
-  localStorage.setItem(key, JSON.stringify(favs));
-  
-  let analytics = JSON.parse(localStorage.getItem('ai_shengyi_analytics') || '{}');
-  if (analytics.members) {
-    const userInAnalytics = analytics.members.find(m => (m.email && m.email === CURRENT_USER.email) || (m.phone && m.phone === CURRENT_USER.phone));
-    if (userInAnalytics) {
-      userInAnalytics.favs = favs;
-      localStorage.setItem('ai_shengyi_analytics', JSON.stringify(analytics));
-    }
-  }
-
+  localStorage.setItem(FAVORITES_KEY, JSON.stringify(favs));
   renderProjects();
-  renderMemberFavorites();
+  renderLocalFavorites();
 }
 
 function recordProjectHistory(project) {
   if (!project || !project.id) return;
-  const key = CURRENT_USER ? ('ai_shengyi_hist_' + (CURRENT_USER.id || CURRENT_USER.email || CURRENT_USER.phone || 'user')) : 'ai_shengyi_hist_guest';
-  let history = JSON.parse(localStorage.getItem(key) || '[]');
+  let history = readLocalArray(HISTORY_KEY);
   
   history = history.filter(h => h.id !== project.id);
   const now = new Date();
@@ -1158,193 +1072,57 @@ function recordProjectHistory(project) {
   history.unshift({
     id: project.id,
     name: project.name,
-    nameEn: project.nameEn,
     time: timeStr,
     timestamp: now.getTime()
   });
 
   if (history.length > 50) history = history.slice(0, 50);
-  localStorage.setItem(key, JSON.stringify(history));
+  localStorage.setItem(HISTORY_KEY, JSON.stringify(history));
 }
 
-function setupAuthEventListeners() {
-  const loginBtn = document.getElementById('headerLoginBtn');
-  const authClose = document.getElementById('authClose');
-  const authOverlay = document.getElementById('authOverlay');
+function setupLocalLibrary() {
+  migrateLegacyLibraryData();
 
-  if (loginBtn) loginBtn.addEventListener('click', () => showAuthModal());
-  if (authClose) authClose.addEventListener('click', hideAuthModal);
-  if (authOverlay) {
-    authOverlay.addEventListener('click', e => {
-      if (e.target === authOverlay) hideAuthModal();
+  const openBtn = document.getElementById('headerLibraryBtn');
+  const overlay = document.getElementById('libraryOverlay');
+  const closeBtn = document.getElementById('libraryClose');
+
+  function openLibraryTab(tabName) {
+    if (!overlay) return;
+    overlay.style.display = 'flex';
+    document.querySelectorAll('.library-nav-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.tab === tabName);
     });
+    document.querySelectorAll('.library-panel').forEach(panel => {
+      panel.style.display = 'none';
+    });
+    const panelId = 'libraryPanel' + tabName.charAt(0).toUpperCase() + tabName.slice(1);
+    const panel = document.getElementById(panelId);
+    if (panel) panel.style.display = 'block';
+    if (tabName === 'favorites') renderLocalFavorites();
+    if (tabName === 'history') renderLocalHistory();
   }
 
-  document.querySelectorAll('.auth-tab-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.auth-tab-btn').forEach(b => b.classList.remove('active'));
-      document.querySelectorAll('.auth-tab-content').forEach(c => c.style.display = 'none');
-      btn.classList.add('active');
-      const tabId = 'authTab' + btn.dataset.tab.charAt(0).toUpperCase() + btn.dataset.tab.slice(1);
-      const contentEl = document.getElementById(tabId);
-      if (contentEl) contentEl.style.display = 'block';
-    });
+  if (openBtn) openBtn.addEventListener('click', () => openLibraryTab('favorites'));
+  if (closeBtn) closeBtn.addEventListener('click', () => {
+    if (overlay) overlay.style.display = 'none';
   });
-
-  const sendSmsBtn = document.getElementById('sendSmsCodeBtn');
-  if (sendSmsBtn) {
-    sendSmsBtn.addEventListener('click', () => {
-      const phoneInput = document.getElementById('authPhoneInput');
-      const phone = phoneInput ? phoneInput.value.trim() : '';
-      if (!phone || phone.length < 11) {
-        alert('请输入有效的11位手机号码');
-        return;
-      }
-      const codeInput = document.getElementById('authSmsCodeInput');
-      if (codeInput) codeInput.value = '888888';
-      let sec = 60;
-      sendSmsBtn.disabled = true;
-      sendSmsBtn.innerText = `已发送 (${sec}s)`;
-      const timer = setInterval(() => {
-        sec--;
-        if (sec <= 0) {
-          clearInterval(timer);
-          sendSmsBtn.disabled = false;
-          sendSmsBtn.innerText = '获取验证码';
-        } else {
-          sendSmsBtn.innerText = `已发送 (${sec}s)`;
-        }
-      }, 1000);
+  if (overlay) {
+    overlay.addEventListener('click', event => {
+      if (event.target === overlay) overlay.style.display = 'none';
     });
   }
-
-  const emailSubmit = document.getElementById('emailAuthSubmitBtn');
-  if (emailSubmit) {
-    emailSubmit.addEventListener('click', () => {
-      const email = document.getElementById('authEmailInput').value.trim() || 'user@domain.com';
-      loginAsUser({
-        email: email,
-        role: email.includes('admin') ? 'admin' : 'member',
-        nickname: email.split('@')[0],
-        joinDate: new Date().toISOString().split('T')[0]
-      });
-    });
-  }
-
-  const smsSubmit = document.getElementById('smsAuthSubmitBtn');
-  if (smsSubmit) {
-    smsSubmit.addEventListener('click', () => {
-      const phone = document.getElementById('authPhoneInput').value.trim() || '13800138000';
-      loginAsUser({
-        phone: phone,
-        role: 'member',
-        nickname: '创客_' + phone.slice(-4),
-        joinDate: new Date().toISOString().split('T')[0]
-      });
-    });
-  }
-
-  const googleSubmit = document.getElementById('googleAuthSubmitBtn');
-  if (googleSubmit) {
-    googleSubmit.addEventListener('click', () => {
-      loginAsUser({
-        email: 'alex.innovator@gmail.com',
-        role: 'member',
-        nickname: 'Alex Innovator',
-        joinDate: new Date().toISOString().split('T')[0]
-      });
-    });
-  }
-}
-
-function setupMemberEventListeners() {
-  const userAvatarBtn = document.getElementById('userAvatarBtn');
-  const dropdownMenu = document.getElementById('userDropdownMenu');
-  const memberOverlay = document.getElementById('memberOverlay');
-  const memberClose = document.getElementById('memberClose');
-  const memberLogoutBtn = document.getElementById('memberLogoutBtn');
-  const menuLogout = document.getElementById('menuLogout');
-
-  if (userAvatarBtn && dropdownMenu) {
-    userAvatarBtn.addEventListener('click', (e) => {
-      e.stopPropagation();
-      dropdownMenu.style.display = dropdownMenu.style.display === 'none' ? 'block' : 'none';
-    });
-    document.addEventListener('click', () => {
-      dropdownMenu.style.display = 'none';
-    });
-  }
-
-  const menuMemberCenter = document.getElementById('menuMemberCenter');
-  const menuMyFavorites = document.getElementById('menuMyFavorites');
-  const menuMyHistory = document.getElementById('menuMyHistory');
-  const menuAdminDash = document.getElementById('menuAdminDashboard');
-
-  function openMemberModalTab(tabName) {
-    if (memberOverlay) memberOverlay.style.display = 'flex';
-    
-    updateMemberSidebarHeaderUI();
-
-    document.querySelectorAll('.member-nav-btn').forEach(btn => {
-      if (btn.dataset.tab === tabName) btn.classList.add('active');
-      else btn.classList.remove('active');
-    });
-    document.querySelectorAll('.member-panel').forEach(p => p.style.display = 'none');
-    const panelId = 'memberPanel' + tabName.charAt(0).toUpperCase() + tabName.slice(1);
-    const panelEl = document.getElementById(panelId);
-    if (panelEl) panelEl.style.display = 'block';
-
-    if (tabName === 'favorites') renderMemberFavorites();
-    if (tabName === 'history') renderMemberHistory();
-    if (tabName === 'profile') renderMemberProfileInfo();
-    if (tabName === 'admin') renderAdminDashboard();
-  }
-
-  if (menuMemberCenter) menuMemberCenter.addEventListener('click', (e) => { e.preventDefault(); openMemberModalTab('favorites'); });
-  if (menuMyFavorites) menuMyFavorites.addEventListener('click', (e) => { e.preventDefault(); openMemberModalTab('favorites'); });
-  if (menuMyHistory) menuMyHistory.addEventListener('click', (e) => { e.preventDefault(); openMemberModalTab('history'); });
-  if (menuAdminDash) menuAdminDash.addEventListener('click', (e) => { e.preventDefault(); openMemberModalTab('admin'); });
-  
-  if (memberClose) memberClose.addEventListener('click', () => { if (memberOverlay) memberOverlay.style.display = 'none'; });
-  if (memberLogoutBtn) memberLogoutBtn.addEventListener('click', logoutUser);
-  if (menuLogout) menuLogout.addEventListener('click', (e) => { e.preventDefault(); logoutUser(); });
-
-  document.querySelectorAll('.member-nav-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const tab = btn.dataset.tab;
-      openMemberModalTab(tab);
-    });
+  document.querySelectorAll('.library-nav-btn').forEach(btn => {
+    btn.addEventListener('click', () => openLibraryTab(btn.dataset.tab));
   });
-
-  const roleToggleBtn = document.getElementById('btnToggleAdminRole');
-  if (roleToggleBtn) {
-    roleToggleBtn.addEventListener('click', () => {
-      if (!CURRENT_USER) return;
-      if (CURRENT_USER.role === 'admin') {
-        CURRENT_USER.role = 'member';
-        CURRENT_USER.email = 'user@domain.com';
-        CURRENT_USER.nickname = '普通会员';
-      } else {
-        CURRENT_USER.role = 'admin';
-        CURRENT_USER.email = 'hans.pan007@gmail.com';
-        CURRENT_USER.nickname = '站长 (Hans)';
-      }
-      localStorage.setItem('ai_shengyi_user', JSON.stringify(CURRENT_USER));
-      updateHeaderUserUI();
-      renderMemberProfileInfo();
-      openMemberModalTab('profile');
-      alert(`已切换账号为: ${CURRENT_USER.email} (${CURRENT_USER.role === 'admin' ? '👑 管理员 - 已启用⚙️系统管理功能' : '💎 普通会员'})`);
-    });
-  }
 }
 
-function renderMemberFavorites() {
+function renderLocalFavorites() {
   const grid = document.getElementById('favGrid');
   const countEl = document.getElementById('favCount');
-  if (!grid || !CURRENT_USER) return;
+  if (!grid) return;
 
-  const key = 'ai_shengyi_fav_' + (CURRENT_USER.id || CURRENT_USER.email || CURRENT_USER.phone || 'user');
-  const favIds = JSON.parse(localStorage.getItem(key) || '[]');
+  const favIds = readLocalArray(FAVORITES_KEY);
   if (countEl) countEl.innerText = favIds.length;
 
   if (favIds.length === 0) {
@@ -1362,13 +1140,12 @@ function renderMemberFavorites() {
   `).join('');
 }
 
-function renderMemberHistory() {
+function renderLocalHistory() {
   const timeline = document.getElementById('historyTimeline');
   const countEl = document.getElementById('historyCount');
   if (!timeline) return;
 
-  const key = CURRENT_USER ? ('ai_shengyi_hist_' + (CURRENT_USER.id || CURRENT_USER.email || CURRENT_USER.phone || 'user')) : 'ai_shengyi_hist_guest';
-  const history = JSON.parse(localStorage.getItem(key) || '[]');
+  const history = readLocalArray(HISTORY_KEY);
   if (countEl) countEl.innerText = history.length;
 
   if (history.length === 0) {
@@ -1379,87 +1156,9 @@ function renderMemberHistory() {
   timeline.innerHTML = history.map(item => `
     <div class="history-item" onclick="openModal('${item.id}')">
       <div class="history-left">
-        <strong>${item.name}</strong> (${item.nameEn})
+        <strong>${item.name}</strong>
       </div>
       <div class="history-time" style="font-size:12px;color:var(--text-muted);">${item.time}</div>
     </div>
   `).join('');
-}
-
-function renderMemberProfileInfo() {
-  if (!CURRENT_USER) return;
-  const roleEl = document.getElementById('profRole');
-  const accEl = document.getElementById('profAccount');
-  const dateEl = document.getElementById('profJoinDate');
-  const avatarEl = document.getElementById('memberAvatar');
-  const nameEl = document.getElementById('memberName');
-  const badgeEl = document.getElementById('memberRoleBadge');
-
-  if (roleEl) roleEl.innerText = CURRENT_USER.role === 'admin' ? '👑 站点管理员' : '💎 尊享会员';
-  if (accEl) accEl.innerText = CURRENT_USER.email || CURRENT_USER.phone || '账号已绑定';
-  if (dateEl) dateEl.innerText = CURRENT_USER.joinDate || '2026-07-22';
-  if (avatarEl) avatarEl.innerText = CURRENT_USER.role === 'admin' ? '👑' : '👤';
-  if (nameEl) nameEl.innerText = CURRENT_USER.nickname || '会员用户';
-  if (badgeEl) badgeEl.innerText = CURRENT_USER.role === 'admin' ? '👑 管理员' : '💎 尊享会员';
-}
-
-function setupAdminEventListeners() {
-  const menuAdmin = document.getElementById('menuAdminDashboard');
-  const adminOverlay = document.getElementById('adminOverlay');
-  const adminClose = document.getElementById('adminClose');
-
-  if (menuAdmin) menuAdmin.addEventListener('click', showAdminDashboard);
-  if (adminClose) adminClose.addEventListener('click', () => { if (adminOverlay) adminOverlay.style.display = 'none'; });
-  if (adminOverlay) {
-    adminOverlay.addEventListener('click', e => {
-      if (e.target === adminOverlay) adminOverlay.style.display = 'none';
-    });
-  }
-}
-
-function showAdminDashboard() {
-  const adminOverlay = document.getElementById('adminOverlay');
-  if (!adminOverlay) return;
-  renderAdminDashboard();
-  adminOverlay.style.display = 'flex';
-}
-
-function renderAdminDashboard() {
-  const analytics = JSON.parse(localStorage.getItem('ai_shengyi_analytics') || '{}');
-  
-  const pvEl = document.getElementById('adminTotalPv');
-  const uvEl = document.getElementById('adminTotalUv');
-  const membersEl = document.getElementById('adminTotalMembers');
-  const chatsEl = document.getElementById('adminAdvisorChats');
-
-  if (pvEl) pvEl.innerText = (analytics.pv || 12850).toLocaleString('zh-CN');
-  if (uvEl) uvEl.innerText = (analytics.uvs ? analytics.uvs.length : 3420).toLocaleString('zh-CN');
-  if (membersEl) membersEl.innerText = (analytics.members ? analytics.members.length : 3).toLocaleString('zh-CN');
-  if (chatsEl) chatsEl.innerText = (analytics.advisorChats || 1420).toLocaleString('zh-CN');
-
-  const rankList = document.getElementById('adminTopProjects');
-  if (rankList && ALL_PROJECTS.length > 0) {
-    const topProjects = ALL_PROJECTS.slice(0, 5);
-    rankList.innerHTML = topProjects.map((p, i) => `
-      <div class="admin-rank-item">
-        <div>
-          <span class="rank-badge">${i + 1}</span>
-          <strong>${p.name}</strong> (${p.nameEn})
-        </div>
-        <span class="rank-count" style="color:var(--primary);font-weight:700;">⭐ ${(5 - i) * 8 + 12} 收藏</span>
-      </div>
-    `).join('');
-  }
-
-  const tableBody = document.getElementById('adminUserTableBody');
-  if (tableBody && analytics.members) {
-    tableBody.innerHTML = analytics.members.map(m => `
-      <tr>
-        <td><strong>${m.email || m.phone || '匿名会员'}</strong></td>
-        <td><span class="member-badge">${m.role === 'admin' ? '👑 管理员' : '💎 会员'}</span></td>
-        <td>${(m.favs ? m.favs.length : 2)} 个</td>
-        <td>${m.joinDate || '2026-07-22'}</td>
-      </tr>
-    `).join('');
-  }
 }

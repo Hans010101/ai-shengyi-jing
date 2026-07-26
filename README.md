@@ -14,6 +14,7 @@
 .
 ├── index.html                       # 单页站点
 ├── assets/                          # 前端脚本与样式
+├── functions/api/advisor.js         # Cloudflare Workers AI 顾问接口
 ├── data/
 │   ├── projects.js                  # 手工精选案例
 │   └── projects_live.json           # 全量项目数据库
@@ -27,23 +28,34 @@
 │   ├── validate_data.py             # 部署前数据校验
 │   └── repair_project_data.py       # 去重并同步已处理索引
 ├── tests/                            # 维护回归测试
+├── wrangler.jsonc                    # Pages 与 Workers AI 绑定配置
 └── .github/workflows/               # CI、采集与部署工作流
 ```
 
-`pipeline/`、内容草稿、GitHub 工作流和本地缓存不会发布到生产站点。Cloudflare 只接收 `dist/` 中的 5 个公开文件。
+`pipeline/`、内容草稿、GitHub 工作流和本地缓存不会发布到生产站点。Cloudflare 只接收 `dist/` 中的 5 个静态公开文件，并在服务端编译 `functions/` 中的 Pages Function。
 
 ## 本地运行
 
-要求 Python 3.11+；站点本身不需要 Node.js 构建。
+要求 Python 3.11+ 和 Node.js 22+。
 
 ```bash
 python3 scripts/validate_data.py data/projects_live.json
 python3 -m unittest discover -s tests -v
+node --test tests/advisor_function.test.mjs
 python3 scripts/build_site.py --output dist
+npx wrangler@4.113.0 pages functions build functions --outdir .wrangler/functions-build --project-directory . --build-output-directory dist
 python3 -m http.server 8080 --directory dist
 ```
 
-然后访问 <http://localhost:8080>。
+静态页面可访问 <http://localhost:8080>。需要联调 AI 接口时，使用 Wrangler Pages 本地开发服务。
+
+## AI 商业顾问
+
+- 网页无需注册或登录，AI 顾问、收藏和浏览记录均可直接使用；
+- 顾问通过 `AI` binding 调用 Cloudflare Workers AI，模型为 `@cf/meta/llama-3.2-3b-instruct`；
+- Workers AI 不可用或免费额度用尽时，前端自动降级到本地项目库分析；
+- 收藏和浏览记录只保存在当前浏览器的 `localStorage`，不上传账户数据；
+- `DEEPSEEK_API_KEY` 仅供后台内容采集与中文商业拆解使用，不参与访客侧 AI 顾问请求。
 
 ## 数据维护
 
@@ -77,7 +89,7 @@ python3 scripts/validate_data.py data/projects_live.json
 
 - Repository variable：`CLOUDFLARE_ACCOUNT_ID`
 - Repository secret：`CLOUDFLARE_API_TOKEN`
-- Repository secret：`DEEPSEEK_API_KEY`
+- Repository secret：`DEEPSEEK_API_KEY`（仅每日采集）
 
 完整运维流程、故障处理和回滚方式见 [docs/OPERATIONS.md](docs/OPERATIONS.md)。
 
