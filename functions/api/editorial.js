@@ -87,8 +87,8 @@ function articleSchema() {
       },
       sections: {
         type: 'array',
-        minItems: 5,
-        maxItems: 7,
+        minItems: 6,
+        maxItems: 8,
         items: {
           type: 'object',
           properties: {
@@ -138,10 +138,12 @@ function buildMessages(payload) {
 1. 只能使用提供的事实，无法核实的数字要注明“据来源页披露”或省略。
 2. 不逐句翻译、不复刻原文段落顺序、不长篇引用；必须重新组织叙事并加入中国创业者视角的分析。
 3. 标题克制，不使用“稳赚”“完美复制”等承诺性表达。
-4. 全文约 1400—2200 个中文字符，5—7 个章节，每节 2—4 个短段落。
-5. 风格像高质量微信公众号文章：开头有场景感，中段有商业拆解，结尾有行动启发。
-6. 明确区分事实、编辑分析和风险提示。
-7. 只返回符合 JSON Schema 的数据，不输出 Markdown。`
+4. 全文约 2400—3600 个中文字符，6—8 个章节，每节 2—4 个短段落。
+5. 风格像高质量商业类微信公众号文章：开头用一个真实场景或关键决策制造画面感；中段拆解产品、渠道、收入、运营与转折；结尾给出中国创业者可执行的验证路径。
+6. 不写空泛口号。每一节至少包含一个来自资料的具体事实、数字、动作或因果关系。
+7. 明确区分事实、编辑分析和风险提示；对旧数据标明时间背景。
+8. 段落要有节奏，长短句交替；允许提出问题，但不要夸张煽情。
+9. 只返回符合 JSON Schema 的数据，不输出 Markdown。`
     },
     {
       role: 'user',
@@ -193,7 +195,7 @@ export async function onRequestPost(context) {
         type: 'json_schema',
         json_schema: articleSchema()
       },
-      max_tokens: 3000,
+      max_tokens: 4600,
       temperature: 0.55
     });
     let article = result?.response;

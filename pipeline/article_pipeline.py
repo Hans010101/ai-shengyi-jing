@@ -158,7 +158,7 @@ def fetch_official_media(website: str) -> list[dict]:
 
 
 def normalize_media(media: list[dict]) -> list[dict]:
-    """Keep only approved official images and public video embeds."""
+    """Keep only approved official media and explicitly attributed source images."""
     approved = []
     for item in media:
         media_url = clean_text(item.get("url"), 2_000)
@@ -171,10 +171,21 @@ def normalize_media(media: list[dict]) -> list[dict]:
         media_type = item.get("type")
         origin = item.get("origin")
         if media_type == "image":
-            if origin != "official-site" or any(
+            is_blocked_host = any(
                 host == blocked or host.endswith(f".{blocked}")
                 for blocked in BLOCKED_MEDIA_HOSTS
-            ):
+            )
+            official_image = origin == "official-site" and not is_blocked_host
+            attributed_source = (
+                origin == "source-attributed"
+                and item.get("usage") == "non-commercial-attributed"
+                and urlparse(source_url).hostname == SOURCE_HOST
+                and (
+                    host == "d1coqmn8qm80r4.cloudfront.net"
+                    or host == SOURCE_HOST
+                )
+            )
+            if not official_image and not attributed_source:
                 continue
         elif media_type == "video":
             if origin != "embeddable-video" or host not in {
@@ -182,6 +193,11 @@ def normalize_media(media: list[dict]) -> list[dict]:
                 "youtube.com",
                 "player.vimeo.com",
             }:
+                continue
+        elif media_type == "video-file":
+            if origin != "official-site-video" or not re.search(
+                r"\.(mp4|webm)(?:$|\?)", media_url, re.I
+            ):
                 continue
         else:
             continue
@@ -194,9 +210,11 @@ def normalize_media(media: list[dict]) -> list[dict]:
                 "alt": clean_text(item.get("alt"), 180),
                 "sourceUrl": source_url,
                 "origin": origin,
+                "poster": clean_text(item.get("poster"), 2_000),
+                "usage": clean_text(item.get("usage"), 80),
             }
         )
-    return approved[:4]
+    return approved[:8]
 
 
 def build_prompt(project: dict, source_notes: str) -> str:
@@ -220,7 +238,9 @@ def build_prompt(project: dict, source_notes: str) -> str:
 要求：
 - 只使用资料中的事实；数字无法核实时标注“据来源页披露”。
 - 不逐句翻译，不复刻来源文章结构，不长篇引用。
-- 约1400—2200个中文字符，5—7节，适合手机阅读。
+- 约2400—3600个中文字符，6—8节，适合手机阅读。
+- 开头用具体场景或关键决策制造画面感；正文必须覆盖产品、渠道、收入、运营转折、风险与中国市场验证。
+- 每节至少包含一个具体事实、数字、动作或因果关系，避免空泛口号。
 - 返回JSON对象，字段为 title、dek、opening、keyFacts、sections、conclusion、riskNote。
 - keyFacts 是 label/value 对象数组。
 - sections 是 heading、paragraphs数组、callout 字符串组成的对象数组。
@@ -296,7 +316,7 @@ def call_deepseek(project: dict, source_notes: str) -> tuple[dict | None, str]:
 
 def normalize_article(project: dict, article: dict, provider: str, media: list[dict]) -> dict:
     sections = []
-    for section in article.get("sections", [])[:7]:
+    for section in article.get("sections", [])[:8]:
         paragraphs = [
             clean_text(paragraph, 1_200)
             for paragraph in section.get("paragraphs", [])[:4]
@@ -323,7 +343,7 @@ def normalize_article(project: dict, article: dict, provider: str, media: list[d
         for section in sections
         for paragraph in section.get("paragraphs", [])
     )
-    if len(sections) < 5 or total_chars < 900:
+    if len(sections) < 6 or total_chars < 1_600:
         steps = [
             clean_text(step, 600)
             for step in project.get("getStartedPath", [])

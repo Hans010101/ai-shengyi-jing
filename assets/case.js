@@ -37,7 +37,10 @@ function renderMedia(media, index) {
   figure.className = 'article-media';
   figure.dataset.mediaIndex = String(index);
 
-  if (media.type === 'image' && media.origin === 'official-site') {
+  if (
+    media.type === 'image'
+    && ['official-site', 'source-attributed'].includes(media.origin)
+  ) {
     const image = document.createElement('img');
     image.src = mediaUrl;
     image.alt = media.alt || media.caption || '项目相关图片';
@@ -59,6 +62,19 @@ function renderMedia(media, index) {
     iframe.allowFullscreen = true;
     frameWrap.appendChild(iframe);
     figure.appendChild(frameWrap);
+  } else if (
+    media.type === 'video-file'
+    && media.origin === 'official-site-video'
+  ) {
+    const video = document.createElement('video');
+    video.src = mediaUrl;
+    video.controls = true;
+    video.preload = 'metadata';
+    video.playsInline = true;
+    video.className = 'article-video';
+    const poster = safeExternalUrl(media.poster);
+    if (poster) video.poster = poster;
+    figure.appendChild(video);
   } else {
     return null;
   }

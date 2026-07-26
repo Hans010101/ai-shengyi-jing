@@ -205,18 +205,25 @@ class ContentQualityTests(unittest.TestCase):
         )
 
         self.assertGreaterEqual(len(article["sections"]), 5)
-        self.assertLessEqual(len(article["sections"]), 7)
+        self.assertLessEqual(len(article["sections"]), 8)
         self.assertEqual(len(article["keyFacts"]), 6)
-        self.assertEqual(len(article["media"]), 4)
+        self.assertEqual(len(article["media"]), 6)
         self.assertEqual(article["source"]["name"], "Starter Story")
 
-    def test_case_article_media_rejects_source_images_and_unapproved_embeds(self):
+    def test_case_article_media_requires_attribution_for_source_images(self):
         media = normalize_media(
             [
                 {
                     "type": "image",
                     "url": "https://assets.starterstory.com/photo.jpg",
                     "origin": "official-site",
+                },
+                {
+                    "type": "image",
+                    "url": "https://d1coqmn8qm80r4.cloudfront.net/story.jpg",
+                    "sourceUrl": "https://www.starterstory.com/stories/example",
+                    "origin": "source-attributed",
+                    "usage": "non-commercial-attributed",
                 },
                 {
                     "type": "image",
@@ -235,14 +242,22 @@ class ContentQualityTests(unittest.TestCase):
                     "sourceUrl": "https://www.youtube.com/watch?v=1",
                     "origin": "embeddable-video",
                 },
+                {
+                    "type": "video-file",
+                    "url": "https://cdn.example.com/demo.mp4",
+                    "sourceUrl": "https://example.com",
+                    "origin": "official-site-video",
+                },
             ]
         )
 
         self.assertEqual(
             [item["url"] for item in media],
             [
+                "https://d1coqmn8qm80r4.cloudfront.net/story.jpg",
                 "https://cdn.example.com/product.jpg",
                 "https://www.youtube.com/embed/1",
+                "https://cdn.example.com/demo.mp4",
             ],
         )
 
@@ -261,7 +276,14 @@ class ContentQualityTests(unittest.TestCase):
         self.assertLessEqual(len(articles), 10)
         for article in articles:
             self.assertIn(article["projectId"], projects)
-            self.assertIn(article["provider"], {"cloudflare-workers-ai", "deepseek"})
+            self.assertIn(
+                article["provider"],
+                {
+                    "cloudflare-workers-ai",
+                    "deepseek",
+                    "editorial-reviewed",
+                },
+            )
             self.assertGreaterEqual(len(article["sections"]), 5)
             self.assertTrue(article["opening"])
             self.assertTrue(article["conclusion"])
@@ -273,8 +295,12 @@ class ContentQualityTests(unittest.TestCase):
             )
             for media in article.get("media", []):
                 host = (media.get("url") or "").lower()
-                self.assertNotIn("starterstory.com", host)
-                self.assertNotIn("cloudfront.net", host)
+                if "starterstory.com" in host or "cloudfront.net" in host:
+                    self.assertEqual(media["origin"], "source-attributed")
+                    self.assertEqual(
+                        media["usage"],
+                        "non-commercial-attributed",
+                    )
 
 
 if __name__ == "__main__":

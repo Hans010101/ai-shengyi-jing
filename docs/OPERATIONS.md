@@ -81,7 +81,8 @@ find dist -type f | sort
 - `POST /api/editorial` 是受 `EDITORIAL_API_TOKEN` 保护的后台接口，通过 `AI` binding 运行 Workers AI；
 - 每日采集先调用该接口生成微信公众号风格原创稿，失败或额度不足时再调用 DeepSeek；
 - 不采集需要登录或付费解锁的正文，不保存来源原文；
-- 图片只允许项目官网公开链接，视频只允许 YouTube/Vimeo 的公开嵌入链接；
+- 图片优先使用项目官网公开链接，视频允许官网文件及 YouTube/Vimeo 公开嵌入链接；
+- 来源页托管插图只能由人工核对后标记为 `source-attributed` 和 `non-commercial-attributed`，自动采集器不得批量启用；站点商业化前必须取得授权或移除；
 - 每篇文章必须保留 Starter Story 事实来源链接和原创编辑声明。
 
 ## 每日采集
