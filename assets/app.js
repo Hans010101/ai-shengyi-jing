@@ -240,7 +240,6 @@ function createProjectCard(p, featured) {
         <div class="card-emoji" style="background:${emojiAlpha}">${p.heroEmoji}</div>
         <div class="card-title-group">
           <div class="card-name">${p.name}</div>
-          <div class="card-name-en">${p.nameEn}</div>
         </div>
       </div>
       <div class="card-tags">
