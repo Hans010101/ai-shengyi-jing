@@ -20,29 +20,9 @@ async function readBoundedBody(request) {
   if (declaredLength > MAX_BODY_BYTES) {
     throw new PayloadTooLargeError('Request body is too large');
   }
-  if (!request.body) {
-    throw new SyntaxError('Request body is required');
-  }
-
-  const reader = request.body.getReader();
-  const chunks = [];
-  let totalBytes = 0;
-  while (true) {
-    const { done, value } = await reader.read();
-    if (done) break;
-    totalBytes += value.byteLength;
-    if (totalBytes > MAX_BODY_BYTES) {
-      await reader.cancel();
-      throw new PayloadTooLargeError('Request body is too large');
-    }
-    chunks.push(value);
-  }
-
-  const body = new Uint8Array(totalBytes);
-  let offset = 0;
-  for (const chunk of chunks) {
-    body.set(chunk, offset);
-    offset += chunk.byteLength;
+  const body = new Uint8Array(await request.arrayBuffer());
+  if (body.byteLength > MAX_BODY_BYTES) {
+    throw new PayloadTooLargeError('Request body is too large');
   }
   return body;
 }
