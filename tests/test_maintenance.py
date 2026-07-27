@@ -6,7 +6,8 @@ from pathlib import Path
 from pipeline.article_pipeline import normalize_article, normalize_media
 from pipeline.project_store import merge_projects, project_ids
 from pipeline.content_quality import derive_chinese_name, is_placeholder
-from scripts.build_site import PUBLISH_PATHS, build
+from scripts.build_edgeone import EDGEONE_PATHS, build as build_edgeone
+from scripts.build_site import PUBLIC_OUTPUT_PATHS, PUBLISH_PATHS, build
 from scripts.validate_data import validate
 
 
@@ -38,22 +39,53 @@ class BuildTests(unittest.TestCase):
     def test_build_contains_only_public_files(self):
         with tempfile.TemporaryDirectory(dir=Path.cwd()) as temp_dir:
             output = Path(temp_dir) / "dist"
-            copied = build(output)
+            copied = build(output, "a" * 40)
             actual = {
                 path.relative_to(output)
                 for path in output.rglob("*")
                 if path.is_file()
             }
 
-        self.assertEqual(set(copied), set(PUBLISH_PATHS))
-        self.assertEqual(actual, set(PUBLISH_PATHS))
+            deployment = json.loads(
+                (output / "deployment.json").read_text(encoding="utf-8")
+            )
+
+        self.assertEqual(set(copied), set(PUBLIC_OUTPUT_PATHS))
+        self.assertEqual(actual, set(PUBLIC_OUTPUT_PATHS))
         self.assertNotIn(Path(".github/workflows/deploy_cloudflare.yml"), actual)
         self.assertNotIn(Path("pipeline/drafts/example.md"), actual)
+        self.assertEqual(deployment["commit"], "a" * 40)
+        self.assertEqual(deployment["shortCommit"], "a" * 12)
+
+    def test_edgeone_wraps_the_same_static_artifact(self):
+        with tempfile.TemporaryDirectory(dir=Path.cwd()) as temp_dir:
+            shared = Path(temp_dir) / "dist"
+            edgeone = Path(temp_dir) / "dist-edgeone"
+            build(shared, "b" * 40)
+            copied = build_edgeone(shared, edgeone)
+
+            shared_files = {
+                path.relative_to(shared)
+                for path in shared.rglob("*")
+                if path.is_file()
+            }
+            edgeone_files = {
+                path.relative_to(edgeone)
+                for path in edgeone.rglob("*")
+                if path.is_file()
+            }
+
+        self.assertEqual(copied, list(EDGEONE_PATHS))
+        self.assertTrue(shared_files.issubset(edgeone_files))
+        self.assertEqual(
+            edgeone_files - shared_files,
+            {Path("edge-functions/api/advisor.js")},
+        )
 
     def test_public_ui_does_not_render_english_project_subtitles(self):
         with tempfile.TemporaryDirectory(dir=Path.cwd()) as temp_dir:
             output = Path(temp_dir) / "dist"
-            build(output)
+            build(output, "c" * 40)
             app_js = (output / "assets/app.js").read_text(encoding="utf-8")
             style_css = (output / "assets/style.css").read_text(encoding="utf-8")
 

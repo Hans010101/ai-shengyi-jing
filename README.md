@@ -3,7 +3,8 @@
 发现全球可验证的盈利项目，以中国创业者视角拆解产品架构、商业闭环和落地路径。
 
 - 生产站点：<https://ai-shengyi-jing.pages.dev>
-- 托管平台：Cloudflare Pages
+- 国内镜像项目：EdgeOne Makers `ai-shengyi-jing-cn`
+- 托管平台：Cloudflare Pages + EdgeOne Makers
 - 生产分支：`main`
 - 当前数据库：3,646 个已完成中文商业拆解的唯一项目
 - 更新频率：每天 09:00（Asia/Shanghai）
@@ -17,6 +18,7 @@
 ├── assets/                          # 前端脚本与样式
 ├── functions/api/advisor.js         # Cloudflare Workers AI 顾问接口
 ├── functions/api/editorial.js       # 私有案例编辑接口
+├── edge-functions/api/advisor.js    # EdgeOne 到 Cloudflare 顾问的签名转发
 ├── data/
 │   ├── projects.js                  # 手工精选案例
 │   ├── projects_live.json           # 全量项目数据库
@@ -29,6 +31,7 @@
 │   └── data/seen_ids.json           # 已处理项目索引
 ├── scripts/
 │   ├── build_site.py                # 生成最小公开发布目录
+│   ├── build_edgeone.py             # 为 EdgeOne 添加平台适配层
 │   ├── validate_data.py             # 部署前数据校验
 │   └── repair_project_data.py       # 去重并同步已处理索引
 ├── tests/                            # 维护回归测试
@@ -36,7 +39,7 @@
 └── .github/workflows/               # CI、采集与部署工作流
 ```
 
-`pipeline/`、内容草稿、GitHub 工作流和本地缓存不会发布到生产站点。Cloudflare 只接收 `dist/` 中显式允许的 9 个静态公开文件，并在服务端编译 `functions/` 中的 Pages Function。
+`pipeline/`、内容草稿、GitHub 工作流和本地缓存不会发布到生产站点。`dist/` 是两个站共用且只构建一次的 10 个静态文件，其中 `deployment.json` 标记当前 Git 提交。Cloudflare 另外编译 `functions/`；EdgeOne 发布包只在相同静态成品上增加 `edge-functions/api/advisor.js`，不运行第二套内容生成。
 
 ## 本地运行
 
@@ -47,6 +50,7 @@ python3 scripts/validate_data.py data/projects_live.json
 python3 -m unittest discover -s tests -v
 node --test tests/*.mjs
 python3 scripts/build_site.py --output dist
+python3 scripts/build_edgeone.py --source dist --output dist-edgeone
 npx wrangler@4.113.0 pages functions build functions --outdir .wrangler/functions-build --project-directory . --build-output-directory dist
 python3 -m http.server 8080 --directory dist
 ```
@@ -57,6 +61,7 @@ python3 -m http.server 8080 --directory dist
 
 - 网页无需注册或登录，AI 顾问、收藏和浏览记录均可直接使用；
 - 顾问通过 `AI` binding 调用 Cloudflare Workers AI，模型为 `@cf/meta/llama-3.2-3b-instruct`；
+- EdgeOne 镜像的同源 `/api/advisor` 使用带时效 HMAC 签名的服务端转发，仍由同一个 Cloudflare Workers AI 接口回答；
 - Workers AI 不可用或免费额度用尽时，前端自动降级到本地项目库分析；
 - 收藏和浏览记录只保存在当前浏览器的 `localStorage`，不上传账户数据；
 - `DEEPSEEK_API_KEY` 仅供后台内容采集与中文商业拆解使用，不参与访客侧 AI 顾问请求。
@@ -89,17 +94,21 @@ python3 scripts/validate_data.py data/projects_live.json
 
 - `代码与数据检查`：PR 和 `main` 推送时执行数据校验、测试和公开产物边界检查。
 - `每日项目采集`：每天采集新项目，提交数据库、草稿和 `seen_ids.json`。
-- `自动部署到 Cloudflare Pages`：
+- `自动部署到 Cloudflare 与 EdgeOne`：
   - 普通代码合并到 `main` 后部署；
   - 每日采集工作流成功完成后部署最新 `main`；
+  - 公共静态成品只构建一次，再分别发布到两个平台；
   - 支持手动触发，用于预览或故障恢复。
 
 部署依赖以下 GitHub Actions 配置：
 
 - Repository variable：`CLOUDFLARE_ACCOUNT_ID`
 - Repository secret：`CLOUDFLARE_API_TOKEN`
+- Repository secret：`EDGEONE_API_TOKEN`
 - Repository secret：`EDITORIAL_API_TOKEN`（调用私有案例编辑接口）
 - Repository secret：`DEEPSEEK_API_KEY`（仅每日采集）
+
+平台运行时还各自保存同一枚 `EDGEONE_PROXY_SECRET`，只用于 EdgeOne 顾问转发签名，不进入 GitHub。
 
 完整运维流程、故障处理和回滚方式见 [docs/OPERATIONS.md](docs/OPERATIONS.md)。
 

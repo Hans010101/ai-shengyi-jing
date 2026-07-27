@@ -4,5 +4,10 @@
 !.env.example
 .wrangler/
 dist/
+dist-edgeone/
 __pycache__/
 *.py[cod]
+
+# Tencent Cloud EdgeOne
+.edgeone/
+.tef_dist/

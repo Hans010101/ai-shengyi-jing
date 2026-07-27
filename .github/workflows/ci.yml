@@ -36,7 +36,10 @@ jobs:
         run: node --test tests/*.mjs
 
       - name: Build public artifact
-        run: python3 scripts/build_site.py --output dist
+        run: python3 scripts/build_site.py --output dist --commit-sha "$(git rev-parse HEAD)"
+
+      - name: Build EdgeOne artifact
+        run: python3 scripts/build_edgeone.py --source dist --output dist-edgeone
 
       - name: Build Pages Functions
         run: npx --yes wrangler@4.113.0 pages functions build functions --outdir .wrangler/functions-build --project-directory . --build-output-directory dist
@@ -44,7 +47,13 @@ jobs:
       - name: Verify publish boundary
         shell: bash
         run: |
-          test "$(find dist -type f | wc -l | tr -d ' ')" = "9"
+          test "$(find dist -type f | wc -l | tr -d ' ')" = "10"
+          test "$(find dist-edgeone -type f | wc -l | tr -d ' ')" = "11"
           test ! -e dist/.github
           test ! -e dist/.wrangler
           test ! -e dist/pipeline
+          test ! -e dist/edge-functions
+          test -f dist-edgeone/edge-functions/api/advisor.js
+          cmp dist/deployment.json dist-edgeone/deployment.json
+          cmp dist/data/projects_live.json dist-edgeone/data/projects_live.json
+          cmp dist/data/case_articles.json dist-edgeone/data/case_articles.json

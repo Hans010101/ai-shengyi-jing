@@ -1,4 +1,4 @@
-name: 自动部署到 Cloudflare Pages
+name: 自动部署到 Cloudflare 与 EdgeOne
 
 on:
   push:
@@ -10,10 +10,13 @@ on:
       - "assets/**"
       - "data/**"
       - "functions/**"
+      - "edge-functions/**"
       - "tests/advisor_function.test.mjs"
+      - "tests/edgeone_proxy.test.mjs"
       - "package.json"
       - "wrangler.jsonc"
       - "scripts/build_site.py"
+      - "scripts/build_edgeone.py"
       - "scripts/validate_data.py"
       - ".github/workflows/deploy_cloudflare.yml"
   workflow_run:
@@ -26,7 +29,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: cloudflare-pages-ai-shengyi-jing
+  group: dual-pages-ai-shengyi-jing
   cancel-in-progress: false
 
 jobs:
@@ -62,8 +65,11 @@ jobs:
       - name: Test AI advisor function
         run: node --test tests/*.mjs
 
-      - name: Build minimal Pages artifact
-        run: python3 scripts/build_site.py --output dist
+      - name: Build shared static artifact once
+        run: python3 scripts/build_site.py --output dist --commit-sha "$(git rev-parse HEAD)"
+
+      - name: Wrap shared artifact for EdgeOne
+        run: python3 scripts/build_edgeone.py --source dist --output dist-edgeone
 
       - name: Build Pages Functions
         run: npx --yes wrangler@4.113.0 pages functions build functions --outdir .wrangler/functions-build --project-directory . --build-output-directory dist
@@ -82,6 +88,7 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          EDGEONE_API_TOKEN: ${{ secrets.EDGEONE_API_TOKEN }}
         run: |
           if [[ -z "$CLOUDFLARE_API_TOKEN" ]]; then
             echo "::error::Repository secret CLOUDFLARE_API_TOKEN is missing or unavailable"
@@ -89,6 +96,10 @@ jobs:
           fi
           if [[ -z "$CLOUDFLARE_ACCOUNT_ID" ]]; then
             echo "::error::Repository variable CLOUDFLARE_ACCOUNT_ID is missing"
+            exit 1
+          fi
+          if [[ -z "$EDGEONE_API_TOKEN" ]]; then
+            echo "::error::Repository secret EDGEONE_API_TOKEN is missing or unavailable"
             exit 1
           fi
 
@@ -104,3 +115,14 @@ jobs:
           accountId: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
           wranglerVersion: "4.113.0"
           command: pages deploy --branch=${{ env.DEPLOY_BRANCH }} --commit-dirty=true
+
+      - name: Deploy the same static artifact to EdgeOne Makers
+        env:
+          EDGEONE_API_TOKEN: ${{ secrets.EDGEONE_API_TOKEN }}
+        run: >-
+          npx --yes edgeone@1.6.18 makers deploy dist-edgeone
+          --name ai-shengyi-jing-cn
+          --env production
+          --area overseas
+          --token "$EDGEONE_API_TOKEN"
+          --json

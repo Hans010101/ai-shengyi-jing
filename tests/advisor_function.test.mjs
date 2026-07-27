@@ -1,7 +1,11 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 
-import { MODEL, onRequestPost } from '../functions/api/advisor.js';
+import {
+  MODEL,
+  onRequestPost,
+  signedPayload
+} from '../functions/api/advisor.js';
 
 function createRequest(body, headers = {}) {
   return new Request('https://ai-shengyi-jing.pages.dev/api/advisor', {
@@ -74,5 +78,65 @@ test('rejects cross-origin browser requests', async () => {
     request: createRequest({ query: '测试问题' }, { Origin: 'https://example.com' }),
     env: {}
   });
+  assert.equal(response.status, 403);
+  assert.equal((await response.json()).error, 'REQUEST_ORIGIN_REJECTED');
+});
+
+test('accepts a fresh HMAC-signed EdgeOne proxy request', async () => {
+  const secret = 'edgeone-test-proxy-secret';
+  const body = new TextEncoder().encode(JSON.stringify({ query: '测试问题' }));
+  const timestamp = String(Math.floor(Date.now() / 1000));
+  const key = await crypto.subtle.importKey(
+    'raw',
+    new TextEncoder().encode(secret),
+    { name: 'HMAC', hash: 'SHA-256' },
+    false,
+    ['sign']
+  );
+  const signature = Array.from(
+    new Uint8Array(
+      await crypto.subtle.sign('HMAC', key, signedPayload(timestamp, body))
+    ),
+    byte => byte.toString(16).padStart(2, '0')
+  ).join('');
+
+  const response = await onRequestPost({
+    request: new Request('https://ai-shengyi-jing.pages.dev/api/advisor', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-AI-Shengyi-Jing-Timestamp': timestamp,
+        'X-AI-Shengyi-Jing-Signature': signature
+      },
+      body
+    }),
+    env: {
+      EDGEONE_PROXY_SECRET: secret,
+      AI: {
+        async run() {
+          return { response: '签名验证通过。' };
+        }
+      }
+    }
+  });
+
+  assert.equal(response.status, 200);
+  assert.match((await response.json()).answer, /签名验证通过/);
+});
+
+test('rejects stale or invalid EdgeOne proxy signatures', async () => {
+  const response = await onRequestPost({
+    request: new Request('https://ai-shengyi-jing.pages.dev/api/advisor', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-AI-Shengyi-Jing-Timestamp': '1',
+        'X-AI-Shengyi-Jing-Signature': '0'.repeat(64)
+      },
+      body: JSON.stringify({ query: '测试问题' })
+    }),
+    env: { EDGEONE_PROXY_SECRET: 'edgeone-test-proxy-secret' }
+  });
+
   assert.equal(response.status, 403);
 });

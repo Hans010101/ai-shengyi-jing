@@ -10,10 +10,13 @@
 | 默认/生产分支 | `main` |
 | Cloudflare Pages 项目 | `ai-shengyi-jing` |
 | 生产地址 | `https://ai-shengyi-jing.pages.dev` |
+| EdgeOne Makers 项目 | `ai-shengyi-jing-cn` |
+| EdgeOne 试运行区域 | 全球可用区（不含中国大陆） |
 | 自定义域 | 暂无 |
 | Pages Git 直连 | 未启用 |
 | 发布方式 | GitHub Actions + Wrangler |
-| 发布目录 | `dist/` |
+| 公共发布目录 | `dist/`（两个平台共用） |
+| EdgeOne 发布目录 | `dist-edgeone/`（公共成品 + 转发函数） |
 | 生产环境变量/绑定 | Workers AI binding：`AI`；Secret：`EDITORIAL_API_TOKEN` |
 
 ## 发布边界
@@ -30,9 +33,10 @@ assets/case.css
 data/projects.js
 data/projects_live.json
 data/case_articles.json
+deployment.json
 ```
 
-任何新增的静态公开文件必须显式加入 `PUBLISH_PATHS`，并通过测试确认。`functions/api/advisor.js` 与 `functions/api/editorial.js` 由 Cloudflare 单独编译为 Pages Function，不会作为静态文件公开。禁止直接执行 `wrangler pages deploy .`，因为仓库包含采集脚本、工作流、内容草稿和内部状态数据。
+任何新增的静态公开文件必须显式加入 `PUBLISH_PATHS` 或 `GENERATED_PATHS`，并通过测试确认。`functions/api/advisor.js` 与 `functions/api/editorial.js` 由 Cloudflare 单独编译，不会作为静态文件公开。EdgeOne 包只额外加入 `edge-functions/api/advisor.js`。禁止直接部署仓库根目录，因为仓库包含采集脚本、工作流、内容草稿和内部状态数据。
 
 ## 正常发布流程
 
@@ -40,10 +44,10 @@ data/case_articles.json
 功能或数据变更
   → GitHub main
   → 数据校验
-  → 最小站点构建
+  → 公共静态成品只构建一次
   → Pages Function 编译与测试
-  → Wrangler 上传 dist/ 并部署 Function
-  → Cloudflare Pages
+  ├→ Wrangler 上传 dist/ 与 Cloudflare Function
+  └→ EdgeOne CLI 上传 dist-edgeone/
 ```
 
 普通维护通过 PR 合并到 `main` 触发。每日采集由 `每日项目采集` 工作流提交数据；该工作流完成后，`workflow_run` 事件会部署最新的 `main`。这样不依赖 GitHub Token 生成的提交再次触发 `push` 工作流。
@@ -55,8 +59,10 @@ python3 scripts/validate_data.py data/projects_live.json
 python3 -m unittest discover -s tests -v
 node --test tests/*.mjs
 python3 scripts/build_site.py --output dist
+python3 scripts/build_edgeone.py --source dist --output dist-edgeone
 npx wrangler@4.113.0 pages functions build functions --outdir .wrangler/functions-build --project-directory . --build-output-directory dist
 find dist -type f | sort
+find dist-edgeone -type f | sort
 ```
 
 验收要求：
@@ -64,7 +70,8 @@ find dist -type f | sort
 - 数据 JSON 合法且项目 ID 唯一；
 - 回归测试全部通过；
 - Pages Function 编译成功，且 `AI` binding 配置存在；
-- `dist/` 恰好包含预期的 9 个文件；
+- `dist/` 恰好包含预期的 10 个文件；
+- `dist-edgeone/` 包含相同的 10 个静态文件和唯一的 EdgeOne 转发函数；
 - 不包含 `.github/`、`.wrangler/`、`pipeline/` 或内容草稿。
 
 ## AI 商业顾问
@@ -74,6 +81,8 @@ find dist -type f | sort
 若 Workers AI 绑定缺失、达到额度或推理服务暂时不可用，接口会返回可识别的错误，前端自动使用本地项目匹配与固定分析作为降级，不阻断页面功能。收藏与浏览记录仅保存在访客当前浏览器中。
 
 访客侧顾问仍不使用 DeepSeek。DeepSeek 只作为后台案例编辑的降级模型，对应密钥是 `DEEPSEEK_API_KEY`，不得放入 Cloudflare Pages 前端或 Function 环境。
+
+EdgeOne 不配置第二套 AI。其 `/api/advisor` 读取同源访客请求，用 `EDGEONE_PROXY_SECRET` 对正文和时间戳生成 HMAC 签名，再转发到 Cloudflare。Cloudflare 只接受原站同源浏览器请求或五分钟内签名有效的 EdgeOne 请求。两平台环境变量中的 `EDGEONE_PROXY_SECRET` 必须保持一致。
 
 ## 案例详情与编辑链路
 
@@ -136,6 +145,8 @@ python3 scripts/validate_data.py data/projects_live.json
 ## 密钥与权限
 
 - 密钥只保存在 GitHub Actions Secrets 或 Cloudflare 的受控配置中；
+- `EDGEONE_API_TOKEN` 只保存在 GitHub Actions Secret；
+- `EDGEONE_PROXY_SECRET` 只保存在 Cloudflare Secret 与 EdgeOne 环境变量；
 - Cloudflare Account ID 不是密钥，保存在 GitHub Repository variables 中；
 - 仓库内只记录密钥名称，不记录值；
 - `.wrangler/` 是本地缓存，已加入 `.gitignore`；
