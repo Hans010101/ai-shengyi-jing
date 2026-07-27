@@ -5,10 +5,11 @@ const MAX_BODY_BYTES = 16 * 1024;
 class PayloadTooLargeError extends Error {}
 
 function jsonResponse(body, status) {
-  return Response.json(body, {
+  return new Response(JSON.stringify(body), {
     status,
     headers: {
       'Cache-Control': 'no-store',
+      'Content-Type': 'application/json; charset=utf-8',
       'X-Content-Type-Options': 'nosniff'
     }
   });
@@ -151,5 +152,4 @@ async function onRequest(context) {
   }
 }
 
-export default onRequest;
 export { createSignature, onRequest, signedPayload };
