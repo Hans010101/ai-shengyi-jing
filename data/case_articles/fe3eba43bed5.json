@@ -1,5 +1,15 @@
 {
   "projectId": "fe3eba43bed5",
+  "project": {
+    "id": "fe3eba43bed5",
+    "name": "StatusGator",
+    "nameZh": "监控SaaS状态并通知",
+    "summary": "监控SaaS状态并通知，月费订阅盈利",
+    "revenue": "$17K/mo",
+    "businessModel": "SaaS订阅制，按月/年收费，提供多平台状态监控与通知服务。",
+    "chinaOpportunity": "中国企业云服务碎片化，类似监控需求旺盛，可本土化集成钉钉、企业微信通知。",
+    "website": "https://statusgator.com"
+  },
   "slug": "statusgator",
   "title": "监控SaaS状态并通知：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解监控SaaS状态并通知如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://statusgator.com",
-  "generatedAt": "2026-07-27T14:11:35.190650+00:00",
+  "generatedAt": "2026-07-27T14:21:14.643521+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

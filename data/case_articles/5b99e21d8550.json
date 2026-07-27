@@ -1,5 +1,15 @@
 {
   "projectId": "5b99e21d8550",
+  "project": {
+    "id": "5b99e21d8550",
+    "name": "I Built An Online Community For Founders And Made $2K On Launch",
+    "nameZh": "创始人社区",
+    "summary": "创始人社区，通过会员订阅和活动收费盈利。",
+    "revenue": "$2K",
+    "businessModel": "订阅制会员费 + 活动/课程付费，提供每周线上会议、10周课程等增值服务。",
+    "chinaOpportunity": "中国创业者社群需求旺盛，可通过微信群+直播+知识星球等工具，结合本地化内容（如创业避坑、资源对接）快速复制。",
+    "website": null
+  },
   "slug": "dan-ahn",
   "title": "创始人社区：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解创始人社区如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.200932+00:00",
+  "generatedAt": "2026-07-27T14:21:14.654569+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

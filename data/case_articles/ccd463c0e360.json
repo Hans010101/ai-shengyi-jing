@@ -1,5 +1,15 @@
 {
   "projectId": "ccd463c0e360",
+  "project": {
+    "id": "ccd463c0e360",
+    "name": "How I Grew My Medium Publication to 70,000 Followers",
+    "nameZh": "在Medium上运营创业类刊物",
+    "summary": "在Medium上运营创业类刊物，通过付费订阅和广告赚钱。",
+    "revenue": "$1,000",
+    "businessModel": "在Medium平台创建垂直领域刊物，通过持续输出优质内容吸引关注，利用平台付费墙和广告分成获取收入。",
+    "chinaOpportunity": "类似知乎专栏、微信公众号，可通过内容付费、广告、社群等变现。本土化需聚焦细分领域，如创业、副业、AI工具等。",
+    "website": null
+  },
   "slug": "entrepreneurs-handbook",
   "title": "在Medium上运营创业类刊物：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解在Medium上运营创业类刊物如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.273704+00:00",
+  "generatedAt": "2026-07-27T14:21:14.727328+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "640769e69af6",
+  "project": {
+    "id": "640769e69af6",
+    "name": "A Complete Breakdown To How We Built A $20K MRR AI App",
+    "nameZh": "AI应用",
+    "summary": "AI应用，通过订阅制提供AI服务赚钱。",
+    "revenue": "$20K",
+    "businessModel": "SaaS订阅制，月费$20K，提供AI处理服务，用户按需付费。",
+    "chinaOpportunity": "中国AI应用市场快速增长，可针对本地需求如内容生成、客服等开发类似产品。",
+    "website": null
+  },
   "slug": "betterpic",
   "title": "AI应用：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI应用如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.197413+00:00",
+  "generatedAt": "2026-07-27T14:21:14.650898+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

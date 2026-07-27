@@ -1,5 +1,15 @@
 {
   "projectId": "602ebde1ef57",
+  "project": {
+    "id": "602ebde1ef57",
+    "name": "Bootstrapping A Spanish Email Marketing Company To $1M ARR",
+    "nameZh": "西班牙邮件营销SaaS",
+    "summary": "西班牙邮件营销SaaS，通过订阅付费盈利",
+    "revenue": "$1M",
+    "businessModel": "按月/年订阅收费，按发送量分档，提供免费套餐吸引用户，付费解锁更多功能和发送量。",
+    "chinaOpportunity": "中国中小企业邮件营销需求稳定，但微信、短信营销更主流。可做多渠道营销SaaS，整合邮件、短信、微信模板消息。",
+    "website": "https://acumbamail.com"
+  },
   "slug": "bootstrapping-a-spanish-email-marketing-company-to-1m-arr",
   "title": "西班牙邮件营销SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解西班牙邮件营销SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://acumbamail.com",
-  "generatedAt": "2026-07-27T14:11:35.190227+00:00",
+  "generatedAt": "2026-07-27T14:21:14.643025+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

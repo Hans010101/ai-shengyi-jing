@@ -1,5 +1,15 @@
 {
   "projectId": "42c7b1034fd5",
+  "project": {
+    "id": "42c7b1034fd5",
+    "name": "These Co-founders Who Never Met In Person Built A $5K/Month Billing SaaS",
+    "nameZh": "为订阅制企业提供简单易用的计费SaaS",
+    "summary": "为订阅制企业提供简单易用的计费SaaS，月收5K美元。",
+    "revenue": "$5K/Mo",
+    "businessModel": "SaaS订阅模式：提供按月/年收费的计费管理工具，基础功能免费，高级功能付费。",
+    "chinaOpportunity": "中国大量中小订阅制企业（如内容付费、SaaS）需要计费工具，可做本土化集成微信/支付宝支付、发票系统。",
+    "website": null
+  },
   "slug": "pricewell",
   "title": "为订阅制企业提供简单易用的计费SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为订阅制企业提供简单易用的计费SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.211850+00:00",
+  "generatedAt": "2026-07-27T14:21:14.668711+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "222dcd03aed9",
+  "project": {
+    "id": "222dcd03aed9",
+    "name": "Zapier",
+    "nameZh": "无代码自动化平台",
+    "summary": "无代码自动化平台，连接应用，按订阅收费。",
+    "revenue": "$11.7M/mo",
+    "businessModel": "SaaS订阅制，按任务数和高级功能分层收费，免费版限制任务量，付费解锁更多。",
+    "chinaOpportunity": "中国SaaS生态碎片化，可做类似钉钉/企微/飞书的自动化连接器，聚焦中小企业降本增效。",
+    "website": null
+  },
   "slug": "zapier",
   "title": "无代码自动化平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解无代码自动化平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.278136+00:00",
+  "generatedAt": "2026-07-27T14:21:14.731947+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "5a7541c51842",
+  "project": {
+    "id": "5a7541c51842",
+    "name": "How Two Broke College Students Built A $1M/Year eCommerce Fulfillment Center",
+    "nameZh": "为电商卖家提供仓储和代发货服务的第三方物流公司",
+    "summary": "为电商卖家提供仓储和代发货服务的第三方物流公司。",
+    "revenue": "$1M/Year",
+    "businessModel": "按订单收费+仓储费：每单收取固定操作费（含打包、贴单等），另按存储空间和时间收取仓储费，通过规模效应降低物流成本。",
+    "chinaOpportunity": "中国电商卖家对仓储代发需求旺盛，尤其拼多多、抖音小店卖家。可聚焦细分品类（如易碎品、大件）或区域（如义乌、广州），提供更灵活的计费和系统对接。",
+    "website": null
+  },
   "slug": "otw-shipping",
   "title": "为电商卖家提供仓储和代发货服务的第三方物流公司：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为电商卖家提供仓储和代发货服务的第三方物流公司如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.251240+00:00",
+  "generatedAt": "2026-07-27T14:21:14.708329+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

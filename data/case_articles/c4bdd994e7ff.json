@@ -1,5 +1,15 @@
 {
   "projectId": "c4bdd994e7ff",
+  "project": {
+    "id": "c4bdd994e7ff",
+    "name": "memelord.tech",
+    "nameZh": "AI驱动的Meme生成与分发平台",
+    "summary": "AI驱动的Meme生成与分发平台，通过订阅和广告赚钱。",
+    "revenue": "$8K/mo",
+    "businessModel": "SaaS订阅制（月费/年费）+ 广告收入，用户免费生成Meme，付费去水印、高级模板和批量分发。",
+    "chinaOpportunity": "中国Meme文化（表情包）盛行，可结合本土热点（如综艺、网络梗）开发AI表情包工具，通过微信、抖音等社交平台裂变传播。",
+    "website": null
+  },
   "slug": "memelord-tech",
   "title": "AI驱动的Meme生成与分发平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI驱动的Meme生成与分发平台如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.194229+00:00",
+  "generatedAt": "2026-07-27T14:21:14.647244+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

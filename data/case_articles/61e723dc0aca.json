@@ -1,5 +1,15 @@
 {
   "projectId": "61e723dc0aca",
+  "project": {
+    "id": "61e723dc0aca",
+    "name": "My PostgreSQL Side Project Makes $30K ARR",
+    "nameZh": "PostgreSQL慢查询优化SaaS工具",
+    "summary": "PostgreSQL慢查询优化SaaS工具，月收入$30K。",
+    "revenue": "$30K",
+    "businessModel": "B2B SaaS订阅制，提供免费基础版和付费专业版，按年/月收费。",
+    "chinaOpportunity": "中国数据库（如MySQL、TiDB）优化工具需求大，可做本土化版本，结合云厂商合作推广。",
+    "website": null
+  },
   "slug": "pgmustard",
   "title": "PostgreSQL慢查询优化SaaS工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解PostgreSQL慢查询优化SaaS工具如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.200493+00:00",
+  "generatedAt": "2026-07-27T14:21:14.654110+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

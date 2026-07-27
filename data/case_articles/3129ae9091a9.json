@@ -1,5 +1,15 @@
 {
   "projectId": "3129ae9091a9",
+  "project": {
+    "id": "3129ae9091a9",
+    "name": "Weekend Projects",
+    "nameZh": "搜索过滤案例库",
+    "summary": "搜索过滤案例库，付费订阅变现。",
+    "revenue": "$1M",
+    "businessModel": "B2C订阅制，用户按月/年付费访问案例数据库，提供高级搜索和筛选功能。",
+    "chinaOpportunity": "中国创业者需要本土化案例库，如细分行业（餐饮、电商）或特定模式（私域、直播）的案例合集，可快速复制。",
+    "website": null
+  },
   "slug": "weekend-projects",
   "title": "搜索过滤案例库：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解搜索过滤案例库如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.215596+00:00",
+  "generatedAt": "2026-07-27T14:21:14.672808+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

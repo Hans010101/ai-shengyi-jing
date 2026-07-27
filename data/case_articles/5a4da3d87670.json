@@ -1,5 +1,15 @@
 {
   "projectId": "5a4da3d87670",
+  "project": {
+    "id": "5a4da3d87670",
+    "name": "Vital (vital.io)",
+    "nameZh": "AI医院患者体验SaaS",
+    "summary": "AI医院患者体验SaaS，预测等待时间并翻译结果，按月收费。",
+    "revenue": "$1.3M/mo",
+    "businessModel": "B2B SaaS模式，按医院床位或月费收费，提供AI预测和翻译功能。",
+    "chinaOpportunity": "中国医院信息化需求大，可做本地化AI分诊、排队预测、报告解读，对接HIS系统。",
+    "website": null
+  },
   "slug": "vital-vital-io",
   "title": "AI医院患者体验SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI医院患者体验SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.278157+00:00",
+  "generatedAt": "2026-07-27T14:21:14.731968+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "1c9e18e54aa6",
+  "project": {
+    "id": "1c9e18e54aa6",
+    "name": "How We Built A 7-Figure Email Management App",
+    "nameZh": "邮件管理SaaS",
+    "summary": "邮件管理SaaS，通过订阅制收费。",
+    "revenue": "$170K",
+    "businessModel": "B2C+SaaS订阅，免费增值模式，付费解锁高级功能如AI回复、模板等。",
+    "chinaOpportunity": "中国职场邮件使用率低，但企业微信/钉钉消息爆炸，可做类似的消息聚合与效率工具。",
+    "website": null
+  },
   "slug": "mailbird",
   "title": "邮件管理SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解邮件管理SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.197572+00:00",
+  "generatedAt": "2026-07-27T14:21:14.651106+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

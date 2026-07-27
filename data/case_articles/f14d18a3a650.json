@@ -1,5 +1,15 @@
 {
   "projectId": "f14d18a3a650",
+  "project": {
+    "id": "f14d18a3a650",
+    "name": "How Dean Sweetman Built Tithely To $16M ARR",
+    "nameZh": "为教堂提供数字捐赠工具",
+    "summary": "为教堂提供数字捐赠工具，通过订阅和交易抽成盈利。",
+    "revenue": "$16M",
+    "businessModel": "SaaS订阅+交易抽成：按月/年收取软件使用费，并对每笔捐赠收取2.5%+0.30美元手续费。",
+    "chinaOpportunity": "中国宗教场所（寺庙、教堂）数字化需求旺盛，可开发类似捐赠管理SaaS，结合微信/支付宝支付。",
+    "website": null
+  },
   "slug": "tithely-breakdown",
   "title": "为教堂提供数字捐赠工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为教堂提供数字捐赠工具如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.197248+00:00",
+  "generatedAt": "2026-07-27T14:21:14.650721+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

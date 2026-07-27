@@ -1,5 +1,15 @@
 {
   "projectId": "31350751ef94",
+  "project": {
+    "id": "31350751ef94",
+    "name": "How I Built a $2.5M/Year AI Support App",
+    "nameZh": "AI客服自动化平台",
+    "summary": "AI客服自动化平台，按订阅收费",
+    "revenue": "$2.5M/Year",
+    "businessModel": "SaaS订阅制，按坐席或工单量收费，提供免费试用，企业版定制价格。",
+    "chinaOpportunity": "中国客服成本高，AI客服需求旺盛，可针对电商、金融、教育等垂直领域提供本地化方案，集成微信、钉钉等渠道。",
+    "website": null
+  },
   "slug": "fini",
   "title": "AI客服自动化平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI客服自动化平台如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.195037+00:00",
+  "generatedAt": "2026-07-27T14:21:14.648186+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "f18501e1e686",
+  "project": {
+    "id": "f18501e1e686",
+    "name": "How We Recovered Our Revenue By 90% From Losses During The Pandemic",
+    "nameZh": "移动POS支付应用",
+    "summary": "移动POS支付应用，通过Stripe收手续费盈利",
+    "revenue": "$125K",
+    "businessModel": "为商家提供iOS端移动POS，按交易量收取手续费（Stripe抽成+自身加价），月流水$6M+",
+    "chinaOpportunity": "微信/支付宝生态内，为小微商户提供低成本移动收款工具，结合聚合支付或会员营销增值服务",
+    "website": ""
+  },
   "slug": "how-we-recovered-our-revenue-by-90-from-losses-during-the-pandemic",
   "title": "移动POS支付应用：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解移动POS支付应用如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.184009+00:00",
+  "generatedAt": "2026-07-27T14:21:14.636973+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

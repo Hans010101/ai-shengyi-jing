@@ -1,5 +1,15 @@
 {
   "projectId": "bf8e4ecaf793",
+  "project": {
+    "id": "bf8e4ecaf793",
+    "name": "BEE free",
+    "nameZh": "AI驱动的免费在线PDF编辑工具",
+    "summary": "AI驱动的免费在线PDF编辑工具，通过付费解锁高级功能盈利",
+    "revenue": "$850K/mo",
+    "businessModel": "Freemium模式：免费提供PDF编辑、合并等基础功能，高级功能（如OCR、批量处理）需订阅或按次付费",
+    "chinaOpportunity": "国内PDF工具市场大，但优质免费产品少。可结合微信小程序或APP，提供本地化服务，如电子发票处理、合同模板等",
+    "website": null
+  },
   "slug": "bee-free",
   "title": "AI驱动的免费在线PDF编辑工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI驱动的免费在线PDF编辑工具如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.279092+00:00",
+  "generatedAt": "2026-07-27T14:21:14.733024+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

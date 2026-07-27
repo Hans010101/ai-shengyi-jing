@@ -1,5 +1,15 @@
 {
   "projectId": "5aa6311ba467",
+  "project": {
+    "id": "5aa6311ba467",
+    "name": "Newcomer",
+    "nameZh": "前记者创办的付费科技新闻通讯",
+    "summary": "前记者创办的付费科技新闻通讯，通过订阅和广告盈利。",
+    "revenue": "$135K/mo",
+    "businessModel": "付费订阅（$15/月或$150/年）为主，辅以广告赞助和线下活动，内容聚焦科技创投圈独家分析。",
+    "chinaOpportunity": "中国科技创投领域缺乏深度付费内容，可模仿Newcomer模式，打造垂直行业通讯+社群+线下活动闭环。",
+    "website": "https://www.newcomer.co"
+  },
   "slug": "newcomer",
   "title": "前记者创办的付费科技新闻通讯：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解前记者创办的付费科技新闻通讯如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://www.newcomer.co",
-  "generatedAt": "2026-07-27T14:11:35.192165+00:00",
+  "generatedAt": "2026-07-27T14:21:14.645217+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "9c420d299aff",
+  "project": {
+    "id": "9c420d299aff",
+    "name": "On Building A Full Service Ad Management Company With A Team Of 100 Remote Employees",
+    "nameZh": "为内容创作者提供全托管广告管理服务",
+    "summary": "为内容创作者提供全托管广告管理服务，通过广告分成盈利。",
+    "revenue": "$10",
+    "businessModel": "与内容创作者签约，管理其网站广告位，通过优化广告填充率和CPM获得收入分成（通常50%左右）。",
+    "chinaOpportunity": "中国自媒体平台（如公众号、头条号）广告变现效率低，可提供类似托管服务，但需适配平台规则和广告主资源。",
+    "website": "https://www.mediavine.com"
+  },
   "slug": "on-building-a-full-service-advertising-management-company",
   "title": "为内容创作者提供全托管广告管理服务：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为内容创作者提供全托管广告管理服务如何把一个具体问题组织成可持续经营的生意。",
@@ -190,7 +200,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://www.mediavine.com",
-  "generatedAt": "2026-07-27T14:11:35.183851+00:00",
+  "generatedAt": "2026-07-27T14:21:14.636835+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

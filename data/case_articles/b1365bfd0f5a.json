@@ -1,5 +1,15 @@
 {
   "projectId": "b1365bfd0f5a",
+  "project": {
+    "id": "b1365bfd0f5a",
+    "name": "Ramen Club",
+    "nameZh": "独立开发者社区",
+    "summary": "独立开发者社区，通过会员订阅和资源变现赚钱。",
+    "revenue": "$4K/mo",
+    "businessModel": "会员订阅制（月度/年度）+ 付费资源（模板、课程）+ 社区活动赞助。",
+    "chinaOpportunity": "中国独立开发者社群需求旺盛，可聚焦垂直领域（如SaaS、AI），通过知识星球+社群运营+付费内容变现。",
+    "website": null
+  },
   "slug": "weekend-club",
   "title": "独立开发者社区：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解独立开发者社区如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.279521+00:00",
+  "generatedAt": "2026-07-27T14:21:14.733460+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "8a5e1121c8bd",
+  "project": {
+    "id": "8a5e1121c8bd",
+    "name": "Castos",
+    "nameZh": "为播客提供AI剪辑、转写、分发的一站式SaaS平",
+    "summary": "为播客提供AI剪辑、转写、分发的一站式SaaS平台，按月收费。",
+    "revenue": "$85K/mo",
+    "businessModel": "SaaS订阅制，按播客集数或功能分级收费（$19-$149/月），核心收入来自自动转写和分发。",
+    "chinaOpportunity": "中国播客市场快速增长，但制作工具分散。可整合AI语音转写（如讯飞）、剪辑、多平台分发（喜马拉雅、小宇宙），服务中文播客主。",
+    "website": null
+  },
   "slug": "castos",
   "title": "为播客提供AI剪辑、转写、分发的一站式SaaS平：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为播客提供AI剪辑、转写、分发的一站式SaaS平如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.276858+00:00",
+  "generatedAt": "2026-07-27T14:21:14.730488+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

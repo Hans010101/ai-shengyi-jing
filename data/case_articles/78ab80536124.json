@@ -1,5 +1,15 @@
 {
   "projectId": "78ab80536124",
+  "project": {
+    "id": "78ab80536124",
+    "name": "Referral Rock",
+    "nameZh": "推荐营销SaaS",
+    "summary": "推荐营销SaaS，帮企业创建和管理客户推荐计划，按月订阅收费。",
+    "revenue": "$250K/mo",
+    "businessModel": "SaaS订阅制，按客户数量或推荐活动数量分级收费，提供免费试用。",
+    "chinaOpportunity": "微信社交裂变+企业微信私域流量，可做推荐营销工具，结合红包/优惠券激励。",
+    "website": "https://referralrock.com"
+  },
   "slug": "referral-rock",
   "title": "推荐营销SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解推荐营销SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://referralrock.com",
-  "generatedAt": "2026-07-27T14:11:35.191564+00:00",
+  "generatedAt": "2026-07-27T14:21:14.644512+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

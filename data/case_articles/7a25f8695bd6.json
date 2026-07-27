@@ -1,5 +1,15 @@
 {
   "projectId": "7a25f8695bd6",
+  "project": {
+    "id": "7a25f8695bd6",
+    "name": "On Launching A Successful Telehealth Platform And Going Through YC",
+    "nameZh": "孕期产后远程医疗平台",
+    "summary": "孕期产后远程医疗平台，通过订阅和单次咨询收费。",
+    "revenue": "$3.1",
+    "businessModel": "B2C模式，用户付费订阅或单次咨询，平台对接医生和用户，抽成或固定收费。",
+    "chinaOpportunity": "中国孕期产后护理需求大，但专业资源分布不均；可结合微信生态，提供线上咨询、课程和社区服务。",
+    "website": null
+  },
   "slug": "ruth-health",
   "title": "孕期产后远程医疗平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解孕期产后远程医疗平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.279807+00:00",
+  "generatedAt": "2026-07-27T14:21:14.667738+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

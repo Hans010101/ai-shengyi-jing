@@ -1,5 +1,15 @@
 {
   "projectId": "d74c57ae77dc",
+  "project": {
+    "id": "d74c57ae77dc",
+    "name": "I Built A $16K/Month Business Testing YouTube Thumbnails",
+    "nameZh": "提供YouTube缩略图A/B测试服务",
+    "summary": "提供YouTube缩略图A/B测试服务，按月订阅收费。",
+    "revenue": "$16K/Mo",
+    "businessModel": "SaaS订阅制，按测试量分档收费，用户上传缩略图变体，平台自动分配流量并统计点击率。",
+    "chinaOpportunity": "国内B站、抖音、快手等平台创作者同样需优化封面，可开发多平台兼容工具，支持本地化内容审核。",
+    "website": null
+  },
   "slug": "thumbnailtest",
   "title": "提供YouTube缩略图A/B测试服务：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解提供YouTube缩略图A/B测试服务如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.250059+00:00",
+  "generatedAt": "2026-07-27T14:21:14.707110+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

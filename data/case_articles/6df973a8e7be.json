@@ -1,5 +1,15 @@
 {
   "projectId": "6df973a8e7be",
+  "project": {
+    "id": "6df973a8e7be",
+    "name": "LodgerIn",
+    "nameZh": "AI租房管理SaaS",
+    "summary": "AI租房管理SaaS，月费订阅盈利",
+    "revenue": "$100K/mo",
+    "businessModel": "SaaS订阅制，按房源数量或功能分档收费，目标小型房东和物业管理公司。",
+    "chinaOpportunity": "中国长租公寓市场庞大，中小房东缺乏高效管理工具，可开发微信小程序+AI客服。",
+    "website": null
+  },
   "slug": "lodgerin",
   "title": "AI租房管理SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI租房管理SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.193472+00:00",
+  "generatedAt": "2026-07-27T14:21:14.646509+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

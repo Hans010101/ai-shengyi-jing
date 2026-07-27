@@ -1,5 +1,15 @@
 {
   "projectId": "6ca5e4443ff5",
+  "project": {
+    "id": "6ca5e4443ff5",
+    "name": "Yellowdig",
+    "nameZh": "AI驱动的课堂讨论平台",
+    "summary": "AI驱动的课堂讨论平台，通过SaaS订阅向大学收费。",
+    "revenue": "$360K/mo",
+    "businessModel": "B2B SaaS模式，按学生数收取年费，免费试用后转化付费，通过AI自动评分和社区管理降低教师负担。",
+    "chinaOpportunity": "中国高校课堂互动需求强，可开发类似产品，结合微信小程序和AI助教，收费按班级或学校订阅。",
+    "website": null
+  },
   "slug": "yellowdig",
   "title": "AI驱动的课堂讨论平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI驱动的课堂讨论平台如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.192694+00:00",
+  "generatedAt": "2026-07-27T14:21:14.645694+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

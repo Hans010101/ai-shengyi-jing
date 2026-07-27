@@ -1,5 +1,15 @@
 {
   "projectId": "f997cee37630",
+  "project": {
+    "id": "f997cee37630",
+    "name": "How I Turned My WordPress Freelance Gigs Into A Productized Service",
+    "nameZh": "WordPress网站无限维护服务",
+    "summary": "WordPress网站无限维护服务，按月收费。",
+    "revenue": "$30.4K",
+    "businessModel": "B2B订阅制：客户按月付费，获得WordPress网站无限次小修小改、安全更新、备份等服务。",
+    "chinaOpportunity": "中国大量中小企业使用WordPress或类似CMS，但缺乏技术维护能力，可提供类似“网站管家”订阅服务。",
+    "website": "https://wp-ok.com"
+  },
   "slug": "how-i-turned-my-wordpress-freelance-gigs-into-a-saas-business",
   "title": "WordPress网站无限维护服务：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解WordPress网站无限维护服务如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://wp-ok.com",
-  "generatedAt": "2026-07-27T14:11:35.190086+00:00",
+  "generatedAt": "2026-07-27T14:21:14.642874+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "c398fb586171",
+  "project": {
+    "id": "c398fb586171",
+    "name": "How Two Friends Grew a Twitter SaaS to $1.4M ARR",
+    "nameZh": "Twitter内容排程与增长SaaS",
+    "summary": "Twitter内容排程与增长SaaS，按月订阅赚钱。",
+    "revenue": "$1.4M",
+    "businessModel": "Freemium模式，免费版限制功能，付费版按月订阅（$12-$39/月），提供AI写作、分析、多账户等高级功能。",
+    "chinaOpportunity": "中国微博、小红书等平台类似需求，可做多平台内容排程+AI优化工具，结合本土社交电商变现。",
+    "website": null
+  },
   "slug": "typefully-twitter-thread-maker-twitter-analytics",
   "title": "Twitter内容排程与增长SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解Twitter内容排程与增长SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.198651+00:00",
+  "generatedAt": "2026-07-27T14:21:14.652248+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

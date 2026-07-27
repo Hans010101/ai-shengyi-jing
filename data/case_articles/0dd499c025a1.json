@@ -1,5 +1,15 @@
 {
   "projectId": "0dd499c025a1",
+  "project": {
+    "id": "0dd499c025a1",
+    "name": "We Built A Virtual Community To 2K Members [#1 On Product Hunt]",
+    "nameZh": "为独立创业者搭建付费社群",
+    "summary": "为独立创业者搭建付费社群，通过会员订阅和活动变现。",
+    "revenue": "$2K",
+    "businessModel": "会员订阅（Founders' Club）和线上活动门票为主要收入，辅以赞助和合作伙伴费用。",
+    "chinaOpportunity": "中国独立开发者/自由职业者社群需求旺盛，可通过微信群+小程序或知识星球+直播快速复制。",
+    "website": null
+  },
   "slug": "we-built-a-virtual-community-to-2k-members-1-on-product-hunt",
   "title": "为独立创业者搭建付费社群：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为独立创业者搭建付费社群如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.264346+00:00",
+  "generatedAt": "2026-07-27T14:21:14.718441+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

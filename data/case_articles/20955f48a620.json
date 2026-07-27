@@ -1,5 +1,15 @@
 {
   "projectId": "20955f48a620",
+  "project": {
+    "id": "20955f48a620",
+    "name": "How I Raised £1M And Built A Contract Software For Non-Lawyers",
+    "nameZh": "非律师用AI合同生成与数据追踪SaaS平台",
+    "summary": "非律师用AI合同生成与数据追踪SaaS平台，月费订阅赚钱。",
+    "revenue": "$5K",
+    "businessModel": "SaaS订阅制，按用户数或合同量收费，提供免费基础模板+付费高级功能（如数据追踪、法律审核）。",
+    "chinaOpportunity": "中小企业合同管理需求旺盛，但法律意识弱。可本土化：对接微信生态，提供中文合同模板，集成电子签章（如法大大）。",
+    "website": null
+  },
   "slug": "legislate",
   "title": "非律师用AI合同生成与数据追踪SaaS平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解非律师用AI合同生成与数据追踪SaaS平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.208894+00:00",
+  "generatedAt": "2026-07-27T14:21:14.662501+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "12390e1dee15",
+  "project": {
+    "id": "12390e1dee15",
+    "name": "How We Are Making DevOps Hiring Easier For Companies And Fun For Candidates",
+    "nameZh": "DevOps面试平台",
+    "summary": "DevOps面试平台，通过模拟故障测试收费。",
+    "revenue": "$5.5k",
+    "businessModel": "按测试次数或订阅收费，企业为每次测试付费，或购买月度/年度套餐。",
+    "chinaOpportunity": "中国DevOps人才缺口大，可提供中文环境测试，结合本土云服务（阿里云、腾讯云）定制故障场景。",
+    "website": null
+  },
   "slug": "brokee",
   "title": "DevOps面试平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解DevOps面试平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.203976+00:00",
+  "generatedAt": "2026-07-27T14:21:14.658344+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

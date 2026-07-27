@@ -1,5 +1,15 @@
 {
   "projectId": "77267956def9",
+  "project": {
+    "id": "77267956def9",
+    "name": "Heritage Cookbook Update: We're Projected To Do $1M In Sales This Year",
+    "nameZh": "在线定制食谱书",
+    "summary": "在线定制食谱书，通过SaaS订阅和交易分成盈利。",
+    "revenue": "$1M",
+    "businessModel": "提供在线工具让用户自助设计食谱书，按印刷数量收费或收取订阅费。",
+    "chinaOpportunity": "中国家庭、学校、企业有食谱书定制需求，可开发微信小程序或APP，结合本地化菜系和印刷资源。",
+    "website": null
+  },
   "slug": "heritage-cookbook",
   "title": "在线定制食谱书：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解在线定制食谱书如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.205424+00:00",
+  "generatedAt": "2026-07-27T14:21:14.659746+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

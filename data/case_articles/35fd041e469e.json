@@ -1,5 +1,15 @@
 {
   "projectId": "35fd041e469e",
+  "project": {
+    "id": "35fd041e469e",
+    "name": "Creating An API for Developers Earning $15K/Month",
+    "nameZh": "全球地理编码API服务",
+    "summary": "全球地理编码API服务，按调用量收费。",
+    "revenue": "$15K/Mo",
+    "businessModel": "提供免费+付费的API服务，按API调用次数收费，月费从免费到$500+不等。",
+    "chinaOpportunity": "中国地理编码市场被百度、高德等巨头占据，但细分场景如海外地址解析、IP定位仍有空间。",
+    "website": "https://geocode.xyz"
+  },
   "slug": "creating-an-api-for-developers-earning-15k-month",
   "title": "全球地理编码API服务：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解全球地理编码API服务如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://geocode.xyz",
-  "generatedAt": "2026-07-27T14:11:35.192434+00:00",
+  "generatedAt": "2026-07-27T14:21:14.645438+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

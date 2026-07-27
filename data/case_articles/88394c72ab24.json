@@ -1,5 +1,15 @@
 {
   "projectId": "88394c72ab24",
+  "project": {
+    "id": "88394c72ab24",
+    "name": "I Built An App To Help Fight Misinformation",
+    "nameZh": "众包事实核查平台",
+    "summary": "众包事实核查平台，靠捐赠和增值服务盈利",
+    "revenue": "$33",
+    "businessModel": "众包贡献事实核查内容，免费开放查询，通过捐赠和付费API/高级功能变现。",
+    "chinaOpportunity": "中国虚假信息治理需求大，可结合微信小程序做社区辟谣平台，通过广告或政府/企业合作盈利。",
+    "website": ""
+  },
   "slug": "i-built-an-app-to-help-fight-misinformation",
   "title": "众包事实核查平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解众包事实核查平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.183081+00:00",
+  "generatedAt": "2026-07-27T14:21:14.636036+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

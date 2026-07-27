@@ -1,5 +1,15 @@
 {
   "projectId": "bcab75a03057",
+  "project": {
+    "id": "bcab75a03057",
+    "name": "From Several Failed Startups To Building A $960K/Year Enterprise BI Business",
+    "nameZh": "开源BI工具",
+    "summary": "开源BI工具，通过企业版许可和付费支持盈利。",
+    "revenue": "$960K/Year",
+    "businessModel": "开源社区版免费，企业版按年订阅收费，提供高级功能、支持和云部署。",
+    "chinaOpportunity": "中国中小企业BI需求旺盛，可借鉴开源+企业版模式，提供本地化数据连接器和合规服务。",
+    "website": "https://helicalinsight.com"
+  },
   "slug": "from-several-failed-startups-to-building-a-960k-year-enterprise-bi-business",
   "title": "开源BI工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解开源BI工具如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://helicalinsight.com",
-  "generatedAt": "2026-07-27T14:11:35.176759+00:00",
+  "generatedAt": "2026-07-27T14:21:14.629293+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

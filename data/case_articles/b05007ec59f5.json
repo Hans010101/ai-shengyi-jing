@@ -1,5 +1,15 @@
 {
   "projectId": "b05007ec59f5",
+  "project": {
+    "id": "b05007ec59f5",
+    "name": "ping.gg",
+    "nameZh": "为创作者提供视频通话软件及开发者工具",
+    "summary": "为创作者提供视频通话软件及开发者工具，通过订阅制赚钱。",
+    "revenue": "$250K/mo",
+    "businessModel": "SaaS订阅制：基础功能免费，高级功能按月/年收费，如高清录制、多平台推流等。",
+    "chinaOpportunity": "中国直播和短视频创作者众多，可开发类似工具，支持抖音、快手等平台，结合本地支付和社交分享。",
+    "website": "https://ping.gg"
+  },
   "slug": "ping-labs-ping-gg-uploadthing",
   "title": "为创作者提供视频通话软件及开发者工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为创作者提供视频通话软件及开发者工具如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://ping.gg",
-  "generatedAt": "2026-07-27T14:11:35.277971+00:00",
+  "generatedAt": "2026-07-27T14:21:14.731754+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

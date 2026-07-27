@@ -1,5 +1,15 @@
 {
   "projectId": "6997c5ea7160",
+  "project": {
+    "id": "6997c5ea7160",
+    "name": "On Building A Cloud-Based Architecture SaaS",
+    "nameZh": "云端企业架构SaaS",
+    "summary": "云端企业架构SaaS，订阅付费，年营收2亿美元。",
+    "revenue": "$200M/Year",
+    "businessModel": "SaaS订阅制，按用户数/功能分级收费，提供免费版引流，企业版为主要收入来源。",
+    "chinaOpportunity": "中国数字化转型需求旺盛，但企业架构工具渗透率低。可推出本土化版本，集成国产数据库和云服务，降低价格。",
+    "website": null
+  },
   "slug": "on-creating-a-digital-architecture-software",
   "title": "云端企业架构SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解云端企业架构SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.254803+00:00",
+  "generatedAt": "2026-07-27T14:21:14.711974+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

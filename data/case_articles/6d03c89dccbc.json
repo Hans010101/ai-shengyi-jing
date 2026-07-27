@@ -1,5 +1,15 @@
 {
   "projectId": "6d03c89dccbc",
+  "project": {
+    "id": "6d03c89dccbc",
+    "name": "I Left My Job At Facebook To Go Full-Time On My Budgeting App [$600K/Year]",
+    "nameZh": "个人财务管理App",
+    "summary": "个人财务管理App，通过订阅制收费。",
+    "revenue": "$600K/Year",
+    "businessModel": "Freemium模式，免费版提供基础功能，高级版按月/年订阅，核心收入来自订阅费。",
+    "chinaOpportunity": "中国个人财务管理市场空白，支付宝/微信记账功能简单，可做深度预算、投资分析App，需对接本地银行和支付API。",
+    "website": null
+  },
   "slug": "the-best-budget-app-expense-tracker-for-2021",
   "title": "个人财务管理App：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解个人财务管理App如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.255370+00:00",
+  "generatedAt": "2026-07-27T14:21:14.712574+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

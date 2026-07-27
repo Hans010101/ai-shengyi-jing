@@ -1,5 +1,15 @@
 {
   "projectId": "86756a44f6c7",
+  "project": {
+    "id": "86756a44f6c7",
+    "name": "I Built A $240K/Year Business While Deployed In Kuwait",
+    "nameZh": "AI健身教练订阅服务",
+    "summary": "AI健身教练订阅服务，通过个性化锻炼方案和营养指导收费。",
+    "revenue": "$240K/Year",
+    "businessModel": "订阅制SaaS（月费/年费），提供AI生成的个性化锻炼和营养计划，辅以人工教练支持。",
+    "chinaOpportunity": "中国健身市场庞大，但缺乏AI驱动的个性化方案。可结合微信生态，推出小程序+社群订阅服务。",
+    "website": null
+  },
   "slug": "biofit",
   "title": "AI健身教练订阅服务：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI健身教练订阅服务如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.211962+00:00",
+  "generatedAt": "2026-07-27T14:21:14.668887+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

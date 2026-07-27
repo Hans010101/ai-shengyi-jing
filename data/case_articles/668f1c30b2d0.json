@@ -1,5 +1,15 @@
 {
   "projectId": "668f1c30b2d0",
+  "project": {
+    "id": "668f1c30b2d0",
+    "name": "Growing A Bible App Side Project To A Million Users - And Selling It",
+    "nameZh": "开发圣经App",
+    "summary": "开发圣经App，通过付费下载和应用内购买盈利。",
+    "revenue": "$10K",
+    "businessModel": "付费下载（$0.99）加应用内购买（如高级功能、移除广告），后续转为免费+订阅模式。",
+    "chinaOpportunity": "中国有大量基督教信徒，可开发中文圣经App，加入方言朗读、查经工具等本土功能。",
+    "website": "https://www.salemsoftware.com"
+  },
   "slug": "growing-a-bible-app-side-project-to-a-million-users-and-selling-it",
   "title": "开发圣经App：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解开发圣经App如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://www.salemsoftware.com",
-  "generatedAt": "2026-07-27T14:11:35.188507+00:00",
+  "generatedAt": "2026-07-27T14:21:14.641343+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

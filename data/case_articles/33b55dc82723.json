@@ -1,5 +1,15 @@
 {
   "projectId": "33b55dc82723",
+  "project": {
+    "id": "33b55dc82723",
+    "name": "Spotify For Clothes: How I Launched A Business Helping Guys Discover New Clothing",
+    "nameZh": "为男性提供个性化服装订阅推荐",
+    "summary": "为男性提供个性化服装订阅推荐，月收入$150。",
+    "revenue": "$150",
+    "businessModel": "用户填写风格偏好，平台每周/月推荐精选服装，用户可直接购买，平台赚取佣金或订阅费。",
+    "chinaOpportunity": "中国男性时尚消费崛起，但缺乏个性化服务；可结合淘宝/京东API做穿搭推荐，或专注特定风格（如商务、潮牌）。",
+    "website": null
+  },
   "slug": "on-brand",
   "title": "为男性提供个性化服装订阅推荐：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为男性提供个性化服装订阅推荐如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.249964+00:00",
+  "generatedAt": "2026-07-27T14:21:14.707004+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

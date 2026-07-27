@@ -1,5 +1,15 @@
 {
   "projectId": "51ac0e3a2866",
+  "project": {
+    "id": "51ac0e3a2866",
+    "name": "On Building A Digital Music Distribution Service [With Over 90K Artists]",
+    "nameZh": "数字音乐分发平台",
+    "summary": "数字音乐分发平台，通过收取分发佣金和SaaS工具订阅费盈利。",
+    "revenue": "$250",
+    "businessModel": "按分发渠道收取佣金（如Spotify、Apple Music），同时提供数据分析、版权管理等付费SaaS工具。",
+    "chinaOpportunity": "中国独立音乐人/厂牌数量庞大，但分发渠道分散（网易云、QQ音乐等），可整合分发+数据分析+版权服务。",
+    "website": null
+  },
   "slug": "on-developing-a-digital-music-distribution-services",
   "title": "数字音乐分发平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解数字音乐分发平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.261496+00:00",
+  "generatedAt": "2026-07-27T14:21:14.714661+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

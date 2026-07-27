@@ -1,5 +1,15 @@
 {
   "projectId": "aae086b9e8f0",
+  "project": {
+    "id": "aae086b9e8f0",
+    "name": "Churnkey",
+    "nameZh": "帮企业减少客户流失的AI工具",
+    "summary": "帮企业减少客户流失的AI工具，按月订阅收费。",
+    "revenue": "$140K/mo",
+    "businessModel": "SaaS订阅制，按客户规模分档收费，提供AI预测、自动化挽回流程、数据分析等功能。",
+    "chinaOpportunity": "中国SaaS企业流失率高，可做本土化AI流失预警与自动化挽回工具，对接企业微信、CRM等。",
+    "website": null
+  },
   "slug": "churnkey",
   "title": "帮企业减少客户流失的AI工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解帮企业减少客户流失的AI工具如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.276879+00:00",
+  "generatedAt": "2026-07-27T14:21:14.730513+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

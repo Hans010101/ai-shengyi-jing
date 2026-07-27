@@ -248,6 +248,22 @@ def build_key_facts(project: dict) -> list[dict]:
     ]
 
 
+def project_snapshot(project: dict) -> dict:
+    return {
+        key: project.get(key)
+        for key in (
+            "id",
+            "name",
+            "nameZh",
+            "summary",
+            "revenue",
+            "businessModel",
+            "chinaOpportunity",
+            "website",
+        )
+    }
+
+
 def build_structured_article(project: dict, media: list[dict]) -> dict:
     project_id = str(project["id"])
     name = clean_text(project.get("nameZh") or project.get("name"), 100)
@@ -453,6 +469,7 @@ def build_structured_article(project: dict, media: list[dict]) -> dict:
     )
     return {
         "projectId": project_id,
+        "project": project_snapshot(project),
         "slug": project.get("slug") or project_id,
         "title": f"{name}：从真实需求到可重复收入的商业拆解",
         "dek": (
@@ -679,6 +696,7 @@ def main() -> None:
             stale_file.unlink()
     for project in projects:
         project_id = str(project["id"])
+        results[project_id]["project"] = project_snapshot(project)
         save_json(ARTICLES_DIR / f"{project_id}.json", results[project_id])
 
     report = {

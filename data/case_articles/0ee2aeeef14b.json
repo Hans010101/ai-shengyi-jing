@@ -1,5 +1,15 @@
 {
   "projectId": "0ee2aeeef14b",
+  "project": {
+    "id": "0ee2aeeef14b",
+    "name": "My Franchise Management SaaS Makes $10K/Month",
+    "nameZh": "为加盟体系提供SaaS管理平台",
+    "summary": "为加盟体系提供SaaS管理平台，按月订阅收费。",
+    "revenue": "$10K/Mo",
+    "businessModel": "面向加盟品牌方收取月费，提供合同管理、合规检查、运营跟踪等功能。",
+    "chinaOpportunity": "中国加盟市场散乱，中小品牌急需数字化管理工具，可结合本地支付和合规需求。",
+    "website": null
+  },
   "slug": "zors-ai-smarter-franchise-management",
   "title": "为加盟体系提供SaaS管理平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为加盟体系提供SaaS管理平台如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.214896+00:00",
+  "generatedAt": "2026-07-27T14:21:14.672027+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "bf5792cc25f3",
+  "project": {
+    "id": "bf5792cc25f3",
+    "name": "How We Have Built An $18M/Year Business Providing Payment Processing Solutions To SMBs",
+    "nameZh": "为美国农村小商户提供透明低价的支付处理服务",
+    "summary": "为美国农村小商户提供透明低价的支付处理服务，靠交易抽成赚钱。",
+    "revenue": "$18M/Year",
+    "businessModel": "以低于大行的费率和无隐藏费用的定价吸引商户，每笔交易收取固定抽成，同时提供POS硬件和增值服务。",
+    "chinaOpportunity": "中国下沉市场（县城/乡镇）小商户同样面临支付费率不透明、服务缺失问题，可仿照做本地化支付服务商，或结合聚合支付+增值服务。",
+    "website": null
+  },
   "slug": "vizpay",
   "title": "为美国农村小商户提供透明低价的支付处理服务：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为美国农村小商户提供透明低价的支付处理服务如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.219989+00:00",
+  "generatedAt": "2026-07-27T14:21:14.699536+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

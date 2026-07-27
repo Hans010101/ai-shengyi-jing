@@ -1,5 +1,15 @@
 {
   "projectId": "5b17f18278d9",
+  "project": {
+    "id": "5b17f18278d9",
+    "name": "Tiiny.host",
+    "nameZh": "极简网页托管工具",
+    "summary": "极简网页托管工具，通过免费+付费订阅盈利。",
+    "revenue": "$2K/mo",
+    "businessModel": "免费增值模式：基础功能免费，付费用户获得自定义域名、密码保护、分析等高级功能。",
+    "chinaOpportunity": "中国开发者同样需要快速分享网页，可结合微信小程序、公众号等生态，提供一键部署到国内服务器（如阿里云OSS）的服务。",
+    "website": null
+  },
   "slug": "tiiny-host",
   "title": "极简网页托管工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解极简网页托管工具如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.277114+00:00",
+  "generatedAt": "2026-07-27T14:21:14.730837+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

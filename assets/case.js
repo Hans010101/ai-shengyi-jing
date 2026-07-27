@@ -245,11 +245,6 @@ async function initCasePage() {
   }
 
   try {
-    const projectsResponse = await fetch('data/projects_live.json');
-    if (!projectsResponse.ok) throw new Error('项目数据加载失败');
-    const projects = await projectsResponse.json();
-    const project = projects.find(item => item.id === projectId);
-    if (!project) throw new Error('未找到该项目');
     let article = null;
     const articleResponse = await fetch(
       `data/case_articles/${encodeURIComponent(projectId)}.json`
@@ -257,6 +252,14 @@ async function initCasePage() {
     if (articleResponse.ok) {
       article = await articleResponse.json();
     }
+    let project = article?.project || null;
+    if (!project) {
+      const projectsResponse = await fetch('data/projects_live.json');
+      if (!projectsResponse.ok) throw new Error('项目数据加载失败');
+      const projects = await projectsResponse.json();
+      project = projects.find(item => item.id === projectId);
+    }
+    if (!project) throw new Error('未找到该项目');
     article ||= buildFallbackArticle(project);
     renderArticle(project, article);
     renderAside(project, article);

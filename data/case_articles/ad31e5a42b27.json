@@ -1,5 +1,15 @@
 {
   "projectId": "ad31e5a42b27",
+  "project": {
+    "id": "ad31e5a42b27",
+    "name": "How Farid Shukurov Grew a Web Feedback Tool to $40k in Sales",
+    "nameZh": "为创作者提供可视化反馈与任务管理工具",
+    "summary": "为创作者提供可视化反馈与任务管理工具，月营收4万美元。",
+    "revenue": "$40k",
+    "businessModel": "SaaS订阅制，按月或年收费，提供免费版吸引用户，付费解锁高级功能。",
+    "chinaOpportunity": "中国创作者经济火爆，类似工具如协作白板、设计评审平台有需求，可结合微信生态、飞书等本土化。",
+    "website": null
+  },
   "slug": "beep-breakdown",
   "title": "为创作者提供可视化反馈与任务管理工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为创作者提供可视化反馈与任务管理工具如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.213715+00:00",
+  "generatedAt": "2026-07-27T14:21:14.670788+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "3988767d9dd1",
+  "project": {
+    "id": "3988767d9dd1",
+    "name": "How I'm Building The Airbnb For Mentors",
+    "nameZh": "免费导师匹配平台",
+    "summary": "免费导师匹配平台，通过企业招聘和增值服务盈利。",
+    "revenue": "$1.5",
+    "businessModel": "Freemium + 企业服务：免费匹配导师与学员，向企业收取招聘/品牌合作费，以及高级会员订阅。",
+    "chinaOpportunity": "中国职场人成长焦虑强，但缺乏可信赖的导师平台。可聚焦垂直领域（如互联网、AI），结合知识付费和猎头服务。",
+    "website": null
+  },
   "slug": "adplist",
   "title": "免费导师匹配平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解免费导师匹配平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.261028+00:00",
+  "generatedAt": "2026-07-27T14:21:14.714222+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

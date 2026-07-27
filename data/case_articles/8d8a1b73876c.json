@@ -1,5 +1,15 @@
 {
   "projectId": "8d8a1b73876c",
+  "project": {
+    "id": "8d8a1b73876c",
+    "name": "Problems",
+    "nameZh": "案例研究数据库",
+    "summary": "案例研究数据库，通过订阅付费解锁搜索和筛选功能。",
+    "revenue": "$20K",
+    "businessModel": "SaaS订阅模式，免费基础搜索，付费解锁高级筛选、排序和导出功能。",
+    "chinaOpportunity": "中国创业者可建立垂直行业案例库（如电商、教育），结合AI智能匹配，提供本土化解决方案。",
+    "website": null
+  },
   "slug": "problems",
   "title": "案例研究数据库：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解案例研究数据库如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.215310+00:00",
+  "generatedAt": "2026-07-27T14:21:14.672478+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

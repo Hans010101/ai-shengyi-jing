@@ -1,5 +1,15 @@
 {
   "projectId": "530ed0a5e671",
+  "project": {
+    "id": "530ed0a5e671",
+    "name": "How I Started A $18K/Year Side Project Collecting VC-Funded Startup Leads",
+    "nameZh": "收集VC投资初创企业线索的SaaS副业",
+    "summary": "收集VC投资初创企业线索的SaaS副业，年收入1.8万美元。",
+    "revenue": "$18K/Year",
+    "businessModel": "按月订阅SaaS服务，提供VC投资初创企业的数据库，用户可筛选、导出线索。",
+    "chinaOpportunity": "中国VC投资信息分散，可整合公开数据（如企查查、天眼查）提供类似线索服务，面向B2B销售团队。",
+    "website": null
+  },
   "slug": "vcbacked",
   "title": "收集VC投资初创企业线索的SaaS副业：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解收集VC投资初创企业线索的SaaS副业如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.218120+00:00",
+  "generatedAt": "2026-07-27T14:21:14.676289+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

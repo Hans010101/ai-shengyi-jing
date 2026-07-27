@@ -1,5 +1,15 @@
 {
   "projectId": "ee112db59b67",
+  "project": {
+    "id": "ee112db59b67",
+    "name": "Profile: How Gary Brewer Stumbled Into A $14M Idea Profiling Websites",
+    "nameZh": "网站技术分析工具",
+    "summary": "网站技术分析工具，按月订阅盈利。",
+    "revenue": "$14M",
+    "businessModel": "免费基础查询+付费订阅高级功能（如导出、监控、API），按年/月收费。",
+    "chinaOpportunity": "中国网站数量庞大，技术栈分析需求强，可切入电商、建站平台生态，提供定制化报告和线索。",
+    "website": null
+  },
   "slug": "builtwith-technology-lookup-breakdown",
   "title": "网站技术分析工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解网站技术分析工具如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.218742+00:00",
+  "generatedAt": "2026-07-27T14:21:14.676940+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

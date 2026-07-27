@@ -1,5 +1,15 @@
 {
   "projectId": "304974d21042",
+  "project": {
+    "id": "304974d21042",
+    "name": "I Hacked My Product in One Week and Now Make $30K/Year",
+    "nameZh": "为Tailwind CSS开发者打造的浏览器扩展",
+    "summary": "为Tailwind CSS开发者打造的浏览器扩展，通过付费订阅盈利。",
+    "revenue": "$30K/Year",
+    "businessModel": "SaaS订阅制，提供免费基础功能，高级功能按月/年收费。",
+    "chinaOpportunity": "国内前端框架（如Vue/React）生态有类似工具需求，可做CSS调试、可视化编辑等插件。",
+    "website": null
+  },
   "slug": "tailscan",
   "title": "为Tailwind CSS开发者打造的浏览器扩展：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为Tailwind CSS开发者打造的浏览器扩展如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.219623+00:00",
+  "generatedAt": "2026-07-27T14:21:14.699184+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "60f91e7439ec",
+  "project": {
+    "id": "60f91e7439ec",
+    "name": "SiteGuru Update: How We Went From $400 To $12K MRR In 3 Years",
+    "nameZh": "SEO分析工具SaaS",
+    "summary": "SEO分析工具SaaS，通过订阅制收费。",
+    "revenue": "$400",
+    "businessModel": "B2B SaaS订阅模式，按站点数量分级收费，提供免费试用吸引用户，付费解锁高级功能。",
+    "chinaOpportunity": "中国中小企业SEO需求旺盛，但工具复杂。可开发中文版，集成百度、微信搜索优化，主打易用性和本地化数据。",
+    "website": null
+  },
   "slug": "siteguru",
   "title": "SEO分析工具SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解SEO分析工具SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.227089+00:00",
+  "generatedAt": "2026-07-27T14:21:14.705988+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

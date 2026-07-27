@@ -155,5 +155,15 @@
   "website": "https://rotoshovel.com",
   "generatedAt": "2026-07-26T13:00:00+00:00",
   "provider": "editorial-reviewed",
-  "status": "pilot"
+  "status": "pilot",
+  "project": {
+    "id": "b34cc6ba924b",
+    "name": "How Our Patented Shovel Reached $600K In Sales Last Year",
+    "nameZh": "手持电动铲土工具",
+    "summary": "手持电动铲土工具，通过DTC电商和批发销售盈利。",
+    "revenue": "$600K",
+    "businessModel": "自主研发生产电动铲土工具，通过官网DTC、亚马逊、批发商销售，毛利率高。",
+    "chinaOpportunity": "中国园艺工具市场分散，可开发电动铲、松土器等产品，通过直播电商和社区团购渠道推广。",
+    "website": "https://rotoshovel.com"
+  }
 }

@@ -1,5 +1,15 @@
 {
   "projectId": "61b6ae989f52",
+  "project": {
+    "id": "61b6ae989f52",
+    "name": "Podscan",
+    "nameZh": "播客转录与索引平台",
+    "summary": "播客转录与索引平台，按订阅收费。",
+    "revenue": "$1K/mo",
+    "businessModel": "SaaS订阅制：按查询次数或数据量分级收费，提供API接口给企业客户。",
+    "chinaOpportunity": "中国播客市场快速增长，但缺乏专业监测工具。可聚焦中文播客转录+关键词监测，服务品牌公关和内容创作者。",
+    "website": "https://podscan.fm"
+  },
   "slug": "podscan",
   "title": "播客转录与索引平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解播客转录与索引平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://podscan.fm",
-  "generatedAt": "2026-07-27T14:11:35.191088+00:00",
+  "generatedAt": "2026-07-27T14:21:14.643962+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "fb500ef827a0",
+  "project": {
+    "id": "fb500ef827a0",
+    "name": "How I Built It 20K Month Chrome Extension",
+    "nameZh": "AI驱动的Chrome扩展",
+    "summary": "AI驱动的Chrome扩展，通过订阅制帮助用户提升效率，月入2万美元。",
+    "revenue": "$20K/Mo",
+    "businessModel": "免费增值模式：基础功能免费，高级功能按月/年订阅，用户基数大则收入稳定。",
+    "chinaOpportunity": "中国用户对效率工具付费意愿提升，可针对微信/钉钉等生态开发AI插件，或做垂直场景（如电商客服）。",
+    "website": null
+  },
   "slug": "how-i-built-it-20k-month-chrome-extension",
   "title": "AI驱动的Chrome扩展：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI驱动的Chrome扩展如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.196381+00:00",
+  "generatedAt": "2026-07-27T14:21:14.649850+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

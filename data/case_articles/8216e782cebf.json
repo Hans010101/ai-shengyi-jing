@@ -1,5 +1,15 @@
 {
   "projectId": "8216e782cebf",
+  "project": {
+    "id": "8216e782cebf",
+    "name": "How Last Year Our Book Marketing Platform Increased Revenue By 30%",
+    "nameZh": "为作者提供自助营销平台",
+    "summary": "为作者提供自助营销平台，通过订阅和增值服务盈利。",
+    "revenue": "$15K",
+    "businessModel": "按月/年收取订阅费，提供免费基础功能+付费高级功能（如高级分析、推广工具），通过增值服务（如广告位）增收。",
+    "chinaOpportunity": "中国网文作者、自媒体人、独立出版人数量庞大，缺乏一站式营销工具。可整合抖音、小红书等平台推广功能，本土化定价。",
+    "website": null
+  },
   "slug": "allauthor",
   "title": "为作者提供自助营销平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为作者提供自助营销平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.250268+00:00",
+  "generatedAt": "2026-07-27T14:21:14.707334+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

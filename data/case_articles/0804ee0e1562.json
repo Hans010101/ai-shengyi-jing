@@ -1,5 +1,15 @@
 {
   "projectId": "0804ee0e1562",
+  "project": {
+    "id": "0804ee0e1562",
+    "name": "We Bootstrapped A Tech Talent Platform To $1.2M Sales In Our First Year",
+    "nameZh": "科技人才匹配平台",
+    "summary": "科技人才匹配平台，通过佣金和订阅费盈利",
+    "revenue": "$1.2M",
+    "businessModel": "向企业收取人才匹配成功后的佣金（约15-20%）以及月度订阅费，同时向人才收取少量平台费或会员费。",
+    "chinaOpportunity": "中国科技人才市场庞大，企业招聘成本高，可借鉴其预筛选+匹配模式，聚焦垂直领域（如AI、区块链），通过社群和内容引流，快速验证。",
+    "website": "https://www.clouddevs.com"
+  },
   "slug": "we-bootstrapped-a-tech-talent-platform-to-1-2m-sales-in-our-first-year",
   "title": "科技人才匹配平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解科技人才匹配平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://www.clouddevs.com",
-  "generatedAt": "2026-07-27T14:11:35.183103+00:00",
+  "generatedAt": "2026-07-27T14:21:14.636059+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "d1d06c631bb5",
+  "project": {
+    "id": "d1d06c631bb5",
+    "name": "I Built A $300K/Year Vue.js Component Library",
+    "nameZh": "开发Vue.js组件库",
+    "summary": "开发Vue.js组件库，通过开源免费版+付费高级组件和模板盈利。",
+    "revenue": "$300K/Year",
+    "businessModel": "开源核心库免费，高级组件、模板、企业支持付费；订阅制或一次性购买。",
+    "chinaOpportunity": "中国前端开发者众多，可针对Vue/React生态开发高质量组件库，通过付费主题、模板、技术支持盈利。",
+    "website": "https://vuetifyjs.com"
+  },
   "slug": "i-built-a-300k-year-vue-js-component-library",
   "title": "开发Vue.js组件库：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解开发Vue.js组件库如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://vuetifyjs.com",
-  "generatedAt": "2026-07-27T14:11:35.182967+00:00",
+  "generatedAt": "2026-07-27T14:21:14.635869+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

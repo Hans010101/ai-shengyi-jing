@@ -1,5 +1,15 @@
 {
   "projectId": "46e8be6dfb2f",
+  "project": {
+    "id": "46e8be6dfb2f",
+    "name": "How We Created Our Own Video Fitness App",
+    "nameZh": "自制视频健身App",
+    "summary": "自制视频健身App，通过订阅制赚取月费。",
+    "revenue": "$21.9",
+    "businessModel": "月订阅制（$2.99/月），提供个性化健身视频课程，用户按月付费解锁全部内容。",
+    "chinaOpportunity": "中国健身市场庞大，可针对居家健身、白领等细分人群，结合短视频平台引流，开发本土化健身课程。",
+    "website": null
+  },
   "slug": "how-we-created-our-own-video-fitness-app",
   "title": "自制视频健身App：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解自制视频健身App如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.272995+00:00",
+  "generatedAt": "2026-07-27T14:21:14.726587+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "37d3f0399d38",
+  "project": {
+    "id": "37d3f0399d38",
+    "name": "I Spent A Weekend Building A Site That Generates Domain Names For Businesses Using AI",
+    "nameZh": "用AI根据业务描述生成可用域名",
+    "summary": "用AI根据业务描述生成可用域名，用户付费获取。",
+    "revenue": "$1K",
+    "businessModel": "SaaS订阅+按次付费，用户输入业务描述，AI生成域名列表，免费看部分，付费看完整和注册。",
+    "chinaOpportunity": "中国域名市场庞大，但命名工具多传统。可结合中文语义和拼音，针对中小企业提供AI域名生成服务。",
+    "website": null
+  },
   "slug": "smartynames-com",
   "title": "用AI根据业务描述生成可用域名：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解用AI根据业务描述生成可用域名如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.203284+00:00",
+  "generatedAt": "2026-07-27T14:21:14.657595+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "a9646c23954e",
+  "project": {
+    "id": "a9646c23954e",
+    "name": "We Raised $1.4M To Build An API Management Tool",
+    "nameZh": "API管理工具SaaS",
+    "summary": "API管理工具SaaS，按订阅收费。",
+    "revenue": "$1.4M",
+    "businessModel": "SaaS订阅制，免费版提供基础功能，付费版按API调用量或团队规模分级收费。",
+    "chinaOpportunity": "国内API经济蓬勃发展，但缺乏一站式管理工具，可针对微信、阿里云等生态定制，或聚焦微服务治理。",
+    "website": "https://example.com"
+  },
   "slug": "we-raised-1-4m-to-build-an-api-management-tool",
   "title": "API管理工具SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解API管理工具SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://example.com",
-  "generatedAt": "2026-07-27T14:11:35.178239+00:00",
+  "generatedAt": "2026-07-27T14:21:14.630836+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "b52461e96f4e",
+  "project": {
+    "id": "b52461e96f4e",
+    "name": "LuggageHero Update: How We Grew Our Operation To 46 Major Cities [$100K/Month]",
+    "nameZh": "行李临时寄存平台",
+    "summary": "行李临时寄存平台，通过连接商家和旅客收取存储费盈利。",
+    "revenue": "$100K/Mo",
+    "businessModel": "平台连接旅客与本地商家，旅客支付存储费，平台抽成（约20-30%），商家获得客流和额外收入。",
+    "chinaOpportunity": "中国旅游城市（如上海、成都）火车站/景区周边有大量闲置空间，可整合便利店、药店等作为寄存点。",
+    "website": "https://luggagehero.com"
+  },
   "slug": "luggagehero",
   "title": "行李临时寄存平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解行李临时寄存平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://luggagehero.com",
-  "generatedAt": "2026-07-27T14:11:35.176162+00:00",
+  "generatedAt": "2026-07-27T14:21:14.628687+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "da5c50e991e9",
+  "project": {
+    "id": "da5c50e991e9",
+    "name": "How We Grew Our Marketing SaaS to $2M/Month [Update]",
+    "nameZh": "为中小企业提供营销自动化SaaS套件",
+    "summary": "为中小企业提供营销自动化SaaS套件，按月订阅收费。",
+    "revenue": "$2M/Mo",
+    "businessModel": "SaaS订阅制，提供免费基础版+付费专业版，按功能层级和用户数收费。",
+    "chinaOpportunity": "中国SMB营销需求旺盛，可开发微信生态、抖音等本土平台集成工具，降低使用门槛。",
+    "website": "https://www.storeya.com"
+  },
   "slug": "storeya-739e5fd1-4a79-4742-adf2-06a01f71dbbe",
   "title": "为中小企业提供营销自动化SaaS套件：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为中小企业提供营销自动化SaaS套件如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://www.storeya.com",
-  "generatedAt": "2026-07-27T14:11:35.199432+00:00",
+  "generatedAt": "2026-07-27T14:21:14.652989+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

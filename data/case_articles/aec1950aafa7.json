@@ -1,5 +1,15 @@
 {
   "projectId": "aec1950aafa7",
+  "project": {
+    "id": "aec1950aafa7",
+    "name": "I Built A URL Shortener Tool With 350K Active Users [Side Hustle]",
+    "nameZh": "一键缩短链接的浏览器扩展及管理工具",
+    "summary": "一键缩短链接的浏览器扩展及管理工具，通过免费增值和订阅赚钱。",
+    "revenue": "$15K",
+    "businessModel": "Freemium模式：免费版提供基本短链功能，付费版（$9/月起）提供自定义域名、API访问、团队管理等高级功能。",
+    "chinaOpportunity": "中国短链市场有微信、微博等封闭生态，可开发一键生成短链并适配各平台分享的工具，集成数据追踪和营销分析功能。",
+    "website": "https://t.ly"
+  },
   "slug": "i-built-a-28k-year-and-350k-users-url-shortener-side-hustle",
   "title": "一键缩短链接的浏览器扩展及管理工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解一键缩短链接的浏览器扩展及管理工具如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://t.ly",
-  "generatedAt": "2026-07-27T14:11:35.178354+00:00",
+  "generatedAt": "2026-07-27T14:21:14.630969+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

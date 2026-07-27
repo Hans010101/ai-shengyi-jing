@@ -1,5 +1,15 @@
 {
   "projectId": "03f0356d2d1c",
+  "project": {
+    "id": "03f0356d2d1c",
+    "name": "Fraction",
+    "nameZh": "AI驱动的数据提取与自动化平台",
+    "summary": "AI驱动的数据提取与自动化平台，按使用量收费。",
+    "revenue": "$850K/mo",
+    "businessModel": "SaaS按量付费，提供AI数据提取API和文档处理工具，企业按使用量（如API调用次数、处理页数）付费。",
+    "chinaOpportunity": "中国中小企业有大量纸质单据、合同、发票处理需求，可开发本土化AI OCR+数据提取工具，对接微信/钉钉生态。",
+    "website": "https://fraction.ai"
+  },
   "slug": "fraction",
   "title": "AI驱动的数据提取与自动化平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI驱动的数据提取与自动化平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://fraction.ai",
-  "generatedAt": "2026-07-27T14:11:35.191224+00:00",
+  "generatedAt": "2026-07-27T14:21:14.644120+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

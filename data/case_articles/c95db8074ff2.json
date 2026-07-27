@@ -1,5 +1,15 @@
 {
   "projectId": "c95db8074ff2",
+  "project": {
+    "id": "c95db8074ff2",
+    "name": "How Two Friends Built A $540K/Year Marketplace For Automotive Products [Ukraine]",
+    "nameZh": "汽车产品B2B平台",
+    "summary": "汽车产品B2B平台，通过会员订阅和交易佣金盈利。",
+    "revenue": "$540K/Year",
+    "businessModel": "B2B marketplace，供应商付费入驻或按交易抽成，买家免费使用，通过增值服务（如广告、数据分析）变现。",
+    "chinaOpportunity": "中国汽车后市场分散，可做垂直B2B平台，整合中小供应商，提供交易撮合、物流、金融等增值服务。",
+    "website": null
+  },
   "slug": "avtopro",
   "title": "汽车产品B2B平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解汽车产品B2B平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.210661+00:00",
+  "generatedAt": "2026-07-27T14:21:14.667553+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

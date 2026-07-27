@@ -1,5 +1,15 @@
 {
   "projectId": "04bdb07ecf86",
+  "project": {
+    "id": "04bdb07ecf86",
+    "name": "How We're Building A Super Fast Productivity App & Got Into YC",
+    "nameZh": "超级生产力应用",
+    "summary": "超级生产力应用，通过订阅制赚钱",
+    "revenue": "$200M/Year",
+    "businessModel": "SaaS订阅制，提供基础免费版和高级付费版，按年或月收费。",
+    "chinaOpportunity": "中国职场效率工具需求旺盛，可本地化集成钉钉、飞书等生态，提供AI驱动的任务管理。",
+    "website": ""
+  },
   "slug": "how-we-re-building-a-super-fast-productivity-app-got-into-yc",
   "title": "超级生产力应用：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解超级生产力应用如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.181437+00:00",
+  "generatedAt": "2026-07-27T14:21:14.634349+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

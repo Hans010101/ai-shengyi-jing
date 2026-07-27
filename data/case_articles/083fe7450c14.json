@@ -1,5 +1,15 @@
 {
   "projectId": "083fe7450c14",
+  "project": {
+    "id": "083fe7450c14",
+    "name": "How I Created a Study App That Earned $40K in Its First Year",
+    "nameZh": "AI学习工具",
+    "summary": "AI学习工具，帮助学生5小时备考，靠订阅制赚钱。",
+    "revenue": "$40K",
+    "businessModel": "B2C订阅制，提供免费基础功能，高级功能按月/年收费，如AI生成笔记、模拟测试等。",
+    "chinaOpportunity": "中国学生备考压力大，可开发AI辅导工具，结合本地教材和考试大纲，通过微信小程序或APP推广。",
+    "website": null
+  },
   "slug": "studyquick-mit-5-stunden-lernaufwand-sehr-gut-in-der-klausur-schreiben",
   "title": "AI学习工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI学习工具如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.214875+00:00",
+  "generatedAt": "2026-07-27T14:21:14.672001+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

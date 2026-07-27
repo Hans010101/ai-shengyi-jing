@@ -1,5 +1,15 @@
 {
   "projectId": "f49d521b91f9",
+  "project": {
+    "id": "f49d521b91f9",
+    "name": "Rails Autoscale",
+    "nameZh": "为Rails应用提供自动扩缩容的SaaS工具",
+    "summary": "为Rails应用提供自动扩缩容的SaaS工具，按月收费。",
+    "revenue": "$25K/mo",
+    "businessModel": "按服务器实例数量分级订阅（月费$49-$299），提供自动扩缩容、性能监控、告警等功能。",
+    "chinaOpportunity": "国内大量中小企业使用阿里云/腾讯云，但缺乏自动扩缩容能力。可针对主流云平台（如阿里云ECS）和常见技术栈（Java/Go/PHP）推出类似工具。",
+    "website": null
+  },
   "slug": "rails-autoscale",
   "title": "为Rails应用提供自动扩缩容的SaaS工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为Rails应用提供自动扩缩容的SaaS工具如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.276659+00:00",
+  "generatedAt": "2026-07-27T14:21:14.730258+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

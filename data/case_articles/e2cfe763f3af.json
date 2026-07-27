@@ -1,5 +1,15 @@
 {
   "projectId": "e2cfe763f3af",
+  "project": {
+    "id": "e2cfe763f3af",
+    "name": "On Creating A Crypto Wallet App [$20M Raised]",
+    "nameZh": "简单安全的加密钱包",
+    "summary": "简单安全的加密钱包，通过交易手续费和增值服务盈利。",
+    "revenue": "$20M",
+    "businessModel": "免费提供基础钱包服务，从加密货币交易中收取手续费，并提供高级安全功能订阅。",
+    "chinaOpportunity": "中国数字人民币钱包市场庞大，但用户体验复杂。可借鉴ZenGo的简化设计，推出易用的数字人民币钱包，通过转账手续费和增值服务盈利。",
+    "website": null
+  },
   "slug": "on-creating-a-digital-wallet-app",
   "title": "简单安全的加密钱包：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解简单安全的加密钱包如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.260852+00:00",
+  "generatedAt": "2026-07-27T14:21:14.714063+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

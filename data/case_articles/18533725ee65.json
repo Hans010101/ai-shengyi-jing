@@ -1,5 +1,15 @@
 {
   "projectId": "18533725ee65",
+  "project": {
+    "id": "18533725ee65",
+    "name": "Shipper.now",
+    "nameZh": "AI物流平台",
+    "summary": "AI物流平台，按订单量收SaaS月费",
+    "revenue": "$70K/mo",
+    "businessModel": "SaaS订阅+按订单量收费，提供AI物流优化、实时追踪、多承运商集成，月费$99-$999。",
+    "chinaOpportunity": "中国中小电商物流成本高，可做AI物流聚合平台，对接菜鸟、顺丰等，按单抽佣或SaaS收费。",
+    "website": null
+  },
   "slug": "shipper-now",
   "title": "AI物流平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI物流平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.276496+00:00",
+  "generatedAt": "2026-07-27T14:21:14.730131+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

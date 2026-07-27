@@ -1,5 +1,15 @@
 {
   "projectId": "e33e3e6db933",
+  "project": {
+    "id": "e33e3e6db933",
+    "name": "How I Built a $60K/Mo Marketing Analytics Platform",
+    "nameZh": "AI驱动的营销分析平台",
+    "summary": "AI驱动的营销分析平台，按月订阅收费。",
+    "revenue": "$60K/Mo",
+    "businessModel": "B2B SaaS订阅制，提供AI广告数据分析与优化建议，按功能层级按月收费。",
+    "chinaOpportunity": "中国中小企业广告投放需求大，但数据分析工具门槛高。可开发本土化AI分析工具，对接抖音、微信等平台API。",
+    "website": null
+  },
   "slug": "catch-let-s-catch-money-together",
   "title": "AI驱动的营销分析平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI驱动的营销分析平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.213753+00:00",
+  "generatedAt": "2026-07-27T14:21:14.670832+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

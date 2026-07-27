@@ -1,5 +1,15 @@
 {
   "projectId": "e897f2e3c85c",
+  "project": {
+    "id": "e897f2e3c85c",
+    "name": "How Jon Yongfook Bootstrapped Bannerbear To $50K MRR in 3 Years",
+    "nameZh": "API自动生成社交媒体视觉内容",
+    "summary": "API自动生成社交媒体视觉内容，按使用量收费。",
+    "revenue": "$50K",
+    "businessModel": "SaaS订阅+按API调用量计费，提供免费层引流，付费解锁更多生成量。",
+    "chinaOpportunity": "中国中小企业社交媒体运营需求大，可提供类似API+模板库，接入微信、抖音等平台。",
+    "website": null
+  },
   "slug": "bannerbear-breakdown",
   "title": "API自动生成社交媒体视觉内容：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解API自动生成社交媒体视觉内容如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.216703+00:00",
+  "generatedAt": "2026-07-27T14:21:14.674006+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

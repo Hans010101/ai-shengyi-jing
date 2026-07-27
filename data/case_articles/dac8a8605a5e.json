@@ -1,5 +1,15 @@
 {
   "projectId": "dac8a8605a5e",
+  "project": {
+    "id": "dac8a8605a5e",
+    "name": "Countly",
+    "nameZh": "移动应用分析平台",
+    "summary": "移动应用分析平台，通过免费增值模式收费。",
+    "revenue": "$200K/mo",
+    "businessModel": "开源免费增值模式：基础版免费，高级功能（如无限用户、高级报告、技术支持）按订阅收费。",
+    "chinaOpportunity": "中国企业数据隐私需求强，可做私有化部署的移动分析工具，对标友盟+、GrowingIO，聚焦中小企业或垂直行业。",
+    "website": null
+  },
   "slug": "countly-640560",
   "title": "移动应用分析平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解移动应用分析平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.193512+00:00",
+  "generatedAt": "2026-07-27T14:21:14.646550+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

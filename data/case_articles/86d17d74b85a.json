@@ -1,5 +1,15 @@
 {
   "projectId": "86d17d74b85a",
+  "project": {
+    "id": "86d17d74b85a",
+    "name": "How Two Friends Bootstrapped A SaaS Business To $55K MRR",
+    "nameZh": "为非设计师提供简易在线图形设计工具",
+    "summary": "为非设计师提供简易在线图形设计工具，通过订阅制收费。",
+    "revenue": "$55K",
+    "businessModel": "SaaS订阅制，提供免费版和付费版（按月/年），付费解锁更多模板、高级功能及去水印。",
+    "chinaOpportunity": "中国有大量中小企业及个人需要快速制作社交媒体图片，但缺乏设计技能。可结合本土化模板（如微信、抖音尺寸）和AI辅助功能。",
+    "website": "https://snappa.com"
+  },
   "slug": "how-two-friends-bootstrapped-a-saas-business-to-55k-mrr",
   "title": "为非设计师提供简易在线图形设计工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为非设计师提供简易在线图形设计工具如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://snappa.com",
-  "generatedAt": "2026-07-27T14:11:35.189658+00:00",
+  "generatedAt": "2026-07-27T14:21:14.642502+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

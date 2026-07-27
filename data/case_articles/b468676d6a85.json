@@ -1,5 +1,15 @@
 {
   "projectId": "b468676d6a85",
+  "project": {
+    "id": "b468676d6a85",
+    "name": "My Research Platform Reaches Thousands Of Students Around The World",
+    "nameZh": "面向学生和研究员的研究平台",
+    "summary": "面向学生和研究员的研究平台，通过订阅和高级功能变现。",
+    "revenue": "$500K/Mo",
+    "businessModel": "SaaS订阅制，基础功能免费，高级功能（如AI选题生成、协作工具、数据分析）按月/年收费。",
+    "chinaOpportunity": "中国高校和科研机构有大量需求，可本土化切入论文选题、文献综述、数据可视化等场景，结合中文NLP和知网数据。",
+    "website": null
+  },
   "slug": "aveksana",
   "title": "面向学生和研究员的研究平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解面向学生和研究员的研究平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.200690+00:00",
+  "generatedAt": "2026-07-27T14:21:14.654314+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

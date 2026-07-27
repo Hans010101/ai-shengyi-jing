@@ -1,5 +1,15 @@
 {
   "projectId": "b24918c9f96f",
+  "project": {
+    "id": "b24918c9f96f",
+    "name": "DropPop",
+    "nameZh": "为Depop卖家提供自动化工作流的SaaS工具",
+    "summary": "为Depop卖家提供自动化工作流的SaaS工具，通过订阅收费。",
+    "revenue": "$30K/mo",
+    "businessModel": "按月订阅制SaaS，提供商品批量上架、消息自动回复、库存管理等自动化功能，用户按需选择套餐付费。",
+    "chinaOpportunity": "中国二手电商（闲鱼、转转）卖家同样有批量管理需求，可开发类似自动化工具，结合微信生态和AI客服实现本土化。",
+    "website": null
+  },
   "slug": "droppop",
   "title": "为Depop卖家提供自动化工作流的SaaS工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为Depop卖家提供自动化工作流的SaaS工具如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.276076+00:00",
+  "generatedAt": "2026-07-27T14:21:14.729735+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

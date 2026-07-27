@@ -1,5 +1,15 @@
 {
   "projectId": "db71c093c604",
+  "project": {
+    "id": "db71c093c604",
+    "name": "PostForMe",
+    "nameZh": "统一社交媒体发布API工具",
+    "summary": "统一社交媒体发布API工具，按月订阅收费。",
+    "revenue": "$11K/mo",
+    "businessModel": "提供统一API对接多个社交平台，按API调用次数或月费订阅收费，面向开发团队和SaaS集成。",
+    "chinaOpportunity": "中国社交媒体平台众多（微信、抖音、微博等），企业跨平台发布需求强烈，可开发类似API聚合工具，支持本土平台。",
+    "website": ""
+  },
   "slug": "postforme",
   "title": "统一社交媒体发布API工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解统一社交媒体发布API工具如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.191462+00:00",
+  "generatedAt": "2026-07-27T14:21:14.644381+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

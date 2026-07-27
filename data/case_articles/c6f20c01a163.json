@@ -1,5 +1,15 @@
 {
   "projectId": "c6f20c01a163",
+  "project": {
+    "id": "c6f20c01a163",
+    "name": "Astropad",
+    "nameZh": "为创意人士提供硬件转软件工具",
+    "summary": "为创意人士提供硬件转软件工具，通过订阅制收费。",
+    "revenue": "$285K/mo",
+    "businessModel": "SaaS订阅制，提供iPad与Mac/PC的屏幕镜像和绘图板功能，月费或年费。",
+    "chinaOpportunity": "中国有大量插画师、设计师，iPad普及率高，但专业绘图板价格高。可开发类似应用，结合本地云服务。",
+    "website": null
+  },
   "slug": "astropad",
   "title": "为创意人士提供硬件转软件工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为创意人士提供硬件转软件工具如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.277376+00:00",
+  "generatedAt": "2026-07-27T14:21:14.731114+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

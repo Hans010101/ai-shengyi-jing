@@ -1,5 +1,15 @@
 {
   "projectId": "cde39bf9ffd4",
+  "project": {
+    "id": "cde39bf9ffd4",
+    "name": "Less Annoying CRM",
+    "nameZh": "简单实惠的CRM",
+    "summary": "简单实惠的CRM，面向小企业按月收费。",
+    "revenue": "$335K/mo",
+    "businessModel": "SaaS订阅制，月费$15/用户，提供联系人管理、任务追踪等核心功能，无隐藏费用。",
+    "chinaOpportunity": "中国小企业CRM市场分散，可做微信生态内轻量版，集成企业微信，按年收费或免费增值。",
+    "website": null
+  },
   "slug": "less-annoying-crm-simple-contact-management-for-small-businesses",
   "title": "简单实惠的CRM：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解简单实惠的CRM如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.275940+00:00",
+  "generatedAt": "2026-07-27T14:21:14.729608+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

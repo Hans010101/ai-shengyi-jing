@@ -1,5 +1,15 @@
 {
   "projectId": "38ea7ec9b7e3",
+  "project": {
+    "id": "38ea7ec9b7e3",
+    "name": "Quitting My Cushy SDE Job To Build A Screenshot API [$2.2K MRR]",
+    "nameZh": "提供网站截图API",
+    "summary": "提供网站截图API，按使用量收费。",
+    "revenue": "$2.2K",
+    "businessModel": "B2B SaaS模式，提供API接口，按截图次数或套餐订阅收费。",
+    "chinaOpportunity": "中国开发者对自动化截图需求大，可提供本地化API，支持中文网站渲染，集成到国内云服务。",
+    "website": null
+  },
   "slug": "screenshotone",
   "title": "提供网站截图API：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解提供网站截图API如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.218657+00:00",
+  "generatedAt": "2026-07-27T14:21:14.676853+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "e1548fc76ca8",
+  "project": {
+    "id": "e1548fc76ca8",
+    "name": "No Code Ideas",
+    "nameZh": "案例研究数据库",
+    "summary": "案例研究数据库，通过订阅收费。",
+    "revenue": "$10K",
+    "businessModel": "订阅制SaaS，按月或年收费，提供案例数据库的搜索、筛选和排序功能。",
+    "chinaOpportunity": "中国创业者可建立行业案例库（如电商、餐饮），整合本土案例，提供搜索和筛选，通过会员费或广告变现。",
+    "website": null
+  },
   "slug": "no-code-ideas",
   "title": "案例研究数据库：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解案例研究数据库如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.214937+00:00",
+  "generatedAt": "2026-07-27T14:21:14.672076+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

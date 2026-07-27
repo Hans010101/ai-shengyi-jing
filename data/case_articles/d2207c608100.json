@@ -1,5 +1,15 @@
 {
   "projectId": "d2207c608100",
+  "project": {
+    "id": "d2207c608100",
+    "name": "How We Developed A $36K/Year Tool To Help Restaurants Sell More Online",
+    "nameZh": "为餐厅提供在线菜单优化与订单提升的SaaS工具",
+    "summary": "为餐厅提供在线菜单优化与订单提升的SaaS工具。",
+    "revenue": "$36K/Year",
+    "businessModel": "按月订阅制SaaS，为餐厅提供菜单优化、订单提升等功能，按餐厅规模定价。",
+    "chinaOpportunity": "中国餐饮数字化程度低，中小餐厅急需低成本工具提升外卖和堂食订单，可开发类似菜单优化、智能推荐SaaS。",
+    "website": null
+  },
   "slug": "maynuu",
   "title": "为餐厅提供在线菜单优化与订单提升的SaaS工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为餐厅提供在线菜单优化与订单提升的SaaS工具如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.209755+00:00",
+  "generatedAt": "2026-07-27T14:21:14.663304+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "9ae229bed211",
+  "project": {
+    "id": "9ae229bed211",
+    "name": "SignWell",
+    "nameZh": "电子签名SaaS",
+    "summary": "电子签名SaaS，按订阅收费。",
+    "revenue": "$415K/mo",
+    "businessModel": "Freemium + 订阅制，免费版限制每月签名次数，付费版解锁无限签名、模板、API等高级功能。",
+    "chinaOpportunity": "中国电子签名市场（如法大大、e签宝）已成熟，但中小企业仍有低成本、易用工具需求。可聚焦微信小程序集成或钉钉/飞书生态。",
+    "website": "https://www.signwell.com"
+  },
   "slug": "signwell",
   "title": "电子签名SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解电子签名SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://www.signwell.com",
-  "generatedAt": "2026-07-27T14:11:35.191378+00:00",
+  "generatedAt": "2026-07-27T14:21:14.644292+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

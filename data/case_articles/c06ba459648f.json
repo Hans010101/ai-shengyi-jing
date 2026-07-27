@@ -1,5 +1,15 @@
 {
   "projectId": "c06ba459648f",
+  "project": {
+    "id": "c06ba459648f",
+    "name": "How We're Building The Next Streaming Platform for Creatives",
+    "nameZh": "为独立音乐人提供非独占式托管与分发平台",
+    "summary": "为独立音乐人提供非独占式托管与分发平台，通过订阅和交易抽成盈利。",
+    "revenue": "$70M/mo",
+    "businessModel": "基础托管免费，高级功能（如无限上传、详细分析）按月订阅；音乐销售与流媒体抽成 15%；另提供播客托管、周边销售等增值服务。",
+    "chinaOpportunity": "中国独立音乐人、播客主同样面临平台抽成高、版权受限问题，可打造非独占、低抽成、强社区的平台，结合微信生态实现社交裂变。",
+    "website": null
+  },
   "slug": "disctopia",
   "title": "为独立音乐人提供非独占式托管与分发平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为独立音乐人提供非独占式托管与分发平台如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.255450+00:00",
+  "generatedAt": "2026-07-27T14:21:14.712656+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

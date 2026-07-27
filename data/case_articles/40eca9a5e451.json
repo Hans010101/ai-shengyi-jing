@@ -1,5 +1,15 @@
 {
   "projectId": "40eca9a5e451",
+  "project": {
+    "id": "40eca9a5e451",
+    "name": "How We Built A $360K/Year Marketplace To Buy And Sell Online Businesses",
+    "nameZh": "在线企业交易平台",
+    "summary": "在线企业交易平台，通过撮合买卖抽取佣金。",
+    "revenue": "$360K/Year",
+    "businessModel": "撮合买卖双方，收取交易佣金（约5-15%），并提供估值、尽职调查等增值服务。",
+    "chinaOpportunity": "中国中小企业转让市场分散，可做垂直领域（如电商店铺、公众号）的撮合平台，结合支付宝担保交易。",
+    "website": null
+  },
   "slug": "dotmarket",
   "title": "在线企业交易平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解在线企业交易平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.250397+00:00",
+  "generatedAt": "2026-07-27T14:21:14.707483+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

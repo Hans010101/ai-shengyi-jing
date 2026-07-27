@@ -62,6 +62,9 @@ def validate(
 
         if str(article.get("projectId")) != project_id:
             errors.append(f"{project_id}: projectId mismatch")
+        snapshot = article.get("project")
+        if not isinstance(snapshot, dict) or str(snapshot.get("id")) != project_id:
+            errors.append(f"{project_id}: project snapshot is missing")
         title = str(article.get("title", ""))
         if not CHINESE_RE.search(title):
             errors.append(f"{project_id}: title has no Chinese")

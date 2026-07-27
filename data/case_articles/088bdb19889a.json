@@ -1,5 +1,15 @@
 {
   "projectId": "088bdb19889a",
+  "project": {
+    "id": "088bdb19889a",
+    "name": "How I Built A Niche Image Sharing Website With A Triple-Digit Growth",
+    "nameZh": "为创意人士提供免费图片相册",
+    "summary": "为创意人士提供免费图片相册，通过付费解锁高级功能盈利。",
+    "revenue": "$500",
+    "businessModel": "Freemium模式：免费用户可创建相册分享，付费用户解锁自定义域名、无品牌水印、分析等高级功能。",
+    "chinaOpportunity": "中国设计师、摄影师、小商家有展示作品需求，可做本土化图片相册工具，结合微信生态分享，或提供AI排版、智能标签等增值服务。",
+    "website": null
+  },
   "slug": "folio-ink",
   "title": "为创意人士提供免费图片相册：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为创意人士提供免费图片相册如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.212193+00:00",
+  "generatedAt": "2026-07-27T14:21:14.669141+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

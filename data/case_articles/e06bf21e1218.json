@@ -1,5 +1,15 @@
 {
   "projectId": "e06bf21e1218",
+  "project": {
+    "id": "e06bf21e1218",
+    "name": "How We Built A MillIon Dollar Ecommerce Platform [India]",
+    "nameZh": "基于Laravel的开源电商平台",
+    "summary": "基于Laravel的开源电商平台，通过付费插件和订阅服务盈利。",
+    "revenue": "$50K",
+    "businessModel": "免费开源版吸引用户，提供付费插件、主题、云托管和技术支持服务。",
+    "chinaOpportunity": "中国中小商家需要低成本电商方案，可推出基于开源框架的本地化电商平台，集成微信支付、小程序等。",
+    "website": null
+  },
   "slug": "bagisto",
   "title": "基于Laravel的开源电商平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解基于Laravel的开源电商平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.206966+00:00",
+  "generatedAt": "2026-07-27T14:21:14.660398+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "48f2336d734f",
+  "project": {
+    "id": "48f2336d734f",
+    "name": "How I Created The \"Bitcoin For Ads\" [$600K/Year]",
+    "nameZh": "去中心化广告网络",
+    "summary": "去中心化广告网络，用区块链激励用户分享广告空间赚钱。",
+    "revenue": "$600K/Year",
+    "businessModel": "广告主支付代币投放广告，用户贡献屏幕空间获得代币奖励，平台通过交易费及代币升值获利。",
+    "chinaOpportunity": "中国线下屏幕（如电梯屏、车载屏）资源丰富，可结合小程序或App实现闲置屏幕共享，用积分或代币激励，类似“共享屏幕”模式。",
+    "website": "https://bitfari.com"
+  },
   "slug": "how-i-created-the-bitcoin-for-ads-600k-year",
   "title": "去中心化广告网络：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解去中心化广告网络如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://bitfari.com",
-  "generatedAt": "2026-07-27T14:11:35.175863+00:00",
+  "generatedAt": "2026-07-27T14:21:14.628332+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

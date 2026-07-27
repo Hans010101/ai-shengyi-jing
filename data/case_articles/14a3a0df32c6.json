@@ -1,5 +1,15 @@
 {
   "projectId": "14a3a0df32c6",
+  "project": {
+    "id": "14a3a0df32c6",
+    "name": "How I Built a $15K/month Skype alternative",
+    "nameZh": "浏览器内国际电话应用",
+    "summary": "浏览器内国际电话应用，通过通话时长和套餐收费。",
+    "revenue": "$15K/mo",
+    "businessModel": "按通话时长或月度套餐收费，针对个人和企业用户提供不同等级服务。",
+    "chinaOpportunity": "中国出海企业及留学生国际通话需求大，可结合微信小程序或Web端提供类似服务，通过低价和便捷性切入。",
+    "website": null
+  },
   "slug": "yadaphone",
   "title": "浏览器内国际电话应用：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解浏览器内国际电话应用如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.214400+00:00",
+  "generatedAt": "2026-07-27T14:21:14.671459+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "c1b4cf3dd65e",
+  "project": {
+    "id": "c1b4cf3dd65e",
+    "name": "How We Built A $27K/Month Army Of Digital Workers For The Insurance Industry",
+    "nameZh": "为保险业提供AI数字员工",
+    "summary": "为保险业提供AI数字员工，按机器人数量月付费。",
+    "revenue": "$27K/Mo",
+    "businessModel": "SaaS订阅模式：客户按月为每个数字员工付费，根据处理任务复杂度分层定价。",
+    "chinaOpportunity": "中国保险业人力成本上升，中小保险公司急需自动化工具。可切入核保、理赔、客服等环节，提供本地化RPA+AI解决方案。",
+    "website": null
+  },
   "slug": "quandri",
   "title": "为保险业提供AI数字员工：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为保险业提供AI数字员工如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.250727+00:00",
+  "generatedAt": "2026-07-27T14:21:14.707832+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

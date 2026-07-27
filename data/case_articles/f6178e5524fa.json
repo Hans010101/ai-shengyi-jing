@@ -1,5 +1,15 @@
 {
   "projectId": "f6178e5524fa",
+  "project": {
+    "id": "f6178e5524fa",
+    "name": "I Built A Tool That Helps Blur Sensitive Information [With Just $5]",
+    "nameZh": "浏览器插件",
+    "summary": "浏览器插件，一键模糊敏感信息，按次付费或订阅赚钱。",
+    "revenue": "$5",
+    "businessModel": "Freemium模式：基础模糊功能免费，高级功能（自定义模糊区域、批量处理）按次或月订阅收费。",
+    "chinaOpportunity": "中国直播、网课、远程办公普及，屏幕分享隐私保护需求大，可开发集成于钉钉/腾讯会议的本土化插件。",
+    "website": null
+  },
   "slug": "i-built-a-tool-that-helps-blur-sensitive-information-with-just-5",
   "title": "浏览器插件：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解浏览器插件如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.263483+00:00",
+  "generatedAt": "2026-07-27T14:21:14.716756+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

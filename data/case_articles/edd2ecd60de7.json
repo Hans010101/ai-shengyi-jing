@@ -1,5 +1,15 @@
 {
   "projectId": "edd2ecd60de7",
+  "project": {
+    "id": "edd2ecd60de7",
+    "name": "I Make $10M/year Spotting Fake Videos Online",
+    "nameZh": "AI视频真伪检测SaaS",
+    "summary": "AI视频真伪检测SaaS，按年订阅收费。",
+    "revenue": "$10M/year",
+    "businessModel": "B2B SaaS订阅制，提供API和网页端检测工具，按视频数量或订阅套餐收费，客单价高。",
+    "chinaOpportunity": "中国短视频、直播行业庞大，假视频、虚假宣传频发，可面向平台、MCN、媒体提供检测服务，合规需求强。",
+    "website": null
+  },
   "slug": "osint-social-media-intelligence-investigation-solutions",
   "title": "AI视频真伪检测SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI视频真伪检测SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.212824+00:00",
+  "generatedAt": "2026-07-27T14:21:14.669814+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

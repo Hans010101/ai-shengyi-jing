@@ -1,5 +1,15 @@
 {
   "projectId": "adb1f017f526",
+  "project": {
+    "id": "adb1f017f526",
+    "name": "How We Raised $300K And Built A Crypto Tracking App [3K+ Downloads On Launch Day]",
+    "nameZh": "加密投资追踪App",
+    "summary": "加密投资追踪App，通过订阅制赚钱。",
+    "revenue": "$300K",
+    "businessModel": "免费增值模式，基础功能免费，高级功能（如多钱包、警报、详细分析）按月/年订阅。",
+    "chinaOpportunity": "中国加密市场受限，但可转向追踪海外资产或合规数字资产（如NFT、数字人民币），或为DeFi用户提供工具。",
+    "website": null
+  },
   "slug": "dexfolio",
   "title": "加密投资追踪App：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解加密投资追踪App如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.254782+00:00",
+  "generatedAt": "2026-07-27T14:21:14.711950+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "2db64f8bb3fe",
+  "project": {
+    "id": "2db64f8bb3fe",
+    "name": "Designing Smart Locks For Airbnbs And Growing To $5M/Year",
+    "nameZh": "智能锁租赁管理平台",
+    "summary": "智能锁租赁管理平台，通过硬件+软件订阅服务赚钱。",
+    "revenue": "$5M/Year",
+    "businessModel": "硬件销售（智能锁/锁盒）+ 平台订阅费（按房源或时间收费），B2B2C模式。",
+    "chinaOpportunity": "中国短租平台（途家、小猪）房东同样有远程管理需求，可推出兼容国产门锁的智能锁盒，对接微信小程序。",
+    "website": null
+  },
   "slug": "igloohome",
   "title": "智能锁租赁管理平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解智能锁租赁管理平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.273841+00:00",
+  "generatedAt": "2026-07-27T14:21:14.727486+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

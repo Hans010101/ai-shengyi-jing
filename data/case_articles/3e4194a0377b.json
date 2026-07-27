@@ -1,5 +1,15 @@
 {
   "projectId": "3e4194a0377b",
+  "project": {
+    "id": "3e4194a0377b",
+    "name": "How I Turned A $5 Google Ad Into A Million Dollar Startup",
+    "nameZh": "行李寄存平台",
+    "summary": "行李寄存平台，通过App连接用户与寄存点收取佣金。",
+    "revenue": "$5",
+    "businessModel": "B2C平台模式：用户按件/天付费，平台抽成20-30%；同时向商家收取入驻费或分成。",
+    "chinaOpportunity": "中国旅游城市行李寄存需求大，可整合便利店、书店、健身房等闲置空间，通过小程序/App实现。",
+    "website": "https://bounce.com"
+  },
   "slug": "how-i-turned-a-landing-page-into-a-luggage-storage-startup",
   "title": "行李寄存平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解行李寄存平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://bounce.com",
-  "generatedAt": "2026-07-27T14:11:35.189418+00:00",
+  "generatedAt": "2026-07-27T14:21:14.642282+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

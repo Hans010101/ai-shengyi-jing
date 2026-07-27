@@ -1,5 +1,15 @@
 {
   "projectId": "1c5c7a51bdd7",
+  "project": {
+    "id": "1c5c7a51bdd7",
+    "name": "CloudForecast",
+    "nameZh": "AWS成本优化SaaS",
+    "summary": "AWS成本优化SaaS，按月订阅赚钱。",
+    "revenue": "$42K/mo",
+    "businessModel": "SaaS订阅制，按AWS账户数量及功能分级收费，月费$50-$500。",
+    "chinaOpportunity": "中国云市场（阿里云/腾讯云）成本管理工具稀缺，可复制模式，对接国内云API。",
+    "website": null
+  },
   "slug": "cloudforecast",
   "title": "AWS成本优化SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AWS成本优化SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.276638+00:00",
+  "generatedAt": "2026-07-27T14:21:14.730236+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "a9a390350447",
+  "project": {
+    "id": "a9a390350447",
+    "name": "I Quit My 9-5 Job And Built A Profitable SaaS Tool",
+    "nameZh": "搭建状态页SaaS工具",
+    "summary": "搭建状态页SaaS工具，月入$24K。",
+    "revenue": "$24K",
+    "businessModel": "B2B SaaS订阅制，按监控服务数量、定制域名等分层收费，月费$29起。",
+    "chinaOpportunity": "中国云服务、SaaS企业多，但缺乏易用状态页工具；可整合钉钉/企微通知，提供本地化版本。",
+    "website": "https://instatus.com"
+  },
   "slug": "i-quit-my-9-5-job-and-built-a-profitable-saas-tool",
   "title": "搭建状态页SaaS工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解搭建状态页SaaS工具如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://instatus.com",
-  "generatedAt": "2026-07-27T14:11:35.182655+00:00",
+  "generatedAt": "2026-07-27T14:21:14.635563+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

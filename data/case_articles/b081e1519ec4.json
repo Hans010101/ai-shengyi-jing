@@ -1,5 +1,15 @@
 {
   "projectId": "b081e1519ec4",
+  "project": {
+    "id": "b081e1519ec4",
+    "name": "Building An Accurate AI Content Detector With Over 2.2M Site Sessions",
+    "nameZh": "AI内容检测工具",
+    "summary": "AI内容检测工具，通过SaaS订阅和按量付费盈利。",
+    "revenue": "$192K",
+    "businessModel": "B2B SaaS订阅制，按检测字数或API调用量收费，面向内容平台、教育机构、出版方等。",
+    "chinaOpportunity": "中国AI内容检测市场空白，可服务自媒体平台、学术机构、电商评论审核等，需适配中文模型和监管要求。",
+    "website": null
+  },
   "slug": "originality-ai",
   "title": "AI内容检测工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI内容检测工具如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.201249+00:00",
+  "generatedAt": "2026-07-27T14:21:14.654863+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "e295ccecfd33",
+  "project": {
+    "id": "e295ccecfd33",
+    "name": "ProsperStack",
+    "nameZh": "AI驱动的订阅取消挽留SaaS",
+    "summary": "AI驱动的订阅取消挽留SaaS，按月收费。",
+    "revenue": "$33K/mo",
+    "businessModel": "SaaS订阅制，按每月挽留用户数分档收费，提供AI自动化挽留流程。",
+    "chinaOpportunity": "中国订阅经济兴起（如视频、知识付费），但缺乏智能挽留工具，可本地化接入微信支付、小程序。",
+    "website": "https://prosperstack.com"
+  },
   "slug": "prosperstack",
   "title": "AI驱动的订阅取消挽留SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI驱动的订阅取消挽留SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://prosperstack.com",
-  "generatedAt": "2026-07-27T14:11:35.191915+00:00",
+  "generatedAt": "2026-07-27T14:21:14.644935+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

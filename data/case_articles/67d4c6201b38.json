@@ -1,5 +1,15 @@
 {
   "projectId": "67d4c6201b38",
+  "project": {
+    "id": "67d4c6201b38",
+    "name": "How I Built An App Around Habit Building As An Indie Developer [8,500 Users]",
+    "nameZh": "习惯养成游戏化App",
+    "summary": "习惯养成游戏化App，通过订阅和付费功能盈利。",
+    "revenue": "$600",
+    "businessModel": "Freemium模式：基础功能免费，高级功能（如自定义花园、数据导出）按月订阅或一次性付费。",
+    "chinaOpportunity": "中国用户对自我管理工具需求大，可结合社交打卡、积分商城等本土化玩法，与微信生态打通。",
+    "website": null
+  },
   "slug": "habits-garden",
   "title": "习惯养成游戏化App：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解习惯养成游戏化App如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.220658+00:00",
+  "generatedAt": "2026-07-27T14:21:14.700255+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

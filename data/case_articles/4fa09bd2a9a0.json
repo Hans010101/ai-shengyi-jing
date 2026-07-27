@@ -1,5 +1,15 @@
 {
   "projectId": "4fa09bd2a9a0",
+  "project": {
+    "id": "4fa09bd2a9a0",
+    "name": "We Built A $12K/Year App That Monitors the Stock Market",
+    "nameZh": "AI股票新闻监控SaaS",
+    "summary": "AI股票新闻监控SaaS，年收$12K。",
+    "revenue": "$12K/Year",
+    "businessModel": "SaaS订阅制，按月/年收费，提供AI新闻监控、事件检测、实时提醒等功能。",
+    "chinaOpportunity": "中国股民数量庞大，信息需求旺盛，可做本土化AI财经新闻监控工具，结合A股特色事件检测。",
+    "website": null
+  },
   "slug": "uptrends-ai-track-trending-stocks",
   "title": "AI股票新闻监控SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI股票新闻监控SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.198285+00:00",
+  "generatedAt": "2026-07-27T14:21:14.651866+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

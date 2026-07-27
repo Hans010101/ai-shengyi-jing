@@ -1,5 +1,15 @@
 {
   "projectId": "cdbf8d800c6e",
+  "project": {
+    "id": "cdbf8d800c6e",
+    "name": "Josh W. Comeau's CSS for JavaScript Developers",
+    "nameZh": "面向JS开发者的CSS付费课程",
+    "summary": "面向JS开发者的CSS付费课程，通过订阅和课程销售盈利",
+    "revenue": "$500K",
+    "businessModel": "B2C付费课程+订阅制，提供交互式CSS教程、练习和社区支持，年收入约600万美元。",
+    "chinaOpportunity": "中国前端开发者超百万，但缺乏高质量交互式CSS课程。可制作中文版，结合实战项目，通过知识付费平台或自建网站销售。",
+    "website": null
+  },
   "slug": "josh-w-comeau-s-css-for-javascript-developers",
   "title": "面向JS开发者的CSS付费课程：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解面向JS开发者的CSS付费课程如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.194273+00:00",
+  "generatedAt": "2026-07-27T14:21:14.647286+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "873246d77faf",
+  "project": {
+    "id": "873246d77faf",
+    "name": "Content Snare",
+    "nameZh": "自动化内容收集SaaS",
+    "summary": "自动化内容收集SaaS，帮企业向客户索取文件并智能催收。",
+    "revenue": "$85K/mo",
+    "businessModel": "按月订阅SaaS，提供不同套餐（如50/100/500个请求），按需付费。",
+    "chinaOpportunity": "中国企业同样有文件收集需求（如合同、资质），可本地化集成微信/钉钉，降低使用门槛。",
+    "website": null
+  },
   "slug": "content-snare",
   "title": "自动化内容收集SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解自动化内容收集SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.279686+00:00",
+  "generatedAt": "2026-07-27T14:21:14.733645+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

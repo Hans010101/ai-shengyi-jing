@@ -1,5 +1,15 @@
 {
   "projectId": "1b445656cd0a",
+  "project": {
+    "id": "1b445656cd0a",
+    "name": "My AI Copywriting App Hit #1 On Product Hunt",
+    "nameZh": "AI文案生成SaaS工具",
+    "summary": "AI文案生成SaaS工具，通过订阅制收费。",
+    "revenue": "$1.6M/Mo",
+    "businessModel": "按月/年订阅的SaaS模式，提供AI文案生成、优化、多平台适配等功能。",
+    "chinaOpportunity": "国内中小企业营销内容需求大，可结合本地平台（如微信、抖音）定制AI文案工具。",
+    "website": null
+  },
   "slug": "flipner-ai",
   "title": "AI文案生成SaaS工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI文案生成SaaS工具如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.200610+00:00",
+  "generatedAt": "2026-07-27T14:21:14.654224+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

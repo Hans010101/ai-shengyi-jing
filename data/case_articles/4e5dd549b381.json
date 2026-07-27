@@ -1,5 +1,15 @@
 {
   "projectId": "4e5dd549b381",
+  "project": {
+    "id": "4e5dd549b381",
+    "name": "BlockSurvey",
+    "nameZh": "隐私优先的问卷平台",
+    "summary": "隐私优先的问卷平台，通过订阅制向Web3团队收费。",
+    "revenue": "$15K/mo",
+    "businessModel": "SaaS订阅制，按用户数或答卷量收费，提供隐私加密功能作为增值点。",
+    "chinaOpportunity": "中国数据安全法推动企业隐私需求，可针对区块链、金融、医疗等行业提供本地化加密问卷服务。",
+    "website": null
+  },
   "slug": "blocksurvey-670132",
   "title": "隐私优先的问卷平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解隐私优先的问卷平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.278279+00:00",
+  "generatedAt": "2026-07-27T14:21:14.732088+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

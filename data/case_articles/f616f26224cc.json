@@ -1,5 +1,15 @@
 {
   "projectId": "f616f26224cc",
+  "project": {
+    "id": "f616f26224cc",
+    "name": "Bubble Ideas",
+    "nameZh": "付费案例库搜索工具",
+    "summary": "付费案例库搜索工具，月订阅收入2万美元",
+    "revenue": "$20K",
+    "businessModel": "SaaS订阅制，用户按月或年付费访问案例库，提供搜索、筛选、排序功能。",
+    "chinaOpportunity": "中国创业者对商业案例需求大，可整合本土创业故事、失败案例等，提供中文搜索过滤服务。",
+    "website": null
+  },
   "slug": "bubble-ideas",
   "title": "付费案例库搜索工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解付费案例库搜索工具如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.214959+00:00",
+  "generatedAt": "2026-07-27T14:21:14.672095+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "a295fb05ac5e",
+  "project": {
+    "id": "a295fb05ac5e",
+    "name": "Trainual",
+    "nameZh": "企业员工入职与培训SaaS",
+    "summary": "企业员工入职与培训SaaS，按月收费",
+    "revenue": "$900K/mo",
+    "businessModel": "SaaS订阅制，按员工数收费（$99-$499/月），提供培训内容创建、分配、追踪功能。",
+    "chinaOpportunity": "中国中小企业培训需求大，但缺乏标准化工具。可做本土化版本，对接钉钉/企微，提供模板库和AI生成培训内容。",
+    "website": "https://trainual.com"
+  },
   "slug": "trainual",
   "title": "企业员工入职与培训SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解企业员工入职与培训SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://trainual.com",
-  "generatedAt": "2026-07-27T14:11:35.190883+00:00",
+  "generatedAt": "2026-07-27T14:21:14.643738+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

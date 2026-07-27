@@ -1,5 +1,15 @@
 {
   "projectId": "ac9c6f26fe6b",
+  "project": {
+    "id": "ac9c6f26fe6b",
+    "name": "How We Grew Our Corporate Gifting Platform To $2M/Year",
+    "nameZh": "企业礼品定制平台",
+    "summary": "企业礼品定制平台，通过B2B销售个性化礼品赚钱。",
+    "revenue": "$2M/Year",
+    "businessModel": "B2B礼品定制平台，客户在线选品、定制、下单，平台负责生产（自营+外包）和配送，赚取产品差价和定制服务费。",
+    "chinaOpportunity": "中国企业礼品市场规模巨大，但定制服务分散。可聚焦中小企业，提供标准化+个性化结合的礼品方案，利用微信小程序和私域流量获客。",
+    "website": null
+  },
   "slug": "how-we-grew-our-corporate-gifting-platform-to-2m-year",
   "title": "企业礼品定制平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解企业礼品定制平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.272725+00:00",
+  "generatedAt": "2026-07-27T14:21:14.726351+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "e72da26e253e",
+  "project": {
+    "id": "e72da26e253e",
+    "name": "On Building A Decentralized Video Infrastructure For Livestreaming",
+    "nameZh": "去中心化视频处理平台",
+    "summary": "去中心化视频处理平台，通过处理费抽成和代币激励盈利。",
+    "revenue": "$44,000",
+    "businessModel": "向开发者收取视频处理费（按分钟计费），同时发行代币激励节点提供算力，平台从交易中抽成。",
+    "chinaOpportunity": "国内直播视频处理需求巨大，但中心化云服务成本高。可借鉴其模式，用区块链或边缘计算降低转码成本，切入中小企业市场。",
+    "website": null
+  },
   "slug": "on-building-a-decentralized-video-infrastructure-for-livestreaming",
   "title": "去中心化视频处理平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解去中心化视频处理平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.255526+00:00",
+  "generatedAt": "2026-07-27T14:21:14.712695+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

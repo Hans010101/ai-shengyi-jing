@@ -1,5 +1,15 @@
 {
   "projectId": "b99826de0d36",
+  "project": {
+    "id": "b99826de0d36",
+    "name": "How Talking To Customers Grew My Business To $50K/Month",
+    "nameZh": "提供浏览器自动化API服务",
+    "summary": "提供浏览器自动化API服务，按使用量收费。",
+    "revenue": "$50K/Mo",
+    "businessModel": "SaaS订阅+按量计费，提供无头浏览器API服务，客户按请求次数或时长付费。",
+    "chinaOpportunity": "国内大量爬虫、自动化测试需求，可提供类似API服务，但需解决合规和网络环境问题。",
+    "website": "https://browserless.io"
+  },
   "slug": "how-we-increased-revenue-to-50k-month-since-last-year",
   "title": "提供浏览器自动化API服务：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解提供浏览器自动化API服务如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://browserless.io",
-  "generatedAt": "2026-07-27T14:11:35.184281+00:00",
+  "generatedAt": "2026-07-27T14:21:14.637244+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

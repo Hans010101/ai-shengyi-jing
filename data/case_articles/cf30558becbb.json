@@ -1,5 +1,15 @@
 {
   "projectId": "cf30558becbb",
+  "project": {
+    "id": "cf30558becbb",
+    "name": "How My AI App Makes $5K Per Month",
+    "nameZh": "AI语音任务规划工具",
+    "summary": "AI语音任务规划工具，月订阅制收费。",
+    "revenue": "$5K",
+    "businessModel": "SaaS订阅模式，提供免费试用（有限次数），付费解锁无限使用和高级功能。",
+    "chinaOpportunity": "中国职场人群对效率工具需求大，可结合微信小程序或钉钉，本土化语音识别与任务管理。",
+    "website": null
+  },
   "slug": "voiset-simple-ai-planning-tool-for-work-and-life",
   "title": "AI语音任务规划工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI语音任务规划工具如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.194872+00:00",
+  "generatedAt": "2026-07-27T14:21:14.647955+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

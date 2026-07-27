@@ -1,5 +1,15 @@
 {
   "projectId": "b258bb12ad1a",
+  "project": {
+    "id": "b258bb12ad1a",
+    "name": "How I Grew A Training & Wiki Software Tool To $2M ARR",
+    "nameZh": "为企业提供培训与知识库SaaS",
+    "summary": "为企业提供培训与知识库SaaS，按用户数订阅收费。",
+    "revenue": "$2M",
+    "businessModel": "B2B SaaS订阅制，按员工数分级定价，提供免费试用期，通过内容模板和集成提升粘性。",
+    "chinaOpportunity": "中国中小企业同样面临培训效率低、知识沉淀难问题，可结合微信生态和本土化模板切入。",
+    "website": null
+  },
   "slug": "how-i-grew-a-training-wiki-software-tool-to-2m-arr",
   "title": "为企业提供培训与知识库SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为企业提供培训与知识库SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.272201+00:00",
+  "generatedAt": "2026-07-27T14:21:14.725787+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

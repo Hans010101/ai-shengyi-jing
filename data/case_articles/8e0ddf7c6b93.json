@@ -1,5 +1,15 @@
 {
   "projectId": "8e0ddf7c6b93",
+  "project": {
+    "id": "8e0ddf7c6b93",
+    "name": "How We Grew Our SaaS To $30K MRR In One Year",
+    "nameZh": "网站个性化工具SaaS",
+    "summary": "网站个性化工具SaaS，通过月订阅费赚钱。",
+    "revenue": "$30K",
+    "businessModel": "B2B SaaS，按月或年收费，提供免费试用，按网站访问量或功能分级定价。",
+    "chinaOpportunity": "中国中小企业数字化转型需求大，类似工具如Convertlab可参考，但需本地化集成微信、抖音等生态。",
+    "website": "https://rightmessage.com"
+  },
   "slug": "how-we-grew-our-saas-to-30k-mrr-in-one-year",
   "title": "网站个性化工具SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解网站个性化工具SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://rightmessage.com",
-  "generatedAt": "2026-07-27T14:11:35.189620+00:00",
+  "generatedAt": "2026-07-27T14:21:14.642460+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "ba4750fbec15",
+  "project": {
+    "id": "ba4750fbec15",
+    "name": "How I Grew My SaaS 5x In Just One Year [Solo Founder]",
+    "nameZh": "为网站提供状态页监控服务的SaaS工具",
+    "summary": "为网站提供状态页监控服务的SaaS工具，按月订阅收费。",
+    "revenue": "$24K",
+    "businessModel": "按月/年订阅制，提供免费版（限制功能）和付费版（多站点、自定义域名等），收入来自订阅费。",
+    "chinaOpportunity": "中国网站/APP状态监控需求大，但本土化工具缺乏。可切入企业级客户，支持微信、钉钉等通知渠道。",
+    "website": null
+  },
   "slug": "instatus",
   "title": "为网站提供状态页监控服务的SaaS工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为网站提供状态页监控服务的SaaS工具如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.210133+00:00",
+  "generatedAt": "2026-07-27T14:21:14.666909+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

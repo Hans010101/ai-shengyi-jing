@@ -1,5 +1,15 @@
 {
   "projectId": "d5511065b707",
+  "project": {
+    "id": "d5511065b707",
+    "name": "How We Started A $1M Event Ticketing Platform From Spain",
+    "nameZh": "西班牙活动票务平台",
+    "summary": "西班牙活动票务平台，通过售票抽成和增值服务盈利。",
+    "revenue": "$1M",
+    "businessModel": "平台向活动主办方收取每张票的佣金（约5-10%），并提供高级分析、营销工具等付费增值服务。",
+    "chinaOpportunity": "中国中小型活动主办方缺乏低成本票务工具，可开发微信小程序/抖音生态的轻量级票务SaaS，结合本地支付和社交裂变。",
+    "website": null
+  },
   "slug": "how-we-started-a-1m-event-ticketing-platform-from-spain",
   "title": "西班牙活动票务平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解西班牙活动票务平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.272903+00:00",
+  "generatedAt": "2026-07-27T14:21:14.726502+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

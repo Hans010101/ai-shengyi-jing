@@ -1,5 +1,15 @@
 {
   "projectId": "0fc3b0979eef",
+  "project": {
+    "id": "0fc3b0979eef",
+    "name": "RiseApp",
+    "nameZh": "AI驱动的生产力应用",
+    "summary": "AI驱动的生产力应用，通过订阅制付费赚钱。",
+    "revenue": "$20K/mo",
+    "businessModel": "免费增值模式：基础功能免费，高级AI功能按月/年订阅收费，月营收$20K。",
+    "chinaOpportunity": "中国职场人时间管理需求大，可本土化集成微信/钉钉，推出AI日程助手，按功能或次数收费。",
+    "website": null
+  },
   "slug": "riseapp",
   "title": "AI驱动的生产力应用：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI驱动的生产力应用如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.193115+00:00",
+  "generatedAt": "2026-07-27T14:21:14.646052+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

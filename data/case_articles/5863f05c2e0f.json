@@ -1,5 +1,15 @@
 {
   "projectId": "5863f05c2e0f",
+  "project": {
+    "id": "5863f05c2e0f",
+    "name": "On Building A Project Management Software To 85K Customers",
+    "nameZh": "项目管理SaaS",
+    "summary": "项目管理SaaS，按月订阅收费，年营收2亿美元。",
+    "revenue": "$200M/Year",
+    "businessModel": "B2B SaaS订阅制，提供免费试用，按用户数/月收费，增值功能解锁更高价格。",
+    "chinaOpportunity": "中小企业项目管理需求旺盛，可做垂直行业定制（如设计、建筑），结合微信生态实现轻量级SaaS。",
+    "website": null
+  },
   "slug": "on-building-a-project-management-software-to-85k-customers",
   "title": "项目管理SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解项目管理SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.264921+00:00",
+  "generatedAt": "2026-07-27T14:21:14.718941+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

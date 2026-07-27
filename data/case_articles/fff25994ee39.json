@@ -1,5 +1,15 @@
 {
   "projectId": "fff25994ee39",
+  "project": {
+    "id": "fff25994ee39",
+    "name": "We Produced A Web Series While Building A DevTool [And Got The Most Helpful User Inputs!]",
+    "nameZh": "AI驱动的开发环境",
+    "summary": "AI驱动的开发环境，通过订阅制向开发者收费。",
+    "revenue": "$10M/year",
+    "businessModel": "SaaS订阅制，按开发者席位收费，提供AI代理团队加速开发。",
+    "chinaOpportunity": "中国开发者对提效工具需求大，可结合本土编程社区（如CSDN）推广，定制中文AI代理。",
+    "website": null
+  },
   "slug": "fine",
   "title": "AI驱动的开发环境：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI驱动的开发环境如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.218101+00:00",
+  "generatedAt": "2026-07-27T14:21:14.676268+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

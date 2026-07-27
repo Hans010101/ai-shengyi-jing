@@ -1,5 +1,15 @@
 {
   "projectId": "fb2e3774a87b",
+  "project": {
+    "id": "fb2e3774a87b",
+    "name": "How I Built And Scaled A $250M Per Year Filter Company",
+    "nameZh": "滤网电商",
+    "summary": "滤网电商，自产自销+订阅模式，年营收2.5亿美元。",
+    "revenue": "$250M",
+    "businessModel": "自产自销空气滤网，通过电商平台（官网+亚马逊）销售，提供订阅服务按月配送，以规模效应降低成本，获取持续收入。",
+    "chinaOpportunity": "中国空气净化滤网市场分散，可借鉴其自产+订阅模式，结合本地化渠道（如天猫、京东、拼多多），并拓展至新风系统、净化器配件等。",
+    "website": null
+  },
   "slug": "filterbuy",
   "title": "滤网电商：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解滤网电商如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.198555+00:00",
+  "generatedAt": "2026-07-27T14:21:14.652150+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

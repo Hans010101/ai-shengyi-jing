@@ -1,5 +1,15 @@
 {
   "projectId": "6f8d4c404ac2",
+  "project": {
+    "id": "6f8d4c404ac2",
+    "name": "How We Grew Revenue By 60% YoY",
+    "nameZh": "古董收藏品估值订阅服务",
+    "summary": "古董收藏品估值订阅服务，通过数据库和专家分析收费。",
+    "revenue": "$500K",
+    "businessModel": "B2C订阅制，用户按月/年付费获取古董价格指南和鉴定报告。",
+    "chinaOpportunity": "中国古玩、二手奢侈品市场大但信息不对称，可做垂直估值平台。",
+    "website": "https://www.worthpoint.com"
+  },
   "slug": "how-we-grew-revenue-by-60-yoy",
   "title": "古董收藏品估值订阅服务：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解古董收藏品估值订阅服务如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://www.worthpoint.com",
-  "generatedAt": "2026-07-27T14:11:35.184944+00:00",
+  "generatedAt": "2026-07-27T14:21:14.637915+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

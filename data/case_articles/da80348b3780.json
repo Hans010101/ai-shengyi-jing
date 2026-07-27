@@ -1,5 +1,15 @@
 {
   "projectId": "da80348b3780",
+  "project": {
+    "id": "da80348b3780",
+    "name": "I Started A $2.4M/Year SaaS Company That Gathers People's Personal Information",
+    "nameZh": "个人信息聚合SaaS",
+    "summary": "个人信息聚合SaaS，按查询次数收费。",
+    "revenue": "$2.4M/Year",
+    "businessModel": "用户输入姓名/邮箱等，系统从多个公开来源抓取并整合个人信息，提供详细报告，按每次查询或月度订阅收费。",
+    "chinaOpportunity": "中国数据合规严格，但企业征信、招聘背调、营销获客等领域有类似需求，可聚焦企业级服务，通过API或白标合作。",
+    "website": "https://www.findpeoplefast.com"
+  },
   "slug": "i-started-a-2-4m-year-saas-company-that-gathers-people-s-personal-information",
   "title": "个人信息聚合SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解个人信息聚合SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://www.findpeoplefast.com",
-  "generatedAt": "2026-07-27T14:11:35.180210+00:00",
+  "generatedAt": "2026-07-27T14:21:14.633097+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

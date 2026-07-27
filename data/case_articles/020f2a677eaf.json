@@ -1,5 +1,15 @@
 {
   "projectId": "020f2a677eaf",
+  "project": {
+    "id": "020f2a677eaf",
+    "name": "How I Built A Telehealth Service & Launched To All 50 States",
+    "nameZh": "B2B远程医疗基础设施",
+    "summary": "B2B远程医疗基础设施，为医疗机构提供一站式虚拟护理平台并收取订阅费。",
+    "revenue": "$35",
+    "businessModel": "向医疗合作伙伴（医院、诊所、药企）收取月度平台订阅费，按医生数量或患者咨询量分层定价。",
+    "chinaOpportunity": "中国线上问诊渗透率低，但公立医院、互联网医院、药企急需合规的远程医疗SaaS平台。可聚焦区域医疗联合体或慢性病管理场景。",
+    "website": null
+  },
   "slug": "steadymd",
   "title": "B2B远程医疗基础设施：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解B2B远程医疗基础设施如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.253072+00:00",
+  "generatedAt": "2026-07-27T14:21:14.710161+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

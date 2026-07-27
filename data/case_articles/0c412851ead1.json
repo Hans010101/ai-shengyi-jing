@@ -1,5 +1,15 @@
 {
   "projectId": "0c412851ead1",
+  "project": {
+    "id": "0c412851ead1",
+    "name": "How I Grew My UX blog To 750,000 Readers, And Sold UX Audits To 100+ Companies",
+    "nameZh": "UX博客吸引流量",
+    "summary": "UX博客吸引流量，向企业出售UX审计服务赚钱。",
+    "revenue": "$4,000",
+    "businessModel": "博客免费提供UX深度内容吸引精准流量，然后向企业出售定制化UX审计报告（单价$2000+），同时可能提供咨询或培训。",
+    "chinaOpportunity": "中国企业数字化转型中UX需求旺盛，但专业审计服务稀缺。可通过公众号/知乎/抖音输出UX案例，引流至企业微信或小程序提供审计服务。",
+    "website": null
+  },
   "slug": "built-for-mars",
   "title": "UX博客吸引流量：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解UX博客吸引流量如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.201386+00:00",
+  "generatedAt": "2026-07-27T14:21:14.655008+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

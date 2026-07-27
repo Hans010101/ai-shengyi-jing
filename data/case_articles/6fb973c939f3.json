@@ -1,5 +1,15 @@
 {
   "projectId": "6fb973c939f3",
+  "project": {
+    "id": "6fb973c939f3",
+    "name": "SI Certs Update: We Exceeded $1M/Year In Revenue",
+    "nameZh": "IT认证考试辅助SaaS",
+    "summary": "IT认证考试辅助SaaS，通过订阅制帮助考生通过考试。",
+    "revenue": "$1M/Year",
+    "businessModel": "B2C订阅制，用户按月/年付费获取题库、模拟考试和学习追踪服务。",
+    "chinaOpportunity": "中国IT认证市场庞大（如华为、思科等），可本土化题库，结合微信生态和考试热点。",
+    "website": null
+  },
   "slug": "si-certs",
   "title": "IT认证考试辅助SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解IT认证考试辅助SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.252321+00:00",
+  "generatedAt": "2026-07-27T14:21:14.709475+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

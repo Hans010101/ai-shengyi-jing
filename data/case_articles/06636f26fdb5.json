@@ -1,5 +1,15 @@
 {
   "projectId": "06636f26fdb5",
+  "project": {
+    "id": "06636f26fdb5",
+    "name": "How We Built a $4M/Year AI Content App",
+    "nameZh": "AI内容创作工具",
+    "summary": "AI内容创作工具，帮创作者生成病毒式内容，按月订阅赚钱。",
+    "revenue": "$4M/Year",
+    "businessModel": "SaaS订阅模式，提供AI视频/广告生成工具，按月或年收费。",
+    "chinaOpportunity": "中国短视频创作者海量，可做本土化AI工具，聚焦抖音/快手生态，提供模板和特效。",
+    "website": null
+  },
   "slug": "poppyai-write-emails-that-sell",
   "title": "AI内容创作工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI内容创作工具如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.214747+00:00",
+  "generatedAt": "2026-07-27T14:21:14.671823+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

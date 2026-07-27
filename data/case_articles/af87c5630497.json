@@ -1,5 +1,15 @@
 {
   "projectId": "af87c5630497",
+  "project": {
+    "id": "af87c5630497",
+    "name": "How I Built An $840K/Year Piano Tutorial App",
+    "nameZh": "钢琴教学App",
+    "summary": "钢琴教学App，通过订阅制教用户弹流行歌曲赚钱。",
+    "revenue": "$840K/Year",
+    "businessModel": "免费下载+订阅制（月/年），提供海量歌曲库和智能滚动乐谱，高级功能如无限制歌曲需付费。",
+    "chinaOpportunity": "中国音乐教育市场大，可做本地化歌曲库（华语流行、古风）、接入抖音热歌，结合AI识谱和游戏化练习。",
+    "website": "https://onlinepianist.com"
+  },
   "slug": "my-personal-crisis-fueled-me-to-build-an-840k-year-piano-tutorial-app",
   "title": "钢琴教学App：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解钢琴教学App如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://onlinepianist.com",
-  "generatedAt": "2026-07-27T14:11:35.180779+00:00",
+  "generatedAt": "2026-07-27T14:21:14.633650+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

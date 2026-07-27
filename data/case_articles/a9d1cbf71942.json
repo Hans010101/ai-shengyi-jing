@@ -1,5 +1,15 @@
 {
   "projectId": "a9d1cbf71942",
+  "project": {
+    "id": "a9d1cbf71942",
+    "name": "Our SaaS is Backed by Y Combinator and Grew to $1.6M ARR",
+    "nameZh": "为产品化服务企业提供白标SaaS平台",
+    "summary": "为产品化服务企业提供白标SaaS平台，按月收费。",
+    "revenue": "$1.6M",
+    "businessModel": "SaaS订阅制：为产品化服务企业提供白标客户门户、项目管理、支付等工具，按用户数或功能分级收费。",
+    "chinaOpportunity": "中国大量中小服务企业（如设计、咨询、代运营）需要低成本、易用的客户管理系统，可提供类似白标SaaS，整合微信生态。",
+    "website": null
+  },
   "slug": "queue",
   "title": "为产品化服务企业提供白标SaaS平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为产品化服务企业提供白标SaaS平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.219807+00:00",
+  "generatedAt": "2026-07-27T14:21:14.699368+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

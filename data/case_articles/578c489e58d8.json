@@ -1,5 +1,15 @@
 {
   "projectId": "578c489e58d8",
+  "project": {
+    "id": "578c489e58d8",
+    "name": "Inventing A Board Game With Your Kids And Raising $19,000 In One Day",
+    "nameZh": "亲子共创桌游",
+    "summary": "亲子共创桌游，通过Kickstarter众筹预售赚钱。",
+    "revenue": "$19,000",
+    "businessModel": "通过众筹平台预售桌游产品，筹集资金后生产发货，赚取产品售价与成本之间的差额。",
+    "chinaOpportunity": "中国家庭重视亲子教育，可开发本土文化主题桌游（如三国、西游记），结合线上社群营销和众筹平台（如摩点）预售。",
+    "website": null
+  },
   "slug": "inventing-a-board-game-with-your-kids-and-raising-19-000-in-one-day",
   "title": "亲子共创桌游：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解亲子共创桌游如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.274461+00:00",
+  "generatedAt": "2026-07-27T14:21:14.728114+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

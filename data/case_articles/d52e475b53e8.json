@@ -1,5 +1,15 @@
 {
   "projectId": "d52e475b53e8",
+  "project": {
+    "id": "d52e475b53e8",
+    "name": "How We Designed A $200K/Month Idea Management Software",
+    "nameZh": "企业创新管理SaaS",
+    "summary": "企业创新管理SaaS，帮客户收集、筛选、执行创意，按月收费。",
+    "revenue": "$200K/Mo",
+    "businessModel": "B2B SaaS订阅制，按团队规模或功能模块分层收费，提供免费试用期吸引客户。",
+    "chinaOpportunity": "中国大企业创新需求旺盛，但缺乏系统工具。可切入国企/民企的创新管理、员工建议系统，结合AI辅助评估。",
+    "website": null
+  },
   "slug": "how-we-designed-a-200k-month-idea-management-software",
   "title": "企业创新管理SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解企业创新管理SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.268705+00:00",
+  "generatedAt": "2026-07-27T14:21:14.722233+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

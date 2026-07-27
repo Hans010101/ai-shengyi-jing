@@ -1,5 +1,15 @@
 {
   "projectId": "221302261820",
+  "project": {
+    "id": "221302261820",
+    "name": "My Saas For Canceled Flights Makes $7.5K/Month",
+    "nameZh": "AI工具自动帮乘客索赔航班取消",
+    "summary": "AI工具自动帮乘客索赔航班取消，按成功佣金收费。",
+    "revenue": "$7.5K/Mo",
+    "businessModel": "用户输入航班信息后AI自动生成索赔文件，提交航空公司或保险，索赔成功收取佣金（约25%）。",
+    "chinaOpportunity": "中国航班延误/取消频繁，但索赔流程复杂。可针对国内航司和保险，开发微信小程序或支付宝服务，整合延误险理赔。",
+    "website": null
+  },
   "slug": "flywize",
   "title": "AI工具自动帮乘客索赔航班取消：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI工具自动帮乘客索赔航班取消如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.198573+00:00",
+  "generatedAt": "2026-07-27T14:21:14.652169+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

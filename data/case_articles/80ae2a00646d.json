@@ -1,5 +1,15 @@
 {
   "projectId": "80ae2a00646d",
+  "project": {
+    "id": "80ae2a00646d",
+    "name": "How I Built a $10K/month AI App for Email",
+    "nameZh": "AI邮件助手",
+    "summary": "AI邮件助手，帮用户快速清空收件箱，按月订阅收费。",
+    "revenue": "$10K/mo",
+    "businessModel": "SaaS订阅模式：免费版提供基础功能，付费版解锁高级AI处理、自动回复等，月费约$10-30。",
+    "chinaOpportunity": "中国职场邮件使用频率高，但缺乏高效AI工具。可结合微信、钉钉等本土平台，提供邮件智能分类、自动回复等服务。",
+    "website": null
+  },
   "slug": "inbox-zero",
   "title": "AI邮件助手：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI邮件助手如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.195358+00:00",
+  "generatedAt": "2026-07-27T14:21:14.648715+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

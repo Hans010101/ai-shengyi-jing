@@ -1,5 +1,15 @@
 {
   "projectId": "e716bbcaa29e",
+  "project": {
+    "id": "e716bbcaa29e",
+    "name": "On Building A Booking And Management App For The Cleaning Industry",
+    "nameZh": "为清洁公司提供移动端报价和订单管理SaaS",
+    "summary": "为清洁公司提供移动端报价和订单管理SaaS，按月收费",
+    "revenue": "$5k",
+    "businessModel": "B2B SaaS订阅制，按团队规模或功能分级收费，提供免费试用或基础版引流。",
+    "chinaOpportunity": "中国保洁市场分散，中小团队缺乏数字化工具，可开发微信小程序或APP，结合本地支付和社交裂变。",
+    "website": ""
+  },
   "slug": "on-building-a-disruptive-management-app-for-the-cleaning-industry",
   "title": "为清洁公司提供移动端报价和订单管理SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为清洁公司提供移动端报价和订单管理SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.176915+00:00",
+  "generatedAt": "2026-07-27T14:21:14.629450+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

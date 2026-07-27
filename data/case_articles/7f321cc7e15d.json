@@ -1,5 +1,15 @@
 {
   "projectId": "7f321cc7e15d",
+  "project": {
+    "id": "7f321cc7e15d",
+    "name": "How We Launched A Subscription Based Graphic Design Service [$100K MRR]",
+    "nameZh": "按需订阅平面设计服务",
+    "summary": "按需订阅平面设计服务，月收入10万美元",
+    "revenue": "$100K",
+    "businessModel": "按月收取订阅费，客户提交设计需求，团队按需完成，通过高效流程和远程团队实现规模化。",
+    "chinaOpportunity": "中国中小企业设计需求旺盛，可通过微信小程序或社群提供订阅制设计服务，结合AI辅助提高效率。",
+    "website": "https://delesign.com"
+  },
   "slug": "our-company-helps-entrepreneurs-utilize-delegation-for-their-design-972k-year",
   "title": "按需订阅平面设计服务：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解按需订阅平面设计服务如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://delesign.com",
-  "generatedAt": "2026-07-27T14:11:35.166756+00:00",
+  "generatedAt": "2026-07-27T14:21:14.618970+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

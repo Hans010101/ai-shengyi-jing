@@ -1,5 +1,15 @@
 {
   "projectId": "9273c781fab4",
+  "project": {
+    "id": "9273c781fab4",
+    "name": "How We Built An $8K/Month Niche Online Tool [Business Idea Validated On Reddit]",
+    "nameZh": "在线共享计时器SaaS",
+    "summary": "在线共享计时器SaaS，通过订阅制收费。",
+    "revenue": "$8K/Mo",
+    "businessModel": "B2B/B2C SaaS订阅制，提供免费版（有限功能）和付费版（更多计时器、团队协作、自定义品牌），月费$9-$49。",
+    "chinaOpportunity": "中国会议、直播、教育场景同样需要计时工具，可开发微信小程序或企业微信集成，支持多人协作、自定义提醒，按团队或企业收费。",
+    "website": null
+  },
   "slug": "stagetimer-io-11b472c9-5746-4fea-ae5f-8c82cd389346",
   "title": "在线共享计时器SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解在线共享计时器SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.207841+00:00",
+  "generatedAt": "2026-07-27T14:21:14.661370+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

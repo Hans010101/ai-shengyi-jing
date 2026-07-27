@@ -1,5 +1,15 @@
 {
   "projectId": "6a158f45083c",
+  "project": {
+    "id": "6a158f45083c",
+    "name": "How I Launched A B2B TestOps Platform And Attracted $1.5M Seed Funding",
+    "nameZh": "B2B测试运维平台",
+    "summary": "B2B测试运维平台，通过订阅制SaaS收费。",
+    "revenue": "$1.5M",
+    "businessModel": "SaaS订阅制，按团队规模和功能模块分级收费，提供免费试用。",
+    "chinaOpportunity": "中国软件测试市场快速增长，中小企业急需高效自动化测试工具，可本地化适配。",
+    "website": null
+  },
   "slug": "qase-d0d5b9e1-33c3-45cc-a5fe-a7b0f6150df7",
   "title": "B2B测试运维平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解B2B测试运维平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.224088+00:00",
+  "generatedAt": "2026-07-27T14:21:14.703887+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

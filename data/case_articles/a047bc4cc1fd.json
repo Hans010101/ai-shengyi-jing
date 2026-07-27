@@ -1,5 +1,15 @@
 {
   "projectId": "a047bc4cc1fd",
+  "project": {
+    "id": "a047bc4cc1fd",
+    "name": "How We Built A $1.5K/Month SMS Marketing SaaS With Just A Plain PHP Tech Stack",
+    "nameZh": "基于PHP的短信营销SaaS",
+    "summary": "基于PHP的短信营销SaaS，月入$1.5K。",
+    "revenue": "$1.5K/Mo",
+    "businessModel": "为电商卖家提供短信营销工具，按订阅制收费，月费$29-$99。",
+    "chinaOpportunity": "中国电商卖家对短信营销需求大，可结合微信模板消息或小程序通知，提供类似服务。",
+    "website": null
+  },
   "slug": "cartfox",
   "title": "基于PHP的短信营销SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解基于PHP的短信营销SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.221404+00:00",
+  "generatedAt": "2026-07-27T14:21:14.701116+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

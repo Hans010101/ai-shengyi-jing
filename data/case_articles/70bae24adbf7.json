@@ -1,5 +1,15 @@
 {
   "projectId": "70bae24adbf7",
+  "project": {
+    "id": "70bae24adbf7",
+    "name": "Woopra",
+    "nameZh": "客户数据分析SaaS",
+    "summary": "客户数据分析SaaS，按月订阅收费。",
+    "revenue": "$300K/mo",
+    "businessModel": "B2B SaaS订阅制，按数据量和功能层级收费，提供免费试用和增值服务。",
+    "chinaOpportunity": "中国中小企业数字化营销需求旺盛，可针对微信、抖音等本土平台数据做深度分析，提供轻量版工具快速获客。",
+    "website": null
+  },
   "slug": "woopra",
   "title": "客户数据分析SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解客户数据分析SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.279255+00:00",
+  "generatedAt": "2026-07-27T14:21:14.733208+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

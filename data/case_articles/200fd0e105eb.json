@@ -1,5 +1,15 @@
 {
   "projectId": "200fd0e105eb",
+  "project": {
+    "id": "200fd0e105eb",
+    "name": "How We Launched A Business Intelligence Solution [United Kingdom]",
+    "nameZh": "AI商业智能SaaS",
+    "summary": "AI商业智能SaaS，按月订阅盈利",
+    "revenue": "$1K",
+    "businessModel": "SaaS订阅模式，提供AI驱动的商业智能分析平台，按月或年收费，免费试用吸引用户，付费解锁完整功能。",
+    "chinaOpportunity": "中国中小企业数据分析需求旺盛，但现有BI工具复杂昂贵。可开发轻量级AI BI工具，聚焦电商、餐饮等垂直行业，提供本土化数据源集成。",
+    "website": null
+  },
   "slug": "decidable",
   "title": "AI商业智能SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI商业智能SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.251448+00:00",
+  "generatedAt": "2026-07-27T14:21:14.708545+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

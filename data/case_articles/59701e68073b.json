@@ -1,5 +1,15 @@
 {
   "projectId": "59701e68073b",
+  "project": {
+    "id": "59701e68073b",
+    "name": "How My Startup Hit $4M in 18 Months",
+    "nameZh": "为SaaS公司提供定价策略咨询",
+    "summary": "为SaaS公司提供定价策略咨询，通过优化定价提升营收。",
+    "revenue": "$4M",
+    "businessModel": "按项目收费或订阅制，为客户提供定价审计、优化方案及实施支持，从客户增收中抽取分成或固定费用。",
+    "chinaOpportunity": "中国SaaS市场快速增长，但定价粗放。可提供本土化定价工具+咨询服务，针对中小企业推出低门槛套餐，结合AI分析竞品和用户支付意愿。",
+    "website": null
+  },
   "slug": "monevate-monetization-and-pricing-strategy-consulting",
   "title": "为SaaS公司提供定价策略咨询：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为SaaS公司提供定价策略咨询如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.197032+00:00",
+  "generatedAt": "2026-07-27T14:21:14.650496+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

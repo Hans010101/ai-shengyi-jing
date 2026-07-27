@@ -1,5 +1,15 @@
 {
   "projectId": "243ce1dc5cfd",
+  "project": {
+    "id": "243ce1dc5cfd",
+    "name": "Building A Finance App That Helps Filipino Freelancers Achieve Financial Freedom",
+    "nameZh": "为菲律宾自由职业者提供一站式财税管理SaaS",
+    "summary": "为菲律宾自由职业者提供一站式财税管理SaaS，通过订阅制变现。",
+    "revenue": "$22.5",
+    "businessModel": "SaaS订阅制，按月/年收费，提供免费版+付费版（解锁高级功能如税务报表、发票模板），目标用户是菲律宾自由职业者。",
+    "chinaOpportunity": "中国灵活就业者超2亿，财税管理需求旺盛，可模仿Beppo做本土化财税工具，对接金税系统，提供自动记账、个税计算、发票管理等服务。",
+    "website": null
+  },
   "slug": "beppo",
   "title": "为菲律宾自由职业者提供一站式财税管理SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为菲律宾自由职业者提供一站式财税管理SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.220017+00:00",
+  "generatedAt": "2026-07-27T14:21:14.699559+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "f0795ba9f5e8",
+  "project": {
+    "id": "f0795ba9f5e8",
+    "name": "SpyFu",
+    "nameZh": "SEO竞争分析工具",
+    "summary": "SEO竞争分析工具，通过订阅制向企业提供关键词研究、竞品广告策略等数据服务。",
+    "revenue": "$600K/mo",
+    "businessModel": "B2B SaaS订阅制，按功能分级定价（基础/专业/企业），提供关键词研究、竞争对手分析、广告历史追踪等核心功能。",
+    "chinaOpportunity": "中国中小企业对SEO/SEM工具需求旺盛，但缺乏易用的竞品分析工具。可针对百度、抖音等平台开发本土化版本，集成电商广告数据。",
+    "website": null
+  },
   "slug": "spyfu",
   "title": "SEO竞争分析工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解SEO竞争分析工具如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.278917+00:00",
+  "generatedAt": "2026-07-27T14:21:14.732821+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

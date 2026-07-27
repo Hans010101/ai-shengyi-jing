@@ -1,5 +1,15 @@
 {
   "projectId": "dccccd605065",
+  "project": {
+    "id": "dccccd605065",
+    "name": "How I Grew My NFT Marketplace From Solo To An 18-Person Company",
+    "nameZh": "NFT市场平台",
+    "summary": "NFT市场平台，通过交易手续费和增值服务盈利。",
+    "revenue": "$30K",
+    "businessModel": "平台收取NFT交易手续费（2-5%），同时提供高级铸造、拍卖等增值服务收费。",
+    "chinaOpportunity": "中国NFT市场以数字藏品为主，可聚焦合规联盟链，提供类似的多资源、可组合NFT标准，服务文创、游戏等场景。",
+    "website": null
+  },
   "slug": "rmrk-29aeef87-82e6-4b42-b36a-952d63def83e",
   "title": "NFT市场平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解NFT市场平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.201229+00:00",
+  "generatedAt": "2026-07-27T14:21:14.654843+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

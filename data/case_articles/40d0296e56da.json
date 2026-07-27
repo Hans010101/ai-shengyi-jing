@@ -1,5 +1,15 @@
 {
   "projectId": "40d0296e56da",
+  "project": {
+    "id": "40d0296e56da",
+    "name": "Our Timesheet Software Went From Side Project To $1.2M/Year",
+    "nameZh": "简易考勤与计费SaaS",
+    "summary": "简易考勤与计费SaaS，面向小企业按月收费。",
+    "revenue": "$1.2M/Year",
+    "businessModel": "按月订阅制，提供免费版和付费版（$3-5/用户/月），主要收入来自付费用户。",
+    "chinaOpportunity": "中国小微企业数字化需求旺盛，但现有产品复杂昂贵。可开发微信小程序版，集成考勤、报销、工资计算，按团队规模定价。",
+    "website": null
+  },
   "slug": "our-timesheet-software-went-from-side-hustle-to-1-2m-year",
   "title": "简易考勤与计费SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解简易考勤与计费SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.260915+00:00",
+  "generatedAt": "2026-07-27T14:21:14.714121+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

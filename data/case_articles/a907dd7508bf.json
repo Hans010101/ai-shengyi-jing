@@ -1,5 +1,15 @@
 {
   "projectId": "a907dd7508bf",
+  "project": {
+    "id": "a907dd7508bf",
+    "name": "How We Started A $360K/Year Software House [From Italy]",
+    "nameZh": "意大利软件外包公司",
+    "summary": "意大利软件外包公司，通过定制开发和管理工具盈利",
+    "revenue": "$360K/Year",
+    "businessModel": "为客户提供定制软件开发服务，按项目或工时收费，同时运营自有SaaS产品增加收入。",
+    "chinaOpportunity": "中国中小企业数字化转型需求旺盛，可借鉴其从工具到外包的路径，聚焦垂直行业定制开发。",
+    "website": "https://dreamonkey.com"
+  },
   "slug": "how-we-started-a-360k-year-software-house-from-italy",
   "title": "意大利软件外包公司：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解意大利软件外包公司如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://dreamonkey.com",
-  "generatedAt": "2026-07-27T14:11:35.178412+00:00",
+  "generatedAt": "2026-07-27T14:21:14.631034+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

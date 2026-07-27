@@ -1,5 +1,15 @@
 {
   "projectId": "a0a1e44c93fd",
+  "project": {
+    "id": "a0a1e44c93fd",
+    "name": "Update: How We Plan To Hit $2M In Revenue Next Year",
+    "nameZh": "为科技公司撰写技术内容",
+    "summary": "为科技公司撰写技术内容，通过订阅制收费。",
+    "revenue": "$2M",
+    "businessModel": "B2B订阅制，按内容数量或套餐收费，客户为需要技术博客/教程的企业。",
+    "chinaOpportunity": "中国技术内容需求大，可建立中文技术写手平台，服务科技公司。",
+    "website": "https://draft.dev"
+  },
   "slug": "draft-dev",
   "title": "为科技公司撰写技术内容：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为科技公司撰写技术内容如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://draft.dev",
-  "generatedAt": "2026-07-27T14:11:35.181215+00:00",
+  "generatedAt": "2026-07-27T14:21:14.634151+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

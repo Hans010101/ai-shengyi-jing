@@ -1,5 +1,15 @@
 {
   "projectId": "82347e50d065",
+  "project": {
+    "id": "82347e50d065",
+    "name": "Learn How We Grew Our $3K/Month Cleaning Company",
+    "nameZh": "派对后清洁服务",
+    "summary": "派对后清洁服务，按次收费，月入$3K。",
+    "revenue": "$3K/Mo",
+    "businessModel": "为派对主办方提供专业清洁服务，按小时或按房间收费，通过预订系统管理订单。",
+    "chinaOpportunity": "中国派对文化兴起，尤其一线城市，可提供类似服务，结合本地生活平台（美团、大众点评）获客。",
+    "website": null
+  },
   "slug": "hangover-helpers",
   "title": "派对后清洁服务：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解派对后清洁服务如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.253675+00:00",
+  "generatedAt": "2026-07-27T14:21:14.710709+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

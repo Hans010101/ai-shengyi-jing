@@ -1,5 +1,15 @@
 {
   "projectId": "c42891d309ab",
+  "project": {
+    "id": "c42891d309ab",
+    "name": "I Built a Video Messaging Platform to $1M Per Year",
+    "nameZh": "协作视频平台",
+    "summary": "协作视频平台，通过订阅和单次付费赚钱。",
+    "revenue": "$1M",
+    "businessModel": "SaaS订阅+单次视频付费，用户免费创建，付费下载高清视频。",
+    "chinaOpportunity": "中国节日和社交场景多，可切入生日、婚礼、企业团建等，结合微信小程序和短视频平台。",
+    "website": null
+  },
   "slug": "vidday",
   "title": "协作视频平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解协作视频平台如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.214917+00:00",
+  "generatedAt": "2026-07-27T14:21:14.672054+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

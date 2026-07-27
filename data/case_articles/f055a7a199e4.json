@@ -1,5 +1,15 @@
 {
   "projectId": "f055a7a199e4",
+  "project": {
+    "id": "f055a7a199e4",
+    "name": "How Jozef Gherman Built StealthGPT to $15K MRR in 14 Months",
+    "nameZh": "AI内容生成器",
+    "summary": "AI内容生成器，通过订阅制向用户收费。",
+    "revenue": "$15K",
+    "businessModel": "SaaS订阅制，提供基础版和高级版，按月或年收费。",
+    "chinaOpportunity": "中国有大量内容创作者和营销者需要规避AI检测，可开发中文版并集成微信生态。",
+    "website": null
+  },
   "slug": "stealthgpt-breakdown",
   "title": "AI内容生成器：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI内容生成器如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.216827+00:00",
+  "generatedAt": "2026-07-27T14:21:14.674132+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "e4d67eb57dc6",
+  "project": {
+    "id": "e4d67eb57dc6",
+    "name": "We Built A Digital Whiteboard Tool Used By Over 17K People",
+    "nameZh": "在线白板协作工具",
+    "summary": "在线白板协作工具，通过订阅制收费。",
+    "revenue": "$1K",
+    "businessModel": "免费增值（Freemium）SaaS 模式：基础功能免费，高级功能（如无限存储、协作人数、导出格式等）按月/年收费。",
+    "chinaOpportunity": "中国在线教育、远程办公和项目管理市场庞大，本土化可聚焦教育领域（如教师备课、学生思维导图）或企业协作（如会议记录、流程图），需集成微信/钉钉生态。",
+    "website": null
+  },
   "slug": "orgpad",
   "title": "在线白板协作工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解在线白板协作工具如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.252185+00:00",
+  "generatedAt": "2026-07-27T14:21:14.709296+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

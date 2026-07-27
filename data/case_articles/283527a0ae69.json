@@ -1,5 +1,15 @@
 {
   "projectId": "283527a0ae69",
+  "project": {
+    "id": "283527a0ae69",
+    "name": "Typefully",
+    "nameZh": "AI驱动的社交媒体排程工具",
+    "summary": "AI驱动的社交媒体排程工具，按月订阅收费。",
+    "revenue": "$115K/mo",
+    "businessModel": "B2C/B2B SaaS订阅制，提供免费版引流，付费版解锁AI排程、分析、团队协作等功能，按用户数和功能层级收费。",
+    "chinaOpportunity": "中国社交媒体平台分散（微信、抖音、小红书等），企业及个人多平台管理需求大。可做AI排程+内容工厂，结合本地平台API，提供智能发布与数据分析。",
+    "website": "https://typefully.com"
+  },
   "slug": "typefully",
   "title": "AI驱动的社交媒体排程工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI驱动的社交媒体排程工具如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://typefully.com",
-  "generatedAt": "2026-07-27T14:11:35.191108+00:00",
+  "generatedAt": "2026-07-27T14:21:14.643986+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

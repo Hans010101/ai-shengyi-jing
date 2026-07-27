@@ -1,5 +1,15 @@
 {
   "projectId": "2a08e96cadfb",
+  "project": {
+    "id": "2a08e96cadfb",
+    "name": "Ninety",
+    "nameZh": "一站式团队协作平台",
+    "summary": "一站式团队协作平台，通过订阅制收费。",
+    "revenue": "$2.5M/mo",
+    "businessModel": "SaaS订阅模式，提供免费试用和付费套餐，按月或年收费，主要收入来自团队付费订阅。",
+    "chinaOpportunity": "中国企业协作市场碎片化，可整合钉钉/飞书生态，提供AI驱动的轻量级协作工具，瞄准中小团队。",
+    "website": null
+  },
   "slug": "ninety",
   "title": "一站式团队协作平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解一站式团队协作平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.193266+00:00",
+  "generatedAt": "2026-07-27T14:21:14.646290+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

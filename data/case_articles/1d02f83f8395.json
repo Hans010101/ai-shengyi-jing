@@ -1,5 +1,15 @@
 {
   "projectId": "1d02f83f8395",
+  "project": {
+    "id": "1d02f83f8395",
+    "name": "How We Scaled Our App To 300K Users Who Earn Money Through Our Paid Surveys",
+    "nameZh": "用户",
+    "summary": "用户通过做问卷和分享带宽赚取被动收入的平台。",
+    "revenue": "$5",
+    "businessModel": "平台连接广告主与用户，用户完成付费问卷或贡献带宽获得现金/比特币奖励，平台从中抽成。",
+    "chinaOpportunity": "中国有大量用户愿意用时间换小额收入，可做问卷+带宽共享的本地化版本，但需解决合规与支付问题。",
+    "website": null
+  },
   "slug": "pawns-app",
   "title": "用户：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解用户如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.201444+00:00",
+  "generatedAt": "2026-07-27T14:21:14.655073+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

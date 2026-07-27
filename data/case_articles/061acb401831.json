@@ -1,5 +1,15 @@
 {
   "projectId": "061acb401831",
+  "project": {
+    "id": "061acb401831",
+    "name": "pganalyze",
+    "nameZh": "PostgreSQL性能监控SaaS",
+    "summary": "PostgreSQL性能监控SaaS，按月订阅收费。",
+    "revenue": "$85K/mo",
+    "businessModel": "提供PostgreSQL性能监控SaaS，按数据库实例和监控周期订阅收费，免费增值模式。",
+    "chinaOpportunity": "国内PostgreSQL用户增长快，但缺乏专业监控工具，可做本土化替代，结合微信/钉钉告警。",
+    "website": "https://pganalyze.com"
+  },
   "slug": "pganalyze",
   "title": "PostgreSQL性能监控SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解PostgreSQL性能监控SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://pganalyze.com",
-  "generatedAt": "2026-07-27T14:11:35.191205+00:00",
+  "generatedAt": "2026-07-27T14:21:14.644098+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

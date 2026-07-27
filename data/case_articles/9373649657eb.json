@@ -1,5 +1,15 @@
 {
   "projectId": "9373649657eb",
+  "project": {
+    "id": "9373649657eb",
+    "name": "The Hustle",
+    "nameZh": "每日科技商业资讯邮件订阅",
+    "summary": "每日科技商业资讯邮件订阅，靠广告和付费会员赚钱。",
+    "revenue": "$1.3M/mo",
+    "businessModel": "免费邮件订阅吸引流量，广告收入为主，付费会员（Hustle Premium）提供深度内容、独家报告等增值服务。",
+    "chinaOpportunity": "中国类似机会：科技商业类邮件通讯（如「36氪早报」），但需更个性化、幽默风格；本土化可聚焦微信生态，结合小程序或社群运营。",
+    "website": "https://thehustle.co"
+  },
   "slug": "the-hustle",
   "title": "每日科技商业资讯邮件订阅：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解每日科技商业资讯邮件订阅如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://thehustle.co",
-  "generatedAt": "2026-07-27T14:11:35.192350+00:00",
+  "generatedAt": "2026-07-27T14:21:14.645361+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "1db6eeba620a",
+  "project": {
+    "id": "1db6eeba620a",
+    "name": "My Gaming Distribution Business Makes $1M/Year",
+    "nameZh": "游戏分销平台",
+    "summary": "游戏分销平台，通过销售游戏密钥赚取差价和佣金。",
+    "revenue": "$1M/Year",
+    "businessModel": "从游戏发行商批量采购密钥，通过自建平台和合作渠道零售给玩家，赚取差价和销售佣金。",
+    "chinaOpportunity": "中国游戏市场庞大，中小游戏厂商缺乏分销渠道，可建立类似平台整合国产游戏密钥，通过直播、社群等渠道分销。",
+    "website": null
+  },
   "slug": "gameray",
   "title": "游戏分销平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解游戏分销平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.217166+00:00",
+  "generatedAt": "2026-07-27T14:21:14.674471+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "a41235e73e1a",
+  "project": {
+    "id": "a41235e73e1a",
+    "name": "I Got Rejected From Yc Then Built A 200M Startup",
+    "nameZh": "被YC拒绝后",
+    "summary": "被YC拒绝后，创始人开发AI SaaS工具，年营收达2亿美元。",
+    "revenue": "$200M",
+    "businessModel": "SaaS订阅制，提供AI驱动的自动化工具，基础功能免费，高级功能按月/年收费。",
+    "chinaOpportunity": "中国企业数字化转型需求旺盛，可针对特定行业（如电商、客服）开发AI工具，结合微信生态推广。",
+    "website": null
+  },
   "slug": "i-got-rejected-from-yc-then-built-a-200m-startup",
   "title": "被YC拒绝后：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解被YC拒绝后如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.196007+00:00",
+  "generatedAt": "2026-07-27T14:21:14.649474+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

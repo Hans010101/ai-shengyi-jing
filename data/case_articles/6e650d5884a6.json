@@ -1,5 +1,15 @@
 {
   "projectId": "6e650d5884a6",
+  "project": {
+    "id": "6e650d5884a6",
+    "name": "TimeFlip Update: How We Doubled Revenue To $40K/Month Since Last Year",
+    "nameZh": "TimeFlip是物理时间追踪设备+SaaS",
+    "summary": "TimeFlip是物理时间追踪设备+SaaS，卖硬件和订阅。",
+    "revenue": "$40K/Mo",
+    "businessModel": "硬件销售（一次性收入）+ SaaS订阅（持续收入），针对个人和团队。",
+    "chinaOpportunity": "中国远程办公和自由职业者增多，可推出类似硬件+APP，结合微信小程序和企业微信。",
+    "website": "https://timeflip.io"
+  },
   "slug": "timeflip-update-how-we-doubled-revenue-to-40k-month-since-last-year",
   "title": "TimeFlip是物理时间追踪设备+SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解TimeFlip是物理时间追踪设备+SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://timeflip.io",
-  "generatedAt": "2026-07-27T14:11:35.184449+00:00",
+  "generatedAt": "2026-07-27T14:21:14.637405+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

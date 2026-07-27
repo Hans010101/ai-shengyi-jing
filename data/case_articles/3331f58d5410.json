@@ -1,5 +1,15 @@
 {
   "projectId": "3331f58d5410",
+  "project": {
+    "id": "3331f58d5410",
+    "name": "OpenEvidence",
+    "nameZh": "AI辅助医生临床决策的搜索引擎",
+    "summary": "AI辅助医生临床决策的搜索引擎，按订阅收费。",
+    "revenue": "$4.2M/mo",
+    "businessModel": "面向医疗机构和医生个人提供SaaS订阅服务，按用户数或机构规模收费。",
+    "chinaOpportunity": "中国医疗资源不均，基层医生急需决策支持工具。可整合中文医学指南、病例库，开发本土化AI助手，服务医院和诊所。",
+    "website": "https://www.openevidence.com"
+  },
   "slug": "openevidence",
   "title": "AI辅助医生临床决策的搜索引擎：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI辅助医生临床决策的搜索引擎如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://www.openevidence.com",
-  "generatedAt": "2026-07-27T14:11:35.190594+00:00",
+  "generatedAt": "2026-07-27T14:21:14.643458+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

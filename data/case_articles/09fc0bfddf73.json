@@ -1,5 +1,15 @@
 {
   "projectId": "09fc0bfddf73",
+  "project": {
+    "id": "09fc0bfddf73",
+    "name": "The iOS Bootcamp: Build Your First Mobile App with Claude Code",
+    "nameZh": "AI辅助iOS开发课程",
+    "summary": "AI辅助iOS开发课程，卖课程和会员赚钱。",
+    "revenue": "$100K/mo",
+    "businessModel": "销售AI辅助iOS开发课程（一次性付费）+ 月度会员订阅（持续收入）。",
+    "chinaOpportunity": "中国有大量想学iOS开发但编程基础弱的用户，可推出AI辅助SwiftUI课程，结合本土平台（如微信小程序）案例。",
+    "website": null
+  },
   "slug": "the-ios-bootcamp",
   "title": "AI辅助iOS开发课程：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI辅助iOS开发课程如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.195459+00:00",
+  "generatedAt": "2026-07-27T14:21:14.648835+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "b5ca970475fe",
+  "project": {
+    "id": "b5ca970475fe",
+    "name": "Design Pickle",
+    "nameZh": "按月订阅的平面设计服务",
+    "summary": "按月订阅的平面设计服务，通过固定费率提供无限设计需求。",
+    "revenue": "$2.5M/mo",
+    "businessModel": "B2B订阅制，客户按月付费，获得无限设计请求；通过设计师团队和AI工具降低成本，提高交付速度。",
+    "chinaOpportunity": "中小企业设计需求旺盛但预算有限，可推出类似“设计包月”服务，结合AI生成初稿+人工精修，降低人力成本。",
+    "website": null
+  },
   "slug": "design-pickle",
   "title": "按月订阅的平面设计服务：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解按月订阅的平面设计服务如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.278630+00:00",
+  "generatedAt": "2026-07-27T14:21:14.732494+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

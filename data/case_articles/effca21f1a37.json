@@ -1,5 +1,15 @@
 {
   "projectId": "effca21f1a37",
+  "project": {
+    "id": "effca21f1a37",
+    "name": "The Underdog From 200K In Debt To 1M App Maker",
+    "nameZh": "AI驱动的应用生成器",
+    "summary": "AI驱动的应用生成器，用户通过描述需求自动生成应用并付费下载。",
+    "revenue": "$200K",
+    "businessModel": "用户输入应用描述，AI生成代码并打包成可下载的应用文件，按次或订阅收费，类似“应用界的ChatGPT”。",
+    "chinaOpportunity": "中国大量中小企业和个人需要低成本应用，如小程序、工具App，可结合微信生态，提供AI生成小程序或H5应用服务。",
+    "website": null
+  },
   "slug": "the-underdog-from-200k-in-debt-to-1m-app-maker",
   "title": "AI驱动的应用生成器：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI驱动的应用生成器如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.196168+00:00",
+  "generatedAt": "2026-07-27T14:21:14.649644+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

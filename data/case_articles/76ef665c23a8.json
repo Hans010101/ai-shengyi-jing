@@ -1,5 +1,15 @@
 {
   "projectId": "76ef665c23a8",
+  "project": {
+    "id": "76ef665c23a8",
+    "name": "How I Built A Life Saving App For People Who Live Alone",
+    "nameZh": "为独居者提供生命体征监测和紧急警报的SaaS服务",
+    "summary": "为独居者提供生命体征监测和紧急警报的SaaS服务。",
+    "revenue": "$1.1M/Mo",
+    "businessModel": "硬件（传感器）一次性销售+月度订阅费（$19.99/月），提供监测、警报和报告服务。",
+    "chinaOpportunity": "中国独居人口超1.2亿，老龄化加剧，可推出低成本的智能手环/贴片+App，与社区医院合作。",
+    "website": null
+  },
   "slug": "thelifesigns",
   "title": "为独居者提供生命体征监测和紧急警报的SaaS服务：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为独居者提供生命体征监测和紧急警报的SaaS服务如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.207693+00:00",
+  "generatedAt": "2026-07-27T14:21:14.661221+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

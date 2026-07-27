@@ -1,5 +1,15 @@
 {
   "projectId": "2bf76f87471d",
+  "project": {
+    "id": "2bf76f87471d",
+    "name": "How We're Building A Platform To Enable Everyday Gamers Win Money",
+    "nameZh": "P2P游戏竞技平台",
+    "summary": "P2P游戏竞技平台，玩家对战赢奖金，平台抽成。",
+    "revenue": "$60M/Year",
+    "businessModel": "玩家付费入场，胜者获得奖金，平台从每局抽取手续费。",
+    "chinaOpportunity": "中国手游用户庞大，可切入王者荣耀、和平精英等热门游戏，需解决合规支付和防沉迷问题。",
+    "website": null
+  },
   "slug": "challenger",
   "title": "P2P游戏竞技平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解P2P游戏竞技平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.208217+00:00",
+  "generatedAt": "2026-07-27T14:21:14.661744+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

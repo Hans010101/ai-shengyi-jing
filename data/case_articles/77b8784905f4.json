@@ -1,5 +1,15 @@
 {
   "projectId": "77b8784905f4",
+  "project": {
+    "id": "77b8784905f4",
+    "name": "Shopkeeper",
+    "nameZh": "AI驱动的Shopify店铺管理工具",
+    "summary": "AI驱动的Shopify店铺管理工具，通过订阅制SaaS收费。",
+    "revenue": "$100K/mo",
+    "businessModel": "SaaS订阅制，按功能分层收费（基础版/专业版/企业版），月费$29-$199。",
+    "chinaOpportunity": "中国电商平台（如淘宝、拼多多）卖家同样需要AI工具辅助运营，可开发类似SaaS，聚焦本土平台API集成。",
+    "website": null
+  },
   "slug": "shopkeeper",
   "title": "AI驱动的Shopify店铺管理工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI驱动的Shopify店铺管理工具如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.194209+00:00",
+  "generatedAt": "2026-07-27T14:21:14.647222+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

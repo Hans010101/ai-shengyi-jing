@@ -1,5 +1,15 @@
 {
   "projectId": "416a85652308",
+  "project": {
+    "id": "416a85652308",
+    "name": "Starter Story Solopreneurs Report",
+    "nameZh": "案例研究数据库搜索与过滤服务",
+    "summary": "案例研究数据库搜索与过滤服务，按月订阅赚钱。",
+    "revenue": "$10K",
+    "businessModel": "B2C订阅模式，用户按月或年付费访问案例数据库，提供筛选、排序等增值功能。",
+    "chinaOpportunity": "中国创业者热衷学习案例，可建立本土创业案例库，结合AI摘要和个性化推荐，按需付费。",
+    "website": null
+  },
   "slug": "starter-story-solopreneurs-report",
   "title": "案例研究数据库搜索与过滤服务：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解案例研究数据库搜索与过滤服务如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.222013+00:00",
+  "generatedAt": "2026-07-27T14:21:14.701700+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

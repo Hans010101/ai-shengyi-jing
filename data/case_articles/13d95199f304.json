@@ -1,5 +1,15 @@
 {
   "projectId": "13d95199f304",
+  "project": {
+    "id": "13d95199f304",
+    "name": "Our CRM Suite Just Hit $3M ARR",
+    "nameZh": "定制化CRM套件",
+    "summary": "定制化CRM套件，年营收360万美元的SaaS订阅模式。",
+    "revenue": "$3M",
+    "businessModel": "按月/年收取SaaS订阅费，提供基础版和高级版，附加增值服务如定制集成和培训。",
+    "chinaOpportunity": "中国中小企业CRM市场分散，可开发低代码、可定制的CRM，结合微信生态和钉钉集成，快速获客。",
+    "website": null
+  },
   "slug": "promys",
   "title": "定制化CRM套件：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解定制化CRM套件如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.249563+00:00",
+  "generatedAt": "2026-07-27T14:21:14.706618+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

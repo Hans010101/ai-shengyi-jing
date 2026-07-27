@@ -1,5 +1,15 @@
 {
   "projectId": "8e711bb9269a",
+  "project": {
+    "id": "8e711bb9269a",
+    "name": "Boast",
+    "nameZh": "帮助企业申请研发税收抵免的SaaS平台",
+    "summary": "帮助企业申请研发税收抵免的SaaS平台，按成功减免额收费。",
+    "revenue": "$850K/mo",
+    "businessModel": "SaaS+结果分成：客户提交研发数据，AI自动计算可抵扣税额并生成申报材料，平台按减免金额的10%-20%收费。",
+    "chinaOpportunity": "中国研发费用加计扣除政策类似，中小企业申报率低，可开发AI工具简化流程，按节税比例收费。",
+    "website": null
+  },
   "slug": "boast-637384",
   "title": "帮助企业申请研发税收抵免的SaaS平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解帮助企业申请研发税收抵免的SaaS平台如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.192975+00:00",
+  "generatedAt": "2026-07-27T14:21:14.645912+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

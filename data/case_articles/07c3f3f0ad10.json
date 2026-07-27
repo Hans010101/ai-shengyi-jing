@@ -1,5 +1,15 @@
 {
   "projectId": "07c3f3f0ad10",
+  "project": {
+    "id": "07c3f3f0ad10",
+    "name": "How We Built A No-Code Map Builder [400 Users In The First 3 Months]",
+    "nameZh": "无代码地图构建器",
+    "summary": "无代码地图构建器，月费订阅赚钱。",
+    "revenue": "$200",
+    "businessModel": "B2B SaaS订阅制，提供免费试用和付费套餐，月费$20-50。",
+    "chinaOpportunity": "中国中小企业地图可视化需求旺盛，可结合本地地图API（如高德、百度）推出类似无代码工具。",
+    "website": null
+  },
   "slug": "no-code-map-app",
   "title": "无代码地图构建器：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解无代码地图构建器如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.252980+00:00",
+  "generatedAt": "2026-07-27T14:21:14.710083+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

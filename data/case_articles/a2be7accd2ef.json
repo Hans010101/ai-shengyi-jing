@@ -1,5 +1,15 @@
 {
   "projectId": "a2be7accd2ef",
+  "project": {
+    "id": "a2be7accd2ef",
+    "name": "How I Started A $50M/Year Mobile Car-Care Service",
+    "nameZh": "移动洗车服务平台",
+    "summary": "移动洗车服务平台，通过APP预约上门洗车、保养，收取服务费。",
+    "revenue": "$50M/Year",
+    "businessModel": "按次或套餐收费，通过APP预约上门洗车、内饰清洁、打蜡等，利用移动车辆和人员降低成本，复购率高。",
+    "chinaOpportunity": "中国汽车保有量大，洗车需求高频，但人工成本上升，标准化、移动化洗车服务有巨大空间，可结合社区、企业合作。",
+    "website": null
+  },
   "slug": "getspiffy",
   "title": "移动洗车服务平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解移动洗车服务平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.208955+00:00",
+  "generatedAt": "2026-07-27T14:21:14.662563+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

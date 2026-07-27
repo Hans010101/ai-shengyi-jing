@@ -1,5 +1,15 @@
 {
   "projectId": "e2336adf1344",
+  "project": {
+    "id": "e2336adf1344",
+    "name": "We Started A Carbon Offsetting Company [From New Zealand]",
+    "nameZh": "碳抵消平台",
+    "summary": "碳抵消平台，帮企业购买碳信用实现碳中和。",
+    "revenue": "$30,000",
+    "businessModel": "向企业收取碳抵消服务费（含碳信用采购成本+平台佣金），消费者在结账时自愿支付小额碳费。",
+    "chinaOpportunity": "中国碳交易市场扩容，可面向电商、出行等高频场景提供嵌入式碳抵消，结合蚂蚁森林等用户教育基础。",
+    "website": "https://www.carbonclick.com"
+  },
   "slug": "we-started-a-360k-year-carbon-offsetting-company-from-new-zealand",
   "title": "碳抵消平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解碳抵消平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://www.carbonclick.com",
-  "generatedAt": "2026-07-27T14:11:35.179920+00:00",
+  "generatedAt": "2026-07-27T14:21:14.632779+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

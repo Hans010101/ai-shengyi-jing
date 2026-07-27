@@ -1,5 +1,15 @@
 {
   "projectId": "7e7291cb25de",
+  "project": {
+    "id": "7e7291cb25de",
+    "name": "How We're Building an Easier Car Selling Service",
+    "nameZh": "连接二手车商与私人卖家的B2B/C2B平台",
+    "summary": "连接二手车商与私人卖家的B2B/C2B平台，通过交易佣金盈利。",
+    "revenue": "$10M/year",
+    "businessModel": "向卖家提供免费检测和快速卖车服务，向买家（车商）收取车辆信息费和交易佣金。",
+    "chinaOpportunity": "中国二手车市场分散，检测标准不一，可借鉴其模式整合中小车商，提供标准化检测和线上竞价服务。",
+    "website": null
+  },
   "slug": "epicar",
   "title": "连接二手车商与私人卖家的B2B/C2B平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解连接二手车商与私人卖家的B2B/C2B平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.219451+00:00",
+  "generatedAt": "2026-07-27T14:21:14.699068+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

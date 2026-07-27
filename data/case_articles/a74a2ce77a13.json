@@ -1,5 +1,15 @@
 {
   "projectId": "a74a2ce77a13",
+  "project": {
+    "id": "a74a2ce77a13",
+    "name": "How We Started An Automotive Software Business",
+    "nameZh": "为汽修店提供数据驱动的SaaS工具",
+    "summary": "为汽修店提供数据驱动的SaaS工具，按月收费。",
+    "revenue": "$20K",
+    "businessModel": "B2B SaaS订阅制，按门店规模收费，提供车辆诊断、库存管理、客户关系等功能。",
+    "chinaOpportunity": "中国汽修店数量庞大，数字化程度低，可开发本地化SaaS，整合支付、配件供应链等增值服务。",
+    "website": null
+  },
   "slug": "ramp-global",
   "title": "为汽修店提供数据驱动的SaaS工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为汽修店提供数据驱动的SaaS工具如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.200769+00:00",
+  "generatedAt": "2026-07-27T14:21:14.654400+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "9ff365ecd336",
+  "project": {
+    "id": "9ff365ecd336",
+    "name": "How We Rebuilt Our Company And Plan To Launch New Products This Year",
+    "nameZh": "加密货币税务计算SaaS",
+    "summary": "加密货币税务计算SaaS，按订阅或单次报告收费。",
+    "revenue": "$3.7K",
+    "businessModel": "SaaS订阅制（按月/年）加单次报告付费，用户上传交易记录，系统自动计算税务。",
+    "chinaOpportunity": "中国加密货币交易虽受限，但海外华人及合规交易所需求存在；可转向股票、基金等金融税务自动化。",
+    "website": null
+  },
   "slug": "how-we-plan-to-launch-our-new-investor-product",
   "title": "加密货币税务计算SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解加密货币税务计算SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.254258+00:00",
+  "generatedAt": "2026-07-27T14:21:14.711363+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

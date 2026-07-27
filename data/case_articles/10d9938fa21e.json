@@ -1,5 +1,15 @@
 {
   "projectId": "10d9938fa21e",
+  "project": {
+    "id": "10d9938fa21e",
+    "name": "Vente AI",
+    "nameZh": "AI销售助手",
+    "summary": "AI销售助手，通过智能对话自动跟进客户并预约会议，按订阅收费。",
+    "revenue": "$100K/mo",
+    "businessModel": "SaaS订阅制，按坐席或通话量收费，提供免费试用吸引客户，转化付费。",
+    "chinaOpportunity": "中国中小企业销售人力成本高，AI外呼+微信生态结合，可做本土化SCRM工具。",
+    "website": null
+  },
   "slug": "vente-ai",
   "title": "AI销售助手：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI销售助手如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.275238+00:00",
+  "generatedAt": "2026-07-27T14:21:14.728915+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

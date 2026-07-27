@@ -1,5 +1,15 @@
 {
   "projectId": "723e64e340bc",
+  "project": {
+    "id": "723e64e340bc",
+    "name": "How I Grew My Side Hustle to $4,000/month",
+    "nameZh": "帮本地商家用AI设计明信片",
+    "summary": "帮本地商家用AI设计明信片，按订阅收费。",
+    "revenue": "$4,000/mo",
+    "businessModel": "SaaS订阅制，用户按月付费使用AI明信片设计平台，自动生成并邮寄，按发送量或套餐收费。",
+    "chinaOpportunity": "中国大量本地商家（餐饮、房产中介）仍依赖传统传单，可做AI传单设计+打印分发平台，按单收费或月费。",
+    "website": null
+  },
   "slug": "community-card-playbook",
   "title": "帮本地商家用AI设计明信片：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解帮本地商家用AI设计明信片如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.195313+00:00",
+  "generatedAt": "2026-07-27T14:21:14.648627+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

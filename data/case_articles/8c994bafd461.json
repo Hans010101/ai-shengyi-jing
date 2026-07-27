@@ -1,5 +1,15 @@
 {
   "projectId": "8c994bafd461",
+  "project": {
+    "id": "8c994bafd461",
+    "name": "We Built, Launched & Monetized A Slack Bot In 3 Weeks",
+    "nameZh": "Slack差评监控机器人",
+    "summary": "Slack差评监控机器人，按月订阅收费。",
+    "revenue": "$710",
+    "businessModel": "为SaaS企业提供Slack bot，自动抓取并推送各平台新评价，按月收取订阅费。",
+    "chinaOpportunity": "中国企业微信/钉钉生态庞大，可开发类似bot监测大众点评、微博等评价，按企业规模分层定价。",
+    "website": null
+  },
   "slug": "we-built-launched-monetized-a-slack-bot-in-3-weeks",
   "title": "Slack差评监控机器人：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解Slack差评监控机器人如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.262870+00:00",
+  "generatedAt": "2026-07-27T14:21:14.716215+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "da8a5a8f2d5b",
+  "project": {
+    "id": "da8a5a8f2d5b",
+    "name": "We're A Cloud-Based Warehouse Management Company That Witnessed A 500% Revenue Growth From Last Year",
+    "nameZh": "云仓WMS SaaS",
+    "summary": "云仓WMS SaaS，按订阅收费。",
+    "revenue": "$1",
+    "businessModel": "按月/年订阅SaaS，提供库存、订单、拣货等模块，按仓库数量或用户数分层定价。",
+    "chinaOpportunity": "中国中小仓库数字化率低，竞品如聚水潭偏电商，可做通用轻量WMS，结合小程序/钉钉生态快速获客。",
+    "website": null
+  },
   "slug": "pulpo-wms",
   "title": "云仓WMS SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解云仓WMS SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.203142+00:00",
+  "generatedAt": "2026-07-27T14:21:14.656752+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

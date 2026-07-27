@@ -1,5 +1,15 @@
 {
   "projectId": "563758a5ea01",
+  "project": {
+    "id": "563758a5ea01",
+    "name": "How I Built A $280M Crypto Investment Platform",
+    "nameZh": "加密货币结构化投资平台",
+    "summary": "加密货币结构化投资平台，通过管理费和业绩分成盈利。",
+    "revenue": "$280M",
+    "businessModel": "发行结构化理财产品（如保本票据），收取管理费（1-2%）和超额业绩分成（20-30%），同时提供质押、借贷等增值服务。",
+    "chinaOpportunity": "中国用户对合规加密货币理财需求旺盛，可结合香港合规牌照，推出人民币稳定币理财产品，或利用数字人民币创新。",
+    "website": null
+  },
   "slug": "midas-invesments",
   "title": "加密货币结构化投资平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解加密货币结构化投资平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.226924+00:00",
+  "generatedAt": "2026-07-27T14:21:14.705829+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

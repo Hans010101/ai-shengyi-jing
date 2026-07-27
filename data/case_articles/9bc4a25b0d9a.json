@@ -1,5 +1,15 @@
 {
   "projectId": "9bc4a25b0d9a",
+  "project": {
+    "id": "9bc4a25b0d9a",
+    "name": "How We Started A Digital Tour Guide Platform With Over 500K Users [Czech Republic]",
+    "nameZh": "数字导游平台",
+    "summary": "数字导游平台，通过音频、定位和AR提供自助导览服务，向景点收费。",
+    "revenue": "$282K",
+    "businessModel": "向景区、博物馆等B端客户销售数字导览解决方案，按年费或游客使用量收费。",
+    "chinaOpportunity": "中国旅游市场庞大，中小景点缺乏数字化导览，可开发类似平台，结合微信小程序和本地支付。",
+    "website": "https://www.smartguide.com"
+  },
   "slug": "how-we-started-a-digital-tour-guide-platform-with-over-500k-users-czech-republic",
   "title": "数字导游平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解数字导游平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://www.smartguide.com",
-  "generatedAt": "2026-07-27T14:11:35.176702+00:00",
+  "generatedAt": "2026-07-27T14:21:14.629233+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "9736755d33df",
+  "project": {
+    "id": "9736755d33df",
+    "name": "How Andre Haykal Built ListKit to $100K MRR in 90 Days",
+    "nameZh": "B2B精准客户名单服务",
+    "summary": "B2B精准客户名单服务，按需定制，月营收10万美元。",
+    "revenue": "$100K",
+    "businessModel": "用户按需求付费购买定制B2B联系人列表，按列表大小或订阅周期收费。",
+    "chinaOpportunity": "中国B2B销售同样面临获客难，可提供类似服务，但需整合国内数据源（如企查查、天眼查）并适配微信生态。",
+    "website": null
+  },
   "slug": "listkit-breakdown",
   "title": "B2B精准客户名单服务：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解B2B精准客户名单服务如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.264721+00:00",
+  "generatedAt": "2026-07-27T14:21:14.674447+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

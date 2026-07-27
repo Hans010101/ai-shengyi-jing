@@ -1,5 +1,15 @@
 {
   "projectId": "6ee69e66b020",
+  "project": {
+    "id": "6ee69e66b020",
+    "name": "Mostly Metrics",
+    "nameZh": "AI驱动的SaaS工具",
+    "summary": "AI驱动的SaaS工具，通过订阅制提供数据分析和报告服务盈利。",
+    "revenue": "$42K/mo",
+    "businessModel": "按月订阅制，提供AI数据分析、报告生成功能，用户按需付费解锁高级功能。",
+    "chinaOpportunity": "中国企业数据分析需求大，但中小企业缺乏专业人才。可开发本土化AI分析工具，结合微信生态推广。",
+    "website": null
+  },
   "slug": "mostly-metrics",
   "title": "AI驱动的SaaS工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI驱动的SaaS工具如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.192995+00:00",
+  "generatedAt": "2026-07-27T14:21:14.645931+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

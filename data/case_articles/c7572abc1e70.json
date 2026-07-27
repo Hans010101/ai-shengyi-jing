@@ -1,5 +1,15 @@
 {
   "projectId": "c7572abc1e70",
+  "project": {
+    "id": "c7572abc1e70",
+    "name": "Indie Hackers",
+    "nameZh": "独立开发者社区",
+    "summary": "独立开发者社区，通过会员订阅和广告赚钱",
+    "revenue": "$6K/mo",
+    "businessModel": "Freemium会员订阅+广告收入，免费内容引流，付费会员获得深度访谈、课程等增值服务。",
+    "chinaOpportunity": "中国独立开发者社区尚不成熟，可建立类似平台，结合本地化内容（如小程序开发、出海经验）和付费社群模式。",
+    "website": "https://www.indiehackers.com"
+  },
   "slug": "indie-hackers",
   "title": "独立开发者社区：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解独立开发者社区如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://www.indiehackers.com",
-  "generatedAt": "2026-07-27T14:11:35.190865+00:00",
+  "generatedAt": "2026-07-27T14:21:14.643714+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

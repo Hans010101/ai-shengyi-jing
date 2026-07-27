@@ -1,5 +1,15 @@
 {
   "projectId": "244ccf973d48",
+  "project": {
+    "id": "244ccf973d48",
+    "name": "AuditMiner",
+    "nameZh": "AI驱动的审计文档分析工具",
+    "summary": "AI驱动的审计文档分析工具，按文档收费。",
+    "revenue": "$85K/mo",
+    "businessModel": "SaaS模式，按文档或月度订阅收费，客户为会计师事务所和企业财务部门。",
+    "chinaOpportunity": "中国审计市场庞大，中小企业合规需求强，可开发本地化AI审计工具，对接金蝶、用友等ERP。",
+    "website": null
+  },
   "slug": "auditminer",
   "title": "AI驱动的审计文档分析工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI驱动的审计文档分析工具如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.193834+00:00",
+  "generatedAt": "2026-07-27T14:21:14.646840+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

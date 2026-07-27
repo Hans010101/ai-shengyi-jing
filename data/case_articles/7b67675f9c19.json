@@ -1,5 +1,15 @@
 {
   "projectId": "7b67675f9c19",
+  "project": {
+    "id": "7b67675f9c19",
+    "name": "How I Built And Scaled The First Airbnb For Motorcycles",
+    "nameZh": "摩托车版Airbnb",
+    "summary": "摩托车版Airbnb，通过平台抽佣盈利。",
+    "revenue": "$300K",
+    "businessModel": "平台撮合车主与租客，每笔订单收取15-25%佣金，同时提供保险、支付等增值服务。",
+    "chinaOpportunity": "中国摩托车文化兴起，但租赁市场空白；可结合共享经济+本地化保险、驾照验证，切入旅游城市和骑行社群。",
+    "website": "https://www.riders-share.com"
+  },
   "slug": "how-i-built-and-scaled-the-first-airbnb-for-motorcycles",
   "title": "摩托车版Airbnb：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解摩托车版Airbnb如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://www.riders-share.com",
-  "generatedAt": "2026-07-27T14:11:35.182424+00:00",
+  "generatedAt": "2026-07-27T14:21:14.635351+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

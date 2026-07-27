@@ -1,5 +1,15 @@
 {
   "projectId": "c0ebd995a3d8",
+  "project": {
+    "id": "c0ebd995a3d8",
+    "name": "I Built A Free Platform Helping Front-End Developers Ace Technical Interviews [800+ Users]",
+    "nameZh": "免费前端面试题库",
+    "summary": "免费前端面试题库，通过付费解锁高级功能盈利。",
+    "revenue": "$5",
+    "businessModel": "提供免费面试题，高级功能（如AI模拟面试）需付费订阅，月费$5。",
+    "chinaOpportunity": "中国开发者面试需求旺盛，可做前端/后端/算法题库，结合AI模拟面试，通过公众号/社群引流。",
+    "website": null
+  },
   "slug": "algochurn",
   "title": "免费前端面试题库：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解免费前端面试题库如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.201066+00:00",
+  "generatedAt": "2026-07-27T14:21:14.654708+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

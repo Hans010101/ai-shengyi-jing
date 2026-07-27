@@ -1,5 +1,15 @@
 {
   "projectId": "1534d5fd8cdb",
+  "project": {
+    "id": "1534d5fd8cdb",
+    "name": "Refiner Update: How We Repositioned Our Brand And 5x'd MRR [$16K/Month]",
+    "nameZh": "为SaaS公司提供客户反馈调查工具",
+    "summary": "为SaaS公司提供客户反馈调查工具，通过订阅制收费。",
+    "revenue": "$16K/Mo",
+    "businessModel": "B2B SaaS订阅制，按月或年收费，提供免费试用吸引客户，升级付费解锁高级功能。",
+    "chinaOpportunity": "中国SaaS市场增长迅速，但缺乏易用的反馈工具。可本地化集成微信、钉钉等渠道，提供AI分析。",
+    "website": "https://refiner.io"
+  },
   "slug": "refiner",
   "title": "为SaaS公司提供客户反馈调查工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为SaaS公司提供客户反馈调查工具如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://refiner.io",
-  "generatedAt": "2026-07-27T14:11:35.177035+00:00",
+  "generatedAt": "2026-07-27T14:21:14.629571+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

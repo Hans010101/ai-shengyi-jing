@@ -1,5 +1,15 @@
 {
   "projectId": "3fb0abedbe73",
+  "project": {
+    "id": "3fb0abedbe73",
+    "name": "Attest",
+    "nameZh": "Attest提供消费者调研SaaS",
+    "summary": "Attest提供消费者调研SaaS，帮企业快速获取洞察，按月收费。",
+    "revenue": "$850K/mo",
+    "businessModel": "B2B SaaS订阅制，按调研项目数或月费收费，提供问卷设计、数据收集、分析报告一站式服务。",
+    "chinaOpportunity": "中国中小企业市场调研需求旺盛，但缺乏易用工具。可本土化：集成微信生态、提供模板库、按次付费降低门槛。",
+    "website": "https://www.askattest.com"
+  },
   "slug": "attest",
   "title": "Attest提供消费者调研SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解Attest提供消费者调研SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://www.askattest.com",
-  "generatedAt": "2026-07-27T14:11:35.190904+00:00",
+  "generatedAt": "2026-07-27T14:21:14.643763+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

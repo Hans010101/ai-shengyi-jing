@@ -1,5 +1,15 @@
 {
   "projectId": "2a59a01b6bc6",
+  "project": {
+    "id": "2a59a01b6bc6",
+    "name": "FitSW Update: How We've Helped 30,000 Trainers Grow Their Business",
+    "nameZh": "为健身教练提供SaaS工具",
+    "summary": "为健身教练提供SaaS工具，帮助管理业务并变现。",
+    "revenue": "$50K",
+    "businessModel": "按月/年订阅收费，提供多层级套餐，核心功能包括客户管理、日程安排、支付处理等。",
+    "chinaOpportunity": "中国健身教练数量庞大，对数字化管理工具需求强烈，可结合微信生态开发小程序或App。",
+    "website": "https://www.fitsw.com"
+  },
   "slug": "we-have-bootstrapped-our-monthly-revenue-to-50k-over-last-year",
   "title": "为健身教练提供SaaS工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为健身教练提供SaaS工具如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://www.fitsw.com",
-  "generatedAt": "2026-07-27T14:11:35.180989+00:00",
+  "generatedAt": "2026-07-27T14:21:14.633950+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "5cc555cc670b",
+  "project": {
+    "id": "5cc555cc670b",
+    "name": "How We Bootstrapped A $720K/Year Sock And Apparel Company That Supports The Homeless Community",
+    "nameZh": "卖袜子服饰",
+    "summary": "卖袜子服饰，为流浪青年提供就业，年入72万美元。",
+    "revenue": "$720K/Year",
+    "businessModel": "DTC模式销售袜子及服饰，每件产品利润部分用于支持流浪青年过渡就业，形成公益+商业闭环。",
+    "chinaOpportunity": "中国流浪青年问题突出，可借鉴“买一捐一”模式，结合本地流浪动物或留守儿童议题，打造公益潮牌。",
+    "website": "https://hippyfeet.com"
+  },
   "slug": "how-we-bootstrapped-a-720k-year-sock-and-apparel-company-that-supports-the-homeless-community",
   "title": "卖袜子服饰：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解卖袜子服饰如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://hippyfeet.com",
-  "generatedAt": "2026-07-27T14:11:35.177444+00:00",
+  "generatedAt": "2026-07-27T14:21:14.630009+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

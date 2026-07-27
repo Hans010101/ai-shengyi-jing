@@ -1,5 +1,15 @@
 {
   "projectId": "e6123b72b79b",
+  "project": {
+    "id": "e6123b72b79b",
+    "name": "How We Grew Our Online Course Search Platform To 600K Monthly Impressions",
+    "nameZh": "在线课程搜索引擎",
+    "summary": "在线课程搜索引擎，通过联盟营销赚取佣金。",
+    "revenue": "$100",
+    "businessModel": "聚合多平台课程数据，通过SEO和内容营销吸引流量，用户点击课程链接跳转至合作平台完成购买，平台赚取佣金。",
+    "chinaOpportunity": "中国在线教育市场庞大，但课程分散，可聚合腾讯课堂、网易云课堂等平台课程，提供比价和评价服务，通过佣金或广告变现。",
+    "website": null
+  },
   "slug": "bestcourses",
   "title": "在线课程搜索引擎：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解在线课程搜索引擎如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.209158+00:00",
+  "generatedAt": "2026-07-27T14:21:14.662765+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

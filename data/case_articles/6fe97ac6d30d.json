@@ -1,5 +1,15 @@
 {
   "projectId": "6fe97ac6d30d",
+  "project": {
+    "id": "6fe97ac6d30d",
+    "name": "My Event Production Company Brings In $50K/Mo",
+    "nameZh": "活动制作公司",
+    "summary": "活动制作公司，提供舞台搭建和AV设备租赁，月入$50K。",
+    "revenue": "$50K/Mo",
+    "businessModel": "B2B项目制服务，按活动规模和定制程度收费，主要成本为设备和人力。",
+    "chinaOpportunity": "中国活动市场庞大，中小企业活动需求旺盛，可提供标准化+定制化服务，结合本地供应链降低成本。",
+    "website": null
+  },
   "slug": "ems-events",
   "title": "活动制作公司：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解活动制作公司如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.198956+00:00",
+  "generatedAt": "2026-07-27T14:21:14.652578+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

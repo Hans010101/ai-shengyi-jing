@@ -131,6 +131,7 @@ class BuildTests(unittest.TestCase):
         self.assertIn("case.html?id=", app_js)
         self.assertNotIn("📚 原始案例", app_js)
         self.assertIn("data/case_articles/", case_js)
+        self.assertIn("article?.project", case_js)
         self.assertNotIn("素材来源", case_js)
         self.assertNotIn("核验提示", case_js)
         self.assertNotIn("查看事实来源", case_js)

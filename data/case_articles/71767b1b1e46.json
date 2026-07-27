@@ -1,5 +1,15 @@
 {
   "projectId": "71767b1b1e46",
+  "project": {
+    "id": "71767b1b1e46",
+    "name": "On Building A Subscription Analytics Platform With 1000+ Subscribed Businesses",
+    "nameZh": "订阅数据分析SaaS",
+    "summary": "订阅数据分析SaaS，帮企业分析订阅业务，月收1万美元。",
+    "revenue": "$10,000",
+    "businessModel": "按订阅付费，月费根据数据量分级，提供免费试用转化付费用户。",
+    "chinaOpportunity": "中国SaaS和订阅模式兴起，企业需要本土化订阅分析工具，可集成微信支付、小程序等生态。",
+    "website": "https://chartmogul.com"
+  },
   "slug": "on-building-a-subscription-analytics-platform-with-over-a-thousand-subscribed-businesses",
   "title": "订阅数据分析SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解订阅数据分析SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://chartmogul.com",
-  "generatedAt": "2026-07-27T14:11:35.182987+00:00",
+  "generatedAt": "2026-07-27T14:21:14.635928+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "1dcf64e89893",
+  "project": {
+    "id": "1dcf64e89893",
+    "name": "On Disrupting The Industry And Building An Outsourcing Marketplace For Businesses",
+    "nameZh": "B2B服务外包平台",
+    "summary": "B2B服务外包平台，通过撮合交易抽佣盈利",
+    "revenue": "$60M/Year",
+    "businessModel": "平台从每笔交易中抽取佣金（约15-25%），同时提供增值服务如优先推荐、企业级SLA等，向供应商收取月费或年费。",
+    "chinaOpportunity": "中国中小企业外包需求旺盛，但缺乏可信平台。可聚焦垂直领域（如设计、翻译、法律），通过本地化服务标准、担保交易和AI匹配提升效率。",
+    "website": "https://www.mangtas.com"
+  },
   "slug": "on-starting-an-outsourcing-business",
   "title": "B2B服务外包平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解B2B服务外包平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://www.mangtas.com",
-  "generatedAt": "2026-07-27T14:11:35.176041+00:00",
+  "generatedAt": "2026-07-27T14:21:14.628540+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

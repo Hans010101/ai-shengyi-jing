@@ -1,5 +1,15 @@
 {
   "projectId": "6ff2cfc10f44",
+  "project": {
+    "id": "6ff2cfc10f44",
+    "name": "Shot Pattern",
+    "nameZh": "AI分析射击模式并生成报告的工具",
+    "summary": "AI分析射击模式并生成报告的工具，按月订阅赚钱。",
+    "revenue": "$500/mo",
+    "businessModel": "SaaS订阅模式，用户上传射击靶纸照片，AI识别弹孔并分析弹着点分布、精度等，生成报告。",
+    "chinaOpportunity": "中国射击运动普及度低但增长快，可针对军警、射击俱乐部、爱好者提供本土化AI分析工具。",
+    "website": ""
+  },
   "slug": "shot-pattern",
   "title": "AI分析射击模式并生成报告的工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI分析射击模式并生成报告的工具如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.190993+00:00",
+  "generatedAt": "2026-07-27T14:21:14.643853+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

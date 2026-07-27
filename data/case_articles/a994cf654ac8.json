@@ -1,5 +1,15 @@
 {
   "projectId": "a994cf654ac8",
+  "project": {
+    "id": "a994cf654ac8",
+    "name": "Sertifi",
+    "nameZh": "Sertifi是一个为酒店、活动场地提供电子签约",
+    "summary": "Sertifi是一个为酒店、活动场地提供电子签约和支付解决方案的SaaS平台。",
+    "revenue": "$850K/mo",
+    "businessModel": "B2B SaaS订阅+交易佣金，主要面向酒店、活动场地等企业客户。",
+    "chinaOpportunity": "中国酒店、会展业数字化程度低，可提供电子签约+支付一体化方案，结合微信/支付宝生态。",
+    "website": null
+  },
   "slug": "sertifi",
   "title": "Sertifi是一个为酒店、活动场地提供电子签约：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解Sertifi是一个为酒店、活动场地提供电子签约如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.276813+00:00",
+  "generatedAt": "2026-07-27T14:21:14.730413+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

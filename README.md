@@ -42,7 +42,7 @@
 └── .github/workflows/               # CI、采集与部署工作流
 ```
 
-`pipeline/`、旧版内容草稿、GitHub 工作流和本地缓存不会发布到生产站点。每个项目的正式案例稿保存为独立 JSON，用户打开详情页时才按 ID 加载，避免一次下载全部文章。`dist/` 由两个站共用且只构建一次，其中 `deployment.json` 标记当前 Git 提交。Cloudflare 另外编译 `functions/`；EdgeOne 发布包只在相同静态成品上增加 `edge-functions/api/advisor.js`，不运行第二套内容生成。
+`pipeline/`、旧版内容草稿、GitHub 工作流和本地缓存不会发布到生产站点。每个项目的正式案例稿及页面所需项目摘要保存为独立 JSON，用户打开详情页时只按 ID 加载当前文章，避免下载完整项目库和全部文章。`dist/` 由两个站共用且只构建一次，其中 `deployment.json` 标记当前 Git 提交。Cloudflare 另外编译 `functions/`；EdgeOne 发布包只在相同静态成品上增加 `edge-functions/api/advisor.js`，不运行第二套内容生成。
 
 ## 本地运行
 

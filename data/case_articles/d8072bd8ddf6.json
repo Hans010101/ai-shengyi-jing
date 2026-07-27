@@ -1,5 +1,15 @@
 {
   "projectId": "d8072bd8ddf6",
+  "project": {
+    "id": "d8072bd8ddf6",
+    "name": "How I Started An Influencer Marketing Platform [Based In Spain]",
+    "nameZh": "网红营销平台",
+    "summary": "网红营销平台，帮品牌找KOL，按订阅收费。",
+    "revenue": "$600M",
+    "businessModel": "B2B SaaS订阅制，按套餐收费，提供网红搜索、数据分析、联系管理等功能，客户为营销人员。",
+    "chinaOpportunity": "中国网红经济发达，但数据分散、虚假流量多，可做本土化数据中台，整合抖音、小红书、B站等平台，提供真实粉丝分析。",
+    "website": "https://www.heepsy.com"
+  },
   "slug": "how-i-started-an-influencer-marketing-platform",
   "title": "网红营销平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解网红营销平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://www.heepsy.com",
-  "generatedAt": "2026-07-27T14:11:35.182862+00:00",
+  "generatedAt": "2026-07-27T14:21:14.635763+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

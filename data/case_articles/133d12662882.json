@@ -152,5 +152,15 @@
   "website": "https://postaga.com",
   "generatedAt": "2026-07-26T13:00:00+00:00",
   "provider": "editorial-reviewed",
-  "status": "pilot"
+  "status": "pilot",
+  "project": {
+    "id": "133d12662882",
+    "name": "How We Built An Email Outreach Platform With Over 20K Users",
+    "nameZh": "冷邮件外展平台",
+    "summary": "冷邮件外展平台，通过SaaS订阅赚钱",
+    "revenue": "$99",
+    "businessModel": "SaaS订阅制，提供多层级套餐，按用户需求收费。",
+    "chinaOpportunity": "中国中小企业有大量获客需求，可做本土化邮件/微信外展工具，结合AI优化触达率。",
+    "website": "https://postaga.com"
+  }
 }

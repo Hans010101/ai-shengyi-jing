@@ -1,5 +1,15 @@
 {
   "projectId": "11089a1913c4",
+  "project": {
+    "id": "11089a1913c4",
+    "name": "How We Started A Comprehensive Student Information System [Serving 2K+ Schools]",
+    "nameZh": "为学校提供SIS系统及在线招生财务工具",
+    "summary": "为学校提供SIS系统及在线招生财务工具，通过SaaS订阅收费。",
+    "revenue": "$100,000",
+    "businessModel": "SaaS订阅制，按学校规模收费，提供学生信息系统、在线招生、财务管理及网站设计托管服务。",
+    "chinaOpportunity": "中国中小学校信息化需求强，可开发本土化SIS，整合学籍、排课、家校沟通、缴费等功能，通过教育局合作推广。",
+    "website": "https://www.gradelink.com"
+  },
   "slug": "our-comprehensive-student-information-system-yeilds-in-1-2m-year",
   "title": "为学校提供SIS系统及在线招生财务工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解为学校提供SIS系统及在线招生财务工具如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://www.gradelink.com",
-  "generatedAt": "2026-07-27T14:11:35.183046+00:00",
+  "generatedAt": "2026-07-27T14:21:14.635993+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

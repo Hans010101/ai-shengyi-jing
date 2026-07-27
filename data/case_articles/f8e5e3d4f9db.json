@@ -1,5 +1,15 @@
 {
   "projectId": "f8e5e3d4f9db",
+  "project": {
+    "id": "f8e5e3d4f9db",
+    "name": "Design Joy",
+    "nameZh": "一人设计机构",
+    "summary": "一人设计机构，为客户提供无限设计服务按月收费。",
+    "revenue": "$165K/mo",
+    "businessModel": "按月订阅，客户支付固定费用获取无限设计请求，按优先级排队交付。",
+    "chinaOpportunity": "中国中小企业设计需求旺盛，可推出类似订阅制设计服务，结合本地化模板和快速响应。",
+    "website": null
+  },
   "slug": "design-joy",
   "title": "一人设计机构：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解一人设计机构如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.277607+00:00",
+  "generatedAt": "2026-07-27T14:21:14.731356+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

@@ -1,5 +1,15 @@
 {
   "projectId": "f211c20991b8",
+  "project": {
+    "id": "f211c20991b8",
+    "name": "How I Built A $80K/Month Law Firm Without Ever Working At One",
+    "nameZh": "面向企业家的精品律所",
+    "summary": "面向企业家的精品律所，通过法律咨询和文档服务月入8万美元。",
+    "revenue": "$80K/Mo",
+    "businessModel": "按小时或固定收费提供公司法、合同、知识产权等法律服务，外包部分工作给合作律师，保持低固定成本。",
+    "chinaOpportunity": "中国中小企业法律需求旺盛但服务碎片化，可建立线上法律服务平台，标准化合同模板+专家咨询，降低门槛。",
+    "website": null
+  },
   "slug": "parr-business-law",
   "title": "面向企业家的精品律所：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解面向企业家的精品律所如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.218848+00:00",
+  "generatedAt": "2026-07-27T14:21:14.677049+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

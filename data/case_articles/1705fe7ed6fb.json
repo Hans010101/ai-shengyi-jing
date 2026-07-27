@@ -1,5 +1,15 @@
 {
   "projectId": "1705fe7ed6fb",
+  "project": {
+    "id": "1705fe7ed6fb",
+    "name": "Flipsnack",
+    "nameZh": "在线翻页电子书制作SaaS",
+    "summary": "在线翻页电子书制作SaaS，按月订阅收费",
+    "revenue": "$1.3M/mo",
+    "businessModel": "提供翻页电子书制作工具，免费版有品牌水印和页数限制，付费订阅解锁高级功能（去水印、分析、自定义域名等），月费$19起。",
+    "chinaOpportunity": "中国中小企业营销物料数字化需求大，可做微信小程序版翻页电子书，集成社交传播、表单收集、数据分析，按年收费。",
+    "website": null
+  },
   "slug": "flipsnack",
   "title": "在线翻页电子书制作SaaS：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解在线翻页电子书制作SaaS如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.279171+00:00",
+  "generatedAt": "2026-07-27T14:21:14.733124+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

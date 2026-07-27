@@ -1,5 +1,15 @@
 {
   "projectId": "01bfb68c3f20",
+  "project": {
+    "id": "01bfb68c3f20",
+    "name": "I Left Tech & Built My Own Car Detailing Business [My Hobby]",
+    "nameZh": "移动汽车美容服务",
+    "summary": "移动汽车美容服务，提供上门洗车和细节清洁赚取服务费。",
+    "revenue": "$5K",
+    "businessModel": "按次收费的移动汽车美容服务，通过预约系统调度，提供洗车、打蜡、内饰清洁等套餐，利用口碑和本地营销获取客户。",
+    "chinaOpportunity": "中国一二线城市有大量双职工家庭和网约车司机，对上门洗车需求旺盛。可开发小程序预约，与小区物业合作，或针对企业车队提供包月服务。",
+    "website": null
+  },
   "slug": "i-left-tech-built-my-own-car-detailing-business-my-hobby",
   "title": "移动汽车美容服务：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解移动汽车美容服务如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.262096+00:00",
+  "generatedAt": "2026-07-27T14:21:14.715445+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

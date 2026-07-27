@@ -1,5 +1,15 @@
 {
   "projectId": "a3c62f209ba5",
+  "project": {
+    "id": "a3c62f209ba5",
+    "name": "How We Built A $468K/Year Corporate Gift Platform That Services 200+ Countries",
+    "nameZh": "企业礼品SaaS平台",
+    "summary": "企业礼品SaaS平台，通过订阅和礼品销售盈利",
+    "revenue": "$468K/Year",
+    "businessModel": "B2B SaaS订阅+礼品交易抽成+增值服务（定制、物流等），面向企业客户按年收费。",
+    "chinaOpportunity": "中国企业礼品市场分散，可做B2B SaaS平台整合供应商，提供智能选品、批量定制、企业采购管理功能。",
+    "website": "https://www.giftsenda.com"
+  },
   "slug": "giftsenda",
   "title": "企业礼品SaaS平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解企业礼品SaaS平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "https://www.giftsenda.com",
-  "generatedAt": "2026-07-27T14:11:35.167166+00:00",
+  "generatedAt": "2026-07-27T14:21:14.619437+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

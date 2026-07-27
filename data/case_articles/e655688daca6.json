@@ -1,5 +1,15 @@
 {
   "projectId": "e655688daca6",
+  "project": {
+    "id": "e655688daca6",
+    "name": "My AI App Makes $100K/Month",
+    "nameZh": "AI冷邮件自动化工具",
+    "summary": "AI冷邮件自动化工具，通过订阅制收费赚钱。",
+    "revenue": "$100K/Mo",
+    "businessModel": "SaaS订阅模式，提供AI驱动的冷邮件自动化服务，按邮件量或功能分档收费。",
+    "chinaOpportunity": "中国中小企业邮件营销需求大，但缺乏易用AI工具。可本土化集成微信、钉钉等渠道，提供AI邮件撰写、发送、追踪服务。",
+    "website": null
+  },
   "slug": "leadflow-ai-cold-email-automation-for-sales-teams",
   "title": "AI冷邮件自动化工具：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解AI冷邮件自动化工具如何把一个具体问题组织成可持续经营的生意。",
@@ -170,7 +180,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.212761+00:00",
+  "generatedAt": "2026-07-27T14:21:14.669751+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {

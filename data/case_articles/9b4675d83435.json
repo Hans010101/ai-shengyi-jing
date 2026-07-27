@@ -1,5 +1,15 @@
 {
   "projectId": "9b4675d83435",
+  "project": {
+    "id": "9b4675d83435",
+    "name": "Our Payment Saas Grew 3X to $1.5M/Year",
+    "nameZh": "支付SaaS平台",
+    "summary": "支付SaaS平台，按交易抽成和月费赚钱。",
+    "revenue": "$1.5M/Year",
+    "businessModel": "为电商卖家提供支付集成服务，收取每笔交易0.5%-1%的手续费，外加月订阅费。",
+    "chinaOpportunity": "中国中小电商支付管理需求大，可整合微信、支付宝等，提供对账、多平台管理功能。",
+    "website": null
+  },
   "slug": "payment-for-stripe-6ec463b2-11cf-48d6-8fe5-e854d18f9e2d",
   "title": "支付SaaS平台：从真实需求到可重复收入的商业拆解",
   "dek": "围绕产品、收费、增长闭环与中国市场验证，拆解支付SaaS平台如何把一个具体问题组织成可持续经营的生意。",
@@ -125,7 +135,7 @@
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
   "website": "",
-  "generatedAt": "2026-07-27T14:11:35.198774+00:00",
+  "generatedAt": "2026-07-27T14:21:14.652362+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {
