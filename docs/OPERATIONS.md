@@ -33,6 +33,7 @@ assets/case.css
 data/projects.js
 data/projects_live.json
 data/case_articles.json
+data/case_articles/<project-id>.json
 deployment.json
 ```
 
@@ -56,6 +57,7 @@ deployment.json
 
 ```bash
 python3 scripts/validate_data.py data/projects_live.json
+python3 scripts/validate_case_catalog.py
 python3 -m unittest discover -s tests -v
 node --test tests/*.mjs
 python3 scripts/build_site.py --output dist
@@ -70,8 +72,8 @@ find dist-edgeone -type f | sort
 - 数据 JSON 合法且项目 ID 唯一；
 - 回归测试全部通过；
 - Pages Function 编译成功，且 `AI` binding 配置存在；
-- `dist/` 恰好包含预期的 10 个文件；
-- `dist-edgeone/` 包含相同的 10 个静态文件和唯一的 EdgeOne 转发函数；
+- `dist/` 包含每个项目一份独立案例文件及其余公开资源，文件总数为项目数加 10；
+- `dist-edgeone/` 包含完全相同的静态文件和唯一的 EdgeOne 转发函数；
 - 不包含 `.github/`、`.wrangler/`、`pipeline/` 或内容草稿。
 
 ## AI 商业顾问
@@ -86,12 +88,15 @@ EdgeOne 不配置第二套 AI。其 `/api/advisor` 读取同源访客请求，�
 
 ## 案例详情与编辑链路
 
-- 所有项目按钮都进入 `case.html?id=<项目ID>`；没有深度稿时展示站内简版资料；
+- 所有项目按钮都进入 `case.html?id=<项目ID>`，并按需加载 `data/case_articles/<项目ID>.json`；
+- 全量案例生成器保留人工精修稿，其余稿件仅依据现有结构化事实生成 6—8 节中文商业文章；
+- 图片使用来源页公开主图、正文图或项目官网公开素材的远程链接；视频仅保留可公开嵌入的 YouTube/Vimeo 或项目官网视频；
+- `scripts/validate_case_catalog.py` 强制检查项目覆盖、中文标题、章节数、正文长度、媒体类型与已删除的界面文案；
 - `POST /api/editorial` 是受 `EDITORIAL_API_TOKEN` 保护的后台接口，通过 `AI` binding 运行 Workers AI；
 - 每日采集先调用该接口生成微信公众号风格原创稿，失败或额度不足时再调用 DeepSeek；
 - 不采集需要登录或付费解锁的正文，不保存来源原文；
 - 图片优先使用项目官网公开链接，视频允许官网文件及 YouTube/Vimeo 公开嵌入链接；
-- 来源页托管插图只能由人工核对后标记为 `source-attributed` 和 `non-commercial-attributed`，自动采集器不得批量启用；站点商业化前必须取得授权或移除；
+- 来源页公开插图只保存远程 URL，并标记为 `source-attributed` 和 `non-commercial-attributed`；页面图片带原页面回链，站点商业化前必须取得授权或移除；
 - 每篇文章必须保留 Starter Story 事实来源链接和原创编辑声明。
 
 ## 每日采集
@@ -104,6 +109,7 @@ EdgeOne 不配置第二套 AI。其 `/api/advisor` 读取同源访客请求，�
 2. `pipeline/data/seen_ids.json` 中已处理的项目 ID。
 
 数据库是最终事实来源。写入时新项目优先，并按 ID 去重。流水线必须同时提交数据库、`case_articles.json` 和 `seen_ids.json`。新项目会在结构化内容生成后进入案例编辑链路。
+随后 `generate_case_catalog.py --missing-only` 只为缺失 ID 生成独立详情文件，避免每日重写历史案例。
 
 ## 故障处理
 

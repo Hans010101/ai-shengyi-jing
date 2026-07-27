@@ -33,11 +33,19 @@ jobs:
           cd pipeline
           python3 scraper.py
 
+      - name: Generate case pages for new projects
+        run: |
+          python3 scripts/generate_case_catalog.py \
+            --missing-only \
+            --fetch-media \
+            --workers 2
+          python3 scripts/validate_case_catalog.py
+
       - name: Commit new data
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data/ pipeline/data/seen_ids.json pipeline/drafts/
+          git add data/ pipeline/data/seen_ids.json pipeline/data/case_catalog_report.json pipeline/drafts/
           git diff --quiet && git diff --staged --quiet || git commit -m "📊 自动更新：$(date '+%Y-%m-%d') 项目数据"
           if git diff --quiet HEAD origin/main; then
             echo "No new project data to push"

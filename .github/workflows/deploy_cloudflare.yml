@@ -17,7 +17,9 @@ on:
       - "wrangler.jsonc"
       - "scripts/build_site.py"
       - "scripts/build_edgeone.py"
+      - "scripts/generate_case_catalog.py"
       - "scripts/validate_data.py"
+      - "scripts/validate_case_catalog.py"
       - ".github/workflows/deploy_cloudflare.yml"
   workflow_run:
     workflows:
@@ -61,6 +63,9 @@ jobs:
 
       - name: Validate project database
         run: python3 scripts/validate_data.py data/projects_live.json
+
+      - name: Validate complete case catalog
+        run: python3 scripts/validate_case_catalog.py
 
       - name: Test AI advisor function
         run: node --test tests/*.mjs

@@ -22,7 +22,8 @@
 ├── data/
 │   ├── projects.js                  # 手工精选案例
 │   ├── projects_live.json           # 全量项目数据库
-│   └── case_articles.json           # 已发布深度案例文章
+│   ├── case_articles.json           # 5 篇人工精修基准稿
+│   └── case_articles/               # 每个项目一个按需加载的案例详情
 ├── pipeline/
 │   ├── scraper.py                   # 每日增量采集
 │   ├── article_pipeline.py           # 案例采集与原创编辑
@@ -32,6 +33,8 @@
 ├── scripts/
 │   ├── build_site.py                # 生成最小公开发布目录
 │   ├── build_edgeone.py             # 为 EdgeOne 添加平台适配层
+│   ├── generate_case_catalog.py     # 批量生成并补充案例媒体
+│   ├── validate_case_catalog.py     # 全量案例覆盖与质量检查
 │   ├── validate_data.py             # 部署前数据校验
 │   └── repair_project_data.py       # 去重并同步已处理索引
 ├── tests/                            # 维护回归测试
@@ -39,7 +42,7 @@
 └── .github/workflows/               # CI、采集与部署工作流
 ```
 
-`pipeline/`、内容草稿、GitHub 工作流和本地缓存不会发布到生产站点。`dist/` 是两个站共用且只构建一次的 10 个静态文件，其中 `deployment.json` 标记当前 Git 提交。Cloudflare 另外编译 `functions/`；EdgeOne 发布包只在相同静态成品上增加 `edge-functions/api/advisor.js`，不运行第二套内容生成。
+`pipeline/`、旧版内容草稿、GitHub 工作流和本地缓存不会发布到生产站点。每个项目的正式案例稿保存为独立 JSON，用户打开详情页时才按 ID 加载，避免一次下载全部文章。`dist/` 由两个站共用且只构建一次，其中 `deployment.json` 标记当前 Git 提交。Cloudflare 另外编译 `functions/`；EdgeOne 发布包只在相同静态成品上增加 `edge-functions/api/advisor.js`，不运行第二套内容生成。
 
 ## 本地运行
 
@@ -47,6 +50,7 @@
 
 ```bash
 python3 scripts/validate_data.py data/projects_live.json
+python3 scripts/validate_case_catalog.py
 python3 -m unittest discover -s tests -v
 node --test tests/*.mjs
 python3 scripts/build_site.py --output dist
@@ -68,9 +72,22 @@ python3 -m http.server 8080 --directory dist
 
 ## 数据维护
 
-所有项目的“案例详情”均指向站内页面。已生成深度稿的项目显示微信公众号风格文章，其余项目显示现有结构化数据组成的站内简版，避免再把访客直接带离本站。
+所有项目的“案例详情”均指向站内页面。3,646 个项目均拥有独立的微信公众号风格案例文件，页面按项目 ID 加载，不再把访客直接带离本站。
 
-案例编辑链路先调用 Cloudflare Workers AI；额度耗尽、超时或服务不可用时，才使用 DeepSeek。采集器只读取无需登录即可看到的公开事实，不绕过付费墙；文章不逐句翻译或复刻来源结构。媒体优先引用项目官网公开图片、官网视频和 YouTube/Vimeo 公开嵌入链接，正文末尾保留事实来源链接。经人工核对的来源页插图仅可用于带回链的非商业案例展示；若站点商业化，必须先取得授权或移除这类素材。
+批量案例目录可按以下方式重建。默认只使用现有中文结构化事实；增加 `--fetch-media` 后，会以受控并发发现来源页公开图片和可嵌入视频。5 篇人工精修基准稿默认不会被覆盖。
+
+```bash
+python3 scripts/generate_case_catalog.py --fetch-media --workers 4
+python3 scripts/validate_case_catalog.py
+```
+
+每日采集只为新增项目补文件，避免重写全部历史案例：
+
+```bash
+python3 scripts/generate_case_catalog.py --missing-only --fetch-media --workers 2
+```
+
+案例编辑链路先调用 Cloudflare Workers AI；额度耗尽、超时或服务不可用时，才使用 DeepSeek。采集器只读取无需登录即可看到的公开事实，不绕过付费墙；文章不逐句翻译或复刻来源结构。媒体优先引用项目官网公开图片、来源页公开图片、官网视频和 YouTube/Vimeo 公开嵌入链接。第三方图片不下载到仓库，页面以带原页面回链的远程引用方式展示；若站点商业化，必须先取得授权或移除这类素材。
 
 每日增量采集：
 

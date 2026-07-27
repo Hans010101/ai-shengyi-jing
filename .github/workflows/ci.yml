@@ -29,6 +29,9 @@ jobs:
       - name: Validate project database
         run: python3 scripts/validate_data.py data/projects_live.json
 
+      - name: Validate complete case catalog
+        run: python3 scripts/validate_case_catalog.py
+
       - name: Run maintenance tests
         run: python3 -m unittest discover -s tests -v
 
@@ -47,8 +50,9 @@ jobs:
       - name: Verify publish boundary
         shell: bash
         run: |
-          test "$(find dist -type f | wc -l | tr -d ' ')" = "10"
-          test "$(find dist-edgeone -type f | wc -l | tr -d ' ')" = "11"
+          PROJECT_COUNT="$(python3 -c "import json; print(len(json.load(open('data/projects_live.json'))))")"
+          test "$(find dist -type f | wc -l | tr -d ' ')" = "$((PROJECT_COUNT + 10))"
+          test "$(find dist-edgeone -type f | wc -l | tr -d ' ')" = "$((PROJECT_COUNT + 11))"
           test ! -e dist/.github
           test ! -e dist/.wrangler
           test ! -e dist/pipeline
@@ -57,3 +61,4 @@ jobs:
           cmp dist/deployment.json dist-edgeone/deployment.json
           cmp dist/data/projects_live.json dist-edgeone/data/projects_live.json
           cmp dist/data/case_articles.json dist-edgeone/data/case_articles.json
+          diff -qr dist/data/case_articles dist-edgeone/data/case_articles

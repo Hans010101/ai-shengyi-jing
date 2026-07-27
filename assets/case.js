@@ -146,7 +146,11 @@ function renderArticle(project, article) {
   const meta = document.createElement('div');
   meta.className = 'case-meta';
   appendText(meta, 'span', `项目：${project.nameZh || project.name || '海外项目'}`);
-  appendText(meta, 'span', article.status === 'pilot' ? '深度编辑稿' : '简版资料');
+  appendText(
+    meta,
+    'span',
+    ['pilot', 'full'].includes(article.status) ? '深度案例' : '简版资料'
+  );
   if (article.generatedAt) {
     appendText(meta, 'span', `更新：${String(article.generatedAt).slice(0, 10)}`);
   }
@@ -241,18 +245,19 @@ async function initCasePage() {
   }
 
   try {
-    const [projectsResponse, articlesResponse] = await Promise.all([
-      fetch('data/projects_live.json'),
-      fetch('data/case_articles.json')
-    ]);
-    if (!projectsResponse.ok || !articlesResponse.ok) throw new Error('数据加载失败');
-    const [projects, articles] = await Promise.all([
-      projectsResponse.json(),
-      articlesResponse.json()
-    ]);
+    const projectsResponse = await fetch('data/projects_live.json');
+    if (!projectsResponse.ok) throw new Error('项目数据加载失败');
+    const projects = await projectsResponse.json();
     const project = projects.find(item => item.id === projectId);
     if (!project) throw new Error('未找到该项目');
-    const article = articles.find(item => item.projectId === projectId) || buildFallbackArticle(project);
+    let article = null;
+    const articleResponse = await fetch(
+      `data/case_articles/${encodeURIComponent(projectId)}.json`
+    );
+    if (articleResponse.ok) {
+      article = await articleResponse.json();
+    }
+    article ||= buildFallbackArticle(project);
     renderArticle(project, article);
     renderAside(project, article);
   } catch (error) {

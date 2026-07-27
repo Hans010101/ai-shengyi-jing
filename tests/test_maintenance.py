@@ -7,7 +7,8 @@ from pipeline.article_pipeline import normalize_article, normalize_media
 from pipeline.project_store import merge_projects, project_ids
 from pipeline.content_quality import derive_chinese_name, is_placeholder
 from scripts.build_edgeone import EDGEONE_PATHS, build as build_edgeone
-from scripts.build_site import PUBLIC_OUTPUT_PATHS, PUBLISH_PATHS, build
+from scripts.build_site import PUBLISH_PATHS, build, public_output_paths
+from scripts.validate_case_catalog import validate as validate_case_catalog
 from scripts.validate_data import validate
 
 
@@ -50,8 +51,8 @@ class BuildTests(unittest.TestCase):
                 (output / "deployment.json").read_text(encoding="utf-8")
             )
 
-        self.assertEqual(set(copied), set(PUBLIC_OUTPUT_PATHS))
-        self.assertEqual(actual, set(PUBLIC_OUTPUT_PATHS))
+        self.assertEqual(set(copied), set(public_output_paths()))
+        self.assertEqual(actual, set(public_output_paths()))
         self.assertNotIn(Path(".github/workflows/deploy_cloudflare.yml"), actual)
         self.assertNotIn(Path("pipeline/drafts/example.md"), actual)
         self.assertEqual(deployment["commit"], "a" * 40)
@@ -129,7 +130,7 @@ class BuildTests(unittest.TestCase):
 
         self.assertIn("case.html?id=", app_js)
         self.assertNotIn("📚 原始案例", app_js)
-        self.assertIn("data/case_articles.json", case_js)
+        self.assertIn("data/case_articles/", case_js)
         self.assertNotIn("素材来源", case_js)
         self.assertNotIn("核验提示", case_js)
         self.assertNotIn("查看事实来源", case_js)
@@ -137,6 +138,16 @@ class BuildTests(unittest.TestCase):
         self.assertIn("article-media-link", case_js)
         self.assertIn(Path("case.html"), PUBLISH_PATHS)
         self.assertIn(Path("data/case_articles.json"), PUBLISH_PATHS)
+        self.assertIn(Path("data/case_articles"), PUBLISH_PATHS)
+
+    def test_case_catalog_covers_every_project(self):
+        report, errors = validate_case_catalog(write_report=False)
+
+        self.assertEqual(errors, [])
+        self.assertEqual(report["coveragePercent"], 100.0)
+        self.assertEqual(report["articleCount"], report["projectCount"])
+        self.assertGreaterEqual(report["minimumFullCharacters"], 2_400)
+        self.assertGreaterEqual(report["withMedia"], report["projectCount"] - 4)
 
 
 class ValidationTests(unittest.TestCase):

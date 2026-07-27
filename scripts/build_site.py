@@ -22,9 +22,31 @@ PUBLISH_PATHS = (
     Path("data/projects.js"),
     Path("data/projects_live.json"),
     Path("data/case_articles.json"),
+    Path("data/case_articles"),
 )
 GENERATED_PATHS = (Path("deployment.json"),)
-PUBLIC_OUTPUT_PATHS = PUBLISH_PATHS + GENERATED_PATHS
+
+
+def public_output_paths() -> tuple[Path, ...]:
+    files: list[Path] = []
+    for relative_path in PUBLISH_PATHS:
+        source = ROOT / relative_path
+        if source.is_file():
+            files.append(relative_path)
+        elif source.is_dir():
+            files.extend(
+                path.relative_to(ROOT)
+                for path in sorted(source.rglob("*"))
+                if path.is_file()
+            )
+        else:
+            raise FileNotFoundError(
+                f"Required publish path is missing: {relative_path}"
+            )
+    return tuple(files) + GENERATED_PATHS
+
+
+PUBLIC_OUTPUT_PATHS = public_output_paths()
 
 
 def resolve_commit_sha(commit_sha: str | None = None) -> str:
@@ -54,13 +76,22 @@ def build(output_dir: Path, commit_sha: str | None = None) -> list[Path]:
     copied: list[Path] = []
     for relative_path in PUBLISH_PATHS:
         source = ROOT / relative_path
-        if not source.is_file():
-            raise FileNotFoundError(f"Required publish file is missing: {relative_path}")
-
         destination = output_dir / relative_path
-        destination.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copy2(source, destination)
-        copied.append(relative_path)
+        if source.is_file():
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(source, destination)
+            copied.append(relative_path)
+        elif source.is_dir():
+            shutil.copytree(source, destination)
+            copied.extend(
+                path.relative_to(ROOT)
+                for path in sorted(source.rglob("*"))
+                if path.is_file()
+            )
+        else:
+            raise FileNotFoundError(
+                f"Required publish path is missing: {relative_path}"
+            )
 
     resolved_commit = resolve_commit_sha(commit_sha)
     deployment_path = output_dir / GENERATED_PATHS[0]
@@ -96,8 +127,15 @@ def main() -> None:
 
     copied = build(args.output, args.commit_sha)
     print(f"Built {len(copied)} public files in {args.output.resolve()}")
-    for path in copied:
-        print(f"  - {path}")
+    if len(copied) <= 100:
+        for path in copied:
+            print(f"  - {path}")
+    else:
+        print(
+            "  - "
+            f"{len(copied) - len(GENERATED_PATHS)} source files "
+            f"+ {len(GENERATED_PATHS)} generated deployment marker"
+        )
 
 
 if __name__ == "__main__":
