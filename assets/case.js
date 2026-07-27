@@ -15,18 +15,6 @@ function safeExternalUrl(value) {
   }
 }
 
-function createSourceLink(source) {
-  const href = safeExternalUrl(source?.url);
-  if (!href) return null;
-  const link = document.createElement('a');
-  link.href = href;
-  link.target = '_blank';
-  link.rel = 'noopener noreferrer';
-  link.className = 'source-link';
-  link.textContent = `查看事实来源：${source.name || '原始页面'} ↗`;
-  return link;
-}
-
 function renderMedia(media, index) {
   if (!media) return null;
   const sourceUrl = safeExternalUrl(media.sourceUrl);
@@ -47,7 +35,18 @@ function renderMedia(media, index) {
     image.loading = 'lazy';
     image.referrerPolicy = 'no-referrer';
     image.addEventListener('error', () => figure.remove());
-    figure.appendChild(image);
+    if (media.origin === 'source-attributed' && sourceUrl) {
+      const sourceAnchor = document.createElement('a');
+      sourceAnchor.href = sourceUrl;
+      sourceAnchor.target = '_blank';
+      sourceAnchor.rel = 'noopener noreferrer';
+      sourceAnchor.className = 'article-media-link';
+      sourceAnchor.setAttribute('aria-label', '查看图片原始页面');
+      sourceAnchor.appendChild(image);
+      figure.appendChild(sourceAnchor);
+    } else {
+      figure.appendChild(image);
+    }
   } else if (media.type === 'video') {
     const host = new URL(mediaUrl).hostname;
     if (!['www.youtube.com', 'youtube.com', 'player.vimeo.com'].includes(host)) return null;
@@ -81,15 +80,6 @@ function renderMedia(media, index) {
 
   const caption = document.createElement('figcaption');
   caption.textContent = media.caption || '项目相关素材';
-  if (sourceUrl) {
-    caption.appendChild(document.createTextNode(' · '));
-    const link = document.createElement('a');
-    link.href = sourceUrl;
-    link.target = '_blank';
-    link.rel = 'noopener noreferrer';
-    link.textContent = '素材来源';
-    caption.appendChild(link);
-  }
   figure.appendChild(caption);
   return figure;
 }
@@ -203,19 +193,6 @@ function renderArticle(project, article) {
   appendText(conclusion, 'h2', '写在最后');
   appendText(conclusion, 'p', article.conclusion);
   root.appendChild(conclusion);
-
-  const risk = document.createElement('aside');
-  risk.className = 'risk-note';
-  appendText(risk, 'strong', '核验提示');
-  appendText(risk, 'p', article.riskNote);
-  root.appendChild(risk);
-
-  const sourceBox = document.createElement('div');
-  sourceBox.className = 'source-box';
-  appendText(sourceBox, 'p', article.source?.notice || '本文为本站原创整理与分析。');
-  const sourceLink = createSourceLink(article.source);
-  if (sourceLink) sourceBox.appendChild(sourceLink);
-  root.appendChild(sourceBox);
 
   document.title = `${article.title}｜AI生意经`;
 }

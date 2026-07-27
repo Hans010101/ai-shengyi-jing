@@ -98,7 +98,11 @@ class BuildTests(unittest.TestCase):
         self.assertIn("case.html?id=", app_js)
         self.assertNotIn("📚 原始案例", app_js)
         self.assertIn("data/case_articles.json", case_js)
-        self.assertIn("查看事实来源", case_js)
+        self.assertNotIn("素材来源", case_js)
+        self.assertNotIn("核验提示", case_js)
+        self.assertNotIn("查看事实来源", case_js)
+        self.assertNotIn("source-box", case_js)
+        self.assertIn("article-media-link", case_js)
         self.assertIn(Path("case.html"), PUBLISH_PATHS)
         self.assertIn(Path("data/case_articles.json"), PUBLISH_PATHS)
 
