@@ -1,0 +1,22 @@
+{
+  "validatedAt": "2026-07-27T14:16:07.175325+00:00",
+  "projectCount": 3646,
+  "articleCount": 3646,
+  "coveragePercent": 100.0,
+  "status": {
+    "full": 3641,
+    "pilot": 5
+  },
+  "minimumCharacters": 2057,
+  "minimumFullCharacters": 2411,
+  "withMedia": 3642,
+  "withoutMedia": 4,
+  "mediaItems": 6501,
+  "withoutMediaIds": [
+    "0da58f61b2d1",
+    "5f827d28e5a1",
+    "742f585f6184",
+    "a4de92f4d28e"
+  ],
+  "errors": []
+}
