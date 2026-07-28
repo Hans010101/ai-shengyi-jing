@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/eus6a41fwjzxlzuleu61dmyunfhd",
-      "caption": "开发WooCommerce插件公开案例主图",
-      "alt": "开发WooCommerce插件案例图片",
+      "caption": "开发WooCommerce插件：通过付费授权和订阅赚钱",
+      "alt": "开发WooCommerce插件：通过付费授权和订阅赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/i-make-15k-month-developing-wordpress-plugins-while-traveling-the-world",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/711/original/open-uri20210913-3-1ole922?1631546167",
-      "caption": "开发WooCommerce插件项目公开展示素材",
-      "alt": "i-make-15k-month-developing-wordpress-plugins-while-traveling-the-world",
+      "caption": "开发WooCommerce插件：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "开发WooCommerce插件：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-make-15k-month-developing-wordpress-plugins-while-traveling-the-world",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/712/original/open-uri20210913-3-ina92x?1631546168",
-      "caption": "开发WooCommerce插件项目公开展示素材",
-      "alt": "i-make-15k-month-developing-wordpress-plugins-while-traveling-the-world",
+      "caption": "开发WooCommerce插件：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "开发WooCommerce插件：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-make-15k-month-developing-wordpress-plugins-while-traveling-the-world",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/713/original/open-uri20210913-3-1yom3xm?1631546168",
-      "caption": "开发WooCommerce插件项目公开展示素材",
-      "alt": "i-make-15k-month-developing-wordpress-plugins-while-traveling-the-world",
+      "caption": "开发WooCommerce插件：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "开发WooCommerce插件：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-make-15k-month-developing-wordpress-plugins-while-traveling-the-world",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/714/original/open-uri20210913-3-16xgjyx?1631546169",
-      "caption": "开发WooCommerce插件项目公开展示素材",
-      "alt": "i-make-15k-month-developing-wordpress-plugins-while-traveling-the-world",
-      "sourceUrl": "https://www.starterstory.com/stories/i-make-15k-month-developing-wordpress-plugins-while-traveling-the-world",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "开发WooCommerce插件项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/i-make-15k-month-developing-wordpress-plugins-while-traveling-the-world",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2289,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

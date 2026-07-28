@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/awa1kibkktuydoplohuliz7uvvml",
-      "caption": "LiveWebinar 是一个视频会议平台公开案例主图",
-      "alt": "LiveWebinar 是一个视频会议平台案例图片",
+      "caption": "LiveWebinar 是一个视频会议平台：通过订阅制收费",
+      "alt": "LiveWebinar 是一个视频会议平台：通过订阅制收费",
       "sourceUrl": "https://www.starterstory.com/stories/two-college-friends-created-a-600k-year-video-conferencing-platform",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/950/original/open-uri20220316-3-1l6riro?1647461819",
-      "caption": "LiveWebinar 是一个视频会议平台项目公开展示素材",
-      "alt": "two-college-friends-created-a-600k-year-video-conferencing-platform",
+      "caption": "LiveWebinar 是一个视频会议平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "LiveWebinar 是一个视频会议平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/two-college-friends-created-a-600k-year-video-conferencing-platform",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/951/original/open-uri20220316-3-rxgf88?1647461820",
-      "caption": "LiveWebinar 是一个视频会议平台项目公开展示素材",
-      "alt": "two-college-friends-created-a-600k-year-video-conferencing-platform",
+      "caption": "LiveWebinar 是一个视频会议平台：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "LiveWebinar 是一个视频会议平台：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/two-college-friends-created-a-600k-year-video-conferencing-platform",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/952/original/open-uri20220316-3-hp16s6?1647461821",
-      "caption": "LiveWebinar 是一个视频会议平台项目公开展示素材",
-      "alt": "two-college-friends-created-a-600k-year-video-conferencing-platform",
+      "caption": "LiveWebinar 是一个视频会议平台：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "LiveWebinar 是一个视频会议平台：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/two-college-friends-created-a-600k-year-video-conferencing-platform",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "LiveWebinar 是一个视频会议平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/two-college-friends-created-a-600k-year-video-conferencing-platform",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2298,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

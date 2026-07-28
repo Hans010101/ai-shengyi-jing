@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/qkat951f1ljibicf9ome3tw2s80j",
-      "caption": "博客SEO服务公开案例主图",
-      "alt": "博客SEO服务案例图片",
+      "caption": "博客SEO服务：月入1000美元",
+      "alt": "博客SEO服务：月入1000美元",
       "sourceUrl": "https://www.starterstory.com/stories/content-spotlight",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/888/original/open-uri20230409-51-1fuyrf9?1681076121",
-      "caption": "博客SEO服务项目公开展示素材",
-      "alt": "content-spotlight",
+      "caption": "博客SEO服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "博客SEO服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/content-spotlight",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "博客SEO服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/content-spotlight",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "博客SEO服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/content-spotlight",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/7bmedu3e6plyvk6m3mo9m6yedxm3",
-      "caption": "博客SEO服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/content-spotlight",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2144,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

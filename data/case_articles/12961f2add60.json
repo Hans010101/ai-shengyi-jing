@@ -122,65 +122,33 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/5b29oazog5fx713rvl1ul46plu45",
-      "caption": "数字化名片服务公开案例主图",
-      "alt": "数字化名片服务案例图片",
+      "caption": "数字化名片服务：通过订阅和打印服务盈利",
+      "alt": "数字化名片服务：通过订阅和打印服务盈利",
       "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-digital-business-tool-app",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/103/original/open-uri20220203-3-1wtt4wv?1643898891",
-      "caption": "数字化名片服务项目公开展示素材",
-      "alt": "on-starting-a-digital-business-tool-app",
+      "caption": "数字化名片服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "数字化名片服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-digital-business-tool-app",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "数字化名片服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-digital-business-tool-app",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/3q9ah33gfr89x9gr887ehtjyb5n2",
-      "caption": "数字化名片服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-digital-business-tool-app",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/wsfthxo0bwxpga1da6eflodtgxay",
-      "caption": "数字化名片服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-digital-business-tool-app",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/077ckm3k9sbv1cm94zgejezemxtj",
-      "caption": "数字化名片服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-digital-business-tool-app",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/-i7H4vDNsdI",
-      "caption": "数字化名片服务项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=-i7H4vDNsdI",
+      "caption": "数字化名片服务资料中提及的视频：Ticker News Interview with the Founder of Contapp | Startup Business News",
+      "alt": "Ticker News Interview with the Founder of Contapp | Startup Business News",
       "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-digital-business-tool-app",
       "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/-i7H4vDNsdI/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -196,6 +164,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2273,
-    "mediaCount": 7
+    "mediaCount": 3
   }
 }

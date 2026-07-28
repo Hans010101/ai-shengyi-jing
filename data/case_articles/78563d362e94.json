@@ -122,56 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/vvrcpoyw1d2p177892cia7nz8hda",
-      "caption": "设计公司公开案例主图",
-      "alt": "设计公司案例图片",
+      "caption": "设计公司：通过出书、办工作坊和品牌咨询实现多元化营收",
+      "alt": "设计公司：通过出书、办工作坊和品牌咨询实现多元化营收",
       "sourceUrl": "https://www.starterstory.com/stories/draft-860ea395-47c6-437e-b035-20b47d7436bc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "设计公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/draft-860ea395-47c6-437e-b035-20b47d7436bc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/2q6a8yncmonnvypd2kmgep7jt2a0",
-      "caption": "设计公司项目公开展示素材",
-      "alt": "设计公司项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/draft-860ea395-47c6-437e-b035-20b47d7436bc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/efqoexbql7bnoo3c5qif6tpt16oe",
-      "caption": "设计公司项目公开展示素材",
-      "alt": "设计公司项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/draft-860ea395-47c6-437e-b035-20b47d7436bc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/xzy31xicwo7wx462hakgokhqqh0d",
-      "caption": "设计公司项目公开展示素材",
-      "alt": "设计公司项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/draft-860ea395-47c6-437e-b035-20b47d7436bc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/cgm1feku3vluyycnmyika9s1fqzc",
-      "caption": "设计公司项目公开展示素材",
-      "alt": "设计公司项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/draft-860ea395-47c6-437e-b035-20b47d7436bc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -186,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2283,
-    "mediaCount": 6
+    "mediaCount": 1
   }
 }

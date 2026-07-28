@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/p3c81bzyhqkqrdqtjy1nc9ta71v1",
-      "caption": "AI改写工具公开案例主图",
-      "alt": "AI改写工具案例图片",
+      "caption": "AI改写工具：通过免费增值模式吸引用户，付费解锁高级功能",
+      "alt": "AI改写工具：通过免费增值模式吸引用户，付费解锁高级功能",
       "sourceUrl": "https://www.starterstory.com/stories/rewording-tool",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/675/original/open-uri20240418-65-1vdqjlo?1713406269",
-      "caption": "AI改写工具项目公开展示素材",
-      "alt": "rewording-tool",
+      "caption": "AI改写工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI改写工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/rewording-tool",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/676/original/open-uri20240418-65-f1gwr2?1713406269",
-      "caption": "AI改写工具项目公开展示素材",
-      "alt": "rewording-tool",
+      "caption": "AI改写工具：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "AI改写工具：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/rewording-tool",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI改写工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/rewording-tool",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/glia3fse1raug40hg8lpkg3rg09w",
-      "caption": "AI改写工具项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/rewording-tool",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2193,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

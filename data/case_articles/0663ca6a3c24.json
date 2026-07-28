@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/h6rz6oe32xz3ibrmt4oknbezr61z",
-      "caption": "时尚健康作家公开案例主图",
-      "alt": "时尚健康作家案例图片",
+      "caption": "时尚健康作家：通过出书、演讲、咨询和品牌合作变现个人IP",
+      "alt": "时尚健康作家：通过出书、演讲、咨询和品牌合作变现个人IP",
       "sourceUrl": "https://www.starterstory.com/stories/healthy-fashion-campaign",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/044/original/open-uri20220320-3-ktgrtt?1647804503",
-      "caption": "时尚健康作家项目公开展示素材",
-      "alt": "healthy-fashion-campaign",
+      "caption": "时尚健康作家：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "时尚健康作家：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/healthy-fashion-campaign",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "时尚健康作家项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/healthy-fashion-campaign",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/w4stw5wtsgmq5u23otc0cudjxnjg",
-      "caption": "时尚健康作家项目公开展示素材",
-      "alt": "时尚健康作家项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/healthy-fashion-campaign",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/1qxt58976pp69dwug3p7ifphuhne",
-      "caption": "时尚健康作家项目公开展示素材",
-      "alt": "时尚健康作家项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/healthy-fashion-campaign",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2297,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

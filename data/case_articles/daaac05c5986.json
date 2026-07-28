@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/8ym111u8wzo1uc6c5plcjawliti4",
-      "caption": "海外创业项目公开案例主图",
-      "alt": "海外创业项目案例图片",
+      "caption": "海外创业项目：通过博客分享写作技巧和赚钱方法，靠广告和联盟营销盈利",
+      "alt": "海外创业项目：通过博客分享写作技巧和赚钱方法，靠广告和联盟营销盈利",
       "sourceUrl": "https://www.starterstory.com/stories/i-left-my-full-time-job-to-start-a-1-2m-year-blog-with-just-50",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/913/original/open-uri20211114-3-1qaq2vl?1636916105",
-      "caption": "海外创业项目项目公开展示素材",
-      "alt": "i-left-my-full-time-job-to-start-a-1-2m-year-blog-with-just-50",
+      "caption": "海外创业项目：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "海外创业项目：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-left-my-full-time-job-to-start-a-1-2m-year-blog-with-just-50",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/914/original/open-uri20211114-3-qjkfkg?1636916106",
-      "caption": "海外创业项目项目公开展示素材",
-      "alt": "i-left-my-full-time-job-to-start-a-1-2m-year-blog-with-just-50",
+      "caption": "海外创业项目：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "海外创业项目：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-left-my-full-time-job-to-start-a-1-2m-year-blog-with-just-50",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/915/original/open-uri20211114-3-wx830u?1636916106",
-      "caption": "海外创业项目项目公开展示素材",
-      "alt": "i-left-my-full-time-job-to-start-a-1-2m-year-blog-with-just-50",
+      "caption": "海外创业项目：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "海外创业项目：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-left-my-full-time-job-to-start-a-1-2m-year-blog-with-just-50",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/916/original/open-uri20211114-3-xaz2og?1636916107",
-      "caption": "海外创业项目项目公开展示素材",
-      "alt": "i-left-my-full-time-job-to-start-a-1-2m-year-blog-with-just-50",
-      "sourceUrl": "https://www.starterstory.com/stories/i-left-my-full-time-job-to-start-a-1-2m-year-blog-with-just-50",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2201,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ia83vdb0lu5m773zwdyciny92ag9",
-      "caption": "AI驱动的自动化工具公开案例主图",
-      "alt": "AI驱动的自动化工具案例图片",
+      "caption": "AI驱动的自动化工具：帮用户解决个人痛点，按月订阅收费",
+      "alt": "AI驱动的自动化工具：帮用户解决个人痛点，按月订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-solved-my-own-problem-and-turned-it-into-a-side-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/452/original/open-uri20190426-4-1if3zbb?1556250884",
-      "caption": "AI驱动的自动化工具项目公开展示素材",
-      "alt": "how-i-solved-my-own-problem-and-turned-it-into-a-side-business",
+      "caption": "AI驱动的自动化工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI驱动的自动化工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-solved-my-own-problem-and-turned-it-into-a-side-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/453/original/open-uri20190426-4-8hf4xx?1556250884",
-      "caption": "AI驱动的自动化工具项目公开展示素材",
-      "alt": "how-i-solved-my-own-problem-and-turned-it-into-a-side-business",
+      "caption": "AI驱动的自动化工具：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "AI驱动的自动化工具：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-solved-my-own-problem-and-turned-it-into-a-side-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/454/original/open-uri20190426-4-6ut2aq?1556250884",
-      "caption": "AI驱动的自动化工具项目公开展示素材",
-      "alt": "how-i-solved-my-own-problem-and-turned-it-into-a-side-business",
+      "caption": "AI驱动的自动化工具：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "AI驱动的自动化工具：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-solved-my-own-problem-and-turned-it-into-a-side-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/455/original/open-uri20190426-4-xczo3h?1556250888",
-      "caption": "AI驱动的自动化工具项目公开展示素材",
-      "alt": "how-i-solved-my-own-problem-and-turned-it-into-a-side-business",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-solved-my-own-problem-and-turned-it-into-a-side-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2223,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

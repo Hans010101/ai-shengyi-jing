@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/5y75anzu3vynbxvga6vgscvqym4h",
-      "caption": "社交媒体代运营公司公开案例主图",
-      "alt": "社交媒体代运营公司案例图片",
+      "caption": "社交媒体代运营公司：通过保证播放量吸引客户并收取服务费",
+      "alt": "社交媒体代运营公司：通过保证播放量吸引客户并收取服务费",
       "sourceUrl": "https://www.starterstory.com/stories/1-leading-consumer-and-personal-brand-social-media-firm",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "社交媒体代运营公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/1-leading-consumer-and-personal-brand-social-media-firm",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/y62cx3phnleqtnc42f5ynqw1t5j0",
-      "caption": "社交媒体代运营公司项目公开展示素材",
-      "alt": "article",
+      "caption": "社交媒体代运营公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "社交媒体代运营公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/1-leading-consumer-and-personal-brand-social-media-firm",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/zfdjtn0gj2mzyy14jb3ohpmf0gjv",
-      "caption": "社交媒体代运营公司项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/1-leading-consumer-and-personal-brand-social-media-firm",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/2gfdsj4ikyjujyx1n8i2ijhv41u1",
-      "caption": "社交媒体代运营公司项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/1-leading-consumer-and-personal-brand-social-media-firm",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2239,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

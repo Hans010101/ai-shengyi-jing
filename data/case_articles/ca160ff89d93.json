@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ajswhb2tgxh8voqh2xs0grh5qtxb",
-      "caption": "个人理财品牌公开案例主图",
-      "alt": "个人理财品牌案例图片",
+      "caption": "个人理财品牌：通过出售预算模板和课程帮助年轻女性还债并盈利",
+      "alt": "个人理财品牌：通过出售预算模板和课程帮助年轻女性还债并盈利",
       "sourceUrl": "https://www.starterstory.com/stories/pretty-arrow",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/626/original/open-uri20230524-63-wvs2e4?1684935607",
-      "caption": "个人理财品牌项目公开展示素材",
-      "alt": "pretty-arrow",
+      "caption": "个人理财品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "个人理财品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/pretty-arrow",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "个人理财品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/pretty-arrow",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c303bjznv93yxnh0xxz7t4vfedzf",
-      "caption": "个人理财品牌项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/pretty-arrow",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/6d9kidi444vd2x3xg9bjmpvtmr51",
-      "caption": "个人理财品牌项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/pretty-arrow",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2199,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

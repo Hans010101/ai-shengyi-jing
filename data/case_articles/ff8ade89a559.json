@@ -122,56 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/swsy5lbczsag2usv51lbhlshwgvs",
-      "caption": "社交媒体定时发帖工具公开案例主图",
-      "alt": "社交媒体定时发帖工具案例图片",
+      "caption": "社交媒体定时发帖工具：按月订阅收费",
+      "alt": "社交媒体定时发帖工具：按月订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-our-traffic-6x-in-the-last-3-months",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/544/original/open-uri20201025-4-q40h?1603655543",
-      "caption": "社交媒体定时发帖工具项目公开展示素材",
-      "alt": "how-we-ve-grown-our-traffic-6-times-in-the-last-3-months",
+      "caption": "社交媒体定时发帖工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "社交媒体定时发帖工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-our-traffic-6x-in-the-last-3-months",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "社交媒体定时发帖工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-our-traffic-6x-in-the-last-3-months",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "社交媒体定时发帖工具项目公开展示素材",
-      "alt": "社交媒体定时发帖工具项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-our-traffic-6x-in-the-last-3-months",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/dvithrg7zcn51mk81s7sw6btbew2",
-      "caption": "社交媒体定时发帖工具项目公开展示素材",
-      "alt": "社交媒体定时发帖工具项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-our-traffic-6x-in-the-last-3-months",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/hkfg10lkjnxo3v96pvq6etuqx9v6",
-      "caption": "社交媒体定时发帖工具项目公开展示素材",
-      "alt": "社交媒体定时发帖工具项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-our-traffic-6x-in-the-last-3-months",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2219,
-    "mediaCount": 6
+    "mediaCount": 2
   }
 }

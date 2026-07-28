@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ik4hix0nfmlwc5yt7p1j7kxetbhn",
-      "caption": "AI驱动的邮件营销SaaS公开案例主图",
-      "alt": "AI驱动的邮件营销SaaS案例图片",
+      "caption": "AI驱动的邮件营销SaaS：帮企业批量发邮件获客，按订阅收费",
+      "alt": "AI驱动的邮件营销SaaS：帮企业批量发邮件获客，按订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/instantly-ai-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI驱动的邮件营销SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/instantly-ai-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/1wtuuy56q0wn6tkuqhxrjmexdaty/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "AI驱动的邮件营销SaaS项目公开展示素材",
-      "alt": "AI驱动的邮件营销SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/instantly-ai-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/39927a31eb738681",
-      "caption": "AI驱动的邮件营销SaaS项目公开展示素材",
-      "alt": "article",
+      "caption": "AI驱动的邮件营销SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI驱动的邮件营销SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/instantly-ai-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/jnezchux03k8gz83r3uq52s0vkb3",
-      "caption": "AI驱动的邮件营销SaaS项目公开展示素材",
-      "alt": "article",
+      "caption": "AI驱动的邮件营销SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI驱动的邮件营销SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/instantly-ai-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/4cc9a2b834f17e80",
+      "caption": "AI驱动的邮件营销SaaS：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "AI驱动的邮件营销SaaS：产品上线与首次发布相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/instantly-ai-breakdown",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2229,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

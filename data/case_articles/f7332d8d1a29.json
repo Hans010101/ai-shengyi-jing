@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/c1dg050i49ofypjei18c95rr258y",
-      "caption": "为读书俱乐部提供讨论问题、书评等内容的网站公开案例主图",
-      "alt": "为读书俱乐部提供讨论问题、书评等内容的网站案例图片",
+      "caption": "为读书俱乐部提供讨论问题、书评等内容的网站：通过广告和会员赚钱",
+      "alt": "为读书俱乐部提供讨论问题、书评等内容的网站：通过广告和会员赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/book-club-chat",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/201/original/open-uri20221006-24-1nn5ezy?1665025739",
-      "caption": "为读书俱乐部提供讨论问题、书评等内容的网站项目公开展示素材",
-      "alt": "book-club-chat",
+      "caption": "为读书俱乐部提供讨论问题、书评等内容的网站：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为读书俱乐部提供讨论问题、书评等内容的网站：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/book-club-chat",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为读书俱乐部提供讨论问题、书评等内容的网站项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/book-club-chat",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/jvhrreihstwyb6gp52497zn3ee5m",
-      "caption": "为读书俱乐部提供讨论问题、书评等内容的网站项目公开展示素材",
-      "alt": "为读书俱乐部提供讨论问题、书评等内容的网站项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/book-club-chat",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/33phd3lfchpci9uio1sqqlyvic4f",
-      "caption": "为读书俱乐部提供讨论问题、书评等内容的网站项目公开展示素材",
-      "alt": "为读书俱乐部提供讨论问题、书评等内容的网站项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/book-club-chat",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2311,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

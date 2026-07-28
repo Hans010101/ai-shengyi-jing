@@ -121,57 +121,23 @@
   "media": [
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "面向青少年的AI创作夏令营项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/as-seen-on-shark-tank-creator-camp-summer-camp-2025",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/dea123538d933ba6",
-      "caption": "面向青少年的AI创作夏令营项目公开展示素材",
+      "caption": "面向青少年的AI创作夏令营：创始人、核心产品与品牌起点相关原始配图",
       "alt": "My image",
       "sourceUrl": "https://www.starterstory.com/stories/as-seen-on-shark-tank-creator-camp-summer-camp-2025",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/nfgxydwxr066vkgcjcpciqulaatm",
-      "caption": "面向青少年的AI创作夏令营项目公开展示素材",
-      "alt": "article",
+      "caption": "面向青少年的AI创作夏令营：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "面向青少年的AI创作夏令营：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/as-seen-on-shark-tank-creator-camp-summer-camp-2025",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/bni94nlcd5m3izmywkbf62wr7x52",
-      "caption": "面向青少年的AI创作夏令营项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/as-seen-on-shark-tank-creator-camp-summer-camp-2025",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/k00wc3agq4wc85397qrq11fnk8ws",
-      "caption": "面向青少年的AI创作夏令营项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/as-seen-on-shark-tank-creator-camp-summer-camp-2025",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/3kp7ejrks4g3pehzsbma93derkn8",
-      "caption": "面向青少年的AI创作夏令营项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/as-seen-on-shark-tank-creator-camp-summer-camp-2025",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2242,
-    "mediaCount": 6
+    "mediaCount": 2
   }
 }

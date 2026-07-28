@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/h3frbbfz3mb5d6vdftoad2o3uwkp",
-      "caption": "自我提升博客公开案例主图",
-      "alt": "自我提升博客案例图片",
+      "caption": "自我提升博客：通过内容营销和联盟营销实现月入2.5万美元",
+      "alt": "自我提升博客：通过内容营销和联盟营销实现月入2.5万美元",
       "sourceUrl": "https://www.starterstory.com/stories/ed-latimore-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "自我提升博客项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/ed-latimore-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/jhavx93b34lht6cvgtsfj46i4cz9/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "自我提升博客项目公开展示素材",
-      "alt": "自我提升博客项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/ed-latimore-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/99aafe6789f3d59f",
-      "caption": "自我提升博客项目公开展示素材",
+      "caption": "自我提升博客：创始人、核心产品与品牌起点相关原始配图",
       "alt": "Ed Latimore",
       "sourceUrl": "https://www.starterstory.com/stories/ed-latimore-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/e27623f7f12dd3e5",
-      "caption": "自我提升博客项目公开展示素材",
-      "alt": "Homepage",
+      "caption": "自我提升博客：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "自我提升博客：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/ed-latimore-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/gxqkvr395eg57t8t65yw62kpqkwd",
+      "caption": "自我提升博客：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "自我提升博客：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/ed-latimore-breakdown",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/ewBk6scJ_5s",
+      "watchUrl": "https://www.youtube.com/watch?v=ewBk6scJ_5s",
+      "caption": "自我提升博客资料中提及的视频：Ed Latimore: From The Projects To Prosperity",
+      "alt": "Ed Latimore: From The Projects To Prosperity",
+      "sourceUrl": "https://www.starterstory.com/stories/ed-latimore-breakdown",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/ewBk6scJ_5s/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

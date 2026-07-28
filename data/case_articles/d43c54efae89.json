@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/v9gt4kfj691ai8cbfomfseveipyv",
-      "caption": "时尚品牌咨询公开案例主图",
-      "alt": "时尚品牌咨询案例图片",
+      "caption": "时尚品牌咨询：为品牌提供全流程运营服务，年入90万美元",
+      "alt": "时尚品牌咨询：为品牌提供全流程运营服务，年入90万美元",
       "sourceUrl": "https://www.starterstory.com/stories/alice-james-global",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/865/original/open-uri20230925-60-5hnkg6?1695603800",
-      "caption": "时尚品牌咨询项目公开展示素材",
-      "alt": "alice-james-global",
+      "caption": "时尚品牌咨询：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "时尚品牌咨询：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/alice-james-global",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/866/original/open-uri20230925-60-14wnrkh?1695603802",
-      "caption": "时尚品牌咨询项目公开展示素材",
-      "alt": "alice-james-global",
+      "caption": "时尚品牌咨询：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "时尚品牌咨询：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/alice-james-global",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/867/original/open-uri20230925-60-1x6k9cw?1695603803",
-      "caption": "时尚品牌咨询项目公开展示素材",
-      "alt": "alice-james-global",
+      "caption": "时尚品牌咨询：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "时尚品牌咨询：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/alice-james-global",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/868/original/open-uri20230925-60-mpvu1g?1695603805",
-      "caption": "时尚品牌咨询项目公开展示素材",
-      "alt": "alice-james-global",
+      "type": "video",
+      "url": "https://player.vimeo.com/video/750965913",
+      "watchUrl": "https://vimeo.com/750965913",
+      "caption": "时尚品牌咨询资料中提及的视频：How AJG Helps Fashion Brands Succeed",
+      "alt": "How AJG Helps Fashion Brands Succeed",
       "sourceUrl": "https://www.starterstory.com/stories/alice-james-global",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.vimeocdn.com/video/1509866942-766c6d85d05773bf3466b83a83c13b593bb5de4813e9b152ece1beaa30ae3e8b-d_295x166?region=us",
+      "provider": "Vimeo",
+      "usage": ""
     }
   ],
   "source": {

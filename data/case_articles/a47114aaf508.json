@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/3w9hvmt8ommqcxd3zpkzvs36t4ca",
-      "caption": "社交媒体内容协作SaaS公开案例主图",
-      "alt": "社交媒体内容协作SaaS案例图片",
+      "caption": "社交媒体内容协作SaaS：按月订阅付费",
+      "alt": "社交媒体内容协作SaaS：按月订阅付费",
       "sourceUrl": "https://www.starterstory.com/stories/planable-1f02c04a-3ea7-4826-95ea-e91070bfacec",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/883/original/open-uri20220418-24-1rsbjlj?1650284470",
-      "caption": "社交媒体内容协作SaaS项目公开展示素材",
-      "alt": "planable-1f02c04a-3ea7-4826-95ea-e91070bfacec",
+      "caption": "社交媒体内容协作SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "社交媒体内容协作SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/planable-1f02c04a-3ea7-4826-95ea-e91070bfacec",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "社交媒体内容协作SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/planable-1f02c04a-3ea7-4826-95ea-e91070bfacec",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/s3thrrqbjem3qler43fak7dop7v2",
-      "caption": "社交媒体内容协作SaaS项目公开展示素材",
-      "alt": "社交媒体内容协作SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/planable-1f02c04a-3ea7-4826-95ea-e91070bfacec",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/9pgfik1nc0uj7b4qq9x37yofgvoj",
-      "caption": "社交媒体内容协作SaaS项目公开展示素材",
-      "alt": "社交媒体内容协作SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/planable-1f02c04a-3ea7-4826-95ea-e91070bfacec",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2224,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

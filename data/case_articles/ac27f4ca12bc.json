@@ -122,56 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/9ddlv6ea8h2mf5t6at56ya0j6740",
-      "caption": "AI标签工具公开案例主图",
-      "alt": "AI标签工具案例图片",
+      "caption": "AI标签工具：按订阅收费，帮用户批量生成和管理标签",
+      "alt": "AI标签工具：按订阅收费，帮用户批量生成和管理标签",
       "sourceUrl": "https://www.starterstory.com/businesses/taggun",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI标签工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/taggun",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/v0yb001d1alle28f6r10qn837zon",
-      "caption": "AI标签工具项目公开展示素材",
-      "alt": "TagGun logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/taggun",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/zsg5rzbt0ibcuwjb3ab2z2i69py3/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "AI标签工具项目公开展示素材",
-      "alt": "CK Lee",
-      "sourceUrl": "https://www.starterstory.com/businesses/taggun",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/lyy8bvbz8t67kohqkvatfhg9w25c/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "AI标签工具项目公开展示素材",
-      "alt": "Gravity Forms",
-      "sourceUrl": "https://www.starterstory.com/businesses/taggun",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/axdovxlz8rqahrtee3k8yscbj8z8/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "AI标签工具项目公开展示素材",
-      "alt": "Twilio",
-      "sourceUrl": "https://www.starterstory.com/businesses/taggun",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -186,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2199,
-    "mediaCount": 6
+    "mediaCount": 1
   }
 }

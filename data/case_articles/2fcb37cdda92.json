@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/k6fby7qv56mnj2eoi5h9namdnei3",
-      "caption": "16岁开始建站公开案例主图",
-      "alt": "16岁开始建站案例图片",
+      "caption": "16岁开始建站：现年营收300万美元的网页设计代理公司",
+      "alt": "16岁开始建站：现年营收300万美元的网页设计代理公司",
       "sourceUrl": "https://www.starterstory.com/stories/i-started-building-websites-at-16-and-now-i-own-a-3m-year-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/393/original/open-uri20220221-3-dbf13t?1645452240",
-      "caption": "16岁开始建站项目公开展示素材",
-      "alt": "i-started-building-websites-at-16-and-now-i-own-a-3m-year-agency",
+      "caption": "16岁开始建站：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "16岁开始建站：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-started-building-websites-at-16-and-now-i-own-a-3m-year-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/394/original/open-uri20220221-3-mt44vm?1645452241",
-      "caption": "16岁开始建站项目公开展示素材",
-      "alt": "i-started-building-websites-at-16-and-now-i-own-a-3m-year-agency",
+      "caption": "16岁开始建站：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "16岁开始建站：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-started-building-websites-at-16-and-now-i-own-a-3m-year-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "16岁开始建站项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/i-started-building-websites-at-16-and-now-i-own-a-3m-year-agency",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/2cbogqoby9ptlwjaob2h3cf95fq1",
-      "caption": "16岁开始建站项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/i-started-building-websites-at-16-and-now-i-own-a-3m-year-agency",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2225,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/xhynkfqibd5pnlrkuts3dgymazyu",
-      "caption": "PDF转换API服务公开案例主图",
-      "alt": "PDF转换API服务案例图片",
+      "caption": "PDF转换API服务：按使用量收费",
+      "alt": "PDF转换API服务：按使用量收费",
       "sourceUrl": "https://www.starterstory.com/stories/pdfshift",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/885/original/open-uri20240519-60-166z4za?1716133751",
-      "caption": "PDF转换API服务项目公开展示素材",
-      "alt": "pdfshift",
+      "caption": "PDF转换API服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "PDF转换API服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/pdfshift",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/886/original/open-uri20240519-60-1buzj?1716133752",
-      "caption": "PDF转换API服务项目公开展示素材",
-      "alt": "pdfshift",
+      "caption": "PDF转换API服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "PDF转换API服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/pdfshift",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/887/original/open-uri20240519-60-1pr17ah?1716133752",
-      "caption": "PDF转换API服务项目公开展示素材",
-      "alt": "pdfshift",
+      "caption": "PDF转换API服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "PDF转换API服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/pdfshift",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "PDF转换API服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/pdfshift",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2256,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

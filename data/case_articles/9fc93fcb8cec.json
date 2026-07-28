@@ -122,56 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/kwqxr6rayq8ob86u2zwwqvkoqiaj",
-      "caption": "16岁创业者卖手工定制领结公开案例主图",
-      "alt": "16岁创业者卖手工定制领结案例图片",
+      "caption": "16岁创业者卖手工定制领结：年入20.4万美元",
+      "alt": "16岁创业者卖手工定制领结：年入20.4万美元",
       "sourceUrl": "https://www.starterstory.com/stories/leglue-llc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/352/original/open-uri20220331-3-r71dze?1648744393",
-      "caption": "16岁创业者卖手工定制领结项目公开展示素材",
-      "alt": "leglue-llc",
+      "caption": "16岁创业者卖手工定制领结：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "16岁创业者卖手工定制领结：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/leglue-llc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/353/original/open-uri20220331-3-1l3v5a6?1648744393",
-      "caption": "16岁创业者卖手工定制领结项目公开展示素材",
-      "alt": "leglue-llc",
+      "caption": "16岁创业者卖手工定制领结：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "16岁创业者卖手工定制领结：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/leglue-llc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "16岁创业者卖手工定制领结项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/leglue-llc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "16岁创业者卖手工定制领结项目公开展示素材",
-      "alt": "16岁创业者卖手工定制领结项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/leglue-llc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/b6tkfwams9acacoldo403fv7scnw",
-      "caption": "16岁创业者卖手工定制领结项目公开展示素材",
-      "alt": "16岁创业者卖手工定制领结项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/leglue-llc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2266,
-    "mediaCount": 6
+    "mediaCount": 3
   }
 }

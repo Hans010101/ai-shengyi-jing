@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/jfixwikxzwrrhicjydya07rduahh",
-      "caption": "内容营销代理公开案例主图",
-      "alt": "内容营销代理案例图片",
+      "caption": "内容营销代理：为企业提供写作和编辑服务，年营收72万美元",
+      "alt": "内容营销代理：为企业提供写作和编辑服务，年营收72万美元",
       "sourceUrl": "https://www.starterstory.com/stories/we-took-our-agency-from-zero-to-720k-year-in-3-5-years",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/219/original/open-uri20211011-3-f8g1m1?1633982442",
-      "caption": "内容营销代理项目公开展示素材",
-      "alt": "we-took-our-agency-from-zero-to-720k-year-in-3-5-years",
+      "caption": "内容营销代理：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "内容营销代理：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/we-took-our-agency-from-zero-to-720k-year-in-3-5-years",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/220/original/open-uri20211011-3-jzhoto?1633982443",
-      "caption": "内容营销代理项目公开展示素材",
-      "alt": "we-took-our-agency-from-zero-to-720k-year-in-3-5-years",
+      "caption": "内容营销代理：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "内容营销代理：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-took-our-agency-from-zero-to-720k-year-in-3-5-years",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/221/original/open-uri20211011-3-1ldzhkm?1633982443",
-      "caption": "内容营销代理项目公开展示素材",
-      "alt": "we-took-our-agency-from-zero-to-720k-year-in-3-5-years",
+      "caption": "内容营销代理：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "内容营销代理：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-took-our-agency-from-zero-to-720k-year-in-3-5-years",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "内容营销代理项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/we-took-our-agency-from-zero-to-720k-year-in-3-5-years",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2189,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

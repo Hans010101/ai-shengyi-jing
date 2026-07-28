@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ztv1zo8y2degklcdtots232jza6s",
-      "caption": "在线学习平台SaaS公开案例主图",
-      "alt": "在线学习平台SaaS案例图片",
+      "caption": "在线学习平台SaaS：通过订阅制向企业收费",
+      "alt": "在线学习平台SaaS：通过订阅制向企业收费",
       "sourceUrl": "https://www.starterstory.com/stories/eduflow",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/416/original/open-uri20221011-12-102b67i?1665465362",
-      "caption": "在线学习平台SaaS项目公开展示素材",
-      "alt": "eduflow",
+      "caption": "在线学习平台SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "在线学习平台SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/eduflow",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/417/original/open-uri20221011-12-a43a3j?1665465363",
-      "caption": "在线学习平台SaaS项目公开展示素材",
-      "alt": "eduflow",
+      "caption": "在线学习平台SaaS：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "在线学习平台SaaS：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/eduflow",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/418/original/open-uri20221011-12-1hpahjl?1665465364",
-      "caption": "在线学习平台SaaS项目公开展示素材",
-      "alt": "eduflow",
+      "caption": "在线学习平台SaaS：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "在线学习平台SaaS：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/eduflow",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/419/original/open-uri20221011-12-1vzkcpn?1665465365",
-      "caption": "在线学习平台SaaS项目公开展示素材",
-      "alt": "eduflow",
-      "sourceUrl": "https://www.starterstory.com/stories/eduflow",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2168,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

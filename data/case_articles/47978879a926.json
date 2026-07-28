@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/bu024z7cwrwn7yfliw9cpu5cr2qd",
-      "caption": "数字营销代理公司公开案例主图",
-      "alt": "数字营销代理公司案例图片",
+      "caption": "数字营销代理公司：为初创和品牌提供增长服务",
+      "alt": "数字营销代理公司：为初创和品牌提供增长服务",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-started-a-3m-year-digital-marketing-agency-with-250-employees",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/953/original/open-uri20220127-3-v4mr5z?1643307313",
-      "caption": "数字营销代理公司项目公开展示素材",
-      "alt": "how-we-started-a-3m-year-digital-marketing-agency-with-250-employees",
+      "caption": "数字营销代理公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "数字营销代理公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-started-a-3m-year-digital-marketing-agency-with-250-employees",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/954/original/open-uri20220127-3-e0vosn?1643307314",
-      "caption": "数字营销代理公司项目公开展示素材",
-      "alt": "how-we-started-a-3m-year-digital-marketing-agency-with-250-employees",
+      "caption": "数字营销代理公司：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "数字营销代理公司：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-started-a-3m-year-digital-marketing-agency-with-250-employees",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/955/original/open-uri20220127-3-1istyps?1643307314",
-      "caption": "数字营销代理公司项目公开展示素材",
-      "alt": "how-we-started-a-3m-year-digital-marketing-agency-with-250-employees",
+      "caption": "数字营销代理公司：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "数字营销代理公司：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-started-a-3m-year-digital-marketing-agency-with-250-employees",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/956/original/open-uri20220127-3-liqfe?1643307314",
-      "caption": "数字营销代理公司项目公开展示素材",
-      "alt": "how-we-started-a-3m-year-digital-marketing-agency-with-250-employees",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-started-a-3m-year-digital-marketing-agency-with-250-employees",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2160,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

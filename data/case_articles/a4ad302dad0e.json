@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/8488kuyrmp3aky9az5u2x7hy264t",
-      "caption": "播客+电商培训公开案例主图",
-      "alt": "播客+电商培训案例图片",
+      "caption": "播客+电商培训：通过内容吸引听众，销售课程和服务变现",
+      "alt": "播客+电商培训：通过内容吸引听众，销售课程和服务变现",
       "sourceUrl": "https://www.starterstory.com/stories/how-my-podcast-reached-101k-listeners",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/005/641/original/open-uri20200405-4-1g7eu8b?1586089446",
-      "caption": "播客+电商培训项目公开展示素材",
-      "alt": "how-i-reached-101k-listeners-on-my-podcast-business",
+      "caption": "播客+电商培训：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "播客+电商培训：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-my-podcast-reached-101k-listeners",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/005/642/original/open-uri20200405-4-gnmuck?1586089446",
-      "caption": "播客+电商培训项目公开展示素材",
+      "caption": "播客+电商培训：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "alt": "February 2020 Sales on Amazon USA",
       "sourceUrl": "https://www.starterstory.com/stories/how-my-podcast-reached-101k-listeners",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "播客+电商培训项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-my-podcast-reached-101k-listeners",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "播客+电商培训项目公开展示素材",
-      "alt": "播客+电商培训项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-my-podcast-reached-101k-listeners",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2219,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

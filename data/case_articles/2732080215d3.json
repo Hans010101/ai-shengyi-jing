@@ -122,47 +122,44 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ssqpu8b8a9muirgnjzrldhzzhprt",
-      "caption": "推荐名人推荐书籍公开案例主图",
-      "alt": "推荐名人推荐书籍案例图片",
+      "caption": "推荐名人推荐书籍：通过联盟营销赚佣金",
+      "alt": "推荐名人推荐书籍：通过联盟营销赚佣金",
       "sourceUrl": "https://www.starterstory.com/stories/how-two-best-friends-started-a-side-hustle-recommending-books",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/133/original/open-uri20210814-3-15nsjk3?1628926533",
-      "caption": "推荐名人推荐书籍项目公开展示素材",
-      "alt": "how-two-best-friends-started-a-side-hustle-recommending-books",
+      "caption": "推荐名人推荐书籍：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "推荐名人推荐书籍：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-two-best-friends-started-a-side-hustle-recommending-books",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/134/original/open-uri20210814-3-kwjpei?1628926533",
-      "caption": "推荐名人推荐书籍项目公开展示素材",
-      "alt": "how-two-best-friends-started-a-side-hustle-recommending-books",
+      "caption": "推荐名人推荐书籍：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "推荐名人推荐书籍：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-two-best-friends-started-a-side-hustle-recommending-books",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "推荐名人推荐书籍项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/mBlJVazr4A0",
+      "watchUrl": "https://www.youtube.com/watch?v=mBlJVazr4A0",
+      "caption": "推荐名人推荐书籍资料中提及的视频：If it's not a hit, switch",
+      "alt": "If it's not a hit, switch",
       "sourceUrl": "https://www.starterstory.com/stories/how-two-best-friends-started-a-side-hustle-recommending-books",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n4z9l9arqzb9e11b2zpz4mqdigeu",
-      "caption": "推荐名人推荐书籍项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-two-best-friends-started-a-side-hustle-recommending-books",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/mBlJVazr4A0/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +174,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2187,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

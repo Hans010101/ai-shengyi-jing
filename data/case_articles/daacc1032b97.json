@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ebmwttmdp007g7wdd4i7f60yhtof",
-      "caption": "AI生成式工程设计软件公开案例主图",
-      "alt": "AI生成式工程设计软件案例图片",
+      "caption": "AI生成式工程设计软件：通过SaaS订阅收费",
+      "alt": "AI生成式工程设计软件：通过SaaS订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/transcend-software",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/531/original/open-uri20220908-25-15xiacz?1662623837",
-      "caption": "AI生成式工程设计软件项目公开展示素材",
-      "alt": "transcend-software",
+      "caption": "AI生成式工程设计软件：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI生成式工程设计软件：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/transcend-software",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/532/original/open-uri20220908-25-vx0l58?1662623838",
-      "caption": "AI生成式工程设计软件项目公开展示素材",
-      "alt": "transcend-software",
+      "caption": "AI生成式工程设计软件：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "AI生成式工程设计软件：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/transcend-software",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/533/original/open-uri20220908-25-1t4uxb6?1662623839",
-      "caption": "AI生成式工程设计软件项目公开展示素材",
-      "alt": "transcend-software",
+      "caption": "AI生成式工程设计软件：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "AI生成式工程设计软件：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/transcend-software",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/534/original/open-uri20220908-25-1xufgip?1662623839",
-      "caption": "AI生成式工程设计软件项目公开展示素材",
-      "alt": "transcend-software",
-      "sourceUrl": "https://www.starterstory.com/stories/transcend-software",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2151,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

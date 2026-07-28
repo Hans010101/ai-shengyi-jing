@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/gatynke1lrh34num5uqiqvijy19m",
-      "caption": "男性生活方式博客公开案例主图",
-      "alt": "男性生活方式博客案例图片",
+      "caption": "男性生活方式博客：通过广告和联盟营销年入400万美元",
+      "alt": "男性生活方式博客：通过广告和联盟营销年入400万美元",
       "sourceUrl": "https://www.starterstory.com/stories/man-of-many",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/056/original/open-uri20230716-48-1tjcp7s?1689487904",
-      "caption": "男性生活方式博客项目公开展示素材",
-      "alt": "man-of-many",
+      "caption": "男性生活方式博客：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "男性生活方式博客：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/man-of-many",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/057/original/open-uri20230716-48-1uii749?1689487905",
-      "caption": "男性生活方式博客项目公开展示素材",
-      "alt": "man-of-many",
+      "caption": "男性生活方式博客：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "男性生活方式博客：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/man-of-many",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/058/original/open-uri20230716-48-vbyi7e?1689487906",
-      "caption": "男性生活方式博客项目公开展示素材",
-      "alt": "man-of-many",
+      "caption": "男性生活方式博客：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "男性生活方式博客：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/man-of-many",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/059/original/open-uri20230716-48-d6yxdn?1689487906",
-      "caption": "男性生活方式博客项目公开展示素材",
-      "alt": "man-of-many",
-      "sourceUrl": "https://www.starterstory.com/stories/man-of-many",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2190,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

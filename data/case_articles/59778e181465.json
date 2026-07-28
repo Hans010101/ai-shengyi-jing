@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/43ghvxugnw01r4a8yhupzjjsbhqz",
-      "caption": "虚拟魔术师公开案例主图",
-      "alt": "虚拟魔术师案例图片",
+      "caption": "虚拟魔术师：通过在线表演和培训赚钱",
+      "alt": "虚拟魔术师：通过在线表演和培训赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/ah-real-magic-llc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/516/original/open-uri20220405-3-xtcsf3?1649172474",
-      "caption": "虚拟魔术师项目公开展示素材",
-      "alt": "ah-real-magic-llc",
+      "caption": "虚拟魔术师：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "虚拟魔术师：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/ah-real-magic-llc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/517/original/open-uri20220405-3-1iy3okf?1649172475",
-      "caption": "虚拟魔术师项目公开展示素材",
-      "alt": "ah-real-magic-llc",
+      "caption": "虚拟魔术师：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "虚拟魔术师：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/ah-real-magic-llc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "虚拟魔术师项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/ah-real-magic-llc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/p8k02rjws595ps7rhw5f8jh28dcq",
-      "caption": "虚拟魔术师项目公开展示素材",
-      "alt": "虚拟魔术师项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/ah-real-magic-llc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2116,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

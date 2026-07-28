@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/27hxlz7a0nkfsdbbaylkytzo29zd",
-      "caption": "为小企业提供数字营销代理服务公开案例主图",
-      "alt": "为小企业提供数字营销代理服务案例图片",
+      "caption": "为小企业提供数字营销代理服务：按月收取服务费",
+      "alt": "为小企业提供数字营销代理服务：按月收取服务费",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-customer-relationships-to-increase-sales",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/011/087/original/open-uri20210330-3-mptdvc?1617139013",
-      "caption": "为小企业提供数字营销代理服务项目公开展示素材",
-      "alt": "how-we-focused-on-customer-relationship-to-increase-sales",
+      "caption": "为小企业提供数字营销代理服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为小企业提供数字营销代理服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-customer-relationships-to-increase-sales",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/011/088/original/open-uri20210330-3-qlkfji?1617139014",
-      "caption": "为小企业提供数字营销代理服务项目公开展示素材",
-      "alt": "how-we-focused-on-customer-relationship-to-increase-sales",
+      "caption": "为小企业提供数字营销代理服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "为小企业提供数字营销代理服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-customer-relationships-to-increase-sales",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/011/089/original/open-uri20210330-3-xrlgut?1617139015",
-      "caption": "为小企业提供数字营销代理服务项目公开展示素材",
-      "alt": "how-we-focused-on-customer-relationship-to-increase-sales",
+      "caption": "为小企业提供数字营销代理服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "为小企业提供数字营销代理服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-customer-relationships-to-increase-sales",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为小企业提供数字营销代理服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-customer-relationships-to-increase-sales",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2154,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

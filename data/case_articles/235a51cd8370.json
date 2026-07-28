@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/s2m5vqwunc7ps3zmj9llehrr41z4",
-      "caption": "泳装品牌公开案例主图",
-      "alt": "泳装品牌案例图片",
+      "caption": "泳装品牌：通过社交媒体和运动员合作实现销售与曝光",
+      "alt": "泳装品牌：通过社交媒体和运动员合作实现销售与曝光",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-bikini-brand-and-landed-on-sports-illustrated",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/941/original/open-uri20190702-4-1ny9b6b?1562105194",
-      "caption": "泳装品牌项目公开展示素材",
-      "alt": "how-i-started-a-bikini-brand-and-landed-on-sports-illustrated",
+      "caption": "泳装品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "泳装品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-bikini-brand-and-landed-on-sports-illustrated",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/942/original/open-uri20190702-4-19e5na5?1562105195",
-      "caption": "泳装品牌项目公开展示素材",
-      "alt": "how-i-started-a-bikini-brand-and-landed-on-sports-illustrated",
+      "caption": "泳装品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "泳装品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-bikini-brand-and-landed-on-sports-illustrated",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/943/original/open-uri20190702-4-1gihfsx?1562105195",
-      "caption": "泳装品牌项目公开展示素材",
-      "alt": "how-i-started-a-bikini-brand-and-landed-on-sports-illustrated",
+      "caption": "泳装品牌：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "泳装品牌：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-bikini-brand-and-landed-on-sports-illustrated",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/944/original/open-uri20190702-4-o50o1a?1562105196",
-      "caption": "泳装品牌项目公开展示素材",
-      "alt": "how-i-started-a-bikini-brand-and-landed-on-sports-illustrated",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-bikini-brand-and-landed-on-sports-illustrated",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2191,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

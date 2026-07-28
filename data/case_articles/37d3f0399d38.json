@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/pyqk3nl67a4lbsdszf1fcg6v50mv",
-      "caption": "用AI根据业务描述生成可用域名公开案例主图",
-      "alt": "用AI根据业务描述生成可用域名案例图片",
+      "caption": "用AI根据业务描述生成可用域名：用户付费获取",
+      "alt": "用AI根据业务描述生成可用域名：用户付费获取",
       "sourceUrl": "https://www.starterstory.com/stories/smartynames-com",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/122/original/open-uri20230422-51-lw5bta?1682173485",
-      "caption": "用AI根据业务描述生成可用域名项目公开展示素材",
-      "alt": "smartynames-com",
+      "caption": "用AI根据业务描述生成可用域名：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "用AI根据业务描述生成可用域名：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/smartynames-com",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/123/original/open-uri20230422-51-xcwgr6?1682173486",
-      "caption": "用AI根据业务描述生成可用域名项目公开展示素材",
-      "alt": "smartynames-com",
+      "caption": "用AI根据业务描述生成可用域名：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "用AI根据业务描述生成可用域名：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/smartynames-com",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "用AI根据业务描述生成可用域名项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/smartynames-com",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ia68hk3d45yv993erewx6yiew8ys",
-      "caption": "用AI根据业务描述生成可用域名项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/smartynames-com",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2240,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

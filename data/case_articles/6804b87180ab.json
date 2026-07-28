@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/q7f8tbx60nerrw95ynl78frwquqq",
-      "caption": "QA测试外包服务公开案例主图",
-      "alt": "QA测试外包服务案例图片",
+      "caption": "QA测试外包服务：为初创公司提供按需质量保障",
+      "alt": "QA测试外包服务：为初创公司提供按需质量保障",
       "sourceUrl": "https://www.starterstory.com/stories/jdaqa",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/106/original/open-uri20220813-25-1h1rvtb?1660408767",
-      "caption": "QA测试外包服务项目公开展示素材",
-      "alt": "jdaqa",
+      "caption": "QA测试外包服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "QA测试外包服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/jdaqa",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "QA测试外包服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/jdaqa",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/foa2qs77mj155zu32khocmnm9prr",
-      "caption": "QA测试外包服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/jdaqa",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/0beu1rpaj2ah6dpbyhnnpi3t6nk7",
-      "caption": "QA测试外包服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/jdaqa",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2217,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

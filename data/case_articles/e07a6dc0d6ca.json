@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/8lnz8cbbfzyixun6zzeuyz5c1ie5",
-      "caption": "冲突地带时尚品牌公开案例主图",
-      "alt": "冲突地带时尚品牌案例图片",
+      "caption": "冲突地带时尚品牌：卖产品创造就业并盈利",
+      "alt": "冲突地带时尚品牌：卖产品创造就业并盈利",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-recruiting-influencers-and-grew-our-business-by-30",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/010/837/original/open-uri20210319-3-106ob7d?1616184022",
-      "caption": "冲突地带时尚品牌项目公开展示素材",
-      "alt": "how-we-focused-on-recruiting-influencers-and-grew-our-business-by-30",
+      "caption": "冲突地带时尚品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "冲突地带时尚品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-recruiting-influencers-and-grew-our-business-by-30",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "冲突地带时尚品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-recruiting-influencers-and-grew-our-business-by-30",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/w4stw5wtsgmq5u23otc0cudjxnjg",
-      "caption": "冲突地带时尚品牌项目公开展示素材",
-      "alt": "冲突地带时尚品牌项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-recruiting-influencers-and-grew-our-business-by-30",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/1qxt58976pp69dwug3p7ifphuhne",
-      "caption": "冲突地带时尚品牌项目公开展示素材",
-      "alt": "冲突地带时尚品牌项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-recruiting-influencers-and-grew-our-business-by-30",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2161,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

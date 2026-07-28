@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/e4ucxn318so0cgpit03d14xexjpx",
-      "caption": "隐私优先的网站分析工具公开案例主图",
-      "alt": "隐私优先的网站分析工具案例图片",
+      "caption": "隐私优先的网站分析工具：通过订阅制收费",
+      "alt": "隐私优先的网站分析工具：通过订阅制收费",
       "sourceUrl": "https://www.starterstory.com/stories/fathom-analytics-4887dc81-8d94-4296-a88b-5613b8c2aa80",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/336/original/open-uri20220330-3-gimv92?1648663487",
-      "caption": "隐私优先的网站分析工具项目公开展示素材",
-      "alt": "fathom-analytics-4887dc81-8d94-4296-a88b-5613b8c2aa80",
+      "caption": "隐私优先的网站分析工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "隐私优先的网站分析工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/fathom-analytics-4887dc81-8d94-4296-a88b-5613b8c2aa80",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/337/original/open-uri20220330-3-rf3wti?1648663488",
-      "caption": "隐私优先的网站分析工具项目公开展示素材",
-      "alt": "fathom-analytics-4887dc81-8d94-4296-a88b-5613b8c2aa80",
+      "caption": "隐私优先的网站分析工具：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "隐私优先的网站分析工具：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/fathom-analytics-4887dc81-8d94-4296-a88b-5613b8c2aa80",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "隐私优先的网站分析工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/fathom-analytics-4887dc81-8d94-4296-a88b-5613b8c2aa80",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/s3thrrqbjem3qler43fak7dop7v2",
-      "caption": "隐私优先的网站分析工具项目公开展示素材",
-      "alt": "隐私优先的网站分析工具项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/fathom-analytics-4887dc81-8d94-4296-a88b-5613b8c2aa80",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2328,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/yxhxcq6ijxq8cwf2kn6adutphry3",
-      "caption": "海外游戏/娱乐项目公开案例主图",
-      "alt": "海外游戏/娱乐项目案例图片",
+      "caption": "海外游戏/娱乐项目：通过销售公园主题商品筹集资金，用于国家公园保护项目",
+      "alt": "海外游戏/娱乐项目：通过销售公园主题商品筹集资金，用于国家公园保护项目",
       "sourceUrl": "https://www.starterstory.com/stories/parks-project",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/636/original/open-uri20230530-63-peaw0u?1685417466",
-      "caption": "海外游戏/娱乐项目项目公开展示素材",
-      "alt": "parks-project",
+      "caption": "海外游戏/娱乐项目：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "海外游戏/娱乐项目：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/parks-project",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/637/original/open-uri20230530-63-2n4wsy?1685417466",
-      "caption": "海外游戏/娱乐项目项目公开展示素材",
-      "alt": "parks-project",
+      "caption": "海外游戏/娱乐项目：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "海外游戏/娱乐项目：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/parks-project",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/638/original/open-uri20230530-63-1foi8yv?1685417467",
-      "caption": "海外游戏/娱乐项目项目公开展示素材",
-      "alt": "parks-project",
+      "caption": "海外游戏/娱乐项目：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "海外游戏/娱乐项目：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/parks-project",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/639/original/open-uri20230530-63-bh3r91?1685417468",
-      "caption": "海外游戏/娱乐项目项目公开展示素材",
-      "alt": "parks-project",
-      "sourceUrl": "https://www.starterstory.com/stories/parks-project",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2268,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

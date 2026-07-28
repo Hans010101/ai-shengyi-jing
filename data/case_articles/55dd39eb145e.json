@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/6udtmmu9eirrir9drqg4txbod56s",
-      "caption": "工程师公开案例主图",
-      "alt": "工程师案例图片",
+      "caption": "工程师：通过TypeScript在线课程赚取月收入400美元",
+      "alt": "工程师：通过TypeScript在线课程赚取月收入400美元",
       "sourceUrl": "https://www.starterstory.com/stories/typescript-course-5ada4fb1-7b2f-4a4e-a5b5-dd6261a3ea4e",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/952/original/open-uri20220928-12-1oc68kp?1664375260",
-      "caption": "工程师项目公开展示素材",
-      "alt": "typescript-course-5ada4fb1-7b2f-4a4e-a5b5-dd6261a3ea4e",
+      "caption": "工程师：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "工程师：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/typescript-course-5ada4fb1-7b2f-4a4e-a5b5-dd6261a3ea4e",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "工程师项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/typescript-course-5ada4fb1-7b2f-4a4e-a5b5-dd6261a3ea4e",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/6d9kidi444vd2x3xg9bjmpvtmr51",
-      "caption": "工程师项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/typescript-course-5ada4fb1-7b2f-4a4e-a5b5-dd6261a3ea4e",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/evazw4kfydstj4ex6y28n33hud85",
-      "caption": "工程师项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/typescript-course-5ada4fb1-7b2f-4a4e-a5b5-dd6261a3ea4e",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2134,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/0htz7ogj3rawdmdqh9ye7mlpqb98",
-      "caption": "电商销售代理公开案例主图",
-      "alt": "电商销售代理案例图片",
+      "caption": "电商销售代理：通过多渠道策略帮品牌提升曝光和营收赚取服务费",
+      "alt": "电商销售代理：通过多渠道策略帮品牌提升曝光和营收赚取服务费",
       "sourceUrl": "https://www.starterstory.com/stories/senditures",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/232/original/open-uri20240224-53-frz6ue?1708787925",
-      "caption": "电商销售代理项目公开展示素材",
-      "alt": "senditures",
+      "caption": "电商销售代理：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "电商销售代理：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/senditures",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/233/original/open-uri20240224-53-10i9xwb?1708787926",
-      "caption": "电商销售代理项目公开展示素材",
-      "alt": "senditures",
+      "caption": "电商销售代理：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "电商销售代理：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/senditures",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/234/original/open-uri20240224-53-1hzqyl9?1708787927",
-      "caption": "电商销售代理项目公开展示素材",
-      "alt": "senditures",
+      "caption": "电商销售代理：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "电商销售代理：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/senditures",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "电商销售代理项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/senditures",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2190,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

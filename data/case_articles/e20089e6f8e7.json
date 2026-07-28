@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/z2khipqpv2a4r7h533ad2bavr8zz",
-      "caption": "为政府部门提供Palantir数据系统咨询与实施公开案例主图",
-      "alt": "为政府部门提供Palantir数据系统咨询与实施案例图片",
+      "caption": "为政府部门提供Palantir数据系统咨询与实施：服务，按项目收费",
+      "alt": "为政府部门提供Palantir数据系统咨询与实施：服务，按项目收费",
       "sourceUrl": "https://www.starterstory.com/stories/pvm-it",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/228/original/open-uri20230502-51-1220nrx?1683027289",
-      "caption": "为政府部门提供Palantir数据系统咨询与实施项目公开展示素材",
-      "alt": "pvm-it",
+      "caption": "为政府部门提供Palantir数据系统咨询与实施：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为政府部门提供Palantir数据系统咨询与实施：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/pvm-it",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/229/original/open-uri20230502-51-gwb7jt?1683027290",
-      "caption": "为政府部门提供Palantir数据系统咨询与实施项目公开展示素材",
-      "alt": "pvm-it",
+      "caption": "为政府部门提供Palantir数据系统咨询与实施：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "为政府部门提供Palantir数据系统咨询与实施：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/pvm-it",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为政府部门提供Palantir数据系统咨询与实施项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/pvm-it",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/1s7m5fyj6w1je4ry8bo80hv3i7n3",
-      "caption": "为政府部门提供Palantir数据系统咨询与实施项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/pvm-it",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2276,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/uizitg1elbwkz43ygeyhtdvhol71",
-      "caption": "在线协作编程面试平台公开案例主图",
-      "alt": "在线协作编程面试平台案例图片",
+      "caption": "在线协作编程面试平台：按席位收费",
+      "alt": "在线协作编程面试平台：按席位收费",
       "sourceUrl": "https://www.starterstory.com/businesses/coderpad-founder-exited-2020",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "在线协作编程面试平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/coderpad-founder-exited-2020",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ef2d7reud5iok4gakpbn9tv4cryx",
-      "caption": "在线协作编程面试平台项目公开展示素材",
-      "alt": "CoderPad logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/coderpad-founder-exited-2020",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/xwa9m9nlzetnuxszre1wycjts79m/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "在线协作编程面试平台项目公开展示素材",
-      "alt": "Vincent Woo",
-      "sourceUrl": "https://www.starterstory.com/businesses/coderpad-founder-exited-2020",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/wsmo4vz0abkxpm9hpa00isgtm5hl/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "在线协作编程面试平台项目公开展示素材",
-      "alt": "Docker",
-      "sourceUrl": "https://www.starterstory.com/businesses/coderpad-founder-exited-2020",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2317,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

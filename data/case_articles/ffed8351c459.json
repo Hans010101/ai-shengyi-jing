@@ -121,57 +121,23 @@
   "media": [
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI简历优化工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/resumeup-ai",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/221b11d7db3af512",
-      "caption": "AI简历优化工具项目公开展示素材",
+      "caption": "AI简历优化工具：创始人、核心产品与品牌起点相关原始配图",
       "alt": "My image",
       "sourceUrl": "https://www.starterstory.com/stories/resumeup-ai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/f9trryqeed4if1kshu1c2frdeh0n",
-      "caption": "AI简历优化工具项目公开展示素材",
-      "alt": "article",
+      "caption": "AI简历优化工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI简历优化工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/resumeup-ai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/no2tm7wxytltb2gbe1g1lidjhd8f",
-      "caption": "AI简历优化工具项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/resumeup-ai",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/tbqdqc7fdxvvvkutddo8eqr419ly",
-      "caption": "AI简历优化工具项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/resumeup-ai",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/hz2gqbczfpx0rrhylgnhi6r8smu7",
-      "caption": "AI简历优化工具项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/resumeup-ai",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2187,
-    "mediaCount": 6
+    "mediaCount": 2
   }
 }

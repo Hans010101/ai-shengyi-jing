@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/eodupxeh750cistab0jvi20iyxka",
-      "caption": "数字原生烧烤品牌公开案例主图",
-      "alt": "数字原生烧烤品牌案例图片",
+      "caption": "数字原生烧烤品牌：通过众筹预售和直接销售盈利",
+      "alt": "数字原生烧烤品牌：通过众筹预售和直接销售盈利",
       "sourceUrl": "https://www.starterstory.com/stories/urban-smokehouse",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/475/original/open-uri20221208-24-uj093s?1670470942",
-      "caption": "数字原生烧烤品牌项目公开展示素材",
-      "alt": "urban-smokehouse",
+      "caption": "数字原生烧烤品牌：原始案例中的产品与运营配图（第1张）",
+      "alt": "数字原生烧烤品牌：原始案例中的产品与运营配图（第1张）",
       "sourceUrl": "https://www.starterstory.com/stories/urban-smokehouse",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/476/original/open-uri20221208-24-yv44jd?1670470943",
-      "caption": "数字原生烧烤品牌项目公开展示素材",
-      "alt": "urban-smokehouse",
+      "caption": "数字原生烧烤品牌：原始案例中的产品与运营配图（第2张）",
+      "alt": "数字原生烧烤品牌：原始案例中的产品与运营配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/urban-smokehouse",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/477/original/open-uri20221208-24-1q8r273?1670470944",
-      "caption": "数字原生烧烤品牌项目公开展示素材",
-      "alt": "urban-smokehouse",
+      "caption": "数字原生烧烤品牌：原始案例中的产品与运营配图（第3张）",
+      "alt": "数字原生烧烤品牌：原始案例中的产品与运营配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/urban-smokehouse",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "数字原生烧烤品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/urban-smokehouse",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2168,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

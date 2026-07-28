@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/yxxez5hdm3os9sphe5z5v5t4x3w6",
-      "caption": "海外开发者工具项目公开案例主图",
-      "alt": "海外开发者工具项目案例图片",
+      "caption": "海外开发者工具项目：通过举办游戏开发比赛，吸引开发者并变现为赞助和增值服务",
+      "alt": "海外开发者工具项目：通过举办游戏开发比赛，吸引开发者并变现为赞助和增值服务",
       "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-coding-competition-for-game-developers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/011/904/original/open-uri20210506-3-140zxl9?1620331575",
-      "caption": "海外开发者工具项目项目公开展示素材",
-      "alt": "on-starting-a-coding-competition-for-game-developers",
+      "caption": "海外开发者工具项目：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "海外开发者工具项目：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-coding-competition-for-game-developers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "海外开发者工具项目项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-coding-competition-for-game-developers",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/glia3fse1raug40hg8lpkg3rg09w",
-      "caption": "海外开发者工具项目项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-coding-competition-for-game-developers",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "海外开发者工具项目项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-coding-competition-for-game-developers",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2176,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

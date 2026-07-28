@@ -121,57 +121,13 @@
   "media": [
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI笔记应用项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/yung-sidekick-hipaa-compliant-ai-therapy-notes",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/xm5l24n8vswl1v83w4edhucoj0l1",
-      "caption": "AI笔记应用项目公开展示素材",
-      "alt": "article",
+      "caption": "AI笔记应用：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI笔记应用：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/yung-sidekick-hipaa-compliant-ai-therapy-notes",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/4sk9ffkcsu64x4x5d1fox84d8ek8",
-      "caption": "AI笔记应用项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/yung-sidekick-hipaa-compliant-ai-therapy-notes",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/4bm9bfclh3exjbpirjp4a51luqbw",
-      "caption": "AI笔记应用项目公开展示素材",
-      "alt": "AI笔记应用项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/yung-sidekick-hipaa-compliant-ai-therapy-notes",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ctn7tmluf2t1w16u17vrnc35il5g",
-      "caption": "AI笔记应用项目公开展示素材",
-      "alt": "AI笔记应用项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/yung-sidekick-hipaa-compliant-ai-therapy-notes",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/667qvrgbdhv1h5le9cwv9f0xtb5n",
-      "caption": "AI笔记应用项目公开展示素材",
-      "alt": "AI笔记应用项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/yung-sidekick-hipaa-compliant-ai-therapy-notes",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2196,
-    "mediaCount": 6
+    "mediaCount": 1
   }
 }

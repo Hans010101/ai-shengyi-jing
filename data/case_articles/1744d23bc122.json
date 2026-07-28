@@ -122,75 +122,53 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/sy80x0q7p0f897x4stizhz9izevs",
-      "caption": "冥想在线课程业务公开案例主图",
-      "alt": "冥想在线课程业务案例图片",
+      "caption": "冥想在线课程业务：通过销售课程和会员订阅赚钱",
+      "alt": "冥想在线课程业务：通过销售课程和会员订阅赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/i-left-my-old-career-started-a-meditation-online-courses-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/867/original/open-uri20220121-3-xqfggq?1642783823",
-      "caption": "冥想在线课程业务项目公开展示素材",
-      "alt": "i-left-my-old-career-started-a-meditation-online-courses-business",
+      "caption": "冥想在线课程业务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "冥想在线课程业务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-left-my-old-career-started-a-meditation-online-courses-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/868/original/open-uri20220121-3-1r2ynlr?1642783823",
-      "caption": "冥想在线课程业务项目公开展示素材",
-      "alt": "i-left-my-old-career-started-a-meditation-online-courses-business",
+      "caption": "冥想在线课程业务：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "冥想在线课程业务：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-left-my-old-career-started-a-meditation-online-courses-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/869/original/open-uri20220121-3-afqymu?1642783824",
-      "caption": "冥想在线课程业务项目公开展示素材",
-      "alt": "i-left-my-old-career-started-a-meditation-online-courses-business",
+      "caption": "冥想在线课程业务：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "冥想在线课程业务：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-left-my-old-career-started-a-meditation-online-courses-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/870/original/open-uri20220121-3-1126mah?1642783825",
-      "caption": "冥想在线课程业务项目公开展示素材",
-      "alt": "i-left-my-old-career-started-a-meditation-online-courses-business",
-      "sourceUrl": "https://www.starterstory.com/stories/i-left-my-old-career-started-a-meditation-online-courses-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "冥想在线课程业务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/i-left-my-old-career-started-a-meditation-online-courses-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/BqC3E3odGWc",
-      "caption": "冥想在线课程业务项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=BqC3E3odGWc",
+      "caption": "冥想在线课程业务资料中提及的视频：Vipassana Meditation – A Guided Meditation for Mindfulness You Can Do Anywhere",
+      "alt": "Vipassana Meditation – A Guided Meditation for Mindfulness You Can Do Anywhere",
       "sourceUrl": "https://www.starterstory.com/stories/i-left-my-old-career-started-a-meditation-online-courses-business",
       "origin": "embeddable-video",
-      "poster": "",
-      "usage": ""
-    },
-    {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/2cBG_Pxex2g",
-      "caption": "冥想在线课程业务项目相关公开视频",
-      "alt": "",
-      "sourceUrl": "https://www.starterstory.com/stories/i-left-my-old-career-started-a-meditation-online-courses-business",
-      "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/BqC3E3odGWc/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -206,6 +184,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2139,
-    "mediaCount": 8
+    "mediaCount": 5
   }
 }

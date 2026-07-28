@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/bmjyp5ahy4cauqxx99xndfjtx0y7",
-      "caption": "伪装成书的桌游公司公开案例主图",
-      "alt": "伪装成书的桌游公司案例图片",
+      "caption": "伪装成书的桌游公司：通过Kickstarter众筹销售历史主题桌游",
+      "alt": "伪装成书的桌游公司：通过Kickstarter众筹销售历史主题桌游",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-launched-a-new-game-on-kickstarter",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/006/875/original/open-uri20200625-4-1m1v9ki?1593097609",
-      "caption": "伪装成书的桌游公司项目公开展示素材",
-      "alt": "how-we-launched-a-new-game-on-kickstarter",
+      "caption": "伪装成书的桌游公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "伪装成书的桌游公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-launched-a-new-game-on-kickstarter",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/006/876/original/open-uri20200625-4-13gnflm?1593097609",
-      "caption": "伪装成书的桌游公司项目公开展示素材",
-      "alt": "how-we-launched-a-new-game-on-kickstarter",
+      "caption": "伪装成书的桌游公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "伪装成书的桌游公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-launched-a-new-game-on-kickstarter",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/006/877/original/open-uri20200625-4-8f97t3?1593097609",
-      "caption": "伪装成书的桌游公司项目公开展示素材",
-      "alt": "how-we-launched-a-new-game-on-kickstarter",
+      "caption": "伪装成书的桌游公司：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "伪装成书的桌游公司：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-launched-a-new-game-on-kickstarter",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/006/878/original/open-uri20200625-4-1kzs6po?1593097610",
-      "caption": "伪装成书的桌游公司项目公开展示素材",
-      "alt": "how-we-launched-a-new-game-on-kickstarter",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-launched-a-new-game-on-kickstarter",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2241,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

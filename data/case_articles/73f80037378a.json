@@ -122,47 +122,34 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/1i17wdffu38om6wozod0znjevd1s",
-      "caption": "男士内裤DTC品牌公开案例主图",
-      "alt": "男士内裤DTC品牌案例图片",
+      "caption": "男士内裤DTC品牌：通过订阅和一次性购买盈利",
+      "alt": "男士内裤DTC品牌：通过订阅和一次性购买盈利",
       "sourceUrl": "https://www.starterstory.com/stories/sheath-llc-d564f29c-f20a-4675-b32d-63d051433486",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/743/original/open-uri20230608-63-1ndpw25?1686208163",
-      "caption": "男士内裤DTC品牌项目公开展示素材",
-      "alt": "sheath-llc-d564f29c-f20a-4675-b32d-63d051433486",
+      "caption": "男士内裤DTC品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "男士内裤DTC品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/sheath-llc-d564f29c-f20a-4675-b32d-63d051433486",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "男士内裤DTC品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/xNW61wrBwGo",
+      "watchUrl": "https://www.youtube.com/watch?v=xNW61wrBwGo",
+      "caption": "男士内裤DTC品牌资料中提及的视频：Freediving Under an Iceberg for Men’s Mental Health",
+      "alt": "Freediving Under an Iceberg for Men’s Mental Health",
       "sourceUrl": "https://www.starterstory.com/stories/sheath-llc-d564f29c-f20a-4675-b32d-63d051433486",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c303bjznv93yxnh0xxz7t4vfedzf",
-      "caption": "男士内裤DTC品牌项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/sheath-llc-d564f29c-f20a-4675-b32d-63d051433486",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ddw17y2p9pisyf3lv70vhxx0tfv5",
-      "caption": "男士内裤DTC品牌项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/sheath-llc-d564f29c-f20a-4675-b32d-63d051433486",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/xNW61wrBwGo/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +164,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2149,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/eidcy1aszbrkohz5nxssirw2va3g",
-      "caption": "移动酒吧车租赁公开案例主图",
-      "alt": "移动酒吧车租赁案例图片",
+      "caption": "移动酒吧车租赁：通过定制改装车辆为活动提供现场饮品服务",
+      "alt": "移动酒吧车租赁：通过定制改装车辆为活动提供现场饮品服务",
       "sourceUrl": "https://www.starterstory.com/stories/tap-truck-usa",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/123/original/open-uri20220323-3-a371c9?1648036018",
-      "caption": "移动酒吧车租赁项目公开展示素材",
-      "alt": "tap-truck-usa",
+      "caption": "移动酒吧车租赁：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "移动酒吧车租赁：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/tap-truck-usa",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/124/original/open-uri20220323-3-gdlux3?1648036019",
-      "caption": "移动酒吧车租赁项目公开展示素材",
-      "alt": "tap-truck-usa",
+      "caption": "移动酒吧车租赁：创业复盘与关键经验相关原始配图（第2张）",
+      "alt": "移动酒吧车租赁：创业复盘与关键经验相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/tap-truck-usa",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/125/original/open-uri20220323-3-1rmy3pt?1648036020",
-      "caption": "移动酒吧车租赁项目公开展示素材",
-      "alt": "tap-truck-usa",
+      "caption": "移动酒吧车租赁：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "移动酒吧车租赁：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/tap-truck-usa",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/126/original/open-uri20220323-3-1s61mhc?1648036021",
-      "caption": "移动酒吧车租赁项目公开展示素材",
-      "alt": "tap-truck-usa",
-      "sourceUrl": "https://www.starterstory.com/stories/tap-truck-usa",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2185,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

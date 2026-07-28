@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/0i66kajluizdztondwuwvsgu748l",
-      "caption": "众包事实核查平台公开案例主图",
-      "alt": "众包事实核查平台案例图片",
+      "caption": "众包事实核查平台：靠捐赠和增值服务盈利",
+      "alt": "众包事实核查平台：靠捐赠和增值服务盈利",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-an-app-to-help-fight-misinformation",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/416/original/open-uri20210828-3-xf71q5?1630163213",
-      "caption": "众包事实核查平台项目公开展示素材",
-      "alt": "i-built-an-app-to-help-fight-misinformation",
+      "caption": "众包事实核查平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "众包事实核查平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-an-app-to-help-fight-misinformation",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/417/original/open-uri20210828-3-6r2hws?1630163214",
-      "caption": "众包事实核查平台项目公开展示素材",
-      "alt": "i-built-an-app-to-help-fight-misinformation",
+      "caption": "众包事实核查平台：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "众包事实核查平台：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-an-app-to-help-fight-misinformation",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/418/original/open-uri20210828-3-8kriff?1630163215",
-      "caption": "众包事实核查平台项目公开展示素材",
-      "alt": "i-built-an-app-to-help-fight-misinformation",
+      "caption": "众包事实核查平台：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "众包事实核查平台：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-an-app-to-help-fight-misinformation",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/419/original/open-uri20210828-3-1p3r0n5?1630163216",
-      "caption": "众包事实核查平台项目公开展示素材",
-      "alt": "i-built-an-app-to-help-fight-misinformation",
-      "sourceUrl": "https://www.starterstory.com/stories/i-built-an-app-to-help-fight-misinformation",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2203,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

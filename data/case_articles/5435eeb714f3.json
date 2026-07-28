@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/28ykvyankltith750251a5pka2ab",
-      "caption": "海外创业项目公开案例主图",
-      "alt": "海外创业项目案例图片",
+      "caption": "海外创业项目：通过推文启动的GDPR合规GA替代品，按月收费",
+      "alt": "海外创业项目：通过推文启动的GDPR合规GA替代品，按月收费",
       "sourceUrl": "https://www.starterstory.com/stories/beam",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/280/original/open-uri20230221-63-1no2p6a?1676995542",
-      "caption": "海外创业项目项目公开展示素材",
-      "alt": "beam",
+      "caption": "海外创业项目：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "海外创业项目：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/beam",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/281/original/open-uri20230221-63-e8wo0f?1676995543",
-      "caption": "海外创业项目项目公开展示素材",
-      "alt": "beam",
+      "caption": "海外创业项目：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "海外创业项目：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/beam",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/282/original/open-uri20230221-63-189ffs8?1676995545",
-      "caption": "海外创业项目项目公开展示素材",
-      "alt": "beam",
+      "caption": "海外创业项目：当前经营状态与下一步规划相关原始配图（第3张）",
+      "alt": "海外创业项目：当前经营状态与下一步规划相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/beam",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/283/original/open-uri20230221-63-157drdx?1676995546",
-      "caption": "海外创业项目项目公开展示素材",
-      "alt": "beam",
-      "sourceUrl": "https://www.starterstory.com/stories/beam",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2164,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

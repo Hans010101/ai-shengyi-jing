@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/tv7q4atzj01omhszkg0ick0ia5xm",
-      "caption": "夫妻档网页设计工作室公开案例主图",
-      "alt": "夫妻档网页设计工作室案例图片",
+      "caption": "夫妻档网页设计工作室：为中小企业提供建站与优化服务",
+      "alt": "夫妻档网页设计工作室：为中小企业提供建站与优化服务",
       "sourceUrl": "https://www.starterstory.com/stories/this-husband-wife-duo-started-a-1-2m-year-web-design-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/625/original/open-uri20210907-3-ccwrr?1631039492",
-      "caption": "夫妻档网页设计工作室项目公开展示素材",
-      "alt": "this-husband-wife-duo-started-a-1-2m-year-web-design-business",
+      "caption": "夫妻档网页设计工作室：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "夫妻档网页设计工作室：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/this-husband-wife-duo-started-a-1-2m-year-web-design-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/626/original/open-uri20210907-3-184ln2a?1631039496",
-      "caption": "夫妻档网页设计工作室项目公开展示素材",
-      "alt": "this-husband-wife-duo-started-a-1-2m-year-web-design-business",
+      "caption": "夫妻档网页设计工作室：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "夫妻档网页设计工作室：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/this-husband-wife-duo-started-a-1-2m-year-web-design-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "夫妻档网页设计工作室项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/this-husband-wife-duo-started-a-1-2m-year-web-design-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/glia3fse1raug40hg8lpkg3rg09w",
-      "caption": "夫妻档网页设计工作室项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/this-husband-wife-duo-started-a-1-2m-year-web-design-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2159,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

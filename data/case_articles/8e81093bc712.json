@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/xx2x30f63o8088vzvst4w6xlpgb5",
-      "caption": "17岁创办无代码代理公司公开案例主图",
-      "alt": "17岁创办无代码代理公司案例图片",
+      "caption": "17岁创办无代码代理公司：年营收120万美元，为客户快速构建数字产品",
+      "alt": "17岁创办无代码代理公司：年营收120万美元，为客户快速构建数字产品",
       "sourceUrl": "https://www.starterstory.com/stories/creme-digital",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/052/original/open-uri20240619-60-1pzcn8f?1718804716",
-      "caption": "17岁创办无代码代理公司项目公开展示素材",
-      "alt": "creme-digital",
+      "caption": "17岁创办无代码代理公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "17岁创办无代码代理公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/creme-digital",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/053/original/open-uri20240619-60-1j39k2a?1718804718",
-      "caption": "17岁创办无代码代理公司项目公开展示素材",
-      "alt": "creme-digital",
+      "caption": "17岁创办无代码代理公司：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "17岁创办无代码代理公司：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/creme-digital",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/054/original/open-uri20240619-60-vphg03?1718804719",
-      "caption": "17岁创办无代码代理公司项目公开展示素材",
-      "alt": "creme-digital",
+      "caption": "17岁创办无代码代理公司：当前经营状态与下一步规划相关原始配图（第3张）",
+      "alt": "17岁创办无代码代理公司：当前经营状态与下一步规划相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/creme-digital",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "17岁创办无代码代理公司项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/2IxU_s-D4Bs&t=2357s",
+      "watchUrl": "https://www.youtube.com/watch?v=2IxU_s-D4Bs&t=2357s",
+      "caption": "17岁创办无代码代理公司资料中提及的视频：The 20-year-old making $100k/month with No Code",
+      "alt": "The 20-year-old making $100k/month with No Code",
       "sourceUrl": "https://www.starterstory.com/stories/creme-digital",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/2IxU_s-D4Bs/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

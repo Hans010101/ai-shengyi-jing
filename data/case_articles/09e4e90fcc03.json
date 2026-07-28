@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/j3ha6vfd1zcuxu720xxi42sp6h0o",
-      "caption": "单人开发农场模拟游戏公开案例主图",
-      "alt": "单人开发农场模拟游戏案例图片",
+      "caption": "单人开发农场模拟游戏：通过游戏销售和DLC盈利",
+      "alt": "单人开发农场模拟游戏：通过游戏销售和DLC盈利",
       "sourceUrl": "https://www.starterstory.com/stories/stardew-valley-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "单人开发农场模拟游戏项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/stardew-valley-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/1kn9ia8p88ja63ls1d8nh37ccrul/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "单人开发农场模拟游戏项目公开展示素材",
-      "alt": "单人开发农场模拟游戏项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/stardew-valley-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/07ff050d01150561",
-      "caption": "单人开发农场模拟游戏项目公开展示素材",
-      "alt": "article",
+      "caption": "单人开发农场模拟游戏：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "单人开发农场模拟游戏：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/stardew-valley-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/f6cbce0cb2f79de4",
-      "caption": "单人开发农场模拟游戏项目公开展示素材",
-      "alt": "article",
+      "caption": "单人开发农场模拟游戏：获客渠道与客户留存相关原始配图（第2张）",
+      "alt": "单人开发农场模拟游戏：获客渠道与客户留存相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/stardew-valley-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2246,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

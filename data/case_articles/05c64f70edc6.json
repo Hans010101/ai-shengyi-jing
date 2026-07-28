@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/8zmzstfmhl0pdnpf4qbzu3is1zd7",
-      "caption": "AI辅助品牌设计公开案例主图",
-      "alt": "AI辅助品牌设计案例图片",
+      "caption": "AI辅助品牌设计：按套餐收费",
+      "alt": "AI辅助品牌设计：按套餐收费",
       "sourceUrl": "https://www.starterstory.com/businesses/anymark",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI辅助品牌设计项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/anymark",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/744b42ddksa8aw067jtkkz6x3i5w",
-      "caption": "AI辅助品牌设计项目公开展示素材",
-      "alt": "Anymark logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/anymark",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/epnomkdjfypq0xo90f3tqx6f33fd/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "AI辅助品牌设计项目公开展示素材",
-      "alt": "Artiom Dashinsky",
-      "sourceUrl": "https://www.starterstory.com/businesses/anymark",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/or09f2lfiia7lnht2q5ydyd20833/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "AI辅助品牌设计项目公开展示素材",
-      "alt": "AI辅助品牌设计项目展示图",
-      "sourceUrl": "https://www.starterstory.com/businesses/anymark",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2146,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

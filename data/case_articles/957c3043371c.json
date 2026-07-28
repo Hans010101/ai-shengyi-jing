@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/s7vapwuvjlmm7zh4xwwkydzo237q",
-      "caption": "B2B销售工具公开案例主图",
-      "alt": "B2B销售工具案例图片",
+      "caption": "B2B销售工具：帮代理和个体户自动化社媒获客，按月收费",
+      "alt": "B2B销售工具：帮代理和个体户自动化社媒获客，按月收费",
       "sourceUrl": "https://www.starterstory.com/stories/flowchat",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/932/original/open-uri20240127-65-1upkw90?1706336810",
-      "caption": "B2B销售工具项目公开展示素材",
-      "alt": "flowchat",
+      "caption": "B2B销售工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "B2B销售工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/flowchat",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/933/original/open-uri20240127-65-ud6nqm?1706336811",
-      "caption": "B2B销售工具项目公开展示素材",
-      "alt": "flowchat",
+      "caption": "B2B销售工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "B2B销售工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/flowchat",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/934/original/open-uri20240127-65-1bogqsa?1706336811",
-      "caption": "B2B销售工具项目公开展示素材",
-      "alt": "flowchat",
+      "caption": "B2B销售工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "B2B销售工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/flowchat",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/935/original/open-uri20240127-65-18j2n6w?1706336812",
-      "caption": "B2B销售工具项目公开展示素材",
-      "alt": "flowchat",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/zosDTz95fNI",
+      "watchUrl": "https://www.youtube.com/watch?v=zosDTz95fNI",
+      "caption": "B2B销售工具资料中提及的视频：How to Gamify Your Onboarding Process (feat. Cristina Samoila)",
+      "alt": "How to Gamify Your Onboarding Process (feat. Cristina Samoila)",
       "sourceUrl": "https://www.starterstory.com/stories/flowchat",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/zosDTz95fNI/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

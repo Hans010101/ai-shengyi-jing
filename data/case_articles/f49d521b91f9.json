@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/g8xposubj3rxvutn6mxpygmng7zt",
-      "caption": "为Rails应用提供自动扩缩容的SaaS工具公开案例主图",
-      "alt": "为Rails应用提供自动扩缩容的SaaS工具案例图片",
+      "caption": "为Rails应用提供自动扩缩容的SaaS工具：按月收费",
+      "alt": "为Rails应用提供自动扩缩容的SaaS工具：按月收费",
       "sourceUrl": "https://www.starterstory.com/businesses/rails-autoscale",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为Rails应用提供自动扩缩容的SaaS工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/rails-autoscale",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/go602g63okytoevupdyhfh8ptm7m",
-      "caption": "为Rails应用提供自动扩缩容的SaaS工具项目公开展示素材",
-      "alt": "Rails Autoscale logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/rails-autoscale",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/w837gq9wgvykmewjby4s7tw1uyvt/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "为Rails应用提供自动扩缩容的SaaS工具项目公开展示素材",
-      "alt": "Adam McCrea",
-      "sourceUrl": "https://www.starterstory.com/businesses/rails-autoscale",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/ia68hk3d45yv993erewx6yiew8ys/d82b7d03cadd1a666f145077c2e72d0f6c6a756a270f48659e90cc60318642a9",
-      "caption": "为Rails应用提供自动扩缩容的SaaS工具项目公开展示素材",
-      "alt": "Heroku",
-      "sourceUrl": "https://www.starterstory.com/businesses/rails-autoscale",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2275,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

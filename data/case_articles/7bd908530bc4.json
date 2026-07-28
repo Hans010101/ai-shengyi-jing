@@ -121,57 +121,23 @@
   "media": [
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "帮人雇佣音乐人的平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/hire-wedding-bands-djs-in-the-uk-worldwide-fixthemusic",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/dddbcd7bb738d179",
-      "caption": "帮人雇佣音乐人的平台项目公开展示素材",
+      "caption": "帮人雇佣音乐人的平台：创始人、核心产品与品牌起点相关原始配图",
       "alt": "Live music that makes the moment magical.",
       "sourceUrl": "https://www.starterstory.com/stories/hire-wedding-bands-djs-in-the-uk-worldwide-fixthemusic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/naexws6eikys1ce1vf44j0ciau6v",
-      "caption": "帮人雇佣音乐人的平台项目公开展示素材",
-      "alt": "article",
+      "caption": "帮人雇佣音乐人的平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "帮人雇佣音乐人的平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/hire-wedding-bands-djs-in-the-uk-worldwide-fixthemusic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/0p6okuqhmxgkb6te9jngjqzgt5i0",
-      "caption": "帮人雇佣音乐人的平台项目公开展示素材",
-      "alt": "帮人雇佣音乐人的平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/hire-wedding-bands-djs-in-the-uk-worldwide-fixthemusic",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/vtdvsz6ii7j6rdax44lx60uayvfa",
-      "caption": "帮人雇佣音乐人的平台项目公开展示素材",
-      "alt": "Amazon Web Services logo",
-      "sourceUrl": "https://www.starterstory.com/stories/hire-wedding-bands-djs-in-the-uk-worldwide-fixthemusic",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/kn0hhwbef6x2wdeahkg08x4kwiwg/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "帮人雇佣音乐人的平台项目公开展示素材",
-      "alt": "帮人雇佣音乐人的平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/hire-wedding-bands-djs-in-the-uk-worldwide-fixthemusic",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2291,
-    "mediaCount": 6
+    "mediaCount": 2
   }
 }

@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/6w1t9vz2n8vq0xtr760hsalrwp7n",
-      "caption": "联合办公社区公开案例主图",
-      "alt": "联合办公社区案例图片",
+      "caption": "联合办公社区：通过会员订阅和活动盈利",
+      "alt": "联合办公社区：通过会员订阅和活动盈利",
       "sourceUrl": "https://www.starterstory.com/stories/coworking-days",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/614/original/open-uri20220409-12-17x0ui8?1649511787",
-      "caption": "联合办公社区项目公开展示素材",
-      "alt": "coworking-days",
+      "caption": "联合办公社区：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "联合办公社区：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/coworking-days",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "联合办公社区项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/coworking-days",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/yzwcofug5jdzgxughelpace4tl6a",
-      "caption": "联合办公社区项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/coworking-days",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/622p0mms6dps2u2kwzp06rr36gzk",
-      "caption": "联合办公社区项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/coworking-days",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2218,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

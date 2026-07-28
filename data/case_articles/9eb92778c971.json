@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ib9dmuussd2gjs99p5pm4n94vijf",
-      "caption": "海外其他项目公开案例主图",
-      "alt": "海外其他项目案例图片",
+      "caption": "海外其他项目：通过社交媒体销售二手古董手表，赚取差价利润",
+      "alt": "海外其他项目：通过社交媒体销售二手古董手表，赚取差价利润",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-1-8m-year-vintage-watch-company",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/499/original/open-uri20190429-4-1htqg36?1556514455",
-      "caption": "海外其他项目项目公开展示素材",
-      "alt": "how-i-started-a-1-8m-year-vintage-watch-company",
+      "caption": "海外其他项目：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "海外其他项目：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-1-8m-year-vintage-watch-company",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/500/original/open-uri20190429-4-5zl9wo?1556514456",
-      "caption": "海外其他项目项目公开展示素材",
-      "alt": "how-i-started-a-1-8m-year-vintage-watch-company",
+      "caption": "海外其他项目：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "海外其他项目：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-1-8m-year-vintage-watch-company",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/501/original/open-uri20190429-4-1qhvpek?1556514457",
-      "caption": "海外其他项目项目公开展示素材",
-      "alt": "how-i-started-a-1-8m-year-vintage-watch-company",
+      "caption": "海外其他项目：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "海外其他项目：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-1-8m-year-vintage-watch-company",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/502/original/open-uri20190429-4-1opsx0j?1556514458",
-      "caption": "海外其他项目项目公开展示素材",
-      "alt": "how-i-started-a-1-8m-year-vintage-watch-company",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/YMG2AHHrt1U",
+      "watchUrl": "https://www.youtube.com/watch?v=YMG2AHHrt1U",
+      "caption": "海外其他项目资料中提及的视频：Hot Chocolate, Peppermint Schnapps, and the Real Story of Theo&Harris | LIQUOR RUN",
+      "alt": "Hot Chocolate, Peppermint Schnapps, and the Real Story of Theo&Harris | LIQUOR RUN",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-1-8m-year-vintage-watch-company",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/YMG2AHHrt1U/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/cfsmrvaywhsfni51dtkq693xjyke",
-      "caption": "AI辅助求职工具公开案例主图",
-      "alt": "AI辅助求职工具案例图片",
+      "caption": "AI辅助求职工具：通过订阅制收费",
+      "alt": "AI辅助求职工具：通过订阅制收费",
       "sourceUrl": "https://www.starterstory.com/stories/aiapply",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/610/original/open-uri20240412-53-kp6pgg?1712935534",
-      "caption": "AI辅助求职工具项目公开展示素材",
-      "alt": "aiapply",
+      "caption": "AI辅助求职工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI辅助求职工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/aiapply",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/611/original/open-uri20240412-53-qh43nq?1712935535",
-      "caption": "AI辅助求职工具项目公开展示素材",
-      "alt": "aiapply",
+      "caption": "AI辅助求职工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI辅助求职工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/aiapply",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/612/original/data?1712935536",
-      "caption": "AI辅助求职工具项目公开展示素材",
-      "alt": "aiapply",
+      "caption": "AI辅助求职工具：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "AI辅助求职工具：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/aiapply",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/613/original/open-uri20240412-53-1thd2mq?1712935536",
-      "caption": "AI辅助求职工具项目公开展示素材",
-      "alt": "aiapply",
-      "sourceUrl": "https://www.starterstory.com/stories/aiapply",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2260,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

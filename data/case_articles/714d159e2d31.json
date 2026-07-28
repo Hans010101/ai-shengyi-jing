@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/dpainuvsnkznlpjmtzfmwxaryxz4",
-      "caption": "全球顶级播客创业案例公开案例主图",
-      "alt": "全球顶级播客创业案例案例图片",
+      "caption": "全球顶级播客创业案例：通过内容创作和知识变现盈利",
+      "alt": "全球顶级播客创业案例：通过内容创作和知识变现盈利",
       "sourceUrl": "https://www.starterstory.com/stories/cary-jack-the-happy-hustle",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/087/original/open-uri20221002-24-1uqm7mr?1664720672",
-      "caption": "全球顶级播客创业案例项目公开展示素材",
-      "alt": "cary-jack-the-happy-hustle",
+      "caption": "全球顶级播客创业案例：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "全球顶级播客创业案例：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/cary-jack-the-happy-hustle",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/088/original/open-uri20221002-24-s30898?1664720673",
-      "caption": "全球顶级播客创业案例项目公开展示素材",
-      "alt": "cary-jack-the-happy-hustle",
+      "caption": "全球顶级播客创业案例：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "全球顶级播客创业案例：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/cary-jack-the-happy-hustle",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "全球顶级播客创业案例项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/cary-jack-the-happy-hustle",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/p8k02rjws595ps7rhw5f8jh28dcq",
-      "caption": "全球顶级播客创业案例项目公开展示素材",
-      "alt": "全球顶级播客创业案例项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/cary-jack-the-happy-hustle",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2169,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

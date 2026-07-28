@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/8pauudf2r9gfl8ngtcu5jr010lcd",
-      "caption": "新西兰每月精选咖啡订阅公开案例主图",
-      "alt": "新西兰每月精选咖啡订阅案例图片",
+      "caption": "新西兰每月精选咖啡订阅：赚取订阅费",
+      "alt": "新西兰每月精选咖啡订阅：赚取订阅费",
       "sourceUrl": "https://www.starterstory.com/stories/fernweh-f7571721-f52a-4176-b80c-17cf82d885ac",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/053/original/open-uri20221113-12-zrck1t?1668328588",
-      "caption": "新西兰每月精选咖啡订阅项目公开展示素材",
-      "alt": "fernweh-f7571721-f52a-4176-b80c-17cf82d885ac",
+      "caption": "新西兰每月精选咖啡订阅：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "新西兰每月精选咖啡订阅：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/fernweh-f7571721-f52a-4176-b80c-17cf82d885ac",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/054/original/open-uri20221113-12-gcwk2y?1668328589",
-      "caption": "新西兰每月精选咖啡订阅项目公开展示素材",
-      "alt": "fernweh-f7571721-f52a-4176-b80c-17cf82d885ac",
+      "caption": "新西兰每月精选咖啡订阅：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "新西兰每月精选咖啡订阅：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/fernweh-f7571721-f52a-4176-b80c-17cf82d885ac",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "新西兰每月精选咖啡订阅项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/fernweh-f7571721-f52a-4176-b80c-17cf82d885ac",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/4qcuk5ek4vrwjx1mabyuvhbzkmx9",
-      "caption": "新西兰每月精选咖啡订阅项目公开展示素材",
-      "alt": "新西兰每月精选咖啡订阅项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/fernweh-f7571721-f52a-4176-b80c-17cf82d885ac",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2231,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

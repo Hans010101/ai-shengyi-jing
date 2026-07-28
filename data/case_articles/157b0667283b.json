@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/voofuze7gskyt4bq5ooc1lti79tq",
-      "caption": "播客商业化案例公开案例主图",
-      "alt": "播客商业化案例案例图片",
+      "caption": "播客商业化案例：通过广告和高端嘉宾提升营收至$60M/年",
+      "alt": "播客商业化案例：通过广告和高端嘉宾提升营收至$60M/年",
       "sourceUrl": "https://www.starterstory.com/stories/on-growing-our-podcast-through-more-advertising-deals-and-landing-high-profile-guests",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/005/288/original/data?1583546803",
-      "caption": "播客商业化案例项目公开展示素材",
-      "alt": "how-i-transition-to-a-more-startup-and-becoming-an-author",
+      "caption": "播客商业化案例：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "播客商业化案例：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/on-growing-our-podcast-through-more-advertising-deals-and-landing-high-profile-guests",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "播客商业化案例项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/on-growing-our-podcast-through-more-advertising-deals-and-landing-high-profile-guests",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "播客商业化案例项目公开展示素材",
-      "alt": "播客商业化案例项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/on-growing-our-podcast-through-more-advertising-deals-and-landing-high-profile-guests",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/b6tkfwams9acacoldo403fv7scnw",
-      "caption": "播客商业化案例项目公开展示素材",
-      "alt": "播客商业化案例项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/on-growing-our-podcast-through-more-advertising-deals-and-landing-high-profile-guests",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2212,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

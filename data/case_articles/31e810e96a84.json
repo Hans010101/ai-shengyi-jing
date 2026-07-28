@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/z91g2zjpvk6nrpuj4qn4venhdhl5",
-      "caption": "为内容创作者提供专业视频剪辑服务公开案例主图",
-      "alt": "为内容创作者提供专业视频剪辑服务案例图片",
+      "caption": "为内容创作者提供专业视频剪辑服务：月入3万美元",
+      "alt": "为内容创作者提供专业视频剪辑服务：月入3万美元",
       "sourceUrl": "https://www.starterstory.com/stories/vimerse",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/082/original/open-uri20240623-48-ns0jn6?1719155732",
-      "caption": "为内容创作者提供专业视频剪辑服务项目公开展示素材",
+      "caption": "为内容创作者提供专业视频剪辑服务：创业起点与创意来源相关原始配图",
       "alt": "Our own survey results from back in 2021...",
       "sourceUrl": "https://www.starterstory.com/stories/vimerse",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/083/original/open-uri20240623-48-102wisw?1719155732",
-      "caption": "为内容创作者提供专业视频剪辑服务项目公开展示素材",
+      "caption": "为内容创作者提供专业视频剪辑服务：创业起点与创意来源相关原始配图（第2张）",
       "alt": "...2/3 of high earning influencers showed interest in video editing service.",
       "sourceUrl": "https://www.starterstory.com/stories/vimerse",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/084/original/open-uri20240623-48-y5xqgb?1719155733",
-      "caption": "为内容创作者提供专业视频剪辑服务项目公开展示素材",
+      "caption": "为内容创作者提供专业视频剪辑服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "alt": "Example of an email we sent with a sample edit.",
       "sourceUrl": "https://www.starterstory.com/stories/vimerse",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/085/original/open-uri20240623-48-nbqb6y?1719155734",
-      "caption": "为内容创作者提供专业视频剪辑服务项目公开展示素材",
-      "alt": "Video Editing Cost Calculator...",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/_oPeB-zG6gA",
+      "watchUrl": "https://www.youtube.com/watch?v=_oPeB-zG6gA",
+      "caption": "为内容创作者提供专业视频剪辑服务资料中提及的视频：Vimerse 2021 Commercial - Baby",
+      "alt": "Vimerse 2021 Commercial - Baby",
       "sourceUrl": "https://www.starterstory.com/stories/vimerse",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/_oPeB-zG6gA/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

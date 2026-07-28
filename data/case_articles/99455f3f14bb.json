@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/24l283ve31qkfu7ysfngm36o73qq",
-      "caption": "制作公司公开案例主图",
-      "alt": "制作公司案例图片",
+      "caption": "制作公司：通过为企业制作视频和广告盈利",
+      "alt": "制作公司：通过为企业制作视频和广告盈利",
       "sourceUrl": "https://www.starterstory.com/stories/mbrella-films",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/468/original/open-uri20230317-52-12nary6?1679023880",
-      "caption": "制作公司项目公开展示素材",
-      "alt": "mbrella-films",
+      "caption": "制作公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "制作公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/mbrella-films",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/469/original/open-uri20230317-52-14g0a3t?1679023881",
-      "caption": "制作公司项目公开展示素材",
-      "alt": "mbrella-films",
+      "caption": "制作公司：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "制作公司：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/mbrella-films",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/470/original/open-uri20230317-52-1l48oaq?1679023882",
-      "caption": "制作公司项目公开展示素材",
-      "alt": "mbrella-films",
+      "caption": "制作公司：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "制作公司：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/mbrella-films",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/471/original/open-uri20230317-52-1mn3y4x?1679023882",
-      "caption": "制作公司项目公开展示素材",
-      "alt": "mbrella-films",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/W0kUdBmaV3s",
+      "watchUrl": "https://www.youtube.com/watch?v=W0kUdBmaV3s",
+      "caption": "制作公司资料中提及的视频：Mbrella Films Showreel 2022",
+      "alt": "Mbrella Films Showreel 2022",
       "sourceUrl": "https://www.starterstory.com/stories/mbrella-films",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/W0kUdBmaV3s/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/op15vte5l4bozw9be6srlhmeryhh",
-      "caption": "可持续护发品牌公开案例主图",
-      "alt": "可持续护发品牌案例图片",
+      "caption": "可持续护发品牌：通过DTC订阅和零售销售盈利",
+      "alt": "可持续护发品牌：通过DTC订阅和零售销售盈利",
       "sourceUrl": "https://www.starterstory.com/stories/luna-nectar-organics",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/642/original/open-uri20230530-63-13o1ptg?1685417987",
-      "caption": "可持续护发品牌项目公开展示素材",
-      "alt": "luna-nectar-organics",
+      "caption": "可持续护发品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "可持续护发品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/luna-nectar-organics",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/643/original/open-uri20230530-63-1gr4a?1685417988",
-      "caption": "可持续护发品牌项目公开展示素材",
-      "alt": "luna-nectar-organics",
+      "caption": "可持续护发品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "可持续护发品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/luna-nectar-organics",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/644/original/open-uri20230530-63-1jbemyy?1685417989",
-      "caption": "可持续护发品牌项目公开展示素材",
-      "alt": "luna-nectar-organics",
+      "caption": "可持续护发品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "可持续护发品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/luna-nectar-organics",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "可持续护发品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/luna-nectar-organics",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2233,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

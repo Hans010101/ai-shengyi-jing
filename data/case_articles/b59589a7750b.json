@@ -122,47 +122,24 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/bifapjjcfvuuu2n90so35oetgp1u",
-      "caption": "为YouTuber提供财税代管服务公开案例主图",
-      "alt": "为YouTuber提供财税代管服务案例图片",
+      "caption": "为YouTuber提供财税代管服务：年入30万美元",
+      "alt": "为YouTuber提供财税代管服务：年入30万美元",
       "sourceUrl": "https://www.starterstory.com/stories/free-cash-flow",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为YouTuber提供财税代管服务项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/oepLHbFetG4&t=79s&ab_channel=FreeCashFlowAgency",
+      "watchUrl": "https://www.youtube.com/watch?v=oepLHbFetG4&t=79s&ab_channel=FreeCashFlowAgency",
+      "caption": "为YouTuber提供财税代管服务资料中提及的视频：I make Money From OnlyFans - What Taxes Do I Have To Pay?",
+      "alt": "I make Money From OnlyFans - What Taxes Do I Have To Pay?",
       "sourceUrl": "https://www.starterstory.com/stories/free-cash-flow",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/6d9kidi444vd2x3xg9bjmpvtmr51",
-      "caption": "为YouTuber提供财税代管服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/free-cash-flow",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/3q9ah33gfr89x9gr887ehtjyb5n2",
-      "caption": "为YouTuber提供财税代管服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/free-cash-flow",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/3d0celdrs9ugtg77g37hjvvnmyhi",
-      "caption": "为YouTuber提供财税代管服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/free-cash-flow",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/oepLHbFetG4/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +154,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2201,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

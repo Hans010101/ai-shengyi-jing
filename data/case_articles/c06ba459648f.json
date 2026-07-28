@@ -122,56 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ovpkfucdx0zypn8w79rnwiz9f5dk",
-      "caption": "为独立音乐人提供非独占式托管与分发平台公开案例主图",
-      "alt": "为独立音乐人提供非独占式托管与分发平台案例图片",
+      "caption": "为独立音乐人提供非独占式托管与分发平台：通过订阅和交易抽成盈利",
+      "alt": "为独立音乐人提供非独占式托管与分发平台：通过订阅和交易抽成盈利",
       "sourceUrl": "https://www.starterstory.com/stories/disctopia",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/810/original/open-uri20220413-12-xfo3no?1649876427",
-      "caption": "为独立音乐人提供非独占式托管与分发平台项目公开展示素材",
-      "alt": "disctopia",
+      "caption": "为独立音乐人提供非独占式托管与分发平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为独立音乐人提供非独占式托管与分发平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/disctopia",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/811/original/open-uri20220413-12-9auz8u?1649876428",
-      "caption": "为独立音乐人提供非独占式托管与分发平台项目公开展示素材",
-      "alt": "disctopia",
+      "caption": "为独立音乐人提供非独占式托管与分发平台：当前经营状态与下一步规划相关原始配图（第2张）",
+      "alt": "为独立音乐人提供非独占式托管与分发平台：当前经营状态与下一步规划相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/disctopia",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为独立音乐人提供非独占式托管与分发平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/disctopia",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/wsfthxo0bwxpga1da6eflodtgxay",
-      "caption": "为独立音乐人提供非独占式托管与分发平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/disctopia",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/3d0celdrs9ugtg77g37hjvvnmyhi",
-      "caption": "为独立音乐人提供非独占式托管与分发平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/disctopia",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2344,
-    "mediaCount": 6
+    "mediaCount": 3
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/sle3p0oclof6oegyaek5hex5xzk3",
-      "caption": "WordPress维护服务公开案例主图",
-      "alt": "WordPress维护服务案例图片",
+      "caption": "WordPress维护服务：按月收费提供网站更新、安全、备份等",
+      "alt": "WordPress维护服务：按月收费提供网站更新、安全、备份等",
       "sourceUrl": "https://www.starterstory.com/stories/thrivewp",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/024/original/open-uri20220808-24-ub5im4?1659969295",
-      "caption": "WordPress维护服务项目公开展示素材",
-      "alt": "thrivewp",
+      "caption": "WordPress维护服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "WordPress维护服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/thrivewp",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/025/original/open-uri20220808-24-13alqzv?1659969295",
-      "caption": "WordPress维护服务项目公开展示素材",
-      "alt": "thrivewp",
+      "caption": "WordPress维护服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "WordPress维护服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/thrivewp",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/026/original/open-uri20220808-24-lxvlon?1659969296",
-      "caption": "WordPress维护服务项目公开展示素材",
-      "alt": "thrivewp",
+      "caption": "WordPress维护服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "WordPress维护服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/thrivewp",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/027/original/open-uri20220808-24-1v4wa5w?1659969296",
-      "caption": "WordPress维护服务项目公开展示素材",
-      "alt": "thrivewp",
-      "sourceUrl": "https://www.starterstory.com/stories/thrivewp",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2227,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

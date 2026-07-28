@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/s3wtpeajrmlckwmo1zm8i08upqlo",
-      "caption": "皮划艇电商公开案例主图",
-      "alt": "皮划艇电商案例图片",
+      "caption": "皮划艇电商：通过扩展产品线实现营收增长",
+      "alt": "皮划艇电商：通过扩展产品线实现营收增长",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-revenue-by-10-per-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/093/original/open-uri20211124-3-1p17a28?1637777753",
-      "caption": "皮划艇电商项目公开展示素材",
-      "alt": "how-we-grew-revenue-by-10-per-year",
+      "caption": "皮划艇电商：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "皮划艇电商：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-revenue-by-10-per-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "皮划艇电商项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-revenue-by-10-per-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/xmcnnqqylhtbo0mcfe37b8l0byai",
-      "caption": "皮划艇电商项目公开展示素材",
-      "alt": "皮划艇电商项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-revenue-by-10-per-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/vsg1n7eqjjk2kou8yjsg1ha24rsa",
-      "caption": "皮划艇电商项目公开展示素材",
-      "alt": "皮划艇电商项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-revenue-by-10-per-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2159,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

@@ -122,47 +122,34 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/c9s7lppbcx2j60ss7cjkv1i5abco",
-      "caption": "篮球场地图应用公开案例主图",
-      "alt": "篮球场地图应用案例图片",
+      "caption": "篮球场地图应用：通过广告和订阅赚钱",
+      "alt": "篮球场地图应用：通过广告和订阅赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-started-hoopmaps-went-viral-and-got-on-shark-tank",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/234/original/open-uri20190313-4-nuwcs3?1552455381",
-      "caption": "篮球场地图应用项目公开展示素材",
-      "alt": "how-we-started-hoopmaps-went-viral-and-got-on-shark-tank",
+      "caption": "篮球场地图应用：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "篮球场地图应用：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-started-hoopmaps-went-viral-and-got-on-shark-tank",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "篮球场地图应用项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/Tn_DCDFAOjg",
+      "watchUrl": "https://www.youtube.com/watch?v=Tn_DCDFAOjg",
+      "caption": "篮球场地图应用资料中提及的视频：Hoop Maps Featured On SportsCenter SC6",
+      "alt": "Hoop Maps Featured On SportsCenter SC6",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-started-hoopmaps-went-viral-and-got-on-shark-tank",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/yzwcofug5jdzgxughelpace4tl6a",
-      "caption": "篮球场地图应用项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-started-hoopmaps-went-viral-and-got-on-shark-tank",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/jf00lbyg1rpq8uy6wa3zb4ostis8",
-      "caption": "篮球场地图应用项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-started-hoopmaps-went-viral-and-got-on-shark-tank",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/Tn_DCDFAOjg/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +164,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2192,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

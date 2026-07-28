@@ -122,65 +122,53 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/96vfrrfz0cbe2mjsdhj6m5mr7f17",
-      "caption": "城市园艺博客公开案例主图",
-      "alt": "城市园艺博客案例图片",
+      "caption": "城市园艺博客：通过广告和联盟营销赚钱",
+      "alt": "城市园艺博客：通过广告和联盟营销赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/i-turned-my-love-for-urban-gardens-into-a-profitable-blog",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/790/original/open-uri20210915-3-wlweht?1631717852",
-      "caption": "城市园艺博客项目公开展示素材",
-      "alt": "i-turned-my-love-for-urban-gardens-into-a-profitable-blog",
+      "caption": "城市园艺博客：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "城市园艺博客：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-turned-my-love-for-urban-gardens-into-a-profitable-blog",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/791/original/open-uri20210915-3-a0t8nk?1631717853",
-      "caption": "城市园艺博客项目公开展示素材",
-      "alt": "i-turned-my-love-for-urban-gardens-into-a-profitable-blog",
+      "caption": "城市园艺博客：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "城市园艺博客：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-turned-my-love-for-urban-gardens-into-a-profitable-blog",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/792/original/open-uri20210915-3-1j5w0gd?1631717853",
-      "caption": "城市园艺博客项目公开展示素材",
-      "alt": "i-turned-my-love-for-urban-gardens-into-a-profitable-blog",
+      "caption": "城市园艺博客：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "城市园艺博客：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-turned-my-love-for-urban-gardens-into-a-profitable-blog",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/793/original/open-uri20210915-3-1yew34a?1631717854",
-      "caption": "城市园艺博客项目公开展示素材",
-      "alt": "i-turned-my-love-for-urban-gardens-into-a-profitable-blog",
-      "sourceUrl": "https://www.starterstory.com/stories/i-turned-my-love-for-urban-gardens-into-a-profitable-blog",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/794/original/open-uri20210915-3-1bogjx9?1631717854",
-      "caption": "城市园艺博客项目公开展示素材",
-      "alt": "i-turned-my-love-for-urban-gardens-into-a-profitable-blog",
-      "sourceUrl": "https://www.starterstory.com/stories/i-turned-my-love-for-urban-gardens-into-a-profitable-blog",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/4Hezsqw5oM4",
-      "caption": "城市园艺博客项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=4Hezsqw5oM4",
+      "caption": "城市园艺博客资料中提及的视频：How to Make a Seashell Succulents Planter",
+      "alt": "How to Make a Seashell Succulents Planter",
       "sourceUrl": "https://www.starterstory.com/stories/i-turned-my-love-for-urban-gardens-into-a-profitable-blog",
       "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/4Hezsqw5oM4/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -196,6 +184,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2205,
-    "mediaCount": 7
+    "mediaCount": 5
   }
 }

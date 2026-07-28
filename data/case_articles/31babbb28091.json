@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/qrsbziwm6b2mvuvgv6mvd935ykzy",
-      "caption": "营销归因工具公开案例主图",
-      "alt": "营销归因工具案例图片",
+      "caption": "营销归因工具：帮企业追踪渠道效果，按月收费SaaS",
+      "alt": "营销归因工具：帮企业追踪渠道效果，按月收费SaaS",
       "sourceUrl": "https://www.starterstory.com/stories/attributer-7d21872d-bcc8-4468-8e1e-d9847e999180",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/879/original/open-uri20240519-48-l2tamp?1716081097",
-      "caption": "营销归因工具项目公开展示素材",
-      "alt": "attributer-7d21872d-bcc8-4468-8e1e-d9847e999180",
+      "caption": "营销归因工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "营销归因工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/attributer-7d21872d-bcc8-4468-8e1e-d9847e999180",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "营销归因工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/attributer-7d21872d-bcc8-4468-8e1e-d9847e999180",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ozi596amj8ygspq7p7yffxckq2qe",
-      "caption": "营销归因工具项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/attributer-7d21872d-bcc8-4468-8e1e-d9847e999180",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/2r0bmvunp6hplaeyu1t5rm1lcgma",
-      "caption": "营销归因工具项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/attributer-7d21872d-bcc8-4468-8e1e-d9847e999180",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2162,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

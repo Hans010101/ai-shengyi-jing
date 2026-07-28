@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/29vyvjo34a2ia0r3hx3j7bq8xrao",
-      "caption": "用咖啡果肉制作可食用咖啡棒公开案例主图",
-      "alt": "用咖啡果肉制作可食用咖啡棒案例图片",
+      "caption": "用咖啡果肉制作可食用咖啡棒：B2B销售给咖啡店和品牌",
+      "alt": "用咖啡果肉制作可食用咖啡棒：B2B销售给咖啡店和品牌",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-raised-an-investment-for-product-research-and-sales-growth",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/006/342/original/open-uri20200527-4-cqnsop?1590621647",
-      "caption": "用咖啡果肉制作可食用咖啡棒项目公开展示素材",
-      "alt": "how-we-raised-an-investment-for-product-research-and-sales-growth",
+      "caption": "用咖啡果肉制作可食用咖啡棒：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "用咖啡果肉制作可食用咖啡棒：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-raised-an-investment-for-product-research-and-sales-growth",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/006/343/original/open-uri20200527-4-zr9ui6?1590621647",
-      "caption": "用咖啡果肉制作可食用咖啡棒项目公开展示素材",
-      "alt": "how-we-raised-an-investment-for-product-research-and-sales-growth",
+      "caption": "用咖啡果肉制作可食用咖啡棒：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "用咖啡果肉制作可食用咖啡棒：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-raised-an-investment-for-product-research-and-sales-growth",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "用咖啡果肉制作可食用咖啡棒项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-raised-an-investment-for-product-research-and-sales-growth",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/4qcuk5ek4vrwjx1mabyuvhbzkmx9",
-      "caption": "用咖啡果肉制作可食用咖啡棒项目公开展示素材",
-      "alt": "用咖啡果肉制作可食用咖啡棒项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-raised-an-investment-for-product-research-and-sales-growth",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2157,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

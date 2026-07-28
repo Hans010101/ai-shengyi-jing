@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/pscxlcp2syeaii5ivh4q388f5vmd",
-      "caption": "为美国农村小商户提供透明低价的支付处理服务公开案例主图",
-      "alt": "为美国农村小商户提供透明低价的支付处理服务案例图片",
+      "caption": "为美国农村小商户提供透明低价的支付处理服务：靠交易抽成赚钱",
+      "alt": "为美国农村小商户提供透明低价的支付处理服务：靠交易抽成赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/vizpay",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/455/original/open-uri20230514-63-25w9sf?1684076395",
-      "caption": "为美国农村小商户提供透明低价的支付处理服务项目公开展示素材",
-      "alt": "vizpay",
+      "caption": "为美国农村小商户提供透明低价的支付处理服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为美国农村小商户提供透明低价的支付处理服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/vizpay",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为美国农村小商户提供透明低价的支付处理服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/vizpay",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "为美国农村小商户提供透明低价的支付处理服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/vizpay",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/6f967jflw1m5odksfc1x9pibusr5",
-      "caption": "为美国农村小商户提供透明低价的支付处理服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/vizpay",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2296,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

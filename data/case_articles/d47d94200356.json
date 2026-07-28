@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/0rep5s5711pqaqegk57qgnawya3r",
-      "caption": "产品化设计服务订阅公开案例主图",
-      "alt": "产品化设计服务订阅案例图片",
+      "caption": "产品化设计服务订阅：月费制为中小企业提供无限设计",
+      "alt": "产品化设计服务订阅：月费制为中小企业提供无限设计",
       "sourceUrl": "https://www.starterstory.com/stories/meetanders-e7cff26b-5ff3-40cb-84f9-3ee30c8cf467",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/090/original/open-uri20240623-60-nom6s4?1719160729",
-      "caption": "产品化设计服务订阅项目公开展示素材",
-      "alt": "meetanders-e7cff26b-5ff3-40cb-84f9-3ee30c8cf467",
+      "caption": "产品化设计服务订阅：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "产品化设计服务订阅：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/meetanders-e7cff26b-5ff3-40cb-84f9-3ee30c8cf467",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/091/original/open-uri20240623-60-1i3oyxw?1719160730",
-      "caption": "产品化设计服务订阅项目公开展示素材",
-      "alt": "meetanders-e7cff26b-5ff3-40cb-84f9-3ee30c8cf467",
+      "caption": "产品化设计服务订阅：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "产品化设计服务订阅：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/meetanders-e7cff26b-5ff3-40cb-84f9-3ee30c8cf467",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "产品化设计服务订阅项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/meetanders-e7cff26b-5ff3-40cb-84f9-3ee30c8cf467",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/6d9kidi444vd2x3xg9bjmpvtmr51",
-      "caption": "产品化设计服务订阅项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/meetanders-e7cff26b-5ff3-40cb-84f9-3ee30c8cf467",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2202,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

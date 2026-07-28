@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/equkpmcldk08yt54vrfmv3p67736",
-      "caption": "播客变现公开案例主图",
-      "alt": "播客变现案例图片",
+      "caption": "播客变现：通过广告赞助和内容营销赚钱",
+      "alt": "播客变现：通过广告赞助和内容营销赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/how-kurt-elster-monetized-and-grew-a-podcast-to-750k-downloads",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/594/original/open-uri20190103-4-134seb3?1546526542",
-      "caption": "播客变现项目公开展示素材",
-      "alt": "how-kurt-elster-monetized-and-grew-a-podcast-to-750k-downloads",
+      "caption": "播客变现：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "播客变现：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-kurt-elster-monetized-and-grew-a-podcast-to-750k-downloads",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/595/original/open-uri20190103-4-ji27ec?1546526542",
-      "caption": "播客变现项目公开展示素材",
-      "alt": "how-kurt-elster-monetized-and-grew-a-podcast-to-750k-downloads",
+      "caption": "播客变现：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "播客变现：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-kurt-elster-monetized-and-grew-a-podcast-to-750k-downloads",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/596/original/open-uri20190103-4-1ljgttb?1546526543",
-      "caption": "播客变现项目公开展示素材",
-      "alt": "how-kurt-elster-monetized-and-grew-a-podcast-to-750k-downloads",
+      "caption": "播客变现：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "播客变现：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-kurt-elster-monetized-and-grew-a-podcast-to-750k-downloads",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "播客变现项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-kurt-elster-monetized-and-grew-a-podcast-to-750k-downloads",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2186,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/2gfmkdk4od583lsht6qd3txv4nei",
-      "caption": "为B2B公司提供冷邮件获客代运营服务公开案例主图",
-      "alt": "为B2B公司提供冷邮件获客代运营服务案例图片",
+      "caption": "为B2B公司提供冷邮件获客代运营服务：月入7.5万美元",
+      "alt": "为B2B公司提供冷邮件获客代运营服务：月入7.5万美元",
       "sourceUrl": "https://www.starterstory.com/stories/nomads-with-solutions",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/840/original/open-uri20230620-52-nz2131?1687245266",
-      "caption": "为B2B公司提供冷邮件获客代运营服务项目公开展示素材",
-      "alt": "nomads-with-solutions",
+      "caption": "为B2B公司提供冷邮件获客代运营服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为B2B公司提供冷邮件获客代运营服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/nomads-with-solutions",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为B2B公司提供冷邮件获客代运营服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/nomads-with-solutions",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/0beu1rpaj2ah6dpbyhnnpi3t6nk7",
-      "caption": "为B2B公司提供冷邮件获客代运营服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/nomads-with-solutions",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/2r0bmvunp6hplaeyu1t5rm1lcgma",
-      "caption": "为B2B公司提供冷邮件获客代运营服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/nomads-with-solutions",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2213,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

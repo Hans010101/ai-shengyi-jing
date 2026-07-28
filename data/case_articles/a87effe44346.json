@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/sk8lfe1i2q7vj6jk7fqy1fh5b5x1",
-      "caption": "越南老牌比特币交易所公开案例主图",
-      "alt": "越南老牌比特币交易所案例图片",
+      "caption": "越南老牌比特币交易所：通过交易手续费和点差盈利",
+      "alt": "越南老牌比特币交易所：通过交易手续费和点差盈利",
       "sourceUrl": "https://www.starterstory.com/stories/bitcoinvn",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/391/original/open-uri20221010-12-1sx8qw6?1665409070",
-      "caption": "越南老牌比特币交易所项目公开展示素材",
-      "alt": "bitcoinvn",
+      "caption": "越南老牌比特币交易所：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "越南老牌比特币交易所：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/bitcoinvn",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/392/original/open-uri20221010-12-bslbuc?1665409070",
-      "caption": "越南老牌比特币交易所项目公开展示素材",
-      "alt": "bitcoinvn",
+      "caption": "越南老牌比特币交易所：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "越南老牌比特币交易所：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/bitcoinvn",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "越南老牌比特币交易所项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/bitcoinvn",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c4me70k5m0mm12pxyt9ra653p556",
-      "caption": "越南老牌比特币交易所项目公开展示素材",
-      "alt": "越南老牌比特币交易所项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/bitcoinvn",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2220,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

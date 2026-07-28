@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/vd0nyllktv8cx48qys710hxtn43r",
-      "caption": "低成本创业博客公开案例主图",
-      "alt": "低成本创业博客案例图片",
+      "caption": "低成本创业博客：通过广告与联盟营销盈利",
+      "alt": "低成本创业博客：通过广告与联盟营销盈利",
       "sourceUrl": "https://www.starterstory.com/stories/startupily-e2724472-ed37-41f4-864e-a50a8b80dbb2",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/218/original/open-uri20220821-12-1x4svg9?1661109197",
-      "caption": "低成本创业博客项目公开展示素材",
-      "alt": "startupily-e2724472-ed37-41f4-864e-a50a8b80dbb2",
+      "caption": "低成本创业博客：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "低成本创业博客：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/startupily-e2724472-ed37-41f4-864e-a50a8b80dbb2",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/219/original/open-uri20220821-12-1tlnkrx?1661109198",
-      "caption": "低成本创业博客项目公开展示素材",
-      "alt": "startupily-e2724472-ed37-41f4-864e-a50a8b80dbb2",
+      "caption": "低成本创业博客：学习方法与行业资源相关原始配图（第2张）",
+      "alt": "低成本创业博客：学习方法与行业资源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/startupily-e2724472-ed37-41f4-864e-a50a8b80dbb2",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "低成本创业博客项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/startupily-e2724472-ed37-41f4-864e-a50a8b80dbb2",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "低成本创业博客项目公开展示素材",
-      "alt": "低成本创业博客项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/startupily-e2724472-ed37-41f4-864e-a50a8b80dbb2",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2166,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

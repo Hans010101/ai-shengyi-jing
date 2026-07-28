@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/kg7tn3b16qprvz2kq7zaxaineez0",
-      "caption": "AI连接游戏公司与微网红公开案例主图",
-      "alt": "AI连接游戏公司与微网红案例图片",
+      "caption": "AI连接游戏公司与微网红：按效果付费赚佣金",
+      "alt": "AI连接游戏公司与微网红：按效果付费赚佣金",
       "sourceUrl": "https://www.starterstory.com/stories/drope-me",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/012/original/open-uri20240128-65-19tocnu?1706436401",
-      "caption": "AI连接游戏公司与微网红项目公开展示素材",
-      "alt": "drope-me",
+      "caption": "AI连接游戏公司与微网红：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI连接游戏公司与微网红：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/drope-me",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/013/original/open-uri20240128-65-kfu87v?1706436402",
-      "caption": "AI连接游戏公司与微网红项目公开展示素材",
-      "alt": "drope-me",
+      "caption": "AI连接游戏公司与微网红：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "AI连接游戏公司与微网红：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/drope-me",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/014/original/open-uri20240128-65-381gtq?1706436402",
-      "caption": "AI连接游戏公司与微网红项目公开展示素材",
-      "alt": "drope-me",
+      "caption": "AI连接游戏公司与微网红：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "AI连接游戏公司与微网红：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/drope-me",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/015/original/open-uri20240128-65-n21mwi?1706436403",
-      "caption": "AI连接游戏公司与微网红项目公开展示素材",
-      "alt": "drope-me",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/E_pxXs6Yx74",
+      "watchUrl": "https://www.youtube.com/watch?v=E_pxXs6Yx74",
+      "caption": "AI连接游戏公司与微网红资料中提及的视频：Meet Drope.me — the Ultimate Influencer Marketing Platform for the Gaming Industry",
+      "alt": "Meet Drope.me — the Ultimate Influencer Marketing Platform for the Gaming Industry",
       "sourceUrl": "https://www.starterstory.com/stories/drope-me",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/E_pxXs6Yx74/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

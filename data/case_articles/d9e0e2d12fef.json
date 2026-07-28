@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/1y5fxdoe0ko6zrqfr7njkopex84z",
-      "caption": "天然护肤品牌公开案例主图",
-      "alt": "天然护肤品牌案例图片",
+      "caption": "天然护肤品牌：通过电商销售Soapberry系列产品盈利",
+      "alt": "天然护肤品牌：通过电商销售Soapberry系列产品盈利",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-4-8m-amazon-skin-care-product",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/456/original/open-uri20190427-4-1xtb2xd?1556367087",
-      "caption": "天然护肤品牌项目公开展示素材",
-      "alt": "how-i-started-a-4-8m-amazon-soapberry-skin-care-product",
+      "caption": "天然护肤品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "天然护肤品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-4-8m-amazon-skin-care-product",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/457/original/open-uri20190427-4-hzd8jz?1556367088",
-      "caption": "天然护肤品牌项目公开展示素材",
-      "alt": "how-i-started-a-4-8m-amazon-soapberry-skin-care-product",
+      "caption": "天然护肤品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "天然护肤品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-4-8m-amazon-skin-care-product",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/458/original/open-uri20190427-4-1okkxil?1556367089",
-      "caption": "天然护肤品牌项目公开展示素材",
-      "alt": "how-i-started-a-4-8m-amazon-soapberry-skin-care-product",
+      "caption": "天然护肤品牌：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "天然护肤品牌：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-4-8m-amazon-skin-care-product",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/459/original/open-uri20190427-4-y12pgz?1556367089",
-      "caption": "天然护肤品牌项目公开展示素材",
-      "alt": "how-i-started-a-4-8m-amazon-soapberry-skin-care-product",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-4-8m-amazon-skin-care-product",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2277,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

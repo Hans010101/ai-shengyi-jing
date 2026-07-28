@@ -122,56 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/co1td9nidxw00fqh7mohju41tlvj",
-      "caption": "为开发者提供单一功能的工具公开案例主图",
-      "alt": "为开发者提供单一功能的工具案例图片",
+      "caption": "为开发者提供单一功能的工具：通过极低成本实现高利润",
+      "alt": "为开发者提供单一功能的工具：通过极低成本实现高利润",
       "sourceUrl": "https://www.starterstory.com/businesses/laravelshift",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为开发者提供单一功能的工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/laravelshift",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/g33p4om7cft3198seyv9xkx972ok",
-      "caption": "为开发者提供单一功能的工具项目公开展示素材",
-      "alt": "Shift logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/laravelshift",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/w65f28ywvlg1ock4id83pnenecsx/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "为开发者提供单一功能的工具项目公开展示素材",
-      "alt": "Jason McCreary",
-      "sourceUrl": "https://www.starterstory.com/businesses/laravelshift",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/tilrc8eq00u68k64mqym5s7qdh4h/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "为开发者提供单一功能的工具项目公开展示素材",
-      "alt": "Cloudflare",
-      "sourceUrl": "https://www.starterstory.com/businesses/laravelshift",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/351i2fdzfm171xs3r9jvmc4x8blv/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "为开发者提供单一功能的工具项目公开展示素材",
-      "alt": "Laravel",
-      "sourceUrl": "https://www.starterstory.com/businesses/laravelshift",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -186,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2177,
-    "mediaCount": 6
+    "mediaCount": 1
   }
 }

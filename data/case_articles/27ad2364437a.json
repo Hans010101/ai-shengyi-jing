@@ -122,75 +122,53 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/5ticigc927fumxf5bsgxs5fck2k8",
-      "caption": "为小企业提供网络安全咨询公开案例主图",
-      "alt": "为小企业提供网络安全咨询案例图片",
+      "caption": "为小企业提供网络安全咨询：月入$14K",
+      "alt": "为小企业提供网络安全咨询：月入$14K",
       "sourceUrl": "https://www.starterstory.com/stories/las-vegas-information-security",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/384/original/open-uri20220625-13-42pbe4?1656168400",
-      "caption": "为小企业提供网络安全咨询项目公开展示素材",
-      "alt": "las-vegas-information-security",
+      "caption": "为小企业提供网络安全咨询：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为小企业提供网络安全咨询：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/las-vegas-information-security",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/385/original/open-uri20220625-13-rm7xry?1656168401",
-      "caption": "为小企业提供网络安全咨询项目公开展示素材",
-      "alt": "las-vegas-information-security",
+      "caption": "为小企业提供网络安全咨询：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "为小企业提供网络安全咨询：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/las-vegas-information-security",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/386/original/open-uri20220625-13-r9sjjm?1656168401",
-      "caption": "为小企业提供网络安全咨询项目公开展示素材",
-      "alt": "las-vegas-information-security",
+      "caption": "为小企业提供网络安全咨询：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "为小企业提供网络安全咨询：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/las-vegas-information-security",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为小企业提供网络安全咨询项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/las-vegas-information-security",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/0beu1rpaj2ah6dpbyhnnpi3t6nk7",
-      "caption": "为小企业提供网络安全咨询项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/las-vegas-information-security",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/sT-dWUBmAYA",
-      "caption": "为小企业提供网络安全咨询项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=sT-dWUBmAYA",
+      "caption": "为小企业提供网络安全咨询资料中提及的视频：Small Business Cyber Security - FOX 5 Las Vegas",
+      "alt": "Small Business Cyber Security - FOX 5 Las Vegas",
       "sourceUrl": "https://www.starterstory.com/stories/las-vegas-information-security",
       "origin": "embeddable-video",
-      "poster": "",
-      "usage": ""
-    },
-    {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/bCcVVxhHg-8",
-      "caption": "为小企业提供网络安全咨询项目相关公开视频",
-      "alt": "",
-      "sourceUrl": "https://www.starterstory.com/stories/las-vegas-information-security",
-      "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/sT-dWUBmAYA/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -206,6 +184,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2153,
-    "mediaCount": 8
+    "mediaCount": 5
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/2agdj0l0i77hxpghgd6g487746j1",
-      "caption": "线下苏打水店+社区生活方式品牌公开案例主图",
-      "alt": "线下苏打水店+社区生活方式品牌案例图片",
+      "caption": "线下苏打水店+社区生活方式品牌：卖饮品和周边",
+      "alt": "线下苏打水店+社区生活方式品牌：卖饮品和周边",
       "sourceUrl": "https://www.starterstory.com/stories/on-launching-our-new-brick-and-mortar-soda-shop",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/010/100/original/open-uri20210203-3-175kqt4?1612372999",
-      "caption": "线下苏打水店+社区生活方式品牌项目公开展示素材",
-      "alt": "on-launching-our-new-soda-shop",
+      "caption": "线下苏打水店+社区生活方式品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "线下苏打水店+社区生活方式品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/on-launching-our-new-brick-and-mortar-soda-shop",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/010/101/original/open-uri20210203-3-1ba8frq?1612372999",
-      "caption": "线下苏打水店+社区生活方式品牌项目公开展示素材",
-      "alt": "on-launching-our-new-soda-shop",
+      "caption": "线下苏打水店+社区生活方式品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "线下苏打水店+社区生活方式品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/on-launching-our-new-brick-and-mortar-soda-shop",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/010/102/original/open-uri20210203-3-111h1d7?1612373000",
-      "caption": "线下苏打水店+社区生活方式品牌项目公开展示素材",
-      "alt": "on-launching-our-new-soda-shop",
+      "caption": "线下苏打水店+社区生活方式品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "线下苏打水店+社区生活方式品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/on-launching-our-new-brick-and-mortar-soda-shop",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "线下苏打水店+社区生活方式品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/on-launching-our-new-brick-and-mortar-soda-shop",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2142,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

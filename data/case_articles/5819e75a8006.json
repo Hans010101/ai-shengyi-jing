@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/lcdrbxyaj91nv4t0gbsz7x7hxmox",
-      "caption": "卖背包公开案例主图",
-      "alt": "卖背包案例图片",
+      "caption": "卖背包：每卖一个捐25餐，DTC模式月入2.5万刀",
+      "alt": "卖背包：每卖一个捐25餐，DTC模式月入2.5万刀",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-by-focusing-on-dtc-and-launching-new-products",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/534/original/open-uri20201025-4-umlu1s?1603654265",
-      "caption": "卖背包项目公开展示素材",
-      "alt": "how-we-focused-on-e-commerce-and-direct-to-consumer-operations-and-launched-new-product",
+      "caption": "卖背包：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "卖背包：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-by-focusing-on-dtc-and-launching-new-products",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/535/original/open-uri20201025-4-11mwvsa?1603654266",
-      "caption": "卖背包项目公开展示素材",
-      "alt": "how-we-focused-on-e-commerce-and-direct-to-consumer-operations-and-launched-new-product",
+      "caption": "卖背包：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "卖背包：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-by-focusing-on-dtc-and-launching-new-products",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/536/original/open-uri20201025-4-1urfg4?1603654266",
-      "caption": "卖背包项目公开展示素材",
-      "alt": "how-we-focused-on-e-commerce-and-direct-to-consumer-operations-and-launched-new-product",
+      "caption": "卖背包：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "卖背包：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-by-focusing-on-dtc-and-launching-new-products",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/537/original/open-uri20201025-4-jcb1y4?1603654267",
-      "caption": "卖背包项目公开展示素材",
-      "alt": "how-we-focused-on-e-commerce-and-direct-to-consumer-operations-and-launched-new-product",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-by-focusing-on-dtc-and-launching-new-products",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/538/original/open-uri20201025-4-aokdse?1603654267",
-      "caption": "卖背包项目公开展示素材",
-      "alt": "how-we-focused-on-e-commerce-and-direct-to-consumer-operations-and-launched-new-product",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-by-focusing-on-dtc-and-launching-new-products",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2256,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

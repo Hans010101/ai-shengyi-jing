@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/o9b6h1j8izkjaubi1h4u4h7wa8bl",
-      "caption": "旅游博客公开案例主图",
-      "alt": "旅游博客案例图片",
+      "caption": "旅游博客：通过联盟营销和广告月入1千美元",
+      "alt": "旅游博客：通过联盟营销和广告月入1千美元",
       "sourceUrl": "https://www.starterstory.com/stories/etramping",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/955/original/open-uri20231006-60-jhh34b?1696561367",
-      "caption": "旅游博客项目公开展示素材",
-      "alt": "etramping",
+      "caption": "旅游博客：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "旅游博客：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/etramping",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/956/original/open-uri20231006-60-1vufed4?1696561368",
-      "caption": "旅游博客项目公开展示素材",
-      "alt": "etramping",
+      "caption": "旅游博客：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "旅游博客：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/etramping",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/957/original/open-uri20231006-60-19btgmb?1696561368",
-      "caption": "旅游博客项目公开展示素材",
-      "alt": "etramping",
+      "caption": "旅游博客：团队建设与人才需求相关原始配图（第3张）",
+      "alt": "旅游博客：团队建设与人才需求相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/etramping",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "旅游博客项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/etramping",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2189,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,56 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/t0nzma0dk0iikeogu8xcnzii197y",
-      "caption": "服装制造代理公开案例主图",
-      "alt": "服装制造代理案例图片",
+      "caption": "服装制造代理：为品牌提供端到端生产服务赚取佣金",
+      "alt": "服装制造代理：为品牌提供端到端生产服务赚取佣金",
       "sourceUrl": "https://www.starterstory.com/stories/bryden-apparel",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/862/original/open-uri20220728-12-1pht494?1659021721",
-      "caption": "服装制造代理项目公开展示素材",
-      "alt": "bryden-apparel",
+      "caption": "服装制造代理：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "服装制造代理：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/bryden-apparel",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/863/original/open-uri20220728-12-1ucyp8x?1659021722",
-      "caption": "服装制造代理项目公开展示素材",
-      "alt": "bryden-apparel",
+      "caption": "服装制造代理：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "服装制造代理：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/bryden-apparel",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "服装制造代理项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/bryden-apparel",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/w4stw5wtsgmq5u23otc0cudjxnjg",
-      "caption": "服装制造代理项目公开展示素材",
-      "alt": "服装制造代理项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/bryden-apparel",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/1qxt58976pp69dwug3p7ifphuhne",
-      "caption": "服装制造代理项目公开展示素材",
-      "alt": "服装制造代理项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/bryden-apparel",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2182,
-    "mediaCount": 6
+    "mediaCount": 3
   }
 }

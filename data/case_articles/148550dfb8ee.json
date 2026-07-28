@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/7t6bsqparfm8hv0uyx23ir9snp9e",
-      "caption": "AI驱动的商业创意与内容生成SaaS工具公开案例主图",
-      "alt": "AI驱动的商业创意与内容生成SaaS工具案例图片",
+      "caption": "AI驱动的商业创意与内容生成SaaS工具：月收3万美元",
+      "alt": "AI驱动的商业创意与内容生成SaaS工具：月收3万美元",
       "sourceUrl": "https://www.starterstory.com/stories/this-self-taught-programmer-built-a-360k-year-gpt-3-app",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/798/original/open-uri20220112-3-1fhc8t5?1641956864",
-      "caption": "AI驱动的商业创意与内容生成SaaS工具项目公开展示素材",
-      "alt": "this-self-taught-programmer-built-a-360k-year-gpt-3-app",
+      "caption": "AI驱动的商业创意与内容生成SaaS工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI驱动的商业创意与内容生成SaaS工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/this-self-taught-programmer-built-a-360k-year-gpt-3-app",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/799/original/open-uri20220112-3-xefwnv?1641956865",
-      "caption": "AI驱动的商业创意与内容生成SaaS工具项目公开展示素材",
-      "alt": "this-self-taught-programmer-built-a-360k-year-gpt-3-app",
+      "caption": "AI驱动的商业创意与内容生成SaaS工具：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "AI驱动的商业创意与内容生成SaaS工具：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/this-self-taught-programmer-built-a-360k-year-gpt-3-app",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/800/original/open-uri20220112-3-nxm40a?1641956865",
-      "caption": "AI驱动的商业创意与内容生成SaaS工具项目公开展示素材",
-      "alt": "this-self-taught-programmer-built-a-360k-year-gpt-3-app",
+      "caption": "AI驱动的商业创意与内容生成SaaS工具：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "AI驱动的商业创意与内容生成SaaS工具：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/this-self-taught-programmer-built-a-360k-year-gpt-3-app",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/801/original/open-uri20220112-3-815iwr?1641956866",
-      "caption": "AI驱动的商业创意与内容生成SaaS工具项目公开展示素材",
-      "alt": "this-self-taught-programmer-built-a-360k-year-gpt-3-app",
-      "sourceUrl": "https://www.starterstory.com/stories/this-self-taught-programmer-built-a-360k-year-gpt-3-app",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2179,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

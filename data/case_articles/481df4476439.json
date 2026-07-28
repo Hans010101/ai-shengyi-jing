@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/eijugdcucfue603eecrfwfl7gvp5",
-      "caption": "医疗背景创业者创办的医疗数字技术公司公开案例主图",
-      "alt": "医疗背景创业者创办的医疗数字技术公司案例图片",
+      "caption": "医疗背景创业者创办的医疗数字技术公司：通过服务与产品双模式盈利",
+      "alt": "医疗背景创业者创办的医疗数字技术公司：通过服务与产品双模式盈利",
       "sourceUrl": "https://www.starterstory.com/stories/bleverdesign",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/226/original/open-uri20230502-63-xud1lz?1683013418",
-      "caption": "医疗背景创业者创办的医疗数字技术公司项目公开展示素材",
-      "alt": "bleverdesign",
+      "caption": "医疗背景创业者创办的医疗数字技术公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "医疗背景创业者创办的医疗数字技术公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/bleverdesign",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "医疗背景创业者创办的医疗数字技术公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/bleverdesign",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/l3n0ifgxk0tv1iv12zmqkny9csrq",
-      "caption": "医疗背景创业者创办的医疗数字技术公司项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/bleverdesign",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/3q9ah33gfr89x9gr887ehtjyb5n2",
-      "caption": "医疗背景创业者创办的医疗数字技术公司项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/bleverdesign",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2271,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/nfff03obl1i7klb1650b371hq45y",
-      "caption": "摄影师Kelly Heck公开案例主图",
-      "alt": "摄影师Kelly Heck案例图片",
+      "caption": "摄影师Kelly Heck：通过接商业摄影订单赚钱",
+      "alt": "摄影师Kelly Heck：通过接商业摄影订单赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/kelly-heck-photography",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/833/original/open-uri20220415-24-ijbrbv?1650034155",
-      "caption": "摄影师Kelly Heck项目公开展示素材",
-      "alt": "kelly-heck-photography",
+      "caption": "摄影师Kelly Heck：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "摄影师Kelly Heck：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/kelly-heck-photography",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/834/original/open-uri20220415-24-1spum5j?1650034156",
-      "caption": "摄影师Kelly Heck项目公开展示素材",
-      "alt": "kelly-heck-photography",
+      "caption": "摄影师Kelly Heck：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "摄影师Kelly Heck：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/kelly-heck-photography",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/835/original/open-uri20220415-24-1bd3fhc?1650034156",
-      "caption": "摄影师Kelly Heck项目公开展示素材",
-      "alt": "kelly-heck-photography",
+      "caption": "摄影师Kelly Heck：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "摄影师Kelly Heck：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/kelly-heck-photography",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/836/original/open-uri20220415-24-b2x5ag?1650034156",
-      "caption": "摄影师Kelly Heck项目公开展示素材",
-      "alt": "kelly-heck-photography",
-      "sourceUrl": "https://www.starterstory.com/stories/kelly-heck-photography",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2228,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/t8msvw0kjf1sbzcnfq4cfmh45cin",
-      "caption": "被YC拒绝后公开案例主图",
-      "alt": "被YC拒绝后案例图片",
+      "caption": "被YC拒绝后：创始人开发AI SaaS工具，年营收达2亿美元",
+      "alt": "被YC拒绝后：创始人开发AI SaaS工具，年营收达2亿美元",
       "sourceUrl": "https://www.starterstory.com/stories/i-got-rejected-from-yc-then-built-a-200m-startup",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "被YC拒绝后项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/i-got-rejected-from-yc-then-built-a-200m-startup",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/dec2e283fc10e309",
-      "caption": "被YC拒绝后项目公开展示素材",
-      "alt": "Pat Walls",
-      "sourceUrl": "https://www.starterstory.com/stories/i-got-rejected-from-yc-then-built-a-200m-startup",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/ate3ixct0rejwaikh8a35rr0g8v2/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "被YC拒绝后项目公开展示素材",
-      "alt": "Drift",
-      "sourceUrl": "https://www.starterstory.com/stories/i-got-rejected-from-yc-then-built-a-200m-startup",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/vkacgai3me2unbjkakdhmi8j1qe5/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "被YC拒绝后项目公开展示素材",
-      "alt": "Google Analytics",
-      "sourceUrl": "https://www.starterstory.com/stories/i-got-rejected-from-yc-then-built-a-200m-startup",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2184,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

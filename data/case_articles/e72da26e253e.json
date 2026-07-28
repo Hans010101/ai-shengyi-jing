@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/n1upchfq1ttwo3789dnxxzs89dnl",
-      "caption": "去中心化视频处理平台公开案例主图",
-      "alt": "去中心化视频处理平台案例图片",
+      "caption": "去中心化视频处理平台：通过处理费抽成和代币激励盈利",
+      "alt": "去中心化视频处理平台：通过处理费抽成和代币激励盈利",
       "sourceUrl": "https://www.starterstory.com/stories/on-building-a-decentralized-video-infrastructure-for-livestreaming",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/594/original/open-uri20211227-3-yugs55?1640600540",
-      "caption": "去中心化视频处理平台项目公开展示素材",
-      "alt": "on-building-a-decentralized-video-infrastructure-for-livestreaming",
+      "caption": "去中心化视频处理平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "去中心化视频处理平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/on-building-a-decentralized-video-infrastructure-for-livestreaming",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "去中心化视频处理平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/on-building-a-decentralized-video-infrastructure-for-livestreaming",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/5riorlx032ml6dt6ifq0slauezs3",
-      "caption": "去中心化视频处理平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/on-building-a-decentralized-video-infrastructure-for-livestreaming",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "去中心化视频处理平台项目公开展示素材",
-      "alt": "去中心化视频处理平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/on-building-a-decentralized-video-infrastructure-for-livestreaming",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2254,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

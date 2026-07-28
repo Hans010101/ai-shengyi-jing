@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/upyuuh6mwqzedfpfvj2tic5370r6",
-      "caption": "移动POS支付应用公开案例主图",
-      "alt": "移动POS支付应用案例图片",
+      "caption": "移动POS支付应用：通过Stripe收手续费盈利",
+      "alt": "移动POS支付应用：通过Stripe收手续费盈利",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-recovered-our-revenue-by-90-from-losses-during-the-pandemic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/467/original/open-uri20201215-4-wg6tqz?1608063287",
-      "caption": "移动POS支付应用项目公开展示素材",
-      "alt": "how-we-recovered-our-revenue-by-90-from-the-losses-during-the-pandemic",
+      "caption": "移动POS支付应用：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "移动POS支付应用：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-recovered-our-revenue-by-90-from-losses-during-the-pandemic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/468/original/open-uri20201215-4-pcuv4b?1608063287",
-      "caption": "移动POS支付应用项目公开展示素材",
-      "alt": "how-we-recovered-our-revenue-by-90-from-the-losses-during-the-pandemic",
+      "caption": "移动POS支付应用：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "移动POS支付应用：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-recovered-our-revenue-by-90-from-losses-during-the-pandemic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "移动POS支付应用项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-recovered-our-revenue-by-90-from-losses-during-the-pandemic",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "移动POS支付应用项目公开展示素材",
-      "alt": "移动POS支付应用项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-recovered-our-revenue-by-90-from-losses-during-the-pandemic",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2222,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

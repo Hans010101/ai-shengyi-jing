@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/3ocqr776k80blbbzny758dtya6fe",
-      "caption": "海外AI工具项目公开案例主图",
-      "alt": "海外AI工具项目案例图片",
+      "caption": "海外AI工具项目：通过meme币发行平台赚取交易费和代币增值收益",
+      "alt": "海外AI工具项目：通过meme币发行平台赚取交易费和代币增值收益",
       "sourceUrl": "https://www.starterstory.com/stories/mintme-512698af-e487-48f3-b4d8-185508c59b57",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/844/original/open-uri20240509-60-flyjte?1715261406",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "mintme-512698af-e487-48f3-b4d8-185508c59b57",
+      "caption": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/mintme-512698af-e487-48f3-b4d8-185508c59b57",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/845/original/open-uri20240509-60-1xchxjl?1715261408",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "mintme-512698af-e487-48f3-b4d8-185508c59b57",
+      "caption": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/mintme-512698af-e487-48f3-b4d8-185508c59b57",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/mintme-512698af-e487-48f3-b4d8-185508c59b57",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c4me70k5m0mm12pxyt9ra653p556",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "海外AI工具项目项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/mintme-512698af-e487-48f3-b4d8-185508c59b57",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2301,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

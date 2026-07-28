@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ewvohcdoqbmbrnpglaokc96r3e5h",
-      "caption": "AI基因检测报告平台公开案例主图",
-      "alt": "AI基因检测报告平台案例图片",
+      "caption": "AI基因检测报告平台：按订阅制收费",
+      "alt": "AI基因检测报告平台：按订阅制收费",
       "sourceUrl": "https://www.starterstory.com/stories/selfdecode",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/370/original/open-uri20230227-63-rhyt80?1677508038",
-      "caption": "AI基因检测报告平台项目公开展示素材",
-      "alt": "selfdecode",
+      "caption": "AI基因检测报告平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI基因检测报告平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/selfdecode",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/371/original/open-uri20230227-63-1gjz4nx?1677508038",
-      "caption": "AI基因检测报告平台项目公开展示素材",
-      "alt": "selfdecode",
+      "caption": "AI基因检测报告平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI基因检测报告平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/selfdecode",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/372/original/open-uri20230227-63-rpn9zq?1677508039",
-      "caption": "AI基因检测报告平台项目公开展示素材",
-      "alt": "selfdecode",
+      "caption": "AI基因检测报告平台：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "AI基因检测报告平台：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/selfdecode",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI基因检测报告平台项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/y3nNGkKlaNg",
+      "watchUrl": "https://www.youtube.com/watch?v=y3nNGkKlaNg",
+      "caption": "AI基因检测报告平台资料中提及的视频：Joe's Regimen Part 1: Best Supplements For Mood | Episode 09",
+      "alt": "Joe's Regimen Part 1: Best Supplements For Mood | Episode 09",
       "sourceUrl": "https://www.starterstory.com/stories/selfdecode",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/y3nNGkKlaNg/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

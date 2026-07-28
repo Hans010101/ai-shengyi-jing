@@ -121,57 +121,23 @@
   "media": [
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "免费音乐平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/free-to-use",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/77f367d8abc8ab65",
-      "caption": "免费音乐平台项目公开展示素材",
+      "caption": "免费音乐平台：创始人、核心产品与品牌起点相关原始配图",
       "alt": "My image",
       "sourceUrl": "https://www.starterstory.com/stories/free-to-use",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/lkd7uyx0dcm127lmkivzvlialj2l",
-      "caption": "免费音乐平台项目公开展示素材",
-      "alt": "article",
+      "caption": "免费音乐平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "免费音乐平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/free-to-use",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/6b644cb3189f140c",
-      "caption": "免费音乐平台项目公开展示素材",
-      "alt": "免费音乐平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/free-to-use",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/t7go6pobpmydm4pvdy6qzax7ki96/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "免费音乐平台项目公开展示素材",
-      "alt": "免费音乐平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/free-to-use",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/6o6rj78qm66l1n0s9fy65orte4la/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "免费音乐平台项目公开展示素材",
-      "alt": "免费音乐平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/free-to-use",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2236,
-    "mediaCount": 6
+    "mediaCount": 2
   }
 }

@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/nj26vw8iu3h2r51ilabl4kwrzv57",
-      "caption": "零信任网络即服务公开案例主图",
-      "alt": "零信任网络即服务案例图片",
+      "caption": "零信任网络即服务：通过订阅制销售VPN和网络管理方案",
+      "alt": "零信任网络即服务：通过订阅制销售VPN和网络管理方案",
       "sourceUrl": "https://www.starterstory.com/businesses/tailscale",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "零信任网络即服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/tailscale",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/2k49al6d1jwy9pn393mftp1z5s4d",
-      "caption": "零信任网络即服务项目公开展示素材",
-      "alt": "Tailscale logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/tailscale",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/h9e7dc19tuagwp4pc43hd6ejaitk/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "零信任网络即服务项目公开展示素材",
-      "alt": "Avery Pennarun",
-      "sourceUrl": "https://www.starterstory.com/businesses/tailscale",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/or09f2lfiia7lnht2q5ydyd20833/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "零信任网络即服务项目公开展示素材",
-      "alt": "零信任网络即服务项目展示图",
-      "sourceUrl": "https://www.starterstory.com/businesses/tailscale",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2336,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

@@ -121,76 +121,58 @@
   "media": [
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "一人SEO机构项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/benas-leonavicius-seo-expert-entrepreneur",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/44e56e65f9944bec",
-      "caption": "一人SEO机构项目公开展示素材",
+      "caption": "一人SEO机构：创始人、核心产品与品牌起点相关原始配图",
       "alt": "Benas Leonavicius",
       "sourceUrl": "https://www.starterstory.com/stories/benas-leonavicius-seo-expert-entrepreneur",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/9zf0rzhbncqu1gkw21swvjh2xb1e",
-      "caption": "一人SEO机构项目公开展示素材",
-      "alt": "article",
+      "caption": "一人SEO机构：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "一人SEO机构：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/benas-leonavicius-seo-expert-entrepreneur",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/owaxo0jdmbt5bnlqc4jz8etvv8i4",
-      "caption": "一人SEO机构项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/benas-leonavicius-seo-expert-entrepreneur",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/uo2giatrzioyyrq9rqoa8zc3h8hs",
-      "caption": "一人SEO机构项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/benas-leonavicius-seo-expert-entrepreneur",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/0in32eoptaowde2koiqggjihlg03",
-      "caption": "一人SEO机构项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/benas-leonavicius-seo-expert-entrepreneur",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/qQ0GqLSeeqQ",
-      "caption": "一人SEO机构项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=qQ0GqLSeeqQ",
+      "caption": "一人SEO机构资料中提及的视频：The REAL story behind my freelance success",
+      "alt": "The REAL story behind my freelance success",
       "sourceUrl": "https://www.starterstory.com/stories/benas-leonavicius-seo-expert-entrepreneur",
       "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/qQ0GqLSeeqQ/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/zN0olOYHlqI",
-      "caption": "一人SEO机构项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=zN0olOYHlqI",
+      "caption": "一人SEO机构资料中提及的视频：Do this ONE thing right and you’ll never have to chase clients again",
+      "alt": "Do this ONE thing right and you’ll never have to chase clients again",
       "sourceUrl": "https://www.starterstory.com/stories/benas-leonavicius-seo-expert-entrepreneur",
       "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/zN0olOYHlqI/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/nQVe-Axw9eE",
+      "watchUrl": "https://www.youtube.com/watch?v=nQVe-Axw9eE",
+      "caption": "一人SEO机构资料中提及的视频：The weird way I made $64,871.82 from ONE client",
+      "alt": "The weird way I made $64,871.82 from ONE client",
+      "sourceUrl": "https://www.starterstory.com/stories/benas-leonavicius-seo-expert-entrepreneur",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/nQVe-Axw9eE/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -206,6 +188,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2210,
-    "mediaCount": 8
+    "mediaCount": 5
   }
 }

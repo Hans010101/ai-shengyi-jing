@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/05xk1fok4hra345m193m8uv8v3za",
-      "caption": "天然护肤品牌公开案例主图",
-      "alt": "天然护肤品牌案例图片",
+      "caption": "天然护肤品牌：通过亚马逊和iHerb销售敏感肌产品",
+      "alt": "天然护肤品牌：通过亚马逊和iHerb销售敏感肌产品",
       "sourceUrl": "https://www.starterstory.com/stories/tree-to-tub",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/320/original/open-uri20220623-24-cs3zuy?1656003892",
-      "caption": "天然护肤品牌项目公开展示素材",
-      "alt": "tree-to-tub",
+      "caption": "天然护肤品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "天然护肤品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/tree-to-tub",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/321/original/open-uri20220623-24-1f60a87?1656003893",
-      "caption": "天然护肤品牌项目公开展示素材",
-      "alt": "tree-to-tub",
+      "caption": "天然护肤品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "天然护肤品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/tree-to-tub",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/322/original/open-uri20220623-24-4axuzg?1656003893",
-      "caption": "天然护肤品牌项目公开展示素材",
-      "alt": "tree-to-tub",
+      "caption": "天然护肤品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "天然护肤品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/tree-to-tub",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/323/original/open-uri20220623-24-1nifud9?1656003894",
-      "caption": "天然护肤品牌项目公开展示素材",
-      "alt": "tree-to-tub",
-      "sourceUrl": "https://www.starterstory.com/stories/tree-to-tub",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2143,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

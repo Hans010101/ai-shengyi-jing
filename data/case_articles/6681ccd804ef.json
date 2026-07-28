@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/eq1xnl9b02k8q6rvmerk4rpvhk6y",
-      "caption": "UX研究SaaS公开案例主图",
-      "alt": "UX研究SaaS案例图片",
+      "caption": "UX研究SaaS：帮企业快速获取数字产品反馈，年入$1.8M",
+      "alt": "UX研究SaaS：帮企业快速获取数字产品反馈，年入$1.8M",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-bootstrapped-a-1-8m-year-ux-research-software",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/700/original/open-uri20220308-3-5lb9sh?1646765888",
-      "caption": "UX研究SaaS项目公开展示素材",
-      "alt": "how-i-bootstrapped-a-1-8m-year-ux-research-software",
+      "caption": "UX研究SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "UX研究SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-bootstrapped-a-1-8m-year-ux-research-software",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/701/original/open-uri20220308-3-bvbt3z?1646765888",
-      "caption": "UX研究SaaS项目公开展示素材",
-      "alt": "how-i-bootstrapped-a-1-8m-year-ux-research-software",
+      "caption": "UX研究SaaS：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "UX研究SaaS：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-bootstrapped-a-1-8m-year-ux-research-software",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "UX研究SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-bootstrapped-a-1-8m-year-ux-research-software",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/2r0bmvunp6hplaeyu1t5rm1lcgma",
-      "caption": "UX研究SaaS项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-bootstrapped-a-1-8m-year-ux-research-software",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2194,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

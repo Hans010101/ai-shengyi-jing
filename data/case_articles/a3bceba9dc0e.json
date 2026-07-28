@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/1x0xcjdqlws3qldiqosis8g7cc00",
-      "caption": "数字钱包Finvault公开案例主图",
-      "alt": "数字钱包Finvault案例图片",
+      "caption": "数字钱包Finvault：通过交易手续费和订阅费盈利",
+      "alt": "数字钱包Finvault：通过交易手续费和订阅费盈利",
       "sourceUrl": "https://www.starterstory.com/stories/finvault",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/862/original/open-uri20220919-13-1osxw6f?1663569867",
-      "caption": "数字钱包Finvault项目公开展示素材",
-      "alt": "finvault",
+      "caption": "数字钱包Finvault：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "数字钱包Finvault：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/finvault",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/863/original/open-uri20220919-13-1ccn5m?1663569868",
-      "caption": "数字钱包Finvault项目公开展示素材",
-      "alt": "finvault",
+      "caption": "数字钱包Finvault：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "数字钱包Finvault：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/finvault",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/864/original/open-uri20220919-13-1eqea4y?1663569868",
-      "caption": "数字钱包Finvault项目公开展示素材",
-      "alt": "finvault",
+      "caption": "数字钱包Finvault：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "数字钱包Finvault：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/finvault",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/865/original/open-uri20220919-13-1leqinu?1663569869",
-      "caption": "数字钱包Finvault项目公开展示素材",
-      "alt": "finvault",
-      "sourceUrl": "https://www.starterstory.com/stories/finvault",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2187,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

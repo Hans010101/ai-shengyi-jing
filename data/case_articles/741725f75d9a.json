@@ -122,65 +122,33 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/btqxai6aotn8zihk05r8mgepi9tq",
-      "caption": "自定义短链接工具公开案例主图",
-      "alt": "自定义短链接工具案例图片",
+      "caption": "自定义短链接工具：通过添加CTA按钮引流变现",
+      "alt": "自定义短链接工具：通过添加CTA按钮引流变现",
       "sourceUrl": "https://www.starterstory.com/stories/we-created-a-tool-that-redirects-website-traffic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/980/original/open-uri20220128-3-17hzyfo?1643353211",
-      "caption": "自定义短链接工具项目公开展示素材",
-      "alt": "we-created-a-6-6m-year-tool-that-steals-website-traffic",
+      "caption": "自定义短链接工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "自定义短链接工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/we-created-a-tool-that-redirects-website-traffic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "自定义短链接工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/we-created-a-tool-that-redirects-website-traffic",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/3d0celdrs9ugtg77g37hjvvnmyhi",
-      "caption": "自定义短链接工具项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/we-created-a-tool-that-redirects-website-traffic",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/wsfthxo0bwxpga1da6eflodtgxay",
-      "caption": "自定义短链接工具项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/we-created-a-tool-that-redirects-website-traffic",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/skpbxgxhfhsv6svnkg1vz2ipd7g5",
-      "caption": "自定义短链接工具项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/we-created-a-tool-that-redirects-website-traffic",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/riK7cmdg4cc",
-      "caption": "自定义短链接工具项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=riK7cmdg4cc",
+      "caption": "自定义短链接工具资料中提及的视频：Where Did The Idea for Sniply Come From? | Michael Cheng",
+      "alt": "Where Did The Idea for Sniply Come From? | Michael Cheng",
       "sourceUrl": "https://www.starterstory.com/stories/we-created-a-tool-that-redirects-website-traffic",
       "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/riK7cmdg4cc/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -196,6 +164,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2188,
-    "mediaCount": 7
+    "mediaCount": 3
   }
 }

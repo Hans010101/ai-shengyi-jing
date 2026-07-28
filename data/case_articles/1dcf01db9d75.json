@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/er2vrh2o2dxumkkoxwgdx2xkk0m9",
-      "caption": "帮作者出书并营销公开案例主图",
-      "alt": "帮作者出书并营销案例图片",
+      "caption": "帮作者出书并营销：赚取服务费和分成",
+      "alt": "帮作者出书并营销：赚取服务费和分成",
       "sourceUrl": "https://www.starterstory.com/stories/paper-raven-books",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/518/original/open-uri20230517-51-11omon0?1684363220",
-      "caption": "帮作者出书并营销项目公开展示素材",
-      "alt": "paper-raven-books",
+      "caption": "帮作者出书并营销：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "帮作者出书并营销：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/paper-raven-books",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/519/original/open-uri20230517-51-1ou2hed?1684363220",
-      "caption": "帮作者出书并营销项目公开展示素材",
-      "alt": "paper-raven-books",
+      "caption": "帮作者出书并营销：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "帮作者出书并营销：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/paper-raven-books",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/520/original/open-uri20230517-51-10de5gv?1684363221",
-      "caption": "帮作者出书并营销项目公开展示素材",
-      "alt": "paper-raven-books",
+      "caption": "帮作者出书并营销：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "帮作者出书并营销：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/paper-raven-books",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/521/original/open-uri20230517-51-15wzgij?1684363222",
-      "caption": "帮作者出书并营销项目公开展示素材",
-      "alt": "paper-raven-books",
-      "sourceUrl": "https://www.starterstory.com/stories/paper-raven-books",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2174,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/puxsgegzr6ele3gn6imh1sq1hkmn",
-      "caption": "美国钓鱼向导预订平台公开案例主图",
-      "alt": "美国钓鱼向导预订平台案例图片",
+      "caption": "美国钓鱼向导预订平台：通过佣金和订阅费赚钱",
+      "alt": "美国钓鱼向导预订平台：通过佣金和订阅费赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/captain-experiences",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/885/original/open-uri20230409-51-1kh8xl8?1681075106",
-      "caption": "美国钓鱼向导预订平台项目公开展示素材",
-      "alt": "captain-experiences",
+      "caption": "美国钓鱼向导预订平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "美国钓鱼向导预订平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/captain-experiences",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/886/original/open-uri20230409-51-10obq1s?1681075108",
-      "caption": "美国钓鱼向导预订平台项目公开展示素材",
-      "alt": "captain-experiences",
+      "caption": "美国钓鱼向导预订平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "美国钓鱼向导预订平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/captain-experiences",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/887/original/open-uri20230409-51-ywjrc5?1681075109",
-      "caption": "美国钓鱼向导预订平台项目公开展示素材",
-      "alt": "captain-experiences",
+      "caption": "美国钓鱼向导预订平台：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "美国钓鱼向导预订平台：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/captain-experiences",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "美国钓鱼向导预订平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/captain-experiences",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2266,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

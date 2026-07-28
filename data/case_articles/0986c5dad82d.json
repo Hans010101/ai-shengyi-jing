@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/3stmxcnnobpjrhp42jpzqzjl3sz1",
-      "caption": "AI驱动的智能服装公开案例主图",
-      "alt": "AI驱动的智能服装案例图片",
+      "caption": "AI驱动的智能服装：帮助行动障碍者自由移动，通过硬件销售和订阅服务盈利",
+      "alt": "AI驱动的智能服装：帮助行动障碍者自由移动，通过硬件销售和订阅服务盈利",
       "sourceUrl": "https://www.starterstory.com/stories/cionic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/066/original/open-uri20220612-24-uk6q8a?1655046501",
-      "caption": "AI驱动的智能服装项目公开展示素材",
-      "alt": "cionic",
+      "caption": "AI驱动的智能服装：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI驱动的智能服装：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/cionic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/067/original/open-uri20220612-24-1hnuetx?1655046503",
-      "caption": "AI驱动的智能服装项目公开展示素材",
-      "alt": "cionic",
+      "caption": "AI驱动的智能服装：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "AI驱动的智能服装：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/cionic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/068/original/open-uri20220612-24-tmf26a?1655046504",
-      "caption": "AI驱动的智能服装项目公开展示素材",
-      "alt": "cionic",
+      "caption": "AI驱动的智能服装：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "AI驱动的智能服装：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/cionic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/069/original/open-uri20220612-24-mlphrz?1655046505",
-      "caption": "AI驱动的智能服装项目公开展示素材",
-      "alt": "cionic",
-      "sourceUrl": "https://www.starterstory.com/stories/cionic",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2205,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

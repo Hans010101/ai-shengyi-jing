@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/0zin2r2t6x6ai93dvuz2h4yiltzy",
-      "caption": "SEO代理商公开案例主图",
-      "alt": "SEO代理商案例图片",
+      "caption": "SEO代理商：为企业提供搜索引擎优化服务赚钱",
+      "alt": "SEO代理商：为企业提供搜索引擎优化服务赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/seo-hacker",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/897/original/open-uri20220606-12-12tkykd?1654535517",
-      "caption": "SEO代理商项目公开展示素材",
-      "alt": "seo-hacker",
+      "caption": "SEO代理商：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "SEO代理商：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/seo-hacker",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/898/original/open-uri20220606-12-wquihk?1654535518",
-      "caption": "SEO代理商项目公开展示素材",
-      "alt": "seo-hacker",
+      "caption": "SEO代理商：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "SEO代理商：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/seo-hacker",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/899/original/open-uri20220606-12-1ducogu?1654535518",
-      "caption": "SEO代理商项目公开展示素材",
-      "alt": "seo-hacker",
+      "caption": "SEO代理商：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "SEO代理商：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/seo-hacker",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/900/original/open-uri20220606-12-1bqcz0q?1654535519",
-      "caption": "SEO代理商项目公开展示素材",
-      "alt": "seo-hacker",
-      "sourceUrl": "https://www.starterstory.com/stories/seo-hacker",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2207,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

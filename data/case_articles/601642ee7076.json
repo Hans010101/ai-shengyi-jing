@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/tuaokrqut9tc7rlxqmqmy5hx7din",
-      "caption": "PPC广告代理公开案例主图",
-      "alt": "PPC广告代理案例图片",
+      "caption": "PPC广告代理：帮电商用付费流量获客，按月收服务费",
+      "alt": "PPC广告代理：帮电商用付费流量获客，按月收服务费",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-turned-my-jobs-on-upwork-into-a-full-scale-freelance-company",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/491/original/open-uri20190428-4-uxhqfs?1556431317",
-      "caption": "PPC广告代理项目公开展示素材",
-      "alt": "how-i-turned-jobs-on-upwork-into-a-full-scale-freelance-company",
+      "caption": "PPC广告代理：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "PPC广告代理：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-turned-my-jobs-on-upwork-into-a-full-scale-freelance-company",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "PPC广告代理项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-turned-my-jobs-on-upwork-into-a-full-scale-freelance-company",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "PPC广告代理项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-turned-my-jobs-on-upwork-into-a-full-scale-freelance-company",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/2r0bmvunp6hplaeyu1t5rm1lcgma",
-      "caption": "PPC广告代理项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-turned-my-jobs-on-upwork-into-a-full-scale-freelance-company",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2220,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

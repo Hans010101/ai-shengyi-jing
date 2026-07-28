@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/xr6kmhieaky56n0t58y9ryv4rjff",
-      "caption": "在线HTML编辑器公开案例主图",
-      "alt": "在线HTML编辑器案例图片",
+      "caption": "在线HTML编辑器：通过免费增值模式赚取订阅费",
+      "alt": "在线HTML编辑器：通过免费增值模式赚取订阅费",
       "sourceUrl": "https://www.starterstory.com/stories/htmlg",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/515/original/open-uri20220524-24-t8bxam?1653408518",
-      "caption": "在线HTML编辑器项目公开展示素材",
-      "alt": "htmlg",
+      "caption": "在线HTML编辑器：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "在线HTML编辑器：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/htmlg",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/516/original/open-uri20220524-24-1jey2c4?1653408518",
-      "caption": "在线HTML编辑器项目公开展示素材",
-      "alt": "htmlg",
+      "caption": "在线HTML编辑器：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "在线HTML编辑器：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/htmlg",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/517/original/open-uri20220524-24-1qu0b3a?1653408519",
-      "caption": "在线HTML编辑器项目公开展示素材",
-      "alt": "htmlg",
+      "caption": "在线HTML编辑器：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "在线HTML编辑器：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/htmlg",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/518/original/open-uri20220524-24-1jiayof?1653408519",
-      "caption": "在线HTML编辑器项目公开展示素材",
-      "alt": "htmlg",
-      "sourceUrl": "https://www.starterstory.com/stories/htmlg",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2217,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

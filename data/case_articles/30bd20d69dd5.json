@@ -122,56 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/5vrtqaxxi5eun1b34f7vjrgldbq4",
-      "caption": "为组织提供会员管理与销售SaaS公开案例主图",
-      "alt": "为组织提供会员管理与销售SaaS案例图片",
+      "caption": "为组织提供会员管理与销售SaaS：按月订阅收费",
+      "alt": "为组织提供会员管理与销售SaaS：按月订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/join-it-inc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为组织提供会员管理与销售SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/join-it-inc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "为组织提供会员管理与销售SaaS项目公开展示素材",
-      "alt": "为组织提供会员管理与销售SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/join-it-inc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/dvithrg7zcn51mk81s7sw6btbew2",
-      "caption": "为组织提供会员管理与销售SaaS项目公开展示素材",
-      "alt": "为组织提供会员管理与销售SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/join-it-inc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/hkfg10lkjnxo3v96pvq6etuqx9v6",
-      "caption": "为组织提供会员管理与销售SaaS项目公开展示素材",
-      "alt": "为组织提供会员管理与销售SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/join-it-inc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/29vt5os42i7cmkwo9csxggah1jz9",
-      "caption": "为组织提供会员管理与销售SaaS项目公开展示素材",
-      "alt": "为组织提供会员管理与销售SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/join-it-inc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -186,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2179,
-    "mediaCount": 6
+    "mediaCount": 1
   }
 }

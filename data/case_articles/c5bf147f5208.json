@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/9y8as991zcyns5npfdn163h4x9u9",
-      "caption": "AI驱动的电商增长平台公开案例主图",
-      "alt": "AI驱动的电商增长平台案例图片",
+      "caption": "AI驱动的电商增长平台：通过SaaS订阅收费",
+      "alt": "AI驱动的电商增长平台：通过SaaS订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/xena-intelligence",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/671/original/open-uri20221025-12-78fl7k?1666666325",
-      "caption": "AI驱动的电商增长平台项目公开展示素材",
-      "alt": "xena-intelligence",
+      "caption": "AI驱动的电商增长平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI驱动的电商增长平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/xena-intelligence",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/672/original/open-uri20221025-12-10jb190?1666666327",
-      "caption": "AI驱动的电商增长平台项目公开展示素材",
-      "alt": "xena-intelligence",
+      "caption": "AI驱动的电商增长平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI驱动的电商增长平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/xena-intelligence",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/673/original/open-uri20221025-12-1rfg4q6?1666666328",
-      "caption": "AI驱动的电商增长平台项目公开展示素材",
-      "alt": "xena-intelligence",
+      "caption": "AI驱动的电商增长平台：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "AI驱动的电商增长平台：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/xena-intelligence",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI驱动的电商增长平台项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/BP9TmD_CrZk",
+      "watchUrl": "https://www.youtube.com/watch?v=BP9TmD_CrZk",
+      "caption": "AI驱动的电商增长平台资料中提及的视频：What is Xena",
+      "alt": "What is Xena",
       "sourceUrl": "https://www.starterstory.com/stories/xena-intelligence",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/BP9TmD_CrZk/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

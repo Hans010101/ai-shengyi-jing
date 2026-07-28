@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/8g5i1wph50wo8bdqbmvrtl9rfrxy",
-      "caption": "手工皂品牌公开案例主图",
-      "alt": "手工皂品牌案例图片",
+      "caption": "手工皂品牌：通过线上销售和内容营销向中年女性变现",
+      "alt": "手工皂品牌：通过线上销售和内容营销向中年女性变现",
       "sourceUrl": "https://www.starterstory.com/stories/the-purple-sage",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/424/original/open-uri20220628-24-12p0f62?1656432959",
-      "caption": "手工皂品牌项目公开展示素材",
-      "alt": "the-purple-sage",
+      "caption": "手工皂品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "手工皂品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/the-purple-sage",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/425/original/open-uri20220628-24-1plwro4?1656432960",
-      "caption": "手工皂品牌项目公开展示素材",
-      "alt": "the-purple-sage",
+      "caption": "手工皂品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "手工皂品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/the-purple-sage",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/426/original/open-uri20220628-24-newhs1?1656432961",
-      "caption": "手工皂品牌项目公开展示素材",
-      "alt": "the-purple-sage",
+      "caption": "手工皂品牌：创业复盘与关键经验相关原始配图（第3张）",
+      "alt": "手工皂品牌：创业复盘与关键经验相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/the-purple-sage",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "手工皂品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/the-purple-sage",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c303bjznv93yxnh0xxz7t4vfedzf",
-      "caption": "手工皂品牌项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/the-purple-sage",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2194,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

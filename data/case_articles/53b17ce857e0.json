@@ -122,56 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/kq8d9z17s0hcfdacq3x7h4v6iji4",
-      "caption": "NFL新闻通讯订阅公开案例主图",
-      "alt": "NFL新闻通讯订阅案例图片",
+      "caption": "NFL新闻通讯订阅：通过Substack提供深度分析赚取订阅费",
+      "alt": "NFL新闻通讯订阅：通过Substack提供深度分析赚取订阅费",
       "sourceUrl": "https://www.starterstory.com/stories/chief-in-the-north-newsletter",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/710/original/open-uri20220531-24-igcpsr?1654022033",
-      "caption": "NFL新闻通讯订阅项目公开展示素材",
-      "alt": "chief-in-the-north-newsletter",
+      "caption": "NFL新闻通讯订阅：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "NFL新闻通讯订阅：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/chief-in-the-north-newsletter",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "NFL新闻通讯订阅项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/chief-in-the-north-newsletter",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/jvhrreihstwyb6gp52497zn3ee5m",
-      "caption": "NFL新闻通讯订阅项目公开展示素材",
-      "alt": "NFL新闻通讯订阅项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/chief-in-the-north-newsletter",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/33phd3lfchpci9uio1sqqlyvic4f",
-      "caption": "NFL新闻通讯订阅项目公开展示素材",
-      "alt": "NFL新闻通讯订阅项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/chief-in-the-north-newsletter",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/4x2o0ouaziq4doxstuqiob6bqpzd",
-      "caption": "NFL新闻通讯订阅项目公开展示素材",
-      "alt": "NFL新闻通讯订阅项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/chief-in-the-north-newsletter",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2207,
-    "mediaCount": 6
+    "mediaCount": 2
   }
 }

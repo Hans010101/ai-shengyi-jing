@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/n8jahwd1hacsyq31j9wug1j80frs",
-      "caption": "为自由职业者提供一体化业务管理SaaS公开案例主图",
-      "alt": "为自由职业者提供一体化业务管理SaaS案例图片",
+      "caption": "为自由职业者提供一体化业务管理SaaS：通过订阅制收费",
+      "alt": "为自由职业者提供一体化业务管理SaaS：通过订阅制收费",
       "sourceUrl": "https://www.starterstory.com/stories/workee",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/043/original/open-uri20220930-12-1ha5ina?1664535865",
-      "caption": "为自由职业者提供一体化业务管理SaaS项目公开展示素材",
-      "alt": "workee",
+      "caption": "为自由职业者提供一体化业务管理SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为自由职业者提供一体化业务管理SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/workee",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/044/original/open-uri20220930-12-1j7wtks?1664535866",
-      "caption": "为自由职业者提供一体化业务管理SaaS项目公开展示素材",
-      "alt": "workee",
+      "caption": "为自由职业者提供一体化业务管理SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "为自由职业者提供一体化业务管理SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/workee",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/045/original/open-uri20220930-12-1eho8k?1664535867",
-      "caption": "为自由职业者提供一体化业务管理SaaS项目公开展示素材",
-      "alt": "workee",
+      "caption": "为自由职业者提供一体化业务管理SaaS：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "为自由职业者提供一体化业务管理SaaS：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/workee",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/046/original/open-uri20220930-12-c9u5kc?1664535867",
-      "caption": "为自由职业者提供一体化业务管理SaaS项目公开展示素材",
-      "alt": "workee",
-      "sourceUrl": "https://www.starterstory.com/stories/workee",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2304,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

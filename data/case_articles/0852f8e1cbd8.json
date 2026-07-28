@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/j3kg7a26yg1v6cb8sxtlhlimbwjk",
-      "caption": "网红与电商品牌联名推出创新体育用品公开案例主图",
-      "alt": "网红与电商品牌联名推出创新体育用品案例图片",
+      "caption": "网红与电商品牌联名推出创新体育用品：通过内容营销和品牌合作实现高营收",
+      "alt": "网红与电商品牌联名推出创新体育用品：通过内容营销和品牌合作实现高营收",
       "sourceUrl": "https://www.starterstory.com/stories/good-sport",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/006/original/open-uri20230124-24-1v10rmo?1674566257",
-      "caption": "网红与电商品牌联名推出创新体育用品项目公开展示素材",
-      "alt": "good-sport",
+      "caption": "网红与电商品牌联名推出创新体育用品：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "网红与电商品牌联名推出创新体育用品：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/good-sport",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/007/original/open-uri20230124-24-1s2rig5?1674566259",
-      "caption": "网红与电商品牌联名推出创新体育用品项目公开展示素材",
-      "alt": "good-sport",
+      "caption": "网红与电商品牌联名推出创新体育用品：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "网红与电商品牌联名推出创新体育用品：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/good-sport",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "网红与电商品牌联名推出创新体育用品项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/good-sport",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/or09f2lfiia7lnht2q5ydyd20833/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "网红与电商品牌联名推出创新体育用品项目公开展示素材",
-      "alt": "网红与电商品牌联名推出创新体育用品项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/good-sport",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2205,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

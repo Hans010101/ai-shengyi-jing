@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/cehgy9rhvzefddtb75q2rsig2tj7",
-      "caption": "销售衬衫领撑的小众产品公开案例主图",
-      "alt": "销售衬衫领撑的小众产品案例图片",
+      "caption": "销售衬衫领撑的小众产品：通过DTC电商订阅模式盈利",
+      "alt": "销售衬衫领撑的小众产品：通过DTC电商订阅模式盈利",
       "sourceUrl": "https://www.starterstory.com/stories/million-dollar-collar",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/056/original/open-uri20220430-24-1g0v4e3?1651331754",
-      "caption": "销售衬衫领撑的小众产品项目公开展示素材",
-      "alt": "million-dollar-collar",
+      "caption": "销售衬衫领撑的小众产品：原始案例中的产品与运营配图（第1张）",
+      "alt": "销售衬衫领撑的小众产品：原始案例中的产品与运营配图（第1张）",
       "sourceUrl": "https://www.starterstory.com/stories/million-dollar-collar",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "销售衬衫领撑的小众产品项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/million-dollar-collar",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/w4stw5wtsgmq5u23otc0cudjxnjg",
-      "caption": "销售衬衫领撑的小众产品项目公开展示素材",
-      "alt": "销售衬衫领撑的小众产品项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/million-dollar-collar",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/1qxt58976pp69dwug3p7ifphuhne",
-      "caption": "销售衬衫领撑的小众产品项目公开展示素材",
-      "alt": "销售衬衫领撑的小众产品项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/million-dollar-collar",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2237,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

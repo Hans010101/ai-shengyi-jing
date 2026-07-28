@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ip4c1mt7taeykl1fupc59ljgwlx7",
-      "caption": "海外内容/媒体项目公开案例主图",
-      "alt": "海外内容/媒体项目案例图片",
+      "caption": "海外内容/媒体项目：通过Excel教程网站和在线课程盈利",
+      "alt": "海外内容/媒体项目：通过Excel教程网站和在线课程盈利",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-profitable-business-helping-millions-of-people-learn-excel",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/430/original/open-uri20190418-4-q69gu8?1555570039",
-      "caption": "海外内容/媒体项目项目公开展示素材",
-      "alt": "how-i-started-a-profitable-business-helping-millions-of-people-learn-excel",
+      "caption": "海外内容/媒体项目：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "海外内容/媒体项目：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-profitable-business-helping-millions-of-people-learn-excel",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/431/original/open-uri20190418-4-1vzp6lv?1555570040",
-      "caption": "海外内容/媒体项目项目公开展示素材",
-      "alt": "how-i-started-a-profitable-business-helping-millions-of-people-learn-excel",
+      "caption": "海外内容/媒体项目：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "海外内容/媒体项目：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-profitable-business-helping-millions-of-people-learn-excel",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/432/original/open-uri20190418-4-e7dbdj?1555570040",
-      "caption": "海外内容/媒体项目项目公开展示素材",
-      "alt": "how-i-started-a-profitable-business-helping-millions-of-people-learn-excel",
+      "caption": "海外内容/媒体项目：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "海外内容/媒体项目：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-profitable-business-helping-millions-of-people-learn-excel",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/433/original/open-uri20190418-4-c2tx91?1555570040",
-      "caption": "海外内容/媒体项目项目公开展示素材",
-      "alt": "how-i-started-a-profitable-business-helping-millions-of-people-learn-excel",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-profitable-business-helping-millions-of-people-learn-excel",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2202,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

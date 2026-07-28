@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/52n6vfvfc1huz6jk2jxxon70opqz",
-      "caption": "礼品盒订阅服务公开案例主图",
-      "alt": "礼品盒订阅服务案例图片",
+      "caption": "礼品盒订阅服务：通过销售主题礼品盒赚钱",
+      "alt": "礼品盒订阅服务：通过销售主题礼品盒赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/confete-party",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/294/original/open-uri20221009-12-n3fcbr?1665285694",
-      "caption": "礼品盒订阅服务项目公开展示素材",
-      "alt": "confete-party",
+      "caption": "礼品盒订阅服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "礼品盒订阅服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/confete-party",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/295/original/open-uri20221009-12-1awdcwi?1665285696",
-      "caption": "礼品盒订阅服务项目公开展示素材",
-      "alt": "confete-party",
+      "caption": "礼品盒订阅服务：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "礼品盒订阅服务：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/confete-party",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/296/original/open-uri20221009-12-c1802a?1665285698",
-      "caption": "礼品盒订阅服务项目公开展示素材",
-      "alt": "confete-party",
+      "caption": "礼品盒订阅服务：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "礼品盒订阅服务：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/confete-party",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/297/original/open-uri20221009-12-fszm5e?1665285700",
-      "caption": "礼品盒订阅服务项目公开展示素材",
-      "alt": "confete-party",
-      "sourceUrl": "https://www.starterstory.com/stories/confete-party",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2175,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

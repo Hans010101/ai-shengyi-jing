@@ -122,47 +122,34 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/7ut021ba78evrlwcvnmia2ix1h81",
-      "caption": "在线销售实验室培育钻石珠宝公开案例主图",
-      "alt": "在线销售实验室培育钻石珠宝案例图片",
+      "caption": "在线销售实验室培育钻石珠宝：通过高性价比和环保概念盈利",
+      "alt": "在线销售实验室培育钻石珠宝：通过高性价比和环保概念盈利",
       "sourceUrl": "https://www.starterstory.com/stories/luminesce-diamonds",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/513/original/open-uri20220711-24-14kcbq0?1657546539",
-      "caption": "在线销售实验室培育钻石珠宝项目公开展示素材",
-      "alt": "luminesce-diamonds",
+      "caption": "在线销售实验室培育钻石珠宝：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "在线销售实验室培育钻石珠宝：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/luminesce-diamonds",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "在线销售实验室培育钻石珠宝项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/LoD43VvKOPo",
+      "watchUrl": "https://www.youtube.com/watch?v=LoD43VvKOPo",
+      "caption": "在线销售实验室培育钻石珠宝资料中提及的视频：What Is A Lab Grown Diamond? | Luminesce",
+      "alt": "What Is A Lab Grown Diamond? | Luminesce",
       "sourceUrl": "https://www.starterstory.com/stories/luminesce-diamonds",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/nv7gkm4wgmfa6j4m71u3o40678wo",
-      "caption": "在线销售实验室培育钻石珠宝项目公开展示素材",
-      "alt": "在线销售实验室培育钻石珠宝项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/luminesce-diamonds",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/y89c5wtewkmn2a1hr38cc16bk2v4",
-      "caption": "在线销售实验室培育钻石珠宝项目公开展示素材",
-      "alt": "在线销售实验室培育钻石珠宝项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/luminesce-diamonds",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/LoD43VvKOPo/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +164,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2254,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

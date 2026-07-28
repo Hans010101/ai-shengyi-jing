@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/7hv99eydo7wuyde61d6mz9356uzi",
-      "caption": "为SaaS公司提供定价咨询服务公开案例主图",
-      "alt": "为SaaS公司提供定价咨询服务案例图片",
+      "caption": "为SaaS公司提供定价咨询服务：按项目收费",
+      "alt": "为SaaS公司提供定价咨询服务：按项目收费",
       "sourceUrl": "https://www.starterstory.com/stories/pricing-i-o",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/011/original/open-uri20220929-12-z1h6xn?1664422960",
-      "caption": "为SaaS公司提供定价咨询服务项目公开展示素材",
-      "alt": "pricing-i-o",
+      "caption": "为SaaS公司提供定价咨询服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为SaaS公司提供定价咨询服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/pricing-i-o",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/012/original/open-uri20220929-12-1kwxt8d?1664422961",
-      "caption": "为SaaS公司提供定价咨询服务项目公开展示素材",
-      "alt": "pricing-i-o",
+      "caption": "为SaaS公司提供定价咨询服务：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "为SaaS公司提供定价咨询服务：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/pricing-i-o",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/013/original/open-uri20220929-12-17popw0?1664422961",
-      "caption": "为SaaS公司提供定价咨询服务项目公开展示素材",
-      "alt": "pricing-i-o",
+      "caption": "为SaaS公司提供定价咨询服务：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "为SaaS公司提供定价咨询服务：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/pricing-i-o",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/014/original/open-uri20220929-12-2si05j?1664422962",
-      "caption": "为SaaS公司提供定价咨询服务项目公开展示素材",
-      "alt": "pricing-i-o",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/yV87vlaKhCI",
+      "watchUrl": "https://www.youtube.com/watch?v=yV87vlaKhCI",
+      "caption": "为SaaS公司提供定价咨询服务资料中提及的视频：Design the Right Pricing Model!",
+      "alt": "Design the Right Pricing Model!",
       "sourceUrl": "https://www.starterstory.com/stories/pricing-i-o",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/yV87vlaKhCI/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

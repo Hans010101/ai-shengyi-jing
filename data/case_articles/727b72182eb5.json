@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ikvwq54aieehn26fscshi33l2u1m",
-      "caption": "SaaStr是SaaS创业者社区公开案例主图",
-      "alt": "SaaStr是SaaS创业者社区案例图片",
+      "caption": "SaaStr是SaaS创业者社区：通过会员订阅和活动赞助盈利",
+      "alt": "SaaStr是SaaS创业者社区：通过会员订阅和活动赞助盈利",
       "sourceUrl": "https://www.starterstory.com/businesses/saastr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "SaaStr是SaaS创业者社区项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/saastr",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/tl86t0ef4qkogtz0ohvmq1okgajv",
-      "caption": "SaaStr是SaaS创业者社区项目公开展示素材",
-      "alt": "SaaStr logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/saastr",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/eqt55tesnq1atsgnujrm2ugi96ev/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "SaaStr是SaaS创业者社区项目公开展示素材",
-      "alt": "Marketo",
-      "sourceUrl": "https://www.starterstory.com/businesses/saastr",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/yzwcofug5jdzgxughelpace4tl6a/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "SaaStr是SaaS创业者社区项目公开展示素材",
-      "alt": "Slack",
-      "sourceUrl": "https://www.starterstory.com/businesses/saastr",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2321,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

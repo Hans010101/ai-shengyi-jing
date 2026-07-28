@@ -122,47 +122,56 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/f3nqmkc3mlu9jjvxiiig7n5mnp5y",
-      "caption": "户外狩猎渔具品牌公开案例主图",
-      "alt": "户外狩猎渔具品牌案例图片",
+      "caption": "户外狩猎渔具品牌：通过电视营销提升销售",
+      "alt": "户外狩猎渔具品牌：通过电视营销提升销售",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-sales-due-to-our-appearance-on-shark-tank",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/998/original/open-uri20210730-3-1k3sy1a?1627646824",
-      "caption": "户外狩猎渔具品牌项目公开展示素材",
-      "alt": "how-we-increased-sales-due-to-our-appearance-on-shark-tank",
+      "caption": "户外狩猎渔具品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "户外狩猎渔具品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-sales-due-to-our-appearance-on-shark-tank",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/999/original/open-uri20210730-3-nlqdf2?1627646824",
-      "caption": "户外狩猎渔具品牌项目公开展示素材",
-      "alt": "how-we-increased-sales-due-to-our-appearance-on-shark-tank",
+      "caption": "户外狩猎渔具品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "户外狩猎渔具品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-sales-due-to-our-appearance-on-shark-tank",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "户外狩猎渔具品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/IsoRomKB4yU",
+      "watchUrl": "https://www.youtube.com/watch?v=IsoRomKB4yU",
+      "caption": "户外狩猎渔具品牌资料中提及的视频：Muff 'Spenders - Kickstarter",
+      "alt": "Muff 'Spenders - Kickstarter",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-sales-due-to-our-appearance-on-shark-tank",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/IsoRomKB4yU/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c303bjznv93yxnh0xxz7t4vfedzf",
-      "caption": "户外狩猎渔具品牌项目公开展示素材",
-      "alt": "tool-icon",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/alVFCJXTNhc",
+      "watchUrl": "https://www.youtube.com/watch?v=alVFCJXTNhc",
+      "caption": "户外狩猎渔具品牌：创始人、核心产品与品牌起点相关视频",
+      "alt": "户外狩猎渔具品牌相关视频",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-sales-due-to-our-appearance-on-shark-tank",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/alVFCJXTNhc/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

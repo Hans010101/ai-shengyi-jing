@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/zfiberpmcx5b2pmiarxht2i5u19t",
-      "caption": "定制球鞋品牌公开案例主图",
-      "alt": "定制球鞋品牌案例图片",
+      "caption": "定制球鞋品牌：通过个性化设计和销售赚取收入",
+      "alt": "定制球鞋品牌：通过个性化设计和销售赚取收入",
       "sourceUrl": "https://www.starterstory.com/stories/wokecustoms",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/872/original/open-uri20230925-48-1adb8xm?1695607863",
-      "caption": "定制球鞋品牌项目公开展示素材",
-      "alt": "wokecustoms",
+      "caption": "定制球鞋品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "定制球鞋品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/wokecustoms",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "定制球鞋品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/wokecustoms",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c303bjznv93yxnh0xxz7t4vfedzf",
-      "caption": "定制球鞋品牌项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/wokecustoms",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ddw17y2p9pisyf3lv70vhxx0tfv5",
-      "caption": "定制球鞋品牌项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/wokecustoms",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2198,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

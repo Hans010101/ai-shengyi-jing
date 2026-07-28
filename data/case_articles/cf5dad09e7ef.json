@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/g6q25eb2l2ysq8jx61upxajqzcjt",
-      "caption": "NFT+低糖苏打公开案例主图",
-      "alt": "NFT+低糖苏打案例图片",
+      "caption": "NFT+低糖苏打：会员订阅与代币激励结合",
+      "alt": "NFT+低糖苏打：会员订阅与代币激励结合",
       "sourceUrl": "https://www.starterstory.com/stories/perfy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/190/original/open-uri20220821-12-1ddcqj1?1661094706",
-      "caption": "NFT+低糖苏打项目公开展示素材",
-      "alt": "perfy",
+      "caption": "NFT+低糖苏打：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "NFT+低糖苏打：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/perfy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/191/original/open-uri20220821-12-1i7t42r?1661094707",
-      "caption": "NFT+低糖苏打项目公开展示素材",
-      "alt": "perfy",
+      "caption": "NFT+低糖苏打：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "NFT+低糖苏打：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/perfy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "NFT+低糖苏打项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/perfy",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c303bjznv93yxnh0xxz7t4vfedzf",
-      "caption": "NFT+低糖苏打项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/perfy",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2219,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

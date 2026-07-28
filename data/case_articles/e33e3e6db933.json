@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/01i3sy167aflyfu7ehr18ao0hes1",
-      "caption": "AI驱动的营销分析平台公开案例主图",
-      "alt": "AI驱动的营销分析平台案例图片",
+      "caption": "AI驱动的营销分析平台：按月订阅收费",
+      "alt": "AI驱动的营销分析平台：按月订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/catch-let-s-catch-money-together",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI驱动的营销分析平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/catch-let-s-catch-money-together",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/nbp8q26482p2vyt2vz9vaa4vc507",
-      "caption": "AI驱动的营销分析平台项目公开展示素材",
-      "alt": "article",
+      "caption": "AI驱动的营销分析平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI驱动的营销分析平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/catch-let-s-catch-money-together",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/q9jquuxiuwx7qd9knv9cttiis5a4",
-      "caption": "AI驱动的营销分析平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/catch-let-s-catch-money-together",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/gruodz6awwpgobzymouxd1zybn7o",
-      "caption": "AI驱动的营销分析平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/catch-let-s-catch-money-together",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2222,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

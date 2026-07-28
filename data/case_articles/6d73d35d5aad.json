@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/c9t2gfa385243g0wzkzbv4dv87je",
-      "caption": "提供飞行体验旅游服务公开案例主图",
-      "alt": "提供飞行体验旅游服务案例图片",
+      "caption": "提供飞行体验旅游服务：通过包机观光盈利",
+      "alt": "提供飞行体验旅游服务：通过包机观光盈利",
       "sourceUrl": "https://www.starterstory.com/stories/envi-adventures",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/389/original/open-uri20220331-3-1mjrkpk?1648757527",
-      "caption": "提供飞行体验旅游服务项目公开展示素材",
-      "alt": "envi-adventures",
+      "caption": "提供飞行体验旅游服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "提供飞行体验旅游服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/envi-adventures",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/390/original/open-uri20220331-3-lw59bb?1648757528",
-      "caption": "提供飞行体验旅游服务项目公开展示素材",
-      "alt": "envi-adventures",
+      "caption": "提供飞行体验旅游服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "提供飞行体验旅游服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/envi-adventures",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/391/original/open-uri20220331-3-1l45823?1648757528",
-      "caption": "提供飞行体验旅游服务项目公开展示素材",
-      "alt": "envi-adventures",
+      "caption": "提供飞行体验旅游服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "提供飞行体验旅游服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/envi-adventures",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/392/original/open-uri20220331-3-epfsh2?1648757528",
-      "caption": "提供飞行体验旅游服务项目公开展示素材",
-      "alt": "envi-adventures",
-      "sourceUrl": "https://www.starterstory.com/stories/envi-adventures",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/393/original/open-uri20220331-3-19sgg58?1648757529",
-      "caption": "提供飞行体验旅游服务项目公开展示素材",
-      "alt": "envi-adventures",
-      "sourceUrl": "https://www.starterstory.com/stories/envi-adventures",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2103,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

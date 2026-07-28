@@ -121,57 +121,33 @@
   "media": [
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "出售可定制后台模板和UI套件项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/themeselection",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/css25p2wk4w85yal2om2nt5btn1s",
-      "caption": "出售可定制后台模板和UI套件项目公开展示素材",
-      "alt": "article",
+      "caption": "出售可定制后台模板和UI套件：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "出售可定制后台模板和UI套件：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/themeselection",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/d7f7c143abeffe18",
-      "caption": "出售可定制后台模板和UI套件项目公开展示素材",
-      "alt": "article",
+      "caption": "出售可定制后台模板和UI套件：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "出售可定制后台模板和UI套件：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/themeselection",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/c04851812e956a7f",
-      "caption": "出售可定制后台模板和UI套件项目公开展示素材",
-      "alt": "article",
+      "caption": "出售可定制后台模板和UI套件：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "出售可定制后台模板和UI套件：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/themeselection",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/f7mvbl2qoqohnbgzv75u3n9yzi3r",
-      "caption": "出售可定制后台模板和UI套件项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/themeselection",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/mve3ffmwmstwm3mhuw80e292d8u3",
-      "caption": "出售可定制后台模板和UI套件项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/themeselection",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2239,
-    "mediaCount": 6
+    "mediaCount": 3
   }
 }

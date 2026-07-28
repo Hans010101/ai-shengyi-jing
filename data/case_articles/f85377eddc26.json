@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/3aukp2i2gh24h998vo436ksc7pxl",
-      "caption": "简单电商工具公开案例主图",
-      "alt": "简单电商工具案例图片",
+      "caption": "简单电商工具：帮创作者卖数字产品，抽成赚钱",
+      "alt": "简单电商工具：帮创作者卖数字产品，抽成赚钱",
       "sourceUrl": "https://www.starterstory.com/businesses/gumroad",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "简单电商工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/gumroad",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/fcb78hly4tdce9a3txenu5airn9g",
-      "caption": "简单电商工具项目公开展示素材",
-      "alt": "Gumroad logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/gumroad",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/y3hvbgo0mlaodzmdc54r7la2xdk4/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "简单电商工具项目公开展示素材",
-      "alt": "Sahil Lavingia",
-      "sourceUrl": "https://www.starterstory.com/businesses/gumroad",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/yzwcofug5jdzgxughelpace4tl6a/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "简单电商工具项目公开展示素材",
-      "alt": "Slack",
-      "sourceUrl": "https://www.starterstory.com/businesses/gumroad",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2222,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

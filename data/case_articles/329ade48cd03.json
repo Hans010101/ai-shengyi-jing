@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/9yoyawuu5jopfl2h5yc5i2gfzr68",
-      "caption": "虚拟助理中介平台公开案例主图",
-      "alt": "虚拟助理中介平台案例图片",
+      "caption": "虚拟助理中介平台：连接企业与远程助理赚取服务费",
+      "alt": "虚拟助理中介平台：连接企业与远程助理赚取服务费",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-grew-my-home-gig-into-a-1-4m-year-virtual-assistant-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/840/original/open-uri20211110-3-1q6ddnn?1636583955",
-      "caption": "虚拟助理中介平台项目公开展示素材",
-      "alt": "how-i-grew-my-home-gig-into-a-1-4m-year-virtual-assistant-agency",
+      "caption": "虚拟助理中介平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "虚拟助理中介平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-grew-my-home-gig-into-a-1-4m-year-virtual-assistant-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/841/original/open-uri20211110-3-82gofa?1636583955",
-      "caption": "虚拟助理中介平台项目公开展示素材",
-      "alt": "how-i-grew-my-home-gig-into-a-1-4m-year-virtual-assistant-agency",
+      "caption": "虚拟助理中介平台：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "虚拟助理中介平台：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-grew-my-home-gig-into-a-1-4m-year-virtual-assistant-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/842/original/open-uri20211110-3-10an9x7?1636583956",
-      "caption": "虚拟助理中介平台项目公开展示素材",
-      "alt": "how-i-grew-my-home-gig-into-a-1-4m-year-virtual-assistant-agency",
+      "caption": "虚拟助理中介平台：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "虚拟助理中介平台：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-grew-my-home-gig-into-a-1-4m-year-virtual-assistant-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "虚拟助理中介平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-grew-my-home-gig-into-a-1-4m-year-virtual-assistant-agency",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2213,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

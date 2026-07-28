@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/6qdmdlqtfnja1qxbo2tgj0hyyhlg",
-      "caption": "AI咨询公司公开案例主图",
-      "alt": "AI咨询公司案例图片",
+      "caption": "AI咨询公司：为企业定制ML和数据工程方案赚取服务费",
+      "alt": "AI咨询公司：为企业定制ML和数据工程方案赚取服务费",
       "sourceUrl": "https://www.starterstory.com/stories/we-built-a-1-26m-year-ai-consulting-business-over-30-employees",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/681/original/open-uri20211030-3-1awe83y?1635622632",
-      "caption": "AI咨询公司项目公开展示素材",
-      "alt": "we-built-a-1-26m-year-ai-consulting-business-over-30-employees",
+      "caption": "AI咨询公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI咨询公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/we-built-a-1-26m-year-ai-consulting-business-over-30-employees",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/682/original/open-uri20211030-3-1fsvdrq?1635622632",
-      "caption": "AI咨询公司项目公开展示素材",
-      "alt": "we-built-a-1-26m-year-ai-consulting-business-over-30-employees",
+      "caption": "AI咨询公司：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "AI咨询公司：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-built-a-1-26m-year-ai-consulting-business-over-30-employees",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI咨询公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/we-built-a-1-26m-year-ai-consulting-business-over-30-employees",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/cr7f89gdqn58r9mv5eyu8i5eteal",
-      "caption": "AI咨询公司项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/we-built-a-1-26m-year-ai-consulting-business-over-30-employees",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2254,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

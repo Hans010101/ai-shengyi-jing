@@ -122,56 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/8ac3bf3fyvcj8nar7wz2mn5lb303",
-      "caption": "个人理财博客公开案例主图",
-      "alt": "个人理财博客案例图片",
+      "caption": "个人理财博客：通过广告和联盟营销赚钱",
+      "alt": "个人理财博客：通过广告和联盟营销赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/how-our-research-got-featured-on-forbes",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/694/original/open-uri20201101-4-sns9l9?1604239003",
-      "caption": "个人理财博客项目公开展示素材",
-      "alt": "how-our-research-studies-got-featured-on-forbes",
+      "caption": "个人理财博客：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "个人理财博客：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-our-research-got-featured-on-forbes",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/695/original/open-uri20201101-4-1xbjyl8?1604239003",
-      "caption": "个人理财博客项目公开展示素材",
-      "alt": "how-our-research-studies-got-featured-on-forbes",
+      "caption": "个人理财博客：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "个人理财博客：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-our-research-got-featured-on-forbes",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "个人理财博客项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-our-research-got-featured-on-forbes",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "个人理财博客项目公开展示素材",
-      "alt": "个人理财博客项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-our-research-got-featured-on-forbes",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/b6tkfwams9acacoldo403fv7scnw",
-      "caption": "个人理财博客项目公开展示素材",
-      "alt": "个人理财博客项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-our-research-got-featured-on-forbes",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2139,
-    "mediaCount": 6
+    "mediaCount": 3
   }
 }

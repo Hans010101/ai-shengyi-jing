@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/9azscnrfnra1p89w228h4xdsjlf1",
-      "caption": "为SaaS公司制作对比页公开案例主图",
-      "alt": "为SaaS公司制作对比页案例图片",
+      "caption": "为SaaS公司制作对比页：每月赚1.2万美元",
+      "alt": "为SaaS公司制作对比页：每月赚1.2万美元",
       "sourceUrl": "https://www.starterstory.com/stories/stack-against",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/812/original/open-uri20221030-12-5hukyd?1667101869",
-      "caption": "为SaaS公司制作对比页项目公开展示素材",
-      "alt": "stack-against",
+      "caption": "为SaaS公司制作对比页：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为SaaS公司制作对比页：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/stack-against",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/813/original/open-uri20221030-12-5682aq?1667101869",
-      "caption": "为SaaS公司制作对比页项目公开展示素材",
-      "alt": "stack-against",
+      "caption": "为SaaS公司制作对比页：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "为SaaS公司制作对比页：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/stack-against",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/814/original/open-uri20221030-12-1ez8ih6?1667101870",
-      "caption": "为SaaS公司制作对比页项目公开展示素材",
-      "alt": "stack-against",
+      "caption": "为SaaS公司制作对比页：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "为SaaS公司制作对比页：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/stack-against",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/815/original/open-uri20221030-12-1x6sqhi?1667101871",
-      "caption": "为SaaS公司制作对比页项目公开展示素材",
-      "alt": "stack-against",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/oa5LOpuqd9M",
+      "watchUrl": "https://www.youtube.com/watch?v=oa5LOpuqd9M",
+      "caption": "为SaaS公司制作对比页资料中提及的视频：Building Comparison Pages | Competitive Enablement Show LIVE - Ep. 2",
+      "alt": "Building Comparison Pages | Competitive Enablement Show LIVE - Ep. 2",
       "sourceUrl": "https://www.starterstory.com/stories/stack-against",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/oa5LOpuqd9M/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

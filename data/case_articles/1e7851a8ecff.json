@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/02tyikaetf3ssn85ggfbofjraf2f",
-      "caption": "STEM教育项目公开案例主图",
-      "alt": "STEM教育项目案例图片",
+      "caption": "STEM教育项目：通过线上线下课程和活动收费",
+      "alt": "STEM教育项目：通过线上线下课程和活动收费",
       "sourceUrl": "https://www.starterstory.com/stories/vsteam-education",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/608/original/open-uri20230524-63-8ficyv?1684917933",
-      "caption": "STEM教育项目项目公开展示素材",
-      "alt": "vsteam-education",
+      "caption": "STEM教育项目：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "STEM教育项目：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/vsteam-education",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/609/original/open-uri20230524-63-2cmuun?1684917934",
-      "caption": "STEM教育项目项目公开展示素材",
-      "alt": "vsteam-education",
+      "caption": "STEM教育项目：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "STEM教育项目：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/vsteam-education",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/610/original/open-uri20230524-63-1w6hb4f?1684917935",
-      "caption": "STEM教育项目项目公开展示素材",
-      "alt": "vsteam-education",
+      "caption": "STEM教育项目：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "STEM教育项目：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/vsteam-education",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "STEM教育项目项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/vsteam-education",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2219,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

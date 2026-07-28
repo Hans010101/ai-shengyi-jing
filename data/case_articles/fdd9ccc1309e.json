@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/hcrk2ocn7g4e46drhg1iagks4oub",
-      "caption": "每日商业资讯邮件公开案例主图",
-      "alt": "每日商业资讯邮件案例图片",
+      "caption": "每日商业资讯邮件：靠广告和赞助盈利",
+      "alt": "每日商业资讯邮件：靠广告和赞助盈利",
       "sourceUrl": "https://www.starterstory.com/stories/morning-brew-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "每日商业资讯邮件项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/morning-brew-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/ya9fzr1q2t8gacy8syfvavukn29y/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "每日商业资讯邮件项目公开展示素材",
-      "alt": "每日商业资讯邮件项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/morning-brew-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/972ce65a291a4bbb",
-      "caption": "每日商业资讯邮件项目公开展示素材",
-      "alt": "article",
+      "caption": "每日商业资讯邮件：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "每日商业资讯邮件：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/morning-brew-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/nv51xsptkvip1kpnxb0am7lirzdo",
-      "caption": "每日商业资讯邮件项目公开展示素材",
-      "alt": "article",
+      "caption": "每日商业资讯邮件：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "每日商业资讯邮件：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/morning-brew-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/6f7a233aa979a800",
+      "caption": "每日商业资讯邮件：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "每日商业资讯邮件：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/morning-brew-breakdown",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/gDOgKr-_Si0",
+      "watchUrl": "https://www.youtube.com/watch?v=gDOgKr-_Si0",
+      "caption": "每日商业资讯邮件资料中提及的视频：Alex Lieberman - Building a 3M Subscriber Media Empire",
+      "alt": "Alex Lieberman - Building a 3M Subscriber Media Empire",
+      "sourceUrl": "https://www.starterstory.com/stories/morning-brew-breakdown",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/gDOgKr-_Si0/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

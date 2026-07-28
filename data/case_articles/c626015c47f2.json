@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/4c28hvztrot606p4t04sinegxcdj",
-      "caption": "会议转录总结工具公开案例主图",
-      "alt": "会议转录总结工具案例图片",
+      "caption": "会议转录总结工具：Tactiq：Zoom/Google Meet实时转录与AI总结工具，通过Freemium模式变现",
+      "alt": "会议转录总结工具：Tactiq：Zoom/Google Meet实时转录与AI总结工具，通过Freemium模式变现",
       "sourceUrl": "https://www.starterstory.com/stories/tactiq",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/640/original/open-uri20220409-12-1g964ue?1649533692",
-      "caption": "会议转录总结工具项目公开展示素材",
-      "alt": "tactiq",
+      "caption": "会议转录总结工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "会议转录总结工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/tactiq",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/641/original/open-uri20220409-12-4r1p8d?1649533692",
-      "caption": "会议转录总结工具项目公开展示素材",
-      "alt": "tactiq",
+      "caption": "会议转录总结工具：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "会议转录总结工具：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/tactiq",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/642/original/open-uri20220409-12-c7t2p4?1649533693",
-      "caption": "会议转录总结工具项目公开展示素材",
-      "alt": "tactiq",
+      "caption": "会议转录总结工具：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "会议转录总结工具：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/tactiq",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "会议转录总结工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/tactiq",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ux0jwuv5zreae40prptu2ora5km3",
-      "caption": "会议转录总结工具项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/tactiq",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2182,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

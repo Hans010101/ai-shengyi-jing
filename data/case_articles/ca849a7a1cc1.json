@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/x7g9p9cxckh0u6ci7zim6sxrok2r",
-      "caption": "网站协作工具公开案例主图",
-      "alt": "网站协作工具案例图片",
+      "caption": "网站协作工具：通过订阅制向团队收费",
+      "alt": "网站协作工具：通过订阅制向团队收费",
       "sourceUrl": "https://www.starterstory.com/stories/i-used-my-agency-experience-to-launch-a-profitable-saas-tool-from-romania",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/723/original/open-uri20211103-3-1wg1g3u?1635971057",
-      "caption": "网站协作工具项目公开展示素材",
-      "alt": "i-used-my-agency-experience-to-launch-a-profitable-saas-tool-from-romania",
+      "caption": "网站协作工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "网站协作工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-used-my-agency-experience-to-launch-a-profitable-saas-tool-from-romania",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/724/original/open-uri20211103-3-d8yv67?1635971057",
-      "caption": "网站协作工具项目公开展示素材",
-      "alt": "i-used-my-agency-experience-to-launch-a-profitable-saas-tool-from-romania",
+      "caption": "网站协作工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "网站协作工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-used-my-agency-experience-to-launch-a-profitable-saas-tool-from-romania",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/725/original/open-uri20211103-3-1idclet?1635971058",
-      "caption": "网站协作工具项目公开展示素材",
-      "alt": "i-used-my-agency-experience-to-launch-a-profitable-saas-tool-from-romania",
+      "caption": "网站协作工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "网站协作工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-used-my-agency-experience-to-launch-a-profitable-saas-tool-from-romania",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/726/original/open-uri20211103-3-umewht?1635971058",
-      "caption": "网站协作工具项目公开展示素材",
-      "alt": "i-used-my-agency-experience-to-launch-a-profitable-saas-tool-from-romania",
-      "sourceUrl": "https://www.starterstory.com/stories/i-used-my-agency-experience-to-launch-a-profitable-saas-tool-from-romania",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2194,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

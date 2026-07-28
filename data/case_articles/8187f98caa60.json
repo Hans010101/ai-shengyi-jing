@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/dvrhngjt9pnm5d9p0fmnz1rfasqp",
-      "caption": "Barebones是一个户外生活方式品牌公开案例主图",
-      "alt": "Barebones是一个户外生活方式品牌案例图片",
+      "caption": "Barebones是一个户外生活方式品牌：通过销售复古风格户外产品盈利",
+      "alt": "Barebones是一个户外生活方式品牌：通过销售复古风格户外产品盈利",
       "sourceUrl": "https://www.starterstory.com/stories/barebones-living",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/458/original/open-uri20230310-51-1gyj0lt?1678448565",
-      "caption": "Barebones是一个户外生活方式品牌项目公开展示素材",
-      "alt": "barebones-living",
+      "caption": "Barebones是一个户外生活方式品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "Barebones是一个户外生活方式品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/barebones-living",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/459/original/open-uri20230310-51-1bprtep?1678448566",
-      "caption": "Barebones是一个户外生活方式品牌项目公开展示素材",
-      "alt": "barebones-living",
+      "caption": "Barebones是一个户外生活方式品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "Barebones是一个户外生活方式品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/barebones-living",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/460/original/open-uri20230310-51-1e2vvln?1678448567",
-      "caption": "Barebones是一个户外生活方式品牌项目公开展示素材",
-      "alt": "barebones-living",
+      "caption": "Barebones是一个户外生活方式品牌：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "Barebones是一个户外生活方式品牌：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/barebones-living",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/461/original/open-uri20230310-51-1a2vzr4?1678448568",
-      "caption": "Barebones是一个户外生活方式品牌项目公开展示素材",
-      "alt": "barebones-living",
-      "sourceUrl": "https://www.starterstory.com/stories/barebones-living",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2223,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

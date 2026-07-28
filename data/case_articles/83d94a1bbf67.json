@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/5l2843kmx7myd2ba4rjr1hhkg88q",
-      "caption": "收购并优化SEO网站公开案例主图",
-      "alt": "收购并优化SEO网站案例图片",
+      "caption": "收购并优化SEO网站：通过流量增长转售获利",
+      "alt": "收购并优化SEO网站：通过流量增长转售获利",
       "sourceUrl": "https://www.starterstory.com/stories/bar-games-101",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/001/original/open-uri20220318-3-113v5za?1647634785",
-      "caption": "收购并优化SEO网站项目公开展示素材",
-      "alt": "bar-games-101",
+      "caption": "收购并优化SEO网站：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "收购并优化SEO网站：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/bar-games-101",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/002/original/open-uri20220318-3-1yy4bhc?1647634786",
-      "caption": "收购并优化SEO网站项目公开展示素材",
-      "alt": "bar-games-101",
+      "caption": "收购并优化SEO网站：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "收购并优化SEO网站：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/bar-games-101",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "收购并优化SEO网站项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/bar-games-101",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/jvhrreihstwyb6gp52497zn3ee5m",
-      "caption": "收购并优化SEO网站项目公开展示素材",
-      "alt": "收购并优化SEO网站项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/bar-games-101",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2204,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

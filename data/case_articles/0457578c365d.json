@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/jl0m23mac65u854qqs4ut7at3x01",
-      "caption": "恶作剧礼物服务公开案例主图",
-      "alt": "恶作剧礼物服务案例图片",
+      "caption": "恶作剧礼物服务：通过匿名寄送搞怪物品赚钱",
+      "alt": "恶作剧礼物服务：通过匿名寄送搞怪物品赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-revenue-from-25k-to-125k-month-in-four-years",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/770/original/open-uri20220310-3-1lzgzl9?1646930329",
-      "caption": "恶作剧礼物服务项目公开展示素材",
-      "alt": "how-we-increased-revenue-from-25k-to-125k-month-in-four-years",
+      "caption": "恶作剧礼物服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "恶作剧礼物服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-revenue-from-25k-to-125k-month-in-four-years",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "恶作剧礼物服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-revenue-from-25k-to-125k-month-in-four-years",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c303bjznv93yxnh0xxz7t4vfedzf",
-      "caption": "恶作剧礼物服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-revenue-from-25k-to-125k-month-in-four-years",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ddw17y2p9pisyf3lv70vhxx0tfv5",
-      "caption": "恶作剧礼物服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-revenue-from-25k-to-125k-month-in-four-years",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2210,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

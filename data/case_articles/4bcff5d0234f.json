@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ychwqdiv8dv5lmj2bgtuiy6xw5d9",
-      "caption": "Notion表单生成器公开案例主图",
-      "alt": "Notion表单生成器案例图片",
+      "caption": "Notion表单生成器：通过免费增值模式向付费用户收费",
+      "alt": "Notion表单生成器：通过免费增值模式向付费用户收费",
       "sourceUrl": "https://www.starterstory.com/stories/notionforms",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/214/original/open-uri20221123-24-1t419n8?1669184724",
-      "caption": "Notion表单生成器项目公开展示素材",
-      "alt": "notionforms",
+      "caption": "Notion表单生成器：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "Notion表单生成器：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/notionforms",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/215/original/open-uri20221123-24-j10g33?1669184726",
-      "caption": "Notion表单生成器项目公开展示素材",
+      "caption": "Notion表单生成器：产品设计与早期打磨相关原始配图（第2张）",
       "alt": "NotionForms first landing page",
       "sourceUrl": "https://www.starterstory.com/stories/notionforms",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/216/original/open-uri20221123-24-zmghfx?1669184727",
-      "caption": "Notion表单生成器项目公开展示素材",
-      "alt": "notionforms",
+      "caption": "Notion表单生成器：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "Notion表单生成器：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/notionforms",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/217/original/open-uri20221123-24-1cj7h3p?1669184728",
-      "caption": "Notion表单生成器项目公开展示素材",
-      "alt": "notionforms",
-      "sourceUrl": "https://www.starterstory.com/stories/notionforms",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2227,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

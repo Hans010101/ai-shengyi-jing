@@ -121,57 +121,23 @@
   "media": [
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI职业加速平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/edge-skills-preparation-aux-entretiens-en-finance",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/6f9a976e203e801f",
-      "caption": "AI职业加速平台项目公开展示素材",
+      "caption": "AI职业加速平台：创始人、核心产品与品牌起点相关原始配图",
       "alt": "My image",
       "sourceUrl": "https://www.starterstory.com/stories/edge-skills-preparation-aux-entretiens-en-finance",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/f3d7lppy9sy0ed9wzg75vueqcgis",
-      "caption": "AI职业加速平台项目公开展示素材",
-      "alt": "article",
+      "caption": "AI职业加速平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI职业加速平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/edge-skills-preparation-aux-entretiens-en-finance",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/0dnl57weo6jdd87nfysk9c1cc9e3",
-      "caption": "AI职业加速平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/edge-skills-preparation-aux-entretiens-en-finance",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/f1wt9s87p98rtvwoyi7hf41ruu8o",
-      "caption": "AI职业加速平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/edge-skills-preparation-aux-entretiens-en-finance",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/at5f1njhxz495xwwzg4yzbyhkzmv",
-      "caption": "AI职业加速平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/edge-skills-preparation-aux-entretiens-en-finance",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2223,
-    "mediaCount": 6
+    "mediaCount": 2
   }
 }

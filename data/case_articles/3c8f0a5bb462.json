@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/z3sbzpy30ths5rm21m75adnxun37",
-      "caption": "音乐授权平台公开案例主图",
-      "alt": "音乐授权平台案例图片",
+      "caption": "音乐授权平台：通过连接创作者与买家赚取佣金",
+      "alt": "音乐授权平台：通过连接创作者与买家赚取佣金",
       "sourceUrl": "https://www.starterstory.com/stories/we-ve-bootstrapped-two-successful-music-licensing-businesses-with-0-in-marketing",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/128/original/open-uri20210814-3-179o8yo?1628918690",
-      "caption": "音乐授权平台项目公开展示素材",
-      "alt": "we-bootstrapped-and-now-run-two-successful-music-licensing-services-on-0-marketing-budget",
+      "caption": "音乐授权平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "音乐授权平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/we-ve-bootstrapped-two-successful-music-licensing-businesses-with-0-in-marketing",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/129/original/open-uri20210814-3-ax62nt?1628918691",
-      "caption": "音乐授权平台项目公开展示素材",
-      "alt": "we-bootstrapped-and-now-run-two-successful-music-licensing-services-on-0-marketing-budget",
+      "caption": "音乐授权平台：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "音乐授权平台：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-ve-bootstrapped-two-successful-music-licensing-businesses-with-0-in-marketing",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/130/original/open-uri20210814-3-1gu5okr?1628918691",
-      "caption": "音乐授权平台项目公开展示素材",
-      "alt": "we-bootstrapped-and-now-run-two-successful-music-licensing-services-on-0-marketing-budget",
+      "caption": "音乐授权平台：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "音乐授权平台：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-ve-bootstrapped-two-successful-music-licensing-businesses-with-0-in-marketing",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "音乐授权平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/we-ve-bootstrapped-two-successful-music-licensing-businesses-with-0-in-marketing",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2175,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

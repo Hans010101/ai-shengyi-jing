@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/imi0csua2z96s0wtrwlrqllqe2u2",
-      "caption": "自学音频制作人公开案例主图",
-      "alt": "自学音频制作人案例图片",
+      "caption": "自学音频制作人：通过卖beat和混音服务年入6万美元",
+      "alt": "自学音频制作人：通过卖beat和混音服务年入6万美元",
       "sourceUrl": "https://www.starterstory.com/stories/kate-brunott",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/766/original/open-uri20230920-60-103vj3l?1695221184",
-      "caption": "自学音频制作人项目公开展示素材",
-      "alt": "kate-brunott",
+      "caption": "自学音频制作人：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "自学音频制作人：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/kate-brunott",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/767/original/open-uri20230920-60-1m01a80?1695221186",
-      "caption": "自学音频制作人项目公开展示素材",
-      "alt": "kate-brunott",
+      "caption": "自学音频制作人：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "自学音频制作人：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/kate-brunott",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/768/original/open-uri20230920-60-1a88xu7?1695221188",
-      "caption": "自学音频制作人项目公开展示素材",
-      "alt": "kate-brunott",
+      "caption": "自学音频制作人：当前经营状态与下一步规划相关原始配图（第3张）",
+      "alt": "自学音频制作人：当前经营状态与下一步规划相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/kate-brunott",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/769/original/open-uri20230920-60-1bbhh1q?1695221193",
-      "caption": "自学音频制作人项目公开展示素材",
-      "alt": "kate-brunott",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/u9iiuBl-Y5k",
+      "watchUrl": "https://www.youtube.com/watch?v=u9iiuBl-Y5k",
+      "caption": "自学音频制作人资料中提及的视频：How to make bedroom pop: easy Ableton Live tutorial",
+      "alt": "How to make bedroom pop: easy Ableton Live tutorial",
       "sourceUrl": "https://www.starterstory.com/stories/kate-brunott",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/u9iiuBl-Y5k/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

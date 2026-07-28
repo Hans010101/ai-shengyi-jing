@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/tl4rss17lxrci5bs9ue3rfissgb0",
-      "caption": "海外内容/媒体项目公开案例主图",
-      "alt": "海外内容/媒体项目案例图片",
+      "caption": "海外内容/媒体项目：通过Substack付费订阅提供高端旅行生活方式内容，月入2万美元",
+      "alt": "海外内容/媒体项目：通过Substack付费订阅提供高端旅行生活方式内容，月入2万美元",
       "sourceUrl": "https://www.starterstory.com/stories/yolo-intel",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/942/original/open-uri20220609-24-c9prl?1654781105",
-      "caption": "海外内容/媒体项目项目公开展示素材",
-      "alt": "yolo-intel",
+      "caption": "海外内容/媒体项目：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "海外内容/媒体项目：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/yolo-intel",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/943/original/open-uri20220609-24-r3wb29?1654781106",
-      "caption": "海外内容/媒体项目项目公开展示素材",
-      "alt": "yolo-intel",
+      "caption": "海外内容/媒体项目：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "海外内容/媒体项目：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/yolo-intel",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/944/original/open-uri20220609-24-kbbomy?1654781106",
-      "caption": "海外内容/媒体项目项目公开展示素材",
-      "alt": "yolo-intel",
+      "caption": "海外内容/媒体项目：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "海外内容/媒体项目：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/yolo-intel",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/945/original/open-uri20220609-24-1orlhmj?1654781107",
-      "caption": "海外内容/媒体项目项目公开展示素材",
-      "alt": "yolo-intel",
-      "sourceUrl": "https://www.starterstory.com/stories/yolo-intel",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2281,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

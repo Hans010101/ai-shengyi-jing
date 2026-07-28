@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/1mcc8qmru5tj6ajabp2cv9rn8h8f",
-      "caption": "众筹平台替代品公开案例主图",
-      "alt": "众筹平台替代品案例图片",
+      "caption": "众筹平台替代品：通过交易抽成和SaaS订阅赚钱",
+      "alt": "众筹平台替代品：通过交易抽成和SaaS订阅赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/connectionpoint",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/712/original/open-uri20220601-12-fip6nv?1654072901",
-      "caption": "众筹平台替代品项目公开展示素材",
-      "alt": "connectionpoint",
+      "caption": "众筹平台替代品：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "众筹平台替代品：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/connectionpoint",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/713/original/open-uri20220601-12-1m2wh2y?1654072902",
-      "caption": "众筹平台替代品项目公开展示素材",
-      "alt": "connectionpoint",
+      "caption": "众筹平台替代品：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "众筹平台替代品：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/connectionpoint",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/714/original/open-uri20220601-12-1iez1ia?1654072904",
-      "caption": "众筹平台替代品项目公开展示素材",
-      "alt": "connectionpoint",
+      "caption": "众筹平台替代品：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "众筹平台替代品：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/connectionpoint",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "众筹平台替代品项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/connectionpoint",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/4ad79n554if2qwzsfef2ojvbov7j",
-      "caption": "众筹平台替代品项目公开展示素材",
-      "alt": "众筹平台替代品项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/connectionpoint",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2271,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

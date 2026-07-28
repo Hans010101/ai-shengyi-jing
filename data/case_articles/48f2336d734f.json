@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/wiggmoof0c81azfmm95v8vkgw1fi",
-      "caption": "去中心化广告网络公开案例主图",
-      "alt": "去中心化广告网络案例图片",
+      "caption": "去中心化广告网络：用区块链激励用户分享广告空间赚钱",
+      "alt": "去中心化广告网络：用区块链激励用户分享广告空间赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-created-the-bitcoin-for-ads-600k-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/208/original/open-uri20220210-3-1yd4wrk?1644522307",
-      "caption": "去中心化广告网络项目公开展示素材",
-      "alt": "how-i-created-the-bitcoin-for-ads-600k-year",
+      "caption": "去中心化广告网络：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "去中心化广告网络：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-created-the-bitcoin-for-ads-600k-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/209/original/open-uri20220210-3-11otzf1?1644522307",
-      "caption": "去中心化广告网络项目公开展示素材",
-      "alt": "how-i-created-the-bitcoin-for-ads-600k-year",
+      "caption": "去中心化广告网络：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "去中心化广告网络：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-created-the-bitcoin-for-ads-600k-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/210/original/open-uri20220210-3-149wiyw?1644522307",
-      "caption": "去中心化广告网络项目公开展示素材",
-      "alt": "how-i-created-the-bitcoin-for-ads-600k-year",
+      "caption": "去中心化广告网络：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "去中心化广告网络：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-created-the-bitcoin-for-ads-600k-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/211/original/open-uri20220210-3-16nmncv?1644522308",
-      "caption": "去中心化广告网络项目公开展示素材",
-      "alt": "how-i-created-the-bitcoin-for-ads-600k-year",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/5_atO1a0szA",
+      "watchUrl": "https://www.youtube.com/watch?v=5_atO1a0szA",
+      "caption": "去中心化广告网络资料中提及的视频：The Poem-Ad: Introducing Bitfari",
+      "alt": "The Poem-Ad: Introducing Bitfari",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-created-the-bitcoin-for-ads-600k-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/5_atO1a0szA/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

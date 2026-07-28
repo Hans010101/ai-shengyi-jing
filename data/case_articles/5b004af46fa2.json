@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/p4fltigfyu0dnjfhurj0tbgp9rlv",
-      "caption": "卖管理后台模板给开发者公开案例主图",
-      "alt": "卖管理后台模板给开发者案例图片",
+      "caption": "卖管理后台模板给开发者：年入10万美元",
+      "alt": "卖管理后台模板给开发者：年入10万美元",
       "sourceUrl": "https://www.starterstory.com/stories/adminmart",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "卖管理后台模板给开发者项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/adminmart",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/642af5bcd2226bfc",
-      "caption": "卖管理后台模板给开发者项目公开展示素材",
+      "caption": "卖管理后台模板给开发者：创始人、核心产品与品牌起点相关原始配图",
       "alt": "My image",
       "sourceUrl": "https://www.starterstory.com/stories/adminmart",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/70wtkmgskwn64zgpmvtyo5hqcf7d",
-      "caption": "卖管理后台模板给开发者项目公开展示素材",
-      "alt": "article",
+      "caption": "卖管理后台模板给开发者：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "卖管理后台模板给开发者：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/adminmart",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/afe4cf67878aaaa2",
-      "caption": "卖管理后台模板给开发者项目公开展示素材",
+      "caption": "卖管理后台模板给开发者：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "alt": "My image",
       "sourceUrl": "https://www.starterstory.com/stories/adminmart",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/0b3627eb56cd5621",
-      "caption": "卖管理后台模板给开发者项目公开展示素材",
-      "alt": "My image",
-      "sourceUrl": "https://www.starterstory.com/stories/adminmart",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2263,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

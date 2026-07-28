@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/5xe2fe8dbk4fm60rltix5o6ns343",
-      "caption": "海外创业项目公开案例主图",
-      "alt": "海外创业项目案例图片",
+      "caption": "海外创业项目：通过撰写软件和电子产品的教程博客，利用广告和联盟营销盈利",
+      "alt": "海外创业项目：通过撰写软件和电子产品的教程博客，利用广告和联盟营销盈利",
       "sourceUrl": "https://www.starterstory.com/stories/i-make-30k-year-writing-how-to-guides-from-india",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/843/original/open-uri20211110-3-8ex84y?1636584860",
-      "caption": "海外创业项目项目公开展示素材",
-      "alt": "i-make-30k-year-writing-how-to-guides-from-india",
+      "caption": "海外创业项目：当前经营状态与下一步规划相关原始配图",
+      "alt": "海外创业项目：当前经营状态与下一步规划相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-make-30k-year-writing-how-to-guides-from-india",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "海外创业项目项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/i-make-30k-year-writing-how-to-guides-from-india",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ia68hk3d45yv993erewx6yiew8ys",
-      "caption": "海外创业项目项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/i-make-30k-year-writing-how-to-guides-from-india",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/h5ku8ogqaxhmgwnogkb1sksf8334",
-      "caption": "海外创业项目项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/i-make-30k-year-writing-how-to-guides-from-india",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2223,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

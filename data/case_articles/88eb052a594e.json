@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ev3m1t7nuxp36gfmfjkqcnwfeg9u",
-      "caption": "无代码应用构建器公开案例主图",
-      "alt": "无代码应用构建器案例图片",
+      "caption": "无代码应用构建器：帮助小企业和经销商快速创建应用并收费",
+      "alt": "无代码应用构建器：帮助小企业和经销商快速创建应用并收费",
       "sourceUrl": "https://www.starterstory.com/stories/our-no-code-app-builder-makes-120k-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/450/original/open-uri20220223-3-9hxu?1645615956",
-      "caption": "无代码应用构建器项目公开展示素材",
-      "alt": "our-no-code-app-builder-makes-120k-year",
+      "caption": "无代码应用构建器：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "无代码应用构建器：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/our-no-code-app-builder-makes-120k-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/451/original/open-uri20220223-3-1t9a16q?1645615957",
-      "caption": "无代码应用构建器项目公开展示素材",
-      "alt": "our-no-code-app-builder-makes-120k-year",
+      "caption": "无代码应用构建器：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "无代码应用构建器：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/our-no-code-app-builder-makes-120k-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/452/original/open-uri20220223-3-12ctf3o?1645615957",
-      "caption": "无代码应用构建器项目公开展示素材",
-      "alt": "our-no-code-app-builder-makes-120k-year",
+      "caption": "无代码应用构建器：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "无代码应用构建器：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/our-no-code-app-builder-makes-120k-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "无代码应用构建器项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/our-no-code-app-builder-makes-120k-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/yggesfalb206183easpx9fu8s6gu",
-      "caption": "无代码应用构建器项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/our-no-code-app-builder-makes-120k-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2163,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

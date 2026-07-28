@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/q8cekk9jdntfd3f7x21prv0s3cw0",
-      "caption": "从手工品电商转型为卖手工品指南的博客公开案例主图",
-      "alt": "从手工品电商转型为卖手工品指南的博客案例图片",
+      "caption": "从手工品电商转型为卖手工品指南的博客：靠广告和联盟营销赚钱",
+      "alt": "从手工品电商转型为卖手工品指南的博客：靠广告和联盟营销赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/made-urban",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/407/original/open-uri20221203-12-1dr5wky?1670038709",
-      "caption": "从手工品电商转型为卖手工品指南的博客项目公开展示素材",
-      "alt": "made-urban",
+      "caption": "从手工品电商转型为卖手工品指南的博客：原始案例中的产品与运营配图（第1张）",
+      "alt": "从手工品电商转型为卖手工品指南的博客：原始案例中的产品与运营配图（第1张）",
       "sourceUrl": "https://www.starterstory.com/stories/made-urban",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/408/original/open-uri20221203-12-uep19y?1670038709",
-      "caption": "从手工品电商转型为卖手工品指南的博客项目公开展示素材",
-      "alt": "made-urban",
+      "caption": "从手工品电商转型为卖手工品指南的博客：原始案例中的产品与运营配图（第2张）",
+      "alt": "从手工品电商转型为卖手工品指南的博客：原始案例中的产品与运营配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/made-urban",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "从手工品电商转型为卖手工品指南的博客项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/made-urban",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "从手工品电商转型为卖手工品指南的博客项目公开展示素材",
-      "alt": "从手工品电商转型为卖手工品指南的博客项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/made-urban",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2245,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/imltx7nu0zyrpgv0eyzoj0u4yzm3",
-      "caption": "AI视频编辑SaaS公开案例主图",
-      "alt": "AI视频编辑SaaS案例图片",
+      "caption": "AI视频编辑SaaS：通过订阅制按月收费",
+      "alt": "AI视频编辑SaaS：通过订阅制按月收费",
       "sourceUrl": "https://www.starterstory.com/stories/basedlabs-ai-based-ai-image-video-creator",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/655/original/open-uri20240417-53-nu5a8d?1713323259",
-      "caption": "AI视频编辑SaaS项目公开展示素材",
-      "alt": "basedlabs-ai-based-ai-image-video-creator",
+      "caption": "AI视频编辑SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI视频编辑SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/basedlabs-ai-based-ai-image-video-creator",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/656/original/open-uri20240417-53-19uqber?1713323260",
-      "caption": "AI视频编辑SaaS项目公开展示素材",
-      "alt": "basedlabs-ai-based-ai-image-video-creator",
+      "caption": "AI视频编辑SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI视频编辑SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/basedlabs-ai-based-ai-image-video-creator",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/657/original/open-uri20240417-53-zculyo?1713323261",
-      "caption": "AI视频编辑SaaS项目公开展示素材",
-      "alt": "basedlabs-ai-based-ai-image-video-creator",
+      "caption": "AI视频编辑SaaS：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "AI视频编辑SaaS：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/basedlabs-ai-based-ai-image-video-creator",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/658/original/open-uri20240417-53-1w1wrlo?1713323261",
-      "caption": "AI视频编辑SaaS项目公开展示素材",
-      "alt": "basedlabs-ai-based-ai-image-video-creator",
-      "sourceUrl": "https://www.starterstory.com/stories/basedlabs-ai-based-ai-image-video-creator",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2226,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

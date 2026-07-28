@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/d97y65ron3ggxu73jhudn4fpglso",
-      "caption": "AI写作工具公开案例主图",
-      "alt": "AI写作工具案例图片",
+      "caption": "AI写作工具：月入4千美元，通过订阅制变现",
+      "alt": "AI写作工具：月入4千美元，通过订阅制变现",
       "sourceUrl": "https://www.starterstory.com/stories/zeeg-ai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/151/original/open-uri20230801-60-eg73en?1690873899",
-      "caption": "AI写作工具项目公开展示素材",
-      "alt": "zeeg-ai",
+      "caption": "AI写作工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI写作工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/zeeg-ai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI写作工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/zeeg-ai",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/2r0bmvunp6hplaeyu1t5rm1lcgma",
-      "caption": "AI写作工具项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/zeeg-ai",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/wggq864g3oh58f67c04wr137ar58",
-      "caption": "AI写作工具项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/zeeg-ai",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2234,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/pw0aestcec2r8za2ifstonjyst7x",
-      "caption": "为教堂提供数字捐赠工具公开案例主图",
-      "alt": "为教堂提供数字捐赠工具案例图片",
+      "caption": "为教堂提供数字捐赠工具：通过订阅和交易抽成盈利",
+      "alt": "为教堂提供数字捐赠工具：通过订阅和交易抽成盈利",
       "sourceUrl": "https://www.starterstory.com/stories/tithely-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为教堂提供数字捐赠工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/tithely-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/l7737lig1bkqc17qmbp5s4sgg6kx/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "为教堂提供数字捐赠工具项目公开展示素材",
-      "alt": "为教堂提供数字捐赠工具项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/tithely-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/dnee68dwd01xt452ad09yogydmql",
-      "caption": "为教堂提供数字捐赠工具项目公开展示素材",
-      "alt": "article",
+      "caption": "为教堂提供数字捐赠工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为教堂提供数字捐赠工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/tithely-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/46a0e0ecb23da19c",
-      "caption": "为教堂提供数字捐赠工具项目公开展示素材",
-      "alt": "article",
+      "caption": "为教堂提供数字捐赠工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "为教堂提供数字捐赠工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/tithely-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/86ca1332a1ad80e5",
+      "caption": "为教堂提供数字捐赠工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "为教堂提供数字捐赠工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/tithely-breakdown",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/RF6nYGD2UJU",
+      "watchUrl": "https://www.youtube.com/watch?v=RF6nYGD2UJU",
+      "caption": "为教堂提供数字捐赠工具：获客渠道与客户留存相关视频",
+      "alt": "为教堂提供数字捐赠工具相关视频",
+      "sourceUrl": "https://www.starterstory.com/stories/tithely-breakdown",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/RF6nYGD2UJU/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

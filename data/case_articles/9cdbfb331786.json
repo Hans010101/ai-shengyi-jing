@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/y5i1mjfnrl7qpjqjoktj970b8mf7",
-      "caption": "白标CRM系统公开案例主图",
-      "alt": "白标CRM系统案例图片",
+      "caption": "白标CRM系统：通过向代理商收取月费赚钱",
+      "alt": "白标CRM系统：通过向代理商收取月费赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/greenrope-0200c215-f604-411e-a1c9-d95555b4e387",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "白标CRM系统项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/greenrope-0200c215-f604-411e-a1c9-d95555b4e387",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/s3thrrqbjem3qler43fak7dop7v2",
-      "caption": "白标CRM系统项目公开展示素材",
-      "alt": "白标CRM系统项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/greenrope-0200c215-f604-411e-a1c9-d95555b4e387",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/9pgfik1nc0uj7b4qq9x37yofgvoj",
-      "caption": "白标CRM系统项目公开展示素材",
-      "alt": "白标CRM系统项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/greenrope-0200c215-f604-411e-a1c9-d95555b4e387",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/5nqic3dcjfqf0fzgfffpdz136dt7",
-      "caption": "白标CRM系统项目公开展示素材",
-      "alt": "白标CRM系统项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/greenrope-0200c215-f604-411e-a1c9-d95555b4e387",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2240,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/2wi8jqwg1deoklkkwk87kxdos14t",
-      "caption": "营销归因SaaS公开案例主图",
-      "alt": "营销归因SaaS案例图片",
+      "caption": "营销归因SaaS：帮企业追踪广告效果并优化投放，按月收费",
+      "alt": "营销归因SaaS：帮企业追踪广告效果并优化投放，按月收费",
       "sourceUrl": "https://www.starterstory.com/businesses/wicked-reports",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "营销归因SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/wicked-reports",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/lz7pe5zjl2h08yrloubwrzi8xrc0",
-      "caption": "营销归因SaaS项目公开展示素材",
-      "alt": "Wicked Reports logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/wicked-reports",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/alvrh4kig7j9x1fhrlcx5cj63v7j/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "营销归因SaaS项目公开展示素材",
-      "alt": "Scott Desgrosseilliers",
-      "sourceUrl": "https://www.starterstory.com/businesses/wicked-reports",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/fwu9pmrseyttq94884li574j5ei9/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "营销归因SaaS项目公开展示素材",
-      "alt": "HubSpot",
-      "sourceUrl": "https://www.starterstory.com/businesses/wicked-reports",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2211,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

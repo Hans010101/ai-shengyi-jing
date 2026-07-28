@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/8dx4o2uvz7n2f7mryu1xew111qxx",
-      "caption": "B2B营销外包公司公开案例主图",
-      "alt": "B2B营销外包公司案例图片",
+      "caption": "B2B营销外包公司：通过提供高ROI营销服务赚取服务费",
+      "alt": "B2B营销外包公司：通过提供高ROI营销服务赚取服务费",
       "sourceUrl": "https://www.starterstory.com/stories/sevenatoms-marketing-inc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/005/original/open-uri20231011-48-1oxqzyc?1697023950",
-      "caption": "B2B营销外包公司项目公开展示素材",
-      "alt": "sevenatoms-marketing-inc",
+      "caption": "B2B营销外包公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "B2B营销外包公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/sevenatoms-marketing-inc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/006/original/open-uri20231011-48-96rspe?1697023951",
-      "caption": "B2B营销外包公司项目公开展示素材",
-      "alt": "sevenatoms-marketing-inc",
+      "caption": "B2B营销外包公司：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "B2B营销外包公司：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/sevenatoms-marketing-inc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "B2B营销外包公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/sevenatoms-marketing-inc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c303bjznv93yxnh0xxz7t4vfedzf",
-      "caption": "B2B营销外包公司项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/sevenatoms-marketing-inc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2218,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

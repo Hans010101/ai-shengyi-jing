@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/wnbs71xfa86rv1kbffdu9mmq7crc",
-      "caption": "SEO代理公开案例主图",
-      "alt": "SEO代理案例图片",
+      "caption": "SEO代理：通过为客户提供可量化ROI的SEO服务赚取服务费",
+      "alt": "SEO代理：通过为客户提供可量化ROI的SEO服务赚取服务费",
       "sourceUrl": "https://www.starterstory.com/stories/i-bootstrapped-a-240k-year-seo-agency-from-uk",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/024/original/open-uri20220319-3-sgsny9?1647716312",
-      "caption": "SEO代理项目公开展示素材",
-      "alt": "i-bootstrapped-a-240k-year-seo-agency-from-uk",
+      "caption": "SEO代理：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "SEO代理：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-bootstrapped-a-240k-year-seo-agency-from-uk",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/025/original/open-uri20220319-3-1f16hlo?1647716313",
-      "caption": "SEO代理项目公开展示素材",
-      "alt": "i-bootstrapped-a-240k-year-seo-agency-from-uk",
+      "caption": "SEO代理：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "SEO代理：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-bootstrapped-a-240k-year-seo-agency-from-uk",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/026/original/open-uri20220319-3-f222h7?1647716313",
-      "caption": "SEO代理项目公开展示素材",
-      "alt": "i-bootstrapped-a-240k-year-seo-agency-from-uk",
+      "caption": "SEO代理：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "SEO代理：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-bootstrapped-a-240k-year-seo-agency-from-uk",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/027/original/open-uri20220319-3-1k34mfj?1647716314",
-      "caption": "SEO代理项目公开展示素材",
-      "alt": "i-bootstrapped-a-240k-year-seo-agency-from-uk",
-      "sourceUrl": "https://www.starterstory.com/stories/i-bootstrapped-a-240k-year-seo-agency-from-uk",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2188,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

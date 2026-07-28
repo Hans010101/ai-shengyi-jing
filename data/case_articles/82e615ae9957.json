@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/o68h08fliquo31vvahe8g8adp8mx",
-      "caption": "定制模板电商公开案例主图",
-      "alt": "定制模板电商案例图片",
+      "caption": "定制模板电商：销售耐用可重复使用的定制模板",
+      "alt": "定制模板电商：销售耐用可重复使用的定制模板",
       "sourceUrl": "https://www.starterstory.com/stories/i-started-an-online-stencil-shop-and-make-960k-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/821/original/open-uri20220312-3-16armpe?1647100753",
-      "caption": "定制模板电商项目公开展示素材",
-      "alt": "i-started-an-online-stencil-shop-and-make-960k-year",
+      "caption": "定制模板电商：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "定制模板电商：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-started-an-online-stencil-shop-and-make-960k-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/822/original/open-uri20220312-3-4krjsp?1647100754",
-      "caption": "定制模板电商项目公开展示素材",
-      "alt": "i-started-an-online-stencil-shop-and-make-960k-year",
+      "caption": "定制模板电商：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "定制模板电商：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-started-an-online-stencil-shop-and-make-960k-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "定制模板电商项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/i-started-an-online-stencil-shop-and-make-960k-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/xtyljzk71zbko0uuhyi5qvshe8wh",
-      "caption": "定制模板电商项目公开展示素材",
-      "alt": "定制模板电商项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/i-started-an-online-stencil-shop-and-make-960k-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2171,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/99lwschvb0fhe3n0fbdqd94pppwb",
-      "caption": "为顾问提供在线评估SaaS公开案例主图",
-      "alt": "为顾问提供在线评估SaaS案例图片",
+      "caption": "为顾问提供在线评估SaaS：月入340万美元",
+      "alt": "为顾问提供在线评估SaaS：月入340万美元",
       "sourceUrl": "https://www.starterstory.com/stories/pointerpro",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/305/original/open-uri20240302-55-7mldwl?1709366059",
-      "caption": "为顾问提供在线评估SaaS项目公开展示素材",
-      "alt": "pointerpro",
+      "caption": "为顾问提供在线评估SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为顾问提供在线评估SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/pointerpro",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/306/original/open-uri20240302-55-5sup5b?1709366060",
-      "caption": "为顾问提供在线评估SaaS项目公开展示素材",
-      "alt": "pointerpro",
+      "caption": "为顾问提供在线评估SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "为顾问提供在线评估SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/pointerpro",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/307/original/open-uri20240302-55-1ywt9w3?1709366060",
-      "caption": "为顾问提供在线评估SaaS项目公开展示素材",
-      "alt": "pointerpro",
+      "caption": "为顾问提供在线评估SaaS：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "为顾问提供在线评估SaaS：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/pointerpro",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/308/original/open-uri20240302-55-17p6wmg?1709366061",
-      "caption": "为顾问提供在线评估SaaS项目公开展示素材",
-      "alt": "pointerpro",
-      "sourceUrl": "https://www.starterstory.com/stories/pointerpro",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2161,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

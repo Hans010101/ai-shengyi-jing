@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/1blhoo8mvl95zwo7wqz9dizk5tu6",
-      "caption": "品牌体验全案服务公司公开案例主图",
-      "alt": "品牌体验全案服务公司案例图片",
+      "caption": "品牌体验全案服务公司：通过策略设计+活动执行盈利",
+      "alt": "品牌体验全案服务公司：通过策略设计+活动执行盈利",
       "sourceUrl": "https://www.starterstory.com/stories/branperience",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/849/original/open-uri20230620-52-c2f4jk?1687262907",
-      "caption": "品牌体验全案服务公司项目公开展示素材",
-      "alt": "branperience",
+      "caption": "品牌体验全案服务公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "品牌体验全案服务公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/branperience",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/850/original/open-uri20230620-52-8fuxbq?1687262908",
-      "caption": "品牌体验全案服务公司项目公开展示素材",
-      "alt": "branperience",
+      "caption": "品牌体验全案服务公司：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "品牌体验全案服务公司：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/branperience",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/851/original/open-uri20230620-52-clmdru?1687262909",
-      "caption": "品牌体验全案服务公司项目公开展示素材",
-      "alt": "branperience",
+      "caption": "品牌体验全案服务公司：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "品牌体验全案服务公司：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/branperience",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/852/original/open-uri20230620-52-1yovrh4?1687262909",
-      "caption": "品牌体验全案服务公司项目公开展示素材",
-      "alt": "branperience",
-      "sourceUrl": "https://www.starterstory.com/stories/branperience",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2219,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

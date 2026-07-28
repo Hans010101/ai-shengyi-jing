@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/e4z56xtpcl56j9ga8kxmr87qvyok",
-      "caption": "金融专家公开案例主图",
-      "alt": "金融专家案例图片",
+      "caption": "金融专家：通过博客、播客等教育内容，靠广告、联盟营销和数字产品年入20万美元",
+      "alt": "金融专家：通过博客、播客等教育内容，靠广告、联盟营销和数字产品年入20万美元",
       "sourceUrl": "https://www.starterstory.com/stories/i-left-my-job-in-finance-built-a-200k-year-blog-about-finance",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/057/original/open-uri20210809-3-zi089e?1628525564",
-      "caption": "金融专家项目公开展示素材",
-      "alt": "i-left-my-job-in-finance-built-a-200k-year-blog-about-finance",
+      "caption": "金融专家：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "金融专家：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-left-my-job-in-finance-built-a-200k-year-blog-about-finance",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/058/original/open-uri20210809-3-1pbn1zn?1628525565",
-      "caption": "金融专家项目公开展示素材",
-      "alt": "i-left-my-job-in-finance-built-a-200k-year-blog-about-finance",
+      "caption": "金融专家：当前经营状态与下一步规划相关原始配图（第2张）",
+      "alt": "金融专家：当前经营状态与下一步规划相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-left-my-job-in-finance-built-a-200k-year-blog-about-finance",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/059/original/open-uri20210809-3-j2npft?1628525566",
-      "caption": "金融专家项目公开展示素材",
-      "alt": "i-left-my-job-in-finance-built-a-200k-year-blog-about-finance",
+      "caption": "金融专家：给创业者的实践建议相关原始配图（第3张）",
+      "alt": "金融专家：给创业者的实践建议相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-left-my-job-in-finance-built-a-200k-year-blog-about-finance",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "金融专家项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/i-left-my-job-in-finance-built-a-200k-year-blog-about-finance",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2294,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

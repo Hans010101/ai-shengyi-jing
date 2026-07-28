@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/2wu0igttmcel0feshwpem62h8hdc",
-      "caption": "产品设计服务公司公开案例主图",
-      "alt": "产品设计服务公司案例图片",
+      "caption": "产品设计服务公司：通过帮客户将创意变为实物赚钱",
+      "alt": "产品设计服务公司：通过帮客户将创意变为实物赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/brchn-design-house-los-angeles-product-industrial-design",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/730/original/open-uri20240423-53-cazeh5?1713872595",
-      "caption": "产品设计服务公司项目公开展示素材",
-      "alt": "brchn-design-house-los-angeles-product-industrial-design",
+      "caption": "产品设计服务公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "产品设计服务公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/brchn-design-house-los-angeles-product-industrial-design",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/731/original/open-uri20240423-53-1jrh9dj?1713872595",
-      "caption": "产品设计服务公司项目公开展示素材",
-      "alt": "brchn-design-house-los-angeles-product-industrial-design",
+      "caption": "产品设计服务公司：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "产品设计服务公司：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/brchn-design-house-los-angeles-product-industrial-design",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "产品设计服务公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/brchn-design-house-los-angeles-product-industrial-design",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ccjvbiecj0z4p3d8grzre7evwl9k",
-      "caption": "产品设计服务公司项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/brchn-design-house-los-angeles-product-industrial-design",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2196,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

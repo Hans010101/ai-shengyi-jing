@@ -122,47 +122,44 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/bcueyaedo4w25lo5gnjqigbymioa",
-      "caption": "企业礼品SaaS公开案例主图",
-      "alt": "企业礼品SaaS案例图片",
+      "caption": "企业礼品SaaS：按需定制送礼并管理送礼流程，按月订阅收费",
+      "alt": "企业礼品SaaS：按需定制送礼并管理送礼流程，按月订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/giftsenda-871fcf7f-dbd5-4985-9e0c-2f6a3cf52ed3",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/892/original/open-uri20240528-48-14oy65g?1716908724",
-      "caption": "企业礼品SaaS项目公开展示素材",
-      "alt": "giftsenda-871fcf7f-dbd5-4985-9e0c-2f6a3cf52ed3",
+      "caption": "企业礼品SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "企业礼品SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/giftsenda-871fcf7f-dbd5-4985-9e0c-2f6a3cf52ed3",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/893/original/open-uri20240528-48-1yh9zy8?1716908726",
-      "caption": "企业礼品SaaS项目公开展示素材",
-      "alt": "giftsenda-871fcf7f-dbd5-4985-9e0c-2f6a3cf52ed3",
+      "caption": "企业礼品SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "企业礼品SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/giftsenda-871fcf7f-dbd5-4985-9e0c-2f6a3cf52ed3",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "企业礼品SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/ZlEao5xiUv8&list=PLB1LEQ0Jp1YtC95xwZJ3tWrEZvuvp8m4D",
+      "watchUrl": "https://www.youtube.com/watch?v=ZlEao5xiUv8&list=PLB1LEQ0Jp1YtC95xwZJ3tWrEZvuvp8m4D",
+      "caption": "企业礼品SaaS资料中提及的视频：The Gifting Game EP4: Campaign Ideas for Automated Gifts",
+      "alt": "The Gifting Game EP4: Campaign Ideas for Automated Gifts",
       "sourceUrl": "https://www.starterstory.com/stories/giftsenda-871fcf7f-dbd5-4985-9e0c-2f6a3cf52ed3",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/zrtxag7ppxq3qppt9z3xiexk4tea",
-      "caption": "企业礼品SaaS项目公开展示素材",
-      "alt": "企业礼品SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/giftsenda-871fcf7f-dbd5-4985-9e0c-2f6a3cf52ed3",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/ZlEao5xiUv8/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +174,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2253,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

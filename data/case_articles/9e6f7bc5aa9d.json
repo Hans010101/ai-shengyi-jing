@@ -122,47 +122,56 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/g4pspdqmn450016yvnjtao8qtgq3",
-      "caption": "利用AI发现食品行业空白公开案例主图",
-      "alt": "利用AI发现食品行业空白案例图片",
+      "caption": "利用AI发现食品行业空白：提供定制化产品，月入百万美元",
+      "alt": "利用AI发现食品行业空白：提供定制化产品，月入百万美元",
       "sourceUrl": "https://www.starterstory.com/stories/tandoor-morni",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/124/original/open-uri20240211-53-1oww4fq?1707668279",
-      "caption": "利用AI发现食品行业空白项目公开展示素材",
-      "alt": "tandoor-morni",
+      "caption": "利用AI发现食品行业空白：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "利用AI发现食品行业空白：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/tandoor-morni",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/125/original/open-uri20240211-53-13kcwo7?1707668280",
-      "caption": "利用AI发现食品行业空白项目公开展示素材",
-      "alt": "tandoor-morni",
+      "caption": "利用AI发现食品行业空白：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "利用AI发现食品行业空白：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/tandoor-morni",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "利用AI发现食品行业空白项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/v9RszPESuf4",
+      "watchUrl": "https://www.youtube.com/watch?v=v9RszPESuf4",
+      "caption": "利用AI发现食品行业空白资料中提及的视频：Tandoor Morni Warehouse | 6+ Locations in the USA",
+      "alt": "Tandoor Morni Warehouse | 6+ Locations in the USA",
       "sourceUrl": "https://www.starterstory.com/stories/tandoor-morni",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/v9RszPESuf4/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/3d0celdrs9ugtg77g37hjvvnmyhi",
-      "caption": "利用AI发现食品行业空白项目公开展示素材",
-      "alt": "tool-icon",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/OKgTn9pa6fw",
+      "watchUrl": "https://www.youtube.com/watch?v=OKgTn9pa6fw",
+      "caption": "利用AI发现食品行业空白资料中提及的视频：Tandoor Morni a place to buy tandoor and equipment où acheter un tandoor et l'équipement",
+      "alt": "Tandoor Morni a place to buy tandoor and equipment où acheter un tandoor et l'équipement",
       "sourceUrl": "https://www.starterstory.com/stories/tandoor-morni",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/OKgTn9pa6fw/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

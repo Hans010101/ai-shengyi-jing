@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ygynxf5yznngjkf6fy9e6ku9d397",
-      "caption": "教练咨询服务公开案例主图",
-      "alt": "教练咨询服务案例图片",
+      "caption": "教练咨询服务：通过高利润一对一及团体课程变现",
+      "alt": "教练咨询服务：通过高利润一对一及团体课程变现",
       "sourceUrl": "https://www.starterstory.com/stories/world-renowned-real-estate",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/205/original/open-uri20240223-65-lysiv2?1708646845",
-      "caption": "教练咨询服务项目公开展示素材",
-      "alt": "world-renowned-real-estate",
+      "caption": "教练咨询服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "教练咨询服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/world-renowned-real-estate",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/206/original/open-uri20240223-65-1qu278b?1708646846",
-      "caption": "教练咨询服务项目公开展示素材",
-      "alt": "world-renowned-real-estate",
+      "caption": "教练咨询服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "教练咨询服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/world-renowned-real-estate",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/207/original/open-uri20240223-65-1dpefhz?1708646847",
-      "caption": "教练咨询服务项目公开展示素材",
-      "alt": "world-renowned-real-estate",
+      "caption": "教练咨询服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "教练咨询服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/world-renowned-real-estate",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/208/original/open-uri20240223-65-1lxf772?1708646847",
-      "caption": "教练咨询服务项目公开展示素材",
-      "alt": "world-renowned-real-estate",
-      "sourceUrl": "https://www.starterstory.com/stories/world-renowned-real-estate",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2196,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

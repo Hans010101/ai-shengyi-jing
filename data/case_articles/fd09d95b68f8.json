@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/5k8su7caybe8nb1zkxtr6jfux3i4",
-      "caption": "多站点博客矩阵公开案例主图",
-      "alt": "多站点博客矩阵案例图片",
+      "caption": "多站点博客矩阵：通过广告、联盟营销和数字产品盈利",
+      "alt": "多站点博客矩阵：通过广告、联盟营销和数字产品盈利",
       "sourceUrl": "https://www.starterstory.com/stories/travel-blogging-101",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/511/original/open-uri20230517-63-ydlztz?1684335409",
-      "caption": "多站点博客矩阵项目公开展示素材",
-      "alt": "travel-blogging-101",
+      "caption": "多站点博客矩阵：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "多站点博客矩阵：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/travel-blogging-101",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/512/original/open-uri20230517-63-114hmbp?1684335410",
-      "caption": "多站点博客矩阵项目公开展示素材",
-      "alt": "travel-blogging-101",
+      "caption": "多站点博客矩阵：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "多站点博客矩阵：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/travel-blogging-101",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/513/original/open-uri20230517-63-xbhqp0?1684335411",
-      "caption": "多站点博客矩阵项目公开展示素材",
-      "alt": "travel-blogging-101",
+      "caption": "多站点博客矩阵：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "多站点博客矩阵：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/travel-blogging-101",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "多站点博客矩阵项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/RUr0Z3rpkfg",
+      "watchUrl": "https://www.youtube.com/watch?v=RUr0Z3rpkfg",
+      "caption": "多站点博客矩阵资料中提及的视频：How Shelley Marmor Grew Monthly Earnings From $707 to $52,604 in 1 Year With Affiliate SEO",
+      "alt": "How Shelley Marmor Grew Monthly Earnings From $707 to $52,604 in 1 Year With Affiliate SEO",
       "sourceUrl": "https://www.starterstory.com/stories/travel-blogging-101",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/RUr0Z3rpkfg/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

@@ -122,56 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/jxcpq6uv5txy4mwxn6u0zylcvtey",
-      "caption": "客户反馈管理SaaS公开案例主图",
-      "alt": "客户反馈管理SaaS案例图片",
+      "caption": "客户反馈管理SaaS：订阅收费",
+      "alt": "客户反馈管理SaaS：订阅收费",
       "sourceUrl": "https://www.starterstory.com/businesses/featurebase",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "客户反馈管理SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/featurebase",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/8c6udufeb6mnfvca9fw9twt8guiv",
-      "caption": "客户反馈管理SaaS项目公开展示素材",
-      "alt": "Featurebase logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/featurebase",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/a1t7lcv2aytzn2zz84h3blw7ztpt/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "客户反馈管理SaaS项目公开展示素材",
-      "alt": "MixPanel",
-      "sourceUrl": "https://www.starterstory.com/businesses/featurebase",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/t2j2z9zt2u0l2njx2m9vzpdym42j/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "客户反馈管理SaaS项目公开展示素材",
-      "alt": "Sentry",
-      "sourceUrl": "https://www.starterstory.com/businesses/featurebase",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/or09f2lfiia7lnht2q5ydyd20833/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "客户反馈管理SaaS项目公开展示素材",
-      "alt": "客户反馈管理SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/businesses/featurebase",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -186,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2220,
-    "mediaCount": 6
+    "mediaCount": 1
   }
 }

@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/k87arpizzi5j6nso22j5u0b729nc",
-      "caption": "个人品牌摄影工作室公开案例主图",
-      "alt": "个人品牌摄影工作室案例图片",
+      "caption": "个人品牌摄影工作室：通过高端摄影服务和个人品牌咨询盈利",
+      "alt": "个人品牌摄影工作室：通过高端摄影服务和个人品牌咨询盈利",
       "sourceUrl": "https://www.starterstory.com/stories/briofive",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/740/original/open-uri20220915-12-17opa9h?1663243824",
-      "caption": "个人品牌摄影工作室项目公开展示素材",
-      "alt": "briofive",
+      "caption": "个人品牌摄影工作室：原始案例中的产品与运营配图（第1张）",
+      "alt": "个人品牌摄影工作室：原始案例中的产品与运营配图（第1张）",
       "sourceUrl": "https://www.starterstory.com/stories/briofive",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "个人品牌摄影工作室项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/briofive",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "个人品牌摄影工作室项目公开展示素材",
-      "alt": "个人品牌摄影工作室项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/briofive",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/b6tkfwams9acacoldo403fv7scnw",
-      "caption": "个人品牌摄影工作室项目公开展示素材",
-      "alt": "个人品牌摄影工作室项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/briofive",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2230,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

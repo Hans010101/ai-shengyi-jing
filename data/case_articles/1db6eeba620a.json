@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/2bxmnidm4ktpac5rn37l1l9wej6u",
-      "caption": "游戏分销平台公开案例主图",
-      "alt": "游戏分销平台案例图片",
+      "caption": "游戏分销平台：通过销售游戏密钥赚取差价和佣金",
+      "alt": "游戏分销平台：通过销售游戏密钥赚取差价和佣金",
       "sourceUrl": "https://www.starterstory.com/stories/gameray",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/996/original/open-uri20240615-48-1fljce2?1718453847",
-      "caption": "游戏分销平台项目公开展示素材",
-      "alt": "gameray",
+      "caption": "游戏分销平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "游戏分销平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/gameray",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/997/original/open-uri20240615-48-tj2y9x?1718453848",
-      "caption": "游戏分销平台项目公开展示素材",
-      "alt": "gameray",
+      "caption": "游戏分销平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "游戏分销平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/gameray",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/998/original/open-uri20240615-48-q4dhu1?1718453849",
-      "caption": "游戏分销平台项目公开展示素材",
-      "alt": "gameray",
+      "caption": "游戏分销平台：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "游戏分销平台：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/gameray",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/999/original/open-uri20240615-48-1xf7cm0?1718453849",
-      "caption": "游戏分销平台项目公开展示素材",
-      "alt": "gameray",
-      "sourceUrl": "https://www.starterstory.com/stories/gameray",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2189,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/k3bps986xk0waiwv8shezysyw252",
-      "caption": "按需文案外包服务公开案例主图",
-      "alt": "按需文案外包服务案例图片",
+      "caption": "按需文案外包服务：月入1万美元",
+      "alt": "按需文案外包服务：月入1万美元",
       "sourceUrl": "https://www.starterstory.com/stories/snap-copy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/430/original/open-uri20221204-24-9wkbwy?1670113881",
-      "caption": "按需文案外包服务项目公开展示素材",
-      "alt": "snap-copy",
+      "caption": "按需文案外包服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "按需文案外包服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/snap-copy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/431/original/open-uri20221204-24-1cd1o9m?1670113883",
-      "caption": "按需文案外包服务项目公开展示素材",
-      "alt": "snap-copy",
+      "caption": "按需文案外包服务：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "按需文案外包服务：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/snap-copy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/432/original/open-uri20221204-24-1ecb0rr?1670113884",
-      "caption": "按需文案外包服务项目公开展示素材",
-      "alt": "snap-copy",
+      "caption": "按需文案外包服务：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "按需文案外包服务：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/snap-copy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/433/original/open-uri20221204-24-1wa83zt?1670113885",
-      "caption": "按需文案外包服务项目公开展示素材",
-      "alt": "snap-copy",
-      "sourceUrl": "https://www.starterstory.com/stories/snap-copy",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2138,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

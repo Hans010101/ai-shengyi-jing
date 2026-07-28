@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/rqws9c3v0m06ts6tql5njqop1zpj",
-      "caption": "运动鞋品牌公开案例主图",
-      "alt": "运动鞋品牌案例图片",
+      "caption": "运动鞋品牌：通过直销和口碑营销盈利",
+      "alt": "运动鞋品牌：通过直销和口碑营销盈利",
       "sourceUrl": "https://www.starterstory.com/stories/stria-sport",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/023/original/open-uri20220319-3-akualv?1647714524",
-      "caption": "运动鞋品牌项目公开展示素材",
-      "alt": "stria-sport",
+      "caption": "运动鞋品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "运动鞋品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/stria-sport",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "运动鞋品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/stria-sport",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/w4stw5wtsgmq5u23otc0cudjxnjg",
-      "caption": "运动鞋品牌项目公开展示素材",
-      "alt": "运动鞋品牌项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/stria-sport",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/1qxt58976pp69dwug3p7ifphuhne",
-      "caption": "运动鞋品牌项目公开展示素材",
-      "alt": "运动鞋品牌项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/stria-sport",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2161,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

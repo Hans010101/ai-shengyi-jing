@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/w0omt5fczki3ck7l5qxlc15b7vvd",
-      "caption": "每日播客访谈创业者公开案例主图",
-      "alt": "每日播客访谈创业者案例图片",
+      "caption": "每日播客访谈创业者：靠广告、联盟营销和课程变现",
+      "alt": "每日播客访谈创业者：靠广告、联盟营销和课程变现",
       "sourceUrl": "https://www.starterstory.com/stories/entrepreneurs-on-fire-3f36376e-64b4-46a5-9d20-d05d4ef16bea",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/106/original/open-uri20240210-58-1856m77?1707533801",
-      "caption": "每日播客访谈创业者项目公开展示素材",
-      "alt": "entrepreneurs-on-fire-3f36376e-64b4-46a5-9d20-d05d4ef16bea",
+      "caption": "每日播客访谈创业者：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "每日播客访谈创业者：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/entrepreneurs-on-fire-3f36376e-64b4-46a5-9d20-d05d4ef16bea",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/107/original/open-uri20240210-58-1aklgas?1707533802",
-      "caption": "每日播客访谈创业者项目公开展示素材",
-      "alt": "entrepreneurs-on-fire-3f36376e-64b4-46a5-9d20-d05d4ef16bea",
+      "caption": "每日播客访谈创业者：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "每日播客访谈创业者：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/entrepreneurs-on-fire-3f36376e-64b4-46a5-9d20-d05d4ef16bea",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/108/original/open-uri20240210-58-1nzidm2?1707533803",
-      "caption": "每日播客访谈创业者项目公开展示素材",
-      "alt": "entrepreneurs-on-fire-3f36376e-64b4-46a5-9d20-d05d4ef16bea",
+      "caption": "每日播客访谈创业者：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "每日播客访谈创业者：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/entrepreneurs-on-fire-3f36376e-64b4-46a5-9d20-d05d4ef16bea",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/109/original/open-uri20240210-58-195xuqb?1707533803",
-      "caption": "每日播客访谈创业者项目公开展示素材",
-      "alt": "entrepreneurs-on-fire-3f36376e-64b4-46a5-9d20-d05d4ef16bea",
-      "sourceUrl": "https://www.starterstory.com/stories/entrepreneurs-on-fire-3f36376e-64b4-46a5-9d20-d05d4ef16bea",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2248,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

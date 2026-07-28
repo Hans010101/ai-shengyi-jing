@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/uqv41ujjjlrvioh33m29mpuhxf9k",
-      "caption": "虚拟活动策划公司公开案例主图",
-      "alt": "虚拟活动策划公司案例图片",
+      "caption": "虚拟活动策划公司：为企业提供线上活动制作服务",
+      "alt": "虚拟活动策划公司：为企业提供线上活动制作服务",
       "sourceUrl": "https://www.starterstory.com/stories/entire-productions",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/375/original/open-uri20220331-3-u17dsx?1648755917",
-      "caption": "虚拟活动策划公司项目公开展示素材",
-      "alt": "entire-productions",
+      "caption": "虚拟活动策划公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "虚拟活动策划公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/entire-productions",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/376/original/open-uri20220331-3-rkqxdt?1648755917",
-      "caption": "虚拟活动策划公司项目公开展示素材",
-      "alt": "entire-productions",
+      "caption": "虚拟活动策划公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "虚拟活动策划公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/entire-productions",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/377/original/open-uri20220331-3-1sbtruq?1648755918",
-      "caption": "虚拟活动策划公司项目公开展示素材",
-      "alt": "entire-productions",
+      "caption": "虚拟活动策划公司：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "虚拟活动策划公司：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/entire-productions",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/378/original/open-uri20220331-3-mryfgv?1648755919",
-      "caption": "虚拟活动策划公司项目公开展示素材",
-      "alt": "entire-productions",
-      "sourceUrl": "https://www.starterstory.com/stories/entire-productions",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2216,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

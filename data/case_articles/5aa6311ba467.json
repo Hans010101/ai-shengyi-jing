@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/9j9ivjl0ogmlwldtqyoin2kqyae9",
-      "caption": "前记者创办的付费科技新闻通讯公开案例主图",
-      "alt": "前记者创办的付费科技新闻通讯案例图片",
+      "caption": "前记者创办的付费科技新闻通讯：通过订阅和广告盈利",
+      "alt": "前记者创办的付费科技新闻通讯：通过订阅和广告盈利",
       "sourceUrl": "https://www.starterstory.com/businesses/newcomer",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "前记者创办的付费科技新闻通讯项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/newcomer",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/p9bm27xywx4k9j0l5yai98xsw6ht",
-      "caption": "前记者创办的付费科技新闻通讯项目公开展示素材",
-      "alt": "Newcomer logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/newcomer",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/49z81pb3ukgl1nc1gqb45jhnjrzz/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "前记者创办的付费科技新闻通讯项目公开展示素材",
-      "alt": "Eric Newcomer",
-      "sourceUrl": "https://www.starterstory.com/businesses/newcomer",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/vkacgai3me2unbjkakdhmi8j1qe5/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "前记者创办的付费科技新闻通讯项目公开展示素材",
-      "alt": "Google Analytics",
-      "sourceUrl": "https://www.starterstory.com/businesses/newcomer",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2252,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

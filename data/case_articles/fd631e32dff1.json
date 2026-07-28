@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/w8sq5b28g47durn7v8t3yvbp2hfi",
-      "caption": "采访创业者并发布内容公开案例主图",
-      "alt": "采访创业者并发布内容案例图片",
+      "caption": "采访创业者并发布内容：通过广告和付费订阅盈利",
+      "alt": "采访创业者并发布内容：通过广告和付费订阅盈利",
       "sourceUrl": "https://www.starterstory.com/businesses/starter-story",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "采访创业者并发布内容项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/starter-story",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/d0mn9f54cu07zrnnlgrfktuebg2m",
-      "caption": "采访创业者并发布内容项目公开展示素材",
-      "alt": "Starter Story logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/starter-story",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/h1387s2ndxbgao125fj5xd0pc8s0/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "采访创业者并发布内容项目公开展示素材",
-      "alt": "Pat Walls",
-      "sourceUrl": "https://www.starterstory.com/businesses/starter-story",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/ddw17y2p9pisyf3lv70vhxx0tfv5/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "采访创业者并发布内容项目公开展示素材",
-      "alt": "Klaviyo",
-      "sourceUrl": "https://www.starterstory.com/businesses/starter-story",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2235,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

@@ -122,47 +122,36 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/adatq250cwcp0cl1cy3e2z3ocmyj",
-      "caption": "用100美元创建小众招聘平台公开案例主图",
-      "alt": "用100美元创建小众招聘平台案例图片",
+      "caption": "用100美元创建小众招聘平台：通过订阅费赚钱",
+      "alt": "用100美元创建小众招聘平台：通过订阅费赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/remotegamejobs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "用100美元创建小众招聘平台项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/oZq9po0FuI4",
+      "watchUrl": "https://www.youtube.com/watch?v=oZq9po0FuI4",
+      "caption": "用100美元创建小众招聘平台资料中提及的视频：Short guide to buying football tickets using Tathkarti",
+      "alt": "Short guide to buying football tickets using Tathkarti",
       "sourceUrl": "https://www.starterstory.com/stories/remotegamejobs",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/oZq9po0FuI4/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/7p0wsklnu5v9740xvwcwiknproq8",
-      "caption": "用100美元创建小众招聘平台项目公开展示素材",
-      "alt": "用100美元创建小众招聘平台项目展示图",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/ejX4asW6W7g",
+      "watchUrl": "https://www.youtube.com/watch?v=ejX4asW6W7g",
+      "caption": "用100美元创建小众招聘平台资料中提及的视频：Join Skirmish - The Game Development Showcase Site",
+      "alt": "Join Skirmish - The Game Development Showcase Site",
       "sourceUrl": "https://www.starterstory.com/stories/remotegamejobs",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n7rx5t5gwzi2wjlwym1jtpcjpqbf",
-      "caption": "用100美元创建小众招聘平台项目公开展示素材",
-      "alt": "用100美元创建小众招聘平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/remotegamejobs",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ktrxykrjslyuhxnfc2jvtc6c9kmk",
-      "caption": "用100美元创建小众招聘平台项目公开展示素材",
-      "alt": "用100美元创建小众招聘平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/remotegamejobs",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/ejX4asW6W7g/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2273,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

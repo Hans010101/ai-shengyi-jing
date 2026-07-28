@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/yqj9wu6mk459mg1rlc672b4do63o",
-      "caption": "公益玩具品牌公开案例主图",
-      "alt": "公益玩具品牌案例图片",
+      "caption": "公益玩具品牌：卖毛绒大象捐利润救象",
+      "alt": "公益玩具品牌：卖毛绒大象捐利润救象",
       "sourceUrl": "https://www.starterstory.com/stories/the-elephant-project",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/523/original/open-uri20230317-51-1ow6tsm?1679087024",
-      "caption": "公益玩具品牌项目公开展示素材",
-      "alt": "the-elephant-project",
+      "caption": "公益玩具品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "公益玩具品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/the-elephant-project",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "公益玩具品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/the-elephant-project",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/df1fgdrgwrml6ma0yysawtl4ym6l",
-      "caption": "公益玩具品牌项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/the-elephant-project",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/1s7m5fyj6w1je4ry8bo80hv3i7n3",
-      "caption": "公益玩具品牌项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/the-elephant-project",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2202,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

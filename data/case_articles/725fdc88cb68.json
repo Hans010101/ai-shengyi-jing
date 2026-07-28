@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/yg8du1370g0att52mcxxtqlktki2",
-      "caption": "每日科技创业新闻邮件通讯公开案例主图",
-      "alt": "每日科技创业新闻邮件通讯案例图片",
+      "caption": "每日科技创业新闻邮件通讯：靠广告和赞助盈利",
+      "alt": "每日科技创业新闻邮件通讯：靠广告和赞助盈利",
       "sourceUrl": "https://www.starterstory.com/stories/tldr-newsletter-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "每日科技创业新闻邮件通讯项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/tldr-newsletter-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/pym20wsfg81gr492gemzd0btx4b3/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "每日科技创业新闻邮件通讯项目公开展示素材",
-      "alt": "每日科技创业新闻邮件通讯项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/tldr-newsletter-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/91d8e574b4e73891",
-      "caption": "每日科技创业新闻邮件通讯项目公开展示素材",
-      "alt": "article",
+      "caption": "每日科技创业新闻邮件通讯：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "每日科技创业新闻邮件通讯：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/tldr-newsletter-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ceyddfakme0xjza1v91986p5nt51",
-      "caption": "每日科技创业新闻邮件通讯项目公开展示素材",
-      "alt": "每日科技创业新闻邮件通讯项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/tldr-newsletter-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2214,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

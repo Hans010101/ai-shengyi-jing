@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/pqorzq7n7wjz2o93z9z4wnam4qbo",
-      "caption": "定制个性化冒险体验公开案例主图",
-      "alt": "定制个性化冒险体验案例图片",
+      "caption": "定制个性化冒险体验：按项目收费",
+      "alt": "定制个性化冒险体验：按项目收费",
       "sourceUrl": "https://www.starterstory.com/stories/constructed-adventures",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/662/original/open-uri20221018-12-zppz4d?1666075487",
-      "caption": "定制个性化冒险体验项目公开展示素材",
-      "alt": "constructed-adventures",
+      "caption": "定制个性化冒险体验：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "定制个性化冒险体验：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/constructed-adventures",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/663/original/open-uri20221018-12-14afqe6?1666075487",
-      "caption": "定制个性化冒险体验项目公开展示素材",
-      "alt": "constructed-adventures",
+      "caption": "定制个性化冒险体验：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "定制个性化冒险体验：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/constructed-adventures",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/664/original/open-uri20221018-12-lofz8b?1666075488",
-      "caption": "定制个性化冒险体验项目公开展示素材",
-      "alt": "constructed-adventures",
+      "caption": "定制个性化冒险体验：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "定制个性化冒险体验：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/constructed-adventures",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/665/original/open-uri20221018-12-wgfk47?1666075489",
-      "caption": "定制个性化冒险体验项目公开展示素材",
-      "alt": "constructed-adventures",
-      "sourceUrl": "https://www.starterstory.com/stories/constructed-adventures",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2128,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

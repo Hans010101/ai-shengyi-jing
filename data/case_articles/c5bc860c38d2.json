@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/86cwjpfloks5xp09sg9arhb53tqs",
-      "caption": "自动追踪积分里程公开案例主图",
-      "alt": "自动追踪积分里程案例图片",
+      "caption": "自动追踪积分里程：帮用户最大化奖励价值",
+      "alt": "自动追踪积分里程：帮用户最大化奖励价值",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-developing-product-to-hit-2mm-in-revenue-this-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/001/original/open-uri20210927-3-1h72mr4?1632766636",
-      "caption": "自动追踪积分里程项目公开展示素材",
-      "alt": "how-we-focused-on-developing-product-to-hit-2mm-in-revenue-in-2021",
+      "caption": "自动追踪积分里程：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "自动追踪积分里程：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-developing-product-to-hit-2mm-in-revenue-this-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/002/original/open-uri20210927-3-vwks4j?1632766636",
-      "caption": "自动追踪积分里程项目公开展示素材",
-      "alt": "how-we-focused-on-developing-product-to-hit-2mm-in-revenue-in-2021",
+      "caption": "自动追踪积分里程：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "自动追踪积分里程：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-developing-product-to-hit-2mm-in-revenue-this-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "自动追踪积分里程项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-developing-product-to-hit-2mm-in-revenue-this-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "自动追踪积分里程项目公开展示素材",
-      "alt": "自动追踪积分里程项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-developing-product-to-hit-2mm-in-revenue-this-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2148,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/4t5pdmg77r0xlky878godujijq5l",
-      "caption": "尼日利亚青年创办的创业博客公开案例主图",
-      "alt": "尼日利亚青年创办的创业博客案例图片",
+      "caption": "尼日利亚青年创办的创业博客：通过广告和联盟营销盈利",
+      "alt": "尼日利亚青年创办的创业博客：通过广告和联盟营销盈利",
       "sourceUrl": "https://www.starterstory.com/stories/how-a-young-entrepreneur-from-nigeria-started-a-profitable-blog",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/747/original/open-uri20190116-4-1t3m57o?1547650493",
-      "caption": "尼日利亚青年创办的创业博客项目公开展示素材",
-      "alt": "how-a-young-entrepreneur-from-nigeria-started-a-profitable-blog",
+      "caption": "尼日利亚青年创办的创业博客：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "尼日利亚青年创办的创业博客：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-a-young-entrepreneur-from-nigeria-started-a-profitable-blog",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/748/original/open-uri20190116-4-12isgwi?1547650493",
-      "caption": "尼日利亚青年创办的创业博客项目公开展示素材",
-      "alt": "how-a-young-entrepreneur-from-nigeria-started-a-profitable-blog",
+      "caption": "尼日利亚青年创办的创业博客：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "尼日利亚青年创办的创业博客：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-a-young-entrepreneur-from-nigeria-started-a-profitable-blog",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/749/original/open-uri20190116-4-1s6m0m7?1547650494",
-      "caption": "尼日利亚青年创办的创业博客项目公开展示素材",
-      "alt": "how-a-young-entrepreneur-from-nigeria-started-a-profitable-blog",
+      "caption": "尼日利亚青年创办的创业博客：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "尼日利亚青年创办的创业博客：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-a-young-entrepreneur-from-nigeria-started-a-profitable-blog",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "尼日利亚青年创办的创业博客项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/seZR7FQKjk8",
+      "watchUrl": "https://www.youtube.com/watch?v=seZR7FQKjk8",
+      "caption": "尼日利亚青年创办的创业博客资料中提及的视频：Setting up WordPress with Site Ground Hosting",
+      "alt": "Setting up WordPress with Site Ground Hosting",
       "sourceUrl": "https://www.starterstory.com/stories/how-a-young-entrepreneur-from-nigeria-started-a-profitable-blog",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/seZR7FQKjk8/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

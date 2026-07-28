@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/eo6ohv5odus5mn527v3r8s37w28r",
-      "caption": "高端设计平台公开案例主图",
-      "alt": "高端设计平台案例图片",
+      "caption": "高端设计平台：连接客户与顶尖设计师，抽佣盈利",
+      "alt": "高端设计平台：连接客户与顶尖设计师，抽佣盈利",
       "sourceUrl": "https://www.starterstory.com/stories/on-starting-an-agency-quality-design-growing-300",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/065/original/open-uri20210811-3-3cg0od?1628697127",
-      "caption": "高端设计平台项目公开展示素材",
-      "alt": "on-starting-an-agency-quality-design-growing-300",
+      "caption": "高端设计平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "高端设计平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/on-starting-an-agency-quality-design-growing-300",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "高端设计平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/on-starting-an-agency-quality-design-growing-300",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/5q3k99f5s1xaq0hp1tgt3p1mpfp3",
-      "caption": "高端设计平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/on-starting-an-agency-quality-design-growing-300",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/f7vpfx0i94fy6dozyf8rizye73k9",
-      "caption": "高端设计平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/on-starting-an-agency-quality-design-growing-300",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2151,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

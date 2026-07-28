@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/trthd13qt883420877eufghr39sg",
-      "caption": "花艺爱好者用不到$5K启动公开案例主图",
-      "alt": "花艺爱好者用不到$5K启动案例图片",
+      "caption": "花艺爱好者用不到$5K启动：通过婚礼、企业活动及订阅服务实现月入$5K",
+      "alt": "花艺爱好者用不到$5K启动：通过婚礼、企业活动及订阅服务实现月入$5K",
       "sourceUrl": "https://www.starterstory.com/stories/flowers-flowers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/388/original/open-uri20231206-60-s35d54?1701849350",
-      "caption": "花艺爱好者用不到$5K启动项目公开展示素材",
-      "alt": "flowers-flowers",
+      "caption": "花艺爱好者用不到$5K启动：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "花艺爱好者用不到$5K启动：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/flowers-flowers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/389/original/open-uri20231206-60-ghhaeu?1701849351",
-      "caption": "花艺爱好者用不到$5K启动项目公开展示素材",
-      "alt": "flowers-flowers",
+      "caption": "花艺爱好者用不到$5K启动：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "花艺爱好者用不到$5K启动：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/flowers-flowers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "花艺爱好者用不到$5K启动项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/flowers-flowers",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c303bjznv93yxnh0xxz7t4vfedzf",
-      "caption": "花艺爱好者用不到$5K启动项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/flowers-flowers",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2203,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

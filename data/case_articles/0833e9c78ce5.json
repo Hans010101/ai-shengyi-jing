@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/8vvtcixuwh6zw9pipr16sgpaexie",
-      "caption": "海外AI工具项目公开案例主图",
-      "alt": "海外AI工具项目案例图片",
+      "caption": "海外AI工具项目：通过收购和运营网站组合，实现年营收120万美元",
+      "alt": "海外AI工具项目：通过收购和运营网站组合，实现年营收120万美元",
       "sourceUrl": "https://www.starterstory.com/stories/rejoin-media",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/334/original/open-uri20220901-24-rshmbv?1662005449",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "rejoin-media",
+      "caption": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/rejoin-media",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/rejoin-media",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/s3thrrqbjem3qler43fak7dop7v2",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "海外AI工具项目项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/rejoin-media",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/9pgfik1nc0uj7b4qq9x37yofgvoj",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "海外AI工具项目项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/rejoin-media",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2201,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

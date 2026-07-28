@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/s02e2leauilmhtqg37hajhodudkp",
-      "caption": "收购WordPress插件公开案例主图",
-      "alt": "收购WordPress插件案例图片",
+      "caption": "收购WordPress插件：通过订阅制监控网站异常并变现",
+      "alt": "收购WordPress插件：通过订阅制监控网站异常并变现",
       "sourceUrl": "https://www.starterstory.com/stories/acquiring-a-wordpress-plugin-and-growing-its-revenue-50",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/587/original/open-uri20220303-3-lpnveh?1646320970",
-      "caption": "收购WordPress插件项目公开展示素材",
-      "alt": "acquiring-a-wordpress-plugin-and-growing-its-revenue-50",
+      "caption": "收购WordPress插件：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "收购WordPress插件：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/acquiring-a-wordpress-plugin-and-growing-its-revenue-50",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/588/original/open-uri20220303-3-1btq2y?1646320970",
-      "caption": "收购WordPress插件项目公开展示素材",
-      "alt": "acquiring-a-wordpress-plugin-and-growing-its-revenue-50",
+      "caption": "收购WordPress插件：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "收购WordPress插件：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/acquiring-a-wordpress-plugin-and-growing-its-revenue-50",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/589/original/open-uri20220303-3-gixp5l?1646320971",
-      "caption": "收购WordPress插件项目公开展示素材",
-      "alt": "acquiring-a-wordpress-plugin-and-growing-its-revenue-50",
+      "caption": "收购WordPress插件：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "收购WordPress插件：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/acquiring-a-wordpress-plugin-and-growing-its-revenue-50",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "收购WordPress插件项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/acquiring-a-wordpress-plugin-and-growing-its-revenue-50",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2250,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

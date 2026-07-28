@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/94j1u8pkfb07qbwkgmu9j4kofrhj",
-      "caption": "开发VPN产品公开案例主图",
-      "alt": "开发VPN产品案例图片",
+      "caption": "开发VPN产品：通过订阅制向用户收费",
+      "alt": "开发VPN产品：通过订阅制向用户收费",
       "sourceUrl": "https://www.starterstory.com/stories/symlex-vpn",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/186/original/open-uri20221006-24-1dksn5n?1665022130",
-      "caption": "开发VPN产品项目公开展示素材",
-      "alt": "symlex-vpn",
+      "caption": "开发VPN产品：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "开发VPN产品：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/symlex-vpn",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/187/original/open-uri20221006-24-fbcsgk?1665022130",
-      "caption": "开发VPN产品项目公开展示素材",
-      "alt": "symlex-vpn",
+      "caption": "开发VPN产品：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "开发VPN产品：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/symlex-vpn",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/188/original/open-uri20221006-24-iuth27?1665022132",
-      "caption": "开发VPN产品项目公开展示素材",
-      "alt": "symlex-vpn",
+      "caption": "开发VPN产品：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "开发VPN产品：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/symlex-vpn",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/189/original/open-uri20221006-24-dincia?1665022133",
-      "caption": "开发VPN产品项目公开展示素材",
-      "alt": "symlex-vpn",
-      "sourceUrl": "https://www.starterstory.com/stories/symlex-vpn",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2178,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

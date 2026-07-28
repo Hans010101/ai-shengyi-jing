@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/225uiov6mibltzi3a43jsqiocyhf",
-      "caption": "工程师创办的视频制作公司公开案例主图",
-      "alt": "工程师创办的视频制作公司案例图片",
+      "caption": "工程师创办的视频制作公司：月入5万美元",
+      "alt": "工程师创办的视频制作公司：月入5万美元",
       "sourceUrl": "https://www.starterstory.com/stories/filmbaker",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/240/original/open-uri20220619-24-1pa4k24?1655642683",
-      "caption": "工程师创办的视频制作公司项目公开展示素材",
-      "alt": "filmbaker",
+      "caption": "工程师创办的视频制作公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "工程师创办的视频制作公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/filmbaker",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/241/original/open-uri20220619-24-1dav5ys?1655642683",
-      "caption": "工程师创办的视频制作公司项目公开展示素材",
-      "alt": "filmbaker",
+      "caption": "工程师创办的视频制作公司：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "工程师创办的视频制作公司：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/filmbaker",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/242/original/open-uri20220619-24-179n7hg?1655642683",
-      "caption": "工程师创办的视频制作公司项目公开展示素材",
-      "alt": "filmbaker",
+      "caption": "工程师创办的视频制作公司：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "工程师创办的视频制作公司：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/filmbaker",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/244/original/open-uri20220619-24-1tagyug?1655642684",
-      "caption": "工程师创办的视频制作公司项目公开展示素材",
-      "alt": "filmbaker",
-      "sourceUrl": "https://www.starterstory.com/stories/filmbaker",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/245/original/open-uri20220619-24-2n1b24?1655642684",
-      "caption": "工程师创办的视频制作公司项目公开展示素材",
-      "alt": "filmbaker",
-      "sourceUrl": "https://www.starterstory.com/stories/filmbaker",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2168,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

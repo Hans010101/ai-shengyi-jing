@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/77plvuzt0ds71fmmlre0zsy8lk1z",
-      "caption": "教人不用网申就能进名企公开案例主图",
-      "alt": "教人不用网申就能进名企案例图片",
+      "caption": "教人不用网申就能进名企：靠课程和模板赚钱",
+      "alt": "教人不用网申就能进名企：靠课程和模板赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-built-a-business-helping-people-land-their-dream-jobs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/885/original/open-uri20190903-4-1orokku?1567505015",
-      "caption": "教人不用网申就能进名企项目公开展示素材",
-      "alt": "how-i-built-a-business-helping-people-land-their-dream-jobs",
+      "caption": "教人不用网申就能进名企：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "教人不用网申就能进名企：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-built-a-business-helping-people-land-their-dream-jobs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/886/original/open-uri20190903-4-1fj5k9v?1567505016",
-      "caption": "教人不用网申就能进名企项目公开展示素材",
-      "alt": "how-i-built-a-business-helping-people-land-their-dream-jobs",
+      "caption": "教人不用网申就能进名企：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "教人不用网申就能进名企：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-built-a-business-helping-people-land-their-dream-jobs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/887/original/open-uri20190903-4-10m1wvd?1567505017",
-      "caption": "教人不用网申就能进名企项目公开展示素材",
-      "alt": "how-i-built-a-business-helping-people-land-their-dream-jobs",
+      "caption": "教人不用网申就能进名企：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "教人不用网申就能进名企：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-built-a-business-helping-people-land-their-dream-jobs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "教人不用网申就能进名企项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-built-a-business-helping-people-land-their-dream-jobs",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2203,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

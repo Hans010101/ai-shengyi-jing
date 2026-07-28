@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/6scki68paqseodi9uir4oyd1b82t",
-      "caption": "AI驱动的内容写作SaaS公开案例主图",
-      "alt": "AI驱动的内容写作SaaS案例图片",
+      "caption": "AI驱动的内容写作SaaS：按订阅收费",
+      "alt": "AI驱动的内容写作SaaS：按订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/apna-writer",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/701/original/open-uri20220913-12-dixkaq?1663063735",
-      "caption": "AI驱动的内容写作SaaS项目公开展示素材",
-      "alt": "apna-writer",
+      "caption": "AI驱动的内容写作SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI驱动的内容写作SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/apna-writer",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI驱动的内容写作SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/apna-writer",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/7e9sq61cb3ys7k4x2v95afk99f38",
-      "caption": "AI驱动的内容写作SaaS项目公开展示素材",
-      "alt": "AI驱动的内容写作SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/apna-writer",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/8fse57tygi9da1j5ry220g736b65",
-      "caption": "AI驱动的内容写作SaaS项目公开展示素材",
-      "alt": "AI驱动的内容写作SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/apna-writer",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2185,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

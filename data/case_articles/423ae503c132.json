@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/5vgnkmdarw46eoel80tgas9nm6io",
-      "caption": "为XaaS公司提供AI定价情报SaaS公开案例主图",
-      "alt": "为XaaS公司提供AI定价情报SaaS案例图片",
+      "caption": "为XaaS公司提供AI定价情报SaaS：按订阅收费",
+      "alt": "为XaaS公司提供AI定价情报SaaS：按订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/xaas-pricing",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/601/original/open-uri20220526-24-9akqgc?1653577140",
-      "caption": "为XaaS公司提供AI定价情报SaaS项目公开展示素材",
-      "alt": "xaas-pricing",
+      "caption": "为XaaS公司提供AI定价情报SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为XaaS公司提供AI定价情报SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/xaas-pricing",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/602/original/open-uri20220526-24-14j002i?1653577141",
-      "caption": "为XaaS公司提供AI定价情报SaaS项目公开展示素材",
-      "alt": "xaas-pricing",
+      "caption": "为XaaS公司提供AI定价情报SaaS：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "为XaaS公司提供AI定价情报SaaS：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/xaas-pricing",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/603/original/open-uri20220526-24-gmbdhc?1653577142",
-      "caption": "为XaaS公司提供AI定价情报SaaS项目公开展示素材",
-      "alt": "xaas-pricing",
+      "caption": "为XaaS公司提供AI定价情报SaaS：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "为XaaS公司提供AI定价情报SaaS：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/xaas-pricing",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/604/original/open-uri20220526-24-vqes0g?1653577142",
-      "caption": "为XaaS公司提供AI定价情报SaaS项目公开展示素材",
-      "alt": "xaas-pricing",
-      "sourceUrl": "https://www.starterstory.com/stories/xaas-pricing",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/605/original/open-uri20220526-24-gojth6?1653577143",
-      "caption": "为XaaS公司提供AI定价情报SaaS项目公开展示素材",
-      "alt": "xaas-pricing",
-      "sourceUrl": "https://www.starterstory.com/stories/xaas-pricing",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2220,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

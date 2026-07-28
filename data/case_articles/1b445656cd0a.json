@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/saxvyiwinzvaqkdit84tehu9jqqe",
-      "caption": "AI文案生成SaaS工具公开案例主图",
-      "alt": "AI文案生成SaaS工具案例图片",
+      "caption": "AI文案生成SaaS工具：通过订阅制收费",
+      "alt": "AI文案生成SaaS工具：通过订阅制收费",
       "sourceUrl": "https://www.starterstory.com/stories/flipner-ai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/393/original/open-uri20240314-53-1543rgd?1710424779",
-      "caption": "AI文案生成SaaS工具项目公开展示素材",
-      "alt": "flipner-ai",
+      "caption": "AI文案生成SaaS工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI文案生成SaaS工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/flipner-ai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/394/original/open-uri20240314-53-10spmfb?1710424780",
-      "caption": "AI文案生成SaaS工具项目公开展示素材",
-      "alt": "flipner-ai",
+      "caption": "AI文案生成SaaS工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI文案生成SaaS工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/flipner-ai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/395/original/open-uri20240314-53-ucbrnq?1710424780",
-      "caption": "AI文案生成SaaS工具项目公开展示素材",
-      "alt": "flipner-ai",
+      "caption": "AI文案生成SaaS工具：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "AI文案生成SaaS工具：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/flipner-ai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/396/original/open-uri20240314-53-10om9zq?1710424781",
-      "caption": "AI文案生成SaaS工具项目公开展示素材",
-      "alt": "flipner-ai",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/NvJ7uL_dC8c",
+      "watchUrl": "https://www.youtube.com/watch?v=NvJ7uL_dC8c",
+      "caption": "AI文案生成SaaS工具资料中提及的视频：Flipner AI: Capture your ideas & craft texts with AI's touch",
+      "alt": "Flipner AI: Capture your ideas & craft texts with AI's touch",
       "sourceUrl": "https://www.starterstory.com/stories/flipner-ai",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/NvJ7uL_dC8c/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

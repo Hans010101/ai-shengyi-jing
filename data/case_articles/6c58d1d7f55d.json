@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/8vxcst6frrjwr0tvgdqbksskxiyn",
-      "caption": "用AI实时追踪私营企业增长数据公开案例主图",
-      "alt": "用AI实时追踪私营企业增长数据案例图片",
+      "caption": "用AI实时追踪私营企业增长数据：按订阅收费",
+      "alt": "用AI实时追踪私营企业增长数据：按订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/crustdata",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/217/original/open-uri20230217-51-z37tky?1676652019",
-      "caption": "用AI实时追踪私营企业增长数据项目公开展示素材",
-      "alt": "crustdata",
+      "caption": "用AI实时追踪私营企业增长数据：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "用AI实时追踪私营企业增长数据：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/crustdata",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/218/original/open-uri20230217-51-1aumhjc?1676652020",
-      "caption": "用AI实时追踪私营企业增长数据项目公开展示素材",
-      "alt": "crustdata",
+      "caption": "用AI实时追踪私营企业增长数据：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "用AI实时追踪私营企业增长数据：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/crustdata",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "用AI实时追踪私营企业增长数据项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/crustdata",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ux0jwuv5zreae40prptu2ora5km3",
-      "caption": "用AI实时追踪私营企业增长数据项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/crustdata",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2238,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

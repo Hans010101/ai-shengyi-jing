@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/egw5j5g5okh2bhnneuw3a0fhgg0p",
-      "caption": "开发圣经App公开案例主图",
-      "alt": "开发圣经App案例图片",
+      "caption": "开发圣经App：通过付费下载和应用内购买盈利",
+      "alt": "开发圣经App：通过付费下载和应用内购买盈利",
       "sourceUrl": "https://www.starterstory.com/stories/growing-a-bible-app-side-project-to-a-million-users-and-selling-it",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/801/original/open-uri20190122-4-1uh9mhj?1548124187",
-      "caption": "开发圣经App项目公开展示素材",
-      "alt": "growing-a-bible-app-side-project-to-a-million-users-and-selling-it",
+      "caption": "开发圣经App：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "开发圣经App：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/growing-a-bible-app-side-project-to-a-million-users-and-selling-it",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/802/original/open-uri20190122-4-1bwo5w6?1548124187",
-      "caption": "开发圣经App项目公开展示素材",
-      "alt": "growing-a-bible-app-side-project-to-a-million-users-and-selling-it",
+      "caption": "开发圣经App：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "开发圣经App：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/growing-a-bible-app-side-project-to-a-million-users-and-selling-it",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "开发圣经App项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/growing-a-bible-app-side-project-to-a-million-users-and-selling-it",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "开发圣经App项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/growing-a-bible-app-side-project-to-a-million-users-and-selling-it",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2204,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

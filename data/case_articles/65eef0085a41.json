@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/0g88oqenkhti9nahsiwfcazillf7",
-      "caption": "设计师利用自由职业平台组建远程团队公开案例主图",
-      "alt": "设计师利用自由职业平台组建远程团队案例图片",
+      "caption": "设计师利用自由职业平台组建远程团队：提供数字服务月入5K美元",
+      "alt": "设计师利用自由职业平台组建远程团队：提供数字服务月入5K美元",
       "sourceUrl": "https://www.starterstory.com/stories/arrowupz",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/658/original/open-uri20220913-12-102j478?1663033367",
-      "caption": "设计师利用自由职业平台组建远程团队项目公开展示素材",
-      "alt": "arrowupz",
+      "caption": "设计师利用自由职业平台组建远程团队：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "设计师利用自由职业平台组建远程团队：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/arrowupz",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/659/original/open-uri20220913-12-6q4t40?1663033368",
-      "caption": "设计师利用自由职业平台组建远程团队项目公开展示素材",
-      "alt": "arrowupz",
+      "caption": "设计师利用自由职业平台组建远程团队：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "设计师利用自由职业平台组建远程团队：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/arrowupz",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/660/original/open-uri20220913-12-e2cov0?1663033369",
-      "caption": "设计师利用自由职业平台组建远程团队项目公开展示素材",
-      "alt": "arrowupz",
+      "caption": "设计师利用自由职业平台组建远程团队：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "设计师利用自由职业平台组建远程团队：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/arrowupz",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/661/original/open-uri20220913-12-4eaiye?1663033370",
-      "caption": "设计师利用自由职业平台组建远程团队项目公开展示素材",
-      "alt": "arrowupz",
-      "sourceUrl": "https://www.starterstory.com/stories/arrowupz",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/662/original/open-uri20220913-12-hse4hg?1663033371",
-      "caption": "设计师利用自由职业平台组建远程团队项目公开展示素材",
-      "alt": "arrowupz",
-      "sourceUrl": "https://www.starterstory.com/stories/arrowupz",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2222,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

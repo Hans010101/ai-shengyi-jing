@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/nthjodgmargv26wxfd9fq2hewbf3",
-      "caption": "数字营销机构公开案例主图",
-      "alt": "数字营销机构案例图片",
+      "caption": "数字营销机构：通过品牌策略和广告投放服务年入350万美元",
+      "alt": "数字营销机构：通过品牌策略和广告投放服务年入350万美元",
       "sourceUrl": "https://www.starterstory.com/stories/lone-fir-creative",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/726/original/open-uri20220601-24-1k5c97g?1654083509",
-      "caption": "数字营销机构项目公开展示素材",
-      "alt": "lone-fir-creative",
+      "caption": "数字营销机构：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "数字营销机构：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/lone-fir-creative",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "数字营销机构项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/lone-fir-creative",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c303bjznv93yxnh0xxz7t4vfedzf",
-      "caption": "数字营销机构项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/lone-fir-creative",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/g7u9n5r6x97tx6t39ho1x4n6rgor",
-      "caption": "数字营销机构项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/lone-fir-creative",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2214,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

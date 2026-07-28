@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/zcwzqnwadlhjuzje2zfq4p7nkgqv",
-      "caption": "手工珠宝品牌公开案例主图",
-      "alt": "手工珠宝品牌案例图片",
+      "caption": "手工珠宝品牌：通过故事营销和媒体曝光实现增长",
+      "alt": "手工珠宝品牌：通过故事营销和媒体曝光实现增长",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-our-revenue-50-and-landed-a-spot-on-the-today-show",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/004/898/original/open-uri20200211-4-49y0u8?1581455905",
-      "caption": "手工珠宝品牌项目公开展示素材",
-      "alt": "how-we-increased-our-revenue-by-50-in-one-year",
+      "caption": "手工珠宝品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "手工珠宝品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-our-revenue-50-and-landed-a-spot-on-the-today-show",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/004/899/original/open-uri20200211-4-1r87ktr?1581455906",
-      "caption": "手工珠宝品牌项目公开展示素材",
-      "alt": "how-we-increased-our-revenue-by-50-in-one-year",
+      "caption": "手工珠宝品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "手工珠宝品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-our-revenue-50-and-landed-a-spot-on-the-today-show",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/004/900/original/open-uri20200211-4-qrftke?1581455906",
-      "caption": "手工珠宝品牌项目公开展示素材",
-      "alt": "how-we-increased-our-revenue-by-50-in-one-year",
+      "caption": "手工珠宝品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "手工珠宝品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-our-revenue-50-and-landed-a-spot-on-the-today-show",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/004/901/original/open-uri20200211-4-v7sqdw?1581455907",
-      "caption": "手工珠宝品牌项目公开展示素材",
-      "alt": "how-we-increased-our-revenue-by-50-in-one-year",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/5d2H96hsK0U",
+      "watchUrl": "https://www.youtube.com/watch?v=5d2H96hsK0U",
+      "caption": "手工珠宝品牌资料中提及的视频：Empowering female artisans through 'Love is Project'",
+      "alt": "Empowering female artisans through 'Love is Project'",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-our-revenue-50-and-landed-a-spot-on-the-today-show",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/5d2H96hsK0U/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

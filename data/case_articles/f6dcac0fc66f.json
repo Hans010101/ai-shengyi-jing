@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/cz557zcygzuv2eq26drludaidq9a",
-      "caption": "AI视频编辑器公开案例主图",
-      "alt": "AI视频编辑器案例图片",
+      "caption": "AI视频编辑器：通过订阅制收费，月入2万美元",
+      "alt": "AI视频编辑器：通过订阅制收费，月入2万美元",
       "sourceUrl": "https://www.starterstory.com/stories/nova-ai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/035/original/open-uri20230421-51-1eaw6u8?1682053363",
-      "caption": "AI视频编辑器项目公开展示素材",
-      "alt": "nova-ai",
+      "caption": "AI视频编辑器：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI视频编辑器：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/nova-ai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/036/original/open-uri20230421-51-f63n6k?1682053364",
-      "caption": "AI视频编辑器项目公开展示素材",
-      "alt": "nova-ai",
+      "caption": "AI视频编辑器：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "AI视频编辑器：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/nova-ai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/037/original/open-uri20230421-51-1fvpa4t?1682053365",
-      "caption": "AI视频编辑器项目公开展示素材",
-      "alt": "nova-ai",
+      "caption": "AI视频编辑器：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "AI视频编辑器：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/nova-ai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/038/original/open-uri20230421-51-buwl1w?1682053366",
-      "caption": "AI视频编辑器项目公开展示素材",
-      "alt": "nova-ai",
-      "sourceUrl": "https://www.starterstory.com/stories/nova-ai",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2181,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

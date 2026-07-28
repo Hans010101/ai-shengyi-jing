@@ -122,56 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/pbkt59wjhf2qcas9j6qg6yl2w72m",
-      "caption": "开发权限管理SaaS公开案例主图",
-      "alt": "开发权限管理SaaS案例图片",
+      "caption": "开发权限管理SaaS：年入10万美元",
+      "alt": "开发权限管理SaaS：年入10万美元",
       "sourceUrl": "https://www.starterstory.com/stories/permit-io",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/903/original/open-uri20220801-24-1kpztn3?1659363526",
-      "caption": "开发权限管理SaaS项目公开展示素材",
-      "alt": "permit-io",
+      "caption": "开发权限管理SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "开发权限管理SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/permit-io",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/904/original/open-uri20220801-24-kfucbg?1659363528",
-      "caption": "开发权限管理SaaS项目公开展示素材",
-      "alt": "permit-io",
+      "caption": "开发权限管理SaaS：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "开发权限管理SaaS：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/permit-io",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "开发权限管理SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/permit-io",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/bdcc1vvspcgfjutamxvp7yaojx4j",
-      "caption": "开发权限管理SaaS项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/permit-io",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/vh7t88g7crqtsbu575x8r9a8dnfx",
-      "caption": "开发权限管理SaaS项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/permit-io",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2182,
-    "mediaCount": 6
+    "mediaCount": 3
   }
 }

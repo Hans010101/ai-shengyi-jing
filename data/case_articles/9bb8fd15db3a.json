@@ -122,56 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/zo6s9zxbx91pnz2w32scstcwbfwl",
-      "caption": "摄影博主公开案例主图",
-      "alt": "摄影博主案例图片",
+      "caption": "摄影博主：通过社交媒体引流，提供高端摄影服务变现",
+      "alt": "摄影博主：通过社交媒体引流，提供高端摄影服务变现",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-built-my-freelance-photography-business-to-six-figures",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/639/original/open-uri20210909-3-wlyo5k?1631190685",
-      "caption": "摄影博主项目公开展示素材",
-      "alt": "how-i-built-my-freelance-photography-business-to-six-figures",
+      "caption": "摄影博主：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "摄影博主：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-built-my-freelance-photography-business-to-six-figures",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "摄影博主项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-built-my-freelance-photography-business-to-six-figures",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ccjvbiecj0z4p3d8grzre7evwl9k",
-      "caption": "摄影博主项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-built-my-freelance-photography-business-to-six-figures",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/dv2ucg8g6glcnirtn7v0t6me439k",
-      "caption": "摄影博主项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-built-my-freelance-photography-business-to-six-figures",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/dqber83uqxx9ccmb6o59c45ppu0a",
-      "caption": "摄影博主项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-built-my-freelance-photography-business-to-six-figures",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2262,
-    "mediaCount": 6
+    "mediaCount": 2
   }
 }

@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/swemmxjpoofnecqwq3uf4w72fjo8",
-      "caption": "个人开发者公开案例主图",
-      "alt": "个人开发者案例图片",
+      "caption": "个人开发者：通过AI数据平台Lychee实现月入10万美元",
+      "alt": "个人开发者：通过AI数据平台Lychee实现月入10万美元",
       "sourceUrl": "https://www.starterstory.com/stories/lychee",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/825/original/open-uri20240504-65-n0rf6q?1714834824",
-      "caption": "个人开发者项目公开展示素材",
-      "alt": "lychee",
+      "caption": "个人开发者：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "个人开发者：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/lychee",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/826/original/open-uri20240504-65-19gphek?1714834824",
-      "caption": "个人开发者项目公开展示素材",
-      "alt": "lychee",
+      "caption": "个人开发者：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "个人开发者：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/lychee",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/827/original/open-uri20240504-65-1if9kic?1714834825",
-      "caption": "个人开发者项目公开展示素材",
-      "alt": "lychee",
+      "caption": "个人开发者：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "个人开发者：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/lychee",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/828/original/open-uri20240504-65-1tw6fk0?1714834825",
-      "caption": "个人开发者项目公开展示素材",
-      "alt": "lychee",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/mwm-0sAPvWI",
+      "watchUrl": "https://www.youtube.com/watch?v=mwm-0sAPvWI",
+      "caption": "个人开发者资料中提及的视频：How I am launching my SASS startup on product hunt to SKYROCKET growth in Mar 2024",
+      "alt": "How I am launching my SASS startup on product hunt to SKYROCKET growth in Mar 2024",
       "sourceUrl": "https://www.starterstory.com/stories/lychee",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/mwm-0sAPvWI/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

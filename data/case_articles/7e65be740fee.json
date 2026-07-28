@@ -122,75 +122,59 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/vm2glox06ftz97d3hyy5b0ubnmg4",
-      "caption": "简化Facebook广告管理的SaaS工具公开案例主图",
-      "alt": "简化Facebook广告管理的SaaS工具案例图片",
+      "caption": "简化Facebook广告管理的SaaS工具：月费订阅盈利",
+      "alt": "简化Facebook广告管理的SaaS工具：月费订阅盈利",
       "sourceUrl": "https://www.starterstory.com/stories/uphex",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "简化Facebook广告管理的SaaS工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/uphex",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/g5ro3wvdl2k61zzypppa9o57fcqd",
-      "caption": "简化Facebook广告管理的SaaS工具项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/uphex",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/2r0bmvunp6hplaeyu1t5rm1lcgma",
-      "caption": "简化Facebook广告管理的SaaS工具项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/uphex",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/203twfnl4n6zvwfd5gv9agea6h42",
-      "caption": "简化Facebook广告管理的SaaS工具项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/uphex",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/1s7m5fyj6w1je4ry8bo80hv3i7n3",
-      "caption": "简化Facebook广告管理的SaaS工具项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/uphex",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/q7_Cv6N75_k",
-      "caption": "简化Facebook广告管理的SaaS工具项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=q7_Cv6N75_k",
+      "caption": "简化Facebook广告管理的SaaS工具资料中提及的视频：New Patients in Just 3 Clicks with Patient Stream Ai",
+      "alt": "New Patients in Just 3 Clicks with Patient Stream Ai",
       "sourceUrl": "https://www.starterstory.com/stories/uphex",
       "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/q7_Cv6N75_k/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/5ucIsnnnw38",
-      "caption": "简化Facebook广告管理的SaaS工具项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=5ucIsnnnw38",
+      "caption": "简化Facebook广告管理的SaaS工具资料中提及的视频：FB Ads Client Can Run Themselves With Samuel Carlson",
+      "alt": "FB Ads Client Can Run Themselves With Samuel Carlson",
       "sourceUrl": "https://www.starterstory.com/stories/uphex",
       "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/5ucIsnnnw38/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/Hj1U7lM6vUw",
+      "watchUrl": "https://www.youtube.com/watch?v=Hj1U7lM6vUw",
+      "caption": "简化Facebook广告管理的SaaS工具资料中提及的视频：35 Agency Clients During 14 Day Trial",
+      "alt": "35 Agency Clients During 14 Day Trial",
+      "sourceUrl": "https://www.starterstory.com/stories/uphex",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/Hj1U7lM6vUw/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/-0Q4Dlg8IBY",
+      "watchUrl": "https://www.youtube.com/watch?v=-0Q4Dlg8IBY",
+      "caption": "简化Facebook广告管理的SaaS工具资料中提及的视频：High-Performing Facebook Ads With Sam Carlson",
+      "alt": "High-Performing Facebook Ads With Sam Carlson",
+      "sourceUrl": "https://www.starterstory.com/stories/uphex",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/-0Q4Dlg8IBY/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -206,6 +190,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2179,
-    "mediaCount": 8
+    "mediaCount": 5
   }
 }

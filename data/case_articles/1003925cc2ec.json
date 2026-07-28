@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/hvxuytiyvhjwm47m4z9wirf0fcwp",
-      "caption": "为独立创业者提供营销资源包公开案例主图",
-      "alt": "为独立创业者提供营销资源包案例图片",
+      "caption": "为独立创业者提供营销资源包：月入5K美元",
+      "alt": "为独立创业者提供营销资源包：月入5K美元",
       "sourceUrl": "https://www.starterstory.com/stories/makerbox",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/791/original/open-uri20230405-64-fz18iu?1680733886",
-      "caption": "为独立创业者提供营销资源包项目公开展示素材",
-      "alt": "makerbox",
+      "caption": "为独立创业者提供营销资源包：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为独立创业者提供营销资源包：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/makerbox",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/792/original/open-uri20230405-64-cwdtbm?1680733888",
-      "caption": "为独立创业者提供营销资源包项目公开展示素材",
-      "alt": "makerbox",
+      "caption": "为独立创业者提供营销资源包：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "为独立创业者提供营销资源包：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/makerbox",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/793/original/open-uri20230405-64-1j1j0u1?1680733889",
-      "caption": "为独立创业者提供营销资源包项目公开展示素材",
-      "alt": "makerbox",
+      "caption": "为独立创业者提供营销资源包：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "为独立创业者提供营销资源包：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/makerbox",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/794/original/open-uri20230405-64-k599gp?1680733891",
-      "caption": "为独立创业者提供营销资源包项目公开展示素材",
-      "alt": "makerbox",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/6reLWfFNer0",
+      "watchUrl": "https://www.youtube.com/watch?v=6reLWfFNer0",
+      "caption": "为独立创业者提供营销资源包资料中提及的视频：How to Build a Startup Without Funding by Pieter Levels @ Dojo Bali",
+      "alt": "How to Build a Startup Without Funding by Pieter Levels @ Dojo Bali",
       "sourceUrl": "https://www.starterstory.com/stories/makerbox",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/6reLWfFNer0/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

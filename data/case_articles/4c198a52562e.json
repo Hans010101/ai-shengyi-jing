@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/9mwwbq1svh7ggnouyc96o29tiplc",
-      "caption": "手工护肤品牌公开案例主图",
-      "alt": "手工护肤品牌案例图片",
+      "caption": "手工护肤品牌：通过邮件营销获客，靠产品复购赚钱",
+      "alt": "手工护肤品牌：通过邮件营销获客，靠产品复购赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/scrubzbody-skin-care-products",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/363/original/open-uri20220906-24-1i0w6jl?1662423247",
-      "caption": "手工护肤品牌项目公开展示素材",
-      "alt": "scrubzbody-skin-care-products",
+      "caption": "手工护肤品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "手工护肤品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/scrubzbody-skin-care-products",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/364/original/open-uri20220906-24-1r8c4pl?1662423247",
-      "caption": "手工护肤品牌项目公开展示素材",
-      "alt": "scrubzbody-skin-care-products",
+      "caption": "手工护肤品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "手工护肤品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/scrubzbody-skin-care-products",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "手工护肤品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/scrubzbody-skin-care-products",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/bleg7ym47u9i3fco1c64kivl3030",
-      "caption": "手工护肤品牌项目公开展示素材",
-      "alt": "手工护肤品牌项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/scrubzbody-skin-care-products",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2164,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

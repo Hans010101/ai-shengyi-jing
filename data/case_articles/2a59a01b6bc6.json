@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/pnaay5hjzpaxf5xgohazzwgftimi",
-      "caption": "为健身教练提供SaaS工具公开案例主图",
-      "alt": "为健身教练提供SaaS工具案例图片",
+      "caption": "为健身教练提供SaaS工具：帮助管理业务并变现",
+      "alt": "为健身教练提供SaaS工具：帮助管理业务并变现",
       "sourceUrl": "https://www.starterstory.com/stories/we-have-bootstrapped-our-monthly-revenue-to-50k-over-last-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/975/original/open-uri20210927-3-164tsby?1632750082",
-      "caption": "为健身教练提供SaaS工具项目公开展示素材",
-      "alt": "we-have-bootstrapped-our-monthly-revenue-to-50k-over-last-year",
+      "caption": "为健身教练提供SaaS工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为健身教练提供SaaS工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/we-have-bootstrapped-our-monthly-revenue-to-50k-over-last-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/976/original/open-uri20210927-3-ljceu5?1632750083",
-      "caption": "为健身教练提供SaaS工具项目公开展示素材",
-      "alt": "we-have-bootstrapped-our-monthly-revenue-to-50k-over-last-year",
+      "caption": "为健身教练提供SaaS工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "为健身教练提供SaaS工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-have-bootstrapped-our-monthly-revenue-to-50k-over-last-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/977/original/open-uri20210927-3-1lv99k8?1632750084",
-      "caption": "为健身教练提供SaaS工具项目公开展示素材",
-      "alt": "we-have-bootstrapped-our-monthly-revenue-to-50k-over-last-year",
+      "caption": "为健身教练提供SaaS工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "为健身教练提供SaaS工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-have-bootstrapped-our-monthly-revenue-to-50k-over-last-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为健身教练提供SaaS工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/we-have-bootstrapped-our-monthly-revenue-to-50k-over-last-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2185,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

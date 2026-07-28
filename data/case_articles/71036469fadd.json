@@ -121,57 +121,23 @@
   "media": [
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为企业提供定制化品牌周边的一站式服务平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/just-a-moment-083e585a-b447-45f7-a1ce-612b6f0083fb",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/a8ca827de27851cb",
-      "caption": "为企业提供定制化品牌周边的一站式服务平台项目公开展示素材",
+      "caption": "为企业提供定制化品牌周边的一站式服务平台：创始人、核心产品与品牌起点相关原始配图",
       "alt": "My image",
       "sourceUrl": "https://www.starterstory.com/stories/just-a-moment-083e585a-b447-45f7-a1ce-612b6f0083fb",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/yfh23vvqwi41llbte9dmfhm23onl",
-      "caption": "为企业提供定制化品牌周边的一站式服务平台项目公开展示素材",
-      "alt": "article",
+      "caption": "为企业提供定制化品牌周边的一站式服务平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "为企业提供定制化品牌周边的一站式服务平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/just-a-moment-083e585a-b447-45f7-a1ce-612b6f0083fb",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/f7mvbl2qoqohnbgzv75u3n9yzi3r",
-      "caption": "为企业提供定制化品牌周边的一站式服务平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/just-a-moment-083e585a-b447-45f7-a1ce-612b6f0083fb",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/mve3ffmwmstwm3mhuw80e292d8u3",
-      "caption": "为企业提供定制化品牌周边的一站式服务平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/just-a-moment-083e585a-b447-45f7-a1ce-612b6f0083fb",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/5n9sksw3vwhgknqauyhvkcetnp4j",
-      "caption": "为企业提供定制化品牌周边的一站式服务平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/just-a-moment-083e585a-b447-45f7-a1ce-612b6f0083fb",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2170,
-    "mediaCount": 6
+    "mediaCount": 2
   }
 }

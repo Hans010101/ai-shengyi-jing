@@ -121,57 +121,33 @@
   "media": [
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI语音任务规划工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/voiset-simple-ai-planning-tool-for-work-and-life",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/ca4974a7a345aae2",
-      "caption": "AI语音任务规划工具项目公开展示素材",
+      "caption": "AI语音任务规划工具：创始人、核心产品与品牌起点相关原始配图",
       "alt": "We've reached €5,000 MRR with 16% monthly growth.",
       "sourceUrl": "https://www.starterstory.com/stories/voiset-simple-ai-planning-tool-for-work-and-life",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/2enbwry4j4zlgjqxrof7l7aqy65z",
-      "caption": "AI语音任务规划工具项目公开展示素材",
-      "alt": "article",
+      "caption": "AI语音任务规划工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI语音任务规划工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/voiset-simple-ai-planning-tool-for-work-and-life",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/2838ad518b052c91",
-      "caption": "AI语音任务规划工具项目公开展示素材",
+      "caption": "AI语音任务规划工具：产品上线与首次发布相关原始配图（第3张）",
       "alt": "My image",
       "sourceUrl": "https://www.starterstory.com/stories/voiset-simple-ai-planning-tool-for-work-and-life",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/g5b9ol4517g6xa10i4sbtv5rcnwo",
-      "caption": "AI语音任务规划工具项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/voiset-simple-ai-planning-tool-for-work-and-life",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/hsde9saxhcjztuls532v8njnrp4a",
-      "caption": "AI语音任务规划工具项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/voiset-simple-ai-planning-tool-for-work-and-life",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2208,
-    "mediaCount": 6
+    "mediaCount": 3
   }
 }

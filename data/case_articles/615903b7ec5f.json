@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/me9r8n8tfu0y4z1xpj6g3s3i9bq7",
-      "caption": "个人与企业教练服务公开案例主图",
-      "alt": "个人与企业教练服务案例图片",
+      "caption": "个人与企业教练服务：通过线上课程和1对1 coaching变现",
+      "alt": "个人与企业教练服务：通过线上课程和1对1 coaching变现",
       "sourceUrl": "https://www.starterstory.com/stories/blue-sky-coaching",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/502/original/open-uri20221210-12-14u18w7?1670637256",
-      "caption": "个人与企业教练服务项目公开展示素材",
-      "alt": "blue-sky-coaching",
+      "caption": "个人与企业教练服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "个人与企业教练服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/blue-sky-coaching",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/503/original/open-uri20221210-12-m5rr71?1670637257",
-      "caption": "个人与企业教练服务项目公开展示素材",
-      "alt": "blue-sky-coaching",
+      "caption": "个人与企业教练服务：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "个人与企业教练服务：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/blue-sky-coaching",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/504/original/open-uri20221210-12-11iqn3p?1670637259",
-      "caption": "个人与企业教练服务项目公开展示素材",
-      "alt": "blue-sky-coaching",
+      "caption": "个人与企业教练服务：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "个人与企业教练服务：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/blue-sky-coaching",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/505/original/open-uri20221210-12-1xq5rd3?1670637259",
-      "caption": "个人与企业教练服务项目公开展示素材",
-      "alt": "blue-sky-coaching",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/FPFMcCgWCdg&list=PLM-mXPjwiAXoFzdVSBVWfM-a82YwHKe9V&index=2",
+      "watchUrl": "https://www.youtube.com/watch?v=FPFMcCgWCdg&list=PLM-mXPjwiAXoFzdVSBVWfM-a82YwHKe9V&index=2",
+      "caption": "个人与企业教练服务资料中提及的视频：TEDxEmbarcadero - Whitney Johnson - Disrupt Yourself",
+      "alt": "TEDxEmbarcadero - Whitney Johnson - Disrupt Yourself",
       "sourceUrl": "https://www.starterstory.com/stories/blue-sky-coaching",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/FPFMcCgWCdg/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/724bltnmbk0hphvyevs5cn2vxtle",
-      "caption": "自创苹果酱品牌公开案例主图",
-      "alt": "自创苹果酱品牌案例图片",
+      "caption": "自创苹果酱品牌：通过零售和批发销售盈利",
+      "alt": "自创苹果酱品牌：通过零售和批发销售盈利",
       "sourceUrl": "https://www.starterstory.com/stories/how-an-entrepreneur-from-ohio-launched-his-own-applesauce-company",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/662/original/open-uri20190108-4-suj0fm?1546933329",
-      "caption": "自创苹果酱品牌项目公开展示素材",
-      "alt": "how-an-entrepreneur-from-ohio-launched-his-own-applesauce-company",
+      "caption": "自创苹果酱品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "自创苹果酱品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-an-entrepreneur-from-ohio-launched-his-own-applesauce-company",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/663/original/open-uri20190108-4-rznv7x?1546933329",
-      "caption": "自创苹果酱品牌项目公开展示素材",
-      "alt": "how-an-entrepreneur-from-ohio-launched-his-own-applesauce-company",
+      "caption": "自创苹果酱品牌：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "自创苹果酱品牌：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-an-entrepreneur-from-ohio-launched-his-own-applesauce-company",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "自创苹果酱品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-an-entrepreneur-from-ohio-launched-his-own-applesauce-company",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/o0cz8ezzjj8uumvwu7ij6bu599gm",
-      "caption": "自创苹果酱品牌项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-an-entrepreneur-from-ohio-launched-his-own-applesauce-company",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2172,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

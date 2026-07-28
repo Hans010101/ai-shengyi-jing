@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/789bcqb35o445ininwml5lo7hsyq",
-      "caption": "AI生成LinkedIn轮播图公开案例主图",
-      "alt": "AI生成LinkedIn轮播图案例图片",
+      "caption": "AI生成LinkedIn轮播图：按次付费或订阅赚钱",
+      "alt": "AI生成LinkedIn轮播图：按次付费或订阅赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/aicarousels",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/242/original/open-uri20231117-51-mnnd1s?1700202301",
-      "caption": "AI生成LinkedIn轮播图项目公开展示素材",
-      "alt": "aicarousels",
+      "caption": "AI生成LinkedIn轮播图：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI生成LinkedIn轮播图：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/aicarousels",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/243/original/open-uri20231117-51-d0wo18?1700202302",
-      "caption": "AI生成LinkedIn轮播图项目公开展示素材",
-      "alt": "aicarousels",
+      "caption": "AI生成LinkedIn轮播图：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI生成LinkedIn轮播图：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/aicarousels",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/244/original/open-uri20231117-51-1f1j2xq?1700202303",
-      "caption": "AI生成LinkedIn轮播图项目公开展示素材",
-      "alt": "aicarousels",
+      "caption": "AI生成LinkedIn轮播图：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "AI生成LinkedIn轮播图：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/aicarousels",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/245/original/open-uri20231117-51-19v2auh?1700202304",
-      "caption": "AI生成LinkedIn轮播图项目公开展示素材",
-      "alt": "aicarousels",
-      "sourceUrl": "https://www.starterstory.com/stories/aicarousels",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2179,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

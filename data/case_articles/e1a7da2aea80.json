@@ -122,65 +122,53 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/47qnuuyk09u5zzortbhy1vo6bj81",
-      "caption": "帮创始人打造个人品牌公开案例主图",
-      "alt": "帮创始人打造个人品牌案例图片",
+      "caption": "帮创始人打造个人品牌：通过PR服务月入1万美元",
+      "alt": "帮创始人打造个人品牌：通过PR服务月入1万美元",
       "sourceUrl": "https://www.starterstory.com/stories/mashman-ventures",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/511/original/open-uri20220524-12-1thxtnq?1653406144",
-      "caption": "帮创始人打造个人品牌项目公开展示素材",
-      "alt": "mashman-ventures",
+      "caption": "帮创始人打造个人品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "帮创始人打造个人品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/mashman-ventures",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/512/original/open-uri20220524-12-2tcyij?1653406144",
-      "caption": "帮创始人打造个人品牌项目公开展示素材",
-      "alt": "mashman-ventures",
+      "caption": "帮创始人打造个人品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "帮创始人打造个人品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/mashman-ventures",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/513/original/open-uri20220524-12-icww27?1653406145",
-      "caption": "帮创始人打造个人品牌项目公开展示素材",
-      "alt": "mashman-ventures",
+      "caption": "帮创始人打造个人品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "帮创始人打造个人品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/mashman-ventures",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/514/original/open-uri20220524-12-1rot4sj?1653406145",
-      "caption": "帮创始人打造个人品牌项目公开展示素材",
-      "alt": "mashman-ventures",
-      "sourceUrl": "https://www.starterstory.com/stories/mashman-ventures",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "帮创始人打造个人品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/mashman-ventures",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/kWX5RnSQd0s",
-      "caption": "帮创始人打造个人品牌项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=kWX5RnSQd0s",
+      "caption": "帮创始人打造个人品牌资料中提及的视频：Unrivaled: Personal Branding Webinar Replay",
+      "alt": "Unrivaled: Personal Branding Webinar Replay",
       "sourceUrl": "https://www.starterstory.com/stories/mashman-ventures",
       "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/kWX5RnSQd0s/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -196,6 +184,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2194,
-    "mediaCount": 7
+    "mediaCount": 5
   }
 }

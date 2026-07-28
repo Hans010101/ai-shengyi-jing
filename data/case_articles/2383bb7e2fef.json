@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/2aa2pmdd9ytw63j9t20ew7cee6oi",
-      "caption": "克隆热门应用为初创公司公开案例主图",
-      "alt": "克隆热门应用为初创公司案例图片",
+      "caption": "克隆热门应用为初创公司：服务收费年入300万美元",
+      "alt": "克隆热门应用为初创公司：服务收费年入300万美元",
       "sourceUrl": "https://www.starterstory.com/stories/i-earn-3m-year-developing-clone-apps-for-startups",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/431/original/open-uri20211020-3-pig1r9?1634748585",
-      "caption": "克隆热门应用为初创公司项目公开展示素材",
-      "alt": "i-earn-3m-year-developing-clone-apps-for-startups",
+      "caption": "克隆热门应用为初创公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "克隆热门应用为初创公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-earn-3m-year-developing-clone-apps-for-startups",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/433/original/open-uri20211020-3-1f2uwfe?1634748586",
-      "caption": "克隆热门应用为初创公司项目公开展示素材",
-      "alt": "i-earn-3m-year-developing-clone-apps-for-startups",
+      "caption": "克隆热门应用为初创公司：创业复盘与关键经验相关原始配图（第2张）",
+      "alt": "克隆热门应用为初创公司：创业复盘与关键经验相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-earn-3m-year-developing-clone-apps-for-startups",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "克隆热门应用为初创公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/i-earn-3m-year-developing-clone-apps-for-startups",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/glia3fse1raug40hg8lpkg3rg09w",
-      "caption": "克隆热门应用为初创公司项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/i-earn-3m-year-developing-clone-apps-for-startups",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2175,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

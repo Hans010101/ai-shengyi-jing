@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/agyavkadzf2dwzzm0vvqvjwhyt9l",
-      "caption": "海外B2B服务项目公开案例主图",
-      "alt": "海外B2B服务项目案例图片",
+      "caption": "海外B2B服务项目：通过AI工具提升网页设计效率，年营收25万美元",
+      "alt": "海外B2B服务项目：通过AI工具提升网页设计效率，年营收25万美元",
       "sourceUrl": "https://www.starterstory.com/stories/aun-digital",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/750/original/open-uri20240428-65-1of6yhr?1714273538",
-      "caption": "海外B2B服务项目项目公开展示素材",
-      "alt": "aun-digital",
+      "caption": "海外B2B服务项目：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "海外B2B服务项目：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/aun-digital",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/751/original/open-uri20240428-65-6refkj?1714273539",
-      "caption": "海外B2B服务项目项目公开展示素材",
-      "alt": "aun-digital",
+      "caption": "海外B2B服务项目：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "海外B2B服务项目：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/aun-digital",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/752/original/open-uri20240428-65-12ei6it?1714273539",
-      "caption": "海外B2B服务项目项目公开展示素材",
-      "alt": "aun-digital",
+      "caption": "海外B2B服务项目：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "海外B2B服务项目：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/aun-digital",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/753/original/open-uri20240428-65-5r9m2k?1714273540",
-      "caption": "海外B2B服务项目项目公开展示素材",
-      "alt": "aun-digital",
-      "sourceUrl": "https://www.starterstory.com/stories/aun-digital",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2138,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

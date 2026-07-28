@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/xdsjx8ng20bgfo7wpzgnbashdr56",
-      "caption": "销售带有社会公益属性的产品公开案例主图",
-      "alt": "销售带有社会公益属性的产品案例图片",
+      "caption": "销售带有社会公益属性的产品：如肥皂，部分收入捐赠环保",
+      "alt": "销售带有社会公益属性的产品：如肥皂，部分收入捐赠环保",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-added-new-products-and-opened-our-new-location",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/464/original/open-uri20201023-4-1y85znl?1603474303",
-      "caption": "销售带有社会公益属性的产品项目公开展示素材",
-      "alt": "how-we-added-new-products-and-opened-our-new-location",
+      "caption": "销售带有社会公益属性的产品：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "销售带有社会公益属性的产品：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-added-new-products-and-opened-our-new-location",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/465/original/open-uri20201023-4-v0td5q?1603474304",
-      "caption": "销售带有社会公益属性的产品项目公开展示素材",
-      "alt": "how-we-added-new-products-and-opened-our-new-location",
+      "caption": "销售带有社会公益属性的产品：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "销售带有社会公益属性的产品：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-added-new-products-and-opened-our-new-location",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/466/original/open-uri20201023-4-j75z3i?1603474304",
-      "caption": "销售带有社会公益属性的产品项目公开展示素材",
-      "alt": "how-we-added-new-products-and-opened-our-new-location",
+      "caption": "销售带有社会公益属性的产品：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "销售带有社会公益属性的产品：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-added-new-products-and-opened-our-new-location",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/467/original/open-uri20201023-4-k9r84p?1603474305",
-      "caption": "销售带有社会公益属性的产品项目公开展示素材",
-      "alt": "how-we-added-new-products-and-opened-our-new-location",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-added-new-products-and-opened-our-new-location",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2186,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

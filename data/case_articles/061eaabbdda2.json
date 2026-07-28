@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/6eig70p5pv9k0j1wrostt675tbld",
-      "caption": "远程招聘与人事外包平台公开案例主图",
-      "alt": "远程招聘与人事外包平台案例图片",
+      "caption": "远程招聘与人事外包平台：通过服务费盈利",
+      "alt": "远程招聘与人事外包平台：通过服务费盈利",
       "sourceUrl": "https://www.starterstory.com/stories/belay",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/800/original/open-uri20221028-24-1yyvjfb?1666966702",
-      "caption": "远程招聘与人事外包平台项目公开展示素材",
-      "alt": "belay",
+      "caption": "远程招聘与人事外包平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "远程招聘与人事外包平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/belay",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/801/original/open-uri20221028-24-52952n?1666966705",
-      "caption": "远程招聘与人事外包平台项目公开展示素材",
-      "alt": "belay",
+      "caption": "远程招聘与人事外包平台：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "远程招聘与人事外包平台：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/belay",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "远程招聘与人事外包平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/belay",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/468wxn26v9ymz8p8see063h6abuf",
-      "caption": "远程招聘与人事外包平台项目公开展示素材",
-      "alt": "远程招聘与人事外包平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/belay",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2243,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

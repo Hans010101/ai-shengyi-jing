@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/53kd647e0z2jfghh53yiw97aemh1",
-      "caption": "全球营销代理公司公开案例主图",
-      "alt": "全球营销代理公司案例图片",
+      "caption": "全球营销代理公司：通过线上广告和SEO服务赚取月费",
+      "alt": "全球营销代理公司：通过线上广告和SEO服务赚取月费",
       "sourceUrl": "https://www.starterstory.com/stories/elit-web",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/202/original/open-uri20231115-48-133qac2?1700047957",
-      "caption": "全球营销代理公司项目公开展示素材",
-      "alt": "elit-web",
+      "caption": "全球营销代理公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "全球营销代理公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/elit-web",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/203/original/open-uri20231115-48-8txjrt?1700047958",
-      "caption": "全球营销代理公司项目公开展示素材",
-      "alt": "elit-web",
+      "caption": "全球营销代理公司：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "全球营销代理公司：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/elit-web",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/204/original/open-uri20231115-48-1fj9egc?1700047958",
-      "caption": "全球营销代理公司项目公开展示素材",
-      "alt": "elit-web",
+      "caption": "全球营销代理公司：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "全球营销代理公司：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/elit-web",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/205/original/open-uri20231115-48-ohs28z?1700047959",
-      "caption": "全球营销代理公司项目公开展示素材",
-      "alt": "elit-web",
-      "sourceUrl": "https://www.starterstory.com/stories/elit-web",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/206/original/open-uri20231115-48-i42xf7?1700047959",
-      "caption": "全球营销代理公司项目公开展示素材",
-      "alt": "elit-web",
-      "sourceUrl": "https://www.starterstory.com/stories/elit-web",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2204,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

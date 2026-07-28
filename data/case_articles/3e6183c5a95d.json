@@ -122,47 +122,34 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ysgk08d8ghj5leiokjxlzbfysey6",
-      "caption": "Google Sheets教程+模板订阅服务公开案例主图",
-      "alt": "Google Sheets教程+模板订阅服务案例图片",
+      "caption": "Google Sheets教程+模板订阅服务的核心产品与品牌主视觉",
+      "alt": "Google Sheets教程+模板订阅服务的核心产品与品牌主视觉",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-launched-my-software-for-sale",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/576/original/open-uri20210611-3-osx87h?1623399436",
-      "caption": "Google Sheets教程+模板订阅服务项目公开展示素材",
-      "alt": "how-i-launched-my-software-for-sale",
+      "caption": "Google Sheets教程+模板订阅服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "Google Sheets教程+模板订阅服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-launched-my-software-for-sale",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "Google Sheets教程+模板订阅服务项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/k9CoZCDl51Q",
+      "watchUrl": "https://www.youtube.com/watch?v=k9CoZCDl51Q",
+      "caption": "Google Sheets教程+模板订阅服务资料中提及的视频：The 5 BEST Side Hustles To Start in 2021",
+      "alt": "The 5 BEST Side Hustles To Start in 2021",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-launched-my-software-for-sale",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/mf0cenc42ru46dwq7psm01kxgt5m",
-      "caption": "Google Sheets教程+模板订阅服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-launched-my-software-for-sale",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/nk8if8zzksah6c2y1afomsksbxso",
-      "caption": "Google Sheets教程+模板订阅服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-launched-my-software-for-sale",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/k9CoZCDl51Q/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +164,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2194,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

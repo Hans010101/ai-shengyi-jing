@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/jbx75gp4senod2js98qaqjhifzch",
-      "caption": "在线营销咨询公司公开案例主图",
-      "alt": "在线营销咨询公司案例图片",
+      "caption": "在线营销咨询公司：通过高客单价咨询和数字产品实现月入50万美元",
+      "alt": "在线营销咨询公司：通过高客单价咨询和数字产品实现月入50万美元",
       "sourceUrl": "https://www.starterstory.com/stories/alex-albarran",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/597/original/open-uri20231224-60-a53xfr?1703402280",
-      "caption": "在线营销咨询公司项目公开展示素材",
-      "alt": "alex-albarran",
+      "caption": "在线营销咨询公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "在线营销咨询公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/alex-albarran",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/598/original/open-uri20231224-60-1xv08wm?1703402281",
-      "caption": "在线营销咨询公司项目公开展示素材",
-      "alt": "alex-albarran",
+      "caption": "在线营销咨询公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "在线营销咨询公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/alex-albarran",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/599/original/open-uri20231224-60-2rf9tf?1703402281",
-      "caption": "在线营销咨询公司项目公开展示素材",
-      "alt": "alex-albarran",
+      "caption": "在线营销咨询公司：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "在线营销咨询公司：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/alex-albarran",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/600/original/open-uri20231224-60-818l8g?1703402282",
-      "caption": "在线营销咨询公司项目公开展示素材",
-      "alt": "alex-albarran",
-      "sourceUrl": "https://www.starterstory.com/stories/alex-albarran",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/601/original/open-uri20231224-60-bgdjm8?1703402283",
-      "caption": "在线营销咨询公司项目公开展示素材",
-      "alt": "alex-albarran",
-      "sourceUrl": "https://www.starterstory.com/stories/alex-albarran",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2188,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

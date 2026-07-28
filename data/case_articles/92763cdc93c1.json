@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ycuc9eiy07av4eksy0ulj0cxsa7f",
-      "caption": "工业机械B2B平台公开案例主图",
-      "alt": "工业机械B2B平台案例图片",
+      "caption": "工业机械B2B平台：通过会员订阅和交易佣金盈利",
+      "alt": "工业机械B2B平台：通过会员订阅和交易佣金盈利",
       "sourceUrl": "https://www.starterstory.com/stories/exapro",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/367/original/open-uri20230227-51-67l30j?1677507603",
-      "caption": "工业机械B2B平台项目公开展示素材",
-      "alt": "exapro",
+      "caption": "工业机械B2B平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "工业机械B2B平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/exapro",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/368/original/open-uri20230227-51-9dfo3k?1677507605",
-      "caption": "工业机械B2B平台项目公开展示素材",
-      "alt": "exapro",
+      "caption": "工业机械B2B平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "工业机械B2B平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/exapro",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/369/original/open-uri20230227-51-cp8cog?1677507606",
-      "caption": "工业机械B2B平台项目公开展示素材",
-      "alt": "exapro",
+      "caption": "工业机械B2B平台：团队建设与人才需求相关原始配图（第3张）",
+      "alt": "工业机械B2B平台：团队建设与人才需求相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/exapro",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "工业机械B2B平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/exapro",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/e1zyhnzrw6gnm02pgxw4alp1ev4q",
-      "caption": "工业机械B2B平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/exapro",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2211,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

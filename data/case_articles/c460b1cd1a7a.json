@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/cl22dvw73tefa23bqck2sktwhlsn",
-      "caption": "简历代写服务公开案例主图",
-      "alt": "简历代写服务案例图片",
+      "caption": "简历代写服务：通过个性化简历优化赚取服务费",
+      "alt": "简历代写服务：通过个性化简历优化赚取服务费",
       "sourceUrl": "https://www.starterstory.com/stories/resumeassassin",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/347/original/open-uri20221129-24-1alernv?1669706309",
-      "caption": "简历代写服务项目公开展示素材",
-      "alt": "resumeassassin",
+      "caption": "简历代写服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "简历代写服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/resumeassassin",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "简历代写服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/resumeassassin",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/lb7mrompj5sntqiqwqxcq54nmtbg",
-      "caption": "简历代写服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/resumeassassin",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/7e9sq61cb3ys7k4x2v95afk99f38",
-      "caption": "简历代写服务项目公开展示素材",
-      "alt": "简历代写服务项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/resumeassassin",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2173,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

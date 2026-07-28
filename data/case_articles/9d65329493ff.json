@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/c4k4h04wng0ghe1fdz2ydd7foub3",
-      "caption": "21岁创业者公开案例主图",
-      "alt": "21岁创业者案例图片",
+      "caption": "21岁创业者：通过冷邮件系统驱动B2B销售增长，月入$75K",
+      "alt": "21岁创业者：通过冷邮件系统驱动B2B销售增长，月入$75K",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-added-marketing-funnels-and-grew-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/571/original/open-uri20210611-3-3objrx?1623378099",
-      "caption": "21岁创业者项目公开展示素材",
-      "alt": "how-we-added-marketing-funnels-and-grew-business",
+      "caption": "21岁创业者：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "21岁创业者：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-added-marketing-funnels-and-grew-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "21岁创业者项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-added-marketing-funnels-and-grew-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/s3thrrqbjem3qler43fak7dop7v2",
-      "caption": "21岁创业者项目公开展示素材",
-      "alt": "21岁创业者项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-added-marketing-funnels-and-grew-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/9pgfik1nc0uj7b4qq9x37yofgvoj",
-      "caption": "21岁创业者项目公开展示素材",
-      "alt": "21岁创业者项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-added-marketing-funnels-and-grew-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2236,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

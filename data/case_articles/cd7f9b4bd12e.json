@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/b7mjiiwxyjykgt0jm85mtc1kit9h",
-      "caption": "海外创业项目公开案例主图",
-      "alt": "海外创业项目案例图片",
+      "caption": "海外创业项目：通过LinkedIn人脉获取B2B客户，提供广告和SEO增长服务",
+      "alt": "海外创业项目：通过LinkedIn人脉获取B2B客户，提供广告和SEO增长服务",
       "sourceUrl": "https://www.starterstory.com/stories/spear-growth",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/820/original/open-uri20220728-12-8ubab0?1658997549",
-      "caption": "海外创业项目项目公开展示素材",
-      "alt": "spear-growth",
+      "caption": "海外创业项目：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "海外创业项目：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/spear-growth",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/821/original/open-uri20220728-12-cnme0?1658997550",
-      "caption": "海外创业项目项目公开展示素材",
-      "alt": "spear-growth",
+      "caption": "海外创业项目：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "海外创业项目：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/spear-growth",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/822/original/open-uri20220728-12-13yt2n3?1658997551",
-      "caption": "海外创业项目项目公开展示素材",
-      "alt": "spear-growth",
+      "caption": "海外创业项目：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "海外创业项目：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/spear-growth",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/823/original/open-uri20220728-12-ethjh9?1658997552",
-      "caption": "海外创业项目项目公开展示素材",
-      "alt": "spear-growth",
-      "sourceUrl": "https://www.starterstory.com/stories/spear-growth",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2196,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

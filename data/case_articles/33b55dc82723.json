@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/oq1v8idgw0fufuoybtrm2naiw3qw",
-      "caption": "为男性提供个性化服装订阅推荐公开案例主图",
-      "alt": "为男性提供个性化服装订阅推荐案例图片",
+      "caption": "为男性提供个性化服装订阅推荐：月收入$150",
+      "alt": "为男性提供个性化服装订阅推荐：月收入$150",
       "sourceUrl": "https://www.starterstory.com/stories/on-brand",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/947/original/open-uri20220807-24-1itbd5v?1659891641",
-      "caption": "为男性提供个性化服装订阅推荐项目公开展示素材",
-      "alt": "on-brand",
+      "caption": "为男性提供个性化服装订阅推荐：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为男性提供个性化服装订阅推荐：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/on-brand",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/948/original/open-uri20220807-24-ri0fvm?1659891642",
-      "caption": "为男性提供个性化服装订阅推荐项目公开展示素材",
-      "alt": "on-brand",
+      "caption": "为男性提供个性化服装订阅推荐：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "为男性提供个性化服装订阅推荐：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/on-brand",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/949/original/open-uri20220807-24-1q94yk1?1659891643",
-      "caption": "为男性提供个性化服装订阅推荐项目公开展示素材",
-      "alt": "on-brand",
+      "caption": "为男性提供个性化服装订阅推荐：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "为男性提供个性化服装订阅推荐：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/on-brand",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/950/original/open-uri20220807-24-txwi2j?1659891645",
-      "caption": "为男性提供个性化服装订阅推荐项目公开展示素材",
-      "alt": "on-brand",
-      "sourceUrl": "https://www.starterstory.com/stories/on-brand",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2249,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

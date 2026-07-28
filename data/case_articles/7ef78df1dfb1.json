@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/qaveqgodeg4jntzpzo844z9pud15",
-      "caption": "博主公开案例主图",
-      "alt": "博主案例图片",
+      "caption": "博主：通过分享游牧生活方式内容，靠广告、联盟营销和数字产品月入2万美元",
+      "alt": "博主：通过分享游牧生活方式内容，靠广告、联盟营销和数字产品月入2万美元",
       "sourceUrl": "https://www.starterstory.com/stories/the-wayward-home",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/271/original/open-uri20231117-49-i00o3f?1700227421",
-      "caption": "博主项目公开展示素材",
-      "alt": "the-wayward-home",
+      "caption": "博主：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "博主：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/the-wayward-home",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/272/original/open-uri20231117-49-lykq7k?1700227422",
-      "caption": "博主项目公开展示素材",
-      "alt": "the-wayward-home",
+      "caption": "博主：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "博主：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/the-wayward-home",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/273/original/open-uri20231117-49-m4b1tm?1700227423",
-      "caption": "博主项目公开展示素材",
-      "alt": "the-wayward-home",
+      "caption": "博主：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "博主：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/the-wayward-home",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/274/original/open-uri20231117-49-45gumr?1700227423",
-      "caption": "博主项目公开展示素材",
-      "alt": "the-wayward-home",
-      "sourceUrl": "https://www.starterstory.com/stories/the-wayward-home",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2206,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

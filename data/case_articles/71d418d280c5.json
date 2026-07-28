@@ -122,47 +122,36 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/27behmrfjuad2x6a7kegdf33oldy",
-      "caption": "冷邮件自动化SaaS公开案例主图",
-      "alt": "冷邮件自动化SaaS案例图片",
+      "caption": "冷邮件自动化SaaS：通过订阅制收费",
+      "alt": "冷邮件自动化SaaS：通过订阅制收费",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-hit-3m-annual-revenue-and-grew-our-team",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "冷邮件自动化SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/zYuPAZZawME",
+      "watchUrl": "https://www.youtube.com/watch?v=zYuPAZZawME",
+      "caption": "冷邮件自动化SaaS资料中提及的视频：lemlist demo",
+      "alt": "lemlist demo",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-hit-3m-annual-revenue-and-grew-our-team",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/zYuPAZZawME/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/gexjagbbg9q0oyutlgvbtwn4lgys",
-      "caption": "冷邮件自动化SaaS项目公开展示素材",
-      "alt": "冷邮件自动化SaaS项目展示图",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/uKUJT3ATk28",
+      "watchUrl": "https://www.youtube.com/watch?v=uKUJT3ATk28",
+      "caption": "冷邮件自动化SaaS资料中提及的视频：Growth Marketing Masterclass | Webinar with Nathan Latka",
+      "alt": "Growth Marketing Masterclass | Webinar with Nathan Latka",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-hit-3m-annual-revenue-and-grew-our-team",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/jaa9l7be4mw3a0kj1vmpnyo9ig87",
-      "caption": "冷邮件自动化SaaS项目公开展示素材",
-      "alt": "冷邮件自动化SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-hit-3m-annual-revenue-and-grew-our-team",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/31uamu6ioyl9q9n5v4qm0a0e4d8u",
-      "caption": "冷邮件自动化SaaS项目公开展示素材",
-      "alt": "冷邮件自动化SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-hit-3m-annual-revenue-and-grew-our-team",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/uKUJT3ATk28/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2202,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

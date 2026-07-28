@@ -122,47 +122,44 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/n9xcaai0f2r11qphemg5fwntovvs",
-      "caption": "Gmail邮件营销插件公开案例主图",
-      "alt": "Gmail邮件营销插件案例图片",
+      "caption": "Gmail邮件营销插件：通过订阅制收费",
+      "alt": "Gmail邮件营销插件：通过订阅制收费",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-gained-new-customers-despite-covid",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/011/927/original/open-uri20210507-3-186crqz?1620422125",
-      "caption": "Gmail邮件营销插件项目公开展示素材",
-      "alt": "how-we-gained-new-customers-despite-covid",
+      "caption": "Gmail邮件营销插件：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "Gmail邮件营销插件：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-gained-new-customers-despite-covid",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/011/928/original/open-uri20210507-3-spjb0a?1620422125",
-      "caption": "Gmail邮件营销插件项目公开展示素材",
-      "alt": "how-we-gained-new-customers-despite-covid",
+      "caption": "Gmail邮件营销插件：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "Gmail邮件营销插件：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-gained-new-customers-despite-covid",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "Gmail邮件营销插件项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/pZ2kr0UXLIg",
+      "watchUrl": "https://www.youtube.com/watch?v=pZ2kr0UXLIg",
+      "caption": "Gmail邮件营销插件资料中提及的视频：I'm Ajay, and I'm going to teach you things you can't learn elsewhere.",
+      "alt": "I'm Ajay, and I'm going to teach you things you can't learn elsewhere.",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-gained-new-customers-despite-covid",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/zrtxag7ppxq3qppt9z3xiexk4tea",
-      "caption": "Gmail邮件营销插件项目公开展示素材",
-      "alt": "Gmail邮件营销插件项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-gained-new-customers-despite-covid",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/pZ2kr0UXLIg/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +174,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2290,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

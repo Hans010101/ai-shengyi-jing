@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/4k3k0blw0jt25aayisk7mnm8n0vq",
-      "caption": "邮件插件Mailbutler公开案例主图",
-      "alt": "邮件插件Mailbutler案例图片",
+      "caption": "邮件插件Mailbutler：通过订阅制提供增强功能赚钱",
+      "alt": "邮件插件Mailbutler：通过订阅制提供增强功能赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/mailbutler-33375c3e-2e63-49cf-97bf-33e6cad4845c",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/394/original/open-uri20220331-3-1rmfpq4?1648759785",
-      "caption": "邮件插件Mailbutler项目公开展示素材",
-      "alt": "mailbutler-33375c3e-2e63-49cf-97bf-33e6cad4845c",
+      "caption": "邮件插件Mailbutler：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "邮件插件Mailbutler：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/mailbutler-33375c3e-2e63-49cf-97bf-33e6cad4845c",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/395/original/open-uri20220331-3-1ox2wb9?1648759786",
-      "caption": "邮件插件Mailbutler项目公开展示素材",
-      "alt": "mailbutler-33375c3e-2e63-49cf-97bf-33e6cad4845c",
+      "caption": "邮件插件Mailbutler：创业复盘与关键经验相关原始配图（第2张）",
+      "alt": "邮件插件Mailbutler：创业复盘与关键经验相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/mailbutler-33375c3e-2e63-49cf-97bf-33e6cad4845c",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "邮件插件Mailbutler项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/mailbutler-33375c3e-2e63-49cf-97bf-33e6cad4845c",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/p21ts159h2jq9q519g25528av7yd",
-      "caption": "邮件插件Mailbutler项目公开展示素材",
-      "alt": "邮件插件Mailbutler项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/mailbutler-33375c3e-2e63-49cf-97bf-33e6cad4845c",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2212,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

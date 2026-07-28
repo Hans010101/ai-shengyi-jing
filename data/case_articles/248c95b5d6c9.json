@@ -122,47 +122,44 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/uw26yd3til9cqrwcxa1d1spn6zs1",
-      "caption": "远程土木工程咨询公司公开案例主图",
-      "alt": "远程土木工程咨询公司案例图片",
+      "caption": "远程土木工程咨询公司：通过项目收费盈利",
+      "alt": "远程土木工程咨询公司：通过项目收费盈利",
       "sourceUrl": "https://www.starterstory.com/stories/iris-leia-lorelle",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/472/original/open-uri20221207-12-150vdkn?1670380942",
-      "caption": "远程土木工程咨询公司项目公开展示素材",
-      "alt": "iris-leia-lorelle",
+      "caption": "远程土木工程咨询公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "远程土木工程咨询公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/iris-leia-lorelle",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/473/original/open-uri20221207-12-14p7bsf?1670380943",
-      "caption": "远程土木工程咨询公司项目公开展示素材",
-      "alt": "iris-leia-lorelle",
+      "caption": "远程土木工程咨询公司：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "远程土木工程咨询公司：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/iris-leia-lorelle",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "远程土木工程咨询公司项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/rvtUEfq0_Fo",
+      "watchUrl": "https://www.youtube.com/watch?v=rvtUEfq0_Fo",
+      "caption": "远程土木工程咨询公司资料中提及的视频：The Importance of Trust When Building an Engineering Firm",
+      "alt": "The Importance of Trust When Building an Engineering Firm",
       "sourceUrl": "https://www.starterstory.com/stories/iris-leia-lorelle",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/3d0celdrs9ugtg77g37hjvvnmyhi",
-      "caption": "远程土木工程咨询公司项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/iris-leia-lorelle",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/rvtUEfq0_Fo/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +174,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2170,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/213aq2brf8x4djanamzoze1dumam",
-      "caption": "社交电商平台公开案例主图",
-      "alt": "社交电商平台案例图片",
+      "caption": "社交电商平台：通过好友拼单和团购赚取佣金",
+      "alt": "社交电商平台：通过好友拼单和团购赚取佣金",
       "sourceUrl": "https://www.starterstory.com/stories/how-the-pandemic-made-us-start-a-174k-year-company",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/222/original/open-uri20220326-3-vfatuo?1648314091",
-      "caption": "社交电商平台项目公开展示素材",
-      "alt": "how-the-pandemic-made-us-start-a-174k-year-company",
+      "caption": "社交电商平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "社交电商平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-the-pandemic-made-us-start-a-174k-year-company",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/223/original/open-uri20220326-3-1dm04xj?1648314091",
-      "caption": "社交电商平台项目公开展示素材",
-      "alt": "how-the-pandemic-made-us-start-a-174k-year-company",
+      "caption": "社交电商平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "社交电商平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-the-pandemic-made-us-start-a-174k-year-company",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/224/original/open-uri20220326-3-b48w2y?1648314092",
-      "caption": "社交电商平台项目公开展示素材",
-      "alt": "how-the-pandemic-made-us-start-a-174k-year-company",
+      "caption": "社交电商平台：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "社交电商平台：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-the-pandemic-made-us-start-a-174k-year-company",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/225/original/open-uri20220326-3-14t3mhp?1648314092",
-      "caption": "社交电商平台项目公开展示素材",
-      "alt": "how-the-pandemic-made-us-start-a-174k-year-company",
-      "sourceUrl": "https://www.starterstory.com/stories/how-the-pandemic-made-us-start-a-174k-year-company",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/226/original/open-uri20220326-3-10hv1hp?1648314093",
-      "caption": "社交电商平台项目公开展示素材",
-      "alt": "how-the-pandemic-made-us-start-a-174k-year-company",
-      "sourceUrl": "https://www.starterstory.com/stories/how-the-pandemic-made-us-start-a-174k-year-company",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2168,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

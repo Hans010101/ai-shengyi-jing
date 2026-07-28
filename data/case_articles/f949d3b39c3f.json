@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/48n30ft4ofk84z5k184xmlxosspm",
-      "caption": "海外AI工具项目公开案例主图",
-      "alt": "海外AI工具项目案例图片",
+      "caption": "海外AI工具项目：通过每日播客采访成功创业者，靠广告和联盟营销赚钱",
+      "alt": "海外AI工具项目：通过每日播客采访成功创业者，靠广告和联盟营销赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/entrepreneurs-on-fire-585bd92c-9597-4309-89ce-aa77b2ecff74",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/315/original/open-uri20230222-51-1gjuvbp?1677047204",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "entrepreneurs-on-fire-585bd92c-9597-4309-89ce-aa77b2ecff74",
+      "caption": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/entrepreneurs-on-fire-585bd92c-9597-4309-89ce-aa77b2ecff74",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/316/original/open-uri20230222-51-1nfh18i?1677047205",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "entrepreneurs-on-fire-585bd92c-9597-4309-89ce-aa77b2ecff74",
+      "caption": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/entrepreneurs-on-fire-585bd92c-9597-4309-89ce-aa77b2ecff74",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/317/original/open-uri20230222-51-7bm2nw?1677047206",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "entrepreneurs-on-fire-585bd92c-9597-4309-89ce-aa77b2ecff74",
+      "caption": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/entrepreneurs-on-fire-585bd92c-9597-4309-89ce-aa77b2ecff74",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/318/original/open-uri20230222-51-zj1pl1?1677047206",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "entrepreneurs-on-fire-585bd92c-9597-4309-89ce-aa77b2ecff74",
-      "sourceUrl": "https://www.starterstory.com/stories/entrepreneurs-on-fire-585bd92c-9597-4309-89ce-aa77b2ecff74",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/319/original/open-uri20230222-51-yopvqi?1677047207",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "entrepreneurs-on-fire-585bd92c-9597-4309-89ce-aa77b2ecff74",
-      "sourceUrl": "https://www.starterstory.com/stories/entrepreneurs-on-fire-585bd92c-9597-4309-89ce-aa77b2ecff74",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2255,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

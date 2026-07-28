@@ -8,6 +8,7 @@ from pipeline.project_store import merge_projects, project_ids
 from pipeline.content_quality import derive_chinese_name, is_placeholder
 from scripts.build_edgeone import EDGEONE_PATHS, build as build_edgeone
 from scripts.build_site import PUBLISH_PATHS, build, public_output_paths
+from scripts.generate_case_catalog import clean_existing_media
 from scripts.validate_case_catalog import validate as validate_case_catalog
 from scripts.validate_data import validate
 
@@ -145,6 +146,9 @@ class BuildTests(unittest.TestCase):
         self.assertNotIn("查看事实来源", case_js)
         self.assertNotIn("source-box", case_js)
         self.assertIn("article-media-link", case_js)
+        self.assertIn("article-video-card", case_js)
+        self.assertIn("media.watchUrl", case_js)
+        self.assertIn("观看完整视频", case_js)
         self.assertIn(Path("case.html"), PUBLISH_PATHS)
         self.assertIn(Path("data/case_articles.json"), PUBLISH_PATHS)
         self.assertIn(Path("data/case_articles"), PUBLISH_PATHS)
@@ -182,7 +186,11 @@ class BuildTests(unittest.TestCase):
         self.assertEqual(report["coveragePercent"], 100.0)
         self.assertEqual(report["articleCount"], report["projectCount"])
         self.assertGreaterEqual(report["minimumFullCharacters"], 2_400)
-        self.assertGreaterEqual(report["withMedia"], report["projectCount"] - 4)
+        self.assertLessEqual(
+            report["withoutMedia"],
+            100,
+            "宁可不展示素材，也不能用广告、水印或工具图标凑数",
+        )
 
 
 class ValidationTests(unittest.TestCase):
@@ -323,6 +331,9 @@ class ContentQualityTests(unittest.TestCase):
                     "url": "https://www.youtube.com/embed/1",
                     "sourceUrl": "https://www.youtube.com/watch?v=1",
                     "origin": "embeddable-video",
+                    "watchUrl": "https://www.youtube.com/watch?v=1",
+                    "poster": "https://i.ytimg.com/vi/1/hqdefault.jpg",
+                    "provider": "YouTube",
                 },
                 {
                     "type": "video-file",
@@ -341,6 +352,56 @@ class ContentQualityTests(unittest.TestCase):
                 "https://www.youtube.com/embed/1",
                 "https://cdn.example.com/demo.mp4",
             ],
+        )
+        youtube = media[2]
+        self.assertEqual(
+            youtube["watchUrl"],
+            "https://www.youtube.com/watch?v=1",
+        )
+        self.assertEqual(youtube["provider"], "YouTube")
+
+    def test_existing_media_cleanup_removes_page_chrome_and_generic_captions(self):
+        project = {
+            "id": "example",
+            "nameZh": "养蜂产蜜业务",
+            "summary": "养蜂产蜜业务，通过销售蜂蜜及蜂产品盈利",
+            "url": "https://www.starterstory.com/stories/example",
+            "image": "https://cdn.example.com/project.jpg",
+        }
+        cleaned = clean_existing_media(
+            project,
+            [
+                {
+                    "type": "image",
+                    "url": project["image"],
+                    "caption": "养蜂产蜜业务公开案例主图",
+                    "alt": "养蜂产蜜业务案例图片",
+                    "origin": "source-attributed",
+                },
+                {
+                    "type": "image",
+                    "url": (
+                        "https://d1coqmn8qm80r4.cloudfront.net/"
+                        "production/images/cd9317a79f1c2fee"
+                    ),
+                    "caption": "养蜂产蜜业务项目公开展示素材",
+                    "alt": "by HubSpot Media",
+                    "origin": "source-attributed",
+                },
+                {
+                    "type": "image",
+                    "url": "https://d1coqmn8qm80r4.cloudfront.net/tool",
+                    "caption": "养蜂产蜜业务项目公开展示素材",
+                    "alt": "tool-icon",
+                    "origin": "source-attributed",
+                },
+            ],
+        )
+
+        self.assertEqual(len(cleaned), 1)
+        self.assertEqual(
+            cleaned[0]["caption"],
+            "养蜂产蜜业务：通过销售蜂蜜及蜂产品盈利",
         )
 
     def test_pilot_articles_have_required_editorial_and_source_fields(self):

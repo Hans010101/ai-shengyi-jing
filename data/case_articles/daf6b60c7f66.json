@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/7asuc46xguytxwiddrn43hn0xohc",
-      "caption": "运营对冲基金公开案例主图",
-      "alt": "运营对冲基金案例图片",
+      "caption": "运营对冲基金：通过管理费和业绩提成盈利",
+      "alt": "运营对冲基金：通过管理费和业绩提成盈利",
       "sourceUrl": "https://www.starterstory.com/stories/secvolt",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/580/original/open-uri20230523-63-z97b9y?1684841432",
-      "caption": "运营对冲基金项目公开展示素材",
-      "alt": "secvolt",
+      "caption": "运营对冲基金：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "运营对冲基金：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/secvolt",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/581/original/open-uri20230523-63-cyldrz?1684841433",
-      "caption": "运营对冲基金项目公开展示素材",
-      "alt": "secvolt",
+      "caption": "运营对冲基金：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "运营对冲基金：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/secvolt",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/582/original/open-uri20230523-63-ab6rl6?1684841433",
-      "caption": "运营对冲基金项目公开展示素材",
-      "alt": "secvolt",
+      "caption": "运营对冲基金：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "运营对冲基金：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/secvolt",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "运营对冲基金项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/secvolt",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2195,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

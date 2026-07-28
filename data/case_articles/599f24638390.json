@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/1vyc87q2vr4385ju2sje4868m5mt",
-      "caption": "夜生活版OpenTable公开案例主图",
-      "alt": "夜生活版OpenTable案例图片",
+      "caption": "夜生活版OpenTable：通过预订佣金和广告变现",
+      "alt": "夜生活版OpenTable：通过预订佣金和广告变现",
       "sourceUrl": "https://www.starterstory.com/stories/how-3-college-friends-created-the-opentable-for-nightlife-1m-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/704/original/open-uri20210912-3-1c6xqlg?1631478151",
-      "caption": "夜生活版OpenTable项目公开展示素材",
-      "alt": "how-3-college-friends-created-the-opentable-for-nightlife-1m-year",
+      "caption": "夜生活版OpenTable：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "夜生活版OpenTable：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-3-college-friends-created-the-opentable-for-nightlife-1m-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/705/original/open-uri20210912-3-1p5lsf7?1631478152",
-      "caption": "夜生活版OpenTable项目公开展示素材",
-      "alt": "how-3-college-friends-created-the-opentable-for-nightlife-1m-year",
+      "caption": "夜生活版OpenTable：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "夜生活版OpenTable：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-3-college-friends-created-the-opentable-for-nightlife-1m-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/706/original/open-uri20210912-3-ucjz86?1631478152",
-      "caption": "夜生活版OpenTable项目公开展示素材",
-      "alt": "how-3-college-friends-created-the-opentable-for-nightlife-1m-year",
+      "caption": "夜生活版OpenTable：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "夜生活版OpenTable：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-3-college-friends-created-the-opentable-for-nightlife-1m-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/707/original/open-uri20210912-3-8ii3kp?1631478152",
-      "caption": "夜生活版OpenTable项目公开展示素材",
-      "alt": "how-3-college-friends-created-the-opentable-for-nightlife-1m-year",
-      "sourceUrl": "https://www.starterstory.com/stories/how-3-college-friends-created-the-opentable-for-nightlife-1m-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2212,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/k1l72q2z146m7r30c6nhgjaiinsp",
-      "caption": "AI头像生成工具公开案例主图",
-      "alt": "AI头像生成工具案例图片",
+      "caption": "AI头像生成工具：用户上传照片付费生成个性化头像",
+      "alt": "AI头像生成工具：用户上传照片付费生成个性化头像",
       "sourceUrl": "https://www.starterstory.com/stories/imagined-with-ai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/974/original/open-uri20230123-12-1l768e0?1674482480",
-      "caption": "AI头像生成工具项目公开展示素材",
-      "alt": "imagined-with-ai",
+      "caption": "AI头像生成工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI头像生成工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/imagined-with-ai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/975/original/open-uri20230123-12-c699cv?1674482483",
-      "caption": "AI头像生成工具项目公开展示素材",
-      "alt": "imagined-with-ai",
+      "caption": "AI头像生成工具：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "AI头像生成工具：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/imagined-with-ai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/976/original/open-uri20230123-12-1bvw0uz?1674482483",
-      "caption": "AI头像生成工具项目公开展示素材",
-      "alt": "imagined-with-ai",
+      "caption": "AI头像生成工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "AI头像生成工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/imagined-with-ai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/977/original/open-uri20230123-12-qc66cd?1674482485",
-      "caption": "AI头像生成工具项目公开展示素材",
-      "alt": "imagined-with-ai",
-      "sourceUrl": "https://www.starterstory.com/stories/imagined-with-ai",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2188,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/wt46wpzo9w91r9fingcwxa7meh8b",
-      "caption": "龙舌兰酒品牌公开案例主图",
-      "alt": "龙舌兰酒品牌案例图片",
+      "caption": "龙舌兰酒品牌：通过进口分销和品牌溢价盈利",
+      "alt": "龙舌兰酒品牌：通过进口分销和品牌溢价盈利",
       "sourceUrl": "https://www.starterstory.com/stories/nosotros-tequila-mezcal",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/265/original/open-uri20220619-12-cc9q1q?1655656639",
-      "caption": "龙舌兰酒品牌项目公开展示素材",
-      "alt": "nosotros-tequila-mezcal",
+      "caption": "龙舌兰酒品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "龙舌兰酒品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/nosotros-tequila-mezcal",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/266/original/open-uri20220619-12-1tkqoow?1655656639",
-      "caption": "龙舌兰酒品牌项目公开展示素材",
-      "alt": "nosotros-tequila-mezcal",
+      "caption": "龙舌兰酒品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "龙舌兰酒品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/nosotros-tequila-mezcal",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/267/original/open-uri20220619-12-u53n86?1655656640",
-      "caption": "龙舌兰酒品牌项目公开展示素材",
-      "alt": "nosotros-tequila-mezcal",
+      "caption": "龙舌兰酒品牌：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "龙舌兰酒品牌：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/nosotros-tequila-mezcal",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/268/original/open-uri20220619-12-1y5fqw7?1655656641",
-      "caption": "龙舌兰酒品牌项目公开展示素材",
-      "alt": "nosotros-tequila-mezcal",
-      "sourceUrl": "https://www.starterstory.com/stories/nosotros-tequila-mezcal",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/269/original/open-uri20220619-12-2gdilx?1655656641",
-      "caption": "龙舌兰酒品牌项目公开展示素材",
-      "alt": "nosotros-tequila-mezcal",
-      "sourceUrl": "https://www.starterstory.com/stories/nosotros-tequila-mezcal",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2213,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/sdqt1wg0d3m1rgpek69oeg61p0bl",
-      "caption": "开猫咖啡馆公开案例主图",
-      "alt": "开猫咖啡馆案例图片",
+      "caption": "开猫咖啡馆：靠入场费、饮品和猫咪周边盈利",
+      "alt": "开猫咖啡馆：靠入场费、饮品和猫咪周边盈利",
       "sourceUrl": "https://www.starterstory.com/stories/the-cat-cafe",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/341/original/open-uri20240913-60-16c3uwl?1726191654",
-      "caption": "开猫咖啡馆项目公开展示素材",
-      "alt": "the-cat-cafe",
+      "caption": "开猫咖啡馆：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "开猫咖啡馆：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/the-cat-cafe",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/342/original/open-uri20240913-60-1oundm?1726191656",
-      "caption": "开猫咖啡馆项目公开展示素材",
-      "alt": "the-cat-cafe",
+      "caption": "开猫咖啡馆：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "开猫咖啡馆：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/the-cat-cafe",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/343/original/open-uri20240913-60-603knf?1726191657",
-      "caption": "开猫咖啡馆项目公开展示素材",
-      "alt": "the-cat-cafe",
+      "caption": "开猫咖啡馆：当前经营状态与下一步规划相关原始配图（第3张）",
+      "alt": "开猫咖啡馆：当前经营状态与下一步规划相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/the-cat-cafe",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "开猫咖啡馆项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/the-cat-cafe",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/1s7m5fyj6w1je4ry8bo80hv3i7n3",
-      "caption": "开猫咖啡馆项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/the-cat-cafe",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2169,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

@@ -122,56 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ea3m05280l56wnu2ljorsd82ti3a",
-      "caption": "付费企业邮箱服务公开案例主图",
-      "alt": "付费企业邮箱服务案例图片",
+      "caption": "付费企业邮箱服务：按用户数收月费",
+      "alt": "付费企业邮箱服务：按用户数收月费",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-a-1-8m-year-email-hosting-service-100-self-funded",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/631/original/open-uri20210908-3-opgq75?1631115260",
-      "caption": "付费企业邮箱服务项目公开展示素材",
-      "alt": "i-built-a-1-8m-year-email-hosting-service-100-self-funded",
+      "caption": "付费企业邮箱服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "付费企业邮箱服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-a-1-8m-year-email-hosting-service-100-self-funded",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/632/original/open-uri20210908-3-z4lf3c?1631115261",
-      "caption": "付费企业邮箱服务项目公开展示素材",
-      "alt": "i-built-a-1-8m-year-email-hosting-service-100-self-funded",
+      "caption": "付费企业邮箱服务：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "付费企业邮箱服务：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-a-1-8m-year-email-hosting-service-100-self-funded",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "付费企业邮箱服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/i-built-a-1-8m-year-email-hosting-service-100-self-funded",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/wf05fi78r3bkadjpbwhtkha8hem6",
-      "caption": "付费企业邮箱服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/i-built-a-1-8m-year-email-hosting-service-100-self-funded",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/226q2rats4fzu2ozde0n13yw9xxi",
-      "caption": "付费企业邮箱服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/i-built-a-1-8m-year-email-hosting-service-100-self-funded",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2229,
-    "mediaCount": 6
+    "mediaCount": 3
   }
 }

@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/4lsncs2613mcdnb38qlfyh6d7m6i",
-      "caption": "艺术画廊业务增长案例公开案例主图",
-      "alt": "艺术画廊业务增长案例案例图片",
+      "caption": "艺术画廊业务增长案例：通过线上线下结合销售版画和艺术品赚钱",
+      "alt": "艺术画廊业务增长案例：通过线上线下结合销售版画和艺术品赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/station-16-d9818c9b-2771-4084-bcae-eb340a905918",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/268/original/open-uri20220329-3-1ffyeyo?1648586846",
-      "caption": "艺术画廊业务增长案例项目公开展示素材",
-      "alt": "station-16-d9818c9b-2771-4084-bcae-eb340a905918",
+      "caption": "艺术画廊业务增长案例：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "艺术画廊业务增长案例：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/station-16-d9818c9b-2771-4084-bcae-eb340a905918",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/269/original/open-uri20220329-3-vkoznq?1648586847",
-      "caption": "艺术画廊业务增长案例项目公开展示素材",
-      "alt": "station-16-d9818c9b-2771-4084-bcae-eb340a905918",
+      "caption": "艺术画廊业务增长案例：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "艺术画廊业务增长案例：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/station-16-d9818c9b-2771-4084-bcae-eb340a905918",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/270/original/open-uri20220329-3-qvlcfg?1648586848",
-      "caption": "艺术画廊业务增长案例项目公开展示素材",
-      "alt": "station-16-d9818c9b-2771-4084-bcae-eb340a905918",
+      "caption": "艺术画廊业务增长案例：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "艺术画廊业务增长案例：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/station-16-d9818c9b-2771-4084-bcae-eb340a905918",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "艺术画廊业务增长案例项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/station-16-d9818c9b-2771-4084-bcae-eb340a905918",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/x0fswweh25a6rgcsp2c2ytil8usb",
-      "caption": "艺术画廊业务增长案例项目公开展示素材",
-      "alt": "艺术画廊业务增长案例项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/station-16-d9818c9b-2771-4084-bcae-eb340a905918",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2175,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

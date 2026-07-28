@@ -122,56 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/yv6us632zyjg193k6mcjlwzyzpk8",
-      "caption": "AI咨询公司公开案例主图",
-      "alt": "AI咨询公司案例图片",
+      "caption": "AI咨询公司：通过SaaS工具和定制服务帮助客户增长业务",
+      "alt": "AI咨询公司：通过SaaS工具和定制服务帮助客户增长业务",
       "sourceUrl": "https://www.starterstory.com/stories/consulting-success",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI咨询公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/consulting-success",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/05wfjy209m57b59865cjga1ngudh",
-      "caption": "AI咨询公司项目公开展示素材",
-      "alt": "AI咨询公司项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/consulting-success",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/kibxpd7zv0zsit2293mdx78z64qk",
-      "caption": "AI咨询公司项目公开展示素材",
-      "alt": "AI咨询公司项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/consulting-success",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/m7592n15oq4587vps9ndvg8s4t10",
-      "caption": "AI咨询公司项目公开展示素材",
-      "alt": "AI咨询公司项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/consulting-success",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/sqgdetpy1ck3mesqpsb9qktt0g4g",
-      "caption": "AI咨询公司项目公开展示素材",
-      "alt": "AI咨询公司项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/consulting-success",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -186,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2166,
-    "mediaCount": 6
+    "mediaCount": 1
   }
 }

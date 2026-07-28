@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/8d5hi362tk37v3clbpiy78tmra86",
-      "caption": "方形轮子制造商公开案例主图",
-      "alt": "方形轮子制造商案例图片",
+      "caption": "方形轮子制造商：通过销售独特轮子盈利",
+      "alt": "方形轮子制造商：通过销售独特轮子盈利",
       "sourceUrl": "https://www.starterstory.com/stories/shark-wheel",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/540/original/open-uri20220711-24-1arm2ii?1657556421",
-      "caption": "方形轮子制造商项目公开展示素材",
-      "alt": "shark-wheel",
+      "caption": "方形轮子制造商：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "方形轮子制造商：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/shark-wheel",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/541/original/open-uri20220711-24-101vghi?1657556422",
-      "caption": "方形轮子制造商项目公开展示素材",
-      "alt": "shark-wheel",
+      "caption": "方形轮子制造商：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "方形轮子制造商：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/shark-wheel",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/542/original/open-uri20220711-24-sl9g10?1657556422",
-      "caption": "方形轮子制造商项目公开展示素材",
-      "alt": "shark-wheel",
+      "caption": "方形轮子制造商：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "方形轮子制造商：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/shark-wheel",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/543/original/open-uri20220711-24-jkfy4x?1657556423",
-      "caption": "方形轮子制造商项目公开展示素材",
-      "alt": "shark-wheel",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/F_qYYE3i2ww",
+      "watchUrl": "https://www.youtube.com/watch?v=F_qYYE3i2ww",
+      "caption": "方形轮子制造商资料中提及的视频：NASA’s New Moon Rover Tested in Lunar Operations Lab",
+      "alt": "NASA’s New Moon Rover Tested in Lunar Operations Lab",
       "sourceUrl": "https://www.starterstory.com/stories/shark-wheel",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/F_qYYE3i2ww/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

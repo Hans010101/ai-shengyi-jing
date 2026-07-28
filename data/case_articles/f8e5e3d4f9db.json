@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/lwtlvaci8nthccvb0k3h5t202p5y",
-      "caption": "一人设计机构公开案例主图",
-      "alt": "一人设计机构案例图片",
+      "caption": "一人设计机构：为客户提供无限设计服务按月收费",
+      "alt": "一人设计机构：为客户提供无限设计服务按月收费",
       "sourceUrl": "https://www.starterstory.com/businesses/design-joy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "一人设计机构项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/design-joy",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/trhk9gycegmayg5h2yoq6spoeq3p",
-      "caption": "一人设计机构项目公开展示素材",
-      "alt": "Design Joy logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/design-joy",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/o3vs9nbugfjgme5mph9o4f8mlao1/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "一人设计机构项目公开展示素材",
-      "alt": "Brett Williams",
-      "sourceUrl": "https://www.starterstory.com/businesses/design-joy",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/jf00lbyg1rpq8uy6wa3zb4ostis8/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "一人设计机构项目公开展示素材",
-      "alt": "Trello",
-      "sourceUrl": "https://www.starterstory.com/businesses/design-joy",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2117,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

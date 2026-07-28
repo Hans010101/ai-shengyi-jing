@@ -122,47 +122,48 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/m64v81kl1w9770qr3wq2s4ot4rea",
-      "caption": "多功能烧烤铲按月赚4万美元公开案例主图",
-      "alt": "多功能烧烤铲按月赚4万美元案例图片",
+      "caption": "多功能烧烤铲按月赚4万美元：通过电商销售",
+      "alt": "多功能烧烤铲按月赚4万美元：通过电商销售",
       "sourceUrl": "https://www.starterstory.com/stories/bbq-croc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "多功能烧烤铲按月赚4万美元项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/QMF5IXOu3aU",
+      "watchUrl": "https://www.youtube.com/watch?v=QMF5IXOu3aU",
+      "caption": "多功能烧烤铲按月赚4万美元资料中提及的视频：BBQ Croc 18 in 3 in 1 barbecue tool",
+      "alt": "BBQ Croc 18 in 3 in 1 barbecue tool",
       "sourceUrl": "https://www.starterstory.com/stories/bbq-croc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/QMF5IXOu3aU/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/xmcnnqqylhtbo0mcfe37b8l0byai",
-      "caption": "多功能烧烤铲按月赚4万美元项目公开展示素材",
-      "alt": "多功能烧烤铲按月赚4万美元项目展示图",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/B7axhb1wcl4",
+      "watchUrl": "https://www.youtube.com/watch?v=B7axhb1wcl4",
+      "caption": "多功能烧烤铲按月赚4万美元资料中提及的视频：BBQ Croc 21 inch 3 in 1 tool",
+      "alt": "BBQ Croc 21 inch 3 in 1 tool",
       "sourceUrl": "https://www.starterstory.com/stories/bbq-croc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/B7axhb1wcl4/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/vsg1n7eqjjk2kou8yjsg1ha24rsa",
-      "caption": "多功能烧烤铲按月赚4万美元项目公开展示素材",
-      "alt": "多功能烧烤铲按月赚4万美元项目展示图",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/EbY_9MUl4sM",
+      "watchUrl": "https://www.youtube.com/watch?v=EbY_9MUl4sM",
+      "caption": "多功能烧烤铲按月赚4万美元资料中提及的视频：BBQ Croc Flashlight",
+      "alt": "BBQ Croc Flashlight",
       "sourceUrl": "https://www.starterstory.com/stories/bbq-croc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/a3cwsikiqkk7c26p5sem8s2hnqav",
-      "caption": "多功能烧烤铲按月赚4万美元项目公开展示素材",
-      "alt": "多功能烧烤铲按月赚4万美元项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/bbq-croc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/EbY_9MUl4sM/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +178,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2262,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

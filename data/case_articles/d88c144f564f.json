@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/duju09hm95m4klwead5gcne2x5p6",
-      "caption": "面向中小企业的云端CRM公开案例主图",
-      "alt": "面向中小企业的云端CRM案例图片",
+      "caption": "面向中小企业的云端CRM：月订阅收费",
+      "alt": "面向中小企业的云端CRM：月订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-cloud-based-crm-software-growing-25-a-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/200/original/open-uri20211130-3-1r5e38n?1638288415",
-      "caption": "面向中小企业的云端CRM项目公开展示素材",
-      "alt": "on-starting-a-cloud-based-crm-software-growing-25-a-year",
+      "caption": "面向中小企业的云端CRM：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "面向中小企业的云端CRM：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-cloud-based-crm-software-growing-25-a-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "面向中小企业的云端CRM项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-cloud-based-crm-software-growing-25-a-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/wsfthxo0bwxpga1da6eflodtgxay",
-      "caption": "面向中小企业的云端CRM项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-cloud-based-crm-software-growing-25-a-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/on96eok28iefjaayqo3unwnftied",
-      "caption": "面向中小企业的云端CRM项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-cloud-based-crm-software-growing-25-a-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2194,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

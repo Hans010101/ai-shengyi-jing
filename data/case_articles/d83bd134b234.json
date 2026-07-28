@@ -122,47 +122,44 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/gis96ow4mi4g9g2fkinvvo3zgdpy",
-      "caption": "AI机器人咖啡师公开案例主图",
-      "alt": "AI机器人咖啡师案例图片",
+      "caption": "AI机器人咖啡师：通过租赁或售卖机器人+SaaS订阅赚钱",
+      "alt": "AI机器人咖啡师：通过租赁或售卖机器人+SaaS订阅赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/crown-digital-io",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/636/original/open-uri20221018-12-134ej83?1666066865",
-      "caption": "AI机器人咖啡师项目公开展示素材",
-      "alt": "crown-digital-io",
+      "caption": "AI机器人咖啡师：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI机器人咖啡师：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/crown-digital-io",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/637/original/open-uri20221018-12-1aa7294?1666066866",
-      "caption": "AI机器人咖啡师项目公开展示素材",
-      "alt": "crown-digital-io",
+      "caption": "AI机器人咖啡师：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "AI机器人咖啡师：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/crown-digital-io",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI机器人咖啡师项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/WtZPKV3Y25M",
+      "watchUrl": "https://www.youtube.com/watch?v=WtZPKV3Y25M",
+      "caption": "AI机器人咖啡师资料中提及的视频：Want Coffee Served By A Robot?",
+      "alt": "Want Coffee Served By A Robot?",
       "sourceUrl": "https://www.starterstory.com/stories/crown-digital-io",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/3d0celdrs9ugtg77g37hjvvnmyhi",
-      "caption": "AI机器人咖啡师项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/crown-digital-io",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/WtZPKV3Y25M/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +174,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2231,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

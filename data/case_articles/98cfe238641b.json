@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/49zypt2hai8wxxw2jbnq1a3tnt3c",
-      "caption": "草坪护理版Uber公开案例主图",
-      "alt": "草坪护理版Uber案例图片",
+      "caption": "草坪护理版Uber：连接业主与服务商，抽佣盈利",
+      "alt": "草坪护理版Uber：连接业主与服务商，抽佣盈利",
       "sourceUrl": "https://www.starterstory.com/stories/greenpal",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/138/original/open-uri20220615-12-1grmgbv?1655315427",
-      "caption": "草坪护理版Uber项目公开展示素材",
-      "alt": "greenpal",
+      "caption": "草坪护理版Uber：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "草坪护理版Uber：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/greenpal",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/139/original/open-uri20220615-12-1kpqz68?1655315427",
-      "caption": "草坪护理版Uber项目公开展示素材",
-      "alt": "greenpal",
+      "caption": "草坪护理版Uber：当前经营状态与下一步规划相关原始配图（第2张）",
+      "alt": "草坪护理版Uber：当前经营状态与下一步规划相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/greenpal",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/140/original/open-uri20220615-12-18raztw?1655315428",
-      "caption": "草坪护理版Uber项目公开展示素材",
-      "alt": "greenpal",
+      "caption": "草坪护理版Uber：创业复盘与关键经验相关原始配图（第3张）",
+      "alt": "草坪护理版Uber：创业复盘与关键经验相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/greenpal",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "草坪护理版Uber项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/greenpal",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2176,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

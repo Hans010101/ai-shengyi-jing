@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ju28wj6ubvb52uig06e5v5mp0w7h",
-      "caption": "纽约高端日间水疗中心公开案例主图",
-      "alt": "纽约高端日间水疗中心案例图片",
+      "caption": "纽约高端日间水疗中心：通过会员制和零售实现年营收300万美元",
+      "alt": "纽约高端日间水疗中心：通过会员制和零售实现年营收300万美元",
       "sourceUrl": "https://www.starterstory.com/stories/zz-day-spa-inc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/108/original/open-uri20220508-12-1yj97qy?1652007610",
-      "caption": "纽约高端日间水疗中心项目公开展示素材",
-      "alt": "zz-day-spa-inc",
+      "caption": "纽约高端日间水疗中心：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "纽约高端日间水疗中心：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/zz-day-spa-inc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/109/original/open-uri20220508-12-8h26v0?1652007611",
-      "caption": "纽约高端日间水疗中心项目公开展示素材",
-      "alt": "zz-day-spa-inc",
+      "caption": "纽约高端日间水疗中心：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "纽约高端日间水疗中心：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/zz-day-spa-inc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/110/original/open-uri20220508-12-qrbk7k?1652007611",
-      "caption": "纽约高端日间水疗中心项目公开展示素材",
-      "alt": "zz-day-spa-inc",
+      "caption": "纽约高端日间水疗中心：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "纽约高端日间水疗中心：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/zz-day-spa-inc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/111/original/open-uri20220508-12-1y6c2wl?1652007611",
-      "caption": "纽约高端日间水疗中心项目公开展示素材",
-      "alt": "zz-day-spa-inc",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/87pTzVQRBgQ",
+      "watchUrl": "https://www.youtube.com/watch?v=87pTzVQRBgQ",
+      "caption": "纽约高端日间水疗中心资料中提及的视频：ZZ Day Spa Year-Round Valentines Day Specials!",
+      "alt": "ZZ Day Spa Year-Round Valentines Day Specials!",
       "sourceUrl": "https://www.starterstory.com/stories/zz-day-spa-inc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/87pTzVQRBgQ/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

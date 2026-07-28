@@ -51,6 +51,7 @@ function renderMedia(media, index) {
   const sourceUrl = safeExternalUrl(media.sourceUrl);
   const mediaUrl = safeExternalUrl(media.url);
   if (!mediaUrl) return null;
+  let videoWatchUrl = '';
 
   const figure = document.createElement('figure');
   figure.className = 'article-media';
@@ -79,19 +80,45 @@ function renderMedia(media, index) {
       figure.appendChild(image);
     }
   } else if (media.type === 'video') {
-    const host = new URL(mediaUrl).hostname;
+    const parsedMediaUrl = new URL(mediaUrl);
+    const host = parsedMediaUrl.hostname;
     if (!['www.youtube.com', 'youtube.com', 'player.vimeo.com'].includes(host)) return null;
-    const frameWrap = document.createElement('div');
-    frameWrap.className = 'video-frame';
-    const iframe = document.createElement('iframe');
-    iframe.src = mediaUrl;
-    iframe.title = media.caption || '项目相关视频';
-    iframe.loading = 'lazy';
-    iframe.referrerPolicy = 'strict-origin-when-cross-origin';
-    iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
-    iframe.allowFullscreen = true;
-    frameWrap.appendChild(iframe);
-    figure.appendChild(frameWrap);
+    videoWatchUrl = safeExternalUrl(media.watchUrl);
+    if (!videoWatchUrl && host.includes('youtube.com')) {
+      const videoId = parsedMediaUrl.pathname.split('/').filter(Boolean).pop();
+      if (videoId) videoWatchUrl = `https://www.youtube.com/watch?v=${encodeURIComponent(videoId)}`;
+    }
+    if (!videoWatchUrl) return null;
+
+    const videoCard = document.createElement('a');
+    videoCard.className = 'article-video-card';
+    videoCard.href = videoWatchUrl;
+    videoCard.target = '_blank';
+    videoCard.rel = 'noopener noreferrer';
+    videoCard.setAttribute('aria-label', `观看完整视频：${media.caption || '项目相关视频'}`);
+
+    const poster = safeExternalUrl(media.poster);
+    if (poster) {
+      const posterImage = document.createElement('img');
+      posterImage.className = 'article-video-poster';
+      posterImage.src = poster;
+      posterImage.alt = media.alt || media.caption || '视频封面';
+      posterImage.loading = 'lazy';
+      posterImage.referrerPolicy = 'no-referrer';
+      posterImage.addEventListener('error', () => videoCard.classList.add('poster-unavailable'));
+      videoCard.appendChild(posterImage);
+    } else {
+      videoCard.classList.add('poster-unavailable');
+    }
+
+    const play = appendText(videoCard, 'span', '▶', 'article-video-play');
+    play.setAttribute('aria-hidden', 'true');
+    const label = document.createElement('span');
+    label.className = 'article-video-label';
+    appendText(label, 'small', media.provider || (host.includes('youtube') ? 'YouTube' : 'Vimeo'));
+    appendText(label, 'strong', media.alt || media.caption || '观看完整视频');
+    videoCard.appendChild(label);
+    figure.appendChild(videoCard);
   } else if (
     media.type === 'video-file'
     && media.origin === 'official-site-video'
@@ -110,7 +137,13 @@ function renderMedia(media, index) {
   }
 
   const caption = document.createElement('figcaption');
-  caption.textContent = media.caption || '项目相关素材';
+  appendText(caption, 'span', media.caption || '项目相关素材');
+  if (videoWatchUrl) {
+    const watchLink = appendText(caption, 'a', '观看完整视频 ↗');
+    watchLink.href = videoWatchUrl;
+    watchLink.target = '_blank';
+    watchLink.rel = 'noopener noreferrer';
+  }
   figure.appendChild(caption);
   return figure;
 }

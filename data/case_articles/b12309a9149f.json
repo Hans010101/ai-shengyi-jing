@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ex2tnc5ortn8djeorlxfwti2dsgg",
-      "caption": "优惠券聚合网站公开案例主图",
-      "alt": "优惠券聚合网站案例图片",
+      "caption": "优惠券聚合网站：通过联盟营销赚取佣金",
+      "alt": "优惠券聚合网站：通过联盟营销赚取佣金",
       "sourceUrl": "https://www.starterstory.com/stories/deala",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/791/original/open-uri20230924-48-12spb91?1695522659",
-      "caption": "优惠券聚合网站项目公开展示素材",
-      "alt": "deala",
+      "caption": "优惠券聚合网站：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "优惠券聚合网站：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/deala",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/792/original/open-uri20230924-48-1mgfht4?1695522660",
-      "caption": "优惠券聚合网站项目公开展示素材",
-      "alt": "deala",
+      "caption": "优惠券聚合网站：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "优惠券聚合网站：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/deala",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/793/original/open-uri20230924-48-1flg1d6?1695522660",
-      "caption": "优惠券聚合网站项目公开展示素材",
-      "alt": "deala",
+      "caption": "优惠券聚合网站：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "优惠券聚合网站：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/deala",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/794/original/open-uri20230924-48-1gu6al0?1695522661",
-      "caption": "优惠券聚合网站项目公开展示素材",
-      "alt": "deala",
-      "sourceUrl": "https://www.starterstory.com/stories/deala",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2184,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/dq3gdivtoi545q9evxvw9gp76a84",
-      "caption": "手表品牌Branzio公开案例主图",
-      "alt": "手表品牌Branzio案例图片",
+      "caption": "手表品牌Branzio：通过DTC模式在线销售中高端手表盈利",
+      "alt": "手表品牌Branzio：通过DTC模式在线销售中高端手表盈利",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-built-a-booming-watch-brand-from-nothing",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/864/original/open-uri20190617-4-cy1yhy?1560757905",
-      "caption": "手表品牌Branzio项目公开展示素材",
-      "alt": "how-i-built-a-booming-watch-brand-from-nothing",
+      "caption": "手表品牌Branzio：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "手表品牌Branzio：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-built-a-booming-watch-brand-from-nothing",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/865/original/open-uri20190617-4-1wtgn0x?1560757906",
-      "caption": "手表品牌Branzio项目公开展示素材",
-      "alt": "how-i-built-a-booming-watch-brand-from-nothing",
+      "caption": "手表品牌Branzio：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "手表品牌Branzio：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-built-a-booming-watch-brand-from-nothing",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/866/original/open-uri20190617-4-1m53npk?1560757907",
-      "caption": "手表品牌Branzio项目公开展示素材",
-      "alt": "how-i-built-a-booming-watch-brand-from-nothing",
+      "caption": "手表品牌Branzio：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "手表品牌Branzio：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-built-a-booming-watch-brand-from-nothing",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/867/original/open-uri20190617-4-1ymgde1?1560757907",
-      "caption": "手表品牌Branzio项目公开展示素材",
-      "alt": "how-i-built-a-booming-watch-brand-from-nothing",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-built-a-booming-watch-brand-from-nothing",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2165,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

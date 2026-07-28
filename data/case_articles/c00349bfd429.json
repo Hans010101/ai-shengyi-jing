@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/6cg9tqmr3mwr8zj6ldq3v33x5kzs",
-      "caption": "AI驱动的B2B销售线索生成工具公开案例主图",
-      "alt": "AI驱动的B2B销售线索生成工具案例图片",
+      "caption": "AI驱动的B2B销售线索生成工具：通过订阅制收费",
+      "alt": "AI驱动的B2B销售线索生成工具：通过订阅制收费",
       "sourceUrl": "https://www.starterstory.com/stories/tamly",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/119/original/open-uri20220814-12-106dkw1?1660476153",
-      "caption": "AI驱动的B2B销售线索生成工具项目公开展示素材",
-      "alt": "tamly",
+      "caption": "AI驱动的B2B销售线索生成工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI驱动的B2B销售线索生成工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/tamly",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/120/original/open-uri20220814-12-jb3ljj?1660476154",
-      "caption": "AI驱动的B2B销售线索生成工具项目公开展示素材",
-      "alt": "tamly",
+      "caption": "AI驱动的B2B销售线索生成工具：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "AI驱动的B2B销售线索生成工具：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/tamly",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/121/original/open-uri20220814-12-1d5go78?1660476155",
-      "caption": "AI驱动的B2B销售线索生成工具项目公开展示素材",
-      "alt": "tamly",
+      "caption": "AI驱动的B2B销售线索生成工具：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "AI驱动的B2B销售线索生成工具：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/tamly",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/122/original/open-uri20220814-12-1ck0xwv?1660476155",
-      "caption": "AI驱动的B2B销售线索生成工具项目公开展示素材",
-      "alt": "tamly",
-      "sourceUrl": "https://www.starterstory.com/stories/tamly",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2193,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/andr60jxcvm6cwura6vp3ylqvc3b",
-      "caption": "无代码SaaS工具公开案例主图",
-      "alt": "无代码SaaS工具案例图片",
+      "caption": "无代码SaaS工具：帮B2B企业做应用内引导，月入33万美元",
+      "alt": "无代码SaaS工具：帮B2B企业做应用内引导，月入33万美元",
       "sourceUrl": "https://www.starterstory.com/stories/userflow",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/279/original/open-uri20221008-24-fh0y9d?1665240345",
-      "caption": "无代码SaaS工具项目公开展示素材",
-      "alt": "userflow",
+      "caption": "无代码SaaS工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "无代码SaaS工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/userflow",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "无代码SaaS工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/userflow",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/yggesfalb206183easpx9fu8s6gu",
-      "caption": "无代码SaaS工具项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/userflow",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/yzwcofug5jdzgxughelpace4tl6a",
-      "caption": "无代码SaaS工具项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/userflow",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2212,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

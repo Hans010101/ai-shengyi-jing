@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/l4ulsfw9v9w50h0jm5nvnkld8p15",
-      "caption": "AI驱动的网站分析工具公开案例主图",
-      "alt": "AI驱动的网站分析工具案例图片",
+      "caption": "AI驱动的网站分析工具：通过订阅制向企业收费",
+      "alt": "AI驱动的网站分析工具：通过订阅制向企业收费",
       "sourceUrl": "https://www.starterstory.com/businesses/usermaven",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI驱动的网站分析工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/usermaven",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/sg1czbmi6g8xepcuda1zkuypshzv",
-      "caption": "AI驱动的网站分析工具项目公开展示素材",
-      "alt": "Usermaven logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/usermaven",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/vkacgai3me2unbjkakdhmi8j1qe5/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "AI驱动的网站分析工具项目公开展示素材",
-      "alt": "Google Analytics",
-      "sourceUrl": "https://www.starterstory.com/businesses/usermaven",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/wf05fi78r3bkadjpbwhtkha8hem6/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "AI驱动的网站分析工具项目公开展示素材",
-      "alt": "Stripe",
-      "sourceUrl": "https://www.starterstory.com/businesses/usermaven",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2167,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

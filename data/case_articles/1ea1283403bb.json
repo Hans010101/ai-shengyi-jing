@@ -122,47 +122,56 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/pm57crlg5c9mgo0tmhzg62jsmlh0",
-      "caption": "为NBA和英超球员提供语言教学公开案例主图",
-      "alt": "为NBA和英超球员提供语言教学案例图片",
+      "caption": "为NBA和英超球员提供语言教学：月入9千美元",
+      "alt": "为NBA和英超球员提供语言教学：月入9千美元",
       "sourceUrl": "https://www.starterstory.com/stories/hyperfluent",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/487/original/open-uri20221012-12-8fnct6?1665552836",
-      "caption": "为NBA和英超球员提供语言教学项目公开展示素材",
-      "alt": "hyperfluent",
+      "caption": "为NBA和英超球员提供语言教学：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为NBA和英超球员提供语言教学：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/hyperfluent",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/488/original/open-uri20221012-12-1at0kk5?1665552836",
-      "caption": "为NBA和英超球员提供语言教学项目公开展示素材",
-      "alt": "hyperfluent",
+      "caption": "为NBA和英超球员提供语言教学：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "为NBA和英超球员提供语言教学：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/hyperfluent",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为NBA和英超球员提供语言教学项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/22J0JRbXe2g",
+      "watchUrl": "https://www.youtube.com/watch?v=22J0JRbXe2g",
+      "caption": "为NBA和英超球员提供语言教学资料中提及的视频：Laranja",
+      "alt": "Laranja",
       "sourceUrl": "https://www.starterstory.com/stories/hyperfluent",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/22J0JRbXe2g/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/05wfjy209m57b59865cjga1ngudh",
-      "caption": "为NBA和英超球员提供语言教学项目公开展示素材",
-      "alt": "为NBA和英超球员提供语言教学项目展示图",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/pq5g1Ck5xxg",
+      "watchUrl": "https://www.youtube.com/watch?v=pq5g1Ck5xxg",
+      "caption": "为NBA和英超球员提供语言教学资料中提及的视频：Ondulado",
+      "alt": "Ondulado",
       "sourceUrl": "https://www.starterstory.com/stories/hyperfluent",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/pq5g1Ck5xxg/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

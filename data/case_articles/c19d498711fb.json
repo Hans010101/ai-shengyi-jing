@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/5n9oa9zsc97p24chefdv59dijitz",
-      "caption": "18岁创办搬家公司公开案例主图",
-      "alt": "18岁创办搬家公司案例图片",
+      "caption": "18岁创办搬家公司：年入500万美元，提供全流程搬迁服务",
+      "alt": "18岁创办搬家公司：年入500万美元，提供全流程搬迁服务",
       "sourceUrl": "https://www.starterstory.com/stories/qshark-moving",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/086/original/open-uri20240205-65-1sa1gc3?1707119150",
-      "caption": "18岁创办搬家公司项目公开展示素材",
-      "alt": "qshark-moving",
+      "caption": "18岁创办搬家公司：创业起点与创意来源相关原始配图",
+      "alt": "18岁创办搬家公司：创业起点与创意来源相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/qshark-moving",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/087/original/open-uri20240205-65-1eqqtni?1707119151",
-      "caption": "18岁创办搬家公司项目公开展示素材",
-      "alt": "qshark-moving",
+      "caption": "18岁创办搬家公司：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "18岁创办搬家公司：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/qshark-moving",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/088/original/open-uri20240205-65-sx98cn?1707119152",
-      "caption": "18岁创办搬家公司项目公开展示素材",
-      "alt": "qshark-moving",
+      "caption": "18岁创办搬家公司：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "18岁创办搬家公司：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/qshark-moving",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/089/original/open-uri20240205-65-r890mm?1707119152",
-      "caption": "18岁创办搬家公司项目公开展示素材",
-      "alt": "qshark-moving",
-      "sourceUrl": "https://www.starterstory.com/stories/qshark-moving",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2190,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

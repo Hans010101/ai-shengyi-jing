@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/arjjq4le6tr3tsds8b5xrhl26oca",
-      "caption": "网站技术分析工具公开案例主图",
-      "alt": "网站技术分析工具案例图片",
+      "caption": "网站技术分析工具：按月订阅盈利",
+      "alt": "网站技术分析工具：按月订阅盈利",
       "sourceUrl": "https://www.starterstory.com/stories/builtwith-technology-lookup-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "网站技术分析工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/builtwith-technology-lookup-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/jaw9ppvwit561576e0idxu7rs690/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "网站技术分析工具项目公开展示素材",
-      "alt": "网站技术分析工具项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/builtwith-technology-lookup-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/e5e7790793123ca4",
-      "caption": "网站技术分析工具项目公开展示素材",
-      "alt": "article",
+      "caption": "网站技术分析工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "网站技术分析工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/builtwith-technology-lookup-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/dcw06b8mh9wa1yp2kmqt97282qjt",
-      "caption": "网站技术分析工具项目公开展示素材",
-      "alt": "article",
+      "caption": "网站技术分析工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "网站技术分析工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/builtwith-technology-lookup-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/eeef3dff0188e8ff",
+      "caption": "网站技术分析工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "网站技术分析工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/builtwith-technology-lookup-breakdown",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2222,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

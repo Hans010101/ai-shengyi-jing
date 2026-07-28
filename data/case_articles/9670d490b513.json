@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/kn4uz80k4ja0efq9s63v0q110aol",
-      "caption": "海外AI工具项目公开案例主图",
-      "alt": "海外AI工具项目案例图片",
+      "caption": "海外AI工具项目：通过有机社交媒体增长实现营收翻倍的女装电商",
+      "alt": "海外AI工具项目：通过有机社交媒体增长实现营收翻倍的女装电商",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-organically-grew-social-media-and-doubled-revenue-from-last-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/963/original/open-uri20210127-3-1oeuewn?1611770076",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "how-we-grew-our-business-through-marketing-campaigns-and-increased-sales-200",
+      "caption": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-organically-grew-social-media-and-doubled-revenue-from-last-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-organically-grew-social-media-and-doubled-revenue-from-last-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/w4stw5wtsgmq5u23otc0cudjxnjg",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "海外AI工具项目项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-organically-grew-social-media-and-doubled-revenue-from-last-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/1qxt58976pp69dwug3p7ifphuhne",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "海外AI工具项目项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-organically-grew-social-media-and-doubled-revenue-from-last-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2084,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

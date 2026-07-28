@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/aenswdsxqcld76ry0xb3nj9r30sa",
-      "caption": "特许经营线索生成平台公开案例主图",
-      "alt": "特许经营线索生成平台案例图片",
+      "caption": "特许经营线索生成平台：通过广告和订阅赚钱",
+      "alt": "特许经营线索生成平台：通过广告和订阅赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/from-business-consultant-to-owning-a-1-2m-year-franchise-portal",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/763/original/open-uri20220310-3-ke2e0o?1646923050",
-      "caption": "特许经营线索生成平台项目公开展示素材",
-      "alt": "from-business-consultant-to-owning-a-1-2m-year-franchise-portal",
+      "caption": "特许经营线索生成平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "特许经营线索生成平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/from-business-consultant-to-owning-a-1-2m-year-franchise-portal",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/764/original/open-uri20220310-3-eazp73?1646923051",
-      "caption": "特许经营线索生成平台项目公开展示素材",
-      "alt": "from-business-consultant-to-owning-a-1-2m-year-franchise-portal",
+      "caption": "特许经营线索生成平台：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "特许经营线索生成平台：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/from-business-consultant-to-owning-a-1-2m-year-franchise-portal",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/765/original/open-uri20220310-3-16067ko?1646923051",
-      "caption": "特许经营线索生成平台项目公开展示素材",
-      "alt": "from-business-consultant-to-owning-a-1-2m-year-franchise-portal",
+      "caption": "特许经营线索生成平台：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "特许经营线索生成平台：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/from-business-consultant-to-owning-a-1-2m-year-franchise-portal",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "特许经营线索生成平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/from-business-consultant-to-owning-a-1-2m-year-franchise-portal",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2228,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

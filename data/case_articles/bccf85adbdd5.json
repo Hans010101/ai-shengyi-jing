@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/rrhhyk8a8u6r5b9495n8k8o0068v",
-      "caption": "美国定制房屋建筑商公开案例主图",
-      "alt": "美国定制房屋建筑商案例图片",
+      "caption": "美国定制房屋建筑商：通过承接高端住宅和商业项目盈利",
+      "alt": "美国定制房屋建筑商：通过承接高端住宅和商业项目盈利",
       "sourceUrl": "https://www.starterstory.com/stories/on-setting-a-goal-as-a-premier-home-building-company",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/090/original/open-uri20210516-3-1f0f303?1621184221",
-      "caption": "美国定制房屋建筑商项目公开展示素材",
-      "alt": "on-setting-a-goal-as-a-premier-home-building-company",
+      "caption": "美国定制房屋建筑商：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "美国定制房屋建筑商：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/on-setting-a-goal-as-a-premier-home-building-company",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "美国定制房屋建筑商项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/on-setting-a-goal-as-a-premier-home-building-company",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "美国定制房屋建筑商项目公开展示素材",
-      "alt": "美国定制房屋建筑商项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/on-setting-a-goal-as-a-premier-home-building-company",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/dvithrg7zcn51mk81s7sw6btbew2",
-      "caption": "美国定制房屋建筑商项目公开展示素材",
-      "alt": "美国定制房屋建筑商项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/on-setting-a-goal-as-a-premier-home-building-company",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2212,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

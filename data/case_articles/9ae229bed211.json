@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/zg4an62ii9xiybek4ynmzt9t9jze",
-      "caption": "电子签名SaaS公开案例主图",
-      "alt": "电子签名SaaS案例图片",
+      "caption": "电子签名SaaS：按订阅收费",
+      "alt": "电子签名SaaS：按订阅收费",
       "sourceUrl": "https://www.starterstory.com/businesses/signwell",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "电子签名SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/signwell",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/vbahlh42qwp18vtf9uxjg2ko637e",
-      "caption": "电子签名SaaS项目公开展示素材",
-      "alt": "SignWell logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/signwell",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/vtdvsz6ii7j6rdax44lx60uayvfa/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "电子签名SaaS项目公开展示素材",
-      "alt": "Amazon Web Services",
-      "sourceUrl": "https://www.starterstory.com/businesses/signwell",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/b9ofnxkmzl283m6fgqbxt8r46kuv/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "电子签名SaaS项目公开展示素材",
-      "alt": "PostgreSQL",
-      "sourceUrl": "https://www.starterstory.com/businesses/signwell",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2273,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

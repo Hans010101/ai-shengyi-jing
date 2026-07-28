@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/nwhjjgy5xjsgbfwq1acz030qpaj9",
-      "caption": "孟加拉国首个在线支付网关公开案例主图",
-      "alt": "孟加拉国首个在线支付网关案例图片",
+      "caption": "孟加拉国首个在线支付网关：通过交易抽成赚钱",
+      "alt": "孟加拉国首个在线支付网关：通过交易抽成赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/shurjopay",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/126/original/open-uri20220615-12-hefjs2?1655304533",
-      "caption": "孟加拉国首个在线支付网关项目公开展示素材",
-      "alt": "shurjopay",
+      "caption": "孟加拉国首个在线支付网关：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "孟加拉国首个在线支付网关：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/shurjopay",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/127/original/open-uri20220615-12-1urr2a1?1655304533",
-      "caption": "孟加拉国首个在线支付网关项目公开展示素材",
-      "alt": "shurjopay",
+      "caption": "孟加拉国首个在线支付网关：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "孟加拉国首个在线支付网关：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/shurjopay",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/128/original/open-uri20220615-12-1gi11pk?1655304534",
-      "caption": "孟加拉国首个在线支付网关项目公开展示素材",
-      "alt": "shurjopay",
+      "caption": "孟加拉国首个在线支付网关：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "孟加拉国首个在线支付网关：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/shurjopay",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "孟加拉国首个在线支付网关项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/shurjopay",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2244,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

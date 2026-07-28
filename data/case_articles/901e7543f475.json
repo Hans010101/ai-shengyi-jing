@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/uhrn2nugn08ozhso1ty66rhsw7yo",
-      "caption": "海外营销工具项目公开案例主图",
-      "alt": "海外营销工具项目案例图片",
+      "caption": "海外营销工具项目：通过提供创业指导服务，帮助创始人增长业务，赚取服务费",
+      "alt": "海外营销工具项目：通过提供创业指导服务，帮助创始人增长业务，赚取服务费",
       "sourceUrl": "https://www.starterstory.com/stories/no-bs-startup-guide",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/738/original/open-uri20230608-51-1nkwq6s?1686206737",
-      "caption": "海外营销工具项目项目公开展示素材",
-      "alt": "no-bs-startup-guide",
+      "caption": "海外营销工具项目：产品上线与首次发布相关原始配图",
+      "alt": "海外营销工具项目：产品上线与首次发布相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/no-bs-startup-guide",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/739/original/open-uri20230608-51-19tt6bc?1686206738",
-      "caption": "海外营销工具项目项目公开展示素材",
-      "alt": "no-bs-startup-guide",
+      "caption": "海外营销工具项目：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "海外营销工具项目：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/no-bs-startup-guide",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/740/original/open-uri20230608-51-1k8i5hi?1686206738",
-      "caption": "海外营销工具项目项目公开展示素材",
-      "alt": "no-bs-startup-guide",
+      "caption": "海外营销工具项目：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "海外营销工具项目：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/no-bs-startup-guide",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "海外营销工具项目项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/no-bs-startup-guide",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2191,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/8jt5pnyp3igmf1osvb86u05pbzv4",
-      "caption": "面向21-35岁年轻人的团体旅行公司公开案例主图",
-      "alt": "面向21-35岁年轻人的团体旅行公司案例图片",
+      "caption": "面向21-35岁年轻人的团体旅行公司：靠组织国际旅行团收费赚钱",
+      "alt": "面向21-35岁年轻人的团体旅行公司：靠组织国际旅行团收费赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/under30experiences-768fc237-666d-46d5-90f8-69869df28daa",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/065/original/open-uri20240204-65-1m0met8?1707025821",
-      "caption": "面向21-35岁年轻人的团体旅行公司项目公开展示素材",
-      "alt": "under30experiences-768fc237-666d-46d5-90f8-69869df28daa",
+      "caption": "面向21-35岁年轻人的团体旅行公司：原始案例中的产品与运营配图（第1张）",
+      "alt": "面向21-35岁年轻人的团体旅行公司：原始案例中的产品与运营配图（第1张）",
       "sourceUrl": "https://www.starterstory.com/stories/under30experiences-768fc237-666d-46d5-90f8-69869df28daa",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/066/original/open-uri20240204-65-1x2dst3?1707025822",
-      "caption": "面向21-35岁年轻人的团体旅行公司项目公开展示素材",
-      "alt": "under30experiences-768fc237-666d-46d5-90f8-69869df28daa",
+      "caption": "面向21-35岁年轻人的团体旅行公司：原始案例中的产品与运营配图（第2张）",
+      "alt": "面向21-35岁年轻人的团体旅行公司：原始案例中的产品与运营配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/under30experiences-768fc237-666d-46d5-90f8-69869df28daa",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "面向21-35岁年轻人的团体旅行公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/under30experiences-768fc237-666d-46d5-90f8-69869df28daa",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ddw17y2p9pisyf3lv70vhxx0tfv5",
-      "caption": "面向21-35岁年轻人的团体旅行公司项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/under30experiences-768fc237-666d-46d5-90f8-69869df28daa",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2211,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

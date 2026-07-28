@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/f7jb6jyzjtr7xyegxa9aju82aa8g",
-      "caption": "AI生成个性化非虚构绘本公开案例主图",
-      "alt": "AI生成个性化非虚构绘本案例图片",
+      "caption": "AI生成个性化非虚构绘本：通过定制化内容收费",
+      "alt": "AI生成个性化非虚构绘本：通过定制化内容收费",
       "sourceUrl": "https://www.starterstory.com/stories/selfarama",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI生成个性化非虚构绘本项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/selfarama",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/jtfuhml3t1fv8ef0s0a4yqizhwcd",
-      "caption": "AI生成个性化非虚构绘本项目公开展示素材",
-      "alt": "article",
+      "caption": "AI生成个性化非虚构绘本：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI生成个性化非虚构绘本：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/selfarama",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/boalfpuilcmj5hfmt1g37acgm0v0",
-      "caption": "AI生成个性化非虚构绘本项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/selfarama",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ajl635m3ee52b139r0czbbukj9sj",
-      "caption": "AI生成个性化非虚构绘本项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/selfarama",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2184,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

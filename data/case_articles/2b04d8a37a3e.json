@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/9cusfxrjka4l79fuhvwjx7nncvue",
-      "caption": "每日加密新闻通讯公开案例主图",
-      "alt": "每日加密新闻通讯案例图片",
+      "caption": "每日加密新闻通讯：通过订阅和广告赚钱",
+      "alt": "每日加密新闻通讯：通过订阅和广告赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/the-milk-road-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "每日加密新闻通讯项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/the-milk-road-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/su13u451nv71ssvcq3sauh4qeace/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "每日加密新闻通讯项目公开展示素材",
-      "alt": "每日加密新闻通讯项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/the-milk-road-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/877d305f118d7644",
-      "caption": "每日加密新闻通讯项目公开展示素材",
-      "alt": "article",
+      "caption": "每日加密新闻通讯：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "每日加密新闻通讯：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/the-milk-road-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/wxmjvfctvh70pmmlbwk0424x9qnf",
-      "caption": "每日加密新闻通讯项目公开展示素材",
-      "alt": "article",
+      "caption": "每日加密新闻通讯：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "每日加密新闻通讯：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/the-milk-road-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/9739c58613a46ab2",
+      "caption": "每日加密新闻通讯：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "每日加密新闻通讯：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/the-milk-road-breakdown",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/tEdPVcrspaw",
+      "watchUrl": "https://www.youtube.com/watch?v=tEdPVcrspaw",
+      "caption": "每日加密新闻通讯资料中提及的视频：Arthur Hayes: Iran War = Fed Money Printing? Is a Massive Crypto Rally Coming?",
+      "alt": "Arthur Hayes: Iran War = Fed Money Printing? Is a Massive Crypto Rally Coming?",
+      "sourceUrl": "https://www.starterstory.com/stories/the-milk-road-breakdown",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/tEdPVcrspaw/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

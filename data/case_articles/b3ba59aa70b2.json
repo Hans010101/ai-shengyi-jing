@@ -122,56 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/1g6quw3qkmrysedo7gwmmzltc9xb",
-      "caption": "木工公司利用本地社交网络获客公开案例主图",
-      "alt": "木工公司利用本地社交网络获客案例图片",
+      "caption": "木工公司利用本地社交网络获客：年入50万美元",
+      "alt": "木工公司利用本地社交网络获客：年入50万美元",
       "sourceUrl": "https://www.starterstory.com/stories/mountain-fire-woodworks",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/013/original/open-uri20230124-24-1m4y7nb?1674568985",
-      "caption": "木工公司利用本地社交网络获客项目公开展示素材",
-      "alt": "mountain-fire-woodworks",
+      "caption": "木工公司利用本地社交网络获客：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "木工公司利用本地社交网络获客：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/mountain-fire-woodworks",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/014/original/open-uri20230124-24-ookr1w?1674568987",
-      "caption": "木工公司利用本地社交网络获客项目公开展示素材",
-      "alt": "mountain-fire-woodworks",
+      "caption": "木工公司利用本地社交网络获客：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "木工公司利用本地社交网络获客：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/mountain-fire-woodworks",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "木工公司利用本地社交网络获客项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/mountain-fire-woodworks",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/2q6a8yncmonnvypd2kmgep7jt2a0",
-      "caption": "木工公司利用本地社交网络获客项目公开展示素材",
-      "alt": "木工公司利用本地社交网络获客项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/mountain-fire-woodworks",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/efqoexbql7bnoo3c5qif6tpt16oe",
-      "caption": "木工公司利用本地社交网络获客项目公开展示素材",
-      "alt": "木工公司利用本地社交网络获客项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/mountain-fire-woodworks",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2155,
-    "mediaCount": 6
+    "mediaCount": 3
   }
 }

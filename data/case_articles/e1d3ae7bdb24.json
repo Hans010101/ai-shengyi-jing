@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/rjhsh9clzcvfnf3mg5ce9gr4c7g2",
-      "caption": "为Ruby on Rails开发者提供反向招聘平公开案例主图",
-      "alt": "为Ruby on Rails开发者提供反向招聘平案例图片",
+      "caption": "为Ruby on Rails开发者提供反向招聘平：台，通过订阅费盈利",
+      "alt": "为Ruby on Rails开发者提供反向招聘平：台，通过订阅费盈利",
       "sourceUrl": "https://www.starterstory.com/stories/railsdevs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/038/original/open-uri20221111-12-1pu3sx2?1668171708",
-      "caption": "为Ruby on Rails开发者提供反向招聘平项目公开展示素材",
-      "alt": "railsdevs",
+      "caption": "为Ruby on Rails开发者提供反向招聘平：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为Ruby on Rails开发者提供反向招聘平：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/railsdevs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/039/original/open-uri20221111-12-1plqk35?1668171709",
-      "caption": "为Ruby on Rails开发者提供反向招聘平项目公开展示素材",
-      "alt": "railsdevs",
+      "caption": "为Ruby on Rails开发者提供反向招聘平：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "为Ruby on Rails开发者提供反向招聘平：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/railsdevs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/040/original/open-uri20221111-12-1tal6o6?1668171710",
-      "caption": "为Ruby on Rails开发者提供反向招聘平项目公开展示素材",
-      "alt": "railsdevs",
+      "caption": "为Ruby on Rails开发者提供反向招聘平：当前经营状态与下一步规划相关原始配图（第3张）",
+      "alt": "为Ruby on Rails开发者提供反向招聘平：当前经营状态与下一步规划相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/railsdevs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为Ruby on Rails开发者提供反向招聘平项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/railsdevs",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2238,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

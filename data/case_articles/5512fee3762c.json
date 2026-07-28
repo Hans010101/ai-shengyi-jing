@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/d2o0fef332wje6wvj9ft7g8tlujs",
-      "caption": "法国健康饮品品牌公开案例主图",
-      "alt": "法国健康饮品品牌案例图片",
+      "caption": "法国健康饮品品牌：通过DTC模式销售超级饮品",
+      "alt": "法国健康饮品品牌：通过DTC模式销售超级饮品",
       "sourceUrl": "https://www.starterstory.com/stories/natura-wellness-update-how-we-reached-1m-in-sales-in-2020",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/010/243/original/open-uri20210210-3-cs5s99?1612983421",
-      "caption": "法国健康饮品品牌项目公开展示素材",
-      "alt": "how-we-doubled-our-sales-and-reached-1m-in-one-year",
+      "caption": "法国健康饮品品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "法国健康饮品品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/natura-wellness-update-how-we-reached-1m-in-sales-in-2020",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/010/244/original/open-uri20210210-3-4hi3j?1612983421",
-      "caption": "法国健康饮品品牌项目公开展示素材",
-      "alt": "how-we-doubled-our-sales-and-reached-1m-in-one-year",
+      "caption": "法国健康饮品品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "法国健康饮品品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/natura-wellness-update-how-we-reached-1m-in-sales-in-2020",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/010/245/original/open-uri20210210-3-182uij2?1612983422",
-      "caption": "法国健康饮品品牌项目公开展示素材",
-      "alt": "how-we-doubled-our-sales-and-reached-1m-in-one-year",
+      "caption": "法国健康饮品品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "法国健康饮品品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/natura-wellness-update-how-we-reached-1m-in-sales-in-2020",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "法国健康饮品品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/natura-wellness-update-how-we-reached-1m-in-sales-in-2020",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2132,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/x2w7bo6esav7kylg7bzy81zlyqlo",
-      "caption": "美国手工派品牌公开案例主图",
-      "alt": "美国手工派品牌案例图片",
+      "caption": "美国手工派品牌：通过线上线下销售特色甜品年入百万美元",
+      "alt": "美国手工派品牌：通过线上线下销售特色甜品年入百万美元",
       "sourceUrl": "https://www.starterstory.com/stories/cape-whoopies-e46e0e01-9dff-416c-abe2-1cf88aedad33",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/495/original/open-uri20221012-12-1jyivma?1665555991",
-      "caption": "美国手工派品牌项目公开展示素材",
-      "alt": "cape-whoopies-e46e0e01-9dff-416c-abe2-1cf88aedad33",
+      "caption": "美国手工派品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "美国手工派品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/cape-whoopies-e46e0e01-9dff-416c-abe2-1cf88aedad33",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/496/original/open-uri20221012-12-mabf6z?1665555992",
-      "caption": "美国手工派品牌项目公开展示素材",
-      "alt": "cape-whoopies-e46e0e01-9dff-416c-abe2-1cf88aedad33",
+      "caption": "美国手工派品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "美国手工派品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/cape-whoopies-e46e0e01-9dff-416c-abe2-1cf88aedad33",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/497/original/open-uri20221012-12-nk1z56?1665555993",
-      "caption": "美国手工派品牌项目公开展示素材",
-      "alt": "cape-whoopies-e46e0e01-9dff-416c-abe2-1cf88aedad33",
+      "caption": "美国手工派品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "美国手工派品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/cape-whoopies-e46e0e01-9dff-416c-abe2-1cf88aedad33",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/498/original/open-uri20221012-12-147wuft?1665555993",
-      "caption": "美国手工派品牌项目公开展示素材",
-      "alt": "cape-whoopies-e46e0e01-9dff-416c-abe2-1cf88aedad33",
-      "sourceUrl": "https://www.starterstory.com/stories/cape-whoopies-e46e0e01-9dff-416c-abe2-1cf88aedad33",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2209,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

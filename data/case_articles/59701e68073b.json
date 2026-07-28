@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/i0hr4ptqg2he8dgrgrn6s5s89q2m",
-      "caption": "为SaaS公司提供定价策略咨询公开案例主图",
-      "alt": "为SaaS公司提供定价策略咨询案例图片",
+      "caption": "为SaaS公司提供定价策略咨询：通过优化定价提升营收",
+      "alt": "为SaaS公司提供定价策略咨询：通过优化定价提升营收",
       "sourceUrl": "https://www.starterstory.com/stories/monevate-monetization-and-pricing-strategy-consulting",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为SaaS公司提供定价策略咨询项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/monevate-monetization-and-pricing-strategy-consulting",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/0fcd3f947616484b",
-      "caption": "为SaaS公司提供定价策略咨询项目公开展示素材",
+      "caption": "为SaaS公司提供定价策略咨询：创始人、核心产品与品牌起点相关原始配图",
       "alt": "James D. Wilton",
       "sourceUrl": "https://www.starterstory.com/stories/monevate-monetization-and-pricing-strategy-consulting",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/w8hj8ep3ec48kpqgd7bmsodiqaqj",
-      "caption": "为SaaS公司提供定价策略咨询项目公开展示素材",
-      "alt": "article",
+      "caption": "为SaaS公司提供定价策略咨询：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "为SaaS公司提供定价策略咨询：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/monevate-monetization-and-pricing-strategy-consulting",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/370c802780ab85c3",
-      "caption": "为SaaS公司提供定价策略咨询项目公开展示素材",
+      "caption": "为SaaS公司提供定价策略咨询：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "alt": "Early Monevate Team",
       "sourceUrl": "https://www.starterstory.com/stories/monevate-monetization-and-pricing-strategy-consulting",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2268,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/j3r0cewzfj23rkshdumd0rtoqux5",
-      "caption": "为全球电商提供定制化支付解决方案公开案例主图",
-      "alt": "为全球电商提供定制化支付解决方案案例图片",
+      "caption": "为全球电商提供定制化支付解决方案：通过交易抽成盈利",
+      "alt": "为全球电商提供定制化支付解决方案：通过交易抽成盈利",
       "sourceUrl": "https://www.starterstory.com/stories/ecommpay",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/274/original/open-uri20221008-12-1nc8g99?1665238340",
-      "caption": "为全球电商提供定制化支付解决方案项目公开展示素材",
-      "alt": "ecommpay",
+      "caption": "为全球电商提供定制化支付解决方案：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为全球电商提供定制化支付解决方案：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/ecommpay",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/275/original/open-uri20221008-12-w4ggk5?1665238341",
-      "caption": "为全球电商提供定制化支付解决方案项目公开展示素材",
-      "alt": "ecommpay",
+      "caption": "为全球电商提供定制化支付解决方案：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "为全球电商提供定制化支付解决方案：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/ecommpay",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/276/original/open-uri20221008-12-m5euxd?1665238341",
-      "caption": "为全球电商提供定制化支付解决方案项目公开展示素材",
-      "alt": "ecommpay",
+      "caption": "为全球电商提供定制化支付解决方案：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "为全球电商提供定制化支付解决方案：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/ecommpay",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/277/original/open-uri20221008-12-1y8selt?1665238342",
-      "caption": "为全球电商提供定制化支付解决方案项目公开展示素材",
-      "alt": "ecommpay",
-      "sourceUrl": "https://www.starterstory.com/stories/ecommpay",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2259,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

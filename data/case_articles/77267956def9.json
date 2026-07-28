@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/cgytb42jw6rtxjnoiqqf8qncr59f",
-      "caption": "在线定制食谱书公开案例主图",
-      "alt": "在线定制食谱书案例图片",
+      "caption": "在线定制食谱书：通过SaaS订阅和交易分成盈利",
+      "alt": "在线定制食谱书：通过SaaS订阅和交易分成盈利",
       "sourceUrl": "https://www.starterstory.com/stories/heritage-cookbook",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/426/original/open-uri20221203-24-8fuqwe?1670048006",
-      "caption": "在线定制食谱书项目公开展示素材",
-      "alt": "heritage-cookbook",
+      "caption": "在线定制食谱书：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "在线定制食谱书：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/heritage-cookbook",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "在线定制食谱书项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/heritage-cookbook",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "在线定制食谱书项目公开展示素材",
-      "alt": "在线定制食谱书项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/heritage-cookbook",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/dvithrg7zcn51mk81s7sw6btbew2",
-      "caption": "在线定制食谱书项目公开展示素材",
-      "alt": "在线定制食谱书项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/heritage-cookbook",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2152,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

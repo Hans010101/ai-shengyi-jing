@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/hfbkc9wqix4fzgpax4lz7zq916tq",
-      "caption": "无代码地图构建器公开案例主图",
-      "alt": "无代码地图构建器案例图片",
+      "caption": "无代码地图构建器：月费订阅赚钱",
+      "alt": "无代码地图构建器：月费订阅赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/no-code-map-app",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/081/original/open-uri20220615-12-1lka4ur?1655290317",
-      "caption": "无代码地图构建器项目公开展示素材",
-      "alt": "no-code-map-app",
+      "caption": "无代码地图构建器：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "无代码地图构建器：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/no-code-map-app",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/082/original/open-uri20220615-12-104acb2?1655290318",
-      "caption": "无代码地图构建器项目公开展示素材",
-      "alt": "no-code-map-app",
+      "caption": "无代码地图构建器：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "无代码地图构建器：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/no-code-map-app",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "无代码地图构建器项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/no-code-map-app",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ux0jwuv5zreae40prptu2ora5km3",
-      "caption": "无代码地图构建器项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/no-code-map-app",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2204,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

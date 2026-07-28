@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/5k3tyhxp2aq6t6i7gkz5slhrjgnk",
-      "caption": "搭建落地页生成器公开案例主图",
-      "alt": "搭建落地页生成器案例图片",
+      "caption": "搭建落地页生成器：通过推荐计划提升营收",
+      "alt": "搭建落地页生成器：通过推荐计划提升营收",
       "sourceUrl": "https://www.starterstory.com/stories/how-referrals-grew-revenue-from-2-5k-to-7-2k-month",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/011/880/original/open-uri20210506-3-v93me0?1620327599",
-      "caption": "搭建落地页生成器项目公开展示素材",
-      "alt": "how-recommendations-helped-grew-revenue-from-2-5k-to-7-2k-month",
+      "caption": "搭建落地页生成器：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "搭建落地页生成器：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-referrals-grew-revenue-from-2-5k-to-7-2k-month",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/011/881/original/open-uri20210506-3-1664n6d?1620327599",
-      "caption": "搭建落地页生成器项目公开展示素材",
-      "alt": "how-recommendations-helped-grew-revenue-from-2-5k-to-7-2k-month",
+      "caption": "搭建落地页生成器：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "搭建落地页生成器：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-referrals-grew-revenue-from-2-5k-to-7-2k-month",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/011/882/original/open-uri20210506-3-1j68tbu?1620327599",
-      "caption": "搭建落地页生成器项目公开展示素材",
-      "alt": "how-recommendations-helped-grew-revenue-from-2-5k-to-7-2k-month",
+      "caption": "搭建落地页生成器：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "搭建落地页生成器：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-referrals-grew-revenue-from-2-5k-to-7-2k-month",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/011/883/original/open-uri20210506-3-edvz1x?1620327599",
-      "caption": "搭建落地页生成器项目公开展示素材",
-      "alt": "how-recommendations-helped-grew-revenue-from-2-5k-to-7-2k-month",
-      "sourceUrl": "https://www.starterstory.com/stories/how-referrals-grew-revenue-from-2-5k-to-7-2k-month",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2190,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

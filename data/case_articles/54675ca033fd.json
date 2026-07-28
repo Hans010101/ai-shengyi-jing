@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/svne2rcywb8tcqteim0hg09i4slh",
-      "caption": "商业地产经纪公司公开案例主图",
-      "alt": "商业地产经纪公司案例图片",
+      "caption": "商业地产经纪公司：通过代表租户谈判赚取佣金",
+      "alt": "商业地产经纪公司：通过代表租户谈判赚取佣金",
       "sourceUrl": "https://www.starterstory.com/stories/from-film-to-real-estate-how-i-run-a-300k-year-commercial-real-estate-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/941/original/open-uri20220422-12-q6ojzu?1650644621",
-      "caption": "商业地产经纪公司项目公开展示素材",
-      "alt": "from-film-to-real-estate-how-i-run-a-300k-year-commercial-real-estate-business",
+      "caption": "商业地产经纪公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "商业地产经纪公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/from-film-to-real-estate-how-i-run-a-300k-year-commercial-real-estate-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/942/original/open-uri20220422-12-1liiqzf?1650644622",
-      "caption": "商业地产经纪公司项目公开展示素材",
-      "alt": "from-film-to-real-estate-how-i-run-a-300k-year-commercial-real-estate-business",
+      "caption": "商业地产经纪公司：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "商业地产经纪公司：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/from-film-to-real-estate-how-i-run-a-300k-year-commercial-real-estate-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "商业地产经纪公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/from-film-to-real-estate-how-i-run-a-300k-year-commercial-real-estate-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ptba69qdqz5xolsqmn7r1j2oyaqo",
-      "caption": "商业地产经纪公司项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/from-film-to-real-estate-how-i-run-a-300k-year-commercial-real-estate-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2120,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

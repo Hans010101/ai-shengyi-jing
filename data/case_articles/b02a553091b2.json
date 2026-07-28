@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/tbn5a28gisx1cnhcxp1e9nwy52y1",
-      "caption": "法律科技SaaS公开案例主图",
-      "alt": "法律科技SaaS案例图片",
+      "caption": "法律科技SaaS：通过AI简化在线庭审流程，按月订阅收费",
+      "alt": "法律科技SaaS：通过AI简化在线庭审流程，按月订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/immediation",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/707/original/open-uri20220411-12-lt2g1y?1649683695",
-      "caption": "法律科技SaaS项目公开展示素材",
-      "alt": "immediation",
+      "caption": "法律科技SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "法律科技SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/immediation",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "法律科技SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/immediation",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/plgb8ww8grk8i6f9ppt2y1tj4hek",
-      "caption": "法律科技SaaS项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/immediation",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/7pl7blg9fdk69p1gozm1w398ccpf",
-      "caption": "法律科技SaaS项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/immediation",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2260,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

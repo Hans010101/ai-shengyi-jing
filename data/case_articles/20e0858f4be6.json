@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/eh2ac1jtmiegta18brtouf1lyigl",
-      "caption": "提供数字徒步指南和定制行程公开案例主图",
-      "alt": "提供数字徒步指南和定制行程案例图片",
+      "caption": "提供数字徒步指南和定制行程：通过内容+付费服务赚钱",
+      "alt": "提供数字徒步指南和定制行程：通过内容+付费服务赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/tmbtent",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "提供数字徒步指南和定制行程项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/tmbtent",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/d43f686af4539286",
-      "caption": "提供数字徒步指南和定制行程项目公开展示素材",
+      "caption": "提供数字徒步指南和定制行程：创始人、核心产品与品牌起点相关原始配图",
       "alt": "Hiking the TMB",
       "sourceUrl": "https://www.starterstory.com/stories/tmbtent",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/yd5qsmb1xe2t746ynb9miclqbvz5",
-      "caption": "提供数字徒步指南和定制行程项目公开展示素材",
-      "alt": "article",
+      "caption": "提供数字徒步指南和定制行程：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "提供数字徒步指南和定制行程：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/tmbtent",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/b5c2d3bb96853c72",
-      "caption": "提供数字徒步指南和定制行程项目公开展示素材",
+      "caption": "提供数字徒步指南和定制行程：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "alt": "The table of contents from our very first PDF guide.",
       "sourceUrl": "https://www.starterstory.com/stories/tmbtent",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2246,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

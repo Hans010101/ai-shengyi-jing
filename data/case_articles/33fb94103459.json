@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/43kltvro2ixigy3esqbat444zg28",
-      "caption": "海外营销工具项目公开案例主图",
-      "alt": "海外营销工具项目案例图片",
+      "caption": "海外营销工具项目：通过免费服务积累案例和口碑，建立营销代理公司，月入1.1万美元",
+      "alt": "海外营销工具项目：通过免费服务积累案例和口碑，建立营销代理公司，月入1.1万美元",
       "sourceUrl": "https://www.starterstory.com/stories/digital-butter",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/533/original/open-uri20220711-12-17jul2b?1657551802",
-      "caption": "海外营销工具项目项目公开展示素材",
-      "alt": "digital-butter",
+      "caption": "海外营销工具项目：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "海外营销工具项目：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/digital-butter",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/534/original/open-uri20220711-12-12c5m7i?1657551803",
-      "caption": "海外营销工具项目项目公开展示素材",
-      "alt": "digital-butter",
+      "caption": "海外营销工具项目：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "海外营销工具项目：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/digital-butter",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/535/original/open-uri20220711-12-8s9vw0?1657551804",
-      "caption": "海外营销工具项目项目公开展示素材",
-      "alt": "digital-butter",
+      "caption": "海外营销工具项目：当前经营状态与下一步规划相关原始配图（第3张）",
+      "alt": "海外营销工具项目：当前经营状态与下一步规划相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/digital-butter",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "海外营销工具项目项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/xMj_P_6H69g",
+      "watchUrl": "https://www.youtube.com/watch?v=xMj_P_6H69g",
+      "caption": "海外营销工具项目资料中提及的视频：The art of asking | Amanda Palmer",
+      "alt": "The art of asking | Amanda Palmer",
       "sourceUrl": "https://www.starterstory.com/stories/digital-butter",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/xMj_P_6H69g/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

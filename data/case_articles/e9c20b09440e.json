@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/5j4uucxnznywo6xw2guymxch9srl",
-      "caption": "商业教练公开案例主图",
-      "alt": "商业教练案例图片",
+      "caption": "商业教练：通过在线课程和1对1辅导，帮助创业者建立成功企业",
+      "alt": "商业教练：通过在线课程和1对1辅导，帮助创业者建立成功企业",
       "sourceUrl": "https://www.starterstory.com/stories/robin-waite",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/720/original/open-uri20240103-48-1aqkbov?1704288230",
-      "caption": "商业教练项目公开展示素材",
-      "alt": "robin-waite",
+      "caption": "商业教练：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "商业教练：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/robin-waite",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/721/original/open-uri20240103-48-1s04ifs?1704288231",
-      "caption": "商业教练项目公开展示素材",
-      "alt": "robin-waite",
+      "caption": "商业教练：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "商业教练：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/robin-waite",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/722/original/open-uri20240103-48-10ny8ms?1704288231",
-      "caption": "商业教练项目公开展示素材",
-      "alt": "robin-waite",
+      "caption": "商业教练：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "商业教练：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/robin-waite",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/723/original/open-uri20240103-48-1fbblci?1704288232",
-      "caption": "商业教练项目公开展示素材",
-      "alt": "robin-waite",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/F60rVOE5mJw",
+      "watchUrl": "https://www.youtube.com/watch?v=F60rVOE5mJw",
+      "caption": "商业教练资料中提及的视频：How To Build A Business In 2023 (The Easy Way) - Robin Waite",
+      "alt": "How To Build A Business In 2023 (The Easy Way) - Robin Waite",
       "sourceUrl": "https://www.starterstory.com/stories/robin-waite",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/F60rVOE5mJw/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

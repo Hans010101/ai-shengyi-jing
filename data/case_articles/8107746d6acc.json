@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/k21ra42aorog5cuvpc4qtj1uvxt0",
-      "caption": "建弹窗工具SaaS公开案例主图",
-      "alt": "建弹窗工具SaaS案例图片",
+      "caption": "建弹窗工具SaaS：月收$150K",
+      "alt": "建弹窗工具SaaS：月收$150K",
       "sourceUrl": "https://www.starterstory.com/stories/claspo",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/102/original/open-uri20240209-65-5zrsk3?1707491678",
-      "caption": "建弹窗工具SaaS项目公开展示素材",
-      "alt": "claspo",
+      "caption": "建弹窗工具SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "建弹窗工具SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/claspo",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/103/original/open-uri20240209-65-1vl0xcy?1707491679",
-      "caption": "建弹窗工具SaaS项目公开展示素材",
-      "alt": "claspo",
+      "caption": "建弹窗工具SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "建弹窗工具SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/claspo",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "建弹窗工具SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/claspo",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/yggesfalb206183easpx9fu8s6gu",
-      "caption": "建弹窗工具SaaS项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/claspo",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2253,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

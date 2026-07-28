@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/dbteelcfopracvs4wjhxwualcxi2",
-      "caption": "数据泄露威慑SaaS公开案例主图",
-      "alt": "数据泄露威慑SaaS案例图片",
+      "caption": "数据泄露威慑SaaS：年营收150万美元，通过企业订阅赚钱",
+      "alt": "数据泄露威慑SaaS：年营收150万美元，通过企业订阅赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-a-1-5m-year-data-leak-deterrence-saas",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/215/original/open-uri20220326-3-1ktu5fp?1648311407",
-      "caption": "数据泄露威慑SaaS项目公开展示素材",
-      "alt": "i-built-a-1-5m-year-data-leak-deterrence-saas",
+      "caption": "数据泄露威慑SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "数据泄露威慑SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-a-1-5m-year-data-leak-deterrence-saas",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/216/original/open-uri20220326-3-19mlob5?1648311408",
-      "caption": "数据泄露威慑SaaS项目公开展示素材",
-      "alt": "i-built-a-1-5m-year-data-leak-deterrence-saas",
+      "caption": "数据泄露威慑SaaS：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "数据泄露威慑SaaS：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-a-1-5m-year-data-leak-deterrence-saas",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/217/original/open-uri20220326-3-1pyhzeo?1648311409",
-      "caption": "数据泄露威慑SaaS项目公开展示素材",
-      "alt": "i-built-a-1-5m-year-data-leak-deterrence-saas",
+      "caption": "数据泄露威慑SaaS：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "数据泄露威慑SaaS：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-a-1-5m-year-data-leak-deterrence-saas",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/218/original/open-uri20220326-3-1h3lbgy?1648311409",
-      "caption": "数据泄露威慑SaaS项目公开展示素材",
-      "alt": "i-built-a-1-5m-year-data-leak-deterrence-saas",
-      "sourceUrl": "https://www.starterstory.com/stories/i-built-a-1-5m-year-data-leak-deterrence-saas",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2233,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

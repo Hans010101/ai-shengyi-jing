@@ -122,47 +122,34 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/559mkiacxia9itxr3w6p9iaocidc",
-      "caption": "销售重力毯等睡眠产品公开案例主图",
-      "alt": "销售重力毯等睡眠产品案例图片",
+      "caption": "销售重力毯等睡眠产品：通过广告和产品线扩展实现月入200万美元",
+      "alt": "销售重力毯等睡眠产品：通过广告和产品线扩展实现月入200万美元",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-launched-new-products-and-scaled-our-advertising",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/007/045/original/open-uri20200714-4-17u5yg0?1594728728",
-      "caption": "销售重力毯等睡眠产品项目公开展示素材",
-      "alt": "on-launching-a-new-product-and-scaling-advertising-platforms",
+      "caption": "销售重力毯等睡眠产品：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "销售重力毯等睡眠产品：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-launched-new-products-and-scaled-our-advertising",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "销售重力毯等睡眠产品项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/WXenKE0eWws",
+      "watchUrl": "https://www.youtube.com/watch?v=WXenKE0eWws",
+      "caption": "销售重力毯等睡眠产品资料中提及的视频：THE MOST EPIC PITCH of season 14 | HUSH BLANKETS on CBC DRAGONS DEN - (Full Pitch)",
+      "alt": "THE MOST EPIC PITCH of season 14 | HUSH BLANKETS on CBC DRAGONS DEN - (Full Pitch)",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-launched-new-products-and-scaled-our-advertising",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/xmcnnqqylhtbo0mcfe37b8l0byai",
-      "caption": "销售重力毯等睡眠产品项目公开展示素材",
-      "alt": "销售重力毯等睡眠产品项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-launched-new-products-and-scaled-our-advertising",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/vsg1n7eqjjk2kou8yjsg1ha24rsa",
-      "caption": "销售重力毯等睡眠产品项目公开展示素材",
-      "alt": "销售重力毯等睡眠产品项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-launched-new-products-and-scaled-our-advertising",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/WXenKE0eWws/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +164,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2194,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

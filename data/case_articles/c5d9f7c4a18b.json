@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/dk0va15fcf7e7e6zvkos5copqya7",
-      "caption": "AI驱动的演示文稿制作网站公开案例主图",
-      "alt": "AI驱动的演示文稿制作网站案例图片",
+      "caption": "AI驱动的演示文稿制作网站：订阅制收费",
+      "alt": "AI驱动的演示文稿制作网站：订阅制收费",
       "sourceUrl": "https://www.starterstory.com/stories/i-run-a-portfolio-of-50-affiliate-marketing-websites",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/753/original/open-uri20211108-3-tds65m?1636390874",
-      "caption": "AI驱动的演示文稿制作网站项目公开展示素材",
-      "alt": "i-run-a-portfolio-of-50-affiliate-marketing-websites",
+      "caption": "AI驱动的演示文稿制作网站：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI驱动的演示文稿制作网站：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-run-a-portfolio-of-50-affiliate-marketing-websites",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/754/original/open-uri20211108-3-1k7gwls?1636390875",
-      "caption": "AI驱动的演示文稿制作网站项目公开展示素材",
-      "alt": "i-run-a-portfolio-of-50-affiliate-marketing-websites",
+      "caption": "AI驱动的演示文稿制作网站：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI驱动的演示文稿制作网站：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-run-a-portfolio-of-50-affiliate-marketing-websites",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/755/original/open-uri20211108-3-15a4ovf?1636390876",
-      "caption": "AI驱动的演示文稿制作网站项目公开展示素材",
-      "alt": "i-run-a-portfolio-of-50-affiliate-marketing-websites",
+      "caption": "AI驱动的演示文稿制作网站：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "AI驱动的演示文稿制作网站：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-run-a-portfolio-of-50-affiliate-marketing-websites",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/756/original/open-uri20211108-3-11m62a9?1636390876",
-      "caption": "AI驱动的演示文稿制作网站项目公开展示素材",
-      "alt": "i-run-a-portfolio-of-50-affiliate-marketing-websites",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/djViMJAOwUM",
+      "watchUrl": "https://www.youtube.com/watch?v=djViMJAOwUM",
+      "caption": "AI驱动的演示文稿制作网站资料中提及的视频：How to take over the world",
+      "alt": "How to take over the world",
       "sourceUrl": "https://www.starterstory.com/stories/i-run-a-portfolio-of-50-affiliate-marketing-websites",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/djViMJAOwUM/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

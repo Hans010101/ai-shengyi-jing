@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/b8vezunj8co42b2y52od8a6z4opf",
-      "caption": "海外内容/媒体项目公开案例主图",
-      "alt": "海外内容/媒体项目案例图片",
+      "caption": "海外内容/媒体项目：通过利基网站、播客和YouTube频道组合赚取广告和联盟佣金",
+      "alt": "海外内容/媒体项目：通过利基网站、播客和YouTube频道组合赚取广告和联盟佣金",
       "sourceUrl": "https://www.starterstory.com/stories/doug-cunnington",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/068/original/open-uri20231020-60-u7c1ud?1697782162",
-      "caption": "海外内容/媒体项目项目公开展示素材",
-      "alt": "doug-cunnington",
+      "caption": "海外内容/媒体项目：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "海外内容/媒体项目：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/doug-cunnington",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/069/original/open-uri20231020-60-1r7c34w?1697782163",
-      "caption": "海外内容/媒体项目项目公开展示素材",
-      "alt": "doug-cunnington",
+      "caption": "海外内容/媒体项目：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "海外内容/媒体项目：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/doug-cunnington",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/070/original/open-uri20231020-60-a92s4a?1697782163",
-      "caption": "海外内容/媒体项目项目公开展示素材",
-      "alt": "doug-cunnington",
+      "caption": "海外内容/媒体项目：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "海外内容/媒体项目：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/doug-cunnington",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/071/original/open-uri20231020-60-11x7tb1?1697782164",
-      "caption": "海外内容/媒体项目项目公开展示素材",
-      "alt": "doug-cunnington",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/rdCNUpy8MgQ",
+      "watchUrl": "https://www.youtube.com/watch?v=rdCNUpy8MgQ",
+      "caption": "海外内容/媒体项目资料中提及的视频：Ask Amazon Associates & Prime Day Tips - Frequently Asked Questions",
+      "alt": "Ask Amazon Associates & Prime Day Tips - Frequently Asked Questions",
       "sourceUrl": "https://www.starterstory.com/stories/doug-cunnington",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/rdCNUpy8MgQ/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

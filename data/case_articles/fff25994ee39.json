@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/s52kj6vm3j8sedma4k1ulmdauo2q",
-      "caption": "AI驱动的开发环境公开案例主图",
-      "alt": "AI驱动的开发环境案例图片",
+      "caption": "AI驱动的开发环境：通过订阅制向开发者收费",
+      "alt": "AI驱动的开发环境：通过订阅制向开发者收费",
       "sourceUrl": "https://www.starterstory.com/stories/fine",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/949/original/open-uri20231006-48-1iiq0b8?1696556719",
-      "caption": "AI驱动的开发环境项目公开展示素材",
-      "alt": "fine",
+      "caption": "AI驱动的开发环境：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI驱动的开发环境：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/fine",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/950/original/open-uri20231006-48-1vemic6?1696556720",
-      "caption": "AI驱动的开发环境项目公开展示素材",
-      "alt": "fine",
+      "caption": "AI驱动的开发环境：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI驱动的开发环境：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/fine",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/951/original/open-uri20231006-48-h5b3yn?1696556721",
-      "caption": "AI驱动的开发环境项目公开展示素材",
-      "alt": "fine",
+      "caption": "AI驱动的开发环境：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "AI驱动的开发环境：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/fine",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI驱动的开发环境项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/EHlczKlmIDM",
+      "watchUrl": "https://www.youtube.com/watch?v=EHlczKlmIDM",
+      "caption": "AI驱动的开发环境资料中提及的视频：Bum Bag - Another White Boy With A Podcast (Official Audio)",
+      "alt": "Bum Bag - Another White Boy With A Podcast (Official Audio)",
       "sourceUrl": "https://www.starterstory.com/stories/fine",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/EHlczKlmIDM/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

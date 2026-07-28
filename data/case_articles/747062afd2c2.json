@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/bg9l1ja2hgg4px0p71wc54yl5cy4",
-      "caption": "手工皂品牌公开案例主图",
-      "alt": "手工皂品牌案例图片",
+      "caption": "手工皂品牌：通过线上销售和批发盈利",
+      "alt": "手工皂品牌：通过线上销售和批发盈利",
       "sourceUrl": "https://www.starterstory.com/stories/how-angela-carillo-started-a-soap-company-out-of-her-kitchen",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/156/original/open-uri20181017-4-14x42je?1539790938",
-      "caption": "手工皂品牌项目公开展示素材",
-      "alt": "alegna-soap",
+      "caption": "手工皂品牌：原始案例中的产品与运营配图（第1张）",
+      "alt": "手工皂品牌：原始案例中的产品与运营配图（第1张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-angela-carillo-started-a-soap-company-out-of-her-kitchen",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/157/original/open-uri20181017-4-1p4newa?1539790939",
-      "caption": "手工皂品牌项目公开展示素材",
-      "alt": "alegna-soap",
+      "caption": "手工皂品牌：原始案例中的产品与运营配图（第2张）",
+      "alt": "手工皂品牌：原始案例中的产品与运营配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-angela-carillo-started-a-soap-company-out-of-her-kitchen",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "手工皂品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-angela-carillo-started-a-soap-company-out-of-her-kitchen",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/fyhbx2o0p0ivjbzkcaxfg3kkessb",
-      "caption": "手工皂品牌项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-angela-carillo-started-a-soap-company-out-of-her-kitchen",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2152,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

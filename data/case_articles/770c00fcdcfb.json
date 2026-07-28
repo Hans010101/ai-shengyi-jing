@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/gsmfbciilfowxwolh43euttai9hk",
-      "caption": "男性心理健康品牌公开案例主图",
-      "alt": "男性心理健康品牌案例图片",
+      "caption": "男性心理健康品牌：通过销售实体日记本和在线课程盈利",
+      "alt": "男性心理健康品牌：通过销售实体日记本和在线课程盈利",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-updated-our-brand-style-and-launched-a-new-product",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/083/original/open-uri20210515-3-bgrycb?1621122128",
-      "caption": "男性心理健康品牌项目公开展示素材",
-      "alt": "how-we-updated-our-brand-style-and-launched-a-new-product",
+      "caption": "男性心理健康品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "男性心理健康品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-updated-our-brand-style-and-launched-a-new-product",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "男性心理健康品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-updated-our-brand-style-and-launched-a-new-product",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/nlzka6avch4wnddofkr0ivo5ynsx",
-      "caption": "男性心理健康品牌项目公开展示素材",
-      "alt": "男性心理健康品牌项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-updated-our-brand-style-and-launched-a-new-product",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/64bihta9f3tvvscihck8vct49pt5",
-      "caption": "男性心理健康品牌项目公开展示素材",
-      "alt": "男性心理健康品牌项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-updated-our-brand-style-and-launched-a-new-product",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2218,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

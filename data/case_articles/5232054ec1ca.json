@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/vsgcufmrxgctyqagwbgtd7atx3iw",
-      "caption": "开源BI工具公开案例主图",
-      "alt": "开源BI工具案例图片",
+      "caption": "开源BI工具：通过付费企业版和云服务盈利",
+      "alt": "开源BI工具：通过付费企业版和云服务盈利",
       "sourceUrl": "https://www.starterstory.com/businesses/metabase",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "开源BI工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/metabase",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/rr3x5to8fugwysvzuju7ojdplf5e",
-      "caption": "开源BI工具项目公开展示素材",
-      "alt": "Metabase logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/metabase",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/zji4pftmjcmtmqray7unerce6lel/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "开源BI工具项目公开展示素材",
-      "alt": "Sameer Al-Sakran",
-      "sourceUrl": "https://www.starterstory.com/businesses/metabase",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/ia68hk3d45yv993erewx6yiew8ys/d82b7d03cadd1a666f145077c2e72d0f6c6a756a270f48659e90cc60318642a9",
-      "caption": "开源BI工具项目公开展示素材",
-      "alt": "Heroku",
-      "sourceUrl": "https://www.starterstory.com/businesses/metabase",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2187,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

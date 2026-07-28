@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/roagb6vzo0khlqz9zfiqpg7ucxbd",
-      "caption": "WordPress插件公开案例主图",
-      "alt": "WordPress插件案例图片",
+      "caption": "WordPress插件：帮自由职业者向客户交付项目文件，按月收费",
+      "alt": "WordPress插件：帮自由职业者向客户交付项目文件，按月收费",
       "sourceUrl": "https://www.starterstory.com/stories/how-seo-helped-my-business-grow-from-7k-to-11k-monthly-revenue-in-one-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/369/original/open-uri20201017-4-1s9xq93?1602951456",
-      "caption": "WordPress插件项目公开展示素材",
-      "alt": "how-seo-helped-my-business-grow-from-7k-to-11k-month-revenue-in-one-year",
+      "caption": "WordPress插件：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "WordPress插件：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-seo-helped-my-business-grow-from-7k-to-11k-monthly-revenue-in-one-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "WordPress插件项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-seo-helped-my-business-grow-from-7k-to-11k-monthly-revenue-in-one-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/p21ts159h2jq9q519g25528av7yd",
-      "caption": "WordPress插件项目公开展示素材",
-      "alt": "WordPress插件项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-seo-helped-my-business-grow-from-7k-to-11k-monthly-revenue-in-one-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/bktaf6keh1rjsjde1tkkhpinriz5",
-      "caption": "WordPress插件项目公开展示素材",
-      "alt": "WordPress插件项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-seo-helped-my-business-grow-from-7k-to-11k-monthly-revenue-in-one-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2197,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

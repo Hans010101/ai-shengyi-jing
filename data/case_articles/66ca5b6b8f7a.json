@@ -121,57 +121,23 @@
   "media": [
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "帮公众人物检测并删除AI伪造内容项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/removewise-ai-deepfake-impersonation-removal",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/c8b9fe5f51bd7a12",
-      "caption": "帮公众人物检测并删除AI伪造内容项目公开展示素材",
+      "caption": "帮公众人物检测并删除AI伪造内容：创始人、核心产品与品牌起点相关原始配图",
       "alt": "My image",
       "sourceUrl": "https://www.starterstory.com/stories/removewise-ai-deepfake-impersonation-removal",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/bfbx15edr5vo98bez1ayasd1b4i8",
-      "caption": "帮公众人物检测并删除AI伪造内容项目公开展示素材",
-      "alt": "article",
+      "caption": "帮公众人物检测并删除AI伪造内容：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "帮公众人物检测并删除AI伪造内容：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/removewise-ai-deepfake-impersonation-removal",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/bni94nlcd5m3izmywkbf62wr7x52",
-      "caption": "帮公众人物检测并删除AI伪造内容项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/removewise-ai-deepfake-impersonation-removal",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/k00wc3agq4wc85397qrq11fnk8ws",
-      "caption": "帮公众人物检测并删除AI伪造内容项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/removewise-ai-deepfake-impersonation-removal",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/3kp7ejrks4g3pehzsbma93derkn8",
-      "caption": "帮公众人物检测并删除AI伪造内容项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/removewise-ai-deepfake-impersonation-removal",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2292,
-    "mediaCount": 6
+    "mediaCount": 2
   }
 }

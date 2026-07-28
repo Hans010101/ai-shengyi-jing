@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/tfpiuyz12ctmiaaj0sa06ph0zki5",
-      "caption": "为活动提供便携WiFi租赁公开案例主图",
-      "alt": "为活动提供便携WiFi租赁案例图片",
+      "caption": "为活动提供便携WiFi租赁：按天收费",
+      "alt": "为活动提供便携WiFi租赁：按天收费",
       "sourceUrl": "https://www.starterstory.com/stories/fli-fi",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/663/original/open-uri20230326-51-1xh6ziu?1679873638",
-      "caption": "为活动提供便携WiFi租赁项目公开展示素材",
-      "alt": "fli-fi",
+      "caption": "为活动提供便携WiFi租赁：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为活动提供便携WiFi租赁：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/fli-fi",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/664/original/open-uri20230326-51-1v4otw6?1679873639",
-      "caption": "为活动提供便携WiFi租赁项目公开展示素材",
-      "alt": "fli-fi",
+      "caption": "为活动提供便携WiFi租赁：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "为活动提供便携WiFi租赁：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/fli-fi",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/665/original/open-uri20230326-51-kaw4c4?1679873641",
-      "caption": "为活动提供便携WiFi租赁项目公开展示素材",
-      "alt": "fli-fi",
+      "caption": "为活动提供便携WiFi租赁：当前经营状态与下一步规划相关原始配图（第3张）",
+      "alt": "为活动提供便携WiFi租赁：当前经营状态与下一步规划相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/fli-fi",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/666/original/open-uri20230326-51-otc0zk?1679873641",
-      "caption": "为活动提供便携WiFi租赁项目公开展示素材",
-      "alt": "fli-fi",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/AysPfamhfGk&feature=youtu.be",
+      "watchUrl": "https://www.youtube.com/watch?v=AysPfamhfGk&feature=youtu.be",
+      "caption": "为活动提供便携WiFi租赁资料中提及的视频：Fli-Fi - WiFi Services Provider",
+      "alt": "Fli-Fi - WiFi Services Provider",
       "sourceUrl": "https://www.starterstory.com/stories/fli-fi",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/AysPfamhfGk/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

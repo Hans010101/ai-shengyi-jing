@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/wdk7qqd6ayd0wxlghvp8aqtn1uio",
-      "caption": "RV租赁月入$3M公开案例主图",
-      "alt": "RV租赁月入$3M案例图片",
+      "caption": "RV租赁月入$3M：通过出租高端房车赚取租金",
+      "alt": "RV租赁月入$3M：通过出租高端房车赚取租金",
       "sourceUrl": "https://www.starterstory.com/stories/nw-adventure-rentals",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/398/original/open-uri20221011-24-byk3wl?1665461527",
-      "caption": "RV租赁月入$3M项目公开展示素材",
-      "alt": "nw-adventure-rentals",
+      "caption": "RV租赁月入$3M：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "RV租赁月入$3M：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/nw-adventure-rentals",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/399/original/open-uri20221011-24-inubx3?1665461529",
-      "caption": "RV租赁月入$3M项目公开展示素材",
-      "alt": "nw-adventure-rentals",
+      "caption": "RV租赁月入$3M：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "RV租赁月入$3M：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/nw-adventure-rentals",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/400/original/open-uri20221011-24-evulnz?1665461530",
-      "caption": "RV租赁月入$3M项目公开展示素材",
-      "alt": "nw-adventure-rentals",
+      "caption": "RV租赁月入$3M：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "RV租赁月入$3M：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/nw-adventure-rentals",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/401/original/open-uri20221011-24-fjloit?1665461531",
-      "caption": "RV租赁月入$3M项目公开展示素材",
-      "alt": "nw-adventure-rentals",
-      "sourceUrl": "https://www.starterstory.com/stories/nw-adventure-rentals",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2203,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

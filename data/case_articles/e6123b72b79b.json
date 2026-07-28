@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/qqcl3196yuo8kpkel7vk6u0fpijy",
-      "caption": "在线课程搜索引擎公开案例主图",
-      "alt": "在线课程搜索引擎案例图片",
+      "caption": "在线课程搜索引擎：通过联盟营销赚取佣金",
+      "alt": "在线课程搜索引擎：通过联盟营销赚取佣金",
       "sourceUrl": "https://www.starterstory.com/stories/bestcourses",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/618/original/open-uri20220911-24-1ypddxo?1662863575",
-      "caption": "在线课程搜索引擎项目公开展示素材",
-      "alt": "bestcourses",
+      "caption": "在线课程搜索引擎：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "在线课程搜索引擎：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/bestcourses",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/619/original/open-uri20220911-24-465y62?1662863576",
-      "caption": "在线课程搜索引擎项目公开展示素材",
-      "alt": "bestcourses",
+      "caption": "在线课程搜索引擎：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "在线课程搜索引擎：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/bestcourses",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/620/original/open-uri20220911-24-fbs4jl?1662863576",
-      "caption": "在线课程搜索引擎项目公开展示素材",
-      "alt": "bestcourses",
+      "caption": "在线课程搜索引擎：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "在线课程搜索引擎：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/bestcourses",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/621/original/open-uri20220911-24-qrlnxs?1662863577",
-      "caption": "在线课程搜索引擎项目公开展示素材",
-      "alt": "bestcourses",
-      "sourceUrl": "https://www.starterstory.com/stories/bestcourses",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2207,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

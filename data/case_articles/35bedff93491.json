@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/s7u5rivfmjdzja5wnziwek5e1gs0",
-      "caption": "为手工艺卖家提供博客内容与数字产品公开案例主图",
-      "alt": "为手工艺卖家提供博客内容与数字产品案例图片",
+      "caption": "为手工艺卖家提供博客内容与数字产品：通过付费指南和模板变现",
+      "alt": "为手工艺卖家提供博客内容与数字产品：通过付费指南和模板变现",
       "sourceUrl": "https://www.starterstory.com/stories/i-turned-a-failing-startup-idea-into-a-successful-e-book-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/645/original/open-uri20211030-3-16woii9?1635615370",
-      "caption": "为手工艺卖家提供博客内容与数字产品项目公开展示素材",
-      "alt": "i-turned-a-failing-startup-idea-into-a-successful-e-book-business",
+      "caption": "为手工艺卖家提供博客内容与数字产品：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为手工艺卖家提供博客内容与数字产品：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-turned-a-failing-startup-idea-into-a-successful-e-book-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/646/original/open-uri20211030-3-vl38o5?1635615370",
-      "caption": "为手工艺卖家提供博客内容与数字产品项目公开展示素材",
-      "alt": "i-turned-a-failing-startup-idea-into-a-successful-e-book-business",
+      "caption": "为手工艺卖家提供博客内容与数字产品：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "为手工艺卖家提供博客内容与数字产品：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-turned-a-failing-startup-idea-into-a-successful-e-book-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/647/original/open-uri20211030-3-1yvmyrv?1635615371",
-      "caption": "为手工艺卖家提供博客内容与数字产品项目公开展示素材",
-      "alt": "i-turned-a-failing-startup-idea-into-a-successful-e-book-business",
+      "caption": "为手工艺卖家提供博客内容与数字产品：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "为手工艺卖家提供博客内容与数字产品：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-turned-a-failing-startup-idea-into-a-successful-e-book-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/648/original/open-uri20211030-3-jrhp6n?1635615372",
-      "caption": "为手工艺卖家提供博客内容与数字产品项目公开展示素材",
-      "alt": "i-turned-a-failing-startup-idea-into-a-successful-e-book-business",
-      "sourceUrl": "https://www.starterstory.com/stories/i-turned-a-failing-startup-idea-into-a-successful-e-book-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/649/original/open-uri20211030-3-1wgo620?1635615373",
-      "caption": "为手工艺卖家提供博客内容与数字产品项目公开展示素材",
-      "alt": "i-turned-a-failing-startup-idea-into-a-successful-e-book-business",
-      "sourceUrl": "https://www.starterstory.com/stories/i-turned-a-failing-startup-idea-into-a-successful-e-book-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2172,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

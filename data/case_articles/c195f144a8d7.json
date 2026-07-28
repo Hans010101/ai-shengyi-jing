@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/mafl6k8qmjlvz81nwblvah6zr012",
-      "caption": "AI电商图片处理SaaS公开案例主图",
-      "alt": "AI电商图片处理SaaS案例图片",
+      "caption": "AI电商图片处理SaaS：按月订阅赚钱",
+      "alt": "AI电商图片处理SaaS：按月订阅赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/blend",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/646/original/open-uri20230911-60-1phbj01?1694431989",
-      "caption": "AI电商图片处理SaaS项目公开展示素材",
-      "alt": "blend",
+      "caption": "AI电商图片处理SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI电商图片处理SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/blend",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/647/original/open-uri20230911-60-n8g6dp?1694431990",
-      "caption": "AI电商图片处理SaaS项目公开展示素材",
-      "alt": "blend",
+      "caption": "AI电商图片处理SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI电商图片处理SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/blend",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI电商图片处理SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/blend",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/vtdvsz6ii7j6rdax44lx60uayvfa",
-      "caption": "AI电商图片处理SaaS项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/blend",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2201,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

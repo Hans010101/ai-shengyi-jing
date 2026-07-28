@@ -122,56 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/x081hyy9zkv74fmao9m7fq9fq0r7",
-      "caption": "海外AI工具项目公开案例主图",
-      "alt": "海外AI工具项目案例图片",
+      "caption": "海外AI工具项目：通过授权产品给其他公司获取版权费，实现收入增长",
+      "alt": "海外AI工具项目：通过授权产品给其他公司获取版权费，实现收入增长",
       "sourceUrl": "https://www.starterstory.com/stories/we-expanded-by-licensing-our-products-to-other-companies",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/621/original/open-uri20201028-4-1dfepk5?1603909487",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "how-we-expanded-and-licensed-our-product-line-to-another-company",
+      "caption": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/we-expanded-by-licensing-our-products-to-other-companies",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/we-expanded-by-licensing-our-products-to-other-companies",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/xmcnnqqylhtbo0mcfe37b8l0byai",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "海外AI工具项目项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/we-expanded-by-licensing-our-products-to-other-companies",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/vsg1n7eqjjk2kou8yjsg1ha24rsa",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "海外AI工具项目项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/we-expanded-by-licensing-our-products-to-other-companies",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/a3cwsikiqkk7c26p5sem8s2hnqav",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "海外AI工具项目项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/we-expanded-by-licensing-our-products-to-other-companies",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2152,
-    "mediaCount": 6
+    "mediaCount": 2
   }
 }

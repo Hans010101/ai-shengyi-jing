@@ -122,75 +122,53 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/obzlf20jq38tnxz3xwrabzufm098",
-      "caption": "宠物狗咀嚼玩具品牌公开案例主图",
-      "alt": "宠物狗咀嚼玩具品牌案例图片",
+      "caption": "宠物狗咀嚼玩具品牌：通过电商和博客内容变现",
+      "alt": "宠物狗咀嚼玩具品牌：通过电商和博客内容变现",
       "sourceUrl": "https://www.starterstory.com/stories/bullibone",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/722/original/open-uri20230605-63-l3r6mt?1685978878",
-      "caption": "宠物狗咀嚼玩具品牌项目公开展示素材",
-      "alt": "bullibone",
+      "caption": "宠物狗咀嚼玩具品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "宠物狗咀嚼玩具品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/bullibone",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/723/original/open-uri20230605-63-sz743v?1685978881",
-      "caption": "宠物狗咀嚼玩具品牌项目公开展示素材",
-      "alt": "bullibone",
+      "caption": "宠物狗咀嚼玩具品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "宠物狗咀嚼玩具品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/bullibone",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/724/original/open-uri20230605-63-1wahadl?1685978883",
-      "caption": "宠物狗咀嚼玩具品牌项目公开展示素材",
-      "alt": "bullibone",
+      "caption": "宠物狗咀嚼玩具品牌：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "宠物狗咀嚼玩具品牌：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/bullibone",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/725/original/open-uri20230605-63-4zchnn?1685978884",
-      "caption": "宠物狗咀嚼玩具品牌项目公开展示素材",
-      "alt": "bullibone",
-      "sourceUrl": "https://www.starterstory.com/stories/bullibone",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "宠物狗咀嚼玩具品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/bullibone",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/TKPe7IlyLPs",
-      "caption": "宠物狗咀嚼玩具品牌项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=TKPe7IlyLPs",
+      "caption": "宠物狗咀嚼玩具品牌资料中提及的视频：Dog Chew Bone for Seriously Strong Teeth.",
+      "alt": "Dog Chew Bone for Seriously Strong Teeth.",
       "sourceUrl": "https://www.starterstory.com/stories/bullibone",
       "origin": "embeddable-video",
-      "poster": "",
-      "usage": ""
-    },
-    {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/MYrWZwhL1J0",
-      "caption": "宠物狗咀嚼玩具品牌项目相关公开视频",
-      "alt": "",
-      "sourceUrl": "https://www.starterstory.com/stories/bullibone",
-      "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/TKPe7IlyLPs/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -206,6 +184,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2169,
-    "mediaCount": 8
+    "mediaCount": 5
   }
 }

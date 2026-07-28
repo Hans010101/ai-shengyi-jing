@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/phz3bw3b7p0wu13bo94gxic6svev",
-      "caption": "AI工具帮内容创作者证明赞助价值公开案例主图",
-      "alt": "AI工具帮内容创作者证明赞助价值案例图片",
+      "caption": "AI工具帮内容创作者证明赞助价值：按月收费",
+      "alt": "AI工具帮内容创作者证明赞助价值：按月收费",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-our-revenue-to-13k-month-by-continuing-customer-support",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/010/707/original/open-uri20210316-3-p1hpme?1615898999",
-      "caption": "AI工具帮内容创作者证明赞助价值项目公开展示素材",
-      "alt": "how-we-grew-our-revenue-to-13k-month-by-continuing-customer-support",
+      "caption": "AI工具帮内容创作者证明赞助价值：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI工具帮内容创作者证明赞助价值：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-our-revenue-to-13k-month-by-continuing-customer-support",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI工具帮内容创作者证明赞助价值项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-our-revenue-to-13k-month-by-continuing-customer-support",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/jvhrreihstwyb6gp52497zn3ee5m",
-      "caption": "AI工具帮内容创作者证明赞助价值项目公开展示素材",
-      "alt": "AI工具帮内容创作者证明赞助价值项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-our-revenue-to-13k-month-by-continuing-customer-support",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/33phd3lfchpci9uio1sqqlyvic4f",
-      "caption": "AI工具帮内容创作者证明赞助价值项目公开展示素材",
-      "alt": "AI工具帮内容创作者证明赞助价值项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-our-revenue-to-13k-month-by-continuing-customer-support",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2192,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

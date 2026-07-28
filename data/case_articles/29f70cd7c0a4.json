@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/b17z3tcsf3ex1h1ejvolifavep3d",
-      "caption": "播客嘉宾对接SaaS平台公开案例主图",
-      "alt": "播客嘉宾对接SaaS平台案例图片",
+      "caption": "播客嘉宾对接SaaS平台：通过订阅费和推荐佣金赚钱",
+      "alt": "播客嘉宾对接SaaS平台：通过订阅费和推荐佣金赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/travis-chappell",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/569/original/open-uri20221015-24-1dwj4nh?1665841228",
-      "caption": "播客嘉宾对接SaaS平台项目公开展示素材",
-      "alt": "travis-chappell",
+      "caption": "播客嘉宾对接SaaS平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "播客嘉宾对接SaaS平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/travis-chappell",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/570/original/open-uri20221015-24-r9ba4i?1665841229",
-      "caption": "播客嘉宾对接SaaS平台项目公开展示素材",
-      "alt": "travis-chappell",
+      "caption": "播客嘉宾对接SaaS平台：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "播客嘉宾对接SaaS平台：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/travis-chappell",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/571/original/open-uri20221015-24-u7t5a9?1665841229",
-      "caption": "播客嘉宾对接SaaS平台项目公开展示素材",
-      "alt": "travis-chappell",
+      "caption": "播客嘉宾对接SaaS平台：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "播客嘉宾对接SaaS平台：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/travis-chappell",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/572/original/open-uri20221015-24-1dxku2w?1665841230",
-      "caption": "播客嘉宾对接SaaS平台项目公开展示素材",
-      "alt": "travis-chappell",
-      "sourceUrl": "https://www.starterstory.com/stories/travis-chappell",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2223,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/18njtg5up4e5lt67dd341o8r6uub",
-      "caption": "男士个人护理品牌公开案例主图",
-      "alt": "男士个人护理品牌案例图片",
+      "caption": "男士个人护理品牌：通过亚马逊FBA实现年销百万美元",
+      "alt": "男士个人护理品牌：通过亚马逊FBA实现年销百万美元",
       "sourceUrl": "https://www.starterstory.com/stories/american-provenance",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/166/original/open-uri20221003-12-kawwj6?1664802057",
-      "caption": "男士个人护理品牌项目公开展示素材",
-      "alt": "american-provenance",
+      "caption": "男士个人护理品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "男士个人护理品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/american-provenance",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "男士个人护理品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/american-provenance",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/bleg7ym47u9i3fco1c64kivl3030",
-      "caption": "男士个人护理品牌项目公开展示素材",
-      "alt": "男士个人护理品牌项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/american-provenance",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/05r6ewzak1p4ml9iswl34s1c2mqo",
-      "caption": "男士个人护理品牌项目公开展示素材",
-      "alt": "男士个人护理品牌项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/american-provenance",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2348,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

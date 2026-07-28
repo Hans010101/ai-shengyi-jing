@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/1davexe6jawznbutfs7066wfq6az",
-      "caption": "亚马逊代运营服务公开案例主图",
-      "alt": "亚马逊代运营服务案例图片",
+      "caption": "亚马逊代运营服务：每月收取服务费盈利",
+      "alt": "亚马逊代运营服务：每月收取服务费盈利",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-25k-month-amazon-service-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/007/704/original/open-uri20200830-4-1d2d0g5?1598761533",
-      "caption": "亚马逊代运营服务项目公开展示素材",
-      "alt": "how-i-started-a-25k-month-amazon-service-agency",
+      "caption": "亚马逊代运营服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "亚马逊代运营服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-25k-month-amazon-service-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/007/705/original/open-uri20200830-4-r6t0sa?1598761535",
-      "caption": "亚马逊代运营服务项目公开展示素材",
-      "alt": "how-i-started-a-25k-month-amazon-service-agency",
+      "caption": "亚马逊代运营服务：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "亚马逊代运营服务：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-25k-month-amazon-service-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/007/706/original/open-uri20200830-4-pnvrck?1598761536",
-      "caption": "亚马逊代运营服务项目公开展示素材",
-      "alt": "how-i-started-a-25k-month-amazon-service-agency",
+      "caption": "亚马逊代运营服务：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "亚马逊代运营服务：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-25k-month-amazon-service-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "亚马逊代运营服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-25k-month-amazon-service-agency",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2179,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

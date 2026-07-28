@@ -121,57 +121,23 @@
   "media": [
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "开发AI应用帮用户安全记录肽类方案项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/pep-ai-stay-on-track-with-your-peptides",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/f9984ca386b8261f",
-      "caption": "开发AI应用帮用户安全记录肽类方案项目公开展示素材",
+      "caption": "开发AI应用帮用户安全记录肽类方案：创始人、核心产品与品牌起点相关原始配图",
       "alt": "My image",
       "sourceUrl": "https://www.starterstory.com/stories/pep-ai-stay-on-track-with-your-peptides",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/s056qxzwzwnojxd061yy2prxcmkb",
-      "caption": "开发AI应用帮用户安全记录肽类方案项目公开展示素材",
-      "alt": "article",
+      "caption": "开发AI应用帮用户安全记录肽类方案：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "开发AI应用帮用户安全记录肽类方案：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/pep-ai-stay-on-track-with-your-peptides",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/g5b9ol4517g6xa10i4sbtv5rcnwo",
-      "caption": "开发AI应用帮用户安全记录肽类方案项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/pep-ai-stay-on-track-with-your-peptides",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/hsde9saxhcjztuls532v8njnrp4a",
-      "caption": "开发AI应用帮用户安全记录肽类方案项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/pep-ai-stay-on-track-with-your-peptides",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/pcyzpe36zcjw1locr2vndsyo7gkb",
-      "caption": "开发AI应用帮用户安全记录肽类方案项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/pep-ai-stay-on-track-with-your-peptides",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2207,
-    "mediaCount": 6
+    "mediaCount": 2
   }
 }

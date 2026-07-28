@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/8j6jrd8vb2thwah8xfwy78zhtig1",
-      "caption": "为急救人员提供AR智能眼镜公开案例主图",
-      "alt": "为急救人员提供AR智能眼镜案例图片",
+      "caption": "为急救人员提供AR智能眼镜：通过硬件销售+软件订阅盈利",
+      "alt": "为急救人员提供AR智能眼镜：通过硬件销售+软件订阅盈利",
       "sourceUrl": "https://www.starterstory.com/stories/thirdeye-gen",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/638/original/open-uri20220409-24-13l4l3e?1649530079",
-      "caption": "为急救人员提供AR智能眼镜项目公开展示素材",
-      "alt": "thirdeye-gen",
+      "caption": "为急救人员提供AR智能眼镜：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为急救人员提供AR智能眼镜：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/thirdeye-gen",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/639/original/open-uri20220409-24-1lnjqrb?1649530079",
-      "caption": "为急救人员提供AR智能眼镜项目公开展示素材",
-      "alt": "thirdeye-gen",
+      "caption": "为急救人员提供AR智能眼镜：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "为急救人员提供AR智能眼镜：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/thirdeye-gen",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为急救人员提供AR智能眼镜项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/thirdeye-gen",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/b8iyxwzevrymicbhf1vz4cb3kqbq",
-      "caption": "为急救人员提供AR智能眼镜项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/thirdeye-gen",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2280,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

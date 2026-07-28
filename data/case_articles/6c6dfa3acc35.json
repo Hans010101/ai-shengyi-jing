@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/uo86dx9bbjybwn25u96z7h9b0z67",
-      "caption": "AI视频制作服务公开案例主图",
-      "alt": "AI视频制作服务案例图片",
+      "caption": "AI视频制作服务：通过社交媒体吸引客户，按项目收费",
+      "alt": "AI视频制作服务：通过社交媒体吸引客户，按项目收费",
       "sourceUrl": "https://www.starterstory.com/stories/iconic-productions",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/635/original/open-uri20230911-60-1sfgvko?1694415478",
-      "caption": "AI视频制作服务项目公开展示素材",
-      "alt": "iconic-productions",
+      "caption": "AI视频制作服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI视频制作服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/iconic-productions",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI视频制作服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/iconic-productions",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/3q9ah33gfr89x9gr887ehtjyb5n2",
-      "caption": "AI视频制作服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/iconic-productions",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/wsfthxo0bwxpga1da6eflodtgxay",
-      "caption": "AI视频制作服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/iconic-productions",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2160,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

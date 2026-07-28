@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/x4227zn383zokgnuhrx22sv824lf",
-      "caption": "贷款中介平台公开案例主图",
-      "alt": "贷款中介平台案例图片",
+      "caption": "贷款中介平台：撮合借款人与贷款机构赚取服务费",
+      "alt": "贷款中介平台：撮合借款人与贷款机构赚取服务费",
       "sourceUrl": "https://www.starterstory.com/stories/instalend",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/866/original/open-uri20230117-24-1b72wvs?1673959820",
-      "caption": "贷款中介平台项目公开展示素材",
-      "alt": "instalend",
+      "caption": "贷款中介平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "贷款中介平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/instalend",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/867/original/open-uri20230117-24-k86bzk?1673959822",
-      "caption": "贷款中介平台项目公开展示素材",
-      "alt": "instalend",
+      "caption": "贷款中介平台：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "贷款中介平台：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/instalend",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/868/original/open-uri20230117-24-1kox8yh?1673959823",
-      "caption": "贷款中介平台项目公开展示素材",
-      "alt": "instalend",
+      "caption": "贷款中介平台：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "贷款中介平台：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/instalend",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "贷款中介平台项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/YUeqIOJwExM",
+      "watchUrl": "https://www.youtube.com/watch?v=YUeqIOJwExM",
+      "caption": "贷款中介平台资料中提及的视频：How Saurabh Shah Pioneered Online Real Estate Lending",
+      "alt": "How Saurabh Shah Pioneered Online Real Estate Lending",
       "sourceUrl": "https://www.starterstory.com/stories/instalend",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/YUeqIOJwExM/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

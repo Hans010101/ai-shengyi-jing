@@ -122,47 +122,44 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/5k300hulwvbxbgxj73r617m8w4j3",
-      "caption": "个人品牌咨询公司公开案例主图",
-      "alt": "个人品牌咨询公司案例图片",
+      "caption": "个人品牌咨询公司：通过高端咨询和数字产品变现",
+      "alt": "个人品牌咨询公司：通过高端咨询和数字产品变现",
       "sourceUrl": "https://www.starterstory.com/stories/isaac-mashman",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/351/original/open-uri20240916-48-qrxfcj?1726486714",
-      "caption": "个人品牌咨询公司项目公开展示素材",
-      "alt": "isaac-mashman",
+      "caption": "个人品牌咨询公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "个人品牌咨询公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/isaac-mashman",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/352/original/open-uri20240916-48-19s0xwg?1726486715",
-      "caption": "个人品牌咨询公司项目公开展示素材",
-      "alt": "isaac-mashman",
+      "caption": "个人品牌咨询公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "个人品牌咨询公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/isaac-mashman",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "个人品牌咨询公司项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/xremMxFrbMY",
+      "watchUrl": "https://www.youtube.com/watch?v=xremMxFrbMY",
+      "caption": "个人品牌咨询公司资料中提及的视频：Mashman Consulting Group Overview Presentation",
+      "alt": "Mashman Consulting Group Overview Presentation",
       "sourceUrl": "https://www.starterstory.com/stories/isaac-mashman",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ptba69qdqz5xolsqmn7r1j2oyaqo",
-      "caption": "个人品牌咨询公司项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/isaac-mashman",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/xremMxFrbMY/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +174,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2297,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ss7bkgozgfgk670cwcbu8l51i1e5",
-      "caption": "AI浏览器插件公开案例主图",
-      "alt": "AI浏览器插件案例图片",
+      "caption": "AI浏览器插件：通过订阅制向用户收费",
+      "alt": "AI浏览器插件：通过订阅制向用户收费",
       "sourceUrl": "https://www.starterstory.com/businesses/liner-ai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI浏览器插件项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/liner-ai",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/k9fz4fws8lafohkwyel6jvn9waxl",
-      "caption": "AI浏览器插件项目公开展示素材",
-      "alt": "LINER AI logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/liner-ai",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/qp50u4teiedqtqkn8qmugb3rst2m/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "AI浏览器插件项目公开展示素材",
-      "alt": "OpenAI",
-      "sourceUrl": "https://www.starterstory.com/businesses/liner-ai",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/or09f2lfiia7lnht2q5ydyd20833/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "AI浏览器插件项目公开展示素材",
-      "alt": "AI浏览器插件项目展示图",
-      "sourceUrl": "https://www.starterstory.com/businesses/liner-ai",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2146,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

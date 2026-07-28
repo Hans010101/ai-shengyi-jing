@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/gbalf6nbsoisdh6v0xuhz6vfj629",
-      "caption": "电商教育平台公开案例主图",
-      "alt": "电商教育平台案例图片",
+      "caption": "电商教育平台：通过播客、博客和课程赚取月入3.5万美元",
+      "alt": "电商教育平台：通过播客、博客和课程赚取月入3.5万美元",
       "sourceUrl": "https://www.starterstory.com/stories/starting-an-e-commerce-education-platform-generating-35k-month",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/526/original/open-uri20181221-4-p0gn61?1545389373",
-      "caption": "电商教育平台项目公开展示素材",
-      "alt": "starting-an-e-commerce-education-platform-generating-35k-month",
+      "caption": "电商教育平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "电商教育平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/starting-an-e-commerce-education-platform-generating-35k-month",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "电商教育平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/starting-an-e-commerce-education-platform-generating-35k-month",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/wr4g5jkn9asua0e8t3iks2t00ebv",
-      "caption": "电商教育平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/starting-an-e-commerce-education-platform-generating-35k-month",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/hzcuoc8mt1acbo594awtmzoy8975",
-      "caption": "电商教育平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/starting-an-e-commerce-education-platform-generating-35k-month",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2199,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

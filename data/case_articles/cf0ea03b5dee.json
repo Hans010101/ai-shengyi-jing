@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/oxb3ztt3brmap99g0hgevpz9unn6",
-      "caption": "为音乐人提供AI推广工具公开案例主图",
-      "alt": "为音乐人提供AI推广工具案例图片",
+      "caption": "为音乐人提供AI推广工具：按订阅收费",
+      "alt": "为音乐人提供AI推广工具：按订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/on-creating-a-tool-promoting-music-online",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/309/original/open-uri20220217-3-1mqqaqy?1645111794",
-      "caption": "为音乐人提供AI推广工具项目公开展示素材",
-      "alt": "on-creating-a-tool-promoting-music-online",
+      "caption": "为音乐人提供AI推广工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为音乐人提供AI推广工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/on-creating-a-tool-promoting-music-online",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/310/original/open-uri20220217-3-6oqo6e?1645111795",
-      "caption": "为音乐人提供AI推广工具项目公开展示素材",
-      "alt": "on-creating-a-tool-promoting-music-online",
+      "caption": "为音乐人提供AI推广工具：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "为音乐人提供AI推广工具：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/on-creating-a-tool-promoting-music-online",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为音乐人提供AI推广工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/on-creating-a-tool-promoting-music-online",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/3q9ah33gfr89x9gr887ehtjyb5n2",
-      "caption": "为音乐人提供AI推广工具项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/on-creating-a-tool-promoting-music-online",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2169,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

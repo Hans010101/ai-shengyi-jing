@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/2hrp5yc2w7ua3hxsl4o94eoydbem",
-      "caption": "线上帆船课程+认证公开案例主图",
-      "alt": "线上帆船课程+认证案例图片",
+      "caption": "线上帆船课程+认证：通过卖课和旅学赚钱",
+      "alt": "线上帆船课程+认证：通过卖课和旅学赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/nautilus-sailing",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/570/original/open-uri20230523-64-bamdw0?1684825968",
-      "caption": "线上帆船课程+认证项目公开展示素材",
-      "alt": "nautilus-sailing",
+      "caption": "线上帆船课程+认证：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "线上帆船课程+认证：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/nautilus-sailing",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/571/original/open-uri20230523-64-p9wrxv?1684825969",
-      "caption": "线上帆船课程+认证项目公开展示素材",
-      "alt": "nautilus-sailing",
+      "caption": "线上帆船课程+认证：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "线上帆船课程+认证：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/nautilus-sailing",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "线上帆船课程+认证项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/nautilus-sailing",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/2v9h2kdqjao4f4vnpctfti489dvm",
-      "caption": "线上帆船课程+认证项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/nautilus-sailing",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2227,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

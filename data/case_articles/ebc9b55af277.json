@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/cqz6doqr16ykjlu4fxjb7gsksbnk",
-      "caption": "全球远程薪资与支付SaaS平台公开案例主图",
-      "alt": "全球远程薪资与支付SaaS平台案例图片",
+      "caption": "全球远程薪资与支付SaaS平台：按交易额抽佣",
+      "alt": "全球远程薪资与支付SaaS平台：按交易额抽佣",
       "sourceUrl": "https://www.starterstory.com/stories/i-bootstrapped-a-60m-year-global-payroll-solution",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/089/original/open-uri20211005-3-6i18lu?1633460666",
-      "caption": "全球远程薪资与支付SaaS平台项目公开展示素材",
-      "alt": "i-bootstrapped-a-60m-year-global-payroll-solution",
+      "caption": "全球远程薪资与支付SaaS平台：创业起点与创意来源相关原始配图",
+      "alt": "全球远程薪资与支付SaaS平台：创业起点与创意来源相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-bootstrapped-a-60m-year-global-payroll-solution",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/090/original/open-uri20211005-3-1iswq0r?1633460667",
-      "caption": "全球远程薪资与支付SaaS平台项目公开展示素材",
-      "alt": "i-bootstrapped-a-60m-year-global-payroll-solution",
+      "caption": "全球远程薪资与支付SaaS平台：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "全球远程薪资与支付SaaS平台：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-bootstrapped-a-60m-year-global-payroll-solution",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/091/original/open-uri20211005-3-1r7sdhi?1633460667",
-      "caption": "全球远程薪资与支付SaaS平台项目公开展示素材",
-      "alt": "i-bootstrapped-a-60m-year-global-payroll-solution",
+      "caption": "全球远程薪资与支付SaaS平台：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "全球远程薪资与支付SaaS平台：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-bootstrapped-a-60m-year-global-payroll-solution",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/092/original/open-uri20211005-3-8rsnb2?1633460668",
-      "caption": "全球远程薪资与支付SaaS平台项目公开展示素材",
-      "alt": "i-bootstrapped-a-60m-year-global-payroll-solution",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/xjjI14hYVaU",
+      "watchUrl": "https://www.youtube.com/watch?v=xjjI14hYVaU",
+      "caption": "全球远程薪资与支付SaaS平台：创始人、核心产品与品牌起点相关视频",
+      "alt": "全球远程薪资与支付SaaS平台相关视频",
       "sourceUrl": "https://www.starterstory.com/stories/i-bootstrapped-a-60m-year-global-payroll-solution",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/xjjI14hYVaU/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

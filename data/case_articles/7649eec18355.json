@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/cp5jiuwu11luld1jmo9lgjkjrrja",
-      "caption": "动画解说视频制作公司公开案例主图",
-      "alt": "动画解说视频制作公司案例图片",
+      "caption": "动画解说视频制作公司：为初创企业和大公司制作宣传视频赚钱",
+      "alt": "动画解说视频制作公司：为初创企业和大公司制作宣传视频赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/motiongility",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/714/original/open-uri20230605-51-kkipvb?1685945490",
-      "caption": "动画解说视频制作公司项目公开展示素材",
-      "alt": "motiongility",
+      "caption": "动画解说视频制作公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "动画解说视频制作公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/motiongility",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/715/original/open-uri20230605-51-2981sx?1685945491",
-      "caption": "动画解说视频制作公司项目公开展示素材",
-      "alt": "motiongility",
+      "caption": "动画解说视频制作公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "动画解说视频制作公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/motiongility",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "动画解说视频制作公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/motiongility",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/s3thrrqbjem3qler43fak7dop7v2",
-      "caption": "动画解说视频制作公司项目公开展示素材",
-      "alt": "动画解说视频制作公司项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/motiongility",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2159,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

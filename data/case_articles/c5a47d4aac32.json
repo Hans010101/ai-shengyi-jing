@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/fxrn7ix7crap01yo6ru1u1bw1ec5",
-      "caption": "辞职创办Airbnb清洁服务公开案例主图",
-      "alt": "辞职创办Airbnb清洁服务案例图片",
+      "caption": "辞职创办Airbnb清洁服务：年入140万美元",
+      "alt": "辞职创办Airbnb清洁服务：年入140万美元",
       "sourceUrl": "https://www.starterstory.com/stories/vacation-home-help",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/454/original/open-uri20221011-12-sdr4cd?1665474108",
-      "caption": "辞职创办Airbnb清洁服务项目公开展示素材",
-      "alt": "vacation-home-help",
+      "caption": "辞职创办Airbnb清洁服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "辞职创办Airbnb清洁服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/vacation-home-help",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/456/original/open-uri20221011-12-v71aae?1665474110",
-      "caption": "辞职创办Airbnb清洁服务项目公开展示素材",
-      "alt": "vacation-home-help",
+      "caption": "辞职创办Airbnb清洁服务：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "辞职创办Airbnb清洁服务：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/vacation-home-help",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "辞职创办Airbnb清洁服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/vacation-home-help",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/xmcnnqqylhtbo0mcfe37b8l0byai",
-      "caption": "辞职创办Airbnb清洁服务项目公开展示素材",
-      "alt": "辞职创办Airbnb清洁服务项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/vacation-home-help",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2217,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

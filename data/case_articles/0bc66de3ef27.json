@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/6y0br0otka5tqx0dca2ja7x59bu6",
-      "caption": "迪拜共享办公空间公开案例主图",
-      "alt": "迪拜共享办公空间案例图片",
+      "caption": "迪拜共享办公空间：通过出租工位和服务盈利",
+      "alt": "迪拜共享办公空间：通过出租工位和服务盈利",
       "sourceUrl": "https://www.starterstory.com/stories/spacebox-business-center",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/807/original/open-uri20230620-52-1ta7dd4?1687230114",
-      "caption": "迪拜共享办公空间项目公开展示素材",
-      "alt": "spacebox-business-center",
+      "caption": "迪拜共享办公空间：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "迪拜共享办公空间：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/spacebox-business-center",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/808/original/open-uri20230620-52-1akec16?1687230115",
-      "caption": "迪拜共享办公空间项目公开展示素材",
-      "alt": "spacebox-business-center",
+      "caption": "迪拜共享办公空间：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "迪拜共享办公空间：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/spacebox-business-center",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "迪拜共享办公空间项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/spacebox-business-center",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "迪拜共享办公空间项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/spacebox-business-center",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2204,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

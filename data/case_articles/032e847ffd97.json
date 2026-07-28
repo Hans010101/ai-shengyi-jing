@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/gar6i7a253rsyho8b6lygycbwyn1",
-      "caption": "IPinfo提供IP地址数据API公开案例主图",
-      "alt": "IPinfo提供IP地址数据API案例图片",
+      "caption": "IPinfo提供IP地址数据API：按查询量收费",
+      "alt": "IPinfo提供IP地址数据API：按查询量收费",
       "sourceUrl": "https://www.starterstory.com/businesses/ipinfo",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "IPinfo提供IP地址数据API项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/ipinfo",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/i37tzvam7hwlsc3ulpp9h2kkl9fn",
-      "caption": "IPinfo提供IP地址数据API项目公开展示素材",
-      "alt": "IPinfo logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/ipinfo",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/a7herluc506p230a0nxqpn2ftvbe/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "IPinfo提供IP地址数据API项目公开展示素材",
-      "alt": "WorkFlowy",
-      "sourceUrl": "https://www.starterstory.com/businesses/ipinfo",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/sb034xm7n13bthvj2j27gu89tx1r/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "IPinfo提供IP地址数据API项目公开展示素材",
-      "alt": "Spotify",
-      "sourceUrl": "https://www.starterstory.com/businesses/ipinfo",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2250,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

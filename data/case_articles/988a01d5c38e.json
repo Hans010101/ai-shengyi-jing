@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/mkgd7tv5f18dgizyj9bskkb1k9k5",
-      "caption": "卖手链做公益公开案例主图",
-      "alt": "卖手链做公益案例图片",
+      "caption": "卖手链做公益：靠情感营销月入400万美元",
+      "alt": "卖手链做公益：靠情感营销月入400万美元",
       "sourceUrl": "https://www.starterstory.com/stories/love-is-project-update-selling-4m-love-bracelets-for-a-good-cause",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/010/412/original/open-uri20210301-3-1nsg5ds?1614625708",
-      "caption": "卖手链做公益项目公开展示素材",
-      "alt": "love-is-project-update-selling-4m-love-bracelets-for-a-good-cause",
+      "caption": "卖手链做公益：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "卖手链做公益：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/love-is-project-update-selling-4m-love-bracelets-for-a-good-cause",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/010/413/original/open-uri20210301-3-12nfhtg?1614625709",
-      "caption": "卖手链做公益项目公开展示素材",
-      "alt": "love-is-project-update-selling-4m-love-bracelets-for-a-good-cause",
+      "caption": "卖手链做公益：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "卖手链做公益：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/love-is-project-update-selling-4m-love-bracelets-for-a-good-cause",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/010/414/original/open-uri20210301-3-uycdnu?1614625709",
-      "caption": "卖手链做公益项目公开展示素材",
-      "alt": "love-is-project-update-selling-4m-love-bracelets-for-a-good-cause",
+      "caption": "卖手链做公益：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "卖手链做公益：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/love-is-project-update-selling-4m-love-bracelets-for-a-good-cause",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/010/415/original/open-uri20210301-3-1nu2n4g?1614625709",
-      "caption": "卖手链做公益项目公开展示素材",
-      "alt": "love-is-project-update-selling-4m-love-bracelets-for-a-good-cause",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/SUS3fZz9EtM",
+      "watchUrl": "https://www.youtube.com/watch?v=SUS3fZz9EtM",
+      "caption": "卖手链做公益资料中提及的视频：Love Is Project",
+      "alt": "Love Is Project",
       "sourceUrl": "https://www.starterstory.com/stories/love-is-project-update-selling-4m-love-bracelets-for-a-good-cause",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/SUS3fZz9EtM/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

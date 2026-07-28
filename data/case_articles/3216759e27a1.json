@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/pf86xy1lvj1l8wjbpqx25fsjp3i0",
-      "caption": "多款SaaS工具组合公开案例主图",
-      "alt": "多款SaaS工具组合案例图片",
+      "caption": "多款SaaS工具组合：通过订阅制赚取ARR 1000万美元",
+      "alt": "多款SaaS工具组合：通过订阅制赚取ARR 1000万美元",
       "sourceUrl": "https://www.starterstory.com/stories/cryptoradar",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/524/original/open-uri20220406-3-1te86pv?1649248684",
-      "caption": "多款SaaS工具组合项目公开展示素材",
-      "alt": "cryptoradar",
+      "caption": "多款SaaS工具组合：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "多款SaaS工具组合：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/cryptoradar",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/525/original/open-uri20220406-3-1o6jd85?1649248684",
-      "caption": "多款SaaS工具组合项目公开展示素材",
-      "alt": "cryptoradar",
+      "caption": "多款SaaS工具组合：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "多款SaaS工具组合：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/cryptoradar",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/526/original/open-uri20220406-3-1x7i6lv?1649248685",
-      "caption": "多款SaaS工具组合项目公开展示素材",
-      "alt": "cryptoradar",
+      "caption": "多款SaaS工具组合：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "多款SaaS工具组合：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/cryptoradar",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/527/original/open-uri20220406-3-10hk086?1649248686",
-      "caption": "多款SaaS工具组合项目公开展示素材",
-      "alt": "cryptoradar",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/OAi0zMmyHTA",
+      "watchUrl": "https://www.youtube.com/watch?v=OAi0zMmyHTA",
+      "caption": "多款SaaS工具组合资料中提及的视频：OUR $100,000 WEBINAR STRATEGY | lemroad #11",
+      "alt": "OUR $100,000 WEBINAR STRATEGY | lemroad #11",
       "sourceUrl": "https://www.starterstory.com/stories/cryptoradar",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/OAi0zMmyHTA/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

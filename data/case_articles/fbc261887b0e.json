@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/2qfqpubhot7uw5s9xtns8wlw4caz",
-      "caption": "远程工作内容网站公开案例主图",
-      "alt": "远程工作内容网站案例图片",
+      "caption": "远程工作内容网站：通过广告和招聘佣金盈利",
+      "alt": "远程工作内容网站：通过广告和招聘佣金盈利",
       "sourceUrl": "https://www.starterstory.com/stories/remote-work-junkie",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/111/original/open-uri20220814-24-vjx1v5?1660471939",
-      "caption": "远程工作内容网站项目公开展示素材",
-      "alt": "remote-work-junkie",
+      "caption": "远程工作内容网站：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "远程工作内容网站：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/remote-work-junkie",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/112/original/open-uri20220814-24-1c6cs3n?1660471940",
-      "caption": "远程工作内容网站项目公开展示素材",
-      "alt": "remote-work-junkie",
+      "caption": "远程工作内容网站：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "远程工作内容网站：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/remote-work-junkie",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/113/original/open-uri20220814-24-n18vg0?1660471941",
-      "caption": "远程工作内容网站项目公开展示素材",
-      "alt": "remote-work-junkie",
+      "caption": "远程工作内容网站：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "远程工作内容网站：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/remote-work-junkie",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/114/original/open-uri20220814-24-1h3fjyj?1660471941",
-      "caption": "远程工作内容网站项目公开展示素材",
-      "alt": "remote-work-junkie",
-      "sourceUrl": "https://www.starterstory.com/stories/remote-work-junkie",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2119,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

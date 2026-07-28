@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/glxf5fs3a1cguvhj65j7tadmltfb",
-      "caption": "帮助职场人士逃离格子间公开案例主图",
-      "alt": "帮助职场人士逃离格子间案例图片",
+      "caption": "帮助职场人士逃离格子间：通过教练服务与课程变现",
+      "alt": "帮助职场人士逃离格子间：通过教练服务与课程变现",
       "sourceUrl": "https://www.starterstory.com/stories/on-launching-my-crowdfunded-book-this-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/232/original/open-uri20210522-3-l44obb?1621651863",
-      "caption": "帮助职场人士逃离格子间项目公开展示素材",
-      "alt": "on-launching-my-crowdfunded-book-this-year",
+      "caption": "帮助职场人士逃离格子间：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "帮助职场人士逃离格子间：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/on-launching-my-crowdfunded-book-this-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/233/original/open-uri20210522-3-xhrlu7?1621651864",
-      "caption": "帮助职场人士逃离格子间项目公开展示素材",
-      "alt": "on-launching-my-crowdfunded-book-this-year",
+      "caption": "帮助职场人士逃离格子间：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "帮助职场人士逃离格子间：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/on-launching-my-crowdfunded-book-this-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/234/original/open-uri20210522-3-1jhaohc?1621651865",
-      "caption": "帮助职场人士逃离格子间项目公开展示素材",
-      "alt": "on-launching-my-crowdfunded-book-this-year",
+      "caption": "帮助职场人士逃离格子间：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "帮助职场人士逃离格子间：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/on-launching-my-crowdfunded-book-this-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "帮助职场人士逃离格子间项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/al3Zkw1qclk",
+      "watchUrl": "https://www.youtube.com/watch?v=al3Zkw1qclk",
+      "caption": "帮助职场人士逃离格子间资料中提及的视频：Do you want to liberate yourself from the 9-5?",
+      "alt": "Do you want to liberate yourself from the 9-5?",
       "sourceUrl": "https://www.starterstory.com/stories/on-launching-my-crowdfunded-book-this-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/al3Zkw1qclk/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

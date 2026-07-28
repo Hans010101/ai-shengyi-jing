@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/xxrwsbg9637qze3u4n5wwa2h3io6",
-      "caption": "退休理财博客公开案例主图",
-      "alt": "退休理财博客案例图片",
+      "caption": "退休理财博客：通过广告和联盟营销月入3千美元",
+      "alt": "退休理财博客：通过广告和联盟营销月入3千美元",
       "sourceUrl": "https://www.starterstory.com/stories/top-dollar",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/267/original/open-uri20230502-51-n4s28n?1683035386",
-      "caption": "退休理财博客项目公开展示素材",
-      "alt": "top-dollar",
+      "caption": "退休理财博客：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "退休理财博客：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/top-dollar",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/268/original/open-uri20230502-51-1cfj99g?1683035388",
-      "caption": "退休理财博客项目公开展示素材",
-      "alt": "top-dollar",
+      "caption": "退休理财博客：当前经营状态与下一步规划相关原始配图（第2张）",
+      "alt": "退休理财博客：当前经营状态与下一步规划相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/top-dollar",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "退休理财博客项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/top-dollar",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/fyhbx2o0p0ivjbzkcaxfg3kkessb",
-      "caption": "退休理财博客项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/top-dollar",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2190,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

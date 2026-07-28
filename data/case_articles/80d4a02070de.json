@@ -104,7 +104,8 @@
       "caption": "Pulseroll恢复产品组合，展示品牌从单一设备向场景化产品线延展",
       "alt": "Pulseroll运动恢复产品系列",
       "sourceUrl": "https://pulseroll.com.au/",
-      "origin": "official-site"
+      "origin": "official-site",
+      "context": "official-site"
     },
     {
       "type": "image",
@@ -112,7 +113,8 @@
       "caption": "Pulseroll筋膜枪系列的官方展示图",
       "alt": "Pulseroll筋膜枪系列",
       "sourceUrl": "https://pulseroll.com.au/",
-      "origin": "official-site"
+      "origin": "official-site",
+      "context": "official-site"
     },
     {
       "type": "image",
@@ -120,7 +122,8 @@
       "caption": "产品使用场景是体验型硬件建立认知的重要内容资产",
       "alt": "Pulseroll筋膜枪使用场景",
       "sourceUrl": "https://pulseroll.com.au/",
-      "origin": "official-site"
+      "origin": "official-site",
+      "context": "official-site"
     },
     {
       "type": "image",
@@ -128,7 +131,8 @@
       "caption": "Pulseroll振动泡沫轴产品图",
       "alt": "Pulseroll振动泡沫轴",
       "sourceUrl": "https://pulseroll.com.au/",
-      "origin": "official-site"
+      "origin": "official-site",
+      "context": "official-site"
     }
   ],
   "source": {
@@ -149,5 +153,8 @@
     "businessModel": "自主研发+中国代工，线上DTC销售，高毛利，复购靠耗材和配件。",
     "chinaOpportunity": "中国健身人群增长，筋膜枪市场已有但可做细分（如女性、老年人），本地化可结合中医经络理论。",
     "website": "https://www.pulseroll.com"
+  },
+  "quality": {
+    "mediaCount": 4
   }
 }

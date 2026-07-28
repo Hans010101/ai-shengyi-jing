@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/g5vx9nwil5n7u26mxrauso35apce",
-      "caption": "种子电商公开案例主图",
-      "alt": "种子电商案例图片",
+      "caption": "种子电商：通过销售种子和种植用品赚钱",
+      "alt": "种子电商：通过销售种子和种植用品赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/true-leaf-market-d61b91ce-48b2-43df-a513-f62bb36fb598",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/405/original/open-uri20230304-52-15m3tjr?1677955731",
-      "caption": "种子电商项目公开展示素材",
-      "alt": "true-leaf-market-d61b91ce-48b2-43df-a513-f62bb36fb598",
+      "caption": "种子电商：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "种子电商：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/true-leaf-market-d61b91ce-48b2-43df-a513-f62bb36fb598",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "种子电商项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/true-leaf-market-d61b91ce-48b2-43df-a513-f62bb36fb598",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c303bjznv93yxnh0xxz7t4vfedzf",
-      "caption": "种子电商项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/true-leaf-market-d61b91ce-48b2-43df-a513-f62bb36fb598",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/0beu1rpaj2ah6dpbyhnnpi3t6nk7",
-      "caption": "种子电商项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/true-leaf-market-d61b91ce-48b2-43df-a513-f62bb36fb598",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2137,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

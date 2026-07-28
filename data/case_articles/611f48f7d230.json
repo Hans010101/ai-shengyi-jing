@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/7yk7do3om7sa1jtf5lnt3wre86uv",
-      "caption": "团队资源调度SaaS公开案例主图",
-      "alt": "团队资源调度SaaS案例图片",
+      "caption": "团队资源调度SaaS：按月订阅收费",
+      "alt": "团队资源调度SaaS：按月订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-built-a-resource-scheduling-app-to-2-1m-arr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/196/original/open-uri20190730-4-1kkzdr1?1564451891",
-      "caption": "团队资源调度SaaS项目公开展示素材",
-      "alt": "how-we-built-a-resource-scheduling-app-to-2-1m-arr",
+      "caption": "团队资源调度SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "团队资源调度SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-built-a-resource-scheduling-app-to-2-1m-arr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/197/original/open-uri20190730-4-1ib4m0x?1564451891",
-      "caption": "团队资源调度SaaS项目公开展示素材",
-      "alt": "how-we-built-a-resource-scheduling-app-to-2-1m-arr",
+      "caption": "团队资源调度SaaS：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "团队资源调度SaaS：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-built-a-resource-scheduling-app-to-2-1m-arr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/198/original/open-uri20190730-4-1h0070m?1564451892",
-      "caption": "团队资源调度SaaS项目公开展示素材",
-      "alt": "how-we-built-a-resource-scheduling-app-to-2-1m-arr",
+      "caption": "团队资源调度SaaS：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "团队资源调度SaaS：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-built-a-resource-scheduling-app-to-2-1m-arr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/199/original/open-uri20190730-4-1nn5b02?1564451893",
-      "caption": "团队资源调度SaaS项目公开展示素材",
-      "alt": "how-we-built-a-resource-scheduling-app-to-2-1m-arr",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-built-a-resource-scheduling-app-to-2-1m-arr",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2153,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/o4s9eju2g1vb6dc1awunlox2f3vb",
-      "caption": "英国创意营销代理公开案例主图",
-      "alt": "英国创意营销代理案例图片",
+      "caption": "英国创意营销代理：提供品牌设计、网站开发和内容营销服务，通过项目制收费盈利",
+      "alt": "英国创意营销代理：提供品牌设计、网站开发和内容营销服务，通过项目制收费盈利",
       "sourceUrl": "https://www.starterstory.com/stories/canny-creative",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/016/original/open-uri20221110-24-1rsfhdf?1668060698",
-      "caption": "英国创意营销代理项目公开展示素材",
-      "alt": "canny-creative",
+      "caption": "英国创意营销代理：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "英国创意营销代理：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/canny-creative",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "英国创意营销代理项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/canny-creative",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/2q6a8yncmonnvypd2kmgep7jt2a0",
-      "caption": "英国创意营销代理项目公开展示素材",
-      "alt": "英国创意营销代理项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/canny-creative",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/efqoexbql7bnoo3c5qif6tpt16oe",
-      "caption": "英国创意营销代理项目公开展示素材",
-      "alt": "英国创意营销代理项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/canny-creative",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2242,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

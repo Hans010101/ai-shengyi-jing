@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ibkjnr2e908ei1wkctaqrc3ptjwd",
-      "caption": "社交媒体管理SaaS工具公开案例主图",
-      "alt": "社交媒体管理SaaS工具案例图片",
+      "caption": "社交媒体管理SaaS工具：按月订阅收费",
+      "alt": "社交媒体管理SaaS工具：按月订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-our-arr-from-1m-to-2-8m-in-the-last-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/003/original/open-uri20210927-3-11wgclt?1632771591",
-      "caption": "社交媒体管理SaaS工具项目公开展示素材",
-      "alt": "how-we-increased-our-arr-from-1m-to-2-8m-in-the-last-year",
+      "caption": "社交媒体管理SaaS工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "社交媒体管理SaaS工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-our-arr-from-1m-to-2-8m-in-the-last-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/004/original/open-uri20210927-3-eooe32?1632771591",
-      "caption": "社交媒体管理SaaS工具项目公开展示素材",
-      "alt": "how-we-increased-our-arr-from-1m-to-2-8m-in-the-last-year",
+      "caption": "社交媒体管理SaaS工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "社交媒体管理SaaS工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-our-arr-from-1m-to-2-8m-in-the-last-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "社交媒体管理SaaS工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-our-arr-from-1m-to-2-8m-in-the-last-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/4ad79n554if2qwzsfef2ojvbov7j",
-      "caption": "社交媒体管理SaaS工具项目公开展示素材",
-      "alt": "社交媒体管理SaaS工具项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-our-arr-from-1m-to-2-8m-in-the-last-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2220,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/7sbstaj135udg7n49j84f1wpm7ba",
-      "caption": "SEO分析SaaS工具公开案例主图",
-      "alt": "SEO分析SaaS工具案例图片",
+      "caption": "SEO分析SaaS工具：帮网站优化搜索排名，按月订阅收费",
+      "alt": "SEO分析SaaS工具：帮网站优化搜索排名，按月订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/siteguru-816d40fb-ffe2-4309-bc11-e125f5855014",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/287/original/open-uri20220329-3-1gols8h?1648596276",
-      "caption": "SEO分析SaaS工具项目公开展示素材",
-      "alt": "siteguru-816d40fb-ffe2-4309-bc11-e125f5855014",
+      "caption": "SEO分析SaaS工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "SEO分析SaaS工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/siteguru-816d40fb-ffe2-4309-bc11-e125f5855014",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "SEO分析SaaS工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/siteguru-816d40fb-ffe2-4309-bc11-e125f5855014",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/2ea4ffiywqzv11iaubi3lp1hn5sb",
-      "caption": "SEO分析SaaS工具项目公开展示素材",
-      "alt": "SEO分析SaaS工具项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/siteguru-816d40fb-ffe2-4309-bc11-e125f5855014",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/z3uq51iqexg4pgnrrer9wfg2rck7",
-      "caption": "SEO分析SaaS工具项目公开展示素材",
-      "alt": "SEO分析SaaS工具项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/siteguru-816d40fb-ffe2-4309-bc11-e125f5855014",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2315,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

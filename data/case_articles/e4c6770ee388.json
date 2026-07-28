@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/zu8ic82k0jhq2cdz94d6a6d2blba",
-      "caption": "亚马逊Listing优化服务公开案例主图",
-      "alt": "亚马逊Listing优化服务案例图片",
+      "caption": "亚马逊Listing优化服务：月入10.5万美元",
+      "alt": "亚马逊Listing优化服务：月入10.5万美元",
       "sourceUrl": "https://www.starterstory.com/stories/kenji-roi",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/839/original/open-uri20220602-24-dvmho1?1654193118",
-      "caption": "亚马逊Listing优化服务项目公开展示素材",
-      "alt": "kenji-roi",
+      "caption": "亚马逊Listing优化服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "亚马逊Listing优化服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/kenji-roi",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/840/original/open-uri20220602-24-1kbcgb4?1654193118",
-      "caption": "亚马逊Listing优化服务项目公开展示素材",
-      "alt": "kenji-roi",
+      "caption": "亚马逊Listing优化服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "亚马逊Listing优化服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/kenji-roi",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "亚马逊Listing优化服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/kenji-roi",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/s3thrrqbjem3qler43fak7dop7v2",
-      "caption": "亚马逊Listing优化服务项目公开展示素材",
-      "alt": "亚马逊Listing优化服务项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/kenji-roi",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2245,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

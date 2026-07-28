@@ -122,47 +122,24 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/uonbs4ugh93odgdqegh4buyxmu5v",
-      "caption": "连接全球雇主与菲律宾人才的职位板公开案例主图",
-      "alt": "连接全球雇主与菲律宾人才的职位板案例图片",
+      "caption": "连接全球雇主与菲律宾人才的职位板：通过招聘和合规服务赚钱",
+      "alt": "连接全球雇主与菲律宾人才的职位板：通过招聘和合规服务赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/permworks",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "连接全球雇主与菲律宾人才的职位板项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/KcpkkT_0ElE",
+      "watchUrl": "https://www.youtube.com/watch?v=KcpkkT_0ElE",
+      "caption": "连接全球雇主与菲律宾人才的职位板：创始人、核心产品与品牌起点相关视频",
+      "alt": "连接全球雇主与菲律宾人才的职位板相关视频",
       "sourceUrl": "https://www.starterstory.com/stories/permworks",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "连接全球雇主与菲律宾人才的职位板项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/permworks",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/6csf0fgs5qrvcsiaquwehqzkzeg0",
-      "caption": "连接全球雇主与菲律宾人才的职位板项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/permworks",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ckax316qxbros4q2gz9xhrwakiam",
-      "caption": "连接全球雇主与菲律宾人才的职位板项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/permworks",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/KcpkkT_0ElE/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +154,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2165,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

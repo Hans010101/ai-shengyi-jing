@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/dfynrypdw4n15bdk0p499txh9edj",
-      "caption": "海外内容/媒体项目公开案例主图",
-      "alt": "海外内容/媒体项目案例图片",
+      "caption": "海外内容/媒体项目：通过内容网站矩阵和博客代运营服务赚钱",
+      "alt": "海外内容/媒体项目：通过内容网站矩阵和博客代运营服务赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/forrest-webber",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/461/original/open-uri20230514-63-cu4e2b?1684078920",
-      "caption": "海外内容/媒体项目项目公开展示素材",
-      "alt": "forrest-webber",
+      "caption": "海外内容/媒体项目：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "海外内容/媒体项目：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/forrest-webber",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/462/original/open-uri20230514-63-1yq0ttd?1684078920",
-      "caption": "海外内容/媒体项目项目公开展示素材",
-      "alt": "forrest-webber",
+      "caption": "海外内容/媒体项目：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "海外内容/媒体项目：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/forrest-webber",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/463/original/open-uri20230514-63-16bztyn?1684078921",
-      "caption": "海外内容/媒体项目项目公开展示素材",
-      "alt": "forrest-webber",
+      "caption": "海外内容/媒体项目：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "海外内容/媒体项目：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/forrest-webber",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/464/original/open-uri20230514-63-lh4377?1684078922",
-      "caption": "海外内容/媒体项目项目公开展示素材",
-      "alt": "forrest-webber",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/r2MnzJI61HM",
+      "watchUrl": "https://www.youtube.com/watch?v=r2MnzJI61HM",
+      "caption": "海外内容/媒体项目资料中提及的视频：Replacing Rental Properties With Websites: How Forrest Webber Grew to $40k Per Month",
+      "alt": "Replacing Rental Properties With Websites: How Forrest Webber Grew to $40k Per Month",
       "sourceUrl": "https://www.starterstory.com/stories/forrest-webber",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/r2MnzJI61HM/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

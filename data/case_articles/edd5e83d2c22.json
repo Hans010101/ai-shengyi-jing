@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/5z5jn9ndzv66ts6jv3n2nk23mcda",
-      "caption": "代写书稿和内容公开案例主图",
-      "alt": "代写书稿和内容案例图片",
+      "caption": "代写书稿和内容：按项目或套餐收费",
+      "alt": "代写书稿和内容：按项目或套餐收费",
       "sourceUrl": "https://www.starterstory.com/stories/brian-rouff",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/840/original/open-uri20220919-13-ufsur6?1663566799",
-      "caption": "代写书稿和内容项目公开展示素材",
-      "alt": "brian-rouff",
+      "caption": "代写书稿和内容：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "代写书稿和内容：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/brian-rouff",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/841/original/open-uri20220919-13-mvjgj7?1663566800",
-      "caption": "代写书稿和内容项目公开展示素材",
-      "alt": "brian-rouff",
+      "caption": "代写书稿和内容：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "代写书稿和内容：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/brian-rouff",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/842/original/open-uri20220919-13-1xtuqtz?1663566800",
-      "caption": "代写书稿和内容项目公开展示素材",
-      "alt": "brian-rouff",
+      "caption": "代写书稿和内容：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "代写书稿和内容：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/brian-rouff",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/843/original/open-uri20220919-13-9uanh0?1663566801",
-      "caption": "代写书稿和内容项目公开展示素材",
-      "alt": "brian-rouff",
-      "sourceUrl": "https://www.starterstory.com/stories/brian-rouff",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2155,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/acwb4jepqj2ds0j0pwycgmoonirv",
-      "caption": "为咨询顾问提供AI分析工具公开案例主图",
-      "alt": "为咨询顾问提供AI分析工具案例图片",
+      "caption": "为咨询顾问提供AI分析工具：月费订阅赚钱",
+      "alt": "为咨询顾问提供AI分析工具：月费订阅赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/artificial-workflow",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/973/original/open-uri20240610-60-l3p7vs?1718032505",
-      "caption": "为咨询顾问提供AI分析工具项目公开展示素材",
-      "alt": "artificial-workflow",
+      "caption": "为咨询顾问提供AI分析工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为咨询顾问提供AI分析工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/artificial-workflow",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/974/original/open-uri20240610-60-13qq3h7?1718032505",
-      "caption": "为咨询顾问提供AI分析工具项目公开展示素材",
-      "alt": "artificial-workflow",
+      "caption": "为咨询顾问提供AI分析工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "为咨询顾问提供AI分析工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/artificial-workflow",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/975/original/open-uri20240610-60-11szeuz?1718032506",
-      "caption": "为咨询顾问提供AI分析工具项目公开展示素材",
-      "alt": "artificial-workflow",
+      "caption": "为咨询顾问提供AI分析工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "为咨询顾问提供AI分析工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/artificial-workflow",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为咨询顾问提供AI分析工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/artificial-workflow",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2207,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

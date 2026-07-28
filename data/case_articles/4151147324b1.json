@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/lk52a74mkv0lp7cnixq3t8dajsnh",
-      "caption": "牙医诊所公开案例主图",
-      "alt": "牙医诊所案例图片",
+      "caption": "牙医诊所：通过高端服务与口碑营销实现增长",
+      "alt": "牙医诊所：通过高端服务与口碑营销实现增长",
       "sourceUrl": "https://www.starterstory.com/stories/kenneth-magid",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/716/original/open-uri20230605-51-6l23lc?1685973942",
-      "caption": "牙医诊所项目公开展示素材",
-      "alt": "kenneth-magid",
+      "caption": "牙医诊所：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "牙医诊所：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/kenneth-magid",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "牙医诊所项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/kenneth-magid",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/3q9ah33gfr89x9gr887ehtjyb5n2",
-      "caption": "牙医诊所项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/kenneth-magid",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/4bm9bfclh3exjbpirjp4a51luqbw",
-      "caption": "牙医诊所项目公开展示素材",
-      "alt": "牙医诊所项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/kenneth-magid",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2145,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

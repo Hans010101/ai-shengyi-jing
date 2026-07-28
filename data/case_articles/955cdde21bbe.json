@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/4n1z8c0reaws05nf77nmlgpulhuw",
-      "caption": "烟囱服务公司公开案例主图",
-      "alt": "烟囱服务公司案例图片",
+      "caption": "烟囱服务公司：Patriot Chimney通过优化营销和客服，提升烟囱服务营收30%",
+      "alt": "烟囱服务公司：Patriot Chimney通过优化营销和客服，提升烟囱服务营收30%",
       "sourceUrl": "https://www.starterstory.com/stories/patriot-chimney",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/551/original/open-uri20220406-3-1q5ly7f?1649253748",
-      "caption": "烟囱服务公司项目公开展示素材",
-      "alt": "patriot-chimney",
+      "caption": "烟囱服务公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "烟囱服务公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/patriot-chimney",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "烟囱服务公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/patriot-chimney",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/xmcnnqqylhtbo0mcfe37b8l0byai",
-      "caption": "烟囱服务公司项目公开展示素材",
-      "alt": "烟囱服务公司项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/patriot-chimney",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/vsg1n7eqjjk2kou8yjsg1ha24rsa",
-      "caption": "烟囱服务公司项目公开展示素材",
-      "alt": "烟囱服务公司项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/patriot-chimney",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2154,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

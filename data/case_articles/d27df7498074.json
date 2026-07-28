@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/298z4j5ippmm90uvnnqkphj1ypsz",
-      "caption": "在线可持续性课程平台公开案例主图",
-      "alt": "在线可持续性课程平台案例图片",
+      "caption": "在线可持续性课程平台：通过课程订阅和认证收费盈利",
+      "alt": "在线可持续性课程平台：通过课程订阅和认证收费盈利",
       "sourceUrl": "https://www.starterstory.com/stories/sustain-academy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/957/original/open-uri20220807-24-kdfcag?1659913905",
-      "caption": "在线可持续性课程平台项目公开展示素材",
-      "alt": "sustain-academy",
+      "caption": "在线可持续性课程平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "在线可持续性课程平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/sustain-academy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/958/original/open-uri20220807-24-rui690?1659913906",
-      "caption": "在线可持续性课程平台项目公开展示素材",
-      "alt": "sustain-academy",
+      "caption": "在线可持续性课程平台：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "在线可持续性课程平台：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/sustain-academy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "在线可持续性课程平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/sustain-academy",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ptba69qdqz5xolsqmn7r1j2oyaqo",
-      "caption": "在线可持续性课程平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/sustain-academy",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2205,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

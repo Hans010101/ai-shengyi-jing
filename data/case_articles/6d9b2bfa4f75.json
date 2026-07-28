@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/jmfzeoghvbqvzjze0olenrzjg25t",
-      "caption": "在线教育平台公开案例主图",
-      "alt": "在线教育平台案例图片",
+      "caption": "在线教育平台：教授内容创作技能，通过课程订阅盈利",
+      "alt": "在线教育平台：教授内容创作技能，通过课程订阅盈利",
       "sourceUrl": "https://www.starterstory.com/stories/content-creator",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/359/original/open-uri20231201-60-atue5h?1701435817",
-      "caption": "在线教育平台项目公开展示素材",
-      "alt": "content-creator",
+      "caption": "在线教育平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "在线教育平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/content-creator",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/360/original/open-uri20231201-60-1ka3brr?1701435818",
-      "caption": "在线教育平台项目公开展示素材",
-      "alt": "content-creator",
+      "caption": "在线教育平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "在线教育平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/content-creator",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "在线教育平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/content-creator",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/piihionyjd5htwa50vbuc80659ad",
-      "caption": "在线教育平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/content-creator",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2118,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

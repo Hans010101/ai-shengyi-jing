@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/vs2q5v6z0khu353vlmjerynv3w0x",
-      "caption": "电商代运营咨询公司公开案例主图",
-      "alt": "电商代运营咨询公司案例图片",
+      "caption": "电商代运营咨询公司：通过提供专业团队和服务收费",
+      "alt": "电商代运营咨询公司：通过提供专业团队和服务收费",
       "sourceUrl": "https://www.starterstory.com/stories/ecommerce-today-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/437/original/open-uri20220628-24-25ms55?1656439365",
-      "caption": "电商代运营咨询公司项目公开展示素材",
-      "alt": "ecommerce-today-agency",
+      "caption": "电商代运营咨询公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "电商代运营咨询公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/ecommerce-today-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/438/original/open-uri20220628-24-1lmdkjp?1656439367",
-      "caption": "电商代运营咨询公司项目公开展示素材",
-      "alt": "ecommerce-today-agency",
+      "caption": "电商代运营咨询公司：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "电商代运营咨询公司：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/ecommerce-today-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/439/original/open-uri20220628-24-30alqv?1656439367",
-      "caption": "电商代运营咨询公司项目公开展示素材",
-      "alt": "ecommerce-today-agency",
+      "caption": "电商代运营咨询公司：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "电商代运营咨询公司：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/ecommerce-today-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/440/original/open-uri20220628-24-1if3u5d?1656439368",
-      "caption": "电商代运营咨询公司项目公开展示素材",
-      "alt": "ecommerce-today-agency",
-      "sourceUrl": "https://www.starterstory.com/stories/ecommerce-today-agency",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2239,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

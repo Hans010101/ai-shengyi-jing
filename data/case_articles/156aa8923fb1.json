@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/uhn806q5yu0bxaezxdl2ikclkuam",
-      "caption": "有机护肤品牌公开案例主图",
-      "alt": "有机护肤品牌案例图片",
+      "caption": "有机护肤品牌：通过DTC模式销售天然护肤品盈利",
+      "alt": "有机护肤品牌：通过DTC模式销售天然护肤品盈利",
       "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-certified-organic-personal-care-brand",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/576/original/open-uri20211226-3-1jkgb4x?1640537966",
-      "caption": "有机护肤品牌项目公开展示素材",
-      "alt": "on-starting-a-certified-organic-personal-care-brand",
+      "caption": "有机护肤品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "有机护肤品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-certified-organic-personal-care-brand",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "有机护肤品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-certified-organic-personal-care-brand",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/3q9ah33gfr89x9gr887ehtjyb5n2",
-      "caption": "有机护肤品牌项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-certified-organic-personal-care-brand",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/wsfthxo0bwxpga1da6eflodtgxay",
-      "caption": "有机护肤品牌项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-certified-organic-personal-care-brand",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2141,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

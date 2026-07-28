@@ -122,65 +122,33 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/jjo1bcr4ooqspnmsi18a2xxpcy79",
-      "caption": "面向销售团队的路线规划SaaS公开案例主图",
-      "alt": "面向销售团队的路线规划SaaS案例图片",
+      "caption": "面向销售团队的路线规划SaaS：按订阅收费",
+      "alt": "面向销售团队的路线规划SaaS：按订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/badger-maps-building-a-sales-route-planning-app-to-3-3m-arr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/175/original/open-uri20190306-4-16wkzpe?1551863929",
-      "caption": "面向销售团队的路线规划SaaS项目公开展示素材",
-      "alt": "badger-maps-building-a-sales-route-planning-app-to-3-3m-arr",
+      "caption": "面向销售团队的路线规划SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "面向销售团队的路线规划SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/badger-maps-building-a-sales-route-planning-app-to-3-3m-arr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "面向销售团队的路线规划SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/badger-maps-building-a-sales-route-planning-app-to-3-3m-arr",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/o0cz8ezzjj8uumvwu7ij6bu599gm",
-      "caption": "面向销售团队的路线规划SaaS项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/badger-maps-building-a-sales-route-planning-app-to-3-3m-arr",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/yzwcofug5jdzgxughelpace4tl6a",
-      "caption": "面向销售团队的路线规划SaaS项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/badger-maps-building-a-sales-route-planning-app-to-3-3m-arr",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/y3lpjkae9bz7pkr5730khne588f0",
-      "caption": "面向销售团队的路线规划SaaS项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/badger-maps-building-a-sales-route-planning-app-to-3-3m-arr",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/qwBoC5KcHIU&list=PLYAFWkWnQLHn3Zeow6iHaDE75nJ9KyKNk",
-      "caption": "面向销售团队的路线规划SaaS项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=qwBoC5KcHIU&list=PLYAFWkWnQLHn3Zeow6iHaDE75nJ9KyKNk",
+      "caption": "面向销售团队的路线规划SaaS资料中提及的视频：How to Handle Price Objections in Sales | Proven Techniques & Best Tips for Closing Deals",
+      "alt": "How to Handle Price Objections in Sales | Proven Techniques & Best Tips for Closing Deals",
       "sourceUrl": "https://www.starterstory.com/stories/badger-maps-building-a-sales-route-planning-app-to-3-3m-arr",
       "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/qwBoC5KcHIU/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -196,6 +164,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2176,
-    "mediaCount": 7
+    "mediaCount": 3
   }
 }

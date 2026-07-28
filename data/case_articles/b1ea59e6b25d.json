@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/o9ytw5k8udv4mck58jfii3bkix6g",
-      "caption": "DTC自行车品牌公开案例主图",
-      "alt": "DTC自行车品牌案例图片",
+      "caption": "DTC自行车品牌：通过线上销售和订阅服务盈利",
+      "alt": "DTC自行车品牌：通过线上销售和订阅服务盈利",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-generated-10m-in-sales-with-our-online-bicycle-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/505/original/open-uri20190502-4-14tyibp?1556797629",
-      "caption": "DTC自行车品牌项目公开展示素材",
-      "alt": "how-we-ve-generated-10m-in-sales-with-our-online-bicycle-business",
+      "caption": "DTC自行车品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "DTC自行车品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-generated-10m-in-sales-with-our-online-bicycle-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/506/original/open-uri20190502-4-ss3mvl?1556797630",
-      "caption": "DTC自行车品牌项目公开展示素材",
-      "alt": "how-we-ve-generated-10m-in-sales-with-our-online-bicycle-business",
+      "caption": "DTC自行车品牌：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "DTC自行车品牌：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-generated-10m-in-sales-with-our-online-bicycle-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/508/original/open-uri20190502-4-vjy40u?1556797631",
-      "caption": "DTC自行车品牌项目公开展示素材",
-      "alt": "how-we-ve-generated-10m-in-sales-with-our-online-bicycle-business",
+      "caption": "DTC自行车品牌：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "DTC自行车品牌：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-generated-10m-in-sales-with-our-online-bicycle-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/507/original/open-uri20190502-4-ek12s6?1556797630",
-      "caption": "DTC自行车品牌项目公开展示素材",
-      "alt": "how-we-ve-generated-10m-in-sales-with-our-online-bicycle-business",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-generated-10m-in-sales-with-our-online-bicycle-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2147,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

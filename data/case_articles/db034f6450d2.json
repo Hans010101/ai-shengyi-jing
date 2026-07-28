@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/9jf3qak7glk35xsjbk392xamc47u",
-      "caption": "机场保安创办的旅行搜索引擎公开案例主图",
-      "alt": "机场保安创办的旅行搜索引擎案例图片",
+      "caption": "机场保安创办的旅行搜索引擎：靠广告和佣金赚钱",
+      "alt": "机场保安创办的旅行搜索引擎：靠广告和佣金赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/how-this-airport-security-officer-is-building-a-profitable-travel-search-engine",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/194/original/open-uri20190730-4-1x1jgde?1564446273",
-      "caption": "机场保安创办的旅行搜索引擎项目公开展示素材",
-      "alt": "how-this-airport-security-officer-is-building-a-profitable-travel-search-engine",
+      "caption": "机场保安创办的旅行搜索引擎：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "机场保安创办的旅行搜索引擎：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-this-airport-security-officer-is-building-a-profitable-travel-search-engine",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/195/original/open-uri20190730-4-4spwrz?1564446274",
-      "caption": "机场保安创办的旅行搜索引擎项目公开展示素材",
-      "alt": "how-this-airport-security-officer-is-building-a-profitable-travel-search-engine",
+      "caption": "机场保安创办的旅行搜索引擎：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "机场保安创办的旅行搜索引擎：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-this-airport-security-officer-is-building-a-profitable-travel-search-engine",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "机场保安创办的旅行搜索引擎项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-this-airport-security-officer-is-building-a-profitable-travel-search-engine",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "机场保安创办的旅行搜索引擎项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-this-airport-security-officer-is-building-a-profitable-travel-search-engine",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2231,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

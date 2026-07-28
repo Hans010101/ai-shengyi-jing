@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/t02uo9hjsalseg0wahfm0f2glj66",
-      "caption": "加密新闻通讯公开案例主图",
-      "alt": "加密新闻通讯案例图片",
+      "caption": "加密新闻通讯：通过付费订阅和广告赚取年收入36万美元",
+      "alt": "加密新闻通讯：通过付费订阅和广告赚取年收入36万美元",
       "sourceUrl": "https://www.starterstory.com/stories/coinsnacks",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/707/original/open-uri20221025-24-1trkiwu?1666673670",
-      "caption": "加密新闻通讯项目公开展示素材",
-      "alt": "coinsnacks",
+      "caption": "加密新闻通讯：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "加密新闻通讯：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/coinsnacks",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/708/original/open-uri20221025-24-5pal4e?1666673670",
-      "caption": "加密新闻通讯项目公开展示素材",
-      "alt": "coinsnacks",
+      "caption": "加密新闻通讯：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "加密新闻通讯：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/coinsnacks",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/709/original/open-uri20221025-24-1t79qs9?1666673671",
-      "caption": "加密新闻通讯项目公开展示素材",
-      "alt": "coinsnacks",
+      "caption": "加密新闻通讯：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "加密新闻通讯：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/coinsnacks",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/710/original/open-uri20221025-24-2u4cj3?1666673672",
-      "caption": "加密新闻通讯项目公开展示素材",
-      "alt": "coinsnacks",
-      "sourceUrl": "https://www.starterstory.com/stories/coinsnacks",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2268,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

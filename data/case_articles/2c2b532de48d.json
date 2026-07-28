@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/hm1ldap3ebtc1g4svt79yx7qnih3",
-      "caption": "品牌设计机构公开案例主图",
-      "alt": "品牌设计机构案例图片",
+      "caption": "品牌设计机构：通过AI工具提升效率，服务客户收取项目费",
+      "alt": "品牌设计机构：通过AI工具提升效率，服务客户收取项目费",
       "sourceUrl": "https://www.starterstory.com/stories/motif-3f197e0e-4928-4c3a-8692-42a0b5200e11",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/225/original/open-uri20240224-65-lfl219?1708779253",
-      "caption": "品牌设计机构项目公开展示素材",
-      "alt": "motif-3f197e0e-4928-4c3a-8692-42a0b5200e11",
+      "caption": "品牌设计机构：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "品牌设计机构：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/motif-3f197e0e-4928-4c3a-8692-42a0b5200e11",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/226/original/open-uri20240224-65-pr95qj?1708779254",
-      "caption": "品牌设计机构项目公开展示素材",
-      "alt": "motif-3f197e0e-4928-4c3a-8692-42a0b5200e11",
+      "caption": "品牌设计机构：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "品牌设计机构：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/motif-3f197e0e-4928-4c3a-8692-42a0b5200e11",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/227/original/open-uri20240224-65-1vukyhy?1708779254",
-      "caption": "品牌设计机构项目公开展示素材",
-      "alt": "motif-3f197e0e-4928-4c3a-8692-42a0b5200e11",
+      "caption": "品牌设计机构：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "品牌设计机构：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/motif-3f197e0e-4928-4c3a-8692-42a0b5200e11",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/228/original/open-uri20240224-65-mjf1pn?1708779255",
-      "caption": "品牌设计机构项目公开展示素材",
-      "alt": "motif-3f197e0e-4928-4c3a-8692-42a0b5200e11",
-      "sourceUrl": "https://www.starterstory.com/stories/motif-3f197e0e-4928-4c3a-8692-42a0b5200e11",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2204,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

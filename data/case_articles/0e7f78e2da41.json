@@ -122,47 +122,44 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/luc3lfni6t8bbaimmb9ibftwks9x",
-      "caption": "定制旅行平台连接用户与当地专家公开案例主图",
-      "alt": "定制旅行平台连接用户与当地专家案例图片",
+      "caption": "定制旅行平台连接用户与当地专家：赚取佣金",
+      "alt": "定制旅行平台连接用户与当地专家：赚取佣金",
       "sourceUrl": "https://www.starterstory.com/stories/my-passion-in-travel-lead-to-build-a-600k-year-custom-trips-platform",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/768/original/open-uri20220310-3-sbqvbt?1646924233",
-      "caption": "定制旅行平台连接用户与当地专家项目公开展示素材",
-      "alt": "my-passion-in-travel-lead-to-build-a-600k-year-custom-trips-platform",
+      "caption": "定制旅行平台连接用户与当地专家：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "定制旅行平台连接用户与当地专家：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/my-passion-in-travel-lead-to-build-a-600k-year-custom-trips-platform",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/769/original/open-uri20220310-3-1823vf0?1646924234",
-      "caption": "定制旅行平台连接用户与当地专家项目公开展示素材",
-      "alt": "my-passion-in-travel-lead-to-build-a-600k-year-custom-trips-platform",
+      "caption": "定制旅行平台连接用户与当地专家：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "定制旅行平台连接用户与当地专家：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/my-passion-in-travel-lead-to-build-a-600k-year-custom-trips-platform",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "定制旅行平台连接用户与当地专家项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/CRVS7FHdK44",
+      "watchUrl": "https://www.youtube.com/watch?v=CRVS7FHdK44",
+      "caption": "定制旅行平台连接用户与当地专家资料中提及的视频：How Baboo Travel Works?",
+      "alt": "How Baboo Travel Works?",
       "sourceUrl": "https://www.starterstory.com/stories/my-passion-in-travel-lead-to-build-a-600k-year-custom-trips-platform",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/vtdvsz6ii7j6rdax44lx60uayvfa",
-      "caption": "定制旅行平台连接用户与当地专家项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/my-passion-in-travel-lead-to-build-a-600k-year-custom-trips-platform",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/CRVS7FHdK44/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +174,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2192,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

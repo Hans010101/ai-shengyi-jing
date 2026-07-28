@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ozrlduxwaj5v4bzntajqykjjpb2h",
-      "caption": "匿名社交登录工具公开案例主图",
-      "alt": "匿名社交登录工具案例图片",
+      "caption": "匿名社交登录工具：通过为企业提供隐私保护认证服务收费",
+      "alt": "匿名社交登录工具：通过为企业提供隐私保护认证服务收费",
       "sourceUrl": "https://www.starterstory.com/stories/foundation-for-a-human-internet",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/318/original/open-uri20221009-13-1o0oieo?1665300771",
-      "caption": "匿名社交登录工具项目公开展示素材",
-      "alt": "foundation-for-a-human-internet",
+      "caption": "匿名社交登录工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "匿名社交登录工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/foundation-for-a-human-internet",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/319/original/data?1665300772",
-      "caption": "匿名社交登录工具项目公开展示素材",
-      "alt": "foundation-for-a-human-internet",
+      "caption": "匿名社交登录工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "匿名社交登录工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/foundation-for-a-human-internet",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/320/original/open-uri20221009-13-idy6wq?1665300773",
-      "caption": "匿名社交登录工具项目公开展示素材",
-      "alt": "foundation-for-a-human-internet",
+      "caption": "匿名社交登录工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "匿名社交登录工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/foundation-for-a-human-internet",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/321/original/open-uri20221009-13-34yrju?1665300773",
-      "caption": "匿名社交登录工具项目公开展示素材",
-      "alt": "foundation-for-a-human-internet",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/jTCtPQRYX1Q",
+      "watchUrl": "https://www.youtube.com/watch?v=jTCtPQRYX1Q",
+      "caption": "匿名社交登录工具资料中提及的视频：Real Voices & True Privacy: a Vision for a Human Internet - humanID",
+      "alt": "Real Voices & True Privacy: a Vision for a Human Internet - humanID",
       "sourceUrl": "https://www.starterstory.com/stories/foundation-for-a-human-internet",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/jTCtPQRYX1Q/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

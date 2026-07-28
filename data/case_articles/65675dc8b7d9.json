@@ -122,56 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/rdwvs0fmwyed4zkc3p28sjizvywx",
-      "caption": "音乐授权SaaS平台公开案例主图",
-      "alt": "音乐授权SaaS平台案例图片",
+      "caption": "音乐授权SaaS平台：按月订阅费赚钱",
+      "alt": "音乐授权SaaS平台：按月订阅费赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/easy-song-licensing",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/271/original/open-uri20220619-24-15p5gdu?1655658408",
-      "caption": "音乐授权SaaS平台项目公开展示素材",
-      "alt": "easy-song-licensing",
+      "caption": "音乐授权SaaS平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "音乐授权SaaS平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/easy-song-licensing",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/272/original/open-uri20220619-24-153flo7?1655658409",
-      "caption": "音乐授权SaaS平台项目公开展示素材",
-      "alt": "easy-song-licensing",
+      "caption": "音乐授权SaaS平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "音乐授权SaaS平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/easy-song-licensing",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "音乐授权SaaS平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/easy-song-licensing",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ofasya2154l9kfoklydlr7h86tyo",
-      "caption": "音乐授权SaaS平台项目公开展示素材",
-      "alt": "音乐授权SaaS平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/easy-song-licensing",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/1cp7sbvtfiqt8ks0bksb88m6qgtd",
-      "caption": "音乐授权SaaS平台项目公开展示素材",
-      "alt": "音乐授权SaaS平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/easy-song-licensing",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2154,
-    "mediaCount": 6
+    "mediaCount": 3
   }
 }

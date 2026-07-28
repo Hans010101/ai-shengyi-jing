@@ -121,57 +121,33 @@
   "media": [
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "搭建一个未封锁游戏网站项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/duck",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/9c46a420e6e6c79f",
-      "caption": "搭建一个未封锁游戏网站项目公开展示素材",
+      "caption": "搭建一个未封锁游戏网站：创始人、核心产品与品牌起点相关原始配图",
       "alt": "Duckmath Icon",
       "sourceUrl": "https://www.starterstory.com/stories/duck",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/bp5iez1wbausg9tliwhb476f8c9q",
-      "caption": "搭建一个未封锁游戏网站项目公开展示素材",
-      "alt": "article",
+      "caption": "搭建一个未封锁游戏网站：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "搭建一个未封锁游戏网站：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/duck",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/f581dfa0d23d05eb",
-      "caption": "搭建一个未封锁游戏网站项目公开展示素材",
+      "caption": "搭建一个未封锁游戏网站：获客渠道与客户留存相关原始配图（第3张）",
       "alt": "Some of our top videos",
       "sourceUrl": "https://www.starterstory.com/stories/duck",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/f7mvbl2qoqohnbgzv75u3n9yzi3r",
-      "caption": "搭建一个未封锁游戏网站项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/duck",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/5n9sksw3vwhgknqauyhvkcetnp4j",
-      "caption": "搭建一个未封锁游戏网站项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/duck",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2234,
-    "mediaCount": 6
+    "mediaCount": 3
   }
 }

@@ -122,65 +122,53 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/0u005xb5rg7v61dpezsycp5rkbw3",
-      "caption": "环保垃圾清理服务公开案例主图",
-      "alt": "环保垃圾清理服务案例图片",
+      "caption": "环保垃圾清理服务：按项目收费",
+      "alt": "环保垃圾清理服务：按项目收费",
       "sourceUrl": "https://www.starterstory.com/stories/we-started-a-15k-month-eco-friendly-junk-removal-business-in-just-20-days",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/779/original/open-uri20211109-3-1ufw4zh?1636482906",
-      "caption": "环保垃圾清理服务项目公开展示素材",
-      "alt": "we-started-a-15k-month-eco-friendly-junk-removal-business-in-just-20-days",
+      "caption": "环保垃圾清理服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "环保垃圾清理服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/we-started-a-15k-month-eco-friendly-junk-removal-business-in-just-20-days",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/780/original/open-uri20211109-3-w8vmll?1636482907",
-      "caption": "环保垃圾清理服务项目公开展示素材",
-      "alt": "we-started-a-15k-month-eco-friendly-junk-removal-business-in-just-20-days",
+      "caption": "环保垃圾清理服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "环保垃圾清理服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-started-a-15k-month-eco-friendly-junk-removal-business-in-just-20-days",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/781/original/open-uri20211109-3-1bk21s2?1636482908",
-      "caption": "环保垃圾清理服务项目公开展示素材",
-      "alt": "we-started-a-15k-month-eco-friendly-junk-removal-business-in-just-20-days",
+      "caption": "环保垃圾清理服务：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "环保垃圾清理服务：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-started-a-15k-month-eco-friendly-junk-removal-business-in-just-20-days",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/782/original/open-uri20211109-3-1smfcu?1636482909",
-      "caption": "环保垃圾清理服务项目公开展示素材",
-      "alt": "we-started-a-15k-month-eco-friendly-junk-removal-business-in-just-20-days",
-      "sourceUrl": "https://www.starterstory.com/stories/we-started-a-15k-month-eco-friendly-junk-removal-business-in-just-20-days",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/783/original/open-uri20211109-3-1ir4vf8?1636482909",
-      "caption": "环保垃圾清理服务项目公开展示素材",
-      "alt": "we-started-a-15k-month-eco-friendly-junk-removal-business-in-just-20-days",
-      "sourceUrl": "https://www.starterstory.com/stories/we-started-a-15k-month-eco-friendly-junk-removal-business-in-just-20-days",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/wb0qqM8Z2lE",
-      "caption": "环保垃圾清理服务项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=wb0qqM8Z2lE",
+      "caption": "环保垃圾清理服务资料中提及的视频：TIMELAPSE - Deck Demolition in Lincoln, New Brunswick, Integrity Junk Removal & Demolition",
+      "alt": "TIMELAPSE - Deck Demolition in Lincoln, New Brunswick, Integrity Junk Removal & Demolition",
       "sourceUrl": "https://www.starterstory.com/stories/we-started-a-15k-month-eco-friendly-junk-removal-business-in-just-20-days",
       "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/wb0qqM8Z2lE/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -196,6 +184,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2132,
-    "mediaCount": 7
+    "mediaCount": 5
   }
 }

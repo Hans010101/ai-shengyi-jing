@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/3h07zwrvpkp2dq0a0lkn4mfja7go",
-      "caption": "付费社群+AI工具公开案例主图",
-      "alt": "付费社群+AI工具案例图片",
+      "caption": "付费社群+AI工具：打击假新闻，月入1万美元",
+      "alt": "付费社群+AI工具：打击假新闻，月入1万美元",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-a-10k-month-online-community-where-we-fight-fake-news-stories",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/525/original/open-uri20211026-3-1vj19op?1635271104",
-      "caption": "付费社群+AI工具项目公开展示素材",
-      "alt": "i-built-a-10k-month-online-community-where-we-fight-fake-news-stories",
+      "caption": "付费社群+AI工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "付费社群+AI工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-a-10k-month-online-community-where-we-fight-fake-news-stories",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/526/original/open-uri20211026-3-1aq53ak?1635271104",
-      "caption": "付费社群+AI工具项目公开展示素材",
-      "alt": "i-built-a-10k-month-online-community-where-we-fight-fake-news-stories",
+      "caption": "付费社群+AI工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "付费社群+AI工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-a-10k-month-online-community-where-we-fight-fake-news-stories",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/527/original/open-uri20211026-3-kdcdyh?1635271104",
-      "caption": "付费社群+AI工具项目公开展示素材",
-      "alt": "i-built-a-10k-month-online-community-where-we-fight-fake-news-stories",
+      "caption": "付费社群+AI工具：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "付费社群+AI工具：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-a-10k-month-online-community-where-we-fight-fake-news-stories",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/528/original/open-uri20211026-3-zmw4ak?1635271104",
-      "caption": "付费社群+AI工具项目公开展示素材",
-      "alt": "i-built-a-10k-month-online-community-where-we-fight-fake-news-stories",
-      "sourceUrl": "https://www.starterstory.com/stories/i-built-a-10k-month-online-community-where-we-fight-fake-news-stories",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2184,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

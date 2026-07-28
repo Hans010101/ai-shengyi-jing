@@ -122,75 +122,53 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/g0ajavd1jfhdrcoo5mwllv2vwpf3",
-      "caption": "卖定制化相框推文公开案例主图",
-      "alt": "卖定制化相框推文案例图片",
+      "caption": "卖定制化相框推文：每单赚25美元",
+      "alt": "卖定制化相框推文：每单赚25美元",
       "sourceUrl": "https://www.starterstory.com/stories/framed-tweets",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/704/original/open-uri20220531-24-65wuut?1654011139",
-      "caption": "卖定制化相框推文项目公开展示素材",
-      "alt": "framed-tweets",
+      "caption": "卖定制化相框推文：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "卖定制化相框推文：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/framed-tweets",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/705/original/open-uri20220531-24-bec2w7?1654011140",
-      "caption": "卖定制化相框推文项目公开展示素材",
-      "alt": "framed-tweets",
+      "caption": "卖定制化相框推文：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "卖定制化相框推文：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/framed-tweets",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/706/original/open-uri20220531-24-1fz73b2?1654011143",
-      "caption": "卖定制化相框推文项目公开展示素材",
-      "alt": "framed-tweets",
+      "caption": "卖定制化相框推文：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "卖定制化相框推文：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/framed-tweets",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "卖定制化相框推文项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/framed-tweets",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/x0fswweh25a6rgcsp2c2ytil8usb",
-      "caption": "卖定制化相框推文项目公开展示素材",
-      "alt": "卖定制化相框推文项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/framed-tweets",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/7saBbAqsoOM",
-      "caption": "卖定制化相框推文项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=7saBbAqsoOM",
+      "caption": "卖定制化相框推文资料中提及的视频：90 min Full Body Yin Yoga Deep Stretch for Flexibility",
+      "alt": "90 min Full Body Yin Yoga Deep Stretch for Flexibility",
       "sourceUrl": "https://www.starterstory.com/stories/framed-tweets",
       "origin": "embeddable-video",
-      "poster": "",
-      "usage": ""
-    },
-    {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/yFtDSWWfYmI",
-      "caption": "卖定制化相框推文项目相关公开视频",
-      "alt": "",
-      "sourceUrl": "https://www.starterstory.com/stories/framed-tweets",
-      "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/7saBbAqsoOM/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -206,6 +184,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2192,
-    "mediaCount": 8
+    "mediaCount": 5
   }
 }

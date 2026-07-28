@@ -122,56 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/btjj3bk376zlrb7ouwt6zlnr5ygg",
-      "caption": "伦敦创业媒体公开案例主图",
-      "alt": "伦敦创业媒体案例图片",
+      "caption": "伦敦创业媒体：通过内容营销和赞助盈利",
+      "alt": "伦敦创业媒体：通过内容营销和赞助盈利",
       "sourceUrl": "https://www.starterstory.com/stories/startups-of-london",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/153/original/open-uri20220821-12-403k3g?1661074328",
-      "caption": "伦敦创业媒体项目公开展示素材",
-      "alt": "startups-of-london",
+      "caption": "伦敦创业媒体：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "伦敦创业媒体：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/startups-of-london",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/154/original/open-uri20220821-12-15avwqy?1661074329",
-      "caption": "伦敦创业媒体项目公开展示素材",
-      "alt": "startups-of-london",
+      "caption": "伦敦创业媒体：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "伦敦创业媒体：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/startups-of-london",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "伦敦创业媒体项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/startups-of-london",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/glia3fse1raug40hg8lpkg3rg09w",
-      "caption": "伦敦创业媒体项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/startups-of-london",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "伦敦创业媒体项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/startups-of-london",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2148,
-    "mediaCount": 6
+    "mediaCount": 3
   }
 }

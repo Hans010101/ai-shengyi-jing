@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/xbnctq5fnsu1zvbeqn5wm4f0iz2k",
-      "caption": "密室逃脱连锁品牌公开案例主图",
-      "alt": "密室逃脱连锁品牌案例图片",
+      "caption": "密室逃脱连锁品牌：通过加盟费和门票收入盈利",
+      "alt": "密室逃脱连锁品牌：通过加盟费和门票收入盈利",
       "sourceUrl": "https://www.starterstory.com/stories/paniq-escape-room",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/328/original/open-uri20230222-51-1t68i0f?1677064384",
-      "caption": "密室逃脱连锁品牌项目公开展示素材",
-      "alt": "paniq-escape-room",
+      "caption": "密室逃脱连锁品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "密室逃脱连锁品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/paniq-escape-room",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/329/original/open-uri20230222-51-2ugfvj?1677064385",
-      "caption": "密室逃脱连锁品牌项目公开展示素材",
-      "alt": "paniq-escape-room",
+      "caption": "密室逃脱连锁品牌：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "密室逃脱连锁品牌：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/paniq-escape-room",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/330/original/open-uri20230222-51-gz4jy8?1677064385",
-      "caption": "密室逃脱连锁品牌项目公开展示素材",
-      "alt": "paniq-escape-room",
+      "caption": "密室逃脱连锁品牌：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "密室逃脱连锁品牌：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/paniq-escape-room",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "密室逃脱连锁品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/paniq-escape-room",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2187,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

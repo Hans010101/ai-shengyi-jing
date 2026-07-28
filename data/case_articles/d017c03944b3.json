@@ -122,47 +122,24 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/2ll1rd989z7cj2emnavr3thrx8n0",
-      "caption": "为应届生提供求职平台公开案例主图",
-      "alt": "为应届生提供求职平台案例图片",
+      "caption": "为应届生提供求职平台：通过企业招聘订阅收费",
+      "alt": "为应届生提供求职平台：通过企业招聘订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/college-recruiter",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为应届生提供求职平台项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/uQa3RRo1H3A",
+      "watchUrl": "https://www.youtube.com/watch?v=uQa3RRo1H3A",
+      "caption": "为应届生提供求职平台资料中提及的视频：College Recruiter overview video for employers and job seeking students and recent graduates",
+      "alt": "College Recruiter overview video for employers and job seeking students and recent graduates",
       "sourceUrl": "https://www.starterstory.com/stories/college-recruiter",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/468wxn26v9ymz8p8see063h6abuf",
-      "caption": "为应届生提供求职平台项目公开展示素材",
-      "alt": "为应届生提供求职平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/college-recruiter",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n309m6ncm4h6f4qrujyi4vl12ula",
-      "caption": "为应届生提供求职平台项目公开展示素材",
-      "alt": "为应届生提供求职平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/college-recruiter",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/m6nlskmcc3pbqqy50dxyj50p0xfu",
-      "caption": "为应届生提供求职平台项目公开展示素材",
-      "alt": "为应届生提供求职平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/college-recruiter",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/uQa3RRo1H3A/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +154,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2117,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

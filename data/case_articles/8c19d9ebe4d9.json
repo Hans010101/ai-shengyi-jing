@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/kbbkp0qnq75yscam4vvcoqa66eol",
-      "caption": "Etsy卖教育练习册公开案例主图",
-      "alt": "Etsy卖教育练习册案例图片",
+      "caption": "Etsy卖教育练习册：月营收60万美元",
+      "alt": "Etsy卖教育练习册：月营收60万美元",
       "sourceUrl": "https://www.starterstory.com/stories/elrshop",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/405/original/open-uri20220520-12-1mh606s?1653064949",
-      "caption": "Etsy卖教育练习册项目公开展示素材",
-      "alt": "elrshop",
+      "caption": "Etsy卖教育练习册：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "Etsy卖教育练习册：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/elrshop",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/406/original/open-uri20220520-12-i55mv4?1653064950",
-      "caption": "Etsy卖教育练习册项目公开展示素材",
-      "alt": "elrshop",
+      "caption": "Etsy卖教育练习册：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "Etsy卖教育练习册：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/elrshop",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "Etsy卖教育练习册项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/elrshop",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/dqber83uqxx9ccmb6o59c45ppu0a",
-      "caption": "Etsy卖教育练习册项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/elrshop",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2336,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

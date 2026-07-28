@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/6nkaioloyk7u1uacmz2e9z0nt2h4",
-      "caption": "IT外包公司公开案例主图",
-      "alt": "IT外包公司案例图片",
+      "caption": "IT外包公司：通过提供软件开发服务赚取项目费",
+      "alt": "IT外包公司：通过提供软件开发服务赚取项目费",
       "sourceUrl": "https://www.starterstory.com/stories/voypost",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/315/original/open-uri20221009-12-1tley4h?1665295222",
-      "caption": "IT外包公司项目公开展示素材",
-      "alt": "voypost",
+      "caption": "IT外包公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "IT外包公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/voypost",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/316/original/open-uri20221009-12-156w14q?1665295223",
-      "caption": "IT外包公司项目公开展示素材",
-      "alt": "voypost",
+      "caption": "IT外包公司：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "IT外包公司：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/voypost",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/317/original/open-uri20221009-12-w3szna?1665295224",
-      "caption": "IT外包公司项目公开展示素材",
-      "alt": "voypost",
+      "caption": "IT外包公司：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "IT外包公司：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/voypost",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "IT外包公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/voypost",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2133,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

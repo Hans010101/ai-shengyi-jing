@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/62jhz8tqyp20hzw6zq3lshsrkzwx",
-      "caption": "非营利珠宝品牌公开案例主图",
-      "alt": "非营利珠宝品牌案例图片",
+      "caption": "非营利珠宝品牌：通过销售幸存者制作的首饰筹款",
+      "alt": "非营利珠宝品牌：通过销售幸存者制作的首饰筹款",
       "sourceUrl": "https://www.starterstory.com/stories/our-jewelry-making-non-profit-raises-850k-year-for-victims-of-human-trafficking",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/391/original/open-uri20211020-3-1yqgzdk?1634737072",
-      "caption": "非营利珠宝品牌项目公开展示素材",
-      "alt": "our-jewelry-making-non-profit-raises-850k-year-for-victims-of-human-trafficking",
+      "caption": "非营利珠宝品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "非营利珠宝品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/our-jewelry-making-non-profit-raises-850k-year-for-victims-of-human-trafficking",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/392/original/open-uri20211020-3-g9olc?1634737072",
-      "caption": "非营利珠宝品牌项目公开展示素材",
-      "alt": "our-jewelry-making-non-profit-raises-850k-year-for-survivors-of-human-trafficking",
+      "caption": "非营利珠宝品牌：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "非营利珠宝品牌：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/our-jewelry-making-non-profit-raises-850k-year-for-victims-of-human-trafficking",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/393/original/open-uri20211020-3-1jn149o?1634737073",
-      "caption": "非营利珠宝品牌项目公开展示素材",
-      "alt": "our-jewelry-making-non-profit-raises-850k-year-for-victims-of-human-trafficking",
+      "caption": "非营利珠宝品牌：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "非营利珠宝品牌：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/our-jewelry-making-non-profit-raises-850k-year-for-victims-of-human-trafficking",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/394/original/open-uri20211020-3-2mf18o?1634737073",
-      "caption": "非营利珠宝品牌项目公开展示素材",
-      "alt": "our-jewelry-making-non-profit-raises-850k-year-for-survivors-of-human-trafficking",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/WwrAQEVwcPA",
+      "watchUrl": "https://www.youtube.com/watch?v=WwrAQEVwcPA",
+      "caption": "非营利珠宝品牌资料中提及的视频：Wear Freedom, Wear PURPOSE",
+      "alt": "Wear Freedom, Wear PURPOSE",
       "sourceUrl": "https://www.starterstory.com/stories/our-jewelry-making-non-profit-raises-850k-year-for-victims-of-human-trafficking",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/WwrAQEVwcPA/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

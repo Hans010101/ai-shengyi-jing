@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/vi0cp73j5389xyttoo1u89oihqo9",
-      "caption": "AI自动化视频创作平台公开案例主图",
-      "alt": "AI自动化视频创作平台案例图片",
+      "caption": "AI自动化视频创作平台：通过订阅制收费",
+      "alt": "AI自动化视频创作平台：通过订阅制收费",
       "sourceUrl": "https://www.starterstory.com/stories/autoshorts-ai-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI自动化视频创作平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/autoshorts-ai-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/lpx3czce05wkiqdnk9ibvm9bte19/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "AI自动化视频创作平台项目公开展示素材",
-      "alt": "AI自动化视频创作平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/autoshorts-ai-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/8c1562557b04b438",
-      "caption": "AI自动化视频创作平台项目公开展示素材",
-      "alt": "article",
+      "caption": "AI自动化视频创作平台：获客渠道与客户留存相关原始配图",
+      "alt": "AI自动化视频创作平台：获客渠道与客户留存相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/autoshorts-ai-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/aa40493e06ca1ff0",
-      "caption": "AI自动化视频创作平台项目公开展示素材",
-      "alt": "article",
+      "caption": "AI自动化视频创作平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI自动化视频创作平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/autoshorts-ai-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2188,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

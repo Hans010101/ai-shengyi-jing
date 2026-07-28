@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/99h7tdk7mc1oq398d02itjhlgsri",
-      "caption": "服装制造代理公开案例主图",
-      "alt": "服装制造代理案例图片",
+      "caption": "服装制造代理：为品牌提供从设计到生产的全流程服务，赚取服务费和差价",
+      "alt": "服装制造代理：为品牌提供从设计到生产的全流程服务，赚取服务费和差价",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-started-a-clothing-manufacturing-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/848/original/open-uri20190617-4-ryvakw?1560756054",
-      "caption": "服装制造代理项目公开展示素材",
-      "alt": "how-we-started-a-clothing-manufacturing-business",
+      "caption": "服装制造代理：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "服装制造代理：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-started-a-clothing-manufacturing-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/849/original/open-uri20190617-4-15jq0fk?1560756054",
-      "caption": "服装制造代理项目公开展示素材",
-      "alt": "how-we-started-a-clothing-manufacturing-business",
+      "caption": "服装制造代理：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "服装制造代理：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-started-a-clothing-manufacturing-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/850/original/open-uri20190617-4-1ywb0t1?1560756055",
-      "caption": "服装制造代理项目公开展示素材",
-      "alt": "how-we-started-a-clothing-manufacturing-business",
+      "caption": "服装制造代理：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "服装制造代理：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-started-a-clothing-manufacturing-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/851/original/open-uri20190617-4-19gp62t?1560756056",
-      "caption": "服装制造代理项目公开展示素材",
-      "alt": "how-we-started-a-clothing-manufacturing-business",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-started-a-clothing-manufacturing-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2262,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

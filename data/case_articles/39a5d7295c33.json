@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/d4xewsz52w9qzqcgn1tqqywkklkf",
-      "caption": "将内部数据分析工具转化为SaaS公开案例主图",
-      "alt": "将内部数据分析工具转化为SaaS案例图片",
+      "caption": "将内部数据分析工具转化为SaaS：年入380万美元",
+      "alt": "将内部数据分析工具转化为SaaS：年入380万美元",
       "sourceUrl": "https://www.starterstory.com/stories/panintelligence",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/822/original/open-uri20240120-53-amqluy?1705764279",
-      "caption": "将内部数据分析工具转化为SaaS项目公开展示素材",
-      "alt": "panintelligence",
+      "caption": "将内部数据分析工具转化为SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "将内部数据分析工具转化为SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/panintelligence",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/823/original/open-uri20240120-53-1pp5j2x?1705764280",
-      "caption": "将内部数据分析工具转化为SaaS项目公开展示素材",
-      "alt": "panintelligence",
+      "caption": "将内部数据分析工具转化为SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "将内部数据分析工具转化为SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/panintelligence",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/824/original/open-uri20240120-53-9t6d3k?1705764280",
-      "caption": "将内部数据分析工具转化为SaaS项目公开展示素材",
-      "alt": "panintelligence",
+      "caption": "将内部数据分析工具转化为SaaS：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "将内部数据分析工具转化为SaaS：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/panintelligence",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/825/original/open-uri20240120-53-9x0yr3?1705764281",
-      "caption": "将内部数据分析工具转化为SaaS项目公开展示素材",
-      "alt": "panintelligence",
-      "sourceUrl": "https://www.starterstory.com/stories/panintelligence",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2212,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

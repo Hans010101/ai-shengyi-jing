@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/iocuj3f70l9wus2twyk2t5ovom06",
-      "caption": "按需服装修改服务公开案例主图",
-      "alt": "按需服装修改服务案例图片",
+      "caption": "按需服装修改服务：通过平台连接用户与裁缝赚取佣金",
+      "alt": "按需服装修改服务：通过平台连接用户与裁缝赚取佣金",
       "sourceUrl": "https://www.starterstory.com/stories/these-two-founders-started-an-on-demand-clothing-alterations-startup",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/176/original/open-uri20181019-4-kxqjd0?1539917946",
-      "caption": "按需服装修改服务项目公开展示素材",
-      "alt": "altrd",
+      "caption": "按需服装修改服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "按需服装修改服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/these-two-founders-started-an-on-demand-clothing-alterations-startup",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/177/original/open-uri20181019-4-1xm5j25?1539917946",
-      "caption": "按需服装修改服务项目公开展示素材",
-      "alt": "altrd",
+      "caption": "按需服装修改服务：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "按需服装修改服务：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/these-two-founders-started-an-on-demand-clothing-alterations-startup",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/178/original/open-uri20181019-4-1qq24qj?1539917947",
-      "caption": "按需服装修改服务项目公开展示素材",
-      "alt": "altrd",
+      "caption": "按需服装修改服务：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "按需服装修改服务：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/these-two-founders-started-an-on-demand-clothing-alterations-startup",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "按需服装修改服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/these-two-founders-started-an-on-demand-clothing-alterations-startup",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2224,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

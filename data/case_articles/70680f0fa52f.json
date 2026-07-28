@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ziy1w25h88r5unnvywd9mys32wfz",
-      "caption": "自学编程创办软件公司公开案例主图",
-      "alt": "自学编程创办软件公司案例图片",
+      "caption": "自学编程创办软件公司：为电商提供定制开发服务",
+      "alt": "自学编程创办软件公司：为电商提供定制开发服务",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-taught-myself-how-to-code-and-built-my-own-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/333/original/open-uri20190328-4-123ut85?1553772525",
-      "caption": "自学编程创办软件公司项目公开展示素材",
-      "alt": "how-i-taught-myself-how-to-code-and-built-my-own-business",
+      "caption": "自学编程创办软件公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "自学编程创办软件公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-taught-myself-how-to-code-and-built-my-own-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/334/original/open-uri20190328-4-jwq51b?1553772526",
-      "caption": "自学编程创办软件公司项目公开展示素材",
-      "alt": "how-i-taught-myself-how-to-code-and-built-my-own-business",
+      "caption": "自学编程创办软件公司：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "自学编程创办软件公司：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-taught-myself-how-to-code-and-built-my-own-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/335/original/open-uri20190328-4-wiie94?1553772526",
-      "caption": "自学编程创办软件公司项目公开展示素材",
-      "alt": "how-i-taught-myself-how-to-code-and-built-my-own-business",
+      "caption": "自学编程创办软件公司：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "自学编程创办软件公司：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-taught-myself-how-to-code-and-built-my-own-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "自学编程创办软件公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-taught-myself-how-to-code-and-built-my-own-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/e1zyhnzrw6gnm02pgxw4alp1ev4q",
-      "caption": "自学编程创办软件公司项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-taught-myself-how-to-code-and-built-my-own-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2216,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

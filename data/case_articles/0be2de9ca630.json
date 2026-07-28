@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/cueceyjuqquwq8jc233w3krt1gep",
-      "caption": "为活动主办方提供SaaS票务与预订管理平台公开案例主图",
-      "alt": "为活动主办方提供SaaS票务与预订管理平台案例图片",
+      "caption": "为活动主办方提供SaaS票务与预订管理平台：通过订阅费+交易抽成盈利",
+      "alt": "为活动主办方提供SaaS票务与预订管理平台：通过订阅费+交易抽成盈利",
       "sourceUrl": "https://www.starterstory.com/stories/booking-boss",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/623/original/open-uri20220409-24-b1wqmt?1649514148",
-      "caption": "为活动主办方提供SaaS票务与预订管理平台项目公开展示素材",
-      "alt": "booking-boss",
+      "caption": "为活动主办方提供SaaS票务与预订管理平台：创业起点与创意来源相关原始配图",
+      "alt": "为活动主办方提供SaaS票务与预订管理平台：创业起点与创意来源相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/booking-boss",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/624/original/open-uri20220409-24-60ergs?1649514149",
-      "caption": "为活动主办方提供SaaS票务与预订管理平台项目公开展示素材",
-      "alt": "booking-boss",
+      "caption": "为活动主办方提供SaaS票务与预订管理平台：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "为活动主办方提供SaaS票务与预订管理平台：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/booking-boss",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/625/original/open-uri20220409-24-1y9njmq?1649514149",
-      "caption": "为活动主办方提供SaaS票务与预订管理平台项目公开展示素材",
-      "alt": "booking-boss",
+      "caption": "为活动主办方提供SaaS票务与预订管理平台：当前经营状态与下一步规划相关原始配图（第3张）",
+      "alt": "为活动主办方提供SaaS票务与预订管理平台：当前经营状态与下一步规划相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/booking-boss",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/626/original/open-uri20220409-24-l90gn6?1649514149",
-      "caption": "为活动主办方提供SaaS票务与预订管理平台项目公开展示素材",
-      "alt": "booking-boss",
-      "sourceUrl": "https://www.starterstory.com/stories/booking-boss",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2256,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

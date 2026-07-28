@@ -122,47 +122,44 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/4o8b636g019chqxfdqw5huw51bor",
-      "caption": "AI文档防拍照泄密SaaS公开案例主图",
-      "alt": "AI文档防拍照泄密SaaS案例图片",
+      "caption": "AI文档防拍照泄密SaaS：按年订阅收费",
+      "alt": "AI文档防拍照泄密SaaS：按年订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/g-71",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/853/original/open-uri20230408-51-n4gxse?1680968827",
-      "caption": "AI文档防拍照泄密SaaS项目公开展示素材",
-      "alt": "g-71",
+      "caption": "AI文档防拍照泄密SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI文档防拍照泄密SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/g-71",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/854/original/open-uri20230408-51-92yztz?1680968828",
-      "caption": "AI文档防拍照泄密SaaS项目公开展示素材",
-      "alt": "g-71",
+      "caption": "AI文档防拍照泄密SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI文档防拍照泄密SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/g-71",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI文档防拍照泄密SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/maaaXeseYOA",
+      "watchUrl": "https://www.youtube.com/watch?v=maaaXeseYOA",
+      "caption": "AI文档防拍照泄密SaaS资料中提及的视频：LeaksID Promo Video 2022",
+      "alt": "LeaksID Promo Video 2022",
       "sourceUrl": "https://www.starterstory.com/stories/g-71",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/jaa9l7be4mw3a0kj1vmpnyo9ig87",
-      "caption": "AI文档防拍照泄密SaaS项目公开展示素材",
-      "alt": "AI文档防拍照泄密SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/g-71",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/maaaXeseYOA/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +174,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2242,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/n67g4o8u8pvpp222bp4gj9etubd8",
-      "caption": "个人理财内容创作者年度大会公开案例主图",
-      "alt": "个人理财内容创作者年度大会案例图片",
+      "caption": "个人理财内容创作者年度大会：通过门票销售和赞助盈利",
+      "alt": "个人理财内容创作者年度大会：通过门票销售和赞助盈利",
       "sourceUrl": "https://www.starterstory.com/stories/fincon",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/192/original/open-uri20230216-51-1p7ny14?1676548130",
-      "caption": "个人理财内容创作者年度大会项目公开展示素材",
-      "alt": "fincon",
+      "caption": "个人理财内容创作者年度大会：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "个人理财内容创作者年度大会：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/fincon",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/193/original/open-uri20230216-51-12wnug3?1676548131",
-      "caption": "个人理财内容创作者年度大会项目公开展示素材",
-      "alt": "fincon",
+      "caption": "个人理财内容创作者年度大会：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "个人理财内容创作者年度大会：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/fincon",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/194/original/open-uri20230216-51-m37b5c?1676548132",
-      "caption": "个人理财内容创作者年度大会项目公开展示素材",
-      "alt": "fincon",
+      "caption": "个人理财内容创作者年度大会：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "个人理财内容创作者年度大会：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/fincon",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/195/original/open-uri20230216-51-v7yr5m?1676548133",
-      "caption": "个人理财内容创作者年度大会项目公开展示素材",
-      "alt": "fincon",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/KT0VvVUHV7s",
+      "watchUrl": "https://www.youtube.com/watch?v=KT0VvVUHV7s",
+      "caption": "个人理财内容创作者年度大会资料中提及的视频：#FinCon22 Highlights",
+      "alt": "#FinCon22 Highlights",
       "sourceUrl": "https://www.starterstory.com/stories/fincon",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/KT0VvVUHV7s/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

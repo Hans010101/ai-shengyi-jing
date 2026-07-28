@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/e7bfk5tvd2xghhwf15wtp330i7u2",
-      "caption": "为初创公司提供域名+Logo套餐公开案例主图",
-      "alt": "为初创公司提供域名+Logo套餐案例图片",
+      "caption": "为初创公司提供域名+Logo套餐：每月1300美元",
+      "alt": "为初创公司提供域名+Logo套餐：每月1300美元",
       "sourceUrl": "https://www.starterstory.com/stories/indiebrands",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/905/original/open-uri20220801-12-w260v7?1659365016",
-      "caption": "为初创公司提供域名+Logo套餐项目公开展示素材",
-      "alt": "indiebrands",
+      "caption": "为初创公司提供域名+Logo套餐：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为初创公司提供域名+Logo套餐：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/indiebrands",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/906/original/open-uri20220801-12-1higcfe?1659365016",
-      "caption": "为初创公司提供域名+Logo套餐项目公开展示素材",
-      "alt": "indiebrands",
+      "caption": "为初创公司提供域名+Logo套餐：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "为初创公司提供域名+Logo套餐：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/indiebrands",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/907/original/open-uri20220801-12-4g64qz?1659365017",
-      "caption": "为初创公司提供域名+Logo套餐项目公开展示素材",
-      "alt": "indiebrands",
+      "caption": "为初创公司提供域名+Logo套餐：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "为初创公司提供域名+Logo套餐：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/indiebrands",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为初创公司提供域名+Logo套餐项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/indiebrands",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2203,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

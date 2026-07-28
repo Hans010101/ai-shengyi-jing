@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/wgywhs9aewncv0euyy50b85d7d5f",
-      "caption": "一款减少纸张浪费的软件公开案例主图",
-      "alt": "一款减少纸张浪费的软件案例图片",
+      "caption": "一款减少纸张浪费的软件：通过售卖数字模板和订阅服务赚钱",
+      "alt": "一款减少纸张浪费的软件：通过售卖数字模板和订阅服务赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-30-yoy-since-launched",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/620/original/open-uri20211027-3-1jdwh6r?1635366855",
-      "caption": "一款减少纸张浪费的软件项目公开展示素材",
-      "alt": "how-we-grew-30-yoy-since-launched",
+      "caption": "一款减少纸张浪费的软件：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "一款减少纸张浪费的软件：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-30-yoy-since-launched",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/621/original/open-uri20211027-3-1eq0tw3?1635366857",
-      "caption": "一款减少纸张浪费的软件项目公开展示素材",
-      "alt": "how-we-grew-30-yoy-since-launched",
+      "caption": "一款减少纸张浪费的软件：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "一款减少纸张浪费的软件：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-30-yoy-since-launched",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/622/original/open-uri20211027-3-pry08w?1635366857",
-      "caption": "一款减少纸张浪费的软件项目公开展示素材",
-      "alt": "how-we-grew-30-yoy-since-launched",
+      "caption": "一款减少纸张浪费的软件：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "一款减少纸张浪费的软件：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-30-yoy-since-launched",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "一款减少纸张浪费的软件项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-30-yoy-since-launched",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2228,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/p3sw0cugpdad6k1g190pi4c1meq7",
-      "caption": "为保险业提供AI数字员工公开案例主图",
-      "alt": "为保险业提供AI数字员工案例图片",
+      "caption": "为保险业提供AI数字员工：按机器人数量月付费",
+      "alt": "为保险业提供AI数字员工：按机器人数量月付费",
       "sourceUrl": "https://www.starterstory.com/stories/quandri",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/951/original/open-uri20220928-24-t797bs?1664341107",
-      "caption": "为保险业提供AI数字员工项目公开展示素材",
-      "alt": "quandri",
+      "caption": "为保险业提供AI数字员工：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为保险业提供AI数字员工：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/quandri",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为保险业提供AI数字员工项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/quandri",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/e6oat64o34wpc6v9lo4kismfvw5g",
-      "caption": "为保险业提供AI数字员工项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/quandri",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/yzwcofug5jdzgxughelpace4tl6a",
-      "caption": "为保险业提供AI数字员工项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/quandri",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2256,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/zcg39sucljplrkig73z7ehwye1p6",
-      "caption": "无代码网页数据抓取工具公开案例主图",
-      "alt": "无代码网页数据抓取工具案例图片",
+      "caption": "无代码网页数据抓取工具：通过订阅制收费",
+      "alt": "无代码网页数据抓取工具：通过订阅制收费",
       "sourceUrl": "https://www.starterstory.com/stories/browse-ai-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "无代码网页数据抓取工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/browse-ai-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/an6fj5n4ka9x1kklsb4fo7sbjdpy/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "无代码网页数据抓取工具项目公开展示素材",
-      "alt": "无代码网页数据抓取工具项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/browse-ai-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/8a230c348e39ed0d",
-      "caption": "无代码网页数据抓取工具项目公开展示素材",
-      "alt": "article",
+      "caption": "无代码网页数据抓取工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "无代码网页数据抓取工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/browse-ai-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/8e2015e6644743a4",
-      "caption": "无代码网页数据抓取工具项目公开展示素材",
-      "alt": "article",
+      "caption": "无代码网页数据抓取工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "无代码网页数据抓取工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/browse-ai-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/3e82c9fade4ea995",
+      "caption": "无代码网页数据抓取工具：获客渠道与客户留存相关原始配图（第3张）",
+      "alt": "无代码网页数据抓取工具：获客渠道与客户留存相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/browse-ai-breakdown",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2230,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/q1iipmsjw92ty73yxcrc8mk23c6b",
-      "caption": "区块链DAO创建平台公开案例主图",
-      "alt": "区块链DAO创建平台案例图片",
+      "caption": "区块链DAO创建平台：通过订阅和交易收费赚钱",
+      "alt": "区块链DAO创建平台：通过订阅和交易收费赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/origami",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/399/original/open-uri20221202-12-xx5z1m?1669965117",
-      "caption": "区块链DAO创建平台项目公开展示素材",
-      "alt": "origami",
+      "caption": "区块链DAO创建平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "区块链DAO创建平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/origami",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/400/original/open-uri20221202-12-rgb0zm?1669965117",
-      "caption": "区块链DAO创建平台项目公开展示素材",
-      "alt": "origami",
+      "caption": "区块链DAO创建平台：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "区块链DAO创建平台：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/origami",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/401/original/open-uri20221202-12-1sph61m?1669965119",
-      "caption": "区块链DAO创建平台项目公开展示素材",
-      "alt": "origami",
+      "caption": "区块链DAO创建平台：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "区块链DAO创建平台：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/origami",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/402/original/open-uri20221202-12-9n64x0?1669965120",
-      "caption": "区块链DAO创建平台项目公开展示素材",
-      "alt": "origami",
-      "sourceUrl": "https://www.starterstory.com/stories/origami",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2247,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

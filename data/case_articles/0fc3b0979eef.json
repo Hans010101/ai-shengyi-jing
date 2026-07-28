@@ -122,56 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/qrb5wnflk7q4twb2zg9bv2lo9dc5",
-      "caption": "AI驱动的生产力应用公开案例主图",
-      "alt": "AI驱动的生产力应用案例图片",
+      "caption": "AI驱动的生产力应用：通过订阅制付费赚钱",
+      "alt": "AI驱动的生产力应用：通过订阅制付费赚钱",
       "sourceUrl": "https://www.starterstory.com/businesses/riseapp",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI驱动的生产力应用项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/riseapp",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/dlk96vp1ae8th7h469saajgud9q9",
-      "caption": "AI驱动的生产力应用项目公开展示素材",
-      "alt": "RiseApp logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/riseapp",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/f4ywothlb0iok8cuql5pb89o6dy6/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "AI驱动的生产力应用项目公开展示素材",
-      "alt": "Desmond",
-      "sourceUrl": "https://www.starterstory.com/businesses/riseapp",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/t7jq04je86m909c0xp4hezsuf8t5/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "AI驱动的生产力应用项目公开展示素材",
-      "alt": "Figma",
-      "sourceUrl": "https://www.starterstory.com/businesses/riseapp",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/9kv04lwg112ocvctwcf2i0wc7wvw/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "AI驱动的生产力应用项目公开展示素材",
-      "alt": "Swift",
-      "sourceUrl": "https://www.starterstory.com/businesses/riseapp",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -186,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2200,
-    "mediaCount": 6
+    "mediaCount": 1
   }
 }

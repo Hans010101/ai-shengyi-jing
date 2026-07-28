@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/3npxc433elj8a3gc5b3ec7rkecyg",
-      "caption": "视频托管与营销SaaS公开案例主图",
-      "alt": "视频托管与营销SaaS案例图片",
+      "caption": "视频托管与营销SaaS：面向创作者和小企业，月费订阅盈利",
+      "alt": "视频托管与营销SaaS：面向创作者和小企业，月费订阅盈利",
       "sourceUrl": "https://www.starterstory.com/stories/in-one-year-we-launched-a-video-hosting-platform-hit-10k-mrr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/852/original/open-uri20211111-3-1g7evcd?1636661188",
-      "caption": "视频托管与营销SaaS项目公开展示素材",
-      "alt": "in-one-year-we-launched-a-video-hosting-platform-hit-10k-mrr",
+      "caption": "视频托管与营销SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "视频托管与营销SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/in-one-year-we-launched-a-video-hosting-platform-hit-10k-mrr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/853/original/open-uri20211111-3-1kndt65?1636661189",
-      "caption": "视频托管与营销SaaS项目公开展示素材",
-      "alt": "in-one-year-we-launched-a-video-hosting-platform-hit-10k-mrr",
+      "caption": "视频托管与营销SaaS：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "视频托管与营销SaaS：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/in-one-year-we-launched-a-video-hosting-platform-hit-10k-mrr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "视频托管与营销SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/in-one-year-we-launched-a-video-hosting-platform-hit-10k-mrr",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/glia3fse1raug40hg8lpkg3rg09w",
-      "caption": "视频托管与营销SaaS项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/in-one-year-we-launched-a-video-hosting-platform-hit-10k-mrr",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2299,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/djrx8t6ellmyp6liw3nkt1p907mg",
-      "caption": "面向中小企业的轻量级AI CRM公开案例主图",
-      "alt": "面向中小企业的轻量级AI CRM案例图片",
+      "caption": "面向中小企业的轻量级AI CRM：通过订阅制收费",
+      "alt": "面向中小企业的轻量级AI CRM：通过订阅制收费",
       "sourceUrl": "https://www.starterstory.com/stories/folk",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "面向中小企业的轻量级AI CRM项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/folk",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/7e978fbf4ff5c57e",
-      "caption": "面向中小企业的轻量级AI CRM项目公开展示素材",
+      "caption": "面向中小企业的轻量级AI CRM：创始人、核心产品与品牌起点相关原始配图",
       "alt": "My image",
       "sourceUrl": "https://www.starterstory.com/stories/folk",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/1llo7whhnb9fzzo3h6gormugbj2d",
-      "caption": "面向中小企业的轻量级AI CRM项目公开展示素材",
-      "alt": "article",
+      "caption": "面向中小企业的轻量级AI CRM：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "面向中小企业的轻量级AI CRM：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/folk",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/42eb04ff32842a4d",
-      "caption": "面向中小企业的轻量级AI CRM项目公开展示素材",
+      "caption": "面向中小企业的轻量级AI CRM：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "alt": "First email to waitlist",
       "sourceUrl": "https://www.starterstory.com/stories/folk",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2337,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/76nnp395itttjl5xcq2ngv9ngayo",
-      "caption": "美国山茶花电商公开案例主图",
-      "alt": "美国山茶花电商案例图片",
+      "caption": "美国山茶花电商：通过社交媒体广告提升销售400%",
+      "alt": "美国山茶花电商：通过社交媒体广告提升销售400%",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-boosted-our-advertising-through-social-media-and-increased-400-in-sales",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/270/original/open-uri20201007-4-ra42qr?1602095268",
-      "caption": "美国山茶花电商项目公开展示素材",
-      "alt": "how-we-boosted-our-advertising-through-social-media-and-increased-400-in-sales",
+      "caption": "美国山茶花电商：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "美国山茶花电商：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-boosted-our-advertising-through-social-media-and-increased-400-in-sales",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/271/original/open-uri20201007-4-ntaz3k?1602095270",
-      "caption": "美国山茶花电商项目公开展示素材",
-      "alt": "how-we-boosted-our-advertising-through-social-media-and-increased-400-in-sales",
+      "caption": "美国山茶花电商：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "美国山茶花电商：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-boosted-our-advertising-through-social-media-and-increased-400-in-sales",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/272/original/open-uri20201007-4-a5chso?1602095270",
-      "caption": "美国山茶花电商项目公开展示素材",
-      "alt": "how-we-boosted-our-advertising-through-social-media-and-increased-400-in-sales",
+      "caption": "美国山茶花电商：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "美国山茶花电商：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-boosted-our-advertising-through-social-media-and-increased-400-in-sales",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "美国山茶花电商项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-boosted-our-advertising-through-social-media-and-increased-400-in-sales",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2169,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

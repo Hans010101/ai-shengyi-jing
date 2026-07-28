@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/h3o04lnnpo17pq24zwd74lcvp7gc",
-      "caption": "数字营销机构公开案例主图",
-      "alt": "数字营销机构案例图片",
+      "caption": "数字营销机构：通过提供营销服务收费",
+      "alt": "数字营销机构：通过提供营销服务收费",
       "sourceUrl": "https://www.starterstory.com/stories/jvi-mobile-marketing-af6a7b19-129d-4f89-9940-38ba3bd0d693",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/732/original/open-uri20240426-53-r5rxth?1714139311",
-      "caption": "数字营销机构项目公开展示素材",
-      "alt": "jvi-mobile-marketing-af6a7b19-129d-4f89-9940-38ba3bd0d693",
+      "caption": "数字营销机构：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "数字营销机构：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/jvi-mobile-marketing-af6a7b19-129d-4f89-9940-38ba3bd0d693",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/733/original/open-uri20240426-53-6k620q?1714139312",
-      "caption": "数字营销机构项目公开展示素材",
-      "alt": "jvi-mobile-marketing-af6a7b19-129d-4f89-9940-38ba3bd0d693",
+      "caption": "数字营销机构：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "数字营销机构：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/jvi-mobile-marketing-af6a7b19-129d-4f89-9940-38ba3bd0d693",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "数字营销机构项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/jvi-mobile-marketing-af6a7b19-129d-4f89-9940-38ba3bd0d693",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/6d9kidi444vd2x3xg9bjmpvtmr51",
-      "caption": "数字营销机构项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/jvi-mobile-marketing-af6a7b19-129d-4f89-9940-38ba3bd0d693",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2128,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

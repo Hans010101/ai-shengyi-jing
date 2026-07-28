@@ -122,56 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/hszzt65abvyu6q7elsvsop7bep7x",
-      "caption": "个人理财新闻通讯公开案例主图",
-      "alt": "个人理财新闻通讯案例图片",
+      "caption": "个人理财新闻通讯：通过付费订阅和网站广告赚钱",
+      "alt": "个人理财新闻通讯：通过付费订阅和网站广告赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/growing-my-newsletter-side-hustle-by-launching-a-website",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/008/original/open-uri20220319-3-1ces9v9?1647704437",
-      "caption": "个人理财新闻通讯项目公开展示素材",
-      "alt": "growing-my-newsletter-side-hustle-by-launching-a-website",
+      "caption": "个人理财新闻通讯：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "个人理财新闻通讯：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/growing-my-newsletter-side-hustle-by-launching-a-website",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/009/original/open-uri20220319-3-1xnqvc9?1647704438",
-      "caption": "个人理财新闻通讯项目公开展示素材",
-      "alt": "growing-my-newsletter-side-hustle-by-launching-a-website",
+      "caption": "个人理财新闻通讯：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "个人理财新闻通讯：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/growing-my-newsletter-side-hustle-by-launching-a-website",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "个人理财新闻通讯项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/growing-my-newsletter-side-hustle-by-launching-a-website",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c4me70k5m0mm12pxyt9ra653p556",
-      "caption": "个人理财新闻通讯项目公开展示素材",
-      "alt": "个人理财新闻通讯项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/growing-my-newsletter-side-hustle-by-launching-a-website",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/lxyfp3z5ok085ig00ezv1ow1oo3h",
-      "caption": "个人理财新闻通讯项目公开展示素材",
-      "alt": "个人理财新闻通讯项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/growing-my-newsletter-side-hustle-by-launching-a-website",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2181,
-    "mediaCount": 6
+    "mediaCount": 3
   }
 }

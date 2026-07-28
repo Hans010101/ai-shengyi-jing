@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/0445ba9sbb4zfbx99l9v9pse8us5",
-      "caption": "海外电商/DTC项目公开案例主图",
-      "alt": "海外电商/DTC项目案例图片",
+      "caption": "海外电商/DTC项目：通过手工改造传统南美披肩，打造时尚品牌BohoWrapsody，直接销售获利",
+      "alt": "海外电商/DTC项目：通过手工改造传统南美披肩，打造时尚品牌BohoWrapsody，直接销售获利",
       "sourceUrl": "https://www.starterstory.com/stories/learning-how-to-build-a-brand-through-trial-and-error",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/122/original/open-uri20190222-4-g6najh?1550829048",
-      "caption": "海外电商/DTC项目项目公开展示素材",
-      "alt": "learning-how-to-build-a-brand-through-trial-and-error",
+      "caption": "海外电商/DTC项目：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "海外电商/DTC项目：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/learning-how-to-build-a-brand-through-trial-and-error",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/123/original/open-uri20190222-4-1gy3f5c?1550829049",
-      "caption": "海外电商/DTC项目项目公开展示素材",
-      "alt": "learning-how-to-build-a-brand-through-trial-and-error",
+      "caption": "海外电商/DTC项目：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "海外电商/DTC项目：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/learning-how-to-build-a-brand-through-trial-and-error",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/124/original/open-uri20190222-4-1cfsupo?1550829049",
-      "caption": "海外电商/DTC项目项目公开展示素材",
-      "alt": "learning-how-to-build-a-brand-through-trial-and-error",
+      "caption": "海外电商/DTC项目：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "海外电商/DTC项目：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/learning-how-to-build-a-brand-through-trial-and-error",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/125/original/open-uri20190222-4-1duzbgh?1550829050",
-      "caption": "海外电商/DTC项目项目公开展示素材",
-      "alt": "learning-how-to-build-a-brand-through-trial-and-error",
-      "sourceUrl": "https://www.starterstory.com/stories/learning-how-to-build-a-brand-through-trial-and-error",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/126/original/open-uri20190222-4-xctchd?1550829051",
-      "caption": "海外电商/DTC项目项目公开展示素材",
-      "alt": "learning-how-to-build-a-brand-through-trial-and-error",
-      "sourceUrl": "https://www.starterstory.com/stories/learning-how-to-build-a-brand-through-trial-and-error",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2214,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

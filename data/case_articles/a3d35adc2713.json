@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/yqg4h3at4vtvroed08x41l99vfgs",
-      "caption": "基于真人内容训练AI教练公开案例主图",
-      "alt": "基于真人内容训练AI教练案例图片",
+      "caption": "基于真人内容训练AI教练：向创作者收费，预收6位数",
+      "alt": "基于真人内容训练AI教练：向创作者收费，预收6位数",
       "sourceUrl": "https://www.starterstory.com/stories/jodie-cook",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/449/original/open-uri20230902-60-f2cctk?1693663728",
-      "caption": "基于真人内容训练AI教练项目公开展示素材",
-      "alt": "jodie-cook",
+      "caption": "基于真人内容训练AI教练：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "基于真人内容训练AI教练：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/jodie-cook",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/450/original/open-uri20230902-60-49nrhy?1693663729",
-      "caption": "基于真人内容训练AI教练项目公开展示素材",
-      "alt": "jodie-cook",
+      "caption": "基于真人内容训练AI教练：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "基于真人内容训练AI教练：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/jodie-cook",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/451/original/open-uri20230902-60-1dunqpf?1693663730",
-      "caption": "基于真人内容训练AI教练项目公开展示素材",
-      "alt": "jodie-cook",
+      "caption": "基于真人内容训练AI教练：当前经营状态与下一步规划相关原始配图（第3张）",
+      "alt": "基于真人内容训练AI教练：当前经营状态与下一步规划相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/jodie-cook",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/452/original/open-uri20230902-60-17ygnn8?1693663731",
-      "caption": "基于真人内容训练AI教练项目公开展示素材",
-      "alt": "jodie-cook",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/rI7_y85y39s",
+      "watchUrl": "https://www.youtube.com/watch?v=rI7_y85y39s",
+      "caption": "基于真人内容训练AI教练资料中提及的视频：180kg (397lbs) deadlift at 56.3kg (124lbs) bodyweight - English Powerlifting Championships 2021",
+      "alt": "180kg (397lbs) deadlift at 56.3kg (124lbs) bodyweight - English Powerlifting Championships 2021",
       "sourceUrl": "https://www.starterstory.com/stories/jodie-cook",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/rI7_y85y39s/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

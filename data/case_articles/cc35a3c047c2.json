@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/khqq5axhc1mjdkjszvyrvlegaz4w",
-      "caption": "iPhone健身App MoveWell公开案例主图",
-      "alt": "iPhone健身App MoveWell案例图片",
+      "caption": "iPhone健身App MoveWell：通过订阅制帮助用户改善动作、增强力量、预防损伤，月营收$1,000",
+      "alt": "iPhone健身App MoveWell：通过订阅制帮助用户改善动作、增强力量、预防损伤，月营收$1,000",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-built-an-iphone-fitness-app-to-1-000-mrr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/062/original/open-uri20190717-4-1bzc08n?1563371514",
-      "caption": "iPhone健身App MoveWell项目公开展示素材",
-      "alt": "how-i-built-an-iphone-fitness-app-to-1-000-mrr",
+      "caption": "iPhone健身App MoveWell：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "iPhone健身App MoveWell：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-built-an-iphone-fitness-app-to-1-000-mrr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/063/original/open-uri20190717-4-1kwbpm0?1563371514",
-      "caption": "iPhone健身App MoveWell项目公开展示素材",
-      "alt": "how-i-built-an-iphone-fitness-app-to-1-000-mrr",
+      "caption": "iPhone健身App MoveWell：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "iPhone健身App MoveWell：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-built-an-iphone-fitness-app-to-1-000-mrr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/064/original/open-uri20190717-4-kr7t6l?1563371515",
-      "caption": "iPhone健身App MoveWell项目公开展示素材",
-      "alt": "how-i-built-an-iphone-fitness-app-to-1-000-mrr",
+      "caption": "iPhone健身App MoveWell：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "iPhone健身App MoveWell：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-built-an-iphone-fitness-app-to-1-000-mrr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "iPhone健身App MoveWell项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-built-an-iphone-fitness-app-to-1-000-mrr",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2269,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

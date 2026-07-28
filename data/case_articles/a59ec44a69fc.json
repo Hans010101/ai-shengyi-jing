@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/gtki2p57h2cmup2kq1lgt4154pem",
-      "caption": "云成本管理SaaS公开案例主图",
-      "alt": "云成本管理SaaS案例图片",
+      "caption": "云成本管理SaaS：帮企业优化云支出，按月订阅收费",
+      "alt": "云成本管理SaaS：帮企业优化云支出，按月订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/opslyft",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/186/original/open-uri20220821-15-15d6kcg?1661093394",
-      "caption": "云成本管理SaaS项目公开展示素材",
-      "alt": "opslyft",
+      "caption": "云成本管理SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "云成本管理SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/opslyft",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/187/original/open-uri20220821-15-1g91uar?1661093395",
-      "caption": "云成本管理SaaS项目公开展示素材",
-      "alt": "opslyft",
+      "caption": "云成本管理SaaS：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "云成本管理SaaS：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/opslyft",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/188/original/open-uri20220821-15-podcew?1661093396",
-      "caption": "云成本管理SaaS项目公开展示素材",
-      "alt": "opslyft",
+      "caption": "云成本管理SaaS：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "云成本管理SaaS：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/opslyft",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/189/original/open-uri20220821-15-pey1m5?1661093396",
-      "caption": "云成本管理SaaS项目公开展示素材",
-      "alt": "opslyft",
-      "sourceUrl": "https://www.starterstory.com/stories/opslyft",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "云成本管理SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/opslyft",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2171,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

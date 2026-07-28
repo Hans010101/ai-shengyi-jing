@@ -122,47 +122,34 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ztqlpk1bw55krwnsd9eqly4enx0j",
-      "caption": "疫情中启动的体育卡和宝可梦卡买卖与评级服务公开案例主图",
-      "alt": "疫情中启动的体育卡和宝可梦卡买卖与评级服务案例图片",
+      "caption": "疫情中启动的体育卡和宝可梦卡买卖与评级服务：赚取差价和服务费",
+      "alt": "疫情中启动的体育卡和宝可梦卡买卖与评级服务：赚取差价和服务费",
       "sourceUrl": "https://www.starterstory.com/stories/tork-media-llc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/357/original/open-uri20220331-3-1jw4p6w?1648748824",
-      "caption": "疫情中启动的体育卡和宝可梦卡买卖与评级服务项目公开展示素材",
-      "alt": "tork-media-llc",
+      "caption": "疫情中启动的体育卡和宝可梦卡买卖与评级服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "疫情中启动的体育卡和宝可梦卡买卖与评级服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/tork-media-llc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "疫情中启动的体育卡和宝可梦卡买卖与评级服务项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/YXSO-wD_ZnE",
+      "watchUrl": "https://www.youtube.com/watch?v=YXSO-wD_ZnE",
+      "caption": "疫情中启动的体育卡和宝可梦卡买卖与评级服务资料中提及的视频：SNC Grading:2020 PANINI PRIZM DANIELLE HUNTER #220 GOLD #08/10 REVIEW(1645711391254)",
+      "alt": "SNC Grading:2020 PANINI PRIZM DANIELLE HUNTER #220 GOLD #08/10 REVIEW(1645711391254)",
       "sourceUrl": "https://www.starterstory.com/stories/tork-media-llc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/16yagucyhrd2c7pjvlhpidqebpr1",
-      "caption": "疫情中启动的体育卡和宝可梦卡买卖与评级服务项目公开展示素材",
-      "alt": "疫情中启动的体育卡和宝可梦卡买卖与评级服务项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/tork-media-llc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/o6z4yp2ddeyx3r2s3yyv9o9hog2k",
-      "caption": "疫情中启动的体育卡和宝可梦卡买卖与评级服务项目公开展示素材",
-      "alt": "疫情中启动的体育卡和宝可梦卡买卖与评级服务项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/tork-media-llc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/YXSO-wD_ZnE/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +164,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2254,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

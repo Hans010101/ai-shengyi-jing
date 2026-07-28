@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/6q392x3140iaxx0akcslc3bvwp7q",
-      "caption": "在线表单构建器SaaS公开案例主图",
-      "alt": "在线表单构建器SaaS案例图片",
+      "caption": "在线表单构建器SaaS：通过订阅制收费",
+      "alt": "在线表单构建器SaaS：通过订阅制收费",
       "sourceUrl": "https://www.starterstory.com/stories/paperform",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/841/original/open-uri20220603-12-je2q9l?1654235459",
-      "caption": "在线表单构建器SaaS项目公开展示素材",
-      "alt": "paperform",
+      "caption": "在线表单构建器SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "在线表单构建器SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/paperform",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/842/original/open-uri20220603-12-10za9h0?1654235460",
-      "caption": "在线表单构建器SaaS项目公开展示素材",
-      "alt": "paperform",
+      "caption": "在线表单构建器SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "在线表单构建器SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/paperform",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/843/original/open-uri20220603-12-oy60cd?1654235462",
-      "caption": "在线表单构建器SaaS项目公开展示素材",
-      "alt": "paperform",
+      "caption": "在线表单构建器SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "在线表单构建器SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/paperform",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/844/original/open-uri20220603-12-m5eacj?1654235462",
-      "caption": "在线表单构建器SaaS项目公开展示素材",
-      "alt": "paperform",
-      "sourceUrl": "https://www.starterstory.com/stories/paperform",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2223,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

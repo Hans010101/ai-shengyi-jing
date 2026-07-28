@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/2vlohqsblsu2al8fh8ryd46a3g94",
-      "caption": "AI管理订阅账单公开案例主图",
-      "alt": "AI管理订阅账单案例图片",
+      "caption": "AI管理订阅账单：帮用户省钱并抽成",
+      "alt": "AI管理订阅账单：帮用户省钱并抽成",
       "sourceUrl": "https://www.starterstory.com/stories/i-created-a-tool-to-stop-paying-subscriptions-after-free-trials-end",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/409/original/open-uri20211020-3-1ubmqye?1634744208",
-      "caption": "AI管理订阅账单项目公开展示素材",
-      "alt": "i-created-a-tool-to-stop-paying-subscriptions-after-free-trials-end",
+      "caption": "AI管理订阅账单：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI管理订阅账单：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-created-a-tool-to-stop-paying-subscriptions-after-free-trials-end",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/410/original/open-uri20211020-3-155w34r?1634744209",
-      "caption": "AI管理订阅账单项目公开展示素材",
-      "alt": "i-created-a-tool-to-stop-paying-subscriptions-after-free-trials-end",
+      "caption": "AI管理订阅账单：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "AI管理订阅账单：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-created-a-tool-to-stop-paying-subscriptions-after-free-trials-end",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI管理订阅账单项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/i-created-a-tool-to-stop-paying-subscriptions-after-free-trials-end",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/dqber83uqxx9ccmb6o59c45ppu0a",
-      "caption": "AI管理订阅账单项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/i-created-a-tool-to-stop-paying-subscriptions-after-free-trials-end",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2203,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

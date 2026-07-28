@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/i1zegg0f4f0i0i8b3apa571wce33",
-      "caption": "海外其他项目公开案例主图",
-      "alt": "海外其他项目案例图片",
+      "caption": "海外其他项目：通过Instagram猫咪社区引流，卖猫咪主题商品和会员",
+      "alt": "海外其他项目：通过Instagram猫咪社区引流，卖猫咪主题商品和会员",
       "sourceUrl": "https://www.starterstory.com/stories/catsiverse",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/497/original/open-uri20220908-25-le5xi1?1662616913",
-      "caption": "海外其他项目项目公开展示素材",
-      "alt": "catsiverse",
+      "caption": "海外其他项目：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "海外其他项目：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/catsiverse",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/498/original/open-uri20220908-25-2igf4f?1662616914",
-      "caption": "海外其他项目项目公开展示素材",
-      "alt": "catsiverse",
+      "caption": "海外其他项目：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "海外其他项目：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/catsiverse",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/499/original/open-uri20220908-25-d28xlu?1662616916",
-      "caption": "海外其他项目项目公开展示素材",
-      "alt": "catsiverse",
+      "caption": "海外其他项目：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "海外其他项目：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/catsiverse",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/500/original/open-uri20220908-25-1pgth55?1662616917",
-      "caption": "海外其他项目项目公开展示素材",
-      "alt": "catsiverse",
-      "sourceUrl": "https://www.starterstory.com/stories/catsiverse",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2228,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

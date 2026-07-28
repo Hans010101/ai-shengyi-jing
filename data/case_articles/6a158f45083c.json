@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/91y44nzvdvu0raftank7higxhm6v",
-      "caption": "B2B测试运维平台公开案例主图",
-      "alt": "B2B测试运维平台案例图片",
+      "caption": "B2B测试运维平台：通过订阅制SaaS收费",
+      "alt": "B2B测试运维平台：通过订阅制SaaS收费",
       "sourceUrl": "https://www.starterstory.com/stories/qase-d0d5b9e1-33c3-45cc-a5fe-a7b0f6150df7",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/333/original/open-uri20230222-63-1yys2jr?1677068600",
-      "caption": "B2B测试运维平台项目公开展示素材",
-      "alt": "qase-d0d5b9e1-33c3-45cc-a5fe-a7b0f6150df7",
+      "caption": "B2B测试运维平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "B2B测试运维平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/qase-d0d5b9e1-33c3-45cc-a5fe-a7b0f6150df7",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/334/original/open-uri20230222-63-jqovjs?1677068601",
-      "caption": "B2B测试运维平台项目公开展示素材",
-      "alt": "qase-d0d5b9e1-33c3-45cc-a5fe-a7b0f6150df7",
+      "caption": "B2B测试运维平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "B2B测试运维平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/qase-d0d5b9e1-33c3-45cc-a5fe-a7b0f6150df7",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/335/original/open-uri20230222-63-ewsm9b?1677068602",
-      "caption": "B2B测试运维平台项目公开展示素材",
-      "alt": "qase-d0d5b9e1-33c3-45cc-a5fe-a7b0f6150df7",
+      "caption": "B2B测试运维平台：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "B2B测试运维平台：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/qase-d0d5b9e1-33c3-45cc-a5fe-a7b0f6150df7",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/336/original/open-uri20230222-63-e2quai?1677068602",
-      "caption": "B2B测试运维平台项目公开展示素材",
-      "alt": "qase-d0d5b9e1-33c3-45cc-a5fe-a7b0f6150df7",
-      "sourceUrl": "https://www.starterstory.com/stories/qase-d0d5b9e1-33c3-45cc-a5fe-a7b0f6150df7",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2165,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

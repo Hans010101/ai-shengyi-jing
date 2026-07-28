@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/i2kb08he27pai9gw0x4rljp2zdst",
-      "caption": "网红营销平台公开案例主图",
-      "alt": "网红营销平台案例图片",
+      "caption": "网红营销平台：帮品牌找KOL，按订阅收费",
+      "alt": "网红营销平台：帮品牌找KOL，按订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-an-influencer-marketing-platform",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/506/original/open-uri20210903-3-iejf5l?1630696654",
-      "caption": "网红营销平台项目公开展示素材",
-      "alt": "how-i-started-an-influencer-marketing-platform",
+      "caption": "网红营销平台：产品上线与首次发布相关原始配图",
+      "alt": "网红营销平台：产品上线与首次发布相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-an-influencer-marketing-platform",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/507/original/open-uri20210903-3-1o7wowz?1630696655",
-      "caption": "网红营销平台项目公开展示素材",
-      "alt": "how-i-started-an-influencer-marketing-platform",
+      "caption": "网红营销平台：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "网红营销平台：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-an-influencer-marketing-platform",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/508/original/data?1630696656",
-      "caption": "网红营销平台项目公开展示素材",
-      "alt": "how-i-started-an-influencer-marketing-platform",
+      "caption": "网红营销平台：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "网红营销平台：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-an-influencer-marketing-platform",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "网红营销平台项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/KEVC74jbKE0",
+      "watchUrl": "https://www.youtube.com/watch?v=KEVC74jbKE0",
+      "caption": "网红营销平台：创始人、核心产品与品牌起点相关视频",
+      "alt": "网红营销平台相关视频",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-an-influencer-marketing-platform",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/KEVC74jbKE0/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

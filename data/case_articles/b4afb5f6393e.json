@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/6wa02hjvg3ilmv5xp5kvwitcr2ws",
-      "caption": "棒球主题订阅盒公开案例主图",
-      "alt": "棒球主题订阅盒案例图片",
+      "caption": "棒球主题订阅盒：按月付费销售棒球装备和训练用品",
+      "alt": "棒球主题订阅盒：按月付费销售棒球装备和训练用品",
       "sourceUrl": "https://www.starterstory.com/stories/plate-crate",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/789/original/open-uri20220727-24-u5hjr4?1658922188",
-      "caption": "棒球主题订阅盒项目公开展示素材",
-      "alt": "plate-crate",
+      "caption": "棒球主题订阅盒：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "棒球主题订阅盒：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/plate-crate",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/790/original/open-uri20220727-24-5w6fpx?1658922191",
-      "caption": "棒球主题订阅盒项目公开展示素材",
-      "alt": "plate-crate",
+      "caption": "棒球主题订阅盒：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "棒球主题订阅盒：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/plate-crate",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/791/original/open-uri20220727-24-14xv9y1?1658922192",
-      "caption": "棒球主题订阅盒项目公开展示素材",
-      "alt": "plate-crate",
+      "caption": "棒球主题订阅盒：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "棒球主题订阅盒：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/plate-crate",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/792/original/open-uri20220727-24-wxr557?1658922194",
-      "caption": "棒球主题订阅盒项目公开展示素材",
-      "alt": "plate-crate",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/8HTilfs2DDQ",
+      "watchUrl": "https://www.youtube.com/watch?v=8HTilfs2DDQ",
+      "caption": "棒球主题订阅盒资料中提及的视频：CRAZY Baseball Mom Buys Kid HUGE Gift! (Parents React)",
+      "alt": "CRAZY Baseball Mom Buys Kid HUGE Gift! (Parents React)",
       "sourceUrl": "https://www.starterstory.com/stories/plate-crate",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/8HTilfs2DDQ/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

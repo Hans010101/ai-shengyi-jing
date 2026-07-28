@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/kqv2ucx336v1zel24cj1c8idqlna",
-      "caption": "海外AI工具项目公开案例主图",
-      "alt": "海外AI工具项目案例图片",
+      "caption": "海外AI工具项目：通过Facebook广告和SEO为小企业提供网站设计和营销服务，月入$20K",
+      "alt": "海外AI工具项目：通过Facebook广告和SEO为小企业提供网站设计和营销服务，月入$20K",
       "sourceUrl": "https://www.starterstory.com/stories/up-and-social",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/822/original/open-uri20220415-12-1q5twjg?1650027425",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "up-and-social",
+      "caption": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/up-and-social",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/up-and-social",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "海外AI工具项目项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/up-and-social",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/dvithrg7zcn51mk81s7sw6btbew2",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "海外AI工具项目项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/up-and-social",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2254,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

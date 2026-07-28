@@ -122,47 +122,44 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/wltp2uwfxv3bhbyaqzewzawprfns",
-      "caption": "舞蹈博主公开案例主图",
-      "alt": "舞蹈博主案例图片",
+      "caption": "舞蹈博主：通过合作舞团扩大受众，靠广告和赞助变现",
+      "alt": "舞蹈博主：通过合作舞团扩大受众，靠广告和赞助变现",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-partnered-with-dance-organizations-to-grow-reach-a-larger-audience",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/331/original/open-uri20220218-3-1hwxgs4?1645214478",
-      "caption": "舞蹈博主项目公开展示素材",
-      "alt": "how-i-resume-my-dance-training",
+      "caption": "舞蹈博主：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "舞蹈博主：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-partnered-with-dance-organizations-to-grow-reach-a-larger-audience",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/332/original/open-uri20220218-3-ogzqen?1645214478",
-      "caption": "舞蹈博主项目公开展示素材",
-      "alt": "how-i-resume-my-dance-training",
+      "caption": "舞蹈博主：创业复盘与关键经验相关原始配图（第2张）",
+      "alt": "舞蹈博主：创业复盘与关键经验相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-partnered-with-dance-organizations-to-grow-reach-a-larger-audience",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "舞蹈博主项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/QtHmkgqXSSs",
+      "watchUrl": "https://www.youtube.com/watch?v=QtHmkgqXSSs",
+      "caption": "舞蹈博主资料中提及的视频：FADS Virtual Spotlight 2020 - If I Only Had a Brain",
+      "alt": "FADS Virtual Spotlight 2020 - If I Only Had a Brain",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-partnered-with-dance-organizations-to-grow-reach-a-larger-audience",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "舞蹈博主项目公开展示素材",
-      "alt": "舞蹈博主项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-partnered-with-dance-organizations-to-grow-reach-a-larger-audience",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/QtHmkgqXSSs/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +174,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2141,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

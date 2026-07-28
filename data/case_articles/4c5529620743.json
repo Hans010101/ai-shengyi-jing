@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/aumma6gra45t7pkww0psbhk7vxro",
-      "caption": "独立开发者公开案例主图",
-      "alt": "独立开发者案例图片",
+      "caption": "独立开发者：通过Web开发代理和SaaS产品实现月入1万美元",
+      "alt": "独立开发者：通过Web开发代理和SaaS产品实现月入1万美元",
       "sourceUrl": "https://www.starterstory.com/stories/leave-me-alone-112a9391-3d89-4f1e-97c1-5f59ecf411fa",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/155/original/open-uri20230215-63-yapwi1?1676464141",
-      "caption": "独立开发者项目公开展示素材",
-      "alt": "leave-me-alone-112a9391-3d89-4f1e-97c1-5f59ecf411fa",
+      "caption": "独立开发者：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "独立开发者：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/leave-me-alone-112a9391-3d89-4f1e-97c1-5f59ecf411fa",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/156/original/open-uri20230215-63-1a6kf5h?1676464143",
-      "caption": "独立开发者项目公开展示素材",
-      "alt": "leave-me-alone-112a9391-3d89-4f1e-97c1-5f59ecf411fa",
+      "caption": "独立开发者：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "独立开发者：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/leave-me-alone-112a9391-3d89-4f1e-97c1-5f59ecf411fa",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/157/original/open-uri20230215-63-1buq5ji?1676464145",
-      "caption": "独立开发者项目公开展示素材",
-      "alt": "leave-me-alone-112a9391-3d89-4f1e-97c1-5f59ecf411fa",
+      "caption": "独立开发者：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "独立开发者：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/leave-me-alone-112a9391-3d89-4f1e-97c1-5f59ecf411fa",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/158/original/open-uri20230215-63-1aurnzv?1676464145",
-      "caption": "独立开发者项目公开展示素材",
-      "alt": "leave-me-alone-112a9391-3d89-4f1e-97c1-5f59ecf411fa",
-      "sourceUrl": "https://www.starterstory.com/stories/leave-me-alone-112a9391-3d89-4f1e-97c1-5f59ecf411fa",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2217,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

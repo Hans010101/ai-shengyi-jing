@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/gkw5hkyxmqz9j39cz8hbms9xzw1p",
-      "caption": "用AI辅助的市场调研代理公开案例主图",
-      "alt": "用AI辅助的市场调研代理案例图片",
+      "caption": "用AI辅助的市场调研代理：为客户提供客户洞察并收取月费",
+      "alt": "用AI辅助的市场调研代理：为客户提供客户洞察并收取月费",
       "sourceUrl": "https://www.starterstory.com/stories/deep-research",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/266/original/open-uri20231117-48-zyf6my?1700225233",
-      "caption": "用AI辅助的市场调研代理项目公开展示素材",
-      "alt": "deep-research",
+      "caption": "用AI辅助的市场调研代理：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "用AI辅助的市场调研代理：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/deep-research",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/267/original/open-uri20231117-48-iuy18p?1700225234",
-      "caption": "用AI辅助的市场调研代理项目公开展示素材",
-      "alt": "deep-research",
+      "caption": "用AI辅助的市场调研代理：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "用AI辅助的市场调研代理：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/deep-research",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/268/original/open-uri20231117-48-1fdbh9?1700225234",
-      "caption": "用AI辅助的市场调研代理项目公开展示素材",
-      "alt": "deep-research",
+      "caption": "用AI辅助的市场调研代理：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "用AI辅助的市场调研代理：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/deep-research",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/269/original/open-uri20231117-48-1fk9kz3?1700225235",
-      "caption": "用AI辅助的市场调研代理项目公开展示素材",
-      "alt": "deep-research",
-      "sourceUrl": "https://www.starterstory.com/stories/deep-research",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2249,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

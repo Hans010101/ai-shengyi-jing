@@ -122,56 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/8oqc3kyk4fm422fjlqkd1opool90",
-      "caption": "美国夫妻店公开案例主图",
-      "alt": "美国夫妻店案例图片",
+      "caption": "美国夫妻店：通过线上线下结合销售CBD产品，年增长30%",
+      "alt": "美国夫妻店：通过线上线下结合销售CBD产品，年增长30%",
       "sourceUrl": "https://www.starterstory.com/stories/cbd-store-of-michigan",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/753/original/open-uri20220915-12-obooi3?1663245997",
-      "caption": "美国夫妻店项目公开展示素材",
-      "alt": "cbd-store-of-michigan",
+      "caption": "美国夫妻店：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "美国夫妻店：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/cbd-store-of-michigan",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/754/original/open-uri20220915-12-1fwg178?1663245998",
-      "caption": "美国夫妻店项目公开展示素材",
-      "alt": "cbd-store-of-michigan",
+      "caption": "美国夫妻店：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "美国夫妻店：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/cbd-store-of-michigan",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "美国夫妻店项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/cbd-store-of-michigan",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/xqjkao8aw5fnm5ipbnwezk83k24h",
-      "caption": "美国夫妻店项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/cbd-store-of-michigan",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/tj42g86711caswgumbh4ipp0za58",
-      "caption": "美国夫妻店项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/cbd-store-of-michigan",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2139,
-    "mediaCount": 6
+    "mediaCount": 3
   }
 }

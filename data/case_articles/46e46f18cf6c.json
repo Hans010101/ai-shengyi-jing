@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/sqigbka917gepm325dbqoyy9xjw4",
-      "caption": "免费音效库Freemium模式公开案例主图",
-      "alt": "免费音效库Freemium模式案例图片",
+      "caption": "免费音效库Freemium模式：靠付费订阅和授权赚钱",
+      "alt": "免费音效库Freemium模式：靠付费订阅和授权赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/on-creating-a-website-for-free-sound-effects-and-music-online-with-1-7m-members",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/339/original/open-uri20220220-3-1q3zu1c?1645364676",
-      "caption": "免费音效库Freemium模式项目公开展示素材",
-      "alt": "on-creating-a-website-for-free-sound-effects-and-music-online-with-1-7m-members",
+      "caption": "免费音效库Freemium模式：原始案例中的产品与运营配图（第1张）",
+      "alt": "免费音效库Freemium模式：原始案例中的产品与运营配图（第1张）",
       "sourceUrl": "https://www.starterstory.com/stories/on-creating-a-website-for-free-sound-effects-and-music-online-with-1-7m-members",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/340/original/open-uri20220220-3-16h7nyv?1645364677",
-      "caption": "免费音效库Freemium模式项目公开展示素材",
-      "alt": "on-creating-a-website-for-free-sound-effects-and-music-online-with-1-7m-members",
+      "caption": "免费音效库Freemium模式：原始案例中的产品与运营配图（第2张）",
+      "alt": "免费音效库Freemium模式：原始案例中的产品与运营配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/on-creating-a-website-for-free-sound-effects-and-music-online-with-1-7m-members",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "免费音效库Freemium模式项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/on-creating-a-website-for-free-sound-effects-and-music-online-with-1-7m-members",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/203twfnl4n6zvwfd5gv9agea6h42",
-      "caption": "免费音效库Freemium模式项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/on-creating-a-website-for-free-sound-effects-and-music-online-with-1-7m-members",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2235,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

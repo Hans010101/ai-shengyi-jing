@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/6jbhk65f1f1x57rf8ajlngtsc8pi",
-      "caption": "宠物上门服务公开案例主图",
-      "alt": "宠物上门服务案例图片",
+      "caption": "宠物上门服务：通过预约和会员制收费",
+      "alt": "宠物上门服务：通过预约和会员制收费",
       "sourceUrl": "https://www.starterstory.com/stories/hands-n-paws",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/045/original/open-uri20220320-3-1s0s8iy?1647804759",
-      "caption": "宠物上门服务项目公开展示素材",
-      "alt": "hands-n-paws",
+      "caption": "宠物上门服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "宠物上门服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/hands-n-paws",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "宠物上门服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/hands-n-paws",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/494djw67dh2a5d4hk1j7rbnpfb28",
-      "caption": "宠物上门服务项目公开展示素材",
-      "alt": "宠物上门服务项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/hands-n-paws",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/kixuym0yjeyltse3cgk41unywwkf",
-      "caption": "宠物上门服务项目公开展示素材",
-      "alt": "宠物上门服务项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/hands-n-paws",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2150,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

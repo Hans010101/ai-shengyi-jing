@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/m50my1msvq50kec9myudpyzka236",
-      "caption": "健身房SaaS管理系统公开案例主图",
-      "alt": "健身房SaaS管理系统案例图片",
+      "caption": "健身房SaaS管理系统：通过订阅费盈利",
+      "alt": "健身房SaaS管理系统：通过订阅费盈利",
       "sourceUrl": "https://www.starterstory.com/stories/pushpress",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/977/original/open-uri20220317-3-e50xk3?1647546502",
-      "caption": "健身房SaaS管理系统项目公开展示素材",
-      "alt": "pushpress",
+      "caption": "健身房SaaS管理系统：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "健身房SaaS管理系统：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/pushpress",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/978/original/open-uri20220317-3-ipu9ks?1647546503",
-      "caption": "健身房SaaS管理系统项目公开展示素材",
-      "alt": "pushpress",
+      "caption": "健身房SaaS管理系统：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "健身房SaaS管理系统：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/pushpress",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "健身房SaaS管理系统项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/pushpress",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/gexjagbbg9q0oyutlgvbtwn4lgys",
-      "caption": "健身房SaaS管理系统项目公开展示素材",
-      "alt": "健身房SaaS管理系统项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/pushpress",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2230,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

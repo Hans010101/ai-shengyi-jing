@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/7q77h1hnfevr62k9c0hcpke5m775",
-      "caption": "超级生产力应用公开案例主图",
-      "alt": "超级生产力应用案例图片",
+      "caption": "超级生产力应用：通过订阅制赚钱",
+      "alt": "超级生产力应用：通过订阅制赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-re-building-a-super-fast-productivity-app-got-into-yc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/078/original/open-uri20210812-3-19u5m90?1628779009",
-      "caption": "超级生产力应用项目公开展示素材",
-      "alt": "how-we-re-building-a-super-fast-productivity-app-got-into-yc",
+      "caption": "超级生产力应用：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "超级生产力应用：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-re-building-a-super-fast-productivity-app-got-into-yc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/079/original/open-uri20210812-3-53kpcq?1628779010",
-      "caption": "超级生产力应用项目公开展示素材",
-      "alt": "how-we-re-building-a-super-fast-productivity-app-got-into-yc",
+      "caption": "超级生产力应用：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "超级生产力应用：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-re-building-a-super-fast-productivity-app-got-into-yc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/080/original/open-uri20210812-3-i55n1f?1628779012",
-      "caption": "超级生产力应用项目公开展示素材",
-      "alt": "how-we-re-building-a-super-fast-productivity-app-got-into-yc",
+      "caption": "超级生产力应用：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "超级生产力应用：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-re-building-a-super-fast-productivity-app-got-into-yc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/081/original/open-uri20210812-3-uui48g?1628779013",
-      "caption": "超级生产力应用项目公开展示素材",
-      "alt": "how-we-re-building-a-super-fast-productivity-app-got-into-yc",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-re-building-a-super-fast-productivity-app-got-into-yc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2165,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

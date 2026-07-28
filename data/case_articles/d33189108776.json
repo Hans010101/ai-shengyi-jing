@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/45pln3gsbfamdnqtzmol4uyjwpeg",
-      "caption": "外包移动和网页应用开发公开案例主图",
-      "alt": "外包移动和网页应用开发案例图片",
+      "caption": "外包移动和网页应用开发：通过项目收费和订阅服务盈利",
+      "alt": "外包移动和网页应用开发：通过项目收费和订阅服务盈利",
       "sourceUrl": "https://www.starterstory.com/stories/wolfpack-digital-88de68c5-be24-43ea-91a5-f1d18abd0013",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/412/original/open-uri20230304-52-1oj07qw?1677960049",
-      "caption": "外包移动和网页应用开发项目公开展示素材",
-      "alt": "wolfpack-digital-88de68c5-be24-43ea-91a5-f1d18abd0013",
+      "caption": "外包移动和网页应用开发：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "外包移动和网页应用开发：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/wolfpack-digital-88de68c5-be24-43ea-91a5-f1d18abd0013",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/413/original/open-uri20230304-52-amymoz?1677960050",
-      "caption": "外包移动和网页应用开发项目公开展示素材",
-      "alt": "wolfpack-digital-88de68c5-be24-43ea-91a5-f1d18abd0013",
+      "caption": "外包移动和网页应用开发：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "外包移动和网页应用开发：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/wolfpack-digital-88de68c5-be24-43ea-91a5-f1d18abd0013",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "外包移动和网页应用开发项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/wolfpack-digital-88de68c5-be24-43ea-91a5-f1d18abd0013",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ptba69qdqz5xolsqmn7r1j2oyaqo",
-      "caption": "外包移动和网页应用开发项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/wolfpack-digital-88de68c5-be24-43ea-91a5-f1d18abd0013",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2240,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

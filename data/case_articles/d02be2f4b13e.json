@@ -122,75 +122,53 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/u4jy52bjefhq2tpmk5rymhifhm3d",
-      "caption": "CBD保健品电商公开案例主图",
-      "alt": "CBD保健品电商案例图片",
+      "caption": "CBD保健品电商：通过订阅制+内容营销实现月营收22万美元",
+      "alt": "CBD保健品电商：通过订阅制+内容营销实现月营收22万美元",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-re-focusing-on-long-term-marketing-and-measurable-channels",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/006/576/original/open-uri20200610-4-m5cnr2?1591829742",
-      "caption": "CBD保健品电商项目公开展示素材",
-      "alt": "how-we-focus-on-a-long-term-marketing-and-measurable-channels",
+      "caption": "CBD保健品电商：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "CBD保健品电商：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-re-focusing-on-long-term-marketing-and-measurable-channels",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/006/577/original/open-uri20200610-4-11uk8z2?1591829742",
-      "caption": "CBD保健品电商项目公开展示素材",
-      "alt": "how-we-focus-on-a-long-term-marketing-and-measurable-channels",
+      "caption": "CBD保健品电商：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "CBD保健品电商：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-re-focusing-on-long-term-marketing-and-measurable-channels",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/006/578/original/open-uri20200610-4-1w67zyv?1591829742",
-      "caption": "CBD保健品电商项目公开展示素材",
-      "alt": "how-we-focus-on-a-long-term-marketing-and-measurable-channels",
+      "caption": "CBD保健品电商：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "CBD保健品电商：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-re-focusing-on-long-term-marketing-and-measurable-channels",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/006/579/original/open-uri20200610-4-11ct7bx?1591829742",
-      "caption": "CBD保健品电商项目公开展示素材",
-      "alt": "how-we-focus-on-a-long-term-marketing-and-measurable-channels",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-re-focusing-on-long-term-marketing-and-measurable-channels",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/006/580/original/open-uri20200610-4-1amjy6a?1591829742",
-      "caption": "CBD保健品电商项目公开展示素材",
-      "alt": "how-we-focus-on-a-long-term-marketing-and-measurable-channels",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-re-focusing-on-long-term-marketing-and-measurable-channels",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/vIea19q8ARA",
-      "caption": "CBD保健品电商项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=vIea19q8ARA",
+      "caption": "CBD保健品电商：创始人、核心产品与品牌起点相关视频",
+      "alt": "CBD保健品电商相关视频",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-re-focusing-on-long-term-marketing-and-measurable-channels",
       "origin": "embeddable-video",
-      "poster": "",
-      "usage": ""
-    },
-    {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/luyT7sbs8IQ",
-      "caption": "CBD保健品电商项目相关公开视频",
-      "alt": "",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-re-focusing-on-long-term-marketing-and-measurable-channels",
-      "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/vIea19q8ARA/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -206,6 +184,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2249,
-    "mediaCount": 8
+    "mediaCount": 5
   }
 }

@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/oksqtrfvwfk7tfnx26eiq967much",
-      "caption": "AI工具加速服装打样公开案例主图",
-      "alt": "AI工具加速服装打样案例图片",
+      "caption": "AI工具加速服装打样：按订阅收费",
+      "alt": "AI工具加速服装打样：按订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/six-atomic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/720/original/open-uri20220914-24-14w7i2i?1663157557",
-      "caption": "AI工具加速服装打样项目公开展示素材",
-      "alt": "six-atomic",
+      "caption": "AI工具加速服装打样：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI工具加速服装打样：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/six-atomic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/721/original/open-uri20220914-24-djg4zf?1663157557",
-      "caption": "AI工具加速服装打样项目公开展示素材",
-      "alt": "six-atomic",
+      "caption": "AI工具加速服装打样：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "AI工具加速服装打样：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/six-atomic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/722/original/open-uri20220914-24-jm1j75?1663157558",
-      "caption": "AI工具加速服装打样项目公开展示素材",
-      "alt": "six-atomic",
+      "caption": "AI工具加速服装打样：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "AI工具加速服装打样：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/six-atomic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/723/original/open-uri20220914-24-nq93st?1663157559",
-      "caption": "AI工具加速服装打样项目公开展示素材",
-      "alt": "six-atomic",
-      "sourceUrl": "https://www.starterstory.com/stories/six-atomic",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/724/original/open-uri20220914-24-yxhura?1663157560",
-      "caption": "AI工具加速服装打样项目公开展示素材",
-      "alt": "six-atomic",
-      "sourceUrl": "https://www.starterstory.com/stories/six-atomic",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2200,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

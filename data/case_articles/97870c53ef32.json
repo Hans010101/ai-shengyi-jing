@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/0eq0defh68eiq5kpvoepvqhwmcg2",
-      "caption": "AI语音合成翻译服务公开案例主图",
-      "alt": "AI语音合成翻译服务案例图片",
+      "caption": "AI语音合成翻译服务：按分钟收费",
+      "alt": "AI语音合成翻译服务：按分钟收费",
       "sourceUrl": "https://www.starterstory.com/stories/vidby",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/146/original/open-uri20230801-48-12chxmx?1690869813",
-      "caption": "AI语音合成翻译服务项目公开展示素材",
-      "alt": "vidby",
+      "caption": "AI语音合成翻译服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI语音合成翻译服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/vidby",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/147/original/open-uri20230801-48-w6qpkk?1690869813",
-      "caption": "AI语音合成翻译服务项目公开展示素材",
-      "alt": "vidby",
+      "caption": "AI语音合成翻译服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI语音合成翻译服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/vidby",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/148/original/open-uri20230801-48-13bx31?1690869814",
-      "caption": "AI语音合成翻译服务项目公开展示素材",
-      "alt": "vidby",
+      "caption": "AI语音合成翻译服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "AI语音合成翻译服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/vidby",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/149/original/open-uri20230801-48-kt4rq7?1690869815",
-      "caption": "AI语音合成翻译服务项目公开展示素材",
-      "alt": "vidby",
-      "sourceUrl": "https://www.starterstory.com/stories/vidby",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2206,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

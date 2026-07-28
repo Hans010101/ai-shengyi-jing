@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/fh3nc0h4b94bf7vijubahawe3wk7",
-      "caption": "AI驱动的利基工具公开案例主图",
-      "alt": "AI驱动的利基工具案例图片",
+      "caption": "AI驱动的利基工具：通过订阅制获取收入",
+      "alt": "AI驱动的利基工具：通过订阅制获取收入",
       "sourceUrl": "https://www.starterstory.com/businesses/kommodo",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI驱动的利基工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/kommodo",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ofvooj4quh4s8dag6f4bzuahjeoh",
-      "caption": "AI驱动的利基工具项目公开展示素材",
-      "alt": "Kommodo logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/kommodo",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/s6xqhricq7m01f16i8jp5jcy7kgn/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "AI驱动的利基工具项目公开展示素材",
-      "alt": "Harry Brodsky",
-      "sourceUrl": "https://www.starterstory.com/businesses/kommodo",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/wf05fi78r3bkadjpbwhtkha8hem6/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "AI驱动的利基工具项目公开展示素材",
-      "alt": "Stripe",
-      "sourceUrl": "https://www.starterstory.com/businesses/kommodo",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2170,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

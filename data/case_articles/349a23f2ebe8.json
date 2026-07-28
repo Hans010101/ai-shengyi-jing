@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/hweq363ukeezriv1um4z49rcf0g8",
-      "caption": "非营利组织公开案例主图",
-      "alt": "非营利组织案例图片",
+      "caption": "非营利组织：通过游戏行业合作造林，靠企业赞助和捐赠盈利",
+      "alt": "非营利组织：通过游戏行业合作造林，靠企业赞助和捐赠盈利",
       "sourceUrl": "https://www.starterstory.com/stories/gamesforest-club",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/903/original/open-uri20230118-24-18ypuvz?1674047484",
-      "caption": "非营利组织项目公开展示素材",
-      "alt": "gamesforest-club",
+      "caption": "非营利组织：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "非营利组织：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/gamesforest-club",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "非营利组织项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/gamesforest-club",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "非营利组织项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/gamesforest-club",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/1s7m5fyj6w1je4ry8bo80hv3i7n3",
-      "caption": "非营利组织项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/gamesforest-club",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2157,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

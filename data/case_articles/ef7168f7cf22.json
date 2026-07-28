@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/z6b22vagjpqezlhavycpia9idfot",
-      "caption": "在线旅行社公开案例主图",
-      "alt": "在线旅行社案例图片",
+      "caption": "在线旅行社：提供个性化旅行规划服务，赚取佣金和服务费",
+      "alt": "在线旅行社：提供个性化旅行规划服务，赚取佣金和服务费",
       "sourceUrl": "https://www.starterstory.com/stories/spread-your-wings-travel",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/079/original/open-uri20230422-63-11ytrjy?1682144197",
-      "caption": "在线旅行社项目公开展示素材",
-      "alt": "spread-your-wings-travel",
+      "caption": "在线旅行社：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "在线旅行社：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/spread-your-wings-travel",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/080/original/open-uri20230422-63-1gb1ow1?1682144197",
-      "caption": "在线旅行社项目公开展示素材",
-      "alt": "spread-your-wings-travel",
+      "caption": "在线旅行社：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "在线旅行社：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/spread-your-wings-travel",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/081/original/open-uri20230422-63-18hfwp6?1682144198",
-      "caption": "在线旅行社项目公开展示素材",
-      "alt": "spread-your-wings-travel",
+      "caption": "在线旅行社：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "在线旅行社：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/spread-your-wings-travel",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/082/original/open-uri20230422-63-1v54cbl?1682144199",
-      "caption": "在线旅行社项目公开展示素材",
-      "alt": "spread-your-wings-travel",
-      "sourceUrl": "https://www.starterstory.com/stories/spread-your-wings-travel",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2192,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

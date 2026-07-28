@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/v9h01o07vc25dbguvh8f9wxbiy5o",
-      "caption": "收购并改造老旧公寓公开案例主图",
-      "alt": "收购并改造老旧公寓案例图片",
+      "caption": "收购并改造老旧公寓：通过提升运营效率和租金实现价值增长",
+      "alt": "收购并改造老旧公寓：通过提升运营效率和租金实现价值增长",
       "sourceUrl": "https://www.starterstory.com/stories/yarusi-holdings",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/283/original/open-uri20221123-12-a0942s?1669207133",
-      "caption": "收购并改造老旧公寓项目公开展示素材",
-      "alt": "yarusi-holdings",
+      "caption": "收购并改造老旧公寓：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "收购并改造老旧公寓：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/yarusi-holdings",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "收购并改造老旧公寓项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/yarusi-holdings",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/b1c2y6hwa8kw4mxxjhgn4emktthw",
-      "caption": "收购并改造老旧公寓项目公开展示素材",
-      "alt": "收购并改造老旧公寓项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/yarusi-holdings",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/5vazmbfzy7yykobcxja965albeax",
-      "caption": "收购并改造老旧公寓项目公开展示素材",
-      "alt": "收购并改造老旧公寓项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/yarusi-holdings",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2219,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

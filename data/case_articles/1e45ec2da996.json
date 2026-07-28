@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/9s0ajdvbnjeozi9qd6zgd66ur1d4",
-      "caption": "视频制作公司为加盟品牌提供获客视频公开案例主图",
-      "alt": "视频制作公司为加盟品牌提供获客视频案例图片",
+      "caption": "视频制作公司为加盟品牌提供获客视频：月入8万美元",
+      "alt": "视频制作公司为加盟品牌提供获客视频：月入8万美元",
       "sourceUrl": "https://www.starterstory.com/stories/franchisefilming",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/389/original/open-uri20230227-63-be2io3?1677515027",
-      "caption": "视频制作公司为加盟品牌提供获客视频项目公开展示素材",
-      "alt": "franchisefilming",
+      "caption": "视频制作公司为加盟品牌提供获客视频：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "视频制作公司为加盟品牌提供获客视频：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/franchisefilming",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "视频制作公司为加盟品牌提供获客视频项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/franchisefilming",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/2r0bmvunp6hplaeyu1t5rm1lcgma",
-      "caption": "视频制作公司为加盟品牌提供获客视频项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/franchisefilming",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/fwzexd2q2v44wil12m5gvw4w4uti",
-      "caption": "视频制作公司为加盟品牌提供获客视频项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/franchisefilming",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2224,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

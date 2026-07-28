@@ -122,56 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/g4p7fcu7932tjq1yjjq2d6n2an23",
-      "caption": "统一社交媒体发布API工具公开案例主图",
-      "alt": "统一社交媒体发布API工具案例图片",
+      "caption": "统一社交媒体发布API工具：按月订阅收费",
+      "alt": "统一社交媒体发布API工具：按月订阅收费",
       "sourceUrl": "https://www.starterstory.com/businesses/postforme",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "统一社交媒体发布API工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/postforme",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/bsqtzvexk6cegtbhblbgtpvv1acz",
-      "caption": "统一社交媒体发布API工具项目公开展示素材",
-      "alt": "PostForMe logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/postforme",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/1jiem19n08vksxmzk3fd72fcf4v6/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "统一社交媒体发布API工具项目公开展示素材",
-      "alt": "Caleb Panza",
-      "sourceUrl": "https://www.starterstory.com/businesses/postforme",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/vkacgai3me2unbjkakdhmi8j1qe5/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "统一社交媒体发布API工具项目公开展示素材",
-      "alt": "Google Analytics",
-      "sourceUrl": "https://www.starterstory.com/businesses/postforme",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/wf05fi78r3bkadjpbwhtkha8hem6/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "统一社交媒体发布API工具项目公开展示素材",
-      "alt": "Stripe",
-      "sourceUrl": "https://www.starterstory.com/businesses/postforme",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -186,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2242,
-    "mediaCount": 6
+    "mediaCount": 1
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/km2ymtp4ztnm23yjzuck1nrd50kf",
-      "caption": "为会计师等提供客户入职SaaS公开案例主图",
-      "alt": "为会计师等提供客户入职SaaS案例图片",
+      "caption": "为会计师等提供客户入职SaaS：月收入$1.5M",
+      "alt": "为会计师等提供客户入职SaaS：月收入$1.5M",
       "sourceUrl": "https://www.starterstory.com/stories/binderr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/982/original/open-uri20240614-48-87ot07?1718377881",
-      "caption": "为会计师等提供客户入职SaaS项目公开展示素材",
-      "alt": "binderr",
+      "caption": "为会计师等提供客户入职SaaS：创业起点与创意来源相关原始配图",
+      "alt": "为会计师等提供客户入职SaaS：创业起点与创意来源相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/binderr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/983/original/open-uri20240614-48-h3gl6m?1718377881",
-      "caption": "为会计师等提供客户入职SaaS项目公开展示素材",
-      "alt": "binderr",
+      "caption": "为会计师等提供客户入职SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "为会计师等提供客户入职SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/binderr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/984/original/open-uri20240614-48-17jv3zx?1718377884",
-      "caption": "为会计师等提供客户入职SaaS项目公开展示素材",
-      "alt": "binderr",
+      "caption": "为会计师等提供客户入职SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "为会计师等提供客户入职SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/binderr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/985/original/open-uri20240614-48-3f58lh?1718377886",
-      "caption": "为会计师等提供客户入职SaaS项目公开展示素材",
-      "alt": "binderr",
-      "sourceUrl": "https://www.starterstory.com/stories/binderr",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2215,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

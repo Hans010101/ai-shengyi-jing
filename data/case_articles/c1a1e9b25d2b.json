@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/7ywdfg9qduj0yevatr2iavpfankz",
-      "caption": "咖啡店转型DTC品牌公开案例主图",
-      "alt": "咖啡店转型DTC品牌案例图片",
+      "caption": "咖啡店转型DTC品牌：通过线上卖咖啡豆和订阅赚钱",
+      "alt": "咖啡店转型DTC品牌：通过线上卖咖啡豆和订阅赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/methodical-coffee",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/888/original/open-uri20220418-24-e673y3?1650297628",
-      "caption": "咖啡店转型DTC品牌项目公开展示素材",
-      "alt": "methodical-coffee",
+      "caption": "咖啡店转型DTC品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "咖啡店转型DTC品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/methodical-coffee",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "咖啡店转型DTC品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/methodical-coffee",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/4qcuk5ek4vrwjx1mabyuvhbzkmx9",
-      "caption": "咖啡店转型DTC品牌项目公开展示素材",
-      "alt": "咖啡店转型DTC品牌项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/methodical-coffee",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/9oum3bbciqevul6z0dzgbyerye2z",
-      "caption": "咖啡店转型DTC品牌项目公开展示素材",
-      "alt": "咖啡店转型DTC品牌项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/methodical-coffee",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2228,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

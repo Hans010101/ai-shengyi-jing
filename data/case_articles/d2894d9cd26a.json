@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/vf2d34l28x18kajwv45829dv1q87",
-      "caption": "艺术家公开案例主图",
-      "alt": "艺术家案例图片",
+      "caption": "艺术家：通过销售原创设计纸品和艺术印刷品，实现月入3K美元",
+      "alt": "艺术家：通过销售原创设计纸品和艺术印刷品，实现月入3K美元",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-built-two-successful-small-businesses-as-an-artist",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/492/original/open-uri20190429-4-1ywnwdc?1556512609",
-      "caption": "艺术家项目公开展示素材",
-      "alt": "how-i-built-two-successful-small-businesses-as-an-artist",
+      "caption": "艺术家：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "艺术家：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-built-two-successful-small-businesses-as-an-artist",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/493/original/open-uri20190429-4-1jgl9y2?1556512609",
-      "caption": "艺术家项目公开展示素材",
-      "alt": "how-i-built-two-successful-small-businesses-as-an-artist",
+      "caption": "艺术家：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "艺术家：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-built-two-successful-small-businesses-as-an-artist",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/494/original/open-uri20190429-4-ocalxs?1556512610",
-      "caption": "艺术家项目公开展示素材",
-      "alt": "how-i-built-two-successful-small-businesses-as-an-artist",
+      "caption": "艺术家：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "艺术家：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-built-two-successful-small-businesses-as-an-artist",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/495/original/open-uri20190429-4-ztr2v5?1556512611",
-      "caption": "艺术家项目公开展示素材",
-      "alt": "how-i-built-two-successful-small-businesses-as-an-artist",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-built-two-successful-small-businesses-as-an-artist",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2180,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

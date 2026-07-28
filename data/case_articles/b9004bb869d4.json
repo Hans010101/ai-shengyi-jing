@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/oylguc56yd798413cwmlh11c9gyk",
-      "caption": "数字营销代理公司公开案例主图",
-      "alt": "数字营销代理公司案例图片",
+      "caption": "数字营销代理公司：提供网站开发、设计、广告、SEO等服务月入6.5万美元",
+      "alt": "数字营销代理公司：提供网站开发、设计、广告、SEO等服务月入6.5万美元",
       "sourceUrl": "https://www.starterstory.com/stories/kairos-digital-bfad44c8-b162-42b4-99c2-5020c47f1b48",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/120/original/open-uri20230422-51-ohm4s4?1682171738",
-      "caption": "数字营销代理公司项目公开展示素材",
-      "alt": "kairos-digital-bfad44c8-b162-42b4-99c2-5020c47f1b48",
+      "caption": "数字营销代理公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "数字营销代理公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/kairos-digital-bfad44c8-b162-42b4-99c2-5020c47f1b48",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/121/original/open-uri20230422-51-5vr8sd?1682171739",
-      "caption": "数字营销代理公司项目公开展示素材",
-      "alt": "kairos-digital-bfad44c8-b162-42b4-99c2-5020c47f1b48",
+      "caption": "数字营销代理公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "数字营销代理公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/kairos-digital-bfad44c8-b162-42b4-99c2-5020c47f1b48",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "数字营销代理公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/kairos-digital-bfad44c8-b162-42b4-99c2-5020c47f1b48",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "数字营销代理公司项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/kairos-digital-bfad44c8-b162-42b4-99c2-5020c47f1b48",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2256,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

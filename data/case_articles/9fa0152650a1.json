@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/65qe9znge8eb3r9xy7bcsg25joik",
-      "caption": "海外电商/DTC项目公开案例主图",
-      "alt": "海外电商/DTC项目案例图片",
+      "caption": "海外电商/DTC项目：通过Kickstarter众筹和独立站销售高端手表与极简钱包，月入15万美元",
+      "alt": "海外电商/DTC项目：通过Kickstarter众筹和独立站销售高端手表与极简钱包，月入15万美元",
       "sourceUrl": "https://www.starterstory.com/stories/how-steven-elliot-ng-makes-150k-per-month-launching-kickstarters",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/241/original/open-uri20181101-4-14woqru?1541114374",
-      "caption": "海外电商/DTC项目项目公开展示素材",
-      "alt": "article",
+      "caption": "海外电商/DTC项目：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "海外电商/DTC项目：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-steven-elliot-ng-makes-150k-per-month-launching-kickstarters",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/242/original/open-uri20181101-4-1ey44xq?1541114375",
-      "caption": "海外电商/DTC项目项目公开展示素材",
-      "alt": "article",
+      "caption": "海外电商/DTC项目：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "海外电商/DTC项目：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-steven-elliot-ng-makes-150k-per-month-launching-kickstarters",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/243/original/open-uri20181101-4-108hjg2?1541114375",
-      "caption": "海外电商/DTC项目项目公开展示素材",
-      "alt": "article",
+      "caption": "海外电商/DTC项目：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "海外电商/DTC项目：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-steven-elliot-ng-makes-150k-per-month-launching-kickstarters",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/244/original/open-uri20181101-4-witj9?1541114376",
-      "caption": "海外电商/DTC项目项目公开展示素材",
-      "alt": "article",
-      "sourceUrl": "https://www.starterstory.com/stories/how-steven-elliot-ng-makes-150k-per-month-launching-kickstarters",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/245/original/open-uri20181101-4-18menop?1541114376",
-      "caption": "海外电商/DTC项目项目公开展示素材",
-      "alt": "article",
-      "sourceUrl": "https://www.starterstory.com/stories/how-steven-elliot-ng-makes-150k-per-month-launching-kickstarters",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2249,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

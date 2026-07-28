@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/3b150wydep75mqi0hq24qats9bul",
-      "caption": "远程求职博客公开案例主图",
-      "alt": "远程求职博客案例图片",
+      "caption": "远程求职博客：通过广告和联盟营销赚钱",
+      "alt": "远程求职博客：通过广告和联盟营销赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-built-a-13k-month-blog-helping-remote-job-seekers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/145/original/open-uri20190725-4-1trpduw?1564074744",
-      "caption": "远程求职博客项目公开展示素材",
-      "alt": "how-i-built-a-13k-month-blog-helping-remote-job-seekers",
+      "caption": "远程求职博客：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "远程求职博客：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-built-a-13k-month-blog-helping-remote-job-seekers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/146/original/open-uri20190725-4-1wcsdw0?1564074744",
-      "caption": "远程求职博客项目公开展示素材",
-      "alt": "how-i-built-a-13k-month-blog-helping-remote-job-seekers",
+      "caption": "远程求职博客：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "远程求职博客：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-built-a-13k-month-blog-helping-remote-job-seekers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "远程求职博客项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-built-a-13k-month-blog-helping-remote-job-seekers",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "远程求职博客项目公开展示素材",
-      "alt": "远程求职博客项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-built-a-13k-month-blog-helping-remote-job-seekers",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2276,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

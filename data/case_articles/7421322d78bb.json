@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/pni288o8p1cb3xown6msf1obko0t",
-      "caption": "为IT专业人士提供微软云许可和解决方案的经销商公开案例主图",
-      "alt": "为IT专业人士提供微软云许可和解决方案的经销商案例图片",
+      "caption": "为IT专业人士提供微软云许可和解决方案的经销商：通过差价和服务费盈利",
+      "alt": "为IT专业人士提供微软云许可和解决方案的经销商：通过差价和服务费盈利",
       "sourceUrl": "https://www.starterstory.com/stories/trusted-tech-team",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/026/original/open-uri20230715-60-f5gbrx?1689431884",
-      "caption": "为IT专业人士提供微软云许可和解决方案的经销商项目公开展示素材",
-      "alt": "trusted-tech-team",
+      "caption": "为IT专业人士提供微软云许可和解决方案的经销商：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为IT专业人士提供微软云许可和解决方案的经销商：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/trusted-tech-team",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/027/original/open-uri20230715-60-mcqrba?1689431885",
-      "caption": "为IT专业人士提供微软云许可和解决方案的经销商项目公开展示素材",
-      "alt": "trusted-tech-team",
+      "caption": "为IT专业人士提供微软云许可和解决方案的经销商：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "为IT专业人士提供微软云许可和解决方案的经销商：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/trusted-tech-team",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/028/original/open-uri20230715-60-1ll17ki?1689431886",
-      "caption": "为IT专业人士提供微软云许可和解决方案的经销商项目公开展示素材",
-      "alt": "trusted-tech-team",
+      "caption": "为IT专业人士提供微软云许可和解决方案的经销商：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "为IT专业人士提供微软云许可和解决方案的经销商：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/trusted-tech-team",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为IT专业人士提供微软云许可和解决方案的经销商项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/trusted-tech-team",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2177,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

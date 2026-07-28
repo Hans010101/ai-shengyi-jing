@@ -122,75 +122,59 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/br1zh5bkmwqccxaxbqu6eboua6g4",
-      "caption": "为电影制作者提供高品质特效包公开案例主图",
-      "alt": "为电影制作者提供高品质特效包案例图片",
+      "caption": "为电影制作者提供高品质特效包：按月订阅或单次销售赚钱",
+      "alt": "为电影制作者提供高品质特效包：按月订阅或单次销售赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/bigfilms",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为电影制作者提供高品质特效包项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/bigfilms",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/utlj5pvon0i4hh24ih4cbhvir37k",
-      "caption": "为电影制作者提供高品质特效包项目公开展示素材",
-      "alt": "为电影制作者提供高品质特效包项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/bigfilms",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/okckxk5ij1hggv1i12nqi6hmj296",
-      "caption": "为电影制作者提供高品质特效包项目公开展示素材",
-      "alt": "为电影制作者提供高品质特效包项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/bigfilms",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/99ksxd2nj103a83g46k5e90eng84",
-      "caption": "为电影制作者提供高品质特效包项目公开展示素材",
-      "alt": "为电影制作者提供高品质特效包项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/bigfilms",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/p21ts159h2jq9q519g25528av7yd",
-      "caption": "为电影制作者提供高品质特效包项目公开展示素材",
-      "alt": "为电影制作者提供高品质特效包项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/bigfilms",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "video",
       "url": "https://player.vimeo.com/video/328491188",
-      "caption": "为电影制作者提供高品质特效包项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://vimeo.com/328491188",
+      "caption": "为电影制作者提供高品质特效包资料中提及的视频：ASTRONAUT: A Short Film Shot in Space",
+      "alt": "ASTRONAUT: A Short Film Shot in Space",
       "sourceUrl": "https://www.starterstory.com/stories/bigfilms",
       "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.vimeocdn.com/video/773157341-370d67e26c2d28eabb5894f619f16be4795b2863cd198365964d872a648ff51d-d_640?region=us",
+      "provider": "Vimeo",
       "usage": ""
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/bCb5tYCnkHY",
-      "caption": "为电影制作者提供高品质特效包项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=bCb5tYCnkHY",
+      "caption": "为电影制作者提供高品质特效包资料中提及的视频：DESTRUCTION Pack - Create Disaster Movies",
+      "alt": "DESTRUCTION Pack - Create Disaster Movies",
       "sourceUrl": "https://www.starterstory.com/stories/bigfilms",
       "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/bCb5tYCnkHY/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/eMqM_oe1MdI",
+      "watchUrl": "https://www.youtube.com/watch?v=eMqM_oe1MdI",
+      "caption": "为电影制作者提供高品质特效包资料中提及的视频：Blockbuster Vol.2: SUPERHEROES Pack",
+      "alt": "Blockbuster Vol.2: SUPERHEROES Pack",
+      "sourceUrl": "https://www.starterstory.com/stories/bigfilms",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/eMqM_oe1MdI/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/37P6OeUfIt0",
+      "watchUrl": "https://www.youtube.com/watch?v=37P6OeUfIt0",
+      "caption": "为电影制作者提供高品质特效包资料中提及的视频：DARK MAGIC Pack",
+      "alt": "DARK MAGIC Pack",
+      "sourceUrl": "https://www.starterstory.com/stories/bigfilms",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/37P6OeUfIt0/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -206,6 +190,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2296,
-    "mediaCount": 8
+    "mediaCount": 5
   }
 }

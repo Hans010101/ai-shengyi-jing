@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/fxir2e3pdbonew0kj0c78cysa214",
-      "caption": "AI邮件营销工具公开案例主图",
-      "alt": "AI邮件营销工具案例图片",
+      "caption": "AI邮件营销工具：通过GPT生成个性化邮件，按月订阅收费",
+      "alt": "AI邮件营销工具：通过GPT生成个性化邮件，按月订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/nureply",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/438/original/open-uri20220906-12-1fdzk57?1662439716",
-      "caption": "AI邮件营销工具项目公开展示素材",
-      "alt": "nureply",
+      "caption": "AI邮件营销工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI邮件营销工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/nureply",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI邮件营销工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/nureply",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/zrtxag7ppxq3qppt9z3xiexk4tea",
-      "caption": "AI邮件营销工具项目公开展示素材",
-      "alt": "AI邮件营销工具项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/nureply",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/h9k879moc1ai77rty9qzpwkh1et1",
-      "caption": "AI邮件营销工具项目公开展示素材",
-      "alt": "AI邮件营销工具项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/nureply",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2244,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

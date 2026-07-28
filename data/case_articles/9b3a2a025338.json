@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/eikztizyd1idqhzuah0bck05bd73",
-      "caption": "收购并运营网站组合公开案例主图",
-      "alt": "收购并运营网站组合案例图片",
+      "caption": "收购并运营网站组合：通过广告和订阅变现",
+      "alt": "收购并运营网站组合：通过广告和订阅变现",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-built-a-100k-month-portfolio-of-web-based-businesses",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/871/original/open-uri20210713-3-vot2fv?1626191761",
-      "caption": "收购并运营网站组合项目公开展示素材",
-      "alt": "how-i-built-a-100k-month-portfolio-of-web-based-businesses",
+      "caption": "收购并运营网站组合：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "收购并运营网站组合：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-built-a-100k-month-portfolio-of-web-based-businesses",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/872/original/open-uri20210713-3-1hbeco0?1626191761",
-      "caption": "收购并运营网站组合项目公开展示素材",
-      "alt": "how-i-built-a-100k-month-portfolio-of-web-based-businesses",
+      "caption": "收购并运营网站组合：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "收购并运营网站组合：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-built-a-100k-month-portfolio-of-web-based-businesses",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/873/original/open-uri20210713-3-pwh24z?1626191762",
-      "caption": "收购并运营网站组合项目公开展示素材",
-      "alt": "how-i-built-a-100k-month-portfolio-of-web-based-businesses",
+      "caption": "收购并运营网站组合：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "收购并运营网站组合：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-built-a-100k-month-portfolio-of-web-based-businesses",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/874/original/open-uri20210713-3-11qtm1f?1626191762",
-      "caption": "收购并运营网站组合项目公开展示素材",
-      "alt": "how-i-built-a-100k-month-portfolio-of-web-based-businesses",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-built-a-100k-month-portfolio-of-web-based-businesses",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2195,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

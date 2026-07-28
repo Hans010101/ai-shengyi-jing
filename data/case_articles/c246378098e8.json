@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/5hgb1408hke4ycy7g6hirh6315rw",
-      "caption": "按月收费的无限设计服务公开案例主图",
-      "alt": "按月收费的无限设计服务案例图片",
+      "caption": "按月收费的无限设计服务：通过固定月费替代传统雇佣模式盈利",
+      "alt": "按月收费的无限设计服务：通过固定月费替代传统雇佣模式盈利",
       "sourceUrl": "https://www.starterstory.com/stories/design-joy-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "按月收费的无限设计服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/design-joy-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/o3vs9nbugfjgme5mph9o4f8mlao1/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "按月收费的无限设计服务项目公开展示素材",
-      "alt": "按月收费的无限设计服务项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/design-joy-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/7969903fd1472cff",
-      "caption": "按月收费的无限设计服务项目公开展示素材",
-      "alt": "article",
+      "caption": "按月收费的无限设计服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "按月收费的无限设计服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/design-joy-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cbcdaa066a5935be",
-      "caption": "按月收费的无限设计服务项目公开展示素材",
-      "alt": "article",
+      "caption": "按月收费的无限设计服务：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "按月收费的无限设计服务：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/design-joy-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/3c9e648ae66c1404",
+      "caption": "按月收费的无限设计服务：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "按月收费的无限设计服务：产品设计与早期打磨相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/design-joy-breakdown",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/Xn_pruXtu0s",
+      "watchUrl": "https://www.youtube.com/watch?v=Xn_pruXtu0s",
+      "caption": "按月收费的无限设计服务资料中提及的视频：Brett Williams of Designjoy Answers Tough Questions About His Million-Dollar Design Job | 13",
+      "alt": "Brett Williams of Designjoy Answers Tough Questions About His Million-Dollar Design Job | 13",
+      "sourceUrl": "https://www.starterstory.com/stories/design-joy-breakdown",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/Xn_pruXtu0s/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

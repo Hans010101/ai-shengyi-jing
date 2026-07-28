@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/fgib05gf6vw8nldaaao0a5k65rjv",
-      "caption": "创始人自研防脱发产品公开案例主图",
-      "alt": "创始人自研防脱发产品案例图片",
+      "caption": "创始人自研防脱发产品：通过DTC电商月入百万美元",
+      "alt": "创始人自研防脱发产品：通过DTC电商月入百万美元",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-battled-my-own-hair-loss-and-created-a-1m-product",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/289/original/open-uri20190318-4-1q6u3ll?1552890108",
-      "caption": "创始人自研防脱发产品项目公开展示素材",
-      "alt": "how-i-battled-my-own-hair-loss-and-created-a-1m-product",
+      "caption": "创始人自研防脱发产品：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "创始人自研防脱发产品：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-battled-my-own-hair-loss-and-created-a-1m-product",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/290/original/open-uri20190318-4-1svg8r7?1552890108",
-      "caption": "创始人自研防脱发产品项目公开展示素材",
-      "alt": "how-i-battled-my-own-hair-loss-and-created-a-1m-product",
+      "caption": "创始人自研防脱发产品：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "创始人自研防脱发产品：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-battled-my-own-hair-loss-and-created-a-1m-product",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/291/original/open-uri20190318-4-p0fau2?1552890109",
-      "caption": "创始人自研防脱发产品项目公开展示素材",
-      "alt": "how-i-battled-my-own-hair-loss-and-created-a-1m-product",
+      "caption": "创始人自研防脱发产品：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "创始人自研防脱发产品：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-battled-my-own-hair-loss-and-created-a-1m-product",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "创始人自研防脱发产品项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/Np0jGp6442A",
+      "watchUrl": "https://www.youtube.com/watch?v=Np0jGp6442A",
+      "caption": "创始人自研防脱发产品资料中提及的视频：Joe Rogan Experience #712 - Wim Hof",
+      "alt": "Joe Rogan Experience #712 - Wim Hof",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-battled-my-own-hair-loss-and-created-a-1m-product",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/Np0jGp6442A/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

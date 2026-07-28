@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/q8vkz43kd50pkwjuh5ic5waavp3o",
-      "caption": "SEO代理服务公开案例主图",
-      "alt": "SEO代理服务案例图片",
+      "caption": "SEO代理服务：帮企业提升搜索排名赚取服务费",
+      "alt": "SEO代理服务：帮企业提升搜索排名赚取服务费",
       "sourceUrl": "https://www.starterstory.com/stories/i-started-doing-seo-at-13-now-i-make-over-4m-year-with-it",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/587/original/open-uri20211026-3-1aqeuka?1635281668",
-      "caption": "SEO代理服务项目公开展示素材",
-      "alt": "i-started-doing-seo-at-13-now-i-make-over-4m-year-with-it",
+      "caption": "SEO代理服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "SEO代理服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-started-doing-seo-at-13-now-i-make-over-4m-year-with-it",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/588/original/open-uri20211026-3-1j18sb9?1635281669",
-      "caption": "SEO代理服务项目公开展示素材",
-      "alt": "i-started-doing-seo-at-13-now-i-make-over-4m-year-with-it",
+      "caption": "SEO代理服务：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "SEO代理服务：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-started-doing-seo-at-13-now-i-make-over-4m-year-with-it",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/589/original/open-uri20211026-3-1jgcvy2?1635281669",
-      "caption": "SEO代理服务项目公开展示素材",
-      "alt": "i-started-doing-seo-at-13-now-i-make-over-4m-year-with-it",
+      "caption": "SEO代理服务：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "SEO代理服务：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-started-doing-seo-at-13-now-i-make-over-4m-year-with-it",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/590/original/open-uri20211026-3-18j06cx?1635281670",
-      "caption": "SEO代理服务项目公开展示素材",
-      "alt": "i-started-doing-seo-at-13-now-i-make-over-4m-year-with-it",
-      "sourceUrl": "https://www.starterstory.com/stories/i-started-doing-seo-at-13-now-i-make-over-4m-year-with-it",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "SEO代理服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/i-started-doing-seo-at-13-now-i-make-over-4m-year-with-it",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2227,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/sao1z8w4a6gzy9at174ju7sifl4j",
-      "caption": "姐妹创办的AI自动化工具公开案例主图",
-      "alt": "姐妹创办的AI自动化工具案例图片",
+      "caption": "姐妹创办的AI自动化工具：帮小企业处理日常繁琐任务赚年收420万美元",
+      "alt": "姐妹创办的AI自动化工具：帮小企业处理日常繁琐任务赚年收420万美元",
       "sourceUrl": "https://www.starterstory.com/stories/bodify",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/136/original/open-uri20220814-24-1nos1jo?1660487011",
-      "caption": "姐妹创办的AI自动化工具项目公开展示素材",
-      "alt": "bodify",
+      "caption": "姐妹创办的AI自动化工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "姐妹创办的AI自动化工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/bodify",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "姐妹创办的AI自动化工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/bodify",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/bleg7ym47u9i3fco1c64kivl3030",
-      "caption": "姐妹创办的AI自动化工具项目公开展示素材",
-      "alt": "姐妹创办的AI自动化工具项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/bodify",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/05r6ewzak1p4ml9iswl34s1c2mqo",
-      "caption": "姐妹创办的AI自动化工具项目公开展示素材",
-      "alt": "姐妹创办的AI自动化工具项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/bodify",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2246,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

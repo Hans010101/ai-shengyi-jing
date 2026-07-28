@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/4l7ei28fa2peedmg2ajeyqdua3lq",
-      "caption": "AI驱动的销售演示自动化工具公开案例主图",
-      "alt": "AI驱动的销售演示自动化工具案例图片",
+      "caption": "AI驱动的销售演示自动化工具：按订阅收费",
+      "alt": "AI驱动的销售演示自动化工具：按订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/smartcue",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/016/original/open-uri20230128-24-dnzawg?1674870655",
-      "caption": "AI驱动的销售演示自动化工具项目公开展示素材",
-      "alt": "smartcue",
+      "caption": "AI驱动的销售演示自动化工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI驱动的销售演示自动化工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/smartcue",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/017/original/open-uri20230128-24-1j8irt4?1674870656",
-      "caption": "AI驱动的销售演示自动化工具项目公开展示素材",
-      "alt": "smartcue",
+      "caption": "AI驱动的销售演示自动化工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI驱动的销售演示自动化工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/smartcue",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/018/original/open-uri20230128-24-6imfnb?1674870657",
-      "caption": "AI驱动的销售演示自动化工具项目公开展示素材",
-      "alt": "smartcue",
+      "caption": "AI驱动的销售演示自动化工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "AI驱动的销售演示自动化工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/smartcue",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI驱动的销售演示自动化工具项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/3qHkcs3kG44",
+      "watchUrl": "https://www.youtube.com/watch?v=3qHkcs3kG44",
+      "caption": "AI驱动的销售演示自动化工具资料中提及的视频：Joe Rogan Experience #1309 - Naval Ravikant",
+      "alt": "Joe Rogan Experience #1309 - Naval Ravikant",
       "sourceUrl": "https://www.starterstory.com/stories/smartcue",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/3qHkcs3kG44/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

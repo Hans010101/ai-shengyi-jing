@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/jy7lfdg1mkbio05mr8s1ozzvmmxq",
-      "caption": "打造年入60万美元的电商平台公开案例主图",
-      "alt": "打造年入60万美元的电商平台案例图片",
+      "caption": "打造年入60万美元的电商平台：通过订阅制收费",
+      "alt": "打造年入60万美元的电商平台：通过订阅制收费",
       "sourceUrl": "https://www.starterstory.com/stories/launch-cart",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/965/original/open-uri20220609-24-wfysq5?1654784567",
-      "caption": "打造年入60万美元的电商平台项目公开展示素材",
-      "alt": "launch-cart",
+      "caption": "打造年入60万美元的电商平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "打造年入60万美元的电商平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/launch-cart",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/966/original/open-uri20220609-24-1ja0na8?1654784567",
-      "caption": "打造年入60万美元的电商平台项目公开展示素材",
-      "alt": "launch-cart",
+      "caption": "打造年入60万美元的电商平台：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "打造年入60万美元的电商平台：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/launch-cart",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/967/original/open-uri20220609-24-118nlcu?1654784568",
-      "caption": "打造年入60万美元的电商平台项目公开展示素材",
-      "alt": "launch-cart",
+      "caption": "打造年入60万美元的电商平台：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "打造年入60万美元的电商平台：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/launch-cart",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/968/original/open-uri20220609-24-ttm3x8?1654784568",
-      "caption": "打造年入60万美元的电商平台项目公开展示素材",
-      "alt": "launch-cart",
-      "sourceUrl": "https://www.starterstory.com/stories/launch-cart",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2163,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

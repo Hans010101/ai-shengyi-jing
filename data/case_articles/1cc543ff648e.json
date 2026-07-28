@@ -104,7 +104,8 @@
       "caption": "Phone Sling官方产品图：品牌从手指挂带扩展到可穿戴手机配件",
       "alt": "Phone Loops黑色斜挎手机挂绳",
       "sourceUrl": "https://phoneloops.com/products/crossbody-phone-sling-lanyard",
-      "origin": "official-site"
+      "origin": "official-site",
+      "context": "official-site"
     },
     {
       "type": "image",
@@ -112,7 +113,8 @@
       "caption": "真实生活场景帮助用户快速理解“解放双手”的价值",
       "alt": "Phone Sling生活使用场景",
       "sourceUrl": "https://phoneloops.com/products/crossbody-phone-sling-lanyard",
-      "origin": "official-site"
+      "origin": "official-site",
+      "context": "official-site"
     },
     {
       "type": "video-file",
@@ -129,7 +131,8 @@
       "caption": "Phone Sling户外使用场景",
       "alt": "Phone Sling户外场景",
       "sourceUrl": "https://phoneloops.com/products/crossbody-phone-sling-lanyard",
-      "origin": "official-site"
+      "origin": "official-site",
+      "context": "official-site"
     },
     {
       "type": "image",
@@ -137,7 +140,8 @@
       "caption": "挂绳与连接件展示了品牌围绕核心结构延展配件组合的方式",
       "alt": "Phone Loops挂绳与连接件",
       "sourceUrl": "https://phoneloops.com/products/crossbody-phone-sling-lanyard",
-      "origin": "official-site"
+      "origin": "official-site",
+      "context": "official-site"
     }
   ],
   "source": {
@@ -158,5 +162,8 @@
     "businessModel": "自建品牌电商，销售自有专利手机指环扣和挂绳，通过官网和亚马逊等渠道直接面向消费者，赚取产品差价。",
     "chinaOpportunity": "中国手机配件市场巨大，但同质化严重。可聚焦特定场景（如防摔、单手操作）设计专利产品，结合短视频和直播打造品牌。",
     "website": "https://phoneloops.com"
+  },
+  "quality": {
+    "mediaCount": 5
   }
 }

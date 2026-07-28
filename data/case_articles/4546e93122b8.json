@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/4t3jbj24lsr90l6x6o8j00rln3w4",
-      "caption": "为小企业提供AI税务合规日历和指导公开案例主图",
-      "alt": "为小企业提供AI税务合规日历和指导案例图片",
+      "caption": "为小企业提供AI税务合规日历和指导：按月订阅收费",
+      "alt": "为小企业提供AI税务合规日历和指导：按月订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-a-tax-app-to-28k-month-in-only-8-months",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/465/original/open-uri20210901-3-5qsl7p?1630514577",
-      "caption": "为小企业提供AI税务合规日历和指导项目公开展示素材",
-      "alt": "i-built-a-tax-app-to-28k-month-in-only-8-months",
+      "caption": "为小企业提供AI税务合规日历和指导：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为小企业提供AI税务合规日历和指导：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-a-tax-app-to-28k-month-in-only-8-months",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/466/original/open-uri20210901-3-1dfh271?1630514577",
-      "caption": "为小企业提供AI税务合规日历和指导项目公开展示素材",
-      "alt": "i-built-a-tax-app-to-28k-month-in-only-8-months",
+      "caption": "为小企业提供AI税务合规日历和指导：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "为小企业提供AI税务合规日历和指导：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-a-tax-app-to-28k-month-in-only-8-months",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/467/original/open-uri20210901-3-1jak2kk?1630514578",
-      "caption": "为小企业提供AI税务合规日历和指导项目公开展示素材",
-      "alt": "i-built-a-tax-app-to-28k-month-in-only-8-months",
+      "caption": "为小企业提供AI税务合规日历和指导：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "为小企业提供AI税务合规日历和指导：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-a-tax-app-to-28k-month-in-only-8-months",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为小企业提供AI税务合规日历和指导项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/i-built-a-tax-app-to-28k-month-in-only-8-months",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/z71581rbwm4h4bpnycq79cre2rgl",
-      "caption": "为小企业提供AI税务合规日历和指导项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/i-built-a-tax-app-to-28k-month-in-only-8-months",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2176,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/erh1vgtxo20zf4c333t9jgja9os7",
-      "caption": "数字教育公司公开案例主图",
-      "alt": "数字教育公司案例图片",
+      "caption": "数字教育公司：通过SaaS订阅和教材销售盈利",
+      "alt": "数字教育公司：通过SaaS订阅和教材销售盈利",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-500k-month-digital-education-company",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/672/original/open-uri20190526-4-15cyt9l?1558882051",
-      "caption": "数字教育公司项目公开展示素材",
-      "alt": "how-i-started-a-500k-month-digital-education-company",
+      "caption": "数字教育公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "数字教育公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-500k-month-digital-education-company",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/673/original/open-uri20190526-4-37lsa5?1558882051",
-      "caption": "数字教育公司项目公开展示素材",
-      "alt": "how-i-started-a-500k-month-digital-education-company",
+      "caption": "数字教育公司：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "数字教育公司：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-500k-month-digital-education-company",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "数字教育公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-500k-month-digital-education-company",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/msp7wp57o9wgusm2471iubfwuphh",
-      "caption": "数字教育公司项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-500k-month-digital-education-company",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2244,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

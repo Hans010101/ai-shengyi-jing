@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/3zztri2hhurievvr5pthtbog2ldt",
-      "caption": "为内容团队提供可视化Headless CMS公开案例主图",
-      "alt": "为内容团队提供可视化Headless CMS案例图片",
+      "caption": "为内容团队提供可视化Headless CMS：通过订阅制收费",
+      "alt": "为内容团队提供可视化Headless CMS：通过订阅制收费",
       "sourceUrl": "https://www.starterstory.com/businesses/storyblok",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为内容团队提供可视化Headless CMS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/storyblok",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/harhvq14qn5s69jrc54ysdp51njc",
-      "caption": "为内容团队提供可视化Headless CMS项目公开展示素材",
-      "alt": "Storyblok logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/storyblok",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/wf05fi78r3bkadjpbwhtkha8hem6/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "为内容团队提供可视化Headless CMS项目公开展示素材",
-      "alt": "Stripe",
-      "sourceUrl": "https://www.starterstory.com/businesses/storyblok",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/dmy6wbomf2htumlzs94m3oabcd3y/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "为内容团队提供可视化Headless CMS项目公开展示素材",
-      "alt": "Node.js",
-      "sourceUrl": "https://www.starterstory.com/businesses/storyblok",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2235,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

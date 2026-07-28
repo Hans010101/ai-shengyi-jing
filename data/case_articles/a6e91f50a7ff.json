@@ -122,47 +122,34 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/239631d6t834kcbbd00ey68tnwvu",
-      "caption": "泳池专家公开案例主图",
-      "alt": "泳池专家案例图片",
+      "caption": "泳池专家：通过博客和课程变现，年入百万美元",
+      "alt": "泳池专家：通过博客和课程变现，年入百万美元",
       "sourceUrl": "https://www.starterstory.com/stories/swim-university-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "泳池专家项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/swim-university-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/15c4qgmvcj52yznl8e9m7i65m0v9/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "泳池专家项目公开展示素材",
-      "alt": "泳池专家项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/swim-university-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/9f07f7dbe5f520b0",
-      "caption": "泳池专家项目公开展示素材",
+      "caption": "泳池专家：创始人、核心产品与品牌起点相关原始配图",
       "alt": "My image",
       "sourceUrl": "https://www.starterstory.com/stories/swim-university-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ceyddfakme0xjza1v91986p5nt51",
-      "caption": "泳池专家项目公开展示素材",
-      "alt": "泳池专家项目展示图",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/UocaSS2Jxmg",
+      "watchUrl": "https://www.youtube.com/watch?v=UocaSS2Jxmg",
+      "caption": "泳池专家资料中提及的视频：POOL MAINTENANCE For Beginners [Step-By-Step ACTION PLAN]",
+      "alt": "POOL MAINTENANCE For Beginners [Step-By-Step ACTION PLAN]",
       "sourceUrl": "https://www.starterstory.com/stories/swim-university-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/UocaSS2Jxmg/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +164,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2223,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

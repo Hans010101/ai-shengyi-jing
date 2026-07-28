@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/gvomy2ckdcj1tbht508e0cike7ld",
-      "caption": "PyImageSearch是计算机视觉教育平台公开案例主图",
-      "alt": "PyImageSearch是计算机视觉教育平台案例图片",
+      "caption": "PyImageSearch是计算机视觉教育平台：通过课程和书籍付费盈利",
+      "alt": "PyImageSearch是计算机视觉教育平台：通过课程和书籍付费盈利",
       "sourceUrl": "https://www.starterstory.com/businesses/pyimagesearch",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "PyImageSearch是计算机视觉教育平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/pyimagesearch",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/6t6v8xy98mgmf81nwkdrs7lvg161",
-      "caption": "PyImageSearch是计算机视觉教育平台项目公开展示素材",
-      "alt": "PyImageSearch logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/pyimagesearch",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/rbmv0tqn7x87syfvzforcjc72142/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "PyImageSearch是计算机视觉教育平台项目公开展示素材",
-      "alt": "Adrian Rosebrock",
-      "sourceUrl": "https://www.starterstory.com/businesses/pyimagesearch",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/so9nnfktbvqsy6kxgaaplhtiypmh/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "PyImageSearch是计算机视觉教育平台项目公开展示素材",
-      "alt": "Python",
-      "sourceUrl": "https://www.starterstory.com/businesses/pyimagesearch",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2207,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

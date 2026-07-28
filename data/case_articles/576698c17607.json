@@ -122,56 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/4nmwxi9nn0t1mhc9j2tkxhdlc6ex",
-      "caption": "个人博客公开案例主图",
-      "alt": "个人博客案例图片",
+      "caption": "个人博客：通过分享生活经历和健康饮食内容，靠广告和联盟营销赚钱",
+      "alt": "个人博客：通过分享生活经历和健康饮食内容，靠广告和联盟营销赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/with-love-from-t-to-you",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/877/original/open-uri20240518-48-16mlu78?1716042673",
-      "caption": "个人博客项目公开展示素材",
-      "alt": "with-love-from-t-to-you",
+      "caption": "个人博客：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "个人博客：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/with-love-from-t-to-you",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/878/original/open-uri20240518-48-10fmyfa?1716042674",
-      "caption": "个人博客项目公开展示素材",
-      "alt": "with-love-from-t-to-you",
+      "caption": "个人博客：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "个人博客：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/with-love-from-t-to-you",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "个人博客项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/with-love-from-t-to-you",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "个人博客项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/with-love-from-t-to-you",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/df1fgdrgwrml6ma0yysawtl4ym6l",
-      "caption": "个人博客项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/with-love-from-t-to-you",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2283,
-    "mediaCount": 6
+    "mediaCount": 3
   }
 }

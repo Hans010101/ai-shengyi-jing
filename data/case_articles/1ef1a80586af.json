@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/e8p4wtz8bql7ktf7opv7yo26m5jr",
-      "caption": "手作珠宝品牌公开案例主图",
-      "alt": "手作珠宝品牌案例图片",
+      "caption": "手作珠宝品牌：通过合作联名和电商销售盈利",
+      "alt": "手作珠宝品牌：通过合作联名和电商销售盈利",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-partnered-with-another-company-owner-to-grow-my-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/005/105/original/open-uri20200223-4-srmlet?1582495429",
-      "caption": "手作珠宝品牌项目公开展示素材",
-      "alt": "how-i-partnered-with-another-company-owner-to-grow-my-business",
+      "caption": "手作珠宝品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "手作珠宝品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-partnered-with-another-company-owner-to-grow-my-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/005/106/original/open-uri20200223-4-14l3l78?1582495429",
-      "caption": "手作珠宝品牌项目公开展示素材",
-      "alt": "how-i-partnered-with-another-company-owner-to-grow-my-business",
+      "caption": "手作珠宝品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "手作珠宝品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-partnered-with-another-company-owner-to-grow-my-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/005/107/original/open-uri20200223-4-1uv1kha?1582495429",
-      "caption": "手作珠宝品牌项目公开展示素材",
-      "alt": "how-i-partnered-with-another-company-owner-to-grow-my-business",
+      "caption": "手作珠宝品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "手作珠宝品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-partnered-with-another-company-owner-to-grow-my-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/005/108/original/open-uri20200223-4-o8woc3?1582495431",
-      "caption": "手作珠宝品牌项目公开展示素材",
-      "alt": "how-i-partnered-with-another-company-owner-to-grow-my-business",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-partnered-with-another-company-owner-to-grow-my-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2189,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/wejf39b4v29d0yuwnwriwm5pp43u",
-      "caption": "帮北欧品牌公开案例主图",
-      "alt": "帮北欧品牌案例图片",
+      "caption": "帮北欧品牌：通过内容电商走向全球，赚取服务费和佣金",
+      "alt": "帮北欧品牌：通过内容电商走向全球，赚取服务费和佣金",
       "sourceUrl": "https://www.starterstory.com/stories/all-things-commerce-helsinki-ltd",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/550/original/open-uri20230518-63-12poz1k?1684385637",
-      "caption": "帮北欧品牌项目公开展示素材",
-      "alt": "all-things-commerce-helsinki-ltd",
+      "caption": "帮北欧品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "帮北欧品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/all-things-commerce-helsinki-ltd",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "帮北欧品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/all-things-commerce-helsinki-ltd",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c303bjznv93yxnh0xxz7t4vfedzf",
-      "caption": "帮北欧品牌项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/all-things-commerce-helsinki-ltd",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/vtdvsz6ii7j6rdax44lx60uayvfa",
-      "caption": "帮北欧品牌项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/all-things-commerce-helsinki-ltd",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2210,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

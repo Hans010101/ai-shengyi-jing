@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/zrmr0dq747j9qxfj8y7ax7jud7i8",
-      "caption": "青少年兄弟创办的非营利组织公开案例主图",
-      "alt": "青少年兄弟创办的非营利组织案例图片",
+      "caption": "青少年兄弟创办的非营利组织：通过捐赠和活动分发价值10万美元食物",
+      "alt": "青少年兄弟创办的非营利组织：通过捐赠和活动分发价值10万美元食物",
       "sourceUrl": "https://www.starterstory.com/stories/beyond-the-crisis",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/094/original/open-uri20230211-23-7ubzz7?1676125767",
-      "caption": "青少年兄弟创办的非营利组织项目公开展示素材",
-      "alt": "beyond-the-crisis",
+      "caption": "青少年兄弟创办的非营利组织：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "青少年兄弟创办的非营利组织：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/beyond-the-crisis",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/095/original/open-uri20230211-23-1tkqa4f?1676125768",
-      "caption": "青少年兄弟创办的非营利组织项目公开展示素材",
-      "alt": "beyond-the-crisis",
+      "caption": "青少年兄弟创办的非营利组织：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "青少年兄弟创办的非营利组织：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/beyond-the-crisis",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/096/original/open-uri20230211-23-1rj8uky?1676125769",
-      "caption": "青少年兄弟创办的非营利组织项目公开展示素材",
-      "alt": "beyond-the-crisis",
+      "caption": "青少年兄弟创办的非营利组织：业务工具与运营系统相关原始配图（第3张）",
+      "alt": "青少年兄弟创办的非营利组织：业务工具与运营系统相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/beyond-the-crisis",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "青少年兄弟创办的非营利组织项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/beyond-the-crisis",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2203,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

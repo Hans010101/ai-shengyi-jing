@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/2zy8x9ml8ozsz8toblp8oztyacgp",
-      "caption": "摄影社区公开案例主图",
-      "alt": "摄影社区案例图片",
+      "caption": "摄影社区：通过每周挑战吸引用户，收取会员费盈利",
+      "alt": "摄影社区：通过每周挑战吸引用户，收取会员费盈利",
       "sourceUrl": "https://www.starterstory.com/stories/52frames",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/431/original/open-uri20230511-63-1c533j?1683814803",
-      "caption": "摄影社区项目公开展示素材",
-      "alt": "52frames",
+      "caption": "摄影社区：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "摄影社区：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/52frames",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/432/original/open-uri20230511-63-lwh6c5?1683814804",
-      "caption": "摄影社区项目公开展示素材",
-      "alt": "52frames",
+      "caption": "摄影社区：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "摄影社区：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/52frames",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/433/original/open-uri20230511-63-eyesug?1683814805",
-      "caption": "摄影社区项目公开展示素材",
-      "alt": "52frames",
+      "caption": "摄影社区：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "摄影社区：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/52frames",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/434/original/open-uri20230511-63-gf642s?1683814805",
-      "caption": "摄影社区项目公开展示素材",
-      "alt": "52frames",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/iBymUlyZ14A",
+      "watchUrl": "https://www.youtube.com/watch?v=iBymUlyZ14A",
+      "caption": "摄影社区资料中提及的视频：TEDx Talk - Yosef Adest on 52Frames, Reframing Creativity",
+      "alt": "TEDx Talk - Yosef Adest on 52Frames, Reframing Creativity",
       "sourceUrl": "https://www.starterstory.com/stories/52frames",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/iBymUlyZ14A/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

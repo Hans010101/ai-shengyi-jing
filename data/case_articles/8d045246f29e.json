@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/3ohdgp4ta2a2rhq7uqzdv8htumm1",
-      "caption": "AI编程平台公开案例主图",
-      "alt": "AI编程平台案例图片",
+      "caption": "AI编程平台：通过订阅和计算资源收费",
+      "alt": "AI编程平台：通过订阅和计算资源收费",
       "sourceUrl": "https://www.starterstory.com/businesses/replit",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI编程平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/replit",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/g52x5gu0nfks662kkbx0yg5smp3z",
-      "caption": "AI编程平台项目公开展示素材",
-      "alt": "Replit logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/replit",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/6e96p9u0k9db4drb6udq599agy5o/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "AI编程平台项目公开展示素材",
-      "alt": "Amjad Masad",
-      "sourceUrl": "https://www.starterstory.com/businesses/replit",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/qp50u4teiedqtqkn8qmugb3rst2m/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "AI编程平台项目公开展示素材",
-      "alt": "OpenAI",
-      "sourceUrl": "https://www.starterstory.com/businesses/replit",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2267,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

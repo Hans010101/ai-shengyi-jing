@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/du5yw2rd6nodagzn9xf2uro2va1g",
-      "caption": "舒适科技西装品牌公开案例主图",
-      "alt": "舒适科技西装品牌案例图片",
+      "caption": "舒适科技西装品牌：通过DTC模式销售高端功能性西装盈利",
+      "alt": "舒适科技西装品牌：通过DTC模式销售高端功能性西装盈利",
       "sourceUrl": "https://www.starterstory.com/stories/xsuit",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/124/original/open-uri20221114-24-rg18dw?1668409829",
-      "caption": "舒适科技西装品牌项目公开展示素材",
-      "alt": "xsuit",
+      "caption": "舒适科技西装品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "舒适科技西装品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/xsuit",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/125/original/open-uri20221114-24-vc7gex?1668409830",
-      "caption": "舒适科技西装品牌项目公开展示素材",
-      "alt": "xsuit",
+      "caption": "舒适科技西装品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "舒适科技西装品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/xsuit",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/126/original/open-uri20221114-24-12xkke7?1668409832",
-      "caption": "舒适科技西装品牌项目公开展示素材",
-      "alt": "xsuit",
+      "caption": "舒适科技西装品牌：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "舒适科技西装品牌：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/xsuit",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/127/original/open-uri20221114-24-4vippy?1668409833",
-      "caption": "舒适科技西装品牌项目公开展示素材",
-      "alt": "xsuit",
-      "sourceUrl": "https://www.starterstory.com/stories/xsuit",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2289,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

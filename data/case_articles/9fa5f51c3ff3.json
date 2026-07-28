@@ -122,47 +122,56 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/synop34yz2cs5bsvkrtu4b4etbhd",
-      "caption": "魔术师提供线上课程和线下表演公开案例主图",
-      "alt": "魔术师提供线上课程和线下表演案例图片",
+      "caption": "魔术师提供线上课程和线下表演：通过订阅和演出费盈利",
+      "alt": "魔术师提供线上课程和线下表演：通过订阅和演出费盈利",
       "sourceUrl": "https://www.starterstory.com/stories/dan-chan-presents-virtual-magic-shows-bddd71e7-7c8b-4404-9caf-cb435fa68ff6",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/562/original/open-uri20231220-60-1ymuh7p?1703056803",
-      "caption": "魔术师提供线上课程和线下表演项目公开展示素材",
-      "alt": "dan-chan-presents-virtual-magic-shows-bddd71e7-7c8b-4404-9caf-cb435fa68ff6",
+      "caption": "魔术师提供线上课程和线下表演：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "魔术师提供线上课程和线下表演：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/dan-chan-presents-virtual-magic-shows-bddd71e7-7c8b-4404-9caf-cb435fa68ff6",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/563/original/open-uri20231220-60-13et0hd?1703056804",
-      "caption": "魔术师提供线上课程和线下表演项目公开展示素材",
-      "alt": "dan-chan-presents-virtual-magic-shows-bddd71e7-7c8b-4404-9caf-cb435fa68ff6",
+      "caption": "魔术师提供线上课程和线下表演：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "魔术师提供线上课程和线下表演：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/dan-chan-presents-virtual-magic-shows-bddd71e7-7c8b-4404-9caf-cb435fa68ff6",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "魔术师提供线上课程和线下表演项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/JaO7S65OqE8",
+      "watchUrl": "https://www.youtube.com/watch?v=JaO7S65OqE8",
+      "caption": "魔术师提供线上课程和线下表演资料中提及的视频：Virtual Events Promotional Video - Interactive Virtual Show Master Magician & Mentalist",
+      "alt": "Virtual Events Promotional Video - Interactive Virtual Show Master Magician & Mentalist",
       "sourceUrl": "https://www.starterstory.com/stories/dan-chan-presents-virtual-magic-shows-bddd71e7-7c8b-4404-9caf-cb435fa68ff6",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/JaO7S65OqE8/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/gl38e28b8wy08055xcqglg1r6pqs",
-      "caption": "魔术师提供线上课程和线下表演项目公开展示素材",
-      "alt": "tool-icon",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/Un7pNbTlst8",
+      "watchUrl": "https://www.youtube.com/watch?v=Un7pNbTlst8",
+      "caption": "魔术师提供线上课程和线下表演资料中提及的视频：Chi Gong Magic",
+      "alt": "Chi Gong Magic",
       "sourceUrl": "https://www.starterstory.com/stories/dan-chan-presents-virtual-magic-shows-bddd71e7-7c8b-4404-9caf-cb435fa68ff6",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/Un7pNbTlst8/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

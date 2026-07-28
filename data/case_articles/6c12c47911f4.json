@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/felc1n5ebqddt18jw4saroquz5yj",
-      "caption": "公关活动公司公开案例主图",
-      "alt": "公关活动公司案例图片",
+      "caption": "公关活动公司：服务品牌和网红赚取服务费",
+      "alt": "公关活动公司：服务品牌和网红赚取服务费",
       "sourceUrl": "https://www.starterstory.com/stories/lenoir-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/289/original/open-uri20220826-24-1uxdzbg?1661522461",
-      "caption": "公关活动公司项目公开展示素材",
-      "alt": "lenoir-agency",
+      "caption": "公关活动公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "公关活动公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/lenoir-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/290/original/open-uri20220826-24-1u9ctyt?1661522462",
-      "caption": "公关活动公司项目公开展示素材",
-      "alt": "lenoir-agency",
+      "caption": "公关活动公司：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "公关活动公司：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/lenoir-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/291/original/open-uri20220826-24-165p4mp?1661522463",
-      "caption": "公关活动公司项目公开展示素材",
-      "alt": "lenoir-agency",
+      "caption": "公关活动公司：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "公关活动公司：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/lenoir-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/292/original/open-uri20220826-24-276txd?1661522463",
-      "caption": "公关活动公司项目公开展示素材",
-      "alt": "lenoir-agency",
-      "sourceUrl": "https://www.starterstory.com/stories/lenoir-agency",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/293/original/open-uri20220826-24-1hebd5j?1661522464",
-      "caption": "公关活动公司项目公开展示素材",
-      "alt": "lenoir-agency",
-      "sourceUrl": "https://www.starterstory.com/stories/lenoir-agency",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2112,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

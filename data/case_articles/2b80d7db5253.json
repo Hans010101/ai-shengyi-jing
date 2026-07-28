@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/5wjff05jvpbcnnefumruful1vebl",
-      "caption": "英国最大加盟目录平台公开案例主图",
-      "alt": "英国最大加盟目录平台案例图片",
+      "caption": "英国最大加盟目录平台：通过收取加盟商年费和线索费盈利",
+      "alt": "英国最大加盟目录平台：通过收取加盟商年费和线索费盈利",
       "sourceUrl": "https://www.starterstory.com/stories/franchise-uk",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/137/original/open-uri20220508-12-7tqnl9?1652021445",
-      "caption": "英国最大加盟目录平台项目公开展示素材",
-      "alt": "franchise-uk",
+      "caption": "英国最大加盟目录平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "英国最大加盟目录平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/franchise-uk",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/138/original/open-uri20220508-12-8p5zli?1652021445",
-      "caption": "英国最大加盟目录平台项目公开展示素材",
-      "alt": "franchise-uk",
+      "caption": "英国最大加盟目录平台：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "英国最大加盟目录平台：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/franchise-uk",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/139/original/open-uri20220508-12-157qxsn?1652021446",
-      "caption": "英国最大加盟目录平台项目公开展示素材",
-      "alt": "franchise-uk",
+      "caption": "英国最大加盟目录平台：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "英国最大加盟目录平台：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/franchise-uk",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/140/original/open-uri20220508-12-1d3cw1d?1652021446",
-      "caption": "英国最大加盟目录平台项目公开展示素材",
-      "alt": "franchise-uk",
-      "sourceUrl": "https://www.starterstory.com/stories/franchise-uk",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2208,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

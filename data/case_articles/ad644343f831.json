@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ipwy5n72gybk94azktfsiheeq251",
-      "caption": "收购并优化SaaS公司公开案例主图",
-      "alt": "收购并优化SaaS公司案例图片",
+      "caption": "收购并优化SaaS公司：通过订阅费赚钱",
+      "alt": "收购并优化SaaS公司：通过订阅费赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/saas-group",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "收购并优化SaaS公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/saas-group",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/nabgjm0r8mec9jp6x8yu7169uuxq",
-      "caption": "收购并优化SaaS公司项目公开展示素材",
-      "alt": "article",
+      "caption": "收购并优化SaaS公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "收购并优化SaaS公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/saas-group",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/9e3f7aa6e3d2baaf",
-      "caption": "收购并优化SaaS公司项目公开展示素材",
+      "caption": "收购并优化SaaS公司：创业起点与创意来源相关原始配图（第2张）",
       "alt": "*This is one of the first emails from that broker*",
       "sourceUrl": "https://www.starterstory.com/stories/saas-group",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/860b360e4a50702d",
-      "caption": "收购并优化SaaS公司项目公开展示素材",
+      "caption": "收购并优化SaaS公司：创业起点与创意来源相关原始配图（第3张）",
       "alt": "First ever \"leadership meeting\" early 2021 (Tobi, Ulrich & me)",
       "sourceUrl": "https://www.starterstory.com/stories/saas-group",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2215,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

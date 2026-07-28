@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/vrhr8mry97qlq0cd7gc7tykr4emh",
-      "caption": "IT认证考试辅助SaaS公开案例主图",
-      "alt": "IT认证考试辅助SaaS案例图片",
+      "caption": "IT认证考试辅助SaaS：通过订阅制帮助考生通过考试",
+      "alt": "IT认证考试辅助SaaS：通过订阅制帮助考生通过考试",
       "sourceUrl": "https://www.starterstory.com/stories/si-certs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/693/original/open-uri20220531-24-neb2dz?1654010181",
-      "caption": "IT认证考试辅助SaaS项目公开展示素材",
-      "alt": "si-certs",
+      "caption": "IT认证考试辅助SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "IT认证考试辅助SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/si-certs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/694/original/open-uri20220531-24-lwntov?1654010181",
-      "caption": "IT认证考试辅助SaaS项目公开展示素材",
-      "alt": "si-certs",
+      "caption": "IT认证考试辅助SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "IT认证考试辅助SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/si-certs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/695/original/open-uri20220531-24-1qv1on3?1654010181",
-      "caption": "IT认证考试辅助SaaS项目公开展示素材",
-      "alt": "si-certs",
+      "caption": "IT认证考试辅助SaaS：创业复盘与关键经验相关原始配图（第3张）",
+      "alt": "IT认证考试辅助SaaS：创业复盘与关键经验相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/si-certs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/696/original/open-uri20220531-24-1qeapho?1654010182",
-      "caption": "IT认证考试辅助SaaS项目公开展示素材",
-      "alt": "si-certs",
-      "sourceUrl": "https://www.starterstory.com/stories/si-certs",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/697/original/open-uri20220531-24-9ww1zj?1654010182",
-      "caption": "IT认证考试辅助SaaS项目公开展示素材",
-      "alt": "si-certs",
-      "sourceUrl": "https://www.starterstory.com/stories/si-certs",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2193,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

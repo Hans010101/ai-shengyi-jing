@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/udwytnp2o03q2i25g518v834613f",
-      "caption": "为创业者提供商业计划撰写模板和软件公开案例主图",
-      "alt": "为创业者提供商业计划撰写模板和软件案例图片",
+      "caption": "为创业者提供商业计划撰写模板和软件：通过订阅和模板销售盈利",
+      "alt": "为创业者提供商业计划撰写模板和软件：通过订阅和模板销售盈利",
       "sourceUrl": "https://www.starterstory.com/stories/growthink",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/756/original/open-uri20240110-60-1ixe1li?1704864611",
-      "caption": "为创业者提供商业计划撰写模板和软件项目公开展示素材",
-      "alt": "growthink",
+      "caption": "为创业者提供商业计划撰写模板和软件：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为创业者提供商业计划撰写模板和软件：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/growthink",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/757/original/open-uri20240110-60-3eljo3?1704864612",
-      "caption": "为创业者提供商业计划撰写模板和软件项目公开展示素材",
-      "alt": "growthink",
+      "caption": "为创业者提供商业计划撰写模板和软件：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "为创业者提供商业计划撰写模板和软件：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/growthink",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为创业者提供商业计划撰写模板和软件项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/growthink",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/76cwhfg9lcwakxebftd04bw6u12h",
-      "caption": "为创业者提供商业计划撰写模板和软件项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/growthink",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2240,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

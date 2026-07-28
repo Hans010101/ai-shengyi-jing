@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/y9dv6t8bitf08f85vggnhk9ohcal",
-      "caption": "自由职业者公开案例主图",
-      "alt": "自由职业者案例图片",
+      "caption": "自由职业者：通过投资房产和活动公司实现收入多元化",
+      "alt": "自由职业者：通过投资房产和活动公司实现收入多元化",
       "sourceUrl": "https://www.starterstory.com/stories/daniel-waldman-writing",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/485/original/open-uri20220403-3-xggrt9?1649016640",
-      "caption": "自由职业者项目公开展示素材",
-      "alt": "daniel-waldman-writing",
+      "caption": "自由职业者：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "自由职业者：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/daniel-waldman-writing",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "自由职业者项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/daniel-waldman-writing",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/7e9sq61cb3ys7k4x2v95afk99f38",
-      "caption": "自由职业者项目公开展示素材",
-      "alt": "自由职业者项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/daniel-waldman-writing",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/8fse57tygi9da1j5ry220g736b65",
-      "caption": "自由职业者项目公开展示素材",
-      "alt": "自由职业者项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/daniel-waldman-writing",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2170,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

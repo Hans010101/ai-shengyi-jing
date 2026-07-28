@@ -122,56 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/4h6murxaurwveed67mwqqo1bu2gk",
-      "caption": "QR码管理平台公开案例主图",
-      "alt": "QR码管理平台案例图片",
+      "caption": "QR码管理平台：通过动态码订阅收费",
+      "alt": "QR码管理平台：通过动态码订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/qrcode-tiger",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/842/original/open-uri20230407-63-y311o?1680878332",
-      "caption": "QR码管理平台项目公开展示素材",
-      "alt": "qrcode-tiger",
+      "caption": "QR码管理平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "QR码管理平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/qrcode-tiger",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "QR码管理平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/qrcode-tiger",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "QR码管理平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/qrcode-tiger",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/76cwhfg9lcwakxebftd04bw6u12h",
-      "caption": "QR码管理平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/qrcode-tiger",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/0j9q44pb9rtpq56u2m8uo7lt5xl0",
-      "caption": "QR码管理平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/qrcode-tiger",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2183,
-    "mediaCount": 6
+    "mediaCount": 2
   }
 }

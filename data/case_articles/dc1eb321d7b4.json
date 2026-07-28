@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/e64xfo91vv02ji3evrqx273v4n1z",
-      "caption": "为本地小企业提供网站设计和数字营销服务公开案例主图",
-      "alt": "为本地小企业提供网站设计和数字营销服务案例图片",
+      "caption": "为本地小企业提供网站设计和数字营销服务：靠客户推荐获取持续订单",
+      "alt": "为本地小企业提供网站设计和数字营销服务：靠客户推荐获取持续订单",
       "sourceUrl": "https://www.starterstory.com/stories/buddy-web-design-and-development",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/227/original/open-uri20230502-63-8nrekp?1683015501",
-      "caption": "为本地小企业提供网站设计和数字营销服务项目公开展示素材",
-      "alt": "buddy-web-design-and-development",
+      "caption": "为本地小企业提供网站设计和数字营销服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为本地小企业提供网站设计和数字营销服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/buddy-web-design-and-development",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为本地小企业提供网站设计和数字营销服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/buddy-web-design-and-development",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/fyhbx2o0p0ivjbzkcaxfg3kkessb",
-      "caption": "为本地小企业提供网站设计和数字营销服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/buddy-web-design-and-development",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/pergfgzxehqzdzlhjk6khyn1u3go",
-      "caption": "为本地小企业提供网站设计和数字营销服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/buddy-web-design-and-development",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2211,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

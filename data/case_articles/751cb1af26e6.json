@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/92mj89visrm9bxbw4w4ylc8cui6a",
-      "caption": "AI辅助写书课程公开案例主图",
-      "alt": "AI辅助写书课程案例图片",
+      "caption": "AI辅助写书课程：月入80万美元",
+      "alt": "AI辅助写书课程：月入80万美元",
       "sourceUrl": "https://www.starterstory.com/stories/platypus-publishing-35510f50-ee08-4c74-ae82-72f5790e13c4",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/032/original/open-uri20230421-63-p031yr?1682049038",
-      "caption": "AI辅助写书课程项目公开展示素材",
-      "alt": "platypus-publishing-35510f50-ee08-4c74-ae82-72f5790e13c4",
+      "caption": "AI辅助写书课程：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI辅助写书课程：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/platypus-publishing-35510f50-ee08-4c74-ae82-72f5790e13c4",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/033/original/open-uri20230421-63-105s196?1682049039",
-      "caption": "AI辅助写书课程项目公开展示素材",
-      "alt": "platypus-publishing-35510f50-ee08-4c74-ae82-72f5790e13c4",
+      "caption": "AI辅助写书课程：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI辅助写书课程：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/platypus-publishing-35510f50-ee08-4c74-ae82-72f5790e13c4",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI辅助写书课程项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/platypus-publishing-35510f50-ee08-4c74-ae82-72f5790e13c4",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/0beu1rpaj2ah6dpbyhnnpi3t6nk7",
-      "caption": "AI辅助写书课程项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/platypus-publishing-35510f50-ee08-4c74-ae82-72f5790e13c4",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2186,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

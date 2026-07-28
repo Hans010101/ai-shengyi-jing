@@ -122,47 +122,34 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/mk0e7y1fe3vae2onl5fs33q2hc3x",
-      "caption": "养蜂产蜜业务公开案例主图",
-      "alt": "养蜂产蜜业务案例图片",
+      "caption": "养蜂产蜜业务：通过销售蜂蜜及蜂产品盈利",
+      "alt": "养蜂产蜜业务：通过销售蜂蜜及蜂产品盈利",
       "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-honey-production-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/573/original/open-uri20211226-3-ezvpn3?1640532304",
-      "caption": "养蜂产蜜业务项目公开展示素材",
-      "alt": "on-starting-a-honey-production-business",
+      "caption": "养蜂产蜜业务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "养蜂产蜜业务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-honey-production-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "养蜂产蜜业务项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/eMwXV_uEiqo",
+      "watchUrl": "https://www.youtube.com/watch?v=eMwXV_uEiqo",
+      "caption": "养蜂产蜜业务资料中提及的视频：Interview and short video about Brighton Honey",
+      "alt": "Interview and short video about Brighton Honey",
       "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-honey-production-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/3d0celdrs9ugtg77g37hjvvnmyhi",
-      "caption": "养蜂产蜜业务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-honey-production-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/wsfthxo0bwxpga1da6eflodtgxay",
-      "caption": "养蜂产蜜业务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-honey-production-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/eMwXV_uEiqo/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +164,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2146,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

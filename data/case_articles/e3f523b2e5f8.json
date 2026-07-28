@@ -121,57 +121,43 @@
   "media": [
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI代理SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/plurio-ai",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/9754dfa452c4c2b3",
-      "caption": "AI代理SaaS项目公开展示素材",
+      "caption": "AI代理SaaS：创始人、核心产品与品牌起点相关原始配图",
       "alt": "Seva Ustinov",
       "sourceUrl": "https://www.starterstory.com/stories/plurio-ai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/qr45ww2pbqqaqnqrfc81s9beznnw",
-      "caption": "AI代理SaaS项目公开展示素材",
-      "alt": "article",
+      "caption": "AI代理SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI代理SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/plurio-ai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/72c989170bf0cd61",
-      "caption": "AI代理SaaS项目公开展示素材",
+      "caption": "AI代理SaaS：产品上线与首次发布相关原始配图（第3张）",
       "alt": "Kirill Kasimsky and Seva Ustinov",
       "sourceUrl": "https://www.starterstory.com/stories/plurio-ai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/947e9f4fcc5e715b",
-      "caption": "AI代理SaaS项目公开展示素材",
+      "caption": "AI代理SaaS：获客渠道与客户留存相关原始配图（第4张）",
       "alt": "Plurio website",
       "sourceUrl": "https://www.starterstory.com/stories/plurio-ai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/q9jquuxiuwx7qd9knv9cttiis5a4",
-      "caption": "AI代理SaaS项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/plurio-ai",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2218,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

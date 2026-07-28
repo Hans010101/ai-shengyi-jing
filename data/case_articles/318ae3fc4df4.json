@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/zaq8zuky8yu56k44rulnrcxymdtc",
-      "caption": "健身博主公开案例主图",
-      "alt": "健身博主案例图片",
+      "caption": "健身博主：通过内容营销和联盟营销赚取被动收入",
+      "alt": "健身博主：通过内容营销和联盟营销赚取被动收入",
       "sourceUrl": "https://www.starterstory.com/stories/heavybjj",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/862/original/open-uri20230623-52-162mhea?1687491411",
-      "caption": "健身博主项目公开展示素材",
-      "alt": "heavybjj",
+      "caption": "健身博主：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "健身博主：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/heavybjj",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/863/original/open-uri20230623-52-kljt9a?1687491412",
-      "caption": "健身博主项目公开展示素材",
-      "alt": "heavybjj",
+      "caption": "健身博主：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "健身博主：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/heavybjj",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/864/original/open-uri20230623-52-15j2z9m?1687491412",
-      "caption": "健身博主项目公开展示素材",
-      "alt": "heavybjj",
+      "caption": "健身博主：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "健身博主：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/heavybjj",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/865/original/open-uri20230623-52-rtzhlz?1687491413",
-      "caption": "健身博主项目公开展示素材",
-      "alt": "heavybjj",
-      "sourceUrl": "https://www.starterstory.com/stories/heavybjj",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2233,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

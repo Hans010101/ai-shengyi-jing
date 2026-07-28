@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/8g5crdtxlhb60h1d05gfc7h87cw1",
-      "caption": "建筑师运营的咖啡店设计博客公开案例主图",
-      "alt": "建筑师运营的咖啡店设计博客案例图片",
+      "caption": "建筑师运营的咖啡店设计博客：通过广告和赞助盈利",
+      "alt": "建筑师运营的咖啡店设计博客：通过广告和赞助盈利",
       "sourceUrl": "https://www.starterstory.com/stories/best-cafe-designs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/531/original/open-uri20240407-65-npvkl8?1712499251",
-      "caption": "建筑师运营的咖啡店设计博客项目公开展示素材",
-      "alt": "best-cafe-designs",
+      "caption": "建筑师运营的咖啡店设计博客：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "建筑师运营的咖啡店设计博客：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/best-cafe-designs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/532/original/open-uri20240407-65-1hbabmq?1712499252",
-      "caption": "建筑师运营的咖啡店设计博客项目公开展示素材",
-      "alt": "best-cafe-designs",
+      "caption": "建筑师运营的咖啡店设计博客：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "建筑师运营的咖啡店设计博客：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/best-cafe-designs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/533/original/open-uri20240407-65-b07u4k?1712499252",
-      "caption": "建筑师运营的咖啡店设计博客项目公开展示素材",
-      "alt": "best-cafe-designs",
+      "caption": "建筑师运营的咖啡店设计博客：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "建筑师运营的咖啡店设计博客：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/best-cafe-designs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/534/original/open-uri20240407-65-1hedk1y?1712499253",
-      "caption": "建筑师运营的咖啡店设计博客项目公开展示素材",
-      "alt": "best-cafe-designs",
-      "sourceUrl": "https://www.starterstory.com/stories/best-cafe-designs",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2221,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

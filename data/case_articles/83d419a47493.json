@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/1qhlb6ou0zfanpreg7z7dsd40w9d",
-      "caption": "可视化网页数据抓取软件公开案例主图",
-      "alt": "可视化网页数据抓取软件案例图片",
+      "caption": "可视化网页数据抓取软件：通过订阅制盈利",
+      "alt": "可视化网页数据抓取软件：通过订阅制盈利",
       "sourceUrl": "https://www.starterstory.com/stories/i-made-web-scraping-software-for-companies-india",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/305/original/open-uri20220330-3-1maz9dy?1648650095",
-      "caption": "可视化网页数据抓取软件项目公开展示素材",
-      "alt": "i-made-web-scraping-software-for-companies-and-make-7k-month-india",
+      "caption": "可视化网页数据抓取软件：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "可视化网页数据抓取软件：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-made-web-scraping-software-for-companies-india",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/306/original/open-uri20220330-3-d91jkr?1648650096",
-      "caption": "可视化网页数据抓取软件项目公开展示素材",
-      "alt": "i-made-web-scraping-software-for-companies-and-make-7k-month-india",
+      "caption": "可视化网页数据抓取软件：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "可视化网页数据抓取软件：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-made-web-scraping-software-for-companies-india",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/307/original/open-uri20220330-3-1l6xgr4?1648650097",
-      "caption": "可视化网页数据抓取软件项目公开展示素材",
-      "alt": "i-made-web-scraping-software-for-companies-and-make-7k-month-india",
+      "caption": "可视化网页数据抓取软件：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "可视化网页数据抓取软件：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-made-web-scraping-software-for-companies-india",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/308/original/open-uri20220330-3-ezufnn?1648650097",
-      "caption": "可视化网页数据抓取软件项目公开展示素材",
-      "alt": "i-made-web-scraping-software-for-companies-and-make-7k-month-india",
-      "sourceUrl": "https://www.starterstory.com/stories/i-made-web-scraping-software-for-companies-india",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/309/original/open-uri20220330-3-1nvx547?1648650098",
-      "caption": "可视化网页数据抓取软件项目公开展示素材",
-      "alt": "i-made-web-scraping-software-for-companies-and-make-7k-month-india",
-      "sourceUrl": "https://www.starterstory.com/stories/i-made-web-scraping-software-for-companies-india",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2396,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

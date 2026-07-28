@@ -122,56 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/3uk6qs4z3osg5qltvuivktsc3iou",
-      "caption": "AI语音日记应用公开案例主图",
-      "alt": "AI语音日记应用案例图片",
+      "caption": "AI语音日记应用：通过订阅制变现",
+      "alt": "AI语音日记应用：通过订阅制变现",
       "sourceUrl": "https://www.starterstory.com/stories/sound-off",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/480/original/open-uri20230317-51-zq5k7b?1679034698",
-      "caption": "AI语音日记应用项目公开展示素材",
-      "alt": "sound-off",
+      "caption": "AI语音日记应用：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI语音日记应用：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/sound-off",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/481/original/open-uri20230317-51-16039sg?1679034699",
-      "caption": "AI语音日记应用项目公开展示素材",
-      "alt": "sound-off",
+      "caption": "AI语音日记应用：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI语音日记应用：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/sound-off",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI语音日记应用项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/sound-off",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/2r0bmvunp6hplaeyu1t5rm1lcgma",
-      "caption": "AI语音日记应用项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/sound-off",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/gl38e28b8wy08055xcqglg1r6pqs",
-      "caption": "AI语音日记应用项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/sound-off",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2205,
-    "mediaCount": 6
+    "mediaCount": 3
   }
 }

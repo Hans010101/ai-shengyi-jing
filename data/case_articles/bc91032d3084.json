@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/tyb9dsz5o7thysh7s2b3gj8dms22",
-      "caption": "专注早期网络安全初创公司的产品设计机构公开案例主图",
-      "alt": "专注早期网络安全初创公司的产品设计机构案例图片",
+      "caption": "专注早期网络安全初创公司的产品设计机构：通过设计服务收费",
+      "alt": "专注早期网络安全初创公司的产品设计机构：通过设计服务收费",
       "sourceUrl": "https://www.starterstory.com/stories/krit",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/172/original/open-uri20220323-3-ckzcnu?1648053716",
-      "caption": "专注早期网络安全初创公司的产品设计机构项目公开展示素材",
-      "alt": "krit",
+      "caption": "专注早期网络安全初创公司的产品设计机构：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "专注早期网络安全初创公司的产品设计机构：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/krit",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/173/original/open-uri20220323-3-13g2ht?1648053718",
-      "caption": "专注早期网络安全初创公司的产品设计机构项目公开展示素材",
-      "alt": "krit",
+      "caption": "专注早期网络安全初创公司的产品设计机构：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "专注早期网络安全初创公司的产品设计机构：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/krit",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "专注早期网络安全初创公司的产品设计机构项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/krit",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/2q6a8yncmonnvypd2kmgep7jt2a0",
-      "caption": "专注早期网络安全初创公司的产品设计机构项目公开展示素材",
-      "alt": "专注早期网络安全初创公司的产品设计机构项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/krit",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2290,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

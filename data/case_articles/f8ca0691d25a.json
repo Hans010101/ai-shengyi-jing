@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/q8nr933s238ho9cvzs9uwl642uin",
-      "caption": "AI驱动的内容创作与变现工具公开案例主图",
-      "alt": "AI驱动的内容创作与变现工具案例图片",
+      "caption": "AI驱动的内容创作与变现工具：通过订阅制赚钱",
+      "alt": "AI驱动的内容创作与变现工具：通过订阅制赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-doubled-revenue-to-6-5k-month-in-one-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/011/362/original/open-uri20210412-3-11c6q9l?1618261290",
-      "caption": "AI驱动的内容创作与变现工具项目公开展示素材",
-      "alt": "how-i-increased-revenue-to-6-5k-month-in-one-year",
+      "caption": "AI驱动的内容创作与变现工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI驱动的内容创作与变现工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-doubled-revenue-to-6-5k-month-in-one-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/011/363/original/open-uri20210412-3-ez0ckm?1618261290",
-      "caption": "AI驱动的内容创作与变现工具项目公开展示素材",
-      "alt": "how-i-increased-revenue-to-6-5k-month-in-one-year",
+      "caption": "AI驱动的内容创作与变现工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI驱动的内容创作与变现工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-doubled-revenue-to-6-5k-month-in-one-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI驱动的内容创作与变现工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-doubled-revenue-to-6-5k-month-in-one-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/gexjagbbg9q0oyutlgvbtwn4lgys",
-      "caption": "AI驱动的内容创作与变现工具项目公开展示素材",
-      "alt": "AI驱动的内容创作与变现工具项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-doubled-revenue-to-6-5k-month-in-one-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2222,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

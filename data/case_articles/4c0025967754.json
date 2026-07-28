@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/6eamoafwk66qsdmwczyyxbej3czu",
-      "caption": "制作企业宣传动画视频公开案例主图",
-      "alt": "制作企业宣传动画视频案例图片",
+      "caption": "制作企业宣传动画视频：按项目收费",
+      "alt": "制作企业宣传动画视频：按项目收费",
       "sourceUrl": "https://www.starterstory.com/stories/my-passion-in-animation-led-me-to-starting-a-480k-year-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/439/original/open-uri20211212-3-3l15h1?1639331410",
-      "caption": "制作企业宣传动画视频项目公开展示素材",
-      "alt": "my-passion-in-animation-led-me-to-starting-a-480k-year-business",
+      "caption": "制作企业宣传动画视频：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "制作企业宣传动画视频：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/my-passion-in-animation-led-me-to-starting-a-480k-year-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/440/original/open-uri20211212-3-1vop348?1639331411",
-      "caption": "制作企业宣传动画视频项目公开展示素材",
-      "alt": "my-passion-in-animation-led-me-to-starting-a-480k-year-business",
+      "caption": "制作企业宣传动画视频：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "制作企业宣传动画视频：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/my-passion-in-animation-led-me-to-starting-a-480k-year-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/441/original/open-uri20211212-3-vt6bkb?1639331411",
-      "caption": "制作企业宣传动画视频项目公开展示素材",
-      "alt": "my-passion-in-animation-led-me-to-starting-a-480k-year-business",
+      "caption": "制作企业宣传动画视频：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "制作企业宣传动画视频：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/my-passion-in-animation-led-me-to-starting-a-480k-year-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/442/original/open-uri20211212-3-1ha50q9?1639331411",
-      "caption": "制作企业宣传动画视频项目公开展示素材",
-      "alt": "my-passion-in-animation-led-me-to-starting-a-480k-year-business",
-      "sourceUrl": "https://www.starterstory.com/stories/my-passion-in-animation-led-me-to-starting-a-480k-year-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "制作企业宣传动画视频项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/my-passion-in-animation-led-me-to-starting-a-480k-year-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2155,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

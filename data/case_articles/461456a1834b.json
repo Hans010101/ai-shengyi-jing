@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/jzckxvqxv0m19l2gpshhp5wm2lpu",
-      "caption": "群发短信SaaS公开案例主图",
-      "alt": "群发短信SaaS案例图片",
+      "caption": "群发短信SaaS：按月订阅收费",
+      "alt": "群发短信SaaS：按月订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/porterhouse-app",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/440/original/open-uri20220521-12-ryxk9j?1653135997",
-      "caption": "群发短信SaaS项目公开展示素材",
-      "alt": "porterhouse-app",
+      "caption": "群发短信SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "群发短信SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/porterhouse-app",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/441/original/open-uri20220521-12-i3kncd?1653135998",
-      "caption": "群发短信SaaS项目公开展示素材",
-      "alt": "porterhouse-app",
+      "caption": "群发短信SaaS：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "群发短信SaaS：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/porterhouse-app",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/442/original/open-uri20220521-12-1gi892h?1653135998",
-      "caption": "群发短信SaaS项目公开展示素材",
-      "alt": "porterhouse-app",
+      "caption": "群发短信SaaS：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "群发短信SaaS：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/porterhouse-app",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/443/original/open-uri20220521-12-1chop3q?1653135999",
-      "caption": "群发短信SaaS项目公开展示素材",
-      "alt": "porterhouse-app",
-      "sourceUrl": "https://www.starterstory.com/stories/porterhouse-app",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2076,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

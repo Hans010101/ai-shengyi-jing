@@ -122,47 +122,44 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/kgz7v6emjp2sptdlnudjmrqsmowu",
-      "caption": "澳洲可堆肥保鲜膜制造商公开案例主图",
-      "alt": "澳洲可堆肥保鲜膜制造商案例图片",
+      "caption": "澳洲可堆肥保鲜膜制造商：通过B2B销售和订阅模式盈利",
+      "alt": "澳洲可堆肥保鲜膜制造商：通过B2B销售和订阅模式盈利",
       "sourceUrl": "https://www.starterstory.com/stories/great-wrap",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/242/original/open-uri20220823-24-s5rd6g?1661251891",
-      "caption": "澳洲可堆肥保鲜膜制造商项目公开展示素材",
-      "alt": "great-wrap",
+      "caption": "澳洲可堆肥保鲜膜制造商：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "澳洲可堆肥保鲜膜制造商：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/great-wrap",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/243/original/open-uri20220823-24-1on72jd?1661251892",
-      "caption": "澳洲可堆肥保鲜膜制造商项目公开展示素材",
-      "alt": "great-wrap",
+      "caption": "澳洲可堆肥保鲜膜制造商：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "澳洲可堆肥保鲜膜制造商：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/great-wrap",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "澳洲可堆肥保鲜膜制造商项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/CkMbF5AIHTw",
+      "watchUrl": "https://www.youtube.com/watch?v=CkMbF5AIHTw",
+      "caption": "澳洲可堆肥保鲜膜制造商资料中提及的视频：Channel 9 News",
+      "alt": "Channel 9 News",
       "sourceUrl": "https://www.starterstory.com/stories/great-wrap",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/xmcnnqqylhtbo0mcfe37b8l0byai",
-      "caption": "澳洲可堆肥保鲜膜制造商项目公开展示素材",
-      "alt": "澳洲可堆肥保鲜膜制造商项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/great-wrap",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/CkMbF5AIHTw/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +174,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2172,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

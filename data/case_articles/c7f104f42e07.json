@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/jzknp45co89ec7h8yuj1hz014bsm",
-      "caption": "开发网络工具组合公开案例主图",
-      "alt": "开发网络工具组合案例图片",
+      "caption": "开发网络工具组合：通过广告和付费功能盈利",
+      "alt": "开发网络工具组合：通过广告和付费功能盈利",
       "sourceUrl": "https://www.starterstory.com/stories/nslookup-io",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/201/original/open-uri20220821-15-1echjck?1661099762",
-      "caption": "开发网络工具组合项目公开展示素材",
-      "alt": "nslookup-io",
+      "caption": "开发网络工具组合：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "开发网络工具组合：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/nslookup-io",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/202/original/open-uri20220821-15-13z146e?1661099763",
-      "caption": "开发网络工具组合项目公开展示素材",
-      "alt": "nslookup-io",
+      "caption": "开发网络工具组合：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "开发网络工具组合：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/nslookup-io",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/203/original/open-uri20220821-15-ju1yip?1661099763",
-      "caption": "开发网络工具组合项目公开展示素材",
-      "alt": "nslookup-io",
+      "caption": "开发网络工具组合：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "开发网络工具组合：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/nslookup-io",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/204/original/open-uri20220821-15-1anz6fn?1661099764",
-      "caption": "开发网络工具组合项目公开展示素材",
-      "alt": "nslookup-io",
-      "sourceUrl": "https://www.starterstory.com/stories/nslookup-io",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/205/original/open-uri20220821-15-1oukwvj?1661099764",
-      "caption": "开发网络工具组合项目公开展示素材",
-      "alt": "nslookup-io",
-      "sourceUrl": "https://www.starterstory.com/stories/nslookup-io",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2232,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

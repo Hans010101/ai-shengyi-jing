@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/sc8x0w6h7rh6oxdhhxzgw9823q06",
-      "caption": "NFT营销工具公开案例主图",
-      "alt": "NFT营销工具案例图片",
+      "caption": "NFT营销工具：为品牌创建定制NFT以生成社交媒体热度",
+      "alt": "NFT营销工具：为品牌创建定制NFT以生成社交媒体热度",
       "sourceUrl": "https://www.starterstory.com/stories/kontra-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/350/original/open-uri20220331-3-v7tvb?1648743718",
-      "caption": "NFT营销工具项目公开展示素材",
-      "alt": "kontra-agency",
+      "caption": "NFT营销工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "NFT营销工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/kontra-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/351/original/open-uri20220331-3-mpw6im?1648743718",
-      "caption": "NFT营销工具项目公开展示素材",
-      "alt": "kontra-agency",
+      "caption": "NFT营销工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "NFT营销工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/kontra-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "NFT营销工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/kontra-agency",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/s3thrrqbjem3qler43fak7dop7v2",
-      "caption": "NFT营销工具项目公开展示素材",
-      "alt": "NFT营销工具项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/kontra-agency",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2243,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

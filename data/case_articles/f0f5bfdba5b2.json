@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/hpfjeohyhj5kvn1kg9wh0axbyltv",
-      "caption": "艺术家公开案例主图",
-      "alt": "艺术家案例图片",
+      "caption": "艺术家：通过销售城市风景画作和衍生品盈利",
+      "alt": "艺术家：通过销售城市风景画作和衍生品盈利",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-continued-investing-into-my-business-despite-some-financial-losses",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/007/004/original/open-uri20200708-4-1mm2l0s?1594220514",
-      "caption": "艺术家项目公开展示素材",
-      "alt": "how-we-ve-continued-growing-despite-of-financial-losses",
+      "caption": "艺术家：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "艺术家：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-continued-investing-into-my-business-despite-some-financial-losses",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "艺术家项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-continued-investing-into-my-business-despite-some-financial-losses",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/x0fswweh25a6rgcsp2c2ytil8usb",
-      "caption": "艺术家项目公开展示素材",
-      "alt": "艺术家项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-continued-investing-into-my-business-despite-some-financial-losses",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/jji5jq91uvt66s9f9mptug8s3xee",
-      "caption": "艺术家项目公开展示素材",
-      "alt": "艺术家项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-continued-investing-into-my-business-despite-some-financial-losses",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2118,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

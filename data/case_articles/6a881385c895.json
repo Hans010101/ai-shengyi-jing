@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/sy15lmqyi64acdbn0agudo73v8jt",
-      "caption": "AI简历优化服务公开案例主图",
-      "alt": "AI简历优化服务案例图片",
+      "caption": "AI简历优化服务：通过订阅制收费",
+      "alt": "AI简历优化服务：通过订阅制收费",
       "sourceUrl": "https://www.starterstory.com/stories/resume-assassin",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/612/original/open-uri20231224-48-1mh10s1?1703415002",
-      "caption": "AI简历优化服务项目公开展示素材",
-      "alt": "resume-assassin",
+      "caption": "AI简历优化服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI简历优化服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/resume-assassin",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/613/original/open-uri20231224-48-14uj5ue?1703415003",
-      "caption": "AI简历优化服务项目公开展示素材",
-      "alt": "resume-assassin",
+      "caption": "AI简历优化服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI简历优化服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/resume-assassin",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/614/original/open-uri20231224-48-vjs7v1?1703415004",
-      "caption": "AI简历优化服务项目公开展示素材",
-      "alt": "resume-assassin",
+      "caption": "AI简历优化服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "AI简历优化服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/resume-assassin",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI简历优化服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/resume-assassin",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2183,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

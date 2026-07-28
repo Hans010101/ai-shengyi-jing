@@ -122,47 +122,56 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/xqyzs9rptocc916bapi6lftp3k2u",
-      "caption": "3D地图+电商平台公开案例主图",
-      "alt": "3D地图+电商平台案例图片",
+      "caption": "3D地图+电商平台：让用户创作、观看和购物，通过交易抽成和广告盈利",
+      "alt": "3D地图+电商平台：让用户创作、观看和购物，通过交易抽成和广告盈利",
       "sourceUrl": "https://www.starterstory.com/stories/mav-farm",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/331/original/open-uri20230222-51-1akjnew?1677066327",
-      "caption": "3D地图+电商平台项目公开展示素材",
-      "alt": "mav-farm",
+      "caption": "3D地图+电商平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "3D地图+电商平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/mav-farm",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/332/original/open-uri20230222-51-11dot0g?1677066329",
-      "caption": "3D地图+电商平台项目公开展示素材",
-      "alt": "mav-farm",
+      "caption": "3D地图+电商平台：当前经营状态与下一步规划相关原始配图（第2张）",
+      "alt": "3D地图+电商平台：当前经营状态与下一步规划相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/mav-farm",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "3D地图+电商平台项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/e6E0Jp-TH6g",
+      "watchUrl": "https://www.youtube.com/watch?v=e6E0Jp-TH6g",
+      "caption": "3D地图+电商平台资料中提及的视频：Mav Farm - The Geo-Drop™ Marketplace",
+      "alt": "Mav Farm - The Geo-Drop™ Marketplace",
       "sourceUrl": "https://www.starterstory.com/stories/mav-farm",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/e6E0Jp-TH6g/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ux0jwuv5zreae40prptu2ora5km3",
-      "caption": "3D地图+电商平台项目公开展示素材",
-      "alt": "tool-icon",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/klNRQKOY5HY",
+      "watchUrl": "https://www.youtube.com/watch?v=klNRQKOY5HY",
+      "caption": "3D地图+电商平台资料中提及的视频：other (2)",
+      "alt": "other (2)",
       "sourceUrl": "https://www.starterstory.com/stories/mav-farm",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/klNRQKOY5HY/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

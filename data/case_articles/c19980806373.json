@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/xdjyk6wzs4lmtb3bfkon8mfbwn5u",
-      "caption": "数据抓取SaaS公开案例主图",
-      "alt": "数据抓取SaaS案例图片",
+      "caption": "数据抓取SaaS：按订阅和用量收费",
+      "alt": "数据抓取SaaS：按订阅和用量收费",
       "sourceUrl": "https://www.starterstory.com/stories/mrscraper",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "数据抓取SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/mrscraper",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cbed910a7a605a9a",
-      "caption": "数据抓取SaaS项目公开展示素材",
+      "caption": "数据抓取SaaS：创始人、核心产品与品牌起点相关原始配图",
       "alt": "My image",
       "sourceUrl": "https://www.starterstory.com/stories/mrscraper",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/7156ifzsuxp87347rxttqiups1km",
-      "caption": "数据抓取SaaS项目公开展示素材",
-      "alt": "article",
+      "caption": "数据抓取SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "数据抓取SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/mrscraper",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/fd2d97ac939e0cdb",
-      "caption": "数据抓取SaaS项目公开展示素材",
+      "caption": "数据抓取SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "alt": "My image",
       "sourceUrl": "https://www.starterstory.com/stories/mrscraper",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2220,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

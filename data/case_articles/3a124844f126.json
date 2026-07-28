@@ -122,47 +122,24 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/xa9y3howpddj14uc3qk0k7mj90vj",
-      "caption": "手工皂品牌公开案例主图",
-      "alt": "手工皂品牌案例图片",
+      "caption": "手工皂品牌：通过电商和订阅制销售盈利",
+      "alt": "手工皂品牌：通过电商和订阅制销售盈利",
       "sourceUrl": "https://www.starterstory.com/stories/outlaw-soaps",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "手工皂品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/kmvyI-qcv9k",
+      "watchUrl": "https://www.youtube.com/watch?v=kmvyI-qcv9k",
+      "caption": "手工皂品牌资料中提及的视频：Amazon advice for handmade entrepreneurs / small business owners",
+      "alt": "Amazon advice for handmade entrepreneurs / small business owners",
       "sourceUrl": "https://www.starterstory.com/stories/outlaw-soaps",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c303bjznv93yxnh0xxz7t4vfedzf",
-      "caption": "手工皂品牌项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/outlaw-soaps",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "手工皂品牌项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/outlaw-soaps",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/b8iyxwzevrymicbhf1vz4cb3kqbq",
-      "caption": "手工皂品牌项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/outlaw-soaps",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/kmvyI-qcv9k/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +154,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2204,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

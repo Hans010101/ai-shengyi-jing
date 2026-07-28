@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/76jrr28xil74u6gbbntjh038tc38",
-      "caption": "游戏美术外包工作室公开案例主图",
-      "alt": "游戏美术外包工作室案例图片",
+      "caption": "游戏美术外包工作室：为游戏公司提供2D/3D设计服务年入500万美元",
+      "alt": "游戏美术外包工作室：为游戏公司提供2D/3D设计服务年入500万美元",
       "sourceUrl": "https://www.starterstory.com/stories/retrostyle-games",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/548/original/open-uri20230910-48-1ccqtgn?1694331582",
-      "caption": "游戏美术外包工作室项目公开展示素材",
-      "alt": "retrostyle-games",
+      "caption": "游戏美术外包工作室：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "游戏美术外包工作室：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/retrostyle-games",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/549/original/open-uri20230910-48-1gjurab?1694331583",
-      "caption": "游戏美术外包工作室项目公开展示素材",
-      "alt": "retrostyle-games",
+      "caption": "游戏美术外包工作室：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "游戏美术外包工作室：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/retrostyle-games",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/550/original/open-uri20230910-48-ff1omq?1694331584",
-      "caption": "游戏美术外包工作室项目公开展示素材",
-      "alt": "retrostyle-games",
+      "caption": "游戏美术外包工作室：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "游戏美术外包工作室：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/retrostyle-games",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/551/original/open-uri20230910-48-1dgwm27?1694331585",
-      "caption": "游戏美术外包工作室项目公开展示素材",
-      "alt": "retrostyle-games",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/enAC0c4NNfM",
+      "watchUrl": "https://www.youtube.com/watch?v=enAC0c4NNfM",
+      "caption": "游戏美术外包工作室资料中提及的视频：Spirit Run - Official Game Trailer",
+      "alt": "Spirit Run - Official Game Trailer",
       "sourceUrl": "https://www.starterstory.com/stories/retrostyle-games",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/enAC0c4NNfM/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

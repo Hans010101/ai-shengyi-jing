@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ruj340jm0qapww2720ntmr2w7htl",
-      "caption": "物流公司提供仓储配送服务公开案例主图",
-      "alt": "物流公司提供仓储配送服务案例图片",
+      "caption": "物流公司提供仓储配送服务：年入200万美元",
+      "alt": "物流公司提供仓储配送服务：年入200万美元",
       "sourceUrl": "https://www.starterstory.com/stories/velocity-international-group",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/174/original/open-uri20220323-3-1kdo0ch?1648054894",
-      "caption": "物流公司提供仓储配送服务项目公开展示素材",
-      "alt": "velocity-international-group",
+      "caption": "物流公司提供仓储配送服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "物流公司提供仓储配送服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/velocity-international-group",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/175/original/open-uri20220323-3-p1x0mh?1648054894",
-      "caption": "物流公司提供仓储配送服务项目公开展示素材",
-      "alt": "velocity-international-group",
+      "caption": "物流公司提供仓储配送服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "物流公司提供仓储配送服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/velocity-international-group",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "物流公司提供仓储配送服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/velocity-international-group",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/em0w5qaoi1y7eridprtwkgawordo",
-      "caption": "物流公司提供仓储配送服务项目公开展示素材",
-      "alt": "物流公司提供仓储配送服务项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/velocity-international-group",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2132,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

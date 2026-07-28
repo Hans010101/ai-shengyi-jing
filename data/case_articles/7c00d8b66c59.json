@@ -122,75 +122,53 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/wgegv2djem5l63gi1vldnsvbgpfq",
-      "caption": "电动滑板众筹项目公开案例主图",
-      "alt": "电动滑板众筹项目案例图片",
+      "caption": "电动滑板众筹项目：通过Kickstarter预售盈利",
+      "alt": "电动滑板众筹项目：通过Kickstarter预售盈利",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-launched-an-electric-skateboard-campaign-that-reached-100k-in-sales",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/007/064/original/open-uri20200714-4-11jr9vz?1594732347",
-      "caption": "电动滑板众筹项目项目公开展示素材",
-      "alt": "how-we-launched-an-electric-skateboard-campaign-and-reached-over-100k-in-sales",
+      "caption": "电动滑板众筹项目：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "电动滑板众筹项目：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-launched-an-electric-skateboard-campaign-that-reached-100k-in-sales",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/007/065/original/open-uri20200714-4-1oh83s3?1594732347",
-      "caption": "电动滑板众筹项目项目公开展示素材",
-      "alt": "how-we-launched-an-electric-skateboard-campaign-and-reached-over-100k-in-sales",
+      "caption": "电动滑板众筹项目：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "电动滑板众筹项目：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-launched-an-electric-skateboard-campaign-that-reached-100k-in-sales",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/007/066/original/open-uri20200714-4-yqkbnz?1594732347",
-      "caption": "电动滑板众筹项目项目公开展示素材",
-      "alt": "how-we-launched-an-electric-skateboard-campaign-and-reached-over-100k-in-sales",
+      "caption": "电动滑板众筹项目：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "电动滑板众筹项目：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-launched-an-electric-skateboard-campaign-that-reached-100k-in-sales",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/007/067/original/open-uri20200714-4-ifwv9e?1594732347",
-      "caption": "电动滑板众筹项目项目公开展示素材",
-      "alt": "how-we-launched-an-electric-skateboard-campaign-and-reached-over-100k-in-sales",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-launched-an-electric-skateboard-campaign-that-reached-100k-in-sales",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/007/068/original/open-uri20200714-4-www7rs?1594732348",
-      "caption": "电动滑板众筹项目项目公开展示素材",
-      "alt": "how-we-launched-an-electric-skateboard-campaign-and-reached-over-100k-in-sales",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-launched-an-electric-skateboard-campaign-that-reached-100k-in-sales",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/tiJXpXGfXoM",
-      "caption": "电动滑板众筹项目项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=tiJXpXGfXoM",
+      "caption": "电动滑板众筹项目资料中提及的视频：Shark Wheel Start Engine",
+      "alt": "Shark Wheel Start Engine",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-launched-an-electric-skateboard-campaign-that-reached-100k-in-sales",
       "origin": "embeddable-video",
-      "poster": "",
-      "usage": ""
-    },
-    {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/llzHrZFmu-Q",
-      "caption": "电动滑板众筹项目项目相关公开视频",
-      "alt": "",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-launched-an-electric-skateboard-campaign-that-reached-100k-in-sales",
-      "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/tiJXpXGfXoM/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -206,6 +184,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2206,
-    "mediaCount": 8
+    "mediaCount": 5
   }
 }

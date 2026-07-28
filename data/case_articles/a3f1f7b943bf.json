@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/wa8w8ov6gqmid6klku1fqgtt64vz",
-      "caption": "一个面向跨境电商卖家的综合资源平台公开案例主图",
-      "alt": "一个面向跨境电商卖家的综合资源平台案例图片",
+      "caption": "一个面向跨境电商卖家的综合资源平台：通过广告和会员赚钱",
+      "alt": "一个面向跨境电商卖家的综合资源平台：通过广告和会员赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/dropshipping-com",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/764/original/open-uri20221228-24-1pw59fj?1672195844",
-      "caption": "一个面向跨境电商卖家的综合资源平台项目公开展示素材",
-      "alt": "dropshipping-com",
+      "caption": "一个面向跨境电商卖家的综合资源平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "一个面向跨境电商卖家的综合资源平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/dropshipping-com",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/765/original/open-uri20221228-24-18h1x7u?1672195845",
-      "caption": "一个面向跨境电商卖家的综合资源平台项目公开展示素材",
-      "alt": "dropshipping-com",
+      "caption": "一个面向跨境电商卖家的综合资源平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "一个面向跨境电商卖家的综合资源平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/dropshipping-com",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/766/original/open-uri20221228-24-1ob9pig?1672195846",
-      "caption": "一个面向跨境电商卖家的综合资源平台项目公开展示素材",
-      "alt": "dropshipping-com",
+      "caption": "一个面向跨境电商卖家的综合资源平台：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "一个面向跨境电商卖家的综合资源平台：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/dropshipping-com",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/767/original/open-uri20221228-24-at362q?1672195847",
-      "caption": "一个面向跨境电商卖家的综合资源平台项目公开展示素材",
-      "alt": "dropshipping-com",
-      "sourceUrl": "https://www.starterstory.com/stories/dropshipping-com",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2167,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

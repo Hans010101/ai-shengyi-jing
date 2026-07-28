@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/sh2m4mgy0rxobypus6wz7jd2puat",
-      "caption": "健康品牌Fredi公开案例主图",
-      "alt": "健康品牌Fredi案例图片",
+      "caption": "健康品牌Fredi：通过销售职场健康产品实现年营收250K美元",
+      "alt": "健康品牌Fredi：通过销售职场健康产品实现年营收250K美元",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-revenue-to-25k-month-and-250k-in-sales-in-one-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/366/original/open-uri20220220-3-1scyf0c?1645401227",
-      "caption": "健康品牌Fredi项目公开展示素材",
-      "alt": "how-we-increased-revenue-to-25k-month-and-250k-in-sales-in-one-year",
+      "caption": "健康品牌Fredi：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "健康品牌Fredi：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-revenue-to-25k-month-and-250k-in-sales-in-one-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "健康品牌Fredi项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-revenue-to-25k-month-and-250k-in-sales-in-one-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/p21ts159h2jq9q519g25528av7yd",
-      "caption": "健康品牌Fredi项目公开展示素材",
-      "alt": "健康品牌Fredi项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-revenue-to-25k-month-and-250k-in-sales-in-one-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/bktaf6keh1rjsjde1tkkhpinriz5",
-      "caption": "健康品牌Fredi项目公开展示素材",
-      "alt": "健康品牌Fredi项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-revenue-to-25k-month-and-250k-in-sales-in-one-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2169,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

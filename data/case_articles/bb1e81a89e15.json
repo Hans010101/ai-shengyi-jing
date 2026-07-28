@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/blalhztjxd5fd5q6i60tq4z80onz",
-      "caption": "疫情检测站网络公开案例主图",
-      "alt": "疫情检测站网络案例图片",
+      "caption": "疫情检测站网络：通过提供测试服务向个人和机构收费",
+      "alt": "疫情检测站网络：通过提供测试服务向个人和机构收费",
       "sourceUrl": "https://www.starterstory.com/stories/covid-clinic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/157/original/open-uri20221003-24-9ze8xf?1664795450",
-      "caption": "疫情检测站网络项目公开展示素材",
-      "alt": "covid-clinic",
+      "caption": "疫情检测站网络：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "疫情检测站网络：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/covid-clinic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/158/original/open-uri20221003-24-xjjxu3?1664795451",
-      "caption": "疫情检测站网络项目公开展示素材",
-      "alt": "covid-clinic",
+      "caption": "疫情检测站网络：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "疫情检测站网络：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/covid-clinic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "疫情检测站网络项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/covid-clinic",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/nlzka6avch4wnddofkr0ivo5ynsx",
-      "caption": "疫情检测站网络项目公开展示素材",
-      "alt": "疫情检测站网络项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/covid-clinic",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2159,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

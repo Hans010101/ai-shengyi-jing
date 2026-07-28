@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/0ou90fv77varz83r7u4nhwh4ulq0",
-      "caption": "线上个人造型服务公开案例主图",
-      "alt": "线上个人造型服务案例图片",
+      "caption": "线上个人造型服务：按月订阅或单次咨询收费",
+      "alt": "线上个人造型服务：按月订阅或单次咨询收费",
       "sourceUrl": "https://www.starterstory.com/stories/fashivly",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/101/original/open-uri20230422-63-1baw5sx?1682167731",
-      "caption": "线上个人造型服务项目公开展示素材",
-      "alt": "fashivly",
+      "caption": "线上个人造型服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "线上个人造型服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/fashivly",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/102/original/open-uri20230422-63-6hp9v2?1682167732",
-      "caption": "线上个人造型服务项目公开展示素材",
-      "alt": "fashivly",
+      "caption": "线上个人造型服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "线上个人造型服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/fashivly",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/103/original/open-uri20230422-63-ckbwd0?1682167734",
-      "caption": "线上个人造型服务项目公开展示素材",
-      "alt": "fashivly",
+      "caption": "线上个人造型服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "线上个人造型服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/fashivly",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/104/original/open-uri20230422-63-5eye0r?1682167735",
-      "caption": "线上个人造型服务项目公开展示素材",
-      "alt": "fashivly",
-      "sourceUrl": "https://www.starterstory.com/stories/fashivly",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2231,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

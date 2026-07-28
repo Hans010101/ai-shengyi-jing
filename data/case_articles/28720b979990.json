@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/m9lb1il17b0q04mvty0qlz9xf2j5",
-      "caption": "AI截图美化工具公开案例主图",
-      "alt": "AI截图美化工具案例图片",
+      "caption": "AI截图美化工具：通过API和模板收费",
+      "alt": "AI截图美化工具：通过API和模板收费",
       "sourceUrl": "https://www.starterstory.com/stories/pika",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/641/original/open-uri20240413-65-1m6xcdb?1713015720",
-      "caption": "AI截图美化工具项目公开展示素材",
-      "alt": "pika",
+      "caption": "AI截图美化工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI截图美化工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/pika",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/642/original/open-uri20240413-65-17xgh0b?1713015721",
-      "caption": "AI截图美化工具项目公开展示素材",
-      "alt": "pika",
+      "caption": "AI截图美化工具：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "AI截图美化工具：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/pika",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/643/original/open-uri20240413-65-tslohk?1713015722",
-      "caption": "AI截图美化工具项目公开展示素材",
-      "alt": "pika",
+      "caption": "AI截图美化工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "AI截图美化工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/pika",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/644/original/open-uri20240413-65-ko0748?1713015722",
-      "caption": "AI截图美化工具项目公开展示素材",
-      "alt": "pika",
-      "sourceUrl": "https://www.starterstory.com/stories/pika",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2132,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

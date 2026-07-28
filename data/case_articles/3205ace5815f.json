@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/0ich5a2fpttj9l5uuby218y1qff0",
-      "caption": "自由职业者公开案例主图",
-      "alt": "自由职业者案例图片",
+      "caption": "自由职业者：通过文化故事写作和文案服务赚钱",
+      "alt": "自由职业者：通过文化故事写作和文案服务赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/lola-s-lines",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/151/original/open-uri20230502-51-1wwvvan?1682994912",
-      "caption": "自由职业者项目公开展示素材",
-      "alt": "lola-s-lines",
+      "caption": "自由职业者：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "自由职业者：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/lola-s-lines",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/152/original/open-uri20230502-51-7hu79p?1682994913",
-      "caption": "自由职业者项目公开展示素材",
-      "alt": "lola-s-lines",
+      "caption": "自由职业者：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "自由职业者：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/lola-s-lines",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/153/original/open-uri20230502-51-a8mozi?1682994914",
-      "caption": "自由职业者项目公开展示素材",
-      "alt": "lola-s-lines",
+      "caption": "自由职业者：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "自由职业者：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/lola-s-lines",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/154/original/open-uri20230502-51-l5im6?1682994914",
-      "caption": "自由职业者项目公开展示素材",
-      "alt": "lola-s-lines",
-      "sourceUrl": "https://www.starterstory.com/stories/lola-s-lines",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/155/original/open-uri20230502-51-iueihd?1682994915",
-      "caption": "自由职业者项目公开展示素材",
-      "alt": "lola-s-lines",
-      "sourceUrl": "https://www.starterstory.com/stories/lola-s-lines",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2177,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

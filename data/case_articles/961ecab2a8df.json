@@ -122,65 +122,53 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/e0213ag9bb6cfwstucolv3r47pc4",
-      "caption": "邮件查找与验证工具公开案例主图",
-      "alt": "邮件查找与验证工具案例图片",
+      "caption": "邮件查找与验证工具：按订阅收费",
+      "alt": "邮件查找与验证工具：按订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/on-building-an-email-finder-and-email-verification-tool",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/405/original/open-uri20211020-3-w8sbdz?1634741830",
-      "caption": "邮件查找与验证工具项目公开展示素材",
-      "alt": "on-building-an-email-finder-and-email-verification-tool",
+      "caption": "邮件查找与验证工具：产品上线与首次发布相关原始配图",
+      "alt": "邮件查找与验证工具：产品上线与首次发布相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/on-building-an-email-finder-and-email-verification-tool",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/406/original/open-uri20211020-3-rqbef0?1634741830",
-      "caption": "邮件查找与验证工具项目公开展示素材",
-      "alt": "on-building-an-email-finder-and-email-verification-tool",
+      "caption": "邮件查找与验证工具：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "邮件查找与验证工具：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/on-building-an-email-finder-and-email-verification-tool",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/407/original/open-uri20211020-3-lbh0rg?1634741831",
-      "caption": "邮件查找与验证工具项目公开展示素材",
-      "alt": "on-building-an-email-finder-and-email-verification-tool",
+      "caption": "邮件查找与验证工具：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "邮件查找与验证工具：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/on-building-an-email-finder-and-email-verification-tool",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/408/original/open-uri20211020-3-2o1ejg?1634741831",
-      "caption": "邮件查找与验证工具项目公开展示素材",
-      "alt": "on-building-an-email-finder-and-email-verification-tool",
-      "sourceUrl": "https://www.starterstory.com/stories/on-building-an-email-finder-and-email-verification-tool",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "邮件查找与验证工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/on-building-an-email-finder-and-email-verification-tool",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/rGn_MB_7rmI",
-      "caption": "邮件查找与验证工具项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=rGn_MB_7rmI",
+      "caption": "邮件查找与验证工具资料中提及的视频：Clearout Email Verification | Best Email Verification Tool | Highest Email Verification Accuracy",
+      "alt": "Clearout Email Verification | Best Email Verification Tool | Highest Email Verification Accuracy",
       "sourceUrl": "https://www.starterstory.com/stories/on-building-an-email-finder-and-email-verification-tool",
       "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/rGn_MB_7rmI/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -196,6 +184,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2203,
-    "mediaCount": 7
+    "mediaCount": 5
   }
 }

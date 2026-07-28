@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/bith7nzfszlv9f585x2y81m3p23a",
-      "caption": "品牌设计代理公开案例主图",
-      "alt": "品牌设计代理案例图片",
+      "caption": "品牌设计代理：通过策略性品牌服务收费盈利",
+      "alt": "品牌设计代理：通过策略性品牌服务收费盈利",
       "sourceUrl": "https://www.starterstory.com/stories/percept",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/312/original/open-uri20230506-51-c6pb5v?1683389805",
-      "caption": "品牌设计代理项目公开展示素材",
-      "alt": "percept",
+      "caption": "品牌设计代理：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "品牌设计代理：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/percept",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/313/original/open-uri20230506-51-ocee5q?1683389807",
-      "caption": "品牌设计代理项目公开展示素材",
-      "alt": "percept",
+      "caption": "品牌设计代理：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "品牌设计代理：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/percept",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/314/original/open-uri20230506-51-2ngobi?1683389808",
-      "caption": "品牌设计代理项目公开展示素材",
-      "alt": "percept",
+      "caption": "品牌设计代理：创业复盘与关键经验相关原始配图（第3张）",
+      "alt": "品牌设计代理：创业复盘与关键经验相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/percept",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/315/original/open-uri20230506-51-1cngc89?1683389809",
-      "caption": "品牌设计代理项目公开展示素材",
-      "alt": "percept",
-      "sourceUrl": "https://www.starterstory.com/stories/percept",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2166,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/488dwz43ynr7y5l5ure689n6vupt",
-      "caption": "在线画廊连接澳洲艺术家与买家公开案例主图",
-      "alt": "在线画廊连接澳洲艺术家与买家案例图片",
+      "caption": "在线画廊连接澳洲艺术家与买家：通过销售艺术品赚取佣金",
+      "alt": "在线画廊连接澳洲艺术家与买家：通过销售艺术品赚取佣金",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-created-a-160k-month-online-art-gallery",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/908/original/open-uri20210718-3-kc4y75?1626649800",
-      "caption": "在线画廊连接澳洲艺术家与买家项目公开展示素材",
-      "alt": "how-we-created-a-160k-month-online-art-gallery",
+      "caption": "在线画廊连接澳洲艺术家与买家：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "在线画廊连接澳洲艺术家与买家：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-created-a-160k-month-online-art-gallery",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/909/original/open-uri20210718-3-1y5801y?1626649800",
-      "caption": "在线画廊连接澳洲艺术家与买家项目公开展示素材",
-      "alt": "how-we-created-a-160k-month-online-art-gallery",
+      "caption": "在线画廊连接澳洲艺术家与买家：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "在线画廊连接澳洲艺术家与买家：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-created-a-160k-month-online-art-gallery",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/910/original/open-uri20210718-3-17f3508?1626649801",
-      "caption": "在线画廊连接澳洲艺术家与买家项目公开展示素材",
-      "alt": "how-we-created-a-160k-month-online-art-gallery",
+      "caption": "在线画廊连接澳洲艺术家与买家：当前经营状态与下一步规划相关原始配图（第3张）",
+      "alt": "在线画廊连接澳洲艺术家与买家：当前经营状态与下一步规划相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-created-a-160k-month-online-art-gallery",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "在线画廊连接澳洲艺术家与买家项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-created-a-160k-month-online-art-gallery",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2263,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

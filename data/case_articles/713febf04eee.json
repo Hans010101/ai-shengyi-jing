@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ds46u0sm7sla8md1fzl98d2nlvlz",
-      "caption": "面向电商的营销自动化SaaS平台公开案例主图",
-      "alt": "面向电商的营销自动化SaaS平台案例图片",
+      "caption": "面向电商的营销自动化SaaS平台：按月收取订阅费",
+      "alt": "面向电商的营销自动化SaaS平台：按月收取订阅费",
       "sourceUrl": "https://www.starterstory.com/stories/mindbox",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/848/original/open-uri20230620-52-166ubi8?1687247385",
-      "caption": "面向电商的营销自动化SaaS平台项目公开展示素材",
-      "alt": "mindbox",
+      "caption": "面向电商的营销自动化SaaS平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "面向电商的营销自动化SaaS平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/mindbox",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "面向电商的营销自动化SaaS平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/mindbox",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/1s7m5fyj6w1je4ry8bo80hv3i7n3",
-      "caption": "面向电商的营销自动化SaaS平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/mindbox",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/wsfthxo0bwxpga1da6eflodtgxay",
-      "caption": "面向电商的营销自动化SaaS平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/mindbox",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2278,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

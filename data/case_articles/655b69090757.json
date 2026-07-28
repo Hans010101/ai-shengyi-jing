@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/wk8h2p1znh9rgkguwuthx3vbirko",
-      "caption": "为创意社群打造的社交平台公开案例主图",
-      "alt": "为创意社群打造的社交平台案例图片",
+      "caption": "为创意社群打造的社交平台：通过订阅和增值服务赚钱",
+      "alt": "为创意社群打造的社交平台：通过订阅和增值服务赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/knoddo",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/359/original/open-uri20220905-24-x14res?1662417852",
-      "caption": "为创意社群打造的社交平台项目公开展示素材",
-      "alt": "knoddo",
+      "caption": "为创意社群打造的社交平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为创意社群打造的社交平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/knoddo",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/360/original/open-uri20220905-24-1mc1kmp?1662417853",
-      "caption": "为创意社群打造的社交平台项目公开展示素材",
-      "alt": "knoddo",
+      "caption": "为创意社群打造的社交平台：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "为创意社群打造的社交平台：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/knoddo",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/361/original/open-uri20220905-24-hzdi30?1662417854",
-      "caption": "为创意社群打造的社交平台项目公开展示素材",
-      "alt": "knoddo",
+      "caption": "为创意社群打造的社交平台：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "为创意社群打造的社交平台：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/knoddo",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/362/original/open-uri20220905-24-a7jhm4?1662417854",
-      "caption": "为创意社群打造的社交平台项目公开展示素材",
-      "alt": "knoddo",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/gBn-vLa_U7M",
+      "watchUrl": "https://www.youtube.com/watch?v=gBn-vLa_U7M",
+      "caption": "为创意社群打造的社交平台资料中提及的视频：Knoddo - Make Share Connect",
+      "alt": "Knoddo - Make Share Connect",
       "sourceUrl": "https://www.starterstory.com/stories/knoddo",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/gBn-vLa_U7M/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

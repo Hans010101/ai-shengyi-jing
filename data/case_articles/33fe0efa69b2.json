@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/aipmpjg87b5g9g64tsjoi1a9zp06",
-      "caption": "Shopify插件SaaS公开案例主图",
-      "alt": "Shopify插件SaaS案例图片",
+      "caption": "Shopify插件SaaS：帮卖家管理亚马逊库存与订单",
+      "alt": "Shopify插件SaaS：帮卖家管理亚马逊库存与订单",
       "sourceUrl": "https://www.starterstory.com/stories/bytestand-update-how-we-grew-25-over-last-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/047/original/open-uri20210514-3-rndjs2?1621011947",
-      "caption": "Shopify插件SaaS项目公开展示素材",
-      "alt": "how-we-grew-25-over-last-year",
+      "caption": "Shopify插件SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "Shopify插件SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/bytestand-update-how-we-grew-25-over-last-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/048/original/open-uri20210514-3-ivyxhq?1621011948",
-      "caption": "Shopify插件SaaS项目公开展示素材",
-      "alt": "how-we-grew-25-over-last-year",
+      "caption": "Shopify插件SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "Shopify插件SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/bytestand-update-how-we-grew-25-over-last-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/049/original/open-uri20210514-3-qwwhlt?1621011948",
-      "caption": "Shopify插件SaaS项目公开展示素材",
-      "alt": "how-we-grew-25-over-last-year",
+      "caption": "Shopify插件SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "Shopify插件SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/bytestand-update-how-we-grew-25-over-last-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "Shopify插件SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/bytestand-update-how-we-grew-25-over-last-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2213,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

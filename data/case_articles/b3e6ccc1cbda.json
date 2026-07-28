@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/58yv5ujsm3075e695ztmhm1f4362",
-      "caption": "环保博客公开案例主图",
-      "alt": "环保博客案例图片",
+      "caption": "环保博客：通过内容营销和联盟营销实现月入200美元",
+      "alt": "环保博客：通过内容营销和联盟营销实现月入200美元",
       "sourceUrl": "https://www.starterstory.com/stories/blue-oceans-green-earth",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/962/original/open-uri20220928-12-1f5inpz?1664379040",
-      "caption": "环保博客项目公开展示素材",
-      "alt": "blue-oceans-green-earth",
+      "caption": "环保博客：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "环保博客：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/blue-oceans-green-earth",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/963/original/open-uri20220928-12-qiofhz?1664379040",
-      "caption": "环保博客项目公开展示素材",
-      "alt": "blue-oceans-green-earth",
+      "caption": "环保博客：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "环保博客：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/blue-oceans-green-earth",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/964/original/open-uri20220928-12-11vm5ef?1664379041",
-      "caption": "环保博客项目公开展示素材",
-      "alt": "blue-oceans-green-earth",
+      "caption": "环保博客：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "环保博客：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/blue-oceans-green-earth",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/965/original/open-uri20220928-12-jynvjl?1664379042",
-      "caption": "环保博客项目公开展示素材",
-      "alt": "blue-oceans-green-earth",
-      "sourceUrl": "https://www.starterstory.com/stories/blue-oceans-green-earth",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2158,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

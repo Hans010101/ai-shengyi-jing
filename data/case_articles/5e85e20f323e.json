@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/zbhxp0nm7fsr09l9h7jae32ui6kv",
-      "caption": "增长营销代理机构公开案例主图",
-      "alt": "增长营销代理机构案例图片",
+      "caption": "增长营销代理机构：通过SEO和付费广告帮品牌获客赚取服务费",
+      "alt": "增长营销代理机构：通过SEO和付费广告帮品牌获客赚取服务费",
       "sourceUrl": "https://www.starterstory.com/stories/7-eagles",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/044/original/open-uri20230421-63-oizxoj?1682059670",
-      "caption": "增长营销代理机构项目公开展示素材",
-      "alt": "7-eagles",
+      "caption": "增长营销代理机构：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "增长营销代理机构：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/7-eagles",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/045/original/open-uri20230421-63-cy3rda?1682059672",
-      "caption": "增长营销代理机构项目公开展示素材",
-      "alt": "7-eagles",
+      "caption": "增长营销代理机构：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "增长营销代理机构：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/7-eagles",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/046/original/open-uri20230421-63-g1zxjg?1682059673",
-      "caption": "增长营销代理机构项目公开展示素材",
-      "alt": "7-eagles",
+      "caption": "增长营销代理机构：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "增长营销代理机构：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/7-eagles",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/047/original/open-uri20230421-63-9b2y2z?1682059673",
-      "caption": "增长营销代理机构项目公开展示素材",
-      "alt": "7-eagles",
-      "sourceUrl": "https://www.starterstory.com/stories/7-eagles",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2148,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

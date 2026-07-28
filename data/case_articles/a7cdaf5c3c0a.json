@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/3mjbnorqujqr25l90gugy5jmz05e",
-      "caption": "餐饮业API管理平台公开案例主图",
-      "alt": "餐饮业API管理平台案例图片",
+      "caption": "餐饮业API管理平台：通过订阅制向餐厅收费",
+      "alt": "餐饮业API管理平台：通过订阅制向餐厅收费",
       "sourceUrl": "https://www.starterstory.com/stories/foodetective",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/608/original/open-uri20220909-12-njp2g?1662709511",
-      "caption": "餐饮业API管理平台项目公开展示素材",
-      "alt": "foodetective",
+      "caption": "餐饮业API管理平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "餐饮业API管理平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/foodetective",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/609/original/open-uri20220909-12-f20jpv?1662709513",
-      "caption": "餐饮业API管理平台项目公开展示素材",
-      "alt": "foodetective",
+      "caption": "餐饮业API管理平台：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "餐饮业API管理平台：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/foodetective",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/610/original/open-uri20220909-12-105yy0d?1662709514",
-      "caption": "餐饮业API管理平台项目公开展示素材",
-      "alt": "foodetective",
+      "caption": "餐饮业API管理平台：当前经营状态与下一步规划相关原始配图（第3张）",
+      "alt": "餐饮业API管理平台：当前经营状态与下一步规划相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/foodetective",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/612/original/open-uri20220909-12-1mysrxl?1662709517",
-      "caption": "餐饮业API管理平台项目公开展示素材",
-      "alt": "foodetective",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/gGK7FmFUeuA",
+      "watchUrl": "https://www.youtube.com/watch?v=gGK7FmFUeuA",
+      "caption": "餐饮业API管理平台资料中提及的视频：Imagine The Possibilities",
+      "alt": "Imagine The Possibilities",
       "sourceUrl": "https://www.starterstory.com/stories/foodetective",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/gGK7FmFUeuA/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

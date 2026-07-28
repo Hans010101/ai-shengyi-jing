@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/r6zeamh07uo6mvw757bggc9twor7",
-      "caption": "海外其他项目公开案例主图",
-      "alt": "海外其他项目案例图片",
+      "caption": "海外其他项目：通过辅导公众演讲和思想领导力培训，帮助专业人士提升影响力并收费",
+      "alt": "海外其他项目：通过辅导公众演讲和思想领导力培训，帮助专业人士提升影响力并收费",
       "sourceUrl": "https://www.starterstory.com/stories/the-big-talk-academy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/374/original/open-uri20220906-12-111j1ff?1662428695",
-      "caption": "海外其他项目项目公开展示素材",
-      "alt": "the-big-talk-academy",
+      "caption": "海外其他项目：创业起点与创意来源相关原始配图",
+      "alt": "海外其他项目：创业起点与创意来源相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/the-big-talk-academy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/375/original/open-uri20220906-12-1r52pwq?1662428696",
-      "caption": "海外其他项目项目公开展示素材",
-      "alt": "the-big-talk-academy",
+      "caption": "海外其他项目：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "海外其他项目：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/the-big-talk-academy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/376/original/open-uri20220906-12-li5gxm?1662428698",
-      "caption": "海外其他项目项目公开展示素材",
-      "alt": "the-big-talk-academy",
+      "caption": "海外其他项目：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "海外其他项目：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/the-big-talk-academy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/377/original/open-uri20220906-12-hu3vvj?1662428699",
-      "caption": "海外其他项目项目公开展示素材",
-      "alt": "the-big-talk-academy",
-      "sourceUrl": "https://www.starterstory.com/stories/the-big-talk-academy",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2206,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

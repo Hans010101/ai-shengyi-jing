@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/zre4iol19sfdro4p8175tsqlnmhl",
-      "caption": "WordPress技术支持与维护服务公开案例主图",
-      "alt": "WordPress技术支持与维护服务案例图片",
+      "caption": "WordPress技术支持与维护服务：按月收费",
+      "alt": "WordPress技术支持与维护服务：按月收费",
       "sourceUrl": "https://www.starterstory.com/stories/work-hero",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/695/original/open-uri20220913-12-bshv6r?1663043591",
-      "caption": "WordPress技术支持与维护服务项目公开展示素材",
-      "alt": "work-hero",
+      "caption": "WordPress技术支持与维护服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "WordPress技术支持与维护服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/work-hero",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "WordPress技术支持与维护服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/work-hero",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ux0jwuv5zreae40prptu2ora5km3",
-      "caption": "WordPress技术支持与维护服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/work-hero",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/6d9kidi444vd2x3xg9bjmpvtmr51",
-      "caption": "WordPress技术支持与维护服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/work-hero",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2305,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

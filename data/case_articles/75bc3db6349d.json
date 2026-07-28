@@ -122,47 +122,56 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/kun0xalrpijv9ryg7h2xctjp5vk4",
-      "caption": "为创意工作者提供虚拟运营管理服务公开案例主图",
-      "alt": "为创意工作者提供虚拟运营管理服务案例图片",
+      "caption": "为创意工作者提供虚拟运营管理服务：月收5万美元",
+      "alt": "为创意工作者提供虚拟运营管理服务：月收5万美元",
       "sourceUrl": "https://www.starterstory.com/stories/the-clover-collective",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/842/original/open-uri20230924-60-jstxtn?1695552809",
-      "caption": "为创意工作者提供虚拟运营管理服务项目公开展示素材",
-      "alt": "the-clover-collective",
+      "caption": "为创意工作者提供虚拟运营管理服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为创意工作者提供虚拟运营管理服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/the-clover-collective",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/843/original/open-uri20230924-60-4w4hj?1695552810",
-      "caption": "为创意工作者提供虚拟运营管理服务项目公开展示素材",
-      "alt": "the-clover-collective",
+      "caption": "为创意工作者提供虚拟运营管理服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "为创意工作者提供虚拟运营管理服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/the-clover-collective",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为创意工作者提供虚拟运营管理服务项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/3W2ddKQJJEU",
+      "watchUrl": "https://www.youtube.com/watch?v=3W2ddKQJJEU",
+      "caption": "为创意工作者提供虚拟运营管理服务：创业起点与创意来源相关视频",
+      "alt": "为创意工作者提供虚拟运营管理服务相关视频",
       "sourceUrl": "https://www.starterstory.com/stories/the-clover-collective",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/3W2ddKQJJEU/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/3d0celdrs9ugtg77g37hjvvnmyhi",
-      "caption": "为创意工作者提供虚拟运营管理服务项目公开展示素材",
-      "alt": "tool-icon",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/PoYzWunKqSk",
+      "watchUrl": "https://www.youtube.com/watch?v=PoYzWunKqSk",
+      "caption": "为创意工作者提供虚拟运营管理服务：创始人、核心产品与品牌起点相关视频",
+      "alt": "为创意工作者提供虚拟运营管理服务相关视频",
       "sourceUrl": "https://www.starterstory.com/stories/the-clover-collective",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/PoYzWunKqSk/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

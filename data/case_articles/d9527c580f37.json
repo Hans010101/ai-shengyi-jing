@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/medy8isuwohvv2zvbmd85m1oad7a",
-      "caption": "在线办公空间搜索平台公开案例主图",
-      "alt": "在线办公空间搜索平台案例图片",
+      "caption": "在线办公空间搜索平台：通过广告和佣金赚钱",
+      "alt": "在线办公空间搜索平台：通过广告和佣金赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/the-office-providers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/032/original/open-uri20230715-48-b8596p?1689461923",
-      "caption": "在线办公空间搜索平台项目公开展示素材",
-      "alt": "the-office-providers",
+      "caption": "在线办公空间搜索平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "在线办公空间搜索平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/the-office-providers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/033/original/open-uri20230715-48-1bgl0ei?1689461924",
-      "caption": "在线办公空间搜索平台项目公开展示素材",
-      "alt": "the-office-providers",
+      "caption": "在线办公空间搜索平台：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "在线办公空间搜索平台：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/the-office-providers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/034/original/open-uri20230715-48-g82qgj?1689461925",
-      "caption": "在线办公空间搜索平台项目公开展示素材",
-      "alt": "the-office-providers",
+      "caption": "在线办公空间搜索平台：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "在线办公空间搜索平台：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/the-office-providers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "在线办公空间搜索平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/the-office-providers",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2204,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

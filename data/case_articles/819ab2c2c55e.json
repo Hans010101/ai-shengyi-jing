@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ll4911qfqq3ujvnc2j6t7ir5gy0r",
-      "caption": "一人木工作坊公开案例主图",
-      "alt": "一人木工作坊案例图片",
+      "caption": "一人木工作坊：制作并销售木质书签、时钟、耳环等手工艺品",
+      "alt": "一人木工作坊：制作并销售木质书签、时钟、耳环等手工艺品",
       "sourceUrl": "https://www.starterstory.com/stories/2puggles-update-how-i-grew-my-side-hustle-to-2k-month",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/011/817/original/open-uri20210501-3-1xjrifx?1619905249",
-      "caption": "一人木工作坊项目公开展示素材",
-      "alt": "how-i-grew-sales-to-2k-month-in-one-year",
+      "caption": "一人木工作坊：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "一人木工作坊：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/2puggles-update-how-i-grew-my-side-hustle-to-2k-month",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/011/818/original/open-uri20210501-3-qbpfne?1619905250",
-      "caption": "一人木工作坊项目公开展示素材",
-      "alt": "how-i-grew-sales-to-2k-month-in-one-year",
+      "caption": "一人木工作坊：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "一人木工作坊：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/2puggles-update-how-i-grew-my-side-hustle-to-2k-month",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "一人木工作坊项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/2puggles-update-how-i-grew-my-side-hustle-to-2k-month",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/99ksxd2nj103a83g46k5e90eng84",
-      "caption": "一人木工作坊项目公开展示素材",
-      "alt": "一人木工作坊项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/2puggles-update-how-i-grew-my-side-hustle-to-2k-month",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2139,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

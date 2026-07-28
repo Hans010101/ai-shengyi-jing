@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/w65fcm8y1i2p5a642jrsng71q16u",
-      "caption": "一款公开案例主图",
-      "alt": "一款案例图片",
+      "caption": "一款：通过物理装置优化饮用水质的产品，销售设备与滤芯盈利",
+      "alt": "一款：通过物理装置优化饮用水质的产品，销售设备与滤芯盈利",
       "sourceUrl": "https://www.starterstory.com/stories/a-alemma-water",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/837/original/open-uri20221030-23-11rmyh8?1667171851",
-      "caption": "一款项目公开展示素材",
-      "alt": "a-alemma-water",
+      "caption": "一款：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "一款：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/a-alemma-water",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/838/original/open-uri20221030-23-1icqy26?1667171852",
-      "caption": "一款项目公开展示素材",
-      "alt": "a-alemma-water",
+      "caption": "一款：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "一款：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/a-alemma-water",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/839/original/open-uri20221030-23-iczrd1?1667171852",
-      "caption": "一款项目公开展示素材",
-      "alt": "a-alemma-water",
+      "caption": "一款：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "一款：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/a-alemma-water",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/840/original/open-uri20221030-23-1d52du4?1667171853",
-      "caption": "一款项目公开展示素材",
-      "alt": "a-alemma-water",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/50Ca0DUg1tQ&t=10s",
+      "watchUrl": "https://www.youtube.com/watch?v=50Ca0DUg1tQ&t=10s",
+      "caption": "一款资料中提及的视频：Analemma video",
+      "alt": "Analemma video",
       "sourceUrl": "https://www.starterstory.com/stories/a-alemma-water",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/50Ca0DUg1tQ/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/rowteq6mty4y0c0fr6cs1guj6z27",
-      "caption": "数字营销机构公开案例主图",
-      "alt": "数字营销机构案例图片",
+      "caption": "数字营销机构：通过定制营销服务月入3万美元",
+      "alt": "数字营销机构：通过定制营销服务月入3万美元",
       "sourceUrl": "https://www.starterstory.com/stories/how-custom-marketing-campaigns-helped-us-reach-30k-month",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/674/original/open-uri20210105-3-izdule?1609872476",
-      "caption": "数字营销机构项目公开展示素材",
-      "alt": "how-we-focused-on-marketing-campaigns-to-recover-loss-in-sales",
+      "caption": "数字营销机构：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "数字营销机构：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-custom-marketing-campaigns-helped-us-reach-30k-month",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "数字营销机构项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-custom-marketing-campaigns-helped-us-reach-30k-month",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "数字营销机构项目公开展示素材",
-      "alt": "数字营销机构项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-custom-marketing-campaigns-helped-us-reach-30k-month",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/b6tkfwams9acacoldo403fv7scnw",
-      "caption": "数字营销机构项目公开展示素材",
-      "alt": "数字营销机构项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-custom-marketing-campaigns-helped-us-reach-30k-month",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2172,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

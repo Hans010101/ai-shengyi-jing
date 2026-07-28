@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/u7lxw5uoaj33yd8pvj4hig69k2qu",
-      "caption": "AI应用公开案例主图",
-      "alt": "AI应用案例图片",
+      "caption": "AI应用：通过订阅制提供AI服务赚钱",
+      "alt": "AI应用：通过订阅制提供AI服务赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/betterpic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/221/original/open-uri20240811-48-btf62e?1723359269",
-      "caption": "AI应用项目公开展示素材",
-      "alt": "betterpic",
+      "caption": "AI应用：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI应用：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/betterpic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/222/original/open-uri20240811-48-1xzowx6?1723359270",
-      "caption": "AI应用项目公开展示素材",
-      "alt": "betterpic",
+      "caption": "AI应用：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "AI应用：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/betterpic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/223/original/open-uri20240811-48-15td1yp?1723359271",
-      "caption": "AI应用项目公开展示素材",
-      "alt": "betterpic",
+      "caption": "AI应用：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "AI应用：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/betterpic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/224/original/open-uri20240811-48-giziok?1723359272",
-      "caption": "AI应用项目公开展示素材",
-      "alt": "betterpic",
-      "sourceUrl": "https://www.starterstory.com/stories/betterpic",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2087,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

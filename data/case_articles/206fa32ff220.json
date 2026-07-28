@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/vxfy08fw3ht4zmvn17z39co2tmif",
-      "caption": "B2B技术公司内容营销代理公开案例主图",
-      "alt": "B2B技术公司内容营销代理案例图片",
+      "caption": "B2B技术公司内容营销代理：通过订阅制赚取服务费",
+      "alt": "B2B技术公司内容营销代理：通过订阅制赚取服务费",
       "sourceUrl": "https://www.starterstory.com/stories/with-content",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/897/original/open-uri20230117-24-1ne3dtm?1673976346",
-      "caption": "B2B技术公司内容营销代理项目公开展示素材",
-      "alt": "with-content",
+      "caption": "B2B技术公司内容营销代理：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "B2B技术公司内容营销代理：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/with-content",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "B2B技术公司内容营销代理项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/with-content",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/jvhrreihstwyb6gp52497zn3ee5m",
-      "caption": "B2B技术公司内容营销代理项目公开展示素材",
-      "alt": "B2B技术公司内容营销代理项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/with-content",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/33phd3lfchpci9uio1sqqlyvic4f",
-      "caption": "B2B技术公司内容营销代理项目公开展示素材",
-      "alt": "B2B技术公司内容营销代理项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/with-content",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2220,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

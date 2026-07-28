@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/piazrrnffbv0pnztsoso4g28cvap",
-      "caption": "基于代理经验公开案例主图",
-      "alt": "基于代理经验案例图片",
+      "caption": "基于代理经验：创建付费邮件通讯变现专业知识",
+      "alt": "基于代理经验：创建付费邮件通讯变现专业知识",
       "sourceUrl": "https://www.starterstory.com/stories/we-re-using-our-agency-experience-to-build-a-paid-newsletter",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/883/original/open-uri20210924-3-1dc2f9m?1632496723",
-      "caption": "基于代理经验项目公开展示素材",
-      "alt": "we-re-using-our-agency-experience-to-build-a-paid-newsletter",
+      "caption": "基于代理经验：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "基于代理经验：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/we-re-using-our-agency-experience-to-build-a-paid-newsletter",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/884/original/open-uri20210924-3-1gx52og?1632496724",
-      "caption": "基于代理经验项目公开展示素材",
-      "alt": "we-re-using-our-agency-experience-to-build-a-paid-newsletter",
+      "caption": "基于代理经验：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "基于代理经验：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-re-using-our-agency-experience-to-build-a-paid-newsletter",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/885/original/open-uri20210924-3-caepfp?1632496724",
-      "caption": "基于代理经验项目公开展示素材",
-      "alt": "we-re-using-our-agency-experience-to-build-a-paid-newsletter",
+      "caption": "基于代理经验：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "基于代理经验：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-re-using-our-agency-experience-to-build-a-paid-newsletter",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/886/original/open-uri20210924-3-5kbtxu?1632496724",
-      "caption": "基于代理经验项目公开展示素材",
-      "alt": "we-re-using-our-agency-experience-to-build-a-paid-newsletter",
-      "sourceUrl": "https://www.starterstory.com/stories/we-re-using-our-agency-experience-to-build-a-paid-newsletter",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2193,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

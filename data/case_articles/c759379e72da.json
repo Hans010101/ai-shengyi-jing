@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/8djtdnccpoz5mgzl6v526wsgxzd3",
-      "caption": "AI简历工具公开案例主图",
-      "alt": "AI简历工具案例图片",
+      "caption": "AI简历工具：免费模板引流，付费解锁高级功能",
+      "alt": "AI简历工具：免费模板引流，付费解锁高级功能",
       "sourceUrl": "https://www.starterstory.com/stories/sheets-resume",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI简历工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/sheets-resume",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/674527e6a9579954",
-      "caption": "AI简历工具项目公开展示素材",
+      "caption": "AI简历工具：创始人、核心产品与品牌起点相关原始配图",
       "alt": "\"Is this resume blessed by God, or what?\" – actual review by a user after getting a $20k pay raise",
       "sourceUrl": "https://www.starterstory.com/stories/sheets-resume",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/fideerrhvs3des2yvm9f21n142rw",
-      "caption": "AI简历工具项目公开展示素材",
-      "alt": "article",
+      "caption": "AI简历工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI简历工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/sheets-resume",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/e2a1f4959a4b9ce0",
-      "caption": "AI简历工具项目公开展示素材",
+      "caption": "AI简历工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "alt": "My image",
       "sourceUrl": "https://www.starterstory.com/stories/sheets-resume",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/3NxXvxFO0lw",
+      "watchUrl": "https://www.youtube.com/watch?v=3NxXvxFO0lw",
+      "caption": "AI简历工具资料中提及的视频：The Absolute Lunatics of LinkedIn",
+      "alt": "The Absolute Lunatics of LinkedIn",
+      "sourceUrl": "https://www.starterstory.com/stories/sheets-resume",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/3NxXvxFO0lw/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

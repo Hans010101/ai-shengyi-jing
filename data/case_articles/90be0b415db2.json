@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/hug2qbekce8cuj0ut8dgw6idhlqn",
-      "caption": "基于网络迷因的实体按钮玩具公开案例主图",
-      "alt": "基于网络迷因的实体按钮玩具案例图片",
+      "caption": "基于网络迷因的实体按钮玩具：通过病毒式传播赚取100万美元",
+      "alt": "基于网络迷因的实体按钮玩具：通过病毒式传播赚取100万美元",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-created-a-product-based-on-a-meme-and-made-100k",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/555/original/open-uri20190510-4-4dg5t?1557475580",
-      "caption": "基于网络迷因的实体按钮玩具项目公开展示素材",
-      "alt": "how-we-created-a-product-based-on-a-meme-and-made-100k",
+      "caption": "基于网络迷因的实体按钮玩具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "基于网络迷因的实体按钮玩具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-created-a-product-based-on-a-meme-and-made-100k",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/556/original/open-uri20190510-4-wftnkq?1557475581",
-      "caption": "基于网络迷因的实体按钮玩具项目公开展示素材",
-      "alt": "how-we-created-a-product-based-on-a-meme-and-made-100k",
+      "caption": "基于网络迷因的实体按钮玩具：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "基于网络迷因的实体按钮玩具：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-created-a-product-based-on-a-meme-and-made-100k",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/557/original/open-uri20190510-4-18416ec?1557475581",
-      "caption": "基于网络迷因的实体按钮玩具项目公开展示素材",
-      "alt": "how-we-created-a-product-based-on-a-meme-and-made-100k",
+      "caption": "基于网络迷因的实体按钮玩具：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "基于网络迷因的实体按钮玩具：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-created-a-product-based-on-a-meme-and-made-100k",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/558/original/open-uri20190510-4-14nrciu?1557475582",
-      "caption": "基于网络迷因的实体按钮玩具项目公开展示素材",
-      "alt": "how-we-created-a-product-based-on-a-meme-and-made-100k",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-created-a-product-based-on-a-meme-and-made-100k",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2232,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

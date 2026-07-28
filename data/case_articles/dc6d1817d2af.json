@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/7l1q39kcz56okb8lmuep1o96rf0m",
-      "caption": "手工牛仔服饰品牌公开案例主图",
-      "alt": "手工牛仔服饰品牌案例图片",
+      "caption": "手工牛仔服饰品牌：通过小批量定制和复古设计赚取溢价",
+      "alt": "手工牛仔服饰品牌：通过小批量定制和复古设计赚取溢价",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-expanded-our-e-commerce-business-to-manufacturing-and-production",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/006/932/original/open-uri20200702-4-18ycacq?1593660480",
-      "caption": "手工牛仔服饰品牌项目公开展示素材",
-      "alt": "how-we-expanded-our-production-and-offering-services-to-other-businesses",
+      "caption": "手工牛仔服饰品牌：原始案例中的产品与运营配图（第1张）",
+      "alt": "手工牛仔服饰品牌：原始案例中的产品与运营配图（第1张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-expanded-our-e-commerce-business-to-manufacturing-and-production",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/006/933/original/open-uri20200702-4-1svgzgo?1593660481",
-      "caption": "手工牛仔服饰品牌项目公开展示素材",
-      "alt": "how-we-expanded-our-production-and-offering-services-to-other-businesses",
+      "caption": "手工牛仔服饰品牌：原始案例中的产品与运营配图（第2张）",
+      "alt": "手工牛仔服饰品牌：原始案例中的产品与运营配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-expanded-our-e-commerce-business-to-manufacturing-and-production",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "手工牛仔服饰品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-expanded-our-e-commerce-business-to-manufacturing-and-production",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c303bjznv93yxnh0xxz7t4vfedzf",
-      "caption": "手工牛仔服饰品牌项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-expanded-our-e-commerce-business-to-manufacturing-and-production",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2234,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

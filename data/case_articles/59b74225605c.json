@@ -122,65 +122,53 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/x50hrzgz1wd6z9z1ogzuvl6ibee8",
-      "caption": "敏捷培训与咨询业务公开案例主图",
-      "alt": "敏捷培训与咨询业务案例图片",
+      "caption": "敏捷培训与咨询业务：靠高利润课程和认证赚钱",
+      "alt": "敏捷培训与咨询业务：靠高利润课程和认证赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/responsive-advisors",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/076/original/open-uri20220612-12-cysd5n?1655053707",
-      "caption": "敏捷培训与咨询业务项目公开展示素材",
-      "alt": "responsive-advisors",
+      "caption": "敏捷培训与咨询业务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "敏捷培训与咨询业务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/responsive-advisors",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/077/original/open-uri20220612-12-i3lyvp?1655053708",
-      "caption": "敏捷培训与咨询业务项目公开展示素材",
-      "alt": "responsive-advisors",
+      "caption": "敏捷培训与咨询业务：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "敏捷培训与咨询业务：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/responsive-advisors",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/078/original/open-uri20220612-12-17bax8e?1655053708",
-      "caption": "敏捷培训与咨询业务项目公开展示素材",
-      "alt": "responsive-advisors",
+      "caption": "敏捷培训与咨询业务：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "敏捷培训与咨询业务：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/responsive-advisors",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/079/original/open-uri20220612-12-gr654q?1655053709",
-      "caption": "敏捷培训与咨询业务项目公开展示素材",
-      "alt": "responsive-advisors",
-      "sourceUrl": "https://www.starterstory.com/stories/responsive-advisors",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "敏捷培训与咨询业务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/responsive-advisors",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/xQP5onZFLIY",
-      "caption": "敏捷培训与咨询业务项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=xQP5onZFLIY",
+      "caption": "敏捷培训与咨询业务资料中提及的视频：3 Simple Ways to Get Your First Scrum Master Job",
+      "alt": "3 Simple Ways to Get Your First Scrum Master Job",
       "sourceUrl": "https://www.starterstory.com/stories/responsive-advisors",
       "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/xQP5onZFLIY/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -196,6 +184,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2185,
-    "mediaCount": 7
+    "mediaCount": 5
   }
 }

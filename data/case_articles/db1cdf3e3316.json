@@ -122,47 +122,24 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/5irkssz46z01s66jbkpbuomz28qf",
-      "caption": "为中小制造企业提供数字化转型咨询与软件方案公开案例主图",
-      "alt": "为中小制造企业提供数字化转型咨询与软件方案案例图片",
+      "caption": "为中小制造企业提供数字化转型咨询与软件方案的核心产品与品牌主视觉",
+      "alt": "为中小制造企业提供数字化转型咨询与软件方案的核心产品与品牌主视觉",
       "sourceUrl": "https://www.starterstory.com/stories/digitalcollars",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为中小制造企业提供数字化转型咨询与软件方案项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/bJNaOyg1v7E",
+      "watchUrl": "https://www.youtube.com/watch?v=bJNaOyg1v7E",
+      "caption": "为中小制造企业提供数字化转型咨询与软件方案资料中提及的视频：DigitalCollars",
+      "alt": "DigitalCollars",
       "sourceUrl": "https://www.starterstory.com/stories/digitalcollars",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/q3cmlbc8m9381k0uzjwfefbj29df",
-      "caption": "为中小制造企业提供数字化转型咨询与软件方案项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/digitalcollars",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/glia3fse1raug40hg8lpkg3rg09w",
-      "caption": "为中小制造企业提供数字化转型咨询与软件方案项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/digitalcollars",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/wsfthxo0bwxpga1da6eflodtgxay",
-      "caption": "为中小制造企业提供数字化转型咨询与软件方案项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/digitalcollars",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/bJNaOyg1v7E/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +154,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2175,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

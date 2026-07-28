@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/fszpwi6caelqzi4p7e1cpyoxqvuk",
-      "caption": "创意营销代理公开案例主图",
-      "alt": "创意营销代理案例图片",
+      "caption": "创意营销代理：为小企业提供品牌策略和内容制作服务赚取月费",
+      "alt": "创意营销代理：为小企业提供品牌策略和内容制作服务赚取月费",
       "sourceUrl": "https://www.starterstory.com/stories/blue-surge-marketing-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/210/original/open-uri20230502-51-1i114g5?1683008335",
-      "caption": "创意营销代理项目公开展示素材",
-      "alt": "blue-surge-marketing-agency",
+      "caption": "创意营销代理：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "创意营销代理：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/blue-surge-marketing-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/211/original/open-uri20230502-51-c22ve9?1683008336",
-      "caption": "创意营销代理项目公开展示素材",
-      "alt": "blue-surge-marketing-agency",
+      "caption": "创意营销代理：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "创意营销代理：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/blue-surge-marketing-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/212/original/open-uri20230502-51-f3ekwq?1683008337",
-      "caption": "创意营销代理项目公开展示素材",
-      "alt": "blue-surge-marketing-agency",
+      "caption": "创意营销代理：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "创意营销代理：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/blue-surge-marketing-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/213/original/open-uri20230502-51-p6txpz?1683008337",
-      "caption": "创意营销代理项目公开展示素材",
-      "alt": "blue-surge-marketing-agency",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/lecfKxfXZKM",
+      "watchUrl": "https://www.youtube.com/watch?v=lecfKxfXZKM",
+      "caption": "创意营销代理资料中提及的视频：RICH DAD POOR DAD BY ROBERT KIYOSAKI | ANIMATED BOOK SUMMARY",
+      "alt": "RICH DAD POOR DAD BY ROBERT KIYOSAKI | ANIMATED BOOK SUMMARY",
       "sourceUrl": "https://www.starterstory.com/stories/blue-surge-marketing-agency",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/lecfKxfXZKM/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

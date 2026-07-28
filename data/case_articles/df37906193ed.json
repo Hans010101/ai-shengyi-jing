@@ -122,65 +122,53 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/k2oepu9drib4fjn2zplky1vf3928",
-      "caption": "男性户外服装品牌公开案例主图",
-      "alt": "男性户外服装品牌案例图片",
+      "caption": "男性户外服装品牌：通过DTC模式销售保暖夹克等产品",
+      "alt": "男性户外服装品牌：通过DTC模式销售保暖夹克等产品",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-sales-to-200k",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/223/original/open-uri20220213-3-hvnex0?1644753970",
-      "caption": "男性户外服装品牌项目公开展示素材",
-      "alt": "how-we-grew-sales-to-200k",
+      "caption": "男性户外服装品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "男性户外服装品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-sales-to-200k",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/224/original/open-uri20220213-3-8ycwx1?1644753971",
-      "caption": "男性户外服装品牌项目公开展示素材",
-      "alt": "how-we-grew-sales-to-200k",
+      "caption": "男性户外服装品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "男性户外服装品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-sales-to-200k",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/225/original/open-uri20220213-3-jpb8q9?1644753972",
-      "caption": "男性户外服装品牌项目公开展示素材",
-      "alt": "how-we-grew-sales-to-200k",
+      "caption": "男性户外服装品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "男性户外服装品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-sales-to-200k",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/226/original/open-uri20220213-3-8ool02?1644753972",
-      "caption": "男性户外服装品牌项目公开展示素材",
-      "alt": "how-we-grew-sales-to-200k",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-sales-to-200k",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/227/original/open-uri20220213-3-1ryx2y?1644753973",
-      "caption": "男性户外服装品牌项目公开展示素材",
-      "alt": "how-we-grew-sales-to-200k",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-sales-to-200k",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/L0wqhRZbw44",
-      "caption": "男性户外服装品牌项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=L0wqhRZbw44",
+      "caption": "男性户外服装品牌资料中提及的视频：Surfacing a Giant Ash End Grain Slab on the CNC",
+      "alt": "Surfacing a Giant Ash End Grain Slab on the CNC",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-sales-to-200k",
       "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/L0wqhRZbw44/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -196,6 +184,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2090,
-    "mediaCount": 7
+    "mediaCount": 5
   }
 }

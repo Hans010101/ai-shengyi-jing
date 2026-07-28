@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/g3t2v3oti6tl8pm1m2k3pwdgir94",
-      "caption": "B2B媒体+SEO外链建设SaaS公开案例主图",
-      "alt": "B2B媒体+SEO外链建设SaaS案例图片",
+      "caption": "B2B媒体+SEO外链建设SaaS：通过付费订阅盈利",
+      "alt": "B2B媒体+SEO外链建设SaaS：通过付费订阅盈利",
       "sourceUrl": "https://www.starterstory.com/stories/indmnd",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/340/original/open-uri20221129-24-1de24f0?1669705065",
-      "caption": "B2B媒体+SEO外链建设SaaS项目公开展示素材",
-      "alt": "indmnd",
+      "caption": "B2B媒体+SEO外链建设SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "B2B媒体+SEO外链建设SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/indmnd",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/341/original/open-uri20221129-24-2hxnwq?1669705066",
-      "caption": "B2B媒体+SEO外链建设SaaS项目公开展示素材",
-      "alt": "indmnd",
+      "caption": "B2B媒体+SEO外链建设SaaS：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "B2B媒体+SEO外链建设SaaS：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/indmnd",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/342/original/open-uri20221129-24-11r4tmt?1669705067",
-      "caption": "B2B媒体+SEO外链建设SaaS项目公开展示素材",
-      "alt": "indmnd",
+      "caption": "B2B媒体+SEO外链建设SaaS：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "B2B媒体+SEO外链建设SaaS：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/indmnd",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/343/original/open-uri20221129-24-xqq61n?1669705067",
-      "caption": "B2B媒体+SEO外链建设SaaS项目公开展示素材",
-      "alt": "indmnd",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/9UUsQHmqkY0",
+      "watchUrl": "https://www.youtube.com/watch?v=9UUsQHmqkY0",
+      "caption": "B2B媒体+SEO外链建设SaaS资料中提及的视频：Mushfiq on Growing a Site from $300 to $8000 in just 8 months!",
+      "alt": "Mushfiq on Growing a Site from $300 to $8000 in just 8 months!",
       "sourceUrl": "https://www.starterstory.com/stories/indmnd",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/9UUsQHmqkY0/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

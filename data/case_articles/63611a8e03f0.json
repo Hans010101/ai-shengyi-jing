@@ -122,47 +122,24 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/q3mabxvffr2629jcxny4eygs4p07",
-      "caption": "硅胶婚戒品牌公开案例主图",
-      "alt": "硅胶婚戒品牌案例图片",
+      "caption": "硅胶婚戒品牌：通过DTC模式销售替代金属戒指的硅胶戒指",
+      "alt": "硅胶婚戒品牌：通过DTC模式销售替代金属戒指的硅胶戒指",
       "sourceUrl": "https://www.starterstory.com/stories/qalo",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "硅胶婚戒品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://player.vimeo.com/video/68661209",
+      "watchUrl": "https://vimeo.com/68661209",
+      "caption": "硅胶婚戒品牌资料中提及的视频：QALO Ring - Suit and Tie",
+      "alt": "QALO Ring - Suit and Tie",
       "sourceUrl": "https://www.starterstory.com/stories/qalo",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c303bjznv93yxnh0xxz7t4vfedzf",
-      "caption": "硅胶婚戒品牌项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/qalo",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "硅胶婚戒品牌项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/qalo",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/b8iyxwzevrymicbhf1vz4cb3kqbq",
-      "caption": "硅胶婚戒品牌项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/qalo",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.vimeocdn.com/video/441850888-710b2f02c0fc5079a4741647f678dd8a96f91742c8ddaaaf46683a5e9e988abd-d_295x166?region=us",
+      "provider": "Vimeo",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +154,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2300,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

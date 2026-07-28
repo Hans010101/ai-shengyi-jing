@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/qp0j0ym66oppiin124vz313bdmah",
-      "caption": "定制文件夹电商公开案例主图",
-      "alt": "定制文件夹电商案例图片",
+      "caption": "定制文件夹电商：通过B2B销售盈利",
+      "alt": "定制文件夹电商：通过B2B销售盈利",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-a-multi-million-dollar-presentation-folder-company-from-scratch-from-united-states",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/987/original/open-uri20220318-3-7xbws1?1647630665",
-      "caption": "定制文件夹电商项目公开展示素材",
-      "alt": "i-built-a-multi-million-dollar-presentation-folder-company-from-scratch-from-united-states",
+      "caption": "定制文件夹电商：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "定制文件夹电商：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-a-multi-million-dollar-presentation-folder-company-from-scratch-from-united-states",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "定制文件夹电商项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/i-built-a-multi-million-dollar-presentation-folder-company-from-scratch-from-united-states",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/s3thrrqbjem3qler43fak7dop7v2",
-      "caption": "定制文件夹电商项目公开展示素材",
-      "alt": "定制文件夹电商项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/i-built-a-multi-million-dollar-presentation-folder-company-from-scratch-from-united-states",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/9pgfik1nc0uj7b4qq9x37yofgvoj",
-      "caption": "定制文件夹电商项目公开展示素材",
-      "alt": "定制文件夹电商项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/i-built-a-multi-million-dollar-presentation-folder-company-from-scratch-from-united-states",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2121,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/cck2wlllubc2bprqhzsdty5mo959",
-      "caption": "AI面试助手公开案例主图",
-      "alt": "AI面试助手案例图片",
+      "caption": "AI面试助手：通过订阅制向求职者收费",
+      "alt": "AI面试助手：通过订阅制向求职者收费",
       "sourceUrl": "https://www.starterstory.com/stories/parakeetai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI面试助手项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/parakeetai",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/ddd8a78ef6e726d4",
-      "caption": "AI面试助手项目公开展示素材",
+      "caption": "AI面试助手：创始人、核心产品与品牌起点相关原始配图",
       "alt": "My image",
       "sourceUrl": "https://www.starterstory.com/stories/parakeetai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/v20pkda6b8iqfnli1pk7eo16bc7o",
-      "caption": "AI面试助手项目公开展示素材",
-      "alt": "article",
+      "caption": "AI面试助手：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI面试助手：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/parakeetai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/956f27d8c056d0c7",
-      "caption": "AI面试助手项目公开展示素材",
+      "caption": "AI面试助手：创业起点与创意来源相关原始配图（第3张）",
       "alt": "A photo of our small team",
       "sourceUrl": "https://www.starterstory.com/stories/parakeetai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2165,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

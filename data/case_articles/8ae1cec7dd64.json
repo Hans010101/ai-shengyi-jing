@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/af8fdq0owjtuo8b7ox4cyojgaixv",
-      "caption": "无代码工作流平台公开案例主图",
-      "alt": "无代码工作流平台案例图片",
+      "caption": "无代码工作流平台：面向中小企业SaaS订阅赚钱",
+      "alt": "无代码工作流平台：面向中小企业SaaS订阅赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/we-built-a-no-code-platform-launched-into-public-beta",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/398/original/open-uri20210827-3-1rndfub?1630086250",
-      "caption": "无代码工作流平台项目公开展示素材",
-      "alt": "we-built-a-no-code-platform-launched-into-public-beta",
+      "caption": "无代码工作流平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "无代码工作流平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/we-built-a-no-code-platform-launched-into-public-beta",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/399/original/open-uri20210827-3-wx08fp?1630086250",
-      "caption": "无代码工作流平台项目公开展示素材",
-      "alt": "we-built-a-no-code-platform-launched-into-public-beta",
+      "caption": "无代码工作流平台：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "无代码工作流平台：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-built-a-no-code-platform-launched-into-public-beta",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/400/original/open-uri20210827-3-1308ylw?1630086251",
-      "caption": "无代码工作流平台项目公开展示素材",
-      "alt": "we-built-a-no-code-platform-launched-into-public-beta",
+      "caption": "无代码工作流平台：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "无代码工作流平台：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-built-a-no-code-platform-launched-into-public-beta",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "无代码工作流平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/we-built-a-no-code-platform-launched-into-public-beta",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2270,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

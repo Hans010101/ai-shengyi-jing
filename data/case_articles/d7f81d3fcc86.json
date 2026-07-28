@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/gynejazjjv9li1zbj0j6jfselhs9",
-      "caption": "监测品牌在AI回答中的提及公开案例主图",
-      "alt": "监测品牌在AI回答中的提及案例图片",
+      "caption": "监测品牌在AI回答中的提及：向企业收取订阅费",
+      "alt": "监测品牌在AI回答中的提及：向企业收取订阅费",
       "sourceUrl": "https://www.starterstory.com/businesses/mentions",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "监测品牌在AI回答中的提及项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/mentions",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/k056dya18rkd8q12l1iok1ybgu5d",
-      "caption": "监测品牌在AI回答中的提及项目公开展示素材",
-      "alt": "Mentions logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/mentions",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/tilrc8eq00u68k64mqym5s7qdh4h/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "监测品牌在AI回答中的提及项目公开展示素材",
-      "alt": "Cloudflare",
-      "sourceUrl": "https://www.starterstory.com/businesses/mentions",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/yzwcofug5jdzgxughelpace4tl6a/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "监测品牌在AI回答中的提及项目公开展示素材",
-      "alt": "Slack",
-      "sourceUrl": "https://www.starterstory.com/businesses/mentions",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2182,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

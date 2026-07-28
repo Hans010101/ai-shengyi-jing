@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/gx9gxr5sx7fhwhsc0gz2yjb3frn0",
-      "caption": "极简问答网站公开案例主图",
-      "alt": "极简问答网站案例图片",
+      "caption": "极简问答网站：靠广告和捐赠年入1.4万美元",
+      "alt": "极简问答网站：靠广告和捐赠年入1.4万美元",
       "sourceUrl": "https://www.starterstory.com/stories/my-side-project-does-one-simple-thing-makes-14k-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/367/original/open-uri20211019-3-1e0cpo2?1634674658",
-      "caption": "极简问答网站项目公开展示素材",
-      "alt": "my-side-project-does-one-simple-thing-makes-14k-year",
+      "caption": "极简问答网站：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "极简问答网站：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/my-side-project-does-one-simple-thing-makes-14k-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/368/original/open-uri20211019-3-1x0eymn?1634674659",
-      "caption": "极简问答网站项目公开展示素材",
-      "alt": "my-side-project-does-one-simple-thing-makes-14k-year",
+      "caption": "极简问答网站：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "极简问答网站：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/my-side-project-does-one-simple-thing-makes-14k-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "极简问答网站项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/my-side-project-does-one-simple-thing-makes-14k-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/wsfthxo0bwxpga1da6eflodtgxay",
-      "caption": "极简问答网站项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/my-side-project-does-one-simple-thing-makes-14k-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2212,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

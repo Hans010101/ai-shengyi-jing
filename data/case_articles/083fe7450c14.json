@@ -121,57 +121,43 @@
   "media": [
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI学习工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/studyquick-mit-5-stunden-lernaufwand-sehr-gut-in-der-klausur-schreiben",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/a10bcbb11be2398b",
-      "caption": "AI学习工具项目公开展示素材",
+      "caption": "AI学习工具：创始人、核心产品与品牌起点相关原始配图",
       "alt": "My professor, us USA student reps and our coach",
       "sourceUrl": "https://www.starterstory.com/stories/studyquick-mit-5-stunden-lernaufwand-sehr-gut-in-der-klausur-schreiben",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/rq3ph3fh9si6jvjzjghzsau5g777",
-      "caption": "AI学习工具项目公开展示素材",
-      "alt": "article",
+      "caption": "AI学习工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI学习工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/studyquick-mit-5-stunden-lernaufwand-sehr-gut-in-der-klausur-schreiben",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/787e5c943a0f5c2e",
-      "caption": "AI学习工具项目公开展示素材",
+      "caption": "AI学习工具：创业起点与创意来源相关原始配图（第3张）",
       "alt": "First POC",
       "sourceUrl": "https://www.starterstory.com/stories/studyquick-mit-5-stunden-lernaufwand-sehr-gut-in-der-klausur-schreiben",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/573af760f1d99509",
-      "caption": "AI学习工具项目公开展示素材",
+      "caption": "AI学习工具：产品上线与首次发布相关原始配图（第4张）",
       "alt": "Feedback on Studyquick",
       "sourceUrl": "https://www.starterstory.com/stories/studyquick-mit-5-stunden-lernaufwand-sehr-gut-in-der-klausur-schreiben",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cb3c15419d6252e8",
-      "caption": "AI学习工具项目公开展示素材",
-      "alt": "Lead generation of Studyquick",
-      "sourceUrl": "https://www.starterstory.com/stories/studyquick-mit-5-stunden-lernaufwand-sehr-gut-in-der-klausur-schreiben",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2231,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

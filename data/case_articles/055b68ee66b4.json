@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/sfj2j0khx14i318s6ov8034s8wmu",
-      "caption": "高端生育诊所公开案例主图",
-      "alt": "高端生育诊所案例图片",
+      "caption": "高端生育诊所：通过辅助生殖技术收费盈利",
+      "alt": "高端生育诊所：通过辅助生殖技术收费盈利",
       "sourceUrl": "https://www.starterstory.com/stories/dr-mark-surrey",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/288/original/open-uri20230813-60-1e36z5a?1691931394",
-      "caption": "高端生育诊所项目公开展示素材",
-      "alt": "southern-california-reproductive-center",
+      "caption": "高端生育诊所：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "高端生育诊所：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/dr-mark-surrey",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/289/original/open-uri20230813-60-1x0t2nx?1691931395",
-      "caption": "高端生育诊所项目公开展示素材",
-      "alt": "southern-california-reproductive-center",
+      "caption": "高端生育诊所：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "高端生育诊所：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/dr-mark-surrey",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/290/original/open-uri20230813-60-y1iqm3?1691931396",
-      "caption": "高端生育诊所项目公开展示素材",
-      "alt": "southern-california-reproductive-center",
+      "caption": "高端生育诊所：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "高端生育诊所：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/dr-mark-surrey",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/291/original/open-uri20230813-60-1a6r06f?1691931397",
-      "caption": "高端生育诊所项目公开展示素材",
-      "alt": "southern-california-reproductive-center",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/2EkhnV1NWSQ",
+      "watchUrl": "https://www.youtube.com/watch?v=2EkhnV1NWSQ",
+      "caption": "高端生育诊所：产品上线与首次发布相关视频",
+      "alt": "高端生育诊所相关视频",
       "sourceUrl": "https://www.starterstory.com/stories/dr-mark-surrey",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/2EkhnV1NWSQ/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/3uh6epmlev2kjqxpz6s933l2ay8h",
-      "caption": "为中小企业定制包装盒公开案例主图",
-      "alt": "为中小企业定制包装盒案例图片",
+      "caption": "为中小企业定制包装盒：通过设计工具和供应链赚钱",
+      "alt": "为中小企业定制包装盒：通过设计工具和供应链赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/oxo-packaging",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/524/original/open-uri20230317-51-1ofpdjf?1679087885",
-      "caption": "为中小企业定制包装盒项目公开展示素材",
-      "alt": "oxo-packaging",
+      "caption": "为中小企业定制包装盒：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为中小企业定制包装盒：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/oxo-packaging",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/525/original/open-uri20230317-51-pt789f?1679087886",
-      "caption": "为中小企业定制包装盒项目公开展示素材",
-      "alt": "oxo-packaging",
+      "caption": "为中小企业定制包装盒：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "为中小企业定制包装盒：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/oxo-packaging",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/526/original/open-uri20230317-51-15viyg0?1679087887",
-      "caption": "为中小企业定制包装盒项目公开展示素材",
-      "alt": "oxo-packaging",
+      "caption": "为中小企业定制包装盒：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "为中小企业定制包装盒：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/oxo-packaging",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/527/original/open-uri20230317-51-1k6ykah?1679087887",
-      "caption": "为中小企业定制包装盒项目公开展示素材",
-      "alt": "oxo-packaging",
-      "sourceUrl": "https://www.starterstory.com/stories/oxo-packaging",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2160,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

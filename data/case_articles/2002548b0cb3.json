@@ -122,56 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/xmgmxdg54oypchhioq29ncrxhhtl",
-      "caption": "SEO测试SaaS公开案例主图",
-      "alt": "SEO测试SaaS案例图片",
+      "caption": "SEO测试SaaS：按月订阅赚钱",
+      "alt": "SEO测试SaaS：按月订阅赚钱",
       "sourceUrl": "https://www.starterstory.com/businesses/seo-testing",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "SEO测试SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/seo-testing",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/h08cza6v7lrz1sx6i8kceldhuk1e",
-      "caption": "SEO测试SaaS项目公开展示素材",
-      "alt": "SEOTesting.com logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/seo-testing",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/mbpj5x9tzlp7nggyisewhdqmuu6g/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "SEO测试SaaS项目公开展示素材",
-      "alt": "Baremetrics",
-      "sourceUrl": "https://www.starterstory.com/businesses/seo-testing",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/0j9q44pb9rtpq56u2m8uo7lt5xl0/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "SEO测试SaaS项目公开展示素材",
-      "alt": "HotJar",
-      "sourceUrl": "https://www.starterstory.com/businesses/seo-testing",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/lb7mrompj5sntqiqwqxcq54nmtbg/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "SEO测试SaaS项目公开展示素材",
-      "alt": "Google Search Console",
-      "sourceUrl": "https://www.starterstory.com/businesses/seo-testing",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -186,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2173,
-    "mediaCount": 6
+    "mediaCount": 1
   }
 }

@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/29s4nvm1a382zxx8orqa6n9eil1k",
-      "caption": "数字营销代理公开案例主图",
-      "alt": "数字营销代理案例图片",
+      "caption": "数字营销代理：通过品牌故事、技术、营销和设计服务收费",
+      "alt": "数字营销代理：通过品牌故事、技术、营销和设计服务收费",
       "sourceUrl": "https://www.starterstory.com/stories/never-settle-update-how-we-ve-grown-20-yoy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/053/original/open-uri20220202-3-10rp9f8?1643823152",
-      "caption": "数字营销代理项目公开展示素材",
-      "alt": "how-we-ve-continued-business-growth-20-yoy",
+      "caption": "数字营销代理：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "数字营销代理：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/never-settle-update-how-we-ve-grown-20-yoy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/054/original/open-uri20220202-3-1mn961b?1643823154",
-      "caption": "数字营销代理项目公开展示素材",
-      "alt": "how-we-ve-continued-business-growth-20-yoy",
+      "caption": "数字营销代理：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "数字营销代理：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/never-settle-update-how-we-ve-grown-20-yoy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/055/original/open-uri20220202-3-hkj3zw?1643823154",
-      "caption": "数字营销代理项目公开展示素材",
-      "alt": "how-we-ve-continued-business-growth-20-yoy",
+      "caption": "数字营销代理：给创业者的实践建议相关原始配图（第3张）",
+      "alt": "数字营销代理：给创业者的实践建议相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/never-settle-update-how-we-ve-grown-20-yoy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "数字营销代理项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/m-BonOCQ5SU",
+      "watchUrl": "https://www.youtube.com/watch?v=m-BonOCQ5SU",
+      "caption": "数字营销代理资料中提及的视频：Dashmode Private Beta Walkthrough",
+      "alt": "Dashmode Private Beta Walkthrough",
       "sourceUrl": "https://www.starterstory.com/stories/never-settle-update-how-we-ve-grown-20-yoy",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/m-BonOCQ5SU/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

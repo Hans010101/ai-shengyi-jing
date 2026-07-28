@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/1q13z0hbdnd80m4bcle3xk31h6z5",
-      "caption": "卖Remix模板的SaaS公开案例主图",
-      "alt": "卖Remix模板的SaaS案例图片",
+      "caption": "卖Remix模板的SaaS：月入4.4k美元",
+      "alt": "卖Remix模板的SaaS：月入4.4k美元",
       "sourceUrl": "https://www.starterstory.com/stories/saasrock",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/917/original/open-uri20220919-25-ci9nea?1663589521",
-      "caption": "卖Remix模板的SaaS项目公开展示素材",
-      "alt": "saasrock",
+      "caption": "卖Remix模板的SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "卖Remix模板的SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/saasrock",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/918/original/open-uri20220919-25-1gx8vkr?1663589521",
-      "caption": "卖Remix模板的SaaS项目公开展示素材",
-      "alt": "saasrock",
+      "caption": "卖Remix模板的SaaS：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "卖Remix模板的SaaS：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/saasrock",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/919/original/open-uri20220919-25-9nbha0?1663589522",
-      "caption": "卖Remix模板的SaaS项目公开展示素材",
-      "alt": "saasrock",
+      "caption": "卖Remix模板的SaaS：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "卖Remix模板的SaaS：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/saasrock",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/920/original/open-uri20220919-25-uwwqw9?1663589523",
-      "caption": "卖Remix模板的SaaS项目公开展示素材",
-      "alt": "saasrock",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/FyQvTxyl7LI",
+      "watchUrl": "https://www.youtube.com/watch?v=FyQvTxyl7LI",
+      "caption": "卖Remix模板的SaaS资料中提及的视频：Building a SaaS with SaasRock - Day 1",
+      "alt": "Building a SaaS with SaasRock - Day 1",
       "sourceUrl": "https://www.starterstory.com/stories/saasrock",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/FyQvTxyl7LI/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

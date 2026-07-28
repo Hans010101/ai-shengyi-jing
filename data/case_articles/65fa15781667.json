@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/6y7325tu1sh2fqxgtb4r8m07zuw3",
-      "caption": "AI互动问答生成器公开案例主图",
-      "alt": "AI互动问答生成器案例图片",
+      "caption": "AI互动问答生成器：通过订阅制SaaS收费",
+      "alt": "AI互动问答生成器：通过订阅制SaaS收费",
       "sourceUrl": "https://www.starterstory.com/stories/interact",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/759/original/open-uri20220727-24-7zk4dc?1658904143",
-      "caption": "AI互动问答生成器项目公开展示素材",
-      "alt": "interact",
+      "caption": "AI互动问答生成器：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI互动问答生成器：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/interact",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/760/original/open-uri20220727-24-cwl6k5?1658904144",
-      "caption": "AI互动问答生成器项目公开展示素材",
-      "alt": "interact",
+      "caption": "AI互动问答生成器：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "AI互动问答生成器：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/interact",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/761/original/open-uri20220727-24-1w6ep6x?1658904145",
-      "caption": "AI互动问答生成器项目公开展示素材",
-      "alt": "interact",
+      "caption": "AI互动问答生成器：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "AI互动问答生成器：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/interact",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/762/original/open-uri20220727-24-gt63pk?1658904146",
-      "caption": "AI互动问答生成器项目公开展示素材",
-      "alt": "interact",
-      "sourceUrl": "https://www.starterstory.com/stories/interact",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2162,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

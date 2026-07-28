@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/xgq84mtn1izxpnhfyxf2bu8ff7f1",
-      "caption": "电影找茬网站公开案例主图",
-      "alt": "电影找茬网站案例图片",
+      "caption": "电影找茬网站：靠广告和会员赚钱",
+      "alt": "电影找茬网站：靠广告和会员赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/i-make-my-living-from-a-movie-website-that-i-started-as-a-teenager",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/603/original/open-uri20220303-3-3iz160?1646329149",
-      "caption": "电影找茬网站项目公开展示素材",
-      "alt": "i-make-my-living-from-a-movie-website-that-i-started-as-a-teenager",
+      "caption": "电影找茬网站：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "电影找茬网站：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-make-my-living-from-a-movie-website-that-i-started-as-a-teenager",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/604/original/open-uri20220303-3-p4f8uh?1646329149",
-      "caption": "电影找茬网站项目公开展示素材",
-      "alt": "i-make-my-living-from-a-movie-website-that-i-started-as-a-teenager",
+      "caption": "电影找茬网站：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "电影找茬网站：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-make-my-living-from-a-movie-website-that-i-started-as-a-teenager",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/605/original/open-uri20220303-3-1d4xbfw?1646329150",
-      "caption": "电影找茬网站项目公开展示素材",
-      "alt": "i-make-my-living-from-a-movie-website-that-i-started-as-a-teenager",
+      "caption": "电影找茬网站：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "电影找茬网站：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-make-my-living-from-a-movie-website-that-i-started-as-a-teenager",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "电影找茬网站项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/i-make-my-living-from-a-movie-website-that-i-started-as-a-teenager",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2209,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/lbfde0qlrxbdz457qtz0s07les81",
-      "caption": "加密货币税务SaaS公开案例主图",
-      "alt": "加密货币税务SaaS案例图片",
+      "caption": "加密货币税务SaaS：帮助用户计算并申报加密资产收益，年营收10万美元",
+      "alt": "加密货币税务SaaS：帮助用户计算并申报加密资产收益，年营收10万美元",
       "sourceUrl": "https://www.starterstory.com/stories/divly",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/107/original/open-uri20221114-24-141mgpp?1668405262",
-      "caption": "加密货币税务SaaS项目公开展示素材",
-      "alt": "divly",
+      "caption": "加密货币税务SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "加密货币税务SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/divly",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/108/original/open-uri20221114-24-1bjhq9d?1668405263",
-      "caption": "加密货币税务SaaS项目公开展示素材",
-      "alt": "divly",
+      "caption": "加密货币税务SaaS：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "加密货币税务SaaS：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/divly",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/109/original/open-uri20221114-24-2iwqpt?1668405263",
-      "caption": "加密货币税务SaaS项目公开展示素材",
-      "alt": "divly",
+      "caption": "加密货币税务SaaS：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "加密货币税务SaaS：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/divly",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/110/original/open-uri20221114-24-1d423vw?1668405264",
-      "caption": "加密货币税务SaaS项目公开展示素材",
-      "alt": "divly",
-      "sourceUrl": "https://www.starterstory.com/stories/divly",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2246,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

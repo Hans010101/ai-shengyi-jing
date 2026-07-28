@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ajc8pdyn87up46eq3211tfo7xpsg",
-      "caption": "交互设计咨询公开案例主图",
-      "alt": "交互设计咨询案例图片",
+      "caption": "交互设计咨询：通过深度实践和慢工作模式赚取服务费",
+      "alt": "交互设计咨询：通过深度实践和慢工作模式赚取服务费",
       "sourceUrl": "https://www.starterstory.com/stories/draft",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/000/original/open-uri20220808-24-me5bns?1659962572",
-      "caption": "交互设计咨询项目公开展示素材",
-      "alt": "draft",
+      "caption": "交互设计咨询：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "交互设计咨询：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/draft",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "交互设计咨询项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/draft",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c303bjznv93yxnh0xxz7t4vfedzf",
-      "caption": "交互设计咨询项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/draft",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/e6ji2jqwh4d275p0cp4mi3rh3r8a",
-      "caption": "交互设计咨询项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/draft",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2089,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

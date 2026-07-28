@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/9gze5upwrpakuf45bqzyukooq5ct",
-      "caption": "动态二维码生成器公开案例主图",
-      "alt": "动态二维码生成器案例图片",
+      "caption": "动态二维码生成器：月收$150，面向小企业",
+      "alt": "动态二维码生成器：月收$150，面向小企业",
       "sourceUrl": "https://www.starterstory.com/stories/hovercode",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/735/original/open-uri20221026-24-13tkh2r?1666757596",
-      "caption": "动态二维码生成器项目公开展示素材",
-      "alt": "hovercode",
+      "caption": "动态二维码生成器：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "动态二维码生成器：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/hovercode",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/736/original/open-uri20221026-24-1iq434o?1666757597",
-      "caption": "动态二维码生成器项目公开展示素材",
-      "alt": "hovercode",
+      "caption": "动态二维码生成器：当前经营状态与下一步规划相关原始配图（第2张）",
+      "alt": "动态二维码生成器：当前经营状态与下一步规划相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/hovercode",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/737/original/open-uri20221026-24-1lnc083?1666757598",
-      "caption": "动态二维码生成器项目公开展示素材",
-      "alt": "hovercode",
+      "caption": "动态二维码生成器：当前经营状态与下一步规划相关原始配图（第3张）",
+      "alt": "动态二维码生成器：当前经营状态与下一步规划相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/hovercode",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "动态二维码生成器项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/pYS3QKJHUDM",
+      "watchUrl": "https://www.youtube.com/watch?v=pYS3QKJHUDM",
+      "caption": "动态二维码生成器资料中提及的视频：Growing Veed.io from $0 to $5 million ARR in 2 years with Sabba Keynejad",
+      "alt": "Growing Veed.io from $0 to $5 million ARR in 2 years with Sabba Keynejad",
       "sourceUrl": "https://www.starterstory.com/stories/hovercode",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/pYS3QKJHUDM/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

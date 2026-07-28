@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/8ts8p6fi7jjnurv2mclptl1hz0uk",
-      "caption": "众筹购买私人岛屿公开案例主图",
-      "alt": "众筹购买私人岛屿案例图片",
+      "caption": "众筹购买私人岛屿：通过会员订阅和旅游服务盈利",
+      "alt": "众筹购买私人岛屿：通过会员订阅和旅游服务盈利",
       "sourceUrl": "https://www.starterstory.com/stories/let-s-buy-an-island",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/918/original/open-uri20220801-12-qpk5ae?1659368082",
-      "caption": "众筹购买私人岛屿项目公开展示素材",
-      "alt": "let-s-buy-an-island",
+      "caption": "众筹购买私人岛屿：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "众筹购买私人岛屿：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/let-s-buy-an-island",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "众筹购买私人岛屿项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/let-s-buy-an-island",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/cb1y40dp0w22m7dhh7pp006xcph8",
-      "caption": "众筹购买私人岛屿项目公开展示素材",
-      "alt": "众筹购买私人岛屿项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/let-s-buy-an-island",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/vldudx0y6nktj1ga4q3fhak9otsh",
-      "caption": "众筹购买私人岛屿项目公开展示素材",
-      "alt": "众筹购买私人岛屿项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/let-s-buy-an-island",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2164,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

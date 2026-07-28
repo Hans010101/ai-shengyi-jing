@@ -122,56 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/npzmzw2pujho3x7p7gkheeisgx9r",
-      "caption": "策划惊喜旅行公开案例主图",
-      "alt": "策划惊喜旅行案例图片",
+      "caption": "策划惊喜旅行：用户不知目的地，靠预订佣金和增值服务盈利",
+      "alt": "策划惊喜旅行：用户不知目的地，靠预订佣金和增值服务盈利",
       "sourceUrl": "https://www.starterstory.com/stories/pack-up-go-d00d4600-0b87-4cf0-b5bc-4e789f51a3a2",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/522/original/open-uri20230517-63-zvd2ox?1684364917",
-      "caption": "策划惊喜旅行项目公开展示素材",
-      "alt": "pack-up-go-d00d4600-0b87-4cf0-b5bc-4e789f51a3a2",
+      "caption": "策划惊喜旅行：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "策划惊喜旅行：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/pack-up-go-d00d4600-0b87-4cf0-b5bc-4e789f51a3a2",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/523/original/open-uri20230517-63-1uh3wqj?1684364920",
-      "caption": "策划惊喜旅行项目公开展示素材",
-      "alt": "pack-up-go-d00d4600-0b87-4cf0-b5bc-4e789f51a3a2",
+      "caption": "策划惊喜旅行：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "策划惊喜旅行：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/pack-up-go-d00d4600-0b87-4cf0-b5bc-4e789f51a3a2",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "策划惊喜旅行项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/pack-up-go-d00d4600-0b87-4cf0-b5bc-4e789f51a3a2",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "策划惊喜旅行项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/pack-up-go-d00d4600-0b87-4cf0-b5bc-4e789f51a3a2",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/df1fgdrgwrml6ma0yysawtl4ym6l",
-      "caption": "策划惊喜旅行项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/pack-up-go-d00d4600-0b87-4cf0-b5bc-4e789f51a3a2",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2179,
-    "mediaCount": 6
+    "mediaCount": 3
   }
 }

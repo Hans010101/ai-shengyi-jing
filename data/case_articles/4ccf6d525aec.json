@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/bpv0plguchf7b9rl3ij7ru1ty0e2",
-      "caption": "远程+线下创始人社区公开案例主图",
-      "alt": "远程+线下创始人社区案例图片",
+      "caption": "远程+线下创始人社区：会员订阅+活动收入",
+      "alt": "远程+线下创始人社区：会员订阅+活动收入",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-bootstrapped-a-co-working-space-and-make-48k-year-united-kingdom",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/359/original/open-uri20220518-18-wc1kn2?1652889714",
-      "caption": "远程+线下创始人社区项目公开展示素材",
-      "alt": "how-we-bootstrapped-a-co-working-space-and-make-36k-year-united-kingdom",
+      "caption": "远程+线下创始人社区：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "远程+线下创始人社区：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-bootstrapped-a-co-working-space-and-make-48k-year-united-kingdom",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/360/original/open-uri20220518-18-po30qx?1652889715",
-      "caption": "远程+线下创始人社区项目公开展示素材",
-      "alt": "how-we-bootstrapped-a-co-working-space-and-make-36k-year-united-kingdom",
+      "caption": "远程+线下创始人社区：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "远程+线下创始人社区：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-bootstrapped-a-co-working-space-and-make-48k-year-united-kingdom",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/361/original/open-uri20220518-18-1lot3dh?1652889716",
-      "caption": "远程+线下创始人社区项目公开展示素材",
-      "alt": "how-we-bootstrapped-a-co-working-space-and-make-36k-year-united-kingdom",
+      "caption": "远程+线下创始人社区：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "远程+线下创始人社区：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-bootstrapped-a-co-working-space-and-make-48k-year-united-kingdom",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/362/original/open-uri20220518-18-13zlrz?1652889716",
-      "caption": "远程+线下创始人社区项目公开展示素材",
-      "alt": "how-we-bootstrapped-a-co-working-space-and-make-36k-year-united-kingdom",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/9rYXyau8x-w",
+      "watchUrl": "https://www.youtube.com/watch?v=9rYXyau8x-w",
+      "caption": "远程+线下创始人社区资料中提及的视频：The right way to build a bootstrapped community with WeekendClub",
+      "alt": "The right way to build a bootstrapped community with WeekendClub",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-bootstrapped-a-co-working-space-and-make-48k-year-united-kingdom",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/9rYXyau8x-w/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

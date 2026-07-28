@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/h4dph4bimiodg47egx6iiq6q9j1h",
-      "caption": "AI写作助手公开案例主图",
-      "alt": "AI写作助手案例图片",
+      "caption": "AI写作助手：帮非母语者写出地道英文，订阅付费",
+      "alt": "AI写作助手：帮非母语者写出地道英文，订阅付费",
       "sourceUrl": "https://www.starterstory.com/stories/my-ai-writing-tool-won-startup-of-the-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/741/original/open-uri20220310-3-1h8kz4y?1646908650",
-      "caption": "AI写作助手项目公开展示素材",
-      "alt": "my-ai-writing-tool-won-startup-of-the-year-and-makes-600k-year",
+      "caption": "AI写作助手：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI写作助手：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/my-ai-writing-tool-won-startup-of-the-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/742/original/open-uri20220310-3-nar237?1646908650",
-      "caption": "AI写作助手项目公开展示素材",
-      "alt": "my-ai-writing-tool-won-startup-of-the-year-and-makes-600k-year",
+      "caption": "AI写作助手：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "AI写作助手：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/my-ai-writing-tool-won-startup-of-the-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/743/original/open-uri20220310-3-ty0pdr?1646908651",
-      "caption": "AI写作助手项目公开展示素材",
-      "alt": "my-ai-writing-tool-won-startup-of-the-year-and-makes-600k-year",
+      "caption": "AI写作助手：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "AI写作助手：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/my-ai-writing-tool-won-startup-of-the-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/744/original/open-uri20220310-3-1q9hahf?1646908652",
-      "caption": "AI写作助手项目公开展示素材",
-      "alt": "my-ai-writing-tool-won-startup-of-the-year-and-makes-600k-year",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/czP5N6M9HA4",
+      "watchUrl": "https://www.youtube.com/watch?v=czP5N6M9HA4",
+      "caption": "AI写作助手资料中提及的视频：InstaText Browser Extension",
+      "alt": "InstaText Browser Extension",
       "sourceUrl": "https://www.starterstory.com/stories/my-ai-writing-tool-won-startup-of-the-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/czP5N6M9HA4/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

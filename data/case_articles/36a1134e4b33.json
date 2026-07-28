@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/7d1f64ts4uajqaedfm4v1kk4q4oe",
-      "caption": "为学校和企业提供批量设备维修的邮寄服务公开案例主图",
-      "alt": "为学校和企业提供批量设备维修的邮寄服务案例图片",
+      "caption": "为学校和企业提供批量设备维修的邮寄服务：赚取维修费和配件差价",
+      "alt": "为学校和企业提供批量设备维修的邮寄服务：赚取维修费和配件差价",
       "sourceUrl": "https://www.starterstory.com/stories/how-cracking-my-screen-led-me-to-build-a-2-7m-year-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/640/original/open-uri20210909-3-tn44uf?1631192207",
-      "caption": "为学校和企业提供批量设备维修的邮寄服务项目公开展示素材",
-      "alt": "how-cracking-my-screen-led-me-to-build-a-2-7m-year-business",
+      "caption": "为学校和企业提供批量设备维修的邮寄服务：原始案例中的产品与运营配图（第1张）",
+      "alt": "为学校和企业提供批量设备维修的邮寄服务：原始案例中的产品与运营配图（第1张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-cracking-my-screen-led-me-to-build-a-2-7m-year-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/641/original/open-uri20210909-3-2v627?1631192208",
-      "caption": "为学校和企业提供批量设备维修的邮寄服务项目公开展示素材",
-      "alt": "how-cracking-my-screen-led-me-to-build-a-2-7m-year-business",
+      "caption": "为学校和企业提供批量设备维修的邮寄服务：原始案例中的产品与运营配图（第2张）",
+      "alt": "为学校和企业提供批量设备维修的邮寄服务：原始案例中的产品与运营配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-cracking-my-screen-led-me-to-build-a-2-7m-year-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为学校和企业提供批量设备维修的邮寄服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-cracking-my-screen-led-me-to-build-a-2-7m-year-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/piihionyjd5htwa50vbuc80659ad",
-      "caption": "为学校和企业提供批量设备维修的邮寄服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-cracking-my-screen-led-me-to-build-a-2-7m-year-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2170,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/bqqy0g1q4qn0f1p5swlcf8m44jip",
-      "caption": "全球PR代理公开案例主图",
-      "alt": "全球PR代理案例图片",
+      "caption": "全球PR代理：服务250+客户，月入$1.2M",
+      "alt": "全球PR代理：服务250+客户，月入$1.2M",
       "sourceUrl": "https://www.starterstory.com/stories/jukebox",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/044/original/open-uri20221113-24-5z9abg?1668324937",
-      "caption": "全球PR代理项目公开展示素材",
-      "alt": "jukebox",
+      "caption": "全球PR代理：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "全球PR代理：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/jukebox",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/045/original/open-uri20221113-24-1h21mt5?1668324938",
-      "caption": "全球PR代理项目公开展示素材",
-      "alt": "jukebox",
+      "caption": "全球PR代理：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "全球PR代理：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/jukebox",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/046/original/open-uri20221113-24-1kdzilt?1668324939",
-      "caption": "全球PR代理项目公开展示素材",
-      "alt": "jukebox",
+      "caption": "全球PR代理：当前经营状态与下一步规划相关原始配图（第3张）",
+      "alt": "全球PR代理：当前经营状态与下一步规划相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/jukebox",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "全球PR代理项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/jukebox",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2199,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

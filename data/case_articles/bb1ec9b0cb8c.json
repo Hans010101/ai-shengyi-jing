@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/cmeb7a4i63j09ze01aoyrr397ja0",
-      "caption": "帮助商家恢复邮件列表有效性公开案例主图",
-      "alt": "帮助商家恢复邮件列表有效性案例图片",
+      "caption": "帮助商家恢复邮件列表有效性：通过订阅制服务收费",
+      "alt": "帮助商家恢复邮件列表有效性：通过订阅制服务收费",
       "sourceUrl": "https://www.starterstory.com/stories/email-paramedic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/135/original/open-uri20230423-51-twjoyz?1682211556",
-      "caption": "帮助商家恢复邮件列表有效性项目公开展示素材",
-      "alt": "email-paramedic",
+      "caption": "帮助商家恢复邮件列表有效性：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "帮助商家恢复邮件列表有效性：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/email-paramedic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/136/original/open-uri20230423-51-1vmcx4q?1682211558",
-      "caption": "帮助商家恢复邮件列表有效性项目公开展示素材",
-      "alt": "email-paramedic",
+      "caption": "帮助商家恢复邮件列表有效性：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "帮助商家恢复邮件列表有效性：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/email-paramedic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/137/original/open-uri20230423-51-1qfkuf8?1682211558",
-      "caption": "帮助商家恢复邮件列表有效性项目公开展示素材",
-      "alt": "email-paramedic",
+      "caption": "帮助商家恢复邮件列表有效性：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "帮助商家恢复邮件列表有效性：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/email-paramedic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/138/original/open-uri20230423-51-qtlaan?1682211559",
-      "caption": "帮助商家恢复邮件列表有效性项目公开展示素材",
-      "alt": "email-paramedic",
-      "sourceUrl": "https://www.starterstory.com/stories/email-paramedic",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2249,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

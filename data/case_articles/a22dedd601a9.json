@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/16c6eeh8fk180cssr52txgiz5uov",
-      "caption": "AI驱动的客户体验平台公开案例主图",
-      "alt": "AI驱动的客户体验平台案例图片",
+      "caption": "AI驱动的客户体验平台：通过订阅制收费",
+      "alt": "AI驱动的客户体验平台：通过订阅制收费",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-50k-month-customer-experience-platform",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/003/137/original/open-uri20191002-4-gmgsar?1570006669",
-      "caption": "AI驱动的客户体验平台项目公开展示素材",
-      "alt": "how-i-started-a-50k-month-customer-experience-platform",
+      "caption": "AI驱动的客户体验平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI驱动的客户体验平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-50k-month-customer-experience-platform",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/003/138/original/open-uri20191002-4-18lluqg?1570006669",
-      "caption": "AI驱动的客户体验平台项目公开展示素材",
-      "alt": "how-i-started-a-50k-month-customer-experience-platform",
+      "caption": "AI驱动的客户体验平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI驱动的客户体验平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-50k-month-customer-experience-platform",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/003/139/original/open-uri20191002-4-1fauj5a?1570006669",
-      "caption": "AI驱动的客户体验平台项目公开展示素材",
-      "alt": "how-i-started-a-50k-month-customer-experience-platform",
+      "caption": "AI驱动的客户体验平台：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "AI驱动的客户体验平台：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-50k-month-customer-experience-platform",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/003/140/original/open-uri20191002-4-1nmiwd0?1570006670",
-      "caption": "AI驱动的客户体验平台项目公开展示素材",
-      "alt": "how-i-started-a-50k-month-customer-experience-platform",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-50k-month-customer-experience-platform",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2166,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

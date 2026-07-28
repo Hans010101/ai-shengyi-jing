@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/4o93mp24iq5c3uqydzm9e3b7xwtr",
-      "caption": "手工文具品牌公开案例主图",
-      "alt": "手工文具品牌案例图片",
+      "caption": "手工文具品牌：通过批发和零售销售贴纸、贺卡等盈利",
+      "alt": "手工文具品牌：通过批发和零售销售贴纸、贺卡等盈利",
       "sourceUrl": "https://www.starterstory.com/stories/jordyn-alison-designs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/719/original/open-uri20220601-24-xp8su4?1654075129",
-      "caption": "手工文具品牌项目公开展示素材",
-      "alt": "jordyn-alison-designs",
+      "caption": "手工文具品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "手工文具品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/jordyn-alison-designs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/720/original/open-uri20220601-24-2umtuo?1654075129",
-      "caption": "手工文具品牌项目公开展示素材",
-      "alt": "jordyn-alison-designs",
+      "caption": "手工文具品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "手工文具品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/jordyn-alison-designs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "手工文具品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/jordyn-alison-designs",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/x0fswweh25a6rgcsp2c2ytil8usb",
-      "caption": "手工文具品牌项目公开展示素材",
-      "alt": "手工文具品牌项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/jordyn-alison-designs",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2198,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

@@ -122,47 +122,34 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/45rj37dfsko5qn1p8ftuthd7asgr",
-      "caption": "面向开发者的落地页组件库SaaS公开案例主图",
-      "alt": "面向开发者的落地页组件库SaaS案例图片",
+      "caption": "面向开发者的落地页组件库SaaS：月入8万美元",
+      "alt": "面向开发者的落地页组件库SaaS：月入8万美元",
       "sourceUrl": "https://www.starterstory.com/stories/aceternity-ui",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/651/original/open-uri20241004-48-qoba1q?1728026978",
-      "caption": "面向开发者的落地页组件库SaaS项目公开展示素材",
-      "alt": "aceternity-ui",
+      "caption": "面向开发者的落地页组件库SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "面向开发者的落地页组件库SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/aceternity-ui",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "面向开发者的落地页组件库SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/RPa3_AD1_Vs",
+      "watchUrl": "https://www.youtube.com/watch?v=RPa3_AD1_Vs",
+      "caption": "面向开发者的落地页组件库SaaS资料中提及的视频：This UI component library is mind-blowing",
+      "alt": "This UI component library is mind-blowing",
       "sourceUrl": "https://www.starterstory.com/stories/aceternity-ui",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/0gmsnr5l6mmwzauqxp3onbt3vsak",
-      "caption": "面向开发者的落地页组件库SaaS项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/aceternity-ui",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/o0cz8ezzjj8uumvwu7ij6bu599gm",
-      "caption": "面向开发者的落地页组件库SaaS项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/aceternity-ui",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/RPa3_AD1_Vs/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +164,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2211,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

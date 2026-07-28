@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/9bmqi9ktudd8mem01mo0vpd7zs8k",
-      "caption": "营销即服务（MaaS）公开案例主图",
-      "alt": "营销即服务（MaaS）案例图片",
+      "caption": "营销即服务（MaaS）：按月订阅提供无限营销服务",
+      "alt": "营销即服务（MaaS）：按月订阅提供无限营销服务",
       "sourceUrl": "https://www.starterstory.com/stories/kadima-grow",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/819/original/open-uri20230924-60-1d9txul?1695527978",
-      "caption": "营销即服务（MaaS）项目公开展示素材",
-      "alt": "kadima-grow",
+      "caption": "营销即服务（MaaS）：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "营销即服务（MaaS）：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/kadima-grow",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/820/original/open-uri20230924-60-eyw8k5?1695527980",
-      "caption": "营销即服务（MaaS）项目公开展示素材",
-      "alt": "kadima-grow",
+      "caption": "营销即服务（MaaS）：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "营销即服务（MaaS）：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/kadima-grow",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/821/original/open-uri20230924-60-1s47hzt?1695527980",
-      "caption": "营销即服务（MaaS）项目公开展示素材",
-      "alt": "kadima-grow",
+      "caption": "营销即服务（MaaS）：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "营销即服务（MaaS）：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/kadima-grow",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/822/original/open-uri20230924-60-9dfaff?1695527981",
-      "caption": "营销即服务（MaaS）项目公开展示素材",
-      "alt": "kadima-grow",
-      "sourceUrl": "https://www.starterstory.com/stories/kadima-grow",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2234,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

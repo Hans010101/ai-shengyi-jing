@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ydhw3nowmfk8inpl9kxp23y5ikfp",
-      "caption": "收购并运营盈利网站公开案例主图",
-      "alt": "收购并运营盈利网站案例图片",
+      "caption": "收购并运营盈利网站：通过翻转和投资赚钱",
+      "alt": "收购并运营盈利网站：通过翻转和投资赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/i-bootstrapped-a-1-5m-year-business-by-flipping-and-investing-in-websites",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/851/original/open-uri20220121-3-1j21hkg?1642772097",
-      "caption": "收购并运营盈利网站项目公开展示素材",
-      "alt": "i-bootstrapped-a-1-2m-year-business-by-flipping-and-investing-in-websites",
+      "caption": "收购并运营盈利网站：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "收购并运营盈利网站：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-bootstrapped-a-1-5m-year-business-by-flipping-and-investing-in-websites",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/852/original/open-uri20220121-3-oeq6vt?1642772097",
-      "caption": "收购并运营盈利网站项目公开展示素材",
-      "alt": "i-bootstrapped-a-1-2m-year-business-by-flipping-and-investing-in-websites",
+      "caption": "收购并运营盈利网站：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "收购并运营盈利网站：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-bootstrapped-a-1-5m-year-business-by-flipping-and-investing-in-websites",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "收购并运营盈利网站项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/i-bootstrapped-a-1-5m-year-business-by-flipping-and-investing-in-websites",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ckga6yk7cshnjte89nwaggy0bux8",
-      "caption": "收购并运营盈利网站项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/i-bootstrapped-a-1-5m-year-business-by-flipping-and-investing-in-websites",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2231,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

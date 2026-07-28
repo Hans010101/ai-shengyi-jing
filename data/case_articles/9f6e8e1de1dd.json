@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/lr810nayythltsu7tqyay0ogqot9",
-      "caption": "AI智能广告创建平台公开案例主图",
-      "alt": "AI智能广告创建平台案例图片",
+      "caption": "AI智能广告创建平台：按月订阅收费",
+      "alt": "AI智能广告创建平台：按月订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-a-smart-ad-creator-that-generates-1-14m-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/085/original/open-uri20211005-3-1g40y0m?1633456987",
-      "caption": "AI智能广告创建平台项目公开展示素材",
+      "caption": "AI智能广告创建平台：创业起点与创意来源相关原始配图",
       "alt": "ADYOUNEED MVP",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-a-smart-ad-creator-that-generates-1-14m-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/086/original/open-uri20211005-3-b1dnsb?1633456988",
-      "caption": "AI智能广告创建平台项目公开展示素材",
-      "alt": "i-built-a-smart-ad-creator-that-generates-1-14m-year",
+      "caption": "AI智能广告创建平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI智能广告创建平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-a-smart-ad-creator-that-generates-1-14m-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/087/original/open-uri20211005-3-1c176ff?1633456988",
-      "caption": "AI智能广告创建平台项目公开展示素材",
-      "alt": "i-built-a-smart-ad-creator-that-generates-1-14m-year",
+      "caption": "AI智能广告创建平台：创业复盘与关键经验相关原始配图（第3张）",
+      "alt": "AI智能广告创建平台：创业复盘与关键经验相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-a-smart-ad-creator-that-generates-1-14m-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/088/original/open-uri20211005-3-1vil00p?1633456989",
-      "caption": "AI智能广告创建平台项目公开展示素材",
-      "alt": "i-built-a-smart-ad-creator-that-generates-1-14m-year",
-      "sourceUrl": "https://www.starterstory.com/stories/i-built-a-smart-ad-creator-that-generates-1-14m-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2145,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ox38t1hhb49kqovttn5harcqkq8u",
-      "caption": "无酒精饮品品牌公开案例主图",
-      "alt": "无酒精饮品品牌案例图片",
+      "caption": "无酒精饮品品牌：通过电商和订阅制销售健康饮品",
+      "alt": "无酒精饮品品牌：通过电商和订阅制销售健康饮品",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-conquered-my-alcoholism-and-built-a-non-alcoholic-beverage-brand",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/678/original/open-uri20190822-4-1m07t6c?1566451487",
-      "caption": "无酒精饮品品牌项目公开展示素材",
-      "alt": "how-i-conquered-my-alcoholism-and-built-a-non-alcoholic-beverage-brand",
+      "caption": "无酒精饮品品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "无酒精饮品品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-conquered-my-alcoholism-and-built-a-non-alcoholic-beverage-brand",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/679/original/open-uri20190822-4-ftfple?1566451488",
-      "caption": "无酒精饮品品牌项目公开展示素材",
-      "alt": "how-i-conquered-my-alcoholism-and-built-a-non-alcoholic-beverage-brand",
+      "caption": "无酒精饮品品牌：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "无酒精饮品品牌：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-conquered-my-alcoholism-and-built-a-non-alcoholic-beverage-brand",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/680/original/open-uri20190822-4-1xkpnfk?1566451489",
-      "caption": "无酒精饮品品牌项目公开展示素材",
-      "alt": "how-i-conquered-my-alcoholism-and-built-a-non-alcoholic-beverage-brand",
+      "caption": "无酒精饮品品牌：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "无酒精饮品品牌：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-conquered-my-alcoholism-and-built-a-non-alcoholic-beverage-brand",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/681/original/open-uri20190822-4-1bq6zay?1566451489",
-      "caption": "无酒精饮品品牌项目公开展示素材",
-      "alt": "how-i-conquered-my-alcoholism-and-built-a-non-alcoholic-beverage-brand",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/uIJcyy8XexM",
+      "watchUrl": "https://www.youtube.com/watch?v=uIJcyy8XexM",
+      "caption": "无酒精饮品品牌资料中提及的视频：video",
+      "alt": "video",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-conquered-my-alcoholism-and-built-a-non-alcoholic-beverage-brand",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/uIJcyy8XexM/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

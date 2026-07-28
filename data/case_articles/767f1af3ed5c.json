@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/o86nh5vn9ffy3t4huh0bq87xistr",
-      "caption": "卖宝可梦等集换式卡牌公开案例主图",
-      "alt": "卖宝可梦等集换式卡牌案例图片",
+      "caption": "卖宝可梦等集换式卡牌：赚取差价和稀缺品溢价",
+      "alt": "卖宝可梦等集换式卡牌：赚取差价和稀缺品溢价",
       "sourceUrl": "https://www.starterstory.com/stories/pokene",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/661/original/open-uri20241011-60-4arw1q?1728656026",
-      "caption": "卖宝可梦等集换式卡牌项目公开展示素材",
-      "alt": "pokene",
+      "caption": "卖宝可梦等集换式卡牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "卖宝可梦等集换式卡牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/pokene",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/662/original/open-uri20241011-60-ni5hgx?1728656028",
-      "caption": "卖宝可梦等集换式卡牌项目公开展示素材",
-      "alt": "pokene",
+      "caption": "卖宝可梦等集换式卡牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "卖宝可梦等集换式卡牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/pokene",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "卖宝可梦等集换式卡牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/pokene",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ptba69qdqz5xolsqmn7r1j2oyaqo",
-      "caption": "卖宝可梦等集换式卡牌项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/pokene",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2283,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

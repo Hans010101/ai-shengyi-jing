@@ -122,47 +122,56 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/lnmmrbhw4pmik3usedcsyy4s540f",
-      "caption": "为品牌定制元宇宙体验公开案例主图",
-      "alt": "为品牌定制元宇宙体验案例图片",
+      "caption": "为品牌定制元宇宙体验：收取项目开发费和维护费",
+      "alt": "为品牌定制元宇宙体验：收取项目开发费和维护费",
       "sourceUrl": "https://www.starterstory.com/stories/ediiie",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/097/original/open-uri20230211-11-1cf5lbs?1676126924",
-      "caption": "为品牌定制元宇宙体验项目公开展示素材",
-      "alt": "ediiie",
+      "caption": "为品牌定制元宇宙体验：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为品牌定制元宇宙体验：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/ediiie",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/098/original/open-uri20230211-11-1jhuq4q?1676126925",
-      "caption": "为品牌定制元宇宙体验项目公开展示素材",
-      "alt": "ediiie",
+      "caption": "为品牌定制元宇宙体验：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "为品牌定制元宇宙体验：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/ediiie",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为品牌定制元宇宙体验项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/cYZ8b6mCWo4",
+      "watchUrl": "https://www.youtube.com/watch?v=cYZ8b6mCWo4",
+      "caption": "为品牌定制元宇宙体验资料中提及的视频：Augmented Reality-Based Training Module for Manufacturing Industry | AR in Manufacturing | EDIIIE",
+      "alt": "Augmented Reality-Based Training Module for Manufacturing Industry | AR in Manufacturing | EDIIIE",
       "sourceUrl": "https://www.starterstory.com/stories/ediiie",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/cYZ8b6mCWo4/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/1s7m5fyj6w1je4ry8bo80hv3i7n3",
-      "caption": "为品牌定制元宇宙体验项目公开展示素材",
-      "alt": "tool-icon",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/3-0QpbVE674",
+      "watchUrl": "https://www.youtube.com/watch?v=3-0QpbVE674",
+      "caption": "为品牌定制元宇宙体验资料中提及的视频：Virtual Reality Showreel | VR Showreel 2020 | EDIIIE",
+      "alt": "Virtual Reality Showreel | VR Showreel 2020 | EDIIIE",
       "sourceUrl": "https://www.starterstory.com/stories/ediiie",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/3-0QpbVE674/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

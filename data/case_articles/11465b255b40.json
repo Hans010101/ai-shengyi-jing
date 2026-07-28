@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/51raleq9xt5b3d2hm1u94wdods3r",
-      "caption": "售卖带有积极信息的服装品牌公开案例主图",
-      "alt": "售卖带有积极信息的服装品牌案例图片",
+      "caption": "售卖带有积极信息的服装品牌：通过电商平台赚取差价",
+      "alt": "售卖带有积极信息的服装品牌：通过电商平台赚取差价",
       "sourceUrl": "https://www.starterstory.com/stories/be-kind-apparel",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/560/original/open-uri20220908-13-wbxizm?1662626365",
-      "caption": "售卖带有积极信息的服装品牌项目公开展示素材",
-      "alt": "be-kind-apparel",
+      "caption": "售卖带有积极信息的服装品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "售卖带有积极信息的服装品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/be-kind-apparel",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/561/original/open-uri20220908-13-la4hn1?1662626365",
-      "caption": "售卖带有积极信息的服装品牌项目公开展示素材",
-      "alt": "be-kind-apparel",
+      "caption": "售卖带有积极信息的服装品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "售卖带有积极信息的服装品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/be-kind-apparel",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/562/original/open-uri20220908-13-1axjhpr?1662626366",
-      "caption": "售卖带有积极信息的服装品牌项目公开展示素材",
-      "alt": "be-kind-apparel",
+      "caption": "售卖带有积极信息的服装品牌：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "售卖带有积极信息的服装品牌：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/be-kind-apparel",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/563/original/open-uri20220908-13-of385v?1662626367",
-      "caption": "售卖带有积极信息的服装品牌项目公开展示素材",
-      "alt": "be-kind-apparel",
-      "sourceUrl": "https://www.starterstory.com/stories/be-kind-apparel",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/564/original/open-uri20220908-13-qkwu4f?1662626367",
-      "caption": "售卖带有积极信息的服装品牌项目公开展示素材",
-      "alt": "be-kind-apparel",
-      "sourceUrl": "https://www.starterstory.com/stories/be-kind-apparel",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2159,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/0ntmyujrzqs3ltwo434jn41hbxia",
-      "caption": "地理编码SaaS公开案例主图",
-      "alt": "地理编码SaaS案例图片",
+      "caption": "地理编码SaaS：按API调用量收费",
+      "alt": "地理编码SaaS：按API调用量收费",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-our-revenue-by-70-in-one-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/947/original/open-uri20210125-3-d9p256?1611599510",
-      "caption": "地理编码SaaS项目公开展示素材",
-      "alt": "how-we-grew-our-revenue-by-70-in-one-year",
+      "caption": "地理编码SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "地理编码SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-our-revenue-by-70-in-one-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/948/original/open-uri20210125-3-tt64hx?1611599510",
-      "caption": "地理编码SaaS项目公开展示素材",
-      "alt": "how-we-grew-our-revenue-by-70-in-one-year",
+      "caption": "地理编码SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "地理编码SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-our-revenue-by-70-in-one-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/949/original/open-uri20210125-3-1gx4xpi?1611599510",
-      "caption": "地理编码SaaS项目公开展示素材",
-      "alt": "how-we-grew-our-revenue-by-70-in-one-year",
+      "caption": "地理编码SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "地理编码SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-our-revenue-by-70-in-one-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/950/original/open-uri20210125-3-wil24n?1611599510",
-      "caption": "地理编码SaaS项目公开展示素材",
-      "alt": "how-we-grew-our-revenue-by-70-in-one-year",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-our-revenue-by-70-in-one-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2209,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

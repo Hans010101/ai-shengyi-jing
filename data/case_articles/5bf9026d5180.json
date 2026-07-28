@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/fhlsxrxvnee55i4fu2ohns5v7vcg",
-      "caption": "Etsy上卖定制木制装饰品公开案例主图",
-      "alt": "Etsy上卖定制木制装饰品案例图片",
+      "caption": "Etsy上卖定制木制装饰品：通过多尺寸多颜色SKU实现高客单价",
+      "alt": "Etsy上卖定制木制装饰品：通过多尺寸多颜色SKU实现高客单价",
       "sourceUrl": "https://www.starterstory.com/stories/timber-grove-update-how-i-plan-to-reach-100k-in-revenue-by-2021",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/289/original/open-uri20201207-4-flv7eh?1607363237",
-      "caption": "Etsy上卖定制木制装饰品项目公开展示素材",
-      "alt": "how-i-focus-my-business-marketing-on-e-commerce-website",
+      "caption": "Etsy上卖定制木制装饰品：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "Etsy上卖定制木制装饰品：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/timber-grove-update-how-i-plan-to-reach-100k-in-revenue-by-2021",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/290/original/open-uri20201207-4-ipwlm1?1607363239",
-      "caption": "Etsy上卖定制木制装饰品项目公开展示素材",
-      "alt": "how-i-focus-my-business-marketing-on-e-commerce-website",
+      "caption": "Etsy上卖定制木制装饰品：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "Etsy上卖定制木制装饰品：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/timber-grove-update-how-i-plan-to-reach-100k-in-revenue-by-2021",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/291/original/open-uri20201207-4-qrkojm?1607363239",
-      "caption": "Etsy上卖定制木制装饰品项目公开展示素材",
-      "alt": "how-i-focus-my-business-marketing-on-e-commerce-website",
+      "caption": "Etsy上卖定制木制装饰品：创业复盘与关键经验相关原始配图（第3张）",
+      "alt": "Etsy上卖定制木制装饰品：创业复盘与关键经验相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/timber-grove-update-how-i-plan-to-reach-100k-in-revenue-by-2021",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/292/original/open-uri20201207-4-1u485ot?1607363240",
-      "caption": "Etsy上卖定制木制装饰品项目公开展示素材",
-      "alt": "how-i-focus-my-business-marketing-on-e-commerce-website",
-      "sourceUrl": "https://www.starterstory.com/stories/timber-grove-update-how-i-plan-to-reach-100k-in-revenue-by-2021",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "Etsy上卖定制木制装饰品项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/timber-grove-update-how-i-plan-to-reach-100k-in-revenue-by-2021",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2243,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

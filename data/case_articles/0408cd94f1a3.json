@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/2yd6enn78kkzd2h1ifn54m5lh9dr",
-      "caption": "优惠券聚合网站公开案例主图",
-      "alt": "优惠券聚合网站案例图片",
+      "caption": "优惠券聚合网站：通过联盟营销赚取佣金",
+      "alt": "优惠券聚合网站：通过联盟营销赚取佣金",
       "sourceUrl": "https://www.starterstory.com/stories/pennycanny",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/126/original/open-uri20240216-53-7tf67k?1708049537",
-      "caption": "优惠券聚合网站项目公开展示素材",
-      "alt": "penny-canny",
+      "caption": "优惠券聚合网站：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "优惠券聚合网站：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/pennycanny",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/127/original/open-uri20240216-53-19zf3js?1708049538",
-      "caption": "优惠券聚合网站项目公开展示素材",
-      "alt": "penny-canny",
+      "caption": "优惠券聚合网站：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "优惠券聚合网站：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/pennycanny",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/128/original/open-uri20240216-53-10fm34x?1708049538",
-      "caption": "优惠券聚合网站项目公开展示素材",
-      "alt": "penny-canny",
+      "caption": "优惠券聚合网站：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "优惠券聚合网站：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/pennycanny",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/129/original/open-uri20240216-53-ncg0rv?1708049539",
-      "caption": "优惠券聚合网站项目公开展示素材",
-      "alt": "penny-canny",
-      "sourceUrl": "https://www.starterstory.com/stories/pennycanny",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2151,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

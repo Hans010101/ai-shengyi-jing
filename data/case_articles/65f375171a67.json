@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/s2moc39fn39ozyijfh5gzovi1j9p",
-      "caption": "投资教育网站公开案例主图",
-      "alt": "投资教育网站案例图片",
+      "caption": "投资教育网站：通过订阅和课程赚钱",
+      "alt": "投资教育网站：通过订阅和课程赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/investlikejohn",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/666/original/open-uri20230601-51-1q4kpvs?1685617962",
-      "caption": "投资教育网站项目公开展示素材",
-      "alt": "investlikejohn",
+      "caption": "投资教育网站：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "投资教育网站：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/investlikejohn",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/667/original/open-uri20230601-51-10segim?1685617963",
-      "caption": "投资教育网站项目公开展示素材",
-      "alt": "investlikejohn",
+      "caption": "投资教育网站：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "投资教育网站：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/investlikejohn",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "投资教育网站项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/investlikejohn",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/wr4g5jkn9asua0e8t3iks2t00ebv",
-      "caption": "投资教育网站项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/investlikejohn",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2100,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

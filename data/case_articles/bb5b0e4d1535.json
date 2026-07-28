@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/pmpha8q7lgozylqmx0syxzsvxst8",
-      "caption": "旅游活动搜索引擎公开案例主图",
-      "alt": "旅游活动搜索引擎案例图片",
+      "caption": "旅游活动搜索引擎：通过佣金和广告赚钱",
+      "alt": "旅游活动搜索引擎：通过佣金和广告赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/we-built-a-720k-year-travel-activities-and-tours-search-engine",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/724/original/open-uri20220102-3-zbdtf1?1641140194",
-      "caption": "旅游活动搜索引擎项目公开展示素材",
-      "alt": "we-built-a-720k-year-travel-activities-and-tours-search-engine",
+      "caption": "旅游活动搜索引擎：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "旅游活动搜索引擎：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/we-built-a-720k-year-travel-activities-and-tours-search-engine",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/725/original/open-uri20220102-3-18eu29x?1641140195",
-      "caption": "旅游活动搜索引擎项目公开展示素材",
-      "alt": "we-built-a-720k-year-travel-activities-and-tours-search-engine",
+      "caption": "旅游活动搜索引擎：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "旅游活动搜索引擎：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-built-a-720k-year-travel-activities-and-tours-search-engine",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/726/original/open-uri20220102-3-13d94ly?1641140195",
-      "caption": "旅游活动搜索引擎项目公开展示素材",
-      "alt": "we-built-a-720k-year-travel-activities-and-tours-search-engine",
+      "caption": "旅游活动搜索引擎：当前经营状态与下一步规划相关原始配图（第3张）",
+      "alt": "旅游活动搜索引擎：当前经营状态与下一步规划相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-built-a-720k-year-travel-activities-and-tours-search-engine",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "旅游活动搜索引擎项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/we-built-a-720k-year-travel-activities-and-tours-search-engine",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2179,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

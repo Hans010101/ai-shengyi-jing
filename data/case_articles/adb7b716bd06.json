@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/xhzcvrgfzw38gbxndmbuu3491ery",
-      "caption": "B2B支付解决方案公开案例主图",
-      "alt": "B2B支付解决方案案例图片",
+      "caption": "B2B支付解决方案：通过交易手续费盈利",
+      "alt": "B2B支付解决方案：通过交易手续费盈利",
       "sourceUrl": "https://www.starterstory.com/stories/paytabs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/895/original/open-uri20220418-12-13qa2of?1650305014",
-      "caption": "B2B支付解决方案项目公开展示素材",
-      "alt": "paytabs",
+      "caption": "B2B支付解决方案：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "B2B支付解决方案：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/paytabs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/896/original/open-uri20220418-12-9z0gf6?1650305014",
-      "caption": "B2B支付解决方案项目公开展示素材",
-      "alt": "paytabs",
+      "caption": "B2B支付解决方案：当前经营状态与下一步规划相关原始配图（第2张）",
+      "alt": "B2B支付解决方案：当前经营状态与下一步规划相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/paytabs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/897/original/open-uri20220418-12-wln8ja?1650305015",
-      "caption": "B2B支付解决方案项目公开展示素材",
-      "alt": "paytabs",
+      "caption": "B2B支付解决方案：当前经营状态与下一步规划相关原始配图（第3张）",
+      "alt": "B2B支付解决方案：当前经营状态与下一步规划相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/paytabs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/898/original/open-uri20220418-12-1ndan9l?1650305016",
-      "caption": "B2B支付解决方案项目公开展示素材",
-      "alt": "paytabs",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/u3769jbg-kE",
+      "watchUrl": "https://www.youtube.com/watch?v=u3769jbg-kE",
+      "caption": "B2B支付解决方案资料中提及的视频：ECOMMERCE: Start your e-commerce business in 24 hours,with PayTabs’ digital payment solutions",
+      "alt": "ECOMMERCE: Start your e-commerce business in 24 hours,with PayTabs’ digital payment solutions",
       "sourceUrl": "https://www.starterstory.com/stories/paytabs",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/u3769jbg-kE/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/30o8rbdzfr1ghmsm06gp6bdn636k",
-      "caption": "环保笔记本公开案例主图",
-      "alt": "环保笔记本案例图片",
+      "caption": "环保笔记本：通过售卖可重复使用的笔记本和补充装盈利",
+      "alt": "环保笔记本：通过售卖可重复使用的笔记本和补充装盈利",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-invented-and-launched-a-notebook-that-saves-paper",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/725/original/open-uri20190530-4-16tuqga?1559216881",
-      "caption": "环保笔记本项目公开展示素材",
-      "alt": "how-we-invented-and-launched-a-notebook-that-saves-paper",
+      "caption": "环保笔记本：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "环保笔记本：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-invented-and-launched-a-notebook-that-saves-paper",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/726/original/open-uri20190530-4-1ntjztm?1559216883",
-      "caption": "环保笔记本项目公开展示素材",
-      "alt": "how-we-invented-and-launched-a-notebook-that-saves-paper",
+      "caption": "环保笔记本：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "环保笔记本：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-invented-and-launched-a-notebook-that-saves-paper",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/727/original/open-uri20190530-4-hc8bo7?1559216883",
-      "caption": "环保笔记本项目公开展示素材",
-      "alt": "how-we-invented-and-launched-a-notebook-that-saves-paper",
+      "caption": "环保笔记本：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "环保笔记本：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-invented-and-launched-a-notebook-that-saves-paper",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/728/original/open-uri20190530-4-1hddtff?1559216884",
-      "caption": "环保笔记本项目公开展示素材",
-      "alt": "how-we-invented-and-launched-a-notebook-that-saves-paper",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-invented-and-launched-a-notebook-that-saves-paper",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2205,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

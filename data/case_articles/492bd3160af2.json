@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/0otixuu7wx257lw548du0hy7r8ct",
-      "caption": "海外创业项目公开案例主图",
-      "alt": "海外创业项目案例图片",
+      "caption": "海外创业项目：通过DNA分析提供个性化健康建议的SaaS平台，年入$2.7M",
+      "alt": "海外创业项目：通过DNA分析提供个性化健康建议的SaaS平台，年入$2.7M",
       "sourceUrl": "https://www.starterstory.com/stories/i-created-a-2-4m-year-software-that-extends-people-s-lives-by-hacking-their-dna",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/426/original/open-uri20211211-3-265g7l?1639254747",
-      "caption": "海外创业项目项目公开展示素材",
-      "alt": "i-created-a-2-7m-year-software-that-extends-people-s-lives-by-hacking-their-dna",
+      "caption": "海外创业项目：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "海外创业项目：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-created-a-2-4m-year-software-that-extends-people-s-lives-by-hacking-their-dna",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/427/original/open-uri20211211-3-13oyd0b?1639254749",
-      "caption": "海外创业项目项目公开展示素材",
-      "alt": "i-created-a-2-4m-year-software-that-extends-people-s-lives-by-hacking-their-dna",
+      "caption": "海外创业项目：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "海外创业项目：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-created-a-2-4m-year-software-that-extends-people-s-lives-by-hacking-their-dna",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/428/original/open-uri20211211-3-1ewq94j?1639254750",
-      "caption": "海外创业项目项目公开展示素材",
-      "alt": "i-created-a-2-4m-year-software-that-extends-people-s-lives-by-hacking-their-dna",
+      "caption": "海外创业项目：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "海外创业项目：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-created-a-2-4m-year-software-that-extends-people-s-lives-by-hacking-their-dna",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/429/original/open-uri20211211-3-pacz61?1639254750",
-      "caption": "海外创业项目项目公开展示素材",
-      "alt": "i-created-a-2-4m-year-software-that-extends-people-s-lives-by-hacking-their-dna",
-      "sourceUrl": "https://www.starterstory.com/stories/i-created-a-2-4m-year-software-that-extends-people-s-lives-by-hacking-their-dna",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2305,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

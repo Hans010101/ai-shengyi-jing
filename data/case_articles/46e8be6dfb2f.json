@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/b3chkbk4rgu2m8d2j3cy2f4zdruq",
-      "caption": "自制视频健身App公开案例主图",
-      "alt": "自制视频健身App案例图片",
+      "caption": "自制视频健身App：通过订阅制赚取月费",
+      "alt": "自制视频健身App：通过订阅制赚取月费",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-created-our-own-video-fitness-app",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/138/original/open-uri20190724-4-1idg1hu?1563998388",
-      "caption": "自制视频健身App项目公开展示素材",
-      "alt": "how-we-created-our-own-video-fitness-app",
+      "caption": "自制视频健身App：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "自制视频健身App：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-created-our-own-video-fitness-app",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/139/original/open-uri20190724-4-a9zf45?1563998390",
-      "caption": "自制视频健身App项目公开展示素材",
-      "alt": "how-we-created-our-own-video-fitness-app",
+      "caption": "自制视频健身App：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "自制视频健身App：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-created-our-own-video-fitness-app",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/140/original/open-uri20190724-4-1ll0xo0?1563998390",
-      "caption": "自制视频健身App项目公开展示素材",
-      "alt": "how-we-created-our-own-video-fitness-app",
+      "caption": "自制视频健身App：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "自制视频健身App：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-created-our-own-video-fitness-app",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/141/original/open-uri20190724-4-lgpl0v?1563998390",
-      "caption": "自制视频健身App项目公开展示素材",
-      "alt": "how-we-created-our-own-video-fitness-app",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-created-our-own-video-fitness-app",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2212,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

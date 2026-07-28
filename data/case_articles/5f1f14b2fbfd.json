@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/vojirvl6l129lfmui8wf366jgbpd",
-      "caption": "为非技术创始人快速构建MVP公开案例主图",
-      "alt": "为非技术创始人快速构建MVP案例图片",
+      "caption": "为非技术创始人快速构建MVP：按项目收费",
+      "alt": "为非技术创始人快速构建MVP：按项目收费",
       "sourceUrl": "https://www.starterstory.com/stories/byldd",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/627/original/open-uri20221018-12-5u3g4t?1666065768",
-      "caption": "为非技术创始人快速构建MVP项目公开展示素材",
-      "alt": "byldd",
+      "caption": "为非技术创始人快速构建MVP：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为非技术创始人快速构建MVP：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/byldd",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/628/original/open-uri20221018-12-qa9b8?1666065769",
-      "caption": "为非技术创始人快速构建MVP项目公开展示素材",
-      "alt": "byldd",
+      "caption": "为非技术创始人快速构建MVP：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "为非技术创始人快速构建MVP：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/byldd",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/629/original/open-uri20221018-12-1vxw5kd?1666065770",
-      "caption": "为非技术创始人快速构建MVP项目公开展示素材",
-      "alt": "byldd",
+      "caption": "为非技术创始人快速构建MVP：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "为非技术创始人快速构建MVP：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/byldd",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为非技术创始人快速构建MVP项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/byldd",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2188,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

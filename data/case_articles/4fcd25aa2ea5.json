@@ -122,65 +122,53 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/xixrm4pysd3dkzdiu0ipekl46js0",
-      "caption": "在线协作白板工具公开案例主图",
-      "alt": "在线协作白板工具案例图片",
+      "caption": "在线协作白板工具：通过免费增值模式盈利",
+      "alt": "在线协作白板工具：通过免费增值模式盈利",
       "sourceUrl": "https://www.starterstory.com/stories/metro-retro",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/585/original/open-uri20230523-51-1ac1j3y?1684845927",
-      "caption": "在线协作白板工具项目公开展示素材",
-      "alt": "metro-retro",
+      "caption": "在线协作白板工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "在线协作白板工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/metro-retro",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/586/original/open-uri20230523-51-105us84?1684845928",
-      "caption": "在线协作白板工具项目公开展示素材",
-      "alt": "metro-retro",
+      "caption": "在线协作白板工具：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "在线协作白板工具：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/metro-retro",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/587/original/open-uri20230523-51-1jl3fx2?1684845929",
-      "caption": "在线协作白板工具项目公开展示素材",
-      "alt": "metro-retro",
+      "caption": "在线协作白板工具：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "在线协作白板工具：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/metro-retro",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "在线协作白板工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/metro-retro",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ux0jwuv5zreae40prptu2ora5km3",
-      "caption": "在线协作白板工具项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/metro-retro",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/TtP1UUTvA3U",
-      "caption": "在线协作白板工具项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=TtP1UUTvA3U",
+      "caption": "在线协作白板工具资料中提及的视频：Metro Retro Promo",
+      "alt": "Metro Retro Promo",
       "sourceUrl": "https://www.starterstory.com/stories/metro-retro",
       "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/TtP1UUTvA3U/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -196,6 +184,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2256,
-    "mediaCount": 7
+    "mediaCount": 5
   }
 }

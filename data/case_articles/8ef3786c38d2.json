@@ -122,56 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/gbd4zx3j131qz6zx6ykt6ohlc3uj",
-      "caption": "组织国际静修营公开案例主图",
-      "alt": "组织国际静修营案例图片",
+      "caption": "组织国际静修营：通过门票和附加服务赚钱",
+      "alt": "组织国际静修营：通过门票和附加服务赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/wandering-aunt",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/440/original/open-uri20230511-63-1ffhatn?1683817331",
-      "caption": "组织国际静修营项目公开展示素材",
-      "alt": "wandering-aunt",
+      "caption": "组织国际静修营：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "组织国际静修营：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/wandering-aunt",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/441/original/open-uri20230511-63-g2r5rd?1683817332",
-      "caption": "组织国际静修营项目公开展示素材",
-      "alt": "wandering-aunt",
+      "caption": "组织国际静修营：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "组织国际静修营：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/wandering-aunt",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "组织国际静修营项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/wandering-aunt",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/glia3fse1raug40hg8lpkg3rg09w",
-      "caption": "组织国际静修营项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/wandering-aunt",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "组织国际静修营项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/wandering-aunt",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2157,
-    "mediaCount": 6
+    "mediaCount": 3
   }
 }

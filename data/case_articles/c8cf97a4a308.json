@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/7n54abem48ubjsub0ek2pyxewc05",
-      "caption": "面向创业者的付费社交网络公开案例主图",
-      "alt": "面向创业者的付费社交网络案例图片",
+      "caption": "面向创业者的付费社交网络：通过介绍请求和会员费盈利",
+      "alt": "面向创业者的付费社交网络：通过介绍请求和会员费盈利",
       "sourceUrl": "https://www.starterstory.com/stories/seedscout",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/174/original/open-uri20230801-60-borlqg?1690888904",
-      "caption": "面向创业者的付费社交网络项目公开展示素材",
-      "alt": "seedscout",
+      "caption": "面向创业者的付费社交网络：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "面向创业者的付费社交网络：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/seedscout",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/175/original/open-uri20230801-60-13rqvgo?1690888905",
-      "caption": "面向创业者的付费社交网络项目公开展示素材",
-      "alt": "seedscout",
+      "caption": "面向创业者的付费社交网络：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "面向创业者的付费社交网络：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/seedscout",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/176/original/open-uri20230801-60-zxdyho?1690888905",
-      "caption": "面向创业者的付费社交网络项目公开展示素材",
-      "alt": "seedscout",
+      "caption": "面向创业者的付费社交网络：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "面向创业者的付费社交网络：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/seedscout",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/177/original/open-uri20230801-60-t6wq73?1690888906",
-      "caption": "面向创业者的付费社交网络项目公开展示素材",
-      "alt": "seedscout",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/UC-xdoxsIIo",
+      "watchUrl": "https://www.youtube.com/watch?v=UC-xdoxsIIo",
+      "caption": "面向创业者的付费社交网络资料中提及的视频：E840: All #AskJason (call-ins!): investors, marketing, mentoring, networking, social media, AR, more",
+      "alt": "E840: All #AskJason (call-ins!): investors, marketing, mentoring, networking, social media, AR, more",
       "sourceUrl": "https://www.starterstory.com/stories/seedscout",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/UC-xdoxsIIo/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

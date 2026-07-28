@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/jmceja7gsd390604puere2ldpr5b",
-      "caption": "Salesforce咨询公司公开案例主图",
-      "alt": "Salesforce咨询公司案例图片",
+      "caption": "Salesforce咨询公司：为企业提供CRM实施与定制服务，月入3万美元",
+      "alt": "Salesforce咨询公司：为企业提供CRM实施与定制服务，月入3万美元",
       "sourceUrl": "https://www.starterstory.com/stories/sp-tech-inc-ed175ea0-14b3-40ea-a64c-cbbcec569261",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/468/original/open-uri20221206-24-adt486?1670296926",
-      "caption": "Salesforce咨询公司项目公开展示素材",
-      "alt": "sp-tech-inc-ed175ea0-14b3-40ea-a64c-cbbcec569261",
+      "caption": "Salesforce咨询公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "Salesforce咨询公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/sp-tech-inc-ed175ea0-14b3-40ea-a64c-cbbcec569261",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/469/original/open-uri20221206-24-1172u8h?1670296927",
-      "caption": "Salesforce咨询公司项目公开展示素材",
-      "alt": "sp-tech-inc-ed175ea0-14b3-40ea-a64c-cbbcec569261",
+      "caption": "Salesforce咨询公司：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "Salesforce咨询公司：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/sp-tech-inc-ed175ea0-14b3-40ea-a64c-cbbcec569261",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/470/original/open-uri20221206-24-3xvwi9?1670296927",
-      "caption": "Salesforce咨询公司项目公开展示素材",
-      "alt": "sp-tech-inc-ed175ea0-14b3-40ea-a64c-cbbcec569261",
+      "caption": "Salesforce咨询公司：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "Salesforce咨询公司：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/sp-tech-inc-ed175ea0-14b3-40ea-a64c-cbbcec569261",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/471/original/open-uri20221206-24-zqas43?1670296928",
-      "caption": "Salesforce咨询公司项目公开展示素材",
-      "alt": "sp-tech-inc-ed175ea0-14b3-40ea-a64c-cbbcec569261",
-      "sourceUrl": "https://www.starterstory.com/stories/sp-tech-inc-ed175ea0-14b3-40ea-a64c-cbbcec569261",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2181,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

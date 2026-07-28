@@ -122,56 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/2sfklh0dsi1uif5ut9spta9k9k2c",
-      "caption": "定制印刷在线服务公开案例主图",
-      "alt": "定制印刷在线服务案例图片",
+      "caption": "定制印刷在线服务：通过按需打印赚取差价",
+      "alt": "定制印刷在线服务：通过按需打印赚取差价",
       "sourceUrl": "https://www.starterstory.com/stories/printstreet-online-retail-pvt-ltd",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/082/original/open-uri20221002-24-r3lo16?1664717732",
-      "caption": "定制印刷在线服务项目公开展示素材",
-      "alt": "printstreet-online-retail-pvt-ltd",
+      "caption": "定制印刷在线服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "定制印刷在线服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/printstreet-online-retail-pvt-ltd",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "定制印刷在线服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/printstreet-online-retail-pvt-ltd",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/fyhbx2o0p0ivjbzkcaxfg3kkessb",
-      "caption": "定制印刷在线服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/printstreet-online-retail-pvt-ltd",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/e1zyhnzrw6gnm02pgxw4alp1ev4q",
-      "caption": "定制印刷在线服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/printstreet-online-retail-pvt-ltd",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/l3n0ifgxk0tv1iv12zmqkny9csrq",
-      "caption": "定制印刷在线服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/printstreet-online-retail-pvt-ltd",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2231,
-    "mediaCount": 6
+    "mediaCount": 2
   }
 }

@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/gsz0b5xghach410c5upyjo9ml96m",
-      "caption": "一人运营的家居装饰电商公开案例主图",
-      "alt": "一人运营的家居装饰电商案例图片",
+      "caption": "一人运营的家居装饰电商：通过手工定制和社交媒体获客，月入5千美元",
+      "alt": "一人运营的家居装饰电商：通过手工定制和社交媒体获客，月入5千美元",
       "sourceUrl": "https://www.starterstory.com/stories/tcb-designs-florida",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/803/original/open-uri20220727-24-z101fl?1658927900",
-      "caption": "一人运营的家居装饰电商项目公开展示素材",
-      "alt": "tcb-designs-florida",
+      "caption": "一人运营的家居装饰电商：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "一人运营的家居装饰电商：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/tcb-designs-florida",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/804/original/open-uri20220727-24-vq2hyq?1658927901",
-      "caption": "一人运营的家居装饰电商项目公开展示素材",
-      "alt": "tcb-designs-florida",
+      "caption": "一人运营的家居装饰电商：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "一人运营的家居装饰电商：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/tcb-designs-florida",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "一人运营的家居装饰电商项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/tcb-designs-florida",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c303bjznv93yxnh0xxz7t4vfedzf",
-      "caption": "一人运营的家居装饰电商项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/tcb-designs-florida",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2214,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

@@ -122,56 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/b3b1vmmnu8jy9i5msu2w1kfil5cb",
-      "caption": "AI人力资源SaaS公开案例主图",
-      "alt": "AI人力资源SaaS案例图片",
+      "caption": "AI人力资源SaaS：帮企业筛选简历，按月收费",
+      "alt": "AI人力资源SaaS：帮企业筛选简历，按月收费",
       "sourceUrl": "https://www.starterstory.com/businesses/alfy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI人力资源SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/alfy",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ju78wmxvp2qkb2ldsqsgzpd4dt9r",
-      "caption": "AI人力资源SaaS项目公开展示素材",
-      "alt": "Buddies HR logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/alfy",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/42njyiuf4e3uifuuaxhtda6knpt1/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "AI人力资源SaaS项目公开展示素材",
-      "alt": "J.Y. Delmotte",
-      "sourceUrl": "https://www.starterstory.com/businesses/alfy",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/yzwcofug5jdzgxughelpace4tl6a/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "AI人力资源SaaS项目公开展示素材",
-      "alt": "Slack",
-      "sourceUrl": "https://www.starterstory.com/businesses/alfy",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/fwu9pmrseyttq94884li574j5ei9/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "AI人力资源SaaS项目公开展示素材",
-      "alt": "HubSpot",
-      "sourceUrl": "https://www.starterstory.com/businesses/alfy",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -186,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2297,
-    "mediaCount": 6
+    "mediaCount": 1
   }
 }

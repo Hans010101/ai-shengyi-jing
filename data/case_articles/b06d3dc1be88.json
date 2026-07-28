@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/22abs95zup8bmdp75uy08gzgsw1q",
-      "caption": "面向开发者的云原生可观测性SaaS平台公开案例主图",
-      "alt": "面向开发者的云原生可观测性SaaS平台案例图片",
+      "caption": "面向开发者的云原生可观测性SaaS平台：按数据量收费",
+      "alt": "面向开发者的云原生可观测性SaaS平台：按数据量收费",
       "sourceUrl": "https://www.starterstory.com/businesses/groundcover",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "面向开发者的云原生可观测性SaaS平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/groundcover",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/0cex8ebbx19lbh15yirbnfpr8ii2",
-      "caption": "面向开发者的云原生可观测性SaaS平台项目公开展示素材",
-      "alt": "Groundcover logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/groundcover",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/yfhz5cc04jg61crt6ag24y8poiln/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "面向开发者的云原生可观测性SaaS平台项目公开展示素材",
-      "alt": "Shahar Azulay",
-      "sourceUrl": "https://www.starterstory.com/businesses/groundcover",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/yzwcofug5jdzgxughelpace4tl6a/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "面向开发者的云原生可观测性SaaS平台项目公开展示素材",
-      "alt": "Slack",
-      "sourceUrl": "https://www.starterstory.com/businesses/groundcover",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2238,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

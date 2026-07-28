@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/djsus4g6psqv0ljyw6d0d7xplqfy",
-      "caption": "社交媒体管理SaaS公开案例主图",
-      "alt": "社交媒体管理SaaS案例图片",
+      "caption": "社交媒体管理SaaS：按月订阅收费",
+      "alt": "社交媒体管理SaaS：按月订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/metricool",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/216/original/open-uri20230802-48-1rety04?1690960366",
-      "caption": "社交媒体管理SaaS项目公开展示素材",
-      "alt": "metricool",
+      "caption": "社交媒体管理SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "社交媒体管理SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/metricool",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/217/original/open-uri20230802-48-1mhudy5?1690960367",
-      "caption": "社交媒体管理SaaS项目公开展示素材",
-      "alt": "metricool",
+      "caption": "社交媒体管理SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "社交媒体管理SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/metricool",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/218/original/open-uri20230802-48-ggejy5?1690960367",
-      "caption": "社交媒体管理SaaS项目公开展示素材",
-      "alt": "metricool",
+      "caption": "社交媒体管理SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "社交媒体管理SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/metricool",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "社交媒体管理SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/metricool",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2297,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

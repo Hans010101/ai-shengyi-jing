@@ -122,65 +122,53 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/zngwqcodddv18bab1sc7hzjtgrz5",
-      "caption": "惊喜旅行策划服务公开案例主图",
-      "alt": "惊喜旅行策划服务案例图片",
+      "caption": "惊喜旅行策划服务：通过定制旅行套餐赚钱",
+      "alt": "惊喜旅行策划服务：通过定制旅行套餐赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-pivoted-from-reaching-out-social-media-followers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/005/964/original/open-uri20200430-4-3imto0?1588260454",
-      "caption": "惊喜旅行策划服务项目公开展示素材",
-      "alt": "how-i-pivoted-from-reaching-out-social-media-followers",
+      "caption": "惊喜旅行策划服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "惊喜旅行策划服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-pivoted-from-reaching-out-social-media-followers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/005/965/original/open-uri20200430-4-kq5sfk?1588260455",
-      "caption": "惊喜旅行策划服务项目公开展示素材",
-      "alt": "how-i-pivoted-from-reaching-out-social-media-followers",
+      "caption": "惊喜旅行策划服务：创业复盘与关键经验相关原始配图（第2张）",
+      "alt": "惊喜旅行策划服务：创业复盘与关键经验相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-pivoted-from-reaching-out-social-media-followers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/005/966/original/open-uri20200430-4-16s8t4z?1588260455",
-      "caption": "惊喜旅行策划服务项目公开展示素材",
-      "alt": "how-i-pivoted-from-reaching-out-social-media-followers",
+      "caption": "惊喜旅行策划服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "惊喜旅行策划服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-pivoted-from-reaching-out-social-media-followers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/005/967/original/open-uri20200430-4-eoskuo?1588260457",
-      "caption": "惊喜旅行策划服务项目公开展示素材",
-      "alt": "how-i-pivoted-from-reaching-out-social-media-followers",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-pivoted-from-reaching-out-social-media-followers",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "惊喜旅行策划服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-pivoted-from-reaching-out-social-media-followers",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/YhxYg9nTcDg",
-      "caption": "惊喜旅行策划服务项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=YhxYg9nTcDg",
+      "caption": "惊喜旅行策划服务资料中提及的视频：Whisked Away Surprise Travel",
+      "alt": "Whisked Away Surprise Travel",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-pivoted-from-reaching-out-social-media-followers",
       "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/YhxYg9nTcDg/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -196,6 +184,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2139,
-    "mediaCount": 7
+    "mediaCount": 5
   }
 }

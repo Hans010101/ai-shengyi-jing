@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/o9p60paw0x7bwwsa09c1ua0uw8yn",
-      "caption": "针对男性的线上杂志公开案例主图",
-      "alt": "针对男性的线上杂志案例图片",
+      "caption": "针对男性的线上杂志：通过订阅和广告盈利",
+      "alt": "针对男性的线上杂志：通过订阅和广告盈利",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-sales-to-grow-our-publication-revenue",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/350/original/open-uri20201014-4-1pspjsi?1602697375",
-      "caption": "针对男性的线上杂志项目公开展示素材",
-      "alt": "how-we-partnered-with-a-sales-executive-and-helped-grow-our-revenue",
+      "caption": "针对男性的线上杂志：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "针对男性的线上杂志：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-sales-to-grow-our-publication-revenue",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/351/original/open-uri20201014-4-134mrm8?1602697376",
-      "caption": "针对男性的线上杂志项目公开展示素材",
-      "alt": "how-we-partnered-with-a-sales-executive-and-helped-grow-our-revenue",
+      "caption": "针对男性的线上杂志：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "针对男性的线上杂志：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-sales-to-grow-our-publication-revenue",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/352/original/open-uri20201014-4-1g4xnh0?1602697377",
-      "caption": "针对男性的线上杂志项目公开展示素材",
-      "alt": "how-we-partnered-with-a-sales-executive-and-helped-grow-our-revenue",
+      "caption": "针对男性的线上杂志：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "针对男性的线上杂志：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-sales-to-grow-our-publication-revenue",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "针对男性的线上杂志项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-sales-to-grow-our-publication-revenue",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2162,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/x725wob5iyijw2y8g1zu95zs0vll",
-      "caption": "云搜索工具公开案例主图",
-      "alt": "云搜索工具案例图片",
+      "caption": "云搜索工具：通过订阅制向企业收费",
+      "alt": "云搜索工具：通过订阅制向企业收费",
       "sourceUrl": "https://www.starterstory.com/stories/klu-technologies-oy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/321/original/open-uri20230507-51-mnl0k7?1683422130",
-      "caption": "云搜索工具项目公开展示素材",
-      "alt": "klu-technologies-oy",
+      "caption": "云搜索工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "云搜索工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/klu-technologies-oy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "云搜索工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/klu-technologies-oy",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "云搜索工具项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/klu-technologies-oy",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/gl38e28b8wy08055xcqglg1r6pqs",
-      "caption": "云搜索工具项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/klu-technologies-oy",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2156,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

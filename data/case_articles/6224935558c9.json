@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/070v3uzsvgo12gnjp6zc7itruuej",
-      "caption": "埃及自学者创办的B2B数字营销机构公开案例主图",
-      "alt": "埃及自学者创办的B2B数字营销机构案例图片",
+      "caption": "埃及自学者创办的B2B数字营销机构：月入850万美元",
+      "alt": "埃及自学者创办的B2B数字营销机构：月入850万美元",
       "sourceUrl": "https://www.starterstory.com/stories/how-a-self-taught-programmer-built-a-digital-marketing-agency-in-egypt",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/615/original/open-uri20210907-3-1caojc9?1631035833",
-      "caption": "埃及自学者创办的B2B数字营销机构项目公开展示素材",
-      "alt": "how-a-self-taught-programmer-built-a-digital-marketing-agency-in-egypt",
+      "caption": "埃及自学者创办的B2B数字营销机构：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "埃及自学者创办的B2B数字营销机构：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-a-self-taught-programmer-built-a-digital-marketing-agency-in-egypt",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/616/original/open-uri20210907-3-1o9emq3?1631035833",
-      "caption": "埃及自学者创办的B2B数字营销机构项目公开展示素材",
-      "alt": "how-a-self-taught-programmer-built-a-digital-marketing-agency-in-egypt",
+      "caption": "埃及自学者创办的B2B数字营销机构：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "埃及自学者创办的B2B数字营销机构：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-a-self-taught-programmer-built-a-digital-marketing-agency-in-egypt",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "埃及自学者创办的B2B数字营销机构项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-a-self-taught-programmer-built-a-digital-marketing-agency-in-egypt",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/wsfthxo0bwxpga1da6eflodtgxay",
-      "caption": "埃及自学者创办的B2B数字营销机构项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-a-self-taught-programmer-built-a-digital-marketing-agency-in-egypt",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2194,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

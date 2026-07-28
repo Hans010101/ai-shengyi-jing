@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/8unr3idjstgr9wxrpoyo64tobwsd",
-      "caption": "电商代运营服务公开案例主图",
-      "alt": "电商代运营服务案例图片",
+      "caption": "电商代运营服务：帮品牌在亚马逊和沃尔玛卖货抽成",
+      "alt": "电商代运营服务：帮品牌在亚马逊和沃尔玛卖货抽成",
       "sourceUrl": "https://www.starterstory.com/stories/prolific-zone-b676ddb7-79e4-45e2-a7cd-45e9194d919f",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/542/original/open-uri20241003-60-fyc494?1727925078",
-      "caption": "电商代运营服务项目公开展示素材",
-      "alt": "prolific-zone-b676ddb7-79e4-45e2-a7cd-45e9194d919f",
+      "caption": "电商代运营服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "电商代运营服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/prolific-zone-b676ddb7-79e4-45e2-a7cd-45e9194d919f",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/543/original/open-uri20241003-60-1xfo1nx?1727925080",
-      "caption": "电商代运营服务项目公开展示素材",
-      "alt": "prolific-zone-b676ddb7-79e4-45e2-a7cd-45e9194d919f",
+      "caption": "电商代运营服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "电商代运营服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/prolific-zone-b676ddb7-79e4-45e2-a7cd-45e9194d919f",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "电商代运营服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/prolific-zone-b676ddb7-79e4-45e2-a7cd-45e9194d919f",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/s3thrrqbjem3qler43fak7dop7v2",
-      "caption": "电商代运营服务项目公开展示素材",
-      "alt": "电商代运营服务项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/prolific-zone-b676ddb7-79e4-45e2-a7cd-45e9194d919f",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2252,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

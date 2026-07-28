@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/8x2fuelal2vi8j92x4gv2bch5qjp",
-      "caption": "亲子共创桌游公开案例主图",
-      "alt": "亲子共创桌游案例图片",
+      "caption": "亲子共创桌游：通过Kickstarter众筹预售赚钱",
+      "alt": "亲子共创桌游：通过Kickstarter众筹预售赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/inventing-a-board-game-with-your-kids-and-raising-19-000-in-one-day",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/122/original/open-uri20181016-4-4wdgsj?1539648777",
-      "caption": "亲子共创桌游项目公开展示素材",
-      "alt": "kill-merlin",
+      "caption": "亲子共创桌游：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "亲子共创桌游：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/inventing-a-board-game-with-your-kids-and-raising-19-000-in-one-day",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/123/original/open-uri20181016-4-16l2ybd?1539648778",
-      "caption": "亲子共创桌游项目公开展示素材",
-      "alt": "kill-merlin",
+      "caption": "亲子共创桌游：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "亲子共创桌游：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/inventing-a-board-game-with-your-kids-and-raising-19-000-in-one-day",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/124/original/open-uri20181016-4-aa7rjf?1539648778",
-      "caption": "亲子共创桌游项目公开展示素材",
-      "alt": "kill-merlin",
+      "caption": "亲子共创桌游：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "亲子共创桌游：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/inventing-a-board-game-with-your-kids-and-raising-19-000-in-one-day",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/125/original/open-uri20181016-4-18xaygr?1539648778",
-      "caption": "亲子共创桌游项目公开展示素材",
-      "alt": "kill-merlin",
-      "sourceUrl": "https://www.starterstory.com/stories/inventing-a-board-game-with-your-kids-and-raising-19-000-in-one-day",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2192,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

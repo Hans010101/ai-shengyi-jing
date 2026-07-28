@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/a4sbfz0su92zupbtrzpmdcolvboj",
-      "caption": "为网页设计师提供AI代码生成服务公开案例主图",
-      "alt": "为网页设计师提供AI代码生成服务案例图片",
+      "caption": "为网页设计师提供AI代码生成服务：按项目或月费收费",
+      "alt": "为网页设计师提供AI代码生成服务：按项目或月费收费",
       "sourceUrl": "https://www.starterstory.com/stories/cottage-software",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/192/original/open-uri20220821-12-vp1a3b?1661097313",
-      "caption": "为网页设计师提供AI代码生成服务项目公开展示素材",
-      "alt": "cottage-software",
+      "caption": "为网页设计师提供AI代码生成服务：创业起点与创意来源相关原始配图",
+      "alt": "为网页设计师提供AI代码生成服务：创业起点与创意来源相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/cottage-software",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/193/original/open-uri20220821-12-7rc4vo?1661097313",
-      "caption": "为网页设计师提供AI代码生成服务项目公开展示素材",
-      "alt": "cottage-software",
+      "caption": "为网页设计师提供AI代码生成服务：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "为网页设计师提供AI代码生成服务：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/cottage-software",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/194/original/open-uri20220821-12-y34j2a?1661097313",
-      "caption": "为网页设计师提供AI代码生成服务项目公开展示素材",
-      "alt": "cottage-software",
+      "caption": "为网页设计师提供AI代码生成服务：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "为网页设计师提供AI代码生成服务：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/cottage-software",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/195/original/open-uri20220821-12-1k4bovh?1661097314",
-      "caption": "为网页设计师提供AI代码生成服务项目公开展示素材",
-      "alt": "cottage-software",
-      "sourceUrl": "https://www.starterstory.com/stories/cottage-software",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2175,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/967y9cwvkppyd3f7erhu83gfgjl5",
-      "caption": "上传照片由艺术家制作卡通头像公开案例主图",
-      "alt": "上传照片由艺术家制作卡通头像案例图片",
+      "caption": "上传照片由艺术家制作卡通头像：按件收费",
+      "alt": "上传照片由艺术家制作卡通头像：按件收费",
       "sourceUrl": "https://www.starterstory.com/stories/avatoon",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/346/original/open-uri20220331-3-1a8evsv?1648740914",
-      "caption": "上传照片由艺术家制作卡通头像项目公开展示素材",
-      "alt": "avatoon",
+      "caption": "上传照片由艺术家制作卡通头像：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "上传照片由艺术家制作卡通头像：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/avatoon",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "上传照片由艺术家制作卡通头像项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/avatoon",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/x0fswweh25a6rgcsp2c2ytil8usb",
-      "caption": "上传照片由艺术家制作卡通头像项目公开展示素材",
-      "alt": "上传照片由艺术家制作卡通头像项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/avatoon",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/jji5jq91uvt66s9f9mptug8s3xee",
-      "caption": "上传照片由艺术家制作卡通头像项目公开展示素材",
-      "alt": "上传照片由艺术家制作卡通头像项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/avatoon",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2201,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

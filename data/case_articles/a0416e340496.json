@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/5942je459l4irw0pv3tbg2pt8wm6",
-      "caption": "海外其他项目公开案例主图",
-      "alt": "海外其他项目案例图片",
+      "caption": "海外其他项目：通过建立多个网站组合，利用SEO获取流量并变现",
+      "alt": "海外其他项目：通过建立多个网站组合，利用SEO获取流量并变现",
       "sourceUrl": "https://www.starterstory.com/stories/onehourprofessor-com",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/796/original/open-uri20220918-24-rud0tk?1663501951",
-      "caption": "海外其他项目项目公开展示素材",
-      "alt": "onehourprofessor-com",
+      "caption": "海外其他项目：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "海外其他项目：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/onehourprofessor-com",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/797/original/open-uri20220918-24-1awyvot?1663501951",
-      "caption": "海外其他项目项目公开展示素材",
-      "alt": "onehourprofessor-com",
+      "caption": "海外其他项目：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "海外其他项目：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/onehourprofessor-com",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/798/original/open-uri20220918-24-1yx9ad5?1663501952",
-      "caption": "海外其他项目项目公开展示素材",
-      "alt": "onehourprofessor-com",
+      "caption": "海外其他项目：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "海外其他项目：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/onehourprofessor-com",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "海外其他项目项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/9myBZi1uWtc",
+      "watchUrl": "https://www.youtube.com/watch?v=9myBZi1uWtc",
+      "caption": "海外其他项目资料中提及的视频：Helping Felons Pays Off. JobsForFelons Sold for $500K | #MakingMillionaires",
+      "alt": "Helping Felons Pays Off. JobsForFelons Sold for $500K | #MakingMillionaires",
       "sourceUrl": "https://www.starterstory.com/stories/onehourprofessor-com",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/9myBZi1uWtc/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

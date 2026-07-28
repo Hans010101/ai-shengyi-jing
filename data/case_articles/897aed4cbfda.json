@@ -104,7 +104,8 @@
       "caption": "Room2Work Roswell空间入口与公共区域",
       "alt": "Room2Work Roswell大厅",
       "sourceUrl": "https://www.room2work.com/",
-      "origin": "official-site"
+      "origin": "official-site",
+      "context": "official-site"
     },
     {
       "type": "image",
@@ -112,7 +113,8 @@
       "caption": "官网展示的会员运营与货物处理场景",
       "alt": "Room2Work会员运营场景",
       "sourceUrl": "https://www.room2work.com/",
-      "origin": "official-site"
+      "origin": "official-site",
+      "context": "official-site"
     },
     {
       "type": "image",
@@ -120,7 +122,8 @@
       "caption": "会议室预约是基础会员之外的重要按需服务",
       "alt": "Room2Work会议室预约",
       "sourceUrl": "https://www.room2work.com/",
-      "origin": "official-site"
+      "origin": "official-site",
+      "context": "official-site"
     },
     {
       "type": "image",
@@ -128,7 +131,8 @@
       "caption": "Room2Work创始人Alan Crowe",
       "alt": "Room2Work创始人Alan Crowe",
       "sourceUrl": "https://www.room2work.com/",
-      "origin": "official-site"
+      "origin": "official-site",
+      "context": "official-site"
     }
   ],
   "source": {
@@ -149,5 +153,8 @@
     "businessModel": "按月收取会员费，提供办公桌、会议室、网络等基础设施，同时通过活动、咖啡吧等增值服务增加收入。",
     "chinaOpportunity": "中国灵活办公需求增长，可针对特定行业（如设计、科技）打造主题空间，或与社区、咖啡店合作轻资产模式。",
     "website": "https://room2work.com"
+  },
+  "quality": {
+    "mediaCount": 4
   }
 }

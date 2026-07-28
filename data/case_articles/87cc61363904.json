@@ -122,65 +122,43 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/mp2dvyw2ckuxtzevui1yvqz6se1v",
-      "caption": "用5千美元启动公开案例主图",
-      "alt": "用5千美元启动案例图片",
+      "caption": "用5千美元启动：通过社媒营销和定制化产品打造年营收720万美元的服装品牌",
+      "alt": "用5千美元启动：通过社媒营销和定制化产品打造年营收720万美元的服装品牌",
       "sourceUrl": "https://www.starterstory.com/stories/on-cloud-faith",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/502/original/open-uri20220711-24-105orkv?1657543877",
-      "caption": "用5千美元启动项目公开展示素材",
-      "alt": "on-cloud-faith",
+      "caption": "用5千美元启动：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "用5千美元启动：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/on-cloud-faith",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/503/original/open-uri20220711-24-1cy3nz7?1657543879",
-      "caption": "用5千美元启动项目公开展示素材",
-      "alt": "on-cloud-faith",
+      "caption": "用5千美元启动：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "用5千美元启动：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/on-cloud-faith",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "用5千美元启动项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/on-cloud-faith",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c303bjznv93yxnh0xxz7t4vfedzf",
-      "caption": "用5千美元启动项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/on-cloud-faith",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "用5千美元启动项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/on-cloud-faith",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/75rC2aeFJt0&t=3s",
-      "caption": "用5千美元启动项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=75rC2aeFJt0&t=3s",
+      "caption": "用5千美元启动资料中提及的视频：Journey From Screen Printing To DTF Printing! - Client Interview With Jonathan | AA Print Supply",
+      "alt": "Journey From Screen Printing To DTF Printing! - Client Interview With Jonathan | AA Print Supply",
       "sourceUrl": "https://www.starterstory.com/stories/on-cloud-faith",
       "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/75rC2aeFJt0/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -196,6 +174,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2238,
-    "mediaCount": 7
+    "mediaCount": 4
   }
 }

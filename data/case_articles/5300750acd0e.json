@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/2knvg2x13xfg3y460apvpqv3hpkm",
-      "caption": "电商物流SaaS公开案例主图",
-      "alt": "电商物流SaaS案例图片",
+      "caption": "电商物流SaaS：通过优化配送流程提升效率并收费",
+      "alt": "电商物流SaaS：通过优化配送流程提升效率并收费",
       "sourceUrl": "https://www.starterstory.com/stories/shipdaddy-update-how-google-incubator-grew-lead-submissions-1000-in-8-weeks",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/011/205/original/open-uri20210407-3-15xabwt?1617822947",
-      "caption": "电商物流SaaS项目公开展示素材",
-      "alt": "how-google-incubator-program-helped-our-business-grow",
+      "caption": "电商物流SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "电商物流SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/shipdaddy-update-how-google-incubator-grew-lead-submissions-1000-in-8-weeks",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/011/206/original/open-uri20210407-3-1xl1khc?1617822948",
-      "caption": "电商物流SaaS项目公开展示素材",
-      "alt": "how-google-incubator-program-helped-our-business-grow",
+      "caption": "电商物流SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "电商物流SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/shipdaddy-update-how-google-incubator-grew-lead-submissions-1000-in-8-weeks",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/011/207/original/open-uri20210407-3-7snyiu?1617822948",
-      "caption": "电商物流SaaS项目公开展示素材",
-      "alt": "how-google-incubator-program-helped-our-business-grow",
+      "caption": "电商物流SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "电商物流SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/shipdaddy-update-how-google-incubator-grew-lead-submissions-1000-in-8-weeks",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/011/208/original/open-uri20210407-3-y29ps2?1617822948",
-      "caption": "电商物流SaaS项目公开展示素材",
-      "alt": "how-google-incubator-program-helped-our-business-grow",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/USdVUSIz4xw",
+      "watchUrl": "https://www.youtube.com/watch?v=USdVUSIz4xw",
+      "caption": "电商物流SaaS：创始人、核心产品与品牌起点相关视频",
+      "alt": "电商物流SaaS相关视频",
       "sourceUrl": "https://www.starterstory.com/stories/shipdaddy-update-how-google-incubator-grew-lead-submissions-1000-in-8-weeks",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/USdVUSIz4xw/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

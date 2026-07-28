@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/pxz27n92hmx2nmosv3vmvw37ubnb",
-      "caption": "夫妻档恐龙科普播客公开案例主图",
-      "alt": "夫妻档恐龙科普播客案例图片",
+      "caption": "夫妻档恐龙科普播客：通过广告和赞助盈利",
+      "alt": "夫妻档恐龙科普播客：通过广告和赞助盈利",
       "sourceUrl": "https://www.starterstory.com/stories/i-know-dino",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/823/original/open-uri20221030-24-akeual?1667139648",
-      "caption": "夫妻档恐龙科普播客项目公开展示素材",
-      "alt": "i-know-dino",
+      "caption": "夫妻档恐龙科普播客：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "夫妻档恐龙科普播客：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-know-dino",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/824/original/open-uri20221030-24-xlk64e?1667139650",
-      "caption": "夫妻档恐龙科普播客项目公开展示素材",
-      "alt": "i-know-dino",
+      "caption": "夫妻档恐龙科普播客：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "夫妻档恐龙科普播客：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-know-dino",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/825/original/open-uri20221030-24-31wgu6?1667139651",
-      "caption": "夫妻档恐龙科普播客项目公开展示素材",
-      "alt": "i-know-dino",
+      "caption": "夫妻档恐龙科普播客：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "夫妻档恐龙科普播客：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-know-dino",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/826/original/open-uri20221030-24-9rvd3u?1667139652",
-      "caption": "夫妻档恐龙科普播客项目公开展示素材",
-      "alt": "i-know-dino",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/Qfljq7cKksU",
+      "watchUrl": "https://www.youtube.com/watch?v=Qfljq7cKksU",
+      "caption": "夫妻档恐龙科普播客资料中提及的视频：[SPOILERS] All the Dinosaurs in Jurassic World: Fallen Kingdom (and what they do)",
+      "alt": "[SPOILERS] All the Dinosaurs in Jurassic World: Fallen Kingdom (and what they do)",
       "sourceUrl": "https://www.starterstory.com/stories/i-know-dino",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/Qfljq7cKksU/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

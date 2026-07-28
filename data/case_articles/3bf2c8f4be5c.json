@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/5butpupkc17w5oybaebin1um2pwz",
-      "caption": "付费语音交易分析室公开案例主图",
-      "alt": "付费语音交易分析室案例图片",
+      "caption": "付费语音交易分析室：通过会员订阅赚钱",
+      "alt": "付费语音交易分析室：通过会员订阅赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/how-my-financial-education-website-survived-the-pandemic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/012/original/open-uri20220319-3-pdhs24?1647706885",
-      "caption": "付费语音交易分析室项目公开展示素材",
-      "alt": "how-my-financial-education-website-survived-the-pandemic",
+      "caption": "付费语音交易分析室：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "付费语音交易分析室：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-my-financial-education-website-survived-the-pandemic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "付费语音交易分析室项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-my-financial-education-website-survived-the-pandemic",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c303bjznv93yxnh0xxz7t4vfedzf",
-      "caption": "付费语音交易分析室项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-my-financial-education-website-survived-the-pandemic",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/df1fgdrgwrml6ma0yysawtl4ym6l",
-      "caption": "付费语音交易分析室项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-my-financial-education-website-survived-the-pandemic",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2200,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

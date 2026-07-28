@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/d8q0o0vs1scm7qs3qrl7kxrfyvlh",
-      "caption": "餐馆招聘匹配平台公开案例主图",
-      "alt": "餐馆招聘匹配平台案例图片",
+      "caption": "餐馆招聘匹配平台：按月订阅费赚钱",
+      "alt": "餐馆招聘匹配平台：按月订阅费赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/restworld",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/055/original/open-uri20230716-60-m2x4r7?1689480580",
-      "caption": "餐馆招聘匹配平台项目公开展示素材",
-      "alt": "restworld",
+      "caption": "餐馆招聘匹配平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "餐馆招聘匹配平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/restworld",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "餐馆招聘匹配平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/restworld",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/0gmsnr5l6mmwzauqxp3onbt3vsak",
-      "caption": "餐馆招聘匹配平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/restworld",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/5q3k99f5s1xaq0hp1tgt3p1mpfp3",
-      "caption": "餐馆招聘匹配平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/restworld",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2168,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

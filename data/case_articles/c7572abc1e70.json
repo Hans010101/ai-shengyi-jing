@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/c8fmrdtqsfe2svm570wx0tt2czjv",
-      "caption": "独立开发者社区公开案例主图",
-      "alt": "独立开发者社区案例图片",
+      "caption": "独立开发者社区：通过会员订阅和广告赚钱",
+      "alt": "独立开发者社区：通过会员订阅和广告赚钱",
       "sourceUrl": "https://www.starterstory.com/businesses/indie-hackers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "独立开发者社区项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/indie-hackers",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/vafd3i84o3tbfsz55smn7vc5tj7z",
-      "caption": "独立开发者社区项目公开展示素材",
-      "alt": "Indie Hackers logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/indie-hackers",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/or09f2lfiia7lnht2q5ydyd20833/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "独立开发者社区项目公开展示素材",
-      "alt": "独立开发者社区项目展示图",
-      "sourceUrl": "https://www.starterstory.com/businesses/indie-hackers",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/5ffa7ulojbak7xbahobwtnc6elf2/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "独立开发者社区项目公开展示素材",
-      "alt": "独立开发者社区项目展示图",
-      "sourceUrl": "https://www.starterstory.com/businesses/indie-hackers",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2276,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

@@ -121,57 +121,43 @@
   "media": [
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "在线预约SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/calday",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/9f7367305eafb7f4",
-      "caption": "在线预约SaaS项目公开展示素材",
+      "caption": "在线预约SaaS：创始人、核心产品与品牌起点相关原始配图",
       "alt": "My image",
       "sourceUrl": "https://www.starterstory.com/stories/calday",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/0hi4g5c4ueufvti3vt66y47z23ef",
-      "caption": "在线预约SaaS项目公开展示素材",
-      "alt": "article",
+      "caption": "在线预约SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "在线预约SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/calday",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/193d13bd6fddb6fe",
-      "caption": "在线预约SaaS项目公开展示素材",
+      "caption": "在线预约SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "alt": "First version of Homepage",
       "sourceUrl": "https://www.starterstory.com/stories/calday",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/eb704e02eb5443b6",
-      "caption": "在线预约SaaS项目公开展示素材",
+      "caption": "在线预约SaaS：创始人、核心产品与品牌起点相关原始配图（第4张）",
       "alt": "User Dashboard (current version)",
       "sourceUrl": "https://www.starterstory.com/stories/calday",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/51ee7d9070df98b8",
-      "caption": "在线预约SaaS项目公开展示素材",
-      "alt": "PPC Campaign (April 2023)",
-      "sourceUrl": "https://www.starterstory.com/stories/calday",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2190,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

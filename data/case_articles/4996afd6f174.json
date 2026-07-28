@@ -122,47 +122,44 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/mgwdnwpko0xim0a9a7zncf7au39x",
-      "caption": "D2C眼镜品牌公开案例主图",
-      "alt": "D2C眼镜品牌案例图片",
+      "caption": "D2C眼镜品牌：自产自销，去中间商赚差价",
+      "alt": "D2C眼镜品牌：自产自销，去中间商赚差价",
       "sourceUrl": "https://www.starterstory.com/stories/cambridge-spectacle",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/395/original/open-uri20230507-63-1kn3nad?1683491972",
-      "caption": "D2C眼镜品牌项目公开展示素材",
-      "alt": "cambridge-spectacle",
+      "caption": "D2C眼镜品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "D2C眼镜品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/cambridge-spectacle",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/396/original/open-uri20230507-63-1w7tvlq?1683491972",
-      "caption": "D2C眼镜品牌项目公开展示素材",
-      "alt": "cambridge-spectacle",
+      "caption": "D2C眼镜品牌：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "D2C眼镜品牌：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/cambridge-spectacle",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "D2C眼镜品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/PF9zojZwntY",
+      "watchUrl": "https://www.youtube.com/watch?v=PF9zojZwntY",
+      "caption": "D2C眼镜品牌资料中提及的视频：Vision is more than your glasses",
+      "alt": "Vision is more than your glasses",
       "sourceUrl": "https://www.starterstory.com/stories/cambridge-spectacle",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c303bjznv93yxnh0xxz7t4vfedzf",
-      "caption": "D2C眼镜品牌项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/cambridge-spectacle",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/PF9zojZwntY/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +174,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2155,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

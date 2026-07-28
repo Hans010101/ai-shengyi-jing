@@ -122,65 +122,53 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ut3gkukz2odawj9pzg70o4y4bzn2",
-      "caption": "为小企业提供网站托管与维护订阅服务公开案例主图",
-      "alt": "为小企业提供网站托管与维护订阅服务案例图片",
+      "caption": "为小企业提供网站托管与维护订阅服务：赚取月费",
+      "alt": "为小企业提供网站托管与维护订阅服务：赚取月费",
       "sourceUrl": "https://www.starterstory.com/stories/daretocloud",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/169/original/open-uri20231111-48-1igf8sv?1699711357",
-      "caption": "为小企业提供网站托管与维护订阅服务项目公开展示素材",
-      "alt": "daretocloud",
+      "caption": "为小企业提供网站托管与维护订阅服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为小企业提供网站托管与维护订阅服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/daretocloud",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/170/original/open-uri20231111-48-1bpmutj?1699711358",
-      "caption": "为小企业提供网站托管与维护订阅服务项目公开展示素材",
-      "alt": "daretocloud",
+      "caption": "为小企业提供网站托管与维护订阅服务：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "为小企业提供网站托管与维护订阅服务：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/daretocloud",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/171/original/open-uri20231111-48-i27i7r?1699711359",
-      "caption": "为小企业提供网站托管与维护订阅服务项目公开展示素材",
-      "alt": "daretocloud",
+      "caption": "为小企业提供网站托管与维护订阅服务：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "为小企业提供网站托管与维护订阅服务：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/daretocloud",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/172/original/open-uri20231111-48-7dsopq?1699711360",
-      "caption": "为小企业提供网站托管与维护订阅服务项目公开展示素材",
-      "alt": "daretocloud",
-      "sourceUrl": "https://www.starterstory.com/stories/daretocloud",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为小企业提供网站托管与维护订阅服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/daretocloud",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/JcVOoX01KS0",
-      "caption": "为小企业提供网站托管与维护订阅服务项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=JcVOoX01KS0",
+      "caption": "为小企业提供网站托管与维护订阅服务资料中提及的视频：DareToCloud - Web hosting",
+      "alt": "DareToCloud - Web hosting",
       "sourceUrl": "https://www.starterstory.com/stories/daretocloud",
       "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/JcVOoX01KS0/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -196,6 +184,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2185,
-    "mediaCount": 7
+    "mediaCount": 5
   }
 }

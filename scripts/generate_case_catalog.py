@@ -12,11 +12,13 @@ from __future__ import annotations
 import argparse
 import concurrent.futures
 import datetime
+import functools
 import hashlib
 import json
 import re
 import threading
 import time
+from collections import Counter
 from pathlib import Path
 from urllib.parse import parse_qs, urljoin, urlparse
 
@@ -31,8 +33,21 @@ ARTICLES_DIR = ROOT / "data" / "case_articles"
 REPORT_FILE = ROOT / "pipeline" / "data" / "case_catalog_report.json"
 SOURCE_HOST = "www.starterstory.com"
 MAX_MEDIA = 5
-MAX_SOURCE_IMAGES = 5
+MAX_SOURCE_IMAGES = 4
 REQUEST_TIMEOUT = 25
+GENERIC_CAPTION_MARKERS = (
+    "项目公开展示素材",
+    "公开案例主图",
+    "项目相关公开视频",
+)
+BAD_IMAGE_TEXT = re.compile(
+    r"hubspot|tool[- ]?icon|youtube[- ]?(?:icon|logo)|"
+    r"(?:icon|logo)[- ]?youtube|avatar|5 stars|starter-avatar",
+    re.I,
+)
+BAD_IMAGE_URLS = {
+    "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
+}
 
 HEADERS = {
     "User-Agent": (
@@ -107,7 +122,13 @@ def paced_source_get(url: str) -> requests.Response:
     return last_response
 
 
-def source_image(project: dict, url: str, caption: str, alt: str) -> dict:
+def source_image(
+    project: dict,
+    url: str,
+    caption: str,
+    alt: str,
+    context: str = "project-hero",
+) -> dict:
     return {
         "type": "image",
         "url": url,
@@ -116,7 +137,84 @@ def source_image(project: dict, url: str, caption: str, alt: str) -> dict:
         "sourceUrl": project.get("url", ""),
         "origin": "source-attributed",
         "usage": "non-commercial-attributed",
+        "context": context,
     }
+
+
+def project_media_caption(project: dict) -> str:
+    name = clean_text(project.get("nameZh") or project.get("name"), 80)
+    summary = clean_text(project.get("summary"), 140).rstrip("。")
+    for prefix in (f"{name}，", f"{name}：", name):
+        if summary.startswith(prefix):
+            summary = summary[len(prefix):].lstrip("，： ")
+            break
+    if summary:
+        return f"{name}：{summary}"
+    return f"{name}的核心产品与品牌主视觉"
+
+
+def valid_project_image(url: str) -> bool:
+    parsed = urlparse(clean_text(url, 2_000))
+    return (
+        parsed.scheme in {"http", "https"}
+        and parsed.hostname not in {None, "api.placid.app"}
+        and clean_text(url, 2_000) not in BAD_IMAGE_URLS
+    )
+
+
+def meaningful_alt(value: str) -> str:
+    alt = clean_text(value, 140)
+    if (
+        not alt
+        or BAD_IMAGE_TEXT.search(alt)
+        or re.fullmatch(r"[\w-]+", alt)
+        or alt.lower() in {"image", "photo", "screenshot"}
+    ):
+        return ""
+    return alt
+
+
+def section_context(element) -> str:
+    heading = element.find_previous(["h2", "h3"])
+    text = clean_text(heading.get_text(" ", strip=True) if heading else "", 180)
+    rules = (
+        (r"backstory|come up with|idea", "创业起点与创意来源"),
+        (r"design|prototyp|manufactur|first product", "产品设计与早期打磨"),
+        (r"launch", "产品上线与首次发布"),
+        (r"attract|retain|customer|growth", "获客渠道与客户留存"),
+        (r"today|future", "当前经营状态与下一步规划"),
+        (r"learned|helpful|advantage", "创业复盘与关键经验"),
+        (r"platform|tools", "业务工具与运营系统"),
+        (r"books|podcasts|resources", "学习方法与行业资源"),
+        (r"advice", "给创业者的实践建议"),
+        (r"hire|team", "团队建设与人才需求"),
+    )
+    for pattern, label in rules:
+        if re.search(pattern, text, re.I):
+            return label
+    return "创始人、核心产品与品牌起点"
+
+
+def source_image_caption(project: dict, element, ordinal: int) -> str:
+    name = clean_text(project.get("nameZh") or project.get("name"), 80)
+    context = section_context(element)
+    alt = meaningful_alt(element.get("alt"))
+    if alt and re.search(r"[\u4e00-\u9fff]", alt):
+        return f"{name}：{alt}"
+    suffix = f"（第{ordinal}张）" if ordinal > 1 else ""
+    return f"{name}：{context}相关原始配图{suffix}"
+
+
+def youtube_video_id(url: str) -> str:
+    parsed = urlparse(url)
+    host = (parsed.hostname or "").lower()
+    if host in {"youtube.com", "www.youtube.com", "m.youtube.com"}:
+        if parsed.path.startswith("/embed/"):
+            return parsed.path.split("/")[2]
+        return parse_qs(parsed.query).get("v", [""])[0]
+    if host == "youtu.be":
+        return parsed.path.strip("/").split("/")[0]
+    return ""
 
 
 def normalized_embed(url: str) -> str:
@@ -141,15 +239,91 @@ def normalized_embed(url: str) -> str:
     return ""
 
 
+def video_watch_url(embed: str) -> str:
+    video_id = youtube_video_id(embed)
+    if video_id:
+        return f"https://www.youtube.com/watch?v={video_id}"
+    parsed = urlparse(embed)
+    if (parsed.hostname or "").lower() == "player.vimeo.com":
+        match = re.search(r"/video/(\d+)", parsed.path)
+        if match:
+            return f"https://vimeo.com/{match.group(1)}"
+    return ""
+
+
+@functools.lru_cache(maxsize=256)
+def public_video_metadata(embed: str) -> dict:
+    watch_url = video_watch_url(embed)
+    video_id = youtube_video_id(embed)
+    metadata = {
+        "watchUrl": watch_url,
+        "poster": (
+            f"https://i.ytimg.com/vi/{video_id}/hqdefault.jpg"
+            if video_id
+            else ""
+        ),
+        "title": "",
+        "provider": "YouTube" if video_id else "Vimeo",
+    }
+    if not watch_url:
+        return metadata
+    endpoint = (
+        "https://www.youtube.com/oembed"
+        if video_id
+        else "https://vimeo.com/api/oembed.json"
+    )
+    try:
+        response = session().get(
+            endpoint,
+            params={"url": watch_url, "format": "json"},
+            timeout=12,
+        )
+        response.raise_for_status()
+        payload = response.json()
+        metadata["title"] = clean_text(payload.get("title"), 180)
+        metadata["poster"] = clean_text(
+            payload.get("thumbnail_url") or metadata["poster"],
+            2_000,
+        )
+    except (requests.RequestException, ValueError):
+        pass
+    return metadata
+
+
+def video_item(project: dict, element, embed: str) -> dict:
+    name = clean_text(project.get("nameZh") or project.get("name"), 80)
+    metadata = public_video_metadata(embed)
+    link_text = clean_text(element.get_text(" ", strip=True), 120)
+    title = metadata["title"] or link_text
+    caption = (
+        f"{name}资料中提及的视频：{title}"
+        if title
+        else f"{name}：{section_context(element)}相关视频"
+    )
+    return {
+        "type": "video",
+        "url": embed,
+        "watchUrl": metadata["watchUrl"],
+        "caption": caption,
+        "alt": title or f"{name}相关视频",
+        "sourceUrl": project.get("url", ""),
+        "origin": "embeddable-video",
+        "poster": metadata["poster"],
+        "provider": metadata["provider"],
+        "usage": "",
+    }
+
+
 def candidate_image_url(element, page_url: str) -> str:
+    srcset = element.get("srcset") or element.get("data-srcset") or ""
+    if srcset:
+        candidate = srcset.split(",")[-1].strip().split(" ")[0]
+        if candidate and not candidate.startswith("data:"):
+            return urljoin(page_url, candidate)
     for attribute in ("src", "data-src", "data-lazy-src"):
         value = element.get(attribute)
         if value and not value.startswith("data:"):
             return urljoin(page_url, value)
-    srcset = element.get("srcset") or element.get("data-srcset") or ""
-    if srcset:
-        candidate = srcset.split(",")[-1].strip().split(" ")[0]
-        return urljoin(page_url, candidate)
     return ""
 
 
@@ -159,16 +333,17 @@ def discover_source_media(project: dict) -> tuple[list[dict], str]:
     seen: set[str] = set()
     name = clean_text(project.get("nameZh") or project.get("name"), 80)
     project_image = clean_text(project.get("image"), 2_000)
-    if project_image:
+    if project_image and valid_project_image(project_image):
+        caption = project_media_caption(project)
         media.append(
             source_image(
                 project,
                 project_image,
-                f"{name}公开案例主图",
-                f"{name}案例图片",
+                caption,
+                caption,
             )
         )
-        seen.add(project_image)
+        seen.add(canonical_media_url(project_image))
 
     source_url = clean_text(project.get("url"), 2_000)
     if urlparse(source_url).hostname != SOURCE_HOST:
@@ -183,42 +358,72 @@ def discover_source_media(project: dict) -> tuple[list[dict], str]:
         return media[:MAX_MEDIA], type(error).__name__
 
     soup = BeautifulSoup(response.text, "html.parser")
+    content_root = (
+        soup.select_one("article .content-for-toc")
+        or soup.select_one("article .content")
+        or soup.find("article")
+    )
+    if content_root is None:
+        return media[:MAX_MEDIA], "content-root-missing"
+
     image_candidates = []
-    for image in soup.select("article img, main img, img"):
+    for image in content_root.select(
+        ".content-image-wrapper img, figure img, "
+        "img[src*='/story_images/'], img[data-src*='/story_images/']"
+    ):
         image_url = candidate_image_url(image, response.url)
         parsed = urlparse(image_url)
         host = (parsed.hostname or "").lower()
         path = parsed.path.lower()
+        identity = canonical_media_url(image_url)
+        image_text = " ".join(
+            (
+                clean_text(image.get("alt"), 160),
+                clean_text(" ".join(image.get("class", [])), 160),
+                image_url,
+            )
+        )
         if (
             not image_url
-            or image_url in seen
+            or identity in seen
             or parsed.scheme not in {"http", "https"}
             or host != "d1coqmn8qm80r4.cloudfront.net"
+            or BAD_IMAGE_TEXT.search(image_text)
+            or image_url in BAD_IMAGE_URLS
+        ):
+            continue
+        if (
+            "/story_images/" not in path
+            and image.find_parent("figure") is None
+            and image.find_parent(class_="content-image-wrapper") is None
         ):
             continue
         priority = 0 if "/story_images/" in path else 1
-        if any(word in path for word in ("logo", "avatar", "icon", "badge")):
-            priority += 3
-        alt = clean_text(image.get("alt"), 140)
-        image_candidates.append((priority, image_url, alt))
+        image_candidates.append((priority, image_url, image))
 
-    for _, image_url, alt in sorted(image_candidates, key=lambda item: item[0]):
-        if image_url in seen:
+    for ordinal, (_, image_url, image) in enumerate(
+        sorted(image_candidates, key=lambda item: item[0]),
+        start=1,
+    ):
+        identity = canonical_media_url(image_url)
+        if identity in seen:
             continue
-        seen.add(image_url)
+        seen.add(identity)
+        caption = source_image_caption(project, image, ordinal)
         media.append(
             source_image(
                 project,
                 image_url,
-                f"{name}项目公开展示素材",
-                alt or f"{name}项目展示图",
+                caption,
+                meaningful_alt(image.get("alt")) or caption,
+                "source-article-body",
             )
         )
         if len([item for item in media if item["type"] == "image"]) >= MAX_SOURCE_IMAGES:
             break
 
     video_candidates = []
-    for element in soup.select("iframe[src], iframe[data-src], a[href]"):
+    for element in content_root.select("iframe[src], iframe[data-src], a[href]"):
         value = (
             element.get("src")
             or element.get("data-src")
@@ -227,33 +432,13 @@ def discover_source_media(project: dict) -> tuple[list[dict], str]:
         )
         embed = normalized_embed(urljoin(response.url, value))
         if embed:
-            video_candidates.append(embed)
-    for match in re.findall(
-        r"https?:\\?/\\?/(?:www\\.)?(?:youtube\\.com|youtu\\.be|vimeo\\.com)"
-        r"[^\"'<>\\s]+",
-        response.text,
-        flags=re.I,
-    ):
-        embed = normalized_embed(match.replace("\\/", "/"))
-        if embed:
-            video_candidates.append(embed)
+            video_candidates.append((embed, element))
 
-    for embed in video_candidates:
-        if embed in seen:
+    for embed, element in video_candidates:
+        if embed in seen or not video_watch_url(embed):
             continue
         seen.add(embed)
-        media.append(
-            {
-                "type": "video",
-                "url": embed,
-                "caption": f"{name}项目相关公开视频",
-                "alt": "",
-                "sourceUrl": source_url,
-                "origin": "embeddable-video",
-                "poster": "",
-                "usage": "",
-            }
-        )
+        media.append(video_item(project, element, embed))
         if len(media) >= MAX_MEDIA:
             break
     return media[:MAX_MEDIA], "ok"
@@ -267,7 +452,11 @@ def canonical_media_url(url: str) -> str:
     return clean_text(url, 2_000)
 
 
-def merge_media(existing: list[dict], discovered: list[dict]) -> list[dict]:
+def merge_media(
+    existing: list[dict],
+    discovered: list[dict],
+    limit: int = MAX_MEDIA,
+) -> list[dict]:
     merged = []
     seen = set()
     for item in [*existing, *discovered]:
@@ -276,9 +465,101 @@ def merge_media(existing: list[dict], discovered: list[dict]) -> list[dict]:
             continue
         seen.add(key)
         merged.append(item)
-        if len(merged) >= MAX_MEDIA:
+        if len(merged) >= limit:
             break
     return merged
+
+
+def clean_existing_media(project: dict, items: list[dict]) -> list[dict]:
+    """Remove known page chrome and enrich retained videos with real metadata."""
+    cleaned: list[dict] = []
+    project_image = canonical_media_url(project.get("image", ""))
+    name = clean_text(project.get("nameZh") or project.get("name"), 80)
+    source_ordinal = 0
+    for item in items:
+        media_type = item.get("type")
+        media_url = clean_text(item.get("url"), 2_000)
+        if media_type == "image":
+            text = " ".join(
+                (
+                    media_url,
+                    clean_text(item.get("alt"), 180),
+                    clean_text(item.get("caption"), 180),
+                )
+            )
+            parsed = urlparse(media_url)
+            is_project_image = (
+                canonical_media_url(media_url) == project_image
+                and valid_project_image(media_url)
+            )
+            is_story_image = "/story_images/" in parsed.path.lower()
+            is_official = item.get("origin") == "official-site"
+            if (
+                BAD_IMAGE_TEXT.search(text)
+                or media_url in BAD_IMAGE_URLS
+                or (not is_project_image and not is_story_image and not is_official)
+            ):
+                continue
+            retained = dict(item)
+            retained["context"] = (
+                "official-site"
+                if is_official
+                else (
+                    "project-hero"
+                    if is_project_image
+                    else "source-article-body"
+                )
+            )
+            caption = clean_text(retained.get("caption"), 180)
+            if any(marker in caption for marker in GENERIC_CAPTION_MARKERS):
+                if is_project_image:
+                    caption = project_media_caption(project)
+                else:
+                    source_ordinal += 1
+                    caption = (
+                        f"{name}：原始案例中的产品与运营配图"
+                        f"（第{source_ordinal}张）"
+                    )
+                retained["caption"] = caption
+                retained["alt"] = caption
+            cleaned.append(retained)
+        elif media_type == "video":
+            embed = normalized_embed(media_url)
+            if not embed or not video_watch_url(embed):
+                continue
+            metadata = public_video_metadata(embed)
+            if not metadata["poster"]:
+                continue
+            retained = dict(item)
+            retained["url"] = embed
+            retained["watchUrl"] = metadata["watchUrl"]
+            retained["poster"] = metadata["poster"]
+            retained["provider"] = metadata["provider"]
+            if (
+                not clean_text(retained.get("caption"), 180)
+                or any(
+                    marker in clean_text(retained.get("caption"), 180)
+                    for marker in GENERIC_CAPTION_MARKERS
+                )
+            ):
+                title = metadata["title"]
+                retained["caption"] = (
+                    f"{name}资料中提及的视频：{title}"
+                    if title
+                    else f"{name}相关完整视频"
+                )
+            retained["alt"] = (
+                metadata["title"]
+                or clean_text(retained.get("alt"), 180)
+                or retained["caption"]
+            )
+            cleaned.append(retained)
+        elif (
+            media_type == "video-file"
+            and item.get("origin") == "official-site-video"
+        ):
+            cleaned.append(dict(item))
+    return merge_media(cleaned, [], limit=8)
 
 
 def variant(project_id: str, choices: tuple[str, ...]) -> str:
@@ -642,6 +923,22 @@ def main() -> None:
         help="Generate only project IDs that do not yet have an article file",
     )
     parser.add_argument(
+        "--refresh-all-media",
+        action="store_true",
+        help=(
+            "Replace polluted media on existing articles using only source "
+            "story content; article prose is preserved"
+        ),
+    )
+    parser.add_argument(
+        "--normalize-local-media",
+        action="store_true",
+        help=(
+            "Add explicit source context to refreshed images and remove "
+            "videos whose public poster is unavailable"
+        ),
+    )
+    parser.add_argument(
         "--retry-delay",
         type=float,
         default=0.5,
@@ -674,6 +971,170 @@ def main() -> None:
         path.stem: load_json(path, {})
         for path in ARTICLES_DIR.glob("*.json")
     }
+
+    if args.normalize_local_media:
+        projects_by_id = {str(project["id"]): project for project in projects}
+        removed_videos = 0
+        updated = 0
+        for project_id, article in existing.items():
+            project = projects_by_id.get(project_id)
+            if not project:
+                continue
+            project_image = canonical_media_url(project.get("image", ""))
+            normalized = []
+            for item in article.get("media", []):
+                retained = dict(item)
+                if retained.get("type") == "image":
+                    if retained.get("origin") == "source-attributed":
+                        retained["context"] = (
+                            "project-hero"
+                            if canonical_media_url(retained.get("url", ""))
+                            == project_image
+                            else "source-article-body"
+                        )
+                    elif retained.get("origin") == "official-site":
+                        retained["context"] = "official-site"
+                if (
+                    retained.get("type") == "video"
+                    and not retained.get("poster")
+                ):
+                    removed_videos += 1
+                    continue
+                normalized.append(retained)
+            if normalized != article.get("media", []):
+                article["media"] = normalized
+                article.setdefault("quality", {})["mediaCount"] = len(normalized)
+                save_json(ARTICLES_DIR / f"{project_id}.json", article)
+                updated += 1
+
+        updated_reviewed = [
+            existing[project_id]
+            for project_id in reviewed
+            if project_id in existing
+        ]
+        if updated_reviewed:
+            order = {
+                str(item.get("projectId")): index
+                for index, item in enumerate(legacy)
+            }
+            updated_reviewed.sort(
+                key=lambda item: order.get(
+                    str(item.get("projectId")),
+                    len(order),
+                )
+            )
+            save_json(LEGACY_ARTICLES_FILE, updated_reviewed)
+        print(
+            json.dumps(
+                {
+                    "updatedArticles": updated,
+                    "removedVideosWithoutPoster": removed_videos,
+                },
+                ensure_ascii=False,
+                indent=2,
+            )
+        )
+        return
+
+    if args.refresh_all_media:
+        projects_by_id = {str(project["id"]): project for project in projects}
+        reviewed_ids = set(reviewed)
+        target_ids = [
+            project_id
+            for project_id in existing
+            if project_id in projects_by_id and project_id not in reviewed_ids
+        ]
+
+        def refresh(project_id: str):
+            project = projects_by_id[project_id]
+            discovered, media_status = discover_source_media(project)
+            return project_id, discovered, media_status
+
+        refreshed_results: dict[str, tuple[list[dict], str]] = {}
+        with concurrent.futures.ThreadPoolExecutor(
+            max_workers=max(1, args.workers)
+        ) as executor:
+            futures = [executor.submit(refresh, item) for item in target_ids]
+            for index, future in enumerate(
+                concurrent.futures.as_completed(futures),
+                start=1,
+            ):
+                project_id, discovered, media_status = future.result()
+                refreshed_results[project_id] = (discovered, media_status)
+                if index % 100 == 0 or index == len(futures):
+                    print(f"[MEDIA REFRESH] {index}/{len(futures)}")
+
+        records = []
+        updated_reviewed = []
+        for project_id, article in existing.items():
+            project = projects_by_id.get(project_id)
+            if not project:
+                continue
+            before = article.get("media", [])
+            cleaned = clean_existing_media(project, before)
+            if project_id in reviewed_ids:
+                final_media = cleaned
+                media_status = "reviewed-preserved"
+            else:
+                discovered, media_status = refreshed_results.get(
+                    project_id,
+                    ([], "refresh-missing"),
+                )
+                official = [
+                    item
+                    for item in cleaned
+                    if item.get("origin") in {
+                        "official-site",
+                        "official-site-video",
+                    }
+                ]
+                if media_status == "ok":
+                    final_media = merge_media(discovered, official)
+                else:
+                    final_media = merge_media(cleaned, discovered)
+            article["media"] = final_media
+            article.setdefault("quality", {})["mediaCount"] = len(final_media)
+            save_json(ARTICLES_DIR / f"{project_id}.json", article)
+            if project_id in reviewed_ids:
+                updated_reviewed.append(article)
+            records.append(
+                {
+                    "projectId": project_id,
+                    "mediaStatus": media_status,
+                    "beforeCount": len(before),
+                    "mediaCount": len(final_media),
+                }
+            )
+
+        if updated_reviewed:
+            reviewed_order = {
+                str(item.get("projectId")): index
+                for index, item in enumerate(legacy)
+            }
+            updated_reviewed.sort(
+                key=lambda item: reviewed_order.get(
+                    str(item.get("projectId")),
+                    len(reviewed_order),
+                )
+            )
+            save_json(LEGACY_ARTICLES_FILE, updated_reviewed)
+
+        report = {
+            "refreshed": len(records),
+            "beforeMedia": sum(record["beforeCount"] for record in records),
+            "afterMedia": sum(record["mediaCount"] for record in records),
+            "removed": sum(
+                max(0, record["beforeCount"] - record["mediaCount"])
+                for record in records
+            ),
+            "withMedia": sum(record["mediaCount"] > 0 for record in records),
+            "withoutMedia": sum(record["mediaCount"] == 0 for record in records),
+            "statuses": dict(
+                Counter(record["mediaStatus"] for record in records)
+            ),
+        }
+        print(json.dumps(report, ensure_ascii=False, indent=2))
+        return
 
     if args.retry_without_media or args.enrich_under_media:
         projects_by_id = {str(project["id"]): project for project in projects}

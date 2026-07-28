@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/dvankzpsy14h2lbto25smjcqx353",
-      "caption": "意大利PPC广告代理公开案例主图",
-      "alt": "意大利PPC广告代理案例图片",
+      "caption": "意大利PPC广告代理：帮客户管理谷歌广告赚取服务费",
+      "alt": "意大利PPC广告代理：帮客户管理谷歌广告赚取服务费",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-started-a-30k-month-ppc-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/135/original/open-uri20190724-4-1fptuj8?1563996468",
-      "caption": "意大利PPC广告代理项目公开展示素材",
-      "alt": "how-we-started-a-30k-month-ppc-agency",
+      "caption": "意大利PPC广告代理：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "意大利PPC广告代理：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-started-a-30k-month-ppc-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/136/original/open-uri20190724-4-1jw9uxb?1563996469",
-      "caption": "意大利PPC广告代理项目公开展示素材",
-      "alt": "how-we-started-a-30k-month-ppc-agency",
+      "caption": "意大利PPC广告代理：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "意大利PPC广告代理：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-started-a-30k-month-ppc-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/137/original/open-uri20190724-4-1q0eymg?1563996469",
-      "caption": "意大利PPC广告代理项目公开展示素材",
-      "alt": "how-we-started-a-30k-month-ppc-agency",
+      "caption": "意大利PPC广告代理：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "意大利PPC广告代理：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-started-a-30k-month-ppc-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "意大利PPC广告代理项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-started-a-30k-month-ppc-agency",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2187,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

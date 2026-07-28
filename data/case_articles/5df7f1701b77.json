@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/dgjhs4u4b2bvirkffhx58focb7dd",
-      "caption": "AI驱动的金融科技SaaS公开案例主图",
-      "alt": "AI驱动的金融科技SaaS案例图片",
+      "caption": "AI驱动的金融科技SaaS：通过订阅制收费，帮助用户自动化财务流程",
+      "alt": "AI驱动的金融科技SaaS：通过订阅制收费，帮助用户自动化财务流程",
       "sourceUrl": "https://www.starterstory.com/stories/tofu",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/925/original/open-uri20231005-60-1ea4ti0?1696491271",
-      "caption": "AI驱动的金融科技SaaS项目公开展示素材",
-      "alt": "tofu",
+      "caption": "AI驱动的金融科技SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI驱动的金融科技SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/tofu",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/926/original/open-uri20231005-60-gvpei1?1696491272",
-      "caption": "AI驱动的金融科技SaaS项目公开展示素材",
-      "alt": "tofu",
+      "caption": "AI驱动的金融科技SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI驱动的金融科技SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/tofu",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/927/original/open-uri20231005-60-1j7x2pj?1696491273",
-      "caption": "AI驱动的金融科技SaaS项目公开展示素材",
-      "alt": "tofu",
+      "caption": "AI驱动的金融科技SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "AI驱动的金融科技SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/tofu",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI驱动的金融科技SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/tofu",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2206,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

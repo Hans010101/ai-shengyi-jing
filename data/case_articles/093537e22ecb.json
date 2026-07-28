@@ -122,47 +122,46 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/1q5qosc4w7iy8037cwdo9puxo40h",
-      "caption": "在线销售音频设备公开案例主图",
-      "alt": "在线销售音频设备案例图片",
+      "caption": "在线销售音频设备：通过批发和零售赚取差价",
+      "alt": "在线销售音频设备：通过批发和零售赚取差价",
       "sourceUrl": "https://www.starterstory.com/stories/big-jeff-audio",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/126/original/open-uri20230723-60-ph6cqz?1690105083",
-      "caption": "在线销售音频设备项目公开展示素材",
-      "alt": "big-jeff-audio",
+      "caption": "在线销售音频设备：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "在线销售音频设备：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/big-jeff-audio",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "在线销售音频设备项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/XQNZr03b3XE",
+      "watchUrl": "https://www.youtube.com/watch?v=XQNZr03b3XE",
+      "caption": "在线销售音频设备资料中提及的视频：17K Kicker Galeforce Youtube Subscribers Giveaway Big Jeff Audio 1",
+      "alt": "17K Kicker Galeforce Youtube Subscribers Giveaway Big Jeff Audio 1",
       "sourceUrl": "https://www.starterstory.com/stories/big-jeff-audio",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/XQNZr03b3XE/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c303bjznv93yxnh0xxz7t4vfedzf",
-      "caption": "在线销售音频设备项目公开展示素材",
-      "alt": "tool-icon",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/nxnH6oQprWE",
+      "watchUrl": "https://www.youtube.com/watch?v=nxnH6oQprWE",
+      "caption": "在线销售音频设备资料中提及的视频：Replay - Big Sound by Big Jeff Episode 8 with AudioControl and Derrick Haddock from Sundown Audio!!",
+      "alt": "Replay - Big Sound by Big Jeff Episode 8 with AudioControl and Derrick Haddock from Sundown Audio!!",
       "sourceUrl": "https://www.starterstory.com/stories/big-jeff-audio",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ddw17y2p9pisyf3lv70vhxx0tfv5",
-      "caption": "在线销售音频设备项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/big-jeff-audio",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/nxnH6oQprWE/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +176,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2144,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

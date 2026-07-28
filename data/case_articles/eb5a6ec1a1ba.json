@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ljsgu3qheyz1h11ei1i91fff2o4s",
-      "caption": "品牌创意教练公开案例主图",
-      "alt": "品牌创意教练案例图片",
+      "caption": "品牌创意教练：通过线上课程和1对1咨询实现月入2.5万美元",
+      "alt": "品牌创意教练：通过线上课程和1对1咨询实现月入2.5万美元",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-grew-my-business-to-5-figures-month",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/094/original/open-uri20201127-4-1rhigvh?1606492822",
-      "caption": "品牌创意教练项目公开展示素材",
-      "alt": "how-i-grew-my-business-to-5-figures-month",
+      "caption": "品牌创意教练：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "品牌创意教练：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-grew-my-business-to-5-figures-month",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "品牌创意教练项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-grew-my-business-to-5-figures-month",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/2q6a8yncmonnvypd2kmgep7jt2a0",
-      "caption": "品牌创意教练项目公开展示素材",
-      "alt": "品牌创意教练项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-grew-my-business-to-5-figures-month",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/efqoexbql7bnoo3c5qif6tpt16oe",
-      "caption": "品牌创意教练项目公开展示素材",
-      "alt": "品牌创意教练项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-grew-my-business-to-5-figures-month",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2208,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

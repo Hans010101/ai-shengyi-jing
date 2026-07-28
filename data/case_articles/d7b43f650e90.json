@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/k0k39xfai7q2rmyyu31kkr9cx485",
-      "caption": "视频制作公司公开案例主图",
-      "alt": "视频制作公司案例图片",
+      "caption": "视频制作公司：通过为企业制作宣传视频年入65万美元",
+      "alt": "视频制作公司：通过为企业制作宣传视频年入65万美元",
       "sourceUrl": "https://www.starterstory.com/stories/d-mak-productions-00043591-9058-4166-9b5d-26f5e9601c2b",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/115/original/open-uri20240630-48-1em7o3g?1719759112",
-      "caption": "视频制作公司项目公开展示素材",
-      "alt": "d-mak-productions-00043591-9058-4166-9b5d-26f5e9601c2b",
+      "caption": "视频制作公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "视频制作公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/d-mak-productions-00043591-9058-4166-9b5d-26f5e9601c2b",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/116/original/open-uri20240630-48-ugalmq?1719759113",
-      "caption": "视频制作公司项目公开展示素材",
-      "alt": "d-mak-productions-00043591-9058-4166-9b5d-26f5e9601c2b",
+      "caption": "视频制作公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "视频制作公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/d-mak-productions-00043591-9058-4166-9b5d-26f5e9601c2b",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "视频制作公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/d-mak-productions-00043591-9058-4166-9b5d-26f5e9601c2b",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/s3thrrqbjem3qler43fak7dop7v2",
-      "caption": "视频制作公司项目公开展示素材",
-      "alt": "视频制作公司项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/d-mak-productions-00043591-9058-4166-9b5d-26f5e9601c2b",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2206,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

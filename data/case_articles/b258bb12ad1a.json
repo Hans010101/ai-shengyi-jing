@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/89dqja0s2h20e1fh57um7zkczsr2",
-      "caption": "为企业提供培训与知识库SaaS公开案例主图",
-      "alt": "为企业提供培训与知识库SaaS案例图片",
+      "caption": "为企业提供培训与知识库SaaS：按用户数订阅收费",
+      "alt": "为企业提供培训与知识库SaaS：按用户数订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-grew-a-training-wiki-software-tool-to-2m-arr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/953/original/open-uri20190703-4-1glbq9s?1562181894",
-      "caption": "为企业提供培训与知识库SaaS项目公开展示素材",
-      "alt": "how-i-grew-a-training-wiki-software-tool-to-2m-arr",
+      "caption": "为企业提供培训与知识库SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为企业提供培训与知识库SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-grew-a-training-wiki-software-tool-to-2m-arr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/954/original/open-uri20190703-4-5ckalw?1562181896",
-      "caption": "为企业提供培训与知识库SaaS项目公开展示素材",
-      "alt": "how-i-grew-a-training-wiki-software-tool-to-2m-arr",
+      "caption": "为企业提供培训与知识库SaaS：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "为企业提供培训与知识库SaaS：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-grew-a-training-wiki-software-tool-to-2m-arr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/955/original/open-uri20190703-4-1sjash?1562181896",
-      "caption": "为企业提供培训与知识库SaaS项目公开展示素材",
-      "alt": "how-i-grew-a-training-wiki-software-tool-to-2m-arr",
+      "caption": "为企业提供培训与知识库SaaS：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "为企业提供培训与知识库SaaS：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-grew-a-training-wiki-software-tool-to-2m-arr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/956/original/open-uri20190703-4-gxcnh0?1562181897",
-      "caption": "为企业提供培训与知识库SaaS项目公开展示素材",
-      "alt": "how-i-grew-a-training-wiki-software-tool-to-2m-arr",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-grew-a-training-wiki-software-tool-to-2m-arr",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2210,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

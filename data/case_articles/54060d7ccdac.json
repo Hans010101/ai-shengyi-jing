@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/d9y3r1fp9d8c6y6x249ik0yjjh0x",
-      "caption": "Chrome专注力插件公开案例主图",
-      "alt": "Chrome专注力插件案例图片",
+      "caption": "Chrome专注力插件：通过免费试用+付费订阅盈利",
+      "alt": "Chrome专注力插件：通过免费试用+付费订阅盈利",
       "sourceUrl": "https://www.starterstory.com/stories/momentum-dashboard-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "Chrome专注力插件项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/momentum-dashboard-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/rkc7gu7s558cap25bcqzoi2v3r5f/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "Chrome专注力插件项目公开展示素材",
-      "alt": "Chrome专注力插件项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/momentum-dashboard-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/e671f39fb966deb2",
-      "caption": "Chrome专注力插件项目公开展示素材",
-      "alt": "article",
+      "caption": "Chrome专注力插件：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "Chrome专注力插件：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/momentum-dashboard-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/7hviznqcil7sagex1u8tbgf8618w",
-      "caption": "Chrome专注力插件项目公开展示素材",
-      "alt": "article",
+      "caption": "Chrome专注力插件：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "Chrome专注力插件：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/momentum-dashboard-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/74983384e4ac7bdc",
+      "caption": "Chrome专注力插件：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "Chrome专注力插件：创业起点与创意来源相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/momentum-dashboard-breakdown",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2216,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

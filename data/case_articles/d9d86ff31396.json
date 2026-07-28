@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/jqau74uzo9ch7m6cv3y3pujn36kj",
-      "caption": "新西兰比价平台公开案例主图",
-      "alt": "新西兰比价平台案例图片",
+      "caption": "新西兰比价平台：通过佣金和订阅赚钱",
+      "alt": "新西兰比价平台：通过佣金和订阅赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/glimp-ltd",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/286/original/open-uri20230502-63-1vbz3pt?1683039661",
-      "caption": "新西兰比价平台项目公开展示素材",
-      "alt": "glimp-ltd",
+      "caption": "新西兰比价平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "新西兰比价平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/glimp-ltd",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/287/original/open-uri20230502-63-jicwx9?1683039662",
-      "caption": "新西兰比价平台项目公开展示素材",
-      "alt": "glimp-ltd",
+      "caption": "新西兰比价平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "新西兰比价平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/glimp-ltd",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/288/original/open-uri20230502-63-1pn75zj?1683039663",
-      "caption": "新西兰比价平台项目公开展示素材",
-      "alt": "glimp-ltd",
+      "caption": "新西兰比价平台：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "新西兰比价平台：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/glimp-ltd",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/289/original/open-uri20230502-63-j7orsi?1683039663",
-      "caption": "新西兰比价平台项目公开展示素材",
-      "alt": "glimp-ltd",
-      "sourceUrl": "https://www.starterstory.com/stories/glimp-ltd",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2187,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

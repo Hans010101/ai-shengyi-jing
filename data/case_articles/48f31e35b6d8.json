@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/1swl09xo56dtoe6gxal60d9ihy9s",
-      "caption": "野生动物播客公开案例主图",
-      "alt": "野生动物播客案例图片",
+      "caption": "野生动物播客：通过广告和周边产品变现",
+      "alt": "野生动物播客：通过广告和周边产品变现",
       "sourceUrl": "https://www.starterstory.com/stories/get-out-alive-podcast",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/613/original/open-uri20230326-63-3pp880?1679841586",
-      "caption": "野生动物播客项目公开展示素材",
-      "alt": "get-out-alive-podcast",
+      "caption": "野生动物播客：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "野生动物播客：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/get-out-alive-podcast",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/614/original/open-uri20230326-63-1870nwe?1679841587",
-      "caption": "野生动物播客项目公开展示素材",
-      "alt": "get-out-alive-podcast",
+      "caption": "野生动物播客：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "野生动物播客：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/get-out-alive-podcast",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/615/original/open-uri20230326-63-1sh8ywk?1679841588",
-      "caption": "野生动物播客项目公开展示素材",
-      "alt": "get-out-alive-podcast",
+      "caption": "野生动物播客：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "野生动物播客：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/get-out-alive-podcast",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/616/original/open-uri20230326-63-12g2cz0?1679841589",
-      "caption": "野生动物播客项目公开展示素材",
-      "alt": "get-out-alive-podcast",
-      "sourceUrl": "https://www.starterstory.com/stories/get-out-alive-podcast",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2170,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/upfamfw7wzd3tljmxr3ocyks1hzl",
-      "caption": "写博客分享爱好公开案例主图",
-      "alt": "写博客分享爱好案例图片",
+      "caption": "写博客分享爱好：通过数字产品和联盟营销赚钱",
+      "alt": "写博客分享爱好：通过数字产品和联盟营销赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/how-writing-about-my-passion-turned-into-a-successful-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/975/original/open-uri20190712-4-1qdn7u9?1562901013",
-      "caption": "写博客分享爱好项目公开展示素材",
-      "alt": "how-writing-about-my-passion-turned-into-a-successful-business",
+      "caption": "写博客分享爱好：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "写博客分享爱好：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-writing-about-my-passion-turned-into-a-successful-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/976/original/open-uri20190712-4-dp7zmb?1562901014",
-      "caption": "写博客分享爱好项目公开展示素材",
-      "alt": "how-writing-about-my-passion-turned-into-a-successful-business",
+      "caption": "写博客分享爱好：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "写博客分享爱好：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-writing-about-my-passion-turned-into-a-successful-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/977/original/open-uri20190712-4-1axkofv?1562901015",
-      "caption": "写博客分享爱好项目公开展示素材",
-      "alt": "how-writing-about-my-passion-turned-into-a-successful-business",
+      "caption": "写博客分享爱好：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "写博客分享爱好：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-writing-about-my-passion-turned-into-a-successful-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/978/original/open-uri20190712-4-wtl02p?1562901016",
-      "caption": "写博客分享爱好项目公开展示素材",
-      "alt": "how-writing-about-my-passion-turned-into-a-successful-business",
-      "sourceUrl": "https://www.starterstory.com/stories/how-writing-about-my-passion-turned-into-a-successful-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2207,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

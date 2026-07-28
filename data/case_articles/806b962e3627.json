@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/mdin4idehpxapaocyernjzkhuo7m",
-      "caption": "数字营销服务商公开案例主图",
-      "alt": "数字营销服务商案例图片",
+      "caption": "数字营销服务商：为客户提供网站设计、SEO等一站式服务",
+      "alt": "数字营销服务商：为客户提供网站设计、SEO等一站式服务",
       "sourceUrl": "https://www.starterstory.com/stories/i-left-my-full-time-job-to-build-a-six-figure-digital-marketing-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/965/original/open-uri20220317-3-avj76v?1647522486",
-      "caption": "数字营销服务商项目公开展示素材",
-      "alt": "i-left-my-full-time-job-to-build-a-six-figure-digital-marketing-business",
+      "caption": "数字营销服务商：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "数字营销服务商：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-left-my-full-time-job-to-build-a-six-figure-digital-marketing-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/966/original/open-uri20220317-3-1awu8wg?1647522486",
-      "caption": "数字营销服务商项目公开展示素材",
-      "alt": "i-left-my-full-time-job-to-build-a-six-figure-digital-marketing-business",
+      "caption": "数字营销服务商：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "数字营销服务商：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-left-my-full-time-job-to-build-a-six-figure-digital-marketing-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/967/original/open-uri20220317-3-vskqwp?1647522486",
-      "caption": "数字营销服务商项目公开展示素材",
-      "alt": "i-left-my-full-time-job-to-build-a-six-figure-digital-marketing-business",
+      "caption": "数字营销服务商：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "数字营销服务商：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-left-my-full-time-job-to-build-a-six-figure-digital-marketing-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/968/original/open-uri20220317-3-gs8bif?1647522487",
-      "caption": "数字营销服务商项目公开展示素材",
-      "alt": "i-left-my-full-time-job-to-build-a-six-figure-digital-marketing-business",
-      "sourceUrl": "https://www.starterstory.com/stories/i-left-my-full-time-job-to-build-a-six-figure-digital-marketing-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/969/original/open-uri20220317-3-1hfrd10?1647522487",
-      "caption": "数字营销服务商项目公开展示素材",
-      "alt": "i-left-my-full-time-job-to-build-a-six-figure-digital-marketing-business",
-      "sourceUrl": "https://www.starterstory.com/stories/i-left-my-full-time-job-to-build-a-six-figure-digital-marketing-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2151,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

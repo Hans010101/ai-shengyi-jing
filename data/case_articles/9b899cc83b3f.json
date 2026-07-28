@@ -122,47 +122,24 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/qx9hqs0xja43rbacufykdc68zy3e",
-      "caption": "视频制作公司公开案例主图",
-      "alt": "视频制作公司案例图片",
+      "caption": "视频制作公司：为活动、企业、电视拍摄剪辑视频赚钱",
+      "alt": "视频制作公司：为活动、企业、电视拍摄剪辑视频赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/soul-arch-media",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "视频制作公司项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/hGSq431SUsw",
+      "watchUrl": "https://www.youtube.com/watch?v=hGSq431SUsw",
+      "caption": "视频制作公司资料中提及的视频：Soul Arch Media | Videography Gold Coast, Brisbane and Byron Bay",
+      "alt": "Soul Arch Media | Videography Gold Coast, Brisbane and Byron Bay",
       "sourceUrl": "https://www.starterstory.com/stories/soul-arch-media",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/s3thrrqbjem3qler43fak7dop7v2",
-      "caption": "视频制作公司项目公开展示素材",
-      "alt": "视频制作公司项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/soul-arch-media",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/9pgfik1nc0uj7b4qq9x37yofgvoj",
-      "caption": "视频制作公司项目公开展示素材",
-      "alt": "视频制作公司项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/soul-arch-media",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/5nqic3dcjfqf0fzgfffpdz136dt7",
-      "caption": "视频制作公司项目公开展示素材",
-      "alt": "视频制作公司项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/soul-arch-media",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/hGSq431SUsw/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +154,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2268,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

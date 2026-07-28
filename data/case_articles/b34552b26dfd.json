@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/38m7io7z2gomk20d26up90mzyp7x",
-      "caption": "海外AI工具项目公开案例主图",
-      "alt": "海外AI工具项目案例图片",
+      "caption": "海外AI工具项目：通过免费Facebook群组吸引宠物主人，提供设计服务变现",
+      "alt": "海外AI工具项目：通过免费Facebook群组吸引宠物主人，提供设计服务变现",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-created-a-free-facebook-group-to-grow-our-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/006/945/original/open-uri20200705-4-1mpvx58?1593961230",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "how-we-created-a-free-facebook-group-to-improve-marketing-and-sales",
+      "caption": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-created-a-free-facebook-group-to-grow-our-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/006/946/original/open-uri20200705-4-hs9ei6?1593961230",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "how-we-created-a-free-facebook-group-to-improve-marketing-and-sales",
+      "caption": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-created-a-free-facebook-group-to-grow-our-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/006/947/original/open-uri20200705-4-u307zu?1593961231",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "how-we-created-a-free-facebook-group-to-improve-marketing-and-sales",
+      "caption": "海外AI工具项目：创业复盘与关键经验相关原始配图（第3张）",
+      "alt": "海外AI工具项目：创业复盘与关键经验相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-created-a-free-facebook-group-to-grow-our-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/006/948/original/open-uri20200705-4-1q4zdth?1593961231",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "how-we-created-a-free-facebook-group-to-improve-marketing-and-sales",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-created-a-free-facebook-group-to-grow-our-agency",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2245,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

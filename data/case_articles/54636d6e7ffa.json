@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/9kf8vo3hap9ebjbgwxfgdqse3vxe",
-      "caption": "面向大学生的创业社群公开案例主图",
-      "alt": "面向大学生的创业社群案例图片",
+      "caption": "面向大学生的创业社群：通过会员费和活动赞助盈利",
+      "alt": "面向大学生的创业社群：通过会员费和活动赞助盈利",
       "sourceUrl": "https://www.starterstory.com/stories/entrepreneur-power-hour",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/719/original/open-uri20230404-51-767s0a?1680619500",
-      "caption": "面向大学生的创业社群项目公开展示素材",
-      "alt": "entrepreneur-power-hour",
+      "caption": "面向大学生的创业社群：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "面向大学生的创业社群：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/entrepreneur-power-hour",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/720/original/open-uri20230404-51-17xt8vk?1680619501",
-      "caption": "面向大学生的创业社群项目公开展示素材",
-      "alt": "entrepreneur-power-hour",
+      "caption": "面向大学生的创业社群：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "面向大学生的创业社群：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/entrepreneur-power-hour",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/721/original/open-uri20230404-51-g8tqnt?1680619502",
-      "caption": "面向大学生的创业社群项目公开展示素材",
-      "alt": "entrepreneur-power-hour",
+      "caption": "面向大学生的创业社群：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "面向大学生的创业社群：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/entrepreneur-power-hour",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/722/original/open-uri20230404-51-itiu1h?1680619503",
-      "caption": "面向大学生的创业社群项目公开展示素材",
-      "alt": "entrepreneur-power-hour",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/voWKlhA7jV4&t=1574s",
+      "watchUrl": "https://www.youtube.com/watch?v=voWKlhA7jV4&t=1574s",
+      "caption": "面向大学生的创业社群资料中提及的视频：University of Michigan Students Pitch Us Their Startups | $5000 Prize Money (#396)",
+      "alt": "University of Michigan Students Pitch Us Their Startups | $5000 Prize Money (#396)",
       "sourceUrl": "https://www.starterstory.com/stories/entrepreneur-power-hour",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/voWKlhA7jV4/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

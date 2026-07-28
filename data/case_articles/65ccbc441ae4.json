@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/71k13ep944l40rsnfvnaem7s337f",
-      "caption": "海滩婚礼服务公开案例主图",
-      "alt": "海滩婚礼服务案例图片",
+      "caption": "海滩婚礼服务：通过套餐化运营年入200万美元",
+      "alt": "海滩婚礼服务：通过套餐化运营年入200万美元",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-and-grew-a-wedding-services-business-to-2m-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/741/original/open-uri20190603-4-11rh7g8?1559538683",
-      "caption": "海滩婚礼服务项目公开展示素材",
-      "alt": "how-i-started-and-grew-a-wedding-services-business-to-2m-year",
+      "caption": "海滩婚礼服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "海滩婚礼服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-and-grew-a-wedding-services-business-to-2m-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/742/original/open-uri20190603-4-vfsuje?1559538684",
-      "caption": "海滩婚礼服务项目公开展示素材",
-      "alt": "how-i-started-and-grew-a-wedding-services-business-to-2m-year",
+      "caption": "海滩婚礼服务：当前经营状态与下一步规划相关原始配图（第2张）",
+      "alt": "海滩婚礼服务：当前经营状态与下一步规划相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-and-grew-a-wedding-services-business-to-2m-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "海滩婚礼服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-started-and-grew-a-wedding-services-business-to-2m-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/fyhbx2o0p0ivjbzkcaxfg3kkessb",
-      "caption": "海滩婚礼服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-started-and-grew-a-wedding-services-business-to-2m-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2166,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

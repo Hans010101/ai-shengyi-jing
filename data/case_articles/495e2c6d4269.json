@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/9m4vvh7ut30b1c2zsj5djf3mxdhs",
-      "caption": "社交音乐App公开案例主图",
-      "alt": "社交音乐App案例图片",
+      "caption": "社交音乐App：通过订阅和广告盈利",
+      "alt": "社交音乐App：通过订阅和广告盈利",
       "sourceUrl": "https://www.starterstory.com/stories/how-former-nfl-player-jason-fox-is-disrupting-the-music-industry",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/413/original/open-uri20190415-4-1u1z8me?1555325660",
-      "caption": "社交音乐App项目公开展示素材",
-      "alt": "how-former-nfl-player-jason-fox-is-disrupting-the-music-industry",
+      "caption": "社交音乐App：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "社交音乐App：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-former-nfl-player-jason-fox-is-disrupting-the-music-industry",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/414/original/open-uri20190415-4-1u6ad0j?1555325660",
-      "caption": "社交音乐App项目公开展示素材",
-      "alt": "how-former-nfl-player-jason-fox-is-disrupting-the-music-industry",
+      "caption": "社交音乐App：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "社交音乐App：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-former-nfl-player-jason-fox-is-disrupting-the-music-industry",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/415/original/open-uri20190415-4-i7e2wx?1555325661",
-      "caption": "社交音乐App项目公开展示素材",
-      "alt": "how-former-nfl-player-jason-fox-is-disrupting-the-music-industry",
+      "caption": "社交音乐App：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "社交音乐App：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-former-nfl-player-jason-fox-is-disrupting-the-music-industry",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/416/original/open-uri20190415-4-13ngg3f?1555325661",
-      "caption": "社交音乐App项目公开展示素材",
-      "alt": "how-former-nfl-player-jason-fox-is-disrupting-the-music-industry",
-      "sourceUrl": "https://www.starterstory.com/stories/how-former-nfl-player-jason-fox-is-disrupting-the-music-industry",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2219,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

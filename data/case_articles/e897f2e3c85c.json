@@ -122,47 +122,56 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/7g5q60e8g98pvm00urki6vqw3fvz",
-      "caption": "API自动生成社交媒体视觉内容公开案例主图",
-      "alt": "API自动生成社交媒体视觉内容案例图片",
+      "caption": "API自动生成社交媒体视觉内容：按使用量收费",
+      "alt": "API自动生成社交媒体视觉内容：按使用量收费",
       "sourceUrl": "https://www.starterstory.com/stories/bannerbear-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "API自动生成社交媒体视觉内容项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/bannerbear-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/8laceef9sobjnom5hxl2cgas1kb5/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "API自动生成社交媒体视觉内容项目公开展示素材",
-      "alt": "API自动生成社交媒体视觉内容项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/bannerbear-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/2baf11672c497bcf",
-      "caption": "API自动生成社交媒体视觉内容项目公开展示素材",
-      "alt": "article",
+      "caption": "API自动生成社交媒体视觉内容：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "API自动生成社交媒体视觉内容：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/bannerbear-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/5u0zri3fzwe06nts0ye4q6o6obav",
-      "caption": "API自动生成社交媒体视觉内容项目公开展示素材",
-      "alt": "article",
+      "caption": "API自动生成社交媒体视觉内容：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "API自动生成社交媒体视觉内容：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/bannerbear-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/ha0QtYVidWQ",
+      "watchUrl": "https://www.youtube.com/watch?v=ha0QtYVidWQ",
+      "caption": "API自动生成社交媒体视觉内容资料中提及的视频：How to indie-hack to $600K ARR | Jon Yongfook Cockle (Bannerbear)",
+      "alt": "How to indie-hack to $600K ARR | Jon Yongfook Cockle (Bannerbear)",
+      "sourceUrl": "https://www.starterstory.com/stories/bannerbear-breakdown",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/ha0QtYVidWQ/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/WaWTKiWgpBI",
+      "watchUrl": "https://www.youtube.com/watch?v=WaWTKiWgpBI",
+      "caption": "API自动生成社交媒体视觉内容资料中提及的视频：How Bannerbear Went from $0 to $240K+ ARR in Less than 2 Years - YouTube",
+      "alt": "How Bannerbear Went from $0 to $240K+ ARR in Less than 2 Years - YouTube",
+      "sourceUrl": "https://www.starterstory.com/stories/bannerbear-breakdown",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/WaWTKiWgpBI/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

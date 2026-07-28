@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/27nvtnpo5yevieml790qim8svxls",
-      "caption": "PCB代工制造服务公开案例主图",
-      "alt": "PCB代工制造服务案例图片",
+      "caption": "PCB代工制造服务：通过接单生产赚取加工费",
+      "alt": "PCB代工制造服务：通过接单生产赚取加工费",
       "sourceUrl": "https://www.starterstory.com/stories/mermar-electronics-inc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/054/original/open-uri20220813-25-17cvp1s?1660392868",
-      "caption": "PCB代工制造服务项目公开展示素材",
-      "alt": "mermar-electronics-inc",
+      "caption": "PCB代工制造服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "PCB代工制造服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/mermar-electronics-inc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/055/original/open-uri20220813-25-1dzkz9c?1660392869",
-      "caption": "PCB代工制造服务项目公开展示素材",
-      "alt": "mermar-electronics-inc",
+      "caption": "PCB代工制造服务：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "PCB代工制造服务：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/mermar-electronics-inc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/056/original/open-uri20220813-25-n1shei?1660392869",
-      "caption": "PCB代工制造服务项目公开展示素材",
-      "alt": "mermar-electronics-inc",
+      "caption": "PCB代工制造服务：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "PCB代工制造服务：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/mermar-electronics-inc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/057/original/open-uri20220813-25-12jsnua?1660392870",
-      "caption": "PCB代工制造服务项目公开展示素材",
-      "alt": "mermar-electronics-inc",
-      "sourceUrl": "https://www.starterstory.com/stories/mermar-electronics-inc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2271,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/d0dq8wj734ez63gfy8owatfgmo15",
-      "caption": "日历同步工具SaaS公开案例主图",
-      "alt": "日历同步工具SaaS案例图片",
+      "caption": "日历同步工具SaaS：按月订阅付费",
+      "alt": "日历同步工具SaaS：按月订阅付费",
       "sourceUrl": "https://www.starterstory.com/stories/syncthemcalendars",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/708/original/open-uri20220531-24-gf6sfy?1654013453",
-      "caption": "日历同步工具SaaS项目公开展示素材",
-      "alt": "syncthemcalendars",
+      "caption": "日历同步工具SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "日历同步工具SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/syncthemcalendars",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "日历同步工具SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/syncthemcalendars",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/p21ts159h2jq9q519g25528av7yd",
-      "caption": "日历同步工具SaaS项目公开展示素材",
-      "alt": "日历同步工具SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/syncthemcalendars",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/bktaf6keh1rjsjde1tkkhpinriz5",
-      "caption": "日历同步工具SaaS项目公开展示素材",
-      "alt": "日历同步工具SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/syncthemcalendars",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2212,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

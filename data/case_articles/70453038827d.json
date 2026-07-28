@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/hnfrur9o7zg6pxoenvntfy6aq8y4",
-      "caption": "用100美元启动公开案例主图",
-      "alt": "用100美元启动案例图片",
+      "caption": "用100美元启动：销售数字产品（模板、电子书等）年入12万美元",
+      "alt": "用100美元启动：销售数字产品（模板、电子书等）年入12万美元",
       "sourceUrl": "https://www.starterstory.com/stories/urbanplr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/968/original/open-uri20230714-60-1d4ns64?1689301163",
-      "caption": "用100美元启动项目公开展示素材",
-      "alt": "urbanplr",
+      "caption": "用100美元启动：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "用100美元启动：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/urbanplr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/969/original/open-uri20230714-60-1x0almm?1689301165",
-      "caption": "用100美元启动项目公开展示素材",
-      "alt": "urbanplr",
+      "caption": "用100美元启动：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "用100美元启动：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/urbanplr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/970/original/open-uri20230714-60-kqhc5v?1689301165",
-      "caption": "用100美元启动项目公开展示素材",
-      "alt": "urbanplr",
+      "caption": "用100美元启动：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "用100美元启动：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/urbanplr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/971/original/open-uri20230714-60-1vdtzqs?1689301166",
-      "caption": "用100美元启动项目公开展示素材",
-      "alt": "urbanplr",
-      "sourceUrl": "https://www.starterstory.com/stories/urbanplr",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2189,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

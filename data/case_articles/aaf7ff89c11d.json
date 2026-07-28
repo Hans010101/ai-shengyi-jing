@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/z12nxu7ulwrh4j52ah2446mo9cf3",
-      "caption": "在线定制牙贴面公开案例主图",
-      "alt": "在线定制牙贴面案例图片",
+      "caption": "在线定制牙贴面：每月营收1万美元",
+      "alt": "在线定制牙贴面：每月营收1万美元",
       "sourceUrl": "https://www.starterstory.com/stories/dintle",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/111/original/open-uri20240630-48-2tffri?1719756267",
-      "caption": "在线定制牙贴面项目公开展示素材",
-      "alt": "dintle",
+      "caption": "在线定制牙贴面：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "在线定制牙贴面：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/dintle",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/112/original/open-uri20240630-48-1v79do7?1719756268",
-      "caption": "在线定制牙贴面项目公开展示素材",
-      "alt": "dintle",
+      "caption": "在线定制牙贴面：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "在线定制牙贴面：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/dintle",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "在线定制牙贴面项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/dintle",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c303bjznv93yxnh0xxz7t4vfedzf",
-      "caption": "在线定制牙贴面项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/dintle",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2153,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

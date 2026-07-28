@@ -211,6 +211,9 @@ def normalize_media(media: list[dict]) -> list[dict]:
                 "sourceUrl": source_url,
                 "origin": origin,
                 "poster": clean_text(item.get("poster"), 2_000),
+                "watchUrl": clean_text(item.get("watchUrl"), 2_000),
+                "provider": clean_text(item.get("provider"), 40),
+                "context": clean_text(item.get("context"), 40),
                 "usage": clean_text(item.get("usage"), 80),
             }
         )

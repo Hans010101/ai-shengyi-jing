@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/z4y98wrvfr4a2pa29wi2oplb94xt",
-      "caption": "科技博客公开案例主图",
-      "alt": "科技博客案例图片",
+      "caption": "科技博客：通过优化订阅弹窗提升流量10%并变现",
+      "alt": "科技博客：通过优化订阅弹窗提升流量10%并变现",
       "sourceUrl": "https://www.starterstory.com/stories/the-customize-windows",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/802/original/open-uri20230109-12-1mcpk9t?1673266250",
-      "caption": "科技博客项目公开展示素材",
-      "alt": "the-customize-windows",
+      "caption": "科技博客：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "科技博客：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/the-customize-windows",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/803/original/open-uri20230109-12-lm8wsf?1673266251",
-      "caption": "科技博客项目公开展示素材",
-      "alt": "the-customize-windows",
+      "caption": "科技博客：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "科技博客：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/the-customize-windows",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "科技博客项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/the-customize-windows",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/jvhrreihstwyb6gp52497zn3ee5m",
-      "caption": "科技博客项目公开展示素材",
-      "alt": "科技博客项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/the-customize-windows",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2155,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

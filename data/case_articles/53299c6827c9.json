@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/hjy6m2t2jpnwjezu4oo7ljh969fe",
-      "caption": "游戏化SEO工具公开案例主图",
-      "alt": "游戏化SEO工具案例图片",
+      "caption": "游戏化SEO工具：按月订阅收费",
+      "alt": "游戏化SEO工具：按月订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/morningscore",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/084/original/open-uri20230211-23-1135x77?1676122120",
-      "caption": "游戏化SEO工具项目公开展示素材",
-      "alt": "morningscore",
+      "caption": "游戏化SEO工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "游戏化SEO工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/morningscore",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/085/original/open-uri20230211-23-16k23mu?1676122120",
-      "caption": "游戏化SEO工具项目公开展示素材",
-      "alt": "morningscore",
+      "caption": "游戏化SEO工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "游戏化SEO工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/morningscore",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/086/original/open-uri20230211-23-1vnb2il?1676122121",
-      "caption": "游戏化SEO工具项目公开展示素材",
-      "alt": "morningscore",
+      "caption": "游戏化SEO工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "游戏化SEO工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/morningscore",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/087/original/open-uri20230211-23-avjyy?1676122122",
-      "caption": "游戏化SEO工具项目公开展示素材",
-      "alt": "morningscore",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/1iqGT5KSwMs",
+      "watchUrl": "https://www.youtube.com/watch?v=1iqGT5KSwMs",
+      "caption": "游戏化SEO工具资料中提及的视频：Morningscore 3.1 Space Farm is LIVE",
+      "alt": "Morningscore 3.1 Space Farm is LIVE",
       "sourceUrl": "https://www.starterstory.com/stories/morningscore",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/1iqGT5KSwMs/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

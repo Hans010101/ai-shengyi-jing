@@ -121,57 +121,33 @@
   "media": [
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "空气监测硬件+SaaS平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/atmo-air-quality-solutions-for-healthier-environments",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/5d497a199deacf20",
-      "caption": "空气监测硬件+SaaS平台项目公开展示素材",
+      "caption": "空气监测硬件+SaaS平台：创始人、核心产品与品牌起点相关原始配图",
       "alt": "Atmotube PRO 2 — portable air quality tracker",
       "sourceUrl": "https://www.starterstory.com/stories/atmo-air-quality-solutions-for-healthier-environments",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/bzfhbj6due4l5jyihpj9jpen39rk",
-      "caption": "空气监测硬件+SaaS平台项目公开展示素材",
-      "alt": "article",
+      "caption": "空气监测硬件+SaaS平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "空气监测硬件+SaaS平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/atmo-air-quality-solutions-for-healthier-environments",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/f78de1c9dbe54b97",
-      "caption": "空气监测硬件+SaaS平台项目公开展示素材",
-      "alt": "空气监测硬件+SaaS平台项目展示图",
+      "caption": "空气监测硬件+SaaS平台：创业复盘与关键经验相关原始配图（第3张）",
+      "alt": "空气监测硬件+SaaS平台：创业复盘与关键经验相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/atmo-air-quality-solutions-for-healthier-environments",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/jvhrreihstwyb6gp52497zn3ee5m",
-      "caption": "空气监测硬件+SaaS平台项目公开展示素材",
-      "alt": "空气监测硬件+SaaS平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/atmo-air-quality-solutions-for-healthier-environments",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "空气监测硬件+SaaS平台项目公开展示素材",
-      "alt": "空气监测硬件+SaaS平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/atmo-air-quality-solutions-for-healthier-environments",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2220,
-    "mediaCount": 6
+    "mediaCount": 3
   }
 }

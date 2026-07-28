@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/nw149ctq3ndxdaqaox1rqyc8ouo3",
-      "caption": "16岁创业公开案例主图",
-      "alt": "16岁创业案例图片",
+      "caption": "16岁创业：通过人脉网络将业务增长至月入7万美元",
+      "alt": "16岁创业：通过人脉网络将业务增长至月入7万美元",
       "sourceUrl": "https://www.starterstory.com/stories/starting-a-business-at-16-thanks-to-networking",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/945/original/open-uri20210924-3-m3qyg5?1632509626",
-      "caption": "16岁创业项目公开展示素材",
-      "alt": "starting-a-business-at-16-and-growing-it-to-840k-month-thanks-to-networking",
+      "caption": "16岁创业：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "16岁创业：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/starting-a-business-at-16-thanks-to-networking",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/946/original/open-uri20210924-3-1bmf2a8?1632509626",
-      "caption": "16岁创业项目公开展示素材",
-      "alt": "starting-a-business-at-16-and-growing-it-to-840k-month-thanks-to-networking",
+      "caption": "16岁创业：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "16岁创业：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/starting-a-business-at-16-thanks-to-networking",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/947/original/open-uri20210924-3-gmwkta?1632509626",
-      "caption": "16岁创业项目公开展示素材",
-      "alt": "starting-a-business-at-16-and-growing-it-to-840k-month-thanks-to-networking",
+      "caption": "16岁创业：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "16岁创业：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/starting-a-business-at-16-thanks-to-networking",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/948/original/open-uri20210924-3-yks8w9?1632509627",
-      "caption": "16岁创业项目公开展示素材",
-      "alt": "starting-a-business-at-16-and-growing-it-to-840k-month-thanks-to-networking",
-      "sourceUrl": "https://www.starterstory.com/stories/starting-a-business-at-16-thanks-to-networking",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2170,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

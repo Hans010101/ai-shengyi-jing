@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/byqvd59hwmc6b44e6xtjy5j1ny3g",
-      "caption": "大麻健康产品公开案例主图",
-      "alt": "大麻健康产品案例图片",
+      "caption": "大麻健康产品：通过联盟营销月入80万美元",
+      "alt": "大麻健康产品：通过联盟营销月入80万美元",
       "sourceUrl": "https://www.starterstory.com/stories/elixinol-global",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/670/original/open-uri20220410-24-1umuw2h?1649589938",
-      "caption": "大麻健康产品项目公开展示素材",
-      "alt": "elixinol-global",
+      "caption": "大麻健康产品：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "大麻健康产品：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/elixinol-global",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/671/original/open-uri20220410-24-1i2jcb3?1649589938",
-      "caption": "大麻健康产品项目公开展示素材",
-      "alt": "elixinol-global",
+      "caption": "大麻健康产品：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "大麻健康产品：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/elixinol-global",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/672/original/open-uri20220410-24-1fobxtx?1649589939",
-      "caption": "大麻健康产品项目公开展示素材",
-      "alt": "elixinol-global",
+      "caption": "大麻健康产品：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "大麻健康产品：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/elixinol-global",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "大麻健康产品项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/elixinol-global",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2110,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

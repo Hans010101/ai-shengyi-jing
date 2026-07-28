@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/l0wk2tj1elxmzb59qm5gkh07dues",
-      "caption": "LinkedIn自动化外联工具公开案例主图",
-      "alt": "LinkedIn自动化外联工具案例图片",
+      "caption": "LinkedIn自动化外联工具：通过订阅制收费赚取MRR",
+      "alt": "LinkedIn自动化外联工具：通过订阅制收费赚取MRR",
       "sourceUrl": "https://www.starterstory.com/stories/castanet",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/924/original/open-uri20231005-60-5a86jx?1696488743",
-      "caption": "LinkedIn自动化外联工具项目公开展示素材",
-      "alt": "castanet",
+      "caption": "LinkedIn自动化外联工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "LinkedIn自动化外联工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/castanet",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "LinkedIn自动化外联工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/castanet",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ux0jwuv5zreae40prptu2ora5km3",
-      "caption": "LinkedIn自动化外联工具项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/castanet",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/7k6vgy18goth8i6g990376r6intu",
-      "caption": "LinkedIn自动化外联工具项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/castanet",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2250,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

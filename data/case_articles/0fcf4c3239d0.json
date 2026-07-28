@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/kr2hzzqkrba5l85dl0tn1b59t7sf",
-      "caption": "德国IT自由职业者在线社区公开案例主图",
-      "alt": "德国IT自由职业者在线社区案例图片",
+      "caption": "德国IT自由职业者在线社区：通过会员费与活动盈利",
+      "alt": "德国IT自由职业者在线社区：通过会员费与活动盈利",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-more-than-1600-members-and-offer-events-to-grow-revenue",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/010/558/original/data?1614967889",
-      "caption": "德国IT自由职业者在线社区项目公开展示素材",
-      "alt": "how-we-increased-more-than-1600-members-and-offer-events-to-grow-revenue",
+      "caption": "德国IT自由职业者在线社区：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "德国IT自由职业者在线社区：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-more-than-1600-members-and-offer-events-to-grow-revenue",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "德国IT自由职业者在线社区项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-more-than-1600-members-and-offer-events-to-grow-revenue",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "德国IT自由职业者在线社区项目公开展示素材",
-      "alt": "德国IT自由职业者在线社区项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-more-than-1600-members-and-offer-events-to-grow-revenue",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/b6tkfwams9acacoldo403fv7scnw",
-      "caption": "德国IT自由职业者在线社区项目公开展示素材",
-      "alt": "德国IT自由职业者在线社区项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-more-than-1600-members-and-offer-events-to-grow-revenue",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2222,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

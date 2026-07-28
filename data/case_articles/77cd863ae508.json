@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/qu24iieeopcvh5o1s6azmdsyno3c",
-      "caption": "咖啡顾问公开案例主图",
-      "alt": "咖啡顾问案例图片",
+      "caption": "咖啡顾问：通过数据分析和书籍销售赚钱",
+      "alt": "咖啡顾问：通过数据分析和书籍销售赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/on-providing-an-advice-for-better-coffee",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/246/original/open-uri20210819-3-6kvzmv?1629393782",
-      "caption": "咖啡顾问项目公开展示素材",
-      "alt": "on-providing-an-advice-for-better-coffee",
+      "caption": "咖啡顾问：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "咖啡顾问：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/on-providing-an-advice-for-better-coffee",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "咖啡顾问项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/on-providing-an-advice-for-better-coffee",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/q6vpiudn05fufvcs8zswkmuqyv6l",
-      "caption": "咖啡顾问项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/on-providing-an-advice-for-better-coffee",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "咖啡顾问项目公开展示素材",
-      "alt": "咖啡顾问项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/on-providing-an-advice-for-better-coffee",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2152,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

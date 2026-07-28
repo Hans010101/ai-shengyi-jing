@@ -122,47 +122,44 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/558parlfom3b1pyar7mjnak179hr",
-      "caption": "可重复使用笔记本公开案例主图",
-      "alt": "可重复使用笔记本案例图片",
+      "caption": "可重复使用笔记本：通过订阅回收纸页和销售配件盈利",
+      "alt": "可重复使用笔记本：通过订阅回收纸页和销售配件盈利",
       "sourceUrl": "https://www.starterstory.com/stories/paper-saver",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/332/original/open-uri20220901-12-amwb4?1662003547",
-      "caption": "可重复使用笔记本项目公开展示素材",
-      "alt": "paper-saver",
+      "caption": "可重复使用笔记本：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "可重复使用笔记本：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/paper-saver",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/333/original/open-uri20220901-12-12y2i3x?1662003548",
-      "caption": "可重复使用笔记本项目公开展示素材",
-      "alt": "paper-saver",
+      "caption": "可重复使用笔记本：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "可重复使用笔记本：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/paper-saver",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "可重复使用笔记本项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/c0KYU2j0TM4",
+      "watchUrl": "https://www.youtube.com/watch?v=c0KYU2j0TM4",
+      "caption": "可重复使用笔记本资料中提及的视频：The power of introverts | Susan Cain | TED",
+      "alt": "The power of introverts | Susan Cain | TED",
       "sourceUrl": "https://www.starterstory.com/stories/paper-saver",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c303bjznv93yxnh0xxz7t4vfedzf",
-      "caption": "可重复使用笔记本项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/paper-saver",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/c0KYU2j0TM4/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +174,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2269,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

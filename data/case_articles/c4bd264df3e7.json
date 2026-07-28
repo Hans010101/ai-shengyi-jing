@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/e3co6b8zm9lnh8pt3z5kazksxyye",
-      "caption": "广告技术代理公司公开案例主图",
-      "alt": "广告技术代理公司案例图片",
+      "caption": "广告技术代理公司：通过创新广告方案赚取服务费",
+      "alt": "广告技术代理公司：通过创新广告方案赚取服务费",
       "sourceUrl": "https://www.starterstory.com/stories/experiential-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/043/original/open-uri20230421-51-1cq9i65?1682057973",
-      "caption": "广告技术代理公司项目公开展示素材",
-      "alt": "experiential-agency",
+      "caption": "广告技术代理公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "广告技术代理公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/experiential-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "广告技术代理公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/experiential-agency",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/sdt5nazkqqqn5nxryn8mnyx5pf8c",
-      "caption": "广告技术代理公司项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/experiential-agency",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/gxtudral3fdp4o2ij875nthgyrgm",
-      "caption": "广告技术代理公司项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/experiential-agency",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2205,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/q5gbug4cwmzxd0dibgtct0m56g8l",
-      "caption": "品牌设计公司公开案例主图",
-      "alt": "品牌设计公司案例图片",
+      "caption": "品牌设计公司：通过企业品牌重塑服务收费盈利",
+      "alt": "品牌设计公司：通过企业品牌重塑服务收费盈利",
       "sourceUrl": "https://www.starterstory.com/stories/percept-1a84ccf3-3793-4b83-90e6-c89e1b2664b6",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/994/original/open-uri20240128-65-gsc8kl?1706417256",
-      "caption": "品牌设计公司项目公开展示素材",
-      "alt": "percept-1a84ccf3-3793-4b83-90e6-c89e1b2664b6",
+      "caption": "品牌设计公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "品牌设计公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/percept-1a84ccf3-3793-4b83-90e6-c89e1b2664b6",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/995/original/open-uri20240128-65-kfpbc?1706417256",
-      "caption": "品牌设计公司项目公开展示素材",
-      "alt": "percept-1a84ccf3-3793-4b83-90e6-c89e1b2664b6",
+      "caption": "品牌设计公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "品牌设计公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/percept-1a84ccf3-3793-4b83-90e6-c89e1b2664b6",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/996/original/open-uri20240128-65-1ta6vu0?1706417257",
-      "caption": "品牌设计公司项目公开展示素材",
-      "alt": "percept-1a84ccf3-3793-4b83-90e6-c89e1b2664b6",
+      "caption": "品牌设计公司：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "品牌设计公司：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/percept-1a84ccf3-3793-4b83-90e6-c89e1b2664b6",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/997/original/open-uri20240128-65-1sk66i4?1706417258",
-      "caption": "品牌设计公司项目公开展示素材",
-      "alt": "percept-1a84ccf3-3793-4b83-90e6-c89e1b2664b6",
-      "sourceUrl": "https://www.starterstory.com/stories/percept-1a84ccf3-3793-4b83-90e6-c89e1b2664b6",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/998/original/open-uri20240128-65-g5vm4x?1706417258",
-      "caption": "品牌设计公司项目公开展示素材",
-      "alt": "percept-1a84ccf3-3793-4b83-90e6-c89e1b2664b6",
-      "sourceUrl": "https://www.starterstory.com/stories/percept-1a84ccf3-3793-4b83-90e6-c89e1b2664b6",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2186,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/fv3y3nkjd7c2olr0x5zbg4xto4tc",
-      "caption": "派对后清洁服务公开案例主图",
-      "alt": "派对后清洁服务案例图片",
+      "caption": "派对后清洁服务：按次收费，月入$3K",
+      "alt": "派对后清洁服务：按次收费，月入$3K",
       "sourceUrl": "https://www.starterstory.com/stories/hangover-helpers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/910/original/open-uri20220606-23-6jyya1?1654537659",
-      "caption": "派对后清洁服务项目公开展示素材",
-      "alt": "hangover-helpers",
+      "caption": "派对后清洁服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "派对后清洁服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/hangover-helpers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/911/original/open-uri20220606-23-a1p32v?1654537659",
-      "caption": "派对后清洁服务项目公开展示素材",
-      "alt": "hangover-helpers",
+      "caption": "派对后清洁服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "派对后清洁服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/hangover-helpers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "派对后清洁服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/hangover-helpers",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "派对后清洁服务项目公开展示素材",
-      "alt": "派对后清洁服务项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/hangover-helpers",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2174,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

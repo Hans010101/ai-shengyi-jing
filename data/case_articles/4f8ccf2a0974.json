@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/zuq82m8m4yrhdw3h36dflz3qdpcd",
-      "caption": "视频游戏开发工作室公开案例主图",
-      "alt": "视频游戏开发工作室案例图片",
+      "caption": "视频游戏开发工作室：通过销售游戏和提供开发服务盈利",
+      "alt": "视频游戏开发工作室：通过销售游戏和提供开发服务盈利",
       "sourceUrl": "https://www.starterstory.com/stories/on-creating-games-and-softwares",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/786/original/open-uri20220310-3-l4c6h7?1646946371",
-      "caption": "视频游戏开发工作室项目公开展示素材",
-      "alt": "on-creating-games-and-softwares",
+      "caption": "视频游戏开发工作室：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "视频游戏开发工作室：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/on-creating-games-and-softwares",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/787/original/open-uri20220310-3-1424j9d?1646946372",
-      "caption": "视频游戏开发工作室项目公开展示素材",
-      "alt": "on-creating-games-and-softwares",
+      "caption": "视频游戏开发工作室：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "视频游戏开发工作室：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/on-creating-games-and-softwares",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/788/original/open-uri20220310-3-7xa84d?1646946373",
-      "caption": "视频游戏开发工作室项目公开展示素材",
-      "alt": "on-creating-games-and-softwares",
+      "caption": "视频游戏开发工作室：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "视频游戏开发工作室：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/on-creating-games-and-softwares",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/789/original/open-uri20220310-3-h7v56p?1646946373",
-      "caption": "视频游戏开发工作室项目公开展示素材",
-      "alt": "on-creating-games-and-softwares",
-      "sourceUrl": "https://www.starterstory.com/stories/on-creating-games-and-softwares",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2303,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/e9ztcrlvo65equi1vk07jfx9phle",
-      "caption": "为品牌连接1.3万+网红公开案例主图",
-      "alt": "为品牌连接1.3万+网红案例图片",
+      "caption": "为品牌连接1.3万+网红：按月收费的SaaS平台",
+      "alt": "为品牌连接1.3万+网红：按月收费的SaaS平台",
       "sourceUrl": "https://www.starterstory.com/stories/saral",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/976/original/open-uri20240127-65-2c6skx?1706366009",
-      "caption": "为品牌连接1.3万+网红项目公开展示素材",
-      "alt": "saral",
+      "caption": "为品牌连接1.3万+网红：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为品牌连接1.3万+网红：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/saral",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/977/original/open-uri20240127-65-gna0mr?1706366011",
-      "caption": "为品牌连接1.3万+网红项目公开展示素材",
-      "alt": "saral",
+      "caption": "为品牌连接1.3万+网红：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "为品牌连接1.3万+网红：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/saral",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/978/original/open-uri20240127-65-srr4ls?1706366012",
-      "caption": "为品牌连接1.3万+网红项目公开展示素材",
-      "alt": "saral",
+      "caption": "为品牌连接1.3万+网红：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "为品牌连接1.3万+网红：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/saral",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为品牌连接1.3万+网红项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/saral",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/5djdtk90o0eplnwc9v4q5ard904x",
-      "caption": "为品牌连接1.3万+网红项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/saral",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2234,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

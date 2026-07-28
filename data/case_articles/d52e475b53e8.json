@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/wkhbzazdlq4sekzx8raz3x9biucm",
-      "caption": "企业创新管理SaaS公开案例主图",
-      "alt": "企业创新管理SaaS案例图片",
+      "caption": "企业创新管理SaaS：帮客户收集、筛选、执行创意，按月收费",
+      "alt": "企业创新管理SaaS：帮客户收集、筛选、执行创意，按月收费",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-designed-a-200k-month-idea-management-software",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/967/original/open-uri20210722-3-x8d9a5?1626930037",
-      "caption": "企业创新管理SaaS项目公开展示素材",
-      "alt": "how-we-designed-a-200k-month-idea-management-software",
+      "caption": "企业创新管理SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "企业创新管理SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-designed-a-200k-month-idea-management-software",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "企业创新管理SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-designed-a-200k-month-idea-management-software",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/wsfthxo0bwxpga1da6eflodtgxay",
-      "caption": "企业创新管理SaaS项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-designed-a-200k-month-idea-management-software",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/p21ts159h2jq9q519g25528av7yd",
-      "caption": "企业创新管理SaaS项目公开展示素材",
-      "alt": "企业创新管理SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-designed-a-200k-month-idea-management-software",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2227,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

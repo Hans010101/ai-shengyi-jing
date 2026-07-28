@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/kcs6xgfck8s4o6dwn7ouggt3hjna",
-      "caption": "AI生成社交媒体营销内容公开案例主图",
-      "alt": "AI生成社交媒体营销内容案例图片",
+      "caption": "AI生成社交媒体营销内容：按月订阅收费",
+      "alt": "AI生成社交媒体营销内容：按月订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/predis",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/176/original/open-uri20220510-24-1mqmcp6?1652199403",
-      "caption": "AI生成社交媒体营销内容项目公开展示素材",
-      "alt": "predis",
+      "caption": "AI生成社交媒体营销内容：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI生成社交媒体营销内容：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/predis",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/177/original/open-uri20220510-24-1qvxuqu?1652199404",
-      "caption": "AI生成社交媒体营销内容项目公开展示素材",
-      "alt": "predis",
+      "caption": "AI生成社交媒体营销内容：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI生成社交媒体营销内容：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/predis",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/178/original/open-uri20220510-24-19qnahm?1652199406",
-      "caption": "AI生成社交媒体营销内容项目公开展示素材",
-      "alt": "predis",
+      "caption": "AI生成社交媒体营销内容：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "AI生成社交媒体营销内容：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/predis",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI生成社交媒体营销内容项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/predis",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2275,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

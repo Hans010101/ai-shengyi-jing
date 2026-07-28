@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/zxrwrdo9hafqg3ojn0nhhccbl8sa",
-      "caption": "家庭护理服务公开案例主图",
-      "alt": "家庭护理服务案例图片",
+      "caption": "家庭护理服务：通过政府资助和客户付费盈利",
+      "alt": "家庭护理服务：通过政府资助和客户付费盈利",
       "sourceUrl": "https://www.starterstory.com/stories/the-careside",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/312/original/open-uri20230222-63-1eoskng?1677044482",
-      "caption": "家庭护理服务项目公开展示素材",
-      "alt": "the-careside",
+      "caption": "家庭护理服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "家庭护理服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/the-careside",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/313/original/open-uri20230222-63-1bg9s67?1677044483",
-      "caption": "家庭护理服务项目公开展示素材",
-      "alt": "the-careside",
+      "caption": "家庭护理服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "家庭护理服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/the-careside",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/314/original/open-uri20230222-63-svwxhh?1677044484",
-      "caption": "家庭护理服务项目公开展示素材",
-      "alt": "the-careside",
+      "caption": "家庭护理服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "家庭护理服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/the-careside",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "家庭护理服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/the-careside",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2144,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

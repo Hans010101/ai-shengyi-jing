@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/mor283u9h07xg7f9drxv8giwdtip",
-      "caption": "数字广告代运营公开案例主图",
-      "alt": "数字广告代运营案例图片",
+      "caption": "数字广告代运营：通过保证客户获取潜在客户数量盈利",
+      "alt": "数字广告代运营：通过保证客户获取潜在客户数量盈利",
       "sourceUrl": "https://www.starterstory.com/stories/wealth-lead-generation",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/267/original/open-uri20220515-12-u0jchr?1652606152",
-      "caption": "数字广告代运营项目公开展示素材",
-      "alt": "wealth-lead-generation",
+      "caption": "数字广告代运营：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "数字广告代运营：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/wealth-lead-generation",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/268/original/open-uri20220515-12-14dsjp4?1652606153",
-      "caption": "数字广告代运营项目公开展示素材",
-      "alt": "wealth-lead-generation",
+      "caption": "数字广告代运营：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "数字广告代运营：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/wealth-lead-generation",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/269/original/open-uri20220515-12-1b9q6as?1652606153",
-      "caption": "数字广告代运营项目公开展示素材",
-      "alt": "wealth-lead-generation",
+      "caption": "数字广告代运营：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "数字广告代运营：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/wealth-lead-generation",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/270/original/open-uri20220515-12-1j0n6sc?1652606153",
-      "caption": "数字广告代运营项目公开展示素材",
-      "alt": "wealth-lead-generation",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/gj1cPz64mBk",
+      "watchUrl": "https://www.youtube.com/watch?v=gj1cPz64mBk",
+      "caption": "数字广告代运营资料中提及的视频：Deconstructing Mastery With Jason Capital and Dan Fleyshman",
+      "alt": "Deconstructing Mastery With Jason Capital and Dan Fleyshman",
       "sourceUrl": "https://www.starterstory.com/stories/wealth-lead-generation",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/gj1cPz64mBk/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

@@ -122,47 +122,34 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/g1lyoyamjhcrirweouse6wkutlbc",
-      "caption": "AI视频生成SaaS公开案例主图",
-      "alt": "AI视频生成SaaS案例图片",
+      "caption": "AI视频生成SaaS：按订阅收费",
+      "alt": "AI视频生成SaaS：按订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/synthesia-dda633f6-4cf5-4b13-b0dd-4711ff40e155",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/475/original/open-uri20220402-3-hvcbvk?1648881246",
-      "caption": "AI视频生成SaaS项目公开展示素材",
-      "alt": "synthesia-dda633f6-4cf5-4b13-b0dd-4711ff40e155",
+      "caption": "AI视频生成SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI视频生成SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/synthesia-dda633f6-4cf5-4b13-b0dd-4711ff40e155",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI视频生成SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/QiiSAvKJIHo",
+      "watchUrl": "https://www.youtube.com/watch?v=QiiSAvKJIHo",
+      "caption": "AI视频生成SaaS资料中提及的视频：David Beckham speaks nine languages to launch Malaria Must Die Voice Petition",
+      "alt": "David Beckham speaks nine languages to launch Malaria Must Die Voice Petition",
       "sourceUrl": "https://www.starterstory.com/stories/synthesia-dda633f6-4cf5-4b13-b0dd-4711ff40e155",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/jaa9l7be4mw3a0kj1vmpnyo9ig87",
-      "caption": "AI视频生成SaaS项目公开展示素材",
-      "alt": "AI视频生成SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/synthesia-dda633f6-4cf5-4b13-b0dd-4711ff40e155",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/gexjagbbg9q0oyutlgvbtwn4lgys",
-      "caption": "AI视频生成SaaS项目公开展示素材",
-      "alt": "AI视频生成SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/synthesia-dda633f6-4cf5-4b13-b0dd-4711ff40e155",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/QiiSAvKJIHo/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +164,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2218,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

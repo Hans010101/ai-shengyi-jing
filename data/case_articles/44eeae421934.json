@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/esm1pogz6ysflmu33a4dc4s2zx4v",
-      "caption": "自由撰稿人公开案例主图",
-      "alt": "自由撰稿人案例图片",
+      "caption": "自由撰稿人：通过内容营销和冷邮件获客，提供写作服务及教练课程",
+      "alt": "自由撰稿人：通过内容营销和冷邮件获客，提供写作服务及教练课程",
       "sourceUrl": "https://www.starterstory.com/stories/eva-gutierrez-fd23b9ce-b095-4587-95a5-35b1715a59b6",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/673/original/open-uri20220410-24-9ig0ci?1649592986",
-      "caption": "自由撰稿人项目公开展示素材",
-      "alt": "eva-gutierrez-fd23b9ce-b095-4587-95a5-35b1715a59b6",
+      "caption": "自由撰稿人：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "自由撰稿人：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/eva-gutierrez-fd23b9ce-b095-4587-95a5-35b1715a59b6",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/674/original/open-uri20220410-24-1amsyhm?1649592987",
-      "caption": "自由撰稿人项目公开展示素材",
-      "alt": "eva-gutierrez-fd23b9ce-b095-4587-95a5-35b1715a59b6",
+      "caption": "自由撰稿人：创业复盘与关键经验相关原始配图（第2张）",
+      "alt": "自由撰稿人：创业复盘与关键经验相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/eva-gutierrez-fd23b9ce-b095-4587-95a5-35b1715a59b6",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/675/original/open-uri20220410-24-1ey3by0?1649592987",
-      "caption": "自由撰稿人项目公开展示素材",
-      "alt": "eva-gutierrez-fd23b9ce-b095-4587-95a5-35b1715a59b6",
+      "caption": "自由撰稿人：学习方法与行业资源相关原始配图（第3张）",
+      "alt": "自由撰稿人：学习方法与行业资源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/eva-gutierrez-fd23b9ce-b095-4587-95a5-35b1715a59b6",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/676/original/open-uri20220410-24-12okol3?1649592988",
-      "caption": "自由撰稿人项目公开展示素材",
-      "alt": "eva-gutierrez-fd23b9ce-b095-4587-95a5-35b1715a59b6",
-      "sourceUrl": "https://www.starterstory.com/stories/eva-gutierrez-fd23b9ce-b095-4587-95a5-35b1715a59b6",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2204,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

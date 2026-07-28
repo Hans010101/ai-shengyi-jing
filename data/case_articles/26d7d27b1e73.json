@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/xln9mvrq0fs07tujyxhcidllon47",
-      "caption": "健身网红公开案例主图",
-      "alt": "健身网红案例图片",
+      "caption": "健身网红：通过邮件营销卖服装和课程，年入10万美元",
+      "alt": "健身网红：通过邮件营销卖服装和课程，年入10万美元",
       "sourceUrl": "https://www.starterstory.com/stories/infinite-elgintensity-gym-apparel",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/556/original/open-uri20220525-12-xguhi?1653500685",
-      "caption": "健身网红项目公开展示素材",
-      "alt": "infinite-elgintensity-gym-apparel",
+      "caption": "健身网红：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "健身网红：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/infinite-elgintensity-gym-apparel",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "健身网红项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/infinite-elgintensity-gym-apparel",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/w4stw5wtsgmq5u23otc0cudjxnjg",
-      "caption": "健身网红项目公开展示素材",
-      "alt": "健身网红项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/infinite-elgintensity-gym-apparel",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/1qxt58976pp69dwug3p7ifphuhne",
-      "caption": "健身网红项目公开展示素材",
-      "alt": "健身网红项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/infinite-elgintensity-gym-apparel",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2196,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

@@ -122,56 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ymoix9bfipdgzjf4eetbdzantnhc",
-      "caption": "早期风投基金公开案例主图",
-      "alt": "早期风投基金案例图片",
+      "caption": "早期风投基金：通过投资初创企业获取收益",
+      "alt": "早期风投基金：通过投资初创企业获取收益",
       "sourceUrl": "https://www.starterstory.com/stories/alfin-ventures",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/311/original/open-uri20231123-48-ohs0rn?1700752405",
-      "caption": "早期风投基金项目公开展示素材",
-      "alt": "alfin-ventures",
+      "caption": "早期风投基金：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "早期风投基金：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/alfin-ventures",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "早期风投基金项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/alfin-ventures",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/9qzzi2fa6tg2ybye06wvvp8upq56",
-      "caption": "早期风投基金项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/alfin-ventures",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/6csf0fgs5qrvcsiaquwehqzkzeg0",
-      "caption": "早期风投基金项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/alfin-ventures",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/b1c2y6hwa8kw4mxxjhgn4emktthw",
-      "caption": "早期风投基金项目公开展示素材",
-      "alt": "早期风投基金项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/alfin-ventures",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2197,
-    "mediaCount": 6
+    "mediaCount": 2
   }
 }

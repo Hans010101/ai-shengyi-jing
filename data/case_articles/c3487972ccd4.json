@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/u519adadcg8qgfb65cau4lhu6z9u",
-      "caption": "内容营销代理公开案例主图",
-      "alt": "内容营销代理案例图片",
+      "caption": "内容营销代理：提供写作与SEO服务赚取服务费",
+      "alt": "内容营销代理：提供写作与SEO服务赚取服务费",
       "sourceUrl": "https://www.starterstory.com/stories/my-passion-for-writing-led-me-to-start-a-12k-month-content-marketing-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/660/original/open-uri20220306-3-mam8fr?1646591764",
-      "caption": "内容营销代理项目公开展示素材",
-      "alt": "my-passion-for-writing-led-me-to-start-a-12k-month-content-marketing-agency",
+      "caption": "内容营销代理：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "内容营销代理：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/my-passion-for-writing-led-me-to-start-a-12k-month-content-marketing-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/661/original/open-uri20220306-3-15ms7z3?1646591764",
-      "caption": "内容营销代理项目公开展示素材",
-      "alt": "my-passion-for-writing-led-me-to-start-a-12k-month-content-marketing-agency",
+      "caption": "内容营销代理：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "内容营销代理：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/my-passion-for-writing-led-me-to-start-a-12k-month-content-marketing-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/662/original/open-uri20220306-3-752i5o?1646591765",
-      "caption": "内容营销代理项目公开展示素材",
-      "alt": "my-passion-for-writing-led-me-to-start-a-12k-month-content-marketing-agency",
+      "caption": "内容营销代理：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "内容营销代理：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/my-passion-for-writing-led-me-to-start-a-12k-month-content-marketing-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/663/original/open-uri20220306-3-13qqxpo?1646591765",
-      "caption": "内容营销代理项目公开展示素材",
-      "alt": "my-passion-for-writing-led-me-to-start-a-12k-month-content-marketing-agency",
-      "sourceUrl": "https://www.starterstory.com/stories/my-passion-for-writing-led-me-to-start-a-12k-month-content-marketing-agency",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2269,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

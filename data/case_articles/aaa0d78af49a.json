@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/gwesq00aglvgfwd4yah2t184clhp",
-      "caption": "播客托管平台公开案例主图",
-      "alt": "播客托管平台案例图片",
+      "caption": "播客托管平台：通过订阅制收费",
+      "alt": "播客托管平台：通过订阅制收费",
       "sourceUrl": "https://www.starterstory.com/businesses/transistor",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "播客托管平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/transistor",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/1uyayxqmp7m2ul8a3cqm02v7ooes",
-      "caption": "播客托管平台项目公开展示素材",
-      "alt": "Transistor logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/transistor",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/urr8oq2yvpqefb4pio5lsafw9zij/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "播客托管平台项目公开展示素材",
-      "alt": "Justin Jackson",
-      "sourceUrl": "https://www.starterstory.com/businesses/transistor",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/or09f2lfiia7lnht2q5ydyd20833/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "播客托管平台项目公开展示素材",
-      "alt": "播客托管平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/businesses/transistor",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2128,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

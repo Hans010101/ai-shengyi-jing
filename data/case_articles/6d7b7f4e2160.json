@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/4jcw0eh139kpgc22izcot0bpc5ny",
-      "caption": "为企业举办虚拟游戏之夜公开案例主图",
-      "alt": "为企业举办虚拟游戏之夜案例图片",
+      "caption": "为企业举办虚拟游戏之夜：月入$2.5K",
+      "alt": "为企业举办虚拟游戏之夜：月入$2.5K",
       "sourceUrl": "https://www.starterstory.com/stories/you-don-t-know-my-life",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/151/original/open-uri20221114-12-17rjwrm?1668424108",
-      "caption": "为企业举办虚拟游戏之夜项目公开展示素材",
-      "alt": "you-don-t-know-my-life",
+      "caption": "为企业举办虚拟游戏之夜：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为企业举办虚拟游戏之夜：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/you-don-t-know-my-life",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/152/original/open-uri20221114-12-9o5w6w?1668424109",
-      "caption": "为企业举办虚拟游戏之夜项目公开展示素材",
-      "alt": "you-don-t-know-my-life",
+      "caption": "为企业举办虚拟游戏之夜：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "为企业举办虚拟游戏之夜：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/you-don-t-know-my-life",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/153/original/open-uri20221114-12-11eynld?1668424110",
-      "caption": "为企业举办虚拟游戏之夜项目公开展示素材",
-      "alt": "you-don-t-know-my-life",
+      "caption": "为企业举办虚拟游戏之夜：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "为企业举办虚拟游戏之夜：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/you-don-t-know-my-life",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/154/original/open-uri20221114-12-1vj3480?1668424111",
-      "caption": "为企业举办虚拟游戏之夜项目公开展示素材",
-      "alt": "you-don-t-know-my-life",
-      "sourceUrl": "https://www.starterstory.com/stories/you-don-t-know-my-life",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2190,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

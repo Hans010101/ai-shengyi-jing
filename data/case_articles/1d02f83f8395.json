@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/x2r0yn2vi6tyjrczwbhcbk6s7hav",
-      "caption": "用户公开案例主图",
-      "alt": "用户案例图片",
+      "caption": "用户：通过做问卷和分享带宽赚取被动收入的平台",
+      "alt": "用户：通过做问卷和分享带宽赚取被动收入的平台",
       "sourceUrl": "https://www.starterstory.com/stories/pawns-app",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/995/original/open-uri20231011-48-17fplaq?1697016601",
-      "caption": "用户项目公开展示素材",
-      "alt": "pawns-app",
+      "caption": "用户：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "用户：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/pawns-app",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/996/original/open-uri20231011-48-1rualjy?1697016602",
-      "caption": "用户项目公开展示素材",
-      "alt": "pawns-app",
+      "caption": "用户：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "用户：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/pawns-app",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/997/original/open-uri20231011-48-194xamx?1697016603",
-      "caption": "用户项目公开展示素材",
-      "alt": "pawns-app",
+      "caption": "用户：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "用户：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/pawns-app",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/998/original/open-uri20231011-48-1l7t60r?1697016603",
-      "caption": "用户项目公开展示素材",
-      "alt": "pawns-app",
-      "sourceUrl": "https://www.starterstory.com/stories/pawns-app",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2178,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/gv6o7emuqrovb3kwj1em0m159s78",
-      "caption": "博客公开案例主图",
-      "alt": "博客案例图片",
+      "caption": "博客：通过内容营销和联盟营销实现月入500美元",
+      "alt": "博客：通过内容营销和联盟营销实现月入500美元",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-develop-custom-tools-and-hired-new-employees",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/607/original/open-uri20211027-3-qvymjw?1635351661",
-      "caption": "博客项目公开展示素材",
-      "alt": "how-we-develop-custom-tools-and-hired-new-employees",
+      "caption": "博客：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "博客：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-develop-custom-tools-and-hired-new-employees",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "博客项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-develop-custom-tools-and-hired-new-employees",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "博客项目公开展示素材",
-      "alt": "博客项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-develop-custom-tools-and-hired-new-employees",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/dvithrg7zcn51mk81s7sw6btbew2",
-      "caption": "博客项目公开展示素材",
-      "alt": "博客项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-develop-custom-tools-and-hired-new-employees",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2170,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

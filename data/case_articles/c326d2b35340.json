@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/30o2lr9f8bjccn1xp4liu9mm8d3k",
-      "caption": "定制手绘鞋在线平台公开案例主图",
-      "alt": "定制手绘鞋在线平台案例图片",
+      "caption": "定制手绘鞋在线平台：通过接单绘画赚取收入",
+      "alt": "定制手绘鞋在线平台：通过接单绘画赚取收入",
       "sourceUrl": "https://www.starterstory.com/stories/mypaintedshoes",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/377/original/open-uri20230823-48-mi4o9o?1692760509",
-      "caption": "定制手绘鞋在线平台项目公开展示素材",
-      "alt": "mypaintedshoes",
+      "caption": "定制手绘鞋在线平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "定制手绘鞋在线平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/mypaintedshoes",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/378/original/open-uri20230823-48-y9w6pb?1692760510",
-      "caption": "定制手绘鞋在线平台项目公开展示素材",
-      "alt": "mypaintedshoes",
+      "caption": "定制手绘鞋在线平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "定制手绘鞋在线平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/mypaintedshoes",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/379/original/open-uri20230823-48-1seqvjv?1692760510",
-      "caption": "定制手绘鞋在线平台项目公开展示素材",
-      "alt": "mypaintedshoes",
+      "caption": "定制手绘鞋在线平台：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "定制手绘鞋在线平台：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/mypaintedshoes",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/380/original/open-uri20230823-48-ytos4z?1692760511",
-      "caption": "定制手绘鞋在线平台项目公开展示素材",
-      "alt": "mypaintedshoes",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/v4UK-KXRujo",
+      "watchUrl": "https://www.youtube.com/watch?v=v4UK-KXRujo",
+      "caption": "定制手绘鞋在线平台资料中提及的视频：Customize Jordans Customized Sneakers",
+      "alt": "Customize Jordans Customized Sneakers",
       "sourceUrl": "https://www.starterstory.com/stories/mypaintedshoes",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/v4UK-KXRujo/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

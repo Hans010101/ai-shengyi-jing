@@ -121,57 +121,23 @@
   "media": [
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "帮本地商家用AI设计明信片项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/community-card-playbook",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/e3d9e0d1c9143aa6",
-      "caption": "帮本地商家用AI设计明信片项目公开展示素材",
+      "caption": "帮本地商家用AI设计明信片：创始人、核心产品与品牌起点相关原始配图",
       "alt": "My image",
       "sourceUrl": "https://www.starterstory.com/stories/community-card-playbook",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/whakxr8ejcwyexo9mj1l40edaw92",
-      "caption": "帮本地商家用AI设计明信片项目公开展示素材",
-      "alt": "article",
+      "caption": "帮本地商家用AI设计明信片：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "帮本地商家用AI设计明信片：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/community-card-playbook",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/6b644cb3189f140c",
-      "caption": "帮本地商家用AI设计明信片项目公开展示素材",
-      "alt": "帮本地商家用AI设计明信片项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/community-card-playbook",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/4mb73asq42bec19jojs7sgyddyej/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "帮本地商家用AI设计明信片项目公开展示素材",
-      "alt": "帮本地商家用AI设计明信片项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/community-card-playbook",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/vcbwxbap1zdkd2ys9zufexkxyehl/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "帮本地商家用AI设计明信片项目公开展示素材",
-      "alt": "帮本地商家用AI设计明信片项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/community-card-playbook",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2214,
-    "mediaCount": 6
+    "mediaCount": 2
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/52s5t38ysce6r3q3hyffb11q55ws",
-      "caption": "有机醋饮品牌公开案例主图",
-      "alt": "有机醋饮品牌案例图片",
+      "caption": "有机醋饮品牌：通过订阅制销售健康饮品",
+      "alt": "有机醋饮品牌：通过订阅制销售健康饮品",
       "sourceUrl": "https://www.starterstory.com/stories/on-taking-new-ownership",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/995/original/open-uri20210730-3-axgg9j?1627606888",
-      "caption": "有机醋饮品牌项目公开展示素材",
-      "alt": "on-taking-new-ownership",
+      "caption": "有机醋饮品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "有机醋饮品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/on-taking-new-ownership",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/996/original/open-uri20210730-3-tov42n?1627606889",
-      "caption": "有机醋饮品牌项目公开展示素材",
-      "alt": "on-taking-new-ownership",
+      "caption": "有机醋饮品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "有机醋饮品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/on-taking-new-ownership",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/997/original/open-uri20210730-3-195xfmt?1627606890",
-      "caption": "有机醋饮品牌项目公开展示素材",
-      "alt": "on-taking-new-ownership",
+      "caption": "有机醋饮品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "有机醋饮品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/on-taking-new-ownership",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "有机醋饮品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/on-taking-new-ownership",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2164,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/jt3ulzoj0w68tst6dzb9ik7rt6g5",
-      "caption": "SEO工具SaaS公开案例主图",
-      "alt": "SEO工具SaaS案例图片",
+      "caption": "SEO工具SaaS：通过订阅制向企业提供网站分析、外链检查、关键词研究服务",
+      "alt": "SEO工具SaaS：通过订阅制向企业提供网站分析、外链检查、关键词研究服务",
       "sourceUrl": "https://www.starterstory.com/businesses/ahrefs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "SEO工具SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/ahrefs",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/9ecj1ez9c21ym3po31wff915mmdv",
-      "caption": "SEO工具SaaS项目公开展示素材",
-      "alt": "Ahrefs logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/ahrefs",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/vkacgai3me2unbjkakdhmi8j1qe5/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "SEO工具SaaS项目公开展示素材",
-      "alt": "Google Analytics",
-      "sourceUrl": "https://www.starterstory.com/businesses/ahrefs",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/yzwcofug5jdzgxughelpace4tl6a/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "SEO工具SaaS项目公开展示素材",
-      "alt": "Slack",
-      "sourceUrl": "https://www.starterstory.com/businesses/ahrefs",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2270,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

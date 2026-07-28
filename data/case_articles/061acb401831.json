@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/v8e0rtjchl3p4ozrb83z8af75orl",
-      "caption": "PostgreSQL性能监控SaaS公开案例主图",
-      "alt": "PostgreSQL性能监控SaaS案例图片",
+      "caption": "PostgreSQL性能监控SaaS：按月订阅收费",
+      "alt": "PostgreSQL性能监控SaaS：按月订阅收费",
       "sourceUrl": "https://www.starterstory.com/businesses/pganalyze",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "PostgreSQL性能监控SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/pganalyze",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/y7owik0q8hxn3sw4nnwewm6ztalh",
-      "caption": "PostgreSQL性能监控SaaS项目公开展示素材",
-      "alt": "pganalyze logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/pganalyze",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/vkacgai3me2unbjkakdhmi8j1qe5/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "PostgreSQL性能监控SaaS项目公开展示素材",
-      "alt": "Google Analytics",
-      "sourceUrl": "https://www.starterstory.com/businesses/pganalyze",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/fwu9pmrseyttq94884li574j5ei9/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "PostgreSQL性能监控SaaS项目公开展示素材",
-      "alt": "HubSpot",
-      "sourceUrl": "https://www.starterstory.com/businesses/pganalyze",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2212,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

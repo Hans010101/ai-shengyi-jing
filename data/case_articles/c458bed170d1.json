@@ -122,56 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/fexgxl1fbfkbc76gqn1167p6jvpi",
-      "caption": "B2B企业SaaS服务公开案例主图",
-      "alt": "B2B企业SaaS服务案例图片",
+      "caption": "B2B企业SaaS服务：通过订阅制获取收入",
+      "alt": "B2B企业SaaS服务：通过订阅制获取收入",
       "sourceUrl": "https://www.starterstory.com/stories/growing-a-b2b-enterprise-saas-to-120-clients",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/985/original/open-uri20220318-3-1b3munp?1647629220",
-      "caption": "B2B企业SaaS服务项目公开展示素材",
-      "alt": "growing-a-b2b-enterprise-saas-to-120-clients",
+      "caption": "B2B企业SaaS服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "B2B企业SaaS服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/growing-a-b2b-enterprise-saas-to-120-clients",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "B2B企业SaaS服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/growing-a-b2b-enterprise-saas-to-120-clients",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "B2B企业SaaS服务项目公开展示素材",
-      "alt": "B2B企业SaaS服务项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/growing-a-b2b-enterprise-saas-to-120-clients",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/b6tkfwams9acacoldo403fv7scnw",
-      "caption": "B2B企业SaaS服务项目公开展示素材",
-      "alt": "B2B企业SaaS服务项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/growing-a-b2b-enterprise-saas-to-120-clients",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/dvithrg7zcn51mk81s7sw6btbew2",
-      "caption": "B2B企业SaaS服务项目公开展示素材",
-      "alt": "B2B企业SaaS服务项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/growing-a-b2b-enterprise-saas-to-120-clients",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2154,
-    "mediaCount": 6
+    "mediaCount": 2
   }
 }

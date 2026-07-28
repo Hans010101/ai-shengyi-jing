@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/lct7xxdxulertvueh003ym7pfbeb",
-      "caption": "客户数据分析SaaS公开案例主图",
-      "alt": "客户数据分析SaaS案例图片",
+      "caption": "客户数据分析SaaS：按月订阅收费",
+      "alt": "客户数据分析SaaS：按月订阅收费",
       "sourceUrl": "https://www.starterstory.com/businesses/woopra",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "客户数据分析SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/woopra",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/dsn80gtj4bpo8t57ffnfb25sprsz",
-      "caption": "客户数据分析SaaS项目公开展示素材",
-      "alt": "Woopra logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/woopra",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/ymxalaminxc95e45nuurs3u8gqob/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "客户数据分析SaaS项目公开展示素材",
-      "alt": "Elie Khoury",
-      "sourceUrl": "https://www.starterstory.com/businesses/woopra",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/c303bjznv93yxnh0xxz7t4vfedzf/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "客户数据分析SaaS项目公开展示素材",
-      "alt": "Shopify",
-      "sourceUrl": "https://www.starterstory.com/businesses/woopra",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2202,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

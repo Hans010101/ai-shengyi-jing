@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/w0xwwbe7aeltrnylz07nwdz4i7qf",
-      "caption": "可持续生活方式媒体平台公开案例主图",
-      "alt": "可持续生活方式媒体平台案例图片",
+      "caption": "可持续生活方式媒体平台：靠广告和联盟营销盈利",
+      "alt": "可持续生活方式媒体平台：靠广告和联盟营销盈利",
       "sourceUrl": "https://www.starterstory.com/stories/livekindly",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/515/original/open-uri20220405-3-101a0az?1649170339",
-      "caption": "可持续生活方式媒体平台项目公开展示素材",
-      "alt": "livekindly",
+      "caption": "可持续生活方式媒体平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "可持续生活方式媒体平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/livekindly",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "可持续生活方式媒体平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/livekindly",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/h09surilfsr7wbwyruc5a4jaqn8m",
-      "caption": "可持续生活方式媒体平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/livekindly",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/vxw70xnnhwk5tl3v69w64cmsc16m",
-      "caption": "可持续生活方式媒体平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/livekindly",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2197,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

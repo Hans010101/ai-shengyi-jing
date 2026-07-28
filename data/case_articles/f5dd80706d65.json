@@ -122,47 +122,58 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/qgtx9p5re7er06r5l789dca17ytu",
-      "caption": "AI驱动的学术影响力评估平台公开案例主图",
-      "alt": "AI驱动的学术影响力评估平台案例图片",
+      "caption": "AI驱动的学术影响力评估平台：通过订阅和报告收费",
+      "alt": "AI驱动的学术影响力评估平台：通过订阅和报告收费",
       "sourceUrl": "https://www.starterstory.com/stories/academicinfluence-com",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/474/original/open-uri20221207-12-4vt1gy?1670382588",
-      "caption": "AI驱动的学术影响力评估平台项目公开展示素材",
-      "alt": "academicinfluence-com",
+      "caption": "AI驱动的学术影响力评估平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI驱动的学术影响力评估平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/academicinfluence-com",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI驱动的学术影响力评估平台项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/xb5zYKYF3Xo",
+      "watchUrl": "https://www.youtube.com/watch?v=xb5zYKYF3Xo",
+      "caption": "AI驱动的学术影响力评估平台资料中提及的视频：Top 15 Countries By GDP (1600-2019)",
+      "alt": "Top 15 Countries By GDP (1600-2019)",
       "sourceUrl": "https://www.starterstory.com/stories/academicinfluence-com",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/xb5zYKYF3Xo/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/jvhrreihstwyb6gp52497zn3ee5m",
-      "caption": "AI驱动的学术影响力评估平台项目公开展示素材",
-      "alt": "AI驱动的学术影响力评估平台项目展示图",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/JyxY9RWhHX8",
+      "watchUrl": "https://www.youtube.com/watch?v=JyxY9RWhHX8",
+      "caption": "AI驱动的学术影响力评估平台资料中提及的视频：Top 15 Largest Armies in the World (1816-2020)",
+      "alt": "Top 15 Largest Armies in the World (1816-2020)",
       "sourceUrl": "https://www.starterstory.com/stories/academicinfluence-com",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/JyxY9RWhHX8/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/33phd3lfchpci9uio1sqqlyvic4f",
-      "caption": "AI驱动的学术影响力评估平台项目公开展示素材",
-      "alt": "AI驱动的学术影响力评估平台项目展示图",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/u_kfSE_EpSI",
+      "watchUrl": "https://www.youtube.com/watch?v=u_kfSE_EpSI",
+      "caption": "AI驱动的学术影响力评估平台资料中提及的视频：Top 10 US Universities Overtime: U.S. News National University Ranking (1984-2020)",
+      "alt": "Top 10 US Universities Overtime: U.S. News National University Ranking (1984-2020)",
       "sourceUrl": "https://www.starterstory.com/stories/academicinfluence-com",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/u_kfSE_EpSI/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

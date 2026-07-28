@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/4kpvad4nw7xowobk4yzirlolediq",
-      "caption": "作者公开案例主图",
-      "alt": "作者案例图片",
+      "caption": "作者：通过自助出版和在线课程实现月入1.5万美元",
+      "alt": "作者：通过自助出版和在线课程实现月入1.5万美元",
       "sourceUrl": "https://www.starterstory.com/stories/thriving-best-sellers-389485b5-e27e-40a7-8ab8-96ef202b9ec2",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/904/original/open-uri20240602-48-1ly5nhz?1717334189",
-      "caption": "作者项目公开展示素材",
-      "alt": "thriving-best-sellers-389485b5-e27e-40a7-8ab8-96ef202b9ec2",
+      "caption": "作者：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "作者：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/thriving-best-sellers-389485b5-e27e-40a7-8ab8-96ef202b9ec2",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/905/original/open-uri20240602-48-5ns15x?1717334190",
-      "caption": "作者项目公开展示素材",
-      "alt": "thriving-best-sellers-389485b5-e27e-40a7-8ab8-96ef202b9ec2",
+      "caption": "作者：创业复盘与关键经验相关原始配图（第2张）",
+      "alt": "作者：创业复盘与关键经验相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/thriving-best-sellers-389485b5-e27e-40a7-8ab8-96ef202b9ec2",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "作者项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/thriving-best-sellers-389485b5-e27e-40a7-8ab8-96ef202b9ec2",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/2r0bmvunp6hplaeyu1t5rm1lcgma",
-      "caption": "作者项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/thriving-best-sellers-389485b5-e27e-40a7-8ab8-96ef202b9ec2",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2194,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

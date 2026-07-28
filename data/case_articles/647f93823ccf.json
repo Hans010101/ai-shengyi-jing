@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/rvx4gr2tkux6cpwqfxxlb0rid640",
-      "caption": "为非技术创始人快速构建MVP公开案例主图",
-      "alt": "为非技术创始人快速构建MVP案例图片",
+      "caption": "为非技术创始人快速构建MVP：赚取开发服务费",
+      "alt": "为非技术创始人快速构建MVP：赚取开发服务费",
       "sourceUrl": "https://www.starterstory.com/stories/leanmvp",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为非技术创始人快速构建MVP项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/leanmvp",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/6ax01nlv09alkjc0ug9t1dfb1f58/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "为非技术创始人快速构建MVP项目公开展示素材",
-      "alt": "为非技术创始人快速构建MVP项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/leanmvp",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/9e49c955db7d11a7",
-      "caption": "为非技术创始人快速构建MVP项目公开展示素材",
+      "caption": "为非技术创始人快速构建MVP：创始人、核心产品与品牌起点相关原始配图",
       "alt": "LeanMVP Solutions",
       "sourceUrl": "https://www.starterstory.com/stories/leanmvp",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/md9ud3s8sxfzb6od3wcz5xbxdbqp",
-      "caption": "为非技术创始人快速构建MVP项目公开展示素材",
-      "alt": "article",
+      "caption": "为非技术创始人快速构建MVP：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "为非技术创始人快速构建MVP：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/leanmvp",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/20230eecdd4b0366",
+      "caption": "为非技术创始人快速构建MVP：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "LeanMVP homepage",
+      "sourceUrl": "https://www.starterstory.com/stories/leanmvp",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2221,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

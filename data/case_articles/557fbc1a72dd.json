@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/cpffh4xrhncm29bu2tyy5wcllezi",
-      "caption": "AI会议助手公开案例主图",
-      "alt": "AI会议助手案例图片",
+      "caption": "AI会议助手：通过SaaS订阅收费",
+      "alt": "AI会议助手：通过SaaS订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-are-building-the-next-generation-ai-meeting-assistant",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/887/original/open-uri20210718-3-lgunwm?1626584424",
-      "caption": "AI会议助手项目公开展示素材",
-      "alt": "how-we-are-building-the-next-generation-ai-meeting-assistant",
+      "caption": "AI会议助手：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI会议助手：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-are-building-the-next-generation-ai-meeting-assistant",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/888/original/open-uri20210718-3-b8hz9o?1626584425",
-      "caption": "AI会议助手项目公开展示素材",
-      "alt": "how-we-are-building-the-next-generation-ai-meeting-assistant",
+      "caption": "AI会议助手：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "AI会议助手：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-are-building-the-next-generation-ai-meeting-assistant",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/889/original/open-uri20210718-3-1rvt8fc?1626584425",
-      "caption": "AI会议助手项目公开展示素材",
-      "alt": "how-we-are-building-the-next-generation-ai-meeting-assistant",
+      "caption": "AI会议助手：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "AI会议助手：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-are-building-the-next-generation-ai-meeting-assistant",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/890/original/open-uri20210718-3-5tboxh?1626584426",
-      "caption": "AI会议助手项目公开展示素材",
-      "alt": "how-we-are-building-the-next-generation-ai-meeting-assistant",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-are-building-the-next-generation-ai-meeting-assistant",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI会议助手项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-are-building-the-next-generation-ai-meeting-assistant",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2179,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

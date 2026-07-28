@@ -122,47 +122,44 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/rxbik0zr5f3zutgi9v4yr0ceky1z",
-      "caption": "37年陶瓷制造家族企业公开案例主图",
-      "alt": "37年陶瓷制造家族企业案例图片",
+      "caption": "37年陶瓷制造家族企业：专注高精度工业陶瓷定制",
+      "alt": "37年陶瓷制造家族企业：专注高精度工业陶瓷定制",
       "sourceUrl": "https://www.starterstory.com/stories/international-ceramic-engineering",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/182/original/open-uri20240720-60-z871i2?1721476618",
-      "caption": "37年陶瓷制造家族企业项目公开展示素材",
-      "alt": "international-ceramic-engineering",
+      "caption": "37年陶瓷制造家族企业：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "37年陶瓷制造家族企业：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/international-ceramic-engineering",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/183/original/open-uri20240720-60-njx7f7?1721476619",
-      "caption": "37年陶瓷制造家族企业项目公开展示素材",
-      "alt": "international-ceramic-engineering",
+      "caption": "37年陶瓷制造家族企业：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "37年陶瓷制造家族企业：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/international-ceramic-engineering",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "37年陶瓷制造家族企业项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/PnCJdsDlUUM&t=4s",
+      "watchUrl": "https://www.youtube.com/watch?v=PnCJdsDlUUM&t=4s",
+      "caption": "37年陶瓷制造家族企业资料中提及的视频：A Tour of International Ceramic Engineering for Advanced Ceramic Components | ICE | Worcester, MA",
+      "alt": "A Tour of International Ceramic Engineering for Advanced Ceramic Components | ICE | Worcester, MA",
       "sourceUrl": "https://www.starterstory.com/stories/international-ceramic-engineering",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "37年陶瓷制造家族企业项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/international-ceramic-engineering",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/PnCJdsDlUUM/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +174,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2196,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

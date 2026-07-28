@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/va8at6xyqaiypys56lckk3qbzsbv",
-      "caption": "AI驱动的PR工具公开案例主图",
-      "alt": "AI驱动的PR工具案例图片",
+      "caption": "AI驱动的PR工具：帮助非专业人士获取媒体报道，按月订阅收费",
+      "alt": "AI驱动的PR工具：帮助非专业人士获取媒体报道，按月订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/intelligent-relations-fe049316-ddd2-451a-8642-e3bce30769cc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/846/original/open-uri20230924-48-8yv1b2?1695557049",
-      "caption": "AI驱动的PR工具项目公开展示素材",
-      "alt": "intelligent-relations-fe049316-ddd2-451a-8642-e3bce30769cc",
+      "caption": "AI驱动的PR工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI驱动的PR工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/intelligent-relations-fe049316-ddd2-451a-8642-e3bce30769cc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI驱动的PR工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/intelligent-relations-fe049316-ddd2-451a-8642-e3bce30769cc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/7k6vgy18goth8i6g990376r6intu",
-      "caption": "AI驱动的PR工具项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/intelligent-relations-fe049316-ddd2-451a-8642-e3bce30769cc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/yzwcofug5jdzgxughelpace4tl6a",
-      "caption": "AI驱动的PR工具项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/intelligent-relations-fe049316-ddd2-451a-8642-e3bce30769cc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2309,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/upc43h2igbvpuyjrljoqt0lukwdi",
-      "caption": "南非技术咨询公司公开案例主图",
-      "alt": "南非技术咨询公司案例图片",
+      "caption": "南非技术咨询公司：通过订阅制数字化服务实现营收翻倍",
+      "alt": "南非技术咨询公司：通过订阅制数字化服务实现营收翻倍",
       "sourceUrl": "https://www.starterstory.com/stories/common-sense-holdings",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/028/original/open-uri20220808-12-1pm1y2e?1659969777",
-      "caption": "南非技术咨询公司项目公开展示素材",
-      "alt": "common-sense-holdings",
+      "caption": "南非技术咨询公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "南非技术咨询公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/common-sense-holdings",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/029/original/open-uri20220808-12-12c85my?1659969778",
-      "caption": "南非技术咨询公司项目公开展示素材",
+      "caption": "南非技术咨询公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "alt": "Fund Allocation for Investments for your business",
       "sourceUrl": "https://www.starterstory.com/stories/common-sense-holdings",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/030/original/open-uri20220808-12-1efjo1q?1659969778",
-      "caption": "南非技术咨询公司项目公开展示素材",
-      "alt": "common-sense-holdings",
+      "caption": "南非技术咨询公司：给创业者的实践建议相关原始配图（第3张）",
+      "alt": "南非技术咨询公司：给创业者的实践建议相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/common-sense-holdings",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "南非技术咨询公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/common-sense-holdings",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2238,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

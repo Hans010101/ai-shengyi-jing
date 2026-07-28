@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/d021qx6lm3n2ddlw6c1bccmcqee9",
-      "caption": "API自动化生成图片和PDF的SaaS工具公开案例主图",
-      "alt": "API自动化生成图片和PDF的SaaS工具案例图片",
+      "caption": "API自动化生成图片和PDF的SaaS工具：按月订阅赚钱",
+      "alt": "API自动化生成图片和PDF的SaaS工具：按月订阅赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/templated",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/163/original/open-uri20240216-65-1trls97?1708061609",
-      "caption": "API自动化生成图片和PDF的SaaS工具项目公开展示素材",
-      "alt": "templated",
+      "caption": "API自动化生成图片和PDF的SaaS工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "API自动化生成图片和PDF的SaaS工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/templated",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/164/original/open-uri20240216-65-14rg25k?1708061610",
-      "caption": "API自动化生成图片和PDF的SaaS工具项目公开展示素材",
-      "alt": "templated",
+      "caption": "API自动化生成图片和PDF的SaaS工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "API自动化生成图片和PDF的SaaS工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/templated",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/165/original/open-uri20240216-65-2nkzch?1708061611",
-      "caption": "API自动化生成图片和PDF的SaaS工具项目公开展示素材",
-      "alt": "templated",
+      "caption": "API自动化生成图片和PDF的SaaS工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "API自动化生成图片和PDF的SaaS工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/templated",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/166/original/open-uri20240216-65-1xkhuai?1708061611",
-      "caption": "API自动化生成图片和PDF的SaaS工具项目公开展示素材",
-      "alt": "templated",
-      "sourceUrl": "https://www.starterstory.com/stories/templated",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2287,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

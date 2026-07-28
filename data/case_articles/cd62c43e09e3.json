@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/g1jqq2gsuq01yu0ed2ohf3nov3oq",
-      "caption": "预调鸡尾酒品牌公开案例主图",
-      "alt": "预调鸡尾酒品牌案例图片",
+      "caption": "预调鸡尾酒品牌：通过派对场景和社交营销实现爆发增长",
+      "alt": "预调鸡尾酒品牌：通过派对场景和社交营销实现爆发增长",
       "sourceUrl": "https://www.starterstory.com/stories/beatbox-beverages",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/390/original/open-uri20231206-48-nn6zy6?1701855746",
-      "caption": "预调鸡尾酒品牌项目公开展示素材",
-      "alt": "beatbox-beverages",
+      "caption": "预调鸡尾酒品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "预调鸡尾酒品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/beatbox-beverages",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/391/original/open-uri20231206-48-1mwbf8y?1701855747",
-      "caption": "预调鸡尾酒品牌项目公开展示素材",
-      "alt": "beatbox-beverages",
+      "caption": "预调鸡尾酒品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "预调鸡尾酒品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/beatbox-beverages",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/392/original/open-uri20231206-48-1ioyj40?1701855749",
-      "caption": "预调鸡尾酒品牌项目公开展示素材",
-      "alt": "beatbox-beverages",
+      "caption": "预调鸡尾酒品牌：团队建设与人才需求相关原始配图（第3张）",
+      "alt": "预调鸡尾酒品牌：团队建设与人才需求相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/beatbox-beverages",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "预调鸡尾酒品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/beatbox-beverages",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2186,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

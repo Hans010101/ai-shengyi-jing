@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/kmixjjdvij301kwb5t43gm49cpw7",
-      "caption": "帮创业者优化落地页设计公开案例主图",
-      "alt": "帮创业者优化落地页设计案例图片",
+      "caption": "帮创业者优化落地页设计：收月费",
+      "alt": "帮创业者优化落地页设计：收月费",
       "sourceUrl": "https://www.starterstory.com/stories/conversion-design",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/097/original/open-uri20220813-13-p31rj2?1660407452",
-      "caption": "帮创业者优化落地页设计项目公开展示素材",
-      "alt": "conversion-design",
+      "caption": "帮创业者优化落地页设计：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "帮创业者优化落地页设计：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/conversion-design",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/098/original/open-uri20220813-13-1fd13lp?1660407453",
-      "caption": "帮创业者优化落地页设计项目公开展示素材",
-      "alt": "conversion-design",
+      "caption": "帮创业者优化落地页设计：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "帮创业者优化落地页设计：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/conversion-design",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/099/original/open-uri20220813-13-dsm61v?1660407453",
-      "caption": "帮创业者优化落地页设计项目公开展示素材",
-      "alt": "conversion-design",
+      "caption": "帮创业者优化落地页设计：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "帮创业者优化落地页设计：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/conversion-design",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/100/original/open-uri20220813-13-1p1j31c?1660407454",
-      "caption": "帮创业者优化落地页设计项目公开展示素材",
-      "alt": "conversion-design",
-      "sourceUrl": "https://www.starterstory.com/stories/conversion-design",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2148,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

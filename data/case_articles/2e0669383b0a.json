@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/e33wlcazth1a34d5tsvg38dwutr0",
-      "caption": "Bonify是应用开发公司公开案例主图",
-      "alt": "Bonify是应用开发公司案例图片",
+      "caption": "Bonify是应用开发公司：通过为客户开发定制App和服务赚钱",
+      "alt": "Bonify是应用开发公司：通过为客户开发定制App和服务赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-bootstrapped-our-app-and-increased-revenue",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/006/344/original/open-uri20200528-4-ultpe2?1590631399",
-      "caption": "Bonify是应用开发公司项目公开展示素材",
-      "alt": "how-we-bootstrapped-our-app-and-increased-revenue",
+      "caption": "Bonify是应用开发公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "Bonify是应用开发公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-bootstrapped-our-app-and-increased-revenue",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/006/345/original/open-uri20200528-4-bwalag?1590631400",
-      "caption": "Bonify是应用开发公司项目公开展示素材",
-      "alt": "how-we-bootstrapped-our-app-and-increased-revenue",
+      "caption": "Bonify是应用开发公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "Bonify是应用开发公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-bootstrapped-our-app-and-increased-revenue",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "Bonify是应用开发公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-bootstrapped-our-app-and-increased-revenue",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "Bonify是应用开发公司项目公开展示素材",
-      "alt": "Bonify是应用开发公司项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-bootstrapped-our-app-and-increased-revenue",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2160,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/0hhf2kwvl8m0w0fr7iqgk3rsmnis",
-      "caption": "15岁创业者用AI帮助散户做投资决策公开案例主图",
-      "alt": "15岁创业者用AI帮助散户做投资决策案例图片",
+      "caption": "15岁创业者用AI帮助散户做投资决策：月入6K美元",
+      "alt": "15岁创业者用AI帮助散户做投资决策：月入6K美元",
       "sourceUrl": "https://www.starterstory.com/stories/segmentize",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/787/original/open-uri20230923-60-1ma6sns?1695485441",
-      "caption": "15岁创业者用AI帮助散户做投资决策项目公开展示素材",
-      "alt": "segmentize",
+      "caption": "15岁创业者用AI帮助散户做投资决策：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "15岁创业者用AI帮助散户做投资决策：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/segmentize",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/788/original/open-uri20230923-60-az1tbx?1695485442",
-      "caption": "15岁创业者用AI帮助散户做投资决策项目公开展示素材",
-      "alt": "segmentize",
+      "caption": "15岁创业者用AI帮助散户做投资决策：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "15岁创业者用AI帮助散户做投资决策：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/segmentize",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/789/original/open-uri20230923-60-1aj5it0?1695485443",
-      "caption": "15岁创业者用AI帮助散户做投资决策项目公开展示素材",
-      "alt": "segmentize",
+      "caption": "15岁创业者用AI帮助散户做投资决策：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "15岁创业者用AI帮助散户做投资决策：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/segmentize",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "15岁创业者用AI帮助散户做投资决策项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/segmentize",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2163,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

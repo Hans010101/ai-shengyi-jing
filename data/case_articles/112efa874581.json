@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/1h7g67zxqhi0mys2qt6a8onw3vog",
-      "caption": "Nylas是邮件与日历API平台公开案例主图",
-      "alt": "Nylas是邮件与日历API平台案例图片",
+      "caption": "Nylas是邮件与日历API平台：通过开发者订阅API调用量赚钱",
+      "alt": "Nylas是邮件与日历API平台：通过开发者订阅API调用量赚钱",
       "sourceUrl": "https://www.starterstory.com/businesses/the-nylas-api-email-sync-calendar-sync-and-contacts-sync-from-any-inbox-in-the-world",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "Nylas是邮件与日历API平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/the-nylas-api-email-sync-calendar-sync-and-contacts-sync-from-any-inbox-in-the-world",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/9qw5ah7y9z9awlj6mv7o0pxkqnj0",
-      "caption": "Nylas是邮件与日历API平台项目公开展示素材",
-      "alt": "Nylas logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/the-nylas-api-email-sync-calendar-sync-and-contacts-sync-from-any-inbox-in-the-world",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/yx2744xb9ctn0wrxfsbrflo76ils/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "Nylas是邮件与日历API平台项目公开展示素材",
-      "alt": "Christine Spang",
-      "sourceUrl": "https://www.starterstory.com/businesses/the-nylas-api-email-sync-calendar-sync-and-contacts-sync-from-any-inbox-in-the-world",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/wf05fi78r3bkadjpbwhtkha8hem6/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "Nylas是邮件与日历API平台项目公开展示素材",
-      "alt": "Stripe",
-      "sourceUrl": "https://www.starterstory.com/businesses/the-nylas-api-email-sync-calendar-sync-and-contacts-sync-from-any-inbox-in-the-world",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2251,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

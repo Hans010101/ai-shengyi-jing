@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/5vkxcwpyg0t7pyftqd9ndkx1m5hq",
-      "caption": "男士风格博客公开案例主图",
-      "alt": "男士风格博客案例图片",
+      "caption": "男士风格博客：通过广告和联盟营销变现",
+      "alt": "男士风格博客：通过广告和联盟营销变现",
       "sourceUrl": "https://www.starterstory.com/stories/how-a-developer-grew-his-blog-to-150-000-visitors-per-month",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/912/original/open-uri20190201-4-1t8av8k?1549019967",
-      "caption": "男士风格博客项目公开展示素材",
-      "alt": "how-a-developer-grew-his-blog-to-150-000-visitors-per-month",
+      "caption": "男士风格博客：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "男士风格博客：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-a-developer-grew-his-blog-to-150-000-visitors-per-month",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/913/original/open-uri20190201-4-1stgi2r?1549019968",
-      "caption": "男士风格博客项目公开展示素材",
-      "alt": "how-a-developer-grew-his-blog-to-150-000-visitors-per-month",
+      "caption": "男士风格博客：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "男士风格博客：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-a-developer-grew-his-blog-to-150-000-visitors-per-month",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/914/original/open-uri20190201-4-1ehk03e?1549019968",
-      "caption": "男士风格博客项目公开展示素材",
-      "alt": "how-a-developer-grew-his-blog-to-150-000-visitors-per-month",
+      "caption": "男士风格博客：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "男士风格博客：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-a-developer-grew-his-blog-to-150-000-visitors-per-month",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/915/original/open-uri20190201-4-goipxv?1549019969",
-      "caption": "男士风格博客项目公开展示素材",
-      "alt": "how-a-developer-grew-his-blog-to-150-000-visitors-per-month",
-      "sourceUrl": "https://www.starterstory.com/stories/how-a-developer-grew-his-blog-to-150-000-visitors-per-month",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2167,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

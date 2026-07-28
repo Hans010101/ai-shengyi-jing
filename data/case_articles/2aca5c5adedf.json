@@ -122,56 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/azqktpvh1l462yzrd5oh7c5mw7nr",
-      "caption": "播客制作营销机构公开案例主图",
-      "alt": "播客制作营销机构案例图片",
+      "caption": "播客制作营销机构：通过提升客户价值实现月入1.6万美元",
+      "alt": "播客制作营销机构：通过提升客户价值实现月入1.6万美元",
       "sourceUrl": "https://www.starterstory.com/stories/how-increasing-customer-value-doubled-our-monthly-revenue",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/006/533/original/open-uri20200606-4-puh8wn?1591448547",
-      "caption": "播客制作营销机构项目公开展示素材",
-      "alt": "how-increasing-customer-value-doubled-our-monthly-revenue",
+      "caption": "播客制作营销机构：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "播客制作营销机构：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-increasing-customer-value-doubled-our-monthly-revenue",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "播客制作营销机构项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-increasing-customer-value-doubled-our-monthly-revenue",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/s3thrrqbjem3qler43fak7dop7v2",
-      "caption": "播客制作营销机构项目公开展示素材",
-      "alt": "播客制作营销机构项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-increasing-customer-value-doubled-our-monthly-revenue",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/9pgfik1nc0uj7b4qq9x37yofgvoj",
-      "caption": "播客制作营销机构项目公开展示素材",
-      "alt": "播客制作营销机构项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-increasing-customer-value-doubled-our-monthly-revenue",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/5nqic3dcjfqf0fzgfffpdz136dt7",
-      "caption": "播客制作营销机构项目公开展示素材",
-      "alt": "播客制作营销机构项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-increasing-customer-value-doubled-our-monthly-revenue",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2180,
-    "mediaCount": 6
+    "mediaCount": 2
   }
 }

@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/srtbgoqg7w8bc8oh5nvk901zy4a3",
-      "caption": "DealRoom是并购交易管理SaaS公开案例主图",
-      "alt": "DealRoom是并购交易管理SaaS案例图片",
+      "caption": "DealRoom是并购交易管理SaaS：按项目收费",
+      "alt": "DealRoom是并购交易管理SaaS：按项目收费",
       "sourceUrl": "https://www.starterstory.com/businesses/dealroom-641620",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "DealRoom是并购交易管理SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/dealroom-641620",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/jvoxo1g7adfvc6x6plv66h1v7mjw",
-      "caption": "DealRoom是并购交易管理SaaS项目公开展示素材",
-      "alt": "DealRoom logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/dealroom-641620",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/qgf1k656zmtl5e0phufw4c2hoq2b/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "DealRoom是并购交易管理SaaS项目公开展示素材",
-      "alt": "Kison Patel",
-      "sourceUrl": "https://www.starterstory.com/businesses/dealroom-641620",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/or09f2lfiia7lnht2q5ydyd20833/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "DealRoom是并购交易管理SaaS项目公开展示素材",
-      "alt": "DealRoom是并购交易管理SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/businesses/dealroom-641620",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2252,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

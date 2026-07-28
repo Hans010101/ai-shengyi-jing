@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/dzmym6uvw56k1w1rhzhegr3xkd01",
-      "caption": "B2B白标投资平台公开案例主图",
-      "alt": "B2B白标投资平台案例图片",
+      "caption": "B2B白标投资平台：帮助金融机构发行私募股权证券，收取服务费",
+      "alt": "B2B白标投资平台：帮助金融机构发行私募股权证券，收取服务费",
       "sourceUrl": "https://www.starterstory.com/stories/ameetee",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/430/original/open-uri20240316-53-rfh2nb?1710574326",
-      "caption": "B2B白标投资平台项目公开展示素材",
-      "alt": "ameetee",
+      "caption": "B2B白标投资平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "B2B白标投资平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/ameetee",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/431/original/open-uri20240316-53-kq7mo0?1710574327",
-      "caption": "B2B白标投资平台项目公开展示素材",
-      "alt": "ameetee",
+      "caption": "B2B白标投资平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "B2B白标投资平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/ameetee",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/432/original/open-uri20240316-53-14d8q4i?1710574328",
-      "caption": "B2B白标投资平台项目公开展示素材",
-      "alt": "ameetee",
+      "caption": "B2B白标投资平台：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "B2B白标投资平台：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/ameetee",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/433/original/open-uri20240316-53-1sz98yq?1710574328",
-      "caption": "B2B白标投资平台项目公开展示素材",
-      "alt": "ameetee",
-      "sourceUrl": "https://www.starterstory.com/stories/ameetee",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2176,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

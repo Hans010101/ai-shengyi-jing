@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/1qfcw4egagp06oe7aevw0q0f548g",
-      "caption": "天然护肤品牌公开案例主图",
-      "alt": "天然护肤品牌案例图片",
+      "caption": "天然护肤品牌：通过线上销售赚取月收入2000美元",
+      "alt": "天然护肤品牌：通过线上销售赚取月收入2000美元",
       "sourceUrl": "https://www.starterstory.com/stories/aura-sensory-4d94fcea-9ce5-4eef-9ee7-701e22dc2da9",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/536/original/open-uri20221210-12-1ecthtx?1670669187",
-      "caption": "天然护肤品牌项目公开展示素材",
-      "alt": "aura-sensory-4d94fcea-9ce5-4eef-9ee7-701e22dc2da9",
+      "caption": "天然护肤品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "天然护肤品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/aura-sensory-4d94fcea-9ce5-4eef-9ee7-701e22dc2da9",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/537/original/open-uri20221210-12-z62ggm?1670669188",
-      "caption": "天然护肤品牌项目公开展示素材",
-      "alt": "aura-sensory-4d94fcea-9ce5-4eef-9ee7-701e22dc2da9",
+      "caption": "天然护肤品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "天然护肤品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/aura-sensory-4d94fcea-9ce5-4eef-9ee7-701e22dc2da9",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "天然护肤品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/aura-sensory-4d94fcea-9ce5-4eef-9ee7-701e22dc2da9",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/bleg7ym47u9i3fco1c64kivl3030",
-      "caption": "天然护肤品牌项目公开展示素材",
-      "alt": "天然护肤品牌项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/aura-sensory-4d94fcea-9ce5-4eef-9ee7-701e22dc2da9",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2224,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

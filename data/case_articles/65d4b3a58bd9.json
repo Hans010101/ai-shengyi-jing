@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/kd7d1v1aubb8rtw0vcid0yoxu65y",
-      "caption": "职业咨询平台公开案例主图",
-      "alt": "职业咨询平台案例图片",
+      "caption": "职业咨询平台：通过提供付费面试辅导和职业规划服务盈利",
+      "alt": "职业咨询平台：通过提供付费面试辅导和职业规划服务盈利",
       "sourceUrl": "https://www.starterstory.com/stories/instamentor",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/637/original/open-uri20220529-24-xpaz7s?1653824416",
-      "caption": "职业咨询平台项目公开展示素材",
-      "alt": "instamentor",
+      "caption": "职业咨询平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "职业咨询平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/instamentor",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/638/original/open-uri20220529-24-lfj766?1653824417",
-      "caption": "职业咨询平台项目公开展示素材",
-      "alt": "instamentor",
+      "caption": "职业咨询平台：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "职业咨询平台：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/instamentor",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/639/original/open-uri20220529-24-1xer2v4?1653824417",
-      "caption": "职业咨询平台项目公开展示素材",
-      "alt": "instamentor",
+      "caption": "职业咨询平台：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "职业咨询平台：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/instamentor",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/640/original/open-uri20220529-24-e2lf81?1653824418",
-      "caption": "职业咨询平台项目公开展示素材",
-      "alt": "instamentor",
-      "sourceUrl": "https://www.starterstory.com/stories/instamentor",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2137,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/4yefnvmz4wg9ga05mu5445cd452a",
-      "caption": "辣椒酱品牌公开案例主图",
-      "alt": "辣椒酱品牌案例图片",
+      "caption": "辣椒酱品牌：通过线上电商和线下门店销售实现营收",
+      "alt": "辣椒酱品牌：通过线上电商和线下门店销售实现营收",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-our-sales-online-and-through-our-storefronts",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/273/original/open-uri20201007-4-epka3w?1602096536",
-      "caption": "辣椒酱品牌项目公开展示素材",
-      "alt": "how-we-increased-our-sales-online-and-at-storefronts",
+      "caption": "辣椒酱品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "辣椒酱品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-our-sales-online-and-through-our-storefronts",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "辣椒酱品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-our-sales-online-and-through-our-storefronts",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c303bjznv93yxnh0xxz7t4vfedzf",
-      "caption": "辣椒酱品牌项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-our-sales-online-and-through-our-storefronts",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "辣椒酱品牌项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-our-sales-online-and-through-our-storefronts",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2220,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/v5xdm0zu2pn4kwsbp73s93x5oiy8",
-      "caption": "提供职业健康安全培训公开案例主图",
-      "alt": "提供职业健康安全培训案例图片",
+      "caption": "提供职业健康安全培训：通过线上课程和认证收费",
+      "alt": "提供职业健康安全培训：通过线上课程和认证收费",
       "sourceUrl": "https://www.starterstory.com/stories/alertforce",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/491/original/open-uri20231210-48-172vbvf?1702189149",
-      "caption": "提供职业健康安全培训项目公开展示素材",
-      "alt": "alertforce",
+      "caption": "提供职业健康安全培训：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "提供职业健康安全培训：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/alertforce",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "提供职业健康安全培训项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/alertforce",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/glia3fse1raug40hg8lpkg3rg09w",
-      "caption": "提供职业健康安全培训项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/alertforce",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/2r0bmvunp6hplaeyu1t5rm1lcgma",
-      "caption": "提供职业健康安全培训项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/alertforce",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2134,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

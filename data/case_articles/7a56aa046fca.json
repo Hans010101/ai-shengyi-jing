@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/nra4atn2gpr7kp3t8lzt3m6ny75t",
-      "caption": "开源会员管理SaaS公开案例主图",
-      "alt": "开源会员管理SaaS案例图片",
+      "caption": "开源会员管理SaaS：年入6000万美元，通过订阅和增值服务盈利",
+      "alt": "开源会员管理SaaS：年入6000万美元，通过订阅和增值服务盈利",
       "sourceUrl": "https://www.starterstory.com/stories/tendenci",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/628/original/open-uri20220409-12-y4z9hc?1649522979",
-      "caption": "开源会员管理SaaS项目公开展示素材",
-      "alt": "tendenci",
+      "caption": "开源会员管理SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "开源会员管理SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/tendenci",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/629/original/open-uri20220409-12-1oqxycl?1649522979",
-      "caption": "开源会员管理SaaS项目公开展示素材",
-      "alt": "tendenci",
+      "caption": "开源会员管理SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "开源会员管理SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/tendenci",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/630/original/open-uri20220409-12-amxzlb?1649522980",
-      "caption": "开源会员管理SaaS项目公开展示素材",
-      "alt": "tendenci",
+      "caption": "开源会员管理SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "开源会员管理SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/tendenci",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/631/original/open-uri20220409-12-s843ru?1649522980",
-      "caption": "开源会员管理SaaS项目公开展示素材",
-      "alt": "tendenci",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/ZORNC7NI39o",
+      "watchUrl": "https://www.youtube.com/watch?v=ZORNC7NI39o",
+      "caption": "开源会员管理SaaS资料中提及的视频：Schipul's 10th Anniversary",
+      "alt": "Schipul's 10th Anniversary",
       "sourceUrl": "https://www.starterstory.com/stories/tendenci",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/ZORNC7NI39o/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

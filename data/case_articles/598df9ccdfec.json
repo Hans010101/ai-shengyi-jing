@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/v8ld2hl88oeslivexi01dggcxe9g",
-      "caption": "面向企业的工时追踪SaaS公开案例主图",
-      "alt": "面向企业的工时追踪SaaS案例图片",
+      "caption": "面向企业的工时追踪SaaS：按用户数订阅收费",
+      "alt": "面向企业的工时追踪SaaS：按用户数订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/hms-a59aae5d-f599-488f-9e71-230aa9f487ce",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/703/original/open-uri20240103-48-139cct5?1704281415",
-      "caption": "面向企业的工时追踪SaaS项目公开展示素材",
-      "alt": "hms-a59aae5d-f599-488f-9e71-230aa9f487ce",
+      "caption": "面向企业的工时追踪SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "面向企业的工时追踪SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/hms-a59aae5d-f599-488f-9e71-230aa9f487ce",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/704/original/open-uri20240103-48-1ahybia?1704281416",
-      "caption": "面向企业的工时追踪SaaS项目公开展示素材",
-      "alt": "hms-a59aae5d-f599-488f-9e71-230aa9f487ce",
+      "caption": "面向企业的工时追踪SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "面向企业的工时追踪SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/hms-a59aae5d-f599-488f-9e71-230aa9f487ce",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/705/original/open-uri20240103-48-1ky6xsm?1704281417",
-      "caption": "面向企业的工时追踪SaaS项目公开展示素材",
-      "alt": "hms-a59aae5d-f599-488f-9e71-230aa9f487ce",
+      "caption": "面向企业的工时追踪SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "面向企业的工时追踪SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/hms-a59aae5d-f599-488f-9e71-230aa9f487ce",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "面向企业的工时追踪SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/hms-a59aae5d-f599-488f-9e71-230aa9f487ce",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2276,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

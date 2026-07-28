@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/1eqrycqwl2xoh9emgz4780nbrhbx",
-      "caption": "妈妈博主转型在线课程公开案例主图",
-      "alt": "妈妈博主转型在线课程案例图片",
+      "caption": "妈妈博主转型在线课程：年入19.2万美元",
+      "alt": "妈妈博主转型在线课程：年入19.2万美元",
       "sourceUrl": "https://www.starterstory.com/stories/pulling-curls",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/448/original/open-uri20230310-63-15p92gr?1678443694",
-      "caption": "妈妈博主转型在线课程项目公开展示素材",
-      "alt": "pulling-curls",
+      "caption": "妈妈博主转型在线课程：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "妈妈博主转型在线课程：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/pulling-curls",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/449/original/open-uri20230310-63-19mz4rj?1678443695",
-      "caption": "妈妈博主转型在线课程项目公开展示素材",
-      "alt": "pulling-curls",
+      "caption": "妈妈博主转型在线课程：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "妈妈博主转型在线课程：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/pulling-curls",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "妈妈博主转型在线课程项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/pulling-curls",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/1s7m5fyj6w1je4ry8bo80hv3i7n3",
-      "caption": "妈妈博主转型在线课程项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/pulling-curls",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2136,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

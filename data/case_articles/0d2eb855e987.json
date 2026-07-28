@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/43x4dv276x0i4oni2nfk4yub59t9",
-      "caption": "学生二手物品交易平台公开案例主图",
-      "alt": "学生二手物品交易平台案例图片",
+      "caption": "学生二手物品交易平台：通过交易佣金盈利",
+      "alt": "学生二手物品交易平台：通过交易佣金盈利",
       "sourceUrl": "https://www.starterstory.com/stories/clankart",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/732/original/open-uri20221227-24-15hrif4?1672115075",
-      "caption": "学生二手物品交易平台项目公开展示素材",
-      "alt": "clankart",
+      "caption": "学生二手物品交易平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "学生二手物品交易平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/clankart",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/733/original/open-uri20221227-24-d8fncz?1672115077",
-      "caption": "学生二手物品交易平台项目公开展示素材",
-      "alt": "clankart",
+      "caption": "学生二手物品交易平台：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "学生二手物品交易平台：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/clankart",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/734/original/open-uri20221227-24-1u1j9bu?1672115078",
-      "caption": "学生二手物品交易平台项目公开展示素材",
-      "alt": "clankart",
+      "caption": "学生二手物品交易平台：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "学生二手物品交易平台：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/clankart",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/735/original/open-uri20221227-24-ybz417?1672115078",
-      "caption": "学生二手物品交易平台项目公开展示素材",
-      "alt": "clankart",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/yEVy3WBGmh0",
+      "watchUrl": "https://www.youtube.com/watch?v=yEVy3WBGmh0",
+      "caption": "学生二手物品交易平台资料中提及的视频：Sell your used books for actual money at Clankart.",
+      "alt": "Sell your used books for actual money at Clankart.",
       "sourceUrl": "https://www.starterstory.com/stories/clankart",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/yEVy3WBGmh0/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

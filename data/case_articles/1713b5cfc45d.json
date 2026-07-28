@@ -121,57 +121,43 @@
   "media": [
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "专注DJI无人机芯片级维修项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/reboot-hub",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/560833ccb59d1912",
-      "caption": "专注DJI无人机芯片级维修项目公开展示素材",
+      "caption": "专注DJI无人机芯片级维修：创始人、核心产品与品牌起点相关原始配图",
       "alt": "Reboot Hub Founder, Thomas Lau",
       "sourceUrl": "https://www.starterstory.com/stories/reboot-hub",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/9zne2sh4pj10cy056wcuwb5vap5n",
-      "caption": "专注DJI无人机芯片级维修项目公开展示素材",
-      "alt": "article",
+      "caption": "专注DJI无人机芯片级维修：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "专注DJI无人机芯片级维修：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/reboot-hub",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/405521a1ad1c943d",
-      "caption": "专注DJI无人机芯片级维修项目公开展示素材",
+      "caption": "专注DJI无人机芯片级维修：产品上线与首次发布相关原始配图（第3张）",
       "alt": "The first Trustpilot review for Reboot Hub",
       "sourceUrl": "https://www.starterstory.com/stories/reboot-hub",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/1f880950e9327803",
-      "caption": "专注DJI无人机芯片级维修项目公开展示素材",
+      "caption": "专注DJI无人机芯片级维修：创业复盘与关键经验相关原始配图（第4张）",
       "alt": "Thomas and his mother",
       "sourceUrl": "https://www.starterstory.com/stories/reboot-hub",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/pjx9pa6cbv0qvix8ndzej9kst55y",
-      "caption": "专注DJI无人机芯片级维修项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/reboot-hub",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2208,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

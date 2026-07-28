@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/dmevjk5l2g89bvu7dngiu0hwnwlr",
-      "caption": "棒球主题Substack付费通讯公开案例主图",
-      "alt": "棒球主题Substack付费通讯案例图片",
+      "caption": "棒球主题Substack付费通讯：年营收20万美元",
+      "alt": "棒球主题Substack付费通讯：年营收20万美元",
       "sourceUrl": "https://www.starterstory.com/stories/cup-of-coffee-by-craig-calcaterra",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/679/original/open-uri20220529-12-cxr5bh?1653838629",
-      "caption": "棒球主题Substack付费通讯项目公开展示素材",
-      "alt": "cup-of-coffee-by-craig-calcaterra",
+      "caption": "棒球主题Substack付费通讯：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "棒球主题Substack付费通讯：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/cup-of-coffee-by-craig-calcaterra",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/680/original/open-uri20220529-12-9hah3k?1653838629",
-      "caption": "棒球主题Substack付费通讯项目公开展示素材",
-      "alt": "cup-of-coffee-by-craig-calcaterra",
+      "caption": "棒球主题Substack付费通讯：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "棒球主题Substack付费通讯：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/cup-of-coffee-by-craig-calcaterra",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/681/original/open-uri20220529-12-18v0ich?1653838630",
-      "caption": "棒球主题Substack付费通讯项目公开展示素材",
-      "alt": "cup-of-coffee-by-craig-calcaterra",
+      "caption": "棒球主题Substack付费通讯：当前经营状态与下一步规划相关原始配图（第3张）",
+      "alt": "棒球主题Substack付费通讯：当前经营状态与下一步规划相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/cup-of-coffee-by-craig-calcaterra",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "棒球主题Substack付费通讯项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/cup-of-coffee-by-craig-calcaterra",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2209,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

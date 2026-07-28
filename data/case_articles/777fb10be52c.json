@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/u06867wxcxq4kuwex70imlcsrbgh",
-      "caption": "UX设计数字代理公开案例主图",
-      "alt": "UX设计数字代理案例图片",
+      "caption": "UX设计数字代理：通过提供专业用户体验设计服务收费",
+      "alt": "UX设计数字代理：通过提供专业用户体验设计服务收费",
       "sourceUrl": "https://www.starterstory.com/stories/createape",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/036/original/open-uri20230201-12-15966ho?1675256947",
-      "caption": "UX设计数字代理项目公开展示素材",
-      "alt": "createape",
+      "caption": "UX设计数字代理：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "UX设计数字代理：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/createape",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/037/original/open-uri20230201-12-fi9j0c?1675256947",
-      "caption": "UX设计数字代理项目公开展示素材",
-      "alt": "createape",
+      "caption": "UX设计数字代理：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "UX设计数字代理：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/createape",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/038/original/open-uri20230201-12-sjry3v?1675256948",
-      "caption": "UX设计数字代理项目公开展示素材",
-      "alt": "createape",
+      "caption": "UX设计数字代理：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "UX设计数字代理：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/createape",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/039/original/open-uri20230201-12-zgxrhv?1675256949",
-      "caption": "UX设计数字代理项目公开展示素材",
-      "alt": "createape",
-      "sourceUrl": "https://www.starterstory.com/stories/createape",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2250,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

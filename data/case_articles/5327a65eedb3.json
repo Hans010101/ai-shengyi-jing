@@ -122,47 +122,44 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/16eomoc1iy9vvmmr8mled9rwjjm2",
-      "caption": "为企业提供定制AI聊天机器人公开案例主图",
-      "alt": "为企业提供定制AI聊天机器人案例图片",
+      "caption": "为企业提供定制AI聊天机器人：按订阅收费",
+      "alt": "为企业提供定制AI聊天机器人：按订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/chatbase-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为企业提供定制AI聊天机器人项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/chatbase-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/xom87z330w1x0kykfna4excaig2i/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "为企业提供定制AI聊天机器人项目公开展示素材",
-      "alt": "为企业提供定制AI聊天机器人项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/chatbase-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cef30a1063519785",
-      "caption": "为企业提供定制AI聊天机器人项目公开展示素材",
-      "alt": "article",
+      "caption": "为企业提供定制AI聊天机器人：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为企业提供定制AI聊天机器人：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/chatbase-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/70b01143220d651b",
-      "caption": "为企业提供定制AI聊天机器人项目公开展示素材",
-      "alt": "article",
+      "caption": "为企业提供定制AI聊天机器人：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "为企业提供定制AI聊天机器人：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/chatbase-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/E_sPvPHwpuk",
+      "watchUrl": "https://www.youtube.com/watch?v=E_sPvPHwpuk",
+      "caption": "为企业提供定制AI聊天机器人资料中提及的视频：How I Built A $1M Business in 117 Days",
+      "alt": "How I Built A $1M Business in 117 Days",
+      "sourceUrl": "https://www.starterstory.com/stories/chatbase-breakdown",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/E_sPvPHwpuk/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +174,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2205,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

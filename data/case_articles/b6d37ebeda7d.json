@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/5obtt5dsv50om6wajnrs63ztxi84",
-      "caption": "线上道德商店公开案例主图",
-      "alt": "线上道德商店案例图片",
+      "caption": "线上道德商店：销售有故事的可持续产品，月营收6K美元",
+      "alt": "线上道德商店：销售有故事的可持续产品，月营收6K美元",
       "sourceUrl": "https://www.starterstory.com/stories/temples-and-markets-cd5b7866-9a63-4973-a90f-d271418dff67",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/736/original/open-uri20230405-51-1y5ulyq?1680670045",
-      "caption": "线上道德商店项目公开展示素材",
-      "alt": "temples-and-markets-cd5b7866-9a63-4973-a90f-d271418dff67",
+      "caption": "线上道德商店：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "线上道德商店：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/temples-and-markets-cd5b7866-9a63-4973-a90f-d271418dff67",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/737/original/open-uri20230405-51-18ang0a?1680670046",
-      "caption": "线上道德商店项目公开展示素材",
-      "alt": "temples-and-markets-cd5b7866-9a63-4973-a90f-d271418dff67",
+      "caption": "线上道德商店：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "线上道德商店：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/temples-and-markets-cd5b7866-9a63-4973-a90f-d271418dff67",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/738/original/open-uri20230405-51-epen7l?1680670046",
-      "caption": "线上道德商店项目公开展示素材",
-      "alt": "temples-and-markets-cd5b7866-9a63-4973-a90f-d271418dff67",
+      "caption": "线上道德商店：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "线上道德商店：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/temples-and-markets-cd5b7866-9a63-4973-a90f-d271418dff67",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "线上道德商店项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/temples-and-markets-cd5b7866-9a63-4973-a90f-d271418dff67",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2135,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

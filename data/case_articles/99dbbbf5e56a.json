@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/x50sopkhvmkseeouqxpolh123vuf",
-      "caption": "内容创作者公开案例主图",
-      "alt": "内容创作者案例图片",
+      "caption": "内容创作者：通过博客和付费通讯实现多元化收入",
+      "alt": "内容创作者：通过博客和付费通讯实现多元化收入",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-other-sources-of-income-to-increase-earnings",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/570/original/open-uri20210611-3-a60n8t?1623375841",
-      "caption": "内容创作者项目公开展示素材",
-      "alt": "how-i-started-other-sources-of-income-to-increase-earnings",
+      "caption": "内容创作者：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "内容创作者：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-other-sources-of-income-to-increase-earnings",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "内容创作者项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-started-other-sources-of-income-to-increase-earnings",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/7e9sq61cb3ys7k4x2v95afk99f38",
-      "caption": "内容创作者项目公开展示素材",
-      "alt": "内容创作者项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-started-other-sources-of-income-to-increase-earnings",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/8fse57tygi9da1j5ry220g736b65",
-      "caption": "内容创作者项目公开展示素材",
-      "alt": "内容创作者项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-started-other-sources-of-income-to-increase-earnings",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2165,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

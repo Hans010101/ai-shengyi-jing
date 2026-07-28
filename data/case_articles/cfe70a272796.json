@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/rcwho0f84286z9p8b0gyrths3gt8",
-      "caption": "游戏短视频创作平台公开案例主图",
-      "alt": "游戏短视频创作平台案例图片",
+      "caption": "游戏短视频创作平台：结合Twitch和TikTok，通过广告和订阅变现",
+      "alt": "游戏短视频创作平台：结合Twitch和TikTok，通过广告和订阅变现",
       "sourceUrl": "https://www.starterstory.com/stories/allstar",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/454/original/open-uri20220402-3-1n8dy47?1648873184",
-      "caption": "游戏短视频创作平台项目公开展示素材",
-      "alt": "allstar",
+      "caption": "游戏短视频创作平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "游戏短视频创作平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/allstar",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "游戏短视频创作平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/allstar",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/7p0wsklnu5v9740xvwcwiknproq8",
-      "caption": "游戏短视频创作平台项目公开展示素材",
-      "alt": "游戏短视频创作平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/allstar",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n7rx5t5gwzi2wjlwym1jtpcjpqbf",
-      "caption": "游戏短视频创作平台项目公开展示素材",
-      "alt": "游戏短视频创作平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/allstar",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2213,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

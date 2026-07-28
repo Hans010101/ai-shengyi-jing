@@ -121,57 +121,33 @@
   "media": [
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "浏览器内国际电话应用项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/yadaphone",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/c44ccb4f25b6d71b",
-      "caption": "浏览器内国际电话应用项目公开展示素材",
+      "caption": "浏览器内国际电话应用：创始人、核心产品与品牌起点相关原始配图",
       "alt": "My image",
       "sourceUrl": "https://www.starterstory.com/stories/yadaphone",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/utb0w7zq7xauk48k4tpxhc6eoc6h",
-      "caption": "浏览器内国际电话应用项目公开展示素材",
-      "alt": "article",
+      "caption": "浏览器内国际电话应用：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "浏览器内国际电话应用：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/yadaphone",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/2ef864fc9c644350",
-      "caption": "浏览器内国际电话应用项目公开展示素材",
+      "caption": "浏览器内国际电话应用：获客渠道与客户留存相关原始配图（第3张）",
       "alt": "Me in a local Austrian startup magazine",
       "sourceUrl": "https://www.starterstory.com/stories/yadaphone",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/f7mvbl2qoqohnbgzv75u3n9yzi3r",
-      "caption": "浏览器内国际电话应用项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/yadaphone",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/as5ogj5hecrvjjpu88omynjyd4bt",
-      "caption": "浏览器内国际电话应用项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/yadaphone",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2182,
-    "mediaCount": 6
+    "mediaCount": 3
   }
 }

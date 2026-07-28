@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/gcumttb3ujela5y5xgu4r2wjf2o5",
-      "caption": "新西兰精品咖啡订阅服务公开案例主图",
-      "alt": "新西兰精品咖啡订阅服务案例图片",
+      "caption": "新西兰精品咖啡订阅服务：按月订购盈利",
+      "alt": "新西兰精品咖啡订阅服务：按月订购盈利",
       "sourceUrl": "https://www.starterstory.com/stories/fernweh",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/680/original/open-uri20220410-24-1bmedor?1649596524",
-      "caption": "新西兰精品咖啡订阅服务项目公开展示素材",
-      "alt": "fernweh",
+      "caption": "新西兰精品咖啡订阅服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "新西兰精品咖啡订阅服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/fernweh",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/681/original/open-uri20220410-24-vkjn90?1649596524",
-      "caption": "新西兰精品咖啡订阅服务项目公开展示素材",
-      "alt": "fernweh",
+      "caption": "新西兰精品咖啡订阅服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "新西兰精品咖啡订阅服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/fernweh",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/682/original/open-uri20220410-24-m2qlxh?1649596525",
-      "caption": "新西兰精品咖啡订阅服务项目公开展示素材",
-      "alt": "fernweh",
+      "caption": "新西兰精品咖啡订阅服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "新西兰精品咖啡订阅服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/fernweh",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "新西兰精品咖啡订阅服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/fernweh",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2198,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

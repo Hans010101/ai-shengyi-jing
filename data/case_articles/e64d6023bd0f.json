@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/bfsoq25qm7jc5go92pxmtnju2po5",
-      "caption": "海空救援信号弹SaaS公开案例主图",
-      "alt": "海空救援信号弹SaaS案例图片",
+      "caption": "海空救援信号弹SaaS：通过硬件+软件订阅服务收费",
+      "alt": "海空救援信号弹SaaS：通过硬件+软件订阅服务收费",
       "sourceUrl": "https://www.starterstory.com/stories/see-rescue-corporation",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/055/original/open-uri20220321-3-17oomt4?1647875652",
-      "caption": "海空救援信号弹SaaS项目公开展示素材",
-      "alt": "see-rescue-corporation",
+      "caption": "海空救援信号弹SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "海空救援信号弹SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/see-rescue-corporation",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/056/original/open-uri20220321-3-f4bdom?1647875652",
-      "caption": "海空救援信号弹SaaS项目公开展示素材",
-      "alt": "see-rescue-corporation",
+      "caption": "海空救援信号弹SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "海空救援信号弹SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/see-rescue-corporation",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "海空救援信号弹SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/see-rescue-corporation",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/3e55ef5432936b90",
-      "caption": "海空救援信号弹SaaS项目公开展示素材",
-      "alt": "article",
+      "caption": "海空救援信号弹SaaS：创业复盘与关键经验相关原始配图（第3张）",
+      "alt": "海空救援信号弹SaaS：创业复盘与关键经验相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/see-rescue-corporation",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2175,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

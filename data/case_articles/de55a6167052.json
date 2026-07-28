@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/h5jqa6t9outrbx2janqvktyck76n",
-      "caption": "AI+人工音频转写服务公开案例主图",
-      "alt": "AI+人工音频转写服务案例图片",
+      "caption": "AI+人工音频转写服务：按分钟收费",
+      "alt": "AI+人工音频转写服务：按分钟收费",
       "sourceUrl": "https://www.starterstory.com/stories/scribie-audio-video-transcription-service",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/518/original/open-uri20220711-12-5y68hw?1657548550",
-      "caption": "AI+人工音频转写服务项目公开展示素材",
-      "alt": "scribie-audio-video-transcription-service",
+      "caption": "AI+人工音频转写服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI+人工音频转写服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/scribie-audio-video-transcription-service",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/519/original/open-uri20220711-12-thmt03?1657548551",
-      "caption": "AI+人工音频转写服务项目公开展示素材",
-      "alt": "scribie-audio-video-transcription-service",
+      "caption": "AI+人工音频转写服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI+人工音频转写服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/scribie-audio-video-transcription-service",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI+人工音频转写服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/scribie-audio-video-transcription-service",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "AI+人工音频转写服务项目公开展示素材",
-      "alt": "AI+人工音频转写服务项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/scribie-audio-video-transcription-service",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2283,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

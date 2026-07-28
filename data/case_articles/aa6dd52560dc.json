@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/0ttbe6efa1jc1q3v5w3gexu6xjcu",
-      "caption": "自制胡须蜡公开案例主图",
-      "alt": "自制胡须蜡案例图片",
+      "caption": "自制胡须蜡：打造男士理容品牌，月入10万美元",
+      "alt": "自制胡须蜡：打造男士理容品牌，月入10万美元",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-turned-a-moustache-wax-recipe-into-a-million-dollar-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/394/original/open-uri20190411-4-s6rdfw?1554971954",
-      "caption": "自制胡须蜡项目公开展示素材",
-      "alt": "how-i-turned-a-moustache-wax-recipe-into-a-million-dollar-business",
+      "caption": "自制胡须蜡：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "自制胡须蜡：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-turned-a-moustache-wax-recipe-into-a-million-dollar-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/395/original/open-uri20190411-4-1bnvudu?1554971955",
-      "caption": "自制胡须蜡项目公开展示素材",
-      "alt": "how-i-turned-a-moustache-wax-recipe-into-a-million-dollar-business",
+      "caption": "自制胡须蜡：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "自制胡须蜡：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-turned-a-moustache-wax-recipe-into-a-million-dollar-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/396/original/open-uri20190411-4-1psckue?1554971955",
-      "caption": "自制胡须蜡项目公开展示素材",
-      "alt": "how-i-turned-a-moustache-wax-recipe-into-a-million-dollar-business",
+      "caption": "自制胡须蜡：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "自制胡须蜡：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-turned-a-moustache-wax-recipe-into-a-million-dollar-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/397/original/open-uri20190411-4-16iod7h?1554971955",
-      "caption": "自制胡须蜡项目公开展示素材",
-      "alt": "how-i-turned-a-moustache-wax-recipe-into-a-million-dollar-business",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-turned-a-moustache-wax-recipe-into-a-million-dollar-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2204,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

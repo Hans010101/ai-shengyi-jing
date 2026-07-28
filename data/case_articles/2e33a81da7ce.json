@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/hy906579mblcfkhmf42zzbyusjir",
-      "caption": "瑜伽工作旅行平台公开案例主图",
-      "alt": "瑜伽工作旅行平台案例图片",
+      "caption": "瑜伽工作旅行平台：连接全球机会，收取会员费和佣金",
+      "alt": "瑜伽工作旅行平台：连接全球机会，收取会员费和佣金",
       "sourceUrl": "https://www.starterstory.com/stories/yoga-trade",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/471/original/open-uri20220402-3-xh2dyx?1648879707",
-      "caption": "瑜伽工作旅行平台项目公开展示素材",
-      "alt": "yoga-trade",
+      "caption": "瑜伽工作旅行平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "瑜伽工作旅行平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/yoga-trade",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/472/original/data?1648879708",
-      "caption": "瑜伽工作旅行平台项目公开展示素材",
-      "alt": "yoga-trade",
+      "caption": "瑜伽工作旅行平台：当前经营状态与下一步规划相关原始配图（第2张）",
+      "alt": "瑜伽工作旅行平台：当前经营状态与下一步规划相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/yoga-trade",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/473/original/open-uri20220402-3-t3x2ff?1648879708",
-      "caption": "瑜伽工作旅行平台项目公开展示素材",
-      "alt": "yoga-trade",
+      "caption": "瑜伽工作旅行平台：创业复盘与关键经验相关原始配图（第3张）",
+      "alt": "瑜伽工作旅行平台：创业复盘与关键经验相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/yoga-trade",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/474/original/open-uri20220402-3-63tig3?1648879709",
-      "caption": "瑜伽工作旅行平台项目公开展示素材",
-      "alt": "yoga-trade",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/FKW9qP-hOaE",
+      "watchUrl": "https://www.youtube.com/watch?v=FKW9qP-hOaE",
+      "caption": "瑜伽工作旅行平台资料中提及的视频：Meet the Founders",
+      "alt": "Meet the Founders",
       "sourceUrl": "https://www.starterstory.com/stories/yoga-trade",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/FKW9qP-hOaE/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/d4nnggy09hi6kqqtrr4m1pve00k8",
-      "caption": "为Ghost博客提供合规分析工具公开案例主图",
-      "alt": "为Ghost博客提供合规分析工具案例图片",
+      "caption": "为Ghost博客提供合规分析工具：按月订阅收费",
+      "alt": "为Ghost博客提供合规分析工具：按月订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/i-spent-all-my-savings-developing-a-ghostboard-analytics-tool",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/787/original/open-uri20211109-3-18fxl5v?1636487261",
-      "caption": "为Ghost博客提供合规分析工具项目公开展示素材",
-      "alt": "i-spent-all-my-savings-developing-a-ghostboard-analytics-tool",
+      "caption": "为Ghost博客提供合规分析工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为Ghost博客提供合规分析工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-spent-all-my-savings-developing-a-ghostboard-analytics-tool",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/788/original/open-uri20211109-3-3mj69s?1636487261",
-      "caption": "为Ghost博客提供合规分析工具项目公开展示素材",
-      "alt": "i-spent-all-my-savings-developing-a-ghostboard-analytics-tool",
+      "caption": "为Ghost博客提供合规分析工具：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "为Ghost博客提供合规分析工具：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-spent-all-my-savings-developing-a-ghostboard-analytics-tool",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/789/original/open-uri20211109-3-1i42lk3?1636487262",
-      "caption": "为Ghost博客提供合规分析工具项目公开展示素材",
-      "alt": "i-spent-all-my-savings-developing-a-ghostboard-analytics-tool",
+      "caption": "为Ghost博客提供合规分析工具：当前经营状态与下一步规划相关原始配图（第3张）",
+      "alt": "为Ghost博客提供合规分析工具：当前经营状态与下一步规划相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-spent-all-my-savings-developing-a-ghostboard-analytics-tool",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/790/original/open-uri20211109-3-f7dny0?1636487262",
-      "caption": "为Ghost博客提供合规分析工具项目公开展示素材",
-      "alt": "i-spent-all-my-savings-developing-a-ghostboard-analytics-tool",
-      "sourceUrl": "https://www.starterstory.com/stories/i-spent-all-my-savings-developing-a-ghostboard-analytics-tool",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2158,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/1cjqpg2jyutobgufz4xpwahijhcq",
-      "caption": "奢侈品电商品牌公开案例主图",
-      "alt": "奢侈品电商品牌案例图片",
+      "caption": "奢侈品电商品牌：通过优化用户体验提升复购和客单价",
+      "alt": "奢侈品电商品牌：通过优化用户体验提升复购和客单价",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-built-a-luxury-brand-and-increased-sessions-nearly-50",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/558/original/open-uri20201220-4-1vbjvrp?1608482913",
-      "caption": "奢侈品电商品牌项目公开展示素材",
-      "alt": "how-we-increase-metrics-nearly-50-in-sessions-yoy",
+      "caption": "奢侈品电商品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "奢侈品电商品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-built-a-luxury-brand-and-increased-sessions-nearly-50",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/559/original/open-uri20201220-4-1atrjxc?1608482913",
-      "caption": "奢侈品电商品牌项目公开展示素材",
-      "alt": "how-we-increase-metrics-nearly-50-in-sessions-yoy",
+      "caption": "奢侈品电商品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "奢侈品电商品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-built-a-luxury-brand-and-increased-sessions-nearly-50",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/560/original/open-uri20201220-4-1vkjnyw?1608482913",
-      "caption": "奢侈品电商品牌项目公开展示素材",
-      "alt": "how-we-increase-metrics-nearly-50-in-sessions-yoy",
+      "caption": "奢侈品电商品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "奢侈品电商品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-built-a-luxury-brand-and-increased-sessions-nearly-50",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "奢侈品电商品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-built-a-luxury-brand-and-increased-sessions-nearly-50",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2121,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

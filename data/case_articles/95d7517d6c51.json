@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/a43lo9bidwvszgvkdx1in7msi2dn",
-      "caption": "利用视错觉设计提供装饰服务公开案例主图",
-      "alt": "利用视错觉设计提供装饰服务案例图片",
+      "caption": "利用视错觉设计提供装饰服务：按项目收费",
+      "alt": "利用视错觉设计提供装饰服务：按项目收费",
       "sourceUrl": "https://www.starterstory.com/stories/from-passionate-3d-artist-to-making-1-2m-year-designing-optical-illusions",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/262/original/open-uri20220215-3-1sm1669?1644931305",
-      "caption": "利用视错觉设计提供装饰服务项目公开展示素材",
-      "alt": "from-passionate-3d-artist-to-making-1-2m-year-designing-optical-illusions",
+      "caption": "利用视错觉设计提供装饰服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "利用视错觉设计提供装饰服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/from-passionate-3d-artist-to-making-1-2m-year-designing-optical-illusions",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/263/original/open-uri20220215-3-1ngwizf?1644931306",
-      "caption": "利用视错觉设计提供装饰服务项目公开展示素材",
-      "alt": "from-passionate-3d-artist-to-making-1-2m-year-designing-optical-illusions",
+      "caption": "利用视错觉设计提供装饰服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "利用视错觉设计提供装饰服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/from-passionate-3d-artist-to-making-1-2m-year-designing-optical-illusions",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/264/original/open-uri20220215-3-b4bwkd?1644931306",
-      "caption": "利用视错觉设计提供装饰服务项目公开展示素材",
-      "alt": "from-passionate-3d-artist-to-making-1-2m-year-designing-optical-illusions",
+      "caption": "利用视错觉设计提供装饰服务：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "利用视错觉设计提供装饰服务：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/from-passionate-3d-artist-to-making-1-2m-year-designing-optical-illusions",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/265/original/open-uri20220215-3-14f7qt4?1644931307",
-      "caption": "利用视错觉设计提供装饰服务项目公开展示素材",
-      "alt": "from-passionate-3d-artist-to-making-1-2m-year-designing-optical-illusions",
-      "sourceUrl": "https://www.starterstory.com/stories/from-passionate-3d-artist-to-making-1-2m-year-designing-optical-illusions",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/266/original/open-uri20220215-3-hjcc3g?1644931307",
-      "caption": "利用视错觉设计提供装饰服务项目公开展示素材",
-      "alt": "from-passionate-3d-artist-to-making-1-2m-year-designing-optical-illusions",
-      "sourceUrl": "https://www.starterstory.com/stories/from-passionate-3d-artist-to-making-1-2m-year-designing-optical-illusions",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2171,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

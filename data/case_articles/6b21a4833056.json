@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/b3mlaktgu02fnu44zvbgcax12fb0",
-      "caption": "现代育儿博客公开案例主图",
-      "alt": "现代育儿博客案例图片",
+      "caption": "现代育儿博客：通过广告、联盟营销和数字产品盈利",
+      "alt": "现代育儿博客：通过广告、联盟营销和数字产品盈利",
       "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-modern-motherhood-blog",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/010/976/original/open-uri20210328-3-1oouri0?1616947064",
-      "caption": "现代育儿博客项目公开展示素材",
-      "alt": "on-starting-a-modern-motherhood-blog",
+      "caption": "现代育儿博客：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "现代育儿博客：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-modern-motherhood-blog",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "现代育儿博客项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-modern-motherhood-blog",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/2irvs6bxwebg1ljt2zxxce8pbaqm",
-      "caption": "现代育儿博客项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-modern-motherhood-blog",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "现代育儿博客项目公开展示素材",
-      "alt": "现代育儿博客项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-modern-motherhood-blog",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2184,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/zkkz3oc2qq81kacbe5rymna0cybn",
-      "caption": "在线白板协作工具公开案例主图",
-      "alt": "在线白板协作工具案例图片",
+      "caption": "在线白板协作工具：通过订阅制收费",
+      "alt": "在线白板协作工具：通过订阅制收费",
       "sourceUrl": "https://www.starterstory.com/stories/orgpad",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/372/original/open-uri20220624-12-1ezjppq?1656081606",
-      "caption": "在线白板协作工具项目公开展示素材",
-      "alt": "orgpad",
+      "caption": "在线白板协作工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "在线白板协作工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/orgpad",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/373/original/open-uri20220624-12-hsrlp0?1656081606",
-      "caption": "在线白板协作工具项目公开展示素材",
-      "alt": "orgpad",
+      "caption": "在线白板协作工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "在线白板协作工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/orgpad",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/374/original/open-uri20220624-12-1rklxez?1656081607",
-      "caption": "在线白板协作工具项目公开展示素材",
-      "alt": "orgpad",
+      "caption": "在线白板协作工具：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "在线白板协作工具：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/orgpad",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/375/original/open-uri20220624-12-1exr7ss?1656081607",
-      "caption": "在线白板协作工具项目公开展示素材",
-      "alt": "orgpad",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/jvw2uRQ64xE",
+      "watchUrl": "https://www.youtube.com/watch?v=jvw2uRQ64xE",
+      "caption": "在线白板协作工具资料中提及的视频：planning/documentation",
+      "alt": "planning/documentation",
       "sourceUrl": "https://www.starterstory.com/stories/orgpad",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/jvw2uRQ64xE/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

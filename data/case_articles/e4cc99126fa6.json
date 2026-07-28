@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/l8vlxrm1gnuud4hkuepgzemfk9to",
-      "caption": "个人开发的语音转结构化内容AI工具公开案例主图",
-      "alt": "个人开发的语音转结构化内容AI工具案例图片",
+      "caption": "个人开发的语音转结构化内容AI工具：月入5千美元",
+      "alt": "个人开发的语音转结构化内容AI工具：月入5千美元",
       "sourceUrl": "https://www.starterstory.com/stories/talknotes-the-ai-voice-notes-app",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/461/original/open-uri20240330-65-35xuro?1711801495",
-      "caption": "个人开发的语音转结构化内容AI工具项目公开展示素材",
-      "alt": "talknotes-the-ai-voice-notes-app",
+      "caption": "个人开发的语音转结构化内容AI工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "个人开发的语音转结构化内容AI工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/talknotes-the-ai-voice-notes-app",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/462/original/open-uri20240330-65-fhl8gv?1711801496",
-      "caption": "个人开发的语音转结构化内容AI工具项目公开展示素材",
-      "alt": "talknotes-the-ai-voice-notes-app",
+      "caption": "个人开发的语音转结构化内容AI工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "个人开发的语音转结构化内容AI工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/talknotes-the-ai-voice-notes-app",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/463/original/open-uri20240330-65-ct7148?1711801496",
-      "caption": "个人开发的语音转结构化内容AI工具项目公开展示素材",
-      "alt": "talknotes-the-ai-voice-notes-app",
+      "caption": "个人开发的语音转结构化内容AI工具：当前经营状态与下一步规划相关原始配图（第3张）",
+      "alt": "个人开发的语音转结构化内容AI工具：当前经营状态与下一步规划相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/talknotes-the-ai-voice-notes-app",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "个人开发的语音转结构化内容AI工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/talknotes-the-ai-voice-notes-app",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2256,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

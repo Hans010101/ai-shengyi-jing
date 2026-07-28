@@ -121,57 +121,43 @@
   "media": [
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为SaaS初创公司提供设计服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/skale-home",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/3820a23dc3713a0c",
-      "caption": "为SaaS初创公司提供设计服务项目公开展示素材",
+      "caption": "为SaaS初创公司提供设计服务：创始人、核心产品与品牌起点相关原始配图",
       "alt": "My image",
       "sourceUrl": "https://www.starterstory.com/stories/skale-home",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/h9lif7s0mmzi3tq0xogrjho7cl8p",
-      "caption": "为SaaS初创公司提供设计服务项目公开展示素材",
-      "alt": "article",
+      "caption": "为SaaS初创公司提供设计服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "为SaaS初创公司提供设计服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/skale-home",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/20ed83624f71450d",
-      "caption": "为SaaS初创公司提供设计服务项目公开展示素材",
+      "caption": "为SaaS初创公司提供设计服务：获客渠道与客户留存相关原始配图（第3张）",
       "alt": "Acquisition.com Redesign",
       "sourceUrl": "https://www.starterstory.com/stories/skale-home",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/459aa92fd91ba767",
-      "caption": "为SaaS初创公司提供设计服务项目公开展示素材",
+      "caption": "为SaaS初创公司提供设计服务：获客渠道与客户留存相关原始配图（第4张）",
       "alt": "Whop.com redesign",
       "sourceUrl": "https://www.starterstory.com/stories/skale-home",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/09acb7909e3ef3b3",
-      "caption": "为SaaS初创公司提供设计服务项目公开展示素材",
-      "alt": "Landing Breakdown",
-      "sourceUrl": "https://www.starterstory.com/stories/skale-home",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2244,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

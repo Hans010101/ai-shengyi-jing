@@ -122,56 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/a1a53jgiolnmla56leg8axjw928z",
-      "caption": "极简网页托管工具公开案例主图",
-      "alt": "极简网页托管工具案例图片",
+      "caption": "极简网页托管工具：通过免费+付费订阅盈利",
+      "alt": "极简网页托管工具：通过免费+付费订阅盈利",
       "sourceUrl": "https://www.starterstory.com/businesses/tiiny-host",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "极简网页托管工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/tiiny-host",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/cyrsa8rsmtx4qbvuv9u8ad703qab",
-      "caption": "极简网页托管工具项目公开展示素材",
-      "alt": "Tiiny.host logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/tiiny-host",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/lmqvr3ay9koo7t5bxvf5emq2t71k/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "极简网页托管工具项目公开展示素材",
-      "alt": "Elston Baretto",
-      "sourceUrl": "https://www.starterstory.com/businesses/tiiny-host",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/0j9q44pb9rtpq56u2m8uo7lt5xl0/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "极简网页托管工具项目公开展示素材",
-      "alt": "HotJar",
-      "sourceUrl": "https://www.starterstory.com/businesses/tiiny-host",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/wf05fi78r3bkadjpbwhtkha8hem6/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "极简网页托管工具项目公开展示素材",
-      "alt": "Stripe",
-      "sourceUrl": "https://www.starterstory.com/businesses/tiiny-host",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -186,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2222,
-    "mediaCount": 6
+    "mediaCount": 1
   }
 }

@@ -122,47 +122,44 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/thihx0xhuv8hksz6ibae1fmcx2mj",
-      "caption": "Gmail插件公开案例主图",
-      "alt": "Gmail插件案例图片",
+      "caption": "Gmail插件：帮用户管理收件箱，年营收36万美元",
+      "alt": "Gmail插件：帮用户管理收件箱，年营收36万美元",
       "sourceUrl": "https://www.starterstory.com/stories/we-built-a-360k-year-gmail-plugin-that-helps-people-manage-their-inbox",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/332/original/open-uri20211210-3-j66r2z?1639160540",
-      "caption": "Gmail插件项目公开展示素材",
-      "alt": "we-built-a-360k-year-gmail-plugin-that-helps-people-manage-their-inbox",
+      "caption": "Gmail插件：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "Gmail插件：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/we-built-a-360k-year-gmail-plugin-that-helps-people-manage-their-inbox",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/333/original/open-uri20211210-3-1gta5lx?1639160540",
-      "caption": "Gmail插件项目公开展示素材",
-      "alt": "we-built-a-360k-year-gmail-plugin-that-helps-people-manage-their-inbox",
+      "caption": "Gmail插件：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "Gmail插件：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-built-a-360k-year-gmail-plugin-that-helps-people-manage-their-inbox",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "Gmail插件项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/wdYRJHc0G-U",
+      "watchUrl": "https://www.youtube.com/watch?v=wdYRJHc0G-U",
+      "caption": "Gmail插件资料中提及的视频：Nuke – Just (don't) do it!",
+      "alt": "Nuke – Just (don't) do it!",
       "sourceUrl": "https://www.starterstory.com/stories/we-built-a-360k-year-gmail-plugin-that-helps-people-manage-their-inbox",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ux0jwuv5zreae40prptu2ora5km3",
-      "caption": "Gmail插件项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/we-built-a-360k-year-gmail-plugin-that-helps-people-manage-their-inbox",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/wdYRJHc0G-U/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +174,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2148,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

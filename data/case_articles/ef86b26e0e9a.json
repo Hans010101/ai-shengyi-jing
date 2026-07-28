@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/jjo7ga9hiinzk87kj5aekcyb5gfp",
-      "caption": "体育按摩治疗业务公开案例主图",
-      "alt": "体育按摩治疗业务案例图片",
+      "caption": "体育按摩治疗业务：通过提供专业按摩服务收费",
+      "alt": "体育按摩治疗业务：通过提供专业按摩服务收费",
       "sourceUrl": "https://www.starterstory.com/stories/massaggi",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/049/original/open-uri20220809-12-15kpuur?1660050152",
-      "caption": "体育按摩治疗业务项目公开展示素材",
-      "alt": "massaggi",
+      "caption": "体育按摩治疗业务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "体育按摩治疗业务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/massaggi",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/050/original/open-uri20220809-12-1ss7pa5?1660050153",
-      "caption": "体育按摩治疗业务项目公开展示素材",
-      "alt": "massaggi",
+      "caption": "体育按摩治疗业务：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "体育按摩治疗业务：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/massaggi",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/051/original/open-uri20220809-12-171tkun?1660050154",
-      "caption": "体育按摩治疗业务项目公开展示素材",
-      "alt": "massaggi",
+      "caption": "体育按摩治疗业务：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "体育按摩治疗业务：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/massaggi",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/052/original/open-uri20220809-12-1175gq?1660050154",
-      "caption": "体育按摩治疗业务项目公开展示素材",
-      "alt": "massaggi",
-      "sourceUrl": "https://www.starterstory.com/stories/massaggi",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2106,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/xj106db7jrhr4elmul3ry4i4zzvf",
-      "caption": "一个提供感谢信模板和写作指导的网站公开案例主图",
-      "alt": "一个提供感谢信模板和写作指导的网站案例图片",
+      "caption": "一个提供感谢信模板和写作指导的网站：靠展示广告和会员订阅盈利",
+      "alt": "一个提供感谢信模板和写作指导的网站：靠展示广告和会员订阅盈利",
       "sourceUrl": "https://www.starterstory.com/stories/tons-of-thanks",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/528/original/open-uri20230319-51-1ba90ey?1679225371",
-      "caption": "一个提供感谢信模板和写作指导的网站项目公开展示素材",
-      "alt": "tons-of-thanks",
+      "caption": "一个提供感谢信模板和写作指导的网站：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "一个提供感谢信模板和写作指导的网站：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/tons-of-thanks",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/529/original/data?1679225372",
-      "caption": "一个提供感谢信模板和写作指导的网站项目公开展示素材",
-      "alt": "tons-of-thanks",
+      "caption": "一个提供感谢信模板和写作指导的网站：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "一个提供感谢信模板和写作指导的网站：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/tons-of-thanks",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/530/original/open-uri20230319-51-kiwjhu?1679225372",
-      "caption": "一个提供感谢信模板和写作指导的网站项目公开展示素材",
-      "alt": "tons-of-thanks",
+      "caption": "一个提供感谢信模板和写作指导的网站：当前经营状态与下一步规划相关原始配图（第3张）",
+      "alt": "一个提供感谢信模板和写作指导的网站：当前经营状态与下一步规划相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/tons-of-thanks",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/531/original/open-uri20230319-51-udnqjp?1679225373",
-      "caption": "一个提供感谢信模板和写作指导的网站项目公开展示素材",
-      "alt": "tons-of-thanks",
-      "sourceUrl": "https://www.starterstory.com/stories/tons-of-thanks",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2283,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

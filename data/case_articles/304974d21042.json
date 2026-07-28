@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ov4e1393tdlq1sn4rwtxaarrk4ov",
-      "caption": "为Tailwind CSS开发者打造的浏览器扩展公开案例主图",
-      "alt": "为Tailwind CSS开发者打造的浏览器扩展案例图片",
+      "caption": "为Tailwind CSS开发者打造的浏览器扩展：通过付费订阅盈利",
+      "alt": "为Tailwind CSS开发者打造的浏览器扩展：通过付费订阅盈利",
       "sourceUrl": "https://www.starterstory.com/stories/tailscan",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/618/original/open-uri20231224-48-lndobs?1703424402",
-      "caption": "为Tailwind CSS开发者打造的浏览器扩展项目公开展示素材",
-      "alt": "tailscan",
+      "caption": "为Tailwind CSS开发者打造的浏览器扩展：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为Tailwind CSS开发者打造的浏览器扩展：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/tailscan",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/619/original/open-uri20231224-48-rpgke2?1703424404",
-      "caption": "为Tailwind CSS开发者打造的浏览器扩展项目公开展示素材",
-      "alt": "tailscan",
+      "caption": "为Tailwind CSS开发者打造的浏览器扩展：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "为Tailwind CSS开发者打造的浏览器扩展：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/tailscan",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/620/original/open-uri20231224-48-1cg0bs7?1703424405",
-      "caption": "为Tailwind CSS开发者打造的浏览器扩展项目公开展示素材",
-      "alt": "tailscan",
+      "caption": "为Tailwind CSS开发者打造的浏览器扩展：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "为Tailwind CSS开发者打造的浏览器扩展：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/tailscan",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为Tailwind CSS开发者打造的浏览器扩展项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/tailscan",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2250,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

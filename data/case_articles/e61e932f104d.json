@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/id86hnv2kth1370quqfgdig3k1yo",
-      "caption": "WordPress插件开发公开案例主图",
-      "alt": "WordPress插件开发案例图片",
+      "caption": "WordPress插件开发：年营收120万美元",
+      "alt": "WordPress插件开发：年营收120万美元",
       "sourceUrl": "https://www.starterstory.com/stories/we-quit-our-jobs-and-now-we-make-1-2m-year-developing-wordpress-woocommerce-plugins",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/002/original/open-uri20211117-3-imr7uy?1637164652",
-      "caption": "WordPress插件开发项目公开展示素材",
-      "alt": "we-quit-our-jobs-and-now-we-make-1-2m-year-developing-wordpress-woocommerce-plugins",
+      "caption": "WordPress插件开发：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "WordPress插件开发：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/we-quit-our-jobs-and-now-we-make-1-2m-year-developing-wordpress-woocommerce-plugins",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/003/original/open-uri20211117-3-cgsbwt?1637164653",
-      "caption": "WordPress插件开发项目公开展示素材",
-      "alt": "we-quit-our-jobs-and-now-we-make-1-2m-year-developing-wordpress-woocommerce-plugins",
+      "caption": "WordPress插件开发：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "WordPress插件开发：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-quit-our-jobs-and-now-we-make-1-2m-year-developing-wordpress-woocommerce-plugins",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/004/original/open-uri20211117-3-1ihb1g6?1637164653",
-      "caption": "WordPress插件开发项目公开展示素材",
-      "alt": "we-quit-our-jobs-and-now-we-make-1-2m-year-developing-wordpress-woocommerce-plugins",
+      "caption": "WordPress插件开发：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "WordPress插件开发：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-quit-our-jobs-and-now-we-make-1-2m-year-developing-wordpress-woocommerce-plugins",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/005/original/open-uri20211117-3-874531?1637164654",
-      "caption": "WordPress插件开发项目公开展示素材",
-      "alt": "we-quit-our-jobs-and-now-we-make-1-2m-year-developing-wordpress-woocommerce-plugins",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/yKVHKj0BMs8",
+      "watchUrl": "https://www.youtube.com/watch?v=yKVHKj0BMs8",
+      "caption": "WordPress插件开发资料中提及的视频：Create a WooCommerce Online Food Ordering Website",
+      "alt": "Create a WooCommerce Online Food Ordering Website",
       "sourceUrl": "https://www.starterstory.com/stories/we-quit-our-jobs-and-now-we-make-1-2m-year-developing-wordpress-woocommerce-plugins",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/yKVHKj0BMs8/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

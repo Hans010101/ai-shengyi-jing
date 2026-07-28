@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/8m0bdpd8ei4n0cqj518kg8854rrx",
-      "caption": "企业礼品SaaS平台公开案例主图",
-      "alt": "企业礼品SaaS平台案例图片",
+      "caption": "企业礼品SaaS平台：通过订阅和礼品销售盈利",
+      "alt": "企业礼品SaaS平台：通过订阅和礼品销售盈利",
       "sourceUrl": "https://www.starterstory.com/stories/giftsenda",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/003/original/open-uri20220427-24-ax41qo?1651078944",
-      "caption": "企业礼品SaaS平台项目公开展示素材",
-      "alt": "giftsenda",
+      "caption": "企业礼品SaaS平台：产品设计与早期打磨相关原始配图",
+      "alt": "企业礼品SaaS平台：产品设计与早期打磨相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/giftsenda",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/004/original/open-uri20220427-24-178kj80?1651078945",
-      "caption": "企业礼品SaaS平台项目公开展示素材",
-      "alt": "giftsenda",
+      "caption": "企业礼品SaaS平台：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "企业礼品SaaS平台：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/giftsenda",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/005/original/open-uri20220427-24-yg4azz?1651078946",
-      "caption": "企业礼品SaaS平台项目公开展示素材",
-      "alt": "giftsenda",
+      "caption": "企业礼品SaaS平台：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "企业礼品SaaS平台：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/giftsenda",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/006/original/open-uri20220427-24-1db9dnn?1651078946",
-      "caption": "企业礼品SaaS平台项目公开展示素材",
-      "alt": "giftsenda",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/_69KrxGqcoE",
+      "watchUrl": "https://www.youtube.com/watch?v=_69KrxGqcoE",
+      "caption": "企业礼品SaaS平台：创始人、核心产品与品牌起点相关视频",
+      "alt": "企业礼品SaaS平台相关视频",
       "sourceUrl": "https://www.starterstory.com/stories/giftsenda",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/_69KrxGqcoE/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

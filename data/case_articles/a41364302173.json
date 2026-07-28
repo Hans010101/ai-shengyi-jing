@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/35lx70qyzhe2c17wdmjx7g09s2u5",
-      "caption": "远程人才招聘中介公开案例主图",
-      "alt": "远程人才招聘中介案例图片",
+      "caption": "远程人才招聘中介：帮企业招全球远程员工赚佣金",
+      "alt": "远程人才招聘中介：帮企业招全球远程员工赚佣金",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-by-30-over-last-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/047/original/open-uri20201122-4-kr2qaw?1606081565",
-      "caption": "远程人才招聘中介项目公开展示素材",
-      "alt": "how-we-ve-grown-by-30-over-last-year",
+      "caption": "远程人才招聘中介：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "远程人才招聘中介：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-by-30-over-last-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "远程人才招聘中介项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-by-30-over-last-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/vtdvsz6ii7j6rdax44lx60uayvfa",
-      "caption": "远程人才招聘中介项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-by-30-over-last-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/dv2ucg8g6glcnirtn7v0t6me439k",
-      "caption": "远程人才招聘中介项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-by-30-over-last-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2158,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

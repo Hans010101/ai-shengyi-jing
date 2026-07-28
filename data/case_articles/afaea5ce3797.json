@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/7d7afm4flohr96cbtg1b8lfn585w",
-      "caption": "数据分析师与科学家的自由职业平台公开案例主图",
-      "alt": "数据分析师与科学家的自由职业平台案例图片",
+      "caption": "数据分析师与科学家的自由职业平台：通过撮合交易抽佣盈利",
+      "alt": "数据分析师与科学家的自由职业平台：通过撮合交易抽佣盈利",
       "sourceUrl": "https://www.starterstory.com/stories/pangaea-x",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/644/original/open-uri20220409-24-r832po?1649535994",
-      "caption": "数据分析师与科学家的自由职业平台项目公开展示素材",
-      "alt": "pangaea-x",
+      "caption": "数据分析师与科学家的自由职业平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "数据分析师与科学家的自由职业平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/pangaea-x",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "数据分析师与科学家的自由职业平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/pangaea-x",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/3q9ah33gfr89x9gr887ehtjyb5n2",
-      "caption": "数据分析师与科学家的自由职业平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/pangaea-x",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/wsfthxo0bwxpga1da6eflodtgxay",
-      "caption": "数据分析师与科学家的自由职业平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/pangaea-x",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2322,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

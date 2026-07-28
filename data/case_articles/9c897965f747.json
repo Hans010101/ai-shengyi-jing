@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/wollcunxpbryrr07e3f3fjpz077l",
-      "caption": "电商代运营服务公开案例主图",
-      "alt": "电商代运营服务案例图片",
+      "caption": "电商代运营服务：帮品牌在亚马逊等平台卖货赚服务费",
+      "alt": "电商代运营服务：帮品牌在亚马逊等平台卖货赚服务费",
       "sourceUrl": "https://www.starterstory.com/stories/prolific-zone",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/501/original/open-uri20220524-12-xxqek0?1653400660",
-      "caption": "电商代运营服务项目公开展示素材",
-      "alt": "prolific-zone",
+      "caption": "电商代运营服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "电商代运营服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/prolific-zone",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/502/original/open-uri20220524-12-1sj0s9t?1653400661",
-      "caption": "电商代运营服务项目公开展示素材",
+      "caption": "电商代运营服务：创业起点与创意来源相关原始配图（第2张）",
       "alt": "Prolific Zone Logo",
       "sourceUrl": "https://www.starterstory.com/stories/prolific-zone",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/503/original/open-uri20220524-12-n4yml0?1653400661",
-      "caption": "电商代运营服务项目公开展示素材",
+      "caption": "电商代运营服务：产品设计与早期打磨相关原始配图（第3张）",
       "alt": "Quin in 2004",
       "sourceUrl": "https://www.starterstory.com/stories/prolific-zone",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/504/original/open-uri20220524-12-1lgih7?1653400662",
-      "caption": "电商代运营服务项目公开展示素材",
-      "alt": "prolific-zone",
-      "sourceUrl": "https://www.starterstory.com/stories/prolific-zone",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2222,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

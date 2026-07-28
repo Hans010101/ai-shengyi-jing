@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/dp0eqmoo4idffdvfgux5i7onk77b",
-      "caption": "Google Sheets文件管理插件公开案例主图",
-      "alt": "Google Sheets文件管理插件案例图片",
+      "caption": "Google Sheets文件管理插件：免费增值+订阅收费",
+      "alt": "Google Sheets文件管理插件：免费增值+订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/filedrop",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/982/original/open-uri20240128-53-mx8s5a?1706408690",
-      "caption": "Google Sheets文件管理插件项目公开展示素材",
-      "alt": "filedrop",
+      "caption": "Google Sheets文件管理插件：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "Google Sheets文件管理插件：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/filedrop",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/983/original/open-uri20240128-53-17cexsa?1706408691",
-      "caption": "Google Sheets文件管理插件项目公开展示素材",
-      "alt": "filedrop",
+      "caption": "Google Sheets文件管理插件：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "Google Sheets文件管理插件：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/filedrop",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/984/original/open-uri20240128-53-1golk7g?1706408692",
-      "caption": "Google Sheets文件管理插件项目公开展示素材",
-      "alt": "filedrop",
+      "caption": "Google Sheets文件管理插件：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "Google Sheets文件管理插件：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/filedrop",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "Google Sheets文件管理插件项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/filedrop",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/e1zyhnzrw6gnm02pgxw4alp1ev4q",
-      "caption": "Google Sheets文件管理插件项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/filedrop",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2267,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

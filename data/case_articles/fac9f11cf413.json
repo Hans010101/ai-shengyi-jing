@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/o2u3hu6aoyh0nas1t98n85c74eg7",
-      "caption": "澳大利亚知名珠宝零售连锁公开案例主图",
-      "alt": "澳大利亚知名珠宝零售连锁案例图片",
+      "caption": "澳大利亚知名珠宝零售连锁：通过实体店+在线销售赚取差价",
+      "alt": "澳大利亚知名珠宝零售连锁：通过实体店+在线销售赚取差价",
       "sourceUrl": "https://www.starterstory.com/stories/shiels-jewellers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/228/original/open-uri20220618-24-1kl9od8?1655575587",
-      "caption": "澳大利亚知名珠宝零售连锁项目公开展示素材",
-      "alt": "shiels-jewellers",
+      "caption": "澳大利亚知名珠宝零售连锁：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "澳大利亚知名珠宝零售连锁：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/shiels-jewellers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/229/original/open-uri20220618-24-1u6yce3?1655575587",
-      "caption": "澳大利亚知名珠宝零售连锁项目公开展示素材",
-      "alt": "shiels-jewellers",
+      "caption": "澳大利亚知名珠宝零售连锁：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "澳大利亚知名珠宝零售连锁：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/shiels-jewellers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/230/original/open-uri20220618-24-1ml330e?1655575588",
-      "caption": "澳大利亚知名珠宝零售连锁项目公开展示素材",
-      "alt": "shiels-jewellers",
+      "caption": "澳大利亚知名珠宝零售连锁：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "澳大利亚知名珠宝零售连锁：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/shiels-jewellers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "澳大利亚知名珠宝零售连锁项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/shiels-jewellers",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ddw17y2p9pisyf3lv70vhxx0tfv5",
-      "caption": "澳大利亚知名珠宝零售连锁项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/shiels-jewellers",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2269,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

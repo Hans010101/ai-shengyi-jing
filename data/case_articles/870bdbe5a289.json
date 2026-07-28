@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/64m0zzmya1elz7u37333j3khpi3w",
-      "caption": "代理服务提供商公开案例主图",
-      "alt": "代理服务提供商案例图片",
+      "caption": "代理服务提供商：按流量或带宽收费，帮助用户匿名访问互联网",
+      "alt": "代理服务提供商：按流量或带宽收费，帮助用户匿名访问互联网",
       "sourceUrl": "https://www.starterstory.com/stories/iproyal",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/245/original/open-uri20230806-60-jg65zo?1691332990",
-      "caption": "代理服务提供商项目公开展示素材",
-      "alt": "iproyal",
+      "caption": "代理服务提供商：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "代理服务提供商：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/iproyal",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "代理服务提供商项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/iproyal",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n7jfrw1pjci5jpala4jn6sh5djo8",
-      "caption": "代理服务提供商项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/iproyal",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/2r0bmvunp6hplaeyu1t5rm1lcgma",
-      "caption": "代理服务提供商项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/iproyal",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2273,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

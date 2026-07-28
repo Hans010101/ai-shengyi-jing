@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/7154b3z2ivsylvui10pvc6gevd1j",
-      "caption": "为企业提供Asana和Pipedrive的咨询与公开案例主图",
-      "alt": "为企业提供Asana和Pipedrive的咨询与案例图片",
+      "caption": "为企业提供Asana和Pipedrive的咨询与：培训，赚取服务费和销售佣金",
+      "alt": "为企业提供Asana和Pipedrive的咨询与：培训，赚取服务费和销售佣金",
       "sourceUrl": "https://www.starterstory.com/stories/paul-minors",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/353/original/open-uri20231201-60-uko5x3?1701433192",
-      "caption": "为企业提供Asana和Pipedrive的咨询与项目公开展示素材",
-      "alt": "paul-minors",
+      "caption": "为企业提供Asana和Pipedrive的咨询与：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为企业提供Asana和Pipedrive的咨询与：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/paul-minors",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/354/original/open-uri20231201-60-1uw5nro?1701433192",
-      "caption": "为企业提供Asana和Pipedrive的咨询与项目公开展示素材",
-      "alt": "paul-minors",
+      "caption": "为企业提供Asana和Pipedrive的咨询与：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "为企业提供Asana和Pipedrive的咨询与：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/paul-minors",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/356/original/open-uri20231201-60-ajjvuq?1701433194",
-      "caption": "为企业提供Asana和Pipedrive的咨询与项目公开展示素材",
-      "alt": "paul-minors",
+      "caption": "为企业提供Asana和Pipedrive的咨询与：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "为企业提供Asana和Pipedrive的咨询与：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/paul-minors",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为企业提供Asana和Pipedrive的咨询与项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/paul-minors",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2191,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

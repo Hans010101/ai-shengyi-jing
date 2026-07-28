@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/eehdh2ngcycgagavuiklebkfs7zq",
-      "caption": "远程工作社区公开案例主图",
-      "alt": "远程工作社区案例图片",
+      "caption": "远程工作社区：通过广告和招聘服务变现",
+      "alt": "远程工作社区：通过广告和招聘服务变现",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-our-metrics-through-partnership",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/011/999/original/open-uri20210512-3-1bruvpq?1620827203",
-      "caption": "远程工作社区项目公开展示素材",
-      "alt": "how-we-ve-grown-our-metrics-through-partnership",
+      "caption": "远程工作社区：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "远程工作社区：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-our-metrics-through-partnership",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/000/original/open-uri20210512-3-nsurga?1620827203",
-      "caption": "远程工作社区项目公开展示素材",
-      "alt": "how-we-ve-grown-our-metrics-through-partnership",
+      "caption": "远程工作社区：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "远程工作社区：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-our-metrics-through-partnership",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/001/original/open-uri20210512-3-xp0h0h?1620827203",
-      "caption": "远程工作社区项目公开展示素材",
-      "alt": "how-we-ve-grown-our-metrics-through-partnership",
+      "caption": "远程工作社区：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "远程工作社区：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-our-metrics-through-partnership",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/002/original/open-uri20210512-3-194m8sz?1620827204",
-      "caption": "远程工作社区项目公开展示素材",
-      "alt": "how-we-ve-grown-our-metrics-through-partnership",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-our-metrics-through-partnership",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2190,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

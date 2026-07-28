@@ -122,56 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/2ksiz0in7n67umxtkonmw99xc623",
-      "caption": "AI应用管理SaaS平台公开案例主图",
-      "alt": "AI应用管理SaaS平台案例图片",
+      "caption": "AI应用管理SaaS平台：按月订阅收费",
+      "alt": "AI应用管理SaaS平台：按月订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/aifa-inspiring-the-intelligence",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/048/original/open-uri20240616-48-1t5h6wm?1718516579",
-      "caption": "AI应用管理SaaS平台项目公开展示素材",
-      "alt": "aifa-inspiring-the-intelligence",
+      "caption": "AI应用管理SaaS平台：创业起点与创意来源相关原始配图",
+      "alt": "AI应用管理SaaS平台：创业起点与创意来源相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/aifa-inspiring-the-intelligence",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/049/original/open-uri20240616-48-10to057?1718516580",
-      "caption": "AI应用管理SaaS平台项目公开展示素材",
-      "alt": "aifa-inspiring-the-intelligence",
+      "caption": "AI应用管理SaaS平台：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "AI应用管理SaaS平台：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/aifa-inspiring-the-intelligence",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI应用管理SaaS平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/aifa-inspiring-the-intelligence",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/gl38e28b8wy08055xcqglg1r6pqs",
-      "caption": "AI应用管理SaaS平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/aifa-inspiring-the-intelligence",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/203twfnl4n6zvwfd5gv9agea6h42",
-      "caption": "AI应用管理SaaS平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/aifa-inspiring-the-intelligence",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2121,
-    "mediaCount": 6
+    "mediaCount": 3
   }
 }

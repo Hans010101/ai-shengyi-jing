@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/a3123huo9txosb9tot4jl04u1ikh",
-      "caption": "将网页内容推送到Kindle公开案例主图",
-      "alt": "将网页内容推送到Kindle案例图片",
+      "caption": "将网页内容推送到Kindle：通过订阅付费赚钱",
+      "alt": "将网页内容推送到Kindle：通过订阅付费赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/ktool",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/219/original/open-uri20230802-60-1xnv7j0?1690962058",
-      "caption": "将网页内容推送到Kindle项目公开展示素材",
-      "alt": "ktool",
+      "caption": "将网页内容推送到Kindle：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "将网页内容推送到Kindle：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/ktool",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/220/original/open-uri20230802-60-ybll3f?1690962059",
-      "caption": "将网页内容推送到Kindle项目公开展示素材",
-      "alt": "ktool",
+      "caption": "将网页内容推送到Kindle：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "将网页内容推送到Kindle：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/ktool",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/221/original/open-uri20230802-60-65ifcz?1690962060",
-      "caption": "将网页内容推送到Kindle项目公开展示素材",
-      "alt": "ktool",
+      "caption": "将网页内容推送到Kindle：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "将网页内容推送到Kindle：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/ktool",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/222/original/open-uri20230802-60-8clzpv?1690962061",
-      "caption": "将网页内容推送到Kindle项目公开展示素材",
-      "alt": "ktool",
-      "sourceUrl": "https://www.starterstory.com/stories/ktool",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2298,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

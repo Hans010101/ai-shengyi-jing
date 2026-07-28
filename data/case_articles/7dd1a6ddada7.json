@@ -122,65 +122,53 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/l0w3uh98yyv0f6d1tu9yhu1v5sae",
-      "caption": "专注男性T恤的DTC品牌公开案例主图",
-      "alt": "专注男性T恤的DTC品牌案例图片",
+      "caption": "专注男性T恤的DTC品牌：通过订阅制销售基础款服装赚钱",
+      "alt": "专注男性T恤的DTC品牌：通过订阅制销售基础款服装赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/fioboc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/878/original/open-uri20221031-12-1klcps2?1667222222",
-      "caption": "专注男性T恤的DTC品牌项目公开展示素材",
-      "alt": "fioboc",
+      "caption": "专注男性T恤的DTC品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "专注男性T恤的DTC品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/fioboc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/879/original/open-uri20221031-12-1kk5sys?1667222223",
-      "caption": "专注男性T恤的DTC品牌项目公开展示素材",
-      "alt": "fioboc",
+      "caption": "专注男性T恤的DTC品牌：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "专注男性T恤的DTC品牌：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/fioboc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/880/original/open-uri20221031-12-1rpv8ja?1667222224",
-      "caption": "专注男性T恤的DTC品牌项目公开展示素材",
-      "alt": "fioboc",
+      "caption": "专注男性T恤的DTC品牌：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "专注男性T恤的DTC品牌：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/fioboc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/881/original/open-uri20221031-12-ntijcc?1667222225",
-      "caption": "专注男性T恤的DTC品牌项目公开展示素材",
-      "alt": "fioboc",
-      "sourceUrl": "https://www.starterstory.com/stories/fioboc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "专注男性T恤的DTC品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/fioboc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/oqebL51p54E",
-      "caption": "专注男性T恤的DTC品牌项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=oqebL51p54E",
+      "caption": "专注男性T恤的DTC品牌资料中提及的视频：FIOBOC Stain Proof Waterproof T-shirt Put To The Test, Honest Review",
+      "alt": "FIOBOC Stain Proof Waterproof T-shirt Put To The Test, Honest Review",
       "sourceUrl": "https://www.starterstory.com/stories/fioboc",
       "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/oqebL51p54E/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -196,6 +184,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2284,
-    "mediaCount": 7
+    "mediaCount": 5
   }
 }

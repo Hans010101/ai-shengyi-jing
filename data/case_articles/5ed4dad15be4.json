@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/tpagl0et245a2eczvgr4ravu12aj",
-      "caption": "俄罗斯美妆品牌在美国线上销售公开案例主图",
-      "alt": "俄罗斯美妆品牌在美国线上销售案例图片",
+      "caption": "俄罗斯美妆品牌在美国线上销售：靠DTC模式盈利",
+      "alt": "俄罗斯美妆品牌在美国线上销售：靠DTC模式盈利",
       "sourceUrl": "https://www.starterstory.com/stories/rumore-beauty",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/238/original/open-uri20220328-3-kvg3nm?1648473067",
-      "caption": "俄罗斯美妆品牌在美国线上销售项目公开展示素材",
-      "alt": "rumore-beauty",
+      "caption": "俄罗斯美妆品牌在美国线上销售：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "俄罗斯美妆品牌在美国线上销售：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/rumore-beauty",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/239/original/open-uri20220328-3-qkv0b?1648473067",
-      "caption": "俄罗斯美妆品牌在美国线上销售项目公开展示素材",
-      "alt": "rumore-beauty",
+      "caption": "俄罗斯美妆品牌在美国线上销售：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "俄罗斯美妆品牌在美国线上销售：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/rumore-beauty",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "俄罗斯美妆品牌在美国线上销售项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/rumore-beauty",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/2r0bmvunp6hplaeyu1t5rm1lcgma",
-      "caption": "俄罗斯美妆品牌在美国线上销售项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/rumore-beauty",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2145,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

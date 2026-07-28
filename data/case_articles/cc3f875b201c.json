@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/6zgqhl7t8pexp69mkgw707ee2f2y",
-      "caption": "高端住宅涂装服务公开案例主图",
-      "alt": "高端住宅涂装服务案例图片",
+      "caption": "高端住宅涂装服务：靠口碑和精准服务盈利",
+      "alt": "高端住宅涂装服务：靠口碑和精准服务盈利",
       "sourceUrl": "https://www.starterstory.com/stories/hometown-painting-llc-7067861b-38f2-4ebf-a3b6-1d9607435409",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/246/original/open-uri20240225-65-ocjv5v?1708835088",
-      "caption": "高端住宅涂装服务项目公开展示素材",
-      "alt": "hometown-painting-llc-7067861b-38f2-4ebf-a3b6-1d9607435409",
+      "caption": "高端住宅涂装服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "高端住宅涂装服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/hometown-painting-llc-7067861b-38f2-4ebf-a3b6-1d9607435409",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/247/original/open-uri20240225-65-nfjaof?1708835088",
-      "caption": "高端住宅涂装服务项目公开展示素材",
-      "alt": "hometown-painting-llc-7067861b-38f2-4ebf-a3b6-1d9607435409",
+      "caption": "高端住宅涂装服务：创业复盘与关键经验相关原始配图（第2张）",
+      "alt": "高端住宅涂装服务：创业复盘与关键经验相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/hometown-painting-llc-7067861b-38f2-4ebf-a3b6-1d9607435409",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "高端住宅涂装服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/hometown-painting-llc-7067861b-38f2-4ebf-a3b6-1d9607435409",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/9kn9lz1hslrklo1n2j8bm0aueedo",
-      "caption": "高端住宅涂装服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/hometown-painting-llc-7067861b-38f2-4ebf-a3b6-1d9607435409",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2147,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

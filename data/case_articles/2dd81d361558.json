@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ny6hbsuz6bu4l8ttke8xx7ma6br6",
-      "caption": "数字化按需印刷电商公开案例主图",
-      "alt": "数字化按需印刷电商案例图片",
+      "caption": "数字化按需印刷电商：通过在线定制和自动化生产盈利",
+      "alt": "数字化按需印刷电商：通过在线定制和自动化生产盈利",
       "sourceUrl": "https://www.starterstory.com/stories/frontier-label",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/369/original/open-uri20230507-63-1hnpbpj?1683467311",
-      "caption": "数字化按需印刷电商项目公开展示素材",
-      "alt": "frontier-label",
+      "caption": "数字化按需印刷电商：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "数字化按需印刷电商：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/frontier-label",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/370/original/open-uri20230507-63-10k3ea0?1683467312",
-      "caption": "数字化按需印刷电商项目公开展示素材",
-      "alt": "frontier-label",
+      "caption": "数字化按需印刷电商：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "数字化按需印刷电商：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/frontier-label",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/371/original/open-uri20230507-63-hz4bp4?1683467315",
-      "caption": "数字化按需印刷电商项目公开展示素材",
-      "alt": "frontier-label",
+      "caption": "数字化按需印刷电商：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "数字化按需印刷电商：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/frontier-label",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/372/original/open-uri20230507-63-1hv7jr0?1683467316",
-      "caption": "数字化按需印刷电商项目公开展示素材",
-      "alt": "frontier-label",
-      "sourceUrl": "https://www.starterstory.com/stories/frontier-label",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2201,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

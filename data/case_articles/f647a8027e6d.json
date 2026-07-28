@@ -122,75 +122,53 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/n40jtfvttp90q6bxa51zyw27hb2o",
-      "caption": "包容性服装品牌公开案例主图",
-      "alt": "包容性服装品牌案例图片",
+      "caption": "包容性服装品牌：通过DTC模式销售男女皆宜的时尚服饰盈利",
+      "alt": "包容性服装品牌：通过DTC模式销售男女皆宜的时尚服饰盈利",
       "sourceUrl": "https://www.starterstory.com/stories/dapper-boi",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/465/original/open-uri20230902-48-b5ebtq?1693666836",
-      "caption": "包容性服装品牌项目公开展示素材",
-      "alt": "dapper-boi",
+      "caption": "包容性服装品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "包容性服装品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/dapper-boi",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/466/original/open-uri20230902-48-1ras5go?1693666836",
-      "caption": "包容性服装品牌项目公开展示素材",
-      "alt": "dapper-boi",
+      "caption": "包容性服装品牌：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "包容性服装品牌：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/dapper-boi",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/467/original/open-uri20230902-48-13dl87?1693666837",
-      "caption": "包容性服装品牌项目公开展示素材",
-      "alt": "dapper-boi",
+      "caption": "包容性服装品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "包容性服装品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/dapper-boi",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/468/original/open-uri20230902-48-usswzs?1693666838",
-      "caption": "包容性服装品牌项目公开展示素材",
-      "alt": "dapper-boi",
-      "sourceUrl": "https://www.starterstory.com/stories/dapper-boi",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/469/original/open-uri20230902-48-1szxrs0?1693666839",
-      "caption": "包容性服装品牌项目公开展示素材",
-      "alt": "dapper-boi",
-      "sourceUrl": "https://www.starterstory.com/stories/dapper-boi",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/bOZWcaAZPiM",
-      "caption": "包容性服装品牌项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=bOZWcaAZPiM",
+      "caption": "包容性服装品牌资料中提及的视频：Dapper Boi Kickstarter Campaign Video",
+      "alt": "Dapper Boi Kickstarter Campaign Video",
       "sourceUrl": "https://www.starterstory.com/stories/dapper-boi",
       "origin": "embeddable-video",
-      "poster": "",
-      "usage": ""
-    },
-    {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/ToKNASlYvfI",
-      "caption": "包容性服装品牌项目相关公开视频",
-      "alt": "",
-      "sourceUrl": "https://www.starterstory.com/stories/dapper-boi",
-      "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/bOZWcaAZPiM/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -206,6 +184,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2169,
-    "mediaCount": 8
+    "mediaCount": 5
   }
 }

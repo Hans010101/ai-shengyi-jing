@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/cphxgnyk4qwuy40m6yp6253uqbbf",
-      "caption": "美食导览旅游业务公开案例主图",
-      "alt": "美食导览旅游业务案例图片",
+      "caption": "美食导览旅游业务：通过收取导览费和佣金盈利",
+      "alt": "美食导览旅游业务：通过收取导览费和佣金盈利",
       "sourceUrl": "https://www.starterstory.com/stories/delicious-denver-food-tours",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/475/original/open-uri20230516-51-1vwfxu?1684203156",
-      "caption": "美食导览旅游业务项目公开展示素材",
-      "alt": "delicious-denver-food-tours",
+      "caption": "美食导览旅游业务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "美食导览旅游业务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/delicious-denver-food-tours",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/476/original/open-uri20230516-51-1bgc8yk?1684203158",
-      "caption": "美食导览旅游业务项目公开展示素材",
-      "alt": "delicious-denver-food-tours",
+      "caption": "美食导览旅游业务：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "美食导览旅游业务：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/delicious-denver-food-tours",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/477/original/open-uri20230516-51-6y3g82?1684203158",
-      "caption": "美食导览旅游业务项目公开展示素材",
-      "alt": "delicious-denver-food-tours",
+      "caption": "美食导览旅游业务：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "美食导览旅游业务：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/delicious-denver-food-tours",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/478/original/open-uri20230516-51-85m628?1684203159",
-      "caption": "美食导览旅游业务项目公开展示素材",
-      "alt": "delicious-denver-food-tours",
-      "sourceUrl": "https://www.starterstory.com/stories/delicious-denver-food-tours",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2171,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/61xgajzuugprp9qmjmiupn0637oj",
-      "caption": "极简电商平台公开案例主图",
-      "alt": "极简电商平台案例图片",
+      "caption": "极简电商平台：月费$10赚取收入",
+      "alt": "极简电商平台：月费$10赚取收入",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-launched-and-monetized-a-really-simple-app",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/589/original/open-uri20190515-4-1kn9qqk?1557936768",
-      "caption": "极简电商平台项目公开展示素材",
-      "alt": "how-i-launched-and-monetized-a-really-simple-product",
+      "caption": "极简电商平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "极简电商平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-launched-and-monetized-a-really-simple-app",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/590/original/open-uri20190515-4-1sgu4s5?1557936768",
-      "caption": "极简电商平台项目公开展示素材",
-      "alt": "how-i-launched-and-monetized-a-really-simple-product",
+      "caption": "极简电商平台：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "极简电商平台：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-launched-and-monetized-a-really-simple-app",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/591/original/open-uri20190515-4-8in49j?1557936770",
-      "caption": "极简电商平台项目公开展示素材",
-      "alt": "how-i-launched-and-monetized-a-really-simple-product",
+      "caption": "极简电商平台：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "极简电商平台：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-launched-and-monetized-a-really-simple-app",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/592/original/open-uri20190515-4-usog4s?1557936770",
-      "caption": "极简电商平台项目公开展示素材",
-      "alt": "how-i-launched-and-monetized-a-really-simple-product",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-launched-and-monetized-a-really-simple-app",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2127,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

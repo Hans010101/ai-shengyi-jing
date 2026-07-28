@@ -122,65 +122,43 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/4uefz93e9mxhc8s8bb2fly3u3nx3",
-      "caption": "海外AI工具项目公开案例主图",
-      "alt": "海外AI工具项目案例图片",
+      "caption": "海外AI工具项目：通过SEO和社交媒体打造在线品牌，靠广告和联盟营销盈利",
+      "alt": "海外AI工具项目：通过SEO和社交媒体打造在线品牌，靠广告和联盟营销盈利",
       "sourceUrl": "https://www.starterstory.com/stories/increasing-com",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/856/original/open-uri20240512-48-1qa5h9d?1715490378",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "increasing-com",
+      "caption": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/increasing-com",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/857/original/open-uri20240512-48-5arsrs?1715490379",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "increasing-com",
+      "caption": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/increasing-com",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/increasing-com",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c303bjznv93yxnh0xxz7t4vfedzf",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/increasing-com",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/fyhbx2o0p0ivjbzkcaxfg3kkessb",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/increasing-com",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/8G9pnE0bnfE",
-      "caption": "海外AI工具项目项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=8G9pnE0bnfE",
+      "caption": "海外AI工具项目资料中提及的视频：BASQUIAT's work ethic",
+      "alt": "BASQUIAT's work ethic",
       "sourceUrl": "https://www.starterstory.com/stories/increasing-com",
       "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/8G9pnE0bnfE/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -196,6 +174,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2167,
-    "mediaCount": 7
+    "mediaCount": 4
   }
 }

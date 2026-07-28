@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ekkacinzsx1d181h34aogpgpoat2",
-      "caption": "为出版行业搭建作品展示与交流社区公开案例主图",
-      "alt": "为出版行业搭建作品展示与交流社区案例图片",
+      "caption": "为出版行业搭建作品展示与交流社区：通过会员订阅和广告盈利",
+      "alt": "为出版行业搭建作品展示与交流社区：通过会员订阅和广告盈利",
       "sourceUrl": "https://www.starterstory.com/stories/merrative",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/737/original/open-uri20220915-13-bcu7ur?1663243087",
-      "caption": "为出版行业搭建作品展示与交流社区项目公开展示素材",
-      "alt": "merrative",
+      "caption": "为出版行业搭建作品展示与交流社区：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为出版行业搭建作品展示与交流社区：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/merrative",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/738/original/open-uri20220915-13-14nprzx?1663243088",
-      "caption": "为出版行业搭建作品展示与交流社区项目公开展示素材",
-      "alt": "merrative",
+      "caption": "为出版行业搭建作品展示与交流社区：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "为出版行业搭建作品展示与交流社区：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/merrative",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/739/original/open-uri20220915-13-1hegjhg?1663243089",
-      "caption": "为出版行业搭建作品展示与交流社区项目公开展示素材",
-      "alt": "merrative",
+      "caption": "为出版行业搭建作品展示与交流社区：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "为出版行业搭建作品展示与交流社区：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/merrative",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为出版行业搭建作品展示与交流社区项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/merrative",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2231,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

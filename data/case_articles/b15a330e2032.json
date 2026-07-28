@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/v99histq0097b2h14dxevqpoxlut",
-      "caption": "免费约会平台公开案例主图",
-      "alt": "免费约会平台案例图片",
+      "caption": "免费约会平台：通过广告和付费会员盈利",
+      "alt": "免费约会平台：通过广告和付费会员盈利",
       "sourceUrl": "https://www.starterstory.com/stories/chat-date-match-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "免费约会平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/chat-date-match-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/ctvbgeir8w24j0nkzvgcjeg0mtys/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "免费约会平台项目公开展示素材",
-      "alt": "免费约会平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/chat-date-match-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/95641e561cf2e76d",
-      "caption": "免费约会平台项目公开展示素材",
-      "alt": "article",
+      "caption": "免费约会平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "免费约会平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/chat-date-match-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/rax1tk1s7ejskmbbd1x8vyp7uurx",
-      "caption": "免费约会平台项目公开展示素材",
-      "alt": "article",
+      "caption": "免费约会平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "免费约会平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/chat-date-match-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/531313df6da11878",
+      "caption": "免费约会平台：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "免费约会平台：创业起点与创意来源相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/chat-date-match-breakdown",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2264,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -121,57 +121,23 @@
   "media": [
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI赋能经典文学项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/art-x-science-international-site-officiel",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/95271a40fc6fbf9f",
-      "caption": "AI赋能经典文学项目公开展示素材",
+      "caption": "AI赋能经典文学：创始人、核心产品与品牌起点相关原始配图",
       "alt": "Noé Cabannes Michel headshot in 2025",
       "sourceUrl": "https://www.starterstory.com/stories/art-x-science-international-site-officiel",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ajlq59tw9zlmazz1c3al90aqo94q",
-      "caption": "AI赋能经典文学项目公开展示素材",
-      "alt": "article",
+      "caption": "AI赋能经典文学：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI赋能经典文学：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/art-x-science-international-site-officiel",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/o18m2npeo3bi54a13gtcsh2h5b8e",
-      "caption": "AI赋能经典文学项目公开展示素材",
-      "alt": "AI赋能经典文学项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/art-x-science-international-site-officiel",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "AI赋能经典文学项目公开展示素材",
-      "alt": "MailChimp logo",
-      "sourceUrl": "https://www.starterstory.com/stories/art-x-science-international-site-officiel",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/0u8379kxgxotcjtplrbl90zoli76/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "AI赋能经典文学项目公开展示素材",
-      "alt": "AI赋能经典文学项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/art-x-science-international-site-officiel",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2261,
-    "mediaCount": 6
+    "mediaCount": 2
   }
 }

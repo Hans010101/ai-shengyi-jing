@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/1r83ralpuu3dhworv53im0u3ubfi",
-      "caption": "为宠物制作舒缓音乐公开案例主图",
-      "alt": "为宠物制作舒缓音乐案例图片",
+      "caption": "为宠物制作舒缓音乐：订阅制付费",
+      "alt": "为宠物制作舒缓音乐：订阅制付费",
       "sourceUrl": "https://www.starterstory.com/stories/music-for-pets-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为宠物制作舒缓音乐项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/music-for-pets-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/zl2cgx45a3su7825opiol0rbtsqc/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "为宠物制作舒缓音乐项目公开展示素材",
-      "alt": "为宠物制作舒缓音乐项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/music-for-pets-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/50e96f2d990e428c",
-      "caption": "为宠物制作舒缓音乐项目公开展示素材",
-      "alt": "article",
+      "caption": "为宠物制作舒缓音乐：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为宠物制作舒缓音乐：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/music-for-pets-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/8m0p62r5qyt2ybntfcpjocdf1w3q",
-      "caption": "为宠物制作舒缓音乐项目公开展示素材",
-      "alt": "article",
+      "caption": "为宠物制作舒缓音乐：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "为宠物制作舒缓音乐：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/music-for-pets-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/6d8cbb931ecd872f",
+      "caption": "为宠物制作舒缓音乐：获客渠道与客户留存相关原始配图（第3张）",
+      "alt": "为宠物制作舒缓音乐：获客渠道与客户留存相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/music-for-pets-breakdown",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2171,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/o5o457525mn8khj7odoxcpclcpnu",
-      "caption": "开发一个专注力提升应用公开案例主图",
-      "alt": "开发一个专注力提升应用案例图片",
+      "caption": "开发一个专注力提升应用：通过订阅制赚钱",
+      "alt": "开发一个专注力提升应用：通过订阅制赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/planndu",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/648/original/open-uri20220912-24-qx712b?166299192",
-      "caption": "开发一个专注力提升应用项目公开展示素材",
-      "alt": "tsk",
+      "caption": "开发一个专注力提升应用：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "开发一个专注力提升应用：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/planndu",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/649/original/open-uri20220912-24-aob7fn?1662991093",
-      "caption": "开发一个专注力提升应用项目公开展示素材",
-      "alt": "planndu",
+      "caption": "开发一个专注力提升应用：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "开发一个专注力提升应用：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/planndu",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/650/original/open-uri20220912-24-1oweiny?1662991094",
-      "caption": "开发一个专注力提升应用项目公开展示素材",
-      "alt": "planndu",
+      "caption": "开发一个专注力提升应用：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "开发一个专注力提升应用：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/planndu",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/651/original/open-uri20220912-24-1k7labv?1662991094",
-      "caption": "开发一个专注力提升应用项目公开展示素材",
-      "alt": "planndu",
-      "sourceUrl": "https://www.starterstory.com/stories/planndu",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2188,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

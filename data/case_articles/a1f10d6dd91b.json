@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/sn6bngbm6d2j41nl26kvicxqe9lx",
-      "caption": "作为私人放贷人公开案例主图",
-      "alt": "作为私人放贷人案例图片",
+      "caption": "作为私人放贷人：提供短期房产抵押贷款赚取利息和费用",
+      "alt": "作为私人放贷人：提供短期房产抵押贷款赚取利息和费用",
       "sourceUrl": "https://www.starterstory.com/stories/y2-lending",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/197/original/open-uri20230502-51-1042z37?1683003319",
-      "caption": "作为私人放贷人项目公开展示素材",
-      "alt": "y2-lending",
+      "caption": "作为私人放贷人：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "作为私人放贷人：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/y2-lending",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "作为私人放贷人项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/y2-lending",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/lsdq3eritrdu1dptudl4d1etc2l5",
-      "caption": "作为私人放贷人项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/y2-lending",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/gl38e28b8wy08055xcqglg1r6pqs",
-      "caption": "作为私人放贷人项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/y2-lending",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2209,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

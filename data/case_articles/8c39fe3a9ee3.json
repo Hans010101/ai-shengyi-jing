@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/sz1rwiln9exxmlailr2b5l4xfoo0",
-      "caption": "视频编辑SaaS公开案例主图",
-      "alt": "视频编辑SaaS案例图片",
+      "caption": "视频编辑SaaS：按订阅制收费，提供AI剪辑服务",
+      "alt": "视频编辑SaaS：按订阅制收费，提供AI剪辑服务",
       "sourceUrl": "https://www.starterstory.com/stories/video-husky-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "视频编辑SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/video-husky-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/hounnzl8n4p22vydjlrripwv8dkg/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "视频编辑SaaS项目公开展示素材",
-      "alt": "视频编辑SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/video-husky-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/a46a38fff0bf1169",
-      "caption": "视频编辑SaaS项目公开展示素材",
+      "caption": "视频编辑SaaS：创始人、核心产品与品牌起点相关原始配图",
       "alt": "Video Husky Homepage",
       "sourceUrl": "https://www.starterstory.com/stories/video-husky-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/mofxrdnfxgl9zyvqxc5se9v8fn93",
-      "caption": "视频编辑SaaS项目公开展示素材",
-      "alt": "article",
+      "caption": "视频编辑SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "视频编辑SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/video-husky-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/4bf4f0b73c7f6622",
+      "caption": "视频编辑SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "Video Husky Pricing",
+      "sourceUrl": "https://www.starterstory.com/stories/video-husky-breakdown",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/fiiUdg299Uc",
+      "watchUrl": "https://www.youtube.com/watch?v=fiiUdg299Uc",
+      "caption": "视频编辑SaaS资料中提及的视频：Review: Video Husky | Unlimited Video Editing Services",
+      "alt": "Review: Video Husky | Unlimited Video Editing Services",
+      "sourceUrl": "https://www.starterstory.com/stories/video-husky-breakdown",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/fiiUdg299Uc/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

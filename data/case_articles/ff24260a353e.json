@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/n1vnp9u0rnv0tysrltr6swkgopyf",
-      "caption": "电商幸运轮盘插件公开案例主图",
-      "alt": "电商幸运轮盘插件案例图片",
+      "caption": "电商幸运轮盘插件：按月订阅收费",
+      "alt": "电商幸运轮盘插件：按月订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-coded-a-website-plugin-making-600-per-month",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/255/original/open-uri20190313-4-1m8svpb?1552460143",
-      "caption": "电商幸运轮盘插件项目公开展示素材",
-      "alt": "how-i-coded-a-website-plugin-making-600-per-month",
+      "caption": "电商幸运轮盘插件：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "电商幸运轮盘插件：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-coded-a-website-plugin-making-600-per-month",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/256/original/open-uri20190313-4-1rl40mk?1552460144",
-      "caption": "电商幸运轮盘插件项目公开展示素材",
-      "alt": "how-i-coded-a-website-plugin-making-600-per-month",
+      "caption": "电商幸运轮盘插件：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "电商幸运轮盘插件：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-coded-a-website-plugin-making-600-per-month",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/257/original/open-uri20190313-4-b2n2rm?1552460144",
-      "caption": "电商幸运轮盘插件项目公开展示素材",
-      "alt": "how-i-coded-a-website-plugin-making-600-per-month",
+      "caption": "电商幸运轮盘插件：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "电商幸运轮盘插件：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-coded-a-website-plugin-making-600-per-month",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/258/original/open-uri20190313-4-15cornt?1552460144",
-      "caption": "电商幸运轮盘插件项目公开展示素材",
-      "alt": "how-i-coded-a-website-plugin-making-600-per-month",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-coded-a-website-plugin-making-600-per-month",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2204,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

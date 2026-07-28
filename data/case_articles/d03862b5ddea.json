@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/lmeqiccwnihh0g06lykx7k9fbnji",
-      "caption": "开发WordPress主题和插件公开案例主图",
-      "alt": "开发WordPress主题和插件案例图片",
+      "caption": "开发WordPress主题和插件：通过付费授权和订阅盈利",
+      "alt": "开发WordPress主题和插件：通过付费授权和订阅盈利",
       "sourceUrl": "https://www.starterstory.com/stories/visualmodo",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/015/original/open-uri20230128-24-n8y1pn?1674866296",
-      "caption": "开发WordPress主题和插件项目公开展示素材",
-      "alt": "visualmodo",
+      "caption": "开发WordPress主题和插件：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "开发WordPress主题和插件：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/visualmodo",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "开发WordPress主题和插件项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/visualmodo",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/fyhbx2o0p0ivjbzkcaxfg3kkessb",
-      "caption": "开发WordPress主题和插件项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/visualmodo",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/203twfnl4n6zvwfd5gv9agea6h42",
-      "caption": "开发WordPress主题和插件项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/visualmodo",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2321,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

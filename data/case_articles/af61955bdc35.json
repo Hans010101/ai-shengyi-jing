@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/m6yjyzujbhty7tdwtdo39kr3304x",
-      "caption": "自学设计6个月公开案例主图",
-      "alt": "自学设计6个月案例图片",
+      "caption": "自学设计6个月：为小企业提供品牌设计服务月入$4K",
+      "alt": "自学设计6个月：为小企业提供品牌设计服务月入$4K",
       "sourceUrl": "https://www.starterstory.com/stories/woo-branding",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/151/original/open-uri20220508-24-1xmmdpn?1652029587",
-      "caption": "自学设计6个月项目公开展示素材",
-      "alt": "woo-branding",
+      "caption": "自学设计6个月：创业起点与创意来源相关原始配图",
+      "alt": "自学设计6个月：创业起点与创意来源相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/woo-branding",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/152/original/open-uri20220508-24-1y6hac4?1652029588",
-      "caption": "自学设计6个月项目公开展示素材",
-      "alt": "woo-branding",
+      "caption": "自学设计6个月：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "自学设计6个月：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/woo-branding",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/153/original/open-uri20220508-24-1qtnpmy?1652029588",
-      "caption": "自学设计6个月项目公开展示素材",
-      "alt": "woo-branding",
+      "caption": "自学设计6个月：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "自学设计6个月：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/woo-branding",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/154/original/open-uri20220508-24-zshh9k?1652029589",
-      "caption": "自学设计6个月项目公开展示素材",
-      "alt": "woo-branding",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/NDB8ll3okUE",
+      "watchUrl": "https://www.youtube.com/watch?v=NDB8ll3okUE",
+      "caption": "自学设计6个月资料中提及的视频：Zeki Müren Animasyon - Koff Animasyon (Ödüllü Animasyon)",
+      "alt": "Zeki Müren Animasyon - Koff Animasyon (Ödüllü Animasyon)",
       "sourceUrl": "https://www.starterstory.com/stories/woo-branding",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/NDB8ll3okUE/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

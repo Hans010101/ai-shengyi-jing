@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/fjgnsyqagvfm27wu5ip1xb6pj4x3",
-      "caption": "阿拉伯语室内设计博客公开案例主图",
-      "alt": "阿拉伯语室内设计博客案例图片",
+      "caption": "阿拉伯语室内设计博客：通过广告和联盟营销赚钱",
+      "alt": "阿拉伯语室内设计博客：通过广告和联盟营销赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/aldecor",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/791/original/open-uri20230612-51-5laomj?1686546022",
-      "caption": "阿拉伯语室内设计博客项目公开展示素材",
-      "alt": "aldecor",
+      "caption": "阿拉伯语室内设计博客：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "阿拉伯语室内设计博客：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/aldecor",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/792/original/open-uri20230612-51-1llae53?1686546023",
-      "caption": "阿拉伯语室内设计博客项目公开展示素材",
-      "alt": "aldecor",
+      "caption": "阿拉伯语室内设计博客：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "阿拉伯语室内设计博客：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/aldecor",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/793/original/open-uri20230612-51-4s60kc?1686546023",
-      "caption": "阿拉伯语室内设计博客项目公开展示素材",
-      "alt": "aldecor",
+      "caption": "阿拉伯语室内设计博客：当前经营状态与下一步规划相关原始配图（第3张）",
+      "alt": "阿拉伯语室内设计博客：当前经营状态与下一步规划相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/aldecor",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/794/original/open-uri20230612-51-79drf2?1686546024",
-      "caption": "阿拉伯语室内设计博客项目公开展示素材",
-      "alt": "aldecor",
-      "sourceUrl": "https://www.starterstory.com/stories/aldecor",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "阿拉伯语室内设计博客项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/aldecor",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2229,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

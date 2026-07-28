@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/38v2q749howpqilzi5nkzpp91e3j",
-      "caption": "AI音乐生成平台公开案例主图",
-      "alt": "AI音乐生成平台案例图片",
+      "caption": "AI音乐生成平台：用户付费订阅生成歌曲",
+      "alt": "AI音乐生成平台：用户付费订阅生成歌曲",
       "sourceUrl": "https://www.starterstory.com/businesses/suno-640119",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI音乐生成平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/suno-640119",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/taeeo6xmtdt8unaml07cc2likamw",
-      "caption": "AI音乐生成平台项目公开展示素材",
-      "alt": "Suno logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/suno-640119",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/rss808znsjclt360ndp858dghg5u/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "AI音乐生成平台项目公开展示素材",
-      "alt": "Mikey Shulman",
-      "sourceUrl": "https://www.starterstory.com/businesses/suno-640119",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/qp50u4teiedqtqkn8qmugb3rst2m/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "AI音乐生成平台项目公开展示素材",
-      "alt": "OpenAI",
-      "sourceUrl": "https://www.starterstory.com/businesses/suno-640119",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2195,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

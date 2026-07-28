@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/jje4miabq6k3lmyp3u171xn4gun6",
-      "caption": "创意内容代理公开案例主图",
-      "alt": "创意内容代理案例图片",
+      "caption": "创意内容代理：为品牌制作视频和图片用于付费营销",
+      "alt": "创意内容代理：为品牌制作视频和图片用于付费营销",
       "sourceUrl": "https://www.starterstory.com/stories/brotherdale",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/160/original/open-uri20231111-48-94218m?1699697081",
-      "caption": "创意内容代理项目公开展示素材",
-      "alt": "brotherdale",
+      "caption": "创意内容代理：创业起点与创意来源相关原始配图",
+      "alt": "创意内容代理：创业起点与创意来源相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/brotherdale",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/161/original/open-uri20231111-48-1ak4o05?1699697082",
-      "caption": "创意内容代理项目公开展示素材",
-      "alt": "brotherdale",
+      "caption": "创意内容代理：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "创意内容代理：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/brotherdale",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/162/original/open-uri20231111-48-chfius?1699697083",
-      "caption": "创意内容代理项目公开展示素材",
-      "alt": "brotherdale",
+      "caption": "创意内容代理：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "创意内容代理：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/brotherdale",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/163/original/open-uri20231111-48-5lukov?1699697083",
-      "caption": "创意内容代理项目公开展示素材",
-      "alt": "brotherdale",
+      "type": "video",
+      "url": "https://player.vimeo.com/video/878110749",
+      "watchUrl": "https://vimeo.com/878110749",
+      "caption": "创意内容代理资料中提及的视频：Hell on Wheels",
+      "alt": "Hell on Wheels",
       "sourceUrl": "https://www.starterstory.com/stories/brotherdale",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.vimeocdn.com/video/1744316789-dc8714a402d1a625c62f0638f360fe1f4ee59611d6f73a9ac4967114083581c3-d_200x150?region=us",
+      "provider": "Vimeo",
+      "usage": ""
     }
   ],
   "source": {

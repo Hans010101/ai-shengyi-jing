@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/86jlj2fyemggpbyc0img7ghestu7",
-      "caption": "面向学术界的AI搜索引擎+社区公开案例主图",
-      "alt": "面向学术界的AI搜索引擎+社区案例图片",
+      "caption": "面向学术界的AI搜索引擎+社区：通过订阅和广告变现",
+      "alt": "面向学术界的AI搜索引擎+社区：通过订阅和广告变现",
       "sourceUrl": "https://www.starterstory.com/stories/scible",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/422/original/open-uri20220628-12-6yc227?1656431084",
-      "caption": "面向学术界的AI搜索引擎+社区项目公开展示素材",
-      "alt": "scible",
+      "caption": "面向学术界的AI搜索引擎+社区：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "面向学术界的AI搜索引擎+社区：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/scible",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/423/original/open-uri20220628-12-eb4or8?1656431085",
-      "caption": "面向学术界的AI搜索引擎+社区项目公开展示素材",
-      "alt": "scible",
+      "caption": "面向学术界的AI搜索引擎+社区：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "面向学术界的AI搜索引擎+社区：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/scible",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "面向学术界的AI搜索引擎+社区项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/scible",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/kr69mha3dtgx9k11fnjf5m4t2ky9",
-      "caption": "面向学术界的AI搜索引擎+社区项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/scible",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2193,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

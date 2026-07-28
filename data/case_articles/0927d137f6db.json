@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/n6lyb428qo4qy3br3f2bqx61jxzy",
-      "caption": "房产经纪人公开案例主图",
-      "alt": "房产经纪人案例图片",
+      "caption": "房产经纪人：通过博客分享被动收入知识，靠广告和联盟营销月入2万美元",
+      "alt": "房产经纪人：通过博客分享被动收入知识，靠广告和联盟营销月入2万美元",
       "sourceUrl": "https://www.starterstory.com/stories/pursuit-of-passive-income",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/819/original/open-uri20230110-24-1r1jfnt?1673328701",
-      "caption": "房产经纪人项目公开展示素材",
-      "alt": "pursuit-of-passive-income",
+      "caption": "房产经纪人：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "房产经纪人：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/pursuit-of-passive-income",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/820/original/open-uri20230110-24-1hvu7mo?1673328702",
-      "caption": "房产经纪人项目公开展示素材",
-      "alt": "pursuit-of-passive-income",
+      "caption": "房产经纪人：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "房产经纪人：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/pursuit-of-passive-income",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/821/original/open-uri20230110-24-10z7xs?1673328703",
-      "caption": "房产经纪人项目公开展示素材",
-      "alt": "pursuit-of-passive-income",
+      "caption": "房产经纪人：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "房产经纪人：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/pursuit-of-passive-income",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/822/original/open-uri20230110-24-jv723?1673328704",
-      "caption": "房产经纪人项目公开展示素材",
-      "alt": "pursuit-of-passive-income",
-      "sourceUrl": "https://www.starterstory.com/stories/pursuit-of-passive-income",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2241,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/93x330yffjm0bgoqyw2g66c90dss",
-      "caption": "无代码游戏引擎公开案例主图",
-      "alt": "无代码游戏引擎案例图片",
+      "caption": "无代码游戏引擎：订阅制收费，让非程序员也能开发游戏",
+      "alt": "无代码游戏引擎：订阅制收费，让非程序员也能开发游戏",
       "sourceUrl": "https://www.starterstory.com/stories/we-created-a-100k-month-no-code-tool-for-video-game-developers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/841/original/open-uri20210921-3-bkiabu?1632243500",
-      "caption": "无代码游戏引擎项目公开展示素材",
-      "alt": "we-created-a-100k-month-no-code-tool-for-video-game-developers",
+      "caption": "无代码游戏引擎：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "无代码游戏引擎：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/we-created-a-100k-month-no-code-tool-for-video-game-developers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/842/original/open-uri20210921-3-8pxmk8?1632243500",
-      "caption": "无代码游戏引擎项目公开展示素材",
-      "alt": "we-created-a-100k-month-no-code-tool-for-video-game-developers",
+      "caption": "无代码游戏引擎：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "无代码游戏引擎：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-created-a-100k-month-no-code-tool-for-video-game-developers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/843/original/open-uri20210921-3-u8ewxd?1632243501",
-      "caption": "无代码游戏引擎项目公开展示素材",
-      "alt": "we-created-a-100k-month-no-code-tool-for-video-game-developers",
+      "caption": "无代码游戏引擎：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "无代码游戏引擎：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-created-a-100k-month-no-code-tool-for-video-game-developers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/844/original/open-uri20210921-3-5m7a35?1632243501",
-      "caption": "无代码游戏引擎项目公开展示素材",
-      "alt": "we-created-a-100k-month-no-code-tool-for-video-game-developers",
-      "sourceUrl": "https://www.starterstory.com/stories/we-created-a-100k-month-no-code-tool-for-video-game-developers",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2230,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

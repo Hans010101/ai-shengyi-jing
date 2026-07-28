@@ -122,47 +122,34 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/4szwqha2w8swnl2e40ldhr125dy0",
-      "caption": "为特许经营品牌提供战略咨询与运营支持公开案例主图",
-      "alt": "为特许经营品牌提供战略咨询与运营支持案例图片",
+      "caption": "为特许经营品牌提供战略咨询与运营支持：收取咨询费与订阅费",
+      "alt": "为特许经营品牌提供战略咨询与运营支持：收取咨询费与订阅费",
       "sourceUrl": "https://www.starterstory.com/stories/angela-cote-inc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/150/original/open-uri20220821-12-go1vks?1661071666",
-      "caption": "为特许经营品牌提供战略咨询与运营支持项目公开展示素材",
-      "alt": "angela-cote-inc",
+      "caption": "为特许经营品牌提供战略咨询与运营支持：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为特许经营品牌提供战略咨询与运营支持：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/angela-cote-inc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为特许经营品牌提供战略咨询与运营支持项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/9YFNgKwv31A",
+      "watchUrl": "https://www.youtube.com/watch?v=9YFNgKwv31A",
+      "caption": "为特许经营品牌提供战略咨询与运营支持资料中提及的视频：Seth Godin: Marketing Strategies That Work",
+      "alt": "Seth Godin: Marketing Strategies That Work",
       "sourceUrl": "https://www.starterstory.com/stories/angela-cote-inc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/05wfjy209m57b59865cjga1ngudh",
-      "caption": "为特许经营品牌提供战略咨询与运营支持项目公开展示素材",
-      "alt": "为特许经营品牌提供战略咨询与运营支持项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/angela-cote-inc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/kibxpd7zv0zsit2293mdx78z64qk",
-      "caption": "为特许经营品牌提供战略咨询与运营支持项目公开展示素材",
-      "alt": "为特许经营品牌提供战略咨询与运营支持项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/angela-cote-inc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/9YFNgKwv31A/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +164,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2192,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

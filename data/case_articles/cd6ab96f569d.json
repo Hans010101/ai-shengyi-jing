@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/2jdpsi1w878krhbdo3jqitn9jwzl",
-      "caption": "HR软件评测网站公开案例主图",
-      "alt": "HR软件评测网站案例图片",
+      "caption": "HR软件评测网站：通过联盟营销赚取佣金",
+      "alt": "HR软件评测网站：通过联盟营销赚取佣金",
       "sourceUrl": "https://www.starterstory.com/stories/this-vc-taught-himself-how-to-code-and-is-bootstrapping-his-own-startup",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/915/original/open-uri20190908-4-hp0wuk?1567940332",
-      "caption": "HR软件评测网站项目公开展示素材",
-      "alt": "this-vc-taught-himself-how-to-code-and-is-bootstrapping-his-own-startup",
+      "caption": "HR软件评测网站：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "HR软件评测网站：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/this-vc-taught-himself-how-to-code-and-is-bootstrapping-his-own-startup",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/916/original/open-uri20190908-4-peauqd?1567940333",
-      "caption": "HR软件评测网站项目公开展示素材",
-      "alt": "this-vc-taught-himself-how-to-code-and-is-bootstrapping-his-own-startup",
+      "caption": "HR软件评测网站：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "HR软件评测网站：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/this-vc-taught-himself-how-to-code-and-is-bootstrapping-his-own-startup",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/917/original/open-uri20190908-4-1fdkwbo?1567940333",
-      "caption": "HR软件评测网站项目公开展示素材",
-      "alt": "this-vc-taught-himself-how-to-code-and-is-bootstrapping-his-own-startup",
+      "caption": "HR软件评测网站：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "HR软件评测网站：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/this-vc-taught-himself-how-to-code-and-is-bootstrapping-his-own-startup",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/918/original/open-uri20190908-4-13mmp0r?1567940334",
-      "caption": "HR软件评测网站项目公开展示素材",
-      "alt": "this-vc-taught-himself-how-to-code-and-is-bootstrapping-his-own-startup",
-      "sourceUrl": "https://www.starterstory.com/stories/this-vc-taught-himself-how-to-code-and-is-bootstrapping-his-own-startup",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2144,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

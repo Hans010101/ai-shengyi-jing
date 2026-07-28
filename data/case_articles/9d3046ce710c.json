@@ -122,56 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/pcrw7lv9zccd6eyknc2oi764qhqv",
-      "caption": "营销自动化SaaS公开案例主图",
-      "alt": "营销自动化SaaS案例图片",
+      "caption": "营销自动化SaaS：通过订阅制收费",
+      "alt": "营销自动化SaaS：通过订阅制收费",
       "sourceUrl": "https://www.starterstory.com/stories/user-com",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/846/original/open-uri20220728-24-175vgow?1659010374",
-      "caption": "营销自动化SaaS项目公开展示素材",
-      "alt": "user-com",
+      "caption": "营销自动化SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "营销自动化SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/user-com",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/847/original/open-uri20220728-24-1rl6hdt?1659010375",
-      "caption": "营销自动化SaaS项目公开展示素材",
-      "alt": "user-com",
+      "caption": "营销自动化SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "营销自动化SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/user-com",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "营销自动化SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/user-com",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/s3thrrqbjem3qler43fak7dop7v2",
-      "caption": "营销自动化SaaS项目公开展示素材",
-      "alt": "营销自动化SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/user-com",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/9pgfik1nc0uj7b4qq9x37yofgvoj",
-      "caption": "营销自动化SaaS项目公开展示素材",
-      "alt": "营销自动化SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/user-com",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2193,
-    "mediaCount": 6
+    "mediaCount": 3
   }
 }

@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/jnu7pejj6lpsghzqsahsbzu0bbul",
-      "caption": "AI生成专业头像公开案例主图",
-      "alt": "AI生成专业头像案例图片",
+      "caption": "AI生成专业头像：按次收费，月入30万美元",
+      "alt": "AI生成专业头像：按次收费，月入30万美元",
       "sourceUrl": "https://www.starterstory.com/stories/headshotpro-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI生成专业头像项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/headshotpro-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/n0cphscedqs1d0ttw8v121dzwf5c/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "AI生成专业头像项目公开展示素材",
-      "alt": "AI生成专业头像项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/headshotpro-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/36185e05e3357299",
-      "caption": "AI生成专业头像项目公开展示素材",
-      "alt": "article",
+      "caption": "AI生成专业头像：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI生成专业头像：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/headshotpro-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/mtajp635bvetb5ia9mnbro8whov3",
-      "caption": "AI生成专业头像项目公开展示素材",
-      "alt": "article",
+      "caption": "AI生成专业头像：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI生成专业头像：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/headshotpro-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/fb65fccd5edc5eaa",
+      "caption": "AI生成专业头像：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "AI生成专业头像：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/headshotpro-breakdown",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/X36_7wRC_WI",
+      "watchUrl": "https://www.youtube.com/watch?v=X36_7wRC_WI",
+      "caption": "AI生成专业头像资料中提及的视频：Danny Postma — An Indie Hacker's Business Evolution",
+      "alt": "Danny Postma — An Indie Hacker's Business Evolution",
+      "sourceUrl": "https://www.starterstory.com/stories/headshotpro-breakdown",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/X36_7wRC_WI/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

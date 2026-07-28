@@ -122,65 +122,43 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/4v15v9d2ktm8w5t6ad3igsxito0x",
-      "caption": "残障女性创办的数字营销机构公开案例主图",
-      "alt": "残障女性创办的数字营销机构案例图片",
+      "caption": "残障女性创办的数字营销机构：通过网站设计和SEO服务月入8K美元",
+      "alt": "残障女性创办的数字营销机构：通过网站设计和SEO服务月入8K美元",
       "sourceUrl": "https://www.starterstory.com/stories/rise-visible",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/567/original/open-uri20220713-12-jppfzd?1657721061",
-      "caption": "残障女性创办的数字营销机构项目公开展示素材",
-      "alt": "rise-visible",
+      "caption": "残障女性创办的数字营销机构：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "残障女性创办的数字营销机构：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/rise-visible",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/570/original/open-uri20220713-12-1tpgeq9?1657721066",
-      "caption": "残障女性创办的数字营销机构项目公开展示素材",
-      "alt": "rise-visible",
+      "caption": "残障女性创办的数字营销机构：业务工具与运营系统相关原始配图（第2张）",
+      "alt": "残障女性创办的数字营销机构：业务工具与运营系统相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/rise-visible",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "残障女性创办的数字营销机构项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/rise-visible",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/fyhbx2o0p0ivjbzkcaxfg3kkessb",
-      "caption": "残障女性创办的数字营销机构项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/rise-visible",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/glia3fse1raug40hg8lpkg3rg09w",
-      "caption": "残障女性创办的数字营销机构项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/rise-visible",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/2Ss78LfY3nE",
-      "caption": "残障女性创办的数字营销机构项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=2Ss78LfY3nE",
+      "caption": "残障女性创办的数字营销机构资料中提及的视频：Start With 'Why' - TED Talk from Simon Sinek",
+      "alt": "Start With 'Why' - TED Talk from Simon Sinek",
       "sourceUrl": "https://www.starterstory.com/stories/rise-visible",
       "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/2Ss78LfY3nE/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -196,6 +174,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2188,
-    "mediaCount": 7
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/kortp2jlighjbxx45x7824ybfkln",
-      "caption": "每日播客访谈企业家公开案例主图",
-      "alt": "每日播客访谈企业家案例图片",
+      "caption": "每日播客访谈企业家：通过广告、联盟营销和课程变现",
+      "alt": "每日播客访谈企业家：通过广告、联盟营销和课程变现",
       "sourceUrl": "https://www.starterstory.com/stories/how-john-lee-dumas-grew-a-podcast-into-2m-year-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/627/original/open-uri20190103-4-1j9rkst?1546540350",
-      "caption": "每日播客访谈企业家项目公开展示素材",
-      "alt": "how-john-lee-dumas-grew-a-podcast-into-2m-year-business",
+      "caption": "每日播客访谈企业家：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "每日播客访谈企业家：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-john-lee-dumas-grew-a-podcast-into-2m-year-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/628/original/open-uri20190103-4-1310lgz?1546540351",
-      "caption": "每日播客访谈企业家项目公开展示素材",
-      "alt": "how-john-lee-dumas-grew-a-podcast-into-2m-year-business",
+      "caption": "每日播客访谈企业家：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "每日播客访谈企业家：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-john-lee-dumas-grew-a-podcast-into-2m-year-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/629/original/open-uri20190103-4-1j88edy?1546540351",
-      "caption": "每日播客访谈企业家项目公开展示素材",
-      "alt": "how-john-lee-dumas-grew-a-podcast-into-2m-year-business",
+      "caption": "每日播客访谈企业家：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "每日播客访谈企业家：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-john-lee-dumas-grew-a-podcast-into-2m-year-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/630/original/open-uri20190103-4-s4a1u2?1546540352",
-      "caption": "每日播客访谈企业家项目公开展示素材",
-      "alt": "how-john-lee-dumas-grew-a-podcast-into-2m-year-business",
-      "sourceUrl": "https://www.starterstory.com/stories/how-john-lee-dumas-grew-a-podcast-into-2m-year-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2249,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

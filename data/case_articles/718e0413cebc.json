@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/qkdl92w6ey1ppjls6nnyhualxa0u",
-      "caption": "海外AI工具项目公开案例主图",
-      "alt": "海外AI工具项目案例图片",
+      "caption": "海外AI工具项目：通过SEO优化博客，聚合电视节目数据，靠广告和联盟营销赚钱",
+      "alt": "海外AI工具项目：通过SEO优化博客，聚合电视节目数据，靠广告和联盟营销赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-our-blog-through-seo",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/412/original/open-uri20201021-4-1hnnr63?1603295802",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "how-we-ve-grown-our-business-through-seo",
+      "caption": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-our-blog-through-seo",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/413/original/open-uri20201021-4-3sz99g?1603295802",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "how-we-ve-grown-our-business-through-seo",
+      "caption": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-our-blog-through-seo",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/414/original/open-uri20201021-4-e84870?1603295802",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "how-we-ve-grown-our-business-through-seo",
+      "caption": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-our-blog-through-seo",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/415/original/open-uri20201021-4-1nwqvel?1603295803",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "how-we-ve-grown-our-business-through-seo",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-our-blog-through-seo",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-our-blog-through-seo",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2213,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/f5u21077y2p14rk1lmuwzt2xczm1",
-      "caption": "孟加拉国本地配送SaaS公开案例主图",
-      "alt": "孟加拉国本地配送SaaS案例图片",
+      "caption": "孟加拉国本地配送SaaS：月入3万美元",
+      "alt": "孟加拉国本地配送SaaS：月入3万美元",
       "sourceUrl": "https://www.starterstory.com/stories/parcelmagic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/297/original/open-uri20220621-24-19mlxtt?1655835905",
-      "caption": "孟加拉国本地配送SaaS项目公开展示素材",
-      "alt": "parcelmagic",
+      "caption": "孟加拉国本地配送SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "孟加拉国本地配送SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/parcelmagic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/298/original/open-uri20220621-24-wfbj5?1655835905",
-      "caption": "孟加拉国本地配送SaaS项目公开展示素材",
-      "alt": "parcelmagic",
+      "caption": "孟加拉国本地配送SaaS：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "孟加拉国本地配送SaaS：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/parcelmagic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/299/original/open-uri20220621-24-1a6sced?1655835905",
-      "caption": "孟加拉国本地配送SaaS项目公开展示素材",
-      "alt": "parcelmagic",
+      "caption": "孟加拉国本地配送SaaS：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "孟加拉国本地配送SaaS：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/parcelmagic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/300/original/open-uri20220621-24-1gwbgms?1655835906",
-      "caption": "孟加拉国本地配送SaaS项目公开展示素材",
-      "alt": "parcelmagic",
-      "sourceUrl": "https://www.starterstory.com/stories/parcelmagic",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2195,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

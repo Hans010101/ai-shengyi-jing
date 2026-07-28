@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/wctwh5y81fllmcgs8ozd8ck4pjwn",
-      "caption": "数字营销代理公司公开案例主图",
-      "alt": "数字营销代理公司案例图片",
+      "caption": "数字营销代理公司：提供SEO/SEM等服务，年入120万美元",
+      "alt": "数字营销代理公司：提供SEO/SEM等服务，年入120万美元",
       "sourceUrl": "https://www.starterstory.com/stories/inquivix",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/092/original/open-uri20230211-11-5ghooe?1676124247",
-      "caption": "数字营销代理公司项目公开展示素材",
-      "alt": "inquivix",
+      "caption": "数字营销代理公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "数字营销代理公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/inquivix",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/093/original/open-uri20230211-11-dvbn2l?1676124248",
-      "caption": "数字营销代理公司项目公开展示素材",
-      "alt": "inquivix",
+      "caption": "数字营销代理公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "数字营销代理公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/inquivix",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "数字营销代理公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/inquivix",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/s3thrrqbjem3qler43fak7dop7v2",
-      "caption": "数字营销代理公司项目公开展示素材",
-      "alt": "数字营销代理公司项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/inquivix",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2198,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

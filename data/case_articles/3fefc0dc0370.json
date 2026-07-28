@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/0inlpbxwnt4mq06t7gjlp8uwj9f8",
-      "caption": "销售主题泰迪熊公开案例主图",
-      "alt": "销售主题泰迪熊案例图片",
+      "caption": "销售主题泰迪熊：通过Google Adwords获客盈利",
+      "alt": "销售主题泰迪熊：通过Google Adwords获客盈利",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-our-sales-with-google-adwords",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/007/898/original/open-uri20200917-4-13mmdbz?1600358295",
-      "caption": "销售主题泰迪熊项目公开展示素材",
-      "alt": "how-we-ve-grown-our-sales-by-google-ads-and-smart-shopping-campaigns",
+      "caption": "销售主题泰迪熊：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "销售主题泰迪熊：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-our-sales-with-google-adwords",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/007/899/original/open-uri20200917-4-nvm9zj?1600358295",
-      "caption": "销售主题泰迪熊项目公开展示素材",
-      "alt": "how-we-ve-grown-our-sales-by-google-ads-and-smart-shopping-campaigns",
+      "caption": "销售主题泰迪熊：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "销售主题泰迪熊：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-our-sales-with-google-adwords",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/007/900/original/open-uri20200917-4-qahsvj?1600358297",
-      "caption": "销售主题泰迪熊项目公开展示素材",
-      "alt": "how-we-ve-grown-our-sales-by-google-ads-and-smart-shopping-campaigns",
+      "caption": "销售主题泰迪熊：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "销售主题泰迪熊：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-our-sales-with-google-adwords",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "销售主题泰迪熊项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-our-sales-with-google-adwords",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2199,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

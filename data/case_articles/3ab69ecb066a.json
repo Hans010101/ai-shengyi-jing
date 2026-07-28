@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/7xkhzfol730l0fx32rpzzdl4ykd4",
-      "caption": "电商广告代理公开案例主图",
-      "alt": "电商广告代理案例图片",
+      "caption": "电商广告代理：通过付费广告帮助电商卖家提升销售，月入8万美元",
+      "alt": "电商广告代理：通过付费广告帮助电商卖家提升销售，月入8万美元",
       "sourceUrl": "https://www.starterstory.com/stories/adjustmedia-co",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/071/original/open-uri20220430-24-y5buaf?1651340010",
-      "caption": "电商广告代理项目公开展示素材",
-      "alt": "adjustmedia-co",
+      "caption": "电商广告代理：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "电商广告代理：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/adjustmedia-co",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/072/original/open-uri20220430-24-qfxdtd?1651340010",
-      "caption": "电商广告代理项目公开展示素材",
-      "alt": "adjustmedia-co",
+      "caption": "电商广告代理：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "电商广告代理：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/adjustmedia-co",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "电商广告代理项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/adjustmedia-co",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/s3thrrqbjem3qler43fak7dop7v2",
-      "caption": "电商广告代理项目公开展示素材",
-      "alt": "电商广告代理项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/adjustmedia-co",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2244,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

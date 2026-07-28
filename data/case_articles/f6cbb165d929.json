@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/5akv4avn7gunz5vu8hcpsfem9bbb",
-      "caption": "球鞋转卖邮件订阅公开案例主图",
-      "alt": "球鞋转卖邮件订阅案例图片",
+      "caption": "球鞋转卖邮件订阅：通过会员费赚钱",
+      "alt": "球鞋转卖邮件订阅：通过会员费赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/i-started-a-48k-year-newsletter-for-sneaker-heads",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/449/original/open-uri20210831-3-1c4nw1t?1630436318",
-      "caption": "球鞋转卖邮件订阅项目公开展示素材",
-      "alt": "i-started-a-48k-year-newsletter-for-sneaker-heads",
+      "caption": "球鞋转卖邮件订阅：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "球鞋转卖邮件订阅：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-started-a-48k-year-newsletter-for-sneaker-heads",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/450/original/open-uri20210831-3-lovrkk?1630436319",
-      "caption": "球鞋转卖邮件订阅项目公开展示素材",
-      "alt": "i-started-a-48k-year-newsletter-for-sneaker-heads",
+      "caption": "球鞋转卖邮件订阅：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "球鞋转卖邮件订阅：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-started-a-48k-year-newsletter-for-sneaker-heads",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/451/original/open-uri20210831-3-f8n3k1?1630436319",
-      "caption": "球鞋转卖邮件订阅项目公开展示素材",
-      "alt": "i-started-a-48k-year-newsletter-for-sneaker-heads",
+      "caption": "球鞋转卖邮件订阅：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "球鞋转卖邮件订阅：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-started-a-48k-year-newsletter-for-sneaker-heads",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/452/original/open-uri20210831-3-1m8pblr?1630436320",
-      "caption": "球鞋转卖邮件订阅项目公开展示素材",
-      "alt": "i-started-a-48k-year-newsletter-for-sneaker-heads",
-      "sourceUrl": "https://www.starterstory.com/stories/i-started-a-48k-year-newsletter-for-sneaker-heads",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2155,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

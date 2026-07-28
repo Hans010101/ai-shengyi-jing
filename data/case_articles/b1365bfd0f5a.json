@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/owiv6arow9vpfqrx7o7cse96fisq",
-      "caption": "独立开发者社区公开案例主图",
-      "alt": "独立开发者社区案例图片",
+      "caption": "独立开发者社区：通过会员订阅和资源变现赚钱",
+      "alt": "独立开发者社区：通过会员订阅和资源变现赚钱",
       "sourceUrl": "https://www.starterstory.com/businesses/weekend-club",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "独立开发者社区项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/weekend-club",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/v6owb7nqvg5brfj5s0pto722s9nh",
-      "caption": "独立开发者社区项目公开展示素材",
-      "alt": "Ramen Club logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/weekend-club",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/pagzz2pgray4z65xyx698tyl30h7/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "独立开发者社区项目公开展示素材",
-      "alt": "Charlie Ward",
-      "sourceUrl": "https://www.starterstory.com/businesses/weekend-club",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/wf05fi78r3bkadjpbwhtkha8hem6/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "独立开发者社区项目公开展示素材",
-      "alt": "Stripe",
-      "sourceUrl": "https://www.starterstory.com/businesses/weekend-club",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2137,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

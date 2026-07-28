@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/fqac852rxy0lkpm2igfn2f9i3j1q",
-      "caption": "播客主转型视频公开案例主图",
-      "alt": "播客主转型视频案例图片",
+      "caption": "播客主转型视频：靠广告和赞助赚钱",
+      "alt": "播客主转型视频：靠广告和赞助赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-our-podcast-by-making-the-jump-to-video",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/005/656/original/open-uri20200405-4-cd5uyu?1586124803",
-      "caption": "播客主转型视频项目公开展示素材",
-      "alt": "how-we-turn-our-podcast-into-videos",
+      "caption": "播客主转型视频：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "播客主转型视频：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-our-podcast-by-making-the-jump-to-video",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/005/657/original/open-uri20200405-4-177neri?1586124804",
-      "caption": "播客主转型视频项目公开展示素材",
-      "alt": "how-we-turn-our-podcast-into-videos",
+      "caption": "播客主转型视频：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "播客主转型视频：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-our-podcast-by-making-the-jump-to-video",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/005/658/original/open-uri20200405-4-1gnan1m?1586124806",
-      "caption": "播客主转型视频项目公开展示素材",
-      "alt": "how-we-turn-our-podcast-into-videos",
+      "caption": "播客主转型视频：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "播客主转型视频：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-our-podcast-by-making-the-jump-to-video",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "播客主转型视频项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-our-podcast-by-making-the-jump-to-video",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2117,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

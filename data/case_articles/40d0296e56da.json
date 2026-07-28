@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/97u5bmfa0tbvsnj5vvk0mejq9sik",
-      "caption": "简易考勤与计费SaaS公开案例主图",
-      "alt": "简易考勤与计费SaaS案例图片",
+      "caption": "简易考勤与计费SaaS：面向小企业按月收费",
+      "alt": "简易考勤与计费SaaS：面向小企业按月收费",
       "sourceUrl": "https://www.starterstory.com/stories/our-timesheet-software-went-from-side-hustle-to-1-2m-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/720/original/open-uri20220102-3-4xi9mk?1641117818",
-      "caption": "简易考勤与计费SaaS项目公开展示素材",
-      "alt": "our-timesheet-software-went-from-side-hustle-to-1-2m-year",
+      "caption": "简易考勤与计费SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "简易考勤与计费SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/our-timesheet-software-went-from-side-hustle-to-1-2m-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/721/original/open-uri20220102-3-m6k8tw?1641117819",
-      "caption": "简易考勤与计费SaaS项目公开展示素材",
-      "alt": "our-timesheet-software-went-from-side-hustle-to-1-2m-year",
+      "caption": "简易考勤与计费SaaS：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "简易考勤与计费SaaS：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/our-timesheet-software-went-from-side-hustle-to-1-2m-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/722/original/open-uri20220102-3-31b8me?1641117819",
-      "caption": "简易考勤与计费SaaS项目公开展示素材",
-      "alt": "our-timesheet-software-went-from-side-hustle-to-1-2m-year",
+      "caption": "简易考勤与计费SaaS：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "简易考勤与计费SaaS：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/our-timesheet-software-went-from-side-hustle-to-1-2m-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "简易考勤与计费SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/soGjLFVWjZk",
+      "watchUrl": "https://www.youtube.com/watch?v=soGjLFVWjZk",
+      "caption": "简易考勤与计费SaaS资料中提及的视频：Explainer Video for WeWorked | Motion Graphic with Character",
+      "alt": "Explainer Video for WeWorked | Motion Graphic with Character",
       "sourceUrl": "https://www.starterstory.com/stories/our-timesheet-software-went-from-side-hustle-to-1-2m-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/soGjLFVWjZk/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

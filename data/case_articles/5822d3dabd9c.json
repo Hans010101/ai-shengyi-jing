@@ -122,47 +122,56 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/puvd83vxbq0t0x40nfzpr4pbfumy",
-      "caption": "为政府提供定制化数字服务公开案例主图",
-      "alt": "为政府提供定制化数字服务案例图片",
+      "caption": "为政府提供定制化数字服务：按项目收费",
+      "alt": "为政府提供定制化数字服务：按项目收费",
       "sourceUrl": "https://www.starterstory.com/stories/on-creating-a-digital-service-software",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/457/original/open-uri20211215-3-1xuw1ry?1639604637",
-      "caption": "为政府提供定制化数字服务项目公开展示素材",
-      "alt": "fearless",
+      "caption": "为政府提供定制化数字服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为政府提供定制化数字服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/on-creating-a-digital-service-software",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/458/original/open-uri20211215-3-jkv04x?1639604637",
-      "caption": "为政府提供定制化数字服务项目公开展示素材",
-      "alt": "fearless",
+      "caption": "为政府提供定制化数字服务：当前经营状态与下一步规划相关原始配图（第2张）",
+      "alt": "为政府提供定制化数字服务：当前经营状态与下一步规划相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/on-creating-a-digital-service-software",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为政府提供定制化数字服务项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/7QOjNSRnzpg&feature=youtu.be&ab_channel=Fearless",
+      "watchUrl": "https://www.youtube.com/watch?v=7QOjNSRnzpg&feature=youtu.be&ab_channel=Fearless",
+      "caption": "为政府提供定制化数字服务资料中提及的视频：series of murals commissioned for the main hall and new large conference room",
+      "alt": "series of murals commissioned for the main hall and new large conference room",
       "sourceUrl": "https://www.starterstory.com/stories/on-creating-a-digital-service-software",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/7QOjNSRnzpg&feature=youtu.be&ab_channel=Fearless/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/glia3fse1raug40hg8lpkg3rg09w",
-      "caption": "为政府提供定制化数字服务项目公开展示素材",
-      "alt": "tool-icon",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/JZjvmyZkV1c",
+      "watchUrl": "https://www.youtube.com/watch?v=JZjvmyZkV1c",
+      "caption": "为政府提供定制化数字服务：当前经营状态与下一步规划相关视频",
+      "alt": "为政府提供定制化数字服务相关视频",
       "sourceUrl": "https://www.starterstory.com/stories/on-creating-a-digital-service-software",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/JZjvmyZkV1c/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

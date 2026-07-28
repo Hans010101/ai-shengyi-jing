@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/o1499wgeofjzm7079q7fwd1fnsom",
-      "caption": "制作高端定制解释视频公开案例主图",
-      "alt": "制作高端定制解释视频案例图片",
+      "caption": "制作高端定制解释视频：面向企业客户收费",
+      "alt": "制作高端定制解释视频：面向企业客户收费",
       "sourceUrl": "https://www.starterstory.com/stories/explainer-videoly-pte-ltd",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/385/original/open-uri20230227-51-5ilqw8?1677512595",
-      "caption": "制作高端定制解释视频项目公开展示素材",
-      "alt": "explainer-videoly-pte-ltd",
+      "caption": "制作高端定制解释视频：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "制作高端定制解释视频：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/explainer-videoly-pte-ltd",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "制作高端定制解释视频项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/explainer-videoly-pte-ltd",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "制作高端定制解释视频项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/explainer-videoly-pte-ltd",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/5q3k99f5s1xaq0hp1tgt3p1mpfp3",
-      "caption": "制作高端定制解释视频项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/explainer-videoly-pte-ltd",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2124,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

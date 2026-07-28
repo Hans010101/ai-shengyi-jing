@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/eyg0jas8yy0zltdwpos206ehc023",
-      "caption": "基于月相的自出版规划日志公开案例主图",
-      "alt": "基于月相的自出版规划日志案例图片",
+      "caption": "基于月相的自出版规划日志：通过众筹和直销变现",
+      "alt": "基于月相的自出版规划日志：通过众筹和直销变现",
       "sourceUrl": "https://www.starterstory.com/stories/dreamfruit",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/017/original/open-uri20221110-24-12680h0?1668065542",
-      "caption": "基于月相的自出版规划日志项目公开展示素材",
-      "alt": "dreamfruit",
+      "caption": "基于月相的自出版规划日志：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "基于月相的自出版规划日志：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/dreamfruit",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/018/original/open-uri20221110-24-158dgl5?1668065544",
-      "caption": "基于月相的自出版规划日志项目公开展示素材",
-      "alt": "dreamfruit",
+      "caption": "基于月相的自出版规划日志：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "基于月相的自出版规划日志：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/dreamfruit",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/019/original/open-uri20221110-24-1k8mr7m?1668065545",
-      "caption": "基于月相的自出版规划日志项目公开展示素材",
-      "alt": "dreamfruit",
+      "caption": "基于月相的自出版规划日志：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "基于月相的自出版规划日志：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/dreamfruit",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/020/original/open-uri20221110-24-12bjzzu?1668065546",
-      "caption": "基于月相的自出版规划日志项目公开展示素材",
-      "alt": "dreamfruit",
-      "sourceUrl": "https://www.starterstory.com/stories/dreamfruit",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2161,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

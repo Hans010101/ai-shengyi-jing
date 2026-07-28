@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/m6w4irn6de69jrwicouu23oqwtbg",
-      "caption": "帮本地商家收集、监控和展示在线评论的SaaS平台公开案例主图",
-      "alt": "帮本地商家收集、监控和展示在线评论的SaaS平台案例图片",
+      "caption": "帮本地商家收集、监控和展示在线评论的SaaS平台：按月收费",
+      "alt": "帮本地商家收集、监控和展示在线评论的SaaS平台：按月收费",
       "sourceUrl": "https://www.starterstory.com/stories/reviewsonmywebsite",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/363/original/open-uri20230227-51-1f2cb7r?1677506434",
-      "caption": "帮本地商家收集、监控和展示在线评论的SaaS平台项目公开展示素材",
-      "alt": "reviewsonmywebsite",
+      "caption": "帮本地商家收集、监控和展示在线评论的SaaS平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "帮本地商家收集、监控和展示在线评论的SaaS平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/reviewsonmywebsite",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/364/original/open-uri20230227-51-186omnx?1677506435",
-      "caption": "帮本地商家收集、监控和展示在线评论的SaaS平台项目公开展示素材",
-      "alt": "reviewsonmywebsite",
+      "caption": "帮本地商家收集、监控和展示在线评论的SaaS平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "帮本地商家收集、监控和展示在线评论的SaaS平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/reviewsonmywebsite",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/365/original/open-uri20230227-51-1mgt6io?1677506436",
-      "caption": "帮本地商家收集、监控和展示在线评论的SaaS平台项目公开展示素材",
-      "alt": "reviewsonmywebsite",
+      "caption": "帮本地商家收集、监控和展示在线评论的SaaS平台：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "帮本地商家收集、监控和展示在线评论的SaaS平台：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/reviewsonmywebsite",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/366/original/open-uri20230227-51-1w78ril?1677506437",
-      "caption": "帮本地商家收集、监控和展示在线评论的SaaS平台项目公开展示素材",
-      "alt": "reviewsonmywebsite",
-      "sourceUrl": "https://www.starterstory.com/stories/reviewsonmywebsite",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2262,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

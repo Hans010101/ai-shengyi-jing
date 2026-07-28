@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/7o26ghgw5r3oc2fkjw1oxy3flaig",
-      "caption": "创新管理SaaS公开案例主图",
-      "alt": "创新管理SaaS案例图片",
+      "caption": "创新管理SaaS：帮企业收集创意并决策，按用户数收费",
+      "alt": "创新管理SaaS：帮企业收集创意并决策，按用户数收费",
       "sourceUrl": "https://www.starterstory.com/stories/viima",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/661/original/open-uri20221018-12-1fw6u6l?1666074398",
-      "caption": "创新管理SaaS项目公开展示素材",
-      "alt": "viima",
+      "caption": "创新管理SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "创新管理SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/viima",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "创新管理SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/viima",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ralxnxj2bz29pidoxvq3lxw8nef6",
-      "caption": "创新管理SaaS项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/viima",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/lip5b7qk6nuzj18br7xnbk5tlgzk",
-      "caption": "创新管理SaaS项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/viima",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2201,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

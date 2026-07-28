@@ -122,65 +122,33 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/261mihu2imschp566u0uh82p3yas",
-      "caption": "按需VP专家网络公开案例主图",
-      "alt": "按需VP专家网络案例图片",
+      "caption": "按需VP专家网络：帮A到C轮初创公司增长，收服务费",
+      "alt": "按需VP专家网络：帮A到C轮初创公司增长，收服务费",
       "sourceUrl": "https://www.starterstory.com/stories/mavan",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/861/original/open-uri20220606-23-12t11sn?1654513214",
-      "caption": "按需VP专家网络项目公开展示素材",
-      "alt": "mavan",
+      "caption": "按需VP专家网络：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "按需VP专家网络：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/mavan",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "按需VP专家网络项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/mavan",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/0vh4rjpisbbx7hmo0564ei8tw72g",
-      "caption": "按需VP专家网络项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/mavan",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/3d0celdrs9ugtg77g37hjvvnmyhi",
-      "caption": "按需VP专家网络项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/mavan",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/xvq5zqyilctg00app5fimdpg1cf1",
-      "caption": "按需VP专家网络项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/mavan",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/5g2SC8_c1rk",
-      "caption": "按需VP专家网络项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=5g2SC8_c1rk",
+      "caption": "按需VP专家网络资料中提及的视频：Blitzscaling: The Lightning-Fast Path to Building Massively Valuable Companies - Chris Yeh",
+      "alt": "Blitzscaling: The Lightning-Fast Path to Building Massively Valuable Companies - Chris Yeh",
       "sourceUrl": "https://www.starterstory.com/stories/mavan",
       "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/5g2SC8_c1rk/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -196,6 +164,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2169,
-    "mediaCount": 7
+    "mediaCount": 3
   }
 }

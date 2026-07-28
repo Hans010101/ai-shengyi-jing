@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/wl5qyhqfsn32hf7117z0rmivuw0q",
-      "caption": "医生创办的百万美元诊所公开案例主图",
-      "alt": "医生创办的百万美元诊所案例图片",
+      "caption": "医生创办的百万美元诊所：通过直接患者收费盈利",
+      "alt": "医生创办的百万美元诊所：通过直接患者收费盈利",
       "sourceUrl": "https://www.starterstory.com/stories/urgent-care-in-canton-mi-mi-express-care",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/400/original/open-uri20240917-48-qp9jvc?1726546709",
-      "caption": "医生创办的百万美元诊所项目公开展示素材",
-      "alt": "urgent-care-in-canton-mi-mi-express-care",
+      "caption": "医生创办的百万美元诊所：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "医生创办的百万美元诊所：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/urgent-care-in-canton-mi-mi-express-care",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/401/original/open-uri20240917-48-ua2zjn?1726546711",
-      "caption": "医生创办的百万美元诊所项目公开展示素材",
-      "alt": "urgent-care-in-canton-mi-mi-express-care",
+      "caption": "医生创办的百万美元诊所：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "医生创办的百万美元诊所：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/urgent-care-in-canton-mi-mi-express-care",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/402/original/open-uri20240917-48-b3hyyw?1726546711",
-      "caption": "医生创办的百万美元诊所项目公开展示素材",
-      "alt": "urgent-care-in-canton-mi-mi-express-care",
+      "caption": "医生创办的百万美元诊所：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "医生创办的百万美元诊所：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/urgent-care-in-canton-mi-mi-express-care",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/403/original/open-uri20240917-48-smjkag?1726546712",
-      "caption": "医生创办的百万美元诊所项目公开展示素材",
-      "alt": "urgent-care-in-canton-mi-mi-express-care",
-      "sourceUrl": "https://www.starterstory.com/stories/urgent-care-in-canton-mi-mi-express-care",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2131,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

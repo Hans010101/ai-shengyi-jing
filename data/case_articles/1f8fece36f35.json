@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/l4a3dw0ioi1fzw2noi0z3k9mjw0c",
-      "caption": "电商博客公开案例主图",
-      "alt": "电商博客案例图片",
+      "caption": "电商博客：通过内容营销和付费会员赚钱",
+      "alt": "电商博客：通过内容营销和付费会员赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/i-make-10-000-per-month-with-my-e-commerce-blog",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/302/original/open-uri20210824-3-1b7s045?1629817181",
-      "caption": "电商博客项目公开展示素材",
-      "alt": "i-make-10-000-per-month-with-my-e-commerce-blog",
+      "caption": "电商博客：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "电商博客：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-make-10-000-per-month-with-my-e-commerce-blog",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/303/original/open-uri20210824-3-kjkoxm?1629817182",
-      "caption": "电商博客项目公开展示素材",
-      "alt": "i-make-10-000-per-month-with-my-e-commerce-blog",
+      "caption": "电商博客：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "电商博客：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-make-10-000-per-month-with-my-e-commerce-blog",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/304/original/open-uri20210824-3-y42qpx?1629817183",
-      "caption": "电商博客项目公开展示素材",
-      "alt": "i-make-10-000-per-month-with-my-e-commerce-blog",
+      "caption": "电商博客：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "电商博客：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-make-10-000-per-month-with-my-e-commerce-blog",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/305/original/open-uri20210824-3-1hu86qk?1629817184",
-      "caption": "电商博客项目公开展示素材",
-      "alt": "i-make-10-000-per-month-with-my-e-commerce-blog",
-      "sourceUrl": "https://www.starterstory.com/stories/i-make-10-000-per-month-with-my-e-commerce-blog",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2142,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/rpt3l42bqqk3mbj1rkizo73174j1",
-      "caption": "软件外包+AI定制开发服务公开案例主图",
-      "alt": "软件外包+AI定制开发服务案例图片",
+      "caption": "软件外包+AI定制开发服务：按项目收费",
+      "alt": "软件外包+AI定制开发服务：按项目收费",
       "sourceUrl": "https://www.starterstory.com/stories/i-started-a-1m-year-software-development-agency-after-moving-from-venezuela-to-miami",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/216/original/open-uri20220210-3-166ukvs?1644524660",
-      "caption": "软件外包+AI定制开发服务项目公开展示素材",
-      "alt": "i-started-a-1m-year-software-development-agency-after-moving-from-venezuela-to-miami",
+      "caption": "软件外包+AI定制开发服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "软件外包+AI定制开发服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-started-a-1m-year-software-development-agency-after-moving-from-venezuela-to-miami",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/217/original/open-uri20220210-3-9oeqev?1644524661",
-      "caption": "软件外包+AI定制开发服务项目公开展示素材",
-      "alt": "i-started-a-1m-year-software-development-agency-after-moving-from-venezuela-to-miami",
+      "caption": "软件外包+AI定制开发服务：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "软件外包+AI定制开发服务：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-started-a-1m-year-software-development-agency-after-moving-from-venezuela-to-miami",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/218/original/open-uri20220210-3-14p0xmj?1644524661",
-      "caption": "软件外包+AI定制开发服务项目公开展示素材",
-      "alt": "i-started-a-1m-year-software-development-agency-after-moving-from-venezuela-to-miami",
+      "caption": "软件外包+AI定制开发服务：创业复盘与关键经验相关原始配图（第3张）",
+      "alt": "软件外包+AI定制开发服务：创业复盘与关键经验相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-started-a-1m-year-software-development-agency-after-moving-from-venezuela-to-miami",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "软件外包+AI定制开发服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/i-started-a-1m-year-software-development-agency-after-moving-from-venezuela-to-miami",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2182,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

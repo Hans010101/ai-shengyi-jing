@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ggf71prnhu8owu5jjpgyo71wne1k",
-      "caption": "互动演示工具SaaS公开案例主图",
-      "alt": "互动演示工具SaaS案例图片",
+      "caption": "互动演示工具SaaS：订阅制收费",
+      "alt": "互动演示工具SaaS：订阅制收费",
       "sourceUrl": "https://www.starterstory.com/stories/slides-with-friends-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "互动演示工具SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/slides-with-friends-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/ibzgvleygbo9xxfgzg3p4v2fcikt/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "互动演示工具SaaS项目公开展示素材",
-      "alt": "互动演示工具SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/slides-with-friends-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/fe09f52e95363fed",
-      "caption": "互动演示工具SaaS项目公开展示素材",
-      "alt": "article",
+      "caption": "互动演示工具SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "互动演示工具SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/slides-with-friends-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/btz31218hmfpufmce3rg402f98aw",
-      "caption": "互动演示工具SaaS项目公开展示素材",
-      "alt": "article",
+      "caption": "互动演示工具SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "互动演示工具SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/slides-with-friends-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/21abe61466acafd3",
+      "caption": "互动演示工具SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "互动演示工具SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/slides-with-friends-breakdown",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2168,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

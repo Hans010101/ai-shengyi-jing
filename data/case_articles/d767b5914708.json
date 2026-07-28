@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/m8nwxpqohgsfh5ytgutfiz8yku67",
-      "caption": "可持续连体裤品牌公开案例主图",
-      "alt": "可持续连体裤品牌案例图片",
+      "caption": "可持续连体裤品牌：Swoveralls通过DTC模式销售可持续材料制成的舒适连体裤，月入10万美元",
+      "alt": "可持续连体裤品牌：Swoveralls通过DTC模式销售可持续材料制成的舒适连体裤，月入10万美元",
       "sourceUrl": "https://www.starterstory.com/stories/the-great-fantastic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/250/original/open-uri20220619-12-1j1thn4?1655647588",
-      "caption": "可持续连体裤品牌项目公开展示素材",
-      "alt": "the-great-fantastic",
+      "caption": "可持续连体裤品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "可持续连体裤品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/the-great-fantastic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "可持续连体裤品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/the-great-fantastic",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c303bjznv93yxnh0xxz7t4vfedzf",
-      "caption": "可持续连体裤品牌项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/the-great-fantastic",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ddw17y2p9pisyf3lv70vhxx0tfv5",
-      "caption": "可持续连体裤品牌项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/the-great-fantastic",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2276,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

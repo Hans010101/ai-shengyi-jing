@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/l4n3ehubl26qk6bvgi93zs5q5n5g",
-      "caption": "全球地理编码API服务公开案例主图",
-      "alt": "全球地理编码API服务案例图片",
+      "caption": "全球地理编码API服务：按调用量收费",
+      "alt": "全球地理编码API服务：按调用量收费",
       "sourceUrl": "https://www.starterstory.com/stories/creating-an-api-for-developers-earning-15k-month",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/405/original/open-uri20181130-4-p88uk9?1543544272",
-      "caption": "全球地理编码API服务项目公开展示素材",
-      "alt": "creating-an-api-for-developers-earning-15k-month",
+      "caption": "全球地理编码API服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "全球地理编码API服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/creating-an-api-for-developers-earning-15k-month",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "全球地理编码API服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/creating-an-api-for-developers-earning-15k-month",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "全球地理编码API服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/creating-an-api-for-developers-earning-15k-month",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ate3ixct0rejwaikh8a35rr0g8v2",
-      "caption": "全球地理编码API服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/creating-an-api-for-developers-earning-15k-month",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2245,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

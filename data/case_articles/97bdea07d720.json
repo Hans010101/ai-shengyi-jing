@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/1b6rwu6natc26gj2ta09vv54qx25",
-      "caption": "为创业加速器提供AI工具公开案例主图",
-      "alt": "为创业加速器提供AI工具案例图片",
+      "caption": "为创业加速器提供AI工具：优化流程，收取订阅费",
+      "alt": "为创业加速器提供AI工具：优化流程，收取订阅费",
       "sourceUrl": "https://www.starterstory.com/stories/founderblocks",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为创业加速器提供AI工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/founderblocks",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "为创业加速器提供AI工具项目公开展示素材",
-      "alt": "为创业加速器提供AI工具项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/founderblocks",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/dvithrg7zcn51mk81s7sw6btbew2",
-      "caption": "为创业加速器提供AI工具项目公开展示素材",
-      "alt": "为创业加速器提供AI工具项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/founderblocks",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/hkfg10lkjnxo3v96pvq6etuqx9v6",
-      "caption": "为创业加速器提供AI工具项目公开展示素材",
-      "alt": "为创业加速器提供AI工具项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/founderblocks",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2165,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

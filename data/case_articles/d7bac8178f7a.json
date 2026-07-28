@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/6hafjhfzb16opiz9r9cdayexa1uf",
-      "caption": "为高尔夫赛事提供SaaS工具公开案例主图",
-      "alt": "为高尔夫赛事提供SaaS工具案例图片",
+      "caption": "为高尔夫赛事提供SaaS工具：通过订阅制收费",
+      "alt": "为高尔夫赛事提供SaaS工具：通过订阅制收费",
       "sourceUrl": "https://www.starterstory.com/stories/live-tourney",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/216/original/open-uri20240223-65-xp108x?1708684067",
-      "caption": "为高尔夫赛事提供SaaS工具项目公开展示素材",
-      "alt": "live-tourney",
+      "caption": "为高尔夫赛事提供SaaS工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为高尔夫赛事提供SaaS工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/live-tourney",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/217/original/open-uri20240223-65-ub46nl?1708684068",
-      "caption": "为高尔夫赛事提供SaaS工具项目公开展示素材",
-      "alt": "live-tourney",
+      "caption": "为高尔夫赛事提供SaaS工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "为高尔夫赛事提供SaaS工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/live-tourney",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/218/original/open-uri20240223-65-ozr8m8?1708684069",
-      "caption": "为高尔夫赛事提供SaaS工具项目公开展示素材",
-      "alt": "live-tourney",
+      "caption": "为高尔夫赛事提供SaaS工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "为高尔夫赛事提供SaaS工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/live-tourney",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/219/original/open-uri20240223-65-1kvljsq?1708684070",
-      "caption": "为高尔夫赛事提供SaaS工具项目公开展示素材",
-      "alt": "live-tourney",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/HamPNLPBfRo",
+      "watchUrl": "https://www.youtube.com/watch?v=HamPNLPBfRo",
+      "caption": "为高尔夫赛事提供SaaS工具资料中提及的视频：Welcome to Live Tourney",
+      "alt": "Welcome to Live Tourney",
       "sourceUrl": "https://www.starterstory.com/stories/live-tourney",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/HamPNLPBfRo/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

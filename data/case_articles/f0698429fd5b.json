@@ -122,47 +122,34 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/skw10zf16hi2c4e0om87vucv8lk6",
-      "caption": "为电商品牌制作TikTok视频公开案例主图",
-      "alt": "为电商品牌制作TikTok视频案例图片",
+      "caption": "为电商品牌制作TikTok视频：月入2.5万美元",
+      "alt": "为电商品牌制作TikTok视频：月入2.5万美元",
       "sourceUrl": "https://www.starterstory.com/stories/goodo-studios",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/139/original/open-uri20220814-24-19y41cs?1660489944",
-      "caption": "为电商品牌制作TikTok视频项目公开展示素材",
-      "alt": "goodo-studios",
+      "caption": "为电商品牌制作TikTok视频：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为电商品牌制作TikTok视频：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/goodo-studios",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为电商品牌制作TikTok视频项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/v27hQb8Z42Y&t=1s&ab_channel=MatthewGattozzi",
+      "watchUrl": "https://www.youtube.com/watch?v=v27hQb8Z42Y&t=1s&ab_channel=MatthewGattozzi",
+      "caption": "为电商品牌制作TikTok视频资料中提及的视频：How I do not go CRAZY at Ballet",
+      "alt": "How I do not go CRAZY at Ballet",
       "sourceUrl": "https://www.starterstory.com/stories/goodo-studios",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/s3thrrqbjem3qler43fak7dop7v2",
-      "caption": "为电商品牌制作TikTok视频项目公开展示素材",
-      "alt": "为电商品牌制作TikTok视频项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/goodo-studios",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/9pgfik1nc0uj7b4qq9x37yofgvoj",
-      "caption": "为电商品牌制作TikTok视频项目公开展示素材",
-      "alt": "为电商品牌制作TikTok视频项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/goodo-studios",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/v27hQb8Z42Y/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +164,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2195,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

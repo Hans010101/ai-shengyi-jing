@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/gulp0cr9s49ysci4lhwc2o8fngzn",
-      "caption": "浪漫礼宾服务公开案例主图",
-      "alt": "浪漫礼宾服务案例图片",
+      "caption": "浪漫礼宾服务：通过个性化体验和产品收费",
+      "alt": "浪漫礼宾服务：通过个性化体验和产品收费",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-switched-it-up-during-covid-to-remain-profitable",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/845/original/open-uri20201108-4-5k4ti9?1604869204",
-      "caption": "浪漫礼宾服务项目公开展示素材",
-      "alt": "how-we-pivoted-with-new-concepts-and-added-products-that-our-couples-could-use-during-the-pandemic",
+      "caption": "浪漫礼宾服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "浪漫礼宾服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-switched-it-up-during-covid-to-remain-profitable",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/846/original/open-uri20201108-4-1k3v4n6?1604869205",
-      "caption": "浪漫礼宾服务项目公开展示素材",
-      "alt": "how-we-pivoted-with-new-concepts-and-added-products-that-our-couples-could-use-during-the-pandemic",
+      "caption": "浪漫礼宾服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "浪漫礼宾服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-switched-it-up-during-covid-to-remain-profitable",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "浪漫礼宾服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-switched-it-up-during-covid-to-remain-profitable",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/2r0bmvunp6hplaeyu1t5rm1lcgma",
-      "caption": "浪漫礼宾服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-switched-it-up-during-covid-to-remain-profitable",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2184,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

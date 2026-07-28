@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/70d6eregqvw4i3npfrht2hfp7w5z",
-      "caption": "为小白用户提供在线图形设计SaaS公开案例主图",
-      "alt": "为小白用户提供在线图形设计SaaS案例图片",
+      "caption": "为小白用户提供在线图形设计SaaS：通过订阅制赚钱",
+      "alt": "为小白用户提供在线图形设计SaaS：通过订阅制赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-mrr-by-30k-in-one-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/005/646/original/open-uri20200405-4-galk2s?1586091738",
-      "caption": "为小白用户提供在线图形设计SaaS项目公开展示素材",
-      "alt": "how-we-increased-our-revenue-by-30k-over-last-year",
+      "caption": "为小白用户提供在线图形设计SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为小白用户提供在线图形设计SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-mrr-by-30k-in-one-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/005/647/original/open-uri20200405-4-19x7cy4?1586091738",
-      "caption": "为小白用户提供在线图形设计SaaS项目公开展示素材",
-      "alt": "how-we-increased-our-revenue-by-30k-over-last-year",
+      "caption": "为小白用户提供在线图形设计SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "为小白用户提供在线图形设计SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-mrr-by-30k-in-one-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/005/648/original/open-uri20200405-4-sulay1?1586091738",
-      "caption": "为小白用户提供在线图形设计SaaS项目公开展示素材",
-      "alt": "how-we-increased-our-revenue-by-30k-over-last-year",
+      "caption": "为小白用户提供在线图形设计SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "为小白用户提供在线图形设计SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-mrr-by-30k-in-one-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为小白用户提供在线图形设计SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-mrr-by-30k-in-one-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2216,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

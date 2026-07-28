@@ -122,47 +122,56 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/0kl1avzdz9shc46uuk6kv3ckx2cn",
-      "caption": "专业拥抱师培训课程公开案例主图",
-      "alt": "专业拥抱师培训课程案例图片",
+      "caption": "专业拥抱师培训课程：线上教学+认证收费",
+      "alt": "专业拥抱师培训课程：线上教学+认证收费",
       "sourceUrl": "https://www.starterstory.com/stories/snuggle-with-sam",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/370/original/open-uri20220518-18-946x7s?1652891627",
-      "caption": "专业拥抱师培训课程项目公开展示素材",
-      "alt": "snuggle-with-sam",
+      "caption": "专业拥抱师培训课程：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "专业拥抱师培训课程：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/snuggle-with-sam",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/371/original/open-uri20220518-18-1crjry6?1652891628",
-      "caption": "专业拥抱师培训课程项目公开展示素材",
-      "alt": "snuggle-with-sam",
+      "caption": "专业拥抱师培训课程：创业复盘与关键经验相关原始配图（第2张）",
+      "alt": "专业拥抱师培训课程：创业复盘与关键经验相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/snuggle-with-sam",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "专业拥抱师培训课程项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/q6EBEDo5oq8",
+      "watchUrl": "https://www.youtube.com/watch?v=q6EBEDo5oq8",
+      "caption": "专业拥抱师培训课程资料中提及的视频：What are the Rules for Professional Cuddling?",
+      "alt": "What are the Rules for Professional Cuddling?",
       "sourceUrl": "https://www.starterstory.com/stories/snuggle-with-sam",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/q6EBEDo5oq8/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/bleg7ym47u9i3fco1c64kivl3030",
-      "caption": "专业拥抱师培训课程项目公开展示素材",
-      "alt": "专业拥抱师培训课程项目展示图",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/aMvB-P2jpnc",
+      "watchUrl": "https://www.youtube.com/watch?v=aMvB-P2jpnc",
+      "caption": "专业拥抱师培训课程资料中提及的视频：What new authors do to avoid writing",
+      "alt": "What new authors do to avoid writing",
       "sourceUrl": "https://www.starterstory.com/stories/snuggle-with-sam",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/aMvB-P2jpnc/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

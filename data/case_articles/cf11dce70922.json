@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/7cq6jefc32cdvajznyax5e6rzkkl",
-      "caption": "帮人建网站租给本地商家公开案例主图",
-      "alt": "帮人建网站租给本地商家案例图片",
+      "caption": "帮人建网站租给本地商家：月入4.2万美金",
+      "alt": "帮人建网站租给本地商家：月入4.2万美金",
       "sourceUrl": "https://www.starterstory.com/stories/website-rental-coaching",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/130/original/open-uri20220508-12-7ft3y0?1652010615",
-      "caption": "帮人建网站租给本地商家项目公开展示素材",
-      "alt": "website-rental-coaching",
+      "caption": "帮人建网站租给本地商家：创业起点与创意来源相关原始配图",
+      "alt": "帮人建网站租给本地商家：创业起点与创意来源相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/website-rental-coaching",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/131/original/open-uri20220508-12-qzeiww?1652010616",
-      "caption": "帮人建网站租给本地商家项目公开展示素材",
-      "alt": "website-rental-coaching",
+      "caption": "帮人建网站租给本地商家：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "帮人建网站租给本地商家：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/website-rental-coaching",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/132/original/open-uri20220508-12-m0swgl?1652010617",
-      "caption": "帮人建网站租给本地商家项目公开展示素材",
-      "alt": "website-rental-coaching",
+      "caption": "帮人建网站租给本地商家：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "帮人建网站租给本地商家：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/website-rental-coaching",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/133/original/open-uri20220508-12-6bac1b?1652010618",
-      "caption": "帮人建网站租给本地商家项目公开展示素材",
-      "alt": "website-rental-coaching",
-      "sourceUrl": "https://www.starterstory.com/stories/website-rental-coaching",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2104,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/2kdhom7k9wgyusjbo7xo9g25s1au",
-      "caption": "数字营销公司公开案例主图",
-      "alt": "数字营销公司案例图片",
+      "caption": "数字营销公司：通过SEO、广告和网站设计服务赚钱",
+      "alt": "数字营销公司：通过SEO、广告和网站设计服务赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/930tech",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/418/original/open-uri20230508-63-19fgj4w?1683515396",
-      "caption": "数字营销公司项目公开展示素材",
-      "alt": "930tech",
+      "caption": "数字营销公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "数字营销公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/930tech",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/419/original/open-uri20230508-63-1gjwg4f?1683515398",
-      "caption": "数字营销公司项目公开展示素材",
-      "alt": "930tech",
+      "caption": "数字营销公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "数字营销公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/930tech",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "数字营销公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/930tech",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c303bjznv93yxnh0xxz7t4vfedzf",
-      "caption": "数字营销公司项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/930tech",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2165,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

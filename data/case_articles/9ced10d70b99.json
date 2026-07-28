@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/gt8rqxi4aty7d7zqd1vx25roze1m",
-      "caption": "家族经营的地毯电商公开案例主图",
-      "alt": "家族经营的地毯电商案例图片",
+      "caption": "家族经营的地毯电商：通过本地制造和线上销售盈利",
+      "alt": "家族经营的地毯电商：通过本地制造和线上销售盈利",
       "sourceUrl": "https://www.starterstory.com/stories/mundoalfombra-com",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/093/original/open-uri20240209-53-1957gki?1707458486",
-      "caption": "家族经营的地毯电商项目公开展示素材",
-      "alt": "mundoalfombra-com",
+      "caption": "家族经营的地毯电商：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "家族经营的地毯电商：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/mundoalfombra-com",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "家族经营的地毯电商项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/mundoalfombra-com",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/xi3mr3jv2s5gfw8fi8hijcm3yrha",
-      "caption": "家族经营的地毯电商项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/mundoalfombra-com",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/33fmwcnijvbw14pbwb0jje64snkw",
-      "caption": "家族经营的地毯电商项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/mundoalfombra-com",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2162,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/qwyzivthxgqjehanqvezm6dub5et",
-      "caption": "Salesforce咨询公司公开案例主图",
-      "alt": "Salesforce咨询公司案例图片",
+      "caption": "Salesforce咨询公司：提供实施与定制服务年入$120K",
+      "alt": "Salesforce咨询公司：提供实施与定制服务年入$120K",
       "sourceUrl": "https://www.starterstory.com/stories/i-started-a-120k-year-salesforce-consultancy-business-from-india",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/283/original/open-uri20211201-3-9wxtgb?1638392100",
-      "caption": "Salesforce咨询公司项目公开展示素材",
-      "alt": "i-started-a-120k-year-salesforce-consultancy-business-from-india",
+      "caption": "Salesforce咨询公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "Salesforce咨询公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-started-a-120k-year-salesforce-consultancy-business-from-india",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/284/original/open-uri20211201-3-1qxtrae?1638392101",
-      "caption": "Salesforce咨询公司项目公开展示素材",
-      "alt": "i-started-a-120k-year-salesforce-consultancy-business-from-india",
+      "caption": "Salesforce咨询公司：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "Salesforce咨询公司：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-started-a-120k-year-salesforce-consultancy-business-from-india",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/285/original/open-uri20211201-3-oos21s?1638392102",
-      "caption": "Salesforce咨询公司项目公开展示素材",
-      "alt": "i-started-a-120k-year-salesforce-consultancy-business-from-india",
+      "caption": "Salesforce咨询公司：当前经营状态与下一步规划相关原始配图（第3张）",
+      "alt": "Salesforce咨询公司：当前经营状态与下一步规划相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-started-a-120k-year-salesforce-consultancy-business-from-india",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "Salesforce咨询公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/i-started-a-120k-year-salesforce-consultancy-business-from-india",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2272,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

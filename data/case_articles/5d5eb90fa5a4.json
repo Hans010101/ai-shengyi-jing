@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/mo9mmpn31ilbx8vk7p4fsla2y6tg",
-      "caption": "为IT管理员提供第三方软件一键部署更新的SaaS公开案例主图",
-      "alt": "为IT管理员提供第三方软件一键部署更新的SaaS案例图片",
+      "caption": "为IT管理员提供第三方软件一键部署更新的SaaS：工具",
+      "alt": "为IT管理员提供第三方软件一键部署更新的SaaS：工具",
       "sourceUrl": "https://www.starterstory.com/stories/pckgr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为IT管理员提供第三方软件一键部署更新的SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/pckgr",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/ffd03e96bf748553",
-      "caption": "为IT管理员提供第三方软件一键部署更新的SaaS项目公开展示素材",
+      "caption": "为IT管理员提供第三方软件一键部署更新的SaaS：创始人、核心产品与品牌起点相关原始配图",
       "alt": "My image",
       "sourceUrl": "https://www.starterstory.com/stories/pckgr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/xgu8pgchfva1y2zdckvu2zfyilik",
-      "caption": "为IT管理员提供第三方软件一键部署更新的SaaS项目公开展示素材",
-      "alt": "article",
+      "caption": "为IT管理员提供第三方软件一键部署更新的SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "为IT管理员提供第三方软件一键部署更新的SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/pckgr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/8fb4ff17d8b38061",
-      "caption": "为IT管理员提供第三方软件一键部署更新的SaaS项目公开展示素材",
+      "caption": "为IT管理员提供第三方软件一键部署更新的SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "alt": "My image",
       "sourceUrl": "https://www.starterstory.com/stories/pckgr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2173,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/qt3jdkrghlefwqby7oiedmq5xify",
-      "caption": "伦敦心理健康诊所公开案例主图",
-      "alt": "伦敦心理健康诊所案例图片",
+      "caption": "伦敦心理健康诊所：通过线上咨询和线下服务月入$12K",
+      "alt": "伦敦心理健康诊所：通过线上咨询和线下服务月入$12K",
       "sourceUrl": "https://www.starterstory.com/stories/space-to-be-you",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/620/original/open-uri20230524-63-16pmn1?1684932152",
-      "caption": "伦敦心理健康诊所项目公开展示素材",
-      "alt": "space-to-be-you",
+      "caption": "伦敦心理健康诊所：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "伦敦心理健康诊所：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/space-to-be-you",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/621/original/open-uri20230524-63-1dlqdk8?1684932153",
-      "caption": "伦敦心理健康诊所项目公开展示素材",
-      "alt": "space-to-be-you",
+      "caption": "伦敦心理健康诊所：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "伦敦心理健康诊所：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/space-to-be-you",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/622/original/open-uri20230524-63-81f1kc?1684932155",
-      "caption": "伦敦心理健康诊所项目公开展示素材",
-      "alt": "space-to-be-you",
+      "caption": "伦敦心理健康诊所：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "伦敦心理健康诊所：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/space-to-be-you",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "伦敦心理健康诊所项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/space-to-be-you",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/nlzka6avch4wnddofkr0ivo5ynsx",
-      "caption": "伦敦心理健康诊所项目公开展示素材",
-      "alt": "伦敦心理健康诊所项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/space-to-be-you",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2218,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

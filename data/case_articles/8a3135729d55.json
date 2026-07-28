@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/oisjcdr4ucektpsjzaz8p9ce65md",
-      "caption": "用$500启动的移动应用开发外包公司公开案例主图",
-      "alt": "用$500启动的移动应用开发外包公司案例图片",
+      "caption": "用$500启动的移动应用开发外包公司：年营收$700K",
+      "alt": "用$500启动的移动应用开发外包公司：年营收$700K",
       "sourceUrl": "https://www.starterstory.com/stories/the-jed-mahonis-group",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/990/original/open-uri20220426-12-1l2vya7?1650998624",
-      "caption": "用$500启动的移动应用开发外包公司项目公开展示素材",
-      "alt": "the-jed-mahonis-group",
+      "caption": "用$500启动的移动应用开发外包公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "用$500启动的移动应用开发外包公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/the-jed-mahonis-group",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/991/original/open-uri20220426-12-10dqfzq?1650998625",
-      "caption": "用$500启动的移动应用开发外包公司项目公开展示素材",
-      "alt": "the-jed-mahonis-group",
+      "caption": "用$500启动的移动应用开发外包公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "用$500启动的移动应用开发外包公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/the-jed-mahonis-group",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/992/original/open-uri20220426-12-jgqdsn?1650998626",
-      "caption": "用$500启动的移动应用开发外包公司项目公开展示素材",
-      "alt": "the-jed-mahonis-group",
+      "caption": "用$500启动的移动应用开发外包公司：学习方法与行业资源相关原始配图（第3张）",
+      "alt": "用$500启动的移动应用开发外包公司：学习方法与行业资源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/the-jed-mahonis-group",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/993/original/open-uri20220426-12-1813t4g?1650998626",
-      "caption": "用$500启动的移动应用开发外包公司项目公开展示素材",
-      "alt": "the-jed-mahonis-group",
-      "sourceUrl": "https://www.starterstory.com/stories/the-jed-mahonis-group",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2212,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

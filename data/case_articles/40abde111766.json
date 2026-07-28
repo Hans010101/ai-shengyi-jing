@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/wp8td67h9rn6wb9k06eebw7pavp2",
-      "caption": "帮SaaS公司做信息安全合规的AI工具公开案例主图",
-      "alt": "帮SaaS公司做信息安全合规的AI工具案例图片",
+      "caption": "帮SaaS公司做信息安全合规的AI工具：按月收费",
+      "alt": "帮SaaS公司做信息安全合规的AI工具：按月收费",
       "sourceUrl": "https://www.starterstory.com/stories/isms-policy-generator",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/184/original/open-uri20240220-53-3tewkl?1708442120",
-      "caption": "帮SaaS公司做信息安全合规的AI工具项目公开展示素材",
-      "alt": "isms-policy-generator",
+      "caption": "帮SaaS公司做信息安全合规的AI工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "帮SaaS公司做信息安全合规的AI工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/isms-policy-generator",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/185/original/open-uri20240220-53-166c56a?1708442120",
-      "caption": "帮SaaS公司做信息安全合规的AI工具项目公开展示素材",
-      "alt": "isms-policy-generator",
+      "caption": "帮SaaS公司做信息安全合规的AI工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "帮SaaS公司做信息安全合规的AI工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/isms-policy-generator",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/186/original/open-uri20240220-53-ky8rxx?1708442121",
-      "caption": "帮SaaS公司做信息安全合规的AI工具项目公开展示素材",
-      "alt": "isms-policy-generator",
+      "caption": "帮SaaS公司做信息安全合规的AI工具：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "帮SaaS公司做信息安全合规的AI工具：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/isms-policy-generator",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/187/original/open-uri20240220-53-7ud6fn?1708442121",
-      "caption": "帮SaaS公司做信息安全合规的AI工具项目公开展示素材",
-      "alt": "isms-policy-generator",
-      "sourceUrl": "https://www.starterstory.com/stories/isms-policy-generator",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2198,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

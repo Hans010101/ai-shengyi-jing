@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/jxwsbx5nzih1t0jc8bxlxyborsjv",
-      "caption": "智能钱包品牌公开案例主图",
-      "alt": "智能钱包品牌案例图片",
+      "caption": "智能钱包品牌：通过DTC电商销售时尚科技配件盈利",
+      "alt": "智能钱包品牌：通过DTC电商销售时尚科技配件盈利",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-quadrupled-our-revenue-over-last-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/986/original/open-uri20210729-3-1r6dhhe?1627569968",
-      "caption": "智能钱包品牌项目公开展示素材",
-      "alt": "how-we-quadrupled-our-revenue-over-last-year",
+      "caption": "智能钱包品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "智能钱包品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-quadrupled-our-revenue-over-last-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/987/original/open-uri20210729-3-piv5kx?1627569970",
-      "caption": "智能钱包品牌项目公开展示素材",
-      "alt": "how-we-quadrupled-our-revenue-over-last-year",
+      "caption": "智能钱包品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "智能钱包品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-quadrupled-our-revenue-over-last-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/988/original/open-uri20210729-3-j45k83?1627569972",
-      "caption": "智能钱包品牌项目公开展示素材",
-      "alt": "how-we-quadrupled-our-revenue-over-last-year",
+      "caption": "智能钱包品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "智能钱包品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-quadrupled-our-revenue-over-last-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/989/original/open-uri20210729-3-cjlk97?1627569974",
-      "caption": "智能钱包品牌项目公开展示素材",
-      "alt": "how-we-quadrupled-our-revenue-over-last-year",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-quadrupled-our-revenue-over-last-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2269,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

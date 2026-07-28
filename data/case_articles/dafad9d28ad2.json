@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/vdjbu3is6d41gh69rsr1xuh8ikyw",
-      "caption": "在线商业提案SaaS公开案例主图",
-      "alt": "在线商业提案SaaS案例图片",
+      "caption": "在线商业提案SaaS：月收$70M，帮企业快速生成专业提案",
+      "alt": "在线商业提案SaaS：月收$70M，帮企业快速生成专业提案",
       "sourceUrl": "https://www.starterstory.com/stories/from-developing-an-internal-solution-to-creating-an-online-business-proposal-saas",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/848/original/open-uri20210707-3-1dw3qhz?1625661656",
-      "caption": "在线商业提案SaaS项目公开展示素材",
-      "alt": "from-developing-an-internal-solution-to-creating-an-online-business-proposal-saas",
+      "caption": "在线商业提案SaaS：产品设计与早期打磨相关原始配图",
+      "alt": "在线商业提案SaaS：产品设计与早期打磨相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/from-developing-an-internal-solution-to-creating-an-online-business-proposal-saas",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "在线商业提案SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/from-developing-an-internal-solution-to-creating-an-online-business-proposal-saas",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/b38hiyi38u1324yxz8ycmmv1z3ar",
-      "caption": "在线商业提案SaaS项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/from-developing-an-internal-solution-to-creating-an-online-business-proposal-saas",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/e1zyhnzrw6gnm02pgxw4alp1ev4q",
-      "caption": "在线商业提案SaaS项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/from-developing-an-internal-solution-to-creating-an-online-business-proposal-saas",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2182,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/kjax42vhflvuqyxv5806c6lnklhx",
-      "caption": "印度创业者自建CRM解决自身问题公开案例主图",
-      "alt": "印度创业者自建CRM解决自身问题案例图片",
+      "caption": "印度创业者自建CRM解决自身问题：年入6万美元",
+      "alt": "印度创业者自建CRM解决自身问题：年入6万美元",
       "sourceUrl": "https://www.starterstory.com/stories/i-made-a-crm-to-manage-sales-data-and-make-60k-year-india",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/330/original/open-uri20220330-3-1scksnu?1648654835",
-      "caption": "印度创业者自建CRM解决自身问题项目公开展示素材",
-      "alt": "i-made-a-crm-to-manage-sales-data-and-make-60k-year-india",
+      "caption": "印度创业者自建CRM解决自身问题：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "印度创业者自建CRM解决自身问题：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-made-a-crm-to-manage-sales-data-and-make-60k-year-india",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/331/original/open-uri20220330-3-1vr98ct?1648654835",
-      "caption": "印度创业者自建CRM解决自身问题项目公开展示素材",
-      "alt": "i-made-a-crm-to-manage-sales-data-and-make-60k-year-india",
+      "caption": "印度创业者自建CRM解决自身问题：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "印度创业者自建CRM解决自身问题：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-made-a-crm-to-manage-sales-data-and-make-60k-year-india",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/332/original/open-uri20220330-3-i1qhpj?1648654835",
-      "caption": "印度创业者自建CRM解决自身问题项目公开展示素材",
-      "alt": "i-made-a-crm-to-manage-sales-data-and-make-60k-year-india",
+      "caption": "印度创业者自建CRM解决自身问题：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "印度创业者自建CRM解决自身问题：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-made-a-crm-to-manage-sales-data-and-make-60k-year-india",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/333/original/open-uri20220330-3-102do8p?1648654836",
-      "caption": "印度创业者自建CRM解决自身问题项目公开展示素材",
-      "alt": "i-made-a-crm-to-manage-sales-data-and-make-60k-year-india",
-      "sourceUrl": "https://www.starterstory.com/stories/i-made-a-crm-to-manage-sales-data-and-make-60k-year-india",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "印度创业者自建CRM解决自身问题项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/i-made-a-crm-to-manage-sales-data-and-make-60k-year-india",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2165,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

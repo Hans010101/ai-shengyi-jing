@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/w2t8hh03zwrnijcqpq9vgmh0pzzp",
-      "caption": "为独立创业者搭建付费社群公开案例主图",
-      "alt": "为独立创业者搭建付费社群案例图片",
+      "caption": "为独立创业者搭建付费社群：通过会员订阅和活动变现",
+      "alt": "为独立创业者搭建付费社群：通过会员订阅和活动变现",
       "sourceUrl": "https://www.starterstory.com/stories/we-built-a-virtual-community-to-2k-members-1-on-product-hunt",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/546/original/open-uri20210904-3-18d25i6?1630777191",
-      "caption": "为独立创业者搭建付费社群项目公开展示素材",
-      "alt": "we-built-a-virtual-community-to-2k-members-1-on-product-hunt",
+      "caption": "为独立创业者搭建付费社群：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为独立创业者搭建付费社群：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/we-built-a-virtual-community-to-2k-members-1-on-product-hunt",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/547/original/open-uri20210904-3-13euk48?1630777191",
-      "caption": "为独立创业者搭建付费社群项目公开展示素材",
-      "alt": "we-built-a-virtual-community-to-2k-members-1-on-product-hunt",
+      "caption": "为独立创业者搭建付费社群：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "为独立创业者搭建付费社群：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-built-a-virtual-community-to-2k-members-1-on-product-hunt",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/548/original/open-uri20210904-3-1vhcum6?1630777192",
-      "caption": "为独立创业者搭建付费社群项目公开展示素材",
-      "alt": "we-built-a-virtual-community-to-2k-members-1-on-product-hunt",
+      "caption": "为独立创业者搭建付费社群：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "为独立创业者搭建付费社群：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-built-a-virtual-community-to-2k-members-1-on-product-hunt",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/549/original/open-uri20210904-3-ox6chv?1630777193",
-      "caption": "为独立创业者搭建付费社群项目公开展示素材",
-      "alt": "we-built-a-virtual-community-to-2k-members-1-on-product-hunt",
-      "sourceUrl": "https://www.starterstory.com/stories/we-built-a-virtual-community-to-2k-members-1-on-product-hunt",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2198,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

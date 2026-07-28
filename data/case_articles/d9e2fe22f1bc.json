@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/tb4a0s7l9l0s9dfvt3mdnpyxv5mt",
-      "caption": "Web3电商平台公开案例主图",
-      "alt": "Web3电商平台案例图片",
+      "caption": "Web3电商平台：帮品牌和创作者进入元宇宙赚钱",
+      "alt": "Web3电商平台：帮品牌和创作者进入元宇宙赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/dropptv",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/510/original/open-uri20221210-12-1r9wwg5?1670639882",
-      "caption": "Web3电商平台项目公开展示素材",
-      "alt": "dropptv",
+      "caption": "Web3电商平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "Web3电商平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/dropptv",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/511/original/open-uri20221210-12-feays5?1670639883",
-      "caption": "Web3电商平台项目公开展示素材",
-      "alt": "dropptv",
+      "caption": "Web3电商平台：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "Web3电商平台：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/dropptv",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "Web3电商平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/dropptv",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/3q9ah33gfr89x9gr887ehtjyb5n2",
-      "caption": "Web3电商平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/dropptv",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2159,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/pnl1cuvsf4237dhckxigvxhblfqa",
-      "caption": "AI驱动的B2B客户挖掘SaaS公开案例主图",
-      "alt": "AI驱动的B2B客户挖掘SaaS案例图片",
+      "caption": "AI驱动的B2B客户挖掘SaaS：月订阅收费",
+      "alt": "AI驱动的B2B客户挖掘SaaS：月订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/i-grew-my-saas-project-from-idea-to-1-5k-mrr-in-7-weeks",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/126/original/open-uri20211128-3-12oqhpe?1638107566",
-      "caption": "AI驱动的B2B客户挖掘SaaS项目公开展示素材",
-      "alt": "i-grew-my-saas-project-from-idea-to-1-5k-mrr-in-7-weeks",
+      "caption": "AI驱动的B2B客户挖掘SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI驱动的B2B客户挖掘SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-grew-my-saas-project-from-idea-to-1-5k-mrr-in-7-weeks",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/127/original/open-uri20211128-3-a1mc5g?1638107566",
-      "caption": "AI驱动的B2B客户挖掘SaaS项目公开展示素材",
-      "alt": "i-grew-my-saas-project-from-idea-to-1-5k-mrr-in-7-weeks",
+      "caption": "AI驱动的B2B客户挖掘SaaS：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "AI驱动的B2B客户挖掘SaaS：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-grew-my-saas-project-from-idea-to-1-5k-mrr-in-7-weeks",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/128/original/open-uri20211128-3-k0r4qf?1638107567",
-      "caption": "AI驱动的B2B客户挖掘SaaS项目公开展示素材",
-      "alt": "i-grew-my-saas-project-from-idea-to-1-5k-mrr-in-7-weeks",
+      "caption": "AI驱动的B2B客户挖掘SaaS：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "AI驱动的B2B客户挖掘SaaS：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-grew-my-saas-project-from-idea-to-1-5k-mrr-in-7-weeks",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/129/original/open-uri20211128-3-1i0uio2?1638107567",
-      "caption": "AI驱动的B2B客户挖掘SaaS项目公开展示素材",
-      "alt": "i-grew-my-saas-project-from-idea-to-1-5k-mrr-in-7-weeks",
-      "sourceUrl": "https://www.starterstory.com/stories/i-grew-my-saas-project-from-idea-to-1-5k-mrr-in-7-weeks",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2280,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

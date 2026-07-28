@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/dcoomtvfe5stz2oh3g5ohkssnz5x",
-      "caption": "排队管理系统SaaS公开案例主图",
-      "alt": "排队管理系统SaaS案例图片",
+      "caption": "排队管理系统SaaS：按店铺月费收费",
+      "alt": "排队管理系统SaaS：按店铺月费收费",
       "sourceUrl": "https://www.starterstory.com/stories/launching-a-790k-year-queue-management-system-from-singapore",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/194/original/open-uri20211011-3-ru3muq?1633975775",
-      "caption": "排队管理系统SaaS项目公开展示素材",
-      "alt": "launching-a-790k-year-queue-management-system-from-singapore",
+      "caption": "排队管理系统SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "排队管理系统SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/launching-a-790k-year-queue-management-system-from-singapore",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/195/original/open-uri20211011-3-59mveh?1633975777",
-      "caption": "排队管理系统SaaS项目公开展示素材",
-      "alt": "launching-a-790k-year-queue-management-system-from-singapore",
+      "caption": "排队管理系统SaaS：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "排队管理系统SaaS：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/launching-a-790k-year-queue-management-system-from-singapore",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "排队管理系统SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/launching-a-790k-year-queue-management-system-from-singapore",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/wsfthxo0bwxpga1da6eflodtgxay",
-      "caption": "排队管理系统SaaS项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/launching-a-790k-year-queue-management-system-from-singapore",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2155,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

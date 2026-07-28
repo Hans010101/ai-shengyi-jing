@@ -122,47 +122,34 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/4p036wtxotur4454zu93ks92mblf",
-      "caption": "销售AI拍照亭软件和硬件公开案例主图",
-      "alt": "销售AI拍照亭软件和硬件案例图片",
+      "caption": "销售AI拍照亭软件和硬件：通过订阅和硬件销售盈利",
+      "alt": "销售AI拍照亭软件和硬件：通过订阅和硬件销售盈利",
       "sourceUrl": "https://www.starterstory.com/stories/photobooth-supply-co-c3aaab7e-9603-430e-861d-9eea33f62233",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/048/original/open-uri20220320-3-13501x5?1647805735",
-      "caption": "销售AI拍照亭软件和硬件项目公开展示素材",
-      "alt": "photobooth-supply-co-c3aaab7e-9603-430e-861d-9eea33f62233",
+      "caption": "销售AI拍照亭软件和硬件：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "销售AI拍照亭软件和硬件：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/photobooth-supply-co-c3aaab7e-9603-430e-861d-9eea33f62233",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "销售AI拍照亭软件和硬件项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/GwMczmdExJM",
+      "watchUrl": "https://www.youtube.com/watch?v=GwMczmdExJM",
+      "caption": "销售AI拍照亭软件和硬件资料中提及的视频：Photobooth Academy Trailer | Photo Booth Business",
+      "alt": "Photobooth Academy Trailer | Photo Booth Business",
       "sourceUrl": "https://www.starterstory.com/stories/photobooth-supply-co-c3aaab7e-9603-430e-861d-9eea33f62233",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/7p0wsklnu5v9740xvwcwiknproq8",
-      "caption": "销售AI拍照亭软件和硬件项目公开展示素材",
-      "alt": "销售AI拍照亭软件和硬件项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/photobooth-supply-co-c3aaab7e-9603-430e-861d-9eea33f62233",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n7rx5t5gwzi2wjlwym1jtpcjpqbf",
-      "caption": "销售AI拍照亭软件和硬件项目公开展示素材",
-      "alt": "销售AI拍照亭软件和硬件项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/photobooth-supply-co-c3aaab7e-9603-430e-861d-9eea33f62233",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/GwMczmdExJM/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +164,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2281,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

@@ -121,57 +121,23 @@
   "media": [
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "卖数据库模板给开发者项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/php-crud-generator",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/1b838237f13f46db",
-      "caption": "卖数据库模板给开发者项目公开展示素材",
+      "caption": "卖数据库模板给开发者：创始人、核心产品与品牌起点相关原始配图",
       "alt": "PHP CRUD Generator - No-Code Database Admin Panel Builder",
       "sourceUrl": "https://www.starterstory.com/stories/php-crud-generator",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/0d0x7nj3kr17hdp78wjb0dpfo9fz",
-      "caption": "卖数据库模板给开发者项目公开展示素材",
-      "alt": "article",
+      "caption": "卖数据库模板给开发者：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "卖数据库模板给开发者：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/php-crud-generator",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/1yjzb11qi8py5iunvvftx5chd0mk",
-      "caption": "卖数据库模板给开发者项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/php-crud-generator",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/4oqio1de33lxdbpdlzbnntegwab7",
-      "caption": "卖数据库模板给开发者项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/php-crud-generator",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/kwco0xtqr9y8kziw7i39x0e971bs",
-      "caption": "卖数据库模板给开发者项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/php-crud-generator",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2226,
-    "mediaCount": 6
+    "mediaCount": 2
   }
 }

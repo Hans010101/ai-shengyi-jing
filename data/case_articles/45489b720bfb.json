@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/v7l47t8ad3iv12h16y6ee06n1xg5",
-      "caption": "水族电商+内容站公开案例主图",
-      "alt": "水族电商+内容站案例图片",
+      "caption": "水族电商+内容站：卖设备和知识赚钱",
+      "alt": "水族电商+内容站：卖设备和知识赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/i-left-my-soul-sucking-corporate-job-to-start-a-120k-month-aquarium-ecommerce",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/664/original/open-uri20220101-3-1uzudoy?1641050859",
-      "caption": "水族电商+内容站项目公开展示素材",
-      "alt": "i-left-my-soul-sucking-corporate-job-to-start-a-120k-month-aquarium-ecommerce",
+      "caption": "水族电商+内容站：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "水族电商+内容站：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-left-my-soul-sucking-corporate-job-to-start-a-120k-month-aquarium-ecommerce",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/665/original/open-uri20220101-3-18wv523?1641050860",
-      "caption": "水族电商+内容站项目公开展示素材",
-      "alt": "i-left-my-soul-sucking-corporate-job-to-start-a-120k-month-aquarium-ecommerce",
+      "caption": "水族电商+内容站：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "水族电商+内容站：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-left-my-soul-sucking-corporate-job-to-start-a-120k-month-aquarium-ecommerce",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "水族电商+内容站项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/i-left-my-soul-sucking-corporate-job-to-start-a-120k-month-aquarium-ecommerce",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/2irvs6bxwebg1ljt2zxxce8pbaqm",
-      "caption": "水族电商+内容站项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/i-left-my-soul-sucking-corporate-job-to-start-a-120k-month-aquarium-ecommerce",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2171,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

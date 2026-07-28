@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/k20gsdb4cothkgxrctaqwcwchr0b",
-      "caption": "解酒保健品品牌公开案例主图",
-      "alt": "解酒保健品品牌案例图片",
+      "caption": "解酒保健品品牌：Flyby通过电商销售解酒保健品，月营收百万美元",
+      "alt": "解酒保健品品牌：Flyby通过电商销售解酒保健品，月营收百万美元",
       "sourceUrl": "https://www.starterstory.com/stories/flyby-selling-1m-of-hangover-pills-in-10-months",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/148/original/open-uri20181016-4-h335b8?1539650100",
-      "caption": "解酒保健品品牌项目公开展示素材",
-      "alt": "flyby",
+      "caption": "解酒保健品品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "解酒保健品品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/flyby-selling-1m-of-hangover-pills-in-10-months",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/149/original/open-uri20181016-4-1fw3yvr?1539650100",
-      "caption": "解酒保健品品牌项目公开展示素材",
+      "caption": "解酒保健品品牌：创业起点与创意来源相关原始配图（第2张）",
       "alt": "Image result for tokyo hangover drinks",
       "sourceUrl": "https://www.starterstory.com/stories/flyby-selling-1m-of-hangover-pills-in-10-months",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/150/original/open-uri20181016-4-1slppy7?1539650100",
-      "caption": "解酒保健品品牌项目公开展示素材",
-      "alt": "flyby",
+      "caption": "解酒保健品品牌：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "解酒保健品品牌：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/flyby-selling-1m-of-hangover-pills-in-10-months",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/151/original/open-uri20181016-4-197q948?1539650101",
-      "caption": "解酒保健品品牌项目公开展示素材",
-      "alt": "flyby",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/G6717bNakuA",
+      "watchUrl": "https://www.youtube.com/watch?v=G6717bNakuA",
+      "caption": "解酒保健品品牌资料中提及的视频：Asian flush, explained",
+      "alt": "Asian flush, explained",
       "sourceUrl": "https://www.starterstory.com/stories/flyby-selling-1m-of-hangover-pills-in-10-months",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/G6717bNakuA/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

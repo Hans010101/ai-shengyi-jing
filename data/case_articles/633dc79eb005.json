@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/uaif4x1l7s2752n6lm5kz9a9rwbk",
-      "caption": "帮助社交媒体增长的App公开案例主图",
-      "alt": "帮助社交媒体增长的App案例图片",
+      "caption": "帮助社交媒体增长的App：通过订阅收费",
+      "alt": "帮助社交媒体增长的App：通过订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/we-solved-our-own-problem-and-built-an-app-that-helps-grow-your-social-media-following-72k-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/494/original/open-uri20220228-3-1lpj1rz?1646069296",
-      "caption": "帮助社交媒体增长的App项目公开展示素材",
-      "alt": "we-solved-our-own-problem-and-built-an-app-that-helps-grow-your-social-media-following-72k-year",
+      "caption": "帮助社交媒体增长的App：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "帮助社交媒体增长的App：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/we-solved-our-own-problem-and-built-an-app-that-helps-grow-your-social-media-following-72k-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/495/original/open-uri20220228-3-178xc7o?1646069296",
-      "caption": "帮助社交媒体增长的App项目公开展示素材",
-      "alt": "we-solved-our-own-problem-and-built-an-app-that-helps-grow-your-social-media-following-72k-year",
+      "caption": "帮助社交媒体增长的App：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "帮助社交媒体增长的App：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-solved-our-own-problem-and-built-an-app-that-helps-grow-your-social-media-following-72k-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/496/original/open-uri20220228-3-rgjtlh?1646069297",
-      "caption": "帮助社交媒体增长的App项目公开展示素材",
-      "alt": "we-solved-our-own-problem-and-built-an-app-that-helps-grow-your-social-media-following-72k-year",
+      "caption": "帮助社交媒体增长的App：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "帮助社交媒体增长的App：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-solved-our-own-problem-and-built-an-app-that-helps-grow-your-social-media-following-72k-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "帮助社交媒体增长的App项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/we-solved-our-own-problem-and-built-an-app-that-helps-grow-your-social-media-following-72k-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2180,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

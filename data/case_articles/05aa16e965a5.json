@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/axeqwrf2roo901ptv4dhsobf5kph",
-      "caption": "社区健身房公开案例主图",
-      "alt": "社区健身房案例图片",
+      "caption": "社区健身房：通过会员费和小额课程实现月入6万英镑",
+      "alt": "社区健身房：通过会员费和小额课程实现月入6万英镑",
       "sourceUrl": "https://www.starterstory.com/stories/meridian-fitness",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/024/original/open-uri20240128-53-1a0e5tq?1706453491",
-      "caption": "社区健身房项目公开展示素材",
-      "alt": "meridian-fitness",
+      "caption": "社区健身房：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "社区健身房：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/meridian-fitness",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/025/original/open-uri20240128-53-15gaql?1706453492",
-      "caption": "社区健身房项目公开展示素材",
-      "alt": "meridian-fitness",
+      "caption": "社区健身房：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "社区健身房：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/meridian-fitness",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/026/original/open-uri20240128-53-rj2qzk?1706453493",
-      "caption": "社区健身房项目公开展示素材",
-      "alt": "meridian-fitness",
+      "caption": "社区健身房：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "社区健身房：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/meridian-fitness",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/027/original/open-uri20240128-53-1dmrob6?1706453493",
-      "caption": "社区健身房项目公开展示素材",
-      "alt": "meridian-fitness",
-      "sourceUrl": "https://www.starterstory.com/stories/meridian-fitness",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/028/original/open-uri20240128-53-xg4ixq?1706453494",
-      "caption": "社区健身房项目公开展示素材",
-      "alt": "meridian-fitness",
-      "sourceUrl": "https://www.starterstory.com/stories/meridian-fitness",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2214,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

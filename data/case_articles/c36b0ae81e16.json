@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/l5q5koee539aqys82hm513o164ba",
-      "caption": "AI会议记录工具公开案例主图",
-      "alt": "AI会议记录工具案例图片",
+      "caption": "AI会议记录工具：通过订阅制收费",
+      "alt": "AI会议记录工具：通过订阅制收费",
       "sourceUrl": "https://www.starterstory.com/stories/fireflies-ai-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI会议记录工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/fireflies-ai-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/o8yk3qj4e8ovksjdv77v659wsenm/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "AI会议记录工具项目公开展示素材",
-      "alt": "AI会议记录工具项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/fireflies-ai-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cbcc08655914008c",
-      "caption": "AI会议记录工具项目公开展示素材",
-      "alt": "article",
+      "caption": "AI会议记录工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI会议记录工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/fireflies-ai-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/fbd580fe4abda6bd",
-      "caption": "AI会议记录工具项目公开展示素材",
-      "alt": "article",
+      "caption": "AI会议记录工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI会议记录工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/fireflies-ai-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/925d151ed040b15b",
+      "caption": "AI会议记录工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "AI会议记录工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/fireflies-ai-breakdown",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/aGZ5FvttU7w",
+      "watchUrl": "https://www.youtube.com/watch?v=aGZ5FvttU7w",
+      "caption": "AI会议记录工具资料中提及的视频：Fireflies.ai $1B valuation: How being “too early” to AI paid off",
+      "alt": "Fireflies.ai $1B valuation: How being “too early” to AI paid off",
+      "sourceUrl": "https://www.starterstory.com/stories/fireflies-ai-breakdown",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/aGZ5FvttU7w/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

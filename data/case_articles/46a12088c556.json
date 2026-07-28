@@ -122,47 +122,34 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/k9rmch6si4qm99b085s7d5ufmutt",
-      "caption": "14年营销机构DSM公开案例主图",
-      "alt": "14年营销机构DSM案例图片",
+      "caption": "14年营销机构DSM：提供全案营销服务，月入$500K",
+      "alt": "14年营销机构DSM：提供全案营销服务，月入$500K",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-3x-d-revenue-and-landed-massive-press-opportunities",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/953/original/open-uri20210125-3-o7z2lv?1611603514",
-      "caption": "14年营销机构DSM项目公开展示素材",
-      "alt": "how-we-doubled-our-revenue-and-added-new-employees-to-our-business",
+      "caption": "14年营销机构DSM：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "14年营销机构DSM：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-3x-d-revenue-and-landed-massive-press-opportunities",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "14年营销机构DSM项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/iUo4PcPNrzY",
+      "watchUrl": "https://www.youtube.com/watch?v=iUo4PcPNrzY",
+      "caption": "14年营销机构DSM：给创业者的实践建议相关视频",
+      "alt": "14年营销机构DSM相关视频",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-3x-d-revenue-and-landed-massive-press-opportunities",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/fyhbx2o0p0ivjbzkcaxfg3kkessb",
-      "caption": "14年营销机构DSM项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-3x-d-revenue-and-landed-massive-press-opportunities",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/r78ky3n1xl842xwu4wwhy0gj8f2r",
-      "caption": "14年营销机构DSM项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-3x-d-revenue-and-landed-massive-press-opportunities",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/iUo4PcPNrzY/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +164,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2171,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

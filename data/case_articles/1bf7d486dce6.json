@@ -122,56 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/7zcdx2w0smxqetrka0mprzgt1owa",
-      "caption": "非营利组织公开案例主图",
-      "alt": "非营利组织案例图片",
+      "caption": "非营利组织：通过销售定制街头服饰和职业外衣盈利",
+      "alt": "非营利组织：通过销售定制街头服饰和职业外衣盈利",
       "sourceUrl": "https://www.starterstory.com/stories/the-cause-349731a9-be62-40be-a498-071ff39f1117",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/335/original/open-uri20220901-24-zb1yw3?1662010082",
-      "caption": "非营利组织项目公开展示素材",
-      "alt": "the-cause-349731a9-be62-40be-a498-071ff39f1117",
+      "caption": "非营利组织：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "非营利组织：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/the-cause-349731a9-be62-40be-a498-071ff39f1117",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/336/original/open-uri20220901-24-2m97uj?1662010083",
-      "caption": "非营利组织项目公开展示素材",
-      "alt": "the-cause-349731a9-be62-40be-a498-071ff39f1117",
+      "caption": "非营利组织：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "非营利组织：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/the-cause-349731a9-be62-40be-a498-071ff39f1117",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "非营利组织项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/the-cause-349731a9-be62-40be-a498-071ff39f1117",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/df1fgdrgwrml6ma0yysawtl4ym6l",
-      "caption": "非营利组织项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/the-cause-349731a9-be62-40be-a498-071ff39f1117",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/gl38e28b8wy08055xcqglg1r6pqs",
-      "caption": "非营利组织项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/the-cause-349731a9-be62-40be-a498-071ff39f1117",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2167,
-    "mediaCount": 6
+    "mediaCount": 3
   }
 }

@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/4yng15b4qbn6ngyl0ydcoscm2umo",
-      "caption": "从500美元起步的全案营销公司公开案例主图",
-      "alt": "从500美元起步的全案营销公司案例图片",
+      "caption": "从500美元起步的全案营销公司：通过提供营销服务赚钱",
+      "alt": "从500美元起步的全案营销公司：通过提供营销服务赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-a-full-service-marketing-company",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/133/original/open-uri20211128-3-8b307n?1638127679",
-      "caption": "从500美元起步的全案营销公司项目公开展示素材",
-      "alt": "i-built-a-480k-year-full-service-marketing-company",
+      "caption": "从500美元起步的全案营销公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "从500美元起步的全案营销公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-a-full-service-marketing-company",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "从500美元起步的全案营销公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/i-built-a-full-service-marketing-company",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ptba69qdqz5xolsqmn7r1j2oyaqo",
-      "caption": "从500美元起步的全案营销公司项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/i-built-a-full-service-marketing-company",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n4z9l9arqzb9e11b2zpz4mqdigeu",
-      "caption": "从500美元起步的全案营销公司项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/i-built-a-full-service-marketing-company",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2127,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

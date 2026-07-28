@@ -122,56 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/2wqukpbqry027exlk6gx30agrq9z",
-      "caption": "DIY博客公开案例主图",
-      "alt": "DIY博客案例图片",
+      "caption": "DIY博客：通过内容营销吸引订阅者，靠广告和联盟营销赚钱",
+      "alt": "DIY博客：通过内容营销吸引订阅者，靠广告和联盟营销赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/grandmas-house-diy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/032/original/open-uri20220808-12-u7kji4?1659971185",
-      "caption": "DIY博客项目公开展示素材",
-      "alt": "grandmas-house-diy",
+      "caption": "DIY博客：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "DIY博客：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/grandmas-house-diy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "DIY博客项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/grandmas-house-diy",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/xmcnnqqylhtbo0mcfe37b8l0byai",
-      "caption": "DIY博客项目公开展示素材",
-      "alt": "DIY博客项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/grandmas-house-diy",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/vsg1n7eqjjk2kou8yjsg1ha24rsa",
-      "caption": "DIY博客项目公开展示素材",
-      "alt": "DIY博客项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/grandmas-house-diy",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/a3cwsikiqkk7c26p5sem8s2hnqav",
-      "caption": "DIY博客项目公开展示素材",
-      "alt": "DIY博客项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/grandmas-house-diy",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2208,
-    "mediaCount": 6
+    "mediaCount": 2
   }
 }

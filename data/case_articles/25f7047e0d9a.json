@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/2u3x1m9r5tyzm01jxnmemhs4mt6t",
-      "caption": "用户引导SaaS平台公开案例主图",
-      "alt": "用户引导SaaS平台案例图片",
+      "caption": "用户引导SaaS平台：通过免费试用和付费订阅盈利",
+      "alt": "用户引导SaaS平台：通过免费试用和付费订阅盈利",
       "sourceUrl": "https://www.starterstory.com/stories/userguiding-985c705f-6fac-497d-9d7e-47da3935883c",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/989/original/open-uri20240128-53-k3pr9i?1706411321",
-      "caption": "用户引导SaaS平台项目公开展示素材",
-      "alt": "userguiding-985c705f-6fac-497d-9d7e-47da3935883c",
+      "caption": "用户引导SaaS平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "用户引导SaaS平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/userguiding-985c705f-6fac-497d-9d7e-47da3935883c",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/990/original/open-uri20240128-53-179cggr?1706411322",
-      "caption": "用户引导SaaS平台项目公开展示素材",
-      "alt": "userguiding-985c705f-6fac-497d-9d7e-47da3935883c",
+      "caption": "用户引导SaaS平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "用户引导SaaS平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/userguiding-985c705f-6fac-497d-9d7e-47da3935883c",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/991/original/open-uri20240128-53-1lxo8k8?1706411322",
-      "caption": "用户引导SaaS平台项目公开展示素材",
-      "alt": "userguiding-985c705f-6fac-497d-9d7e-47da3935883c",
+      "caption": "用户引导SaaS平台：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "用户引导SaaS平台：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/userguiding-985c705f-6fac-497d-9d7e-47da3935883c",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/992/original/open-uri20240128-53-ojhyyn?1706411323",
-      "caption": "用户引导SaaS平台项目公开展示素材",
-      "alt": "userguiding-985c705f-6fac-497d-9d7e-47da3935883c",
-      "sourceUrl": "https://www.starterstory.com/stories/userguiding-985c705f-6fac-497d-9d7e-47da3935883c",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2205,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

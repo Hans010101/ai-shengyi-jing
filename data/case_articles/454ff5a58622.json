@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/2m0p3weyivyick46wsddstrbsx9d",
-      "caption": "AI驱动的社交媒体内容工具公开案例主图",
-      "alt": "AI驱动的社交媒体内容工具案例图片",
+      "caption": "AI驱动的社交媒体内容工具：通过订阅制变现",
+      "alt": "AI驱动的社交媒体内容工具：通过订阅制变现",
       "sourceUrl": "https://www.starterstory.com/stories/pony-express-studio",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/412/original/open-uri20230507-63-1o21uf7?1683502496",
-      "caption": "AI驱动的社交媒体内容工具项目公开展示素材",
-      "alt": "pony-express-studio",
+      "caption": "AI驱动的社交媒体内容工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI驱动的社交媒体内容工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/pony-express-studio",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/413/original/open-uri20230507-63-9aakjg?1683502497",
-      "caption": "AI驱动的社交媒体内容工具项目公开展示素材",
-      "alt": "pony-express-studio",
+      "caption": "AI驱动的社交媒体内容工具：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "AI驱动的社交媒体内容工具：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/pony-express-studio",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/414/original/open-uri20230507-63-64r6c9?1683502497",
-      "caption": "AI驱动的社交媒体内容工具项目公开展示素材",
-      "alt": "pony-express-studio",
+      "caption": "AI驱动的社交媒体内容工具：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "AI驱动的社交媒体内容工具：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/pony-express-studio",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/415/original/open-uri20230507-63-bqvr23?1683502498",
-      "caption": "AI驱动的社交媒体内容工具项目公开展示素材",
-      "alt": "pony-express-studio",
-      "sourceUrl": "https://www.starterstory.com/stories/pony-express-studio",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2259,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

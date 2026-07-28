@@ -105,7 +105,8 @@
         "caption": "Pulseroll恢复产品组合，展示品牌从单一设备向场景化产品线延展",
         "alt": "Pulseroll运动恢复产品系列",
         "sourceUrl": "https://pulseroll.com.au/",
-        "origin": "official-site"
+        "origin": "official-site",
+        "context": "official-site"
       },
       {
         "type": "image",
@@ -113,7 +114,8 @@
         "caption": "Pulseroll筋膜枪系列的官方展示图",
         "alt": "Pulseroll筋膜枪系列",
         "sourceUrl": "https://pulseroll.com.au/",
-        "origin": "official-site"
+        "origin": "official-site",
+        "context": "official-site"
       },
       {
         "type": "image",
@@ -121,7 +123,8 @@
         "caption": "产品使用场景是体验型硬件建立认知的重要内容资产",
         "alt": "Pulseroll筋膜枪使用场景",
         "sourceUrl": "https://pulseroll.com.au/",
-        "origin": "official-site"
+        "origin": "official-site",
+        "context": "official-site"
       },
       {
         "type": "image",
@@ -129,7 +132,8 @@
         "caption": "Pulseroll振动泡沫轴产品图",
         "alt": "Pulseroll振动泡沫轴",
         "sourceUrl": "https://pulseroll.com.au/",
-        "origin": "official-site"
+        "origin": "official-site",
+        "context": "official-site"
       }
     ],
     "source": {
@@ -140,7 +144,20 @@
     "website": "https://www.pulseroll.com",
     "generatedAt": "2026-07-26T13:00:00+00:00",
     "provider": "editorial-reviewed",
-    "status": "pilot"
+    "status": "pilot",
+    "project": {
+      "id": "80d4a02070de",
+      "name": "How We Started A Multi-Million Dollar Massage Therapy Products Business [From Our Kitchen Table]",
+      "nameZh": "英国筋膜枪品牌",
+      "summary": "英国筋膜枪品牌，通过DTC电商销售肌肉恢复设备盈利。",
+      "revenue": "$240K",
+      "businessModel": "自主研发+中国代工，线上DTC销售，高毛利，复购靠耗材和配件。",
+      "chinaOpportunity": "中国健身人群增长，筋膜枪市场已有但可做细分（如女性、老年人），本地化可结合中医经络理论。",
+      "website": "https://www.pulseroll.com"
+    },
+    "quality": {
+      "mediaCount": 4
+    }
   },
   {
     "projectId": "897aed4cbfda",
@@ -248,7 +265,8 @@
         "caption": "Room2Work Roswell空间入口与公共区域",
         "alt": "Room2Work Roswell大厅",
         "sourceUrl": "https://www.room2work.com/",
-        "origin": "official-site"
+        "origin": "official-site",
+        "context": "official-site"
       },
       {
         "type": "image",
@@ -256,7 +274,8 @@
         "caption": "官网展示的会员运营与货物处理场景",
         "alt": "Room2Work会员运营场景",
         "sourceUrl": "https://www.room2work.com/",
-        "origin": "official-site"
+        "origin": "official-site",
+        "context": "official-site"
       },
       {
         "type": "image",
@@ -264,7 +283,8 @@
         "caption": "会议室预约是基础会员之外的重要按需服务",
         "alt": "Room2Work会议室预约",
         "sourceUrl": "https://www.room2work.com/",
-        "origin": "official-site"
+        "origin": "official-site",
+        "context": "official-site"
       },
       {
         "type": "image",
@@ -272,7 +292,8 @@
         "caption": "Room2Work创始人Alan Crowe",
         "alt": "Room2Work创始人Alan Crowe",
         "sourceUrl": "https://www.room2work.com/",
-        "origin": "official-site"
+        "origin": "official-site",
+        "context": "official-site"
       }
     ],
     "source": {
@@ -283,7 +304,20 @@
     "website": "https://room2work.com",
     "generatedAt": "2026-07-26T13:00:00+00:00",
     "provider": "editorial-reviewed",
-    "status": "pilot"
+    "status": "pilot",
+    "project": {
+      "id": "897aed4cbfda",
+      "name": "I Launched A $180K/Year Niche Coworking Space [Atlanta]",
+      "nameZh": "共享办公空间",
+      "summary": "共享办公空间，通过会员费和场地租赁盈利。",
+      "revenue": "$180K/Year",
+      "businessModel": "按月收取会员费，提供办公桌、会议室、网络等基础设施，同时通过活动、咖啡吧等增值服务增加收入。",
+      "chinaOpportunity": "中国灵活办公需求增长，可针对特定行业（如设计、科技）打造主题空间，或与社区、咖啡店合作轻资产模式。",
+      "website": "https://room2work.com"
+    },
+    "quality": {
+      "mediaCount": 4
+    }
   },
   {
     "projectId": "133d12662882",
@@ -392,7 +426,8 @@
         "alt": "Postaga产品界面",
         "sourceUrl": "https://www.starterstory.com/stories/postaga",
         "origin": "source-attributed",
-        "usage": "non-commercial-attributed"
+        "usage": "non-commercial-attributed",
+        "context": "source-article-body"
       },
       {
         "type": "image",
@@ -401,7 +436,8 @@
         "alt": "Postaga早期首页",
         "sourceUrl": "https://www.starterstory.com/stories/postaga",
         "origin": "source-attributed",
-        "usage": "non-commercial-attributed"
+        "usage": "non-commercial-attributed",
+        "context": "source-article-body"
       },
       {
         "type": "image",
@@ -410,7 +446,8 @@
         "alt": "Postaga更新后的首页",
         "sourceUrl": "https://www.starterstory.com/stories/postaga",
         "origin": "source-attributed",
-        "usage": "non-commercial-attributed"
+        "usage": "non-commercial-attributed",
+        "context": "source-article-body"
       },
       {
         "type": "image",
@@ -419,7 +456,8 @@
         "alt": "Postaga早期活动创建页面",
         "sourceUrl": "https://www.starterstory.com/stories/postaga",
         "origin": "source-attributed",
-        "usage": "non-commercial-attributed"
+        "usage": "non-commercial-attributed",
+        "context": "source-article-body"
       },
       {
         "type": "image",
@@ -428,7 +466,8 @@
         "alt": "Postaga迭代后的活动创建页面",
         "sourceUrl": "https://www.starterstory.com/stories/postaga",
         "origin": "source-attributed",
-        "usage": "non-commercial-attributed"
+        "usage": "non-commercial-attributed",
+        "context": "source-article-body"
       }
     ],
     "source": {
@@ -439,7 +478,20 @@
     "website": "https://postaga.com",
     "generatedAt": "2026-07-26T13:00:00+00:00",
     "provider": "editorial-reviewed",
-    "status": "pilot"
+    "status": "pilot",
+    "project": {
+      "id": "133d12662882",
+      "name": "How We Built An Email Outreach Platform With Over 20K Users",
+      "nameZh": "冷邮件外展平台",
+      "summary": "冷邮件外展平台，通过SaaS订阅赚钱",
+      "revenue": "$99",
+      "businessModel": "SaaS订阅制，提供多层级套餐，按用户需求收费。",
+      "chinaOpportunity": "中国中小企业有大量获客需求，可做本土化邮件/微信外展工具，结合AI优化触达率。",
+      "website": "https://postaga.com"
+    },
+    "quality": {
+      "mediaCount": 5
+    }
   },
   {
     "projectId": "1cc543ff648e",
@@ -547,7 +599,8 @@
         "caption": "Phone Sling官方产品图：品牌从手指挂带扩展到可穿戴手机配件",
         "alt": "Phone Loops黑色斜挎手机挂绳",
         "sourceUrl": "https://phoneloops.com/products/crossbody-phone-sling-lanyard",
-        "origin": "official-site"
+        "origin": "official-site",
+        "context": "official-site"
       },
       {
         "type": "image",
@@ -555,7 +608,8 @@
         "caption": "真实生活场景帮助用户快速理解“解放双手”的价值",
         "alt": "Phone Sling生活使用场景",
         "sourceUrl": "https://phoneloops.com/products/crossbody-phone-sling-lanyard",
-        "origin": "official-site"
+        "origin": "official-site",
+        "context": "official-site"
       },
       {
         "type": "video-file",
@@ -572,7 +626,8 @@
         "caption": "Phone Sling户外使用场景",
         "alt": "Phone Sling户外场景",
         "sourceUrl": "https://phoneloops.com/products/crossbody-phone-sling-lanyard",
-        "origin": "official-site"
+        "origin": "official-site",
+        "context": "official-site"
       },
       {
         "type": "image",
@@ -580,7 +635,8 @@
         "caption": "挂绳与连接件展示了品牌围绕核心结构延展配件组合的方式",
         "alt": "Phone Loops挂绳与连接件",
         "sourceUrl": "https://phoneloops.com/products/crossbody-phone-sling-lanyard",
-        "origin": "official-site"
+        "origin": "official-site",
+        "context": "official-site"
       }
     ],
     "source": {
@@ -591,7 +647,20 @@
     "website": "https://phoneloops.com",
     "generatedAt": "2026-07-26T13:00:00+00:00",
     "provider": "editorial-reviewed",
-    "status": "pilot"
+    "status": "pilot",
+    "project": {
+      "id": "1cc543ff648e",
+      "name": "On Growing Our Mobile Accessories Brand To $1.5M/Year [Phone Loops Update]",
+      "nameZh": "销售手机指环扣和挂绳的电商品牌",
+      "summary": "销售手机指环扣和挂绳的电商品牌，靠产品差异化和品牌溢价盈利。",
+      "revenue": "$1.5M/Year",
+      "businessModel": "自建品牌电商，销售自有专利手机指环扣和挂绳，通过官网和亚马逊等渠道直接面向消费者，赚取产品差价。",
+      "chinaOpportunity": "中国手机配件市场巨大，但同质化严重。可聚焦特定场景（如防摔、单手操作）设计专利产品，结合短视频和直播打造品牌。",
+      "website": "https://phoneloops.com"
+    },
+    "quality": {
+      "mediaCount": 5
+    }
   },
   {
     "projectId": "b34cc6ba924b",
@@ -695,11 +764,14 @@
     "media": [
       {
         "type": "video",
-        "url": "https://www.youtube.com/embed/dt24DresEbE?controls=1",
+        "url": "https://www.youtube.com/embed/dt24DresEbE",
         "caption": "RotoShovel官网主视频：用直观演示解释“手持自动铲”的核心价值",
-        "alt": "RotoShovel产品演示视频",
+        "alt": "Rotoshovel- 5X Torque Handheld Automatic Shovel with Brushless Motor & Long Lasting Battery",
         "sourceUrl": "https://www.rotoshovel.com/",
-        "origin": "embeddable-video"
+        "origin": "embeddable-video",
+        "watchUrl": "https://www.youtube.com/watch?v=dt24DresEbE",
+        "poster": "https://i.ytimg.com/vi/dt24DresEbE/hqdefault.jpg",
+        "provider": "YouTube"
       },
       {
         "type": "image",
@@ -707,15 +779,19 @@
         "caption": "RotoShovel手持自动铲官方产品图",
         "alt": "RotoShovel手持电动铲",
         "sourceUrl": "https://www.rotoshovel.com/",
-        "origin": "official-site"
+        "origin": "official-site",
+        "context": "official-site"
       },
       {
         "type": "video",
-        "url": "https://www.youtube.com/embed/fT-RZmHYcBQ?controls=1",
+        "url": "https://www.youtube.com/embed/fT-RZmHYcBQ",
         "caption": "官网“立杆”使用场景演示",
-        "alt": "RotoShovel立杆挖孔视频",
+        "alt": "Meet the World's First Electric Shovel - The Rotoshovel!",
         "sourceUrl": "https://www.rotoshovel.com/",
-        "origin": "embeddable-video"
+        "origin": "embeddable-video",
+        "watchUrl": "https://www.youtube.com/watch?v=fT-RZmHYcBQ",
+        "poster": "https://i.ytimg.com/vi/fT-RZmHYcBQ/hqdefault.jpg",
+        "provider": "YouTube"
       },
       {
         "type": "image",
@@ -723,15 +799,19 @@
         "caption": "RotoShovel园艺使用场景",
         "alt": "RotoShovel园艺使用场景",
         "sourceUrl": "https://www.rotoshovel.com/",
-        "origin": "official-site"
+        "origin": "official-site",
+        "context": "official-site"
       },
       {
         "type": "video",
-        "url": "https://www.youtube.com/embed/cnww3_Ea--0?controls=1",
+        "url": "https://www.youtube.com/embed/cnww3_Ea--0",
         "caption": "官网“种植”场景演示",
-        "alt": "RotoShovel种植挖孔视频",
+        "alt": "TESTING the CRAZIEST SHOVEL Ever Made - Rotoshovel",
         "sourceUrl": "https://www.rotoshovel.com/",
-        "origin": "embeddable-video"
+        "origin": "embeddable-video",
+        "watchUrl": "https://www.youtube.com/watch?v=cnww3_Ea--0",
+        "poster": "https://i.ytimg.com/vi/cnww3_Ea--0/hqdefault.jpg",
+        "provider": "YouTube"
       },
       {
         "type": "image",
@@ -739,7 +819,8 @@
         "caption": "产品在家庭庭院中的真实应用场景",
         "alt": "RotoShovel家庭庭院场景",
         "sourceUrl": "https://www.rotoshovel.com/",
-        "origin": "official-site"
+        "origin": "official-site",
+        "context": "official-site"
       }
     ],
     "source": {
@@ -750,6 +831,19 @@
     "website": "https://rotoshovel.com",
     "generatedAt": "2026-07-26T13:00:00+00:00",
     "provider": "editorial-reviewed",
-    "status": "pilot"
+    "status": "pilot",
+    "project": {
+      "id": "b34cc6ba924b",
+      "name": "How Our Patented Shovel Reached $600K In Sales Last Year",
+      "nameZh": "手持电动铲土工具",
+      "summary": "手持电动铲土工具，通过DTC电商和批发销售盈利。",
+      "revenue": "$600K",
+      "businessModel": "自主研发生产电动铲土工具，通过官网DTC、亚马逊、批发商销售，毛利率高。",
+      "chinaOpportunity": "中国园艺工具市场分散，可开发电动铲、松土器等产品，通过直播电商和社区团购渠道推广。",
+      "website": "https://rotoshovel.com"
+    },
+    "quality": {
+      "mediaCount": 6
+    }
   }
 ]

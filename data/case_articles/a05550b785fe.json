@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/cm5bv0fwhtehlmtzs2wsbp0bzolu",
-      "caption": "AI浏览器插件公开案例主图",
-      "alt": "AI浏览器插件案例图片",
+      "caption": "AI浏览器插件：帮用户构建个人知识库，按月订阅赚钱",
+      "alt": "AI浏览器插件：帮用户构建个人知识库，按月订阅赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/recall",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/010/original/open-uri20231012-60-kvc81?1697086448",
-      "caption": "AI浏览器插件项目公开展示素材",
-      "alt": "recall",
+      "caption": "AI浏览器插件：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI浏览器插件：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/recall",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/011/original/open-uri20231012-60-nz8miq?1697086450",
-      "caption": "AI浏览器插件项目公开展示素材",
-      "alt": "recall",
+      "caption": "AI浏览器插件：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "AI浏览器插件：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/recall",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/012/original/open-uri20231012-60-h09yiu?1697086450",
-      "caption": "AI浏览器插件项目公开展示素材",
-      "alt": "recall",
+      "caption": "AI浏览器插件：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "AI浏览器插件：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/recall",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI浏览器插件项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/recall",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2178,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

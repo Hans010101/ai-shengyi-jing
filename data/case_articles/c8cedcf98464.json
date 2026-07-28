@@ -122,47 +122,48 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/37zs8dbdiftqbkydxqbze39djayx",
-      "caption": "在线3D打印商店公开案例主图",
-      "alt": "在线3D打印商店案例图片",
+      "caption": "在线3D打印商店：销售打印机、耗材和服务，月入30万美元",
+      "alt": "在线3D打印商店：销售打印机、耗材和服务，月入30万美元",
       "sourceUrl": "https://www.starterstory.com/stories/3d-universe",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "在线3D打印商店项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/CHPuMCshkLU",
+      "watchUrl": "https://www.youtube.com/watch?v=CHPuMCshkLU",
+      "caption": "在线3D打印商店资料中提及的视频：A $50 3D-Printed Prosthesis Compared to a $42,000 Myoelectric Prosthesis (3D Universe)",
+      "alt": "A $50 3D-Printed Prosthesis Compared to a $42,000 Myoelectric Prosthesis (3D Universe)",
       "sourceUrl": "https://www.starterstory.com/stories/3d-universe",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/CHPuMCshkLU/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "在线3D打印商店项目公开展示素材",
-      "alt": "在线3D打印商店项目展示图",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/AymSI4GP_O4",
+      "watchUrl": "https://www.youtube.com/watch?v=AymSI4GP_O4",
+      "caption": "在线3D打印商店资料中提及的视频：Man gets new 3D-printed hand for $50",
+      "alt": "Man gets new 3D-printed hand for $50",
       "sourceUrl": "https://www.starterstory.com/stories/3d-universe",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/AymSI4GP_O4/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/dvithrg7zcn51mk81s7sw6btbew2",
-      "caption": "在线3D打印商店项目公开展示素材",
-      "alt": "在线3D打印商店项目展示图",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/NLdVG5wmTYQ",
+      "watchUrl": "https://www.youtube.com/watch?v=NLdVG5wmTYQ",
+      "caption": "在线3D打印商店资料中提及的视频：Ultimaker S5 Overview",
+      "alt": "Ultimaker S5 Overview",
       "sourceUrl": "https://www.starterstory.com/stories/3d-universe",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/hkfg10lkjnxo3v96pvq6etuqx9v6",
-      "caption": "在线3D打印商店项目公开展示素材",
-      "alt": "在线3D打印商店项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/3d-universe",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/NLdVG5wmTYQ/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +178,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2239,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

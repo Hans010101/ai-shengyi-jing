@@ -122,47 +122,34 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/eoz24mlvcv2wompvfllbbiho7yua",
-      "caption": "为中小制造企业提供AI软件咨询与解决方案公开案例主图",
-      "alt": "为中小制造企业提供AI软件咨询与解决方案案例图片",
+      "caption": "为中小制造企业提供AI软件咨询与解决方案：按项目收费",
+      "alt": "为中小制造企业提供AI软件咨询与解决方案：按项目收费",
       "sourceUrl": "https://www.starterstory.com/stories/digitalcollars-4189432c-54e2-47c8-94f3-c7b21379ea54",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/304/original/open-uri20230815-60-in3qsx?1692068550",
-      "caption": "为中小制造企业提供AI软件咨询与解决方案项目公开展示素材",
-      "alt": "digitalcollars-4189432c-54e2-47c8-94f3-c7b21379ea54",
+      "caption": "为中小制造企业提供AI软件咨询与解决方案：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为中小制造企业提供AI软件咨询与解决方案：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/digitalcollars-4189432c-54e2-47c8-94f3-c7b21379ea54",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为中小制造企业提供AI软件咨询与解决方案项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/bJNaOyg1v7E",
+      "watchUrl": "https://www.youtube.com/watch?v=bJNaOyg1v7E",
+      "caption": "为中小制造企业提供AI软件咨询与解决方案资料中提及的视频：DigitalCollars",
+      "alt": "DigitalCollars",
       "sourceUrl": "https://www.starterstory.com/stories/digitalcollars-4189432c-54e2-47c8-94f3-c7b21379ea54",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/p21ts159h2jq9q519g25528av7yd",
-      "caption": "为中小制造企业提供AI软件咨询与解决方案项目公开展示素材",
-      "alt": "为中小制造企业提供AI软件咨询与解决方案项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/digitalcollars-4189432c-54e2-47c8-94f3-c7b21379ea54",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/bktaf6keh1rjsjde1tkkhpinriz5",
-      "caption": "为中小制造企业提供AI软件咨询与解决方案项目公开展示素材",
-      "alt": "为中小制造企业提供AI软件咨询与解决方案项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/digitalcollars-4189432c-54e2-47c8-94f3-c7b21379ea54",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/bJNaOyg1v7E/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +164,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2181,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

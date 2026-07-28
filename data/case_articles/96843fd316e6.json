@@ -122,47 +122,46 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ba18xi8jm8px190wbmbt4rmpngsf",
-      "caption": "YouTube男装频道公开案例主图",
-      "alt": "YouTube男装频道案例图片",
+      "caption": "YouTube男装频道：通过广告和品牌合作月入6K美元",
+      "alt": "YouTube男装频道：通过广告和品牌合作月入6K美元",
       "sourceUrl": "https://www.starterstory.com/stories/the-kavalier-update-how-i-maintained-a-loyal-audience-during-the-pandemic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/011/318/original/open-uri20210412-3-85s5zu?1618252142",
-      "caption": "YouTube男装频道项目公开展示素材",
-      "alt": "how-i-partnered-to-men-s-cosmetic-line-and-grew-our-sales-continuously",
+      "caption": "YouTube男装频道：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "YouTube男装频道：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/the-kavalier-update-how-i-maintained-a-loyal-audience-during-the-pandemic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "YouTube男装频道项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/-ykrgh8QwlA",
+      "watchUrl": "https://www.youtube.com/watch?v=-ykrgh8QwlA",
+      "caption": "YouTube男装频道资料中提及的视频：A Very Hard Goodbye",
+      "alt": "A Very Hard Goodbye",
       "sourceUrl": "https://www.starterstory.com/stories/the-kavalier-update-how-i-maintained-a-loyal-audience-during-the-pandemic",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/-ykrgh8QwlA/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/w4stw5wtsgmq5u23otc0cudjxnjg",
-      "caption": "YouTube男装频道项目公开展示素材",
-      "alt": "YouTube男装频道项目展示图",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/9Yx0JLI3MqQ",
+      "watchUrl": "https://www.youtube.com/watch?v=9Yx0JLI3MqQ",
+      "caption": "YouTube男装频道资料中提及的视频：3 Ways I'm Making 2022 Better than 2021",
+      "alt": "3 Ways I'm Making 2022 Better than 2021",
       "sourceUrl": "https://www.starterstory.com/stories/the-kavalier-update-how-i-maintained-a-loyal-audience-during-the-pandemic",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/1qxt58976pp69dwug3p7ifphuhne",
-      "caption": "YouTube男装频道项目公开展示素材",
-      "alt": "YouTube男装频道项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/the-kavalier-update-how-i-maintained-a-loyal-audience-during-the-pandemic",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/9Yx0JLI3MqQ/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +176,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2208,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

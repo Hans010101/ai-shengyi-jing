@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/w8wf8xor3a3jxxov55mxpxjn3sa7",
-      "caption": "Enfuce是云支付处理平台公开案例主图",
-      "alt": "Enfuce是云支付处理平台案例图片",
+      "caption": "Enfuce是云支付处理平台：通过交易手续费盈利",
+      "alt": "Enfuce是云支付处理平台：通过交易手续费盈利",
       "sourceUrl": "https://www.starterstory.com/businesses/enfuce",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "Enfuce是云支付处理平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/enfuce",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/wbroc6o5tuqnl6i8myqqrk88123i",
-      "caption": "Enfuce是云支付处理平台项目公开展示素材",
-      "alt": "Enfuce logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/enfuce",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/em761ytmcw81dbsta51s0s9dwhn9/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "Enfuce是云支付处理平台项目公开展示素材",
-      "alt": "Monika Liikamaa",
-      "sourceUrl": "https://www.starterstory.com/businesses/enfuce",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/or09f2lfiia7lnht2q5ydyd20833/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "Enfuce是云支付处理平台项目公开展示素材",
-      "alt": "Enfuce是云支付处理平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/businesses/enfuce",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2208,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/b50n3e7mih0ct1rupd7rczsnqdgx",
-      "caption": "海外电商/DTC项目公开案例主图",
-      "alt": "海外电商/DTC项目案例图片",
+      "caption": "海外电商/DTC项目：通过英语教学卡片和骰子，结合线上课程，月入1000美元",
+      "alt": "海外电商/DTC项目：通过英语教学卡片和骰子，结合线上课程，月入1000美元",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-side-hustle-making-an-extra-1000-month",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/835/original/open-uri20190613-4-117ntjj?1560407384",
-      "caption": "海外电商/DTC项目项目公开展示素材",
-      "alt": "how-i-started-a-side-hustle-making-an-extra-1000-month",
+      "caption": "海外电商/DTC项目：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "海外电商/DTC项目：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-side-hustle-making-an-extra-1000-month",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/836/original/open-uri20190613-4-grfmix?1560407385",
-      "caption": "海外电商/DTC项目项目公开展示素材",
-      "alt": "how-i-started-a-side-hustle-making-an-extra-1000-month",
+      "caption": "海外电商/DTC项目：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "海外电商/DTC项目：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-side-hustle-making-an-extra-1000-month",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/837/original/open-uri20190613-4-16gwsal?1560407385",
-      "caption": "海外电商/DTC项目项目公开展示素材",
-      "alt": "how-i-started-a-side-hustle-making-an-extra-1000-month",
+      "caption": "海外电商/DTC项目：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "海外电商/DTC项目：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-side-hustle-making-an-extra-1000-month",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/838/original/open-uri20190613-4-tck8lb?1560407386",
-      "caption": "海外电商/DTC项目项目公开展示素材",
-      "alt": "how-i-started-a-side-hustle-making-an-extra-1000-month",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/dMW8uy5_nbc",
+      "watchUrl": "https://www.youtube.com/watch?v=dMW8uy5_nbc",
+      "caption": "海外电商/DTC项目资料中提及的视频：Phrase It A New English Conversation Dice Game for ESL Learners and ESL Teachers",
+      "alt": "Phrase It A New English Conversation Dice Game for ESL Learners and ESL Teachers",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-side-hustle-making-an-extra-1000-month",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/dMW8uy5_nbc/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

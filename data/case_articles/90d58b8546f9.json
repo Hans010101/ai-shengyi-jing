@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/jqiszi4m2xfmp9troqsrdafks5u9",
-      "caption": "帮企业做Pinterest营销公开案例主图",
-      "alt": "帮企业做Pinterest营销案例图片",
+      "caption": "帮企业做Pinterest营销：赚取服务费或佣金",
+      "alt": "帮企业做Pinterest营销：赚取服务费或佣金",
       "sourceUrl": "https://www.starterstory.com/stories/kelsey-vetter",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/744/original/open-uri20220727-12-z8w0ie?1658899611",
-      "caption": "帮企业做Pinterest营销项目公开展示素材",
-      "alt": "kelsey-vetter",
+      "caption": "帮企业做Pinterest营销：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "帮企业做Pinterest营销：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/kelsey-vetter",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/745/original/open-uri20220727-12-1xr99fh?1658899612",
-      "caption": "帮企业做Pinterest营销项目公开展示素材",
-      "alt": "kelsey-vetter",
+      "caption": "帮企业做Pinterest营销：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "帮企业做Pinterest营销：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/kelsey-vetter",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "帮企业做Pinterest营销项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/kelsey-vetter",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/565d79l71forrg2m6f9ag30p396e",
-      "caption": "帮企业做Pinterest营销项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/kelsey-vetter",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2230,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/03dyif6eq5yt4iqk577gz5g8h5bm",
-      "caption": "利用AI和传统石雕工艺公开案例主图",
-      "alt": "利用AI和传统石雕工艺案例图片",
+      "caption": "利用AI和传统石雕工艺：定制高端大理石艺术品，月入1万美元",
+      "alt": "利用AI和传统石雕工艺：定制高端大理石艺术品，月入1万美元",
       "sourceUrl": "https://www.starterstory.com/stories/marblebee-ltd",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/444/original/open-uri20230511-51-kemgmu?1683820636",
-      "caption": "利用AI和传统石雕工艺项目公开展示素材",
-      "alt": "marblebee-ltd",
+      "caption": "利用AI和传统石雕工艺：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "利用AI和传统石雕工艺：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/marblebee-ltd",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/445/original/open-uri20230511-51-ok1999?1683820637",
-      "caption": "利用AI和传统石雕工艺项目公开展示素材",
-      "alt": "marblebee-ltd",
+      "caption": "利用AI和传统石雕工艺：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "利用AI和传统石雕工艺：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/marblebee-ltd",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/446/original/open-uri20230511-51-xeqehf?1683820638",
-      "caption": "利用AI和传统石雕工艺项目公开展示素材",
-      "alt": "marblebee-ltd",
+      "caption": "利用AI和传统石雕工艺：当前经营状态与下一步规划相关原始配图（第3张）",
+      "alt": "利用AI和传统石雕工艺：当前经营状态与下一步规划相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/marblebee-ltd",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "利用AI和传统石雕工艺项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/marblebee-ltd",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2218,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

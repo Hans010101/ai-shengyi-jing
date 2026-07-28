@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/wc8q3bpbe62chgn77fveel2aqb9t",
-      "caption": "YouTube教育+软件订阅公开案例主图",
-      "alt": "YouTube教育+软件订阅案例图片",
+      "caption": "YouTube教育+软件订阅：教代理商增长并卖管理工具",
+      "alt": "YouTube教育+软件订阅：教代理商增长并卖管理工具",
       "sourceUrl": "https://www.starterstory.com/stories/grow-your-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/365/original/open-uri20220906-24-15dwgln?1662425808",
-      "caption": "YouTube教育+软件订阅项目公开展示素材",
-      "alt": "grow-your-agency",
+      "caption": "YouTube教育+软件订阅：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "YouTube教育+软件订阅：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/grow-your-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/366/original/open-uri20220906-24-1x03ccn?1662425810",
-      "caption": "YouTube教育+软件订阅项目公开展示素材",
-      "alt": "grow-your-agency",
+      "caption": "YouTube教育+软件订阅：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "YouTube教育+软件订阅：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/grow-your-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/367/original/open-uri20220906-24-1kmo0u9?1662425810",
-      "caption": "YouTube教育+软件订阅项目公开展示素材",
-      "alt": "grow-your-agency",
+      "caption": "YouTube教育+软件订阅：创业复盘与关键经验相关原始配图（第3张）",
+      "alt": "YouTube教育+软件订阅：创业复盘与关键经验相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/grow-your-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "YouTube教育+软件订阅项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/gNRGkMeITVU",
+      "watchUrl": "https://www.youtube.com/watch?v=gNRGkMeITVU",
+      "caption": "YouTube教育+软件订阅资料中提及的视频：Best Online Business To Start As A BEGINNER (2024)",
+      "alt": "Best Online Business To Start As A BEGINNER (2024)",
       "sourceUrl": "https://www.starterstory.com/stories/grow-your-agency",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/gNRGkMeITVU/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

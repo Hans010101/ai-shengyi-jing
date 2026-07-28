@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/v3j83aok8x6h69xz6utq1ibcvih2",
-      "caption": "按需订阅平面设计服务公开案例主图",
-      "alt": "按需订阅平面设计服务案例图片",
+      "caption": "按需订阅平面设计服务：月收入10万美元",
+      "alt": "按需订阅平面设计服务：月收入10万美元",
       "sourceUrl": "https://www.starterstory.com/stories/our-company-helps-entrepreneurs-utilize-delegation-for-their-design-972k-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/489/original/open-uri20220404-3-1dmkjve?1649083139",
-      "caption": "按需订阅平面设计服务项目公开展示素材",
-      "alt": "our-company-helps-entrepreneurs-utilize-delegation-for-their-design-972k-year",
+      "caption": "按需订阅平面设计服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "按需订阅平面设计服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/our-company-helps-entrepreneurs-utilize-delegation-for-their-design-972k-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/490/original/open-uri20220404-3-kpdyut?1649083139",
-      "caption": "按需订阅平面设计服务项目公开展示素材",
-      "alt": "our-company-helps-entrepreneurs-utilize-delegation-for-their-design-972k-year",
+      "caption": "按需订阅平面设计服务：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "按需订阅平面设计服务：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/our-company-helps-entrepreneurs-utilize-delegation-for-their-design-972k-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/491/original/open-uri20220404-3-b2nqnx?1649083140",
-      "caption": "按需订阅平面设计服务项目公开展示素材",
-      "alt": "our-company-helps-entrepreneurs-utilize-delegation-for-their-design-972k-year",
+      "caption": "按需订阅平面设计服务：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "按需订阅平面设计服务：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/our-company-helps-entrepreneurs-utilize-delegation-for-their-design-972k-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "按需订阅平面设计服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/our-company-helps-entrepreneurs-utilize-delegation-for-their-design-972k-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/fwu9pmrseyttq94884li574j5ei9",
-      "caption": "按需订阅平面设计服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/our-company-helps-entrepreneurs-utilize-delegation-for-their-design-972k-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2223,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

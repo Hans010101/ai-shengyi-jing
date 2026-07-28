@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/w5ifz10dyuabddp8dwxxcqg7rbs8",
-      "caption": "DIY衬衫裁剪工具ZipSeam公开案例主图",
-      "alt": "DIY衬衫裁剪工具ZipSeam案例图片",
+      "caption": "DIY衬衫裁剪工具ZipSeam：通过Kickstarter众筹60K美元",
+      "alt": "DIY衬衫裁剪工具ZipSeam：通过Kickstarter众筹60K美元",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-created-a-diy-shirt-tailor-and-raised-60k-on-kickstarter",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/888/original/open-uri20190905-4-1qyd4z?1567666874",
-      "caption": "DIY衬衫裁剪工具ZipSeam项目公开展示素材",
-      "alt": "how-i-created-a-diy-shirt-tailor-and-raised-60k-on-kickstarter",
+      "caption": "DIY衬衫裁剪工具ZipSeam：产品设计与早期打磨相关原始配图",
+      "alt": "DIY衬衫裁剪工具ZipSeam：产品设计与早期打磨相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-created-a-diy-shirt-tailor-and-raised-60k-on-kickstarter",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/889/original/open-uri20190905-4-2gurpy?1567666874",
-      "caption": "DIY衬衫裁剪工具ZipSeam项目公开展示素材",
-      "alt": "how-i-created-a-diy-shirt-tailor-and-raised-60k-on-kickstarter",
+      "caption": "DIY衬衫裁剪工具ZipSeam：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "DIY衬衫裁剪工具ZipSeam：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-created-a-diy-shirt-tailor-and-raised-60k-on-kickstarter",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/890/original/open-uri20190905-4-qms9cp?1567666875",
-      "caption": "DIY衬衫裁剪工具ZipSeam项目公开展示素材",
-      "alt": "how-i-created-a-diy-shirt-tailor-and-raised-60k-on-kickstarter",
+      "caption": "DIY衬衫裁剪工具ZipSeam：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "DIY衬衫裁剪工具ZipSeam：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-created-a-diy-shirt-tailor-and-raised-60k-on-kickstarter",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/891/original/open-uri20190905-4-m1x3ka?1567666875",
-      "caption": "DIY衬衫裁剪工具ZipSeam项目公开展示素材",
-      "alt": "how-i-created-a-diy-shirt-tailor-and-raised-60k-on-kickstarter",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/zXBQI9FPYO4",
+      "watchUrl": "https://www.youtube.com/watch?v=zXBQI9FPYO4",
+      "caption": "DIY衬衫裁剪工具ZipSeam资料中提及的视频：Zipseam - Instantly Tailor Your Clothing",
+      "alt": "Zipseam - Instantly Tailor Your Clothing",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-created-a-diy-shirt-tailor-and-raised-60k-on-kickstarter",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/zXBQI9FPYO4/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

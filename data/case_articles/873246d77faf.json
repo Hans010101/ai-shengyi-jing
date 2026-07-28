@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/t9d8w603ly9o88970w2kl5h0wbc0",
-      "caption": "自动化内容收集SaaS公开案例主图",
-      "alt": "自动化内容收集SaaS案例图片",
+      "caption": "自动化内容收集SaaS：帮企业向客户索取文件并智能催收",
+      "alt": "自动化内容收集SaaS：帮企业向客户索取文件并智能催收",
       "sourceUrl": "https://www.starterstory.com/businesses/content-snare",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "自动化内容收集SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/content-snare",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/en4icwvkp3oagi8ctyl2l6zqi2q3",
-      "caption": "自动化内容收集SaaS项目公开展示素材",
-      "alt": "Content Snare logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/content-snare",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/thismmij73sa9lw07n31qf54pok2/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "自动化内容收集SaaS项目公开展示素材",
-      "alt": "James Rose",
-      "sourceUrl": "https://www.starterstory.com/businesses/content-snare",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/ssj1lpewtsddaxerozd9jfos4lrz/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "自动化内容收集SaaS项目公开展示素材",
-      "alt": "Angular",
-      "sourceUrl": "https://www.starterstory.com/businesses/content-snare",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2190,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

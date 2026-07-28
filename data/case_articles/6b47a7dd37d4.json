@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/q16dqjdutmstxieadu8z5wxamurm",
-      "caption": "AI批改雅思写作的SaaS工具公开案例主图",
-      "alt": "AI批改雅思写作的SaaS工具案例图片",
+      "caption": "AI批改雅思写作的SaaS工具：月收入$12K",
+      "alt": "AI批改雅思写作的SaaS工具：月收入$12K",
       "sourceUrl": "https://www.starterstory.com/stories/check-your-ielts-essay-online-correction-and-evaluation-service",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI批改雅思写作的SaaS工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/check-your-ielts-essay-online-correction-and-evaluation-service",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/644faeb561eaa8e7",
-      "caption": "AI批改雅思写作的SaaS工具项目公开展示素材",
+      "caption": "AI批改雅思写作的SaaS工具：创始人、核心产品与品牌起点相关原始配图",
       "alt": "My image",
       "sourceUrl": "https://www.starterstory.com/stories/check-your-ielts-essay-online-correction-and-evaluation-service",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/lnvy68gquqjbc74mmwkog24yxtdf",
-      "caption": "AI批改雅思写作的SaaS工具项目公开展示素材",
-      "alt": "article",
+      "caption": "AI批改雅思写作的SaaS工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI批改雅思写作的SaaS工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/check-your-ielts-essay-online-correction-and-evaluation-service",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/896873e382579ad6",
-      "caption": "AI批改雅思写作的SaaS工具项目公开展示素材",
+      "caption": "AI批改雅思写作的SaaS工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "alt": "My image",
       "sourceUrl": "https://www.starterstory.com/stories/check-your-ielts-essay-online-correction-and-evaluation-service",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2200,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

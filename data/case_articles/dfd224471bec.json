@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/c1qegfs231qcd88vdv64hcke2vxe",
-      "caption": "房车租赁平台公开案例主图",
-      "alt": "房车租赁平台案例图片",
+      "caption": "房车租赁平台：通过出租改装露营车赚取租金",
+      "alt": "房车租赁平台：通过出租改装露营车赚取租金",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-started-a-camper-van-rental-business-and-quit-our-full-time-jobs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/277/original/open-uri20190317-4-1qj82ue?1552797306",
-      "caption": "房车租赁平台项目公开展示素材",
-      "alt": "how-we-started-a-camper-van-rental-business-and-quit-our-full-time-jobs",
+      "caption": "房车租赁平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "房车租赁平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-started-a-camper-van-rental-business-and-quit-our-full-time-jobs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/278/original/open-uri20190317-4-4d2svh?1552797306",
-      "caption": "房车租赁平台项目公开展示素材",
-      "alt": "how-we-started-a-camper-van-rental-business-and-quit-our-full-time-jobs",
+      "caption": "房车租赁平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "房车租赁平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-started-a-camper-van-rental-business-and-quit-our-full-time-jobs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/279/original/open-uri20190317-4-10m847y?1552797310",
-      "caption": "房车租赁平台项目公开展示素材",
-      "alt": "how-we-started-a-camper-van-rental-business-and-quit-our-full-time-jobs",
+      "caption": "房车租赁平台：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "房车租赁平台：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-started-a-camper-van-rental-business-and-quit-our-full-time-jobs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/280/original/open-uri20190317-4-rgbha8?1552797311",
-      "caption": "房车租赁平台项目公开展示素材",
-      "alt": "how-we-started-a-camper-van-rental-business-and-quit-our-full-time-jobs",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-started-a-camper-van-rental-business-and-quit-our-full-time-jobs",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2175,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

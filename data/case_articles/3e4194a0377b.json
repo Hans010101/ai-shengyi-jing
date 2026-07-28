@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/aq36ct2q2mmn5r5nf67u49lgx20u",
-      "caption": "行李寄存平台公开案例主图",
-      "alt": "行李寄存平台案例图片",
+      "caption": "行李寄存平台：通过App连接用户与寄存点收取佣金",
+      "alt": "行李寄存平台：通过App连接用户与寄存点收取佣金",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-turned-a-landing-page-into-a-luggage-storage-startup",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/347/original/open-uri20190401-4-1du2cvr?1554102873",
-      "caption": "行李寄存平台项目公开展示素材",
-      "alt": "how-i-turned-a-landing-page-into-a-luggage-storage-startup",
+      "caption": "行李寄存平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "行李寄存平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-turned-a-landing-page-into-a-luggage-storage-startup",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/348/original/open-uri20190401-4-omp7zf?1554102873",
-      "caption": "行李寄存平台项目公开展示素材",
-      "alt": "how-i-turned-a-landing-page-into-a-luggage-storage-startup",
+      "caption": "行李寄存平台：业务工具与运营系统相关原始配图（第2张）",
+      "alt": "行李寄存平台：业务工具与运营系统相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-turned-a-landing-page-into-a-luggage-storage-startup",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "行李寄存平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-turned-a-landing-page-into-a-luggage-storage-startup",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "行李寄存平台项目公开展示素材",
-      "alt": "行李寄存平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-turned-a-landing-page-into-a-luggage-storage-startup",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2219,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/jpk73w5cxscvhha202rctaw14evz",
-      "caption": "受众研究SaaS公开案例主图",
-      "alt": "受众研究SaaS案例图片",
+      "caption": "受众研究SaaS：帮企业分析社交媒体粉丝画像，按月订阅赚钱",
+      "alt": "受众研究SaaS：帮企业分析社交媒体粉丝画像，按月订阅赚钱",
       "sourceUrl": "https://www.starterstory.com/businesses/sparktoro",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "受众研究SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/sparktoro",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/k64t1g9bjibmw9fptc0execvtq55",
-      "caption": "受众研究SaaS项目公开展示素材",
-      "alt": "SparkToro logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/sparktoro",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/127lst81ba0y7iduk30c4a4rrvby/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "受众研究SaaS项目公开展示素材",
-      "alt": "Rand Fishkin",
-      "sourceUrl": "https://www.starterstory.com/businesses/sparktoro",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/c8ldig3aek8kd56q91f91x5qz6g0/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "受众研究SaaS项目公开展示素材",
-      "alt": "MailChimp",
-      "sourceUrl": "https://www.starterstory.com/businesses/sparktoro",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2247,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

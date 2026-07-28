@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/w1snxqr91slglf6x0yg8ctiwbqfs",
-      "caption": "海外AI工具项目公开案例主图",
-      "alt": "海外AI工具项目案例图片",
+      "caption": "海外AI工具项目：通过AI手机应用提供户外探险导航服务，收取订阅费",
+      "alt": "海外AI工具项目：通过AI手机应用提供户外探险导航服务，收取订阅费",
       "sourceUrl": "https://www.starterstory.com/stories/hobnail-trekking-co",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/691/original/open-uri20221025-12-vxyoh7?1666672541",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "hobnail-trekking-co",
+      "caption": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/hobnail-trekking-co",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/692/original/open-uri20221025-12-iha3yb?1666672542",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "hobnail-trekking-co",
+      "caption": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/hobnail-trekking-co",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/693/original/open-uri20221025-12-1xr6jwp?1666672543",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "hobnail-trekking-co",
+      "caption": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/hobnail-trekking-co",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/694/original/open-uri20221025-12-avk53b?1666672544",
-      "caption": "海外AI工具项目项目公开展示素材",
-      "alt": "hobnail-trekking-co",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/C_8PECgN3F0",
+      "watchUrl": "https://www.youtube.com/watch?v=C_8PECgN3F0",
+      "caption": "海外AI工具项目资料中提及的视频：An invitation to Peru",
+      "alt": "An invitation to Peru",
       "sourceUrl": "https://www.starterstory.com/stories/hobnail-trekking-co",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/C_8PECgN3F0/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

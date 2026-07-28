@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/0c3zlkzm349akikd6au6qjwdksf8",
-      "caption": "咖啡豆品牌公开案例主图",
-      "alt": "咖啡豆品牌案例图片",
+      "caption": "咖啡豆品牌：通过线上零售和批发赚钱",
+      "alt": "咖啡豆品牌：通过线上零售和批发赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-continued-growing-in-spite-of-some-store-closures",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/005/617/original/open-uri20200401-4-1kcdpty?1585784952",
-      "caption": "咖啡豆品牌项目公开展示素材",
-      "alt": "how-we-continue-our-business-growth-inspite-of-losing-one-store",
+      "caption": "咖啡豆品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "咖啡豆品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-continued-growing-in-spite-of-some-store-closures",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "咖啡豆品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-continued-growing-in-spite-of-some-store-closures",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c303bjznv93yxnh0xxz7t4vfedzf",
-      "caption": "咖啡豆品牌项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-continued-growing-in-spite-of-some-store-closures",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "咖啡豆品牌项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-continued-growing-in-spite-of-some-store-closures",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2136,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/b86hpisbiifrvlsssx3242v2cgyl",
-      "caption": "个人品牌顾问公开案例主图",
-      "alt": "个人品牌顾问案例图片",
+      "caption": "个人品牌顾问：通过内容营销和数字产品实现高利润变现",
+      "alt": "个人品牌顾问：通过内容营销和数字产品实现高利润变现",
       "sourceUrl": "https://www.starterstory.com/stories/dan-koe-breakdown-f2a63398-b165-478a-9fa2-ece10228dbf3",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "个人品牌顾问项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/dan-koe-breakdown-f2a63398-b165-478a-9fa2-ece10228dbf3",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/y0ma1mzlw7mvxojqnrm3htfszjry/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "个人品牌顾问项目公开展示素材",
-      "alt": "个人品牌顾问项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/dan-koe-breakdown-f2a63398-b165-478a-9fa2-ece10228dbf3",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/62ae1b2eabb24e2e",
-      "caption": "个人品牌顾问项目公开展示素材",
-      "alt": "article",
+      "caption": "个人品牌顾问：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "个人品牌顾问：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/dan-koe-breakdown-f2a63398-b165-478a-9fa2-ece10228dbf3",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ceyddfakme0xjza1v91986p5nt51",
-      "caption": "个人品牌顾问项目公开展示素材",
-      "alt": "个人品牌顾问项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/dan-koe-breakdown-f2a63398-b165-478a-9fa2-ece10228dbf3",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2199,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

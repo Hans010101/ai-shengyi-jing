@@ -122,75 +122,53 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ow70nphp63y6ao5egivionsz2asq",
-      "caption": "数据驱动营销代理公开案例主图",
-      "alt": "数据驱动营销代理案例图片",
+      "caption": "数据驱动营销代理：帮大企业优化预算，月入4万美元",
+      "alt": "数据驱动营销代理：帮大企业优化预算，月入4万美元",
       "sourceUrl": "https://www.starterstory.com/stories/regex-seo",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/381/original/open-uri20220624-12-1jhz8zk?1656086423",
-      "caption": "数据驱动营销代理项目公开展示素材",
-      "alt": "regex-seo",
+      "caption": "数据驱动营销代理：产品上线与首次发布相关原始配图",
+      "alt": "数据驱动营销代理：产品上线与首次发布相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/regex-seo",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/382/original/open-uri20220624-12-18a5jxd?1656086424",
-      "caption": "数据驱动营销代理项目公开展示素材",
-      "alt": "regex-seo",
+      "caption": "数据驱动营销代理：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "数据驱动营销代理：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/regex-seo",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/383/original/open-uri20220624-12-1bt9egn?1656086426",
-      "caption": "数据驱动营销代理项目公开展示素材",
-      "alt": "regex-seo",
+      "caption": "数据驱动营销代理：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "数据驱动营销代理：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/regex-seo",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "数据驱动营销代理项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/regex-seo",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/nowx7zr1bky2ebsw1cv3apfb119v",
-      "caption": "数据驱动营销代理项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/regex-seo",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/rdUeq09cGJ0",
-      "caption": "数据驱动营销代理项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=rdUeq09cGJ0",
+      "caption": "数据驱动营销代理资料中提及的视频：Your Job is to Make Art - Seth Godin at ConvertKit Craft & Commerce 2017",
+      "alt": "Your Job is to Make Art - Seth Godin at ConvertKit Craft & Commerce 2017",
       "sourceUrl": "https://www.starterstory.com/stories/regex-seo",
       "origin": "embeddable-video",
-      "poster": "",
-      "usage": ""
-    },
-    {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/u4ZoJKF_VuA&vl=en",
-      "caption": "数据驱动营销代理项目相关公开视频",
-      "alt": "",
-      "sourceUrl": "https://www.starterstory.com/stories/regex-seo",
-      "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/rdUeq09cGJ0/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -206,6 +184,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2232,
-    "mediaCount": 8
+    "mediaCount": 5
   }
 }

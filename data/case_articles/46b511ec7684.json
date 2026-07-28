@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/3hlmivral1trc8zkgzto8ul3e7pu",
-      "caption": "视频制作公司公开案例主图",
-      "alt": "视频制作公司案例图片",
+      "caption": "视频制作公司：通过优化流程和客户服务实现200%增长，靠项目收费赚钱",
+      "alt": "视频制作公司：通过优化流程和客户服务实现200%增长，靠项目收费赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/cff-media",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/810/original/open-uri20220727-24-41k6v4?1658937236",
-      "caption": "视频制作公司项目公开展示素材",
-      "alt": "cff-media",
+      "caption": "视频制作公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "视频制作公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/cff-media",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/811/original/open-uri20220727-24-znk12h?1658937237",
-      "caption": "视频制作公司项目公开展示素材",
-      "alt": "cff-media",
+      "caption": "视频制作公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "视频制作公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/cff-media",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/812/original/open-uri20220727-24-1moxial?1658937239",
-      "caption": "视频制作公司项目公开展示素材",
-      "alt": "cff-media",
+      "caption": "视频制作公司：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "视频制作公司：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/cff-media",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/813/original/open-uri20220727-24-aqzk5p?1658937241",
-      "caption": "视频制作公司项目公开展示素材",
-      "alt": "cff-media",
-      "sourceUrl": "https://www.starterstory.com/stories/cff-media",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/814/original/open-uri20220727-24-rkk91y?1658937242",
-      "caption": "视频制作公司项目公开展示素材",
-      "alt": "cff-media",
-      "sourceUrl": "https://www.starterstory.com/stories/cff-media",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2215,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

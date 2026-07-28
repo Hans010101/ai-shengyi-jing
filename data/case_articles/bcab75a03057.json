@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/fncz2mxcng61oihz03tzk9ke19rl",
-      "caption": "开源BI工具公开案例主图",
-      "alt": "开源BI工具案例图片",
+      "caption": "开源BI工具：通过企业版许可和付费支持盈利",
+      "alt": "开源BI工具：通过企业版许可和付费支持盈利",
       "sourceUrl": "https://www.starterstory.com/stories/from-several-failed-startups-to-building-a-960k-year-enterprise-bi-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/999/original/open-uri20220128-3-hqtzuj?1643366782",
-      "caption": "开源BI工具项目公开展示素材",
-      "alt": "from-several-failed-startups-to-building-a-960k-year-enterprise-bi-business",
+      "caption": "开源BI工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "开源BI工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/from-several-failed-startups-to-building-a-960k-year-enterprise-bi-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/000/original/open-uri20220128-3-1dari43?1643366783",
-      "caption": "开源BI工具项目公开展示素材",
-      "alt": "from-several-failed-startups-to-building-a-960k-year-enterprise-bi-business",
+      "caption": "开源BI工具：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "开源BI工具：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/from-several-failed-startups-to-building-a-960k-year-enterprise-bi-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/001/original/open-uri20220128-3-43nbfq?1643366783",
-      "caption": "开源BI工具项目公开展示素材",
-      "alt": "from-several-failed-startups-to-building-a-960k-year-enterprise-bi-business",
+      "caption": "开源BI工具：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "开源BI工具：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/from-several-failed-startups-to-building-a-960k-year-enterprise-bi-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "开源BI工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/from-several-failed-startups-to-building-a-960k-year-enterprise-bi-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2246,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

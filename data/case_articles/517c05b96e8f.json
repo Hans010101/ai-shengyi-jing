@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/g3herwr0u3lctozy1clho0ms7qe0",
-      "caption": "营销归因工具SaaS公开案例主图",
-      "alt": "营销归因工具SaaS案例图片",
+      "caption": "营销归因工具SaaS：通过订阅制向企业收费",
+      "alt": "营销归因工具SaaS：通过订阅制向企业收费",
       "sourceUrl": "https://www.starterstory.com/stories/attributer",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/098/original/open-uri20220501-16-1vpee2q?1651433372",
-      "caption": "营销归因工具SaaS项目公开展示素材",
-      "alt": "attributer",
+      "caption": "营销归因工具SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "营销归因工具SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/attributer",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/099/original/open-uri20220501-16-1j1zza6?1651433372",
-      "caption": "营销归因工具SaaS项目公开展示素材",
-      "alt": "attributer",
+      "caption": "营销归因工具SaaS：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "营销归因工具SaaS：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/attributer",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/100/original/open-uri20220501-16-1t64aci?1651433372",
-      "caption": "营销归因工具SaaS项目公开展示素材",
-      "alt": "attributer",
+      "caption": "营销归因工具SaaS：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "营销归因工具SaaS：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/attributer",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/101/original/open-uri20220501-16-1uywzrx?1651433372",
-      "caption": "营销归因工具SaaS项目公开展示素材",
-      "alt": "attributer",
-      "sourceUrl": "https://www.starterstory.com/stories/attributer",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2200,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

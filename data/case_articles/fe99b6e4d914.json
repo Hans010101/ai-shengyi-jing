@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/icehmp0rpijytvp17n97hz2v9nvn",
-      "caption": "太阳能公司公开案例主图",
-      "alt": "太阳能公司案例图片",
+      "caption": "太阳能公司：通过社交媒体营销实现60%年增长",
+      "alt": "太阳能公司：通过社交媒体营销实现60%年增长",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-social-media-and-grew-60-in-one-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/011/747/original/open-uri20210428-3-sls09h?1619611643",
-      "caption": "太阳能公司项目公开展示素材",
-      "alt": "how-we-grew-60-focusing-on-social-media-and-digital-marketing-in-one-year",
+      "caption": "太阳能公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "太阳能公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-social-media-and-grew-60-in-one-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "太阳能公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-social-media-and-grew-60-in-one-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/xmcnnqqylhtbo0mcfe37b8l0byai",
-      "caption": "太阳能公司项目公开展示素材",
-      "alt": "太阳能公司项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-social-media-and-grew-60-in-one-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/vsg1n7eqjjk2kou8yjsg1ha24rsa",
-      "caption": "太阳能公司项目公开展示素材",
-      "alt": "太阳能公司项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-social-media-and-grew-60-in-one-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2144,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

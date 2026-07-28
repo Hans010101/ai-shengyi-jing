@@ -122,65 +122,53 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/52r89tu7lygxncobuyvncgqfc2q3",
-      "caption": "内容代写公司公开案例主图",
-      "alt": "内容代写公司案例图片",
+      "caption": "内容代写公司：为电商和联盟网站撰写博客文章赚取服务费",
+      "alt": "内容代写公司：为电商和联盟网站撰写博客文章赚取服务费",
       "sourceUrl": "https://www.starterstory.com/stories/copysmiths",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/660/original/open-uri20220529-24-1pnvusd?1653833312",
-      "caption": "内容代写公司项目公开展示素材",
-      "alt": "copysmiths",
+      "caption": "内容代写公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "内容代写公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/copysmiths",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/661/original/open-uri20220529-24-1ayp3un?1653833312",
-      "caption": "内容代写公司项目公开展示素材",
-      "alt": "copysmiths",
+      "caption": "内容代写公司：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "内容代写公司：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/copysmiths",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/662/original/open-uri20220529-24-16ehkub?1653833313",
-      "caption": "内容代写公司项目公开展示素材",
-      "alt": "copysmiths",
+      "caption": "内容代写公司：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "内容代写公司：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/copysmiths",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/663/original/open-uri20220529-24-1js280s?1653833313",
-      "caption": "内容代写公司项目公开展示素材",
-      "alt": "copysmiths",
-      "sourceUrl": "https://www.starterstory.com/stories/copysmiths",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/664/original/open-uri20220529-24-1cn3gy3?1653833314",
-      "caption": "内容代写公司项目公开展示素材",
-      "alt": "copysmiths",
-      "sourceUrl": "https://www.starterstory.com/stories/copysmiths",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/8-JXOnFOXQk",
-      "caption": "内容代写公司项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=8-JXOnFOXQk",
+      "caption": "内容代写公司资料中提及的视频：Brené Brown: Why Your Critics Aren't The Ones Who Count",
+      "alt": "Brené Brown: Why Your Critics Aren't The Ones Who Count",
       "sourceUrl": "https://www.starterstory.com/stories/copysmiths",
       "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/8-JXOnFOXQk/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -196,6 +184,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2168,
-    "mediaCount": 7
+    "mediaCount": 5
   }
 }

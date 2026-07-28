@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ey33g47zt0nqtgc7gim28jhv2kon",
-      "caption": "Airtable插件公开案例主图",
-      "alt": "Airtable插件案例图片",
+      "caption": "Airtable插件：帮用户从外部导入数据，年入27万美元",
+      "alt": "Airtable插件：帮用户从外部导入数据，年入27万美元",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-built-an-airtable-plugin-will-lets-users-visualize-and-manage-their-data-better-60k-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/497/original/open-uri20220301-3-12p2uww?1646113817",
-      "caption": "Airtable插件项目公开展示素材",
-      "alt": "how-i-built-an-airtable-plugin-will-lets-users-visualize-and-manage-their-data-better-60k-year",
+      "caption": "Airtable插件：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "Airtable插件：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-built-an-airtable-plugin-will-lets-users-visualize-and-manage-their-data-better-60k-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/498/original/open-uri20220301-3-11datdy?1646113817",
-      "caption": "Airtable插件项目公开展示素材",
-      "alt": "how-i-built-an-airtable-plugin-will-lets-users-visualize-and-manage-their-data-better-60k-year",
+      "caption": "Airtable插件：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "Airtable插件：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-built-an-airtable-plugin-will-lets-users-visualize-and-manage-their-data-better-60k-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/499/original/open-uri20220301-3-faskxp?1646113818",
-      "caption": "Airtable插件项目公开展示素材",
-      "alt": "how-i-built-an-airtable-plugin-will-lets-users-visualize-and-manage-their-data-better-60k-year",
+      "caption": "Airtable插件：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "Airtable插件：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-built-an-airtable-plugin-will-lets-users-visualize-and-manage-their-data-better-60k-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/500/original/open-uri20220301-3-1h8ypa6?1646113818",
-      "caption": "Airtable插件项目公开展示素材",
-      "alt": "how-i-built-an-airtable-plugin-will-lets-users-visualize-and-manage-their-data-better-60k-year",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-built-an-airtable-plugin-will-lets-users-visualize-and-manage-their-data-better-60k-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2199,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

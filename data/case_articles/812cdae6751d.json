@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/11ji8209xdh70f17fydu85gexvek",
-      "caption": "帮作者出书和营销的B2B服务公开案例主图",
-      "alt": "帮作者出书和营销的B2B服务案例图片",
+      "caption": "帮作者出书和营销的B2B服务：年入12万美元",
+      "alt": "帮作者出书和营销的B2B服务：年入12万美元",
       "sourceUrl": "https://www.starterstory.com/stories/thriving-best-sellers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/328/original/open-uri20230507-63-ne1tpu?1683432783",
-      "caption": "帮作者出书和营销的B2B服务项目公开展示素材",
-      "alt": "thriving-best-sellers",
+      "caption": "帮作者出书和营销的B2B服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "帮作者出书和营销的B2B服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/thriving-best-sellers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "帮作者出书和营销的B2B服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/thriving-best-sellers",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/glia3fse1raug40hg8lpkg3rg09w",
-      "caption": "帮作者出书和营销的B2B服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/thriving-best-sellers",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/g46hcz8lxeqx58ka9x9pv4gahe1m",
-      "caption": "帮作者出书和营销的B2B服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/thriving-best-sellers",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2180,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

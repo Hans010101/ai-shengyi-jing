@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/qvfmgr9uzpmzinf6ypbzt1ipauk9",
-      "caption": "美发沙龙公开案例主图",
-      "alt": "美发沙龙案例图片",
+      "caption": "美发沙龙：通过产品线和会员制实现年营收600万美元",
+      "alt": "美发沙龙：通过产品线和会员制实现年营收600万美元",
       "sourceUrl": "https://www.starterstory.com/stories/urban-betty",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/308/original/open-uri20221009-24-sx1ylp?1665292871",
-      "caption": "美发沙龙项目公开展示素材",
-      "alt": "urban-betty",
+      "caption": "美发沙龙：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "美发沙龙：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/urban-betty",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/309/original/open-uri20221009-24-yvob23?1665292872",
-      "caption": "美发沙龙项目公开展示素材",
-      "alt": "urban-betty",
+      "caption": "美发沙龙：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "美发沙龙：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/urban-betty",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/310/original/open-uri20221009-24-1ryvdrg?1665292873",
-      "caption": "美发沙龙项目公开展示素材",
-      "alt": "urban-betty",
+      "caption": "美发沙龙：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "美发沙龙：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/urban-betty",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/311/original/open-uri20221009-24-o7tubt?1665292874",
-      "caption": "美发沙龙项目公开展示素材",
-      "alt": "urban-betty",
-      "sourceUrl": "https://www.starterstory.com/stories/urban-betty",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2162,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

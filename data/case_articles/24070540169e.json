@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/eeh6w7s37covk8cxc7quxtux49rw",
-      "caption": "为法律行业提供AI转录服务公开案例主图",
-      "alt": "为法律行业提供AI转录服务案例图片",
+      "caption": "为法律行业提供AI转录服务：月入500万美元",
+      "alt": "为法律行业提供AI转录服务：月入500万美元",
       "sourceUrl": "https://www.starterstory.com/stories/lextranscribe",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/388/original/open-uri20221202-12-17qdvqn?1669947207",
-      "caption": "为法律行业提供AI转录服务项目公开展示素材",
-      "alt": "lextranscribe",
+      "caption": "为法律行业提供AI转录服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为法律行业提供AI转录服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/lextranscribe",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为法律行业提供AI转录服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/lextranscribe",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/203twfnl4n6zvwfd5gv9agea6h42",
-      "caption": "为法律行业提供AI转录服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/lextranscribe",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/lip5b7qk6nuzj18br7xnbk5tlgzk",
-      "caption": "为法律行业提供AI转录服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/lextranscribe",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2185,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

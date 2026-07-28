@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/qvkz1633g44hdtdsg8aafjq0e3iw",
-      "caption": "印度创业者开发的48K美元年营收项目管理SaaS公开案例主图",
-      "alt": "印度创业者开发的48K美元年营收项目管理SaaS案例图片",
+      "caption": "印度创业者开发的48K美元年营收项目管理SaaS：工具",
+      "alt": "印度创业者开发的48K美元年营收项目管理SaaS：工具",
       "sourceUrl": "https://www.starterstory.com/stories/i-bootstrapped-my-48k-year-project-management-software-from-india",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/204/original/open-uri20211011-3-otrv3d?1633979019",
-      "caption": "印度创业者开发的48K美元年营收项目管理SaaS项目公开展示素材",
-      "alt": "i-bootstrapped-my-48k-year-project-management-software-from-india",
+      "caption": "印度创业者开发的48K美元年营收项目管理SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "印度创业者开发的48K美元年营收项目管理SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-bootstrapped-my-48k-year-project-management-software-from-india",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/205/original/open-uri20211011-3-1przkaj?1633979020",
-      "caption": "印度创业者开发的48K美元年营收项目管理SaaS项目公开展示素材",
-      "alt": "i-bootstrapped-my-48k-year-project-management-software-from-india",
+      "caption": "印度创业者开发的48K美元年营收项目管理SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "印度创业者开发的48K美元年营收项目管理SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-bootstrapped-my-48k-year-project-management-software-from-india",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "印度创业者开发的48K美元年营收项目管理SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/i-bootstrapped-my-48k-year-project-management-software-from-india",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/t5scgo4ouslubp860c10fhyxf6fv",
-      "caption": "印度创业者开发的48K美元年营收项目管理SaaS项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/i-bootstrapped-my-48k-year-project-management-software-from-india",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2223,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

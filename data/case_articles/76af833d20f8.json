@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/4i65qo0g6tqqwvifwrcc4wwi3oy0",
-      "caption": "连接作者与出版专家的在线市场公开案例主图",
-      "alt": "连接作者与出版专家的在线市场案例图片",
+      "caption": "连接作者与出版专家的在线市场：通过交易抽成和订阅赚钱",
+      "alt": "连接作者与出版专家的在线市场：通过交易抽成和订阅赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/reedsy-dfd97e72-fec3-43a7-942e-d0d954c00222",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/299/original/open-uri20230221-51-9lm0qh?1676996709",
-      "caption": "连接作者与出版专家的在线市场项目公开展示素材",
-      "alt": "reedsy-dfd97e72-fec3-43a7-942e-d0d954c00222",
+      "caption": "连接作者与出版专家的在线市场：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "连接作者与出版专家的在线市场：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/reedsy-dfd97e72-fec3-43a7-942e-d0d954c00222",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/300/original/open-uri20230221-51-5mm7tp?1676996710",
-      "caption": "连接作者与出版专家的在线市场项目公开展示素材",
-      "alt": "reedsy-dfd97e72-fec3-43a7-942e-d0d954c00222",
+      "caption": "连接作者与出版专家的在线市场：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "连接作者与出版专家的在线市场：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/reedsy-dfd97e72-fec3-43a7-942e-d0d954c00222",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/301/original/open-uri20230221-51-1u9bj9d?1676996711",
-      "caption": "连接作者与出版专家的在线市场项目公开展示素材",
-      "alt": "reedsy-dfd97e72-fec3-43a7-942e-d0d954c00222",
+      "caption": "连接作者与出版专家的在线市场：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "连接作者与出版专家的在线市场：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/reedsy-dfd97e72-fec3-43a7-942e-d0d954c00222",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/302/original/open-uri20230221-51-1dyxl3v?1676996712",
-      "caption": "连接作者与出版专家的在线市场项目公开展示素材",
-      "alt": "reedsy-dfd97e72-fec3-43a7-942e-d0d954c00222",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/DViXnxKgAmE",
+      "watchUrl": "https://www.youtube.com/watch?v=DViXnxKgAmE",
+      "caption": "连接作者与出版专家的在线市场资料中提及的视频：[2022] How To Set Up Facebook Conversion API w/ Google Tag Manager (Server-Side)",
+      "alt": "[2022] How To Set Up Facebook Conversion API w/ Google Tag Manager (Server-Side)",
       "sourceUrl": "https://www.starterstory.com/stories/reedsy-dfd97e72-fec3-43a7-942e-d0d954c00222",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/DViXnxKgAmE/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

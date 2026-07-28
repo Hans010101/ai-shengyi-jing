@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/mbxtvplwymxj7p8dlo283hsjo0dh",
-      "caption": "AI生成电商产品列表和图片的SaaS工具公开案例主图",
-      "alt": "AI生成电商产品列表和图片的SaaS工具案例图片",
+      "caption": "AI生成电商产品列表和图片的SaaS工具：按订阅收费",
+      "alt": "AI生成电商产品列表和图片的SaaS工具：按订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/ecomtent",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/307/original/open-uri20231123-48-n88shh?1700747965",
-      "caption": "AI生成电商产品列表和图片的SaaS工具项目公开展示素材",
-      "alt": "ecomtent",
+      "caption": "AI生成电商产品列表和图片的SaaS工具：产品上线与首次发布相关原始配图",
+      "alt": "AI生成电商产品列表和图片的SaaS工具：产品上线与首次发布相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/ecomtent",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/308/original/open-uri20231123-48-wjfmrq?1700747966",
-      "caption": "AI生成电商产品列表和图片的SaaS工具项目公开展示素材",
-      "alt": "ecomtent",
+      "caption": "AI生成电商产品列表和图片的SaaS工具：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "AI生成电商产品列表和图片的SaaS工具：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/ecomtent",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/309/original/open-uri20231123-48-icvq10?1700747967",
-      "caption": "AI生成电商产品列表和图片的SaaS工具项目公开展示素材",
-      "alt": "ecomtent",
+      "caption": "AI生成电商产品列表和图片的SaaS工具：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "AI生成电商产品列表和图片的SaaS工具：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/ecomtent",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI生成电商产品列表和图片的SaaS工具项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/tj_squjA6Ns",
+      "watchUrl": "https://www.youtube.com/watch?v=tj_squjA6Ns",
+      "caption": "AI生成电商产品列表和图片的SaaS工具资料中提及的视频：LIVE DEMO: watch Max use Ecomtent to create an entire Amazon listing",
+      "alt": "LIVE DEMO: watch Max use Ecomtent to create an entire Amazon listing",
       "sourceUrl": "https://www.starterstory.com/stories/ecomtent",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/tj_squjA6Ns/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

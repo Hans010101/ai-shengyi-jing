@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/gqcxyan7lhyws3gbo5gy7l1mgdq5",
-      "caption": "艺术家公开案例主图",
-      "alt": "艺术家案例图片",
+      "caption": "艺术家：通过VIP收藏家社群和限量版画实现月入$7.5K",
+      "alt": "艺术家：通过VIP收藏家社群和限量版画实现月入$7.5K",
       "sourceUrl": "https://www.starterstory.com/stories/suzann-k-fine-art",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "艺术家项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/suzann-k-fine-art",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/x0fswweh25a6rgcsp2c2ytil8usb",
-      "caption": "艺术家项目公开展示素材",
-      "alt": "艺术家项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/suzann-k-fine-art",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/jji5jq91uvt66s9f9mptug8s3xee",
-      "caption": "艺术家项目公开展示素材",
-      "alt": "艺术家项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/suzann-k-fine-art",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/w56ij2mccryv8dhwwzja3j65yv5c",
-      "caption": "艺术家项目公开展示素材",
-      "alt": "艺术家项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/suzann-k-fine-art",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2243,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

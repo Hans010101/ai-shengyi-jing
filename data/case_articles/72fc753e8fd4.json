@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/sybi41sbp5v1tc8r9ejnz5wj8e8l",
-      "caption": "海外内容/媒体项目公开案例主图",
-      "alt": "海外内容/媒体项目案例图片",
+      "caption": "海外内容/媒体项目：通过广告和联盟营销盈利的心理健康内容博客",
+      "alt": "海外内容/媒体项目：通过广告和联盟营销盈利的心理健康内容博客",
       "sourceUrl": "https://www.starterstory.com/stories/tracking-happiness",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/361/original/open-uri20230227-63-9k4b66?1677503617",
-      "caption": "海外内容/媒体项目项目公开展示素材",
-      "alt": "tracking-happiness",
+      "caption": "海外内容/媒体项目：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "海外内容/媒体项目：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/tracking-happiness",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/362/original/open-uri20230227-63-1n1kqmy?1677503618",
-      "caption": "海外内容/媒体项目项目公开展示素材",
-      "alt": "tracking-happiness",
+      "caption": "海外内容/媒体项目：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "海外内容/媒体项目：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/tracking-happiness",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "海外内容/媒体项目项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/tracking-happiness",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/0beu1rpaj2ah6dpbyhnnpi3t6nk7",
-      "caption": "海外内容/媒体项目项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/tracking-happiness",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2218,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

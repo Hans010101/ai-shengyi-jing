@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/bqbsgrtkz6b5e94mn90bbjayl86l",
-      "caption": "SaaS评论聚合Slack机器人公开案例主图",
-      "alt": "SaaS评论聚合Slack机器人案例图片",
+      "caption": "SaaS评论聚合Slack机器人：通过订阅制赚钱",
+      "alt": "SaaS评论聚合Slack机器人：通过订阅制赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/reviewflowz",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/481/original/open-uri20221208-12-gg4p51?1670472902",
-      "caption": "SaaS评论聚合Slack机器人项目公开展示素材",
-      "alt": "reviewflowz",
+      "caption": "SaaS评论聚合Slack机器人：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "SaaS评论聚合Slack机器人：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/reviewflowz",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/482/original/open-uri20221208-12-qhbp0a?1670472903",
-      "caption": "SaaS评论聚合Slack机器人项目公开展示素材",
-      "alt": "reviewflowz",
+      "caption": "SaaS评论聚合Slack机器人：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "SaaS评论聚合Slack机器人：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/reviewflowz",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/483/original/open-uri20221208-12-1og6lsx?1670472904",
-      "caption": "SaaS评论聚合Slack机器人项目公开展示素材",
-      "alt": "reviewflowz",
+      "caption": "SaaS评论聚合Slack机器人：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "SaaS评论聚合Slack机器人：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/reviewflowz",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/484/original/open-uri20221208-12-11u7eym?1670472905",
-      "caption": "SaaS评论聚合Slack机器人项目公开展示素材",
-      "alt": "reviewflowz",
-      "sourceUrl": "https://www.starterstory.com/stories/reviewflowz",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2337,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

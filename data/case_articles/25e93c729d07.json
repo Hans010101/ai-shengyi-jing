@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/rut7t8i7f6w5fx0x3rdsijfprbd4",
-      "caption": "提供网页数据抓取API公开案例主图",
-      "alt": "提供网页数据抓取API案例图片",
+      "caption": "提供网页数据抓取API：按请求量收费",
+      "alt": "提供网页数据抓取API：按请求量收费",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-bootstrapped-a-264k-year-data-scrapping-api-from-india",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/931/original/open-uri20220316-3-ee0c8s?1647447115",
-      "caption": "提供网页数据抓取API项目公开展示素材",
-      "alt": "how-i-bootstrapped-a-264k-year-data-scrapping-api-from-india",
+      "caption": "提供网页数据抓取API：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "提供网页数据抓取API：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-bootstrapped-a-264k-year-data-scrapping-api-from-india",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/932/original/open-uri20220316-3-tc0aik?1647447116",
-      "caption": "提供网页数据抓取API项目公开展示素材",
-      "alt": "how-i-bootstrapped-a-264k-year-data-scrapping-api-from-india",
+      "caption": "提供网页数据抓取API：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "提供网页数据抓取API：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-bootstrapped-a-264k-year-data-scrapping-api-from-india",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/933/original/open-uri20220316-3-19zdsse?1647447116",
-      "caption": "提供网页数据抓取API项目公开展示素材",
-      "alt": "how-i-bootstrapped-a-264k-year-data-scrapping-api-from-india",
+      "caption": "提供网页数据抓取API：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "提供网页数据抓取API：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-bootstrapped-a-264k-year-data-scrapping-api-from-india",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/934/original/open-uri20220316-3-162ft5?1647447116",
-      "caption": "提供网页数据抓取API项目公开展示素材",
-      "alt": "how-i-bootstrapped-a-264k-year-data-scrapping-api-from-india",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/btwC4zmewss&list=PLvJ_dXFSpd2vk6rQ4Rta5MhDIRmakFbp6",
+      "watchUrl": "https://www.youtube.com/watch?v=btwC4zmewss&list=PLvJ_dXFSpd2vk6rQ4Rta5MhDIRmakFbp6",
+      "caption": "提供网页数据抓取API资料中提及的视频：SEO Basics: What is SEO and Why is it Important? [SEO Course by Ahrefs]",
+      "alt": "SEO Basics: What is SEO and Why is it Important? [SEO Course by Ahrefs]",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-bootstrapped-a-264k-year-data-scrapping-api-from-india",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/btwC4zmewss/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

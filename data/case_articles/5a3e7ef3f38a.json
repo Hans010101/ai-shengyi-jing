@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/n1yhwzkyk3nft1ghbk8bti57fb2o",
-      "caption": "个人创意工作室公开案例主图",
-      "alt": "个人创意工作室案例图片",
+      "caption": "个人创意工作室：提供品牌设计、动画等服务，月入8K",
+      "alt": "个人创意工作室：提供品牌设计、动画等服务，月入8K",
       "sourceUrl": "https://www.starterstory.com/stories/love-logic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/880/original/open-uri20230409-63-463o1z?1681073996",
-      "caption": "个人创意工作室项目公开展示素材",
-      "alt": "love-logic",
+      "caption": "个人创意工作室：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "个人创意工作室：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/love-logic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/881/original/open-uri20230409-63-dhk8uu?1681073996",
-      "caption": "个人创意工作室项目公开展示素材",
-      "alt": "love-logic",
+      "caption": "个人创意工作室：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "个人创意工作室：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/love-logic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/882/original/open-uri20230409-63-1rqzngk?1681073997",
-      "caption": "个人创意工作室项目公开展示素材",
-      "alt": "love-logic",
+      "caption": "个人创意工作室：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "个人创意工作室：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/love-logic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/883/original/open-uri20230409-63-1gfrg2f?1681073999",
-      "caption": "个人创意工作室项目公开展示素材",
-      "alt": "love-logic",
-      "sourceUrl": "https://www.starterstory.com/stories/love-logic",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2174,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

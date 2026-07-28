@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/nlm8b26pumanwln5lrsgigr1hxaj",
-      "caption": "创办公关公司公开案例主图",
-      "alt": "创办公关公司案例图片",
+      "caption": "创办公关公司：通过为企业提供媒体公关服务年入60万美元",
+      "alt": "创办公关公司：通过为企业提供媒体公关服务年入60万美元",
       "sourceUrl": "https://www.starterstory.com/stories/i-decided-to-be-my-own-boss-and-started-a-600k-year-pr-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/977/original/open-uri20220128-3-8j2s9o?1643352654",
-      "caption": "创办公关公司项目公开展示素材",
-      "alt": "i-decided-to-be-my-own-boss-and-started-a-600k-year-marketing-agency",
+      "caption": "创办公关公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "创办公关公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-decided-to-be-my-own-boss-and-started-a-600k-year-pr-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/978/original/open-uri20220128-3-t8t31q?1643352654",
-      "caption": "创办公关公司项目公开展示素材",
-      "alt": "i-decided-to-be-my-own-boss-and-started-a-600k-year-marketing-agency",
+      "caption": "创办公关公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "创办公关公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-decided-to-be-my-own-boss-and-started-a-600k-year-pr-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/979/original/open-uri20220128-3-uhnz3m?1643352655",
-      "caption": "创办公关公司项目公开展示素材",
-      "alt": "i-decided-to-be-my-own-boss-and-started-a-600k-year-marketing-agency",
+      "caption": "创办公关公司：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "创办公关公司：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-decided-to-be-my-own-boss-and-started-a-600k-year-pr-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "创办公关公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/i-decided-to-be-my-own-boss-and-started-a-600k-year-pr-agency",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "创办公关公司项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/i-decided-to-be-my-own-boss-and-started-a-600k-year-pr-agency",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2232,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/bqd0i72leecu2jzks2oetdc2555r",
-      "caption": "为使命驱动型食品企业提供咨询公开案例主图",
-      "alt": "为使命驱动型食品企业提供咨询案例图片",
+      "caption": "为使命驱动型食品企业提供咨询：月入8千美元",
+      "alt": "为使命驱动型食品企业提供咨询：月入8千美元",
       "sourceUrl": "https://www.starterstory.com/stories/napkin-llc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/222/original/open-uri20230502-51-refiwy?1683010985",
-      "caption": "为使命驱动型食品企业提供咨询项目公开展示素材",
-      "alt": "napkin-llc",
+      "caption": "为使命驱动型食品企业提供咨询：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为使命驱动型食品企业提供咨询：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/napkin-llc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/223/original/open-uri20230502-51-23dtra?1683010987",
-      "caption": "为使命驱动型食品企业提供咨询项目公开展示素材",
-      "alt": "napkin-llc",
+      "caption": "为使命驱动型食品企业提供咨询：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "为使命驱动型食品企业提供咨询：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/napkin-llc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/224/original/open-uri20230502-51-w8xpbt?1683010987",
-      "caption": "为使命驱动型食品企业提供咨询项目公开展示素材",
-      "alt": "napkin-llc",
+      "caption": "为使命驱动型食品企业提供咨询：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "为使命驱动型食品企业提供咨询：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/napkin-llc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/225/original/open-uri20230502-51-ufejm8?1683010989",
-      "caption": "为使命驱动型食品企业提供咨询项目公开展示素材",
-      "alt": "napkin-llc",
-      "sourceUrl": "https://www.starterstory.com/stories/napkin-llc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2120,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

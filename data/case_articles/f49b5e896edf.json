@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/yiz6bjgsqzrva57h3yfblhzmwaun",
-      "caption": "AI笔记应用公开案例主图",
-      "alt": "AI笔记应用案例图片",
+      "caption": "AI笔记应用：通过订阅制向用户收费",
+      "alt": "AI笔记应用：通过订阅制向用户收费",
       "sourceUrl": "https://www.starterstory.com/stories/reflect-80abf444-ccfc-414a-99d1-4eb23d28d181",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/088/original/open-uri20230719-60-gb64kk?1689764231",
-      "caption": "AI笔记应用项目公开展示素材",
-      "alt": "reflect-80abf444-ccfc-414a-99d1-4eb23d28d181",
+      "caption": "AI笔记应用：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI笔记应用：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/reflect-80abf444-ccfc-414a-99d1-4eb23d28d181",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI笔记应用项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/reflect-80abf444-ccfc-414a-99d1-4eb23d28d181",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/gxtudral3fdp4o2ij875nthgyrgm",
-      "caption": "AI笔记应用项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/reflect-80abf444-ccfc-414a-99d1-4eb23d28d181",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/0gmsnr5l6mmwzauqxp3onbt3vsak",
-      "caption": "AI笔记应用项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/reflect-80abf444-ccfc-414a-99d1-4eb23d28d181",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2233,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

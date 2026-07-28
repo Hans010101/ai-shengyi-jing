@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/3uvokpz6bdr6m6ous26gjywptf3p",
-      "caption": "专注力提升应用公开案例主图",
-      "alt": "专注力提升应用案例图片",
+      "caption": "专注力提升应用：通过订阅制赚钱",
+      "alt": "专注力提升应用：通过订阅制赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-a-timer-app-that-generates-66k-year-in-profit",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/062/original/open-uri20210811-3-ip3kmh?1628667766",
-      "caption": "专注力提升应用项目公开展示素材",
-      "alt": "i-built-a-timer-app-that-generates-66k-year-in-profit",
+      "caption": "专注力提升应用：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "专注力提升应用：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-a-timer-app-that-generates-66k-year-in-profit",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "专注力提升应用项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/i-built-a-timer-app-that-generates-66k-year-in-profit",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/e1zyhnzrw6gnm02pgxw4alp1ev4q",
-      "caption": "专注力提升应用项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/i-built-a-timer-app-that-generates-66k-year-in-profit",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/z71581rbwm4h4bpnycq79cre2rgl",
-      "caption": "专注力提升应用项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/i-built-a-timer-app-that-generates-66k-year-in-profit",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2292,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

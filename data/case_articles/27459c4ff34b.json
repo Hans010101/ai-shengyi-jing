@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/25w3gzbi48i0sufaw9bd9262759r",
-      "caption": "无限次修改的品牌设计订阅服务公开案例主图",
-      "alt": "无限次修改的品牌设计订阅服务案例图片",
+      "caption": "无限次修改的品牌设计订阅服务：月费制赚取固定收入",
+      "alt": "无限次修改的品牌设计订阅服务：月费制赚取固定收入",
       "sourceUrl": "https://www.starterstory.com/stories/designproof",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/230/original/open-uri20230502-51-1rq18zf?1683029757",
-      "caption": "无限次修改的品牌设计订阅服务项目公开展示素材",
-      "alt": "designproof",
+      "caption": "无限次修改的品牌设计订阅服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "无限次修改的品牌设计订阅服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/designproof",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/231/original/open-uri20230502-51-1n3scwh?1683029759",
-      "caption": "无限次修改的品牌设计订阅服务项目公开展示素材",
-      "alt": "designproof",
+      "caption": "无限次修改的品牌设计订阅服务：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "无限次修改的品牌设计订阅服务：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/designproof",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/232/original/open-uri20230502-51-1dtro4i?1683029761",
-      "caption": "无限次修改的品牌设计订阅服务项目公开展示素材",
-      "alt": "designproof",
+      "caption": "无限次修改的品牌设计订阅服务：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "无限次修改的品牌设计订阅服务：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/designproof",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/233/original/open-uri20230502-51-16bxrsa?1683029763",
-      "caption": "无限次修改的品牌设计订阅服务项目公开展示素材",
-      "alt": "designproof",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/X3F3UfwioI4",
+      "watchUrl": "https://www.youtube.com/watch?v=X3F3UfwioI4",
+      "caption": "无限次修改的品牌设计订阅服务资料中提及的视频：a:musé | aesthetic candles",
+      "alt": "a:musé | aesthetic candles",
       "sourceUrl": "https://www.starterstory.com/stories/designproof",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/X3F3UfwioI4/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

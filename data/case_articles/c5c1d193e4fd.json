@@ -122,47 +122,46 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/wlielxesqzgzeielyjx90kjavouo",
-      "caption": "AI客服SaaS公开案例主图",
-      "alt": "AI客服SaaS案例图片",
+      "caption": "AI客服SaaS：帮企业提升客服效率，按月收费",
+      "alt": "AI客服SaaS：帮企业提升客服效率，按月收费",
       "sourceUrl": "https://www.starterstory.com/stories/we-build-intelligent-virtual-assistants-for-businesses-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI客服SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/we-build-intelligent-virtual-assistants-for-businesses-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/thg2gqfnm3xnmq9wo2cpo48gxmzs/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "AI客服SaaS项目公开展示素材",
-      "alt": "AI客服SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/we-build-intelligent-virtual-assistants-for-businesses-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/8b366e0b93a48e7a",
-      "caption": "AI客服SaaS项目公开展示素材",
+      "caption": "AI客服SaaS：创始人、核心产品与品牌起点相关原始配图",
       "alt": "HaptikAI Homepage",
       "sourceUrl": "https://www.starterstory.com/stories/we-build-intelligent-virtual-assistants-for-businesses-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/gi1xpt558llae7q228oihj2wpdv6",
-      "caption": "AI客服SaaS项目公开展示素材",
-      "alt": "tool-icon",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/1CEE7bR_yWM",
+      "watchUrl": "https://www.youtube.com/watch?v=1CEE7bR_yWM",
+      "caption": "AI客服SaaS资料中提及的视频：Haptik’s AI Journey | Reliance a Great Investor?",
+      "alt": "Haptik’s AI Journey | Reliance a Great Investor?",
       "sourceUrl": "https://www.starterstory.com/stories/we-build-intelligent-virtual-assistants-for-businesses-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/1CEE7bR_yWM/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/TJhSv24JLOo",
+      "watchUrl": "https://www.youtube.com/watch?v=TJhSv24JLOo",
+      "caption": "AI客服SaaS资料中提及的视频：Guide to Becoming an AI Startup Founder with Aakrit Vaish - CEO, Haptik",
+      "alt": "Guide to Becoming an AI Startup Founder with Aakrit Vaish - CEO, Haptik",
+      "sourceUrl": "https://www.starterstory.com/stories/we-build-intelligent-virtual-assistants-for-businesses-breakdown",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/TJhSv24JLOo/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +176,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2214,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

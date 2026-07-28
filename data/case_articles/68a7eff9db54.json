@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/4k9ayaef2rv08kd6nerzd2ei76bv",
-      "caption": "为X创作者将推文转为视频的SaaS工具公开案例主图",
-      "alt": "为X创作者将推文转为视频的SaaS工具案例图片",
+      "caption": "为X创作者将推文转为视频的SaaS工具：按订阅收费",
+      "alt": "为X创作者将推文转为视频的SaaS工具：按订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/repurposepie",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/866/original/open-uri20240126-53-9ep6tw?1706251419",
-      "caption": "为X创作者将推文转为视频的SaaS工具项目公开展示素材",
-      "alt": "repurposepie",
+      "caption": "为X创作者将推文转为视频的SaaS工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为X创作者将推文转为视频的SaaS工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/repurposepie",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/867/original/open-uri20240126-53-r1j6rv?1706251420",
-      "caption": "为X创作者将推文转为视频的SaaS工具项目公开展示素材",
-      "alt": "repurposepie",
+      "caption": "为X创作者将推文转为视频的SaaS工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "为X创作者将推文转为视频的SaaS工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/repurposepie",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/868/original/open-uri20240126-53-1h4k0nk?1706251421",
-      "caption": "为X创作者将推文转为视频的SaaS工具项目公开展示素材",
-      "alt": "repurposepie",
+      "caption": "为X创作者将推文转为视频的SaaS工具：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "为X创作者将推文转为视频的SaaS工具：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/repurposepie",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/869/original/open-uri20240126-53-13lcdtm?1706251422",
-      "caption": "为X创作者将推文转为视频的SaaS工具项目公开展示素材",
-      "alt": "repurposepie",
-      "sourceUrl": "https://www.starterstory.com/stories/repurposepie",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2239,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

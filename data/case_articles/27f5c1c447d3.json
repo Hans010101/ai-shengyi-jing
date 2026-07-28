@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/i3tap50vy6x1isoo20b8ppiyyq0l",
-      "caption": "定制LED霓虹灯公开案例主图",
-      "alt": "定制LED霓虹灯案例图片",
+      "caption": "定制LED霓虹灯：通过在线设计平台全球销售",
+      "alt": "定制LED霓虹灯：通过在线设计平台全球销售",
       "sourceUrl": "https://www.starterstory.com/stories/custom-neon",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/028/original/open-uri20220320-3-y97w4b?1647755972",
-      "caption": "定制LED霓虹灯项目公开展示素材",
-      "alt": "custom-neon",
+      "caption": "定制LED霓虹灯：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "定制LED霓虹灯：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/custom-neon",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/029/original/open-uri20220320-3-12gr3it?1647755974",
-      "caption": "定制LED霓虹灯项目公开展示素材",
-      "alt": "custom-neon",
+      "caption": "定制LED霓虹灯：当前经营状态与下一步规划相关原始配图（第2张）",
+      "alt": "定制LED霓虹灯：当前经营状态与下一步规划相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/custom-neon",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/030/original/open-uri20220320-3-sxb45k?1647755976",
-      "caption": "定制LED霓虹灯项目公开展示素材",
-      "alt": "custom-neon",
+      "caption": "定制LED霓虹灯：当前经营状态与下一步规划相关原始配图（第3张）",
+      "alt": "定制LED霓虹灯：当前经营状态与下一步规划相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/custom-neon",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "定制LED霓虹灯项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/custom-neon",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2115,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

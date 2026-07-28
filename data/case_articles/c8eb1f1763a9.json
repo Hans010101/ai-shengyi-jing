@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/lgxsk3yopqlyv8pdfe7r7raszkd9",
-      "caption": "为中小企业提供透明、低成本的支付处理服务公开案例主图",
-      "alt": "为中小企业提供透明、低成本的支付处理服务案例图片",
+      "caption": "为中小企业提供透明、低成本的支付处理服务：靠交易手续费盈利",
+      "alt": "为中小企业提供透明、低成本的支付处理服务：靠交易手续费盈利",
       "sourceUrl": "https://www.starterstory.com/stories/vizypay",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/347/original/open-uri20240914-48-1usadsy?1726318572",
-      "caption": "为中小企业提供透明、低成本的支付处理服务项目公开展示素材",
-      "alt": "vizypay",
+      "caption": "为中小企业提供透明、低成本的支付处理服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为中小企业提供透明、低成本的支付处理服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/vizypay",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/348/original/open-uri20240914-48-13kzuuq?1726318573",
-      "caption": "为中小企业提供透明、低成本的支付处理服务项目公开展示素材",
-      "alt": "vizypay",
+      "caption": "为中小企业提供透明、低成本的支付处理服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "为中小企业提供透明、低成本的支付处理服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/vizypay",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为中小企业提供透明、低成本的支付处理服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/vizypay",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "为中小企业提供透明、低成本的支付处理服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/vizypay",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2218,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

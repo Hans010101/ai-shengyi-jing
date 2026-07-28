@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/3664zs3hlwoabit6j2e21xpu3gn7",
-      "caption": "美发沙龙公开案例主图",
-      "alt": "美发沙龙案例图片",
+      "caption": "美发沙龙：通过预约制、会员体系和线上营销实现高营收",
+      "alt": "美发沙龙：通过预约制、会员体系和线上营销实现高营收",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-reopened-our-salons-after-2-months-of-lockdown-and-hit-record-sales",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/007/975/original/open-uri20200924-4-1ptx2r8?1600934989",
-      "caption": "美发沙龙项目公开展示素材",
-      "alt": "how-our-sales-boosted-by-reopening-after-2-months-lockdown",
+      "caption": "美发沙龙：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "美发沙龙：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-reopened-our-salons-after-2-months-of-lockdown-and-hit-record-sales",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/007/976/original/open-uri20200924-4-b44t16?1600934990",
-      "caption": "美发沙龙项目公开展示素材",
-      "alt": "how-our-sales-boosted-by-reopening-after-2-months-lockdown",
+      "caption": "美发沙龙：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "美发沙龙：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-reopened-our-salons-after-2-months-of-lockdown-and-hit-record-sales",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/007/977/original/open-uri20200924-4-t8bgxb?1600934990",
-      "caption": "美发沙龙项目公开展示素材",
-      "alt": "how-our-sales-boosted-by-reopening-after-2-months-lockdown",
+      "caption": "美发沙龙：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "美发沙龙：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-reopened-our-salons-after-2-months-of-lockdown-and-hit-record-sales",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/007/978/original/open-uri20200924-4-3uf1ra?1600934990",
-      "caption": "美发沙龙项目公开展示素材",
-      "alt": "how-our-sales-boosted-by-reopening-after-2-months-lockdown",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-reopened-our-salons-after-2-months-of-lockdown-and-hit-record-sales",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2193,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

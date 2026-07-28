@@ -122,47 +122,34 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/6c02jpuibnl98thjsluqemprwq5a",
-      "caption": "极简单页网站生成器公开案例主图",
-      "alt": "极简单页网站生成器案例图片",
+      "caption": "极简单页网站生成器：通过订阅制和模板销售盈利",
+      "alt": "极简单页网站生成器：通过订阅制和模板销售盈利",
       "sourceUrl": "https://www.starterstory.com/stories/carrd-breakdown-287e625a-9fa9-452a-9f3c-b443c111a1f6",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "极简单页网站生成器项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/carrd-breakdown-287e625a-9fa9-452a-9f3c-b443c111a1f6",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/883g5k9wq9jrpqwagd7zs7abqm4h/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "极简单页网站生成器项目公开展示素材",
-      "alt": "极简单页网站生成器项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/carrd-breakdown-287e625a-9fa9-452a-9f3c-b443c111a1f6",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/e1a307e984b78b3f",
-      "caption": "极简单页网站生成器项目公开展示素材",
-      "alt": "article",
+      "caption": "极简单页网站生成器：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "极简单页网站生成器：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/carrd-breakdown-287e625a-9fa9-452a-9f3c-b443c111a1f6",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c4outbktofju1avgddqp4c3ok0d8",
-      "caption": "极简单页网站生成器项目公开展示素材",
-      "alt": "极简单页网站生成器项目展示图",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/Gg__pU3ufHU",
+      "watchUrl": "https://www.youtube.com/watch?v=Gg__pU3ufHU",
+      "caption": "极简单页网站生成器资料中提及的视频：Recreating the famous Buffer MVP website without code (using Carrd.co)",
+      "alt": "Recreating the famous Buffer MVP website without code (using Carrd.co)",
       "sourceUrl": "https://www.starterstory.com/stories/carrd-breakdown-287e625a-9fa9-452a-9f3c-b443c111a1f6",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/Gg__pU3ufHU/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +164,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2217,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

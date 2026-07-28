@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/acklv0dk7vknctyqlf4et1hnvsxw",
-      "caption": "定制化肖像画电商公开案例主图",
-      "alt": "定制化肖像画电商案例图片",
+      "caption": "定制化肖像画电商：通过社交媒体内容营销获客并转化",
+      "alt": "定制化肖像画电商：通过社交媒体内容营销获客并转化",
       "sourceUrl": "https://www.starterstory.com/stories/portraitflip",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/122/original/open-uri20220323-3-1rpj8gg?1648034719",
-      "caption": "定制化肖像画电商项目公开展示素材",
-      "alt": "portraitflip",
+      "caption": "定制化肖像画电商：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "定制化肖像画电商：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/portraitflip",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "定制化肖像画电商项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/portraitflip",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/x0fswweh25a6rgcsp2c2ytil8usb",
-      "caption": "定制化肖像画电商项目公开展示素材",
-      "alt": "定制化肖像画电商项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/portraitflip",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/jji5jq91uvt66s9f9mptug8s3xee",
-      "caption": "定制化肖像画电商项目公开展示素材",
-      "alt": "定制化肖像画电商项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/portraitflip",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2196,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/4pznve7doxcama7ewy90ph62p0yb",
-      "caption": "自酿啤酒品牌公开案例主图",
-      "alt": "自酿啤酒品牌案例图片",
+      "caption": "自酿啤酒品牌：通过品鉴室直销盈利",
+      "alt": "自酿啤酒品牌：通过品鉴室直销盈利",
       "sourceUrl": "https://www.starterstory.com/stories/how-this-entrepreneur-started-a-2m-craft-brewery",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/107/original/open-uri20190218-4-1j37585?1550488726",
-      "caption": "自酿啤酒品牌项目公开展示素材",
-      "alt": "how-this-entrepreneur-started-a-2m-craft-brewery",
+      "caption": "自酿啤酒品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "自酿啤酒品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-this-entrepreneur-started-a-2m-craft-brewery",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/108/original/open-uri20190218-4-cys35l?1550488727",
-      "caption": "自酿啤酒品牌项目公开展示素材",
-      "alt": "how-this-entrepreneur-started-a-2m-craft-brewery",
+      "caption": "自酿啤酒品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "自酿啤酒品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-this-entrepreneur-started-a-2m-craft-brewery",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/109/original/open-uri20190218-4-1rgr2z9?1550488728",
-      "caption": "自酿啤酒品牌项目公开展示素材",
-      "alt": "how-this-entrepreneur-started-a-2m-craft-brewery",
+      "caption": "自酿啤酒品牌：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "自酿啤酒品牌：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-this-entrepreneur-started-a-2m-craft-brewery",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/110/original/open-uri20190218-4-6jyu53?1550488728",
-      "caption": "自酿啤酒品牌项目公开展示素材",
-      "alt": "how-this-entrepreneur-started-a-2m-craft-brewery",
-      "sourceUrl": "https://www.starterstory.com/stories/how-this-entrepreneur-started-a-2m-craft-brewery",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/111/original/open-uri20190218-4-1lxi3rv?1550488728",
-      "caption": "自酿啤酒品牌项目公开展示素材",
-      "alt": "how-this-entrepreneur-started-a-2m-craft-brewery",
-      "sourceUrl": "https://www.starterstory.com/stories/how-this-entrepreneur-started-a-2m-craft-brewery",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2102,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

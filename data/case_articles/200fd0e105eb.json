@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/b32skaexgqags9ckv44ugr7a2mqw",
-      "caption": "AI商业智能SaaS公开案例主图",
-      "alt": "AI商业智能SaaS案例图片",
+      "caption": "AI商业智能SaaS：按月订阅盈利",
+      "alt": "AI商业智能SaaS：按月订阅盈利",
       "sourceUrl": "https://www.starterstory.com/stories/decidable",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/862/original/open-uri20220606-23-grnn31?1654515974",
-      "caption": "AI商业智能SaaS项目公开展示素材",
-      "alt": "decidable",
+      "caption": "AI商业智能SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI商业智能SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/decidable",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/863/original/open-uri20220606-23-1po3lb3?1654515975",
-      "caption": "AI商业智能SaaS项目公开展示素材",
-      "alt": "decidable",
+      "caption": "AI商业智能SaaS：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "AI商业智能SaaS：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/decidable",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/864/original/open-uri20220606-23-1axiqp?1654515976",
-      "caption": "AI商业智能SaaS项目公开展示素材",
-      "alt": "decidable",
+      "caption": "AI商业智能SaaS：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "AI商业智能SaaS：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/decidable",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/865/original/open-uri20220606-23-1mj3rhm?1654515976",
-      "caption": "AI商业智能SaaS项目公开展示素材",
-      "alt": "decidable",
-      "sourceUrl": "https://www.starterstory.com/stories/decidable",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2227,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

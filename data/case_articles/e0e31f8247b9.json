@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/854vav760j4oirt35csa54845kwq",
-      "caption": "将播客等长音频转为文章公开案例主图",
-      "alt": "将播客等长音频转为文章案例图片",
+      "caption": "将播客等长音频转为文章：为B2B企业提供内容二次创作服务",
+      "alt": "将播客等长音频转为文章：为B2B企业提供内容二次创作服务",
       "sourceUrl": "https://www.starterstory.com/stories/podreacher",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/432/original/open-uri20220628-24-j2z8qm?1656438150",
-      "caption": "将播客等长音频转为文章项目公开展示素材",
-      "alt": "podreacher",
+      "caption": "将播客等长音频转为文章：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "将播客等长音频转为文章：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/podreacher",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/433/original/open-uri20220628-24-1f2g0c8?1656438150",
-      "caption": "将播客等长音频转为文章项目公开展示素材",
-      "alt": "podreacher",
+      "caption": "将播客等长音频转为文章：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "将播客等长音频转为文章：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/podreacher",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/434/original/open-uri20220628-24-1rnvgr2?1656438151",
-      "caption": "将播客等长音频转为文章项目公开展示素材",
-      "alt": "podreacher",
+      "caption": "将播客等长音频转为文章：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "将播客等长音频转为文章：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/podreacher",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/435/original/open-uri20220628-24-1so47ac?1656438152",
-      "caption": "将播客等长音频转为文章项目公开展示素材",
-      "alt": "podreacher",
-      "sourceUrl": "https://www.starterstory.com/stories/podreacher",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2227,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

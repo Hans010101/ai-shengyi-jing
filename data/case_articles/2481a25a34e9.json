@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/jh8ihluaqjgj1ybs6aulyokjw94j",
-      "caption": "UIUX设计与增长营销代理公开案例主图",
-      "alt": "UIUX设计与增长营销代理案例图片",
+      "caption": "UIUX设计与增长营销代理：通过项目收费盈利",
+      "alt": "UIUX设计与增长营销代理：通过项目收费盈利",
       "sourceUrl": "https://www.starterstory.com/stories/tenet",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/693/original/open-uri20241111-48-nm7pox?1731307556",
-      "caption": "UIUX设计与增长营销代理项目公开展示素材",
-      "alt": "tenet",
+      "caption": "UIUX设计与增长营销代理：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "UIUX设计与增长营销代理：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/tenet",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "UIUX设计与增长营销代理项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/tenet",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/niqjqd72qnp3lxlidl337e878u5m",
-      "caption": "UIUX设计与增长营销代理项目公开展示素材",
-      "alt": "UIUX设计与增长营销代理项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/tenet",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/qea9srfiye7rwlrqdqdel5km8x3i",
-      "caption": "UIUX设计与增长营销代理项目公开展示素材",
-      "alt": "UIUX设计与增长营销代理项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/tenet",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2236,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

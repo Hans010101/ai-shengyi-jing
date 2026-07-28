@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/5zzrdi8n7h9iq4vpc4by4zord6y7",
-      "caption": "心理健康播客网络公开案例主图",
-      "alt": "心理健康播客网络案例图片",
+      "caption": "心理健康播客网络：通过广告和赞助赚钱",
+      "alt": "心理健康播客网络：通过广告和赞助赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/sober-powered-media",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/698/original/open-uri20240103-48-1ibim0w?1704276100",
-      "caption": "心理健康播客网络项目公开展示素材",
-      "alt": "sober-powered-media",
+      "caption": "心理健康播客网络：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "心理健康播客网络：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/sober-powered-media",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/699/original/open-uri20240103-48-it8qnp?1704276101",
-      "caption": "心理健康播客网络项目公开展示素材",
-      "alt": "sober-powered-media",
+      "caption": "心理健康播客网络：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "心理健康播客网络：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/sober-powered-media",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/700/original/open-uri20240103-48-yrb359?1704276101",
-      "caption": "心理健康播客网络项目公开展示素材",
-      "alt": "sober-powered-media",
+      "caption": "心理健康播客网络：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "心理健康播客网络：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/sober-powered-media",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/701/original/open-uri20240103-48-nyvbxa?1704276102",
-      "caption": "心理健康播客网络项目公开展示素材",
-      "alt": "sober-powered-media",
-      "sourceUrl": "https://www.starterstory.com/stories/sober-powered-media",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2154,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

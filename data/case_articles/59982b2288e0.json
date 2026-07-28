@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/16lan4ibufzfbtyowpirdxbqlwjd",
-      "caption": "为作者提供书籍出版全流程服务公开案例主图",
-      "alt": "为作者提供书籍出版全流程服务案例图片",
+      "caption": "为作者提供书籍出版全流程服务：通过订阅和项目收费盈利",
+      "alt": "为作者提供书籍出版全流程服务：通过订阅和项目收费盈利",
       "sourceUrl": "https://www.starterstory.com/stories/publishing-services-628affce-de39-4666-bccc-de7e8d44d380",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/858/original/open-uri20240121-53-u6u8lw?1705848296",
-      "caption": "为作者提供书籍出版全流程服务项目公开展示素材",
-      "alt": "publishing-services-628affce-de39-4666-bccc-de7e8d44d380",
+      "caption": "为作者提供书籍出版全流程服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为作者提供书籍出版全流程服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/publishing-services-628affce-de39-4666-bccc-de7e8d44d380",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/859/original/open-uri20240121-53-u3mcm?1705848297",
-      "caption": "为作者提供书籍出版全流程服务项目公开展示素材",
-      "alt": "publishing-services-628affce-de39-4666-bccc-de7e8d44d380",
+      "caption": "为作者提供书籍出版全流程服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "为作者提供书籍出版全流程服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/publishing-services-628affce-de39-4666-bccc-de7e8d44d380",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/860/original/open-uri20240121-53-1x7abdw?1705848297",
-      "caption": "为作者提供书籍出版全流程服务项目公开展示素材",
-      "alt": "publishing-services-628affce-de39-4666-bccc-de7e8d44d380",
+      "caption": "为作者提供书籍出版全流程服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "为作者提供书籍出版全流程服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/publishing-services-628affce-de39-4666-bccc-de7e8d44d380",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/861/original/open-uri20240121-53-ggqzls?1705848297",
-      "caption": "为作者提供书籍出版全流程服务项目公开展示素材",
-      "alt": "publishing-services-628affce-de39-4666-bccc-de7e8d44d380",
-      "sourceUrl": "https://www.starterstory.com/stories/publishing-services-628affce-de39-4666-bccc-de7e8d44d380",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/862/original/open-uri20240121-53-14bu1rq?1705848298",
-      "caption": "为作者提供书籍出版全流程服务项目公开展示素材",
-      "alt": "publishing-services-628affce-de39-4666-bccc-de7e8d44d380",
-      "sourceUrl": "https://www.starterstory.com/stories/publishing-services-628affce-de39-4666-bccc-de7e8d44d380",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2207,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

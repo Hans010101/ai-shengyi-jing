@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/lpolcfph08vtwyct2f5tlxy0jrh4",
-      "caption": "软件工程师创办的月入10万美元网页开发代理公司公开案例主图",
-      "alt": "软件工程师创办的月入10万美元网页开发代理公司案例图片",
+      "caption": "软件工程师创办的月入10万美元网页开发代理公司的核心产品与品牌主视觉",
+      "alt": "软件工程师创办的月入10万美元网页开发代理公司的核心产品与品牌主视觉",
       "sourceUrl": "https://www.starterstory.com/stories/skynet-technologies",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/612/original/open-uri20221017-24-1drxtmv?1666022476",
-      "caption": "软件工程师创办的月入10万美元网页开发代理公司项目公开展示素材",
-      "alt": "skynet-technologies",
+      "caption": "软件工程师创办的月入10万美元网页开发代理公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "软件工程师创办的月入10万美元网页开发代理公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/skynet-technologies",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/613/original/open-uri20221017-24-1at42xf?1666022477",
-      "caption": "软件工程师创办的月入10万美元网页开发代理公司项目公开展示素材",
-      "alt": "skynet-technologies",
+      "caption": "软件工程师创办的月入10万美元网页开发代理公司：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "软件工程师创办的月入10万美元网页开发代理公司：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/skynet-technologies",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/614/original/open-uri20221017-24-1ra4alw?1666022478",
-      "caption": "软件工程师创办的月入10万美元网页开发代理公司项目公开展示素材",
-      "alt": "skynet-technologies",
+      "caption": "软件工程师创办的月入10万美元网页开发代理公司：当前经营状态与下一步规划相关原始配图（第3张）",
+      "alt": "软件工程师创办的月入10万美元网页开发代理公司：当前经营状态与下一步规划相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/skynet-technologies",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "软件工程师创办的月入10万美元网页开发代理公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/skynet-technologies",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2200,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

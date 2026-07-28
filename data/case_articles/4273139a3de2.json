@@ -122,47 +122,44 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/fkn8fdn9vm3yunjc8tnpdh7j1paw",
-      "caption": "无经验创办SEO和B2B获客代理公开案例主图",
-      "alt": "无经验创办SEO和B2B获客代理案例图片",
+      "caption": "无经验创办SEO和B2B获客代理：月入11万美元",
+      "alt": "无经验创办SEO和B2B获客代理：月入11万美元",
       "sourceUrl": "https://www.starterstory.com/stories/i-started-an-seo-and-lead-gen-agency-with-no-experience-and-took-it-to-110k-month",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/186/original/open-uri20220210-3-8pw0uk?1644518115",
-      "caption": "无经验创办SEO和B2B获客代理项目公开展示素材",
-      "alt": "i-make-80k-month-selling-seo-and-lead-generation-services-from-uk",
+      "caption": "无经验创办SEO和B2B获客代理：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "无经验创办SEO和B2B获客代理：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-started-an-seo-and-lead-gen-agency-with-no-experience-and-took-it-to-110k-month",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/187/original/open-uri20220210-3-147jdlw?1644518116",
-      "caption": "无经验创办SEO和B2B获客代理项目公开展示素材",
-      "alt": "i-make-80k-month-selling-seo-and-lead-generation-services-from-uk",
+      "caption": "无经验创办SEO和B2B获客代理：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "无经验创办SEO和B2B获客代理：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-started-an-seo-and-lead-gen-agency-with-no-experience-and-took-it-to-110k-month",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "无经验创办SEO和B2B获客代理项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/XN2TJALzRkE",
+      "watchUrl": "https://www.youtube.com/watch?v=XN2TJALzRkE",
+      "caption": "无经验创办SEO和B2B获客代理资料中提及的视频：PR video",
+      "alt": "PR video",
       "sourceUrl": "https://www.starterstory.com/stories/i-started-an-seo-and-lead-gen-agency-with-no-experience-and-took-it-to-110k-month",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/glia3fse1raug40hg8lpkg3rg09w",
-      "caption": "无经验创办SEO和B2B获客代理项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/i-started-an-seo-and-lead-gen-agency-with-no-experience-and-took-it-to-110k-month",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/XN2TJALzRkE/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +174,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2325,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

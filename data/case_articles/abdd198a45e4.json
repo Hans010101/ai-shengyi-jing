@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/rwzh2f5vzj6dsejxfjpkysacda0o",
-      "caption": "白标支付处理SaaS公开案例主图",
-      "alt": "白标支付处理SaaS案例图片",
+      "caption": "白标支付处理SaaS：按月订阅+交易抽成盈利",
+      "alt": "白标支付处理SaaS：按月订阅+交易抽成盈利",
       "sourceUrl": "https://www.starterstory.com/stories/akurateco",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/646/original/open-uri20240416-53-twrr7x?1713279672",
-      "caption": "白标支付处理SaaS项目公开展示素材",
-      "alt": "akurateco",
+      "caption": "白标支付处理SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "白标支付处理SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/akurateco",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "白标支付处理SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/akurateco",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c4me70k5m0mm12pxyt9ra653p556",
-      "caption": "白标支付处理SaaS项目公开展示素材",
-      "alt": "白标支付处理SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/akurateco",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/lxyfp3z5ok085ig00ezv1ow1oo3h",
-      "caption": "白标支付处理SaaS项目公开展示素材",
-      "alt": "白标支付处理SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/akurateco",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2219,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

@@ -122,47 +122,36 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/if0mjo8evs5p1zx4ui99hovzs00x",
-      "caption": "设计信用卡大小多功能工具公开案例主图",
-      "alt": "设计信用卡大小多功能工具案例图片",
+      "caption": "设计信用卡大小多功能工具：通过电商直接销售盈利",
+      "alt": "设计信用卡大小多功能工具：通过电商直接销售盈利",
       "sourceUrl": "https://www.starterstory.com/stories/lever-gear",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "设计信用卡大小多功能工具项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/14FXK4aRwAs",
+      "watchUrl": "https://www.youtube.com/watch?v=14FXK4aRwAs",
+      "caption": "设计信用卡大小多功能工具资料中提及的视频：repurposed",
+      "alt": "repurposed",
       "sourceUrl": "https://www.starterstory.com/stories/lever-gear",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/14FXK4aRwAs/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/fyhbx2o0p0ivjbzkcaxfg3kkessb",
-      "caption": "设计信用卡大小多功能工具项目公开展示素材",
-      "alt": "tool-icon",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/h7_eB5UghEI",
+      "watchUrl": "https://www.youtube.com/watch?v=h7_eB5UghEI",
+      "caption": "设计信用卡大小多功能工具资料中提及的视频：Lever Gear Toolcard| Everyday Carry",
+      "alt": "Lever Gear Toolcard| Everyday Carry",
       "sourceUrl": "https://www.starterstory.com/stories/lever-gear",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "设计信用卡大小多功能工具项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/lever-gear",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/b8iyxwzevrymicbhf1vz4cb3kqbq",
-      "caption": "设计信用卡大小多功能工具项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/lever-gear",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/h7_eB5UghEI/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2215,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/2g9z53lsbdljlofz2zzr1vrvi4xj",
-      "caption": "AI驱动的压力与倦怠管理应用公开案例主图",
-      "alt": "AI驱动的压力与倦怠管理应用案例图片",
+      "caption": "AI驱动的压力与倦怠管理应用：通过订阅制收费",
+      "alt": "AI驱动的压力与倦怠管理应用：通过订阅制收费",
       "sourceUrl": "https://www.starterstory.com/stories/neurofit-app-nervous-system-reset-somatic-exercises-app",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI驱动的压力与倦怠管理应用项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/neurofit-app-nervous-system-reset-somatic-exercises-app",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/9a8d07891eae71f2",
-      "caption": "AI驱动的压力与倦怠管理应用项目公开展示素材",
+      "caption": "AI驱动的压力与倦怠管理应用：创始人、核心产品与品牌起点相关原始配图",
       "alt": "My image",
       "sourceUrl": "https://www.starterstory.com/stories/neurofit-app-nervous-system-reset-somatic-exercises-app",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/hjpgynbs7i9rylpdm6438q7vbw5v",
-      "caption": "AI驱动的压力与倦怠管理应用项目公开展示素材",
-      "alt": "article",
+      "caption": "AI驱动的压力与倦怠管理应用：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI驱动的压力与倦怠管理应用：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/neurofit-app-nervous-system-reset-somatic-exercises-app",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/6cb134e8f8bc8a57",
-      "caption": "AI驱动的压力与倦怠管理应用项目公开展示素材",
+      "caption": "AI驱动的压力与倦怠管理应用：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "alt": "My image",
       "sourceUrl": "https://www.starterstory.com/stories/neurofit-app-nervous-system-reset-somatic-exercises-app",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/1f30cf1b916f3acf",
-      "caption": "AI驱动的压力与倦怠管理应用项目公开展示素材",
-      "alt": "My image",
-      "sourceUrl": "https://www.starterstory.com/stories/neurofit-app-nervous-system-reset-somatic-exercises-app",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2228,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

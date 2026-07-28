@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/78tkwhbxmm8bjd96t5v77j3ta47v",
-      "caption": "SaaS活动营销自动化平台公开案例主图",
-      "alt": "SaaS活动营销自动化平台案例图片",
+      "caption": "SaaS活动营销自动化平台：通过订阅制收费",
+      "alt": "SaaS活动营销自动化平台：通过订阅制收费",
       "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-leading-saas-based-event-marketing-automation-company",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/975/original/open-uri20210728-3-glwb4q?1627479606",
-      "caption": "SaaS活动营销自动化平台项目公开展示素材",
-      "alt": "on-starting-a-leading-saas-based-event-marketing-automation-company",
+      "caption": "SaaS活动营销自动化平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "SaaS活动营销自动化平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-leading-saas-based-event-marketing-automation-company",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "SaaS活动营销自动化平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-leading-saas-based-event-marketing-automation-company",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/wsfthxo0bwxpga1da6eflodtgxay",
-      "caption": "SaaS活动营销自动化平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-leading-saas-based-event-marketing-automation-company",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/yzwcofug5jdzgxughelpace4tl6a",
-      "caption": "SaaS活动营销自动化平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-leading-saas-based-event-marketing-automation-company",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2239,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

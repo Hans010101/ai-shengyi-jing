@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/zk6xux4q5305zwaq3gbsnfxof134",
-      "caption": "UX博客吸引流量公开案例主图",
-      "alt": "UX博客吸引流量案例图片",
+      "caption": "UX博客吸引流量：向企业出售UX审计服务赚钱",
+      "alt": "UX博客吸引流量：向企业出售UX审计服务赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/built-for-mars",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/347/original/open-uri20230822-60-1qkyjr2?1692709867",
-      "caption": "UX博客吸引流量项目公开展示素材",
-      "alt": "built-for-mars",
+      "caption": "UX博客吸引流量：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "UX博客吸引流量：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/built-for-mars",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "UX博客吸引流量项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/built-for-mars",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/0gmsnr5l6mmwzauqxp3onbt3vsak",
-      "caption": "UX博客吸引流量项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/built-for-mars",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/gl38e28b8wy08055xcqglg1r6pqs",
-      "caption": "UX博客吸引流量项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/built-for-mars",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2260,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

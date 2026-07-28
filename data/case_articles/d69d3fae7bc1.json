@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/15ic9dctf33zw4q8jbst9w7t0o7x",
-      "caption": "木工博主公开案例主图",
-      "alt": "木工博主案例图片",
+      "caption": "木工博主：通过YouTube广告、定制家具和木屋赚钱",
+      "alt": "木工博主：通过YouTube广告、定制家具和木屋赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/reaching-40k-in-revenue-and-5m-youtube-views-despite-the-pandemic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/007/905/original/open-uri20200917-4-m3l8ko?1600363935",
-      "caption": "木工博主项目公开展示素材",
-      "alt": "on-reaching-40k-revenue-despite-the-pandemic",
+      "caption": "木工博主：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "木工博主：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/reaching-40k-in-revenue-and-5m-youtube-views-despite-the-pandemic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/007/906/original/open-uri20200917-4-hqvccw?1600363940",
-      "caption": "木工博主项目公开展示素材",
-      "alt": "on-reaching-40k-revenue-despite-the-pandemic",
+      "caption": "木工博主：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "木工博主：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/reaching-40k-in-revenue-and-5m-youtube-views-despite-the-pandemic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/007/907/original/open-uri20200917-4-y1szzf?1600363945",
-      "caption": "木工博主项目公开展示素材",
-      "alt": "on-reaching-40k-revenue-despite-the-pandemic",
+      "caption": "木工博主：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "木工博主：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/reaching-40k-in-revenue-and-5m-youtube-views-despite-the-pandemic",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/007/908/original/open-uri20200917-4-s2v7a3?1600363946",
-      "caption": "木工博主项目公开展示素材",
-      "alt": "on-reaching-40k-revenue-despite-the-pandemic",
-      "sourceUrl": "https://www.starterstory.com/stories/reaching-40k-in-revenue-and-5m-youtube-views-despite-the-pandemic",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2198,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

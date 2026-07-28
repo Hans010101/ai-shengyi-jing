@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ihs3f989b3uw6x3r4gzltylwe75o",
-      "caption": "高端活动策划公司公开案例主图",
-      "alt": "高端活动策划公司案例图片",
+      "caption": "高端活动策划公司：通过线上线下混合活动营收达百万美元",
+      "alt": "高端活动策划公司：通过线上线下混合活动营收达百万美元",
       "sourceUrl": "https://www.starterstory.com/stories/how-virtual-events-helped-grow-revenue-to-1m-in-2020",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/010/997/original/open-uri20210328-3-10ekea2?1616970860",
-      "caption": "高端活动策划公司项目公开展示素材",
-      "alt": "entire-productions",
+      "caption": "高端活动策划公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "高端活动策划公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-virtual-events-helped-grow-revenue-to-1m-in-2020",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "高端活动策划公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-virtual-events-helped-grow-revenue-to-1m-in-2020",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/p8k02rjws595ps7rhw5f8jh28dcq",
-      "caption": "高端活动策划公司项目公开展示素材",
-      "alt": "高端活动策划公司项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-virtual-events-helped-grow-revenue-to-1m-in-2020",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/6c0oll4djxw8flt7zz0fov6wqo1n",
-      "caption": "高端活动策划公司项目公开展示素材",
-      "alt": "高端活动策划公司项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-virtual-events-helped-grow-revenue-to-1m-in-2020",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2226,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

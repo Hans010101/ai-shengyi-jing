@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/2vdycy2pywz39lud55hhehr00vn7",
-      "caption": "海外其他项目公开案例主图",
-      "alt": "海外其他项目案例图片",
+      "caption": "海外其他项目：通过博客分享移动房屋投资经验，赚取广告和联盟收入",
+      "alt": "海外其他项目：通过博客分享移动房屋投资经验，赚取广告和联盟收入",
       "sourceUrl": "https://www.starterstory.com/stories/adventures-in-mobile-homes",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/052/original/open-uri20220611-12-1t0u2ov?1654971380",
-      "caption": "海外其他项目项目公开展示素材",
-      "alt": "adventures-in-mobile-homes",
+      "caption": "海外其他项目：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "海外其他项目：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/adventures-in-mobile-homes",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/053/original/open-uri20220611-12-1e40kom?1654971380",
-      "caption": "海外其他项目项目公开展示素材",
-      "alt": "adventures-in-mobile-homes",
+      "caption": "海外其他项目：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "海外其他项目：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/adventures-in-mobile-homes",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "海外其他项目项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/adventures-in-mobile-homes",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/2r0bmvunp6hplaeyu1t5rm1lcgma",
-      "caption": "海外其他项目项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/adventures-in-mobile-homes",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2116,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

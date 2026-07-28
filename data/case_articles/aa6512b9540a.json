@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/figpla5mbk7cnmjwze7d25437bju",
-      "caption": "Artfinder是艺术品电商平台公开案例主图",
-      "alt": "Artfinder是艺术品电商平台案例图片",
+      "caption": "Artfinder是艺术品电商平台：连接艺术家和买家，通过佣金赚钱",
+      "alt": "Artfinder是艺术品电商平台：连接艺术家和买家，通过佣金赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/artfinder-e2c715da-253e-4ba8-ad23-8314fc1184ab",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/705/original/open-uri20220411-12-fas949?1649682160",
-      "caption": "Artfinder是艺术品电商平台项目公开展示素材",
-      "alt": "artfinder-e2c715da-253e-4ba8-ad23-8314fc1184ab",
+      "caption": "Artfinder是艺术品电商平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "Artfinder是艺术品电商平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/artfinder-e2c715da-253e-4ba8-ad23-8314fc1184ab",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "Artfinder是艺术品电商平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/artfinder-e2c715da-253e-4ba8-ad23-8314fc1184ab",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/erijnbqeuwv8ubdgk0f61dxpfwrn",
-      "caption": "Artfinder是艺术品电商平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/artfinder-e2c715da-253e-4ba8-ad23-8314fc1184ab",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/x0fswweh25a6rgcsp2c2ytil8usb",
-      "caption": "Artfinder是艺术品电商平台项目公开展示素材",
-      "alt": "Artfinder是艺术品电商平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/artfinder-e2c715da-253e-4ba8-ad23-8314fc1184ab",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2194,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

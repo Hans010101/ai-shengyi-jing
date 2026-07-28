@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/rs9s7pqdcvpu0w6ooda0yta4mf0n",
-      "caption": "AI营销SaaS公开案例主图",
-      "alt": "AI营销SaaS案例图片",
+      "caption": "AI营销SaaS：帮初创企业自动化营销，月入$180K",
+      "alt": "AI营销SaaS：帮初创企业自动化营销，月入$180K",
       "sourceUrl": "https://www.starterstory.com/stories/marketowl-ai-marketing-department-that-30x-cheaper",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI营销SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/marketowl-ai-marketing-department-that-30x-cheaper",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ty5jtifccesq08w63af2l6aapun1",
-      "caption": "AI营销SaaS项目公开展示素材",
-      "alt": "article",
+      "caption": "AI营销SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI营销SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/marketowl-ai-marketing-department-that-30x-cheaper",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/q9jquuxiuwx7qd9knv9cttiis5a4",
-      "caption": "AI营销SaaS项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/marketowl-ai-marketing-department-that-30x-cheaper",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/gruodz6awwpgobzymouxd1zybn7o",
-      "caption": "AI营销SaaS项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/marketowl-ai-marketing-department-that-30x-cheaper",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2164,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

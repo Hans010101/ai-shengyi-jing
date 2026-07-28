@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/qoj7ysd2qrcfctyxda2kc7tnf3qh",
-      "caption": "无代码移动应用构建器公开案例主图",
-      "alt": "无代码移动应用构建器案例图片",
+      "caption": "无代码移动应用构建器：通过订阅制SaaS服务盈利",
+      "alt": "无代码移动应用构建器：通过订阅制SaaS服务盈利",
       "sourceUrl": "https://www.starterstory.com/stories/we-created-a-840k-year-no-code-tool-to-make-apps-finland",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/669/original/open-uri20220308-3-1xspg2u?1646752409",
-      "caption": "无代码移动应用构建器项目公开展示素材",
-      "alt": "we-created-a-840k-year-no-code-tool-to-make-apps-finland",
+      "caption": "无代码移动应用构建器：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "无代码移动应用构建器：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/we-created-a-840k-year-no-code-tool-to-make-apps-finland",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/670/original/open-uri20220308-3-1x07u0b?1646752410",
-      "caption": "无代码移动应用构建器项目公开展示素材",
-      "alt": "we-created-a-840k-year-no-code-tool-to-make-apps-finland",
+      "caption": "无代码移动应用构建器：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "无代码移动应用构建器：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-created-a-840k-year-no-code-tool-to-make-apps-finland",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/671/original/open-uri20220308-3-f8r74j?1646752410",
-      "caption": "无代码移动应用构建器项目公开展示素材",
-      "alt": "we-created-a-840k-year-no-code-tool-to-make-apps-finland",
+      "caption": "无代码移动应用构建器：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "无代码移动应用构建器：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-created-a-840k-year-no-code-tool-to-make-apps-finland",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/672/original/open-uri20220308-3-t2dxtf?1646752411",
-      "caption": "无代码移动应用构建器项目公开展示素材",
-      "alt": "we-created-a-840k-year-no-code-tool-to-make-apps-finland",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/ft8mRm8qzbw",
+      "watchUrl": "https://www.youtube.com/watch?v=ft8mRm8qzbw",
+      "caption": "无代码移动应用构建器资料中提及的视频：How to build mobile apps without coding?",
+      "alt": "How to build mobile apps without coding?",
       "sourceUrl": "https://www.starterstory.com/stories/we-created-a-840k-year-no-code-tool-to-make-apps-finland",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/ft8mRm8qzbw/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

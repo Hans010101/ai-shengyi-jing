@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/mlif5rlmhie34ms9wtvd7fvpnt8b",
-      "caption": "SEO知识付费与咨询服务公开案例主图",
-      "alt": "SEO知识付费与咨询服务案例图片",
+      "caption": "SEO知识付费与咨询服务：通过内容营销吸引客户",
+      "alt": "SEO知识付费与咨询服务：通过内容营销吸引客户",
       "sourceUrl": "https://www.starterstory.com/stories/ugly-duckling",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/202/original/open-uri20220324-3-9qklki?1648155154",
-      "caption": "SEO知识付费与咨询服务项目公开展示素材",
-      "alt": "ugly-duckling",
+      "caption": "SEO知识付费与咨询服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "SEO知识付费与咨询服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/ugly-duckling",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/203/original/open-uri20220324-3-7ag6hy?1648155154",
-      "caption": "SEO知识付费与咨询服务项目公开展示素材",
-      "alt": "ugly-duckling",
+      "caption": "SEO知识付费与咨询服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "SEO知识付费与咨询服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/ugly-duckling",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "SEO知识付费与咨询服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/ugly-duckling",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/bleg7ym47u9i3fco1c64kivl3030",
-      "caption": "SEO知识付费与咨询服务项目公开展示素材",
-      "alt": "SEO知识付费与咨询服务项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/ugly-duckling",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2150,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

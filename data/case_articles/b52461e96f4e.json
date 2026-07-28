@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/dqlknm2qy325h38gjbmrd6bno7jl",
-      "caption": "行李临时寄存平台公开案例主图",
-      "alt": "行李临时寄存平台案例图片",
+      "caption": "行李临时寄存平台：通过连接商家和旅客收取存储费盈利",
+      "alt": "行李临时寄存平台：通过连接商家和旅客收取存储费盈利",
       "sourceUrl": "https://www.starterstory.com/stories/luggagehero",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/062/original/open-uri20220321-3-10jsnel?1647894149",
-      "caption": "行李临时寄存平台项目公开展示素材",
-      "alt": "luggagehero",
+      "caption": "行李临时寄存平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "行李临时寄存平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/luggagehero",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "行李临时寄存平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/luggagehero",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/cb1y40dp0w22m7dhh7pp006xcph8",
-      "caption": "行李临时寄存平台项目公开展示素材",
-      "alt": "行李临时寄存平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/luggagehero",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/vldudx0y6nktj1ga4q3fhak9otsh",
-      "caption": "行李临时寄存平台项目公开展示素材",
-      "alt": "行李临时寄存平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/luggagehero",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2211,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/1z2niy1fo8cgf4rxvemef1hgvn6o",
-      "caption": "事件策划移动应用公开案例主图",
-      "alt": "事件策划移动应用案例图片",
+      "caption": "事件策划移动应用：通过订阅和交易抽成盈利",
+      "alt": "事件策划移动应用：通过订阅和交易抽成盈利",
       "sourceUrl": "https://www.starterstory.com/stories/plans-collective-on-creating-an-event-planning-mobile-app-with-250-users",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/820/original/open-uri20220113-3-1tp9rlo?1642047279",
-      "caption": "事件策划移动应用项目公开展示素材",
-      "alt": "on-creating-an-event-planning-mobile-app-with-250-users",
+      "caption": "事件策划移动应用：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "事件策划移动应用：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/plans-collective-on-creating-an-event-planning-mobile-app-with-250-users",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/821/original/open-uri20220113-3-16visoe?1642047279",
-      "caption": "事件策划移动应用项目公开展示素材",
-      "alt": "on-creating-an-event-planning-mobile-app-with-250-users",
+      "caption": "事件策划移动应用：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "事件策划移动应用：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/plans-collective-on-creating-an-event-planning-mobile-app-with-250-users",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/822/original/open-uri20220113-3-dnbxek?1642047280",
-      "caption": "事件策划移动应用项目公开展示素材",
-      "alt": "on-creating-an-event-planning-mobile-app-with-250-users",
+      "caption": "事件策划移动应用：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "事件策划移动应用：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/plans-collective-on-creating-an-event-planning-mobile-app-with-250-users",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/823/original/open-uri20220113-3-52i9wg?1642047281",
-      "caption": "事件策划移动应用项目公开展示素材",
-      "alt": "on-creating-an-event-planning-mobile-app-with-250-users",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/JHe9CzYL8hU",
+      "watchUrl": "https://www.youtube.com/watch?v=JHe9CzYL8hU",
+      "caption": "事件策划移动应用资料中提及的视频：Plans",
+      "alt": "Plans",
       "sourceUrl": "https://www.starterstory.com/stories/plans-collective-on-creating-an-event-planning-mobile-app-with-250-users",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/JHe9CzYL8hU/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

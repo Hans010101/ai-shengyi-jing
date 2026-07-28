@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/rhzt3e28j7boeoxevqwjr2m1nqjs",
-      "caption": "项目管理SaaS公开案例主图",
-      "alt": "项目管理SaaS案例图片",
+      "caption": "项目管理SaaS：按月订阅收费，年营收2亿美元",
+      "alt": "项目管理SaaS：按月订阅收费，年营收2亿美元",
       "sourceUrl": "https://www.starterstory.com/stories/on-building-a-project-management-software-to-85k-customers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/982/original/open-uri20210927-3-rfxdwe?1632753538",
-      "caption": "项目管理SaaS项目公开展示素材",
-      "alt": "on-building-a-project-management-software-to-85k-customers",
+      "caption": "项目管理SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "项目管理SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/on-building-a-project-management-software-to-85k-customers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/983/original/open-uri20210927-3-1gakxh2?1632753538",
-      "caption": "项目管理SaaS项目公开展示素材",
-      "alt": "on-building-a-project-management-software-to-85k-customers",
+      "caption": "项目管理SaaS：当前经营状态与下一步规划相关原始配图（第2张）",
+      "alt": "项目管理SaaS：当前经营状态与下一步规划相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/on-building-a-project-management-software-to-85k-customers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "项目管理SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/on-building-a-project-management-software-to-85k-customers",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/3q9ah33gfr89x9gr887ehtjyb5n2",
-      "caption": "项目管理SaaS项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/on-building-a-project-management-software-to-85k-customers",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2209,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/tmd8dazvtdmsam6u5ap1q5nocffn",
-      "caption": "帮助创立鞋类品牌公开案例主图",
-      "alt": "帮助创立鞋类品牌案例图片",
+      "caption": "帮助创立鞋类品牌：通过咨询和在线社区收费",
+      "alt": "帮助创立鞋类品牌：通过咨询和在线社区收费",
       "sourceUrl": "https://www.starterstory.com/stories/the-shoe-consultant-ltd",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/775/original/open-uri20220413-12-icikmi?1649855553",
-      "caption": "帮助创立鞋类品牌项目公开展示素材",
-      "alt": "the-shoe-consultant-ltd",
+      "caption": "帮助创立鞋类品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "帮助创立鞋类品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/the-shoe-consultant-ltd",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/776/original/open-uri20220413-12-v667wy?1649855553",
-      "caption": "帮助创立鞋类品牌项目公开展示素材",
-      "alt": "the-shoe-consultant-ltd",
+      "caption": "帮助创立鞋类品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "帮助创立鞋类品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/the-shoe-consultant-ltd",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/777/original/open-uri20220413-12-gxy1jn?1649855554",
-      "caption": "帮助创立鞋类品牌项目公开展示素材",
-      "alt": "the-shoe-consultant-ltd",
+      "caption": "帮助创立鞋类品牌：给创业者的实践建议相关原始配图（第3张）",
+      "alt": "帮助创立鞋类品牌：给创业者的实践建议相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/the-shoe-consultant-ltd",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "帮助创立鞋类品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/the-shoe-consultant-ltd",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2119,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

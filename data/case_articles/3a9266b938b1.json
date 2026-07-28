@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/6h5q3ljfmjh4z7kwor86w02rzivj",
-      "caption": "为艺术家提供XR表演平台公开案例主图",
-      "alt": "为艺术家提供XR表演平台案例图片",
+      "caption": "为艺术家提供XR表演平台：通过订阅和交易抽成盈利",
+      "alt": "为艺术家提供XR表演平台：通过订阅和交易抽成盈利",
       "sourceUrl": "https://www.starterstory.com/stories/volta-xr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/586/original/open-uri20230325-63-tf5mc8?1679754153",
-      "caption": "为艺术家提供XR表演平台项目公开展示素材",
-      "alt": "volta-xr",
+      "caption": "为艺术家提供XR表演平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为艺术家提供XR表演平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/volta-xr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/587/original/open-uri20230325-63-whmne1?1679754154",
-      "caption": "为艺术家提供XR表演平台项目公开展示素材",
-      "alt": "volta-xr",
+      "caption": "为艺术家提供XR表演平台：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "为艺术家提供XR表演平台：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/volta-xr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/588/original/open-uri20230325-63-mpr4ug?1679754155",
-      "caption": "为艺术家提供XR表演平台项目公开展示素材",
-      "alt": "volta-xr",
+      "caption": "为艺术家提供XR表演平台：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "为艺术家提供XR表演平台：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/volta-xr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/589/original/open-uri20230325-63-1dichyg?1679754156",
-      "caption": "为艺术家提供XR表演平台项目公开展示素材",
-      "alt": "volta-xr",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/XmHSdNGb5h4&feature=youtu.be",
+      "watchUrl": "https://www.youtube.com/watch?v=XmHSdNGb5h4&feature=youtu.be",
+      "caption": "为艺术家提供XR表演平台资料中提及的视频：Twitch Interaction Example",
+      "alt": "Twitch Interaction Example",
       "sourceUrl": "https://www.starterstory.com/stories/volta-xr",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/XmHSdNGb5h4/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

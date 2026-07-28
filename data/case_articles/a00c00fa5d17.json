@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/age84y9cc4wtjfzqh5tlg68pga08",
-      "caption": "策划惊喜旅行套餐公开案例主图",
-      "alt": "策划惊喜旅行套餐案例图片",
+      "caption": "策划惊喜旅行套餐：通过订金+尾款模式盈利",
+      "alt": "策划惊喜旅行套餐：通过订金+尾款模式盈利",
       "sourceUrl": "https://www.starterstory.com/stories/pack-up-go",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/158/original/open-uri20220508-24-1omhvmi?1652034190",
-      "caption": "策划惊喜旅行套餐项目公开展示素材",
-      "alt": "pack-up-go",
+      "caption": "策划惊喜旅行套餐：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "策划惊喜旅行套餐：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/pack-up-go",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/159/original/open-uri20220508-24-tj7cq1?1652034190",
-      "caption": "策划惊喜旅行套餐项目公开展示素材",
-      "alt": "pack-up-go",
+      "caption": "策划惊喜旅行套餐：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "策划惊喜旅行套餐：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/pack-up-go",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "策划惊喜旅行套餐项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/pack-up-go",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/cb1y40dp0w22m7dhh7pp006xcph8",
-      "caption": "策划惊喜旅行套餐项目公开展示素材",
-      "alt": "策划惊喜旅行套餐项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/pack-up-go",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2230,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

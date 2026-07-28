@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/4k1oag2y8gnr179gsyia2nmeufol",
-      "caption": "利用AI生成社交媒体内容公开案例主图",
-      "alt": "利用AI生成社交媒体内容案例图片",
+      "caption": "利用AI生成社交媒体内容：通过订阅制变现",
+      "alt": "利用AI生成社交媒体内容：通过订阅制变现",
       "sourceUrl": "https://www.starterstory.com/stories/dogecore-update-how-social-media-helped-us-grow-revenue-10x",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/212/original/open-uri20211130-3-1pnszei?1638302932",
-      "caption": "利用AI生成社交媒体内容项目公开展示素材",
-      "alt": "how-social-media-help-grow-our-revenue-10x",
+      "caption": "利用AI生成社交媒体内容：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "利用AI生成社交媒体内容：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/dogecore-update-how-social-media-helped-us-grow-revenue-10x",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/213/original/open-uri20211130-3-i5idda?1638302932",
-      "caption": "利用AI生成社交媒体内容项目公开展示素材",
-      "alt": "how-social-media-help-grow-our-revenue-10x",
+      "caption": "利用AI生成社交媒体内容：创业复盘与关键经验相关原始配图（第2张）",
+      "alt": "利用AI生成社交媒体内容：创业复盘与关键经验相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/dogecore-update-how-social-media-helped-us-grow-revenue-10x",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "利用AI生成社交媒体内容项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/dogecore-update-how-social-media-helped-us-grow-revenue-10x",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/w4stw5wtsgmq5u23otc0cudjxnjg",
-      "caption": "利用AI生成社交媒体内容项目公开展示素材",
-      "alt": "利用AI生成社交媒体内容项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/dogecore-update-how-social-media-helped-us-grow-revenue-10x",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2234,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

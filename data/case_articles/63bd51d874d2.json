@@ -122,56 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/8s7gjw1szi5wvgrx6fyil52y43q7",
-      "caption": "Meister提供协作应用公开案例主图",
-      "alt": "Meister提供协作应用案例图片",
+      "caption": "Meister提供协作应用：通过订阅制SaaS收费",
+      "alt": "Meister提供协作应用：通过订阅制SaaS收费",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-exceeded-our-growth-goal-of-45-this-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/301/original/open-uri20201207-4-12xuht8?1607367102",
-      "caption": "Meister提供协作应用项目公开展示素材",
-      "alt": "how-we-exceed-our-growth-goal-of-45-this-year",
+      "caption": "Meister提供协作应用：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "Meister提供协作应用：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-exceeded-our-growth-goal-of-45-this-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "Meister提供协作应用项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-exceeded-our-growth-goal-of-45-this-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/p21ts159h2jq9q519g25528av7yd",
-      "caption": "Meister提供协作应用项目公开展示素材",
-      "alt": "Meister提供协作应用项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-exceeded-our-growth-goal-of-45-this-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/bktaf6keh1rjsjde1tkkhpinriz5",
-      "caption": "Meister提供协作应用项目公开展示素材",
-      "alt": "Meister提供协作应用项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-exceeded-our-growth-goal-of-45-this-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ac47k04fjz23hi10mb27n136ityf",
-      "caption": "Meister提供协作应用项目公开展示素材",
-      "alt": "Meister提供协作应用项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-exceeded-our-growth-goal-of-45-this-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2186,
-    "mediaCount": 6
+    "mediaCount": 2
   }
 }

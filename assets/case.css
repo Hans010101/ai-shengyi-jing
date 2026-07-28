@@ -181,6 +181,93 @@ blockquote {
   border: 1px solid var(--line);
 }
 
+.article-video-card {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  color: #fff;
+  text-decoration: none;
+  background: linear-gradient(135deg, #172033, #3157db);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+}
+
+.article-video-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 38%, rgba(15,23,42,.88));
+  pointer-events: none;
+}
+
+.article-video-card .article-video-poster {
+  width: 100%;
+  height: 100%;
+  max-height: none;
+  object-fit: cover;
+  border: 0;
+  border-radius: 0;
+  transition: transform .25s ease;
+}
+
+.article-video-card:hover .article-video-poster {
+  transform: scale(1.025);
+}
+
+.article-video-card.poster-unavailable {
+  background:
+    radial-gradient(circle at 70% 18%, rgba(255,255,255,.2), transparent 30%),
+    linear-gradient(135deg, #172033, #3157db);
+}
+
+.article-video-play {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 50%;
+  width: 72px;
+  height: 72px;
+  display: grid;
+  place-items: center;
+  padding-left: 5px;
+  color: #fff;
+  font-size: 28px;
+  background: rgba(220,38,38,.94);
+  border: 3px solid rgba(255,255,255,.92);
+  border-radius: 50%;
+  box-shadow: 0 12px 32px rgba(15,23,42,.32);
+  transform: translate(-50%, -50%);
+}
+
+.article-video-label {
+  position: absolute;
+  z-index: 2;
+  left: 22px;
+  right: 22px;
+  bottom: 18px;
+  display: block;
+  text-shadow: 0 2px 8px rgba(0,0,0,.55);
+}
+
+.article-video-label small,
+.article-video-label strong {
+  display: block;
+}
+
+.article-video-label small {
+  margin-bottom: 3px;
+  font-size: 11px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.article-video-label strong {
+  font-size: 16px;
+  line-height: 1.45;
+}
+
 .video-frame {
   position: relative;
   width: 100%;
@@ -205,6 +292,21 @@ blockquote {
   line-height: 1.7;
   margin: 12px auto 0;
   max-width: 92%;
+}
+
+.article-media figcaption span {
+  display: inline;
+}
+
+.article-media figcaption a {
+  margin-left: 10px;
+  color: var(--accent);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.article-media figcaption a:hover {
+  text-decoration: underline;
 }
 
 .article-media-link {

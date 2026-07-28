@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/wg8vwfcx062a63kezxcwo52z5dwp",
-      "caption": "艺术家公开案例主图",
-      "alt": "艺术家案例图片",
+      "caption": "艺术家：通过AI工具提升设计效率，售卖艺术印刷品和定制服务赚钱",
+      "alt": "艺术家：通过AI工具提升设计效率，售卖艺术印刷品和定制服务赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/justin-erickson-art",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/103/original/open-uri20220322-3-19ypyc6?1647982683",
-      "caption": "艺术家项目公开展示素材",
-      "alt": "justin-erickson-art",
+      "caption": "艺术家：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "艺术家：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/justin-erickson-art",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/104/original/open-uri20220322-3-1t8jooj?1647982684",
-      "caption": "艺术家项目公开展示素材",
-      "alt": "justin-erickson-art",
+      "caption": "艺术家：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "艺术家：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/justin-erickson-art",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/105/original/open-uri20220322-3-hem1i1?1647982684",
-      "caption": "艺术家项目公开展示素材",
-      "alt": "justin-erickson-art",
+      "caption": "艺术家：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "艺术家：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/justin-erickson-art",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/106/original/open-uri20220322-3-50fzbx?1647982685",
-      "caption": "艺术家项目公开展示素材",
-      "alt": "justin-erickson-art",
-      "sourceUrl": "https://www.starterstory.com/stories/justin-erickson-art",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2210,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

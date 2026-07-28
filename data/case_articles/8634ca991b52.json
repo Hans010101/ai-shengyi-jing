@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/bqrw3go8iqgad7pmi0ejkzzj0rq1",
-      "caption": "数字遗产管理SaaS公开案例主图",
-      "alt": "数字遗产管理SaaS案例图片",
+      "caption": "数字遗产管理SaaS：通过订阅和交易佣金盈利",
+      "alt": "数字遗产管理SaaS：通过订阅和交易佣金盈利",
       "sourceUrl": "https://www.starterstory.com/stories/dglegacy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/390/original/open-uri20230227-63-w11bre?1677516596",
-      "caption": "数字遗产管理SaaS项目公开展示素材",
-      "alt": "dglegacy",
+      "caption": "数字遗产管理SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "数字遗产管理SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/dglegacy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/391/original/open-uri20230227-63-6ermo2?1677516597",
-      "caption": "数字遗产管理SaaS项目公开展示素材",
-      "alt": "dglegacy",
+      "caption": "数字遗产管理SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "数字遗产管理SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/dglegacy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/392/original/open-uri20230227-63-h7lnqc?1677516598",
-      "caption": "数字遗产管理SaaS项目公开展示素材",
-      "alt": "dglegacy",
+      "caption": "数字遗产管理SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "数字遗产管理SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/dglegacy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "数字遗产管理SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/dglegacy",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2260,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

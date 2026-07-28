@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/bdxce6drpno8mppncabbbqo195rd",
-      "caption": "在线辅导平台公开案例主图",
-      "alt": "在线辅导平台案例图片",
+      "caption": "在线辅导平台：通过AI匹配师生并收取佣金盈利",
+      "alt": "在线辅导平台：通过AI匹配师生并收取佣金盈利",
       "sourceUrl": "https://www.starterstory.com/stories/88guru",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/211/original/open-uri20230217-63-at8r5b?1676650055",
-      "caption": "在线辅导平台项目公开展示素材",
-      "alt": "88guru",
+      "caption": "在线辅导平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "在线辅导平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/88guru",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/212/original/open-uri20230217-63-1l50n4a?1676650056",
-      "caption": "在线辅导平台项目公开展示素材",
-      "alt": "88guru",
+      "caption": "在线辅导平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "在线辅导平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/88guru",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/213/original/open-uri20230217-63-8lzxyz?1676650056",
-      "caption": "在线辅导平台项目公开展示素材",
-      "alt": "88guru",
+      "caption": "在线辅导平台：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "在线辅导平台：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/88guru",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/214/original/open-uri20230217-63-kx80hi?1676650057",
-      "caption": "在线辅导平台项目公开展示素材",
-      "alt": "88guru",
-      "sourceUrl": "https://www.starterstory.com/stories/88guru",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "在线辅导平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/88guru",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2169,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

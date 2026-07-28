@@ -122,47 +122,24 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/3dg1oi30aemrjytgqu79gs147e3z",
-      "caption": "在线个性化礼品定制公开案例主图",
-      "alt": "在线个性化礼品定制案例图片",
+      "caption": "在线个性化礼品定制：通过雕刻和包装增值销售",
+      "alt": "在线个性化礼品定制：通过雕刻和包装增值销售",
       "sourceUrl": "https://www.starterstory.com/stories/engravers-guild",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "在线个性化礼品定制项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/33eCCmJq1oY",
+      "watchUrl": "https://www.youtube.com/watch?v=33eCCmJq1oY",
+      "caption": "在线个性化礼品定制资料中提及的视频：The World’s Most Expensive Marmite Jar",
+      "alt": "The World’s Most Expensive Marmite Jar",
       "sourceUrl": "https://www.starterstory.com/stories/engravers-guild",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/fyhbx2o0p0ivjbzkcaxfg3kkessb",
-      "caption": "在线个性化礼品定制项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/engravers-guild",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "在线个性化礼品定制项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/engravers-guild",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/1s7m5fyj6w1je4ry8bo80hv3i7n3",
-      "caption": "在线个性化礼品定制项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/engravers-guild",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/33eCCmJq1oY/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +154,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2180,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

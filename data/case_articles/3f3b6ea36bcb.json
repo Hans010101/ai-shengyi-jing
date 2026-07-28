@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/wewi8xinufle5mlpc5fy6jnsjze9",
-      "caption": "亚马逊体育户外电商公开案例主图",
-      "alt": "亚马逊体育户外电商案例图片",
+      "caption": "亚马逊体育户外电商：选品+精细化运营赚取利润",
+      "alt": "亚马逊体育户外电商：选品+精细化运营赚取利润",
       "sourceUrl": "https://www.starterstory.com/stories/buildfba",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/879/original/open-uri20230117-12-15vtsor?1673967954",
-      "caption": "亚马逊体育户外电商项目公开展示素材",
-      "alt": "buildfba",
+      "caption": "亚马逊体育户外电商：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "亚马逊体育户外电商：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/buildfba",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/880/original/open-uri20230117-12-7dij2f?1673967956",
-      "caption": "亚马逊体育户外电商项目公开展示素材",
-      "alt": "buildfba",
+      "caption": "亚马逊体育户外电商：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "亚马逊体育户外电商：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/buildfba",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/881/original/open-uri20230117-12-1ytkb9z?1673967958",
-      "caption": "亚马逊体育户外电商项目公开展示素材",
-      "alt": "buildfba",
+      "caption": "亚马逊体育户外电商：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "亚马逊体育户外电商：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/buildfba",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "亚马逊体育户外电商项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/buildfba",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2211,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,44 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/8ehwf8nguap6luupguxxqt0gorc1",
-      "caption": "交互式电子书平台公开案例主图",
-      "alt": "交互式电子书平台案例图片",
+      "caption": "交互式电子书平台：Kotobee：交互式电子书创建平台，通过订阅和销售模板赚钱",
+      "alt": "交互式电子书平台：Kotobee：交互式电子书创建平台，通过订阅和销售模板赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/kotobee",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/042/original/open-uri20220320-3-tr7tkm?1647803482",
-      "caption": "交互式电子书平台项目公开展示素材",
-      "alt": "kotobee",
+      "caption": "交互式电子书平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "交互式电子书平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/kotobee",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/043/original/open-uri20220320-3-1kcv249?1647803482",
-      "caption": "交互式电子书平台项目公开展示素材",
-      "alt": "kotobee",
+      "caption": "交互式电子书平台：当前经营状态与下一步规划相关原始配图（第2张）",
+      "alt": "交互式电子书平台：当前经营状态与下一步规划相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/kotobee",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "交互式电子书平台项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/nheNHvBAofg",
+      "watchUrl": "https://www.youtube.com/watch?v=nheNHvBAofg",
+      "caption": "交互式电子书平台资料中提及的视频：What is Kotobee?",
+      "alt": "What is Kotobee?",
       "sourceUrl": "https://www.starterstory.com/stories/kotobee",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "交互式电子书平台项目公开展示素材",
-      "alt": "交互式电子书平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/kotobee",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/nheNHvBAofg/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +174,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2240,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

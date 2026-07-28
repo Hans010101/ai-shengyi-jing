@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/lxjb4y0spyspypaevrcqxp1ddn6t",
-      "caption": "每日在线文字游戏公开案例主图",
-      "alt": "每日在线文字游戏案例图片",
+      "caption": "每日在线文字游戏：通过广告和付费提示盈利",
+      "alt": "每日在线文字游戏：通过广告和付费提示盈利",
       "sourceUrl": "https://www.starterstory.com/stories/twofer-goofer",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/873/original/open-uri20230925-48-1bptdic?1695609899",
-      "caption": "每日在线文字游戏项目公开展示素材",
-      "alt": "twofer-goofer",
+      "caption": "每日在线文字游戏：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "每日在线文字游戏：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/twofer-goofer",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/874/original/open-uri20230925-48-l81lqn?1695609900",
-      "caption": "每日在线文字游戏项目公开展示素材",
-      "alt": "twofer-goofer",
+      "caption": "每日在线文字游戏：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "每日在线文字游戏：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/twofer-goofer",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/875/original/open-uri20230925-48-7tkdox?1695609901",
-      "caption": "每日在线文字游戏项目公开展示素材",
-      "alt": "twofer-goofer",
+      "caption": "每日在线文字游戏：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "每日在线文字游戏：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/twofer-goofer",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/876/original/open-uri20230925-48-1h923cd?1695609901",
-      "caption": "每日在线文字游戏项目公开展示素材",
-      "alt": "twofer-goofer",
-      "sourceUrl": "https://www.starterstory.com/stories/twofer-goofer",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2243,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

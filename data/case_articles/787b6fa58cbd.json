@@ -122,56 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/5syla7ui6wks30nehjk83pdmenw2",
-      "caption": "API聚合平台公开案例主图",
-      "alt": "API聚合平台案例图片",
+      "caption": "API聚合平台：通过订阅制向开发者销售API接口",
+      "alt": "API聚合平台：通过订阅制向开发者销售API接口",
       "sourceUrl": "https://www.starterstory.com/businesses/apiworx",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "API聚合平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/apiworx",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/wqq8en0fijeju7x6h75mqaiwlp0j",
-      "caption": "API聚合平台项目公开展示素材",
-      "alt": "APIWORX logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/apiworx",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/5jtbr55ypkrtda0j3rr8udx7vqll/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "API聚合平台项目公开展示素材",
-      "alt": "Charlie Alsmiller",
-      "sourceUrl": "https://www.starterstory.com/businesses/apiworx",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/or09f2lfiia7lnht2q5ydyd20833/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "API聚合平台项目公开展示素材",
-      "alt": "API聚合平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/businesses/apiworx",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/5ffa7ulojbak7xbahobwtnc6elf2/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "API聚合平台项目公开展示素材",
-      "alt": "API聚合平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/businesses/apiworx",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -186,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2198,
-    "mediaCount": 6
+    "mediaCount": 1
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/6tre1q941gcbq5rfxrqko295716o",
-      "caption": "AI匹配奖学金公开案例主图",
-      "alt": "AI匹配奖学金案例图片",
+      "caption": "AI匹配奖学金：学生付费订阅，机构广告变现",
+      "alt": "AI匹配奖学金：学生付费订阅，机构广告变现",
       "sourceUrl": "https://www.starterstory.com/stories/scholarship-owl-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI匹配奖学金项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/scholarship-owl-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/mt5d93q2ams2outk2li007mj1daa/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "AI匹配奖学金项目公开展示素材",
-      "alt": "AI匹配奖学金项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/scholarship-owl-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/3cabef41352a22e3",
-      "caption": "AI匹配奖学金项目公开展示素材",
-      "alt": "article",
+      "caption": "AI匹配奖学金：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI匹配奖学金：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/scholarship-owl-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/2188f1c52e6b7b00",
-      "caption": "AI匹配奖学金项目公开展示素材",
-      "alt": "article",
+      "caption": "AI匹配奖学金：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI匹配奖学金：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/scholarship-owl-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/9d1e5f4907634194",
+      "caption": "AI匹配奖学金：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "AI匹配奖学金：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/scholarship-owl-breakdown",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2168,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

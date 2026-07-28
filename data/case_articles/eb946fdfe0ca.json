@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/p5qhwmt8pjbbszkztabcj7mv8dq3",
-      "caption": "手工皮具品牌公开案例主图",
-      "alt": "手工皮具品牌案例图片",
+      "caption": "手工皮具品牌：通过DTC模式销售高客单价皮具年入60万美元",
+      "alt": "手工皮具品牌：通过DTC模式销售高客单价皮具年入60万美元",
       "sourceUrl": "https://www.starterstory.com/stories/growing-a-handcrafted-leather-goods-business-to-600k-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/754/original/open-uri20190118-4-wtda0?1547830924",
-      "caption": "手工皮具品牌项目公开展示素材",
-      "alt": "growing-a-handcrafted-leather-goods-business-to-600k-year",
+      "caption": "手工皮具品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "手工皮具品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/growing-a-handcrafted-leather-goods-business-to-600k-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/755/original/open-uri20190118-4-1bexj69?1547830924",
-      "caption": "手工皮具品牌项目公开展示素材",
-      "alt": "growing-a-handcrafted-leather-goods-business-to-600k-year",
+      "caption": "手工皮具品牌：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "手工皮具品牌：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/growing-a-handcrafted-leather-goods-business-to-600k-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/756/original/open-uri20190118-4-c3j0em?1547830925",
-      "caption": "手工皮具品牌项目公开展示素材",
-      "alt": "growing-a-handcrafted-leather-goods-business-to-600k-year",
+      "caption": "手工皮具品牌：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "手工皮具品牌：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/growing-a-handcrafted-leather-goods-business-to-600k-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/757/original/open-uri20190118-4-7k23tc?1547830926",
-      "caption": "手工皮具品牌项目公开展示素材",
-      "alt": "growing-a-handcrafted-leather-goods-business-to-600k-year",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/mlYl_qlFe0k",
+      "watchUrl": "https://www.youtube.com/watch?v=mlYl_qlFe0k",
+      "caption": "手工皮具品牌资料中提及的视频：Horween Leather Alden Boots - History of Chromexcel Leather",
+      "alt": "Horween Leather Alden Boots - History of Chromexcel Leather",
       "sourceUrl": "https://www.starterstory.com/stories/growing-a-handcrafted-leather-goods-business-to-600k-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/mlYl_qlFe0k/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

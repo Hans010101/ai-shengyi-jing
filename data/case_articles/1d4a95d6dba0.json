@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/xazy2qe2bseg0iwlwethqjdwadme",
-      "caption": "个人公开案例主图",
-      "alt": "个人案例图片",
+      "caption": "个人：通过Notion模板和自动化服务，月入2万美元",
+      "alt": "个人：通过Notion模板和自动化服务，月入2万美元",
       "sourceUrl": "https://www.starterstory.com/stories/pathpages",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/270/original/open-uri20240229-65-ib9fwb?1709188922",
-      "caption": "个人项目公开展示素材",
-      "alt": "notionway",
+      "caption": "个人：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "个人：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/pathpages",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/271/original/open-uri20240229-65-1wecdis?1709188922",
-      "caption": "个人项目公开展示素材",
-      "alt": "notionway",
+      "caption": "个人：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "个人：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/pathpages",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "个人项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/pathpages",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ux0jwuv5zreae40prptu2ora5km3",
-      "caption": "个人项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/pathpages",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2155,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

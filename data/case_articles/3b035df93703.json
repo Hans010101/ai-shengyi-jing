@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/r2pyc362woon6wksrl5csuhmqtpb",
-      "caption": "提供企业沟通与营销咨询服务的代理机构公开案例主图",
-      "alt": "提供企业沟通与营销咨询服务的代理机构案例图片",
+      "caption": "提供企业沟通与营销咨询服务的代理机构：月入1万美元",
+      "alt": "提供企业沟通与营销咨询服务的代理机构：月入1万美元",
       "sourceUrl": "https://www.starterstory.com/stories/wordworx",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/761/original/open-uri20250111-48-1tc63e3?1736579317",
-      "caption": "提供企业沟通与营销咨询服务的代理机构项目公开展示素材",
-      "alt": "wordworx",
+      "caption": "提供企业沟通与营销咨询服务的代理机构：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "提供企业沟通与营销咨询服务的代理机构：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/wordworx",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/762/original/open-uri20250111-48-f2y4w0?1736579318",
-      "caption": "提供企业沟通与营销咨询服务的代理机构项目公开展示素材",
-      "alt": "wordworx",
+      "caption": "提供企业沟通与营销咨询服务的代理机构：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "提供企业沟通与营销咨询服务的代理机构：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/wordworx",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/763/original/open-uri20250111-48-8q8whz?1736579319",
-      "caption": "提供企业沟通与营销咨询服务的代理机构项目公开展示素材",
-      "alt": "wordworx",
+      "caption": "提供企业沟通与营销咨询服务的代理机构：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "提供企业沟通与营销咨询服务的代理机构：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/wordworx",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/764/original/open-uri20250111-48-o64jem?1736579320",
-      "caption": "提供企业沟通与营销咨询服务的代理机构项目公开展示素材",
-      "alt": "wordworx",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/DMliFnLYjNw",
+      "watchUrl": "https://www.youtube.com/watch?v=DMliFnLYjNw",
+      "caption": "提供企业沟通与营销咨询服务的代理机构资料中提及的视频：Native English Copywriting in the Netherlands — Meet Elizabeth Joss of WordWorx",
+      "alt": "Native English Copywriting in the Netherlands — Meet Elizabeth Joss of WordWorx",
       "sourceUrl": "https://www.starterstory.com/stories/wordworx",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/DMliFnLYjNw/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

@@ -122,56 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/4khf24v8ivyppg26zh59sltpmvci",
-      "caption": "设计师品牌纸钱包公开案例主图",
-      "alt": "设计师品牌纸钱包案例图片",
+      "caption": "设计师品牌纸钱包：通过Kickstarter众筹和官网销售盈利",
+      "alt": "设计师品牌纸钱包：通过Kickstarter众筹和官网销售盈利",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-ve-sold-over-100k-wallets-on-kickstarter",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/176/original/open-uri20190306-4-od5m7j?1551864596",
-      "caption": "设计师品牌纸钱包项目公开展示素材",
-      "alt": "how-i-ve-sold-over-100k-wallets-on-kickstarter",
+      "caption": "设计师品牌纸钱包：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "设计师品牌纸钱包：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-ve-sold-over-100k-wallets-on-kickstarter",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "设计师品牌纸钱包项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-ve-sold-over-100k-wallets-on-kickstarter",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c303bjznv93yxnh0xxz7t4vfedzf",
-      "caption": "设计师品牌纸钱包项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-ve-sold-over-100k-wallets-on-kickstarter",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ctzxy5a9ydavit3r4dkymak5vcy1",
-      "caption": "设计师品牌纸钱包项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-ve-sold-over-100k-wallets-on-kickstarter",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/6jsp887ttbgtwrcgpvuebys7y369",
-      "caption": "设计师品牌纸钱包项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-ve-sold-over-100k-wallets-on-kickstarter",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2203,
-    "mediaCount": 6
+    "mediaCount": 2
   }
 }

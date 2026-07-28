@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/gceyqvcbmvjeah1qjbl4fyudv4zz",
-      "caption": "电子签名SaaS平台公开案例主图",
-      "alt": "电子签名SaaS平台案例图片",
+      "caption": "电子签名SaaS平台：按订阅收费",
+      "alt": "电子签名SaaS平台：按订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/we-started-an-online-signature-tool-last-year-we-just-hit-240k-arr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/438/original/open-uri20211020-3-rzazwo?1634754512",
-      "caption": "电子签名SaaS平台项目公开展示素材",
-      "alt": "we-started-an-online-signature-tool-last-year-we-just-hit-240k-arr",
+      "caption": "电子签名SaaS平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "电子签名SaaS平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/we-started-an-online-signature-tool-last-year-we-just-hit-240k-arr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/439/original/open-uri20211020-3-13jd9nr?1634754513",
-      "caption": "电子签名SaaS平台项目公开展示素材",
-      "alt": "we-started-an-online-signature-tool-last-year-we-just-hit-240k-arr",
+      "caption": "电子签名SaaS平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "电子签名SaaS平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-started-an-online-signature-tool-last-year-we-just-hit-240k-arr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/440/original/open-uri20211020-3-105mcl2?1634754513",
-      "caption": "电子签名SaaS平台项目公开展示素材",
-      "alt": "we-started-an-online-signature-tool-last-year-we-just-hit-240k-arr",
+      "caption": "电子签名SaaS平台：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "电子签名SaaS平台：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-started-an-online-signature-tool-last-year-we-just-hit-240k-arr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/441/original/open-uri20211020-3-13aexnj?1634754513",
-      "caption": "电子签名SaaS平台项目公开展示素材",
-      "alt": "we-started-an-online-signature-tool-last-year-we-just-hit-240k-arr",
-      "sourceUrl": "https://www.starterstory.com/stories/we-started-an-online-signature-tool-last-year-we-just-hit-240k-arr",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2188,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ymogcwdi0hue9m4ckuw88m611pck",
-      "caption": "性健康博客公开案例主图",
-      "alt": "性健康博客案例图片",
+      "caption": "性健康博客：通过联盟营销和广告赚取6万美元/年",
+      "alt": "性健康博客：通过联盟营销和广告赚取6万美元/年",
       "sourceUrl": "https://www.starterstory.com/stories/techysex",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/146/original/open-uri20220616-12-hr1kjg?1655373489",
-      "caption": "性健康博客项目公开展示素材",
-      "alt": "techysex",
+      "caption": "性健康博客：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "性健康博客：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/techysex",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/147/original/open-uri20220616-12-1seh9sc?1655373489",
-      "caption": "性健康博客项目公开展示素材",
-      "alt": "techysex",
+      "caption": "性健康博客：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "性健康博客：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/techysex",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/148/original/open-uri20220616-12-1qotf5e?1655373490",
-      "caption": "性健康博客项目公开展示素材",
-      "alt": "techysex",
+      "caption": "性健康博客：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "性健康博客：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/techysex",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "性健康博客项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/techysex",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2197,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

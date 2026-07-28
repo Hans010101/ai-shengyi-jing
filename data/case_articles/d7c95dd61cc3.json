@@ -122,65 +122,43 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ubtd8gb5e405i4dg67p7l4xrs2oi",
-      "caption": "女性金融社区Basis公开案例主图",
-      "alt": "女性金融社区Basis案例图片",
+      "caption": "女性金融社区Basis：通过会员订阅和课程变现",
+      "alt": "女性金融社区Basis：通过会员订阅和课程变现",
       "sourceUrl": "https://www.starterstory.com/stories/basis",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/061/original/open-uri20220430-12-68zqz9?1651333096",
-      "caption": "女性金融社区Basis项目公开展示素材",
-      "alt": "basis",
+      "caption": "女性金融社区Basis：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "女性金融社区Basis：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/basis",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/062/original/open-uri20220430-12-1kqa4cq?1651333096",
-      "caption": "女性金融社区Basis项目公开展示素材",
-      "alt": "basis",
+      "caption": "女性金融社区Basis：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "女性金融社区Basis：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/basis",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "女性金融社区Basis项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/basis",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/3d0celdrs9ugtg77g37hjvvnmyhi",
-      "caption": "女性金融社区Basis项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/basis",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/3q9ah33gfr89x9gr887ehtjyb5n2",
-      "caption": "女性金融社区Basis项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/basis",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/iE25K7ijWe8",
-      "caption": "女性金融社区Basis项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=iE25K7ijWe8",
+      "caption": "女性金融社区Basis资料中提及的视频：We are Basis!",
+      "alt": "We are Basis!",
       "sourceUrl": "https://www.starterstory.com/stories/basis",
       "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/iE25K7ijWe8/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -196,6 +174,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2227,
-    "mediaCount": 7
+    "mediaCount": 4
   }
 }

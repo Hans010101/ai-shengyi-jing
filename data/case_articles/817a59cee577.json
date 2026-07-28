@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/5gor0d4y1gj8jpgkunxo9n6689lk",
-      "caption": "体育励志故事媒体平台公开案例主图",
-      "alt": "体育励志故事媒体平台案例图片",
+      "caption": "体育励志故事媒体平台：通过广告和赞助盈利",
+      "alt": "体育励志故事媒体平台：通过广告和赞助盈利",
       "sourceUrl": "https://www.starterstory.com/stories/getting-cut-from-my-baseball-team-led-me-to-build-a-blog-for-underdog-stories",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/367/original/open-uri20220221-3-8abzz5?1645445079",
-      "caption": "体育励志故事媒体平台项目公开展示素材",
-      "alt": "getting-cut-from-my-baseball-team-led-me-to-build-a-blog-for-underdog-stories",
+      "caption": "体育励志故事媒体平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "体育励志故事媒体平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/getting-cut-from-my-baseball-team-led-me-to-build-a-blog-for-underdog-stories",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/368/original/open-uri20220221-3-a0o1iq?1645445080",
-      "caption": "体育励志故事媒体平台项目公开展示素材",
-      "alt": "getting-cut-from-my-baseball-team-led-me-to-build-a-blog-for-underdog-stories",
+      "caption": "体育励志故事媒体平台：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "体育励志故事媒体平台：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/getting-cut-from-my-baseball-team-led-me-to-build-a-blog-for-underdog-stories",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/369/original/open-uri20220221-3-e98qdv?1645445081",
-      "caption": "体育励志故事媒体平台项目公开展示素材",
-      "alt": "getting-cut-from-my-baseball-team-led-me-to-build-a-blog-for-underdog-stories",
+      "caption": "体育励志故事媒体平台：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "体育励志故事媒体平台：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/getting-cut-from-my-baseball-team-led-me-to-build-a-blog-for-underdog-stories",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/370/original/open-uri20220221-3-uix0kt?1645445081",
-      "caption": "体育励志故事媒体平台项目公开展示素材",
-      "alt": "getting-cut-from-my-baseball-team-led-me-to-build-a-blog-for-underdog-stories",
-      "sourceUrl": "https://www.starterstory.com/stories/getting-cut-from-my-baseball-team-led-me-to-build-a-blog-for-underdog-stories",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2221,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

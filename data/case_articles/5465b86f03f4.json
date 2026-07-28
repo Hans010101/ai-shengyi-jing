@@ -122,56 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/h3789nuytwss8ikj9q5wu99trw1u",
-      "caption": "餐饮车队SaaS公开案例主图",
-      "alt": "餐饮车队SaaS案例图片",
+      "caption": "餐饮车队SaaS：通过订阅制提供订单管理和配送优化服务",
+      "alt": "餐饮车队SaaS：通过订阅制提供订单管理和配送优化服务",
       "sourceUrl": "https://www.starterstory.com/stories/food-fleet-update-how-we-survived-the-pandemic-despite-revenue-down",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/132/original/open-uri20201130-4-cz56pw?1606754534",
-      "caption": "餐饮车队SaaS项目公开展示素材",
-      "alt": "how-we-are-dealing-the-pandemic-despite-revenue-down",
+      "caption": "餐饮车队SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "餐饮车队SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/food-fleet-update-how-we-survived-the-pandemic-despite-revenue-down",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "餐饮车队SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/food-fleet-update-how-we-survived-the-pandemic-despite-revenue-down",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/4qcuk5ek4vrwjx1mabyuvhbzkmx9",
-      "caption": "餐饮车队SaaS项目公开展示素材",
-      "alt": "餐饮车队SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/food-fleet-update-how-we-survived-the-pandemic-despite-revenue-down",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/9oum3bbciqevul6z0dzgbyerye2z",
-      "caption": "餐饮车队SaaS项目公开展示素材",
-      "alt": "餐饮车队SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/food-fleet-update-how-we-survived-the-pandemic-despite-revenue-down",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/3v2stlnylnntp43l7nbkixxb29j6",
-      "caption": "餐饮车队SaaS项目公开展示素材",
-      "alt": "餐饮车队SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/food-fleet-update-how-we-survived-the-pandemic-despite-revenue-down",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2162,
-    "mediaCount": 6
+    "mediaCount": 2
   }
 }

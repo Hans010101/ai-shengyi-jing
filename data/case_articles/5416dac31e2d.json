@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/f2w43rozaxdqs2c6d2x6ikikant8",
-      "caption": "为餐食准备企业提供SaaS平台公开案例主图",
-      "alt": "为餐食准备企业提供SaaS平台案例图片",
+      "caption": "为餐食准备企业提供SaaS平台：订阅制收费",
+      "alt": "为餐食准备企业提供SaaS平台：订阅制收费",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-our-revenue-10x-over-last-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/318/original/open-uri20220217-3-lfks40?1645119554",
-      "caption": "为餐食准备企业提供SaaS平台项目公开展示素材",
-      "alt": "how-we-grew-our-revenue-10x-over-last-year",
+      "caption": "为餐食准备企业提供SaaS平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为餐食准备企业提供SaaS平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-our-revenue-10x-over-last-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为餐食准备企业提供SaaS平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-our-revenue-10x-over-last-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/4qcuk5ek4vrwjx1mabyuvhbzkmx9",
-      "caption": "为餐食准备企业提供SaaS平台项目公开展示素材",
-      "alt": "为餐食准备企业提供SaaS平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-our-revenue-10x-over-last-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/9oum3bbciqevul6z0dzgbyerye2z",
-      "caption": "为餐食准备企业提供SaaS平台项目公开展示素材",
-      "alt": "为餐食准备企业提供SaaS平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-our-revenue-10x-over-last-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2217,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/7wnbrzujucs0elqfno5l39xmsbj8",
-      "caption": "为美国数字游民优化税务居留公开案例主图",
-      "alt": "为美国数字游民优化税务居留案例图片",
+      "caption": "为美国数字游民优化税务居留：合法减税，按月收费",
+      "alt": "为美国数字游民优化税务居留：合法减税，按月收费",
       "sourceUrl": "https://www.starterstory.com/stories/your-passport-to-tax-savings",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为美国数字游民优化税务居留项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/your-passport-to-tax-savings",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/3b0bd8271878c9f5",
-      "caption": "为美国数字游民优化税务居留项目公开展示素材",
+      "caption": "为美国数字游民优化税务居留：创始人、核心产品与品牌起点相关原始配图",
       "alt": "My image",
       "sourceUrl": "https://www.starterstory.com/stories/your-passport-to-tax-savings",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/uwof2h2q7eaoro561egnu6f0fpg0",
-      "caption": "为美国数字游民优化税务居留项目公开展示素材",
-      "alt": "article",
+      "caption": "为美国数字游民优化税务居留：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "为美国数字游民优化税务居留：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/your-passport-to-tax-savings",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/syhc4hqu22hszdhlyp4ioyj9jqx3",
-      "caption": "为美国数字游民优化税务居留项目公开展示素材",
-      "alt": "为美国数字游民优化税务居留项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/your-passport-to-tax-savings",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2243,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

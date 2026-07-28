@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ft5sr20w80dq2xdws1c8oywb8amb",
-      "caption": "金融媒体平台公开案例主图",
-      "alt": "金融媒体平台案例图片",
+      "caption": "金融媒体平台：通过广告和订阅盈利",
+      "alt": "金融媒体平台：通过广告和订阅盈利",
       "sourceUrl": "https://www.starterstory.com/stories/marketbeat-update-how-we-increased-revenue-from-8m-to-14m-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/965/original/open-uri20210127-3-8ttax4?1611773987",
-      "caption": "金融媒体平台项目公开展示素材",
-      "alt": "how-we-increased-our-revenue-from-8m-to-14m-year",
+      "caption": "金融媒体平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "金融媒体平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/marketbeat-update-how-we-increased-revenue-from-8m-to-14m-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/966/original/open-uri20210127-3-qqs2wm?1611773988",
-      "caption": "金融媒体平台项目公开展示素材",
-      "alt": "how-we-increased-our-revenue-from-8m-to-14m-year",
+      "caption": "金融媒体平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "金融媒体平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/marketbeat-update-how-we-increased-revenue-from-8m-to-14m-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/967/original/open-uri20210127-3-aa5s1h?1611773988",
-      "caption": "金融媒体平台项目公开展示素材",
-      "alt": "how-we-increased-our-revenue-from-8m-to-14m-year",
+      "caption": "金融媒体平台：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "金融媒体平台：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/marketbeat-update-how-we-increased-revenue-from-8m-to-14m-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/968/original/open-uri20210127-3-1pt3ri7?1611773989",
-      "caption": "金融媒体平台项目公开展示素材",
-      "alt": "how-we-increased-our-revenue-from-8m-to-14m-year",
-      "sourceUrl": "https://www.starterstory.com/stories/marketbeat-update-how-we-increased-revenue-from-8m-to-14m-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2155,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

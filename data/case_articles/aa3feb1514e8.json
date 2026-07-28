@@ -121,57 +121,43 @@
   "media": [
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI自动化SEO工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/seojuice-io",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/1d129e90370aafbb",
-      "caption": "AI自动化SEO工具项目公开展示素材",
+      "caption": "AI自动化SEO工具：创始人、核心产品与品牌起点相关原始配图",
       "alt": "Current version of the dashboard",
       "sourceUrl": "https://www.starterstory.com/stories/seojuice-io",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/25ad09f47dfb3fb8",
-      "caption": "AI自动化SEO工具项目公开展示素材",
+      "caption": "AI自动化SEO工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "alt": "Slow and steady",
       "sourceUrl": "https://www.starterstory.com/stories/seojuice-io",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/mqxvfyot3ds6g8vxf4gp6zf27e51",
-      "caption": "AI自动化SEO工具项目公开展示素材",
-      "alt": "article",
+      "caption": "AI自动化SEO工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "AI自动化SEO工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/seojuice-io",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cca79ac15a57e52a",
-      "caption": "AI自动化SEO工具项目公开展示素材",
+      "caption": "AI自动化SEO工具：创业起点与创意来源相关原始配图（第4张）",
       "alt": "Initial dashboard, built fully with bootstrap CSS",
       "sourceUrl": "https://www.starterstory.com/stories/seojuice-io",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/ed804a2a5ead75e4",
-      "caption": "AI自动化SEO工具项目公开展示素材",
-      "alt": "ProductHunt Launch with 351 Upvotes and 63 Comments",
-      "sourceUrl": "https://www.starterstory.com/stories/seojuice-io",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2237,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

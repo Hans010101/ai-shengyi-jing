@@ -122,56 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/t6ub4325y7ay9ayzjnorwtdnivfi",
-      "caption": "副业资源博客+播客公开案例主图",
-      "alt": "副业资源博客+播客案例图片",
+      "caption": "副业资源博客+播客：通过广告、联盟营销和课程变现",
+      "alt": "副业资源博客+播客：通过广告、联盟营销和课程变现",
       "sourceUrl": "https://www.starterstory.com/stories/side-hustle-nation-d9351381-223d-4b00-b492-b8b50bd67cb4",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/094/original/open-uri20240209-65-1nfgt9u?1707462188",
-      "caption": "副业资源博客+播客项目公开展示素材",
-      "alt": "side-hustle-nation-d9351381-223d-4b00-b492-b8b50bd67cb4",
+      "caption": "副业资源博客+播客：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "副业资源博客+播客：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/side-hustle-nation-d9351381-223d-4b00-b492-b8b50bd67cb4",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "副业资源博客+播客项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/side-hustle-nation-d9351381-223d-4b00-b492-b8b50bd67cb4",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/42cov06mhrwbuot4fkxtlr9mqujt",
-      "caption": "副业资源博客+播客项目公开展示素材",
-      "alt": "副业资源博客+播客项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/side-hustle-nation-d9351381-223d-4b00-b492-b8b50bd67cb4",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/6907viyvvjr1mxtt985lkezm3nar",
-      "caption": "副业资源博客+播客项目公开展示素材",
-      "alt": "副业资源博客+播客项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/side-hustle-nation-d9351381-223d-4b00-b492-b8b50bd67cb4",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/du0wlxe4tlvv017tvnudicqkqyjl",
-      "caption": "副业资源博客+播客项目公开展示素材",
-      "alt": "副业资源博客+播客项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/side-hustle-nation-d9351381-223d-4b00-b492-b8b50bd67cb4",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2282,
-    "mediaCount": 6
+    "mediaCount": 2
   }
 }

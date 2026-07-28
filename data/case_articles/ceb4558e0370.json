@@ -122,65 +122,43 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/4bixx6f3b6e1e7mr63cs8xjc4l2f",
-      "caption": "跑步社交App公开案例主图",
-      "alt": "跑步社交App案例图片",
+      "caption": "跑步社交App：通过订阅和广告赚钱",
+      "alt": "跑步社交App：通过订阅和广告赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/samerun",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/820/original/open-uri20220415-24-1pajpta?1650005864",
-      "caption": "跑步社交App项目公开展示素材",
-      "alt": "samerun",
+      "caption": "跑步社交App：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "跑步社交App：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/samerun",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/821/original/open-uri20220415-24-1ie0ubl?1650005865",
-      "caption": "跑步社交App项目公开展示素材",
-      "alt": "samerun",
+      "caption": "跑步社交App：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "跑步社交App：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/samerun",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "跑步社交App项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/samerun",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/3d0celdrs9ugtg77g37hjvvnmyhi",
-      "caption": "跑步社交App项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/samerun",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/3q9ah33gfr89x9gr887ehtjyb5n2",
-      "caption": "跑步社交App项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/samerun",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/mp7DbYJttFw",
-      "caption": "跑步社交App项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=mp7DbYJttFw",
+      "caption": "跑步社交App资料中提及的视频：SameRun - Run Together. Everywhere.",
+      "alt": "SameRun - Run Together. Everywhere.",
       "sourceUrl": "https://www.starterstory.com/stories/samerun",
       "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/mp7DbYJttFw/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -196,6 +174,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2263,
-    "mediaCount": 7
+    "mediaCount": 4
   }
 }

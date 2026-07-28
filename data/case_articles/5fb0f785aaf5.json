@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/i2yvrk6ukymjq4zdenu9qlu0fsib",
-      "caption": "设计师转型案例公开案例主图",
-      "alt": "设计师转型案例案例图片",
+      "caption": "设计师转型案例：通过在线接单和模板销售实现月入$14",
+      "alt": "设计师转型案例：通过在线接单和模板销售实现月入$14",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-change-career-after-closing-my-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/010/568/original/open-uri20210305-3-mmsynq?1614973338",
-      "caption": "设计师转型案例项目公开展示素材",
-      "alt": "how-i-change-career-after-closing-my-business",
+      "caption": "设计师转型案例：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "设计师转型案例：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-change-career-after-closing-my-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/010/569/original/open-uri20210305-3-rx4356?1614973339",
-      "caption": "设计师转型案例项目公开展示素材",
-      "alt": "how-i-change-career-after-closing-my-business",
+      "caption": "设计师转型案例：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "设计师转型案例：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-change-career-after-closing-my-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/010/570/original/open-uri20210305-3-1d76o1e?1614973340",
-      "caption": "设计师转型案例项目公开展示素材",
-      "alt": "how-i-change-career-after-closing-my-business",
+      "caption": "设计师转型案例：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "设计师转型案例：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-change-career-after-closing-my-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "设计师转型案例项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-change-career-after-closing-my-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2162,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

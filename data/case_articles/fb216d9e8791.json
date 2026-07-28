@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/k70ttfm93mpvsi7ci9atb3l7ahz7",
-      "caption": "面向实体企业的运营数据AI控制塔SaaS公开案例主图",
-      "alt": "面向实体企业的运营数据AI控制塔SaaS案例图片",
+      "caption": "面向实体企业的运营数据AI控制塔SaaS：按座位+月费订阅盈利",
+      "alt": "面向实体企业的运营数据AI控制塔SaaS：按座位+月费订阅盈利",
       "sourceUrl": "https://www.starterstory.com/stories/locale",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/656/original/open-uri20220912-24-1mhi39c?1662992114",
-      "caption": "面向实体企业的运营数据AI控制塔SaaS项目公开展示素材",
-      "alt": "locale",
+      "caption": "面向实体企业的运营数据AI控制塔SaaS：产品设计与早期打磨相关原始配图",
+      "alt": "面向实体企业的运营数据AI控制塔SaaS：产品设计与早期打磨相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/locale",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "面向实体企业的运营数据AI控制塔SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/locale",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ux0jwuv5zreae40prptu2ora5km3",
-      "caption": "面向实体企业的运营数据AI控制塔SaaS项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/locale",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/yggesfalb206183easpx9fu8s6gu",
-      "caption": "面向实体企业的运营数据AI控制塔SaaS项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/locale",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2267,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

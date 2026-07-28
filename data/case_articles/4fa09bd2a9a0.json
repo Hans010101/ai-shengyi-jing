@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/md5699rga4g609aisn5iwxhh7bhy",
-      "caption": "AI股票新闻监控SaaS公开案例主图",
-      "alt": "AI股票新闻监控SaaS案例图片",
+      "caption": "AI股票新闻监控SaaS：年收$12K",
+      "alt": "AI股票新闻监控SaaS：年收$12K",
       "sourceUrl": "https://www.starterstory.com/stories/uptrends-ai-track-trending-stocks",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/674/original/open-uri20241012-60-6b2bq2?1728713478",
-      "caption": "AI股票新闻监控SaaS项目公开展示素材",
-      "alt": "uptrends-ai-track-trending-stocks",
+      "caption": "AI股票新闻监控SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI股票新闻监控SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/uptrends-ai-track-trending-stocks",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/675/original/open-uri20241012-60-g8zypm?1728713478",
-      "caption": "AI股票新闻监控SaaS项目公开展示素材",
-      "alt": "uptrends-ai-track-trending-stocks",
+      "caption": "AI股票新闻监控SaaS：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "AI股票新闻监控SaaS：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/uptrends-ai-track-trending-stocks",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/676/original/open-uri20241012-60-1h2dpwj?1728713479",
-      "caption": "AI股票新闻监控SaaS项目公开展示素材",
-      "alt": "uptrends-ai-track-trending-stocks",
+      "caption": "AI股票新闻监控SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "AI股票新闻监控SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/uptrends-ai-track-trending-stocks",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI股票新闻监控SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/uptrends-ai-track-trending-stocks",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2218,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

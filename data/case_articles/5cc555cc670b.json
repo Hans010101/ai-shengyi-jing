@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/rdl7z1313onuducwseb3zt4rgnom",
-      "caption": "卖袜子服饰公开案例主图",
-      "alt": "卖袜子服饰案例图片",
+      "caption": "卖袜子服饰：为流浪青年提供就业，年入72万美元",
+      "alt": "卖袜子服饰：为流浪青年提供就业，年入72万美元",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-bootstrapped-a-720k-year-sock-and-apparel-company-that-supports-the-homeless-community",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/466/original/open-uri20220226-3-7n69kq?1645895529",
-      "caption": "卖袜子服饰项目公开展示素材",
-      "alt": "how-we-bootstrapped-a-720k-year-sock-and-apparel-company-that-supports-the-homeless-community",
+      "caption": "卖袜子服饰：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "卖袜子服饰：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-bootstrapped-a-720k-year-sock-and-apparel-company-that-supports-the-homeless-community",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/467/original/open-uri20220226-3-1url81v?1645895529",
-      "caption": "卖袜子服饰项目公开展示素材",
-      "alt": "how-we-bootstrapped-a-720k-year-sock-and-apparel-company-that-supports-the-homeless-community",
+      "caption": "卖袜子服饰：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "卖袜子服饰：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-bootstrapped-a-720k-year-sock-and-apparel-company-that-supports-the-homeless-community",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/468/original/open-uri20220226-3-e61jbb?1645895530",
-      "caption": "卖袜子服饰项目公开展示素材",
-      "alt": "how-we-bootstrapped-a-720k-year-sock-and-apparel-company-that-supports-the-homeless-community",
+      "caption": "卖袜子服饰：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "卖袜子服饰：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-bootstrapped-a-720k-year-sock-and-apparel-company-that-supports-the-homeless-community",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/469/original/open-uri20220226-3-ghengy?1645895530",
-      "caption": "卖袜子服饰项目公开展示素材",
-      "alt": "how-we-bootstrapped-a-720k-year-sock-and-apparel-company-that-supports-the-homeless-community",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-bootstrapped-a-720k-year-sock-and-apparel-company-that-supports-the-homeless-community",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/470/original/open-uri20220226-3-1vh7tad?1645895531",
-      "caption": "卖袜子服饰项目公开展示素材",
-      "alt": "how-we-bootstrapped-a-720k-year-sock-and-apparel-company-that-supports-the-homeless-community",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-bootstrapped-a-720k-year-sock-and-apparel-company-that-supports-the-homeless-community",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2231,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

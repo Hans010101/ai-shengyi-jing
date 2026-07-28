@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/o7ntka4vcjtkga4nhe90hhkrv0s5",
-      "caption": "AI自动化内容创作公开案例主图",
-      "alt": "AI自动化内容创作案例图片",
+      "caption": "AI自动化内容创作：通过订阅制销售AI生成的文章、视频脚本等",
+      "alt": "AI自动化内容创作：通过订阅制销售AI生成的文章、视频脚本等",
       "sourceUrl": "https://www.starterstory.com/stories/i-make-1m-month-from-bed",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI自动化内容创作项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/i-make-1m-month-from-bed",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/dec2e283fc10e309",
-      "caption": "AI自动化内容创作项目公开展示素材",
-      "alt": "Pat Walls",
-      "sourceUrl": "https://www.starterstory.com/stories/i-make-1m-month-from-bed",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/351i2fdzfm171xs3r9jvmc4x8blv/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "AI自动化内容创作项目公开展示素材",
-      "alt": "Laravel",
-      "sourceUrl": "https://www.starterstory.com/stories/i-make-1m-month-from-bed",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/qp50u4teiedqtqkn8qmugb3rst2m/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "AI自动化内容创作项目公开展示素材",
-      "alt": "OpenAI",
-      "sourceUrl": "https://www.starterstory.com/stories/i-make-1m-month-from-bed",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2187,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

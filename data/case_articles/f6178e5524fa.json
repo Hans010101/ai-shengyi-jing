@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/4dzgixvmgk0bolvn4fjzun8sr1n3",
-      "caption": "浏览器插件公开案例主图",
-      "alt": "浏览器插件案例图片",
+      "caption": "浏览器插件：一键模糊敏感信息，按次付费或订阅赚钱",
+      "alt": "浏览器插件：一键模糊敏感信息，按次付费或订阅赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-a-tool-that-helps-blur-sensitive-information-with-just-5",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/279/original/open-uri20211201-3-qkypmm?1638390133",
-      "caption": "浏览器插件项目公开展示素材",
-      "alt": "i-built-a-tool-that-helps-blur-sensitive-information-with-just-5",
+      "caption": "浏览器插件：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "浏览器插件：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-a-tool-that-helps-blur-sensitive-information-with-just-5",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/280/original/open-uri20211201-3-u6wgnf?1638390133",
-      "caption": "浏览器插件项目公开展示素材",
-      "alt": "i-built-a-tool-that-helps-blur-sensitive-information-with-just-5",
+      "caption": "浏览器插件：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "浏览器插件：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-a-tool-that-helps-blur-sensitive-information-with-just-5",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/281/original/open-uri20211201-3-zaryar?1638390134",
-      "caption": "浏览器插件项目公开展示素材",
-      "alt": "i-built-a-tool-that-helps-blur-sensitive-information-with-just-5",
+      "caption": "浏览器插件：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "浏览器插件：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-a-tool-that-helps-blur-sensitive-information-with-just-5",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/282/original/open-uri20211201-3-omsooq?1638390134",
-      "caption": "浏览器插件项目公开展示素材",
-      "alt": "i-built-a-tool-that-helps-blur-sensitive-information-with-just-5",
-      "sourceUrl": "https://www.starterstory.com/stories/i-built-a-tool-that-helps-blur-sensitive-information-with-just-5",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2273,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

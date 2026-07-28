@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/odqonjk0lu1v67l90af3nfd2fexl",
-      "caption": "AI短信收据管理SaaS公开案例主图",
-      "alt": "AI短信收据管理SaaS案例图片",
+      "caption": "AI短信收据管理SaaS：按月订阅赚钱",
+      "alt": "AI短信收据管理SaaS：按月订阅赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/receipt-ai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI短信收据管理SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/receipt-ai",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/8d42e834f8f19925",
-      "caption": "AI短信收据管理SaaS项目公开展示素材",
+      "caption": "AI短信收据管理SaaS：创始人、核心产品与品牌起点相关原始配图",
       "alt": "Adding a memo like 'Lunch with Jason about the Q3 project' in your text message can help you remember the receipt later.",
       "sourceUrl": "https://www.starterstory.com/stories/receipt-ai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/d70a26580cd5873a",
-      "caption": "AI短信收据管理SaaS项目公开展示素材",
+      "caption": "AI短信收据管理SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "alt": "Our office - coffee shops :)",
       "sourceUrl": "https://www.starterstory.com/stories/receipt-ai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/qgheae5cvgodjzcqcpzlucjv8791",
-      "caption": "AI短信收据管理SaaS项目公开展示素材",
-      "alt": "article",
+      "caption": "AI短信收据管理SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "AI短信收据管理SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/receipt-ai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2193,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

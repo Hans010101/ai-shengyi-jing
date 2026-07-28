@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/fwl5kttmxsi8jhy2q34yayudyd1v",
-      "caption": "一家数字营销机构公开案例主图",
-      "alt": "一家数字营销机构案例图片",
+      "caption": "一家数字营销机构：通过提供全方位营销服务盈利",
+      "alt": "一家数字营销机构：通过提供全方位营销服务盈利",
       "sourceUrl": "https://www.starterstory.com/stories/i-started-a-2-4m-year-marketing-agency-from-home",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/637/original/open-uri20211030-3-xxmr2j?1635609377",
-      "caption": "一家数字营销机构项目公开展示素材",
-      "alt": "i-started-a-2-4m-year-marketing-agency-from-home",
+      "caption": "一家数字营销机构：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "一家数字营销机构：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-started-a-2-4m-year-marketing-agency-from-home",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/638/original/open-uri20211030-3-z1er0c?1635609379",
-      "caption": "一家数字营销机构项目公开展示素材",
-      "alt": "i-started-a-2-4m-year-marketing-agency-from-home",
+      "caption": "一家数字营销机构：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "一家数字营销机构：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-started-a-2-4m-year-marketing-agency-from-home",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "一家数字营销机构项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/i-started-a-2-4m-year-marketing-agency-from-home",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/0beu1rpaj2ah6dpbyhnnpi3t6nk7",
-      "caption": "一家数字营销机构项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/i-started-a-2-4m-year-marketing-agency-from-home",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2237,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

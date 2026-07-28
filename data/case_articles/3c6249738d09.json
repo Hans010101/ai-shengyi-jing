@@ -122,47 +122,46 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/5bvfo8i4opepmaaga6y7m8mlokcr",
-      "caption": "B2B营销代运营公开案例主图",
-      "alt": "B2B营销代运营案例图片",
+      "caption": "B2B营销代运营：为高客单价科技公司提供ABM服务，月入5万美金",
+      "alt": "B2B营销代运营：为高客单价科技公司提供ABM服务，月入5万美金",
       "sourceUrl": "https://www.starterstory.com/stories/fullfunnel",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/065/original/open-uri20221002-24-141uf8d?1664715743",
-      "caption": "B2B营销代运营项目公开展示素材",
-      "alt": "fullfunnel",
+      "caption": "B2B营销代运营：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "B2B营销代运营：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/fullfunnel",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "B2B营销代运营项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/06_rTuq6ooA",
+      "watchUrl": "https://www.youtube.com/watch?v=06_rTuq6ooA",
+      "caption": "B2B营销代运营资料中提及的视频：He Shut down SaaS to Print Money ($700k) in High Margin Agency model",
+      "alt": "He Shut down SaaS to Print Money ($700k) in High Margin Agency model",
       "sourceUrl": "https://www.starterstory.com/stories/fullfunnel",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/06_rTuq6ooA/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/s3thrrqbjem3qler43fak7dop7v2",
-      "caption": "B2B营销代运营项目公开展示素材",
-      "alt": "B2B营销代运营项目展示图",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/wjD0itLFrVM",
+      "watchUrl": "https://www.youtube.com/watch?v=wjD0itLFrVM",
+      "caption": "B2B营销代运营资料中提及的视频：How FullFunnel.io helps B2B companies to boost their sales? | with Founder Andrei Zinkevich",
+      "alt": "How FullFunnel.io helps B2B companies to boost their sales? | with Founder Andrei Zinkevich",
       "sourceUrl": "https://www.starterstory.com/stories/fullfunnel",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/9pgfik1nc0uj7b4qq9x37yofgvoj",
-      "caption": "B2B营销代运营项目公开展示素材",
-      "alt": "B2B营销代运营项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/fullfunnel",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/wjD0itLFrVM/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +176,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2249,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

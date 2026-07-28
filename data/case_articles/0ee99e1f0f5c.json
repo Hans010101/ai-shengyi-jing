@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/9plegu3nbemk3gbql72q1as08752",
-      "caption": "本地垃圾清运服务公开案例主图",
-      "alt": "本地垃圾清运服务案例图片",
+      "caption": "本地垃圾清运服务：通过出租垃圾箱和定期清理收费",
+      "alt": "本地垃圾清运服务：通过出租垃圾箱和定期清理收费",
       "sourceUrl": "https://www.starterstory.com/stories/soco-waste",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/449/original/open-uri20220402-3-1lgn10u?1648870590",
-      "caption": "本地垃圾清运服务项目公开展示素材",
-      "alt": "soco-waste",
+      "caption": "本地垃圾清运服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "本地垃圾清运服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/soco-waste",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/450/original/open-uri20220402-3-1w8csnb?1648870591",
-      "caption": "本地垃圾清运服务项目公开展示素材",
-      "alt": "soco-waste",
+      "caption": "本地垃圾清运服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "本地垃圾清运服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/soco-waste",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/451/original/open-uri20220402-3-144dkgx?1648870592",
-      "caption": "本地垃圾清运服务项目公开展示素材",
-      "alt": "soco-waste",
+      "caption": "本地垃圾清运服务：创业复盘与关键经验相关原始配图（第3张）",
+      "alt": "本地垃圾清运服务：创业复盘与关键经验相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/soco-waste",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "本地垃圾清运服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/soco-waste",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2206,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

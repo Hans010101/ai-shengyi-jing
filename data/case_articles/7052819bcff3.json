@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/gwur9li6zpdtk27ie35czmv3wdtm",
-      "caption": "网站速度优化服务公开案例主图",
-      "alt": "网站速度优化服务案例图片",
+      "caption": "网站速度优化服务：通过提升电商网站加载速度，按月收费",
+      "alt": "网站速度优化服务：通过提升电商网站加载速度，按月收费",
       "sourceUrl": "https://www.starterstory.com/stories/speed-your-web",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/900/original/open-uri20230118-12-48nw1l?1674046265",
-      "caption": "网站速度优化服务项目公开展示素材",
-      "alt": "speed-your-web",
+      "caption": "网站速度优化服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "网站速度优化服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/speed-your-web",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/901/original/open-uri20230118-12-9r0av4?1674046266",
-      "caption": "网站速度优化服务项目公开展示素材",
-      "alt": "speed-your-web",
+      "caption": "网站速度优化服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "网站速度优化服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/speed-your-web",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "网站速度优化服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/speed-your-web",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/wr4g5jkn9asua0e8t3iks2t00ebv",
-      "caption": "网站速度优化服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/speed-your-web",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2253,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

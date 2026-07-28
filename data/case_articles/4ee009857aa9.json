@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/obwuk1151nv7sltkj3vabewhyykw",
-      "caption": "为电商提供结账优化SaaS公开案例主图",
-      "alt": "为电商提供结账优化SaaS案例图片",
+      "caption": "为电商提供结账优化SaaS：按月订阅收费",
+      "alt": "为电商提供结账优化SaaS：按月订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/bootstrapping-to-1m-arr-by-building-something-i-needed",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/807/original/open-uri20190611-4-yo26cw?1560254577",
-      "caption": "为电商提供结账优化SaaS项目公开展示素材",
-      "alt": "bootstrapping-to-1m-arr-by-building-something-i-needed",
+      "caption": "为电商提供结账优化SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为电商提供结账优化SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/bootstrapping-to-1m-arr-by-building-something-i-needed",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/808/original/open-uri20190611-4-1az458e?1560254577",
-      "caption": "为电商提供结账优化SaaS项目公开展示素材",
-      "alt": "bootstrapping-to-1m-arr-by-building-something-i-needed",
+      "caption": "为电商提供结账优化SaaS：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "为电商提供结账优化SaaS：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/bootstrapping-to-1m-arr-by-building-something-i-needed",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/809/original/open-uri20190611-4-13cmug8?1560254578",
-      "caption": "为电商提供结账优化SaaS项目公开展示素材",
-      "alt": "bootstrapping-to-1m-arr-by-building-something-i-needed",
+      "caption": "为电商提供结账优化SaaS：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "为电商提供结账优化SaaS：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/bootstrapping-to-1m-arr-by-building-something-i-needed",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/810/original/open-uri20190611-4-1coaz6n?1560254579",
-      "caption": "为电商提供结账优化SaaS项目公开展示素材",
-      "alt": "bootstrapping-to-1m-arr-by-building-something-i-needed",
-      "sourceUrl": "https://www.starterstory.com/stories/bootstrapping-to-1m-arr-by-building-something-i-needed",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2259,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

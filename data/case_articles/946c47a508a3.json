@@ -122,47 +122,34 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/q2gpye2516q827wftfubmw0swhve",
-      "caption": "尼日利亚博主公开案例主图",
-      "alt": "尼日利亚博主案例图片",
+      "caption": "尼日利亚博主：通过多站点广告和联盟营销月入1.3万美元",
+      "alt": "尼日利亚博主：通过多站点广告和联盟营销月入1.3万美元",
       "sourceUrl": "https://www.starterstory.com/stories/entrepreneur-business-blog-13133600-8791-4691-a179-8a8ddcdb923b",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/495/original/open-uri20230516-63-4ointg?1684213177",
-      "caption": "尼日利亚博主项目公开展示素材",
+      "caption": "尼日利亚博主：创始人、核心产品与品牌起点相关原始配图",
       "alt": "Emenike Emmanuel & His Wife",
       "sourceUrl": "https://www.starterstory.com/stories/entrepreneur-business-blog-13133600-8791-4691-a179-8a8ddcdb923b",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "尼日利亚博主项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/fGwYThsVa2g",
+      "watchUrl": "https://www.youtube.com/watch?v=fGwYThsVa2g",
+      "caption": "尼日利亚博主资料中提及的视频：How To Choose A Profitable Blogging Niche In 2024: The 4-Step Process",
+      "alt": "How To Choose A Profitable Blogging Niche In 2024: The 4-Step Process",
       "sourceUrl": "https://www.starterstory.com/stories/entrepreneur-business-blog-13133600-8791-4691-a179-8a8ddcdb923b",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/fyhbx2o0p0ivjbzkcaxfg3kkessb",
-      "caption": "尼日利亚博主项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/entrepreneur-business-blog-13133600-8791-4691-a179-8a8ddcdb923b",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "尼日利亚博主项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/entrepreneur-business-blog-13133600-8791-4691-a179-8a8ddcdb923b",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/fGwYThsVa2g/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +164,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2192,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

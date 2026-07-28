@@ -122,56 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/hnvzdr43a7xybwqxpdp3nh8behln",
-      "caption": "宠物服务在线商店公开案例主图",
-      "alt": "宠物服务在线商店案例图片",
+      "caption": "宠物服务在线商店：提供遛狗、寄养等，按次或套餐收费",
+      "alt": "宠物服务在线商店：提供遛狗、寄养等，按次或套餐收费",
       "sourceUrl": "https://www.starterstory.com/stories/furry-fellas-pet-service-llc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/418/original/open-uri20220628-12-59x213?1656429512",
-      "caption": "宠物服务在线商店项目公开展示素材",
-      "alt": "furry-fellas-pet-service-llc",
+      "caption": "宠物服务在线商店：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "宠物服务在线商店：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/furry-fellas-pet-service-llc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/419/original/open-uri20220628-12-xkih0r?1656429513",
-      "caption": "宠物服务在线商店项目公开展示素材",
-      "alt": "furry-fellas-pet-service-llc",
+      "caption": "宠物服务在线商店：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "宠物服务在线商店：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/furry-fellas-pet-service-llc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "宠物服务在线商店项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/furry-fellas-pet-service-llc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/494djw67dh2a5d4hk1j7rbnpfb28",
-      "caption": "宠物服务在线商店项目公开展示素材",
-      "alt": "宠物服务在线商店项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/furry-fellas-pet-service-llc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/kixuym0yjeyltse3cgk41unywwkf",
-      "caption": "宠物服务在线商店项目公开展示素材",
-      "alt": "宠物服务在线商店项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/furry-fellas-pet-service-llc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2198,
-    "mediaCount": 6
+    "mediaCount": 3
   }
 }

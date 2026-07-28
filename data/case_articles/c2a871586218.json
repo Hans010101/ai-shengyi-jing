@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/i4p5ez5fv3xs8cpwvj51l4ye9i73",
-      "caption": "AI加速开发者构建应用的平台公开案例主图",
-      "alt": "AI加速开发者构建应用的平台案例图片",
+      "caption": "AI加速开发者构建应用的平台：通过订阅制收费",
+      "alt": "AI加速开发者构建应用的平台：通过订阅制收费",
       "sourceUrl": "https://www.starterstory.com/stories/open-weaver",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/739/original/open-uri20221227-12-ay3j72?1672117319",
-      "caption": "AI加速开发者构建应用的平台项目公开展示素材",
-      "alt": "open-weaver",
+      "caption": "AI加速开发者构建应用的平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI加速开发者构建应用的平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/open-weaver",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/740/original/open-uri20221227-12-ilaiuf?1672117320",
-      "caption": "AI加速开发者构建应用的平台项目公开展示素材",
-      "alt": "open-weaver",
+      "caption": "AI加速开发者构建应用的平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI加速开发者构建应用的平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/open-weaver",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/741/original/open-uri20221227-12-1iyjhys?1672117321",
-      "caption": "AI加速开发者构建应用的平台项目公开展示素材",
-      "alt": "open-weaver",
+      "caption": "AI加速开发者构建应用的平台：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "AI加速开发者构建应用的平台：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/open-weaver",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI加速开发者构建应用的平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/open-weaver",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "AI加速开发者构建应用的平台项目公开展示素材",
-      "alt": "AI加速开发者构建应用的平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/open-weaver",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2339,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

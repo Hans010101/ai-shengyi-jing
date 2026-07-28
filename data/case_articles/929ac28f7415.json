@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/lcildz0cnlatwrk08nrpx1srzco0",
-      "caption": "从NFT转型高端拼图公开案例主图",
-      "alt": "从NFT转型高端拼图案例图片",
+      "caption": "从NFT转型高端拼图：月入$400的副业项目",
+      "alt": "从NFT转型高端拼图：月入$400的副业项目",
       "sourceUrl": "https://www.starterstory.com/stories/bear-park",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/257/original/open-uri20240228-65-nrolxe?1709133674",
-      "caption": "从NFT转型高端拼图项目公开展示素材",
-      "alt": "bear-park",
+      "caption": "从NFT转型高端拼图：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "从NFT转型高端拼图：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/bear-park",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/258/original/open-uri20240228-65-126kmfd?1709133675",
-      "caption": "从NFT转型高端拼图项目公开展示素材",
-      "alt": "bear-park",
+      "caption": "从NFT转型高端拼图：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "从NFT转型高端拼图：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/bear-park",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/259/original/open-uri20240228-65-q28s5m?1709133676",
-      "caption": "从NFT转型高端拼图项目公开展示素材",
-      "alt": "bear-park",
+      "caption": "从NFT转型高端拼图：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "从NFT转型高端拼图：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/bear-park",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/260/original/open-uri20240228-65-1j408er?1709133678",
-      "caption": "从NFT转型高端拼图项目公开展示素材",
-      "alt": "bear-park",
-      "sourceUrl": "https://www.starterstory.com/stories/bear-park",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2127,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

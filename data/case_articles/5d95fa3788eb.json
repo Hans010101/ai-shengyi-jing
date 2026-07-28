@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/qw1yki8yjnd9gkwxb582pwwrozjc",
-      "caption": "公开创业软件矩阵公开案例主图",
-      "alt": "公开创业软件矩阵案例图片",
+      "caption": "公开创业软件矩阵：Dominik通过公开分享创业过程，零广告费获客，销售多款SaaS产品月入5K美元",
+      "alt": "公开创业软件矩阵：Dominik通过公开分享创业过程，零广告费获客，销售多款SaaS产品月入5K美元",
       "sourceUrl": "https://www.starterstory.com/stories/helpkit",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/909/original/open-uri20221107-24-uce6io?1667822610",
-      "caption": "公开创业软件矩阵项目公开展示素材",
-      "alt": "helpkit",
+      "caption": "公开创业软件矩阵：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "公开创业软件矩阵：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/helpkit",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/910/original/open-uri20221107-24-jwpku?1667822612",
-      "caption": "公开创业软件矩阵项目公开展示素材",
-      "alt": "helpkit",
+      "caption": "公开创业软件矩阵：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "公开创业软件矩阵：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/helpkit",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/911/original/open-uri20221107-24-z8cq8g?1667822613",
-      "caption": "公开创业软件矩阵项目公开展示素材",
-      "alt": "helpkit",
+      "caption": "公开创业软件矩阵：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "公开创业软件矩阵：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/helpkit",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/912/original/open-uri20221107-24-1xv53m?1667822613",
-      "caption": "公开创业软件矩阵项目公开展示素材",
-      "alt": "helpkit",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/wpAZICjeZnw",
+      "watchUrl": "https://www.youtube.com/watch?v=wpAZICjeZnw",
+      "caption": "公开创业软件矩阵资料中提及的视频：How to Create a Knowledge Base with Notion",
+      "alt": "How to Create a Knowledge Base with Notion",
       "sourceUrl": "https://www.starterstory.com/stories/helpkit",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/wpAZICjeZnw/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

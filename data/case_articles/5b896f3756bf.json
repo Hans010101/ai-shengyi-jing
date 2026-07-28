@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/z23x2fzq4cbaeyvuxr61iqx19tyk",
-      "caption": "20年历史的CRM公司公开案例主图",
-      "alt": "20年历史的CRM公司案例图片",
+      "caption": "20年历史的CRM公司：年营收190万美元，通过订阅制SaaS服务盈利",
+      "alt": "20年历史的CRM公司：年营收190万美元，通过订阅制SaaS服务盈利",
       "sourceUrl": "https://www.starterstory.com/stories/greenrope",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/168/original/open-uri20220323-3-1e1jwal?1648052844",
-      "caption": "20年历史的CRM公司项目公开展示素材",
-      "alt": "greenrope",
+      "caption": "20年历史的CRM公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "20年历史的CRM公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/greenrope",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/169/original/open-uri20220323-3-djbfdh?1648052845",
-      "caption": "20年历史的CRM公司项目公开展示素材",
-      "alt": "greenrope",
+      "caption": "20年历史的CRM公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "20年历史的CRM公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/greenrope",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/170/original/open-uri20220323-3-1n3lkgn?1648052846",
-      "caption": "20年历史的CRM公司项目公开展示素材",
-      "alt": "greenrope",
+      "caption": "20年历史的CRM公司：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "20年历史的CRM公司：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/greenrope",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/171/original/open-uri20220323-3-x8efsc?1648052847",
-      "caption": "20年历史的CRM公司项目公开展示素材",
-      "alt": "greenrope",
-      "sourceUrl": "https://www.starterstory.com/stories/greenrope",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2221,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

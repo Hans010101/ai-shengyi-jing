@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/vilhh8ptkrrzkwkl9ukkb5e68gfl",
-      "caption": "B2B翻译服务公司公开案例主图",
-      "alt": "B2B翻译服务公司案例图片",
+      "caption": "B2B翻译服务公司：靠专业人工翻译+项目管理盈利",
+      "alt": "B2B翻译服务公司：靠专业人工翻译+项目管理盈利",
       "sourceUrl": "https://www.starterstory.com/stories/deman-ubersetzungen",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/355/original/open-uri20221130-12-72o4tl?1669773206",
-      "caption": "B2B翻译服务公司项目公开展示素材",
-      "alt": "deman-ubersetzungen",
+      "caption": "B2B翻译服务公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "B2B翻译服务公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/deman-ubersetzungen",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/356/original/open-uri20221130-12-jlbms9?1669773207",
-      "caption": "B2B翻译服务公司项目公开展示素材",
-      "alt": "deman-ubersetzungen",
+      "caption": "B2B翻译服务公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "B2B翻译服务公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/deman-ubersetzungen",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "B2B翻译服务公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/deman-ubersetzungen",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "B2B翻译服务公司项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/deman-ubersetzungen",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2182,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

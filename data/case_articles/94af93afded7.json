@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/u4hqy1u9wziz40zxdc63ph3bo0dk",
-      "caption": "数字营销代运营服务公开案例主图",
-      "alt": "数字营销代运营服务案例图片",
+      "caption": "数字营销代运营服务：月入1.5万美元",
+      "alt": "数字营销代运营服务：月入1.5万美元",
       "sourceUrl": "https://www.starterstory.com/stories/get-x-media",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/708/original/open-uri20230602-51-fstd3n?1685676441",
-      "caption": "数字营销代运营服务项目公开展示素材",
-      "alt": "get-x-media",
+      "caption": "数字营销代运营服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "数字营销代运营服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/get-x-media",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/709/original/open-uri20230602-51-1qcz17e?1685676442",
-      "caption": "数字营销代运营服务项目公开展示素材",
-      "alt": "get-x-media",
+      "caption": "数字营销代运营服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "数字营销代运营服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/get-x-media",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/710/original/open-uri20230602-51-pmx7pk?1685676443",
-      "caption": "数字营销代运营服务项目公开展示素材",
-      "alt": "get-x-media",
+      "caption": "数字营销代运营服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "数字营销代运营服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/get-x-media",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/711/original/open-uri20230602-51-195e0h9?1685676444",
-      "caption": "数字营销代运营服务项目公开展示素材",
-      "alt": "get-x-media",
-      "sourceUrl": "https://www.starterstory.com/stories/get-x-media",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "数字营销代运营服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/get-x-media",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2203,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

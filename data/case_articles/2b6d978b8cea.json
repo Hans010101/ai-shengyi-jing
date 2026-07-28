@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/tfxtba6jxlyvfln84ano1qgqivsa",
-      "caption": "女性个人理财媒体平台公开案例主图",
-      "alt": "女性个人理财媒体平台案例图片",
+      "caption": "女性个人理财媒体平台：通过内容+会员+联盟营销赚钱",
+      "alt": "女性个人理财媒体平台：通过内容+会员+联盟营销赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/radical-fire",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/041/original/open-uri20230421-63-ba72z0?1682055657",
-      "caption": "女性个人理财媒体平台项目公开展示素材",
-      "alt": "radical-fire",
+      "caption": "女性个人理财媒体平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "女性个人理财媒体平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/radical-fire",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/042/original/open-uri20230421-63-j1m46k?1682055657",
-      "caption": "女性个人理财媒体平台项目公开展示素材",
-      "alt": "radical-fire",
+      "caption": "女性个人理财媒体平台：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "女性个人理财媒体平台：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/radical-fire",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "女性个人理财媒体平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/radical-fire",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/glia3fse1raug40hg8lpkg3rg09w",
-      "caption": "女性个人理财媒体平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/radical-fire",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2263,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/4jpa66crhimh2u7sm79gvzwf94of",
-      "caption": "短期店铺租赁平台公开案例主图",
-      "alt": "短期店铺租赁平台案例图片",
+      "caption": "短期店铺租赁平台：连接空置商铺与品牌，收取佣金",
+      "alt": "短期店铺租赁平台：连接空置商铺与品牌，收取佣金",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-built-a-short-term-rental-business-for-shops-pop-up-stores-and-venues",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/243/original/open-uri20210819-3-18ye7wh?1629392032",
-      "caption": "短期店铺租赁平台项目公开展示素材",
-      "alt": "storefront",
+      "caption": "短期店铺租赁平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "短期店铺租赁平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-built-a-short-term-rental-business-for-shops-pop-up-stores-and-venues",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/244/original/open-uri20210819-3-16c23ef?1629392032",
-      "caption": "短期店铺租赁平台项目公开展示素材",
-      "alt": "storefront",
+      "caption": "短期店铺租赁平台：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "短期店铺租赁平台：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-built-a-short-term-rental-business-for-shops-pop-up-stores-and-venues",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/245/original/open-uri20210819-3-1to39e0?1629392032",
-      "caption": "短期店铺租赁平台项目公开展示素材",
-      "alt": "storefront",
+      "caption": "短期店铺租赁平台：当前经营状态与下一步规划相关原始配图（第3张）",
+      "alt": "短期店铺租赁平台：当前经营状态与下一步规划相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-built-a-short-term-rental-business-for-shops-pop-up-stores-and-venues",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "短期店铺租赁平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-built-a-short-term-rental-business-for-shops-pop-up-stores-and-venues",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2264,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

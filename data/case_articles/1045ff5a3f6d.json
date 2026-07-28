@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/m036fdfjq9u4jwzyjo9ba4we6f2y",
-      "caption": "Word协作与版本控制工具公开案例主图",
-      "alt": "Word协作与版本控制工具案例图片",
+      "caption": "Word协作与版本控制工具：订阅制收费",
+      "alt": "Word协作与版本控制工具：订阅制收费",
       "sourceUrl": "https://www.starterstory.com/stories/we-built-a-six-figure-collaboration-tool-for-microsoft-word-over-10k-users",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/184/original/open-uri20220210-3-pkj0hn?1644515513",
-      "caption": "Word协作与版本控制工具项目公开展示素材",
-      "alt": "we-built-a-six-figure-collaboration-tool-for-microsoft-word-over-10k-users",
+      "caption": "Word协作与版本控制工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "Word协作与版本控制工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/we-built-a-six-figure-collaboration-tool-for-microsoft-word-over-10k-users",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/185/original/open-uri20220210-3-10wfwo4?1644515514",
-      "caption": "Word协作与版本控制工具项目公开展示素材",
-      "alt": "we-built-a-six-figure-collaboration-tool-for-microsoft-word-over-10k-users",
+      "caption": "Word协作与版本控制工具：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "Word协作与版本控制工具：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-built-a-six-figure-collaboration-tool-for-microsoft-word-over-10k-users",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "Word协作与版本控制工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/we-built-a-six-figure-collaboration-tool-for-microsoft-word-over-10k-users",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/p21ts159h2jq9q519g25528av7yd",
-      "caption": "Word协作与版本控制工具项目公开展示素材",
-      "alt": "Word协作与版本控制工具项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/we-built-a-six-figure-collaboration-tool-for-microsoft-word-over-10k-users",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2314,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/q6h33dlnxe98wssm5zaj7rsqnhmu",
-      "caption": "AI反洗钱SaaS平台公开案例主图",
-      "alt": "AI反洗钱SaaS平台案例图片",
+      "caption": "AI反洗钱SaaS平台：按年订阅收费",
+      "alt": "AI反洗钱SaaS平台：按年订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/kyc-hub",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/866/original/open-uri20230623-64-jbkqkc?1687492879",
-      "caption": "AI反洗钱SaaS平台项目公开展示素材",
-      "alt": "kyc-hub",
+      "caption": "AI反洗钱SaaS平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI反洗钱SaaS平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/kyc-hub",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI反洗钱SaaS平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/kyc-hub",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/2r0bmvunp6hplaeyu1t5rm1lcgma",
-      "caption": "AI反洗钱SaaS平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/kyc-hub",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/o0cz8ezzjj8uumvwu7ij6bu599gm",
-      "caption": "AI反洗钱SaaS平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/kyc-hub",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2234,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/swgncikxabdkwyo1bg3bmbcwf9mr",
-      "caption": "GRC合规工具SaaS公开案例主图",
-      "alt": "GRC合规工具SaaS案例图片",
+      "caption": "GRC合规工具SaaS：年营收30万美元",
+      "alt": "GRC合规工具SaaS：年营收30万美元",
       "sourceUrl": "https://www.starterstory.com/stories/this-solo-founder-turned-an-internal-grc-tool-into-a-300k-year-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/742/original/open-uri20220105-3-1vyjvim?1641360697",
-      "caption": "GRC合规工具SaaS项目公开展示素材",
-      "alt": "this-solo-founder-turned-an-internal-grc-tool-into-a-300k-year-business",
+      "caption": "GRC合规工具SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "GRC合规工具SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/this-solo-founder-turned-an-internal-grc-tool-into-a-300k-year-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/743/original/open-uri20220105-3-s6zzgk?1641360698",
-      "caption": "GRC合规工具SaaS项目公开展示素材",
-      "alt": "this-solo-founder-turned-an-internal-grc-tool-into-a-300k-year-business",
+      "caption": "GRC合规工具SaaS：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "GRC合规工具SaaS：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/this-solo-founder-turned-an-internal-grc-tool-into-a-300k-year-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/744/original/open-uri20220105-3-15v7dvc?1641360699",
-      "caption": "GRC合规工具SaaS项目公开展示素材",
-      "alt": "this-solo-founder-turned-an-internal-grc-tool-into-a-300k-year-business",
+      "caption": "GRC合规工具SaaS：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "GRC合规工具SaaS：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/this-solo-founder-turned-an-internal-grc-tool-into-a-300k-year-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/745/original/open-uri20220105-3-1wt6ek8?1641360699",
-      "caption": "GRC合规工具SaaS项目公开展示素材",
-      "alt": "this-solo-founder-turned-an-internal-grc-tool-into-a-300k-year-business",
-      "sourceUrl": "https://www.starterstory.com/stories/this-solo-founder-turned-an-internal-grc-tool-into-a-300k-year-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/746/original/open-uri20220105-3-hqfh4n?1641360700",
-      "caption": "GRC合规工具SaaS项目公开展示素材",
-      "alt": "this-solo-founder-turned-an-internal-grc-tool-into-a-300k-year-business",
-      "sourceUrl": "https://www.starterstory.com/stories/this-solo-founder-turned-an-internal-grc-tool-into-a-300k-year-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2242,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

@@ -122,56 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/j36xrz2fgn2n6lefkn2srby0podl",
-      "caption": "AI驱动的求职辅助工具公开案例主图",
-      "alt": "AI驱动的求职辅助工具案例图片",
+      "caption": "AI驱动的求职辅助工具：直接向求职者收费",
+      "alt": "AI驱动的求职辅助工具：直接向求职者收费",
       "sourceUrl": "https://www.starterstory.com/businesses/jobric",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI驱动的求职辅助工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/jobric",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/skel5fw65huvmh80ht3bbtkevrky",
-      "caption": "AI驱动的求职辅助工具项目公开展示素材",
-      "alt": "Jobric logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/jobric",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/r2802et3u73ma76e9yxocs3ql92e/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "AI驱动的求职辅助工具项目公开展示素材",
-      "alt": "Erik Chavez",
-      "sourceUrl": "https://www.starterstory.com/businesses/jobric",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/dmy6wbomf2htumlzs94m3oabcd3y/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "AI驱动的求职辅助工具项目公开展示素材",
-      "alt": "Node.js",
-      "sourceUrl": "https://www.starterstory.com/businesses/jobric",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/b9ofnxkmzl283m6fgqbxt8r46kuv/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "AI驱动的求职辅助工具项目公开展示素材",
-      "alt": "PostgreSQL",
-      "sourceUrl": "https://www.starterstory.com/businesses/jobric",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -186,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2191,
-    "mediaCount": 6
+    "mediaCount": 1
   }
 }

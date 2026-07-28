@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/6bdd2uu9xrv8j62dyomne0jh5lpo",
-      "caption": "帮内容创作者对接赞助公开案例主图",
-      "alt": "帮内容创作者对接赞助案例图片",
+      "caption": "帮内容创作者对接赞助：赚取平台佣金",
+      "alt": "帮内容创作者对接赞助：赚取平台佣金",
       "sourceUrl": "https://www.starterstory.com/stories/passionfroot",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/928/original/open-uri20231005-48-1iz0h1o?1696507011",
-      "caption": "帮内容创作者对接赞助项目公开展示素材",
-      "alt": "passionfroot",
+      "caption": "帮内容创作者对接赞助：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "帮内容创作者对接赞助：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/passionfroot",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/929/original/open-uri20231005-48-1wclr7i?1696507012",
-      "caption": "帮内容创作者对接赞助项目公开展示素材",
-      "alt": "passionfroot",
+      "caption": "帮内容创作者对接赞助：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "帮内容创作者对接赞助：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/passionfroot",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/930/original/open-uri20231005-48-1fdbkas?1696507013",
-      "caption": "帮内容创作者对接赞助项目公开展示素材",
-      "alt": "passionfroot",
+      "caption": "帮内容创作者对接赞助：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "帮内容创作者对接赞助：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/passionfroot",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "帮内容创作者对接赞助项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/passionfroot",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2162,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

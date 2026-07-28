@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/bwe4sd9zf03te8639y7ma71c5ezt",
-      "caption": "邮件营销平台公开案例主图",
-      "alt": "邮件营销平台案例图片",
+      "caption": "邮件营销平台：通过交互式邮件提升转化，按月订阅收费",
+      "alt": "邮件营销平台：通过交互式邮件提升转化，按月订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/mailmodo",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/829/original/open-uri20220919-13-inr3ju?1663564811",
-      "caption": "邮件营销平台项目公开展示素材",
-      "alt": "mailmodo",
+      "caption": "邮件营销平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "邮件营销平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/mailmodo",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/830/original/open-uri20220919-13-1q6xs05?1663564811",
-      "caption": "邮件营销平台项目公开展示素材",
-      "alt": "mailmodo",
+      "caption": "邮件营销平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "邮件营销平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/mailmodo",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/831/original/open-uri20220919-13-123v8y?1663564812",
-      "caption": "邮件营销平台项目公开展示素材",
-      "alt": "mailmodo",
+      "caption": "邮件营销平台：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "邮件营销平台：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/mailmodo",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/832/original/open-uri20220919-13-1spmapn?1663564813",
-      "caption": "邮件营销平台项目公开展示素材",
-      "alt": "mailmodo",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/Vj3WlP34GfU",
+      "watchUrl": "https://www.youtube.com/watch?v=Vj3WlP34GfU",
+      "caption": "邮件营销平台资料中提及的视频：Aquibur Rahman, CEO at Mailmodo in CloudEagle's Vendor video series with Prasanna Naik",
+      "alt": "Aquibur Rahman, CEO at Mailmodo in CloudEagle's Vendor video series with Prasanna Naik",
       "sourceUrl": "https://www.starterstory.com/stories/mailmodo",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/Vj3WlP34GfU/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

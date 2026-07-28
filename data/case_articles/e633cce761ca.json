@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/6yjauh6dk04b9id98vyl702iv60v",
-      "caption": "RPG式后端编程课程平台公开案例主图",
-      "alt": "RPG式后端编程课程平台案例图片",
+      "caption": "RPG式后端编程课程平台：通过订阅制收费",
+      "alt": "RPG式后端编程课程平台：通过订阅制收费",
       "sourceUrl": "https://www.starterstory.com/stories/boot-dev",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/730/original/open-uri20230608-63-xg78ly?1686201695",
-      "caption": "RPG式后端编程课程平台项目公开展示素材",
-      "alt": "boot-dev",
+      "caption": "RPG式后端编程课程平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "RPG式后端编程课程平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/boot-dev",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "RPG式后端编程课程平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/boot-dev",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/5q3k99f5s1xaq0hp1tgt3p1mpfp3",
-      "caption": "RPG式后端编程课程平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/boot-dev",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/1s7m5fyj6w1je4ry8bo80hv3i7n3",
-      "caption": "RPG式后端编程课程平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/boot-dev",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2251,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

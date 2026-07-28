@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/t5tyybvkvrmz96pdtugy2zdk5al7",
-      "caption": "个人理财内容网站公开案例主图",
-      "alt": "个人理财内容网站案例图片",
+      "caption": "个人理财内容网站：通过广告和联盟营销赚钱",
+      "alt": "个人理财内容网站：通过广告和联盟营销赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/the-ways-to-wealth-llc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/060/original/open-uri20220321-3-87gr9z?1647891837",
-      "caption": "个人理财内容网站项目公开展示素材",
-      "alt": "the-ways-to-wealth-llc",
+      "caption": "个人理财内容网站：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "个人理财内容网站：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/the-ways-to-wealth-llc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/061/original/open-uri20220321-3-1ryn552?1647891837",
-      "caption": "个人理财内容网站项目公开展示素材",
-      "alt": "the-ways-to-wealth-llc",
+      "caption": "个人理财内容网站：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "个人理财内容网站：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/the-ways-to-wealth-llc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "个人理财内容网站项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/the-ways-to-wealth-llc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c4me70k5m0mm12pxyt9ra653p556",
-      "caption": "个人理财内容网站项目公开展示素材",
-      "alt": "个人理财内容网站项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/the-ways-to-wealth-llc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2206,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

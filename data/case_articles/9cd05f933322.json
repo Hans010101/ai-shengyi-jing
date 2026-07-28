@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/rnkjoh5mbsc7e1ttl5hmsgoyq5kk",
-      "caption": "为Shopify商家提供AI分析工具公开案例主图",
-      "alt": "为Shopify商家提供AI分析工具案例图片",
+      "caption": "为Shopify商家提供AI分析工具：按月订阅收费",
+      "alt": "为Shopify商家提供AI分析工具：按月订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/our-analytics-app-for-shopify-reached-12k-mrr-in-just-7-months",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/639/original/open-uri20211030-3-15m73k?1635610134",
-      "caption": "为Shopify商家提供AI分析工具项目公开展示素材",
+      "caption": "为Shopify商家提供AI分析工具：创始人、核心产品与品牌起点相关原始配图",
       "alt": "Erman Küplü - Founder of Analyzify",
       "sourceUrl": "https://www.starterstory.com/stories/our-analytics-app-for-shopify-reached-12k-mrr-in-just-7-months",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/640/original/open-uri20211030-3-ufbpzy?1635610136",
-      "caption": "为Shopify商家提供AI分析工具项目公开展示素材",
+      "caption": "为Shopify商家提供AI分析工具：产品上线与首次发布相关原始配图（第2张）",
       "alt": "Analyzify.app 1st Website Screenshot",
       "sourceUrl": "https://www.starterstory.com/stories/our-analytics-app-for-shopify-reached-12k-mrr-in-just-7-months",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/641/original/open-uri20211030-3-ravybv?1635610136",
-      "caption": "为Shopify商家提供AI分析工具项目公开展示素材",
+      "caption": "为Shopify商家提供AI分析工具：产品上线与首次发布相关原始配图（第3张）",
       "alt": "Analyzify Approved by Shopify App Store",
       "sourceUrl": "https://www.starterstory.com/stories/our-analytics-app-for-shopify-reached-12k-mrr-in-just-7-months",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/642/original/open-uri20211030-3-1870ks?1635610137",
-      "caption": "为Shopify商家提供AI分析工具项目公开展示素材",
-      "alt": "Analyzify Shopify App First Successful Reviews",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/K0kUtXVi0cE",
+      "watchUrl": "https://www.youtube.com/watch?v=K0kUtXVi0cE",
+      "caption": "为Shopify商家提供AI分析工具资料中提及的视频：Google Analytics 4 - Shopify Setup with GA4 Ecommerce Tracking [Step-by-Step]",
+      "alt": "Google Analytics 4 - Shopify Setup with GA4 Ecommerce Tracking [Step-by-Step]",
       "sourceUrl": "https://www.starterstory.com/stories/our-analytics-app-for-shopify-reached-12k-mrr-in-just-7-months",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/K0kUtXVi0cE/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

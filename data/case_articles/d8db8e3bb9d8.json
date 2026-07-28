@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/d1bnxvgj94gqyqf8tbqvdbot1s5p",
-      "caption": "AI工具帮用户快速生成内容并变现公开案例主图",
-      "alt": "AI工具帮用户快速生成内容并变现案例图片",
+      "caption": "AI工具帮用户快速生成内容并变现：通过订阅制赚钱",
+      "alt": "AI工具帮用户快速生成内容并变现：通过订阅制赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/this-app-made-over-1m",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI工具帮用户快速生成内容并变现项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/this-app-made-over-1m",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/dec2e283fc10e309",
-      "caption": "AI工具帮用户快速生成内容并变现项目公开展示素材",
-      "alt": "Pat Walls",
-      "sourceUrl": "https://www.starterstory.com/stories/this-app-made-over-1m",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/3d0celdrs9ugtg77g37hjvvnmyhi/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "AI工具帮用户快速生成内容并变现项目公开展示素材",
-      "alt": "YouTube",
-      "sourceUrl": "https://www.starterstory.com/stories/this-app-made-over-1m",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/jf00lbyg1rpq8uy6wa3zb4ostis8/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "AI工具帮用户快速生成内容并变现项目公开展示素材",
-      "alt": "Trello",
-      "sourceUrl": "https://www.starterstory.com/stories/this-app-made-over-1m",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2152,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

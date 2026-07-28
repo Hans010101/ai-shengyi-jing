@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/1e1jtll5r7m0k1kxk1g9n6vcfihi",
-      "caption": "B2B销售咨询公司公开案例主图",
-      "alt": "B2B销售咨询公司案例图片",
+      "caption": "B2B销售咨询公司：通过团体培训和定制服务帮助客户建立销售体系赚钱",
+      "alt": "B2B销售咨询公司：通过团体培训和定制服务帮助客户建立销售体系赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/vouris",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/296/original/open-uri20230813-48-oyhn30?1691938144",
-      "caption": "B2B销售咨询公司项目公开展示素材",
-      "alt": "vouris",
+      "caption": "B2B销售咨询公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "B2B销售咨询公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/vouris",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/297/original/open-uri20230813-48-17m6l5n?1691938146",
-      "caption": "B2B销售咨询公司项目公开展示素材",
-      "alt": "vouris",
+      "caption": "B2B销售咨询公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "B2B销售咨询公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/vouris",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/298/original/open-uri20230813-48-1kltx4i?1691938146",
-      "caption": "B2B销售咨询公司项目公开展示素材",
-      "alt": "vouris",
+      "caption": "B2B销售咨询公司：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "B2B销售咨询公司：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/vouris",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "B2B销售咨询公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/vouris",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2338,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

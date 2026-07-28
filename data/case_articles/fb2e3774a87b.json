@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/6kd38vmaitp8qfqyxz3j0a8mn9m3",
-      "caption": "滤网电商公开案例主图",
-      "alt": "滤网电商案例图片",
+      "caption": "滤网电商：自产自销+订阅模式，年营收2.5亿美元",
+      "alt": "滤网电商：自产自销+订阅模式，年营收2.5亿美元",
       "sourceUrl": "https://www.starterstory.com/stories/filterbuy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/692/original/open-uri20241110-60-1dnnvpj?1731244514",
-      "caption": "滤网电商项目公开展示素材",
-      "alt": "filterbuy",
+      "caption": "滤网电商：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "滤网电商：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/filterbuy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "滤网电商项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/filterbuy",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/r78ky3n1xl842xwu4wwhy0gj8f2r",
-      "caption": "滤网电商项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/filterbuy",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/vtdvsz6ii7j6rdax44lx60uayvfa",
-      "caption": "滤网电商项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/filterbuy",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2270,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

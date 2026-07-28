@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/1zg671z3n3vnuqulyiitmb2yy3lw",
-      "caption": "定制软件开发公司公开案例主图",
-      "alt": "定制软件开发公司案例图片",
+      "caption": "定制软件开发公司：通过为客户开发软件项目盈利",
+      "alt": "定制软件开发公司：通过为客户开发软件项目盈利",
       "sourceUrl": "https://www.starterstory.com/stories/twelvedevs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/399/original/open-uri20220331-3-dv4xho?1648760604",
-      "caption": "定制软件开发公司项目公开展示素材",
-      "alt": "twelvedevs",
+      "caption": "定制软件开发公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "定制软件开发公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/twelvedevs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/400/original/open-uri20220331-3-1h1ap07?1648760605",
-      "caption": "定制软件开发公司项目公开展示素材",
-      "alt": "twelvedevs",
+      "caption": "定制软件开发公司：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "定制软件开发公司：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/twelvedevs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "定制软件开发公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/twelvedevs",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/cr7f89gdqn58r9mv5eyu8i5eteal",
-      "caption": "定制软件开发公司项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/twelvedevs",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2129,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

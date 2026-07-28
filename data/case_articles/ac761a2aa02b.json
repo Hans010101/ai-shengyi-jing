@@ -122,47 +122,44 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/q8utr6laqv6zbo1mtg3lw4mq5w1c",
-      "caption": "AI内容智能平台公开案例主图",
-      "alt": "AI内容智能平台案例图片",
+      "caption": "AI内容智能平台：通过SaaS订阅收费",
+      "alt": "AI内容智能平台：通过SaaS订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/on-creating-an-ai-powered-content-strategy-with-3x-growth-in-three-years",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/980/original/open-uri20210927-3-hrgv98?1632752480",
-      "caption": "AI内容智能平台项目公开展示素材",
-      "alt": "on-creating-an-ai-powered-content-strategy-with-3x-growth-in-three-years",
+      "caption": "AI内容智能平台：创业起点与创意来源相关原始配图",
+      "alt": "AI内容智能平台：创业起点与创意来源相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/on-creating-an-ai-powered-content-strategy-with-3x-growth-in-three-years",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/981/original/open-uri20210927-3-83t4ux?1632752481",
-      "caption": "AI内容智能平台项目公开展示素材",
-      "alt": "on-creating-an-ai-powered-content-strategy-with-3x-growth-in-three-years",
+      "caption": "AI内容智能平台：当前经营状态与下一步规划相关原始配图（第2张）",
+      "alt": "AI内容智能平台：当前经营状态与下一步规划相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/on-creating-an-ai-powered-content-strategy-with-3x-growth-in-three-years",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI内容智能平台项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/389D7c9-Hio",
+      "watchUrl": "https://www.youtube.com/watch?v=389D7c9-Hio",
+      "caption": "AI内容智能平台资料中提及的视频：Future Proof Your Content Strategy",
+      "alt": "Future Proof Your Content Strategy",
       "sourceUrl": "https://www.starterstory.com/stories/on-creating-an-ai-powered-content-strategy-with-3x-growth-in-three-years",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/glia3fse1raug40hg8lpkg3rg09w",
-      "caption": "AI内容智能平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/on-creating-an-ai-powered-content-strategy-with-3x-growth-in-three-years",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/389D7c9-Hio/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +174,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2157,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

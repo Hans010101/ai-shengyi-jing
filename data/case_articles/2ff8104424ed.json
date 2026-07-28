@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/s1d1es4tfheshw4pnwxrtv93vwjc",
-      "caption": "科幻小说订阅平台公开案例主图",
-      "alt": "科幻小说订阅平台案例图片",
+      "caption": "科幻小说订阅平台：通过会员费和广告赚钱",
+      "alt": "科幻小说订阅平台：通过会员费和广告赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/turning-a-science-fiction-hobby-into-a-successful-side-project",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/750/original/open-uri20190116-4-1dzl144?1547652047",
-      "caption": "科幻小说订阅平台项目公开展示素材",
-      "alt": "turning-a-science-fiction-hobby-into-a-successful-side-project",
+      "caption": "科幻小说订阅平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "科幻小说订阅平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/turning-a-science-fiction-hobby-into-a-successful-side-project",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/751/original/open-uri20190116-4-1a7zdo9?1547652047",
-      "caption": "科幻小说订阅平台项目公开展示素材",
-      "alt": "turning-a-science-fiction-hobby-into-a-successful-side-project",
+      "caption": "科幻小说订阅平台：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "科幻小说订阅平台：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/turning-a-science-fiction-hobby-into-a-successful-side-project",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/752/original/open-uri20190116-4-iewbsb?1547652048",
-      "caption": "科幻小说订阅平台项目公开展示素材",
-      "alt": "turning-a-science-fiction-hobby-into-a-successful-side-project",
+      "caption": "科幻小说订阅平台：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "科幻小说订阅平台：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/turning-a-science-fiction-hobby-into-a-successful-side-project",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/753/original/open-uri20190116-4-hgxd86?1547652050",
-      "caption": "科幻小说订阅平台项目公开展示素材",
-      "alt": "turning-a-science-fiction-hobby-into-a-successful-side-project",
-      "sourceUrl": "https://www.starterstory.com/stories/turning-a-science-fiction-hobby-into-a-successful-side-project",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2182,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

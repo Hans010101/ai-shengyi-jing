@@ -122,56 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/xyq2mt8u9ke8iee4yfbwm6uejshj",
-      "caption": "专家访谈+财务数据的公司情报平台公开案例主图",
-      "alt": "专家访谈+财务数据的公司情报平台案例图片",
+      "caption": "专家访谈+财务数据的公司情报平台：按月订阅收费",
+      "alt": "专家访谈+财务数据的公司情报平台：按月订阅收费",
       "sourceUrl": "https://www.starterstory.com/businesses/tegus-company-intelligence-on-demand",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "专家访谈+财务数据的公司情报平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/tegus-company-intelligence-on-demand",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/7fllkpidj6j1de2mstpzu3unvcto",
-      "caption": "专家访谈+财务数据的公司情报平台项目公开展示素材",
-      "alt": "Tegus logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/tegus-company-intelligence-on-demand",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/3yfpgdg87xragub6lfvlge0wqv20/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "专家访谈+财务数据的公司情报平台项目公开展示素材",
-      "alt": "Tom Elnick",
-      "sourceUrl": "https://www.starterstory.com/businesses/tegus-company-intelligence-on-demand",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/wf05fi78r3bkadjpbwhtkha8hem6/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "专家访谈+财务数据的公司情报平台项目公开展示素材",
-      "alt": "Stripe",
-      "sourceUrl": "https://www.starterstory.com/businesses/tegus-company-intelligence-on-demand",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/fkbpxdu7edck7x2rr4lb37rw5y9o/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "专家访谈+财务数据的公司情报平台项目公开展示素材",
-      "alt": "Google Tag Manager",
-      "sourceUrl": "https://www.starterstory.com/businesses/tegus-company-intelligence-on-demand",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -186,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2244,
-    "mediaCount": 6
+    "mediaCount": 1
   }
 }

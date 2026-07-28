@@ -122,56 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ornh9rrzs2w1x7nk4yve6oonbmg0",
-      "caption": "为健康从业者提供SaaS管理工具公开案例主图",
-      "alt": "为健康从业者提供SaaS管理工具案例图片",
+      "caption": "为健康从业者提供SaaS管理工具：月入$416K",
+      "alt": "为健康从业者提供SaaS管理工具：月入$416K",
       "sourceUrl": "https://www.starterstory.com/stories/clinicsense",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/147/original/open-uri20240711-60-vuq2tw?1720707176",
-      "caption": "为健康从业者提供SaaS管理工具项目公开展示素材",
-      "alt": "clinicsense",
+      "caption": "为健康从业者提供SaaS管理工具：产品设计与早期打磨相关原始配图",
+      "alt": "为健康从业者提供SaaS管理工具：产品设计与早期打磨相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/clinicsense",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/148/original/open-uri20240711-60-gpb2q7?1720707177",
-      "caption": "为健康从业者提供SaaS管理工具项目公开展示素材",
-      "alt": "clinicsense",
+      "caption": "为健康从业者提供SaaS管理工具：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "为健康从业者提供SaaS管理工具：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/clinicsense",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为健康从业者提供SaaS管理工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/clinicsense",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/3d0celdrs9ugtg77g37hjvvnmyhi",
-      "caption": "为健康从业者提供SaaS管理工具项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/clinicsense",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/3q9ah33gfr89x9gr887ehtjyb5n2",
-      "caption": "为健康从业者提供SaaS管理工具项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/clinicsense",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2114,
-    "mediaCount": 6
+    "mediaCount": 3
   }
 }

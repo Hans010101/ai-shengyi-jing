@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/r415xvb9ib2gutzynvm3ar3fd09b",
-      "caption": "本地企业获客代理公开案例主图",
-      "alt": "本地企业获客代理案例图片",
+      "caption": "本地企业获客代理：帮客户获取潜在客户线索赚服务费",
+      "alt": "本地企业获客代理：帮客户获取潜在客户线索赚服务费",
       "sourceUrl": "https://www.starterstory.com/stories/my-media-pal",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/793/original/open-uri20221028-12-15z17uy?1666940525",
-      "caption": "本地企业获客代理项目公开展示素材",
-      "alt": "my-media-pal",
+      "caption": "本地企业获客代理：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "本地企业获客代理：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/my-media-pal",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/794/original/open-uri20221028-12-117oim?1666940526",
-      "caption": "本地企业获客代理项目公开展示素材",
-      "alt": "my-media-pal",
+      "caption": "本地企业获客代理：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "本地企业获客代理：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/my-media-pal",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/795/original/open-uri20221028-12-1bh0kkr?1666940526",
-      "caption": "本地企业获客代理项目公开展示素材",
-      "alt": "my-media-pal",
+      "caption": "本地企业获客代理：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "本地企业获客代理：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/my-media-pal",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/796/original/open-uri20221028-12-1osqznl?1666940527",
-      "caption": "本地企业获客代理项目公开展示素材",
-      "alt": "my-media-pal",
-      "sourceUrl": "https://www.starterstory.com/stories/my-media-pal",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2221,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -121,57 +121,33 @@
   "media": [
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "B2B翻译SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/easy-to-use-document-translation-software-redokun",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/b526340a3ff73789",
-      "caption": "B2B翻译SaaS项目公开展示素材",
-      "alt": "Interface",
+      "caption": "B2B翻译SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "B2B翻译SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/easy-to-use-document-translation-software-redokun",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/ccd5cb7810ecdd54",
-      "caption": "B2B翻译SaaS项目公开展示素材",
+      "caption": "B2B翻译SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "alt": "MRR Growth to $125K/month",
       "sourceUrl": "https://www.starterstory.com/stories/easy-to-use-document-translation-software-redokun",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/pbje4xhcxgeg57nuau38il30fqju",
-      "caption": "B2B翻译SaaS项目公开展示素材",
-      "alt": "article",
+      "caption": "B2B翻译SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "B2B翻译SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/easy-to-use-document-translation-software-redokun",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/emq9soa9i9iq2ua43vo0nqthzhfj",
-      "caption": "B2B翻译SaaS项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/easy-to-use-document-translation-software-redokun",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/enq5xovwxlttiaeccv2ax4agtba5",
-      "caption": "B2B翻译SaaS项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/easy-to-use-document-translation-software-redokun",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2199,
-    "mediaCount": 6
+    "mediaCount": 3
   }
 }

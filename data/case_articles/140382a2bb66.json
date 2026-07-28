@@ -122,47 +122,58 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/1qizk7fn1rtrmybcwhnpqzg2pz8o",
-      "caption": "创始人故事媒体公开案例主图",
-      "alt": "创始人故事媒体案例图片",
+      "caption": "创始人故事媒体：靠广告和会员赚钱",
+      "alt": "创始人故事媒体：靠广告和会员赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/starter-story-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "创始人故事媒体项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/starter-story-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/h1387s2ndxbgao125fj5xd0pc8s0/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "创始人故事媒体项目公开展示素材",
-      "alt": "创始人故事媒体项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/starter-story-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/272f1131fe7c54a0",
-      "caption": "创始人故事媒体项目公开展示素材",
+      "caption": "创始人故事媒体：创业起点与创意来源相关原始配图",
       "alt": "My image",
       "sourceUrl": "https://www.starterstory.com/stories/starter-story-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/6b644cb3189f140c",
-      "caption": "创始人故事媒体项目公开展示素材",
-      "alt": "创始人故事媒体项目展示图",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/T_wEmB5MapE",
+      "watchUrl": "https://www.youtube.com/watch?v=T_wEmB5MapE",
+      "caption": "创始人故事媒体资料中提及的视频：How I Built A $1M Business From This Starbucks",
+      "alt": "How I Built A $1M Business From This Starbucks",
       "sourceUrl": "https://www.starterstory.com/stories/starter-story-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/T_wEmB5MapE/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/L8xCpBpsk6U",
+      "watchUrl": "https://www.youtube.com/watch?v=L8xCpBpsk6U",
+      "caption": "创始人故事媒体资料中提及的视频：How Starter Story ditched recurring payments and built a $1.5 million information product",
+      "alt": "How Starter Story ditched recurring payments and built a $1.5 million information product",
+      "sourceUrl": "https://www.starterstory.com/stories/starter-story-breakdown",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/L8xCpBpsk6U/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/v-uhjlMg9L0",
+      "watchUrl": "https://www.youtube.com/watch?v=v-uhjlMg9L0",
+      "caption": "创始人故事媒体资料中提及的视频：I sold my company",
+      "alt": "I sold my company",
+      "sourceUrl": "https://www.starterstory.com/stories/starter-story-breakdown",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/v-uhjlMg9L0/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

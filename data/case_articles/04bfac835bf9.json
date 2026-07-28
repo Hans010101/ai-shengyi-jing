@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/yhnajfeza0w1eg202cvbz53xn8xd",
-      "caption": "幽默工程师培训公开案例主图",
-      "alt": "幽默工程师培训案例图片",
+      "caption": "幽默工程师培训：通过企业课程和线上内容变现",
+      "alt": "幽默工程师培训：通过企业课程和线上内容变现",
       "sourceUrl": "https://www.starterstory.com/stories/how-being-the-funny-guy-at-work-turned-into-a-full-time-career",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/600/original/open-uri20190515-4-1mdbelu?1557939538",
-      "caption": "幽默工程师培训项目公开展示素材",
-      "alt": "how-being-the-funny-guy-at-work-turned-into-a-full-time-career",
+      "caption": "幽默工程师培训：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "幽默工程师培训：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-being-the-funny-guy-at-work-turned-into-a-full-time-career",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/601/original/open-uri20190515-4-35ry1h?1557939539",
-      "caption": "幽默工程师培训项目公开展示素材",
-      "alt": "how-being-the-funny-guy-at-work-turned-into-a-full-time-career",
+      "caption": "幽默工程师培训：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "幽默工程师培训：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-being-the-funny-guy-at-work-turned-into-a-full-time-career",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/602/original/open-uri20190515-4-1d2hel?1557939540",
-      "caption": "幽默工程师培训项目公开展示素材",
-      "alt": "how-being-the-funny-guy-at-work-turned-into-a-full-time-career",
+      "caption": "幽默工程师培训：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "幽默工程师培训：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-being-the-funny-guy-at-work-turned-into-a-full-time-career",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/603/original/open-uri20190515-4-5yvo51?1557939540",
-      "caption": "幽默工程师培训项目公开展示素材",
-      "alt": "how-being-the-funny-guy-at-work-turned-into-a-full-time-career",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/MdZAMSyn_As",
+      "watchUrl": "https://www.youtube.com/watch?v=MdZAMSyn_As",
+      "caption": "幽默工程师培训资料中提及的视频：The Skill of Humor | Andrew Tarvin | TEDxTAMU",
+      "alt": "The Skill of Humor | Andrew Tarvin | TEDxTAMU",
       "sourceUrl": "https://www.starterstory.com/stories/how-being-the-funny-guy-at-work-turned-into-a-full-time-career",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/MdZAMSyn_As/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

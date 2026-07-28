@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/e5klvau8sxbdcxismbc83q90dp4z",
-      "caption": "为美妆品牌提供成分透明度的B2B SaaS平台公开案例主图",
-      "alt": "为美妆品牌提供成分透明度的B2B SaaS平台案例图片",
+      "caption": "为美妆品牌提供成分透明度的B2B SaaS平台：按订阅收费",
+      "alt": "为美妆品牌提供成分透明度的B2B SaaS平台：按订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/clearforme",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/326/original/open-uri20220623-24-2ig01y?1656006713",
-      "caption": "为美妆品牌提供成分透明度的B2B SaaS平台项目公开展示素材",
-      "alt": "clearforme",
+      "caption": "为美妆品牌提供成分透明度的B2B SaaS平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为美妆品牌提供成分透明度的B2B SaaS平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/clearforme",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/327/original/open-uri20220623-24-kxlqz7?1656006714",
-      "caption": "为美妆品牌提供成分透明度的B2B SaaS平台项目公开展示素材",
-      "alt": "clearforme",
+      "caption": "为美妆品牌提供成分透明度的B2B SaaS平台：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "为美妆品牌提供成分透明度的B2B SaaS平台：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/clearforme",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/328/original/open-uri20220623-24-1xb718c?1656006714",
-      "caption": "为美妆品牌提供成分透明度的B2B SaaS平台项目公开展示素材",
-      "alt": "clearforme",
+      "caption": "为美妆品牌提供成分透明度的B2B SaaS平台：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "为美妆品牌提供成分透明度的B2B SaaS平台：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/clearforme",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为美妆品牌提供成分透明度的B2B SaaS平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/clearforme",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2262,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

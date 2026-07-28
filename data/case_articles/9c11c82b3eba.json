@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/dp7a857e2k6cwa5v0vc1jhxv1oj7",
-      "caption": "针对中高级自由撰稿人的付费课程和教练服务公开案例主图",
-      "alt": "针对中高级自由撰稿人的付费课程和教练服务案例图片",
+      "caption": "针对中高级自由撰稿人的付费课程和教练服务：月入$10K",
+      "alt": "针对中高级自由撰稿人的付费课程和教练服务：月入$10K",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-tripled-my-monthly-revenue-over-last-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/583/original/open-uri20210611-3-1mgadnj?1623408365",
-      "caption": "针对中高级自由撰稿人的付费课程和教练服务项目公开展示素材",
-      "alt": "how-i-tripled-my-monthly-revenue-over-last-year",
+      "caption": "针对中高级自由撰稿人的付费课程和教练服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "针对中高级自由撰稿人的付费课程和教练服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-tripled-my-monthly-revenue-over-last-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/584/original/open-uri20210611-3-1r53v3n?1623408365",
-      "caption": "针对中高级自由撰稿人的付费课程和教练服务项目公开展示素材",
-      "alt": "how-i-tripled-my-monthly-revenue-over-last-year",
+      "caption": "针对中高级自由撰稿人的付费课程和教练服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "针对中高级自由撰稿人的付费课程和教练服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-tripled-my-monthly-revenue-over-last-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/585/original/open-uri20210611-3-rfywio?1623408366",
-      "caption": "针对中高级自由撰稿人的付费课程和教练服务项目公开展示素材",
-      "alt": "how-i-tripled-my-monthly-revenue-over-last-year",
+      "caption": "针对中高级自由撰稿人的付费课程和教练服务：创业复盘与关键经验相关原始配图（第3张）",
+      "alt": "针对中高级自由撰稿人的付费课程和教练服务：创业复盘与关键经验相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-tripled-my-monthly-revenue-over-last-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/586/original/open-uri20210611-3-kdxlfb?1623408366",
-      "caption": "针对中高级自由撰稿人的付费课程和教练服务项目公开展示素材",
-      "alt": "how-i-tripled-my-monthly-revenue-over-last-year",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-tripled-my-monthly-revenue-over-last-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2225,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/pv8j6yl5d4r3f281azslpnsa3p2u",
-      "caption": "美国房地产投资公司公开案例主图",
-      "alt": "美国房地产投资公司案例图片",
+      "caption": "美国房地产投资公司：通过强化客户服务实现400%营收增长",
+      "alt": "美国房地产投资公司：通过强化客户服务实现400%营收增长",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-customer-s-communication-and-grew-400-annual-revenue",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/011/116/original/open-uri20210402-3-1q9dk3u?1617401124",
-      "caption": "美国房地产投资公司项目公开展示素材",
-      "alt": "how-we-focused-on-customer-s-communication-and-grew-400-annual-revenue",
+      "caption": "美国房地产投资公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "美国房地产投资公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-customer-s-communication-and-grew-400-annual-revenue",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/011/117/original/open-uri20210402-3-z2p0bm?1617401124",
-      "caption": "美国房地产投资公司项目公开展示素材",
-      "alt": "how-we-focused-on-customer-s-communication-and-grew-400-annual-revenue",
+      "caption": "美国房地产投资公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "美国房地产投资公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-customer-s-communication-and-grew-400-annual-revenue",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/011/118/original/open-uri20210402-3-1prsesg?1617401125",
-      "caption": "美国房地产投资公司项目公开展示素材",
-      "alt": "how-we-focused-on-customer-s-communication-and-grew-400-annual-revenue",
+      "caption": "美国房地产投资公司：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "美国房地产投资公司：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-customer-s-communication-and-grew-400-annual-revenue",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "美国房地产投资公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-customer-s-communication-and-grew-400-annual-revenue",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2192,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

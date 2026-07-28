@@ -122,47 +122,34 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/1hpy5p07uht00ujfwzyvis0y9xjp",
-      "caption": "为MLM公司提供软件解决方案公开案例主图",
-      "alt": "为MLM公司提供软件解决方案案例图片",
+      "caption": "为MLM公司提供软件解决方案：通过订阅和定制服务收费",
+      "alt": "为MLM公司提供软件解决方案：通过订阅和定制服务收费",
       "sourceUrl": "https://www.starterstory.com/stories/epixel-solutions-update-how-we-went-from-5-employees-to-a-team-of-100",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/010/104/original/open-uri20210203-3-1qclwk4?1612376265",
-      "caption": "为MLM公司提供软件解决方案项目公开展示素材",
-      "alt": "how-we-focus-on-customer-s-demand",
+      "caption": "为MLM公司提供软件解决方案：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为MLM公司提供软件解决方案：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/epixel-solutions-update-how-we-went-from-5-employees-to-a-team-of-100",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为MLM公司提供软件解决方案项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/_uF-tcpc1PU",
+      "watchUrl": "https://www.youtube.com/watch?v=_uF-tcpc1PU",
+      "caption": "为MLM公司提供软件解决方案资料中提及的视频：You Are Our Privilege | Epixel Thank Its Employees",
+      "alt": "You Are Our Privilege | Epixel Thank Its Employees",
       "sourceUrl": "https://www.starterstory.com/stories/epixel-solutions-update-how-we-went-from-5-employees-to-a-team-of-100",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c303bjznv93yxnh0xxz7t4vfedzf",
-      "caption": "为MLM公司提供软件解决方案项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/epixel-solutions-update-how-we-went-from-5-employees-to-a-team-of-100",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/fyhbx2o0p0ivjbzkcaxfg3kkessb",
-      "caption": "为MLM公司提供软件解决方案项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/epixel-solutions-update-how-we-went-from-5-employees-to-a-team-of-100",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/_uF-tcpc1PU/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +164,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2169,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

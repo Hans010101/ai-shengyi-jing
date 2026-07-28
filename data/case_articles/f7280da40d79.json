@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/67j6f8ank7ddo9ht5p858e4iqhun",
-      "caption": "旅行博主公开案例主图",
-      "alt": "旅行博主案例图片",
+      "caption": "旅行博主：通过小众城市内容吸引流量，靠广告和联盟营销月入4K美元",
+      "alt": "旅行博主：通过小众城市内容吸引流量，靠广告和联盟营销月入4K美元",
       "sourceUrl": "https://www.starterstory.com/stories/how-traveling-to-lesser-known-cities-helped-grow-my-travel-blog",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/007/222/original/open-uri20200724-4-oajmme?1595601032",
-      "caption": "旅行博主项目公开展示素材",
-      "alt": "on-creating-a-publication-for-affordable-getaways",
+      "caption": "旅行博主：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "旅行博主：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-traveling-to-lesser-known-cities-helped-grow-my-travel-blog",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "旅行博主项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-traveling-to-lesser-known-cities-helped-grow-my-travel-blog",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "旅行博主项目公开展示素材",
-      "alt": "旅行博主项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-traveling-to-lesser-known-cities-helped-grow-my-travel-blog",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/b6tkfwams9acacoldo403fv7scnw",
-      "caption": "旅行博主项目公开展示素材",
-      "alt": "旅行博主项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-traveling-to-lesser-known-cities-helped-grow-my-travel-blog",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2216,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

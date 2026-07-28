@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/3cosnmct3whsy6h3dbyrhawuyi8j",
-      "caption": "数字营销代理公开案例主图",
-      "alt": "数字营销代理案例图片",
+      "caption": "数字营销代理：通过付费服务帮客户提升营收",
+      "alt": "数字营销代理：通过付费服务帮客户提升营收",
       "sourceUrl": "https://www.starterstory.com/stories/flying-v-group",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/409/original/open-uri20221203-24-184os4f?1670039218",
-      "caption": "数字营销代理项目公开展示素材",
-      "alt": "flying-v-group",
+      "caption": "数字营销代理：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "数字营销代理：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/flying-v-group",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "数字营销代理项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/flying-v-group",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/2ea4ffiywqzv11iaubi3lp1hn5sb",
-      "caption": "数字营销代理项目公开展示素材",
-      "alt": "数字营销代理项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/flying-v-group",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/z3uq51iqexg4pgnrrer9wfg2rck7",
-      "caption": "数字营销代理项目公开展示素材",
-      "alt": "数字营销代理项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/flying-v-group",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2163,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

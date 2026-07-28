@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/biq479h5g11dzft0hu3y4qkdsaki",
-      "caption": "合同制造与代工业务公开案例主图",
-      "alt": "合同制造与代工业务案例图片",
+      "caption": "合同制造与代工业务：为品牌提供男士护理品生产及包装服务",
+      "alt": "合同制造与代工业务：为品牌提供男士护理品生产及包装服务",
       "sourceUrl": "https://www.starterstory.com/stories/ko-pack",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/809/original/open-uri20220918-24-pmsjb7?1663509420",
-      "caption": "合同制造与代工业务项目公开展示素材",
-      "alt": "ko-pack",
+      "caption": "合同制造与代工业务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "合同制造与代工业务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/ko-pack",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "合同制造与代工业务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/ko-pack",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/bleg7ym47u9i3fco1c64kivl3030",
-      "caption": "合同制造与代工业务项目公开展示素材",
-      "alt": "合同制造与代工业务项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/ko-pack",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/05r6ewzak1p4ml9iswl34s1c2mqo",
-      "caption": "合同制造与代工业务项目公开展示素材",
-      "alt": "合同制造与代工业务项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/ko-pack",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2161,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

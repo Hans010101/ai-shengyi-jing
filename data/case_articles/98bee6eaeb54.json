@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/2fkq3tz19r2851iz1dhe4d4rltid",
-      "caption": "比利时CRM公司公开案例主图",
-      "alt": "比利时CRM公司案例图片",
+      "caption": "比利时CRM公司：为中小企业提供CRM套件，年营收7200万美元",
+      "alt": "比利时CRM公司：为中小企业提供CRM套件，年营收7200万美元",
       "sourceUrl": "https://www.starterstory.com/stories/efficy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/033/original/open-uri20220808-24-z8klgz?1659973711",
-      "caption": "比利时CRM公司项目公开展示素材",
-      "alt": "efficy",
+      "caption": "比利时CRM公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "比利时CRM公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/efficy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/034/original/open-uri20220808-24-157jy2?1659973711",
-      "caption": "比利时CRM公司项目公开展示素材",
-      "alt": "efficy",
+      "caption": "比利时CRM公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "比利时CRM公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/efficy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "比利时CRM公司项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/efficy",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/p21ts159h2jq9q519g25528av7yd",
-      "caption": "比利时CRM公司项目公开展示素材",
-      "alt": "比利时CRM公司项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/efficy",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2171,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

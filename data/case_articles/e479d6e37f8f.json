@@ -122,47 +122,44 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/whxk86bhsfmr8o01qe8g0t1v8eoj",
-      "caption": "为律师提供SEO服务公开案例主图",
-      "alt": "为律师提供SEO服务案例图片",
+      "caption": "为律师提供SEO服务：年营收360万美元",
+      "alt": "为律师提供SEO服务：年营收360万美元",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-an-seo-agency-for-lawyers-generating-3-6m-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/524/original/open-uri20190503-4-6l3hk1?1556892503",
-      "caption": "为律师提供SEO服务项目公开展示素材",
-      "alt": "how-i-started-an-seo-agency-for-lawyers-generating-3-6m-year",
+      "caption": "为律师提供SEO服务：创业起点与创意来源相关原始配图",
+      "alt": "为律师提供SEO服务：创业起点与创意来源相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-an-seo-agency-for-lawyers-generating-3-6m-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/525/original/open-uri20190503-4-1dvme8h?1556892503",
-      "caption": "为律师提供SEO服务项目公开展示素材",
-      "alt": "how-i-started-an-seo-agency-for-lawyers-generating-3-6m-year",
+      "caption": "为律师提供SEO服务：当前经营状态与下一步规划相关原始配图（第2张）",
+      "alt": "为律师提供SEO服务：当前经营状态与下一步规划相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-an-seo-agency-for-lawyers-generating-3-6m-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为律师提供SEO服务项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/j1vrx_2U3k0",
+      "watchUrl": "https://www.youtube.com/watch?v=j1vrx_2U3k0",
+      "caption": "为律师提供SEO服务资料中提及的视频：Rankings.io: SEO Agency Exclusively for Personal Injury Lawyers",
+      "alt": "Rankings.io: SEO Agency Exclusively for Personal Injury Lawyers",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-an-seo-agency-for-lawyers-generating-3-6m-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/7k6vgy18goth8i6g990376r6intu",
-      "caption": "为律师提供SEO服务项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-started-an-seo-agency-for-lawyers-generating-3-6m-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/j1vrx_2U3k0/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +174,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2161,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

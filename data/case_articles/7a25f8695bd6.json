@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/7701kb7np3uow00fmp3r2vza0xmq",
-      "caption": "孕期产后远程医疗平台公开案例主图",
-      "alt": "孕期产后远程医疗平台案例图片",
+      "caption": "孕期产后远程医疗平台：通过订阅和单次咨询收费",
+      "alt": "孕期产后远程医疗平台：通过订阅和单次咨询收费",
       "sourceUrl": "https://www.starterstory.com/stories/ruth-health",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/704/original/open-uri20220719-12-1pvq2m8?1658212714",
-      "caption": "孕期产后远程医疗平台项目公开展示素材",
-      "alt": "ruth-health",
+      "caption": "孕期产后远程医疗平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "孕期产后远程医疗平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/ruth-health",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/705/original/open-uri20220719-12-12oossj?1658212715",
-      "caption": "孕期产后远程医疗平台项目公开展示素材",
-      "alt": "ruth-health",
+      "caption": "孕期产后远程医疗平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "孕期产后远程医疗平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/ruth-health",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/706/original/open-uri20220719-12-sbkvzi?1658212717",
-      "caption": "孕期产后远程医疗平台项目公开展示素材",
-      "alt": "ruth-health",
+      "caption": "孕期产后远程医疗平台：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "孕期产后远程医疗平台：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/ruth-health",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "孕期产后远程医疗平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/ruth-health",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2178,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

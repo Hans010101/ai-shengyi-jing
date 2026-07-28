@@ -122,47 +122,24 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/6u43zhbv74cp09chb3xo6ycyjtwk",
-      "caption": "IP风险检测SaaS公开案例主图",
-      "alt": "IP风险检测SaaS案例图片",
+      "caption": "IP风险检测SaaS：按订阅收费",
+      "alt": "IP风险检测SaaS：按订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-revenue-by-40-and-launched-new-products",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "IP风险检测SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/oId54OW8a0Y",
+      "watchUrl": "https://www.youtube.com/watch?v=oId54OW8a0Y",
+      "caption": "IP风险检测SaaS资料中提及的视频：How a global cybersecurity company protects brands from high risk websites",
+      "alt": "How a global cybersecurity company protects brands from high risk websites",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-revenue-by-40-and-launched-new-products",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "IP风险检测SaaS项目公开展示素材",
-      "alt": "IP风险检测SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-revenue-by-40-and-launched-new-products",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/b6tkfwams9acacoldo403fv7scnw",
-      "caption": "IP风险检测SaaS项目公开展示素材",
-      "alt": "IP风险检测SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-revenue-by-40-and-launched-new-products",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/dvithrg7zcn51mk81s7sw6btbew2",
-      "caption": "IP风险检测SaaS项目公开展示素材",
-      "alt": "IP风险检测SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-revenue-by-40-and-launched-new-products",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/oId54OW8a0Y/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +154,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2185,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/blk4z18aolpikfwipgfuml018f42",
-      "caption": "匿名社交消息应用公开案例主图",
-      "alt": "匿名社交消息应用案例图片",
+      "caption": "匿名社交消息应用：通过免费增值模式盈利",
+      "alt": "匿名社交消息应用：通过免费增值模式盈利",
       "sourceUrl": "https://www.starterstory.com/stories/heartstring",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/803/original/open-uri20220918-24-zqx1ga?1663506757",
-      "caption": "匿名社交消息应用项目公开展示素材",
-      "alt": "heartstring",
+      "caption": "匿名社交消息应用：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "匿名社交消息应用：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/heartstring",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/804/original/open-uri20220918-24-12uoqlj?1663506758",
-      "caption": "匿名社交消息应用项目公开展示素材",
-      "alt": "heartstring",
+      "caption": "匿名社交消息应用：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "匿名社交消息应用：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/heartstring",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/805/original/open-uri20220918-24-4vagty?1663506759",
-      "caption": "匿名社交消息应用项目公开展示素材",
-      "alt": "heartstring",
+      "caption": "匿名社交消息应用：创业复盘与关键经验相关原始配图（第3张）",
+      "alt": "匿名社交消息应用：创业复盘与关键经验相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/heartstring",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/806/original/open-uri20220918-24-1tkjgro?1663506761",
-      "caption": "匿名社交消息应用项目公开展示素材",
-      "alt": "heartstring",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/arBlHXVtxo8&ab_channel=heartstring",
+      "watchUrl": "https://www.youtube.com/watch?v=arBlHXVtxo8&ab_channel=heartstring",
+      "caption": "匿名社交消息应用资料中提及的视频：What is Heartstring? | An Easy Explanation",
+      "alt": "What is Heartstring? | An Easy Explanation",
       "sourceUrl": "https://www.starterstory.com/stories/heartstring",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/arBlHXVtxo8/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

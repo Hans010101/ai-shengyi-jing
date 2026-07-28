@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/zis56joqtja9s8odevxgkyd1vbeb",
-      "caption": "开源+ SaaS的CRM/ERP平台公开案例主图",
-      "alt": "开源+ SaaS的CRM/ERP平台案例图片",
+      "caption": "开源+ SaaS的CRM/ERP平台：订阅制收费",
+      "alt": "开源+ SaaS的CRM/ERP平台：订阅制收费",
       "sourceUrl": "https://www.starterstory.com/stories/onehash-inc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/433/original/open-uri20220521-12-1rnhfh1?1653129821",
-      "caption": "开源+ SaaS的CRM/ERP平台项目公开展示素材",
-      "alt": "onehash-inc",
+      "caption": "开源+ SaaS的CRM/ERP平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "开源+ SaaS的CRM/ERP平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/onehash-inc",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "开源+ SaaS的CRM/ERP平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/onehash-inc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/3d0celdrs9ugtg77g37hjvvnmyhi",
-      "caption": "开源+ SaaS的CRM/ERP平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/onehash-inc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/wsfthxo0bwxpga1da6eflodtgxay",
-      "caption": "开源+ SaaS的CRM/ERP平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/onehash-inc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2190,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

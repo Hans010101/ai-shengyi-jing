@@ -122,75 +122,47 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/noe3jepvupam6fydpze5f54g0jzb",
-      "caption": "线上销售马里兰螃蟹公开案例主图",
-      "alt": "线上销售马里兰螃蟹案例图片",
+      "caption": "线上销售马里兰螃蟹：通过自建供应链和冷链运输赚取差价",
+      "alt": "线上销售马里兰螃蟹：通过自建供应链和冷链运输赚取差价",
       "sourceUrl": "https://www.starterstory.com/stories/camerons-seafood",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "线上销售马里兰螃蟹项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/camerons-seafood",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/4qcuk5ek4vrwjx1mabyuvhbzkmx9",
-      "caption": "线上销售马里兰螃蟹项目公开展示素材",
-      "alt": "线上销售马里兰螃蟹项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/camerons-seafood",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/9oum3bbciqevul6z0dzgbyerye2z",
-      "caption": "线上销售马里兰螃蟹项目公开展示素材",
-      "alt": "线上销售马里兰螃蟹项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/camerons-seafood",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/3v2stlnylnntp43l7nbkixxb29j6",
-      "caption": "线上销售马里兰螃蟹项目公开展示素材",
-      "alt": "线上销售马里兰螃蟹项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/camerons-seafood",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/uu1ufe3xywz7f76l2h43antd48lp",
-      "caption": "线上销售马里兰螃蟹项目公开展示素材",
-      "alt": "线上销售马里兰螃蟹项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/camerons-seafood",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/QdJwpKCDeaE",
-      "caption": "线上销售马里兰螃蟹项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=QdJwpKCDeaE",
+      "caption": "线上销售马里兰螃蟹资料中提及的视频：Cameron's Seafood Unboxing Maryland Blue Crabs",
+      "alt": "Cameron's Seafood Unboxing Maryland Blue Crabs",
       "sourceUrl": "https://www.starterstory.com/stories/camerons-seafood",
       "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/QdJwpKCDeaE/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/T3KxTfmEHcY",
-      "caption": "线上销售马里兰螃蟹项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=T3KxTfmEHcY",
+      "caption": "线上销售马里兰螃蟹资料中提及的视频：Father's Day Crab Special",
+      "alt": "Father's Day Crab Special",
       "sourceUrl": "https://www.starterstory.com/stories/camerons-seafood",
       "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/T3KxTfmEHcY/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/D38xDsEZfiw",
+      "watchUrl": "https://www.youtube.com/watch?v=D38xDsEZfiw",
+      "caption": "线上销售马里兰螃蟹资料中提及的视频：Hot Seafood Delivery - Maryland, Washington, DC, Virginia",
+      "alt": "Hot Seafood Delivery - Maryland, Washington, DC, Virginia",
+      "sourceUrl": "https://www.starterstory.com/stories/camerons-seafood",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/D38xDsEZfiw/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -206,6 +178,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2180,
-    "mediaCount": 8
+    "mediaCount": 4
   }
 }

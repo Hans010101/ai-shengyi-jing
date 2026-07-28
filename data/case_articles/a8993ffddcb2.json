@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/o39qj09c7liy91fjs15szc12vc0h",
-      "caption": "AI生成测验题工具公开案例主图",
-      "alt": "AI生成测验题工具案例图片",
+      "caption": "AI生成测验题工具：通过订阅制向教师和企业收费",
+      "alt": "AI生成测验题工具：通过订阅制向教师和企业收费",
       "sourceUrl": "https://www.starterstory.com/stories/questgenai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/218/original/open-uri20240811-60-1bvh5or?1723353301",
-      "caption": "AI生成测验题工具项目公开展示素材",
-      "alt": "questgenai",
+      "caption": "AI生成测验题工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI生成测验题工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/questgenai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/219/original/open-uri20240811-60-1mtrosq?1723353302",
-      "caption": "AI生成测验题工具项目公开展示素材",
-      "alt": "questgenai",
+      "caption": "AI生成测验题工具：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "AI生成测验题工具：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/questgenai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/220/original/open-uri20240811-60-1v6uhr7?1723353303",
-      "caption": "AI生成测验题工具项目公开展示素材",
-      "alt": "questgenai",
+      "caption": "AI生成测验题工具：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "AI生成测验题工具：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/questgenai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI生成测验题工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/questgenai",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2228,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

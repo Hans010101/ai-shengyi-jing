@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/12s24o5t6er2joc9p9crgovooomg",
-      "caption": "iPhone Life杂志公开案例主图",
-      "alt": "iPhone Life杂志案例图片",
+      "caption": "iPhone Life杂志：教老年人用手机，订阅赚钱",
+      "alt": "iPhone Life杂志：教老年人用手机，订阅赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/on-building-a-publishing-company-with-a-110k-month-revenue",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/082/original/open-uri20220203-3-4udm6u?1643890520",
-      "caption": "iPhone Life杂志项目公开展示素材",
-      "alt": "on-building-a-publishing-company-with-a-110k-month-revenue-confuse",
+      "caption": "iPhone Life杂志：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "iPhone Life杂志：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/on-building-a-publishing-company-with-a-110k-month-revenue",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/083/original/open-uri20220203-3-19lo5j4?1643890521",
-      "caption": "iPhone Life杂志项目公开展示素材",
-      "alt": "on-building-a-publishing-company-with-a-110k-month-revenue-confuse",
+      "caption": "iPhone Life杂志：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "iPhone Life杂志：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/on-building-a-publishing-company-with-a-110k-month-revenue",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/084/original/open-uri20220203-3-wsko88?1643890522",
-      "caption": "iPhone Life杂志项目公开展示素材",
-      "alt": "on-building-a-publishing-company-with-a-110k-month-revenue-confuse",
+      "caption": "iPhone Life杂志：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "iPhone Life杂志：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/on-building-a-publishing-company-with-a-110k-month-revenue",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/085/original/open-uri20220203-3-468urj?1643890523",
-      "caption": "iPhone Life杂志项目公开展示素材",
-      "alt": "on-building-a-publishing-company-with-a-110k-month-revenue-confuse",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/akwg6s0mIZ0",
+      "watchUrl": "https://www.youtube.com/watch?v=akwg6s0mIZ0",
+      "caption": "iPhone Life杂志资料中提及的视频：How to Know if You've Been Blocked on iPhone iOS 16",
+      "alt": "How to Know if You've Been Blocked on iPhone iOS 16",
       "sourceUrl": "https://www.starterstory.com/stories/on-building-a-publishing-company-with-a-110k-month-revenue",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/akwg6s0mIZ0/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

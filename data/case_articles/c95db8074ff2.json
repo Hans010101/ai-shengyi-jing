@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/urp0tvc6bgozspykk7twim2yqfy4",
-      "caption": "汽车产品B2B平台公开案例主图",
-      "alt": "汽车产品B2B平台案例图片",
+      "caption": "汽车产品B2B平台：通过会员订阅和交易佣金盈利",
+      "alt": "汽车产品B2B平台：通过会员订阅和交易佣金盈利",
       "sourceUrl": "https://www.starterstory.com/stories/avtopro",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/405/original/open-uri20220628-12-1a1uqj9?1656412203",
-      "caption": "汽车产品B2B平台项目公开展示素材",
-      "alt": "avtopro",
+      "caption": "汽车产品B2B平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "汽车产品B2B平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/avtopro",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/406/original/open-uri20220628-12-kt51te?1656412204",
-      "caption": "汽车产品B2B平台项目公开展示素材",
-      "alt": "avtopro",
+      "caption": "汽车产品B2B平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "汽车产品B2B平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/avtopro",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/407/original/open-uri20220628-12-yrmwn1?1656412204",
-      "caption": "汽车产品B2B平台项目公开展示素材",
-      "alt": "avtopro",
+      "caption": "汽车产品B2B平台：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "汽车产品B2B平台：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/avtopro",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/408/original/open-uri20220628-12-meuqec?1656412205",
-      "caption": "汽车产品B2B平台项目公开展示素材",
-      "alt": "avtopro",
-      "sourceUrl": "https://www.starterstory.com/stories/avtopro",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2281,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/q23pp8een14tj5641qbjnkjdj1eh",
-      "caption": "自由职业者转型文案专家公开案例主图",
-      "alt": "自由职业者转型文案专家案例图片",
+      "caption": "自由职业者转型文案专家：通过高客单价服务年入150K",
+      "alt": "自由职业者转型文案专家：通过高客单价服务年入150K",
       "sourceUrl": "https://www.starterstory.com/stories/conversion-alchemy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/688/original/open-uri20221226-12-wbtb0i?1672036340",
-      "caption": "自由职业者转型文案专家项目公开展示素材",
-      "alt": "conversion-alchemy",
+      "caption": "自由职业者转型文案专家：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "自由职业者转型文案专家：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/conversion-alchemy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/689/original/open-uri20221226-12-s0s8da?1672036341",
-      "caption": "自由职业者转型文案专家项目公开展示素材",
-      "alt": "conversion-alchemy",
+      "caption": "自由职业者转型文案专家：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "自由职业者转型文案专家：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/conversion-alchemy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/690/original/open-uri20221226-12-1tpcnem?1672036342",
-      "caption": "自由职业者转型文案专家项目公开展示素材",
-      "alt": "conversion-alchemy",
+      "caption": "自由职业者转型文案专家：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "自由职业者转型文案专家：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/conversion-alchemy",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/691/original/open-uri20221226-12-1iy5il3?1672036342",
-      "caption": "自由职业者转型文案专家项目公开展示素材",
-      "alt": "conversion-alchemy",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/vdYPHV20F5o",
+      "watchUrl": "https://www.youtube.com/watch?v=vdYPHV20F5o",
+      "caption": "自由职业者转型文案专家资料中提及的视频：NEVERALONE - Everything I've Done (Official Music Video)",
+      "alt": "NEVERALONE - Everything I've Done (Official Music Video)",
       "sourceUrl": "https://www.starterstory.com/stories/conversion-alchemy",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/vdYPHV20F5o/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

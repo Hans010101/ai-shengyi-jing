@@ -122,56 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/7gcp5spbjhctsb4o4819ao20xq4o",
-      "caption": "为SaaS公司提供客户反馈调查工具公开案例主图",
-      "alt": "为SaaS公司提供客户反馈调查工具案例图片",
+      "caption": "为SaaS公司提供客户反馈调查工具：通过订阅制收费",
+      "alt": "为SaaS公司提供客户反馈调查工具：通过订阅制收费",
       "sourceUrl": "https://www.starterstory.com/stories/refiner",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/412/original/open-uri20220401-3-jh64ln?1648833920",
-      "caption": "为SaaS公司提供客户反馈调查工具项目公开展示素材",
-      "alt": "refiner",
+      "caption": "为SaaS公司提供客户反馈调查工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为SaaS公司提供客户反馈调查工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/refiner",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/413/original/open-uri20220401-3-17vopra?1648833921",
-      "caption": "为SaaS公司提供客户反馈调查工具项目公开展示素材",
-      "alt": "refiner",
+      "caption": "为SaaS公司提供客户反馈调查工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "为SaaS公司提供客户反馈调查工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/refiner",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为SaaS公司提供客户反馈调查工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/refiner",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "为SaaS公司提供客户反馈调查工具项目公开展示素材",
-      "alt": "为SaaS公司提供客户反馈调查工具项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/refiner",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/dvithrg7zcn51mk81s7sw6btbew2",
-      "caption": "为SaaS公司提供客户反馈调查工具项目公开展示素材",
-      "alt": "为SaaS公司提供客户反馈调查工具项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/refiner",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2179,
-    "mediaCount": 6
+    "mediaCount": 3
   }
 }

@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/otu4mzeyim0s98g5wdqsunu9h83q",
-      "caption": "为NGO提供资助信息聚合与申请服务的平台公开案例主图",
-      "alt": "为NGO提供资助信息聚合与申请服务的平台案例图片",
+      "caption": "为NGO提供资助信息聚合与申请服务的平台：通过广告和捐赠赚取收入",
+      "alt": "为NGO提供资助信息聚合与申请服务的平台：通过广告和捐赠赚取收入",
       "sourceUrl": "https://www.starterstory.com/stories/fundsforngos",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/021/original/open-uri20220319-3-14g14pe?1647713662",
-      "caption": "为NGO提供资助信息聚合与申请服务的平台项目公开展示素材",
-      "alt": "fundsforngos",
+      "caption": "为NGO提供资助信息聚合与申请服务的平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为NGO提供资助信息聚合与申请服务的平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/fundsforngos",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为NGO提供资助信息聚合与申请服务的平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/fundsforngos",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "为NGO提供资助信息聚合与申请服务的平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/fundsforngos",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/3p2vt80fly34yj1t7sgbpogky51y",
-      "caption": "为NGO提供资助信息聚合与申请服务的平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/fundsforngos",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2210,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

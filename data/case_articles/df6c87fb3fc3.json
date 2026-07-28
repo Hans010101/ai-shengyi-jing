@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/qj9moi9gd8059wu822ailreqxhav",
-      "caption": "AI驱动的抵押贷款审核引擎公开案例主图",
-      "alt": "AI驱动的抵押贷款审核引擎案例图片",
+      "caption": "AI驱动的抵押贷款审核引擎：按使用量收费",
+      "alt": "AI驱动的抵押贷款审核引擎：按使用量收费",
       "sourceUrl": "https://www.starterstory.com/businesses/mortgagecoach",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI驱动的抵押贷款审核引擎项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/mortgagecoach",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ebgp4qnyblqdfzaumiqzbqg0qf45",
-      "caption": "AI驱动的抵押贷款审核引擎项目公开展示素材",
-      "alt": "TrustEngine logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/mortgagecoach",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/speoscj4dllv350u71gamsjqjsiq/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "AI驱动的抵押贷款审核引擎项目公开展示素材",
-      "alt": "Dave Savage",
-      "sourceUrl": "https://www.starterstory.com/businesses/mortgagecoach",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/3d0celdrs9ugtg77g37hjvvnmyhi/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "AI驱动的抵押贷款审核引擎项目公开展示素材",
-      "alt": "YouTube",
-      "sourceUrl": "https://www.starterstory.com/businesses/mortgagecoach",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2195,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

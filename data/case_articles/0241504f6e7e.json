@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/7y9k9vrs7asev1ibatkuxhmkbjvc",
-      "caption": "AI合同自动化平台公开案例主图",
-      "alt": "AI合同自动化平台案例图片",
+      "caption": "AI合同自动化平台：按订阅制收费",
+      "alt": "AI合同自动化平台：按订阅制收费",
       "sourceUrl": "https://www.starterstory.com/stories/on-creating-a-platform-to-manage-automate-contracts",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/211/original/open-uri20211130-3-aratn7?1638297031",
-      "caption": "AI合同自动化平台项目公开展示素材",
-      "alt": "on-creating-a-platform-to-manage-contracts",
+      "caption": "AI合同自动化平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI合同自动化平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/on-creating-a-platform-to-manage-automate-contracts",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI合同自动化平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/on-creating-a-platform-to-manage-automate-contracts",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/wsfthxo0bwxpga1da6eflodtgxay",
-      "caption": "AI合同自动化平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/on-creating-a-platform-to-manage-automate-contracts",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/6csf0fgs5qrvcsiaquwehqzkzeg0",
-      "caption": "AI合同自动化平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/on-creating-a-platform-to-manage-automate-contracts",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2207,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

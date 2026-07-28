@@ -18,6 +18,16 @@ ARTICLES_DIR = ROOT / "data" / "case_articles"
 REPORT_FILE = ROOT / "pipeline" / "data" / "case_catalog_report.json"
 CHINESE_RE = re.compile(r"[\u3400-\u9fff]")
 REMOVED_LABELS = ("素材来源", "核验提示", "查看事实来源")
+GENERIC_MEDIA_LABELS = (
+    "项目公开展示素材",
+    "公开案例主图",
+    "项目相关公开视频",
+)
+BAD_MEDIA_TEXT = re.compile(
+    r"hubspot|tool[- ]?icon|youtube[- ]?(?:icon|logo)|"
+    r"(?:icon|logo)[- ]?youtube|starter-avatar|5 stars",
+    re.I,
+)
 
 
 def load_json(path: Path):
@@ -107,10 +117,28 @@ def validate(
         for index, item in enumerate(media):
             media_type = item.get("type")
             parsed = urlparse(str(item.get("url", "")))
+            caption = str(item.get("caption", ""))
+            media_text = " ".join(
+                (
+                    str(item.get("url", "")),
+                    str(item.get("alt", "")),
+                    caption,
+                )
+            )
             if media_type not in {"image", "video", "video-file"}:
                 errors.append(f"{project_id}: media {index + 1} has invalid type")
             if parsed.scheme not in {"http", "https"} or not parsed.hostname:
                 errors.append(f"{project_id}: media {index + 1} has invalid URL")
+            if not caption:
+                errors.append(f"{project_id}: media {index + 1} has no caption")
+            if any(label in caption for label in GENERIC_MEDIA_LABELS):
+                errors.append(
+                    f"{project_id}: media {index + 1} has generic caption"
+                )
+            if BAD_MEDIA_TEXT.search(media_text):
+                errors.append(
+                    f"{project_id}: media {index + 1} is page chrome or an icon"
+                )
             if media_type == "image" and item.get("origin") not in {
                 "official-site",
                 "source-attributed",
@@ -118,10 +146,43 @@ def validate(
                 errors.append(
                     f"{project_id}: image {index + 1} has invalid origin"
                 )
+            if (
+                media_type == "image"
+                and item.get("origin") == "source-attributed"
+            ):
+                if item.get("context") not in {
+                    "project-hero",
+                    "source-article-body",
+                }:
+                    errors.append(
+                        f"{project_id}: image {index + 1} has no source context"
+                    )
             if media_type == "video" and item.get("origin") != "embeddable-video":
                 errors.append(
                     f"{project_id}: video {index + 1} is not embeddable"
                 )
+            if media_type == "video":
+                watch = urlparse(str(item.get("watchUrl", "")))
+                poster = urlparse(str(item.get("poster", "")))
+                if (
+                    watch.scheme not in {"http", "https"}
+                    or watch.hostname not in {
+                        "www.youtube.com",
+                        "youtube.com",
+                        "vimeo.com",
+                        "www.vimeo.com",
+                    }
+                ):
+                    errors.append(
+                        f"{project_id}: video {index + 1} has no valid watch URL"
+                    )
+                if (
+                    poster.scheme not in {"http", "https"}
+                    or not poster.hostname
+                ):
+                    errors.append(
+                        f"{project_id}: video {index + 1} has no valid poster"
+                    )
 
         records.append(
             {

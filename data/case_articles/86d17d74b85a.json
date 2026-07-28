@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/be4ycxuz08mm3kukj08s4kk1e726",
-      "caption": "为非设计师提供简易在线图形设计工具公开案例主图",
-      "alt": "为非设计师提供简易在线图形设计工具案例图片",
+      "caption": "为非设计师提供简易在线图形设计工具：通过订阅制收费",
+      "alt": "为非设计师提供简易在线图形设计工具：通过订阅制收费",
       "sourceUrl": "https://www.starterstory.com/stories/how-two-friends-bootstrapped-a-saas-business-to-55k-mrr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/036/original/open-uri20190210-4-1osra8b?1549790058",
-      "caption": "为非设计师提供简易在线图形设计工具项目公开展示素材",
-      "alt": "how-two-friends-bootstrapped-a-saas-business-to-55k-mrr",
+      "caption": "为非设计师提供简易在线图形设计工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为非设计师提供简易在线图形设计工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-two-friends-bootstrapped-a-saas-business-to-55k-mrr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/037/original/open-uri20190210-4-ccz5pi?1549790058",
-      "caption": "为非设计师提供简易在线图形设计工具项目公开展示素材",
-      "alt": "how-two-friends-bootstrapped-a-saas-business-to-55k-mrr",
+      "caption": "为非设计师提供简易在线图形设计工具：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "为非设计师提供简易在线图形设计工具：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-two-friends-bootstrapped-a-saas-business-to-55k-mrr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/038/original/open-uri20190210-4-a40zab?1549790059",
-      "caption": "为非设计师提供简易在线图形设计工具项目公开展示素材",
-      "alt": "how-two-friends-bootstrapped-a-saas-business-to-55k-mrr",
+      "caption": "为非设计师提供简易在线图形设计工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "为非设计师提供简易在线图形设计工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-two-friends-bootstrapped-a-saas-business-to-55k-mrr",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/039/original/open-uri20190210-4-19xy6j6?1549790060",
-      "caption": "为非设计师提供简易在线图形设计工具项目公开展示素材",
-      "alt": "how-two-friends-bootstrapped-a-saas-business-to-55k-mrr",
-      "sourceUrl": "https://www.starterstory.com/stories/how-two-friends-bootstrapped-a-saas-business-to-55k-mrr",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/040/original/open-uri20190210-4-1qk1jgz?1549790060",
-      "caption": "为非设计师提供简易在线图形设计工具项目公开展示素材",
-      "alt": "how-two-friends-bootstrapped-a-saas-business-to-55k-mrr",
-      "sourceUrl": "https://www.starterstory.com/stories/how-two-friends-bootstrapped-a-saas-business-to-55k-mrr",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2233,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

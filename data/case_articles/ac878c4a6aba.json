@@ -122,75 +122,45 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/dm5nm7bftyc3et8zlexzl1bmomwo",
-      "caption": "绿色激励数据库公开案例主图",
-      "alt": "绿色激励数据库案例图片",
+      "caption": "绿色激励数据库：帮建筑业主找补贴，收订阅费",
+      "alt": "绿色激励数据库：帮建筑业主找补贴，收订阅费",
       "sourceUrl": "https://www.starterstory.com/stories/eneryields",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/952/original/open-uri20230413-63-1efd75f?1681403656",
-      "caption": "绿色激励数据库项目公开展示素材",
-      "alt": "eneryields",
+      "caption": "绿色激励数据库：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "绿色激励数据库：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/eneryields",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "绿色激励数据库项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/eneryields",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "绿色激励数据库项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/eneryields",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/wsfthxo0bwxpga1da6eflodtgxay",
-      "caption": "绿色激励数据库项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/eneryields",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/vuqoj5anas6pz7jkdyn7qry6g91y",
-      "caption": "绿色激励数据库项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/eneryields",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/sYUcA-mPKck",
-      "caption": "绿色激励数据库项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=sYUcA-mPKck",
+      "caption": "绿色激励数据库资料中提及的视频：EnerYields Product Tour",
+      "alt": "EnerYields Product Tour",
       "sourceUrl": "https://www.starterstory.com/stories/eneryields",
       "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/sYUcA-mPKck/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/5m95pkxIYXc",
-      "caption": "绿色激励数据库项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=5m95pkxIYXc",
+      "caption": "绿色激励数据库资料中提及的视频：Tap into Low-cost Capital to Upgrade Your Commercial Real Estate",
+      "alt": "Tap into Low-cost Capital to Upgrade Your Commercial Real Estate",
       "sourceUrl": "https://www.starterstory.com/stories/eneryields",
       "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/5m95pkxIYXc/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -206,6 +176,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2162,
-    "mediaCount": 8
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/apns6245equ8hojdbojxqpqpmtjv",
-      "caption": "AI驱动的电商增长平台公开案例主图",
-      "alt": "AI驱动的电商增长平台案例图片",
+      "caption": "AI驱动的电商增长平台：帮卖家优化广告和库存，按月收费",
+      "alt": "AI驱动的电商增长平台：帮卖家优化广告和库存，按月收费",
       "sourceUrl": "https://www.starterstory.com/stories/i-created-a-180k-year-algorithm-that-helps-ecommerce-owners-boost-their-sales",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/723/original/open-uri20220102-3-yimbkf?1641138159",
-      "caption": "AI驱动的电商增长平台项目公开展示素材",
-      "alt": "i-created-a-180k-year-algorithm-that-helps-ecommerce-owners-boost-their-sales",
+      "caption": "AI驱动的电商增长平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI驱动的电商增长平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-created-a-180k-year-algorithm-that-helps-ecommerce-owners-boost-their-sales",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI驱动的电商增长平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/i-created-a-180k-year-algorithm-that-helps-ecommerce-owners-boost-their-sales",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/2r0bmvunp6hplaeyu1t5rm1lcgma",
-      "caption": "AI驱动的电商增长平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/i-created-a-180k-year-algorithm-that-helps-ecommerce-owners-boost-their-sales",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ccjvbiecj0z4p3d8grzre7evwl9k",
-      "caption": "AI驱动的电商增长平台项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/i-created-a-180k-year-algorithm-that-helps-ecommerce-owners-boost-their-sales",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2249,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

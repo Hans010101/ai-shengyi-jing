@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/wn6wql01jljuhcgsc065i0534xp7",
-      "caption": "钻石搜索引擎公开案例主图",
-      "alt": "钻石搜索引擎案例图片",
+      "caption": "钻石搜索引擎：通过比价和推荐赚取佣金",
+      "alt": "钻石搜索引擎：通过比价和推荐赚取佣金",
       "sourceUrl": "https://www.starterstory.com/stories/generating-passive-income-with-a-diamond-search-engine",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/714/original/open-uri20190115-4-1ivvg67?1547589261",
-      "caption": "钻石搜索引擎项目公开展示素材",
-      "alt": "generating-passive-income-with-a-diamond-search-engine",
+      "caption": "钻石搜索引擎：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "钻石搜索引擎：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/generating-passive-income-with-a-diamond-search-engine",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/715/original/open-uri20190115-4-1v647fu?1547589262",
-      "caption": "钻石搜索引擎项目公开展示素材",
+      "caption": "钻石搜索引擎：产品上线与首次发布相关原始配图（第2张）",
       "alt": "The Diamond App website traffic vs affiliate commission",
       "sourceUrl": "https://www.starterstory.com/stories/generating-passive-income-with-a-diamond-search-engine",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/716/original/open-uri20190115-4-pgiirx?1547589262",
-      "caption": "钻石搜索引擎项目公开展示素材",
-      "alt": "generating-passive-income-with-a-diamond-search-engine",
+      "caption": "钻石搜索引擎：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "钻石搜索引擎：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/generating-passive-income-with-a-diamond-search-engine",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/717/original/open-uri20190115-4-kcj701?1547589263",
-      "caption": "钻石搜索引擎项目公开展示素材",
-      "alt": "generating-passive-income-with-a-diamond-search-engine",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/vhzM51z9BaA",
+      "watchUrl": "https://www.youtube.com/watch?v=vhzM51z9BaA",
+      "caption": "钻石搜索引擎：创业起点与创意来源相关视频",
+      "alt": "钻石搜索引擎相关视频",
       "sourceUrl": "https://www.starterstory.com/stories/generating-passive-income-with-a-diamond-search-engine",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/vhzM51z9BaA/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

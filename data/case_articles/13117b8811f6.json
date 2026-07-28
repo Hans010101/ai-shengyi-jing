@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/92bpveaekts6eip7ehcvfk8a5q4m",
-      "caption": "另类资产投资新闻通讯公开案例主图",
-      "alt": "另类资产投资新闻通讯案例图片",
+      "caption": "另类资产投资新闻通讯：通过付费订阅和联盟营销盈利",
+      "alt": "另类资产投资新闻通讯：通过付费订阅和联盟营销盈利",
       "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-6k-month-alternative-investment-analysis-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/591/original/open-uri20211027-3-5ax71z?1635340049",
-      "caption": "另类资产投资新闻通讯项目公开展示素材",
-      "alt": "on-starting-a-6k-month-alternative-investment-analysis-business",
+      "caption": "另类资产投资新闻通讯：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "另类资产投资新闻通讯：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-6k-month-alternative-investment-analysis-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/592/original/open-uri20211027-3-1g3yinw?1635340050",
-      "caption": "另类资产投资新闻通讯项目公开展示素材",
-      "alt": "on-starting-a-6k-month-alternative-investment-analysis-business",
+      "caption": "另类资产投资新闻通讯：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "另类资产投资新闻通讯：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-6k-month-alternative-investment-analysis-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/593/original/open-uri20211027-3-wcmawl?1635340051",
-      "caption": "另类资产投资新闻通讯项目公开展示素材",
-      "alt": "on-starting-a-6k-month-alternative-investment-analysis-business",
+      "caption": "另类资产投资新闻通讯：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "另类资产投资新闻通讯：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-6k-month-alternative-investment-analysis-business",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/594/original/open-uri20211027-3-1xyv1o6?1635340051",
-      "caption": "另类资产投资新闻通讯项目公开展示素材",
-      "alt": "Chart",
-      "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-6k-month-alternative-investment-analysis-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2256,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

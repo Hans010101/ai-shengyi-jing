@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/hp1wrz9z3tc56grivir679jt09st",
-      "caption": "绿色建筑咨询顾问公开案例主图",
-      "alt": "绿色建筑咨询顾问案例图片",
+      "caption": "绿色建筑咨询顾问：通过提供专业认证培训和项目咨询收费",
+      "alt": "绿色建筑咨询顾问：通过提供专业认证培训和项目咨询收费",
       "sourceUrl": "https://www.starterstory.com/stories/green-ideas",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/789/original/open-uri20221028-24-hot9vm?1666929619",
-      "caption": "绿色建筑咨询顾问项目公开展示素材",
-      "alt": "green-ideas",
+      "caption": "绿色建筑咨询顾问：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "绿色建筑咨询顾问：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/green-ideas",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/790/original/open-uri20221028-24-14fo3ys?1666929620",
-      "caption": "绿色建筑咨询顾问项目公开展示素材",
-      "alt": "green-ideas",
+      "caption": "绿色建筑咨询顾问：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "绿色建筑咨询顾问：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/green-ideas",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/791/original/open-uri20221028-24-21rqcn?1666929621",
-      "caption": "绿色建筑咨询顾问项目公开展示素材",
-      "alt": "green-ideas",
+      "caption": "绿色建筑咨询顾问：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "绿色建筑咨询顾问：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/green-ideas",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/792/original/open-uri20221028-24-tqusyz?1666929622",
-      "caption": "绿色建筑咨询顾问项目公开展示素材",
-      "alt": "green-ideas",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/KQLhYJ4nKP8",
+      "watchUrl": "https://www.youtube.com/watch?v=KQLhYJ4nKP8",
+      "caption": "绿色建筑咨询顾问资料中提及的视频：About Green Ideas",
+      "alt": "About Green Ideas",
       "sourceUrl": "https://www.starterstory.com/stories/green-ideas",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/KQLhYJ4nKP8/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

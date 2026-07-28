@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/v16tit34hyzb3ehbxoym2xz8vkma",
-      "caption": "亚美尼亚旅行社公开案例主图",
-      "alt": "亚美尼亚旅行社案例图片",
+      "caption": "亚美尼亚旅行社：通过定制旅游服务盈利",
+      "alt": "亚美尼亚旅行社：通过定制旅游服务盈利",
       "sourceUrl": "https://www.starterstory.com/stories/arara-tour",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/006/original/open-uri20220318-3-169wotk?1647640452",
-      "caption": "亚美尼亚旅行社项目公开展示素材",
-      "alt": "arara-tour",
+      "caption": "亚美尼亚旅行社：创业复盘与关键经验相关原始配图",
+      "alt": "亚美尼亚旅行社：创业复盘与关键经验相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/arara-tour",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "亚美尼亚旅行社项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/arara-tour",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/cb1y40dp0w22m7dhh7pp006xcph8",
-      "caption": "亚美尼亚旅行社项目公开展示素材",
-      "alt": "亚美尼亚旅行社项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/arara-tour",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/vldudx0y6nktj1ga4q3fhak9otsh",
-      "caption": "亚美尼亚旅行社项目公开展示素材",
-      "alt": "亚美尼亚旅行社项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/arara-tour",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2190,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/yorecjma5ansr0j78fdtczqk0y6j",
-      "caption": "产品设计机构公开案例主图",
-      "alt": "产品设计机构案例图片",
+      "caption": "产品设计机构：通过外包服务年入210万美元",
+      "alt": "产品设计机构：通过外包服务年入210万美元",
       "sourceUrl": "https://www.starterstory.com/stories/limeup-27bbb029-ca81-47c5-860e-c7aec411bd27",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/305/original/open-uri20230815-48-rensxj?1692072989",
-      "caption": "产品设计机构项目公开展示素材",
-      "alt": "limeup-27bbb029-ca81-47c5-860e-c7aec411bd27",
+      "caption": "产品设计机构：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "产品设计机构：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/limeup-27bbb029-ca81-47c5-860e-c7aec411bd27",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/306/original/open-uri20230815-48-rli93s?1692072991",
-      "caption": "产品设计机构项目公开展示素材",
-      "alt": "limeup-27bbb029-ca81-47c5-860e-c7aec411bd27",
+      "caption": "产品设计机构：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "产品设计机构：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/limeup-27bbb029-ca81-47c5-860e-c7aec411bd27",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/307/original/open-uri20230815-48-1oli8kf?1692072992",
-      "caption": "产品设计机构项目公开展示素材",
-      "alt": "limeup-27bbb029-ca81-47c5-860e-c7aec411bd27",
+      "caption": "产品设计机构：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "产品设计机构：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/limeup-27bbb029-ca81-47c5-860e-c7aec411bd27",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/308/original/open-uri20230815-48-1lkkv7g?1692072993",
-      "caption": "产品设计机构项目公开展示素材",
-      "alt": "limeup-27bbb029-ca81-47c5-860e-c7aec411bd27",
-      "sourceUrl": "https://www.starterstory.com/stories/limeup-27bbb029-ca81-47c5-860e-c7aec411bd27",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "产品设计机构项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/limeup-27bbb029-ca81-47c5-860e-c7aec411bd27",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2209,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

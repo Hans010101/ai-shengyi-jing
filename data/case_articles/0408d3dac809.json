@@ -122,56 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/1667ibpo47lzo6xbxd56lyibp4we",
-      "caption": "Freemium图库平台公开案例主图",
-      "alt": "Freemium图库平台案例图片",
+      "caption": "Freemium图库平台：靠高级订阅和广告赚钱",
+      "alt": "Freemium图库平台：靠高级订阅和广告赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/free-stock-images",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/311/original/open-uri20220623-12-1buyx1v?1655993344",
-      "caption": "Freemium图库平台项目公开展示素材",
-      "alt": "free-stock-images",
+      "caption": "Freemium图库平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "Freemium图库平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/free-stock-images",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/312/original/open-uri20220623-12-11ko5wp?1655993345",
-      "caption": "Freemium图库平台项目公开展示素材",
-      "alt": "free-stock-images",
+      "caption": "Freemium图库平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "Freemium图库平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/free-stock-images",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "Freemium图库平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/free-stock-images",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/2q6a8yncmonnvypd2kmgep7jt2a0",
-      "caption": "Freemium图库平台项目公开展示素材",
-      "alt": "Freemium图库平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/free-stock-images",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/efqoexbql7bnoo3c5qif6tpt16oe",
-      "caption": "Freemium图库平台项目公开展示素材",
-      "alt": "Freemium图库平台项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/free-stock-images",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2239,
-    "mediaCount": 6
+    "mediaCount": 3
   }
 }

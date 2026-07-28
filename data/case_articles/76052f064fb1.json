@@ -122,65 +122,53 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/w2nadecr3zik3nf0mlm34jhtfmyi",
-      "caption": "将用户声音转为AR艺术品公开案例主图",
-      "alt": "将用户声音转为AR艺术品案例图片",
+      "caption": "将用户声音转为AR艺术品：按订单收费",
+      "alt": "将用户声音转为AR艺术品：按订单收费",
       "sourceUrl": "https://www.starterstory.com/stories/soundwave-art",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/234/original/open-uri20230221-63-1bje547?1676984179",
-      "caption": "将用户声音转为AR艺术品项目公开展示素材",
-      "alt": "soundwave-art",
+      "caption": "将用户声音转为AR艺术品：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "将用户声音转为AR艺术品：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/soundwave-art",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/235/original/open-uri20230221-63-1ebrz4u?1676984181",
-      "caption": "将用户声音转为AR艺术品项目公开展示素材",
-      "alt": "soundwave-art",
+      "caption": "将用户声音转为AR艺术品：给创业者的实践建议相关原始配图（第2张）",
+      "alt": "将用户声音转为AR艺术品：给创业者的实践建议相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/soundwave-art",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/236/original/open-uri20230221-63-1ul720?1676984182",
-      "caption": "将用户声音转为AR艺术品项目公开展示素材",
-      "alt": "soundwave-art",
+      "caption": "将用户声音转为AR艺术品：团队建设与人才需求相关原始配图（第3张）",
+      "alt": "将用户声音转为AR艺术品：团队建设与人才需求相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/soundwave-art",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "将用户声音转为AR艺术品项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/soundwave-art",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/df1fgdrgwrml6ma0yysawtl4ym6l",
-      "caption": "将用户声音转为AR艺术品项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/soundwave-art",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/3HZzqj26hzY",
-      "caption": "将用户声音转为AR艺术品项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=3HZzqj26hzY",
+      "caption": "将用户声音转为AR艺术品资料中提及的视频：Custom Playable Soundwave Art - What would you create?",
+      "alt": "Custom Playable Soundwave Art - What would you create?",
       "sourceUrl": "https://www.starterstory.com/stories/soundwave-art",
       "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/3HZzqj26hzY/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -196,6 +184,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2205,
-    "mediaCount": 7
+    "mediaCount": 5
   }
 }

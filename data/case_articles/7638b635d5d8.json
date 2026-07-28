@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/pzi2r04qpluaakia7xrtsvforzuh",
-      "caption": "公关代理机构公开案例主图",
-      "alt": "公关代理机构案例图片",
+      "caption": "公关代理机构：通过为客户提供媒体曝光和公关服务赚钱",
+      "alt": "公关代理机构：通过为客户提供媒体曝光和公关服务赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/entrepreneur-kris-ruby-on-starting-a-public-relations-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/829/original/open-uri20220113-3-jsas8c?1642051860",
-      "caption": "公关代理机构项目公开展示素材",
-      "alt": "on-starting-a-public-relations-agency",
+      "caption": "公关代理机构：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "公关代理机构：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/entrepreneur-kris-ruby-on-starting-a-public-relations-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/830/original/open-uri20220113-3-169oau4?1642051861",
-      "caption": "公关代理机构项目公开展示素材",
-      "alt": "on-starting-a-public-relations-agency",
+      "caption": "公关代理机构：当前经营状态与下一步规划相关原始配图（第2张）",
+      "alt": "公关代理机构：当前经营状态与下一步规划相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/entrepreneur-kris-ruby-on-starting-a-public-relations-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "公关代理机构项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/entrepreneur-kris-ruby-on-starting-a-public-relations-agency",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/3q9ah33gfr89x9gr887ehtjyb5n2",
-      "caption": "公关代理机构项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/entrepreneur-kris-ruby-on-starting-a-public-relations-agency",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2151,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

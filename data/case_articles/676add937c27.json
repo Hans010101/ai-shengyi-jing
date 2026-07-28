@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/fe11bmiplqdfcnqtlzoykylvjrb1",
-      "caption": "儿童订阅盒公开案例主图",
-      "alt": "儿童订阅盒案例图片",
+      "caption": "儿童订阅盒：每月寄送主题图书和手工材料包",
+      "alt": "儿童订阅盒：每月寄送主题图书和手工材料包",
       "sourceUrl": "https://www.starterstory.com/stories/lit-league",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/168/original/open-uri20220510-24-fhqm6s?1652196379",
-      "caption": "儿童订阅盒项目公开展示素材",
-      "alt": "lit-league",
+      "caption": "儿童订阅盒：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "儿童订阅盒：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/lit-league",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/169/original/open-uri20220510-24-k0g2wa?1652196379",
-      "caption": "儿童订阅盒项目公开展示素材",
-      "alt": "lit-league",
+      "caption": "儿童订阅盒：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "儿童订阅盒：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/lit-league",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/170/original/open-uri20220510-24-8g9m5k?1652196379",
-      "caption": "儿童订阅盒项目公开展示素材",
-      "alt": "lit-league",
+      "caption": "儿童订阅盒：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "儿童订阅盒：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/lit-league",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/171/original/open-uri20220510-24-1vy4e9g?1652196380",
-      "caption": "儿童订阅盒项目公开展示素材",
-      "alt": "lit-league",
-      "sourceUrl": "https://www.starterstory.com/stories/lit-league",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2205,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

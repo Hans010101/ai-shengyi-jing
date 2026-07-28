@@ -122,47 +122,32 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/akg45rq7d9ds3nvgqfheke1aqnv8",
-      "caption": "性别包容内衣品牌公开案例主图",
-      "alt": "性别包容内衣品牌案例图片",
+      "caption": "性别包容内衣品牌：DTC模式销售，月入$2M",
+      "alt": "性别包容内衣品牌：DTC模式销售，月入$2M",
       "sourceUrl": "https://www.starterstory.com/stories/tomboyx-how-we-re-growing-by-listening-to-our-customers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/006/068/original/open-uri20200508-4-o2r97a?1588897045",
-      "caption": "性别包容内衣品牌项目公开展示素材",
-      "alt": "how-we-expanded-our-sales-channels-for-our-business-growth",
+      "caption": "性别包容内衣品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "性别包容内衣品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/tomboyx-how-we-re-growing-by-listening-to-our-customers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/006/069/original/open-uri20200508-4-1ffgyy1?1588897045",
-      "caption": "性别包容内衣品牌项目公开展示素材",
-      "alt": "how-we-expanded-our-sales-channels-for-our-business-growth",
+      "caption": "性别包容内衣品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "性别包容内衣品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/tomboyx-how-we-re-growing-by-listening-to-our-customers",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "性别包容内衣品牌项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/tomboyx-how-we-re-growing-by-listening-to-our-customers",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/w4stw5wtsgmq5u23otc0cudjxnjg",
-      "caption": "性别包容内衣品牌项目公开展示素材",
-      "alt": "性别包容内衣品牌项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/tomboyx-how-we-re-growing-by-listening-to-our-customers",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +162,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2160,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

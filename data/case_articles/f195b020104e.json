@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/3ewko9xclnnig4ibylkh25mbslpu",
-      "caption": "AI食品合规SaaS公开案例主图",
-      "alt": "AI食品合规SaaS案例图片",
+      "caption": "AI食品合规SaaS：帮企业自动生成文档，月付费$40K",
+      "alt": "AI食品合规SaaS：帮企业自动生成文档，月付费$40K",
       "sourceUrl": "https://www.starterstory.com/stories/fooddocs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/621/original/open-uri20221018-12-1boieta?1666065359",
-      "caption": "AI食品合规SaaS项目公开展示素材",
-      "alt": "fooddocs",
+      "caption": "AI食品合规SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI食品合规SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/fooddocs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/622/original/open-uri20221018-12-6402m?1666065360",
-      "caption": "AI食品合规SaaS项目公开展示素材",
-      "alt": "fooddocs",
+      "caption": "AI食品合规SaaS：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "AI食品合规SaaS：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/fooddocs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/623/original/open-uri20221018-12-1mdyf50?1666065361",
-      "caption": "AI食品合规SaaS项目公开展示素材",
-      "alt": "fooddocs",
+      "caption": "AI食品合规SaaS：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "AI食品合规SaaS：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/fooddocs",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/624/original/open-uri20221018-12-1a5y22e?1666065362",
-      "caption": "AI食品合规SaaS项目公开展示素材",
-      "alt": "fooddocs",
-      "sourceUrl": "https://www.starterstory.com/stories/fooddocs",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2202,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

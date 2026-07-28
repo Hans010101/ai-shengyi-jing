@@ -121,57 +121,13 @@
   "media": [
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "帮品牌在ChatGPT等AI中提升可见度项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/brandaxis-ai",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/4vi77wk2gdxam3a4hwtneqopzrpr",
-      "caption": "帮品牌在ChatGPT等AI中提升可见度项目公开展示素材",
-      "alt": "article",
+      "caption": "帮品牌在ChatGPT等AI中提升可见度：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "帮品牌在ChatGPT等AI中提升可见度：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/brandaxis-ai",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/q9jquuxiuwx7qd9knv9cttiis5a4",
-      "caption": "帮品牌在ChatGPT等AI中提升可见度项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/brandaxis-ai",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/gruodz6awwpgobzymouxd1zybn7o",
-      "caption": "帮品牌在ChatGPT等AI中提升可见度项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/brandaxis-ai",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/4pipwrqy6d6srd587i8puk2mopvw",
-      "caption": "帮品牌在ChatGPT等AI中提升可见度项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/brandaxis-ai",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/iy7h46ukd3rncjehdx74ty7z2jts",
-      "caption": "帮品牌在ChatGPT等AI中提升可见度项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/brandaxis-ai",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2243,
-    "mediaCount": 6
+    "mediaCount": 1
   }
 }

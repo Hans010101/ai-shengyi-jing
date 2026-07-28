@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/m5l65kl9z4ucpnlcyfix9wftxdhz",
-      "caption": "提供网站截图API公开案例主图",
-      "alt": "提供网站截图API案例图片",
+      "caption": "提供网站截图API：按使用量收费",
+      "alt": "提供网站截图API：按使用量收费",
       "sourceUrl": "https://www.starterstory.com/stories/screenshotone",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/096/original/open-uri20231105-48-1xombbh?1699161216",
-      "caption": "提供网站截图API项目公开展示素材",
-      "alt": "screenshotone",
+      "caption": "提供网站截图API：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "提供网站截图API：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/screenshotone",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/097/original/open-uri20231105-48-1lns0c?1699161217",
-      "caption": "提供网站截图API项目公开展示素材",
-      "alt": "screenshotone",
+      "caption": "提供网站截图API：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "提供网站截图API：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/screenshotone",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/098/original/open-uri20231105-48-lqa82d?1699161218",
-      "caption": "提供网站截图API项目公开展示素材",
-      "alt": "screenshotone",
+      "caption": "提供网站截图API：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "提供网站截图API：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/screenshotone",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/099/original/open-uri20231105-48-194f03x?1699161219",
-      "caption": "提供网站截图API项目公开展示素材",
-      "alt": "screenshotone",
-      "sourceUrl": "https://www.starterstory.com/stories/screenshotone",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/100/original/open-uri20231105-48-nft3rc?1699161219",
-      "caption": "提供网站截图API项目公开展示素材",
-      "alt": "screenshotone",
-      "sourceUrl": "https://www.starterstory.com/stories/screenshotone",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2226,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

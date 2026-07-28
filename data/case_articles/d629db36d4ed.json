@@ -122,65 +122,53 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/bun6cgedaohvz5si3mf2khdrtf2p",
-      "caption": "在线面部彩绘用品商店公开案例主图",
-      "alt": "在线面部彩绘用品商店案例图片",
+      "caption": "在线面部彩绘用品商店：通过销售产品赚取差价",
+      "alt": "在线面部彩绘用品商店：通过销售产品赚取差价",
       "sourceUrl": "https://www.starterstory.com/stories/jest-paint-store",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/819/original/open-uri20220602-24-crsnc5?1654184802",
-      "caption": "在线面部彩绘用品商店项目公开展示素材",
-      "alt": "jest-paint-store",
+      "caption": "在线面部彩绘用品商店：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "在线面部彩绘用品商店：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/jest-paint-store",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/820/original/open-uri20220602-24-ei73jq?1654184803",
-      "caption": "在线面部彩绘用品商店项目公开展示素材",
-      "alt": "jest-paint-store",
+      "caption": "在线面部彩绘用品商店：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "在线面部彩绘用品商店：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/jest-paint-store",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/821/original/open-uri20220602-24-o6vsqf?1654184803",
-      "caption": "在线面部彩绘用品商店项目公开展示素材",
-      "alt": "jest-paint-store",
+      "caption": "在线面部彩绘用品商店：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "在线面部彩绘用品商店：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/jest-paint-store",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/822/original/open-uri20220602-24-r47k17?1654184803",
-      "caption": "在线面部彩绘用品商店项目公开展示素材",
-      "alt": "jest-paint-store",
-      "sourceUrl": "https://www.starterstory.com/stories/jest-paint-store",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/823/original/open-uri20220602-24-goh70q?1654184804",
-      "caption": "在线面部彩绘用品商店项目公开展示素材",
-      "alt": "jest-paint-store",
-      "sourceUrl": "https://www.starterstory.com/stories/jest-paint-store",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/trxqxbefjh4",
-      "caption": "在线面部彩绘用品商店项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=trxqxbefjh4",
+      "caption": "在线面部彩绘用品商店资料中提及的视频：Face Painting: Dotter Monster Demo",
+      "alt": "Face Painting: Dotter Monster Demo",
       "sourceUrl": "https://www.starterstory.com/stories/jest-paint-store",
       "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/trxqxbefjh4/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -196,6 +184,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2164,
-    "mediaCount": 7
+    "mediaCount": 5
   }
 }

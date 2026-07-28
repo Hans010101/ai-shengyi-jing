@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/ppwie3mlxpj10g6k3s5aniutv6rf",
-      "caption": "AI工具导航站+付费邮件周刊公开案例主图",
-      "alt": "AI工具导航站+付费邮件周刊案例图片",
+      "caption": "AI工具导航站+付费邮件周刊：通过广告和订阅赚钱",
+      "alt": "AI工具导航站+付费邮件周刊：通过广告和订阅赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/world-of-ai-by-aitools-fyi",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/292/original/open-uri20230813-60-1kfeprf?1691933875",
-      "caption": "AI工具导航站+付费邮件周刊项目公开展示素材",
-      "alt": "world-of-ai-by-aitools-fyi",
+      "caption": "AI工具导航站+付费邮件周刊：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI工具导航站+付费邮件周刊：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/world-of-ai-by-aitools-fyi",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "AI工具导航站+付费邮件周刊项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/world-of-ai-by-aitools-fyi",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c303bjznv93yxnh0xxz7t4vfedzf",
-      "caption": "AI工具导航站+付费邮件周刊项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/world-of-ai-by-aitools-fyi",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ux0jwuv5zreae40prptu2ora5km3",
-      "caption": "AI工具导航站+付费邮件周刊项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/world-of-ai-by-aitools-fyi",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2177,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

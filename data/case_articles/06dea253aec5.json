@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/gsg00uqa5a8ojbbjqlzbxotlypfy",
-      "caption": "品牌命名与标识设计服务公开案例主图",
-      "alt": "品牌命名与标识设计服务案例图片",
+      "caption": "品牌命名与标识设计服务：按项目收费",
+      "alt": "品牌命名与标识设计服务：按项目收费",
       "sourceUrl": "https://www.starterstory.com/stories/tungsten-branding",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/891/original/open-uri20230412-63-st55s5?1681343903",
-      "caption": "品牌命名与标识设计服务项目公开展示素材",
-      "alt": "tungsten-branding",
+      "caption": "品牌命名与标识设计服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "品牌命名与标识设计服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/tungsten-branding",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/892/original/open-uri20230412-63-7qo39x?1681343905",
-      "caption": "品牌命名与标识设计服务项目公开展示素材",
-      "alt": "tungsten-branding",
+      "caption": "品牌命名与标识设计服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "品牌命名与标识设计服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/tungsten-branding",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/893/original/open-uri20230412-63-wifh85?1681343907",
-      "caption": "品牌命名与标识设计服务项目公开展示素材",
-      "alt": "tungsten-branding",
+      "caption": "品牌命名与标识设计服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "品牌命名与标识设计服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/tungsten-branding",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/894/original/open-uri20230412-63-13j4kls?1681343908",
-      "caption": "品牌命名与标识设计服务项目公开展示素材",
-      "alt": "tungsten-branding",
-      "sourceUrl": "https://www.starterstory.com/stories/tungsten-branding",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2115,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

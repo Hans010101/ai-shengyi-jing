@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/zbazs7ik7l408bwuin22dawwulp2",
-      "caption": "罗马尼亚团队开发的冥想App公开案例主图",
-      "alt": "罗马尼亚团队开发的冥想App案例图片",
+      "caption": "罗马尼亚团队开发的冥想App：通过订阅制月入3.5万美元",
+      "alt": "罗马尼亚团队开发的冥想App：通过订阅制月入3.5万美元",
       "sourceUrl": "https://www.starterstory.com/stories/mindtastik",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/104/original/open-uri20220504-12-1fc5e3d?1651671747",
-      "caption": "罗马尼亚团队开发的冥想App项目公开展示素材",
-      "alt": "mindtastik",
+      "caption": "罗马尼亚团队开发的冥想App：产品设计与早期打磨相关原始配图",
+      "alt": "罗马尼亚团队开发的冥想App：产品设计与早期打磨相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/mindtastik",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/105/original/data?1651671748",
-      "caption": "罗马尼亚团队开发的冥想App项目公开展示素材",
-      "alt": "mindtastik",
+      "caption": "罗马尼亚团队开发的冥想App：产品上线与首次发布相关原始配图（第2张）",
+      "alt": "罗马尼亚团队开发的冥想App：产品上线与首次发布相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/mindtastik",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/106/original/open-uri20220504-12-cmtpp6?1651671748",
-      "caption": "罗马尼亚团队开发的冥想App项目公开展示素材",
-      "alt": "mindtastik",
+      "caption": "罗马尼亚团队开发的冥想App：当前经营状态与下一步规划相关原始配图（第3张）",
+      "alt": "罗马尼亚团队开发的冥想App：当前经营状态与下一步规划相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/mindtastik",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/107/original/open-uri20220504-12-5e5spb?1651671748",
-      "caption": "罗马尼亚团队开发的冥想App项目公开展示素材",
-      "alt": "mindtastik",
-      "sourceUrl": "https://www.starterstory.com/stories/mindtastik",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "罗马尼亚团队开发的冥想App项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/mindtastik",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2257,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

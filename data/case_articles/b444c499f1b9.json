@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/208p4zyq3kdfl4zam1lodxy2m8qd",
-      "caption": "AI 3D建模SaaS公开案例主图",
-      "alt": "AI 3D建模SaaS案例图片",
+      "caption": "AI 3D建模SaaS：按使用付费",
+      "alt": "AI 3D建模SaaS：按使用付费",
       "sourceUrl": "https://www.starterstory.com/stories/hammer-creations",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/414/original/open-uri20240315-53-1v0fh9p?1710475914",
-      "caption": "AI 3D建模SaaS项目公开展示素材",
-      "alt": "hammer-creations",
+      "caption": "AI 3D建模SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "AI 3D建模SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/hammer-creations",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/415/original/open-uri20240315-53-x4aeiv?1710475915",
-      "caption": "AI 3D建模SaaS项目公开展示素材",
-      "alt": "hammer-creations",
+      "caption": "AI 3D建模SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "AI 3D建模SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/hammer-creations",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/416/original/open-uri20240315-53-8iqnd4?1710475915",
-      "caption": "AI 3D建模SaaS项目公开展示素材",
-      "alt": "hammer-creations",
+      "caption": "AI 3D建模SaaS：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "AI 3D建模SaaS：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/hammer-creations",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/417/original/open-uri20240315-53-73at37?1710475916",
-      "caption": "AI 3D建模SaaS项目公开展示素材",
-      "alt": "hammer-creations",
-      "sourceUrl": "https://www.starterstory.com/stories/hammer-creations",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2199,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

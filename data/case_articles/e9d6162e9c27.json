@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/5dy3j6b6wi6vihv2sdp8j6h70yha",
-      "caption": "前端编码学习社区公开案例主图",
-      "alt": "前端编码学习社区案例图片",
+      "caption": "前端编码学习社区：通过订阅和项目服务盈利",
+      "alt": "前端编码学习社区：通过订阅和项目服务盈利",
       "sourceUrl": "https://www.starterstory.com/stories/we-built-a-180k-year-learn-to-code-community",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/156/original/open-uri20210817-3-1i8yx2?1629190240",
-      "caption": "前端编码学习社区项目公开展示素材",
-      "alt": "we-built-a-180k-year-learn-to-code-community",
+      "caption": "前端编码学习社区：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "前端编码学习社区：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/we-built-a-180k-year-learn-to-code-community",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/157/original/open-uri20210817-3-jb1rlp?1629190241",
-      "caption": "前端编码学习社区项目公开展示素材",
-      "alt": "we-built-a-180k-year-learn-to-code-community",
+      "caption": "前端编码学习社区：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "前端编码学习社区：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-built-a-180k-year-learn-to-code-community",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/158/original/open-uri20210817-3-7vqi9n?1629190241",
-      "caption": "前端编码学习社区项目公开展示素材",
-      "alt": "we-built-a-180k-year-learn-to-code-community",
+      "caption": "前端编码学习社区：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "前端编码学习社区：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-built-a-180k-year-learn-to-code-community",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/159/original/open-uri20210817-3-9a480w?1629190242",
-      "caption": "前端编码学习社区项目公开展示素材",
-      "alt": "we-built-a-180k-year-learn-to-code-community",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/PY_iIeAKFw0",
+      "watchUrl": "https://www.youtube.com/watch?v=PY_iIeAKFw0",
+      "caption": "前端编码学习社区资料中提及的视频：Figma File to Code. The Designer to Developer Handoff w/ Frontend Mentor Founder [HTML+CSS Tutorial]",
+      "alt": "Figma File to Code. The Designer to Developer Handoff w/ Frontend Mentor Founder [HTML+CSS Tutorial]",
       "sourceUrl": "https://www.starterstory.com/stories/we-built-a-180k-year-learn-to-code-community",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/PY_iIeAKFw0/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

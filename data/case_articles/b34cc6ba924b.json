@@ -100,11 +100,14 @@
   "media": [
     {
       "type": "video",
-      "url": "https://www.youtube.com/embed/dt24DresEbE?controls=1",
+      "url": "https://www.youtube.com/embed/dt24DresEbE",
       "caption": "RotoShovel官网主视频：用直观演示解释“手持自动铲”的核心价值",
-      "alt": "RotoShovel产品演示视频",
+      "alt": "Rotoshovel- 5X Torque Handheld Automatic Shovel with Brushless Motor & Long Lasting Battery",
       "sourceUrl": "https://www.rotoshovel.com/",
-      "origin": "embeddable-video"
+      "origin": "embeddable-video",
+      "watchUrl": "https://www.youtube.com/watch?v=dt24DresEbE",
+      "poster": "https://i.ytimg.com/vi/dt24DresEbE/hqdefault.jpg",
+      "provider": "YouTube"
     },
     {
       "type": "image",
@@ -112,15 +115,19 @@
       "caption": "RotoShovel手持自动铲官方产品图",
       "alt": "RotoShovel手持电动铲",
       "sourceUrl": "https://www.rotoshovel.com/",
-      "origin": "official-site"
+      "origin": "official-site",
+      "context": "official-site"
     },
     {
       "type": "video",
-      "url": "https://www.youtube.com/embed/fT-RZmHYcBQ?controls=1",
+      "url": "https://www.youtube.com/embed/fT-RZmHYcBQ",
       "caption": "官网“立杆”使用场景演示",
-      "alt": "RotoShovel立杆挖孔视频",
+      "alt": "Meet the World's First Electric Shovel - The Rotoshovel!",
       "sourceUrl": "https://www.rotoshovel.com/",
-      "origin": "embeddable-video"
+      "origin": "embeddable-video",
+      "watchUrl": "https://www.youtube.com/watch?v=fT-RZmHYcBQ",
+      "poster": "https://i.ytimg.com/vi/fT-RZmHYcBQ/hqdefault.jpg",
+      "provider": "YouTube"
     },
     {
       "type": "image",
@@ -128,15 +135,19 @@
       "caption": "RotoShovel园艺使用场景",
       "alt": "RotoShovel园艺使用场景",
       "sourceUrl": "https://www.rotoshovel.com/",
-      "origin": "official-site"
+      "origin": "official-site",
+      "context": "official-site"
     },
     {
       "type": "video",
-      "url": "https://www.youtube.com/embed/cnww3_Ea--0?controls=1",
+      "url": "https://www.youtube.com/embed/cnww3_Ea--0",
       "caption": "官网“种植”场景演示",
-      "alt": "RotoShovel种植挖孔视频",
+      "alt": "TESTING the CRAZIEST SHOVEL Ever Made - Rotoshovel",
       "sourceUrl": "https://www.rotoshovel.com/",
-      "origin": "embeddable-video"
+      "origin": "embeddable-video",
+      "watchUrl": "https://www.youtube.com/watch?v=cnww3_Ea--0",
+      "poster": "https://i.ytimg.com/vi/cnww3_Ea--0/hqdefault.jpg",
+      "provider": "YouTube"
     },
     {
       "type": "image",
@@ -144,7 +155,8 @@
       "caption": "产品在家庭庭院中的真实应用场景",
       "alt": "RotoShovel家庭庭院场景",
       "sourceUrl": "https://www.rotoshovel.com/",
-      "origin": "official-site"
+      "origin": "official-site",
+      "context": "official-site"
     }
   ],
   "source": {
@@ -165,5 +177,8 @@
     "businessModel": "自主研发生产电动铲土工具，通过官网DTC、亚马逊、批发商销售，毛利率高。",
     "chinaOpportunity": "中国园艺工具市场分散，可开发电动铲、松土器等产品，通过直播电商和社区团购渠道推广。",
     "website": "https://rotoshovel.com"
+  },
+  "quality": {
+    "mediaCount": 6
   }
 }

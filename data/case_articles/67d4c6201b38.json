@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/r26vpdyad8h61mi9u7g40ci68mvk",
-      "caption": "习惯养成游戏化App公开案例主图",
-      "alt": "习惯养成游戏化App案例图片",
+      "caption": "习惯养成游戏化App：通过订阅和付费功能盈利",
+      "alt": "习惯养成游戏化App：通过订阅和付费功能盈利",
       "sourceUrl": "https://www.starterstory.com/stories/habits-garden",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/577/original/open-uri20230523-51-155nv72?1684837894",
-      "caption": "习惯养成游戏化App项目公开展示素材",
-      "alt": "habits-garden",
+      "caption": "习惯养成游戏化App：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "习惯养成游戏化App：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/habits-garden",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/578/original/open-uri20230523-51-84homl?1684837896",
-      "caption": "习惯养成游戏化App项目公开展示素材",
-      "alt": "habits-garden",
+      "caption": "习惯养成游戏化App：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "习惯养成游戏化App：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/habits-garden",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/579/original/open-uri20230523-51-fjnzze?1684837896",
-      "caption": "习惯养成游戏化App项目公开展示素材",
-      "alt": "habits-garden",
+      "caption": "习惯养成游戏化App：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "习惯养成游戏化App：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/habits-garden",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "习惯养成游戏化App项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/habits-garden",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2254,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

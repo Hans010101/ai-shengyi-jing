@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/iplvpxoswth281ka7zpyaq2zx6tq",
-      "caption": "个人信息聚合SaaS公开案例主图",
-      "alt": "个人信息聚合SaaS案例图片",
+      "caption": "个人信息聚合SaaS：按查询次数收费",
+      "alt": "个人信息聚合SaaS：按查询次数收费",
       "sourceUrl": "https://www.starterstory.com/stories/i-started-a-2-4m-year-saas-company-that-gathers-people-s-personal-information",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/256/original/open-uri20211201-3-1h2c8ye?1638381839",
-      "caption": "个人信息聚合SaaS项目公开展示素材",
-      "alt": "i-started-a-2-4m-year-saas-company-that-gathers-people-s-personal-information",
+      "caption": "个人信息聚合SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "个人信息聚合SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-started-a-2-4m-year-saas-company-that-gathers-people-s-personal-information",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "个人信息聚合SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/i-started-a-2-4m-year-saas-company-that-gathers-people-s-personal-information",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ptba69qdqz5xolsqmn7r1j2oyaqo",
-      "caption": "个人信息聚合SaaS项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/i-started-a-2-4m-year-saas-company-that-gathers-people-s-personal-information",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "个人信息聚合SaaS项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/i-started-a-2-4m-year-saas-company-that-gathers-people-s-personal-information",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2272,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

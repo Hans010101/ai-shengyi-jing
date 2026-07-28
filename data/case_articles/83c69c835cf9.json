@@ -122,47 +122,56 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/4gio5dfcz7uzhh5d30s2roy590sb",
-      "caption": "为创意团队提供在线审阅和审批SaaS公开案例主图",
-      "alt": "为创意团队提供在线审阅和审批SaaS案例图片",
+      "caption": "为创意团队提供在线审阅和审批SaaS：按月收费",
+      "alt": "为创意团队提供在线审阅和审批SaaS：按月收费",
       "sourceUrl": "https://www.starterstory.com/stories/filestage-d7e896b6-e907-4968-9665-ae662f498792",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/877/original/open-uri20230117-12-gj0gt?1673963737",
-      "caption": "为创意团队提供在线审阅和审批SaaS项目公开展示素材",
-      "alt": "filestage-d7e896b6-e907-4968-9665-ae662f498792",
+      "caption": "为创意团队提供在线审阅和审批SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为创意团队提供在线审阅和审批SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/filestage-d7e896b6-e907-4968-9665-ae662f498792",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/878/original/open-uri20230117-12-1tdcn6n?1673963738",
-      "caption": "为创意团队提供在线审阅和审批SaaS项目公开展示素材",
-      "alt": "filestage-d7e896b6-e907-4968-9665-ae662f498792",
+      "caption": "为创意团队提供在线审阅和审批SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "为创意团队提供在线审阅和审批SaaS：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/filestage-d7e896b6-e907-4968-9665-ae662f498792",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为创意团队提供在线审阅和审批SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/IvN8Rj0oREk",
+      "watchUrl": "https://www.youtube.com/watch?v=IvN8Rj0oREk",
+      "caption": "为创意团队提供在线审阅和审批SaaS资料中提及的视频：4 Ways Online Proofing Tools Make Feedback Easier",
+      "alt": "4 Ways Online Proofing Tools Make Feedback Easier",
       "sourceUrl": "https://www.starterstory.com/stories/filestage-d7e896b6-e907-4968-9665-ae662f498792",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/IvN8Rj0oREk/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c8ldig3aek8kd56q91f91x5qz6g0",
-      "caption": "为创意团队提供在线审阅和审批SaaS项目公开展示素材",
-      "alt": "tool-icon",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/sRrdZIgVjpg",
+      "watchUrl": "https://www.youtube.com/watch?v=sRrdZIgVjpg",
+      "caption": "为创意团队提供在线审阅和审批SaaS资料中提及的视频：When Do You Need an Online Proofing Solution? A Marketing Review Checklist",
+      "alt": "When Do You Need an Online Proofing Solution? A Marketing Review Checklist",
       "sourceUrl": "https://www.starterstory.com/stories/filestage-d7e896b6-e907-4968-9665-ae662f498792",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/sRrdZIgVjpg/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

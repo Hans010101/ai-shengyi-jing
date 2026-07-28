@@ -122,47 +122,44 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/hw55oeomihkiq41u20axlbzw792l",
-      "caption": "帮企业开发数字产品的技术公司公开案例主图",
-      "alt": "帮企业开发数字产品的技术公司案例图片",
+      "caption": "帮企业开发数字产品的技术公司：按项目收费",
+      "alt": "帮企业开发数字产品的技术公司：按项目收费",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-closed-deals-with-other-companies-and-grown-our-traffic-by-500",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/965/original/open-uri20201119-4-qqar0v?1605805157",
-      "caption": "帮企业开发数字产品的技术公司项目公开展示素材",
-      "alt": "how-we-closed-deals-with-other-companies-and-grown-our-traffic-by-500",
+      "caption": "帮企业开发数字产品的技术公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "帮企业开发数字产品的技术公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-closed-deals-with-other-companies-and-grown-our-traffic-by-500",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/966/original/open-uri20201119-4-14dfmo0?1605805157",
-      "caption": "帮企业开发数字产品的技术公司项目公开展示素材",
-      "alt": "how-we-closed-deals-with-other-companies-and-grown-our-traffic-by-500",
+      "caption": "帮企业开发数字产品的技术公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "帮企业开发数字产品的技术公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-closed-deals-with-other-companies-and-grown-our-traffic-by-500",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "帮企业开发数字产品的技术公司项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/hQixhNL-g1k",
+      "watchUrl": "https://www.youtube.com/watch?v=hQixhNL-g1k",
+      "caption": "帮企业开发数字产品的技术公司资料中提及的视频：How to Build A Successful Business? Incorporate My Three P's To Build A Business",
+      "alt": "How to Build A Successful Business? Incorporate My Three P's To Build A Business",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-closed-deals-with-other-companies-and-grown-our-traffic-by-500",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "帮企业开发数字产品的技术公司项目公开展示素材",
-      "alt": "帮企业开发数字产品的技术公司项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-closed-deals-with-other-companies-and-grown-our-traffic-by-500",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/hQixhNL-g1k/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +174,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2137,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,54 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/u9bm7se1aa89frb7lv7e19go7kw0",
-      "caption": "男性发圈DTC品牌公开案例主图",
-      "alt": "男性发圈DTC品牌案例图片",
+      "caption": "男性发圈DTC品牌：通过垂直细分+社群营销月入3万美元",
+      "alt": "男性发圈DTC品牌：通过垂直细分+社群营销月入3万美元",
       "sourceUrl": "https://www.starterstory.com/stories/how-the-longhairs-grew-to-30k-per-month-selling-hair-ties-for-men",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/196/original/open-uri20181022-4-1qs89r2?1540232689",
-      "caption": "男性发圈DTC品牌项目公开展示素材",
+      "caption": "男性发圈DTC品牌：创始人、核心产品与品牌起点相关原始配图",
       "alt": "Our company logo",
       "sourceUrl": "https://www.starterstory.com/stories/how-the-longhairs-grew-to-30k-per-month-selling-hair-ties-for-men",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/197/original/open-uri20181022-4-b01lyi?1540232690",
-      "caption": "男性发圈DTC品牌项目公开展示素材",
+      "caption": "男性发圈DTC品牌：创业起点与创意来源相关原始配图（第2张）",
       "alt": "Driving home",
       "sourceUrl": "https://www.starterstory.com/stories/how-the-longhairs-grew-to-30k-per-month-selling-hair-ties-for-men",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/198/original/open-uri20181022-4-1i7gbxd?1540232690",
-      "caption": "男性发圈DTC品牌项目公开展示素材",
+      "caption": "男性发圈DTC品牌：创业起点与创意来源相关原始配图（第3张）",
       "alt": "HTFG video",
       "sourceUrl": "https://www.starterstory.com/stories/how-the-longhairs-grew-to-30k-per-month-selling-hair-ties-for-men",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/199/original/open-uri20181022-4-1oya3r2?1540232691",
-      "caption": "男性发圈DTC品牌项目公开展示素材",
-      "alt": "the-longhairs-growing-to-30-000-per-month-selling-hair-ties-for-men",
+      "type": "video",
+      "url": "https://www.youtube.com/embed/IHs_1S1xJns",
+      "watchUrl": "https://www.youtube.com/watch?v=IHs_1S1xJns",
+      "caption": "男性发圈DTC品牌资料中提及的视频：Hair Ties For Guys™ Are Awesome",
+      "alt": "Hair Ties For Guys™ Are Awesome",
       "sourceUrl": "https://www.starterstory.com/stories/how-the-longhairs-grew-to-30k-per-month-selling-hair-ties-for-men",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/IHs_1S1xJns/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/9ulq7pd8b3w214q6rovofs50rafp",
-      "caption": "全球招聘聚合平台公开案例主图",
-      "alt": "全球招聘聚合平台案例图片",
+      "caption": "全球招聘聚合平台：通过向企业收费发布职位和按点击付费赚取佣金",
+      "alt": "全球招聘聚合平台：通过向企业收费发布职位和按点击付费赚取佣金",
       "sourceUrl": "https://www.starterstory.com/stories/jooble",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/760/original/open-uri20221227-12-1460xmh?1672150875",
-      "caption": "全球招聘聚合平台项目公开展示素材",
-      "alt": "jooble",
+      "caption": "全球招聘聚合平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "全球招聘聚合平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/jooble",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/761/original/open-uri20221227-12-wd2bxp?1672150876",
-      "caption": "全球招聘聚合平台项目公开展示素材",
-      "alt": "jooble",
+      "caption": "全球招聘聚合平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "全球招聘聚合平台：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/jooble",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/762/original/open-uri20221227-12-1805jb9?1672150877",
-      "caption": "全球招聘聚合平台项目公开展示素材",
-      "alt": "jooble",
+      "caption": "全球招聘聚合平台：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "全球招聘聚合平台：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/jooble",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/763/original/open-uri20221227-12-1am0sc8?1672150878",
-      "caption": "全球招聘聚合平台项目公开展示素材",
-      "alt": "jooble",
-      "sourceUrl": "https://www.starterstory.com/stories/jooble",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2211,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

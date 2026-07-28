@@ -122,47 +122,12 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/qrbdji02vzcml8aglkubhhimhzep",
-      "caption": "一站式团队协作平台公开案例主图",
-      "alt": "一站式团队协作平台案例图片",
+      "caption": "一站式团队协作平台：通过订阅制收费",
+      "alt": "一站式团队协作平台：通过订阅制收费",
       "sourceUrl": "https://www.starterstory.com/businesses/ninety",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "一站式团队协作平台项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/businesses/ninety",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/528bi8f4w6cpy0p5nj2qe9pt9mf9",
-      "caption": "一站式团队协作平台项目公开展示素材",
-      "alt": "Ninety logo",
-      "sourceUrl": "https://www.starterstory.com/businesses/ninety",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/qv4jaek2gif233st47ae5vu7da4p/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "一站式团队协作平台项目公开展示素材",
-      "alt": "Mark Abbott",
-      "sourceUrl": "https://www.starterstory.com/businesses/ninety",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/fwu9pmrseyttq94884li574j5ei9/b8583b53cfff3cf274b8abadc10fd71c1758be990d07495d4cac7ea114606701",
-      "caption": "一站式团队协作平台项目公开展示素材",
-      "alt": "HubSpot",
-      "sourceUrl": "https://www.starterstory.com/businesses/ninety",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     }
   ],
   "source": {
@@ -177,6 +142,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2192,
-    "mediaCount": 5
+    "mediaCount": 1
   }
 }

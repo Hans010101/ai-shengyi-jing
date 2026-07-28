@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/5nlhpqf7rn8ccwdplewl5v97wd43",
-      "caption": "网站碳足迹分析SaaS公开案例主图",
-      "alt": "网站碳足迹分析SaaS案例图片",
+      "caption": "网站碳足迹分析SaaS：按订阅收费",
+      "alt": "网站碳足迹分析SaaS：按订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/backspace",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/352/original/open-uri20230222-51-1otif8f?1677075306",
-      "caption": "网站碳足迹分析SaaS项目公开展示素材",
-      "alt": "backspace",
+      "caption": "网站碳足迹分析SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "网站碳足迹分析SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/backspace",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/353/original/open-uri20230222-51-diofon?1677075306",
-      "caption": "网站碳足迹分析SaaS项目公开展示素材",
-      "alt": "backspace",
+      "caption": "网站碳足迹分析SaaS：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "网站碳足迹分析SaaS：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/backspace",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/354/original/open-uri20230222-51-1t7b9bg?1677075307",
-      "caption": "网站碳足迹分析SaaS项目公开展示素材",
-      "alt": "backspace",
+      "caption": "网站碳足迹分析SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "网站碳足迹分析SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/backspace",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/355/original/open-uri20230222-51-bwfvt7?1677075308",
-      "caption": "网站碳足迹分析SaaS项目公开展示素材",
-      "alt": "backspace",
-      "sourceUrl": "https://www.starterstory.com/stories/backspace",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/356/original/open-uri20230222-51-1y0k664?1677075308",
-      "caption": "网站碳足迹分析SaaS项目公开展示素材",
-      "alt": "backspace",
-      "sourceUrl": "https://www.starterstory.com/stories/backspace",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2195,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

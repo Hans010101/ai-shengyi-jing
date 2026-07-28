@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/i2akj6pbg1gtqesls0jqsgqfee03",
-      "caption": "帮创始人增收10万美元公开案例主图",
-      "alt": "帮创始人增收10万美元案例图片",
+      "caption": "帮创始人增收10万美元：月入1.5万美元的利润增长咨询",
+      "alt": "帮创始人增收10万美元：月入1.5万美元的利润增长咨询",
       "sourceUrl": "https://www.starterstory.com/stories/the-profit-finder",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/315/original/open-uri20231201-48-13vw5y?1701415629",
-      "caption": "帮创始人增收10万美元项目公开展示素材",
-      "alt": "the-profit-finder",
+      "caption": "帮创始人增收10万美元：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "帮创始人增收10万美元：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/the-profit-finder",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/316/original/open-uri20231201-48-32cs71?1701415630",
-      "caption": "帮创始人增收10万美元项目公开展示素材",
-      "alt": "the-profit-finder",
+      "caption": "帮创始人增收10万美元：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "帮创始人增收10万美元：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/the-profit-finder",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/317/original/open-uri20231201-48-16892pw?1701415631",
-      "caption": "帮创始人增收10万美元项目公开展示素材",
-      "alt": "the-profit-finder",
+      "caption": "帮创始人增收10万美元：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "帮创始人增收10万美元：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/the-profit-finder",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "帮创始人增收10万美元项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/the-profit-finder",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2259,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

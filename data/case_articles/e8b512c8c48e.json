@@ -122,47 +122,34 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/42a4wciutwao9hr27fini20b6tub",
-      "caption": "品牌营销代理公开案例主图",
-      "alt": "品牌营销代理案例图片",
+      "caption": "品牌营销代理：通过B2C DTC客户增长收取服务费",
+      "alt": "品牌营销代理：通过B2C DTC客户增长收取服务费",
       "sourceUrl": "https://www.starterstory.com/stories/startup-marketing-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/884/original/open-uri20220418-12-1kyxcw5?1650286864",
-      "caption": "品牌营销代理项目公开展示素材",
-      "alt": "startup-marketing-agency",
+      "caption": "品牌营销代理：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "品牌营销代理：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/startup-marketing-agency",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "品牌营销代理项目公开展示素材",
-      "alt": "by HubSpot Media",
+      "type": "video",
+      "url": "https://player.vimeo.com/video/378878330",
+      "watchUrl": "https://vimeo.com/378878330",
+      "caption": "品牌营销代理资料中提及的视频：HypeLife Brands Presents Making the Brand: HUDL Music",
+      "alt": "HypeLife Brands Presents Making the Brand: HUDL Music",
       "sourceUrl": "https://www.starterstory.com/stories/startup-marketing-agency",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/c303bjznv93yxnh0xxz7t4vfedzf",
-      "caption": "品牌营销代理项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/startup-marketing-agency",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ia68hk3d45yv993erewx6yiew8ys",
-      "caption": "品牌营销代理项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/startup-marketing-agency",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "origin": "embeddable-video",
+      "poster": "https://i.vimeocdn.com/video/839430984-a86f7ce7cecf5a30b2f3e883af23b4efe93eea4920c5a13d7be735a3d022f741-d_295x166?region=us",
+      "provider": "Vimeo",
+      "usage": ""
     }
   ],
   "source": {
@@ -177,6 +164,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2147,
-    "mediaCount": 5
+    "mediaCount": 3
   }
 }

@@ -122,56 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/kdepq19q2h12uvkk29dqbnqu3z6f",
-      "caption": "网站个性化工具SaaS公开案例主图",
-      "alt": "网站个性化工具SaaS案例图片",
+      "caption": "网站个性化工具SaaS：通过月订阅费赚钱",
+      "alt": "网站个性化工具SaaS：通过月订阅费赚钱",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-our-saas-to-30k-mrr-in-one-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/300/original/open-uri20190321-4-1exz5pn?1553153848",
-      "caption": "网站个性化工具SaaS项目公开展示素材",
-      "alt": "how-we-grew-our-saas-to-30k-mrr-in-one-year",
+      "caption": "网站个性化工具SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "网站个性化工具SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-our-saas-to-30k-mrr-in-one-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/301/original/open-uri20190321-4-jmh5bh?1553153848",
-      "caption": "网站个性化工具SaaS项目公开展示素材",
-      "alt": "how-we-grew-our-saas-to-30k-mrr-in-one-year",
+      "caption": "网站个性化工具SaaS：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "网站个性化工具SaaS：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-our-saas-to-30k-mrr-in-one-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/302/original/open-uri20190321-4-13c2mpl?1553153849",
-      "caption": "网站个性化工具SaaS项目公开展示素材",
-      "alt": "how-we-grew-our-saas-to-30k-mrr-in-one-year",
+      "caption": "网站个性化工具SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "网站个性化工具SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-our-saas-to-30k-mrr-in-one-year",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/303/original/open-uri20190321-4-bprenh?1553153849",
-      "caption": "网站个性化工具SaaS项目公开展示素材",
-      "alt": "how-we-grew-our-saas-to-30k-mrr-in-one-year",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-our-saas-to-30k-mrr-in-one-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/304/original/open-uri20190321-4-1ghyju7?1553153849",
-      "caption": "网站个性化工具SaaS项目公开展示素材",
-      "alt": "how-we-grew-our-saas-to-30k-mrr-in-one-year",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-our-saas-to-30k-mrr-in-one-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -186,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2151,
-    "mediaCount": 6
+    "mediaCount": 4
   }
 }

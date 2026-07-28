@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/97b6zoxwfaxw3bxsjhwhol8p9xda",
-      "caption": "B2B精准客户名单服务公开案例主图",
-      "alt": "B2B精准客户名单服务案例图片",
+      "caption": "B2B精准客户名单服务：按需定制，月营收10万美元",
+      "alt": "B2B精准客户名单服务：按需定制，月营收10万美元",
       "sourceUrl": "https://www.starterstory.com/stories/listkit-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "B2B精准客户名单服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/listkit-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/variants/pqi2qh2io0vvcbj4b5ox6naxazql/b410a5d84fc4ca59a91ede125e86a05e135f53c20a10401ab269aff5d6764c10",
-      "caption": "B2B精准客户名单服务项目公开展示素材",
-      "alt": "B2B精准客户名单服务项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/listkit-breakdown",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/9dc4a86f477093ae",
-      "caption": "B2B精准客户名单服务项目公开展示素材",
-      "alt": "article",
+      "caption": "B2B精准客户名单服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "B2B精准客户名单服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/listkit-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/9p4i9o3m2i9q7exfddtg9cyoald0",
-      "caption": "B2B精准客户名单服务项目公开展示素材",
-      "alt": "article",
+      "caption": "B2B精准客户名单服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "B2B精准客户名单服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/listkit-breakdown",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/15f06415a298be62",
+      "caption": "B2B精准客户名单服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "B2B精准客户名单服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/listkit-breakdown",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2178,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

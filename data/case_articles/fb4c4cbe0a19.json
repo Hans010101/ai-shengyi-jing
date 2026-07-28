@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/v77lz4nxp3u2yy34cj851p6tpiqp",
-      "caption": "高端品牌教练服务公开案例主图",
-      "alt": "高端品牌教练服务案例图片",
+      "caption": "高端品牌教练服务：帮助女性创始人打造奢华品牌并获客",
+      "alt": "高端品牌教练服务：帮助女性创始人打造奢华品牌并获客",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-become-one-of-the-top-luxury-branding-studios",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/590/original/open-uri20211226-3-cn9fp9?1640559929",
-      "caption": "高端品牌教练服务项目公开展示素材",
-      "alt": "how-we-become-one-of-the-top-luxury-branding-studios",
+      "caption": "高端品牌教练服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "高端品牌教练服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-become-one-of-the-top-luxury-branding-studios",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "高端品牌教练服务项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-become-one-of-the-top-luxury-branding-studios",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/2q6a8yncmonnvypd2kmgep7jt2a0",
-      "caption": "高端品牌教练服务项目公开展示素材",
-      "alt": "高端品牌教练服务项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-become-one-of-the-top-luxury-branding-studios",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/efqoexbql7bnoo3c5qif6tpt16oe",
-      "caption": "高端品牌教练服务项目公开展示素材",
-      "alt": "高端品牌教练服务项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-become-one-of-the-top-luxury-branding-studios",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2199,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

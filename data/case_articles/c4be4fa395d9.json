@@ -122,65 +122,43 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/de4d80dk4pey8oqihacc56jsxjyp",
-      "caption": "诊所医疗软件SaaS公开案例主图",
-      "alt": "诊所医疗软件SaaS案例图片",
+      "caption": "诊所医疗软件SaaS：月费订阅盈利",
+      "alt": "诊所医疗软件SaaS：月费订阅盈利",
       "sourceUrl": "https://www.starterstory.com/stories/advinow-medical",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/272/original/open-uri20220329-3-1t8k60c?1648587950",
-      "caption": "诊所医疗软件SaaS项目公开展示素材",
-      "alt": "advinow-medical",
+      "caption": "诊所医疗软件SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "诊所医疗软件SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/advinow-medical",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/273/original/open-uri20220329-3-fsq3li?1648587950",
-      "caption": "诊所医疗软件SaaS项目公开展示素材",
-      "alt": "advinow-medical",
+      "caption": "诊所医疗软件SaaS：创业复盘与关键经验相关原始配图（第2张）",
+      "alt": "诊所医疗软件SaaS：创业复盘与关键经验相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/advinow-medical",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "诊所医疗软件SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/advinow-medical",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/nlzka6avch4wnddofkr0ivo5ynsx",
-      "caption": "诊所医疗软件SaaS项目公开展示素材",
-      "alt": "诊所医疗软件SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/advinow-medical",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/64bihta9f3tvvscihck8vct49pt5",
-      "caption": "诊所医疗软件SaaS项目公开展示素材",
-      "alt": "诊所医疗软件SaaS项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/advinow-medical",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/mWTHWDOZISU",
-      "caption": "诊所医疗软件SaaS项目相关公开视频",
-      "alt": "",
+      "watchUrl": "https://www.youtube.com/watch?v=mWTHWDOZISU",
+      "caption": "诊所医疗软件SaaS资料中提及的视频：CEO Interview JamesBates copy",
+      "alt": "CEO Interview JamesBates copy",
       "sourceUrl": "https://www.starterstory.com/stories/advinow-medical",
       "origin": "embeddable-video",
-      "poster": "",
+      "poster": "https://i.ytimg.com/vi/mWTHWDOZISU/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -196,6 +174,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2187,
-    "mediaCount": 7
+    "mediaCount": 4
   }
 }

@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/6z7mi9yu8ira1ogl1cx5i0mqqwnz",
-      "caption": "提供API模拟工具公开案例主图",
-      "alt": "提供API模拟工具案例图片",
+      "caption": "提供API模拟工具：通过免费增值和订阅制盈利",
+      "alt": "提供API模拟工具：通过免费增值和订阅制盈利",
       "sourceUrl": "https://www.starterstory.com/stories/mockoon",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/839/original/open-uri20230406-64-f2up4v?1680765981",
-      "caption": "提供API模拟工具项目公开展示素材",
-      "alt": "mockoon",
+      "caption": "提供API模拟工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "提供API模拟工具：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/mockoon",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/840/original/open-uri20230406-64-12d36o1?1680765982",
-      "caption": "提供API模拟工具项目公开展示素材",
-      "alt": "mockoon",
+      "caption": "提供API模拟工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "提供API模拟工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/mockoon",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/841/original/open-uri20230406-64-1hmbc3q?1680765982",
-      "caption": "提供API模拟工具项目公开展示素材",
-      "alt": "mockoon",
+      "caption": "提供API模拟工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "提供API模拟工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/mockoon",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "提供API模拟工具项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/mockoon",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2371,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

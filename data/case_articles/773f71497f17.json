@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/slf5zalcwyf641fxc9yr98f6t9nt",
-      "caption": "海外开发者工具项目公开案例主图",
-      "alt": "海外开发者工具项目案例图片",
+      "caption": "海外开发者工具项目：通过客户推荐和内容营销，数字营销代理服务年入10万美元",
+      "alt": "海外开发者工具项目：通过客户推荐和内容营销，数字营销代理服务年入10万美元",
       "sourceUrl": "https://www.starterstory.com/stories/i-grew-my-business-to-100k-year-through-referrals",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/424/original/open-uri20210828-3-1hx04ew?1630167936",
-      "caption": "海外开发者工具项目项目公开展示素材",
-      "alt": "i-grew-my-business-to-100k-year-through-referrals",
+      "caption": "海外开发者工具项目：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "海外开发者工具项目：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-grew-my-business-to-100k-year-through-referrals",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "海外开发者工具项目项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/i-grew-my-business-to-100k-year-through-referrals",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/3q9ah33gfr89x9gr887ehtjyb5n2",
-      "caption": "海外开发者工具项目项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/i-grew-my-business-to-100k-year-through-referrals",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/lg5977yk83i1rrk1e3qe4vcklhmd",
-      "caption": "海外开发者工具项目项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/i-grew-my-business-to-100k-year-through-referrals",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2288,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

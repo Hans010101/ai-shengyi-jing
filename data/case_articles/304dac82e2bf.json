@@ -122,47 +122,42 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/4t3eefek29cfpz3r7ya0l0dwf7ky",
-      "caption": "Yofi帮助品牌识别真实客户公开案例主图",
-      "alt": "Yofi帮助品牌识别真实客户案例图片",
+      "caption": "Yofi帮助品牌识别真实客户：防止机器人，年营收12万美元",
+      "alt": "Yofi帮助品牌识别真实客户：防止机器人，年营收12万美元",
       "sourceUrl": "https://www.starterstory.com/stories/yofi",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/000/original/open-uri20230124-12-1gtn06m?1674562863",
-      "caption": "Yofi帮助品牌识别真实客户项目公开展示素材",
-      "alt": "yofi",
+      "caption": "Yofi帮助品牌识别真实客户：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "Yofi帮助品牌识别真实客户：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/yofi",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/001/original/open-uri20230124-12-25dmlu?1674562864",
-      "caption": "Yofi帮助品牌识别真实客户项目公开展示素材",
-      "alt": "yofi",
+      "caption": "Yofi帮助品牌识别真实客户：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "Yofi帮助品牌识别真实客户：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/yofi",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/002/original/open-uri20230124-12-1sx2pk7?1674562865",
-      "caption": "Yofi帮助品牌识别真实客户项目公开展示素材",
-      "alt": "yofi",
+      "caption": "Yofi帮助品牌识别真实客户：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "Yofi帮助品牌识别真实客户：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/yofi",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/003/original/open-uri20230124-12-123lf3m?1674562865",
-      "caption": "Yofi帮助品牌识别真实客户项目公开展示素材",
-      "alt": "yofi",
-      "sourceUrl": "https://www.starterstory.com/stories/yofi",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +172,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2158,
-    "mediaCount": 5
+    "mediaCount": 4
   }
 }

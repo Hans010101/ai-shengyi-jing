@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/qudgsuaiwktjxcys6b4ruqjjf2uv",
-      "caption": "为创作者提供简单易用的新闻通讯SaaS公开案例主图",
-      "alt": "为创作者提供简单易用的新闻通讯SaaS案例图片",
+      "caption": "为创作者提供简单易用的新闻通讯SaaS：通过订阅收费",
+      "alt": "为创作者提供简单易用的新闻通讯SaaS：通过订阅收费",
       "sourceUrl": "https://www.starterstory.com/stories/buttondown-3c56dbd3-7447-409e-9259-12a87b275dbb",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/071/original/open-uri20240622-60-zkwuec?1719098276",
-      "caption": "为创作者提供简单易用的新闻通讯SaaS项目公开展示素材",
-      "alt": "buttondown-3c56dbd3-7447-409e-9259-12a87b275dbb",
+      "caption": "为创作者提供简单易用的新闻通讯SaaS：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为创作者提供简单易用的新闻通讯SaaS：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/buttondown-3c56dbd3-7447-409e-9259-12a87b275dbb",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "为创作者提供简单易用的新闻通讯SaaS项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/buttondown-3c56dbd3-7447-409e-9259-12a87b275dbb",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/ia68hk3d45yv993erewx6yiew8ys",
-      "caption": "为创作者提供简单易用的新闻通讯SaaS项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/buttondown-3c56dbd3-7447-409e-9259-12a87b275dbb",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/piihionyjd5htwa50vbuc80659ad",
-      "caption": "为创作者提供简单易用的新闻通讯SaaS项目公开展示素材",
-      "alt": "tool-icon",
-      "sourceUrl": "https://www.starterstory.com/stories/buttondown-3c56dbd3-7447-409e-9259-12a87b275dbb",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2197,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }

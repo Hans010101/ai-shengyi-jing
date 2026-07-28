@@ -122,47 +122,22 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/5ngkcqg27s03xp2g6ntagfjq7u6n",
-      "caption": "美业SaaS系统公开案例主图",
-      "alt": "美业SaaS系统案例图片",
+      "caption": "美业SaaS系统：通过订阅制向美容院收费",
+      "alt": "美业SaaS系统：通过订阅制向美容院收费",
       "sourceUrl": "https://www.starterstory.com/stories/salonist-software",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/896/original/open-uri20220606-12-qf66es?1654534808",
-      "caption": "美业SaaS系统项目公开展示素材",
-      "alt": "salonist-software",
+      "caption": "美业SaaS系统：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "美业SaaS系统：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/salonist-software",
       "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
-      "caption": "美业SaaS系统项目公开展示素材",
-      "alt": "by HubSpot Media",
-      "sourceUrl": "https://www.starterstory.com/stories/salonist-software",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/n6mor7sm72s2i3ebq6s4g5zrlled",
-      "caption": "美业SaaS系统项目公开展示素材",
-      "alt": "美业SaaS系统项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/salonist-software",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/dvithrg7zcn51mk81s7sw6btbew2",
-      "caption": "美业SaaS系统项目公开展示素材",
-      "alt": "美业SaaS系统项目展示图",
-      "sourceUrl": "https://www.starterstory.com/stories/salonist-software",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed"
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -177,6 +152,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2155,
-    "mediaCount": 5
+    "mediaCount": 2
   }
 }
