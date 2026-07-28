@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="按赛道分类浏览AI生意经全部中文案例详情">
+  <title>案例详情库｜AI生意经</title>
+  <link rel="stylesheet" href="assets/cases.css">
+</head>
+<body>
+  <header class="directory-header">
+    <div class="directory-header-inner">
+      <a class="directory-brand" href="index.html">💡 AI生意经</a>
+      <nav class="directory-nav" aria-label="主导航">
+        <a href="index.html#projects">精选案例</a>
+        <a class="active" href="cases.html" aria-current="page">案例详情</a>
+        <a href="index.html#all-projects">全量项目库</a>
+        <a href="index.html#radar">生意雷达</a>
+      </nav>
+      <a class="directory-home" href="index.html">返回首页</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="directory-hero">
+      <div class="directory-container">
+        <div class="directory-eyebrow">AI 生意经 · 中文商业案例库</div>
+        <h1>快速查阅每一个<br><span>真实生意案例详情</span></h1>
+        <p>按照现有项目赛道分类，直接进入完整中文商业拆解、增长逻辑、落地路径及原始图片与视频素材。</p>
+        <label class="case-search" for="caseSearchInput">
+          <span aria-hidden="true">⌕</span>
+          <input id="caseSearchInput" type="search" aria-label="搜索案例" placeholder="搜索案例名称、行业或商业关键词" autocomplete="off">
+          <button id="caseSearchClear" type="button" aria-label="清空搜索">清空</button>
+        </label>
+        <div class="directory-stats">
+          <strong id="caseTotalCount">—</strong>
+          <span>篇完整案例详情，持续同步更新</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="directory-main" aria-labelledby="directoryTitle">
+      <div class="directory-container">
+        <div class="directory-section-head">
+          <div>
+            <h2 id="directoryTitle">按分类浏览案例</h2>
+            <p id="caseResultSummary">正在载入案例目录…</p>
+          </div>
+          <select id="caseSortSelect" aria-label="案例排序">
+            <option value="latest">最近更新</option>
+            <option value="revenue">营收从高到低</option>
+            <option value="name">名称排序</option>
+          </select>
+        </div>
+
+        <div class="case-category-bar" id="caseCategoryBar" aria-label="案例分类"></div>
+        <div class="case-directory-grid" id="caseDirectoryGrid" aria-live="polite"></div>
+        <div class="case-directory-empty" id="caseDirectoryEmpty" hidden>
+          <div>🔎</div>
+          <h3>没有找到匹配案例</h3>
+          <p>可以更换分类或缩短搜索关键词。</p>
+        </div>
+        <nav class="case-pagination" id="casePagination" aria-label="案例分页"></nav>
+      </div>
+    </section>
+  </main>
+
+  <footer class="directory-footer">
+    <a href="index.html">💡 AI生意经</a>
+    <p>原创中文商业拆解 · 数据仅供研究参考</p>
+  </footer>
+
+  <script src="assets/cases.js"></script>
+</body>
+</html>

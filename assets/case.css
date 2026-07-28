@@ -34,13 +34,15 @@ body {
   backdrop-filter: blur(12px);
 }
 
-.case-brand, .case-back {
+.case-brand, .case-back, .case-directory {
   color: var(--ink);
   font-weight: 800;
   text-decoration: none;
 }
 
 .case-back { color: var(--muted); font-size: 14px; }
+.case-directory { color: var(--accent); font-size: 14px; }
+.case-header-nav { display: flex; align-items: center; gap: 22px; }
 
 .case-shell {
   width: min(1180px, calc(100% - 40px));
@@ -272,6 +274,10 @@ blockquote {
 
 @media (max-width: 620px) {
   .case-header { height: 60px; padding: 0 16px; }
+  .case-header-nav { gap: 12px; }
+  .case-directory, .case-back { font-size: 12px; }
+  .case-back { font-size: 0; }
+  .case-back::after { content: "← 项目库"; font-size: 12px; }
   .case-shell { width: 100%; margin: 0 auto; }
   .case-article { border: 0; border-radius: 0; padding: 28px 20px 42px; }
   .case-title { font-size: 34px; }

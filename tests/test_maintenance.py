@@ -149,6 +149,25 @@ class BuildTests(unittest.TestCase):
         self.assertIn(Path("data/case_articles.json"), PUBLISH_PATHS)
         self.assertIn(Path("data/case_articles"), PUBLISH_PATHS)
 
+    def test_case_directory_is_published_and_linked_from_navigation(self):
+        index_html = Path("index.html").read_text(encoding="utf-8")
+        cases_html = Path("cases.html").read_text(encoding="utf-8")
+        cases_js = Path("assets/cases.js").read_text(encoding="utf-8")
+        case_html = Path("case.html").read_text(encoding="utf-8")
+
+        self.assertIn('href="cases.html"', index_html)
+        self.assertIn('href="cases.html"', case_html)
+        self.assertIn('id="caseCategoryBar"', cases_html)
+        self.assertIn('id="caseSearchInput"', cases_html)
+        self.assertIn("case.html?id=", cases_js)
+        self.assertIn("project.niche", cases_js)
+        for path in (
+            Path("cases.html"),
+            Path("assets/cases.js"),
+            Path("assets/cases.css"),
+        ):
+            self.assertIn(path, PUBLISH_PATHS)
+
     def test_case_catalog_covers_every_project(self):
         report, errors = validate_case_catalog(write_report=False)
 

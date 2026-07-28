@@ -54,6 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
   setupSubscribe();
   setupScrollAnimations();
   setupHeader();
+  setupMobileMenu();
   setupAiAdvisor(); // Init chatbot listeners
 });
 
@@ -651,6 +652,29 @@ function setupHeader() {
     } else {
       header.style.boxShadow = 'none';
     }
+  });
+}
+
+function setupMobileMenu() {
+  const button = document.getElementById('mobileMenuBtn');
+  const nav = document.querySelector('.main-nav');
+  if (!button || !nav) return;
+
+  const closeMenu = () => {
+    nav.classList.remove('mobile-open');
+    button.setAttribute('aria-expanded', 'false');
+    button.textContent = '☰';
+  };
+
+  button.addEventListener('click', () => {
+    const isOpen = nav.classList.toggle('mobile-open');
+    button.setAttribute('aria-expanded', String(isOpen));
+    button.textContent = isOpen ? '✕' : '☰';
+  });
+
+  nav.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 900) closeMenu();
   });
 }
 
