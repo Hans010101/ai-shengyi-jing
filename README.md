@@ -74,17 +74,18 @@ python3 -m http.server 8080 --directory dist
 
 所有项目的“案例详情”均指向站内页面。3,646 个项目均拥有独立的微信公众号风格案例文件，页面按项目 ID 加载，不再把访客直接带离本站。
 
-批量案例目录可按以下方式重建。默认只使用现有中文结构化事实；增加 `--fetch-media` 后，会以受控并发发现来源页公开图片和可嵌入视频。5 篇人工精修基准稿默认不会被覆盖。
+批量案例目录可按以下方式重建。默认只使用现有中文结构化事实；增加 `--fetch-media` 后，会以受控并发发现来源页公开图片和可嵌入视频。5 篇人工精修基准稿默认不会被覆盖。全量文章目标为每篇 3—5 个正文媒体；历史文章素材不足时使用 `--enrich-under-media 3` 专项补采并合并去重。
 
 ```bash
-python3 scripts/generate_case_catalog.py --fetch-media --workers 4
+python3 scripts/generate_case_catalog.py --fetch-media --workers 2 --request-interval 0.65 --request-retries 2
+python3 scripts/generate_case_catalog.py --enrich-under-media 3 --workers 2 --request-interval 0.65 --request-retries 2
 python3 scripts/validate_case_catalog.py
 ```
 
 每日采集只为新增项目补文件，避免重写全部历史案例：
 
 ```bash
-python3 scripts/generate_case_catalog.py --missing-only --fetch-media --workers 2
+python3 scripts/generate_case_catalog.py --missing-only --fetch-media --workers 2 --request-interval 0.65 --request-retries 2
 ```
 
 案例编辑链路先调用 Cloudflare Workers AI；额度耗尽、超时或服务不可用时，才使用 DeepSeek。采集器只读取无需登录即可看到的公开事实，不绕过付费墙；文章不逐句翻译或复刻来源结构。媒体优先引用项目官网公开图片、来源页公开图片、官网视频和 YouTube/Vimeo 公开嵌入链接。第三方图片不下载到仓库，页面以带原页面回链的远程引用方式展示；若站点商业化，必须先取得授权或移除这类素材。

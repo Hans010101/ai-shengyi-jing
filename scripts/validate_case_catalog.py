@@ -136,6 +136,10 @@ def validate(
     without_media = [
         record["projectId"] for record in records if record["media"] == 0
     ]
+    below_three_media = [
+        record["projectId"] for record in records if record["media"] < 3
+    ]
+    media_distribution = Counter(record["media"] for record in records)
     report = {
         "validatedAt": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         "projectCount": len(projects),
@@ -158,6 +162,12 @@ def validate(
         "withMedia": sum(record["media"] > 0 for record in records),
         "withoutMedia": len(without_media),
         "mediaItems": sum(record["media"] for record in records),
+        "mediaDistribution": {
+            str(count): total
+            for count, total in sorted(media_distribution.items())
+        },
+        "belowThreeMedia": len(below_three_media),
+        "belowThreeMediaIds": below_three_media,
         "withoutMediaIds": without_media,
         "errors": errors,
     }

@@ -30,8 +30,8 @@ LEGACY_ARTICLES_FILE = ROOT / "data" / "case_articles.json"
 ARTICLES_DIR = ROOT / "data" / "case_articles"
 REPORT_FILE = ROOT / "pipeline" / "data" / "case_catalog_report.json"
 SOURCE_HOST = "www.starterstory.com"
-MAX_MEDIA = 8
-MAX_SOURCE_IMAGES = 6
+MAX_MEDIA = 5
+MAX_SOURCE_IMAGES = 5
 REQUEST_TIMEOUT = 25
 
 HEADERS = {
@@ -44,6 +44,10 @@ HEADERS = {
 }
 
 _thread_local = threading.local()
+_request_lock = threading.Lock()
+_next_request_at = 0.0
+_request_interval = 0.0
+_request_retries = 0
 
 
 def load_json(path: Path, default):
@@ -71,6 +75,36 @@ def session() -> requests.Session:
         current.headers.update(HEADERS)
         _thread_local.session = current
     return current
+
+
+def configure_source_requests(interval: float, retries: int) -> None:
+    """Configure polite process-wide pacing for public source requests."""
+    global _request_interval, _request_retries, _next_request_at
+    _request_interval = max(0.0, interval)
+    _request_retries = max(0, retries)
+    _next_request_at = 0.0
+
+
+def paced_source_get(url: str) -> requests.Response:
+    """Fetch a source page with shared throttling and bounded 429 retries."""
+    global _next_request_at
+    last_response = None
+    for attempt in range(_request_retries + 1):
+        with _request_lock:
+            delay = max(0.0, _next_request_at - time.monotonic())
+            if delay:
+                time.sleep(delay)
+            _next_request_at = time.monotonic() + _request_interval
+        last_response = session().get(url, timeout=REQUEST_TIMEOUT)
+        if last_response.status_code != 429 or attempt == _request_retries:
+            return last_response
+        retry_after = last_response.headers.get("Retry-After", "")
+        try:
+            backoff = float(retry_after)
+        except ValueError:
+            backoff = 4.0 * (2**attempt)
+        time.sleep(min(max(backoff, 2.0), 45.0))
+    return last_response
 
 
 def source_image(project: dict, url: str, caption: str, alt: str) -> dict:
@@ -141,7 +175,7 @@ def discover_source_media(project: dict) -> tuple[list[dict], str]:
         return media[:MAX_MEDIA], "unsupported-source"
 
     try:
-        response = session().get(source_url, timeout=REQUEST_TIMEOUT)
+        response = paced_source_get(source_url)
         if response.status_code in {401, 403, 429}:
             return media[:MAX_MEDIA], f"http-{response.status_code}"
         response.raise_for_status()
@@ -223,6 +257,28 @@ def discover_source_media(project: dict) -> tuple[list[dict], str]:
         if len(media) >= MAX_MEDIA:
             break
     return media[:MAX_MEDIA], "ok"
+
+
+def canonical_media_url(url: str) -> str:
+    """Normalize media URLs enough to collapse resized copies of one asset."""
+    parsed = urlparse(clean_text(url, 2_000))
+    if parsed.hostname == "d1coqmn8qm80r4.cloudfront.net":
+        return f"{parsed.scheme}://{parsed.hostname}{parsed.path}"
+    return clean_text(url, 2_000)
+
+
+def merge_media(existing: list[dict], discovered: list[dict]) -> list[dict]:
+    merged = []
+    seen = set()
+    for item in [*existing, *discovered]:
+        key = canonical_media_url(item.get("url", ""))
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        merged.append(item)
+        if len(merged) >= MAX_MEDIA:
+            break
+    return merged
 
 
 def variant(project_id: str, choices: tuple[str, ...]) -> str:
@@ -574,6 +630,13 @@ def main() -> None:
         help="Only retry source discovery for existing articles without media",
     )
     parser.add_argument(
+        "--enrich-under-media",
+        type=int,
+        default=0,
+        metavar="COUNT",
+        help="Retry source discovery for articles with fewer than COUNT media",
+    )
+    parser.add_argument(
         "--missing-only",
         action="store_true",
         help="Generate only project IDs that do not yet have an article file",
@@ -584,7 +647,20 @@ def main() -> None:
         default=0.5,
         help="Delay before each missing-media retry request",
     )
+    parser.add_argument(
+        "--request-interval",
+        type=float,
+        default=0.0,
+        help="Minimum process-wide interval between source requests",
+    )
+    parser.add_argument(
+        "--request-retries",
+        type=int,
+        default=0,
+        help="Number of bounded retries after a source returns HTTP 429",
+    )
     args = parser.parse_args()
+    configure_source_requests(args.request_interval, args.request_retries)
 
     projects = load_json(PROJECTS_FILE, [])
     legacy = load_json(LEGACY_ARTICLES_FILE, [])
@@ -599,12 +675,14 @@ def main() -> None:
         for path in ARTICLES_DIR.glob("*.json")
     }
 
-    if args.retry_without_media:
+    if args.retry_without_media or args.enrich_under_media:
         projects_by_id = {str(project["id"]): project for project in projects}
-        missing_ids = [
+        threshold = max(1, args.enrich_under_media or 1)
+        target_ids = [
             project_id
             for project_id, article in existing.items()
-            if not article.get("media") and project_id in projects_by_id
+            if len(article.get("media", [])) < threshold
+            and project_id in projects_by_id
         ]
 
         def retry(project_id: str):
@@ -618,22 +696,25 @@ def main() -> None:
         with concurrent.futures.ThreadPoolExecutor(
             max_workers=max(1, args.workers)
         ) as executor:
-            futures = [executor.submit(retry, item) for item in missing_ids]
+            futures = [executor.submit(retry, item) for item in target_ids]
             for index, future in enumerate(
                 concurrent.futures.as_completed(futures),
                 start=1,
             ):
                 project_id, media, media_status = future.result()
                 article = existing[project_id]
-                if media:
-                    article["media"] = media
-                    article.setdefault("quality", {})["mediaCount"] = len(media)
+                before_count = len(article.get("media", []))
+                merged = merge_media(article.get("media", []), media)
+                if len(merged) > before_count:
+                    article["media"] = merged
+                    article.setdefault("quality", {})["mediaCount"] = len(merged)
                     save_json(ARTICLES_DIR / f"{project_id}.json", article)
                 records.append(
                     {
                         "projectId": project_id,
                         "mediaStatus": media_status,
-                        "mediaCount": len(media),
+                        "beforeCount": before_count,
+                        "mediaCount": len(merged),
                     }
                 )
                 if index % 10 == 0 or index == len(futures):
@@ -642,11 +723,15 @@ def main() -> None:
             json.dumps(
                 {
                     "retried": len(records),
-                    "recovered": sum(
-                        record["mediaCount"] > 0 for record in records
+                    "enriched": sum(
+                        record["mediaCount"] > record["beforeCount"]
+                        for record in records
                     ),
-                    "remaining": sum(
-                        record["mediaCount"] == 0 for record in records
+                    "reachedTarget": sum(
+                        record["mediaCount"] >= threshold for record in records
+                    ),
+                    "remainingBelowTarget": sum(
+                        record["mediaCount"] < threshold for record in records
                     ),
                 },
                 ensure_ascii=False,

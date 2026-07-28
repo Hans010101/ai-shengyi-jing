@@ -90,7 +90,7 @@ EdgeOne 不配置第二套 AI。其 `/api/advisor` 读取同源访客请求，�
 
 - 所有项目按钮都进入 `case.html?id=<项目ID>`，并按需加载 `data/case_articles/<项目ID>.json`；
 - 全量案例生成器保留人工精修稿，其余稿件仅依据现有结构化事实生成 6—8 节中文商业文章；
-- 图片使用来源页公开主图、正文图或项目官网公开素材的远程链接；视频仅保留可公开嵌入的 YouTube/Vimeo 或项目官网视频；
+- 图片使用来源页公开主图、正文图或项目官网公开素材的远程链接；视频仅保留可公开嵌入的 YouTube/Vimeo 或项目官网视频；目标为每篇 3—5 个正文媒体，失效或没有公开素材的来源不使用无关占位图补数；
 - `scripts/validate_case_catalog.py` 强制检查项目覆盖、中文标题、章节数、正文长度、媒体类型与已删除的界面文案；
 - `POST /api/editorial` 是受 `EDITORIAL_API_TOKEN` 保护的后台接口，通过 `AI` binding 运行 Workers AI；
 - 每日采集先调用该接口生成微信公众号风格原创稿，失败或额度不足时再调用 DeepSeek；
@@ -110,6 +110,7 @@ EdgeOne 不配置第二套 AI。其 `/api/advisor` 读取同源访客请求，�
 
 数据库是最终事实来源。写入时新项目优先，并按 ID 去重。流水线必须同时提交数据库、`case_articles.json` 和 `seen_ids.json`。新项目会在结构化内容生成后进入案例编辑链路。
 随后 `generate_case_catalog.py --missing-only` 只为缺失 ID 生成独立详情文件，避免每日重写历史案例。
+新增案例抓取使用全局请求间隔与 429 自动退避；历史文章低于 3 个媒体时，可运行 `generate_case_catalog.py --enrich-under-media 3 --workers 2 --request-interval 0.65 --request-retries 2` 做增量补采，不重写文章正文。
 
 ## 故障处理
 
