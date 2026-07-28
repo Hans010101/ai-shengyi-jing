@@ -50,9 +50,9 @@ jobs:
       - name: Verify publish boundary
         shell: bash
         run: |
-          PROJECT_COUNT="$(python3 -c "import json; print(len(json.load(open('data/projects_live.json'))))")"
-          test "$(find dist -type f | wc -l | tr -d ' ')" = "$((PROJECT_COUNT + 10))"
-          test "$(find dist-edgeone -type f | wc -l | tr -d ' ')" = "$((PROJECT_COUNT + 11))"
+          EXPECTED_PUBLIC_COUNT="$(python3 -c "from scripts.build_site import PUBLIC_OUTPUT_PATHS; print(len(PUBLIC_OUTPUT_PATHS))")"
+          test "$(find dist -type f | wc -l | tr -d ' ')" = "$EXPECTED_PUBLIC_COUNT"
+          test "$(find dist-edgeone -type f | wc -l | tr -d ' ')" = "$((EXPECTED_PUBLIC_COUNT + 1))"
           test ! -e dist/.github
           test ! -e dist/.wrangler
           test ! -e dist/pipeline
