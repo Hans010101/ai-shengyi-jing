@@ -15,6 +15,37 @@ function safeExternalUrl(value) {
   }
 }
 
+async function fetchJsonIfAvailable(url) {
+  let response;
+  try {
+    response = await fetch(url, {
+      headers: { Accept: 'application/json' }
+    });
+  } catch (error) {
+    console.warn(`[WARN] Failed to fetch ${url}`, error);
+    return null;
+  }
+  if (!response.ok) return null;
+
+  const contentType = response.headers.get('content-type') || '';
+  if (!/\bapplication\/(?:[\w.+-]+\+)?json\b/i.test(contentType)) {
+    console.warn(`[WARN] Ignoring non-JSON response for ${url}: ${contentType || 'unknown'}`);
+    return null;
+  }
+
+  try {
+    return await response.json();
+  } catch (error) {
+    console.warn(`[WARN] Ignoring invalid JSON response for ${url}`, error);
+    return null;
+  }
+}
+
+function findCuratedProject(projectId) {
+  if (typeof PROJECTS === 'undefined' || !Array.isArray(PROJECTS)) return null;
+  return PROJECTS.find(project => project.id === projectId) || null;
+}
+
 function renderMedia(media, index) {
   if (!media) return null;
   const sourceUrl = safeExternalUrl(media.sourceUrl);
@@ -91,7 +122,7 @@ function buildFallbackArticle(project) {
     dek: project.summary || '站内项目商业拆解',
     opening: `这是「AI生意经」基于现有项目数据库整理的简版案例。完整编辑稿正在排期生成，你仍可先查看核心商业信息与落地路径。`,
     keyFacts: [
-      { label: '营收口径', value: project.revenue || '未披露' },
+      { label: '营收口径', value: project.revenueDisplay || project.revenue || '未披露' },
       { label: '项目类型', value: project.niche || '创业项目' },
       { label: '可复制指数', value: `${project.replicabilityScore || 7}/10` }
     ],
@@ -211,7 +242,7 @@ function renderAside(project, article) {
   appendText(card, 'p', project.summary || article.dek);
 
   const metrics = [
-    ['营收口径', project.revenue || '未披露'],
+    ['营收口径', project.revenueDisplay || project.revenue || '未披露'],
     ['商业模式', project.businessModel || '待补充'],
     ['中国机会', project.chinaOpportunity || '待验证']
   ];
@@ -245,19 +276,14 @@ async function initCasePage() {
   }
 
   try {
-    let article = null;
-    const articleResponse = await fetch(
+    let article = await fetchJsonIfAvailable(
       `data/case_articles/${encodeURIComponent(projectId)}.json`
     );
-    if (articleResponse.ok) {
-      article = await articleResponse.json();
-    }
-    let project = article?.project || null;
+    let project = article?.project || findCuratedProject(projectId);
     if (!project) {
-      const projectsResponse = await fetch('data/projects_live.json');
-      if (!projectsResponse.ok) throw new Error('项目数据加载失败');
-      const projects = await projectsResponse.json();
-      project = projects.find(item => item.id === projectId);
+      const projects = await fetchJsonIfAvailable('data/projects_live.json');
+      if (!Array.isArray(projects)) throw new Error('项目数据加载失败');
+      project = projects.find(item => item.id === projectId) || null;
     }
     if (!project) throw new Error('未找到该项目');
     article ||= buildFallbackArticle(project);

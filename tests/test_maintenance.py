@@ -127,11 +127,19 @@ class BuildTests(unittest.TestCase):
     def test_case_details_are_published_inside_the_site(self):
         app_js = Path("assets/app.js").read_text(encoding="utf-8")
         case_js = Path("assets/case.js").read_text(encoding="utf-8")
+        case_html = Path("case.html").read_text(encoding="utf-8")
 
         self.assertIn("case.html?id=", app_js)
         self.assertNotIn("📚 原始案例", app_js)
         self.assertIn("data/case_articles/", case_js)
         self.assertIn("article?.project", case_js)
+        self.assertIn("fetchJsonIfAvailable", case_js)
+        self.assertIn("content-type", case_js)
+        self.assertIn("findCuratedProject(projectId)", case_js)
+        self.assertLess(
+            case_html.index('src="data/projects.js"'),
+            case_html.index('src="assets/case.js"'),
+        )
         self.assertNotIn("素材来源", case_js)
         self.assertNotIn("核验提示", case_js)
         self.assertNotIn("查看事实来源", case_js)
