@@ -42,7 +42,6 @@ button, input, select { font: inherit; }
 .directory-nav { display: flex; align-items: center; gap: 5px; flex: 1; }
 .directory-nav a { padding: 8px 14px; border-radius: 9px; text-decoration: none; color: var(--muted); font-size: 14px; }
 .directory-nav a:hover, .directory-nav a.active { color: var(--ink); background: var(--soft); font-weight: 700; }
-.directory-home { color: var(--accent); text-decoration: none; font-size: 13px; font-weight: 800; white-space: nowrap; }
 
 .directory-hero {
   padding: 78px 0 70px;
@@ -69,8 +68,8 @@ button, input, select { font: inherit; }
 .directory-section-head p { margin: 8px 0 0; color: var(--muted); }
 .directory-section-head select { padding: 10px 34px 10px 13px; border: 1px solid var(--line); border-radius: 10px; background: #fff; color: var(--ink); }
 
-.case-category-bar { margin: 28px 0 34px; display: flex; gap: 10px; overflow-x: auto; padding: 2px 2px 12px; scrollbar-width: thin; }
-.case-category-pill { flex: 0 0 auto; min-width: 118px; padding: 11px 12px; display: flex; justify-content: space-between; align-items: center; gap: 10px; border: 1px solid var(--line); border-radius: 12px; background: #fff; color: #3c485c; cursor: pointer; }
+.case-category-bar { margin: 28px 0 34px; padding: 2px; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 10px; }
+.case-category-pill { min-width: 0; width: 100%; padding: 11px 12px; display: flex; justify-content: space-between; align-items: center; gap: 10px; border: 1px solid var(--line); border-radius: 12px; background: #fff; color: #3c485c; cursor: pointer; }
 .case-category-pill small { color: #94a3b8; }
 .case-category-pill:hover { border-color: #f1b47f; }
 .case-category-pill.active { color: #fff; background: linear-gradient(135deg, #ef8b31, #dc6413); border-color: transparent; box-shadow: 0 8px 18px rgba(220,100,19,.2); }
@@ -110,7 +109,7 @@ button, input, select { font: inherit; }
 
 @media (max-width: 900px) {
   .directory-nav { display: none; }
-  .directory-home { margin-left: auto; }
+  .case-category-bar { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .case-directory-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
@@ -125,6 +124,7 @@ button, input, select { font: inherit; }
   .directory-main { padding: 40px 0 60px; }
   .directory-section-head { align-items: start; flex-direction: column; }
   .directory-section-head h2 { font-size: 28px; }
+  .case-category-bar { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .case-directory-grid { grid-template-columns: 1fr; }
   .case-card-visual { height: 190px; }
   .directory-footer { flex-direction: column; gap: 2px; }
