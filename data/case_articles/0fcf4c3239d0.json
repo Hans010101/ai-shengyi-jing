@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "德国IT自由职业者在线社区的商业增长闭环",
+      "items": [
+        "【引流】社交媒体内容+口碑传播",
+        "【产品】线上社区+线下活动",
+        "【变现】会员订阅+活动门票",
+        "【留存】持续价值输出+人脉连接"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2222,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "天然男士护理品牌的商业增长闭环",
+      "items": [
+        "【引流】SEO+社交媒体内容（如除臭剂评测）",
+        "【产品】天然除臭剂/沐浴露",
+        "【变现】一次性购买+订阅制",
+        "【留存】订阅折扣+会员专属内容"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2197,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

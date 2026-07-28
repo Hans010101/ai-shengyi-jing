@@ -8,7 +8,7 @@ from pipeline.project_store import merge_projects, project_ids
 from pipeline.content_quality import derive_chinese_name, is_placeholder
 from scripts.build_edgeone import EDGEONE_PATHS, build as build_edgeone
 from scripts.build_site import PUBLISH_PATHS, build, public_output_paths
-from scripts.generate_case_catalog import clean_existing_media
+from scripts.generate_case_catalog import clean_existing_media, ensure_visual_media
 from scripts.validate_case_catalog import validate as validate_case_catalog
 from scripts.validate_data import validate
 
@@ -186,11 +186,9 @@ class BuildTests(unittest.TestCase):
         self.assertEqual(report["coveragePercent"], 100.0)
         self.assertEqual(report["articleCount"], report["projectCount"])
         self.assertGreaterEqual(report["minimumFullCharacters"], 2_400)
-        self.assertLessEqual(
-            report["withoutMedia"],
-            100,
-            "宁可不展示素材，也不能用广告、水印或工具图标凑数",
-        )
+        self.assertEqual(report["withoutMedia"], 0)
+        self.assertEqual(report["belowThreeMedia"], 0)
+        self.assertGreater(report["editorialInfographics"], 0)
 
 
 class ValidationTests(unittest.TestCase):
@@ -297,7 +295,7 @@ class ContentQualityTests(unittest.TestCase):
         self.assertGreaterEqual(len(article["sections"]), 5)
         self.assertLessEqual(len(article["sections"]), 8)
         self.assertEqual(len(article["keyFacts"]), 6)
-        self.assertEqual(len(article["media"]), 6)
+        self.assertEqual(len(article["media"]), 5)
         self.assertEqual(article["source"]["name"], "Starter Story")
 
     def test_case_article_media_requires_attribution_for_source_images(self):
@@ -359,6 +357,54 @@ class ContentQualityTests(unittest.TestCase):
             "https://www.youtube.com/watch?v=1",
         )
         self.assertEqual(youtube["provider"], "YouTube")
+
+    def test_visual_media_is_filled_to_three_and_capped_at_five(self):
+        project = {
+            "id": "example",
+            "nameZh": "示例项目",
+            "businessLoop": "内容引流 ➔ 体验转化 ➔ 付费 ➔ 复购",
+            "productArch": "获客入口 ➔ 核心产品 ➔ 标准交付 ➔ 售后",
+            "chinaOpportunity": "从垂直行业切入并验证付费",
+            "getStartedPath": ["访谈用户", "制作样板", "完成首单"],
+        }
+        source_image = {
+            "type": "image",
+            "url": "https://cdn.example.com/product.jpg",
+            "caption": "产品展示",
+            "origin": "official-site",
+        }
+
+        empty = ensure_visual_media(project, [])
+        one = ensure_visual_media(project, [source_image])
+        six = ensure_visual_media(project, [source_image] * 6)
+
+        self.assertEqual(len(empty), 3)
+        self.assertTrue(all(item["type"] == "infographic" for item in empty))
+        self.assertEqual(len(one), 3)
+        self.assertEqual(one[0]["type"], "image")
+        self.assertEqual(
+            [item["type"] for item in one[1:]],
+            ["infographic", "infographic"],
+        )
+        self.assertEqual(len(six), 3)
+        self.assertEqual(
+            [item["type"] for item in six],
+            ["image", "infographic", "infographic"],
+        )
+        self.assertTrue(
+            all(
+                "AI生意经原创信息图" in item["caption"]
+                for item in empty
+            )
+        )
+
+    def test_case_page_renders_editorial_infographics(self):
+        case_js = Path("assets/case.js").read_text(encoding="utf-8")
+        case_css = Path("assets/case.css").read_text(encoding="utf-8")
+
+        self.assertIn("editorial-infographic", case_js)
+        self.assertIn("AI生意经原创信息图", case_js)
+        self.assertIn(".infographic-flow", case_css)
 
     def test_existing_media_cleanup_removes_page_chrome_and_generic_captions(self):
         project = {

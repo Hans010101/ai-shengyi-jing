@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "TikTok营销卖腿毛剃刀的商业增长闭环",
+      "items": [
+        "【引流】TikTok搞笑/实用剃毛视频",
+        "【产品】Scruffie剃刀",
+        "【变现】独立站销售$24.99",
+        "【留存】复购刀片+用户生成内容"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2230,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "数据分析师与科学家的自由职业平台的商业增长闭环",
+      "items": [
+        "【引流】社交媒体内容营销+行业KOL合作",
+        "【产品】人才筛选+项目撮合+协作工具",
+        "【变现】项目佣金+会员费+增值服务",
+        "【留存】优质体验+评价体系+复购激励"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2322,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

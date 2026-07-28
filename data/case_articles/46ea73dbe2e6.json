@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "Android追踪App的商业增长闭环",
+      "items": [
+        "【引流】社交媒体育儿内容+SEO",
+        "【产品】Android追踪App",
+        "【变现】订阅付费",
+        "【留存】定期报告+新功能推送"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2219,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

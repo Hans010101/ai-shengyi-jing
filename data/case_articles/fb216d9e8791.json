@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "面向实体企业的运营数据AI控制塔SaaS的商业增长闭环",
+      "items": [
+        "【引流】行业内容营销+垂直社群",
+        "【产品】AI运营控制塔SaaS",
+        "【变现】按月/年订阅+增值服务",
+        "【留存】持续AI模型优化+客户成功团队"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2267,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

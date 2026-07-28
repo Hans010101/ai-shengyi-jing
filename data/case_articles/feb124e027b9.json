@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "个人品牌摄影工作室的商业增长闭环",
+      "items": [
+        "【引流】小红书/抖音内容展示作品",
+        "【产品】摄影套餐+品牌咨询",
+        "【变现】套餐收费+课程销售",
+        "【留存】社群+年度品牌更新服务"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2230,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

@@ -118,7 +118,49 @@
   ],
   "conclusion": "零广告投入月入8K真正值得借鉴的，不是照搬页面、产品或营收数字，而是从具体用户问题出发，依次验证交付、收费、获客与留存。对准备进入相似方向的创业者来说，最重要的下一步不是继续收集案例，而是把其中一个判断变成可执行实验，用真实付费和持续使用来决定是否扩大。先写下准备验证的用户、场景、价格和成功门槛，再给实验设置明确截止日期；无论结果支持还是推翻原判断，都会比继续停留在概念层面更接近一门真实生意。",
   "riskNote": "营收、团队、增长及渠道信息来自项目数据库与公开来源在特定时间点的披露，可能已经变化；涉及健康、金融、教育、数据和跨境业务时，应按经营所在地最新规则独立核验。",
-  "media": [],
+  "media": [
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "零广告投入月入8K的商业增长闭环",
+      "items": [
+        "【引流】App免费功能+音乐人社区",
+        "【产品】App工具+B2B营销代理",
+        "【变现】代理服务费+App内购",
+        "【留存】持续更新App+客户成功案例"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "零广告投入月入8K的产品与交付路径",
+      "items": [
+        "用户注册",
+        "免费试用App功能",
+        "触发营销需求",
+        "联系B2B代理服务"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "零广告投入月入8K的中国市场验证路线",
+      "items": [
+        "选择一个垂直领域（如音乐科技、教育科技），开发一款轻量级App解决用户痛点，通过免费功能吸引种子用户。",
+        "在App内嵌入B2B服务入口，主动联系领域内中小公司，提供免费咨询或小项目，积累案例和口碑。",
+        "将成功案例包装成标准化服务包，通过App推送、行业社群和内容营销获客，逐步提高客单价，形成稳定收入。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    }
+  ],
   "source": {
     "name": "Starter Story",
     "url": "https://www.starterstory.com/stories/audiocipher-technologies-fdfef6fe-b2ee-4ea9-bdd3-1e05c55ca663",
@@ -131,6 +173,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2261,
-    "mediaCount": 0
+    "mediaCount": 3
   }
 }

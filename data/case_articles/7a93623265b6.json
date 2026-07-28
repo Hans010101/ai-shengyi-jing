@@ -140,6 +140,20 @@
       "poster": "https://i.ytimg.com/vi/5w2aTGPtQ84/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "在线珠宝店的商业增长闭环",
+      "items": [
+        "【引流】社交媒体内容营销+KOL合作",
+        "【产品】独特设计珠宝",
+        "【变现】官网直接销售+限时抢购",
+        "【留存】会员积分+新品预告+社群互动"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -154,6 +168,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2242,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

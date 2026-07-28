@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "写冒险小说的商业增长闭环",
+      "items": [
+        "【引流】免费短篇、社交媒体、邮件列表",
+        "【产品】系列冒险小说（电子书+有声书）",
+        "【变现】亚马逊KDP版税、ACX分成",
+        "【留存】系列化创作、邮件更新、读者社群"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2243,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

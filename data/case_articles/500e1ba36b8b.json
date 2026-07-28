@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "AI驱动的居家诊断平台的商业增长闭环",
+      "items": [
+        "【引流】社交媒体健康科普+KOL测评",
+        "【产品】AI诊断测试盒+APP",
+        "【变现】硬件销售+订阅费+增值报告",
+        "【留存】持续健康追踪+个性化建议+社区互动"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2331,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

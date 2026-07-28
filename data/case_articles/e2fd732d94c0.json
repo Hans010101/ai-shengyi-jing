@@ -140,6 +140,20 @@
       "poster": "https://i.ytimg.com/vi/KcpkkT_0ElE/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "连接全球雇主与菲律宾人才的职位板的商业增长闭环",
+      "items": [
+        "【引流】SEO+社交媒体内容营销",
+        "【产品】职位板+招聘服务",
+        "【变现】订阅费+服务费",
+        "【留存】高质量人才库+合规支持"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -154,6 +168,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2165,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

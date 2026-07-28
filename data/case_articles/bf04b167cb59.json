@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "手工信纸工作室转向定制化服务的商业增长闭环",
+      "items": [
+        "【引流】小红书/抖音展示手工过程",
+        "【产品】定制信纸套装",
+        "【变现】按件收费+加购服务",
+        "【留存】会员复购折扣+限量款"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2181,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

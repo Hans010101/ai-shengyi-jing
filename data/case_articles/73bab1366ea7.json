@@ -128,6 +128,34 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "project-hero"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "为开发者提供单一功能的工具的商业增长闭环",
+      "items": [
+        "【引流】开发者社区、技术博客",
+        "【产品】单一功能工具",
+        "【变现】订阅付费",
+        "【留存】持续更新、社区互动"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "为开发者提供单一功能的工具的产品与交付路径",
+      "items": [
+        "用户注册",
+        "使用工具",
+        "付费解锁高级功能",
+        "导出结果"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -142,6 +170,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2177,
-    "mediaCount": 1
+    "mediaCount": 3
   }
 }

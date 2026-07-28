@@ -128,6 +128,34 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "project-hero"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "家庭收纳服务的商业增长闭环",
+      "items": [
+        "【引流】社交媒体展示案例",
+        "【产品】上门收纳服务",
+        "【变现】按小时/项目收费",
+        "【留存】定期复购和推荐优惠"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "家庭收纳服务的产品与交付路径",
+      "items": [
+        "客户咨询",
+        "上门评估",
+        "制定方案",
+        "执行整理"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -142,6 +170,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2109,
-    "mediaCount": 1
+    "mediaCount": 3
   }
 }

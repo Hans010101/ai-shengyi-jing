@@ -140,6 +140,20 @@
       "poster": "https://i.vimeocdn.com/video/441850888-710b2f02c0fc5079a4741647f678dd8a96f91742c8ddaaaf46683a5e9e988abd-d_295x166?region=us",
       "provider": "Vimeo",
       "usage": ""
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "硅胶婚戒品牌的商业增长闭环",
+      "items": [
+        "【引流】社交媒体内容+广告",
+        "【产品】硅胶戒指",
+        "【变现】官网销售+订阅",
+        "【留存】会员计划+社群互动"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -154,6 +168,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2300,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

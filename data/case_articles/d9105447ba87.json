@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "订阅制推送机票和住宿优惠的商业增长闭环",
+      "items": [
+        "【引流】SEO+社交媒体内容",
+        "【产品】每日折扣推送",
+        "【变现】订阅费+联盟佣金",
+        "【留存】个性化推荐+会员专属价"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2223,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

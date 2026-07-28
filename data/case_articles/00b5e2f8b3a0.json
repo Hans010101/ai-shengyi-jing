@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "上传照片由艺术家制作卡通头像的商业增长闭环",
+      "items": [
+        "【引流】SEO优化+社交媒体内容",
+        "【产品】卡通头像制作服务",
+        "【变现】按单付费",
+        "【留存】复购折扣+推荐奖励"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2201,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

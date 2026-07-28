@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "AI+人工招聘服务的商业增长闭环",
+      "items": [
+        "【引流】内容营销（招聘干货、案例）",
+        "【产品】AI+人工招聘服务",
+        "【变现】按成功招聘收费",
+        "【留存】高质量候选人池+客户成功案例"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2152,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

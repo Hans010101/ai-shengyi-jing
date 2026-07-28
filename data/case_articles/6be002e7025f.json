@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "为建筑行业提供移动考勤和工时追踪SaaS的商业增长闭环",
+      "items": [
+        "【引流】建筑行业展会/线上广告",
+        "【产品】移动考勤App",
+        "【变现】按月订阅",
+        "【留存】优质服务+数据分析"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2135,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

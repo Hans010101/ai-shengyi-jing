@@ -118,7 +118,49 @@
   ],
   "conclusion": "数字营销机构真正值得借鉴的，不是照搬页面、产品或营收数字，而是从具体用户问题出发，依次验证交付、收费、获客与留存。对准备进入相似方向的创业者来说，最重要的下一步不是继续收集案例，而是把其中一个判断变成可执行实验，用真实付费和持续使用来决定是否扩大。先写下准备验证的用户、场景、价格和成功门槛，再给实验设置明确截止日期；无论结果支持还是推翻原判断，都会比继续停留在概念层面更接近一门真实生意。",
   "riskNote": "营收、团队、增长及渠道信息来自项目数据库与公开来源在特定时间点的披露，可能已经变化；涉及健康、金融、教育、数据和跨境业务时，应按经营所在地最新规则独立核验。",
-  "media": [],
+  "media": [
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "数字营销机构的商业增长闭环",
+      "items": [
+        "【引流】内容营销+行业展会",
+        "【产品】Telegram广告网络",
+        "【变现】广告费差价",
+        "【留存】优化ROI+客户成功"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "数字营销机构的产品与交付路径",
+      "items": [
+        "广告主注册",
+        "创建广告计划",
+        "系统匹配频道",
+        "广告投放"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "数字营销机构的中国市场验证路线",
+      "items": [
+        "选择高活跃度的私域平台（如微信、Telegram），开发广告匹配算法，初期可手动匹配。",
+        "招募种子频道主，提供免费或低价广告位，积累数据并优化定向能力。",
+        "面向电商、教育等行业销售广告套餐，按展示或点击收费，提供效果报告。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    }
+  ],
   "source": {
     "name": "Starter Story",
     "url": "https://www.starterstory.com/stories/prodigi-aed31939-fe9b-4dea-9221-23b04c38b8d1",
@@ -131,6 +173,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2187,
-    "mediaCount": 0
+    "mediaCount": 3
   }
 }

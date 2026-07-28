@@ -140,6 +140,20 @@
       "poster": "https://i.ytimg.com/vi/hGSq431SUsw/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "视频制作公司的商业增长闭环",
+      "items": [
+        "【引流】本地线下推广+朋友圈转介绍",
+        "【产品】企业宣传片/活动视频",
+        "【变现】项目收费（按时长/复杂程度）",
+        "【留存】定期回访+老客户折扣"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -154,6 +168,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2268,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

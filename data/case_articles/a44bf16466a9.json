@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "B2B手机电脑维修服务的商业增长闭环",
+      "items": [
+        "【引流】企业地推+线上广告",
+        "【产品】上门维修+合同服务",
+        "【变现】维修费+年费",
+        "【留存】保修期+定期维护"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2172,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "为在线课程创作者提供邮件营销和漏斗优化服务的商业增长闭环",
+      "items": [
+        "【引流】内容营销+付费广告",
+        "【产品】付费审计+结果分成服务",
+        "【变现】客户增收后按月分成",
+        "【留存】持续优化+定期复盘"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2153,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

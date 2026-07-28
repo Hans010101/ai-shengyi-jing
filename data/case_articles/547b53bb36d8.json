@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "纽约高端共享办公空间的商业增长闭环",
+      "items": [
+        "【引流】社交媒体/创业者推荐",
+        "【产品】专属办公+社群活动",
+        "【变现】会员费",
+        "【留存】高质量人脉+增值服务"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2172,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

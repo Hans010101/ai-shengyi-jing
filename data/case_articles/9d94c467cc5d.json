@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "帮助普通人成为出版作者的在线课程的商业增长闭环",
+      "items": [
+        "【引流】Facebook/Google广告",
+        "【产品】常青网络研讨会",
+        "【变现】课程销售",
+        "【留存】社群+持续内容"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2244,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "3D打印设备增值分销商的商业增长闭环",
+      "items": [
+        "【引流】SEO+YouTube教程+行业社区",
+        "【产品】3D打印机/激光切割机+耗材+培训",
+        "【变现】设备差价+耗材持续销售+服务费",
+        "【留存】定期更新教程+会员社区+耗材订阅"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2322,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

@@ -118,7 +118,49 @@
   ],
   "conclusion": "案例数据库搜索筛选工具真正值得借鉴的，不是照搬页面、产品或营收数字，而是从具体用户问题出发，依次验证交付、收费、获客与留存。对准备进入相似方向的创业者来说，最重要的下一步不是继续收集案例，而是把其中一个判断变成可执行实验，用真实付费和持续使用来决定是否扩大。先写下准备验证的用户、场景、价格和成功门槛，再给实验设置明确截止日期；无论结果支持还是推翻原判断，都会比继续停留在概念层面更接近一门真实生意。",
   "riskNote": "营收、团队、增长及渠道信息来自项目数据库与公开来源在特定时间点的披露，可能已经变化；涉及健康、金融、教育、数据和跨境业务时，应按经营所在地最新规则独立核验。",
-  "media": [],
+  "media": [
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "案例数据库搜索筛选工具的商业增长闭环",
+      "items": [
+        "【引流】SEO+行业内容营销",
+        "【产品】案例数据库搜索工具",
+        "【变现】月度/年度订阅",
+        "【留存】定期更新案例+邮件推送"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "案例数据库搜索筛选工具的产品与交付路径",
+      "items": [
+        "用户注册",
+        "搜索/筛选案例",
+        "AI生成摘要",
+        "付费查看完整内容"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "案例数据库搜索筛选工具的中国市场验证路线",
+      "items": [
+        "选定垂直领域（如餐饮、电商），收集100+真实案例，用AI提取关键要素（模式、营收、教训）。",
+        "搭建简易网站，实现搜索、分类、筛选功能，使用Stripe或支付宝接入订阅支付。",
+        "通过知乎、公众号发布行业分析文章引流，提供3天免费试用，收集用户反馈优化数据库。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    }
+  ],
   "source": {
     "name": "Starter Story",
     "url": "https://www.starterstory.com/stories/health-wealth-and-self-improvement",
@@ -131,6 +173,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2181,
-    "mediaCount": 0
+    "mediaCount": 3
   }
 }

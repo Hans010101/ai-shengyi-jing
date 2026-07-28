@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "卖宠物狗专用防掉毛连体衣的商业增长闭环",
+      "items": [
+        "【引流】社交媒体内容营销（Instagram/TikTok）",
+        "【产品】防掉毛连体衣",
+        "【变现】一次性购买+订阅服务",
+        "【留存】宠物社群互动、定期推送新品和护理知识"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2238,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

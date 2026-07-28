@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "设计并销售环保极简钱包的商业增长闭环",
+      "items": [
+        "【引流】社交媒体内容营销与口碑传播",
+        "【产品】环保极简钱包",
+        "【变现】在线销售+企业定制",
+        "【留存】品牌忠诚度与复购"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2216,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "去中心化视频处理平台的商业增长闭环",
+      "items": [
+        "【引流】技术博客+开发者社区",
+        "【产品】去中心化视频处理SDK",
+        "【变现】按分钟收取处理费+代币抽成",
+        "【留存】节点质押代币+开发者积分体系"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2254,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

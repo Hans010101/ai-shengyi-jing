@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "为无门店电商提供线下自提网络的商业增长闭环",
+      "items": [
+        "【引流】地推招募小店+广告吸引电商",
+        "【产品】自提点网络+系统",
+        "【变现】按单收取配送费",
+        "【留存】订单增长+小店佣金稳定"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2202,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

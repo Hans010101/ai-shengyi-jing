@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "高端设计平台的商业增长闭环",
+      "items": [
+        "【引流】SEO+内容营销吸引客户",
+        "【产品】高质量设计服务",
+        "【变现】项目佣金+会员费",
+        "【留存】客户复购+推荐奖励"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2151,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

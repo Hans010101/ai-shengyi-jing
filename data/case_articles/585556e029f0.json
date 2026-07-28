@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "面向妈妈群体的博客+电商的商业增长闭环",
+      "items": [
+        "【引流】SEO+社交媒体内容",
+        "【产品】博客+联盟链接+实体产品",
+        "【变现】佣金+产品收入",
+        "【留存】邮件列表+社区互动"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2205,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "在线语言辅导平台的商业增长闭环",
+      "items": [
+        "【引流】SEO+社交媒体内容",
+        "【产品】一对一在线语言课程",
+        "【变现】课时费抽成+订阅费",
+        "【留存】教师评级+推荐奖励"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2167,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

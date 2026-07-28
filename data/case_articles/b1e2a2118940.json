@@ -128,6 +128,34 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "project-hero"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "相机评测网站的商业增长闭环",
+      "items": [
+        "【引流】SEO和社交媒体内容营销",
+        "【产品】相机评测、摄影教程等垂直内容",
+        "【变现】广告收入+联盟佣金",
+        "【留存】定期更新、社区互动、邮件订阅"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "相机评测网站的产品与交付路径",
+      "items": [
+        "内容创作",
+        "SEO优化",
+        "网站流量",
+        "广告展示/联盟链接点击"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -142,6 +170,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2264,
-    "mediaCount": 1
+    "mediaCount": 3
   }
 }

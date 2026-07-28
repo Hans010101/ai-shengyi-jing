@@ -128,6 +128,34 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "project-hero"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "文案代写业务年营收17万美元的商业增长闭环",
+      "items": [
+        "【引流】LinkedIn内容营销",
+        "【产品】文案代写服务",
+        "【变现】项目制收费",
+        "【留存】持续优化效果并推荐增值服务"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "文案代写业务年营收17万美元的产品与交付路径",
+      "items": [
+        "客户咨询",
+        "文案策略定制",
+        "文案撰写与优化",
+        "交付并跟踪转化效果"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -142,6 +170,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2212,
-    "mediaCount": 1
+    "mediaCount": 3
   }
 }

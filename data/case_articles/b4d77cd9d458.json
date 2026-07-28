@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "社交媒体营销代理的商业增长闭环",
+      "items": [
+        "【引流】合作伙伴推荐、内容营销",
+        "【产品】社交媒体增长服务",
+        "【变现】项目制或月费收费",
+        "【留存】定期报告、持续优化"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2154,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

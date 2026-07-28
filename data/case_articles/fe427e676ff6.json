@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "生活方式品牌的商业增长闭环",
+      "items": [
+        "【引流】Facebook/Instagram付费广告",
+        "【产品】艺术印花服饰配件",
+        "【变现】独立站在线销售",
+        "【留存】邮件营销+社交媒体内容互动"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2238,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

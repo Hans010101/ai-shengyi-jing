@@ -128,6 +128,34 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "project-hero"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "高端CEO私密社群的商业增长闭环",
+      "items": [
+        "【引流】创始人推荐+社交媒体内容",
+        "【产品】私密小组+导师对接",
+        "【变现】年费会员",
+        "【留存】高质量互动+专属资源"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "高端CEO私密社群的产品与交付路径",
+      "items": [
+        "申请审核",
+        "匹配小组",
+        "线上线下活动",
+        "会员续费"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -142,6 +170,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2171,
-    "mediaCount": 1
+    "mediaCount": 3
   }
 }

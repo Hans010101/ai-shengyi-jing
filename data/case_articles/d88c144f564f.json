@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "面向中小企业的云端CRM的商业增长闭环",
+      "items": [
+        "【引流】内容营销+SEO",
+        "【产品】云端CRM系统",
+        "【变现】月费订阅",
+        "【留存】功能迭代+客户成功"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2194,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

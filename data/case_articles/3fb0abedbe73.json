@@ -128,6 +128,34 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "project-hero"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "Attest提供消费者调研SaaS的商业增长闭环",
+      "items": [
+        "【引流】SEO内容营销+案例展示",
+        "【产品】自助式调研平台",
+        "【变现】月费/按项目付费",
+        "【留存】持续更新模板、数据分析功能、客户成功服务"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "Attest提供消费者调研SaaS的产品与交付路径",
+      "items": [
+        "创建项目",
+        "设计问卷（AI辅助）",
+        "选择受众",
+        "收集数据"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -142,6 +170,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2275,
-    "mediaCount": 1
+    "mediaCount": 3
   }
 }

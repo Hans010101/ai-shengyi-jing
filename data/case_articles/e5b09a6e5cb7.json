@@ -118,7 +118,49 @@
   ],
   "conclusion": "案例研究数据库真正值得借鉴的，不是照搬页面、产品或营收数字，而是从具体用户问题出发，依次验证交付、收费、获客与留存。对准备进入相似方向的创业者来说，最重要的下一步不是继续收集案例，而是把其中一个判断变成可执行实验，用真实付费和持续使用来决定是否扩大。先写下准备验证的用户、场景、价格和成功门槛，再给实验设置明确截止日期；无论结果支持还是推翻原判断，都会比继续停留在概念层面更接近一门真实生意。",
   "riskNote": "营收、团队、增长及渠道信息来自项目数据库与公开来源在特定时间点的披露，可能已经变化；涉及健康、金融、教育、数据和跨境业务时，应按经营所在地最新规则独立核验。",
-  "media": [],
+  "media": [
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "案例研究数据库的商业增长闭环",
+      "items": [
+        "【引流】SEO+社交媒体内容",
+        "【产品】案例数据库",
+        "【变现】订阅付费",
+        "【留存】持续更新案例+邮件推送"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "案例研究数据库的产品与交付路径",
+      "items": [
+        "用户访问",
+        "浏览案例列表",
+        "使用筛选/排序",
+        "付费解锁高级功能"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "案例研究数据库的中国市场验证路线",
+      "items": [
+        "确定垂直领域（如中国电商案例），收集50-100个高质量案例，用表格整理关键字段（公司、模式、营收等）。",
+        "使用无代码工具（如Airtable）搭建数据库，前端用Webflow或WordPress展示，实现基础搜索和筛选功能。",
+        "设置付费墙，提供7天免费试用，通过微信社群和知乎引流，定价9.9元/月或99元/年，快速验证需求。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    }
+  ],
   "source": {
     "name": "Starter Story",
     "url": "https://www.starterstory.com/stories/greatest-hits",
@@ -131,6 +173,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2222,
-    "mediaCount": 0
+    "mediaCount": 3
   }
 }

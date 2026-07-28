@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "男士个人护理品牌的商业增长闭环",
+      "items": [
+        "【引流】亚马逊站内广告+SEO优化+客户评价",
+        "【产品】男士天然护理产品（如剃须膏、沐浴露）",
+        "【变现】亚马逊FBA销售",
+        "【留存】高质量产品+客户服务+订阅制"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2348,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

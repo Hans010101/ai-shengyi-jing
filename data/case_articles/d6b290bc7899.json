@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "为在线教育公司提供按效果付费的营销代理服务的商业增长闭环",
+      "items": [
+        "【引流】内容营销（知乎/公众号）",
+        "【产品】按效果付费的营销服务",
+        "【变现】按销售额或线索抽成",
+        "【留存】定期报告优化策略"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2199,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

@@ -118,7 +118,49 @@
   ],
   "conclusion": "免费提供订阅业务财务指标计算器真正值得借鉴的，不是照搬页面、产品或营收数字，而是从具体用户问题出发，依次验证交付、收费、获客与留存。对准备进入相似方向的创业者来说，最重要的下一步不是继续收集案例，而是把其中一个判断变成可执行实验，用真实付费和持续使用来决定是否扩大。先写下准备验证的用户、场景、价格和成功门槛，再给实验设置明确截止日期；无论结果支持还是推翻原判断，都会比继续停留在概念层面更接近一门真实生意。",
   "riskNote": "营收、团队、增长及渠道信息来自项目数据库与公开来源在特定时间点的披露，可能已经变化；涉及健康、金融、教育、数据和跨境业务时，应按经营所在地最新规则独立核验。",
-  "media": [],
+  "media": [
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "免费提供订阅业务财务指标计算器的商业增长闭环",
+      "items": [
+        "【引流】SEO+社交媒体内容营销",
+        "【产品】免费财务指标计算器",
+        "【变现】高级功能订阅",
+        "【留存】定期更新报表模板+邮件教程"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "免费提供订阅业务财务指标计算器的产品与交付路径",
+      "items": [
+        "用户注册",
+        "输入收入/成本数据",
+        "免费计算核心指标",
+        "付费解锁高级分析/导出"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "免费提供订阅业务财务指标计算器的中国市场验证路线",
+      "items": [
+        "搭建一个简单的Web应用，实现MRR、流失率等核心指标计算，使用免费的前端框架（如React）和后端（如Node.js），部署在低成本云服务（如Vercel）。",
+        "通过微信公众号、知乎、B站发布订阅经济财务知识内容，引导用户注册使用免费工具，收集邮箱进行邮件营销。",
+        "设计付费套餐（如$9.9/月解锁高级指标、数据导出、多币种支持），接入微信支付或支付宝，并定期更新模板和教程提升留存。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    }
+  ],
   "source": {
     "name": "Starter Story",
     "url": "https://www.starterstory.com/businesses/subscription-business-financial-metrics-absolutely-free",
@@ -131,6 +173,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2249,
-    "mediaCount": 0
+    "mediaCount": 3
   }
 }

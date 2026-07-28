@@ -128,6 +128,34 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "project-hero"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "Zernio是一个AI驱动的商业分析工具的商业增长闭环",
+      "items": [
+        "【引流】内容营销（SEO、行业报告）",
+        "【产品】AI自动生成商业分析报告",
+        "【变现】订阅制付费解锁完整报告",
+        "【留存】定期更新报告、邮件推送新功能"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "Zernio是一个AI驱动的商业分析工具的产品与交付路径",
+      "items": [
+        "用户输入公司信息",
+        "AI抓取公开数据",
+        "自动生成分析报告",
+        "预览摘要"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -142,6 +170,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2201,
-    "mediaCount": 1
+    "mediaCount": 3
   }
 }

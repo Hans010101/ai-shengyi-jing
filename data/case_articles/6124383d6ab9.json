@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "定制月相首饰品牌的商业增长闭环",
+      "items": [
+        "【引流】TikTok短视频展示产品故事和用户UGC",
+        "【产品】定制月相项链",
+        "【变现】官网直接销售，单价$50-100",
+        "【留存】邮件营销、节日促销、用户分享返利"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2302,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

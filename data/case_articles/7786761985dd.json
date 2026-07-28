@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "制造并销售高性价比空气净化器的商业增长闭环",
+      "items": [
+        "【引流】社交媒体科普+搜索引擎广告",
+        "【产品】高性价比空净+智能监测App",
+        "【变现】硬件销售+滤芯订阅+增值服务",
+        "【留存】定期推送空气质量报告+耗材更换提醒+老客折扣"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2304,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

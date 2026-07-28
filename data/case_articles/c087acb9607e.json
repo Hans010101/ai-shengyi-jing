@@ -140,6 +140,20 @@
       "poster": "https://i.ytimg.com/vi/33eCCmJq1oY/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "在线个性化礼品定制的商业增长闭环",
+      "items": [
+        "【引流】SEO+社交媒体内容",
+        "【产品】个性化礼品定制",
+        "【变现】产品售价+定制费",
+        "【留存】复购优惠+节日提醒"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -154,6 +168,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2180,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

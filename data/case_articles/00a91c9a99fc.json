@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "在线约会摄影与形象指导服务的商业增长闭环",
+      "items": [
+        "【引流】社交媒体（小红书/抖音）展示前后对比",
+        "【产品】付费摄影套餐",
+        "【变现】单次服务费+加购修图",
+        "【留存】客户转介绍+复购"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2205,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

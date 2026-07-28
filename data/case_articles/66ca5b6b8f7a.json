@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "帮公众人物检测并删除AI伪造内容的商业增长闭环",
+      "items": [
+        "【引流】社交媒体内容（揭露AI诈骗案例）",
+        "【产品】深度伪造检测与移除工具",
+        "【变现】按次付费或订阅",
+        "【留存】定期报告+新威胁预警"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2292,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

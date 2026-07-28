@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "多币种加密钱包的商业增长闭环",
+      "items": [
+        "【引流】应用商店优化+内容营销",
+        "【产品】多币种钱包+内置DApp浏览器",
+        "【变现】交易手续费+兑换价差+质押佣金",
+        "【留存】定期空投+忠诚度计划+多平台支持"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2342,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

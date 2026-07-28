@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "电商代运营+自营品牌组合的商业增长闭环",
+      "items": [
+        "【引流】内容营销+口碑",
+        "【产品】代运营+自营品牌",
+        "【变现】服务费+产品利润",
+        "【留存】持续优化运营效果"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2168,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

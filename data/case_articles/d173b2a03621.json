@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "QR码管理平台的商业增长闭环",
+      "items": [
+        "【引流】SEO内容营销+免费生成工具",
+        "【产品】动态QR码管理平台",
+        "【变现】订阅付费+增值服务",
+        "【留存】数据分析报告+持续更新功能"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2183,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

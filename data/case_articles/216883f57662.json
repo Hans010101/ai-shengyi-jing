@@ -128,6 +128,34 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "project-hero"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "为Shopify商家提供AI驱动的转化率优化工具的商业增长闭环",
+      "items": [
+        "【引流】SEO+电商社区内容营销",
+        "【产品】AI转化率优化SaaS",
+        "【变现】按月订阅费",
+        "【留存】持续数据报告+效果提升"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "为Shopify商家提供AI驱动的转化率优化工具的产品与交付路径",
+      "items": [
+        "电商平台数据接入",
+        "AI行为分析",
+        "转化漏斗诊断",
+        "优化建议输出"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -142,6 +170,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2283,
-    "mediaCount": 1
+    "mediaCount": 3
   }
 }

@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "CBD代工+自有品牌的商业增长闭环",
+      "items": [
+        "【引流】行业展会/线上广告",
+        "【产品】白标CBD产品",
+        "【变现】代工费+自有品牌零售",
+        "【留存】稳定供应链+低起订量"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2137,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "SEO分析SaaS工具的商业增长闭环",
+      "items": [
+        "【引流】SEO博客+免费工具",
+        "【产品】网站审计SaaS",
+        "【变现】月/年订阅",
+        "【留存】定期邮件报告+功能更新"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2315,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

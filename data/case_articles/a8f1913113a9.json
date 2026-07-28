@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "提供网页抓取API服务的商业增长闭环",
+      "items": [
+        "【引流】SEO+技术博客+开发者社区",
+        "【产品】网页抓取API",
+        "【变现】按次/包月订阅",
+        "【留存】稳定服务+开发者文档+技术支持"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2184,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

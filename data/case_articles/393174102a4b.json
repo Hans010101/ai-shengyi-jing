@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "航空驾驶舱拍摄制作的商业增长闭环",
+      "items": [
+        "【引流】航空爱好者社群、YouTube/B站视频预览",
+        "【产品】驾驶舱全程视频DVD/数字下载",
+        "【变现】销售DVD、数字下载、流媒体订阅、广告赞助",
+        "【留存】定期发布新航线视频、会员专属内容"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2282,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

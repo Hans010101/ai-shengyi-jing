@@ -140,6 +140,20 @@
       "poster": "https://i.ytimg.com/vi/oId54OW8a0Y/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "IP风险检测SaaS的商业增长闭环",
+      "items": [
+        "【引流】行业内容营销+律师网络",
+        "【产品】IP风险检测平台",
+        "【变现】SaaS订阅+API调用",
+        "【留存】定期报告+合规咨询"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -154,6 +168,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2185,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

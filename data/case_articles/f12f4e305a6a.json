@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "为活动提供感官包容性服务的商业增长闭环",
+      "items": [
+        "【引流】社交媒体科普+活动合作",
+        "【产品】感官包容性评估与方案设计",
+        "【变现】项目咨询费+年费会员",
+        "【留存】持续优化方案+效果报告+转介绍激励"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2240,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

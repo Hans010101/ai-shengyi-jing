@@ -128,6 +128,34 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "project-hero"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "开发4款轻量级AI工具App的商业增长闭环",
+      "items": [
+        "【引流】ASO优化+社交媒体分享",
+        "【产品】多款AI工具App",
+        "【变现】订阅+广告",
+        "【留存】持续更新功能+推送通知"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "开发4款轻量级AI工具App的产品与交付路径",
+      "items": [
+        "用户下载App",
+        "选择AI功能",
+        "免费试用基础版",
+        "付费订阅解锁高级版"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -142,6 +170,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2240,
-    "mediaCount": 1
+    "mediaCount": 3
   }
 }

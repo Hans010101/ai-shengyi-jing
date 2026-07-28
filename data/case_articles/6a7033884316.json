@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "旅行配件品牌因疫情转型的商业增长闭环",
+      "items": [
+        "【引流】社交媒体内容营销",
+        "【产品】旅行配件Airhook",
+        "【变现】电商销售",
+        "【留存】邮件订阅与复购优惠"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2215,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

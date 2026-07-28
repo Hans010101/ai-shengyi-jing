@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "提供外链建设服务的商业增长闭环",
+      "items": [
+        "【引流】SEO内容、社交媒体",
+        "【产品】外链建设服务",
+        "【变现】月费或项目费",
+        "【留存】持续效果报告、客户成功"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2157,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

@@ -128,6 +128,34 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "project-hero"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "基督教专注祷告App的商业增长闭环",
+      "items": [
+        "【引流】教会合作、社交媒体广告",
+        "【产品】祷告锁屏App",
+        "【变现】订阅付费",
+        "【留存】连续打卡激励、每日推送"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "基督教专注祷告App的产品与交付路径",
+      "items": [
+        "用户注册",
+        "选择祷告模式",
+        "锁定应用",
+        "完成祷告"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -142,6 +170,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2210,
-    "mediaCount": 1
+    "mediaCount": 3
   }
 }

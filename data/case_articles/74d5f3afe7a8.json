@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "AI邮件营销工具的商业增长闭环",
+      "items": [
+        "【引流】免费邮件模板+博客SEO",
+        "【产品】AI邮件撰写+发送",
+        "【变现】月费订阅",
+        "【留存】效果报告+模板库更新"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2244,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

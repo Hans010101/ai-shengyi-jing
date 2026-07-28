@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "木质智能家居遥控器的商业增长闭环",
+      "items": [
+        "【引流】社交媒体设计展示",
+        "【产品】木质智能遥控器",
+        "【变现】硬件销售",
+        "【留存】品牌社区与固件更新"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2091,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

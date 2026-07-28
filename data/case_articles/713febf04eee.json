@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "面向电商的营销自动化SaaS平台的商业增长闭环",
+      "items": [
+        "【引流】内容营销（案例/白皮书）+ 行业展会",
+        "【产品】营销自动化SaaS",
+        "【变现】订阅费（按月/年）+ 增值服务",
+        "【留存】客户成功团队+效果报告+定期培训"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2278,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

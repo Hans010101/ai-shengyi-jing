@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "行李临时寄存平台的商业增长闭环",
+      "items": [
+        "【引流】OTA合作+SEO+社交媒体",
+        "【产品】即时行李寄存网络",
+        "【变现】按小时/天收费+增值保险",
+        "【留存】会员折扣+推荐奖励"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2211,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

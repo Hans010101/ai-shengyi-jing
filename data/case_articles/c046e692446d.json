@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "教练市场平台连接导师与学员的商业增长闭环",
+      "items": [
+        "【引流】社交媒体内容+口碑推荐",
+        "【产品】导师课程与匹配服务",
+        "【变现】课程佣金+订阅费",
+        "【留存】社区互动+持续课程推荐"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2193,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

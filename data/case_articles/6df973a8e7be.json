@@ -128,6 +128,34 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "project-hero"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "AI租房管理SaaS的商业增长闭环",
+      "items": [
+        "【引流】SEO内容营销+房东社群",
+        "【产品】AI租房管理工具",
+        "【变现】月费订阅+增值服务",
+        "【留存】持续优化AI+客户成功"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "AI租房管理SaaS的产品与交付路径",
+      "items": [
+        "用户注册",
+        "绑定房源",
+        "AI自动回复租客消息",
+        "租赁合同管理"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -142,6 +170,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2206,
-    "mediaCount": 1
+    "mediaCount": 3
   }
 }

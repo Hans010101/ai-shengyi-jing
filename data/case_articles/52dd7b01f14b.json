@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "AI驱动的个人安全穿戴设备SaaS的商业增长闭环",
+      "items": [
+        "【引流】安全事件营销+企业合作",
+        "【产品】智能穿戴+AI响应系统",
+        "【变现】硬件销售+SaaS订阅费",
+        "【留存】持续优化算法+社区安全报告"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2277,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

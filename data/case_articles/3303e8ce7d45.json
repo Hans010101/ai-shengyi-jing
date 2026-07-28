@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "个人理财与生活方式博客的商业增长闭环",
+      "items": [
+        "【引流】SEO优化文章吸引搜索流量",
+        "【产品】博客文章和免费资源",
+        "【变现】展示广告、联盟链接、数字产品",
+        "【留存】邮件订阅、定期更新内容"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2278,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

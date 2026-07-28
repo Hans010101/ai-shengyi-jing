@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "亚马逊卖家数据自动化工具的商业增长闭环",
+      "items": [
+        "【引流】亚马逊卖家论坛、YouTube教程、SEO",
+        "【产品】Google Sheets插件",
+        "【变现】月费订阅（$29-$99/月）",
+        "【留存】持续更新数据源、增加报表模板、客户支持"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2252,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

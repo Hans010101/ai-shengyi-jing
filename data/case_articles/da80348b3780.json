@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "个人信息聚合SaaS的商业增长闭环",
+      "items": [
+        "【引流】SEO内容营销+社交媒体",
+        "【产品】个人信息查询SaaS",
+        "【变现】按次付费/订阅",
+        "【留存】高质量报告+定期更新数据源"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2272,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

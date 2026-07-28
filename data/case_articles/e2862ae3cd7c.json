@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "旅行摄影师的商业增长闭环",
+      "items": [
+        "【引流】社交媒体发布高质量旅行影像",
+        "【产品】摄影作品、视频制作、在线课程",
+        "【变现】直接销售、品牌合作、课程付费",
+        "【留存】持续更新内容、社群互动、会员订阅"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2210,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

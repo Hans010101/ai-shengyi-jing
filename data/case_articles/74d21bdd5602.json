@@ -140,6 +140,20 @@
       "poster": "https://i.ytimg.com/vi/8q5NXID4rCc/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "数字营销代理+代理商教育的商业增长闭环",
+      "items": [
+        "【引流】内容营销+付费广告",
+        "【产品】数字营销代理服务+代理商培训课程",
+        "【变现】服务月费/佣金+课程销售",
+        "【留存】持续优化效果+社群复购"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -154,6 +168,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2216,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

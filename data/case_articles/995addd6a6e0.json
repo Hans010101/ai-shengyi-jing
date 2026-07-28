@@ -128,6 +128,34 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "project-hero"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "3天赚6.5万美元的商业增长闭环",
+      "items": [
+        "【引流】社交媒体内容营销",
+        "【产品】AI生成商业报告",
+        "【变现】按份收费",
+        "【留存】提供免费模板和更新"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "3天赚6.5万美元的产品与交付路径",
+      "items": [
+        "用户填写问卷",
+        "AI分析数据",
+        "生成报告草稿",
+        "人工优化"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -142,6 +170,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2184,
-    "mediaCount": 1
+    "mediaCount": 3
   }
 }

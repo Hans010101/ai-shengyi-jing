@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "AI赋能经典文学的商业增长闭环",
+      "items": [
+        "【引流】社交媒体内容营销（文学金句、AI生成解读）",
+        "【产品】AI文学阅读App",
+        "【变现】订阅会员、单次付费解锁",
+        "【留存】每日推荐、阅读挑战、社区互动"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2261,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

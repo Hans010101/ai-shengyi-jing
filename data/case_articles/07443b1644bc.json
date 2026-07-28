@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "英国特色羊毛纱线品牌的商业增长闭环",
+      "items": [
+        "【引流】Instagram/编织社区内容",
+        "【产品】稀有羊种纱线套装",
+        "【变现】官网直销/批发",
+        "【留存】编织教程、会员订阅"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2194,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

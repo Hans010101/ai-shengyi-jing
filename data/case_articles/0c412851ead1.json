@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "UX博客吸引流量的商业增长闭环",
+      "items": [
+        "【引流】SEO+社交媒体分享UX干货",
+        "【产品】博客文章+免费UX小贴士",
+        "【变现】企业UX审计服务",
+        "【留存】定期发布新案例+邮件订阅"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2260,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

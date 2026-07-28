@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "15岁少年运营NFL球星粉丝号的商业增长闭环",
+      "items": [
+        "【引流】发布球星精彩内容",
+        "【产品】粉丝账号",
+        "【变现】品牌赞助+周边销售",
+        "【留存】持续更新+粉丝互动"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2170,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

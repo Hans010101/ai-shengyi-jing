@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "为读书俱乐部提供讨论问题、书评等内容的网站的商业增长闭环",
+      "items": [
+        "【引流】SEO优化+社交媒体分享",
+        "【产品】书评、书单、讨论问题",
+        "【变现】广告+会员订阅",
+        "【留存】每周更新内容+邮件订阅"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2311,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

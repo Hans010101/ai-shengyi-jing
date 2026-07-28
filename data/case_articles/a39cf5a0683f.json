@@ -128,6 +128,34 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "project-hero"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "为游戏服务器提供AI反作弊和托管服务的商业增长闭环",
+      "items": [
+        "【引流】在游戏社区/论坛发布反作弊效果案例",
+        "【产品】AI反作弊+服务器托管SaaS",
+        "【变现】按月/按年订阅费",
+        "【留存】持续更新反作弊算法+提供7x24技术支持"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "为游戏服务器提供AI反作弊和托管服务的产品与交付路径",
+      "items": [
+        "游戏服务器接入",
+        "AI反作弊引擎检测异常",
+        "自动化封禁/警告",
+        "管理面板报告"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -142,6 +170,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2348,
-    "mediaCount": 1
+    "mediaCount": 3
   }
 }

@@ -128,6 +128,34 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "project-hero"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "UGC营销操作系统的商业增长闭环",
+      "items": [
+        "【引流】SEO+内容营销+社媒广告",
+        "【产品】多平台UGC监控与自动化工具",
+        "【变现】月订阅+功能升级",
+        "【留存】持续更新数据+自动化模板+客户成功"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "UGC营销操作系统的产品与交付路径",
+      "items": [
+        "用户注册",
+        "绑定社媒账号",
+        "设置监控/自动化规则",
+        "数据看板与分析"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -142,6 +170,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2239,
-    "mediaCount": 1
+    "mediaCount": 3
   }
 }

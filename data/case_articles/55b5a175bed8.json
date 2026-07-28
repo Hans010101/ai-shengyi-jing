@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "海外AI工具项目的商业增长闭环",
+      "items": [
+        "【引流】Facebook广告+SEO",
+        "【产品】网站设计+营销服务",
+        "【变现】项目费或月费",
+        "【留存】持续优化效果+客户转介绍"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2254,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

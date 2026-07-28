@@ -118,7 +118,49 @@
   ],
   "conclusion": "采访成功创业者并分享故事真正值得借鉴的，不是照搬页面、产品或营收数字，而是从具体用户问题出发，依次验证交付、收费、获客与留存。对准备进入相似方向的创业者来说，最重要的下一步不是继续收集案例，而是把其中一个判断变成可执行实验，用真实付费和持续使用来决定是否扩大。先写下准备验证的用户、场景、价格和成功门槛，再给实验设置明确截止日期；无论结果支持还是推翻原判断，都会比继续停留在概念层面更接近一门真实生意。",
   "riskNote": "营收、团队、增长及渠道信息来自项目数据库与公开来源在特定时间点的披露，可能已经变化；涉及健康、金融、教育、数据和跨境业务时，应按经营所在地最新规则独立核验。",
-  "media": [],
+  "media": [
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "采访成功创业者并分享故事的商业增长闭环",
+      "items": [
+        "【引流】SEO+社交媒体分享创业故事",
+        "【产品】高质量采访内容库",
+        "【变现】会员订阅+广告+联盟营销",
+        "【留存】定期更新+社区互动+邮件通讯"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "采访成功创业者并分享故事的产品与交付路径",
+      "items": [
+        "用户访问网站",
+        "浏览免费故事摘要",
+        "注册会员",
+        "解锁完整采访、数据库和工具"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "采访成功创业者并分享故事的中国市场验证路线",
+      "items": [
+        "确定细分领域（如电商、SaaS），采访10个成功创业者，整理成图文+音频，发布在公众号和知乎。",
+        "搭建简单网站或小程序，展示免费摘要，设置会员付费解锁完整内容，定价9.9-19.9元/月。",
+        "通过SEO优化故事标题和关键词，在创业社群分享引流，同时建立微信群维护会员，定期举办线上分享会。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    }
+  ],
   "source": {
     "name": "Starter Story",
     "url": "https://www.starterstory.com/stories/new-article-92af26c0-8ea6-46c9-9f44-146e3de33b92",
@@ -131,6 +173,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2229,
-    "mediaCount": 0
+    "mediaCount": 3
   }
 }

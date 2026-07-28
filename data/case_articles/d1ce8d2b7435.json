@@ -128,6 +128,34 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "project-hero"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "用AI将$500变成$10M的自动化赚钱系统的商业增长闭环",
+      "items": [
+        "【引流】社交媒体内容引流",
+        "【产品】AI内容生成工具",
+        "【变现】广告/佣金/订阅",
+        "【留存】持续更新内容+用户社区"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "用AI将$500变成$10M的自动化赚钱系统的产品与交付路径",
+      "items": [
+        "用户输入主题",
+        "AI生成内容",
+        "自动发布到平台",
+        "流量变现"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -142,6 +170,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2164,
-    "mediaCount": 1
+    "mediaCount": 3
   }
 }

@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "姐妹创办的AI自动化工具的商业增长闭环",
+      "items": [
+        "【引流】内容营销（教程、案例）",
+        "【产品】AI自动化工作流平台",
+        "【变现】月订阅+任务包",
+        "【留存】持续更新模板、客户成功支持"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2246,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

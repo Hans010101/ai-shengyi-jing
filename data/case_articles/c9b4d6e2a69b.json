@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "海外开发者工具项目的商业增长闭环",
+      "items": [
+        "【引流】社交媒体、开发者论坛宣传比赛",
+        "【产品】比赛平台 + 社区",
+        "【变现】赞助费、参赛费、课程销售",
+        "【留存】定期比赛、社区互动、荣誉激励"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2176,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

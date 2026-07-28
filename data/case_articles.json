@@ -812,15 +812,6 @@
         "watchUrl": "https://www.youtube.com/watch?v=cnww3_Ea--0",
         "poster": "https://i.ytimg.com/vi/cnww3_Ea--0/hqdefault.jpg",
         "provider": "YouTube"
-      },
-      {
-        "type": "image",
-        "url": "https://cdn.shopify.com/s/files/1/0580/8223/0453/files/Rotoshovel_Lifestyle_7-30-23_-44.jpg?v=1714408258",
-        "caption": "产品在家庭庭院中的真实应用场景",
-        "alt": "RotoShovel家庭庭院场景",
-        "sourceUrl": "https://www.rotoshovel.com/",
-        "origin": "official-site",
-        "context": "official-site"
       }
     ],
     "source": {
@@ -843,7 +834,7 @@
       "website": "https://rotoshovel.com"
     },
     "quality": {
-      "mediaCount": 6
+      "mediaCount": 5
     }
   }
 ]

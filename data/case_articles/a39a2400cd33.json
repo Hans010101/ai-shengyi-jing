@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "为Shopify店铺开发运费计算等插件的商业增长闭环",
+      "items": [
+        "【引流】Shopify App Store搜索和推荐",
+        "【产品】免费版插件提供基础功能",
+        "【变现】免费版限制功能，高级版按月订阅",
+        "【留存】持续更新插件，提供客户支持"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2354,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

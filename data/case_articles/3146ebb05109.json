@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "高端沙滩生活品牌的商业增长闭环",
+      "items": [
+        "【引流】社交媒体内容+SEO",
+        "【产品】高品质沙滩装备",
+        "【变现】官网直销",
+        "【留存】会员计划+复购优惠"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2206,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

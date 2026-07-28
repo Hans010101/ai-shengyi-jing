@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "医疗背景创业者创办的医疗数字技术公司的商业增长闭环",
+      "items": [
+        "【引流】医疗行业内容营销+线下展会",
+        "【产品】医疗数字服务+SaaS产品",
+        "【变现】项目费+订阅费",
+        "【留存】客户成功团队+产品更新"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2271,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

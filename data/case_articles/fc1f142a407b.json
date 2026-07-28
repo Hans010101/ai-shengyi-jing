@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "销售抗衰老补充剂订阅盒的商业增长闭环",
+      "items": [
+        "【引流】社交媒体内容（抗衰老知识）+KOL合作",
+        "【产品】个性化订阅盒",
+        "【变现】月费订阅",
+        "【留存】定期健康评估+会员社群"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2178,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

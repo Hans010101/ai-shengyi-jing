@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "WordPress技术支持与维护服务的商业增长闭环",
+      "items": [
+        "【引流】SEO博客+口碑推荐",
+        "【产品】WordPress按月维护服务",
+        "【变现】月费订阅",
+        "【留存】定期报告+主动优化+客户成功"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2305,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

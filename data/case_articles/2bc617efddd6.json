@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "为NGO提供资助信息聚合与申请服务的平台的商业增长闭环",
+      "items": [
+        "【引流】SEO内容营销",
+        "【产品】资助信息数据库+教程",
+        "【变现】广告+会员+咨询",
+        "【留存】邮件订阅+社区互动"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2210,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

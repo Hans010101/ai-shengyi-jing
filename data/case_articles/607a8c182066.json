@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "SEO驱动的个人理财媒体的商业增长闭环",
+      "items": [
+        "【引流】SEO内容吸引搜索流量",
+        "【产品】理财指南和工具推荐",
+        "【变现】联盟佣金+广告",
+        "【留存】邮件订阅和更新提醒"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2178,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

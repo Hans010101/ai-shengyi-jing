@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "Artfinder是艺术品电商平台的商业增长闭环",
+      "items": [
+        "【引流】社交媒体内容+SEO",
+        "【产品】在线艺术品市场",
+        "【变现】销售佣金+增值服务",
+        "【留存】艺术家社区+买家个性化推荐"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2194,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

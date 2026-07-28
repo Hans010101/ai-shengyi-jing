@@ -128,6 +128,34 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "project-hero"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "数字营销代理的商业增长闭环",
+      "items": [
+        "【引流】内容营销+合作伙伴背书",
+        "【产品】数字营销服务",
+        "【变现】月费模式",
+        "【留存】定期报告+效果优化"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "数字营销代理的产品与交付路径",
+      "items": [
+        "获客（线上广告/内容营销）",
+        "客户咨询",
+        "服务交付（SEO/SEM/邮件）",
+        "月度报告"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -142,6 +170,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2209,
-    "mediaCount": 1
+    "mediaCount": 3
   }
 }

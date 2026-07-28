@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "AI驱动的PR工具的商业增长闭环",
+      "items": [
+        "【引流】内容营销（PR指南、案例）+ 免费试用",
+        "【产品】AI PR平台（监测+写作+分发）",
+        "【变现】月/年订阅费",
+        "【留存】持续更新媒体库、优化AI模型、客户成功支持"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2309,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

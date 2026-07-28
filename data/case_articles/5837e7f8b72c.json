@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "AI工具帮内容创作者证明赞助价值的商业增长闭环",
+      "items": [
+        "【引流】内容营销（博客、推特）",
+        "【产品】自动化影响力报告工具",
+        "【变现】月订阅$29-$99",
+        "【留存】持续更新报告模板、客户支持"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2192,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

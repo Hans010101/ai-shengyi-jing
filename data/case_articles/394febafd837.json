@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "自出版小众旅游指南的商业增长闭环",
+      "items": [
+        "【引流】社交媒体分享岛内生活/观星知识",
+        "【产品】电子/纸质指南书",
+        "【变现】亚马逊销售+网站直销",
+        "【留存】更新版本、邮件订阅"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2212,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

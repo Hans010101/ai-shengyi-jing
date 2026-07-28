@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "为法律行业提供AI转录服务的商业增长闭环",
+      "items": [
+        "【引流】SEO+法律行业合作",
+        "【产品】AI转录+人工校对",
+        "【变现】订阅/按量付费",
+        "【留存】高精度+行业模板"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2185,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

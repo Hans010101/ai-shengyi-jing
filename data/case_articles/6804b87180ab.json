@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "QA测试外包服务的商业增长闭环",
+      "items": [
+        "【引流】内容营销+平台接单",
+        "【产品】QA测试服务",
+        "【变现】项目制收费",
+        "【留存】质量保证+长期合同"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2217,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

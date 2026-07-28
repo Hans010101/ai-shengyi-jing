@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "帮企业家写书出书的出版公司的商业增长闭环",
+      "items": [
+        "【引流】免费博客/播客/视频",
+        "【产品】在线课程+写作工具",
+        "【变现】课程付费+代写服务费",
+        "【留存】社群+持续内容更新"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2221,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

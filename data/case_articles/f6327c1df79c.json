@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "利用未充分利用的临床研究数据开发新配方的商业增长闭环",
+      "items": [
+        "【引流】学术论文/行业会议",
+        "【产品】定制化配方研发服务",
+        "【变现】项目费+销售分成",
+        "【留存】持续更新数据+客户成功支持"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2197,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

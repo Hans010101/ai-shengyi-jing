@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "数字营销机构的商业增长闭环",
+      "items": [
+        "【引流】内容营销+口碑推荐",
+        "【产品】品牌策略与广告投放服务",
+        "【变现】项目制/月费收费",
+        "【留存】持续优化效果+客户成功服务"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2214,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

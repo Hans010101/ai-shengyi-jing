@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "冲突地带时尚品牌的商业增长闭环",
+      "items": [
+        "【引流】网红内容种草",
+        "【产品】冲突地带制造的服饰",
+        "【变现】电商平台销售",
+        "【留存】品牌故事与会员社区"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2161,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

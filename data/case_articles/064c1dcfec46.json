@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "加拿大线上布料店的商业增长闭环",
+      "items": [
+        "【引流】社交媒体（Instagram/Pinterest）教程和作品展示",
+        "【产品】订阅盒子+单件布料",
+        "【变现】订阅费+额外销售",
+        "【留存】会员专属社群、积分兑换、生日福利"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2269,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

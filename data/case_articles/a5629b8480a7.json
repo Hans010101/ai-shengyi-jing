@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "外包转录服务的商业增长闭环",
+      "items": [
+        "【引流】SEO+法律/医疗行业展会",
+        "【产品】高精度转录服务",
+        "【变现】按分钟收费+月度套餐",
+        "【留存】质量保证+快速交付+客户管理系统"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2243,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

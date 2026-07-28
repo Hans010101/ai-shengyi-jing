@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "LinkedIn自动化外联工具的商业增长闭环",
+      "items": [
+        "【引流】LinkedIn群组/内容营销",
+        "【产品】自动化外联工具",
+        "【变现】月订阅+按量付费",
+        "【留存】数据分析报告+持续优化模板"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2250,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

@@ -118,7 +118,49 @@
   ],
   "conclusion": "支付软件SaaS真正值得借鉴的，不是照搬页面、产品或营收数字，而是从具体用户问题出发，依次验证交付、收费、获客与留存。对准备进入相似方向的创业者来说，最重要的下一步不是继续收集案例，而是把其中一个判断变成可执行实验，用真实付费和持续使用来决定是否扩大。先写下准备验证的用户、场景、价格和成功门槛，再给实验设置明确截止日期；无论结果支持还是推翻原判断，都会比继续停留在概念层面更接近一门真实生意。",
   "riskNote": "营收、团队、增长及渠道信息来自项目数据库与公开来源在特定时间点的披露，可能已经变化；涉及健康、金融、教育、数据和跨境业务时，应按经营所在地最新规则独立核验。",
-  "media": [],
+  "media": [
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "支付软件SaaS的商业增长闭环",
+      "items": [
+        "【引流】SEO+内容营销（博客、案例）",
+        "【产品】支付SaaS平台",
+        "【变现】月费/交易抽成",
+        "【留存】持续功能更新+客户成功服务"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "支付软件SaaS的产品与交付路径",
+      "items": [
+        "商户注册",
+        "支付接口配置",
+        "交易处理",
+        "对账与报表"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "支付软件SaaS的中国市场验证路线",
+      "items": [
+        "选择细分行业（如跨境电商、本地生活），调研目标商户的支付痛点，确定MVP功能（支付接入、基础对账）。",
+        "基于开源支付网关（如Stripe、支付宝国际版）快速搭建原型，先服务5-10家种子用户，获取反馈并迭代。",
+        "通过行业社区、知乎、短视频分享支付优化案例，建立专业形象，同时优化SEO，吸引更多商户试用并转化为付费用户。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    }
+  ],
   "source": {
     "name": "Starter Story",
     "url": "https://www.starterstory.com/stories/checkout-page-11cb35ad-5da8-4c4e-bd41-ccd8d65085bd",
@@ -131,6 +173,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2283,
-    "mediaCount": 0
+    "mediaCount": 3
   }
 }

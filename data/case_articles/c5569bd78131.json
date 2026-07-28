@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "中式婚服电商的商业增长闭环",
+      "items": [
+        "【引流】SEO优化+社交媒体内容+婚礼博主合作",
+        "【产品】现代改良旗袍+中式婚服",
+        "【变现】在线销售服装",
+        "【留存】客户好评+复购+转介绍"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2243,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

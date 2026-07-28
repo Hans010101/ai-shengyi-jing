@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "滤网电商的商业增长闭环",
+      "items": [
+        "【引流】SEO+亚马逊广告+社交媒体内容营销",
+        "【产品】自产高品质滤网+订阅服务",
+        "【变现】滤网销售+订阅费",
+        "【留存】定期配送+邮件提醒+老客户优惠"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2270,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

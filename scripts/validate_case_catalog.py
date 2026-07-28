@@ -55,6 +55,8 @@ def validate(
     files = {path.stem: path for path in ARTICLES_DIR.glob("*.json")}
     errors: list[str] = []
     records = []
+    infographic_count = 0
+    source_media_count = 0
 
     missing = sorted(project_ids - files.keys())
     orphaned = sorted(files.keys() - project_ids)
@@ -114,6 +116,10 @@ def validate(
             media = []
         if require_media and not media:
             errors.append(f"{project_id}: media is required")
+        if not 3 <= len(media) <= 5:
+            errors.append(
+                f"{project_id}: expected 3-5 visual media items, got {len(media)}"
+            )
         for index, item in enumerate(media):
             media_type = item.get("type")
             parsed = urlparse(str(item.get("url", "")))
@@ -125,9 +131,20 @@ def validate(
                     caption,
                 )
             )
-            if media_type not in {"image", "video", "video-file"}:
+            if media_type not in {
+                "image",
+                "video",
+                "video-file",
+                "infographic",
+            }:
                 errors.append(f"{project_id}: media {index + 1} has invalid type")
-            if parsed.scheme not in {"http", "https"} or not parsed.hostname:
+            if (
+                media_type != "infographic"
+                and (
+                    parsed.scheme not in {"http", "https"}
+                    or not parsed.hostname
+                )
+            ):
                 errors.append(f"{project_id}: media {index + 1} has invalid URL")
             if not caption:
                 errors.append(f"{project_id}: media {index + 1} has no caption")
@@ -139,6 +156,28 @@ def validate(
                 errors.append(
                     f"{project_id}: media {index + 1} is page chrome or an icon"
                 )
+            if media_type == "infographic":
+                infographic_count += 1
+                infographic_items = item.get("items", [])
+                if (
+                    item.get("origin") != "editorial-generated"
+                    or item.get("usage") != "site-original"
+                    or item.get("variant")
+                    not in {"business-loop", "product-path", "china-launch"}
+                    or not str(item.get("title", "")).strip()
+                    or not isinstance(infographic_items, list)
+                    or not 2 <= len(infographic_items) <= 4
+                    or not all(
+                        isinstance(value, str) and value.strip()
+                        for value in infographic_items
+                    )
+                    or "AI生意经原创信息图" not in caption
+                ):
+                    errors.append(
+                        f"{project_id}: infographic {index + 1} is malformed"
+                    )
+            else:
+                source_media_count += 1
             if media_type == "image" and item.get("origin") not in {
                 "official-site",
                 "source-attributed",
@@ -223,6 +262,8 @@ def validate(
         "withMedia": sum(record["media"] > 0 for record in records),
         "withoutMedia": len(without_media),
         "mediaItems": sum(record["media"] for record in records),
+        "sourceMediaItems": source_media_count,
+        "editorialInfographics": infographic_count,
         "mediaDistribution": {
             str(count): total
             for count, total in sorted(media_distribution.items())

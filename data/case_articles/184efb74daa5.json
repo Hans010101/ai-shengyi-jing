@@ -128,6 +128,34 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "project-hero"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "AI同传翻译SaaS的商业增长闭环",
+      "items": [
+        "【引流】SEO+行业展会+合作伙伴推荐",
+        "【产品】AI多语言翻译平台",
+        "【变现】订阅费+按量付费",
+        "【留存】高质量翻译+API集成+客户成功服务"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "AI同传翻译SaaS的产品与交付路径",
+      "items": [
+        "用户注册",
+        "选择语言对",
+        "AI实时语音/文本翻译",
+        "导出字幕/文档"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -142,6 +170,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2200,
-    "mediaCount": 1
+    "mediaCount": 3
   }
 }

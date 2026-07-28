@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "AI驱动的内容写作SaaS的商业增长闭环",
+      "items": [
+        "【引流】SEO、内容营销、行业合作",
+        "【产品】AI+人工内容写作服务",
+        "【变现】订阅费、按字付费",
+        "【留存】优质内容持续交付、客户成功服务"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2185,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

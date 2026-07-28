@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "卖衬衫领口定型片的商业增长闭环",
+      "items": [
+        "【引流】亚马逊广告+社交媒体内容",
+        "【产品】领口定型片",
+        "【变现】产品售价+批量折扣",
+        "【留存】复购+口碑推荐"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2200,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

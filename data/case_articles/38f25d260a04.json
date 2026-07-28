@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "线上营养咨询+虚拟课程的商业增长闭环",
+      "items": [
+        "【引流】社交媒体内容+免费评估",
+        "【产品】个性化营养方案+虚拟课程",
+        "【变现】订阅费+单次咨询",
+        "【留存】定期复测+社群互动"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2161,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

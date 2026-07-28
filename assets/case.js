@@ -50,7 +50,6 @@ function renderMedia(media, index) {
   if (!media) return null;
   const sourceUrl = safeExternalUrl(media.sourceUrl);
   const mediaUrl = safeExternalUrl(media.url);
-  if (!mediaUrl) return null;
   let videoWatchUrl = '';
 
   const figure = document.createElement('figure');
@@ -58,9 +57,42 @@ function renderMedia(media, index) {
   figure.dataset.mediaIndex = String(index);
 
   if (
+    media.type === 'infographic'
+    && media.origin === 'editorial-generated'
+  ) {
+    const allowedVariants = new Set([
+      'business-loop',
+      'product-path',
+      'china-launch'
+    ]);
+    const variant = allowedVariants.has(media.variant)
+      ? media.variant
+      : 'business-loop';
+    const items = Array.isArray(media.items)
+      ? media.items.filter(item => typeof item === 'string' && item.trim()).slice(0, 4)
+      : [];
+    if (items.length < 2) return null;
+
+    const visual = document.createElement('div');
+    visual.className = `editorial-infographic infographic-${variant}`;
+    appendText(visual, 'span', 'AI生意经原创信息图', 'infographic-kicker');
+    appendText(visual, 'h3', media.title || '商业路径拆解');
+    const flow = document.createElement('div');
+    flow.className = 'infographic-flow';
+    items.forEach((item, itemIndex) => {
+      const step = document.createElement('div');
+      step.className = 'infographic-step';
+      appendText(step, 'span', String(itemIndex + 1).padStart(2, '0'), 'infographic-number');
+      appendText(step, 'strong', item);
+      flow.appendChild(step);
+    });
+    visual.appendChild(flow);
+    figure.appendChild(visual);
+  } else if (
     media.type === 'image'
     && ['official-site', 'source-attributed'].includes(media.origin)
   ) {
+    if (!mediaUrl) return null;
     const image = document.createElement('img');
     image.src = mediaUrl;
     image.alt = media.alt || media.caption || '项目相关图片';
@@ -80,6 +112,7 @@ function renderMedia(media, index) {
       figure.appendChild(image);
     }
   } else if (media.type === 'video') {
+    if (!mediaUrl) return null;
     const parsedMediaUrl = new URL(mediaUrl);
     const host = parsedMediaUrl.hostname;
     if (!['www.youtube.com', 'youtube.com', 'player.vimeo.com'].includes(host)) return null;
@@ -123,6 +156,7 @@ function renderMedia(media, index) {
     media.type === 'video-file'
     && media.origin === 'official-site-video'
   ) {
+    if (!mediaUrl) return null;
     const video = document.createElement('video');
     video.src = mediaUrl;
     video.controls = true;

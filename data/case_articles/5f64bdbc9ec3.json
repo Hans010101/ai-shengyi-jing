@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "Delray Watch是二手手表交易平台的商业增长闭环",
+      "items": [
+        "【引流】社群运营+KOL合作",
+        "【产品】二手手表交易+鉴定托管",
+        "【变现】交易佣金+增值服务费",
+        "【留存】会员体系+鉴定证书+社群互动"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2208,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

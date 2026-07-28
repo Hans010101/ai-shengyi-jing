@@ -140,6 +140,20 @@
       "poster": "https://i.ytimg.com/vi/bJNaOyg1v7E/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "为中小制造企业提供数字化转型咨询与软件方案的商业增长闭环",
+      "items": [
+        "【引流】行业展会/线上内容",
+        "【产品】数字化诊断+轻量软件",
+        "【变现】项目费/年订阅",
+        "【留存】定期升级+客户转介绍"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -154,6 +168,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2175,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

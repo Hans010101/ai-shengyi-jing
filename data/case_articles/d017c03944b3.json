@@ -140,6 +140,20 @@
       "poster": "https://i.ytimg.com/vi/uQa3RRo1H3A/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "为应届生提供求职平台的商业增长闭环",
+      "items": [
+        "【引流】校园推广、社交媒体",
+        "【产品】职位匹配与简历库",
+        "【变现】企业订阅费",
+        "【留存】定期推送职位、校友网络"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -154,6 +168,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2117,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

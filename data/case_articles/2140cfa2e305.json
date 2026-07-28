@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "AI视频摘要Chrome插件的商业增长闭环",
+      "items": [
+        "【引流】SEO、社交媒体推广、Chrome商店曝光",
+        "【产品】AI视频摘要插件",
+        "【变现】免费试用+月度订阅",
+        "【留存】持续优化摘要质量、增加导出/翻译等增值功能"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2295,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

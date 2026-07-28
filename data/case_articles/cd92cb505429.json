@@ -128,6 +128,34 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "project-hero"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "AI驱动的数据聚合与洞察平台的商业增长闭环",
+      "items": [
+        "【引流】内容营销与SEO",
+        "【产品】AI数据分析平台",
+        "【变现】月度订阅与增值服务",
+        "【留存】持续更新数据源与个性化报告"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "AI驱动的数据聚合与洞察平台的产品与交付路径",
+      "items": [
+        "数据源接入",
+        "AI清洗与聚合",
+        "智能分析生成洞察",
+        "报告导出与订阅付费"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -142,6 +170,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2208,
-    "mediaCount": 1
+    "mediaCount": 3
   }
 }

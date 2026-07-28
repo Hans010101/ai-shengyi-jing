@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "数字营销代理的商业增长闭环",
+      "items": [
+        "【引流】LinkedIn/行业社区分享干货",
+        "【产品】品牌信息与营销策略服务",
+        "【变现】项目制/月费制收费",
+        "【留存】持续提供优化建议与案例成果"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2218,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

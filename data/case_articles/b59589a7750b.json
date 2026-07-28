@@ -140,6 +140,20 @@
       "poster": "https://i.ytimg.com/vi/oepLHbFetG4/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "为YouTuber提供财税代管服务的商业增长闭环",
+      "items": [
+        "【引流】内容营销（YouTube/SEO）",
+        "【产品】财税自动化+人工服务",
+        "【变现】月费+年费",
+        "【留存】定期报告+税务规划建议"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -154,6 +168,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2201,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

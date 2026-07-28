@@ -118,7 +118,49 @@
   ],
   "conclusion": "宠物服务业务真正值得借鉴的，不是照搬页面、产品或营收数字，而是从具体用户问题出发，依次验证交付、收费、获客与留存。对准备进入相似方向的创业者来说，最重要的下一步不是继续收集案例，而是把其中一个判断变成可执行实验，用真实付费和持续使用来决定是否扩大。先写下准备验证的用户、场景、价格和成功门槛，再给实验设置明确截止日期；无论结果支持还是推翻原判断，都会比继续停留在概念层面更接近一门真实生意。",
   "riskNote": "营收、团队、增长及渠道信息来自项目数据库与公开来源在特定时间点的披露，可能已经变化；涉及健康、金融、教育、数据和跨境业务时，应按经营所在地最新规则独立核验。",
-  "media": [],
+  "media": [
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "宠物服务业务的商业增长闭环",
+      "items": [
+        "【引流】本地社区推广、宠物主人群、口碑",
+        "【产品】上门遛狗、宠物看护、附加服务",
+        "【变现】按次付费或月订阅",
+        "【留存】优质服务、会员折扣、推荐奖励"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "宠物服务业务的产品与交付路径",
+      "items": [
+        "用户注册",
+        "选择服务套餐",
+        "预约时间",
+        "上门服务"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "宠物服务业务的中国市场验证路线",
+      "items": [
+        "确定服务范围（如1-2个社区），提供基础遛狗和看护服务，定价低于市场均价，通过朋友圈和本地宠物群获取第一批客户。",
+        "建立服务标准化流程，包括接送、喂养、遛狗路线和实时照片反馈，使用微信小程序或群聊管理预约和支付。",
+        "推出月卡套餐和推荐奖励，鼓励老客户带新，同时增加附加服务（如宠物洗澡、喂药），提高客单价和复购率。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    }
+  ],
   "source": {
     "name": "Starter Story",
     "url": "https://www.starterstory.com/stories/furry-fellas-pet-service-llc-c6b54520-dece-4ca7-8cf6-f281ae8cb60a",
@@ -131,6 +173,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2234,
-    "mediaCount": 0
+    "mediaCount": 3
   }
 }

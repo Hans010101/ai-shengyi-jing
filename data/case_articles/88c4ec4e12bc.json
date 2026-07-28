@@ -128,6 +128,34 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "project-hero"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "销售数字游民旅行装备的DTC品牌的商业增长闭环",
+      "items": [
+        "【引流】社交媒体内容（Instagram/YouTube/TikTok）",
+        "【产品】Clever Travel Companion品牌旅行配件",
+        "【变现】独立站/亚马逊销售",
+        "【留存】邮件营销、会员计划、用户生成内容"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "销售数字游民旅行装备的DTC品牌的产品与交付路径",
+      "items": [
+        "独立站/亚马逊店铺",
+        "产品页面",
+        "下单支付",
+        "物流配送"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -142,6 +170,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2304,
-    "mediaCount": 1
+    "mediaCount": 3
   }
 }

@@ -128,6 +128,34 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "project-hero"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "AI论文写作助手的商业增长闭环",
+      "items": [
+        "【引流】SEO内容营销+学生社群",
+        "【产品】AI论文写作助手",
+        "【变现】免费试用+月/年订阅",
+        "【留存】持续优化模型+积分奖励"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "AI论文写作助手的产品与交付路径",
+      "items": [
+        "用户注册",
+        "输入主题/要求",
+        "AI生成大纲",
+        "编辑完善"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -142,6 +170,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2204,
-    "mediaCount": 1
+    "mediaCount": 3
   }
 }

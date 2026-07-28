@@ -140,6 +140,20 @@
       "poster": "https://i.ytimg.com/vi/kmvyI-qcv9k/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "手工皂品牌的商业增长闭环",
+      "items": [
+        "【引流】抖音/小红书内容营销",
+        "【产品】手工皂/礼盒",
+        "【变现】官网/电商销售+订阅",
+        "【留存】会员积分+新品推送"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -154,6 +168,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2204,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

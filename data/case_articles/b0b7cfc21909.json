@@ -128,6 +128,34 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "project-hero"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "无代码AI SaaS工具的商业增长闭环",
+      "items": [
+        "【引流】内容营销+SEO",
+        "【产品】无代码AI SaaS",
+        "【变现】订阅制付费",
+        "【留存】持续优化+客户支持"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "无代码AI SaaS工具的产品与交付路径",
+      "items": [
+        "用户注册",
+        "AI模型处理",
+        "结果输出",
+        "付费订阅解锁高级功能"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -142,6 +170,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2124,
-    "mediaCount": 1
+    "mediaCount": 3
   }
 }

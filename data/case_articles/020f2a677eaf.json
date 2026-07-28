@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "B2B远程医疗基础设施的商业增长闭环",
+      "items": [
+        "【引流】医疗行业展会、线上内容营销（合规白皮书）",
+        "【产品】白标远程医疗SaaS平台",
+        "【变现】按月/按年订阅费 + 按咨询量抽成",
+        "【留存】持续更新合规功能、提供7x24技术支持"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2305,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

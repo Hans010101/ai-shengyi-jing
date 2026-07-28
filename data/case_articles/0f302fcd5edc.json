@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "将企业财报等非结构化数据转为标准化数据的商业增长闭环",
+      "items": [
+        "【引流】SEO/金融社区内容",
+        "【产品】AI+人工数据标准化服务",
+        "【变现】按文档付费或月费",
+        "【留存】API集成/定期报告提醒"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2221,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

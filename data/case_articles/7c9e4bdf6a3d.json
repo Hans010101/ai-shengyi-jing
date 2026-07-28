@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "AI驱动的债务催收SaaS平台的商业增长闭环",
+      "items": [
+        "【引流】内容营销+行业合作",
+        "【产品】AI催收SaaS平台",
+        "【变现】订阅费+成功佣金",
+        "【留存】持续优化模型+客户成功服务"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2248,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

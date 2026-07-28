@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "便携式四向排球网的商业增长闭环",
+      "items": [
+        "【引流】社交媒体KOL/用户UGC展示玩法",
+        "【产品】便携四向排球网套装",
+        "【变现】官网/电商/零售店销售",
+        "【留存】新玩法视频、配件升级、赛事活动"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2264,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

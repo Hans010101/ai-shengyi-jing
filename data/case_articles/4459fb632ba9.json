@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "手工皮具品牌的商业增长闭环",
+      "items": [
+        "【引流】社交媒体内容（制作过程、产品故事）",
+        "【产品】手工皮具（钱包、皮带等）",
+        "【变现】官网销售、定制服务",
+        "【留存】会员计划、售后保养、用户生成内容"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2270,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

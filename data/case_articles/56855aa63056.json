@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "快速匹配远程工程师平台的商业增长闭环",
+      "items": [
+        "【引流】技术博客、LinkedIn内容营销",
+        "【产品】快速匹配+筛选服务",
+        "【变现】按成功入职收费",
+        "【留存】高质量候选人池+后续支持"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2243,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "AI数据科学人才招聘平台的商业增长闭环",
+      "items": [
+        "【引流】LinkedIn/技术社区内容营销",
+        "【产品】AI人才匹配平台",
+        "【变现】成功入职佣金",
+        "【留存】候选人社区+企业定期招聘需求"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2247,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

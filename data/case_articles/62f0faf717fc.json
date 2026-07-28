@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "警察副队长创办的金融教育博客的商业增长闭环",
+      "items": [
+        "【引流】SEO博客+社交媒体",
+        "【产品】理财课程/电子书",
+        "【变现】一次性购买或会员订阅",
+        "【留存】邮件序列+社群"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2174,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

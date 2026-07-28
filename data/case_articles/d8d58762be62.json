@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "教人做停车场垃圾清理的绿色小生意的商业增长闭环",
+      "items": [
+        "【引流】LinkedIn干货分享",
+        "【产品】清洁服务培训+工具包",
+        "【变现】加盟费/培训费",
+        "【留存】持续提供运营支持和案例更新"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2204,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

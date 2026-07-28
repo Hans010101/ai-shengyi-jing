@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "DTC办公家具品牌的商业增长闭环",
+      "items": [
+        "【引流】内容营销（小红书/抖音）",
+        "【产品】高性价比办公家具",
+        "【变现】线上直销",
+        "【留存】会员体系/老客优惠"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2213,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

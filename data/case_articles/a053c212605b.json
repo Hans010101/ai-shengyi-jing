@@ -140,6 +140,20 @@
       "poster": "https://i.ytimg.com/vi/CT4ajxPBR-c/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "SEO培训公司的商业增长闭环",
+      "items": [
+        "【引流】免费SEO网络研讨会",
+        "【产品】一对一SEO培训",
+        "【变现】按小时或套餐收费",
+        "【留存】持续提供优化建议和进阶课程"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -154,6 +168,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2221,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "在线内衣精品店的商业增长闭环",
+      "items": [
+        "【引流】社交媒体内容营销、影响者合作",
+        "【产品】精选内衣、个性化推荐",
+        "【变现】在线销售、限时折扣",
+        "【留存】会员计划、邮件营销、客户社区"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2181,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

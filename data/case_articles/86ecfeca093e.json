@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "为创作者提供简单易用的新闻通讯SaaS的商业增长闭环",
+      "items": [
+        "【引流】内容营销与口碑传播",
+        "【产品】极简邮件编辑器与自动化发送",
+        "【变现】按月订阅付费",
+        "【留存】持续优化体验与客户支持"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2197,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

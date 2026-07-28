@@ -93,7 +93,7 @@ EdgeOne 不配置第二套 AI。其 `/api/advisor` 读取同源访客请求，�
 - 全量案例生成器保留人工精修稿，其余稿件仅依据现有结构化事实生成 6—8 节中文商业文章；
 - 图片只使用来源页公开主图、正文容器图片或项目官网公开素材的远程链接；广告、水印、HubSpot 标识、社交工具图标和相邻案例缩略图必须过滤；
 - YouTube/Vimeo 视频必须同时具备真实观看地址、公开标题与封面，页面用可点击视频卡片展示；无法取得封面的失效视频直接删除；
-- 媒体目标为每篇 3—5 个，但以来源实际公开素材为准，不使用无关占位图补数；
+- 每篇必须有 3—5 个视觉素材；来源页和官网真实图片/视频优先，不足时用明确标注的“AI生意经原创信息图”补齐，严禁把原创信息图冒充来源照片，也不使用无关占位图补数；
 - `scripts/validate_case_catalog.py` 强制检查项目覆盖、中文标题、章节数、正文长度、媒体来源语境、视频元数据与已删除的界面文案；
 - `POST /api/editorial` 是受 `EDITORIAL_API_TOKEN` 保护的后台接口，通过 `AI` binding 运行 Workers AI；
 - 每日采集先调用该接口生成微信公众号风格原创稿，失败或额度不足时再调用 DeepSeek；
@@ -113,7 +113,7 @@ EdgeOne 不配置第二套 AI。其 `/api/advisor` 读取同源访客请求，�
 
 数据库是最终事实来源。写入时新项目优先，并按 ID 去重。流水线必须同时提交数据库、`case_articles.json` 和 `seen_ids.json`。新项目会在结构化内容生成后进入案例编辑链路。
 随后 `generate_case_catalog.py --missing-only` 只为缺失 ID 生成独立详情文件，避免每日重写历史案例。
-新增案例抓取使用全局请求间隔与 429 自动退避；全量纠正历史素材时，运行 `generate_case_catalog.py --refresh-all-media --workers 8 --request-interval 0.08 --request-retries 2`，它只更新媒体、不重写文章正文。随后运行 `generate_case_catalog.py --normalize-local-media` 补齐来源语境并删除无法取得封面的失效视频。
+新增案例抓取使用全局请求间隔与 429 自动退避；全量纠正历史素材时，运行 `generate_case_catalog.py --refresh-all-media --workers 8 --request-interval 0.08 --request-retries 2`，它只更新媒体、不重写文章正文。随后运行 `generate_case_catalog.py --normalize-local-media` 补齐来源语境并删除无法取得封面的失效视频，再运行 `generate_case_catalog.py --ensure-visual-media` 将每篇稳定补齐至 3—5 个视觉素材。
 
 ## 故障处理
 

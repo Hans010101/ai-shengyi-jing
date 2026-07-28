@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "匹配初创公司与设计师的商业增长闭环",
+      "items": [
+        "【引流】知乎/小红书内容营销",
+        "【产品】AI匹配平台",
+        "【变现】项目佣金+订阅费",
+        "【留存】优质匹配+设计师评价体系"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2189,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

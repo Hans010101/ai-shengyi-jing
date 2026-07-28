@@ -158,18 +158,44 @@ def fetch_official_media(website: str) -> list[dict]:
 
 
 def normalize_media(media: list[dict]) -> list[dict]:
-    """Keep only approved official media and explicitly attributed source images."""
+    """Keep approved source media and clearly labelled site-original infographics."""
     approved = []
     for item in media:
         media_url = clean_text(item.get("url"), 2_000)
         source_url = clean_text(item.get("sourceUrl"), 2_000)
+        media_type = item.get("type")
+        origin = item.get("origin")
+        if media_type == "infographic":
+            items = [
+                clean_text(value, 80)
+                for value in item.get("items", [])
+                if clean_text(value, 80)
+            ][:4]
+            if (
+                origin != "editorial-generated"
+                or item.get("variant")
+                not in {"business-loop", "product-path", "china-launch"}
+                or len(items) < 2
+            ):
+                continue
+            approved.append(
+                {
+                    "type": media_type,
+                    "variant": item.get("variant"),
+                    "title": clean_text(item.get("title"), 100),
+                    "items": items,
+                    "caption": clean_text(item.get("caption"), 180),
+                    "alt": clean_text(item.get("alt"), 180),
+                    "origin": origin,
+                    "usage": "site-original",
+                }
+            )
+            continue
+
         parsed = urlparse(media_url)
         host = (parsed.hostname or "").lower()
         if parsed.scheme not in {"http", "https"}:
             continue
-
-        media_type = item.get("type")
-        origin = item.get("origin")
         if media_type == "image":
             is_blocked_host = any(
                 host == blocked or host.endswith(f".{blocked}")
@@ -217,7 +243,7 @@ def normalize_media(media: list[dict]) -> list[dict]:
                 "usage": clean_text(item.get("usage"), 80),
             }
         )
-    return approved[:8]
+    return approved[:5]
 
 
 def build_prompt(project: dict, source_notes: str) -> str:

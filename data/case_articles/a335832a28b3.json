@@ -128,6 +128,34 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "project-hero"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "无代码AI应用月入百万美元的商业增长闭环",
+      "items": [
+        "【引流】内容营销（教程、案例）",
+        "【产品】无代码AI工具",
+        "【变现】订阅/按次付费",
+        "【留存】持续更新模板、社区运营"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "无代码AI应用月入百万美元的产品与交付路径",
+      "items": [
+        "用户注册",
+        "选择模板或自定义需求",
+        "AI处理（如生成文案、图像）",
+        "预览结果"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -142,6 +170,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2219,
-    "mediaCount": 1
+    "mediaCount": 3
   }
 }

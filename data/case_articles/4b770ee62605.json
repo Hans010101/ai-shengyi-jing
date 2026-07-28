@@ -118,7 +118,49 @@
   ],
   "conclusion": "一个AI驱动的创业案例数据库真正值得借鉴的，不是照搬页面、产品或营收数字，而是从具体用户问题出发，依次验证交付、收费、获客与留存。对准备进入相似方向的创业者来说，最重要的下一步不是继续收集案例，而是把其中一个判断变成可执行实验，用真实付费和持续使用来决定是否扩大。先写下准备验证的用户、场景、价格和成功门槛，再给实验设置明确截止日期；无论结果支持还是推翻原判断，都会比继续停留在概念层面更接近一门真实生意。",
   "riskNote": "营收、团队、增长及渠道信息来自项目数据库与公开来源在特定时间点的披露，可能已经变化；涉及健康、金融、教育、数据和跨境业务时，应按经营所在地最新规则独立核验。",
-  "media": [],
+  "media": [
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "一个AI驱动的创业案例数据库的商业增长闭环",
+      "items": [
+        "【引流】SEO+社交媒体分享免费案例",
+        "【产品】AI案例数据库",
+        "【变现】月度/年度订阅",
+        "【留存】每周更新+个性化推荐"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "一个AI驱动的创业案例数据库的产品与交付路径",
+      "items": [
+        "用户注册",
+        "浏览免费案例",
+        "AI筛选/排序",
+        "付费解锁完整内容"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "一个AI驱动的创业案例数据库的中国市场验证路线",
+      "items": [
+        "确定细分领域（如中国电商创业案例），手动收集50-100个高质量案例，用Notion或Airtable搭建原型。",
+        "开发基础搜索和筛选功能，集成AI（如GPT）自动生成案例摘要和标签，上线MVP并招募早期用户。",
+        "通过知乎、小红书等平台分享免费案例摘要引流，设置月度订阅（如19元/月），持续更新并收集反馈迭代。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    }
+  ],
   "source": {
     "name": "Starter Story",
     "url": "https://www.starterstory.com/stories/vibe-coding-ideas",
@@ -131,6 +173,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2283,
-    "mediaCount": 0
+    "mediaCount": 3
   }
 }

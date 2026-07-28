@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "为律所提供SEO服务的商业增长闭环",
+      "items": [
+        "【引流】法律行业内容营销+线上广告",
+        "【产品】SEO服务套餐",
+        "【变现】月费/项目费",
+        "【留存】定期报告+持续优化"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2155,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

@@ -128,6 +128,34 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "project-hero"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "为癌症患者设计时尚舒适的输液服的商业增长闭环",
+      "items": [
+        "【引流】社交媒体内容营销（患者故事）",
+        "【产品】化疗保暖服装",
+        "【变现】电商销售+批发",
+        "【留存】社群关怀与复购激励"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "为癌症患者设计时尚舒适的输液服的产品与交付路径",
+      "items": [
+        "市场调研",
+        "产品设计（时尚+功能性）",
+        "生产制造",
+        "电商/批发销售"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -142,6 +170,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2140,
-    "mediaCount": 1
+    "mediaCount": 3
   }
 }

@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "种子电商的商业增长闭环",
+      "items": [
+        "【引流】短视频/图文种植教程",
+        "【产品】种子及种植套装",
+        "【变现】商品销售+会员订阅",
+        "【留存】社群种植交流+复购提醒"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2137,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

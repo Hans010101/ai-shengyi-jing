@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "Windows任务栏进度条应用的商业增长闭环",
+      "items": [
+        "【引流】Product Hunt/Reddit & 口碑",
+        "【产品】Windows任务栏进度条App",
+        "【变现】订阅+一次性购买",
+        "【留存】定期更新主题/数据报告"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2279,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

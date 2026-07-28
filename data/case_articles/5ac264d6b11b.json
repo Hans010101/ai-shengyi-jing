@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "为直播主播提供AI音效互动工具的商业增长闭环",
+      "items": [
+        "【引流】社交媒体内容+主播合作",
+        "【产品】AI音效互动工具",
+        "【变现】订阅费+广告分成+虚拟礼物",
+        "【留存】持续更新音效库+社区活动"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2211,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "健身工作室的商业增长闭环",
+      "items": [
+        "【引流】线下地推+线上团购体验课",
+        "【产品】私教/半私教/线上训练",
+        "【变现】按次/月/年收费",
+        "【留存】社群运营+成果展示+转介绍奖励"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2236,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

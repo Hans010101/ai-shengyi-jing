@@ -128,6 +128,34 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "project-hero"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "冥想与心理健康App的商业增长闭环",
+      "items": [
+        "【引流】社交媒体内容营销（短视频/文章）",
+        "【产品】冥想/睡眠音频+课程",
+        "【变现】订阅费+企业合作",
+        "【留存】每日提醒+进度追踪+社区互动"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "冥想与心理健康App的产品与交付路径",
+      "items": [
+        "用户注册",
+        "个性化问卷",
+        "推荐内容（冥想/睡眠/音乐）",
+        "免费体验"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -142,6 +170,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2312,
-    "mediaCount": 1
+    "mediaCount": 3
   }
 }

@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "为SaaS和使命驱动企业建站的商业增长闭环",
+      "items": [
+        "【引流】LinkedIn内容营销+客户推荐",
+        "【产品】定制网站设计",
+        "【变现】项目收费+月度维护费",
+        "【留存】持续优化+增值服务"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2168,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

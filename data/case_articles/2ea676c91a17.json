@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "收购并运营盈利互联网业务的商业增长闭环",
+      "items": [
+        "【引流】内容营销、投资者网络",
+        "【产品】收购并运营互联网业务",
+        "【变现】管理费+利润分成",
+        "【留存】定期分红、项目更新"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2271,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

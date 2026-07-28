@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "专业整理服务的商业增长闭环",
+      "items": [
+        "【引流】小红书/抖音发整理前后对比视频",
+        "【产品】上门整理服务+收纳方案",
+        "【变现】时薪/套餐收费",
+        "【留存】定期回访+会员制维护服务"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2260,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

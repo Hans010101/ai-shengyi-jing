@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "眼科护理DTC品牌的商业增长闭环",
+      "items": [
+        "【引流】SEO博客、YouTube视频",
+        "【产品】自有品牌护眼产品、在线课程",
+        "【变现】产品直销、课程付费",
+        "【留存】会员订阅、复购优惠"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2204,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

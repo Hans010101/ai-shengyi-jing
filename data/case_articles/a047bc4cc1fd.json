@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "基于PHP的短信营销SaaS的商业增长闭环",
+      "items": [
+        "【引流】电商论坛/SEO",
+        "【产品】短信营销SaaS",
+        "【变现】月订阅费",
+        "【留存】持续优化模板和报告"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2146,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

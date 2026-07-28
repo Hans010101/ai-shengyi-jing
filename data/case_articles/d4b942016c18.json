@@ -118,7 +118,49 @@
   ],
   "conclusion": "SEO机构转型做SaaS工具真正值得借鉴的，不是照搬页面、产品或营收数字，而是从具体用户问题出发，依次验证交付、收费、获客与留存。对准备进入相似方向的创业者来说，最重要的下一步不是继续收集案例，而是把其中一个判断变成可执行实验，用真实付费和持续使用来决定是否扩大。先写下准备验证的用户、场景、价格和成功门槛，再给实验设置明确截止日期；无论结果支持还是推翻原判断，都会比继续停留在概念层面更接近一门真实生意。",
   "riskNote": "营收、团队、增长及渠道信息来自项目数据库与公开来源在特定时间点的披露，可能已经变化；涉及健康、金融、教育、数据和跨境业务时，应按经营所在地最新规则独立核验。",
-  "media": [],
+  "media": [
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "SEO机构转型做SaaS工具的商业增长闭环",
+      "items": [
+        "【引流】SEO内容营销+社交媒体",
+        "【产品】SaaS工具",
+        "【变现】月订阅费",
+        "【留存】持续功能更新+客户支持"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "SEO机构转型做SaaS工具的产品与交付路径",
+      "items": [
+        "用户注册",
+        "关键词分析",
+        "内容优化建议",
+        "付费订阅解锁高级功能"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "SEO机构转型做SaaS工具的中国市场验证路线",
+      "items": [
+        "选定细分SEO痛点（如关键词研究），用低代码或现成API搭建MVP，验证需求。",
+        "通过知乎、公众号输出SEO干货引流，提供免费试用吸引种子用户。",
+        "根据反馈迭代功能，设置阶梯定价（基础免费/高级付费），建立客户成功体系。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    }
+  ],
   "source": {
     "name": "Starter Story",
     "url": "https://www.starterstory.com/stories/increasing-com-4137c933-ac1a-4902-b0b6-4b8f99f55df6",
@@ -131,6 +173,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2150,
-    "mediaCount": 0
+    "mediaCount": 3
   }
 }

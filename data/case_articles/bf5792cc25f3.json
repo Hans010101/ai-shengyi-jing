@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "为美国农村小商户提供透明低价的支付处理服务的商业增长闭环",
+      "items": [
+        "【引流】线下地推+本地商会合作",
+        "【产品】透明费率支付终端+APP",
+        "【变现】每笔交易抽成+硬件销售",
+        "【留存】7x24客服+定期优惠活动"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2296,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

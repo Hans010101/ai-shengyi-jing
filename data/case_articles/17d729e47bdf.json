@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "汇款费率比较网站的商业增长闭环",
+      "items": [
+        "【引流】SEO+内容营销（如“汇款到美国最便宜方式”）",
+        "【产品】费率比较工具",
+        "【变现】联盟佣金",
+        "【留存】邮件订阅+推送汇率变动"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2258,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

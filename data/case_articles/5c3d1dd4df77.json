@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "夫妻店转型可持续包装电商的商业增长闭环",
+      "items": [
+        "【引流】SEO内容营销+行业博客",
+        "【产品】环保包装+定制服务",
+        "【变现】产品销售+咨询费",
+        "【留存】复购折扣+包装知识社区"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2207,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

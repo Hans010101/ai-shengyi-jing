@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "B2B定制促销品电商的商业增长闭环",
+      "items": [
+        "【引流】LinkedIn/行业展会获客",
+        "【产品】定制笔记本+饮具",
+        "【变现】批量订单收费",
+        "【留存】复购折扣+新品推荐"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2226,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

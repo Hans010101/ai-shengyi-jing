@@ -128,6 +128,34 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "project-hero"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "互动式测验工具的商业增长闭环",
+      "items": [
+        "【引流】社交媒体/内容营销",
+        "【产品】互动测验工具",
+        "【变现】SaaS订阅+增值服务",
+        "【留存】数据分析报告+持续优化建议"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "互动式测验工具的产品与交付路径",
+      "items": [
+        "用户创建测验",
+        "嵌入网站/社交媒体",
+        "用户参与答题",
+        "收集数据并分析"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -142,6 +170,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2165,
-    "mediaCount": 1
+    "mediaCount": 3
   }
 }

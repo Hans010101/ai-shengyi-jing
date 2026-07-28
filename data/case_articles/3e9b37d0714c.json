@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "为电商品牌提供Shopify建站与优化服务的商业增长闭环",
+      "items": [
+        "【引流】SEO+内容营销+案例展示",
+        "【产品】Shopify建站与优化服务",
+        "【变现】项目费+月费",
+        "【留存】持续优化+客户成功"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2234,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

@@ -128,6 +128,34 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "project-hero"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "AI工具帮用户分析是否离开Meta创业的商业增长闭环",
+      "items": [
+        "【引流】LinkedIn/职场社区内容营销",
+        "【产品】AI离职分析工具",
+        "【变现】订阅制月费",
+        "【留存】定期推送行业报告与个性化更新"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "AI工具帮用户分析是否离开Meta创业的产品与交付路径",
+      "items": [
+        "用户输入个人信息",
+        "AI分析财务/职业数据",
+        "生成离职可行性报告",
+        "付费解锁详细建议"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -142,6 +170,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2211,
-    "mediaCount": 1
+    "mediaCount": 3
   }
 }

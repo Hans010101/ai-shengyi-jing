@@ -128,6 +128,34 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "AI笔记应用的商业增长闭环",
+      "items": [
+        "【引流】社交媒体内容+专业论坛",
+        "【产品】AI笔记生成工具",
+        "【变现】月订阅+机构套餐",
+        "【留存】持续优化笔记质量+合规更新"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "AI笔记应用的产品与交付路径",
+      "items": [
+        "录音上传",
+        "AI转写",
+        "NLP分析生成笔记",
+        "标记风险指标"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -142,6 +170,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2196,
-    "mediaCount": 1
+    "mediaCount": 3
   }
 }

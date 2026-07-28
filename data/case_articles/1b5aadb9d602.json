@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "代工生产膳食补充剂的商业增长闭环",
+      "items": [
+        "【引流】电商平台广告+内容营销",
+        "【产品】定制化代工服务",
+        "【变现】订单收费+复购",
+        "【留存】快速交付+质量保障"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2200,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

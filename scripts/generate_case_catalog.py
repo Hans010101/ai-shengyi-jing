@@ -470,6 +470,90 @@ def merge_media(
     return merged
 
 
+def flow_items(value: str, limit: int = 4) -> list[str]:
+    return [
+        clean_text(item, 90)
+        for item in re.split(r"\s*(?:➔|➡|→|->)\s*", clean_text(value, 800))
+        if clean_text(item)
+    ][:limit]
+
+
+def editorial_infographics(project: dict) -> list[dict]:
+    name = clean_text(project.get("nameZh") or project.get("name"), 80)
+    business_items = flow_items(project.get("businessLoop", ""))
+    product_items = flow_items(project.get("productArch", ""))
+    launch_items = [
+        re.sub(r"^第[一二三四五六七八九十]+步[：:]\s*", "", clean_text(step, 160))
+        for step in project.get("getStartedPath", [])
+        if clean_text(step)
+    ][:4]
+    if len(business_items) < 2:
+        business_items = [
+            "找到高频需求与目标用户",
+            clean_text(project.get("businessModel"), 90) or "完成核心产品交付",
+            "获得首笔收入并验证复购",
+        ]
+    if len(product_items) < 2:
+        product_items = [
+            "明确用户问题",
+            clean_text(project.get("summary"), 90) or "交付核心结果",
+            "收集反馈并持续迭代",
+        ]
+    if len(launch_items) < 2:
+        launch_items = [
+            "访谈目标用户并确认付费问题",
+            "用最小版本完成一次真实交付",
+            "根据成交、成本与复购数据决定是否扩大",
+        ]
+    return [
+        {
+            "type": "infographic",
+            "variant": "business-loop",
+            "title": f"{name}的商业增长闭环",
+            "items": business_items,
+            "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+            "origin": "editorial-generated",
+            "usage": "site-original",
+        },
+        {
+            "type": "infographic",
+            "variant": "product-path",
+            "title": f"{name}的产品与交付路径",
+            "items": product_items,
+            "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+            "origin": "editorial-generated",
+            "usage": "site-original",
+        },
+        {
+            "type": "infographic",
+            "variant": "china-launch",
+            "title": f"{name}的中国市场验证路线",
+            "items": launch_items,
+            "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+            "origin": "editorial-generated",
+            "usage": "site-original",
+        },
+    ]
+
+
+def ensure_visual_media(project: dict, media: list[dict]) -> list[dict]:
+    """Guarantee 3-5 distinct visuals without inventing third-party photos."""
+    external = []
+    seen = set()
+    for item in media:
+        if item.get("type") == "infographic":
+            continue
+        key = canonical_media_url(item.get("url", ""))
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        external.append(item)
+        if len(external) == 5:
+            break
+    needed = max(0, 3 - len(external))
+    return [*external, *editorial_infographics(project)[:needed]]
+
+
 def clean_existing_media(project: dict, items: list[dict]) -> list[dict]:
     """Remove known page chrome and enrich retained videos with real metadata."""
     cleaned: list[dict] = []
@@ -804,6 +888,7 @@ def build_structured_article(project: dict, media: list[dict]) -> dict:
         for section in sections
         for paragraph in section["paragraphs"]
     )
+    visual_media = ensure_visual_media(project, media)
     return {
         "projectId": project_id,
         "project": project_snapshot(project),
@@ -828,7 +913,7 @@ def build_structured_article(project: dict, media: list[dict]) -> dict:
             "营收、团队、增长及渠道信息来自项目数据库与公开来源在特定时间点的披露，"
             "可能已经变化；涉及健康、金融、教育、数据和跨境业务时，应按经营所在地最新规则独立核验。"
         ),
-        "media": media[:MAX_MEDIA],
+        "media": visual_media,
         "source": {
             "name": "Starter Story",
             "url": project.get("url", ""),
@@ -841,7 +926,7 @@ def build_structured_article(project: dict, media: list[dict]) -> dict:
         "quality": {
             "sectionCount": len(sections),
             "bodyCharacters": total_chars,
-            "mediaCount": len(media[:MAX_MEDIA]),
+            "mediaCount": len(visual_media),
         },
     }
 
@@ -939,6 +1024,14 @@ def main() -> None:
         ),
     )
     parser.add_argument(
+        "--ensure-visual-media",
+        action="store_true",
+        help=(
+            "Keep real media first and fill any gap below three items with "
+            "clearly labelled original editorial infographics"
+        ),
+    )
+    parser.add_argument(
         "--retry-delay",
         type=float,
         default=0.5,
@@ -971,6 +1064,56 @@ def main() -> None:
         path.stem: load_json(path, {})
         for path in ARTICLES_DIR.glob("*.json")
     }
+
+    if args.ensure_visual_media:
+        projects_by_id = {str(project["id"]): project for project in projects}
+        updated = 0
+        infographic_count = 0
+        for project_id, article in existing.items():
+            project = projects_by_id.get(project_id)
+            if not project:
+                continue
+            final_media = ensure_visual_media(
+                project,
+                article.get("media", []),
+            )
+            infographic_count += sum(
+                item.get("type") == "infographic" for item in final_media
+            )
+            if final_media != article.get("media", []):
+                article["media"] = final_media
+                article.setdefault("quality", {})["mediaCount"] = len(final_media)
+                save_json(ARTICLES_DIR / f"{project_id}.json", article)
+                updated += 1
+
+        updated_reviewed = [
+            existing[project_id]
+            for project_id in reviewed
+            if project_id in existing
+        ]
+        if updated_reviewed:
+            order = {
+                str(item.get("projectId")): index
+                for index, item in enumerate(legacy)
+            }
+            updated_reviewed.sort(
+                key=lambda item: order.get(
+                    str(item.get("projectId")),
+                    len(order),
+                )
+            )
+            save_json(LEGACY_ARTICLES_FILE, updated_reviewed)
+        print(
+            json.dumps(
+                {
+                    "updatedArticles": updated,
+                    "editorialInfographics": infographic_count,
+                },
+                ensure_ascii=False,
+                indent=2,
+            )
+        )
+        return
 
     if args.normalize_local_media:
         projects_by_id = {str(project["id"]): project for project in projects}

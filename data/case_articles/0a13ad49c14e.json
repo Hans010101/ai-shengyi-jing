@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "Grobo是智能室内种植系统的商业增长闭环",
+      "items": [
+        "【引流】社交媒体内容营销（种植教程）",
+        "【产品】智能种植硬件+App",
+        "【变现】硬件销售+耗材订阅",
+        "【留存】App社区互动+自动补货提醒"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2270,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

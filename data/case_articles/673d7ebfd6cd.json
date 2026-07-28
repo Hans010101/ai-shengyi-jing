@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "DTC电商销售空气和净水滤芯的商业增长闭环",
+      "items": [
+        "【引流】SEO+内容营销+社交媒体",
+        "【产品】兼容大品牌的滤芯",
+        "【变现】一次性购买+订阅制",
+        "【留存】定期更换提醒+订阅折扣+复购优惠"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2276,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "儿童吸盘餐盘品牌的商业增长闭环",
+      "items": [
+        "【引流】社交媒体内容+母婴KOL",
+        "【产品】Adi吸盘餐盘",
+        "【变现】电商平台直接销售",
+        "【留存】用户反馈驱动新品+社群运营"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2189,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "开发WordPress主题和插件的商业增长闭环",
+      "items": [
+        "【引流】YouTube教程+SEO",
+        "【产品】WordPress主题/插件",
+        "【变现】付费授权+订阅",
+        "【留存】持续更新+社区支持"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2321,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "AI笔记应用的商业增长闭环",
+      "items": [
+        "【引流】内容营销（博客、推特）",
+        "【产品】AI笔记应用",
+        "【变现】订阅付费",
+        "【留存】持续AI功能更新与用户粘性"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2233,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

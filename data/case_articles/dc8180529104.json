@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "儿童安全座椅解扣工具的商业增长闭环",
+      "items": [
+        "【引流】育儿博主/家长社群分享",
+        "【产品】UnbuckleMe解扣工具",
+        "【变现】Amazon/官网零售",
+        "【留存】口碑推荐+配件升级"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2144,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

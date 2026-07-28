@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "帮企业做社交媒体抽奖增粉的商业增长闭环",
+      "items": [
+        "【引流】内容营销+合作伙伴推荐",
+        "【产品】抽奖增粉服务",
+        "【变现】按效果付费/月费",
+        "【留存】定期复盘+优化策略+续约折扣"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2239,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }

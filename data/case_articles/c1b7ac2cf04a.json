@@ -138,6 +138,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "碳中和小包裹快递服务的商业增长闭环",
+      "items": [
+        "【引流】社交媒体环保话题+中小企业合作",
+        "【产品】碳中和小包裹快递",
+        "【变现】运费差价+碳补偿服务费",
+        "【留存】积分兑换环保礼品+碳足迹报告"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -152,6 +166,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2205,
-    "mediaCount": 2
+    "mediaCount": 3
   }
 }
