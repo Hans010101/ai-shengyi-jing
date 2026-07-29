@@ -39,6 +39,17 @@ class ProjectStoreTests(unittest.TestCase):
 
 class BuildTests(unittest.TestCase):
     def test_build_contains_only_public_files(self):
+        projects = json.loads(
+            Path("data/projects_live.json").read_text(encoding="utf-8")
+        )
+        expected_dates = {
+            project["id"]: (
+                project.get("scrapedAt") or project.get("updatedAt") or ""
+            )[:10]
+            for project in projects
+            if project.get("id")
+            and (project.get("scrapedAt") or project.get("updatedAt"))
+        }
         with tempfile.TemporaryDirectory(dir=Path.cwd()) as temp_dir:
             output = Path(temp_dir) / "dist"
             copied = build(output, "a" * 40)
@@ -51,6 +62,11 @@ class BuildTests(unittest.TestCase):
             deployment = json.loads(
                 (output / "deployment.json").read_text(encoding="utf-8")
             )
+            collection_dates = json.loads(
+                (output / "data/case_collection_dates.json").read_text(
+                    encoding="utf-8"
+                )
+            )
 
         self.assertEqual(set(copied), set(public_output_paths()))
         self.assertEqual(actual, set(public_output_paths()))
@@ -58,6 +74,7 @@ class BuildTests(unittest.TestCase):
         self.assertNotIn(Path("pipeline/drafts/example.md"), actual)
         self.assertEqual(deployment["commit"], "a" * 40)
         self.assertEqual(deployment["shortCommit"], "a" * 12)
+        self.assertEqual(collection_dates, expected_dates)
 
     def test_edgeone_wraps_the_same_static_artifact(self):
         with tempfile.TemporaryDirectory(dir=Path.cwd()) as temp_dir:
@@ -149,6 +166,9 @@ class BuildTests(unittest.TestCase):
         self.assertIn("article-video-card", case_js)
         self.assertIn("media.watchUrl", case_js)
         self.assertIn("观看完整视频", case_js)
+        self.assertIn("data/case_collection_dates.json", case_js)
+        self.assertIn("采集：${collectionDate}", case_js)
+        self.assertNotIn("更新：${String(article.generatedAt)", case_js)
         self.assertIn(Path("case.html"), PUBLISH_PATHS)
         self.assertIn(Path("data/case_articles.json"), PUBLISH_PATHS)
         self.assertIn(Path("data/case_articles"), PUBLISH_PATHS)
@@ -178,6 +198,21 @@ class BuildTests(unittest.TestCase):
             Path("assets/cases.css"),
         ):
             self.assertIn(path, PUBLISH_PATHS)
+
+    def test_homepage_visualizes_global_opportunities_and_radar_categories(self):
+        index_html = Path("index.html").read_text(encoding="utf-8")
+        style_css = Path("assets/style.css").read_text(encoding="utf-8")
+
+        self.assertIn('class="hero-world-map"', index_html)
+        self.assertIn('class="hero-map-metrics"', index_html)
+        self.assertIn('id="hero-total-number"', index_html)
+        self.assertIn('class="radar-network"', index_html)
+        for category in ("AI工具", "SaaS", "电商/DTC", "内容创业", "本地生意"):
+            self.assertIn(category, index_html)
+
+        self.assertIn(".map-routes path", style_css)
+        self.assertIn(".radar-node", style_css)
+        self.assertIn("@media (prefers-reduced-motion: reduce)", style_css)
 
     def test_case_catalog_covers_every_project(self):
         report, errors = validate_case_catalog(write_report=False)

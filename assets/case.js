@@ -46,6 +46,18 @@ function findCuratedProject(projectId) {
   return PROJECTS.find(project => project.id === projectId) || null;
 }
 
+function resolveCollectionDate(projectId, article, project, collectionDates) {
+  const candidates = [
+    collectionDates?.[projectId],
+    project?.scrapedAt,
+    project?.updatedAt,
+    article?.project?.scrapedAt,
+    article?.project?.updatedAt
+  ];
+  const value = candidates.find(candidate => typeof candidate === 'string' && candidate.trim());
+  return value ? value.slice(0, 10) : '';
+}
+
 function renderMedia(media, index) {
   if (!media) return null;
   const sourceUrl = safeExternalUrl(media.sourceUrl);
@@ -232,7 +244,7 @@ function buildFallbackArticle(project) {
   };
 }
 
-function renderArticle(project, article) {
+function renderArticle(project, article, collectionDate) {
   const root = document.getElementById('caseArticle');
   root.replaceChildren();
 
@@ -249,8 +261,8 @@ function renderArticle(project, article) {
     'span',
     ['pilot', 'full'].includes(article.status) ? '深度案例' : '简版资料'
   );
-  if (article.generatedAt) {
-    appendText(meta, 'span', `更新：${String(article.generatedAt).slice(0, 10)}`);
+  if (collectionDate) {
+    appendText(meta, 'span', `采集：${collectionDate}`);
   }
   root.appendChild(meta);
 
@@ -343,9 +355,13 @@ async function initCasePage() {
   }
 
   try {
-    let article = await fetchJsonIfAvailable(
-      `data/case_articles/${encodeURIComponent(projectId)}.json`
-    );
+    const [loadedArticle, collectionDates] = await Promise.all([
+      fetchJsonIfAvailable(
+        `data/case_articles/${encodeURIComponent(projectId)}.json`
+      ),
+      fetchJsonIfAvailable('data/case_collection_dates.json')
+    ]);
+    let article = loadedArticle;
     let project = article?.project || findCuratedProject(projectId);
     if (!project) {
       const projects = await fetchJsonIfAvailable('data/projects_live.json');
@@ -354,7 +370,13 @@ async function initCasePage() {
     }
     if (!project) throw new Error('未找到该项目');
     article ||= buildFallbackArticle(project);
-    renderArticle(project, article);
+    const collectionDate = resolveCollectionDate(
+      projectId,
+      article,
+      project,
+      collectionDates
+    );
+    renderArticle(project, article, collectionDate);
     renderAside(project, article);
   } catch (error) {
     root.textContent = `案例详情暂时无法加载：${error.message}`;

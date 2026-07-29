@@ -681,6 +681,8 @@ def project_snapshot(project: dict) -> dict:
             "businessModel",
             "chinaOpportunity",
             "website",
+            "updatedAt",
+            "scrapedAt",
         )
     }
 

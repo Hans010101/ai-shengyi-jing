@@ -27,7 +27,10 @@ PUBLISH_PATHS = (
     Path("data/case_articles.json"),
     Path("data/case_articles"),
 )
-GENERATED_PATHS = (Path("deployment.json"),)
+GENERATED_PATHS = (
+    Path("deployment.json"),
+    Path("data/case_collection_dates.json"),
+)
 
 
 def public_output_paths() -> tuple[Path, ...]:
@@ -68,6 +71,26 @@ def resolve_commit_sha(commit_sha: str | None = None) -> str:
     return candidate
 
 
+def build_case_collection_dates() -> dict[str, str]:
+    projects = json.loads(
+        (ROOT / "data/projects_live.json").read_text(encoding="utf-8")
+    )
+    if not isinstance(projects, list):
+        raise ValueError("Project database must be a JSON array")
+
+    dates: dict[str, str] = {}
+    for project in projects:
+        if not isinstance(project, dict):
+            continue
+        project_id = str(project.get("id") or "").strip()
+        collected_at = str(
+            project.get("scrapedAt") or project.get("updatedAt") or ""
+        ).strip()
+        if project_id and collected_at:
+            dates[project_id] = collected_at[:10]
+    return dates
+
+
 def build(output_dir: Path, commit_sha: str | None = None) -> list[Path]:
     output_dir = output_dir.resolve()
     if output_dir == ROOT or ROOT not in output_dir.parents:
@@ -97,7 +120,7 @@ def build(output_dir: Path, commit_sha: str | None = None) -> list[Path]:
             )
 
     resolved_commit = resolve_commit_sha(commit_sha)
-    deployment_path = output_dir / GENERATED_PATHS[0]
+    deployment_path = output_dir / Path("deployment.json")
     deployment_path.write_text(
         json.dumps(
             {
@@ -106,6 +129,19 @@ def build(output_dir: Path, commit_sha: str | None = None) -> list[Path]:
             },
             ensure_ascii=False,
             indent=2,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+    collection_dates_path = output_dir / Path("data/case_collection_dates.json")
+    collection_dates_path.parent.mkdir(parents=True, exist_ok=True)
+    collection_dates_path.write_text(
+        json.dumps(
+            build_case_collection_dates(),
+            ensure_ascii=False,
+            separators=(",", ":"),
+            sort_keys=True,
         )
         + "\n",
         encoding="utf-8",

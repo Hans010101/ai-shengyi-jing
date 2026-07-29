@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI生意经 — 发现全球最赚钱的 AI 与数字生意</title>
   <meta name="description" content="精选全球 AI 前沿创业项目，以中国创业者视角深度拆解产品架构与商业闭环，帮你找到下一个月入万元的生意机会。">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E💡%3C/text%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
@@ -57,25 +58,93 @@
           <a href="#projects" class="btn-hero-ghost">🔥 查看精选案例</a>
         </div>
       </div>
-      <div class="hero-stats-compact">
-        <div class="stat-item">
-          <span class="stat-number" id="statCuratedCount">15+</span>
-          <span class="stat-label">深度拆解案例</span>
+      <div class="hero-world-visual">
+        <div class="hero-map-canvas" role="img" aria-label="全球商业机会分布图，展示北美、欧洲、亚洲与大洋洲的项目机会信号">
+          <svg class="hero-world-map" viewBox="0 0 720 350" aria-hidden="true">
+            <defs>
+              <radialGradient id="mapFocusGlow" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#f97316" stop-opacity=".22"></stop>
+                <stop offset="55%" stop-color="#f59e0b" stop-opacity=".06"></stop>
+                <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"></stop>
+              </radialGradient>
+              <filter id="mapNodeGlow" x="-100%" y="-100%" width="300%" height="300%">
+                <feGaussianBlur stdDeviation="4" result="blur"></feGaussianBlur>
+                <feMerge>
+                  <feMergeNode in="blur"></feMergeNode>
+                  <feMergeNode in="SourceGraphic"></feMergeNode>
+                </feMerge>
+              </filter>
+            </defs>
+
+            <g class="map-land">
+              <path d="M54 94l30-27 52-13 36 9 26 24-12 20-30 8-15 25-29 5-22-22-24-6-17-13z"></path>
+              <path d="M151 156l28 7 17 26-6 30 13 29-12 46-20-15-8-35-19-30-7-35z"></path>
+              <path d="M294 83l26-14 38 7 15 18-14 14-34-4-21 12-22-11z"></path>
+              <path d="M322 123l42-7 32 25 10 39-19 52-26 35-23-24 4-35-22-33-9-34z"></path>
+              <path d="M372 72l58-24 76 5 42 22 57 7 46 24-19 23-40-5-25 18-49-2-27 20-44-13-35 6-21-24-36-13-14-24z"></path>
+              <path d="M557 217l35-21 45 6 24 25-17 23-47 5-33-16z"></path>
+              <path d="M512 151l18 4 9 18-13 14-16-13z"></path>
+              <path d="M675 133l15 4 8 9-13 8-14-7z"></path>
+            </g>
+
+            <circle class="map-focus-halo" cx="548" cy="151" r="108" fill="url(#mapFocusGlow)"></circle>
+
+            <g class="map-routes">
+              <path d="M104 114Q322 18 548 151"></path>
+              <path d="M176 134Q358 55 548 151"></path>
+              <path d="M330 100Q438 55 548 151"></path>
+              <path d="M426 113Q500 77 548 151"></path>
+              <path d="M618 224Q628 165 548 151"></path>
+              <path d="M391 236Q459 176 548 151"></path>
+            </g>
+
+            <g class="map-nodes">
+              <circle cx="104" cy="114" r="5"></circle>
+              <circle cx="176" cy="134" r="5"></circle>
+              <circle cx="330" cy="100" r="5"></circle>
+              <circle cx="426" cy="113" r="5"></circle>
+              <circle cx="618" cy="224" r="5"></circle>
+              <circle cx="391" cy="236" r="5"></circle>
+            </g>
+
+            <g class="map-focus" filter="url(#mapNodeGlow)">
+              <circle cx="548" cy="151" r="30"></circle>
+              <circle cx="548" cy="151" r="17"></circle>
+              <circle cx="548" cy="151" r="6"></circle>
+            </g>
+          </svg>
+
+          <div class="map-case-card map-case-america">
+            <span class="map-case-thumb">🧪</span>
+            <span><strong>AI 实时发酵分析 SaaS</strong><small>北美 · 工业 AI</small></span>
+          </div>
+          <div class="map-case-card map-case-europe">
+            <span class="map-case-thumb">🛍️</span>
+            <span><strong>跨境电商工具</strong><small>欧洲 · 零售科技</small></span>
+          </div>
+          <div class="map-case-card map-case-asia">
+            <span class="map-case-thumb">💻</span>
+            <span><strong>冷邮件外展平台</strong><small>新加坡 · 营销科技</small></span>
+          </div>
         </div>
-        <div class="stat-divider"></div>
-        <div class="stat-item">
-          <span class="stat-number" id="hero-total-number" data-target="0">0</span>
-          <span class="stat-label">全球项目总库</span>
-        </div>
-        <div class="stat-divider"></div>
-        <div class="stat-item">
-          <span class="stat-number">$3B+</span>
-          <span class="stat-label">月总营收追踪</span>
-        </div>
-        <div class="stat-divider"></div>
-        <div class="stat-item">
-          <span class="stat-number">每日</span>
-          <span class="stat-label">自动化更新</span>
+
+        <div class="hero-map-metrics" aria-label="核心数据">
+          <div class="hero-map-metric">
+            <span class="stat-number" id="statCuratedCount">15+</span>
+            <span class="stat-label">深度拆解</span>
+          </div>
+          <div class="hero-map-metric">
+            <span class="stat-number" id="hero-total-number" data-target="0">0</span>
+            <span class="stat-label">全球案例</span>
+          </div>
+          <div class="hero-map-metric">
+            <span class="stat-number">$3B+</span>
+            <span class="stat-label">月营收追踪</span>
+          </div>
+          <div class="hero-map-metric">
+            <span class="stat-number">每日</span>
+            <span class="stat-label">自动化更新</span>
+          </div>
         </div>
       </div>
     </div>
@@ -154,15 +223,56 @@
         </div>
         <button class="btn-radar" id="radarBtn">🔔 开启生意雷达</button>
       </div>
-      <div class="radar-visual">
-        <div class="radar-ring ring-1"></div>
-        <div class="radar-ring ring-2"></div>
-        <div class="radar-ring ring-3"></div>
-        <div class="radar-dot"></div>
-        <div class="radar-ping ping-1">💡 Excel公式机器人</div>
-        <div class="radar-ping ping-2">🏦 PDF银行转换</div>
-        <div class="radar-ping ping-3">🎓 知识付费课程</div>
-        <div class="radar-ping ping-4">🤖 AI文档提取</div>
+      <div class="radar-visual" role="img" aria-label="AI 生意雷达监控 AI 工具、SaaS、电商、内容创业和本地生意五类机会">
+        <svg class="radar-network" viewBox="0 0 560 470" aria-hidden="true">
+          <circle class="radar-orbit orbit-outer" cx="280" cy="235" r="190"></circle>
+          <circle class="radar-orbit orbit-middle" cx="280" cy="235" r="136"></circle>
+          <circle class="radar-orbit orbit-inner" cx="280" cy="235" r="82"></circle>
+          <path class="radar-link link-blue" d="M280 235L280 64"></path>
+          <path class="radar-link link-orange" d="M280 235L473 134"></path>
+          <path class="radar-link link-blue" d="M280 235L82 235"></path>
+          <path class="radar-link link-green" d="M280 235L463 343"></path>
+          <path class="radar-link link-orange" d="M280 235L280 415"></path>
+          <g class="radar-track-dots">
+            <circle cx="280" cy="98" r="6"></circle>
+            <circle cx="431" cy="155" r="6"></circle>
+            <circle cx="119" cy="235" r="6"></circle>
+            <circle cx="421" cy="319" r="6"></circle>
+            <circle cx="280" cy="382" r="6"></circle>
+          </g>
+        </svg>
+
+        <div class="radar-core">
+          <span class="radar-core-icon">💡</span>
+          <strong>AI</strong>
+        </div>
+
+        <div class="radar-node radar-node-ai">
+          <span class="radar-node-icon">🤖</span>
+          <strong>AI工具</strong>
+        </div>
+        <div class="radar-node radar-node-saas">
+          <span class="radar-node-icon">☁️</span>
+          <strong>SaaS</strong>
+        </div>
+        <div class="radar-node radar-node-ecommerce">
+          <span class="radar-node-icon">🛍️</span>
+          <strong>电商/DTC</strong>
+        </div>
+        <div class="radar-node radar-node-content">
+          <span class="radar-node-icon">▶️</span>
+          <strong>内容创业</strong>
+        </div>
+        <div class="radar-node radar-node-local">
+          <span class="radar-node-icon">🏪</span>
+          <strong>本地生意</strong>
+        </div>
+
+        <div class="radar-status-row" aria-hidden="true">
+          <span>↗ 今日新增 <strong>12</strong></span>
+          <span><i class="status-live-dot"></i> 监控中</span>
+          <span>⌖ 中国适配</span>
+        </div>
       </div>
     </div>
   </div>
@@ -261,7 +371,7 @@
 
 <!-- =========== AI BUSINESS ADVISOR WIDGET =========== -->
 <div class="ai-advisor-bubble" id="aiAdvisorBubble">
-  <span>🤖</span> AI 商业顾问
+  <span>🤖</span><span class="ai-advisor-label">AI 商业顾问</span>
 </div>
 
 <div class="ai-advisor-panel" id="aiAdvisorPanel">
