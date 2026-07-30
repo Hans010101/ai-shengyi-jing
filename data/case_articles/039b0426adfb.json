@@ -8,7 +8,9 @@
     "revenue": "$20K\n/mo",
     "businessModel": "SaaS订阅制，按集群规模收费，提供免费层吸引用户，增值功能付费解锁。",
     "chinaOpportunity": "中国中小企业K8s运维人才稀缺，可做简化版K8s管理平台，集成阿里云/腾讯云，按节点或集群收费。",
-    "website": null
+    "website": null,
+    "updatedAt": "2026-07-21",
+    "scrapedAt": "2026-07-21T11:13:45.624055"
   },
   "slug": "syself",
   "title": "提供Kubernetes自动化管理SaaS：从真实需求到可重复收入的商业拆解",

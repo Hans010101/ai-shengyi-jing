@@ -8,7 +8,9 @@
     "revenue": "$25K/mo",
     "businessModel": "按服务器实例数量分级订阅（月费$49-$299），提供自动扩缩容、性能监控、告警等功能。",
     "chinaOpportunity": "国内大量中小企业使用阿里云/腾讯云，但缺乏自动扩缩容能力。可针对主流云平台（如阿里云ECS）和常见技术栈（Java/Go/PHP）推出类似工具。",
-    "website": null
+    "website": null,
+    "updatedAt": "2026-07-21",
+    "scrapedAt": "2026-07-21T07:27:16.264951"
   },
   "slug": "rails-autoscale",
   "title": "为Rails应用提供自动扩缩容的SaaS工具：从真实需求到可重复收入的商业拆解",
