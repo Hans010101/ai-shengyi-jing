@@ -19,7 +19,7 @@ export function pickMedia(article: any, project: any): MediaItem[] {
     const sourceUrl = url;
     if (youtubeId) {
       type = 'image';
-      url = normalizeText(item?.poster, 2000) || `https://i.ytimg.com/vi/${youtubeId}/maxresdefault.jpg`;
+      url = `https://i.ytimg.com/vi/${youtubeId}/maxresdefault.jpg`;
     }
     result.push({
       id: `media-${index + 1}`,
