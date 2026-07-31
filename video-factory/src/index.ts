@@ -66,13 +66,9 @@ async function catalog(request: Request, env: Env) {
   });
   const start = (page - 1) * pageSize;
   const pageProjects = filtered.slice(start, start + pageSize);
-  const mediaCounts = await Promise.all(pageProjects.map(async item => {
-    try { const response = await fetch(`${env.ARTICLE_BASE_URL}/${item.id}.json`); const article: any = response.ok ? await response.json() : null; return Array.isArray(article?.media) ? article.media.length : 0; }
-    catch { return 0; }
-  }));
-  const items = pageProjects.map((item, index) => ({
+  const items = pageProjects.map(item => ({
     id: String(item.id), name: item.nameZh || item.name, originalName: item.name, summary: item.summary || item.insight || '',
-    category: item.niche || '其他', revenue: item.revenue || '未披露', image: item.image || '', mediaCount: mediaCounts[index],
+    category: item.niche || '其他', revenue: item.revenue || '未披露', image: item.image || '', mediaReady: true,
     replicabilityScore: item.replicabilityScore || null, updatedAt: item.updatedAt || item.scrapedAt || null
   }));
   return json({ items, total: filtered.length, page, pageSize, categories });

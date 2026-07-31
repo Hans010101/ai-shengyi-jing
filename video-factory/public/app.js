@@ -68,7 +68,7 @@ function renderCategories(){
 function renderCatalog(){
   const root=$('#catalogGrid');
   if(!state.catalog.length){root.innerHTML='<div class="empty"><b>没有找到相关案例</b>换一个关键词或选择其他分类。</div>';$('#loadMore').hidden=true;$('#catalogMeta').textContent='0 个案例';return}
-  root.innerHTML=state.catalog.map(item=>{const selected=state.selected.has(item.id);return `<article class="case-card ${selected?'selected':''}"><img class="case-cover" src="${escapeHtml(item.image)}" alt="${escapeHtml(item.name)}项目图片" loading="lazy"><div class="case-info"><div class="case-meta"><span>${escapeHtml(item.category)}</span><span>${item.mediaCount} 份素材</span></div><h3>${escapeHtml(item.name)}</h3><p>${escapeHtml(item.summary)}</p><button type="button" data-select-case="${item.id}">${selected?'✓ 已加入生产':'＋ 加入生产'}</button></div></article>`}).join('');
+  root.innerHTML=state.catalog.map(item=>{const selected=state.selected.has(item.id);return `<article class="case-card ${selected?'selected':''}"><img class="case-cover" src="${escapeHtml(item.image)}" alt="${escapeHtml(item.name)}项目图片" loading="lazy"><div class="case-info"><div class="case-meta"><span>${escapeHtml(item.category)}</span><span>3–5 份素材就绪</span></div><h3>${escapeHtml(item.name)}</h3><p>${escapeHtml(item.summary)}</p><button type="button" data-select-case="${item.id}">${selected?'✓ 已加入生产':'＋ 加入生产'}</button></div></article>`}).join('');
   root.querySelectorAll('[data-select-case]').forEach(button=>button.onclick=()=>toggleCase(button.dataset.selectCase));
   $('#catalogMeta').textContent=`已显示 ${state.catalog.length} / ${state.catalogTotal} 个案例`;$('#loadMore').hidden=state.catalog.length>=state.catalogTotal;
 }
