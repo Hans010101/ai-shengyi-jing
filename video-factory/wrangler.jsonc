@@ -1,0 +1,61 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "ai-shengyi-video-factory",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-07-31",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  "triggers": { "crons": ["15 1 * * *"] },
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*", "/output/*", "/internal/*"]
+  },
+  "ai": { "binding": "AI" },
+  "r2_buckets": [
+    { "binding": "VIDEO_BUCKET", "bucket_name": "ai-shengyi-video-factory" }
+  ],
+  "d1_databases": [
+    { "binding": "VIDEO_DB", "database_name": "ai-shengyi-video-factory", "database_id": "326c208e-23dd-4cf8-809d-29d22501e121" }
+  ],
+  "workflows": [
+    {
+      "name": "ai-shengyi-video-production",
+      "binding": "VIDEO_WORKFLOW",
+      "class_name": "VideoProductionWorkflow"
+    }
+  ],
+  "containers": [
+    {
+      "name": "ai-shengyi-video-renderer",
+      "class_name": "VideoRenderer",
+      "image": "./container/Dockerfile",
+      "image_build_context": ".",
+      "max_instances": 3,
+      "instance_type": {
+        "vcpu": 2,
+        "memory_mib": 8192,
+        "disk_mb": 12000
+      },
+      "constraints": { "regions": ["APAC"] }
+    }
+  ],
+  "durable_objects": {
+    "bindings": [
+      { "name": "VIDEO_RENDERER", "class_name": "VideoRenderer" }
+    ]
+  },
+  "migrations": [
+    { "tag": "v1", "new_sqlite_classes": ["VideoRenderer"] }
+  ],
+  "vars": {
+    "PROJECT_DATA_URL": "https://ai-shengyi-jing.pages.dev/data/projects_live.json",
+    "ARTICLE_DATA_URL": "https://ai-shengyi-jing.pages.dev/data/case_articles.json",
+    "SCRIPT_MODEL": "@cf/meta/llama-3.1-8b-instruct-fast",
+    "ASR_MODEL": "@cf/openai/whisper-large-v3-turbo",
+    "FACTORY_VERSION": "0.1.0",
+    "AUTO_BATCH_SIZE": "2",
+    "PUBLIC_ORIGIN": "https://ai-shengyi-video-factory.workers.dev"
+  },
+  "observability": { "enabled": true }
+}

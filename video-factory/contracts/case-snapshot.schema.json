@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-shengyi-jing.dev/schemas/case-snapshot-v1.json",
+  "type": "object",
+  "required": ["caseId", "name", "nameZh", "facts", "media", "source"],
+  "properties": {
+    "caseId": { "type": "string", "minLength": 6 },
+    "name": { "type": "string" },
+    "nameZh": { "type": "string" },
+    "facts": { "type": "array", "minItems": 3 },
+    "media": { "type": "array", "minItems": 3 },
+    "source": { "type": "object" }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "ai-shengyi-video-factory",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --containers-rollout=immediate",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test test/*.test.mjs",
+    "db:local": "wrangler d1 migrations apply VIDEO_DB --local",
+    "db:remote": "wrangler d1 migrations apply VIDEO_DB --remote",
+    "container:build": "docker build --platform linux/amd64 -f container/Dockerfile -t ai-shengyi-video-renderer:local ."
+    ,"fixture:phone-loops": "node examples/build-phone-loops.mjs 1cc543ff648e local-phone-loops examples/phone-loops.manifest.json"
+  },
+  "dependencies": {
+    "@cloudflare/containers": "^0.3.7"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260731.1",
+    "@types/node": "^24.10.0",
+    "typescript": "^5.9.3",
+    "wrangler": "^4.117.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

@@ -11,3 +11,10 @@ __pycache__/
 # Tencent Cloud EdgeOne
 .edgeone/
 .tef_dist/
+
+# Video factory
+video-factory/node_modules/
+video-factory/.wrangler/
+video-factory/.dev.vars
+video-factory/output/
+video-factory/examples/*.manifest.json

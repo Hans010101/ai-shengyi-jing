@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI生意经 · 视频工厂</title><link rel="stylesheet" href="/app.css">
+</head>
+<body>
+  <header><a href="https://ai-shengyi-jing.pages.dev">💡 <b>AI生意经</b></a><span>内部视频生产系统</span><button id="keyButton">设置访问密钥</button></header>
+  <main>
+    <section class="hero"><div><p class="eyebrow">VIDEO PRODUCTION SYSTEM · V0.1</p><h1>把真实商业案例，变成<br><em>可批量生产的专业短视频</em></h1><p>统一脚本、配音、素材、渲染和质量检查。只有通过事实、声音、画面与技术门槛的任务才会发布。</p></div><div class="metrics"><div><strong>9:16</strong><span>竖屏成片</span></div><div><strong>2×</strong><span>自动修复</span></div><div><strong>7道</strong><span>质量门</span></div></div></section>
+    <section class="panel create"><div><h2>新建批量任务</h2><p>每行一个案例ID，一次最多50条。系统每日也会自动挑选2个尚未生产、且拥有丰富素材的案例。</p></div><form id="createForm"><textarea id="caseIds" placeholder="1cc543ff648e&#10;80d4a02070de" required>1cc543ff648e</textarea><select disabled><option>纪实商业拆解 · editorial-v1</option></select><button type="submit">开始批量生产</button></form><p id="createMessage"></p></section>
+    <section class="panel"><div class="section-head"><div><h2>生产队列</h2><p>页面每10秒自动刷新</p></div><button id="refresh">刷新</button></div><div id="jobs" class="jobs"><div class="empty">正在读取任务……</div></div></section>
+  </main><script src="/app.js" type="module"></script>
+</body></html>

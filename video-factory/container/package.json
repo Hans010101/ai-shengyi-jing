@@ -1,0 +1,8 @@
+{
+  "name": "ai-shengyi-video-renderer",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "hyperframes": "0.7.83"
+  }
+}

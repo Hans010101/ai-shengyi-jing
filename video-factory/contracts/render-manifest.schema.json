@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-shengyi-jing.dev/schemas/render-manifest-v1.json",
+  "type": "object",
+  "required": ["jobId", "template", "caseSnapshot", "script", "quality"],
+  "properties": {
+    "jobId": { "type": "string" },
+    "template": { "const": "editorial-v1" },
+    "caseSnapshot": { "$ref": "case-snapshot.schema.json" },
+    "script": {
+      "type": "object",
+      "required": ["headline", "beats"],
+      "properties": {
+        "headline": { "type": "string" },
+        "beats": { "type": "array", "minItems": 6, "maxItems": 10 }
+      }
+    },
+    "quality": { "type": "object" }
+  }
+}
