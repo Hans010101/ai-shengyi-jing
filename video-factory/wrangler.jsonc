@@ -51,10 +51,12 @@
   "vars": {
     "PROJECT_DATA_URL": "https://ai-shengyi-jing.pages.dev/data/projects_live.json",
     "ARTICLE_DATA_URL": "https://ai-shengyi-jing.pages.dev/data/case_articles.json",
+    "ARTICLE_BASE_URL": "https://ai-shengyi-jing.pages.dev/data/case_articles",
     "SCRIPT_MODEL": "@cf/meta/llama-3.1-8b-instruct-fast",
     "ASR_MODEL": "@cf/openai/whisper-large-v3-turbo",
-    "FACTORY_VERSION": "0.1.0",
+    "FACTORY_VERSION": "0.2.0",
     "AUTO_BATCH_SIZE": "2",
+    "ARTIFACT_RETENTION_DAYS": "3",
     "PUBLIC_ORIGIN": "https://ai-shengyi-video-factory.workers.dev"
   },
   "observability": { "enabled": true }

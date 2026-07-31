@@ -36,18 +36,62 @@ async function serveR2(env: Env, key: string, disposition = 'inline') {
   return new Response(object.body, { headers });
 }
 
+async function deleteJobArtifacts(env: Env, jobId: string) {
+  const prefix = `jobs/${jobId}/`;
+  let cursor: string | undefined;
+  let deleted = 0;
+  do {
+    const page = await env.VIDEO_BUCKET.list({ prefix, cursor, limit: 1000 });
+    const keys = page.objects.map(object => object.key);
+    if (keys.length) { await env.VIDEO_BUCKET.delete(keys); deleted += keys.length; }
+    cursor = page.truncated ? page.cursor : undefined;
+  } while (cursor);
+  await env.VIDEO_DB.prepare('UPDATE jobs SET artifacts_deleted_at = ?, updated_at = ? WHERE id = ?').bind(new Date().toISOString(), new Date().toISOString(), jobId).run();
+  return deleted;
+}
+
+async function catalog(request: Request, env: Env) {
+  const url = new URL(request.url);
+  const query = (url.searchParams.get('q') || '').trim().toLocaleLowerCase('zh-CN');
+  const category = (url.searchParams.get('category') || '').trim();
+  const page = Math.max(1, Number(url.searchParams.get('page') || 1));
+  const pageSize = Math.max(12, Math.min(48, Number(url.searchParams.get('pageSize') || 24)));
+  const projectsResponse = await fetch(env.PROJECT_DATA_URL);
+  if (!projectsResponse.ok) return json({ error: 'CATALOG_SOURCE_UNAVAILABLE' }, 502);
+  const projects: any[] = await projectsResponse.json();
+  const categories = [...new Set(projects.map(item => String(item.niche || '其他')).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'zh-CN'));
+  const filtered = projects.filter(item => {
+    const searchable = [item.id, item.nameZh, item.name, item.summary, item.niche, ...(Array.isArray(item.tags) ? item.tags : [])].join(' ').toLocaleLowerCase('zh-CN');
+    return (!query || searchable.includes(query)) && (!category || item.niche === category);
+  });
+  const start = (page - 1) * pageSize;
+  const pageProjects = filtered.slice(start, start + pageSize);
+  const mediaCounts = await Promise.all(pageProjects.map(async item => {
+    try { const response = await fetch(`${env.ARTICLE_BASE_URL}/${item.id}.json`); const article: any = response.ok ? await response.json() : null; return Array.isArray(article?.media) ? article.media.length : 0; }
+    catch { return 0; }
+  }));
+  const items = pageProjects.map((item, index) => ({
+    id: String(item.id), name: item.nameZh || item.name, originalName: item.name, summary: item.summary || item.insight || '',
+    category: item.niche || '其他', revenue: item.revenue || '未披露', image: item.image || '', mediaCount: mediaCounts[index],
+    replicabilityScore: item.replicabilityScore || null, updatedAt: item.updatedAt || item.scrapedAt || null
+  }));
+  return json({ items, total: filtered.length, page, pageSize, categories });
+}
+
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url);
     if (url.pathname === '/api/health') return json({ ok: true, service: 'AI生意经视频工厂', version: env.FACTORY_VERSION, time: new Date().toISOString() });
     if (url.pathname.startsWith('/output/')) {
       const [, , jobId, filename] = url.pathname.split('/');
-      const job: any = await env.VIDEO_DB.prepare('SELECT output_key, poster_key, audio_key, qa_key, status FROM jobs WHERE id = ?').bind(jobId).first();
-      if (!job || job.status !== 'succeeded') return new Response('Not found', { status: 404 });
+      const job: any = await env.VIDEO_DB.prepare('SELECT output_key, poster_key, audio_key, qa_key, status, artifacts_deleted_at FROM jobs WHERE id = ?').bind(jobId).first();
+      if (!job || job.status !== 'succeeded' || job.artifacts_deleted_at) return new Response('Not found', { status: 404 });
       const key = filename === 'video.mp4' ? job.output_key : filename === 'poster.jpg' ? job.poster_key : filename === 'audio.mp3' ? job.audio_key : filename === 'qa.json' ? job.qa_key : null;
-      return key ? serveR2(env, key, filename === 'video.mp4' ? `inline; filename="${jobId}.mp4"` : 'inline') : new Response('Not found', { status: 404 });
+      const download = url.searchParams.get('download') === '1';
+      return key ? serveR2(env, key, download ? `attachment; filename="${jobId}-${filename}"` : filename === 'video.mp4' ? `inline; filename="${jobId}.mp4"` : 'inline') : new Response('Not found', { status: 404 });
     }
     if (url.pathname.startsWith('/api/') && !(await authorized(request, env))) return json({ error: 'UNAUTHORIZED' }, 401);
+    if (url.pathname === '/api/catalog' && request.method === 'GET') return catalog(request, env);
     if (url.pathname === '/api/jobs' && request.method === 'POST') {
       const body: any = await request.json().catch(() => null);
       const values = Array.isArray(body?.caseIds) ? body.caseIds : [body?.caseId];
@@ -58,31 +102,44 @@ export default {
       return json({ jobs, count: jobs.length, status: 'queued' }, 202);
     }
     if (url.pathname === '/api/jobs' && request.method === 'GET') {
-      const rows = await env.VIDEO_DB.prepare('SELECT id, case_id, case_name, status, stage, progress, attempt, qa_score, error_code, created_at, updated_at, completed_at FROM jobs ORDER BY created_at DESC LIMIT 100').all();
+      const rows = await env.VIDEO_DB.prepare('SELECT id, case_id, case_name, status, stage, progress, attempt, qa_score, error_code, error_message, created_at, updated_at, completed_at, retention_until, artifacts_deleted_at, poster_key FROM jobs ORDER BY created_at DESC LIMIT 100').all();
       return json({ jobs: rows.results });
+    }
+    const retryMatch = url.pathname.match(/^\/api\/jobs\/([a-f0-9-]+)\/retry$/i);
+    if (retryMatch && request.method === 'POST') {
+      const previous: any = await env.VIDEO_DB.prepare('SELECT case_id FROM jobs WHERE id = ?').bind(retryMatch[1]).first();
+      if (!previous) return json({ error: 'NOT_FOUND' }, 404);
+      return json(await enqueueCase(env, String(previous.case_id)), 202);
+    }
+    const artifactMatch = url.pathname.match(/^\/api\/jobs\/([a-f0-9-]+)\/artifacts$/i);
+    if (artifactMatch && request.method === 'DELETE') {
+      const previous: any = await env.VIDEO_DB.prepare('SELECT status FROM jobs WHERE id = ?').bind(artifactMatch[1]).first();
+      if (!previous) return json({ error: 'NOT_FOUND' }, 404);
+      if (previous.status !== 'succeeded') return json({ error: 'JOB_NOT_READY' }, 409);
+      return json({ ok: true, deleted: await deleteJobArtifacts(env, artifactMatch[1]) });
     }
     const match = url.pathname.match(/^\/api\/jobs\/([a-f0-9-]+)$/i);
     if (match && request.method === 'GET') {
       const job: any = await getJob(env, match[1]);
       if (!job) return json({ error: 'NOT_FOUND' }, 404);
-      if (job.status === 'succeeded') job.outputs = { video: `/output/${job.id}/video.mp4`, poster: `/output/${job.id}/poster.jpg`, audio: `/output/${job.id}/audio.mp3`, qa: `/output/${job.id}/qa.json` };
+      if (job.status === 'succeeded' && !job.artifacts_deleted_at) job.outputs = { video: `/output/${job.id}/video.mp4`, poster: `/output/${job.id}/poster.jpg`, audio: `/output/${job.id}/audio.mp3`, qa: `/output/${job.id}/qa.json` };
       return json(job);
     }
     return env.ASSETS.fetch(request);
   },
   async scheduled(_controller: ScheduledController, env: Env): Promise<void> {
+    const expired = await env.VIDEO_DB.prepare("SELECT id FROM jobs WHERE status = 'succeeded' AND retention_until IS NOT NULL AND retention_until < ? AND artifacts_deleted_at IS NULL LIMIT 50").bind(new Date().toISOString()).all();
+    for (const row of expired.results as any[]) await deleteJobArtifacts(env, String(row.id));
     const limit = Math.max(0, Math.min(10, Number(env.AUTO_BATCH_SIZE || 0)));
     if (!limit) return;
-    const [projectsResponse, articlesResponse, active] = await Promise.all([
-      fetch(env.PROJECT_DATA_URL), fetch(env.ARTICLE_DATA_URL),
+    const [projectsResponse, active] = await Promise.all([
+      fetch(env.PROJECT_DATA_URL),
       env.VIDEO_DB.prepare("SELECT DISTINCT case_id FROM jobs WHERE status IN ('queued','running','succeeded')").all()
     ]);
-    if (!projectsResponse.ok || !articlesResponse.ok) throw new Error('AUTO_SOURCE_FETCH_FAILED');
+    if (!projectsResponse.ok) throw new Error('AUTO_SOURCE_FETCH_FAILED');
     const projects: any[] = await projectsResponse.json();
-    const articles: any[] = await articlesResponse.json();
-    const rich = new Set(articles.filter(article => Array.isArray(article?.media) && article.media.length >= 3).map(article => String(article.projectId)));
     const existing = new Set((active.results as any[]).map(row => String(row.case_id)));
-    const selected = projects.filter(project => rich.has(String(project.id)) && !existing.has(String(project.id))).slice(0, limit);
+    const selected = projects.filter(project => !existing.has(String(project.id))).slice(0, limit);
     for (const project of selected) await enqueueCase(env, String(project.id));
   }
 };

@@ -10,10 +10,12 @@ export interface Env {
   DEEPSEEK_API_KEY?: string;
   PROJECT_DATA_URL: string;
   ARTICLE_DATA_URL: string;
+  ARTICLE_BASE_URL: string;
   SCRIPT_MODEL: string;
   ASR_MODEL: string;
   FACTORY_VERSION: string;
   AUTO_BATCH_SIZE: string;
+  ARTIFACT_RETENTION_DAYS: string;
   PUBLIC_ORIGIN: string;
 }
 

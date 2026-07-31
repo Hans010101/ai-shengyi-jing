@@ -13,10 +13,17 @@ async function fetchJson(url: string) {
 }
 
 async function loadSnapshot(env: Env, caseId: string) {
-  const [projects, articles] = await Promise.all([fetchJson(env.PROJECT_DATA_URL), fetchJson(env.ARTICLE_DATA_URL)]);
+  const [projects, articleResult] = await Promise.all([
+    fetchJson(env.PROJECT_DATA_URL),
+    fetchJson(`${env.ARTICLE_BASE_URL}/${caseId}.json`).catch(() => null)
+  ]);
   const project = projects.find((item: any) => String(item.id) === caseId);
   if (!project) throw new Error(`CASE_NOT_FOUND:${caseId}`);
-  const article = articles.find((item: any) => String(item.projectId) === caseId);
+  let article = articleResult;
+  if (!article) {
+    const articles = await fetchJson(env.ARTICLE_DATA_URL);
+    article = articles.find((item: any) => String(item.projectId) === caseId);
+  }
   return buildSnapshot(project, article);
 }
 
@@ -106,7 +113,9 @@ export class VideoProductionWorkflow extends WorkflowEntrypoint<Env, Params> {
       if (!finalQa?.passed) throw new Error(`QUALITY_GATE_FAILED:${finalQa?.score || 0}`);
       await step.do('publish-result', async () => {
         const completed = new Date().toISOString();
-        await updateJob(this.env, jobId, { status: 'succeeded', stage: 'published', progress: 100, output_key: finalKeys.video, poster_key: finalKeys.poster, audio_key: finalKeys.audio, qa_key: finalKeys.qa, manifest_key: finalKeys.manifest, qa_score: finalQa.score, completed_at: completed });
+        const retentionDays = Math.max(1, Math.min(30, Number(this.env.ARTIFACT_RETENTION_DAYS || 3)));
+        const retentionUntil = new Date(Date.now() + retentionDays * 86_400_000).toISOString();
+        await updateJob(this.env, jobId, { status: 'succeeded', stage: 'published', progress: 100, output_key: finalKeys.video, poster_key: finalKeys.poster, audio_key: finalKeys.audio, qa_key: finalKeys.qa, manifest_key: finalKeys.manifest, qa_score: finalQa.score, completed_at: completed, retention_until: retentionUntil });
         await addEvent(this.env, jobId, 'published', '成片通过全部质量门并已发布');
       });
       return { jobId, status: 'succeeded', score: finalQa.score };
