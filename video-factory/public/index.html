@@ -7,7 +7,7 @@
   <meta name="theme-color" content="#f4f1ea">
   <title>AI生意经 · 短视频生产台</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><rect width=%2264%22 height=%2264%22 rx=%2216%22 fill=%22%231a1b1d%22/><path d=%22M32 12a15 15 0 0 0-9 27v7h18v-7a15 15 0 0 0-9-27Z%22 fill=%22%23d6642b%22/><path d=%22M25 52h14%22 stroke=%22%23fff%22 stroke-width=%224%22 stroke-linecap=%22round%22/></svg>">
-  <link rel="stylesheet" href="/app.css">
+  <link rel="stylesheet" href="./app.css">
 </head>
 <body>
   <a class="skip-link" href="#main">跳到主要内容</a>
@@ -27,6 +27,10 @@
   </header>
 
   <main id="main">
+    <aside id="localPreviewNotice" class="local-preview-notice" hidden>
+      <div><b>当前是本地视觉预览</b><span>样式可以正常查看，但生产任务、案例搜索和成片下载需要从正式网址使用。</span></div>
+      <a href="https://ai-shengyi-video-factory.workers.dev">打开正式生产台 →</a>
+    </aside>
     <section id="studio" class="intro">
       <div class="intro-copy">
         <p class="kicker"><span>AI生意经</span> / 自动短视频生产系统 v0.2</p>
@@ -140,6 +144,6 @@
   </dialog>
 
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
-  <script src="/app.js" type="module"></script>
+  <script src="./app.js" type="module"></script>
 </body>
 </html>

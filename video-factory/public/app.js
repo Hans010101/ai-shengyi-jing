@@ -7,6 +7,7 @@ const state = {
 const stages = {queued:'等待调度',source:'读取事实与素材',script:'编写中文脚本',render:'画面与配音渲染',quality:'七道质量检查',published:'成片已发布',failed:'任务未通过'};
 const statusNames = {queued:'排队中',running:'生产中',succeeded:'已通过品控',failed:'需要处理'};
 const errorNames = {CASE_NOT_FOUND:'没有找到这个案例',INSUFFICIENT_MEDIA:'有效素材不足 3 份',INSUFFICIENT_VALID_MEDIA:'素材清晰度或相关性不足',QUALITY_GATE_FAILED:'成片未通过自动品控',RENDER_FAILED:'渲染过程失败',RENDER_TIMEOUT:'渲染超时'};
+const isLocalFile = location.protocol === 'file:';
 let catalogTimer;
 
 function escapeHtml(value=''){return String(value).replace(/[&<>'"]/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]))}
@@ -124,5 +125,9 @@ $('#jobSearch').oninput=event=>{state.jobQuery=event.target.value.trim();renderJ
 $('#jobDialog').addEventListener('click',event=>{if(event.target===$('#jobDialog')){state.activeJob=null;$('#jobDialog').close()}});
 
 renderSelection();
-if(state.key)Promise.all([loadJobs(),loadCatalog()]);else{setConnected(false);showAccess()}
-setInterval(()=>{if(state.key)loadJobs({quiet:true})},10000);
+if(isLocalFile){
+  $('#localPreviewNotice').hidden=false;$('#connectionState').lastChild.textContent=' 本地预览';
+  $('#catalogGrid').innerHTML='<div class="empty"><b>正式网址上线后读取案例库</b>本地文件只用于检查视觉，不会连接生产接口。</div>';
+  $('#catalogMeta').textContent='本地视觉预览';$('#jobs').innerHTML='<div class="empty"><b>正式网址上线后显示任务</b>请从 Cloudflare 固定网址使用完整生产功能。</div>';
+}else if(state.key)Promise.all([loadJobs(),loadCatalog()]);else{setConnected(false);showAccess()}
+setInterval(()=>{if(!isLocalFile&&state.key)loadJobs({quiet:true})},10000);
