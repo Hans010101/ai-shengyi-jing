@@ -115,9 +115,10 @@ try {
   const browserEnv = { ...process.env, HOME: '/work', PUPPETEER_EXECUTABLE_PATH: '/usr/bin/chromium', HYPERFRAMES_BROWSER_PATH: '/usr/bin/chromium' };
   const checkLog = run(hyperframes, ['check', '--snapshots', '--samples', '13', '--at-transitions', '--timeout', '30000'], { cwd: projectDir, env: browserEnv });
   status('render', 62);
-  // Standard uses CRF 18 with the medium H.264 preset: visually delivery-ready,
-  // while avoiding the disproportionate CPU and restart risk of the slow preset.
-  const renderLog = run(hyperframes, ['render', '--quality', 'standard', '--output', join(outputDir, 'video.mp4')], { cwd: projectDir, env: browserEnv });
+  // Keep the full 1080x1920 canvas and 30 fps, but use HyperFrames' cloud-safe
+  // encoder preset. This prevents long portrait renders from starving the
+  // container health endpoint; a separate archival preset can be added later.
+  const renderLog = run(hyperframes, ['render', '--quality', 'draft', '--output', join(outputDir, 'video.mp4')], { cwd: projectDir, env: browserEnv });
 
   status('technical-qa', 88);
   const videoInfo = probe(join(outputDir, 'video.mp4'));
