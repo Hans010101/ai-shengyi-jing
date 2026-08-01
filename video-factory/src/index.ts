@@ -29,11 +29,50 @@ async function enqueueCase(env: Env, caseId: string) {
   return { jobId, workflowId: workflow.id, caseId, status: 'queued' };
 }
 
-async function serveR2(env: Env, key: string, disposition = 'inline') {
+function parseRange(value: string | null, size: number) {
+  if (!value) return null;
+  const match = value.match(/^bytes=(\d*)-(\d*)$/i);
+  if (!match || (!match[1] && !match[2])) return false;
+  let start: number, end: number;
+  if (!match[1]) {
+    const suffix = Number(match[2]);
+    if (!Number.isSafeInteger(suffix) || suffix <= 0) return false;
+    start = Math.max(0, size - suffix); end = size - 1;
+  } else {
+    start = Number(match[1]); end = match[2] ? Number(match[2]) : size - 1;
+    if (!Number.isSafeInteger(start) || !Number.isSafeInteger(end) || start < 0 || start >= size || end < start) return false;
+    end = Math.min(end, size - 1);
+  }
+  return { start, end, length: end - start + 1 };
+}
+
+async function serveR2(request: Request, env: Env, key: string, disposition = 'inline') {
+  const metadata = await env.VIDEO_BUCKET.head(key);
+  if (!metadata) return new Response('Not found', { status: 404 });
+  const range = parseRange(request.headers.get('Range'), metadata.size);
+  const headers = new Headers();
+  metadata.writeHttpMetadata(headers);
+  headers.set('ETag', metadata.httpEtag);
+  headers.set('Accept-Ranges', 'bytes');
+  headers.set('Cache-Control', 'public, max-age=86400, immutable');
+  headers.set('Content-Disposition', disposition);
+  headers.set('Access-Control-Allow-Origin', 'https://ai-shengyi-video-studio.pages.dev');
+  headers.set('Access-Control-Expose-Headers', 'Accept-Ranges, Content-Length, Content-Range, ETag');
+  if (range === false) {
+    headers.set('Content-Range', `bytes */${metadata.size}`);
+    return new Response(null, { status: 416, headers });
+  }
+  if (range) {
+    headers.set('Content-Length', String(range.length));
+    headers.set('Content-Range', `bytes ${range.start}-${range.end}/${metadata.size}`);
+    if (request.method === 'HEAD') return new Response(null, { status: 206, headers });
+    const object = await env.VIDEO_BUCKET.get(key, { range: { offset: range.start, length: range.length } });
+    return object ? new Response(object.body, { status: 206, headers }) : new Response('Not found', { status: 404 });
+  }
+  headers.set('Content-Length', String(metadata.size));
+  if (request.method === 'HEAD') return new Response(null, { headers });
   const object = await env.VIDEO_BUCKET.get(key);
-  if (!object) return new Response('Not found', { status: 404 });
-  const headers = new Headers(); object.writeHttpMetadata(headers); headers.set('ETag', object.httpEtag); headers.set('Cache-Control', 'public, max-age=3600'); headers.set('Content-Disposition', disposition); headers.set('Access-Control-Allow-Origin', 'https://ai-shengyi-video-studio.pages.dev');
-  return new Response(object.body, { headers });
+  return object ? new Response(object.body, { headers }) : new Response('Not found', { status: 404 });
 }
 
 async function deleteJobArtifacts(env: Env, jobId: string) {
@@ -92,7 +131,7 @@ export default {
       if (!job || job.status !== 'succeeded' || job.artifacts_deleted_at) return new Response('Not found', { status: 404 });
       const key = filename === 'video.mp4' ? job.output_key : filename === 'poster.jpg' ? job.poster_key : filename === 'audio.mp3' ? job.audio_key : filename === 'qa.json' ? job.qa_key : null;
       const download = url.searchParams.get('download') === '1';
-      return key ? serveR2(env, key, download ? `attachment; filename="${jobId}-${filename}"` : filename === 'video.mp4' ? `inline; filename="${jobId}.mp4"` : 'inline') : new Response('Not found', { status: 404 });
+      return key ? serveR2(request, env, key, download ? `attachment; filename="${jobId}-${filename}"` : filename === 'video.mp4' ? `inline; filename="${jobId}.mp4"` : 'inline') : new Response('Not found', { status: 404 });
     }
     if (url.pathname === '/api/catalog' && request.method === 'GET') return catalog(request, env);
     if (url.pathname.startsWith('/api/') && !(await authorized(request, env))) return json({ error: 'UNAUTHORIZED' }, 401);
@@ -124,6 +163,17 @@ export default {
       return json({ ok: true, deleted: await deleteJobArtifacts(env, artifactMatch[1]) });
     }
     const match = url.pathname.match(/^\/api\/jobs\/([a-f0-9-]+)$/i);
+    if (match && request.method === 'DELETE') {
+      const previous: any = await env.VIDEO_DB.prepare('SELECT status FROM jobs WHERE id = ?').bind(match[1]).first();
+      if (!previous) return json({ error: 'NOT_FOUND' }, 404);
+      if (previous.status === 'queued' || previous.status === 'running') return json({ error: 'JOB_ACTIVE', detail: '任务仍在生产中，完成或失败后才能删除。' }, 409);
+      const deletedArtifacts = await deleteJobArtifacts(env, match[1]);
+      await env.VIDEO_DB.batch([
+        env.VIDEO_DB.prepare('DELETE FROM job_events WHERE job_id = ?').bind(match[1]),
+        env.VIDEO_DB.prepare('DELETE FROM jobs WHERE id = ?').bind(match[1])
+      ]);
+      return json({ ok: true, deletedArtifacts });
+    }
     if (match && request.method === 'GET') {
       const job: any = await getJob(env, match[1]);
       if (!job) return json({ error: 'NOT_FOUND' }, 404);

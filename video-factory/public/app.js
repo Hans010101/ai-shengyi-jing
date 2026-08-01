@@ -50,10 +50,18 @@ function renderJobs(){
   root.innerHTML=jobs.map(job=>{
     const deleted=Boolean(job.artifacts_deleted_at);const stage=stages[job.stage]||job.stage;const status=statusNames[job.status]||job.status;
     const thumb=job.status==='succeeded'&&!deleted?`<img class="job-thumb" src="${apiOrigin}/output/${job.id}/poster.jpg" alt="${escapeHtml(job.case_name||'案例')}成片封面" loading="lazy">`:'<span class="job-thumb"></span>';
-    return `<article class="job" data-job-id="${job.id}" tabindex="0"><div class="job-case">${thumb}<div><h3>${escapeHtml(job.case_name||job.case_id)}</h3><small>${escapeHtml(job.case_id)} · ${formatDate(job.created_at)}</small></div></div><div><div class="progress-copy"><span>${escapeHtml(stage)}</span><span>${job.progress||0}%</span></div><div class="bar"><i style="width:${Math.max(0,Math.min(100,job.progress||0))}%"></i></div></div><div class="job-status ${job.status}">${deleted?'成片已释放':status}${job.qa_score?` · ${job.qa_score}分`:''}</div><div class="job-action"><button type="button" data-open-job="${job.id}">${job.status==='succeeded'&&!deleted?'查看成片':'查看详情'} →</button></div></article>`
+    const canDelete=job.status==='succeeded'||job.status==='failed';
+    return `<article class="job" data-job-id="${job.id}" tabindex="0"><div class="job-case">${thumb}<div><h3>${escapeHtml(job.case_name||job.case_id)}</h3><small>${escapeHtml(job.case_id)} · ${formatDate(job.created_at)}</small></div></div><div><div class="progress-copy"><span>${escapeHtml(stage)}</span><span>${job.progress||0}%</span></div><div class="bar"><i style="width:${Math.max(0,Math.min(100,job.progress||0))}%"></i></div></div><div class="job-status ${job.status}">${deleted?'成片已释放':status}${job.qa_score?` · ${job.qa_score}分`:''}</div><div class="job-action"><button type="button" data-open-job="${job.id}">${job.status==='succeeded'&&!deleted?'查看成片':'查看详情'} →</button>${canDelete?`<button class="delete-job" type="button" data-delete-job="${job.id}" data-job-name="${escapeHtml(job.case_name||job.case_id)}">删除</button>`:''}</div></article>`
   }).join('');
   $$('[data-open-job]').forEach(button=>button.onclick=event=>{event.stopPropagation();openJob(button.dataset.openJob)});
+  $$('[data-delete-job]').forEach(button=>button.onclick=event=>{event.stopPropagation();deleteJob(button.dataset.deleteJob,button.dataset.jobName)});
   $$('.job').forEach(card=>{card.onclick=()=>openJob(card.dataset.jobId);card.onkeydown=event=>{if(event.key==='Enter')openJob(card.dataset.jobId)}});
+}
+
+async function deleteJob(id,name){
+  if(!window.confirm(`确定删除“${name}”这条生产任务吗？\n\n任务记录、成片、封面、音频和质检文件都会一并清理，且无法恢复。`))return;
+  try{await api(`/api/jobs/${id}`,{method:'DELETE'});if(state.activeJob===id){state.activeJob=null;$('#jobDialog').close()}await loadJobs();showToast('任务与云端文件已删除')}
+  catch(error){showToast(error.message)}
 }
 
 async function loadCatalog({append=false}={}){
