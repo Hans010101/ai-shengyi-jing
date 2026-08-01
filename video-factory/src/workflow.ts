@@ -58,7 +58,10 @@ async function waitForRender(step: WorkflowStep, renderer: DurableObjectStub, ma
 async function storeArtifact(env: Env, renderer: DurableObjectStub, jobId: string, name: string, key: string, contentType: string) {
   const response = await renderer.fetch(`http://container/jobs/${jobId}/artifacts/${name}`);
   if (!response.ok || !response.body) throw new Error(`artifact ${name} unavailable: ${response.status}`);
-  await env.VIDEO_BUCKET.put(key, response.body, { httpMetadata: { contentType } });
+  // Container responses are chunked streams. R2 requires a known-length body,
+  // so materialize the artifact before upload instead of forwarding the stream.
+  const bytes = await response.arrayBuffer();
+  await env.VIDEO_BUCKET.put(key, bytes, { httpMetadata: { contentType } });
 }
 
 async function asrCheck(env: Env, audioKey: string, expected: string) {
