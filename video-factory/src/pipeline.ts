@@ -156,7 +156,7 @@ export function buildManifest(jobId: string, snapshot: CaseSnapshot, script: Vid
   return {
     schemaVersion: '1.0', jobId, template: 'editorial-v1', templateVersion: '1.0.0', caseSnapshot: snapshot, script,
     voice: { provider: 'edge-neural', voice: 'zh-CN-XiaoxiaoNeural', rate: attempt > 1 ? '+8%' : '+11%', pitch: '+0Hz', phrasePauseSeconds: 0.14 },
-    quality: { width: 1080, height: 1920, fps: 30, minUniqueMedia: snapshot.media.length >= 7 ? 5 : 3, minDurationSeconds: 68, maxDurationSeconds: 118, targetLufs: -16, truePeak: -1.5, asrSimilarity: 0.94 }
+    quality: { width: 1080, height: 1920, fps: 30, minUniqueMedia: snapshot.media.length >= 7 ? 5 : 3, minDurationSeconds: 68, maxDurationSeconds: 118, targetLufs: -14, truePeak: -1.5, asrSimilarity: 0.94 }
   };
 }
 

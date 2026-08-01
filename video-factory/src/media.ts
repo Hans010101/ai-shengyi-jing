@@ -48,6 +48,12 @@ export function extractPageMedia(html: string, pageUrl: string): MediaItem[] {
     const srcsetUrl = srcset.split(',').map(item => item.trim().split(/\s+/)[0]).filter(Boolean).at(-1) || '';
     add(srcsetUrl || attribute(tag, 'data-src') || attribute(tag, 'data-original') || attribute(tag, 'src'), 'image', caption);
   }
+  // Product sites frequently keep video sources in JSON-LD, Shopify section
+  // payloads, or escaped JavaScript instead of literal <video> tags.
+  const decodedMediaHtml = html.replaceAll('\\/', '/').replaceAll('&amp;', '&');
+  for (const match of decodedMediaHtml.matchAll(/https?:\/\/[^"'<>\s]+?\.(?:mp4|webm)(?:\?[^"'<>\s]*)?/gi)) {
+    add(match[0], 'video', '项目官网产品与使用场景视频');
+  }
   const seen = new Set<string>();
   return found.filter(item => { const key = canonical(item.url); if (seen.has(key)) return false; seen.add(key); return true; });
 }
@@ -71,19 +77,43 @@ async function visualQueries(snapshot: CaseSnapshot, env: Env) {
 
 async function openverseMedia(query: string): Promise<MediaItem[]> {
   try {
-    const params = new URLSearchParams({ q: `"${query}"`, license_type: 'commercial', page_size: '8', mature: 'false' });
+    const params = new URLSearchParams({ q: query, license_type: 'commercial', page_size: '12', mature: 'false' });
     const response = await fetch(`https://api.openverse.org/v1/images/?${params}`, { headers: { 'User-Agent': 'AI-Shengyi-Video-Factory/0.3 (media enrichment)' }, signal: AbortSignal.timeout(8000) });
     if (!response.ok) return [];
     const payload: any = await response.json();
     const tokens = query.toLowerCase().split(/[^a-z0-9]+/).filter(token => token.length > 2);
     return (Array.isArray(payload?.results) ? payload.results : []).filter((item: any) => {
       const text = `${item?.title || ''} ${(item?.tags || []).map((tag: any) => tag?.name || tag).join(' ')}`.toLowerCase();
-      return Number(item?.width) >= 640 && Number(item?.height) >= 480 && tokens.filter(token => text.includes(token)).length >= Math.min(2, tokens.length);
-    }).slice(0, 2).map((item: any) => ({
+      const matches = tokens.filter(token => text.includes(token)).length;
+      return Number(item?.width) >= 640 && Number(item?.height) >= 480 && matches >= (tokens.length >= 4 ? 2 : 1);
+    }).slice(0, 3).map((item: any) => ({
       id: '', type: 'image' as const, url: normalizeText(item.url || item.thumbnail, 2000),
       caption: `${normalizeText(item.title, 100) || query}（场景补充）`, sourceUrl: normalizeText(item.foreign_landing_url, 2000),
       origin: `openverse-${normalizeText(item.license, 20) || 'cc'}`, creator: normalizeText(item.creator, 100), license: normalizeText(item.license, 30)
     })).filter((item: MediaItem) => /^https:\/\//i.test(item.url));
+  } catch { return []; }
+}
+
+async function pexelsVideos(query: string, apiKey?: string): Promise<MediaItem[]> {
+  if (!apiKey) return [];
+  try {
+    const params = new URLSearchParams({ query, orientation: 'portrait', size: 'medium', per_page: '6' });
+    const response = await fetch(`https://api.pexels.com/v1/videos/search?${params}`, {
+      headers: { Authorization: apiKey, 'User-Agent': 'AI-Shengyi-Video-Factory/0.3' }, signal: AbortSignal.timeout(9000)
+    });
+    if (!response.ok) return [];
+    const payload: any = await response.json();
+    return (Array.isArray(payload?.videos) ? payload.videos : []).map((video: any) => {
+      const files = (Array.isArray(video?.video_files) ? video.video_files : [])
+        .filter((file: any) => /^https:\/\//i.test(String(file?.link || '')) && Number(file?.width) >= 720 && Number(file?.height) >= 720 && Number(file?.width) <= 1920)
+        .sort((a: any, b: any) => Math.abs((a.width / a.height) - 0.5625) - Math.abs((b.width / b.height) - 0.5625) || Number(a.width) - Number(b.width));
+      const file = files[0];
+      return file ? {
+        id: '', type: 'video' as const, url: normalizeText(file.link, 2000), poster: normalizeText(video?.image, 2000),
+        caption: `${query}相关经营场景视频`, sourceUrl: normalizeText(video?.url, 2000), origin: 'pexels-video',
+        creator: normalizeText(video?.user?.name, 100), license: 'Pexels License'
+      } : null;
+    }).filter(Boolean).slice(0, 2) as MediaItem[];
   } catch { return []; }
 }
 
@@ -103,9 +133,9 @@ export async function enrichSnapshotMedia(snapshot: CaseSnapshot, project: any, 
   let merged = [...existing, ...discovered];
   const seen = new Set<string>();
   merged = merged.filter(item => { const key = canonical(item.url); if (!item.url || seen.has(key)) return false; seen.add(key); return true; });
-  if (merged.length < 10) {
-    const queries = await visualQueries(snapshot, env);
-    const contextual = (await Promise.all(queries.map(openverseMedia))).flat();
+  if (merged.length < 12) {
+    const queries: string[] = await visualQueries(snapshot, env);
+    const contextual = (await Promise.all(queries.flatMap(query => [openverseMedia(query), pexelsVideos(query, env.PEXELS_API_KEY)]))).flat();
     const additions = contextual.filter(item => { const key = canonical(item.url); if (!item.url || seen.has(key)) return false; seen.add(key); return true; });
     merged = [...merged, ...additions];
   }

@@ -8,6 +8,7 @@ export interface Env {
   FACTORY_ADMIN_TOKEN: string;
   INTERNAL_RENDER_TOKEN: string;
   DEEPSEEK_API_KEY?: string;
+  PEXELS_API_KEY?: string;
   PROJECT_DATA_URL: string;
   ARTICLE_DATA_URL: string;
   ARTICLE_BASE_URL: string;
