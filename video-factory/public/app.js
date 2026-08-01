@@ -134,8 +134,8 @@ if(isLocalFile){
   $('#catalogGrid').innerHTML='<div class="empty"><b>正式网址上线后读取案例库</b>本地文件只用于检查视觉，不会连接生产接口。</div>';
   $('#catalogMeta').textContent='本地视觉预览';$('#jobs').innerHTML='<div class="empty"><b>正式网址上线后显示任务</b>请从 Cloudflare 固定网址使用完整生产功能。</div>';
 }else{
-  try{const health=await fetch(`${apiOrigin}/api/health`);if(!health.ok)throw new Error('API unavailable');if(state.key)await Promise.all([loadJobs(),loadCatalog()]);else{setConnected(false);showAccess()}}
-  catch{$('#localPreviewNotice').hidden=false;$('#localPreviewNotice').innerHTML='<div><b>产品入口已上线</b><span>视频渲染服务等待 Cloudflare R2 激活后接通。</span></div><a href="https://ai-shengyi-jing.pages.dev">返回 AI生意经主站 →</a>';$('#connectionState').lastChild.textContent=' 后端待激活';$('#catalogGrid').innerHTML='<div class="empty"><b>生产后端正在配置</b>固定产品入口已经可用，R2 激活后将自动接通案例库与生产任务。</div>';$('#jobs').innerHTML='<div class="empty"><b>暂未连接渲染服务</b>完成 Cloudflare R2 激活后即可开始批量生产。</div>'}
+  try{const health=await fetch(`${apiOrigin}/api/health`);if(!health.ok)throw new Error('API unavailable');$('#systemState').lastChild.textContent=' 系统就绪';if(state.key)await Promise.all([loadJobs(),loadCatalog()]);else{setConnected(false);showAccess()}}
+  catch{$('#localPreviewNotice').hidden=false;$('#localPreviewNotice').innerHTML='<div><b>产品入口已上线</b><span>视频渲染服务等待 Cloudflare R2 激活后接通。</span></div><a href="https://ai-shengyi-jing.pages.dev">返回 AI生意经主站 →</a>';$('#connectionState').lastChild.textContent=' 后端待激活';$('#systemState').lastChild.textContent=' 后端待激活';$('#catalogGrid').innerHTML='<div class="empty"><b>生产后端正在配置</b>固定产品入口已经可用，R2 激活后将自动接通案例库与生产任务。</div>';$('#jobs').innerHTML='<div class="empty"><b>暂未连接渲染服务</b>完成 Cloudflare R2 激活后即可开始批量生产。</div>'}
 }}
 bootstrap();
 setInterval(()=>{if(!isLocalFile&&state.key)loadJobs({quiet:true})},10000);
