@@ -27,13 +27,27 @@ async function loadSnapshot(env: Env, caseId: string) {
   return buildSnapshot(project, article);
 }
 
-async function waitForRender(step: WorkflowStep, renderer: DurableObjectStub, jobId: string, attempt: number) {
+async function waitForRender(step: WorkflowStep, renderer: DurableObjectStub, manifest: RenderManifest, internalToken: string, attempt: number) {
+  let recoveries = 0;
   for (let index = 0; index < 120; index++) {
     const status = await step.do(`render-status-${attempt}-${index}`, async () => {
-      const response = await renderer.fetch(`http://container/jobs/${jobId}`);
+      const response = await renderer.fetch(`http://container/jobs/${manifest.jobId}`);
+      if (response.status === 404) {
+        const restart = await renderer.fetch('http://container/jobs', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'X-Internal-Token': internalToken },
+          body: JSON.stringify(manifest)
+        });
+        if (!restart.ok) throw new Error(`renderer recovery ${restart.status}: ${await restart.text()}`);
+        return { status: 'recovering' };
+      }
       if (!response.ok) throw new Error(`renderer status ${response.status}`);
       return response.json<any>();
     });
+    if (status.status === 'recovering') {
+      recoveries += 1;
+      if (recoveries > 2) throw new Error('RENDERER_RESTART_LIMIT');
+    }
     if (status.status === 'succeeded') return status;
     if (status.status === 'failed') throw new Error(`RENDER_FAILED:${status.error || 'unknown'}`);
     await step.sleep(`render-wait-${attempt}-${index}`, '10 seconds');
@@ -83,7 +97,7 @@ export class VideoProductionWorkflow extends WorkflowEntrypoint<Env, Params> {
           await addEvent(this.env, jobId, 'render', `第${attempt}轮渲染已提交`);
         });
         const renderer = this.env.VIDEO_RENDERER.getByName(renderJobId);
-        const renderStatus = await waitForRender(step, renderer, renderJobId, attempt);
+        const renderStatus = await waitForRender(step, renderer, manifest, this.env.INTERNAL_RENDER_TOKEN, attempt);
         const base = `jobs/${jobId}/attempt-${attempt}`;
         const keys = { video: `${base}/video.mp4`, audio: `${base}/voice.mp3`, poster: `${base}/poster.jpg`, contact: `${base}/contact-sheet.jpg`, technicalQa: `${base}/technical-qa.json` };
         await step.do(`store-artifacts-${attempt}`, async () => {

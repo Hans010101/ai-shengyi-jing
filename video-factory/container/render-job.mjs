@@ -108,14 +108,16 @@ try {
   </style></head><body><div id="root" data-composition-id="ai-shengyi-editorial" data-width="1080" data-height="1920" data-start="0" data-duration="${totalDuration.toFixed(3)}"><header class="head"><div class="brand">💡 AI<b>生意经</b> · 真实案例</div><h1>${safe(manifest.script.headline).replace(safe(manifest.caseSnapshot.revenue), `<em>${safe(manifest.caseSnapshot.revenue)}</em>`)}</h1></header><section class="chapter-zone">${chapterHtml.join('')}</section><main class="stage">${sceneHtml.join('')}</main><section class="caption-zone" data-layout-allow-caption-zone>${captionHtml.join('')}</section><footer class="footer"><span>AI生意经 · 每天拆解一个真实生意</span><span>${safe(manifest.caseSnapshot.nameZh)}</span></footer><div class="progress"><i></i></div><audio id="master-audio" src="assets/audio/voice.mp3" data-start="0" data-duration="${totalDuration.toFixed(3)}" data-track-index="20" data-volume="1"></audio></div><script>window.__timelines=window.__timelines||{};const tl=gsap.timeline({paused:true});tl.fromTo('.progress i',{scaleX:0},{scaleX:1,duration:${totalDuration.toFixed(3)},ease:'none'},0);document.querySelectorAll('.shot').forEach((el,i)=>{const s=+el.dataset.start,d=+el.dataset.duration,m=el.matches('img,video')?el:el.querySelector('img,video');tl.fromTo(el,{opacity:0},{opacity:1,duration:.24,ease:'power1.inOut'},s);if(m)tl.fromTo(m,{scale:1.02,x:i%2?-8:8},{scale:1.08,x:0,duration:d,ease:'none'},s)});document.querySelectorAll('.caption,.chapter').forEach(el=>tl.fromTo(el,{opacity:0,y:14},{opacity:1,y:0,duration:.18,ease:'power2.out'},+el.dataset.start));window.__timelines['ai-shengyi-editorial']=tl;<\/script></body></html>`;
   writeFileSync(join(projectDir, 'index.html'), html);
   writeFileSync(join(projectDir, 'hyperframes.json'), JSON.stringify({ $schema: 'https://hyperframes.heygen.com/schema/hyperframes.json', paths: { assets: 'assets' }, media: { autoProxy: true }, authoringSkill: 'general-video' }, null, 2));
-  writeFileSync(join(projectDir, 'package.json'), JSON.stringify({ private: true, type: 'module', scripts: { check: 'hyperframes check', render: 'hyperframes render' }, dependencies: { hyperframes: '0.7.83' } }, null, 2));
+  writeFileSync(join(projectDir, 'package.json'), JSON.stringify({ private: true, type: 'module', scripts: { check: 'hyperframes check', render: 'hyperframes render' }, dependencies: { hyperframes: '0.7.87' } }, null, 2));
 
   status('check', 50);
   const hyperframes = '/app/node_modules/.bin/hyperframes';
   const browserEnv = { ...process.env, HOME: '/work', PUPPETEER_EXECUTABLE_PATH: '/usr/bin/chromium', HYPERFRAMES_BROWSER_PATH: '/usr/bin/chromium' };
   const checkLog = run(hyperframes, ['check', '--snapshots', '--samples', '13', '--at-transitions', '--timeout', '30000'], { cwd: projectDir, env: browserEnv });
   status('render', 62);
-  const renderLog = run(hyperframes, ['render', '--quality', 'high', '--output', join(outputDir, 'video.mp4')], { cwd: projectDir, env: browserEnv });
+  // Standard uses CRF 18 with the medium H.264 preset: visually delivery-ready,
+  // while avoiding the disproportionate CPU and restart risk of the slow preset.
+  const renderLog = run(hyperframes, ['render', '--quality', 'standard', '--output', join(outputDir, 'video.mp4')], { cwd: projectDir, env: browserEnv });
 
   status('technical-qa', 88);
   const videoInfo = probe(join(outputDir, 'video.mp4'));
