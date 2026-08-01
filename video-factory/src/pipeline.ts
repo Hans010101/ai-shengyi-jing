@@ -1,7 +1,7 @@
 import type { CaseSnapshot, MediaItem, RenderManifest, ScriptBeat, VideoScript } from './types';
 
 const SCRIPT_SYSTEM = `你是“AI生意经”短视频总编导。把真实商业案例写成90至120秒中文知识短视频。
-必须遵守：先给结果和反差，再讲问题、产品、增长、护城河，最后给中国创业者一个可执行判断；只使用输入事实；每一个数字必须绑定 evidenceIds；6到8个段落；每段旁白45至75个汉字，全文420至580个汉字；口语自然、有转折，不堆形容词；只返回JSON。`;
+必须遵守：先给结果和反差，再讲问题、产品、增长、护城河，最后给中国创业者一个可执行判断；只使用输入事实；每一个数字必须绑定 evidenceIds；6到8个段落；每段旁白45至75个汉字，全文420至580个汉字；每段选择3到5个与内容直接相关且尽量不同的mediaIds，优先项目官网素材，场景补充素材只能用于相符的用户动作或经营场景；口语自然、有转折，不堆形容词；只返回JSON。`;
 
 export function normalizeText(value: unknown, max = 500): string {
   return typeof value === 'string' ? value.replace(/\s+/g, ' ').trim().slice(0, max) : '';
@@ -96,6 +96,19 @@ export function fallbackScript(snapshot: CaseSnapshot): VideoScript {
   return { schemaVersion: '1.0', headline: `${snapshot.nameZh}：一门小生意如何真正成立`, subheadline: '真实项目 · 商业系统拆解', hook: beats[0].narration, beats, closing: beats.at(-1)!.narration };
 }
 
+export function distributeMedia(script: VideoScript, snapshot: CaseSnapshot): VideoScript {
+  const all = snapshot.media.map(item => item.id);
+  if (!all.length) return script;
+  return { ...script, beats: script.beats.map((beat, beatIndex) => {
+    const valid = [...new Set((beat.mediaIds || []).filter(id => all.includes(id)))].slice(0, 2);
+    for (let offset = 0; valid.length < Math.min(5, all.length) && offset < all.length; offset++) {
+      const candidate = all[(beatIndex * 2 + offset) % all.length];
+      if (!valid.includes(candidate)) valid.push(candidate);
+    }
+    return { ...beat, mediaIds: valid.slice(0, 5) };
+  }) };
+}
+
 export async function generateScript(snapshot: CaseSnapshot, env: any): Promise<{ script: VideoScript; provider: string }> {
   try {
     const result: any = await env.AI.run(env.SCRIPT_MODEL, {
@@ -106,7 +119,7 @@ export async function generateScript(snapshot: CaseSnapshot, env: any): Promise<
     const script = { schemaVersion: '1.0', ...parsed } as VideoScript;
     const validation = validateScript(script, snapshot);
     if (!validation.ok) throw new Error(validation.errors.join('; '));
-    return { script, provider: `workers-ai:${env.SCRIPT_MODEL}` };
+    return { script: distributeMedia(script, snapshot), provider: `workers-ai:${env.SCRIPT_MODEL}` };
   } catch (error) {
     if (env.DEEPSEEK_API_KEY) {
       try {
@@ -116,10 +129,10 @@ export async function generateScript(snapshot: CaseSnapshot, env: any): Promise<
         const script = { schemaVersion: '1.0', ...JSON.parse(payload.choices[0].message.content) } as VideoScript;
         const validation = validateScript(script, snapshot);
         if (!validation.ok) throw new Error(validation.errors.join('; '));
-        return { script, provider: 'deepseek:deepseek-chat' };
+        return { script: distributeMedia(script, snapshot), provider: 'deepseek:deepseek-chat' };
       } catch { /* deterministic fallback below */ }
     }
-    return { script: fallbackScript(snapshot), provider: 'deterministic-fallback-v1' };
+    return { script: distributeMedia(fallbackScript(snapshot), snapshot), provider: 'deterministic-fallback-v1' };
   }
 }
 
@@ -142,8 +155,8 @@ export function validateScript(script: VideoScript, snapshot: CaseSnapshot) {
 export function buildManifest(jobId: string, snapshot: CaseSnapshot, script: VideoScript, attempt = 1): RenderManifest {
   return {
     schemaVersion: '1.0', jobId, template: 'editorial-v1', templateVersion: '1.0.0', caseSnapshot: snapshot, script,
-    voice: { provider: 'edge-neural', voice: 'zh-CN-XiaoxiaoNeural', rate: attempt > 1 ? '+3%' : '+8%', pitch: '+0Hz', phrasePauseSeconds: 0.2 },
-    quality: { width: 1080, height: 1920, fps: 30, minUniqueMedia: 3, minDurationSeconds: 75, maxDurationSeconds: 125, targetLufs: -16, truePeak: -1.5, asrSimilarity: 0.94 }
+    voice: { provider: 'edge-neural', voice: 'zh-CN-XiaoxiaoNeural', rate: attempt > 1 ? '+8%' : '+11%', pitch: '+0Hz', phrasePauseSeconds: 0.14 },
+    quality: { width: 1080, height: 1920, fps: 30, minUniqueMedia: snapshot.media.length >= 7 ? 5 : 3, minDurationSeconds: 68, maxDurationSeconds: 118, targetLufs: -16, truePeak: -1.5, asrSimilarity: 0.94 }
   };
 }
 

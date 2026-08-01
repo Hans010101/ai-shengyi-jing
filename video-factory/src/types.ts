@@ -28,6 +28,8 @@ export type MediaItem = {
   caption: string;
   sourceUrl?: string;
   origin?: string;
+  creator?: string;
+  license?: string;
 };
 
 export type CaseSnapshot = {

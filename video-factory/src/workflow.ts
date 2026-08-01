@@ -1,6 +1,7 @@
 import { Buffer } from 'node:buffer';
 import { WorkflowEntrypoint, type WorkflowEvent, type WorkflowStep } from 'cloudflare:workers';
 import { buildManifest, buildSnapshot, generateScript, similarity } from './pipeline';
+import { enrichSnapshotMedia } from './media';
 import { event as addEvent, updateJob } from './db';
 import type { Env, RenderManifest } from './types';
 
@@ -24,7 +25,8 @@ async function loadSnapshot(env: Env, caseId: string) {
     const articles = await fetchJson(env.ARTICLE_DATA_URL);
     article = articles.find((item: any) => String(item.projectId) === caseId);
   }
-  return buildSnapshot(project, article);
+  const snapshot = buildSnapshot(project, article);
+  return enrichSnapshotMedia(snapshot, project, article, env);
 }
 
 async function waitForRender(step: WorkflowStep, renderer: DurableObjectStub, manifest: RenderManifest, internalToken: string, attempt: number) {
@@ -78,7 +80,7 @@ export class VideoProductionWorkflow extends WorkflowEntrypoint<Env, Params> {
   async run(event: WorkflowEvent<Params>, step: WorkflowStep) {
     const { jobId, caseId } = event.payload;
     try {
-      await step.do('mark-started', async () => { await updateJob(this.env, jobId, { status: 'running', stage: 'source', progress: 5 }); await addEvent(this.env, jobId, 'source', '开始读取案例事实与原始素材'); });
+      await step.do('mark-started', async () => { await updateJob(this.env, jobId, { status: 'running', stage: 'source', progress: 5 }); await addEvent(this.env, jobId, 'source', '开始读取案例事实，并扩充官网与可商用场景素材'); });
       const snapshot = await step.do('load-case-snapshot', async () => loadSnapshot(this.env, caseId));
       if (snapshot.media.length < 3) throw new Error(`INSUFFICIENT_MEDIA:${snapshot.media.length}`);
       await step.do('store-snapshot', async () => { const key = `jobs/${jobId}/case-snapshot.json`; await this.env.VIDEO_BUCKET.put(key, JSON.stringify(snapshot, null, 2), { httpMetadata: { contentType: 'application/json' } }); await updateJob(this.env, jobId, { case_name: snapshot.nameZh, stage: 'script', progress: 16 }); await addEvent(this.env, jobId, 'source', `读取到${snapshot.facts.length}条事实、${snapshot.media.length}项素材`); });
