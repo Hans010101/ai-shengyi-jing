@@ -50,7 +50,17 @@ jobs:
           INTERNAL_RENDER_TOKEN: ${{ secrets.VIDEO_FACTORY_INTERNAL_TOKEN }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
       - name: Deploy Worker and renderer container
+        id: renderer
+        continue-on-error: true
         run: npx wrangler deploy --containers-rollout=immediate
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+      - name: Restore stable API when renderer is unavailable
+        if: steps.renderer.outcome == 'failure'
+        run: |
+          npx wrangler deploy --config wrangler.api.jsonc
+          echo "::warning::Cloudflare Containers is unavailable. The catalog and control plane remain online; rendering stays disabled."
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
