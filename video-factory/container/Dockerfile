@@ -15,14 +15,15 @@ RUN apt-get update \
     && apt-get download chromium \
     && mkdir -p /chromium-root /chromium-bin \
     && dpkg-deb -x chromium_*.deb /chromium-root \
-    && mv /chromium-root/usr/lib/chromium/chromium /chromium-bin/chromium \
+    && split -b 100m /chromium-root/usr/lib/chromium/chromium /chromium-bin/chromium.part. \
+    && rm /chromium-root/usr/lib/chromium/chromium \
     && rm -rf /var/lib/apt/lists/* /tmp/chromium_*.deb
 
 FROM node:22-bookworm-slim
 
 ENV DEBIAN_FRONTEND=noninteractive \
-    PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium \
-    HYPERFRAMES_BROWSER_PATH=/usr/bin/chromium \
+    PUPPETEER_EXECUTABLE_PATH=/work/chromium/chromium \
+    HYPERFRAMES_BROWSER_PATH=/work/chromium/chromium \
     PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 \
     PUPPETEER_SKIP_DOWNLOAD=1 \
     PYTHONUNBUFFERED=1
@@ -54,7 +55,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 RUN apt-get update && apt-get install -y --no-install-recommends \
     chromium-common && rm -rf /var/lib/apt/lists/*
-COPY --from=chromium-package /chromium-bin/chromium /usr/lib/chromium/chromium
+COPY --from=chromium-package /chromium-bin/chromium.part.aa /opt/chromium-parts/chromium.part.aa
+COPY --from=chromium-package /chromium-bin/chromium.part.ab /opt/chromium-parts/chromium.part.ab
+COPY --from=chromium-package /chromium-bin/chromium.part.ac /opt/chromium-parts/chromium.part.ac
 COPY --from=chromium-package /chromium-root/ /
 RUN apt-get update && apt-get install -y --no-install-recommends \
     ffmpeg imagemagick && rm -rf /var/lib/apt/lists/*
@@ -68,10 +71,10 @@ RUN pip3 install --break-system-packages --no-cache-dir edge-tts==7.2.7
 WORKDIR /app
 COPY --chown=node:node container/package.json ./package.json
 COPY --from=node-deps --chown=node:node /app/node_modules ./node_modules
-COPY --chown=node:node container/server.mjs container/render-job.mjs ./
+COPY --chown=node:node container/server.mjs container/render-job.mjs container/entrypoint.sh ./
 
 RUN mkdir -p /work/jobs && chown -R node:node /work
 USER node
 EXPOSE 8080
-ENTRYPOINT ["/usr/bin/tini", "--"]
+ENTRYPOINT ["/usr/bin/tini", "--", "sh", "/app/entrypoint.sh"]
 CMD ["node", "server.mjs"]
