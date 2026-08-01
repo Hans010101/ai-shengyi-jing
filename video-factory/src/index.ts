@@ -66,10 +66,17 @@ async function catalog(request: Request, env: Env) {
   });
   const start = (page - 1) * pageSize;
   const pageProjects = filtered.slice(start, start + pageSize);
-  const items = pageProjects.map(item => ({
-    id: String(item.id), name: item.nameZh || item.name, originalName: item.name, summary: item.summary || item.insight || '',
-    category: item.niche || '其他', revenue: item.revenue || '未披露', image: item.image || '', mediaReady: true,
-    replicabilityScore: item.replicabilityScore || null, updatedAt: item.updatedAt || item.scrapedAt || null
+  const items = await Promise.all(pageProjects.map(async item => {
+    const caseId = String(item.id);
+    const articleResponse = await fetch(`${env.ARTICLE_BASE_URL}/${caseId}.json`).catch(() => null);
+    const article: any = articleResponse?.ok ? await articleResponse.json().catch(() => null) : null;
+    const mediaCount = Array.isArray(article?.media) ? article.media.filter((media: any) => /^https:\/\//i.test(String(media?.url || ''))).length : 0;
+    return {
+      id: caseId, name: item.nameZh || item.name, originalName: item.name, summary: item.summary || item.insight || '',
+      category: item.niche || '其他', revenue: item.revenue || '未披露', image: item.image || article?.media?.[0]?.url || '',
+      mediaCount, mediaReady: mediaCount >= 3, caseUrl: `https://ai-shengyi-jing.pages.dev/case?id=${encodeURIComponent(caseId)}`,
+      replicabilityScore: item.replicabilityScore || null, updatedAt: item.updatedAt || item.scrapedAt || null
+    };
   }));
   return json({ items, total: filtered.length, page, pageSize, categories });
 }
@@ -78,7 +85,7 @@ export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url);
     if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: { 'Access-Control-Allow-Origin': 'https://ai-shengyi-video-studio.pages.dev', 'Access-Control-Allow-Headers': 'Content-Type, X-Factory-Key, Authorization', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Max-Age': '86400' } });
-    if (url.pathname === '/api/health') return json({ ok: true, service: 'AI生意经视频工厂', version: env.FACTORY_VERSION, time: new Date().toISOString() });
+    if (url.pathname === '/api/health') return json({ ok: true, service: 'AI生意经视频工厂', version: env.FACTORY_VERSION, ai: { primary: 'Cloudflare Workers AI', fallback: env.DEEPSEEK_API_KEY ? 'DeepSeek' : 'deterministic' }, caseSource: 'AI生意经', retentionDays: Number(env.ARTIFACT_RETENTION_DAYS || 3), time: new Date().toISOString() });
     if (url.pathname.startsWith('/output/')) {
       const [, , jobId, filename] = url.pathname.split('/');
       const job: any = await env.VIDEO_DB.prepare('SELECT output_key, poster_key, audio_key, qa_key, status, artifacts_deleted_at FROM jobs WHERE id = ?').bind(jobId).first();
@@ -87,8 +94,8 @@ export default {
       const download = url.searchParams.get('download') === '1';
       return key ? serveR2(env, key, download ? `attachment; filename="${jobId}-${filename}"` : filename === 'video.mp4' ? `inline; filename="${jobId}.mp4"` : 'inline') : new Response('Not found', { status: 404 });
     }
-    if (url.pathname.startsWith('/api/') && !(await authorized(request, env))) return json({ error: 'UNAUTHORIZED' }, 401);
     if (url.pathname === '/api/catalog' && request.method === 'GET') return catalog(request, env);
+    if (url.pathname.startsWith('/api/') && !(await authorized(request, env))) return json({ error: 'UNAUTHORIZED' }, 401);
     if (url.pathname === '/api/jobs' && request.method === 'POST') {
       const body: any = await request.json().catch(() => null);
       const values = Array.isArray(body?.caseIds) ? body.caseIds : [body?.caseId];
@@ -136,7 +143,16 @@ export default {
     if (!projectsResponse.ok) throw new Error('AUTO_SOURCE_FETCH_FAILED');
     const projects: any[] = await projectsResponse.json();
     const existing = new Set((active.results as any[]).map(row => String(row.case_id)));
-    const selected = projects.filter(project => !existing.has(String(project.id))).slice(0, limit);
+    const selected = [];
+    const candidates = projects.filter(project => !existing.has(String(project.id))).slice(0, 100);
+    for (const project of candidates) {
+      const caseId = String(project.id);
+      const articleResponse = await fetch(`${env.ARTICLE_BASE_URL}/${caseId}.json`).catch(() => null);
+      const article: any = articleResponse?.ok ? await articleResponse.json().catch(() => null) : null;
+      const validMedia = Array.isArray(article?.media) ? article.media.filter((media: any) => /^https:\/\//i.test(String(media?.url || ''))).length : 0;
+      if (validMedia >= 3) selected.push(project);
+      if (selected.length >= limit) break;
+    }
     for (const project of selected) await enqueueCase(env, String(project.id));
   }
 };

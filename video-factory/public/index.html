@@ -21,8 +21,8 @@
       <a href="#queueSection">任务与成片</a>
     </nav>
     <div class="top-actions">
-      <span id="connectionState" class="connection"><i></i>等待连接</span>
-      <button id="keyButton" class="button quiet" type="button">访问设置</button>
+      <span id="connectionState" class="connection"><i></i>正在连接案例库</span>
+      <button id="keyButton" class="button quiet" type="button">启用生产</button>
     </div>
   </header>
 
@@ -130,12 +130,13 @@
   <dialog id="accessDialog" class="access-dialog">
     <form method="dialog" id="accessForm">
       <button class="dialog-close" type="button" aria-label="关闭">×</button>
-      <p class="dialog-kicker">SECURE ACCESS</p><h2>连接视频生产台</h2>
-      <p>访问密钥仅保存在当前浏览器会话中，不会写入网页或公开仓库。</p>
-      <label for="accessKey">生产台访问密钥</label>
-      <div class="key-field"><input id="accessKey" type="password" autocomplete="current-password" placeholder="输入访问密钥" required><button id="toggleKey" type="button">显示</button></div>
+      <p class="dialog-kicker">CLOUD PRODUCTION</p><h2>启用云端生产</h2>
+      <p>为防止公开网页被他人消耗云端额度，新设备首次生产时需要验证一次。密钥只保存在这台设备。</p>
+      <label for="accessKey">生产密钥</label>
+      <div class="key-field"><input id="accessKey" type="password" autocomplete="current-password" placeholder="输入一次即可" required><button id="toggleKey" type="button">显示</button></div>
       <p id="accessError" class="form-message" aria-live="polite"></p>
-      <button class="button primary full" value="default">验证并连接</button>
+      <button class="button primary full" value="default">验证并启用生产</button>
+      <button id="forgetKey" class="forget-key" type="button" hidden>清除这台设备的生产密钥</button>
     </form>
   </dialog>
 

@@ -1,8 +1,8 @@
 const $ = selector => document.querySelector(selector);
 const $$ = selector => [...document.querySelectorAll(selector)];
 const state = {
-  key: sessionStorage.getItem('factoryKey') || '', jobs: [], catalog: [], selected: new Map(),
-  category: '', catalogQuery: '', catalogPage: 1, catalogTotal: 0, categories: [], jobStatus: 'all', jobQuery: '', activeJob: null
+  key: localStorage.getItem('factoryKey') || '', jobs: [], catalog: [], selected: new Map(),
+  category: '', catalogQuery: '', catalogPage: 1, catalogTotal: 0, categories: [], jobStatus: 'all', jobQuery: '', activeJob: null, pendingStart: false
 };
 const stages = {queued:'等待调度',source:'读取事实与素材',script:'编写中文脚本',render:'画面与配音渲染',quality:'七道质量检查',published:'成片已发布',failed:'任务未通过'};
 const statusNames = {queued:'排队中',running:'生产中',succeeded:'已通过品控',failed:'需要处理'};
@@ -15,7 +15,7 @@ let catalogTimer;
 function escapeHtml(value=''){return String(value).replace(/[&<>'"]/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]))}
 function formatDate(value,withTime=true){if(!value)return '—';const date=new Date(value);if(Number.isNaN(date.getTime()))return '—';return new Intl.DateTimeFormat('zh-CN',withTime?{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'}:{year:'numeric',month:'2-digit',day:'2-digit'}).format(date)}
 function showToast(text){const toast=$('#toast');toast.textContent=text;toast.classList.add('show');clearTimeout(showToast.timer);showToast.timer=setTimeout(()=>toast.classList.remove('show'),2600)}
-function setConnected(online){const el=$('#connectionState');el.classList.toggle('online',online);el.lastChild.textContent=online?' 已连接':' 等待连接'}
+function setConnected(mode){const el=$('#connectionState');const production=mode==='production';el.classList.toggle('online',mode!=='offline');el.lastChild.textContent=production?' 云端生产已启用':mode==='catalog'?' 案例库已连接':' 后端待激活';$('#keyButton').textContent=production?'生产权限':'启用生产';$('#forgetKey').hidden=!state.key}
 function showAccess(message=''){$('#accessKey').value=state.key;$('#accessError').textContent=message;if(!$('#accessDialog').open)$('#accessDialog').showModal();setTimeout(()=>$('#accessKey').focus(),30)}
 
 async function api(path,options={}){
@@ -34,9 +34,9 @@ function updateStats(){
 }
 
 async function loadJobs({quiet=false}={}){
-  if(!state.key){setConnected(false);$('#jobs').innerHTML='<div class="empty"><b>连接生产台后查看任务</b>访问密钥只保存在本次浏览器会话中。</div>';return}
-  try{const data=await api('/api/jobs');state.jobs=data.jobs||[];setConnected(true);renderJobs();updateStats();if(state.activeJob)await openJob(state.activeJob,true)}
-  catch(error){setConnected(false);if(error.status===401){state.key='';sessionStorage.removeItem('factoryKey');showAccess('访问密钥无效，请重新输入。')}else if(!quiet)showToast(error.message)}
+  if(!state.key){setConnected('catalog');$('#jobs').innerHTML='<div class="empty"><b>尚未启用云端生产</b>先从案例库选题；提交第一条任务时验证一次生产密钥即可。</div>';return}
+  try{const data=await api('/api/jobs');state.jobs=data.jobs||[];setConnected('production');renderJobs();updateStats();if(state.activeJob)await openJob(state.activeJob,true)}
+  catch(error){setConnected('catalog');if(error.status===401){state.key='';localStorage.removeItem('factoryKey');showAccess('生产密钥不正确，请重新输入。')}else if(!quiet)showToast(error.message)}
 }
 
 function jobMatches(job){
@@ -57,7 +57,6 @@ function renderJobs(){
 }
 
 async function loadCatalog({append=false}={}){
-  if(!state.key)return;
   const root=$('#catalogGrid');if(!append)root.innerHTML='<div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div>';
   const params=new URLSearchParams({q:state.catalogQuery,category:state.category,page:String(state.catalogPage),pageSize:'20'});
   try{const data=await api(`/api/catalog?${params}`);state.catalog=append?[...state.catalog,...data.items]:data.items;state.catalogTotal=data.total;state.categories=data.categories||[];renderCategories();renderCatalog()}
@@ -71,7 +70,7 @@ function renderCategories(){
 function renderCatalog(){
   const root=$('#catalogGrid');
   if(!state.catalog.length){root.innerHTML='<div class="empty"><b>没有找到相关案例</b>换一个关键词或选择其他分类。</div>';$('#loadMore').hidden=true;$('#catalogMeta').textContent='0 个案例';return}
-  root.innerHTML=state.catalog.map(item=>{const selected=state.selected.has(item.id);return `<article class="case-card ${selected?'selected':''}"><img class="case-cover" src="${escapeHtml(item.image)}" alt="${escapeHtml(item.name)}项目图片" loading="lazy"><div class="case-info"><div class="case-meta"><span>${escapeHtml(item.category)}</span><span>3–5 份素材就绪</span></div><h3>${escapeHtml(item.name)}</h3><p>${escapeHtml(item.summary)}</p><button type="button" data-select-case="${item.id}">${selected?'✓ 已加入生产':'＋ 加入生产'}</button></div></article>`}).join('');
+  root.innerHTML=state.catalog.map(item=>{const selected=state.selected.has(item.id);const ready=item.mediaReady!==false;return `<article class="case-card ${selected?'selected':''} ${ready?'':'not-ready'}"><img class="case-cover" src="${escapeHtml(item.image)}" alt="${escapeHtml(item.name)}项目图片" loading="lazy"><div class="case-info"><div class="case-meta"><span>${escapeHtml(item.category)}</span><span>${item.mediaCount||0} 份原始素材</span></div><h3>${escapeHtml(item.name)}</h3><p>${escapeHtml(item.summary)}</p><div class="case-actions"><a href="${escapeHtml(item.caseUrl)}" target="_blank" rel="noopener">查看案例</a><button type="button" data-select-case="${item.id}" ${ready?'':'disabled'}>${ready?(selected?'✓ 已加入生产':'＋ 加入生产'):'素材不足'}</button></div></div></article>`}).join('');
   root.querySelectorAll('[data-select-case]').forEach(button=>button.onclick=()=>toggleCase(button.dataset.selectCase));
   $('#catalogMeta').textContent=`已显示 ${state.catalog.length} / ${state.catalogTotal} 个案例`;$('#loadMore').hidden=state.catalog.length>=state.catalogTotal;
 }
@@ -89,6 +88,7 @@ function renderSelection(){
 
 async function startProduction(){
   const button=$('#startProduction'),message=$('#createMessage'),caseIds=[...state.selected.keys()];if(!caseIds.length)return;
+  if(!state.key){state.pendingStart=true;showAccess('验证后会直接提交当前选择的案例。');return}
   button.disabled=true;button.querySelector('span').textContent='正在提交任务';message.textContent='系统正在创建生产工作流……';message.className='form-message';
   try{const result=await api('/api/jobs',{method:'POST',body:JSON.stringify({caseIds})});message.textContent=`已提交 ${result.count} 条任务，生产过程将在后台自动完成。`;message.classList.add('success');state.selected.clear();renderSelection();renderCatalog();await loadJobs();location.hash='queueSection';showToast(`${result.count} 条任务已进入生产队列`)}
   catch(error){message.textContent=error.message}
@@ -112,10 +112,11 @@ async function openJob(id,refreshOnly=false){
 $('#accessForm').onsubmit=async event=>{
   event.preventDefault();const next=$('#accessKey').value.trim();if(!next){$('#accessError').textContent='请输入访问密钥。';return}
   state.key=next;
-  try{await api('/api/jobs');sessionStorage.setItem('factoryKey',state.key);$('#accessDialog').close();setConnected(true);await Promise.all([loadJobs(),loadCatalog()]);showToast('生产台已连接')}
-  catch(error){state.key='';$('#accessError').textContent=error.status===401?'访问密钥不正确。':error.message;setConnected(false)}
+  try{await api('/api/jobs');localStorage.setItem('factoryKey',state.key);$('#accessDialog').close();setConnected('production');await loadJobs();showToast('云端生产已启用');if(state.pendingStart){state.pendingStart=false;await startProduction()}}
+  catch(error){state.key='';localStorage.removeItem('factoryKey');$('#accessError').textContent=error.status===401?'生产密钥不正确。':error.message;setConnected('catalog')}
 };
 $('#keyButton').onclick=()=>showAccess();$('#toggleKey').onclick=()=>{const input=$('#accessKey');input.type=input.type==='password'?'text':'password';$('#toggleKey').textContent=input.type==='password'?'显示':'隐藏'};
+$('#forgetKey').onclick=()=>{state.key='';state.pendingStart=false;localStorage.removeItem('factoryKey');$('#accessDialog').close();setConnected('catalog');loadJobs();showToast('已清除本机生产密钥')};
 $('.access-dialog .dialog-close').onclick=()=>$('#accessDialog').close();
 $$('.mode-tabs button').forEach(button=>button.onclick=()=>{$$('.mode-tabs button').forEach(item=>{item.classList.toggle('active',item===button);item.setAttribute('aria-selected',String(item===button))});$('#catalogMode').hidden=button.dataset.mode!=='catalog';$('#idsMode').hidden=button.dataset.mode!=='ids'});
 $('#catalogSearch').oninput=event=>{state.catalogQuery=event.target.value.trim();state.catalogPage=1;clearTimeout(catalogTimer);catalogTimer=setTimeout(()=>loadCatalog(),320)};
@@ -134,8 +135,8 @@ if(isLocalFile){
   $('#catalogGrid').innerHTML='<div class="empty"><b>正式网址上线后读取案例库</b>本地文件只用于检查视觉，不会连接生产接口。</div>';
   $('#catalogMeta').textContent='本地视觉预览';$('#jobs').innerHTML='<div class="empty"><b>正式网址上线后显示任务</b>请从 Cloudflare 固定网址使用完整生产功能。</div>';
 }else{
-  try{const health=await fetch(`${apiOrigin}/api/health`);if(!health.ok)throw new Error('API unavailable');$('#systemState').lastChild.textContent=' 系统就绪';if(state.key)await Promise.all([loadJobs(),loadCatalog()]);else{setConnected(false);showAccess()}}
-  catch{$('#localPreviewNotice').hidden=false;$('#localPreviewNotice').innerHTML='<div><b>产品入口已上线</b><span>视频渲染服务等待 Cloudflare R2 激活后接通。</span></div><a href="https://ai-shengyi-jing.pages.dev">返回 AI生意经主站 →</a>';$('#connectionState').lastChild.textContent=' 后端待激活';$('#systemState').lastChild.textContent=' 后端待激活';$('#catalogGrid').innerHTML='<div class="empty"><b>生产后端正在配置</b>固定产品入口已经可用，R2 激活后将自动接通案例库与生产任务。</div>';$('#jobs').innerHTML='<div class="empty"><b>暂未连接渲染服务</b>完成 Cloudflare R2 激活后即可开始批量生产。</div>'}
+  try{const health=await fetch(`${apiOrigin}/api/health`);if(!health.ok)throw new Error('API unavailable');$('#systemState').lastChild.textContent=' 系统就绪';setConnected(state.key?'production':'catalog');await Promise.all([loadCatalog(),loadJobs()])}
+  catch{$('#localPreviewNotice').hidden=false;$('#localPreviewNotice').innerHTML='<div><b>产品入口已上线</b><span>视频渲染服务等待 Cloudflare R2 激活后接通。</span></div><a href="https://ai-shengyi-jing.pages.dev">返回 AI生意经主站 →</a>';setConnected('offline');$('#systemState').lastChild.textContent=' 后端待激活';$('#catalogGrid').innerHTML='<div class="empty"><b>生产后端正在配置</b>固定产品入口已经可用，R2 激活后将自动接通案例库与生产任务。</div>';$('#jobs').innerHTML='<div class="empty"><b>暂未连接渲染服务</b>完成 Cloudflare R2 激活后即可开始批量生产。</div>'}
 }}
 bootstrap();
 setInterval(()=>{if(!isLocalFile&&state.key)loadJobs({quiet:true})},10000);
