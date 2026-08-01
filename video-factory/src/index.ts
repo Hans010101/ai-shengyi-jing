@@ -6,7 +6,7 @@ import type { Env } from './types';
 export { VideoProductionWorkflow, VideoRenderer };
 
 function json(body: unknown, status = 200) {
-  return Response.json(body, { status, headers: { 'Cache-Control': 'no-store', 'X-Content-Type-Options': 'nosniff' } });
+  return Response.json(body, { status, headers: { 'Cache-Control': 'no-store', 'X-Content-Type-Options': 'nosniff', 'Access-Control-Allow-Origin': 'https://ai-shengyi-video-studio.pages.dev', 'Access-Control-Allow-Headers': 'Content-Type, X-Factory-Key, Authorization', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS' } });
 }
 
 async function authorized(request: Request, env: Env) {
@@ -32,7 +32,7 @@ async function enqueueCase(env: Env, caseId: string) {
 async function serveR2(env: Env, key: string, disposition = 'inline') {
   const object = await env.VIDEO_BUCKET.get(key);
   if (!object) return new Response('Not found', { status: 404 });
-  const headers = new Headers(); object.writeHttpMetadata(headers); headers.set('ETag', object.httpEtag); headers.set('Cache-Control', 'public, max-age=3600'); headers.set('Content-Disposition', disposition);
+  const headers = new Headers(); object.writeHttpMetadata(headers); headers.set('ETag', object.httpEtag); headers.set('Cache-Control', 'public, max-age=3600'); headers.set('Content-Disposition', disposition); headers.set('Access-Control-Allow-Origin', 'https://ai-shengyi-video-studio.pages.dev');
   return new Response(object.body, { headers });
 }
 
@@ -77,6 +77,7 @@ async function catalog(request: Request, env: Env) {
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url);
+    if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: { 'Access-Control-Allow-Origin': 'https://ai-shengyi-video-studio.pages.dev', 'Access-Control-Allow-Headers': 'Content-Type, X-Factory-Key, Authorization', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Max-Age': '86400' } });
     if (url.pathname === '/api/health') return json({ ok: true, service: 'AI生意经视频工厂', version: env.FACTORY_VERSION, time: new Date().toISOString() });
     if (url.pathname.startsWith('/output/')) {
       const [, , jobId, filename] = url.pathname.split('/');

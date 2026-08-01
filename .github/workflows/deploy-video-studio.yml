@@ -1,0 +1,35 @@
+name: Deploy video studio
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'video-factory/public/**'
+      - '.github/workflows/deploy-video-studio.yml'
+
+concurrency:
+  group: deploy-video-studio
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: video-factory
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: video-factory/package-lock.json
+      - run: npm ci
+      - name: Validate frontend
+        run: node --check public/app.js
+      - name: Deploy independent product frontend
+        run: npx wrangler pages deploy public --project-name ai-shengyi-video-studio --branch main --commit-dirty=true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}

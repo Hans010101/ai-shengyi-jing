@@ -43,6 +43,14 @@ npm run dev
 
 ## 部署
 
+独立生产台前端部署在 Cloudflare Pages：
+
+- 固定入口：`https://ai-shengyi-video-studio.pages.dev`
+- 生产 API：`https://ai-shengyi-video-factory.workers.dev`
+- GitHub 主分支更新 `video-factory/public/**` 后，由 `deploy-video-studio.yml` 自动发布前端
+
+前端与生产后端分开发布，因此 R2 或容器尚未激活时，产品入口仍能稳定访问，并显示明确的后端状态。
+
 首次部署前设置两个密钥：
 
 ```bash
