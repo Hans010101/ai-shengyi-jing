@@ -8,7 +8,7 @@ const stages = {queued:'等待调度',source:'读取事实与素材',script:'编
 const statusNames = {queued:'排队中',running:'生产中',succeeded:'已通过品控',failed:'需要处理'};
 const errorNames = {CASE_NOT_FOUND:'没有找到这个案例',INSUFFICIENT_MEDIA:'有效素材不足 3 份',INSUFFICIENT_VALID_MEDIA:'素材清晰度或相关性不足',QUALITY_GATE_FAILED:'成片未通过自动品控',RENDER_FAILED:'渲染过程失败',RENDER_TIMEOUT:'渲染超时',RENDERER_UNAVAILABLE:'云端渲染服务尚未开通'};
 const isLocalFile = location.protocol === 'file:';
-const productionApiOrigin = 'https://ai-shengyi-video-factory.workers.dev';
+const productionApiOrigin = 'https://ai-shengyi-video-factory.hans-pan007.workers.dev';
 const apiOrigin = location.hostname.endsWith('.pages.dev') ? productionApiOrigin : '';
 let catalogTimer;
 

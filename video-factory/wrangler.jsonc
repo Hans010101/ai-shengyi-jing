@@ -58,7 +58,7 @@
     "AUTO_BATCH_SIZE": "2",
     "ARTIFACT_RETENTION_DAYS": "3",
     "RENDERER_ENABLED": "true",
-    "PUBLIC_ORIGIN": "https://ai-shengyi-video-factory.workers.dev"
+    "PUBLIC_ORIGIN": "https://ai-shengyi-video-factory.hans-pan007.workers.dev"
   },
   "observability": { "enabled": true }
 }

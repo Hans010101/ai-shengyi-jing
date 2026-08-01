@@ -5,7 +5,6 @@
   "compatibility_date": "2026-07-31",
   "compatibility_flags": ["nodejs_compat"],
   "workers_dev": true,
-  "triggers": { "crons": ["15 1 * * *"] },
   "assets": {
     "directory": "./public",
     "binding": "ASSETS",
@@ -35,7 +34,7 @@
     "AUTO_BATCH_SIZE": "0",
     "ARTIFACT_RETENTION_DAYS": "3",
     "RENDERER_ENABLED": "false",
-    "PUBLIC_ORIGIN": "https://ai-shengyi-video-factory.workers.dev"
+    "PUBLIC_ORIGIN": "https://ai-shengyi-video-factory.hans-pan007.workers.dev"
   },
   "observability": { "enabled": true }
 }
