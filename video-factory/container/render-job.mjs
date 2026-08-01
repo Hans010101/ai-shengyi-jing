@@ -122,7 +122,8 @@ try {
 
   status('check', 50);
   const hyperframes = '/app/node_modules/.bin/hyperframes';
-  const browserEnv = { ...process.env, HOME: '/work', PUPPETEER_EXECUTABLE_PATH: '/usr/bin/chromium', HYPERFRAMES_BROWSER_PATH: '/usr/bin/chromium' };
+  const browserPath = process.env.PUPPETEER_EXECUTABLE_PATH || process.env.HYPERFRAMES_BROWSER_PATH || '/usr/bin/chromium';
+  const browserEnv = { ...process.env, HOME: '/work', PUPPETEER_EXECUTABLE_PATH: browserPath, HYPERFRAMES_BROWSER_PATH: browserPath };
   const checkLog = run(hyperframes, ['check', '--snapshots', '--samples', '13', '--at-transitions', '--timeout', '30000'], { cwd: projectDir, env: browserEnv });
   status('render', 62);
   // Keep the full 1080x1920 canvas and 30 fps, but use HyperFrames' cloud-safe
