@@ -85,7 +85,7 @@ export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url);
     if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: { 'Access-Control-Allow-Origin': 'https://ai-shengyi-video-studio.pages.dev', 'Access-Control-Allow-Headers': 'Content-Type, X-Factory-Key, Authorization', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Max-Age': '86400' } });
-    if (url.pathname === '/api/health') return json({ ok: true, service: 'AI生意经视频工厂', version: env.FACTORY_VERSION, ai: { primary: 'Cloudflare Workers AI', fallback: env.DEEPSEEK_API_KEY ? 'DeepSeek' : 'deterministic' }, caseSource: 'AI生意经', retentionDays: Number(env.ARTIFACT_RETENTION_DAYS || 3), time: new Date().toISOString() });
+    if (url.pathname === '/api/health') return json({ ok: true, service: 'AI生意经视频工厂', version: env.FACTORY_VERSION, renderer: { enabled: env.RENDERER_ENABLED === 'true', provider: 'Cloudflare Containers' }, ai: { primary: 'Cloudflare Workers AI', fallback: env.DEEPSEEK_API_KEY ? 'DeepSeek' : 'deterministic' }, caseSource: 'AI生意经', retentionDays: Number(env.ARTIFACT_RETENTION_DAYS || 3), time: new Date().toISOString() });
     if (url.pathname.startsWith('/output/')) {
       const [, , jobId, filename] = url.pathname.split('/');
       const job: any = await env.VIDEO_DB.prepare('SELECT output_key, poster_key, audio_key, qa_key, status, artifacts_deleted_at FROM jobs WHERE id = ?').bind(jobId).first();
@@ -97,6 +97,7 @@ export default {
     if (url.pathname === '/api/catalog' && request.method === 'GET') return catalog(request, env);
     if (url.pathname.startsWith('/api/') && !(await authorized(request, env))) return json({ error: 'UNAUTHORIZED' }, 401);
     if (url.pathname === '/api/jobs' && request.method === 'POST') {
+      if (env.RENDERER_ENABLED !== 'true') return json({ error: 'RENDERER_UNAVAILABLE', detail: '云端渲染服务尚未开通，请先启用 Cloudflare Workers Paid / Containers。' }, 503);
       const body: any = await request.json().catch(() => null);
       const values = Array.isArray(body?.caseIds) ? body.caseIds : [body?.caseId];
       const caseIds = [...new Set(values.map((value: unknown) => String(value || '').trim()).filter(Boolean))] as string[];

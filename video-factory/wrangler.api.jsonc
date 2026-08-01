@@ -25,29 +25,6 @@
       "class_name": "VideoProductionWorkflow"
     }
   ],
-  "containers": [
-    {
-      "name": "ai-shengyi-video-renderer",
-      "class_name": "VideoRenderer",
-      "image": "./container/Dockerfile",
-      "image_build_context": ".",
-      "max_instances": 3,
-      "instance_type": {
-        "vcpu": 2,
-        "memory_mib": 8192,
-        "disk_mb": 12000
-      },
-      "constraints": { "regions": ["APAC"] }
-    }
-  ],
-  "durable_objects": {
-    "bindings": [
-      { "name": "VIDEO_RENDERER", "class_name": "VideoRenderer" }
-    ]
-  },
-  "migrations": [
-    { "tag": "v1", "new_sqlite_classes": ["VideoRenderer"] }
-  ],
   "vars": {
     "PROJECT_DATA_URL": "https://ai-shengyi-jing.pages.dev/data/projects_live.json",
     "ARTICLE_DATA_URL": "https://ai-shengyi-jing.pages.dev/data/case_articles.json",
@@ -55,9 +32,9 @@
     "SCRIPT_MODEL": "@cf/meta/llama-3.1-8b-instruct-fast",
     "ASR_MODEL": "@cf/openai/whisper-large-v3-turbo",
     "FACTORY_VERSION": "0.2.0",
-    "AUTO_BATCH_SIZE": "2",
+    "AUTO_BATCH_SIZE": "0",
     "ARTIFACT_RETENTION_DAYS": "3",
-    "RENDERER_ENABLED": "true",
+    "RENDERER_ENABLED": "false",
     "PUBLIC_ORIGIN": "https://ai-shengyi-video-factory.workers.dev"
   },
   "observability": { "enabled": true }

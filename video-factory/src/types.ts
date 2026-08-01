@@ -16,6 +16,7 @@ export interface Env {
   FACTORY_VERSION: string;
   AUTO_BATCH_SIZE: string;
   ARTIFACT_RETENTION_DAYS: string;
+  RENDERER_ENABLED: string;
   PUBLIC_ORIGIN: string;
 }
 

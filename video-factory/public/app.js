@@ -6,7 +6,7 @@ const state = {
 };
 const stages = {queued:'等待调度',source:'读取事实与素材',script:'编写中文脚本',render:'画面与配音渲染',quality:'七道质量检查',published:'成片已发布',failed:'任务未通过'};
 const statusNames = {queued:'排队中',running:'生产中',succeeded:'已通过品控',failed:'需要处理'};
-const errorNames = {CASE_NOT_FOUND:'没有找到这个案例',INSUFFICIENT_MEDIA:'有效素材不足 3 份',INSUFFICIENT_VALID_MEDIA:'素材清晰度或相关性不足',QUALITY_GATE_FAILED:'成片未通过自动品控',RENDER_FAILED:'渲染过程失败',RENDER_TIMEOUT:'渲染超时'};
+const errorNames = {CASE_NOT_FOUND:'没有找到这个案例',INSUFFICIENT_MEDIA:'有效素材不足 3 份',INSUFFICIENT_VALID_MEDIA:'素材清晰度或相关性不足',QUALITY_GATE_FAILED:'成片未通过自动品控',RENDER_FAILED:'渲染过程失败',RENDER_TIMEOUT:'渲染超时',RENDERER_UNAVAILABLE:'云端渲染服务尚未开通'};
 const isLocalFile = location.protocol === 'file:';
 const productionApiOrigin = 'https://ai-shengyi-video-factory.workers.dev';
 const apiOrigin = location.hostname.endsWith('.pages.dev') ? productionApiOrigin : '';
@@ -135,7 +135,7 @@ if(isLocalFile){
   $('#catalogGrid').innerHTML='<div class="empty"><b>正式网址上线后读取案例库</b>本地文件只用于检查视觉，不会连接生产接口。</div>';
   $('#catalogMeta').textContent='本地视觉预览';$('#jobs').innerHTML='<div class="empty"><b>正式网址上线后显示任务</b>请从 Cloudflare 固定网址使用完整生产功能。</div>';
 }else{
-  try{const health=await fetch(`${apiOrigin}/api/health`);if(!health.ok)throw new Error('API unavailable');$('#systemState').lastChild.textContent=' 系统就绪';setConnected(state.key?'production':'catalog');await Promise.all([loadCatalog(),loadJobs()])}
+  try{const healthResponse=await fetch(`${apiOrigin}/api/health`);if(!healthResponse.ok)throw new Error('API unavailable');const health=await healthResponse.json();const rendererReady=health?.renderer?.enabled===true;$('#systemState').lastChild.textContent=rendererReady?' 系统就绪':' 案例库已就绪';setConnected(rendererReady?(state.key?'production':'catalog'):'catalog');$('#keyButton').disabled=!rendererReady;$('#keyButton').textContent=rendererReady?(state.key?'生产权限':'启用生产'):'渲染待开通';await Promise.all([loadCatalog(),loadJobs()])}
   catch{$('#localPreviewNotice').hidden=false;$('#localPreviewNotice').innerHTML='<div><b>产品入口已上线</b><span>视频渲染服务等待 Cloudflare R2 激活后接通。</span></div><a href="https://ai-shengyi-jing.pages.dev">返回 AI生意经主站 →</a>';setConnected('offline');$('#systemState').lastChild.textContent=' 后端待激活';$('#catalogGrid').innerHTML='<div class="empty"><b>生产后端正在配置</b>固定产品入口已经可用，R2 激活后将自动接通案例库与生产任务。</div>';$('#jobs').innerHTML='<div class="empty"><b>暂未连接渲染服务</b>完成 Cloudflare R2 激活后即可开始批量生产。</div>'}
 }}
 bootstrap();
