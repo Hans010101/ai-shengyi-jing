@@ -7,9 +7,17 @@ ENV DEBIAN_FRONTEND=noninteractive \
     PUPPETEER_SKIP_DOWNLOAD=1 \
     PYTHONUNBUFFERED=1
 
+# Keep the runtime in several registry-friendly layers. Cloudflare's container
+# registry can stall on a single compressed layer containing Chromium, FFmpeg,
+# Python and the CJK fonts together, while each layer below remains reusable.
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    chromium ffmpeg imagemagick python3 python3-pip fonts-noto-cjk fonts-noto-color-emoji \
-    ca-certificates tini && rm -rf /var/lib/apt/lists/*
+    chromium ca-certificates tini && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    ffmpeg imagemagick && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    python3 python3-pip && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    fonts-noto-cjk fonts-noto-color-emoji && rm -rf /var/lib/apt/lists/*
 
 RUN pip3 install --break-system-packages --no-cache-dir edge-tts==7.2.7
 
