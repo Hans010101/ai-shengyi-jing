@@ -22,8 +22,8 @@ RUN apt-get update \
 FROM node:22-bookworm-slim
 
 ENV DEBIAN_FRONTEND=noninteractive \
-    PUPPETEER_EXECUTABLE_PATH=/work/chromium/chromium \
-    HYPERFRAMES_BROWSER_PATH=/work/chromium/chromium \
+    PUPPETEER_EXECUTABLE_PATH=/usr/lib/chromium/chromium \
+    HYPERFRAMES_BROWSER_PATH=/usr/lib/chromium/chromium \
     PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 \
     PUPPETEER_SKIP_DOWNLOAD=1 \
     PYTHONUNBUFFERED=1
@@ -73,7 +73,9 @@ COPY --chown=node:node container/package.json ./package.json
 COPY --from=node-deps --chown=node:node /app/node_modules ./node_modules
 COPY --chown=node:node container/server.mjs container/render-job.mjs container/entrypoint.sh ./
 
-RUN mkdir -p /work/jobs && chown -R node:node /work
+RUN mkdir -p /work/jobs \
+    && chown -R node:node /work \
+    && chown node:node /usr/lib/chromium
 USER node
 EXPOSE 8080
 ENTRYPOINT ["/usr/bin/tini", "--", "sh", "/app/entrypoint.sh"]
