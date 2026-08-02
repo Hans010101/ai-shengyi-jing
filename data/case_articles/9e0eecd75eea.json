@@ -132,32 +132,24 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "浏览器自动化云服务的商业增长闭环",
-      "items": [
-        "【引流】：通过SEO、技术博客、开源社区（如GitHub）吸引开发者",
-        "【产品】：提供免费试用和API文档，让用户体验服务",
-        "【变现】：免费层限制用量，付费解锁更高配额，使用量超限自动升级或购买套餐",
-        "【留存】：提供稳定服务、开发者支持、新功能迭代，形成依赖"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/65cb4923a3a6b08fe1124094/6601a7a5b8508b353addd84f_social-preview.jpg",
+      "caption": "浏览器自动化云服务官网：产品界面与核心功能展示",
+      "alt": "浏览器自动化云服务官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.browserless.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "浏览器自动化云服务的产品与交付路径",
-      "items": [
-        "用户注册",
-        "获取API密钥",
-        "调用API（如发送请求）",
-        "云端无头浏览器执行任务（如抓取、截图）"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://www.browserless.io/.netlify/images?url=%2Fmarketing%2Fdashboard%2Frequests.webp&w=3840&q=75",
+      "caption": "浏览器自动化云服务官网：产品后台与数据看板",
+      "alt": "浏览器自动化云服务官网：产品后台与数据看板",
+      "sourceUrl": "https://www.browserless.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {

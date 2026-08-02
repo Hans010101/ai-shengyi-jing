@@ -132,31 +132,44 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "LUMIQ数据洞察平台的商业增长闭环",
-      "items": [
-        "【引流】：SEO内容营销、行业报告、免费试用",
-        "【产品】：AI分析平台，上传数据或API接入",
-        "【变现】：免费试用后订阅付费，按数据量增值服务"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://static.wixstatic.com/media/6afd7a_67e74fe43b744a3e8e359053b6f50e84~mv2.png",
+      "caption": "LUMIQ数据洞察平台官网：数据分析与决策功能界面",
+      "alt": "LUMIQ数据洞察平台官网：数据分析与决策功能界面",
+      "sourceUrl": "https://www.lumiq.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "LUMIQ数据洞察平台的产品与交付路径",
-      "items": [
-        "数据采集模块",
-        "数据清洗与预处理",
-        "AI分析引擎（NLP+大模型）",
-        "可视化报告生成"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://static.wixstatic.com/media/6afd7a_a123272a77bf4a85a732b50782e99090~mv2.png",
+      "caption": "LUMIQ数据洞察平台官网：数据分析与决策功能界面",
+      "alt": "LUMIQ数据洞察平台官网：数据分析与决策功能界面",
+      "sourceUrl": "https://www.lumiq.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://static.wixstatic.com/media/6afd7a_e98c1110aa4d40e1b551dfced710d749~mv2.png",
+      "caption": "LUMIQ数据洞察平台官网：产品后台与数据看板",
+      "alt": "LUMIQ数据洞察平台官网：产品后台与数据看板",
+      "sourceUrl": "https://www.lumiq.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://static.wixstatic.com/media/96d591_9cf13a3b483c4766bc04647407dc3c04~mv2.jpg",
+      "caption": "LUMIQ数据洞察平台官网：产品界面与核心功能展示",
+      "alt": "LUMIQ数据洞察平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.lumiq.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -171,6 +184,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2305,
-    "mediaCount": 3
+    "mediaCount": 5
   }
 }

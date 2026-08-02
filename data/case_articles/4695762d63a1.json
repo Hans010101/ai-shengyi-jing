@@ -132,32 +132,44 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "Bugfender远程日志调试工具的商业增长闭环",
-      "items": [
-        "【引流】：开发者社区内容营销",
-        "【产品】：免费试用+Web控制台体验",
-        "【变现】：订阅付费",
-        "【留存】：持续功能迭代+客户成功"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://bugfender.com/wp-content/themes/bugfender2024/images/social_card.jpg",
+      "caption": "Bugfender远程日志调试工具官网：产品界面与核心功能展示",
+      "alt": "Bugfender远程日志调试工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://bugfender.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "Bugfender远程日志调试工具的产品与交付路径",
-      "items": [
-        "SDK日志采集",
-        "后端接收存储",
-        "Web控制台查询分析",
-        "告警通知"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://bugfender.com/wp-content/themes/bugfender2024/images/images/hero_image_wrapper.webp",
+      "caption": "Bugfender远程日志调试工具官网：产品后台与数据看板",
+      "alt": "Bugfender远程日志调试工具官网：产品后台与数据看板",
+      "sourceUrl": "https://bugfender.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://bugfender.com/wp-content/themes/bugfender2024/images/images/feature_remote_logging.webp",
+      "caption": "Bugfender远程日志调试工具官网：远程日志监控功能界面",
+      "alt": "Bugfender远程日志调试工具官网：远程日志监控功能界面",
+      "sourceUrl": "https://bugfender.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://bugfender.com/wp-content/themes/bugfender2024/images/images/feature_error_monitoring.webp",
+      "caption": "Bugfender远程日志调试工具官网：错误监控与问题定位界面",
+      "alt": "Bugfender远程日志调试工具官网：错误监控与问题定位界面",
+      "sourceUrl": "https://bugfender.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -172,6 +184,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2242,
-    "mediaCount": 3
+    "mediaCount": 5
   }
 }

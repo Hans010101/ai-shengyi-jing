@@ -9,7 +9,11 @@ from pipeline.content_quality import derive_chinese_name, is_placeholder
 from pipeline.scraper import make_id, parse_detail_html, parse_listing_html
 from scripts.build_edgeone import EDGEONE_PATHS, build as build_edgeone
 from scripts.build_site import PUBLISH_PATHS, build, public_output_paths
-from scripts.generate_case_catalog import clean_existing_media, ensure_visual_media
+from scripts.generate_case_catalog import (
+    clean_existing_media,
+    ensure_visual_media,
+    extract_official_media,
+)
 from scripts.validate_case_catalog import validate as validate_case_catalog
 from scripts.validate_data import validate
 
@@ -493,6 +497,54 @@ class ContentQualityTests(unittest.TestCase):
         self.assertIn("editorial-infographic", case_js)
         self.assertIn("AI生意经原创信息图", case_js)
         self.assertIn(".infographic-flow", case_css)
+
+    def test_official_media_prefers_product_scenes_and_playable_video(self):
+        project = {
+            "id": "example",
+            "nameZh": "示例项目",
+            "website": "https://example.com",
+        }
+        media = extract_official_media(
+            project,
+            """
+            <html><head>
+              <meta property="og:image" content="/social-product-preview.jpg">
+            </head><body><main>
+              <img alt="Example logo" src="/logo.svg">
+              <section><h2>Product workflow</h2>
+                <img alt="Powerful dashboard preview" src="/dashboard.png">
+                <img alt="Analytics screenshot" src="/analytics.jpg">
+                <img alt="Founder portrait" src="/founder.jpg">
+                <video poster="/demo-cover.jpg">
+                  <source src="/product-demo.mp4" type="video/mp4">
+                </video>
+                <video><source src="/animated-background/bg-waves.webm"></video>
+              </section>
+            </main></body></html>
+            """,
+            "https://example.com/",
+        )
+
+        urls = [item["url"] for item in media]
+        self.assertIn("https://example.com/dashboard.png", urls)
+        self.assertIn("https://example.com/analytics.jpg", urls)
+        self.assertIn("https://example.com/product-demo.mp4", urls)
+        self.assertNotIn("https://example.com/logo.svg", urls)
+        self.assertNotIn("https://example.com/founder.jpg", urls)
+        self.assertNotIn(
+            "https://example.com/animated-background/bg-waves.webm",
+            urls,
+        )
+        video = next(item for item in media if item["type"] == "video-file")
+        self.assertEqual(video["watchUrl"], video["url"])
+        self.assertEqual(video["poster"], "https://example.com/demo-cover.jpg")
+        self.assertEqual(video["origin"], "official-site-video")
+        self.assertTrue(all("示例项目官网" in item["caption"] for item in media))
+
+    def test_case_page_links_official_video_to_full_file(self):
+        case_js = Path("assets/case.js").read_text(encoding="utf-8")
+        self.assertIn("safeExternalUrl(media.watchUrl) || mediaUrl", case_js)
+        self.assertIn("观看完整视频", case_js)
 
     def test_existing_media_cleanup_removes_page_chrome_and_generic_captions(self):
         project = {

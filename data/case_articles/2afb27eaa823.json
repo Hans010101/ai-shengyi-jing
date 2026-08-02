@@ -142,18 +142,34 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "在线发票融资平台的商业增长闭环",
-      "items": [
-        "【引流】线上广告、供应链合作",
-        "【产品】发票融资平台",
-        "【变现】手续费+利差",
-        "【留存】快速放款、低坏账率"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/68a2ea29e0edb929471b5239/68a2fa2ab50267d026d8f70e_682c5dce1d1bd5fe5b6d7753_home-hero-group-image.avif",
+      "caption": "在线发票融资平台官网：官网展示的产品与实际使用场景",
+      "alt": "在线发票融资平台官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://incomlend.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/68a2ea29e0edb929471b5239/68a44c9240f8fef6f1ec5de1_pexels-mart-production-7709208.avif",
+      "caption": "在线发票融资平台官网：官网展示的产品与实际使用场景",
+      "alt": "在线发票融资平台官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://incomlend.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/68a2ea29e0edb929471b5239/68dc99d6e5c6ace100a02cdc_unnamed.avif",
+      "caption": "在线发票融资平台官网：产品后台与数据看板",
+      "alt": "在线发票融资平台官网：产品后台与数据看板",
+      "sourceUrl": "https://incomlend.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -168,6 +184,10 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2146,
-    "mediaCount": 3
+    "mediaCount": 5
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T09:41:26.688766+00:00"
   }
 }

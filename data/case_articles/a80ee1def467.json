@@ -132,31 +132,44 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "前端练功房的商业增长闭环",
-      "items": [
-        "【引流】：SEO、开发者社区、免费挑战",
-        "【产品】：在线挑战平台、社区",
-        "【变现】：订阅付费、企业招聘合作"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://www.frontendmentor.io/_next/image?url=%2Fimages%2Fhome-hero.webp&w=3840&q=100",
+      "caption": "前端练功房官网：设计稿、移动端页面与代码编辑器",
+      "alt": "前端练功房官网：设计稿、移动端页面与代码编辑器",
+      "sourceUrl": "https://www.frontendmentor.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "前端练功房的产品与交付路径",
-      "items": [
-        "用户注册",
-        "选择挑战",
-        "前端编码",
-        "提交代码"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://www.frontendmentor.io/_next/image?url=%2Fimages%2Fhome-why-2.webp&w=3840&q=75",
+      "caption": "前端练功房官网：全栈项目与数据看板练习界面",
+      "alt": "前端练功房官网：全栈项目与数据看板练习界面",
+      "sourceUrl": "https://www.frontendmentor.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.frontendmentor.io/_next/image?url=%2Fimages%2Fhome-why-3.webp&w=3840&q=75",
+      "caption": "前端练功房官网：设计稿、移动端页面与代码编辑器",
+      "alt": "前端练功房官网：设计稿、移动端页面与代码编辑器",
+      "sourceUrl": "https://www.frontendmentor.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.frontendmentor.io/_next/image?url=%2Fimages%2Fhome-why-4.webp&w=3840&q=75",
+      "caption": "前端练功房官网：官网展示的产品与实际使用场景",
+      "alt": "前端练功房官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.frontendmentor.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -171,6 +184,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2260,
-    "mediaCount": 3
+    "mediaCount": 5
   }
 }

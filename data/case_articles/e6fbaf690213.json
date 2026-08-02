@@ -132,31 +132,46 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "Later社交媒体排程工具的商业增长闭环",
-      "items": [
-        "【引流】：内容营销（博客、SEO）和免费增值模式",
-        "【产品】：社交媒体排程工具",
-        "【变现】：订阅付费和增值服务"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://images.ctfassets.net/nfpsrlop6sws/45Vk1pKDRiLbBlRiQEWC5X/ea32e64edd6d607565c1a7f6a4330f00/later-homepage-hero-image.png?fm=webp&w=688&q=80",
+      "caption": "Later社交媒体排程工具官网：社交媒体内容与营销活动场景",
+      "alt": "Later社交媒体排程工具官网：社交媒体内容与营销活动场景",
+      "sourceUrl": "https://later.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "Later社交媒体排程工具的产品与交付路径",
-      "items": [
-        "用户注册",
-        "连接社交账号",
-        "创建内容",
-        "选择排程时间"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://images.ctfassets.net/nfpsrlop6sws/csF10rKzwmQpOt34jHDuk/f55342a003c9cb7e298ec36e04adbd2d/featured-4.jpg?fm=webp&w=600&q=80",
+      "caption": "Later社交媒体排程工具官网：社交媒体内容与营销活动场景",
+      "alt": "Later社交媒体排程工具官网：社交媒体内容与营销活动场景",
+      "sourceUrl": "https://later.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://images.ctfassets.net/nfpsrlop6sws/3YpPgpAo7omQsRCNp8DfWv/da8efc771126b48d675339a45fcf6fb4/featured-3.jpg?fm=webp&w=800&q=80",
+      "caption": "Later社交媒体排程工具官网：社交媒体内容与营销活动场景",
+      "alt": "Later社交媒体排程工具官网：社交媒体内容与营销活动场景",
+      "sourceUrl": "https://later.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "video-file",
+      "url": "https://later-com.s3.us-east-1.amazonaws.com/web-videos/New+Later+Brand/Homepage+UGC+Row+1.mp4",
+      "watchUrl": "https://later-com.s3.us-east-1.amazonaws.com/web-videos/New+Later+Brand/Homepage+UGC+Row+1.mp4",
+      "poster": "https://images.ctfassets.net/nfpsrlop6sws/4huePv7JX8n0dtdtSC1bsO/80e2b8336635bcee33675bb901c93804/later-meta-image.jpg",
+      "caption": "Later社交媒体排程工具官网：产品界面与核心功能展示",
+      "alt": "Later社交媒体排程工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://later.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -171,6 +186,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2340,
-    "mediaCount": 3
+    "mediaCount": 5
   }
 }

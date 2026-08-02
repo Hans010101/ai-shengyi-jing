@@ -132,31 +132,34 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "开发者博客预售验证的商业增长闭环",
-      "items": [
-        "【引流】：技术博客/社交媒体",
-        "【产品】：电子书+咨询",
-        "【变现】：预售付费"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://bloggingfordevs.com/images/social-sharing-preview.png",
+      "caption": "开发者博客预售验证官网：产品界面与核心功能展示",
+      "alt": "开发者博客预售验证官网：产品界面与核心功能展示",
+      "sourceUrl": "https://bloggingfordevs.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "开发者博客预售验证的产品与交付路径",
-      "items": [
-        "内容创作",
-        "预售页面",
-        "支付模块",
-        "电子书交付"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://bloggingfordevs.com/images/google-analytics.jpeg",
+      "caption": "开发者博客预售验证官网：数据分析与决策功能界面",
+      "alt": "开发者博客预售验证官网：数据分析与决策功能界面",
+      "sourceUrl": "https://bloggingfordevs.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://bloggingfordevs.com/images/community-preview-footer.png",
+      "caption": "开发者博客预售验证官网：用户社区与产品使用场景",
+      "alt": "开发者博客预售验证官网：用户社区与产品使用场景",
+      "sourceUrl": "https://bloggingfordevs.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -171,6 +174,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2120,
-    "mediaCount": 3
+    "mediaCount": 4
   }
 }

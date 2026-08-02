@@ -142,18 +142,14 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "开源+ SaaS的CRM/ERP平台的商业增长闭环",
-      "items": [
-        "【引流】开源社区+内容营销",
-        "【产品】OneHash CRM/ERP",
-        "【变现】月度订阅费",
-        "【留存】持续更新+社区支持"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/5e53d34464688e6f5960a338/646753a793ad64001f7d35e0_Cal%20(3).png",
+      "caption": "开源+ SaaS的CRM/ERP平台官网：内容排期与发布管理界面",
+      "alt": "开源+ SaaS的CRM/ERP平台官网：内容排期与发布管理界面",
+      "sourceUrl": "https://www.onehash.ai/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -169,5 +165,9 @@
     "sectionCount": 8,
     "bodyCharacters": 2190,
     "mediaCount": 3
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T09:37:46.068137+00:00"
   }
 }

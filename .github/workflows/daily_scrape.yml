@@ -45,6 +45,9 @@ jobs:
             --workers 2 \
             --request-interval 0.65 \
             --request-retries 2
+          python3 scripts/generate_case_catalog.py \
+            --enrich-official-batch 40 \
+            --workers 4
           python3 scripts/validate_case_catalog.py
 
       - name: Commit new data

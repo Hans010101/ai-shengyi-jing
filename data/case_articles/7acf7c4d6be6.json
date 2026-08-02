@@ -132,32 +132,44 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "广告拦截变现器的商业增长闭环",
-      "items": [
-        "【引流】：通过SEO内容营销、行业报告、案例研究吸引网站主",
-        "【产品】：免费试用SDK，展示效果数据",
-        "【变现】：试用后按恢复收入分成或订阅收费",
-        "【留存】：持续优化广告体验，提供数据分析报告，提升客户粘性。"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://blockthrough.com/wp-content/uploads/2024/09/keyproduct-features-01-650x163.png",
+      "caption": "广告拦截变现器官网：产品界面与核心功能展示",
+      "alt": "广告拦截变现器官网：产品界面与核心功能展示",
+      "sourceUrl": "https://blockthrough.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "广告拦截变现器的产品与交付路径",
-      "items": [
-        "网站嵌入SDK",
-        "用户访问检测拦截器",
-        "展示替代广告",
-        "用户选择解除拦截"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://blockthrough.com/wp-content/uploads/2024/09/keyproduct-features-02-650x163.png",
+      "caption": "广告拦截变现器官网：产品界面与核心功能展示",
+      "alt": "广告拦截变现器官网：产品界面与核心功能展示",
+      "sourceUrl": "https://blockthrough.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://blockthrough.com/wp-content/uploads/2024/09/keyproduct-features-03-650x163.png",
+      "caption": "广告拦截变现器官网：产品界面与核心功能展示",
+      "alt": "广告拦截变现器官网：产品界面与核心功能展示",
+      "sourceUrl": "https://blockthrough.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://blockthrough.com/wp-content/uploads/2024/09/keyproduct-features-04-650x163.png",
+      "caption": "广告拦截变现器官网：产品界面与核心功能展示",
+      "alt": "广告拦截变现器官网：产品界面与核心功能展示",
+      "sourceUrl": "https://blockthrough.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -172,6 +184,6 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2438,
-    "mediaCount": 3
+    "mediaCount": 5
   }
 }

@@ -142,18 +142,34 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "行李临时寄存平台的商业增长闭环",
-      "items": [
-        "【引流】OTA合作+SEO+社交媒体",
-        "【产品】即时行李寄存网络",
-        "【变现】按小时/天收费+增值保险",
-        "【留存】会员折扣+推荐奖励"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://luggagehero.com/wp-content/uploads/2017/05/luggagehero-luggage-storage-2.png",
+      "caption": "行李临时寄存平台官网：产品界面与核心功能展示",
+      "alt": "行李临时寄存平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://luggagehero.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://luggagehero.com/wp-content/uploads/2020/08/app-1.png",
+      "caption": "行李临时寄存平台官网：官网展示的产品主场景",
+      "alt": "行李临时寄存平台官网：官网展示的产品主场景",
+      "sourceUrl": "https://luggagehero.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://luggagehero.com/wp-content/uploads/2020/08/app-2.png",
+      "caption": "行李临时寄存平台官网：官网展示的产品主场景",
+      "alt": "行李临时寄存平台官网：官网展示的产品主场景",
+      "sourceUrl": "https://luggagehero.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -168,6 +184,10 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2211,
-    "mediaCount": 3
+    "mediaCount": 5
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T09:37:46.068137+00:00"
   }
 }

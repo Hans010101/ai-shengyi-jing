@@ -142,18 +142,14 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "美国私人抵押贷款平台的商业增长闭环",
-      "items": [
-        "【引流】线上广告+经纪人合作",
-        "【产品】快速贷款服务",
-        "【变现】利息+手续费",
-        "【留存】复贷优惠+转介绍奖励"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://static.wixstatic.com/media/a2814c_7b0a843fae0942d0891bd6da69be369b%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/a2814c_7b0a843fae0942d0891bd6da69be369b%7Emv2.jpg",
+      "caption": "美国私人抵押贷款平台官网：产品界面与核心功能展示",
+      "alt": "美国私人抵押贷款平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.strattonequities.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -169,5 +165,9 @@
     "sectionCount": 8,
     "bodyCharacters": 2162,
     "mediaCount": 3
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T09:37:46.068137+00:00"
   }
 }

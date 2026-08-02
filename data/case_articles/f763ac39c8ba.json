@@ -142,18 +142,38 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "基于Gmail的邮件营销Chrome扩展的商业增长闭环",
-      "items": [
-        "【引流】SEO内容营销+口碑",
-        "【产品】GMass扩展",
-        "【变现】免费试用+订阅付费",
-        "【留存】持续功能更新+客户支持"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://cdn.gmass.co/SocialImages/gmass-ogimage-home-tinified.png",
+      "caption": "基于Gmail的邮件营销Chrome扩展官网：产品界面与核心功能展示",
+      "alt": "基于Gmail的邮件营销Chrome扩展官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.gmass.co/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "video-file",
+      "url": "https://cdn.gmass.co/assets/videos/intro.mp4",
+      "watchUrl": "https://cdn.gmass.co/assets/videos/intro.mp4",
+      "poster": "https://cdn.gmass.co/SocialImages/gmass-ogimage-home-tinified.png",
+      "caption": "基于Gmail的邮件营销Chrome扩展官网：产品界面与核心功能展示",
+      "alt": "基于Gmail的邮件营销Chrome扩展官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.gmass.co/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://cdn.gmass.co/assets/videos/video_1.mp4",
+      "watchUrl": "https://cdn.gmass.co/assets/videos/video_1.mp4",
+      "poster": "https://cdn.gmass.co/SocialImages/gmass-ogimage-home-tinified.png",
+      "caption": "基于Gmail的邮件营销Chrome扩展官网：产品界面与核心功能展示",
+      "alt": "基于Gmail的邮件营销Chrome扩展官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.gmass.co/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -168,6 +188,10 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2190,
-    "mediaCount": 3
+    "mediaCount": 5
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T09:37:46.068137+00:00"
   }
 }

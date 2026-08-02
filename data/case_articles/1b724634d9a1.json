@@ -132,32 +132,24 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "产品反馈管家的商业增长闭环",
-      "items": [
-        "【引流】：SEO+内容营销（产品经理社区）",
-        "【产品】：免费试用收集反馈",
-        "【变现】：升级付费解锁更多功能",
-        "【留存】：持续优化体验，定期推送报告"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://upvoty.com/__l5e/assets-v1/8bbab97a-7b74-4969-9067-fd26515821b0/dashboard-screenshot.png",
+      "caption": "产品反馈管家官网：产品后台与数据看板",
+      "alt": "产品反馈管家官网：产品后台与数据看板",
+      "sourceUrl": "https://upvoty.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "产品反馈管家的产品与交付路径",
-      "items": [
-        "前端反馈收集组件（Web/移动端）",
-        "后端API（Node.js/Python）",
-        "数据库（PostgreSQL）",
-        "反馈看板（React）"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://upvoty.com/__l5e/assets-v1/f0d08aea-19b9-4c1d-9713-902b8e0c7514/og-image-v2.jpg",
+      "caption": "产品反馈管家官网：产品界面与核心功能展示",
+      "alt": "产品反馈管家官网：产品界面与核心功能展示",
+      "sourceUrl": "https://upvoty.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {

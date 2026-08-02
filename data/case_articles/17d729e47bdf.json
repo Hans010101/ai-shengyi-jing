@@ -142,18 +142,43 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "汇款费率比较网站的商业增长闭环",
-      "items": [
-        "【引流】SEO+内容营销（如“汇款到美国最便宜方式”）",
-        "【产品】费率比较工具",
-        "【变现】联盟佣金",
-        "【留存】邮件订阅+推送汇率变动"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "video",
+      "url": "https://www.youtube.com/embed/miqTCnGZiBc",
+      "watchUrl": "https://www.youtube.com/watch?v=miqTCnGZiBc",
+      "caption": "汇款费率比较网站资料中提及的视频：Wise Money Transfer Review - Are they the best option for sending money?",
+      "alt": "Wise Money Transfer Review - Are they the best option for sending money?",
+      "sourceUrl": "https://moneytransfers.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/miqTCnGZiBc/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/eZXqYqjFoII",
+      "watchUrl": "https://www.youtube.com/watch?v=eZXqYqjFoII",
+      "caption": "汇款费率比较网站资料中提及的视频：Sokin Review - Global Currency Platform for Business",
+      "alt": "Sokin Review - Global Currency Platform for Business",
+      "sourceUrl": "https://moneytransfers.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/eZXqYqjFoII/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/g9Th9cLjmoE",
+      "watchUrl": "https://www.youtube.com/watch?v=g9Th9cLjmoE",
+      "caption": "汇款费率比较网站资料中提及的视频：Exploring TransferGo: Does It Simplify Your International Transfers?",
+      "alt": "Exploring TransferGo: Does It Simplify Your International Transfers?",
+      "sourceUrl": "https://moneytransfers.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/g9Th9cLjmoE/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -168,6 +193,10 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2258,
-    "mediaCount": 3
+    "mediaCount": 5
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T09:37:46.068137+00:00"
   }
 }

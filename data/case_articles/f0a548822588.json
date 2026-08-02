@@ -142,18 +142,14 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "WordPress安全扫描工具的商业增长闭环",
-      "items": [
-        "【引流】SEO+WordPress插件市场免费版",
-        "【产品】Scan WP工具",
-        "【变现】付费升级/订阅",
-        "【留存】定期安全更新+邮件提醒"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://scanwp.net/img/scanwp-og.jpg",
+      "caption": "WordPress安全扫描工具官网：产品界面与核心功能展示",
+      "alt": "WordPress安全扫描工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://scanwp.net/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -169,5 +165,9 @@
     "sectionCount": 8,
     "bodyCharacters": 2191,
     "mediaCount": 3
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T09:37:46.068137+00:00"
   }
 }

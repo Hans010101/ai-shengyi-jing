@@ -45,6 +45,20 @@ BAD_IMAGE_TEXT = re.compile(
     r"(?:icon|logo)[- ]?youtube|avatar|5 stars|starter-avatar",
     re.I,
 )
+OFFICIAL_BAD_MEDIA_TEXT = re.compile(
+    r"\b(?:logo|icon|favicon|avatar|portrait|headshot|badge|rating|stars?|"
+    r"testimonial|signature|emoji|sprite|trust[-_ ]?logo|customer[-_ ]?logo)\b|"
+    r"simpleicons\.org|producthunt\.com/widgets|facebook\.com/tr|"
+    r"/customers?/|/platform/.+logo",
+    re.I,
+)
+OFFICIAL_MEDIA_SIGNALS = re.compile(
+    r"dashboard|screenshot|screen[-_ ]?shot|preview|product|interface|"
+    r"workflow|feature|platform|editor|challenge|mockup|analytics|"
+    r"automation|monitor|logging|feedback|calendar|publish|campaign|"
+    r"social|portfolio|builder|simulation|hero|demo|community",
+    re.I,
+)
 BAD_IMAGE_URLS = {
     "https://d1coqmn8qm80r4.cloudfront.net/production/images/cd9317a79f1c2fee",
 }
@@ -314,6 +328,88 @@ def video_item(project: dict, element, embed: str) -> dict:
     }
 
 
+def official_media_description(value: str) -> str:
+    """Turn common official-site media semantics into concise Chinese labels."""
+    rules = (
+        (r"design mockup|mobile site|code editor", "设计稿、移动端页面与代码编辑器"),
+        (r"landing page.+dashboard|full[- ]stack", "全栈项目与数据看板练习界面"),
+        (r"landing page|desktop.+mobile", "桌面端与移动端项目成果"),
+        (r"ai chat|ai tool", "AI辅助代码编辑与作品集构建界面"),
+        (r"hiring|developer profile|skills assessment", "开发者技能评估与人才筛选界面"),
+        (r"teams? platform|project management", "团队项目管理界面"),
+        (r"remote logging", "远程日志监控功能界面"),
+        (r"error monitoring", "错误监控与问题定位界面"),
+        (r"user feedback", "用户反馈收集与处理界面"),
+        (r"dashboard", "产品后台与数据看板"),
+        (r"analytics|simulation|portfolio builder", "数据分析与决策功能界面"),
+        (r"social media|campaign|creator", "社交媒体内容与营销活动场景"),
+        (r"calendar|publish|schedule", "内容排期与发布管理界面"),
+        (r"community", "用户社区与产品使用场景"),
+        (r"preview|product|interface|platform|feature", "产品界面与核心功能展示"),
+        (r"hero|demo", "官网展示的产品主场景"),
+    )
+    for pattern, label in rules:
+        if re.search(pattern, value, re.I):
+            return label
+    return "官网展示的产品与实际使用场景"
+
+
+def official_media_caption(project: dict, element, fallback_text: str = "") -> str:
+    name = clean_text(project.get("nameZh") or project.get("name"), 80)
+    heading = element.find_previous(["h2", "h3"]) if element else None
+    context = " ".join(
+        (
+            clean_text(element.get("alt"), 180) if element else "",
+            clean_text(element.get("title"), 180) if element else "",
+            clean_text(heading.get_text(" ", strip=True), 180) if heading else "",
+            clean_text(fallback_text, 240),
+        )
+    )
+    return f"{name}官网：{official_media_description(context)}"
+
+
+def official_image_item(
+    project: dict,
+    url: str,
+    element,
+    page_url: str,
+    fallback_text: str = "",
+) -> dict:
+    caption = official_media_caption(project, element, fallback_text)
+    return {
+        "type": "image",
+        "url": url,
+        "caption": caption,
+        "alt": caption,
+        "sourceUrl": page_url,
+        "origin": "official-site",
+        "usage": "official-site-reference",
+        "context": "official-product",
+    }
+
+
+def official_video_file_item(
+    project: dict,
+    url: str,
+    poster: str,
+    element,
+    page_url: str,
+) -> dict:
+    caption = official_media_caption(project, element, "product demo video")
+    return {
+        "type": "video-file",
+        "url": url,
+        "watchUrl": url,
+        "poster": poster,
+        "caption": caption,
+        "alt": caption,
+        "sourceUrl": page_url,
+        "origin": "official-site-video",
+        "usage": "official-site-reference",
+        "context": "official-product-video",
+    }
+
+
 def candidate_image_url(element, page_url: str) -> str:
     srcset = element.get("srcset") or element.get("data-srcset") or ""
     if srcset:
@@ -325,6 +421,194 @@ def candidate_image_url(element, page_url: str) -> str:
         if value and not value.startswith("data:"):
             return urljoin(page_url, value)
     return ""
+
+
+def normalize_official_asset_url(url: str) -> str:
+    """Prefer the original asset over tiny blurred CMS placeholders."""
+    parsed = urlparse(url)
+    if parsed.hostname == "static.wixstatic.com":
+        match = re.match(
+            r"^(/media/[^/]+~mv2\.(?:png|jpe?g|webp|avif))(?:/.*)?$",
+            parsed.path,
+            re.I,
+        )
+        if match:
+            return f"{parsed.scheme}://{parsed.hostname}{match.group(1)}"
+    return url
+
+
+def official_image_score(element, image_url: str, is_social_image: bool = False) -> int:
+    """Score useful product visuals and aggressively reject page chrome."""
+    parsed = urlparse(image_url)
+    alt = clean_text(element.get("alt"), 200) if element else ""
+    title = clean_text(element.get("title"), 160) if element else ""
+    classes = clean_text(" ".join(element.get("class", [])), 200) if element else ""
+    heading = element.find_previous(["h2", "h3"]) if element else None
+    heading_text = clean_text(heading.get_text(" ", strip=True), 200) if heading else ""
+    direct_text = " ".join((alt, title, classes, parsed.path, parsed.query))
+    text = " ".join((direct_text, heading_text))
+    if (
+        parsed.scheme not in {"http", "https"}
+        or OFFICIAL_BAD_MEDIA_TEXT.search(text)
+        or parsed.path.lower().endswith(".svg")
+        or re.search(
+            r"/(?:bg|background)[-_]|[-_](?:bg|background)[-_.]",
+            parsed.path,
+            re.I,
+        )
+    ):
+        return -1
+    try:
+        width = int(element.get("width") or 0) if element else 0
+        height = int(element.get("height") or 0) if element else 0
+    except (TypeError, ValueError):
+        width = height = 0
+    if width and height and width < 240 and height < 160:
+        return -1
+    score = 80 if is_social_image else 0
+    if OFFICIAL_MEDIA_SIGNALS.search(direct_text):
+        score += 100
+    elif OFFICIAL_MEDIA_SIGNALS.search(heading_text):
+        score += 20
+    if meaningful_alt(alt):
+        score += 30
+    if element and element.find_parent(["main", "article", "section"]):
+        score += 12
+    if re.search(r"hero|dashboard|screenshot|feature|product", image_url, re.I):
+        score += 30
+    return score if score >= 70 else -1
+
+
+def extract_official_media(
+    project: dict,
+    html: str,
+    page_url: str,
+) -> list[dict]:
+    """Extract a small set of semantic product images and playable videos."""
+    soup = BeautifulSoup(html, "html.parser")
+    candidates: list[tuple[int, int, dict]] = []
+    order = 0
+
+    social = soup.select_one(
+        "meta[property='og:image'], meta[property='og:image:secure_url'], "
+        "meta[name='twitter:image'], meta[name='twitter:image:src']"
+    )
+    social_url = (
+        normalize_official_asset_url(
+            urljoin(page_url, social.get("content", ""))
+        )
+        if social
+        else ""
+    )
+    if social_url:
+        score = official_image_score(None, social_url, True)
+        if score >= 0:
+            candidates.append(
+                (
+                    score,
+                    order,
+                    official_image_item(
+                        project,
+                        social_url,
+                        None,
+                        page_url,
+                        "official product preview",
+                    ),
+                )
+            )
+            order += 1
+
+    # Product sections are frequently rendered outside <main> by CMS themes.
+    # Scan the body and rely on semantic scoring to exclude navigation chrome.
+    root = soup.find("body") or soup
+    for image in root.select("img"):
+        image_url = normalize_official_asset_url(
+            candidate_image_url(image, page_url)
+        )
+        if not image_url:
+            continue
+        score = official_image_score(image, image_url)
+        if score < 0:
+            continue
+        candidates.append(
+            (
+                score,
+                order,
+                official_image_item(project, image_url, image, page_url),
+            )
+        )
+        order += 1
+
+    for video in root.select("video"):
+        source = video.get("src")
+        if not source:
+            source_node = video.select_one("source[src]")
+            source = source_node.get("src") if source_node else ""
+        video_url = urljoin(page_url, source or "")
+        if not re.search(r"\.(?:mp4|webm)(?:$|[?#])", video_url, re.I):
+            continue
+        if re.search(
+            r"(?:animated[-_ ]?background|(?:^|[/_-])bg[-_]|"
+            r"waves?|ambient|texture|decorative)",
+            video_url,
+            re.I,
+        ):
+            continue
+        poster = urljoin(page_url, video.get("poster") or social_url)
+        candidates.append(
+            (
+                145,
+                order,
+                official_video_file_item(
+                    project,
+                    video_url,
+                    poster,
+                    video,
+                    page_url,
+                ),
+            )
+        )
+        order += 1
+
+    for element in root.select("iframe[src], iframe[data-src], a[href]"):
+        value = element.get("src") or element.get("data-src") or element.get("href") or ""
+        embed = normalized_embed(urljoin(page_url, value))
+        if not embed or not video_watch_url(embed):
+            continue
+        item = video_item(project, element, embed)
+        item["sourceUrl"] = page_url
+        item["usage"] = "official-site-reference"
+        item["context"] = "official-product-video"
+        candidates.append((150, order, item))
+        order += 1
+
+    result = []
+    seen = set()
+    for _, _, item in sorted(candidates, key=lambda row: (-row[0], row[1])):
+        key = canonical_media_url(item.get("url", ""))
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        result.append(item)
+        if len(result) >= 4:
+            break
+    return result
+
+
+def discover_official_media(project: dict) -> tuple[list[dict], str]:
+    website = clean_text(project.get("website"), 2_000)
+    parsed = urlparse(website)
+    if parsed.scheme not in {"http", "https"} or not parsed.hostname:
+        return [], "website-missing"
+    try:
+        response = session().get(website, timeout=REQUEST_TIMEOUT)
+        if response.status_code in {401, 403, 429}:
+            return [], f"http-{response.status_code}"
+        response.raise_for_status()
+    except requests.RequestException as error:
+        return [], type(error).__name__
+    media = extract_official_media(project, response.text, response.url)
+    return media, "ok" if media else "no-semantic-media"
 
 
 def discover_source_media(project: dict) -> tuple[list[dict], str]:
@@ -444,10 +728,33 @@ def discover_source_media(project: dict) -> tuple[list[dict], str]:
     return media[:MAX_MEDIA], "ok"
 
 
+def discover_project_media(project: dict) -> tuple[list[dict], str]:
+    """Combine original-case media with semantic visuals from the official site."""
+    source_media, source_status = discover_source_media(project)
+    official_media, official_status = discover_official_media(project)
+    source_hero = [
+        item for item in source_media if item.get("context") == "project-hero"
+    ]
+    source_body = [
+        item for item in source_media if item.get("context") != "project-hero"
+    ]
+    combined = merge_media(
+        source_hero,
+        [*source_body[:2], *official_media, *source_body[2:]],
+    )
+    status = f"source:{source_status}|official:{official_status}"
+    return combined, status
+
+
 def canonical_media_url(url: str) -> str:
     """Normalize media URLs enough to collapse resized copies of one asset."""
     parsed = urlparse(clean_text(url, 2_000))
-    if parsed.hostname == "d1coqmn8qm80r4.cloudfront.net":
+    if parsed.hostname in {
+        "d1coqmn8qm80r4.cloudfront.net",
+        "images.ctfassets.net",
+        "res.cloudinary.com",
+        "static.wixstatic.com",
+    }:
         return f"{parsed.scheme}://{parsed.hostname}{parsed.path}"
     return clean_text(url, 2_000)
 
@@ -951,7 +1258,7 @@ def generate_one(
         }
 
     if fetch_media:
-        media, media_status = discover_source_media(project)
+        media, media_status = discover_project_media(project)
     elif existing.get(project_id, {}).get("media"):
         media = existing[project_id]["media"]
         media_status = "existing-media"
@@ -1018,6 +1325,26 @@ def main() -> None:
         ),
     )
     parser.add_argument(
+        "--refresh-media-ids",
+        nargs="+",
+        default=[],
+        metavar="PROJECT_ID",
+        help=(
+            "Replace media for selected projects using Starter Story and "
+            "official-site discovery, then fill only genuine gaps"
+        ),
+    )
+    parser.add_argument(
+        "--enrich-official-batch",
+        type=int,
+        default=0,
+        metavar="COUNT",
+        help=(
+            "Progressively replace infographic gaps with official product "
+            "media for up to COUNT eligible articles"
+        ),
+    )
+    parser.add_argument(
         "--normalize-local-media",
         action="store_true",
         help=(
@@ -1066,6 +1393,153 @@ def main() -> None:
         path.stem: load_json(path, {})
         for path in ARTICLES_DIR.glob("*.json")
     }
+
+    if args.refresh_media_ids:
+        projects_by_id = {str(project["id"]): project for project in projects}
+        target_ids = [
+            project_id
+            for project_id in args.refresh_media_ids
+            if project_id in projects_by_id and project_id in existing
+        ]
+
+        def refresh_selected(project_id: str):
+            media, media_status = discover_project_media(
+                projects_by_id[project_id]
+            )
+            return project_id, media, media_status
+
+        records = []
+        with concurrent.futures.ThreadPoolExecutor(
+            max_workers=max(1, args.workers)
+        ) as executor:
+            futures = [
+                executor.submit(refresh_selected, project_id)
+                for project_id in target_ids
+            ]
+            for index, future in enumerate(
+                concurrent.futures.as_completed(futures),
+                start=1,
+            ):
+                project_id, discovered, media_status = future.result()
+                article = existing[project_id]
+                before = article.get("media", [])
+                final_media = ensure_visual_media(
+                    projects_by_id[project_id],
+                    discovered,
+                )
+                article["media"] = final_media
+                article.setdefault("quality", {})["mediaCount"] = len(final_media)
+                article["mediaDiscovery"] = {
+                    "officialStatus": media_status.split("|official:")[-1],
+                    "attemptedAt": datetime.datetime.now(
+                        datetime.timezone.utc
+                    ).isoformat(),
+                }
+                save_json(ARTICLES_DIR / f"{project_id}.json", article)
+                records.append(
+                    {
+                        "projectId": project_id,
+                        "mediaStatus": media_status,
+                        "beforeCount": len(before),
+                        "mediaCount": len(final_media),
+                        "realMedia": sum(
+                            item.get("type") != "infographic"
+                            for item in final_media
+                        ),
+                    }
+                )
+                print(f"[SELECTED MEDIA] {index}/{len(futures)} {project_id}")
+        print(json.dumps({"refreshed": records}, ensure_ascii=False, indent=2))
+        return
+
+    if args.enrich_official_batch:
+        projects_by_id = {str(project["id"]): project for project in projects}
+        now = datetime.datetime.now(datetime.timezone.utc)
+
+        def retry_due(article: dict) -> bool:
+            discovery = article.get("mediaDiscovery", {})
+            attempted = clean_text(discovery.get("attemptedAt"), 80)
+            status = clean_text(discovery.get("officialStatus"), 80)
+            if not attempted:
+                return True
+            try:
+                attempted_at = datetime.datetime.fromisoformat(
+                    attempted.replace("Z", "+00:00")
+                )
+                if attempted_at.tzinfo is None:
+                    attempted_at = attempted_at.replace(
+                        tzinfo=datetime.timezone.utc
+                    )
+            except ValueError:
+                return True
+            retry_days = 30 if status == "no-semantic-media" else 7
+            return (now - attempted_at).days >= retry_days
+
+        target_ids = []
+        for project in projects:
+            project_id = str(project["id"])
+            article = existing.get(project_id, {})
+            if (
+                project.get("website")
+                and any(
+                    item.get("type") == "infographic"
+                    for item in article.get("media", [])
+                )
+                and retry_due(article)
+            ):
+                target_ids.append(project_id)
+                if len(target_ids) >= max(1, args.enrich_official_batch):
+                    break
+
+        def enrich_official(project_id: str):
+            media, status = discover_official_media(projects_by_id[project_id])
+            return project_id, media, status
+
+        records = []
+        with concurrent.futures.ThreadPoolExecutor(
+            max_workers=max(1, args.workers)
+        ) as executor:
+            futures = [
+                executor.submit(enrich_official, project_id)
+                for project_id in target_ids
+            ]
+            for index, future in enumerate(
+                concurrent.futures.as_completed(futures),
+                start=1,
+            ):
+                project_id, discovered, status = future.result()
+                article = existing[project_id]
+                before = article.get("media", [])
+                real_existing = [
+                    item for item in before if item.get("type") != "infographic"
+                ]
+                final_media = ensure_visual_media(
+                    projects_by_id[project_id],
+                    merge_media(real_existing, discovered),
+                )
+                article["media"] = final_media
+                article.setdefault("quality", {})["mediaCount"] = len(final_media)
+                article["mediaDiscovery"] = {
+                    "officialStatus": status,
+                    "attemptedAt": now.isoformat(),
+                }
+                save_json(ARTICLES_DIR / f"{project_id}.json", article)
+                records.append(
+                    {
+                        "projectId": project_id,
+                        "status": status,
+                        "beforeReal": sum(
+                            item.get("type") != "infographic" for item in before
+                        ),
+                        "afterReal": sum(
+                            item.get("type") != "infographic"
+                            for item in final_media
+                        ),
+                    }
+                )
+                print(f"[OFFICIAL MEDIA] {index}/{len(futures)} {project_id}")
+        print(json.dumps({"enriched": records}, ensure_ascii=False, indent=2))
+        return
 
     if args.ensure_visual_media:
         projects_by_id = {str(project["id"]): project for project in projects}
@@ -1192,7 +1666,7 @@ def main() -> None:
 
         def refresh(project_id: str):
             project = projects_by_id[project_id]
-            discovered, media_status = discover_source_media(project)
+            discovered, media_status = discover_project_media(project)
             return project_id, discovered, media_status
 
         refreshed_results: dict[str, tuple[list[dict], str]] = {}
@@ -1293,7 +1767,7 @@ def main() -> None:
 
         def retry(project_id: str):
             time.sleep(max(0.0, args.retry_delay))
-            media, media_status = discover_source_media(
+            media, media_status = discover_project_media(
                 projects_by_id[project_id]
             )
             return project_id, media, media_status

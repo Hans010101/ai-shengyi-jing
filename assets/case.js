@@ -169,6 +169,7 @@ function renderMedia(media, index) {
     && media.origin === 'official-site-video'
   ) {
     if (!mediaUrl) return null;
+    videoWatchUrl = safeExternalUrl(media.watchUrl) || mediaUrl;
     const video = document.createElement('video');
     video.src = mediaUrl;
     video.controls = true;

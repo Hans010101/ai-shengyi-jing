@@ -132,6 +132,16 @@
       "context": "project-hero"
     },
     {
+      "type": "image",
+      "url": "https://catonchair.app/_astro/iphone.JExl1AAS.avif",
+      "caption": "椅背上的猫官网：官网展示的产品与实际使用场景",
+      "alt": "椅背上的猫官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://catonchair.app/en/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
       "type": "infographic",
       "variant": "business-loop",
       "title": "椅背上的猫的商业增长闭环",
@@ -141,20 +151,6 @@
         "【变现】：在线支付，复购推荐"
       ],
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
-    },
-    {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "椅背上的猫的产品与交付路径",
-      "items": [
-        "用户上传照片",
-        "支付模块",
-        "后端处理（Python）",
-        "绘画API（或人工）"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
     }
@@ -172,5 +168,9 @@
     "sectionCount": 8,
     "bodyCharacters": 2212,
     "mediaCount": 3
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T09:37:46.068137+00:00"
   }
 }
