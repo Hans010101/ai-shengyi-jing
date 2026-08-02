@@ -26,7 +26,7 @@
 
 ## 安全与成本
 
-- 所有生产 API 需要恒定时间校验的 `X-Factory-Key`；密钥仅存浏览器 localStorage，不进入 URL 或服务日志。
+- 所有生产 API 需要鉴权：自动化使用恒定时间校验的 `X-Factory-Key`；网页端用一次性激活码兑换 30 天 HMAC 签名 Bearer 会话。D1 只保存激活码 SHA-256 摘要，激活码原文与长期密钥均不进入日志或 URL。
 - 输入最多 16,000 字；单次通用任务 1 条，案例批量最多 50（运营建议降为 10）；服务端截断并校验枚举。
 - URL 导入只允许公开 HTTP(S) HTML，拒绝凭据、localhost、私网、link-local，禁自动重定向，10 秒超时，最大读取 1 MB，降低 SSRF 风险。
 - TXT/Markdown/HTML 在浏览器解析；PDF/EPUB/DOCX 明确要求本机导出 TXT，不提供假按钮。

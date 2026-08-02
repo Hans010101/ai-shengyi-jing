@@ -61,4 +61,12 @@ npm run deploy
 npm run db:remote
 ```
 
-生产后台对外可访问，但所有生产API都必须携带`X-Factory-Key`。主站无需恢复用户登录系统。
+生产后台对外可访问，但生产 API 仍然受保护。管理员自动化可携带 `X-Factory-Key`；网页端默认使用一次性设备激活码换取 30 天 HMAC 签名会话，长期生产密钥不会进入浏览器。激活码只在 D1 保存 SHA-256 摘要、使用一次后失效：
+
+```bash
+# 先生成高熵码，在本地计算 SHA-256；只把摘要、用途和过期时间写入 activation_codes。
+npx wrangler d1 execute VIDEO_DB --remote --command \
+  "INSERT INTO activation_codes(code_hash,label,expires_at,created_at) VALUES('<sha256>','owner-device','<expiry>','<now>')"
+```
+
+直接双击 `public/index.html` 只用于界面预览；案例搜索、设备激活和生产请求必须从固定 HTTPS 入口发起。不要为了支持 `file://` 而放宽 Worker CORS。

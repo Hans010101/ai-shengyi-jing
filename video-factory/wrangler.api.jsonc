@@ -30,7 +30,7 @@
     "ARTICLE_BASE_URL": "https://ai-shengyi-jing.pages.dev/data/case_articles",
     "SCRIPT_MODEL": "@cf/meta/llama-3.1-8b-instruct-fast",
     "ASR_MODEL": "@cf/openai/whisper-large-v3-turbo",
-    "FACTORY_VERSION": "0.2.0",
+    "FACTORY_VERSION": "0.3.1",
     "AUTO_BATCH_SIZE": "0",
     "ARTIFACT_RETENTION_DAYS": "3",
     "RENDERER_ENABLED": "false",

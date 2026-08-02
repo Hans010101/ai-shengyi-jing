@@ -1,6 +1,7 @@
 import { VideoProductionWorkflow } from './workflow';
 import { VideoRenderer } from './renderer';
 import { getJob } from './db';
+import { issueDeviceSession, normalizeActivationCode, sha256Hex, verifyAdminKey, verifyDeviceSession } from './auth';
 import type { Env, ProductionOptions, SourceType } from './types';
 
 export { VideoProductionWorkflow, VideoRenderer };
@@ -10,13 +11,24 @@ function json(body: unknown, status = 200) {
 }
 
 async function authorized(request: Request, env: Env) {
-  const provided = request.headers.get('X-Factory-Key') || request.headers.get('Authorization')?.replace(/^Bearer\s+/i, '') || '';
-  if (!provided || !env.FACTORY_ADMIN_TOKEN) return false;
-  const encoder = new TextEncoder();
-  const [left, right] = await Promise.all([crypto.subtle.digest('SHA-256', encoder.encode(provided)), crypto.subtle.digest('SHA-256', encoder.encode(env.FACTORY_ADMIN_TOKEN))]);
-  const a = new Uint8Array(left), b = new Uint8Array(right); let diff = 0;
-  for (let i = 0; i < a.length; i++) diff |= a[i] ^ b[i];
-  return diff === 0;
+  if (!env.FACTORY_ADMIN_TOKEN) return false;
+  const adminKey = request.headers.get('X-Factory-Key') || '';
+  if (adminKey && await verifyAdminKey(adminKey, env.FACTORY_ADMIN_TOKEN)) return true;
+  const bearer = request.headers.get('Authorization')?.match(/^Bearer\s+(.+)$/i)?.[1] || '';
+  return verifyDeviceSession(bearer, env.FACTORY_ADMIN_TOKEN);
+}
+
+async function activateDevice(request: Request, env: Env) {
+  if (!env.FACTORY_ADMIN_TOKEN) return json({ error: 'ACTIVATION_UNAVAILABLE', detail: '生产权限暂不可用。' }, 503);
+  const body: any = await request.json().catch(() => null);
+  const code = normalizeActivationCode(String(body?.code || ''));
+  if (!/^[A-Z0-9]{20,64}$/.test(code)) return json({ error: 'INVALID_ACTIVATION_CODE', detail: '激活码无效或已使用。' }, 400);
+  const codeHash = await sha256Hex(code);
+  const now = new Date().toISOString();
+  const result = await env.VIDEO_DB.prepare("UPDATE activation_codes SET used_at = ? WHERE code_hash = ? AND used_at IS NULL AND expires_at > ?").bind(now, codeHash, now).run();
+  if (Number(result.meta.changes || 0) !== 1) return json({ error: 'INVALID_ACTIVATION_CODE', detail: '激活码无效、已使用或已过期。' }, 400);
+  const session = await issueDeviceSession(env.FACTORY_ADMIN_TOKEN);
+  return json({ ok: true, token: session.token, expiresAt: session.expiresAt, scope: 'production' });
 }
 
 function id() { return crypto.randomUUID(); }
@@ -152,6 +164,7 @@ export default {
       return key ? serveR2(request, env, key, download ? `attachment; filename="${jobId}-${filename}"` : filename === 'video.mp4' ? `inline; filename="${jobId}.mp4"` : 'inline') : new Response('Not found', { status: 404 });
     }
     if (url.pathname === '/api/catalog' && request.method === 'GET') return catalog(request, env);
+    if (url.pathname === '/api/activate' && request.method === 'POST') return activateDevice(request, env);
     if (url.pathname.startsWith('/api/') && !(await authorized(request, env))) return json({ error: 'UNAUTHORIZED' }, 401);
     if (url.pathname === '/api/jobs' && request.method === 'POST') {
       if (env.RENDERER_ENABLED !== 'true') return json({ error: 'RENDERER_UNAVAILABLE', detail: '云端渲染服务尚未开通，请先启用 Cloudflare Workers Paid / Containers。' }, 503);
