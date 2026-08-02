@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "无代码自动化平台的中国市场验证路线",
+      "items": [
+        "选择1-2个高频场景（如邮件转存、表单通知），开发最小可行连接器，集成钉钉/飞书API，免费开放给种子用户。",
+        "收集反馈后，扩展至10+常用应用（如企业微信、金蝶、用友），设计免费版限制每月100次任务，付费版$9/月起。",
+        "通过行业案例和模板库吸引用户，建立社群，鼓励用户分享工作流，形成病毒传播。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "无代码自动化平台的经营验证仪表盘",
+      "items": [
+        "无代码自动化平台，连接应用，按订阅收费。",
+        "SaaS订阅制，按任务数和高级功能分层收费，免费版限制任务量，付费解锁更多。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2441,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

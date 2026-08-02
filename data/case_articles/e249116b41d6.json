@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "夫妻店高端珠宝定制的中国市场验证路线",
+      "items": [
+        "学习基础珠宝鉴定和维修技能，参加短期培训或拜师，同时积累设计灵感。",
+        "租用小型工作室，购置基础工具，从维修和简单定制起步，通过朋友圈、小红书发布作品。",
+        "与本地婚庆、摄影机构合作，提供婚戒定制服务；建立会员体系，鼓励老客转介绍。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "夫妻店高端珠宝定制的经营验证仪表盘",
+      "items": [
+        "夫妻店高端珠宝定制，靠设计、维修、成品销售盈利",
+        "线下门店+线上展示，提供珠宝销售、定制设计、维修服务，赚取产品差价和服务费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2420,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

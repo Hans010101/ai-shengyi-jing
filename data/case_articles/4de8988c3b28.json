@@ -167,6 +167,34 @@
       "poster": "https://i.ytimg.com/vi/WXenKE0eWws/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "销售重力毯等睡眠产品的商业增长闭环",
+      "items": [
+        "【引流】社交媒体广告",
+        "【产品】重力毯等睡眠产品",
+        "【变现】一次性销售+复购",
+        "【留存】邮件营销+新品推荐"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "销售重力毯等睡眠产品的产品与交付路径",
+      "items": [
+        "广告引流",
+        "官网/电商",
+        "产品展示",
+        "下单购买"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -181,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2441,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 3,
+    "logicMedia": 2
   }
 }

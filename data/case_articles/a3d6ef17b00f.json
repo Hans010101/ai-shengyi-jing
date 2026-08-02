@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "HappyFox是AI客服SaaS平台的中国市场验证路线",
+      "items": [
+        "选择垂直行业（如电商），开发基于微信的AI客服机器人，支持常见问题自动回复。",
+        "推出免费版（限制坐席数），通过企业微信群、行业论坛获客，积累种子用户。",
+        "根据反馈迭代，增加工单管理、数据分析功能，推出付费版（按坐席月费），并建立客户成功团队。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "HappyFox是AI客服SaaS平台的经营验证仪表盘",
+      "items": [
+        "HappyFox是AI客服SaaS平台，通过订阅制收费。",
+        "B2B SaaS订阅制，按坐席数收费，提供AI工单、知识库、自助服务等模块。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2453,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

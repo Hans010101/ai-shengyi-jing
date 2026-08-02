@@ -177,6 +177,16 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/764/original/open-uri20190609-4-1idh565?1560073193",
+      "caption": "YouTube卖高端手表：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "YouTube卖高端手表：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-started-a-3-3m-watch-business-selling-on-youtube",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/f-gX1-ztP5c",
       "watchUrl": "https://www.youtube.com/watch?v=f-gX1-ztP5c",
@@ -201,7 +211,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2381,
-    "mediaCount": 5,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

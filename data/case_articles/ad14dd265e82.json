@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "个性化视频营销SaaS的中国市场验证路线",
+      "items": [
+        "搭建最小MVP，用现有视频录制API（如Twilio）实现批量发送，对接企业微信，先服务10个种子客户。",
+        "聚焦电商场景，开发模板库（节日问候、售后关怀），与Shopify/有赞插件集成，按发送量收费。",
+        "优化AI个性化（自动插入客户名、产品名），添加A/B测试和转化跟踪，推出企业版年费套餐。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "个性化视频营销SaaS的经营验证仪表盘",
+      "items": [
+        "个性化视频营销SaaS，帮企业批量录制并发送定制问候视频，按订阅收费。",
+        "B2B SaaS订阅制，月费$29-99，提供视频录制、发送、跟踪模板，按团队规模定价。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2518,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

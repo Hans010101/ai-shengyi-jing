@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "留学生将韩式辣酱引入美国的中国市场验证路线",
+      "items": [
+        "确定一款有文化故事的地方特色酱料（如贵州辣椒酱），联系国内供应商或合作社，确保稳定货源和品质。",
+        "设计具有文化元素的品牌包装和故事，建立官网和亚马逊店铺，拍摄制作短视频内容（如制作过程、吃法展示），在TikTok和Instagram上发布。",
+        "联系海外华人及美食类KOL进行产品测评和推广，同时参加本地美食节或快闪店活动，积累口碑和客户，逐步拓展线下零售渠道。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "留学生将韩式辣酱引入美国的经营验证仪表盘",
+      "items": [
+        "留学生将韩式辣酱引入美国，通过品牌故事和文化营销实现月入10万美元。",
+        "进口韩式辣酱，通过品牌包装和故事营销，在线上（官网、亚马逊）和线下（零售店、快闪店）销售，赚取产品差价。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2534,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

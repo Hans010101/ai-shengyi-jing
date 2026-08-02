@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI驱动的邮件营销SaaS的中国市场验证路线",
+      "items": [
+        "聚焦一个垂直行业（如电商），开发AI邮件模板生成器，集成主流电商平台数据。",
+        "推出免费版（限500联系人），通过行业社群和SEO获取种子用户。",
+        "根据用户反馈迭代AI文案质量，增加A/B测试和自动化流程，推出付费版（$29/月起）。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI驱动的邮件营销SaaS的经营验证仪表盘",
+      "items": [
+        "AI驱动的邮件营销SaaS，按月订阅收费。",
+        "B2B SaaS订阅制，按联系人数量和功能层级收费，提供免费试用吸引客户。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2442,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

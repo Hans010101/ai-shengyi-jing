@@ -175,6 +175,26 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/107/original/open-uri20190723-4-1tm7n7j?1563895938",
+      "caption": "销售低成本纸板站立式办公桌的DTC品牌：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "销售低成本纸板站立式办公桌的DTC品牌：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-launched-a-startup-selling-affordable-cardboard-standing-desks",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/108/original/open-uri20190723-4-16ki5ba?1563895938",
+      "caption": "销售低成本纸板站立式办公桌的DTC品牌：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "alt": "销售低成本纸板站立式办公桌的DTC品牌：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-launched-a-startup-selling-affordable-cardboard-standing-desks",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -189,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2541,
-    "mediaCount": 4,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

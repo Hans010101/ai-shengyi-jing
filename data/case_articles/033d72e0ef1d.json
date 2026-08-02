@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "Web scraping API服务的中国市场验证路线",
+      "items": [
+        "选择目标网站（如电商、招聘），分析其反爬机制，用Python+Playwright搭建基础抓取脚本。",
+        "封装为API服务，部署在云服务器，集成代理IP池（如付费代理）和浏览器渲染，提供限流和计费模块。",
+        "在开发者社区（如掘金、V2EX）发布技术文章，免费试用吸引用户，通过按量或月订阅模式变现。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "Web scraping API服务的经营验证仪表盘",
+      "items": [
+        "Web scraping API服务，按请求量收费。",
+        "SaaS订阅+按量计费，提供代理IP、浏览器渲染、验证码处理等增值功能，月费从$49到$399不等。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2543,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

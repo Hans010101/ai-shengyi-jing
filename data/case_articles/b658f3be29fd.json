@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI驱动的名片设计平台的中国市场验证路线",
+      "items": [
+        "搭建轻量级网页或小程序，集成AI名片设计引擎，提供10+免费模板，支持用户输入信息自动排版。",
+        "对接印刷厂API，实现设计后一键下单印刷，赚取印刷差价或服务费，初期可手动对接。",
+        "在抖音、小红书发布“AI生成创意名片”短视频，引导免费试用，通过限时折扣转化付费下载。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI驱动的名片设计平台的经营验证仪表盘",
+      "items": [
+        "AI驱动的名片设计平台，用户在线制作并付费下载。",
+        "提供AI名片模板和编辑工具，用户免费试用基础功能，付费解锁高清下载、高级模板或批量订单。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2446,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

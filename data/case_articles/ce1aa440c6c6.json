@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/379/original/open-uri20181128-4-g20fh1?1543374523",
+      "caption": "日本糖果订阅盒子：创业起点与创意来源相关原始配图（第4张）",
+      "alt": "日本糖果订阅盒子：创业起点与创意来源相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/starting-a-japanese-candy-subscription-service",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/380/original/open-uri20181128-4-14png6p?1543374528",
+      "caption": "日本糖果订阅盒子：产品设计与早期打磨相关原始配图（第5张）",
+      "alt": "日本糖果订阅盒子：产品设计与早期打磨相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/starting-a-japanese-candy-subscription-service",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/-0aY1GxvRMk",
       "watchUrl": "https://www.youtube.com/watch?v=-0aY1GxvRMk",
@@ -185,6 +205,18 @@
       "sourceUrl": "https://www.starterstory.com/stories/starting-a-japanese-candy-subscription-service",
       "origin": "embeddable-video",
       "poster": "https://i.ytimg.com/vi/-0aY1GxvRMk/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/0CDXJ6bMkMY",
+      "watchUrl": "https://www.youtube.com/watch?v=0CDXJ6bMkMY",
+      "caption": "日本糖果订阅盒子资料中提及的视频：David Heinemeier Hansson at Startup School 08",
+      "alt": "David Heinemeier Hansson at Startup School 08",
+      "sourceUrl": "https://www.starterstory.com/stories/starting-a-japanese-candy-subscription-service",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/0CDXJ6bMkMY/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
     }
@@ -201,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2425,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

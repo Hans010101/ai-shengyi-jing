@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "个人理财媒体+课程社区的中国市场验证路线",
+      "items": [
+        "选择细分理财话题（如大学生存钱），在抖音/小红书发布10条干货短视频，积累初始粉丝。",
+        "开发一门49-99元的理财入门课（录播+PDF），用微信小程序或小鹅通上架，并在视频评论区引导购买。",
+        "建立付费社群（年费99元），提供每周直播答疑、月度理财模板，通过老会员推荐返现裂变。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "个人理财媒体+课程社区的经营验证仪表盘",
+      "items": [
+        "个人理财媒体+课程社区，靠广告、会员和课程赚钱。",
+        "内容驱动型知识付费：免费博客/视频引流 → 低门槛付费课程 → 高价值会员社区。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2429,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "帮助分居父母管理育儿沟通和支付的SaaS平台的中国市场验证路线",
+      "items": [
+        "开发微信小程序，实现基本消息记录和支付功能，确保数据安全。",
+        "与离婚律师合作，推广至离异家庭，提供免费试用一个月。",
+        "增加法院认可的报告导出功能，推出年度订阅计划，绑定长期用户。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "帮助分居父母管理育儿沟通和支付的SaaS平台的经营验证仪表盘",
+      "items": [
+        "帮助分居父母管理育儿沟通和支付的SaaS平台，按月订阅收费。",
+        "B2C订阅制，提供信息记录、支付、日程等工具，月费$9.99起，年费优惠。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2437,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "社交媒体定时发帖工具的产品与交付路径",
+      "items": [
+        "用户注册",
+        "绑定社交账号",
+        "创建/导入内容",
+        "设置重复排程"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "社交媒体定时发帖工具的中国市场验证路线",
+      "items": [
+        "选择1-2个中国主流平台（如微信公众号、抖音），开发基础定时发布功能，支持文本和图片。",
+        "设计免费版（限1个账户、10条排程）和付费版（多账户、无限排程、数据分析），月费定价30-100元。",
+        "通过知乎、B站发布“社交媒体运营效率提升”教程引流，提供免费试用，收集反馈迭代产品。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2463,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

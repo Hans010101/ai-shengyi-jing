@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "利用Instagram购物功能提升零售店营收的案的产品与交付路径",
+      "items": [
+        "Instagram内容创作",
+        "添加购物标签",
+        "用户点击购买",
+        "订单处理发货"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "利用Instagram购物功能提升零售店营收的案的中国市场验证路线",
+      "items": [
+        "注册Instagram商业账号，开通购物功能，上传产品目录。",
+        "每日发布2-3条高质量产品图片/视频，添加购物标签，引导购买。",
+        "分析数据优化内容，与用户互动，利用广告扩大曝光。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2436,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

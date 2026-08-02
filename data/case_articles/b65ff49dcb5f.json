@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "B2B品牌物料转网页设计的产品与交付路径",
+      "items": [
+        "客户咨询",
+        "品牌诊断",
+        "设计提案",
+        "交付与迭代"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "B2B品牌物料转网页设计的中国市场验证路线",
+      "items": [
+        "聚焦1-2个行业（如餐饮、科技），提供免费品牌诊断，积累案例和口碑。",
+        "利用Canva、Figma等工具快速出图，外包开发，降低初期成本。",
+        "推出“品牌基础包”（Logo+名片+网站），定价5000-8000元，快速验证市场。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2410,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

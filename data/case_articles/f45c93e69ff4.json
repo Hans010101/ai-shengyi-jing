@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "婚礼伴郎袜礼盒电商的产品与交付路径",
+      "items": [
+        "社交媒体引流",
+        "官网选择礼盒",
+        "自定义刺绣/颜色",
+        "下单支付"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "婚礼伴郎袜礼盒电商的中国市场验证路线",
+      "items": [
+        "确定细分市场（如伴郎袜或中式婚礼伴手礼），找到义乌等低成本供应商，定制小批量样品，测试产品品质和包装。",
+        "搭建独立站或微信小程序，设置礼盒选项和定制功能（刺绣文字/颜色），对接支付和物流，拍摄高质量产品图。",
+        "在小红书、抖音合作婚礼KOL，发布开箱测评，投放信息流广告，首单优惠促转化，收集用户邮箱做二次营销。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2514,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

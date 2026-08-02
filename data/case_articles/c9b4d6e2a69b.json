@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "海外开发者工具项目的产品与交付路径",
+      "items": [
+        "比赛报名",
+        "开发提交",
+        "评审投票",
+        "赞助曝光"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "海外开发者工具项目的中国市场验证路线",
+      "items": [
+        "选择垂直赛道（如小游戏、AI游戏），搭建简易比赛网站，支持报名和提交。",
+        "联系游戏公司、云服务商等赞助，提供曝光位和奖品，同时设置参赛费或捐赠入口。",
+        "赛后组织线上分享会，推出付费课程或工具订阅，持续运营社区并定期举办比赛。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2416,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

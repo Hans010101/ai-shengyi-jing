@@ -165,6 +165,34 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "邮寄手写蜜瓜给客户的商业增长闭环",
+      "items": [
+        "【引流】TikTok/Instagram展示蜜瓜手写视频",
+        "【产品】定制蜜瓜邮寄服务",
+        "【变现】单次购买+订阅套餐",
+        "【留存】节日提醒、复购优惠"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "邮寄手写蜜瓜给客户的产品与交付路径",
+      "items": [
+        "用户下单",
+        "选择蜜瓜规格",
+        "输入定制文字",
+        "手写加工"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -179,7 +207,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2402,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 3,
+    "logicMedia": 2
   }
 }

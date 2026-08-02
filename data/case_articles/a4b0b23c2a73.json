@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "移动应用开发一站式服务的产品与交付路径",
+      "items": [
+        "SEO引流",
+        "免费咨询",
+        "需求分析",
+        "应用开发"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "移动应用开发一站式服务的中国市场验证路线",
+      "items": [
+        "建立专业网站，围绕移动应用开发关键词进行SEO优化，发布高质量博客文章（如开发流程、案例研究）吸引流量。",
+        "提供免费咨询或原型设计服务，获取客户需求并建立信任，通过微信、知乎等渠道进行本土化内容营销。",
+        "采用低代码平台或模板化开发降低交付成本，快速迭代，积累案例后通过口碑和SEO持续获客。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2447,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

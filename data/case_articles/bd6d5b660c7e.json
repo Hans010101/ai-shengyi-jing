@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "在线布料店的中国市场验证路线",
+      "items": [
+        "在淘宝或抖音开设小店，从义乌或南通批发市场采购10-20款热门布料，拍摄高清图片和短视频。",
+        "创建微信公众号和小红书账号，发布缝纫教程和布艺作品，吸引手工爱好者关注。",
+        "推出“每月布料盒子”订阅服务，提供限量布料和图纸，增强客户粘性和复购。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "在线布料店的经营验证仪表盘",
+      "items": [
+        "在线布料店，通过销售精选现代布料和缝纫用品盈利。",
+        "在线零售模式，自建电商网站，采购布料并加价销售，通过社交媒体和内容营销吸引流量。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2409,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

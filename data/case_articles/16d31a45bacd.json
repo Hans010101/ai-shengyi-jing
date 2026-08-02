@@ -175,6 +175,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "印度医疗设备B2B分销平台的商业增长闭环",
+      "items": [
+        "【引流】线上广告+线下拜访中小医院",
+        "【产品】医疗设备采购平台+融资服务",
+        "【变现】设备差价+分期利息+售后佣金",
+        "【留存】会员折扣+定期维保+设备更新推荐"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -189,7 +203,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2537,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 4,
+    "logicMedia": 1
   }
 }

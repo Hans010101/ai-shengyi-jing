@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "在线虚拟共学空间的中国市场验证路线",
+      "items": [
+        "搭建简易视频匹配平台，使用WebRTC技术，支持预约和随机匹配，MVP可手动排班。",
+        "在效率类社群、小红书、知乎等平台发布体验邀请，收集用户反馈，优化匹配算法和用户体验。",
+        "推出免费试用期，之后引导付费订阅，设置月度/年度会员，并增加积分、排行榜等留存机制。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "在线虚拟共学空间的经营验证仪表盘",
+      "items": [
+        "在线虚拟共学空间，通过订阅会员赚钱。",
+        "提供50分钟视频共学时段，用户预约并互相监督，按月或年收取订阅费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2394,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

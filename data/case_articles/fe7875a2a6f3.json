@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "邮件营销SaaS的中国市场验证路线",
+      "items": [
+        "开发邮件模板编辑器，聚焦美观和易用性，支持拖拽式编辑，参考Flodesk的模板设计。",
+        "通过微信公众号、知乎等渠道发布邮件营销技巧文章，引流至官网，提供免费试用。",
+        "上线付费订阅，按邮件发送量或功能分级，初期定价低于竞品，快速积累种子用户。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "邮件营销SaaS的经营验证仪表盘",
+      "items": [
+        "邮件营销SaaS，通过订阅制收费。",
+        "提供邮件营销SaaS工具，按月或年订阅收费，用户无需编码即可创建高转化率邮件。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2421,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "销售树帐篷和巨型吊床的产品与交付路径",
+      "items": [
+        "产品设计",
+        "生产制造",
+        "电商平台销售",
+        "客户服务"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "销售树帐篷和巨型吊床的中国市场验证路线",
+      "items": [
+        "市场调研与产品设计：研究中国户外露营趋势，设计符合国人需求的树帐篷和吊床，注重便携性和安全性。",
+        "供应链搭建：联系国内户外用品制造商，小批量生产样品，测试质量和成本，优化供应链。",
+        "线上渠道推广：在淘宝、京东、小红书等平台开店，制作户外使用场景视频和图文，通过KOL合作引流。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2418,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

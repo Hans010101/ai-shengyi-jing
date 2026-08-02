@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "在线协作编程面试平台的中国市场验证路线",
+      "items": [
+        "搭建最小可行产品，支持Web端实时协作编辑器和代码执行环境，聚焦Python、Java等主流语言，使用开源技术如CodeMirror和Docker容器。",
+        "通过技术社区（如掘金、CSDN）发布面试技巧文章，吸引HR和技术负责人注册试用，提供免费5个席位体验。",
+        "与企业HR合作，收集反馈迭代产品，推出付费套餐（按面试官数定价），并增加企业级功能如面试模板、评分系统、报告导出。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "在线协作编程面试平台的经营验证仪表盘",
+      "items": [
+        "在线协作编程面试平台，按席位收费。",
+        "B2B SaaS订阅制，按面试官席位收费，提供实时协作编程环境，企业按年或月付费使用。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2558,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

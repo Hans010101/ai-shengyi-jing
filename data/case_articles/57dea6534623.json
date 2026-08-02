@@ -175,6 +175,26 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/363/original/open-uri20201014-4-57opth?1602701483",
+      "caption": "订阅制健康餐盒配送：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "alt": "订阅制健康餐盒配送：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-tripled-revenue-in-one-year",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/364/original/open-uri20201014-4-3ab9ds?1602701483",
+      "caption": "订阅制健康餐盒配送：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "alt": "订阅制健康餐盒配送：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-tripled-revenue-in-one-year",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -189,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2483,
-    "mediaCount": 4,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

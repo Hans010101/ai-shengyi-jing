@@ -149,8 +149,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/007/700/original/open-uri20200829-4-1xne3lx?1598713878",
-      "caption": "进口欧洲滑雪装备：原始案例中的产品与运营配图（第1张）",
-      "alt": "进口欧洲滑雪装备：原始案例中的产品与运营配图（第1张）",
+      "caption": "进口欧洲滑雪装备：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "进口欧洲滑雪装备：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-our-brand-65-year-over-year",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "进口欧洲滑雪装备的产品与交付路径",
+      "items": [
+        "官网展示",
+        "内容种草（博客/视频）",
+        "在线购买",
+        "社区互动"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "进口欧洲滑雪装备的中国市场验证路线",
+      "items": [
+        "调研中国滑雪市场，选择1-2个欧洲小众品牌谈中国代理权，或自创品牌找工厂代工。",
+        "搭建小红书/抖音账号，发布专业滑雪教程和装备测评，积累种子用户。",
+        "开设微信小程序或淘宝店，提供预售和限量款，建立会员社群促进复购。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2387,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

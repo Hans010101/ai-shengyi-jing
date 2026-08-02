@@ -177,6 +177,16 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/544/original/open-uri20190510-4-1o955f3?1557472737",
+      "caption": "面向养老院的VR急救培训SaaS：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "面向养老院的VR急救培训SaaS：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-built-and-launched-a-health-care-training-platform",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/_FtorzcsabY",
       "watchUrl": "https://www.youtube.com/watch?v=_FtorzcsabY",
@@ -201,7 +211,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2430,
-    "mediaCount": 5,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

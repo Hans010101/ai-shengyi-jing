@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "客户数据分析SaaS的中国市场验证路线",
+      "items": [
+        "聚焦一个垂直行业（如电商），开发基础数据接入模块，支持主流平台（淘宝、微信）数据导入，快速MVP上线。",
+        "提供免费版（限3个数据源、基础报告），通过行业社群和SEO获取种子用户，收集反馈迭代。",
+        "推出付费版（按数据量分级），增加高级分析（如留存预测、渠道归因），并建立客户成功团队提升续费率。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "客户数据分析SaaS的经营验证仪表盘",
+      "items": [
+        "客户数据分析SaaS，按月订阅收费。",
+        "B2B SaaS订阅制，按数据量和功能层级收费，提供免费试用和增值服务。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2443,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

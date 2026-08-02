@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "Sertifi是一个为酒店、活动场地提供电子签约的中国市场验证路线",
+      "items": [
+        "聚焦本地酒店或活动场地，提供免费试用，收集反馈优化产品。",
+        "与酒店PMS系统、微信支付/支付宝对接，实现合同签署与支付闭环。",
+        "推出按合同数量或交易额抽成的定价模式，逐步扩展至会展、婚庆等场景。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "Sertifi是一个为酒店、活动场地提供电子签约的经营验证仪表盘",
+      "items": [
+        "Sertifi是一个为酒店、活动场地提供电子签约和支付解决方案的SaaS平台。",
+        "B2B SaaS订阅+交易佣金，主要面向酒店、活动场地等企业客户。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2448,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

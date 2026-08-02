@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "家庭厨房手工派品牌的中国市场验证路线",
+      "items": [
+        "确定核心产品（如广式蛋挞、云南鲜花饼），在家厨房试制，优化配方和包装，确保食品安全。",
+        "开通微信小程序或抖音小店，拍摄制作过程短视频，发布在抖音/小红书，吸引本地用户下单，同时参加周末市集。",
+        "积累首批100个忠实客户，建立微信群，推出会员月卡或节日礼盒，鼓励老客户分享裂变，逐步扩大产能。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "家庭厨房手工派品牌的经营验证仪表盘",
+      "items": [
+        "家庭厨房手工派品牌，通过线上销售和本地市场变现。",
+        "自产自销手工派，通过电商平台、本地市场和批发渠道销售，以高品质和创意口味获取溢价。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2478,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

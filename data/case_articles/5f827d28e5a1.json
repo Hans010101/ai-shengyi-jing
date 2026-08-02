@@ -176,6 +176,33 @@
       "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI驱动的SaaS工具的经营验证仪表盘",
+      "items": [
+        "AI驱动的SaaS工具，通过订阅制提供自动化服务赚钱。",
+        "B2B订阅制，按用户规模或功能分层收费，核心价值是降本增效。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "unit-economics",
+      "title": "AI驱动的SaaS工具的单位经济与经营指标",
+      "items": [
+        "营收口径：未披露",
+        "启动成本：控制最小验证投入",
+        "盈利节点：跟踪回本周期",
+        "团队配置：优先标准化交付"
+      ],
+      "caption": "AI生意经原创信息图：根据案例公开经营指标与验证口径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -190,7 +217,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2425,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:HTTPError|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:HTTPError|official:website-missing",
+    "realMedia": 0,
+    "logicMedia": 5
   }
 }

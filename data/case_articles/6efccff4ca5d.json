@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为X平台创作者提供增长工具的AI SaaS的中国市场验证路线",
+      "items": [
+        "开发MVP，聚焦核心功能如AI内容生成和定时发布，使用公开API对接X平台，先服务少量种子用户验证需求。",
+        "通过X平台自身推广，发布免费工具吸引用户，收集反馈迭代，同时建立付费订阅计划（如$19/月）。",
+        "优化数据分析模块，增加竞争对手监控和趋势预测，提升留存率；拓展至其他社交平台，形成多平台增长套件。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "为X平台创作者提供增长工具的AI SaaS的经营验证仪表盘",
+      "items": [
+        "为X平台创作者提供增长工具的AI SaaS，按月订阅赚钱。",
+        "SaaS订阅制，提供AI驱动的增长工具，按月或年收费，面向创作者和初创企业。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2542,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

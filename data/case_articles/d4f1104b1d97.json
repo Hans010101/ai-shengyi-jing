@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为网页设计师提供拖拽式建站工具的中国市场验证路线",
+      "items": [
+        "开发MVP，聚焦核心拖拽编辑功能，支持响应式设计，先做Web端，集成主流云存储和域名绑定。",
+        "建立模板市场，初期设计10-20个行业模板（如摄影、餐饮），邀请设计师合作分成，快速丰富内容。",
+        "通过知乎、B站发布建站教程和案例，免费提供基础版吸引用户，引导升级付费解锁高级功能。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "为网页设计师提供拖拽式建站工具的经营验证仪表盘",
+      "items": [
+        "为网页设计师提供拖拽式建站工具，按月订阅收费。",
+        "SaaS订阅模式，提供拖拽式网站构建器，用户按月或年付费使用，通过模板市场和插件增值。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2501,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

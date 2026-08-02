@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "面向产品团队的反馈管理SaaS工具的中国市场验证路线",
+      "items": [
+        "搭建最小可行产品，实现反馈收集、投票和基础分类功能，使用现成UI框架快速开发。",
+        "锁定目标用户（如SaaS产品经理），通过行业社区和内容营销获取首批100个免费用户，收集反馈迭代。",
+        "推出付费版本，增加高级分析、集成（如钉钉、飞书）和专属支持，定价$200-800/月，通过案例和口碑传播扩大付费转化。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "面向产品团队的反馈管理SaaS工具的经营验证仪表盘",
+      "items": [
+        "面向产品团队的反馈管理SaaS工具，按月订阅赚钱。",
+        "SaaS订阅制，按团队规模收费（$50-$500/月），免费版限制功能，付费解锁高级分析和集成。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2558,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

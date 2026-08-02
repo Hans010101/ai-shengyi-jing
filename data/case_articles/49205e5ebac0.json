@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "3D打印设备增值分销商的产品与交付路径",
+      "items": [
+        "官网/电商",
+        "产品展示（3D打印机/激光切割机）",
+        "在线教程/案例库",
+        "咨询下单"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "3D打印设备增值分销商的中国市场验证路线",
+      "items": [
+        "选择细分市场（如教育或创客），注册公司并取得3D打印机/激光切割机品牌代理资格，建立电商网站。",
+        "制作高质量中文教程视频（设备使用、项目案例），发布在B站、抖音和知乎，吸引精准客户，同时优化SEO。",
+        "设计耗材订阅或会员服务，提供售后支持和培训课程，通过微信社群维护老客户，促进复购和转介绍。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2569,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

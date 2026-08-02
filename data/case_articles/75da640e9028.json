@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "每日3小时科技商业直播秀的中国市场验证路线",
+      "items": [
+        "选定科技商业细分领域（如AI创业），在B站/抖音开设账号，每日发布3-5条短视频预告或精华片段，测试用户兴趣。",
+        "每周尝试1次直播（1-2小时），邀请行业嘉宾，积累直播经验；同时建立微信群，收集反馈，优化内容。",
+        "稳定直播后，通过平台打赏、品牌合作（如科技产品赞助）、付费会员（如独家分析）变现，逐步增加直播频次至每日。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "每日3小时科技商业直播秀的经营验证仪表盘",
+      "items": [
+        "每日3小时科技商业直播秀，通过广告和赞助赚钱。",
+        "免费直播吸引流量，平台广告分成+品牌赞助+会员订阅为主要收入来源。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2464,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

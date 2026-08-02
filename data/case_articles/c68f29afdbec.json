@@ -175,6 +175,26 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/551/original/open-uri20211026-3-1oqkreo?1635275333",
+      "caption": "本地SEO工具SaaS：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "alt": "本地SEO工具SaaS：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/we-bootstrapped-a-local-seo-tool-to-9m-arr",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/552/original/open-uri20211026-3-gkpm55?1635275333",
+      "caption": "本地SEO工具SaaS：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "alt": "本地SEO工具SaaS：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/we-bootstrapped-a-local-seo-tool-to-9m-arr",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -189,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2539,
-    "mediaCount": 4,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

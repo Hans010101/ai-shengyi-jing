@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "免费素材市场的产品与交付路径",
+      "items": [
+        "用户注册",
+        "浏览/搜索素材",
+        "预览/下载免费素材",
+        "付费解锁高级素材/订阅会员"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "免费素材市场的中国市场验证路线",
+      "items": [
+        "搭建素材网站，利用开源CMS（如WordPress+Easy Digital Downloads）快速上线，初期用AI生成或采集CC0素材填充内容。",
+        "通过SEO优化（长尾关键词如'免费商业素材'）和社交媒体（小红书、抖音发布设计教程）引流，积累种子用户。",
+        "推出会员订阅制（如¥29/月无限下载），并接入广告联盟（如百度联盟）增加收入，同时鼓励用户上传素材赚取分成。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2480,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

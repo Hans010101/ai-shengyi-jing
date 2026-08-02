@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "UGC营销操作系统的中国市场验证路线",
+      "items": [
+        "选择1-2个中国主流社媒平台（如抖音、小红书），开发基础监控功能，如粉丝增长、内容发布、互动数据。",
+        "增加自动化功能，如自动回复评论、定时发布、竞品监控，并设计免费版（限1个账号）和付费版。",
+        "通过行业KOL合作、SEO优化“社媒监控”关键词、免费试用引流，首月定价$37（约260元）快速验证。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "UGC营销操作系统的经营验证仪表盘",
+      "items": [
+        "UGC营销操作系统，追踪社媒账号并自动化营销，按月收费。",
+        "SaaS订阅制，按监控账号数和功能分级收费，月费$37-299。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2478,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

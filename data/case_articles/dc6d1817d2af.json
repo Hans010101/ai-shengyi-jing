@@ -149,8 +149,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/006/932/original/open-uri20200702-4-18ycacq?1593660480",
-      "caption": "手工牛仔服饰品牌：原始案例中的产品与运营配图（第1张）",
-      "alt": "手工牛仔服饰品牌：原始案例中的产品与运营配图（第1张）",
+      "caption": "手工牛仔服饰品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "手工牛仔服饰品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-expanded-our-e-commerce-business-to-manufacturing-and-production",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -159,12 +159,40 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/006/933/original/open-uri20200702-4-1svgzgo?1593660481",
-      "caption": "手工牛仔服饰品牌：原始案例中的产品与运营配图（第2张）",
-      "alt": "手工牛仔服饰品牌：原始案例中的产品与运营配图（第2张）",
+      "caption": "手工牛仔服饰品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "手工牛仔服饰品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-expanded-our-e-commerce-business-to-manufacturing-and-production",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "手工牛仔服饰品牌的商业增长闭环",
+      "items": [
+        "【引流】Instagram/小红书展示复古穿搭",
+        "【产品】手工牛仔服饰",
+        "【变现】电商平台/私域成交",
+        "【留存】会员社群+限量复刻"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "手工牛仔服饰品牌的产品与交付路径",
+      "items": [
+        "复古灵感收集",
+        "设计草图",
+        "小批量手工制作",
+        "电商上架"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -179,7 +207,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2475,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 3,
+    "logicMedia": 2
   }
 }

@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI驱动的个人品牌研究工具的中国市场验证路线",
+      "items": [
+        "搭建最小可行产品，用GPT API实现输入姓名/链接自动生成个人简介，先做免费版验证需求。",
+        "在知乎、小红书发布'你的AI个人档案'测评内容，引导用户免费试用，收集反馈优化模板。",
+        "推出付费订阅，$19/月解锁完整报告、多平台整合，设置分享裂变机制（分享得免费次数）。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI驱动的个人品牌研究工具的经营验证仪表盘",
+      "items": [
+        "AI驱动的个人品牌研究工具，通过订阅制赚钱。",
+        "B2C订阅制，月费$9-$29，提供免费试用吸引用户，付费解锁完整报告。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2438,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

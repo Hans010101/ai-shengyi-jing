@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "天然除臭剂DTC品牌的中国市场验证路线",
+      "items": [
+        "确定细分人群（如敏感肌/运动女性），研发无铝/无刺激配方，申请备案与检测报告。",
+        "搭建微信小程序或电商店铺，设计订阅制（月/季），并承诺每单捐赠1-5元给知名乳腺癌基金会。",
+        "在小红书/抖音发布“成分科普+公益故事”内容，合作KOC试用，引导搜索购买，用订阅优惠提升复购。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "天然除臭剂DTC品牌的经营验证仪表盘",
+      "items": [
+        "天然除臭剂DTC品牌，通过电商订阅+公益捐赠盈利。",
+        "DTC电商：官网销售+订阅盒，部分收入捐给乳腺癌研究，以公益差异化获客。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2428,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

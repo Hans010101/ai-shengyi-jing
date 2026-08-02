@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "有机植物餐厅的产品与交付路径",
+      "items": [
+        "用户关注健康话题",
+        "到店体验有机餐",
+        "参与健康课程",
+        "购买会员或周边产品"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "有机植物餐厅的中国市场验证路线",
+      "items": [
+        "利用个人健康故事或专业背景，在小红书/抖音发布有机饮食科普内容，积累种子用户，同时与本地有机农场合作确保供应链。",
+        "开设小型体验店或快闪店，主推1-2款爆款植物基餐品，搭配免费健康讲座，收集用户反馈并优化菜单，同步搭建线上课程框架。",
+        "推出会员卡（月卡/季卡）提供餐饮折扣和课程权益，建立微信群进行每日健康打卡，定期举办线下沙龙，提升复购和转介绍。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2531,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

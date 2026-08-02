@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/810/original/open-uri20210921-3-jn9mfd?1632235069",
+      "caption": "3D打印防水定制夹板：创业起点与创意来源相关原始配图（第4张）",
+      "alt": "3D打印防水定制夹板：创业起点与创意来源相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/3d-printed-a-waterproof-cast-turned-it-into-a-500k-year-business",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/811/original/open-uri20210921-3-17lwc0o?1632235070",
+      "caption": "3D打印防水定制夹板：创业起点与创意来源相关原始配图（第5张）",
+      "alt": "3D打印防水定制夹板：创业起点与创意来源相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/3d-printed-a-waterproof-cast-turned-it-into-a-500k-year-business",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/-5RCmu-HuTg",
       "watchUrl": "https://www.youtube.com/watch?v=-5RCmu-HuTg",
@@ -201,7 +221,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2411,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

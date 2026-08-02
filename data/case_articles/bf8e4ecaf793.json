@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI驱动的免费在线PDF编辑工具的中国市场验证路线",
+      "items": [
+        "搭建基础PDF处理功能（上传、解析、显示），集成开源PDF库（如PDF.js），部署为Web应用，实现免费编辑、合并、拆分等核心功能。",
+        "设计付费墙，将批量处理、OCR识别、格式转换等设为付费功能，采用订阅制（月/年）或按次付费，接入微信支付或支付宝。",
+        "通过SEO优化（长尾关键词如'在线PDF编辑免费'）、知乎教程、B站视频引流，同时建立用户反馈渠道，快速迭代功能。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI驱动的免费在线PDF编辑工具的经营验证仪表盘",
+      "items": [
+        "AI驱动的免费在线PDF编辑工具，通过付费解锁高级功能盈利",
+        "Freemium模式：免费提供PDF编辑、合并等基础功能，高级功能（如OCR、批量处理）需订阅或按次付费",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2563,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

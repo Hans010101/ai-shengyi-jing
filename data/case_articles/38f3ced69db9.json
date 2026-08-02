@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "Slopes是一款滑雪记录AI应用的中国市场验证路线",
+      "items": [
+        "组建2-3人小团队，包括iOS/安卓开发、AI算法工程师。利用开源GPS轨迹库和运动分析算法，快速开发MVP，实现基础滑行记录功能。",
+        "与国内1-2家滑雪场合作，获取测试用户。在滑雪场投放二维码，引导用户下载体验。收集反馈，优化自动识别和数据分析准确性。",
+        "上线免费版，同时推出订阅制（月费9.9元，年费69元）。通过小红书、滑雪社群做内容营销，分享滑行数据截图，吸引付费用户。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "Slopes是一款滑雪记录AI应用的经营验证仪表盘",
+      "items": [
+        "Slopes是一款滑雪记录AI应用，通过订阅制赚钱。",
+        "免费增值模式：基础功能免费，高级分析、无限历史记录等需订阅，月费$4.99或年费$29.99。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2586,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

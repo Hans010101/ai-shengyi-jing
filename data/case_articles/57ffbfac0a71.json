@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI驱动的商业信息聚合平台的中国市场验证路线",
+      "items": [
+        "选择细分领域（如餐饮、电商），用爬虫收集公开数据（工商、招聘、社交媒体），存入数据库。",
+        "开发AI模型清洗数据，生成企业档案，包含基本信息、融资、舆情等，搭建Web端展示。",
+        "推出免费试用，通过行业社群和SEO获取种子用户，根据反馈迭代，设置阶梯定价（基础版免费/专业版付费）。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI驱动的商业信息聚合平台的经营验证仪表盘",
+      "items": [
+        "AI驱动的商业信息聚合平台，通过订阅制提供深度企业研究数据。",
+        "订阅制SaaS，按用户数或数据量收费，提供企业档案、行业报告等增值服务。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2478,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

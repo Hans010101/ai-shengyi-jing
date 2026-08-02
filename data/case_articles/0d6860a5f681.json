@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "卖极简赤足鞋的中国市场验证路线",
+      "items": [
+        "确定目标用户（如跑步爱好者、足部健康人群），注册域名并搭建Shopify店铺，采购3-5款基础赤足鞋样品，拍摄产品视频和评测。",
+        "在抖音、小红书发布内容（如赤足跑步好处、开箱体验），与跑步类KOL合作推广，设置首次购买折扣引导转化。",
+        "收集用户反馈，优化尺码和设计，推出会员订阅（如季度换新）或配件（如矫正鞋垫），通过社群维护复购。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "卖极简赤足鞋的经营验证仪表盘",
+      "items": [
+        "卖极简赤足鞋，通过DTC模式月入46万美元。",
+        "DTC模式，自有网站销售，无中间商，通过内容营销和口碑传播获客。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2477,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

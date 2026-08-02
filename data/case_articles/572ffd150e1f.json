@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "发明电动园艺工具配件的中国市场验证路线",
+      "items": [
+        "调研中国常见电钻型号，设计通用或适配的园艺配件原型，申请外观或实用新型专利。",
+        "在1688或义乌小商品城寻找代工厂，小批量生产100-200个样品，测试质量和兼容性。",
+        "在抖音发布使用教程和效果对比视频，挂淘宝/拼多多链接，前100个订单提供优惠价收集反馈。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "发明电动园艺工具配件的经营验证仪表盘",
+      "items": [
+        "发明电动园艺工具配件，通过电商直销盈利。",
+        "硬件产品+电商直销：研发专利配件，在Shopify/Amazon销售，单件利润高。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2425,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

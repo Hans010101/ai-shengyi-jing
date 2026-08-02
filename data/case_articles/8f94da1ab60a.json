@@ -165,6 +165,34 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "利用Typeform和Zapier自动化创建停车的商业增长闭环",
+      "items": [
+        "【引流】SEO+社交媒体",
+        "【产品】停车优惠网站",
+        "【变现】佣金+广告+会员",
+        "【留存】邮件推送+积分系统"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "利用Typeform和Zapier自动化创建停车的产品与交付路径",
+      "items": [
+        "用户访问网站",
+        "搜索停车需求",
+        "展示优惠列表",
+        "点击预订"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -179,7 +207,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2516,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 3,
+    "logicMedia": 2
   }
 }

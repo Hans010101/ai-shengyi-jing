@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/076/original/open-uri20210514-3-1q0iehh?1621025053",
+      "caption": "卖草本补剂：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "alt": "卖草本补剂：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/lost-empire-herbs-update-how-we-increased-our-net-profit-by-280",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/077/original/open-uri20210514-3-1qgmcji?1621025054",
+      "caption": "卖草本补剂：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "alt": "卖草本补剂：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/lost-empire-herbs-update-how-we-increased-our-net-profit-by-280",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/IgoAIR5sN9o",
       "watchUrl": "https://www.youtube.com/watch?v=IgoAIR5sN9o",
@@ -201,7 +221,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2395,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

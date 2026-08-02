@@ -165,6 +165,34 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "为品牌提供文化驱动的内容营销与设计服务的商业增长闭环",
+      "items": [
+        "【引流】案例展示与行业分享",
+        "【产品】定制化品牌服务",
+        "【变现】月度订阅费",
+        "【留存】持续产出高质量内容与效果反馈"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "为品牌提供文化驱动的内容营销与设计服务的产品与交付路径",
+      "items": [
+        "客户需求分析",
+        "品牌策略制定",
+        "内容创作与设计",
+        "交付与迭代"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -179,7 +207,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2448,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 3,
+    "logicMedia": 2
   }
 }

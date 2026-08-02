@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "为餐食准备企业提供SaaS平台的产品与交付路径",
+      "items": [
+        "用户注册",
+        "菜单规划",
+        "采购清单生成",
+        "生产排程"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为餐食准备企业提供SaaS平台的中国市场验证路线",
+      "items": [
+        "聚焦一个细分餐食场景（如健身餐），开发MVP，包含菜单规划与采购清单核心功能，用Excel原型验证需求。",
+        "通过微信群、行业展会获取首批10个付费客户，提供免费3个月使用，收集反馈迭代产品。",
+        "优化生产排程与配送模块，推出按订单量计费的灵活定价，并建立客户成功团队提升续费率。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2476,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

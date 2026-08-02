@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为软件团队提供AI项目管理的SaaS工具的中国市场验证路线",
+      "items": [
+        "聚焦细分领域（如软件团队），开发极简项目管理MVP，只保留任务创建、分配和看板功能。",
+        "在GitHub、技术论坛等渠道发布产品，邀请种子用户免费使用，收集反馈快速迭代。",
+        "推出付费版本（按团队规模），集成主流协作工具（如飞书），提供AI功能（如自动排期）作为增值点。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "为软件团队提供AI项目管理的SaaS工具的经营验证仪表盘",
+      "items": [
+        "为软件团队提供AI项目管理的SaaS工具，按月收费。",
+        "B2B SaaS订阅模式，按团队规模收费，提供免费试用，核心功能付费解锁。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2483,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

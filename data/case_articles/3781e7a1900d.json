@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "DTC高尔夫球具品牌的中国市场验证路线",
+      "items": [
+        "定位细分市场（如业余球手、女性球手），注册品牌域名，搭建Shopify独立站，突出产品差异化卖点。",
+        "联系国内高尔夫球具代工厂，小批量定制样品；拍摄专业试打视频，在抖音/小红书发布种草内容，积累种子用户。",
+        "建立微信私域社群，提供挥杆分析、球具咨询等增值服务；推出会员折扣和推荐返现，促进复购和裂变。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "DTC高尔夫球具品牌的经营验证仪表盘",
+      "items": [
+        "DTC高尔夫球具品牌，通过自建站销售中高端球杆盈利。",
+        "直接面向消费者（DTC）销售自有品牌高尔夫球杆，线上官网+社交媒体引流，赚取产品差价。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2503,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

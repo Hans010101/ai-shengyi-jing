@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "Grobo是智能室内种植系统的产品与交付路径",
+      "items": [
+        "用户购买硬件",
+        "连接App",
+        "智能种植管理",
+        "耗材自动补货订阅"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "Grobo是智能室内种植系统的中国市场验证路线",
+      "items": [
+        "市场调研，确定目标用户（如城市白领、亲子家庭），设计小型智能种植设备原型，聚焦一种易种作物（如香菜、生菜）。",
+        "开发简易App，实现光照、浇水自动控制，并预装耗材订阅功能；通过小红书、抖音发布种植教程短视频，吸引种子用户。",
+        "与本地耗材供应商合作，提供种子、营养液订阅包；建立用户社群，收集反馈迭代产品，逐步扩展作物种类和硬件功能。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2526,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

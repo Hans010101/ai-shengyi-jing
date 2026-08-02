@@ -177,6 +177,16 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/423/original/open-uri20181216-4-1cmkf8u?1544953492",
+      "caption": "帮助女性重返职场的平台：创业复盘与关键经验相关原始配图（第4张）",
+      "alt": "帮助女性重返职场的平台：创业复盘与关键经验相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-rita-kakati-shah-is-helping-women-get-back-to-work",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/tFdJLGP6-Mo",
       "watchUrl": "https://www.youtube.com/watch?v=tFdJLGP6-Mo",
@@ -185,6 +195,30 @@
       "sourceUrl": "https://www.starterstory.com/stories/how-rita-kakati-shah-is-helping-women-get-back-to-work",
       "origin": "embeddable-video",
       "poster": "https://i.ytimg.com/vi/tFdJLGP6-Mo/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/d92i3uEsllc",
+      "watchUrl": "https://www.youtube.com/watch?v=d92i3uEsllc",
+      "caption": "帮助女性重返职场的平台资料中提及的视频：Uma Academy",
+      "alt": "Uma Academy",
+      "sourceUrl": "https://www.starterstory.com/stories/how-rita-kakati-shah-is-helping-women-get-back-to-work",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/d92i3uEsllc/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/cBoSkEGncpI",
+      "watchUrl": "https://www.youtube.com/watch?v=cBoSkEGncpI",
+      "caption": "帮助女性重返职场的平台资料中提及的视频：Umaships",
+      "alt": "Umaships",
+      "sourceUrl": "https://www.starterstory.com/stories/how-rita-kakati-shah-is-helping-women-get-back-to-work",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/cBoSkEGncpI/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
     }
@@ -201,7 +235,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2462,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "Paddle为软件公司提供全球支付、税务合规和订的中国市场验证路线",
+      "items": [
+        "聚焦一个细分行业（如跨境电商SaaS），开发支付集成SDK，支持主流支付方式（微信、支付宝、信用卡）。",
+        "与1-2家出海SaaS公司合作内测，免费使用，收集反馈并优化税务合规、订阅管理功能。",
+        "上线后按交易额收取2-3%手续费，通过案例和口碑获客，逐步扩展至更多行业。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "Paddle为软件公司提供全球支付、税务合规和订的经营验证仪表盘",
+      "items": [
+        "Paddle为软件公司提供全球支付、税务合规和订阅管理的一站式SaaS平台。",
+        "按交易额收取手续费（约5%+$0.5/笔），为SaaS公司处理全球支付、税务和合规问题。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2514,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

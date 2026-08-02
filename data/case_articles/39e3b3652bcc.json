@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "邮件订阅摘要工具的中国市场验证路线",
+      "items": [
+        "聚焦一个细分领域（如科技新闻），用Python抓取RSS或API内容，用OpenAI API生成摘要，搭建最小原型。",
+        "在知识星球、即刻等社区推广，提供免费每日摘要，收集反馈优化摘要质量与推送频率。",
+        "推出付费版本，按摘要源数量或AI摘要深度分级定价，通过推荐计划让用户邀请朋友获免费额度。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "邮件订阅摘要工具的经营验证仪表盘",
+      "items": [
+        "邮件订阅摘要工具，按月订阅收费。",
+        "SaaS订阅制，免费版有限额，付费版$9-$29/月，提供更多订阅源和高级摘要功能。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2485,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI+游戏化健身App的中国市场验证路线",
+      "items": [
+        "开发轻量版AI身体扫描模型（可使用开源姿态估计库），集成到微信小程序，提供免费基础训练计划。",
+        "设计游戏化机制（如每日任务、等级勋章、好友PK），与健身KOL合作推广，引导用户订阅高级计划。",
+        "收集用户数据优化AI算法，增加本地化内容（如中国健身课程、饮食建议），通过社群运营提升留存。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI+游戏化健身App的经营验证仪表盘",
+      "items": [
+        "AI+游戏化健身App，通过订阅制变现。",
+        "免费试用基础功能，高级训练计划、AI教练、游戏化激励等需付费订阅（月/年）。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2457,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "Acumen Brands是一个年营收1亿美元的的中国市场验证路线",
+      "items": [
+        "选择细分品类（如宠物用品、户外装备），调研并筛选3-5个年营收100万-500万的小品牌，评估其供应链和客户群。",
+        "筹集50-100万启动资金，通过股权或债权方式收购目标品牌，保留原团队或引入运营人才。",
+        "整合采购和物流，统一营销策略（如SEO、社交媒体），优化成本结构，并在6个月内实现盈利。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "Acumen Brands是一个年营收1亿美元的的经营验证仪表盘",
+      "items": [
+        "Acumen Brands是一个年营收1亿美元的电商帝国，通过收购和运营多个垂直电商品牌盈利。",
+        "收购多个垂直电商品牌，集中采购和营销，利用规模效应降低成本，提升利润率。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2517,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

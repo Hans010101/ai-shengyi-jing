@@ -175,6 +175,26 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/427/original/open-uri20190418-4-nzlxjt?1555568956",
+      "caption": "为非传统新娘提供个性化礼品盒的订阅电商：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "为非传统新娘提供个性化礼品盒的订阅电商：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-gift-box-business-for-non-traditional-brides",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/428/original/open-uri20190418-4-hoyduo?1555568957",
+      "caption": "为非传统新娘提供个性化礼品盒的订阅电商：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "为非传统新娘提供个性化礼品盒的订阅电商：产品上线与首次发布相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-gift-box-business-for-non-traditional-brides",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -189,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2503,
-    "mediaCount": 4,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

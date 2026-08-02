@@ -169,6 +169,34 @@
       "poster": "https://i.ytimg.com/vi/h7_eB5UghEI/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "设计信用卡大小多功能工具的商业增长闭环",
+      "items": [
+        "【引流】社交媒体内容种草",
+        "【产品】卡片多功能工具",
+        "【变现】电商平台直接销售",
+        "【留存】复购优惠和用户社区"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "设计信用卡大小多功能工具的产品与交付路径",
+      "items": [
+        "市场调研",
+        "产品设计",
+        "众筹验证",
+        "生产制造"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +211,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2463,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 3,
+    "logicMedia": 2
   }
 }

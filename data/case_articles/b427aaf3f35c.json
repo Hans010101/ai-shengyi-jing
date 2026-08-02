@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为SaaS和数字产品提供全球支付、税务和合规处理的中国市场验证路线",
+      "items": [
+        "调研目标市场（如欧美SaaS卖家），明确合规要求（VAT/GST、销售税），注册公司并申请必要支付牌照或与持牌机构合作。",
+        "开发最小可行产品，核心功能包括支付集成（Stripe等）、自动税务计算与申报、多币种结算，并开放API供用户集成。",
+        "通过撰写跨境支付指南、税务合规教程等内容吸引早期用户，提供免费试用或低费率吸引种子客户，收集反馈迭代。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "为SaaS和数字产品提供全球支付、税务和合规处理的经营验证仪表盘",
+      "items": [
+        "为SaaS和数字产品提供全球支付、税务和合规处理的商户记录平台，通过交易抽成赚钱。",
+        "平台作为商户记录（MoR），处理支付、计算并代缴税费、确保合规，每笔交易收取固定费率加手续费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2679,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

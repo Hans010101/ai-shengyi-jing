@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为保险代理人提供AI驱动的客户管理和销售自动化S的中国市场验证路线",
+      "items": [
+        "开发MVP，聚焦核心功能：客户管理（导入微信联系人）、保单录入与到期提醒、简易AI销售建议。使用低代码平台（如Retool）快速搭建，目标2周内上线。",
+        "通过保险代理人微信群、行业论坛、抖音/快手短视频（分享保险销售技巧）获取前100名种子用户。提供免费3个月试用，收集反馈迭代。",
+        "与保险公司或保险经纪公司合作，提供SaaS定制版，按坐席收费。同时推出增值服务：AI营销模板、客户分析报告，实现月收入$10k+。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "为保险代理人提供AI驱动的客户管理和销售自动化S的经营验证仪表盘",
+      "items": [
+        "为保险代理人提供AI驱动的客户管理和销售自动化SaaS工具，按月收费。",
+        "B2B SaaS模式，按用户/月收费，提供免费试用，通过增值功能（如AI建议、自动化营销）促进付费转化。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2682,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

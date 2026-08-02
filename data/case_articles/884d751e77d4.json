@@ -175,6 +175,26 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/010/429/original/open-uri20210301-3-c1psqg?1614626874",
+      "caption": "空中观光旅游预订平台：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "alt": "空中观光旅游预订平台：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/envi-adventures-update-how-we-increased-number-of-flights-by-121-last-year",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/010/430/original/open-uri20210301-3-8qczxp?1614626874",
+      "caption": "空中观光旅游预订平台：学习方法与行业资源相关原始配图（第5张）",
+      "alt": "空中观光旅游预订平台：学习方法与行业资源相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/envi-adventures-update-how-we-increased-number-of-flights-by-121-last-year",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -189,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2472,
-    "mediaCount": 4,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

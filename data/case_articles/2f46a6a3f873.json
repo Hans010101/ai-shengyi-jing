@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "收集展示客户评价的SaaS工具的中国市场验证路线",
+      "items": [
+        "选择细分市场（如电商、SaaS），开发轻量版评价收集插件，支持手动录入和公开平台导入。",
+        "集成微信小程序或企业微信，提供免费基础版，通过朋友圈分享案例获取首批用户。",
+        "推出付费版，增加AI情感分析、竞品评价对比功能，按站点或评价数收费，月费99-299元。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "收集展示客户评价的SaaS工具的经营验证仪表盘",
+      "items": [
+        "收集展示客户评价的SaaS工具，按月订阅收费。",
+        "SaaS订阅制，提供免费版引流，付费版解锁高级功能如自定义品牌、多站点等。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2455,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

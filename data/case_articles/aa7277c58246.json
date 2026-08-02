@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI生成真人照片/视频的SaaS工具的中国市场验证路线",
+      "items": [
+        "选择AI图像生成API（如Stable Diffusion或Midjourney），搭建基础生成流程，实现用户上传照片后生成头像的MVP。",
+        "在小红书、抖音发布对比视频或教程，展示AI头像效果，引导用户到小程序或网站体验免费生成，收集反馈优化。",
+        "设置免费试用（生成2张）和付费解锁（9.9元/10张或29.9元/月），通过分享裂变（如邀请好友得免费张数）快速获客。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI生成真人照片/视频的SaaS工具的经营验证仪表盘",
+      "items": [
+        "AI生成真人照片/视频的SaaS工具，按次或订阅收费。",
+        "用户上传自拍，AI训练后生成多种风格头像/视频，免费试用部分结果，付费下载或解锁更多。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2566,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

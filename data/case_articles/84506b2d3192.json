@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "帮用户发现并提交集体诉讼索赔的中国市场验证路线",
+      "items": [
+        "建立法律知识库，梳理中国常见集体维权场景（如电商平台假货、教育贷纠纷），设计问卷收集用户案件信息。",
+        "开发小程序或APP，实现案件匹配、证据上传、文书自动生成功能，集成电子签名和法院/仲裁在线提交接口。",
+        "与律所或法律科技公司合作，确保合规；通过短视频、法律社群推广，按结果付费（如获赔金额的10-20%）。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "帮用户发现并提交集体诉讼索赔的经营验证仪表盘",
+      "items": [
+        "帮用户发现并提交集体诉讼索赔，赚取佣金。",
+        "免费发现索赔机会，提交后从获赔金额中抽取20-30%佣金。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2455,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

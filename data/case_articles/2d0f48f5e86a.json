@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/762/original/open-uri20210913-3-1apuwlt?1631563718",
+      "caption": "恶搞贺卡电商：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "alt": "恶搞贺卡电商：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-aimed-a-2m-of-goal-revenue-this-year",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/763/original/open-uri20210913-3-pige8k?1631563719",
+      "caption": "恶搞贺卡电商：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "alt": "恶搞贺卡电商：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-aimed-a-2m-of-goal-revenue-this-year",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/NllqeDabDoc",
       "watchUrl": "https://www.youtube.com/watch?v=NllqeDabDoc",
@@ -185,6 +205,18 @@
       "sourceUrl": "https://www.starterstory.com/stories/how-i-aimed-a-2m-of-goal-revenue-this-year",
       "origin": "embeddable-video",
       "poster": "https://i.ytimg.com/vi/NllqeDabDoc/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/ZmZwftODMis",
+      "watchUrl": "https://www.youtube.com/watch?v=ZmZwftODMis",
+      "caption": "恶搞贺卡电商资料中提及的视频：Endless Punk Rock Birthday Card With Glitter",
+      "alt": "Endless Punk Rock Birthday Card With Glitter",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-aimed-a-2m-of-goal-revenue-this-year",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/ZmZwftODMis/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
     }
@@ -201,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2432,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

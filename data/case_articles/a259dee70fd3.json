@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "浏览器插件显示租房网速的中国市场验证路线",
+      "items": [
+        "开发Chrome插件原型，能识别主流租房平台（如途家、小猪）页面，通过API获取地址并调用网速数据库（可用Speedtest公开数据）。",
+        "在插件商店上线免费版，展示基本网速评级，付费版提供历史数据、趋势图和下载。定价9.9元/月或19.9元/年。",
+        "与旅行博主/自媒体合作推广，嵌入插件下载链接；收集用户反馈，增加WiFi密码分享、网速保障等增值功能。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "浏览器插件显示租房网速的经营验证仪表盘",
+      "items": [
+        "浏览器插件显示租房网速，按订阅或付费解锁收费。",
+        "Freemium模式：基础功能免费，高级数据或无限查询按月订阅（$5-10/月）或按次付费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2543,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

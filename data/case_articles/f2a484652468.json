@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI辅助内容创作工具的中国市场验证路线",
+      "items": [
+        "利用ChatGPT等AI工具快速搭建MVP，聚焦1-2个内容类型（如短视频脚本、小红书文案），集成支付接口。",
+        "在知乎、B站等平台发布教程类内容引流，提供免费试用吸引种子用户，收集反馈迭代。",
+        "推出月度/年度订阅，增加团队协作、多平台发布等增值功能，通过用户推荐计划实现裂变增长。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI辅助内容创作工具的经营验证仪表盘",
+      "items": [
+        "AI辅助内容创作工具，订阅制收费。",
+        "SaaS订阅制，提供AI内容生成模板，按月或年收费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2414,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

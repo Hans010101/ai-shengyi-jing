@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "识别匿名网站访客的中国市场验证路线",
+      "items": [
+        "开发网站访客识别脚本，集成IP和企业信息API（如企查查、天眼查），实现公司级识别。",
+        "对接脉脉、领英等职业社交平台（或自建企业数据库），通过公开信息匹配个人资料。",
+        "设计免费版（仅公司名）和付费版（个人详情），按线索数量定价，并通过CRM集成提升粘性。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "识别匿名网站访客的经营验证仪表盘",
+      "items": [
+        "识别匿名网站访客，推送LinkedIn资料，按转化付费。",
+        "SaaS订阅+按线索付费，免费识别公司名，付费解锁个人资料，月费$79起。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2454,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

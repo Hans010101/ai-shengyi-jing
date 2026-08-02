@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "提供全球企业数据验证与合规KYC服务的SaaS平的中国市场验证路线",
+      "items": [
+        "聚焦一个垂直场景（如跨境电商卖家验证），收集国内工商、海关等公开数据源，搭建基础验证API。",
+        "开发Web端和API接口，提供免费试用额度（如5次），吸引首批种子用户，通过行业社群推广。",
+        "根据用户反馈优化数据准确率，推出企业版订阅（含批量查询、合规报告定制），定价参考竞品（如每次$0.5-$2）。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "提供全球企业数据验证与合规KYC服务的SaaS平的经营验证仪表盘",
+      "items": [
+        "提供全球企业数据验证与合规KYC服务的SaaS平台。",
+        "API/SaaS订阅 + 按次计费，客户按月付费或按查询量付费，数据源成本固定，边际利润高。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2540,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

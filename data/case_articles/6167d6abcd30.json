@@ -175,6 +175,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "意大利PPC广告代理的商业增长闭环",
+      "items": [
+        "【引流】LinkedIn/行业博客",
+        "【产品】PPC管理服务",
+        "【变现】月费/佣金",
+        "【留存】定期报告+ROI提升"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -189,7 +203,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2429,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 4,
+    "logicMedia": 1
   }
 }

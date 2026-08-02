@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "播客托管与广告变现平台的中国市场验证路线",
+      "items": [
+        "搭建最小可行产品，实现播客上传、存储和基础播放功能，支持RSS分发。使用云存储（如阿里云OSS）降低初期成本。",
+        "集成AI音频处理模块（开源方案如Librosa），提供智能变速、降噪等差异化功能，吸引早期创作者。",
+        "接入广告联盟（如广点通）或自建广告系统，为创作者提供变现渠道；同时推出月费订阅（如19元/月）解锁高级分析。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "播客托管与广告变现平台的经营验证仪表盘",
+      "items": [
+        "播客托管与广告变现平台，通过订阅和广告分成盈利。",
+        "免费增值：基础托管免费，高级功能（如上传容量、分析）付费订阅；同时运行广告网络，向听众推送广告并与创作者分成。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2552,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

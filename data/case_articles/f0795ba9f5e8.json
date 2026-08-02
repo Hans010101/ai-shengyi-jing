@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "SEO竞争分析工具的中国市场验证路线",
+      "items": [
+        "选择细分市场（如电商、本地服务），聚焦百度或抖音广告数据，开发爬虫收集竞品关键词和广告文案。",
+        "搭建MVP，提供基础关键词研究功能，通过免费版吸引种子用户，收集反馈迭代。",
+        "设计定价策略（月费99-299元），通过行业KOL合作和SEO内容营销获客，逐步增加高级功能如历史数据追踪。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "SEO竞争分析工具的经营验证仪表盘",
+      "items": [
+        "SEO竞争分析工具，通过订阅制向企业提供关键词研究、竞品广告策略等数据服务。",
+        "B2B SaaS订阅制，按功能分级定价（基础/专业/企业），提供关键词研究、竞争对手分析、广告历史追踪等核心功能。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2543,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

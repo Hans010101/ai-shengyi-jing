@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "销售刻有祈祷词的木碗的中国市场验证路线",
+      "items": [
+        "确定细分信仰群体（如佛教、道教），设计3-5款碗型与经文组合，小批量定制样品。",
+        "在抖音/小红书发布“祈福仪式”内容引流，开通微信小店或淘宝店，定价49-99元。",
+        "与寺庙、文化用品店合作分销，推出补充经文卡片订阅制，提升复购。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "销售刻有祈祷词的木碗的经营验证仪表盘",
+      "items": [
+        "销售刻有祈祷词的木碗，通过电商和教会渠道盈利。",
+        "B2C电商+教会B2B分销，产品定价$30-50，毛利60%+，复购来自补充卡片。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2402,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

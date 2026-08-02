@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "软件工程付费资讯的中国市场验证路线",
+      "items": [
+        "选择细分技术领域（如前端、AI工程），在知乎、GitHub等平台发布免费优质技术文章，积累种子用户。",
+        "搭建邮件订阅系统（如Mailchimp）或使用小报童，设置付费订阅（如99元/年），每周推送深度技术分析。",
+        "联系技术赞助商（如云服务商、开发者工具），提供广告位或合作内容，增加收入来源，同时用社群增强用户粘性。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "软件工程付费资讯的经营验证仪表盘",
+      "items": [
+        "软件工程付费资讯，通过订阅和赞助赚钱。",
+        "免费newsletter引流，付费订阅获取深度内容，同时向B端收取赞助费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2441,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

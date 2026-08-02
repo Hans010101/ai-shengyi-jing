@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "面向Xcode开发者的AI调试工具的中国市场验证路线",
+      "items": [
+        "开发Xcode插件，实现基础调试数据捕获功能，并在GitHub开源获取种子用户。",
+        "集成AI分析模块（可调用OpenAI API），提供日志错误定位和性能建议，设置免费额度。",
+        "推出付费订阅（$9.9/月），解锁高级功能如批量分析、团队协作，并通过开发者博客和论坛推广。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "面向Xcode开发者的AI调试工具的经营验证仪表盘",
+      "items": [
+        "面向Xcode开发者的AI调试工具，订阅制收费。",
+        "免费增值SaaS，基础功能免费，高级功能（如AI日志分析、性能优化）按月/年订阅收费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2500,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

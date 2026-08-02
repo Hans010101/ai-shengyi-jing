@@ -189,6 +189,30 @@
       "poster": "https://i.ytimg.com/vi/XYhQ14tyt1E/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/BohkWPh7zm8",
+      "watchUrl": "https://www.youtube.com/watch?v=BohkWPh7zm8",
+      "caption": "健康补剂品牌资料中提及的视频：Clean Hands by Jigsaw Health",
+      "alt": "Clean Hands by Jigsaw Health",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-hit-1m-in-monthly-revenue",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/BohkWPh7zm8/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/XYhQ14tyt1E&list=PLEpvcH-7ooF0Mw1We0C69Cjp9eAi3yTHS&index=3",
+      "watchUrl": "https://www.youtube.com/watch?v=XYhQ14tyt1E&list=PLEpvcH-7ooF0Mw1We0C69Cjp9eAi3yTHS&index=3",
+      "caption": "健康补剂品牌资料中提及的视频：Irina \"William Tell\" Tereschenko | We Love Pickleball, Too",
+      "alt": "Irina \"William Tell\" Tereschenko | We Love Pickleball, Too",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-hit-1m-in-monthly-revenue",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/XYhQ14tyt1E/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -203,7 +227,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2432,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

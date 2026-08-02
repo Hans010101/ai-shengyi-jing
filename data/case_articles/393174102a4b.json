@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "航空驾驶舱拍摄制作的产品与交付路径",
+      "items": [
+        "策划拍摄主题",
+        "联系航司获取许可",
+        "驾驶舱实拍",
+        "后期制作"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "航空驾驶舱拍摄制作的中国市场验证路线",
+      "items": [
+        "加入航空爱好者社群，联系小型航司或通航公司获取拍摄许可，使用GoPro等设备拍摄驾驶舱视频。",
+        "剪辑制作10-15分钟精华片段，发布到B站、抖音测试反响，积累粉丝和口碑。",
+        "推出完整版付费下载或DVD，同步开发周边（如飞行日志、模型），并寻求航空品牌赞助。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2521,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

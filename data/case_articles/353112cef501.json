@@ -181,6 +181,20 @@
       "poster": "https://i.ytimg.com/vi/EbY_9MUl4sM/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "多功能烧烤铲按月赚4万美元的商业增长闭环",
+      "items": [
+        "【引流】抖音/小红书内容展示烧烤场景",
+        "【产品】多功能烧烤铲（带夹子、开瓶器等）",
+        "【变现】电商平台销售",
+        "【留存】社群运营+复购配件"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -195,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2513,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 4,
+    "logicMedia": 1
   }
 }

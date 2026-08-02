@@ -171,6 +171,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "IP风险检测SaaS的产品与交付路径",
+      "items": [
+        "用户上传内容",
+        "AI扫描侵权",
+        "生成风险报告",
+        "付费解锁完整结果"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "IP风险检测SaaS的中国市场验证路线",
+      "items": [
+        "聚焦一个垂直领域（如电商图片侵权），开发基于公开数据的快速检测原型，用Python+开源NLP模型实现。",
+        "与3-5家中小电商或内容平台免费试用，收集反馈，优化检测准确率和报告可读性。",
+        "推出基础版订阅（月费500-2000元），提供API集成，通过行业公众号和律师合作推广。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -185,7 +212,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2429,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

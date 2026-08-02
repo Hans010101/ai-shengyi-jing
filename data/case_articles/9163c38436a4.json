@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "专注Shopify的客服与WhatsApp工具的中国市场验证路线",
+      "items": [
+        "选择垂直平台（如Shopify、淘宝），开发基础客服工单系统，集成主流聊天工具（WhatsApp/微信）。",
+        "在平台应用商店上架，提供14天免费试用，利用SEO和卖家社区推广，获取前100个付费用户。",
+        "根据用户反馈迭代自动化功能（如自动回复、工单分配），提高留存率，逐步提价或增加高级套餐。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "专注Shopify的客服与WhatsApp工具的经营验证仪表盘",
+      "items": [
+        "专注Shopify的客服与WhatsApp工具，月入3万美元。",
+        "按月订阅SaaS，提供客服工单、WhatsApp集成、自动化功能，按坐席或消息量收费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2547,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

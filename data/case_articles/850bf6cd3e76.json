@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "M2M In Motion是工业物联网远程监控S的中国市场验证路线",
+      "items": [
+        "选择细分场景（如挖掘机、重卡），开发低成本的物联网数据采集终端（基于ESP32+4G模块），成本控制在200元以内。",
+        "搭建云平台（用阿里云IoT套件），实现设备注册、数据存储、简单告警功能，开发微信小程序或APP展示实时数据。",
+        "以免费试用1个月+赠送硬件的方式获取首批客户，通过朋友圈、行业群、工程机械经销商渠道推广，定价每设备每月50-100元。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "M2M In Motion是工业物联网远程监控S的经营验证仪表盘",
+      "items": [
+        "M2M In Motion是工业物联网远程监控SaaS，按月订阅收费。",
+        "面向B端客户（车队运营商）提供硬件+软件订阅服务，按设备数量收取月费，核心价值是减少设备故障和运营成本。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2603,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

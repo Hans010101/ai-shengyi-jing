@@ -169,6 +169,34 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "15岁少年运营NFL球星粉丝号的产品与交付路径",
+      "items": [
+        "账号定位",
+        "内容创作",
+        "粉丝增长",
+        "商务合作"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "15岁少年运营NFL球星粉丝号的中国市场验证路线",
+      "items": [
+        "选定一个垂直领域（如某体育明星或电竞选手），注册同名账号，每日发布高质量图片/视频，使用相关话题标签。",
+        "与粉丝互动，举办抽奖或问答活动，快速涨粉至1万以上。",
+        "主动联系品牌或开设微店销售周边产品，如T恤、海报，实现初步变现。",
+        "建立粉丝社群，定期举办线上活动，提升粘性，吸引长期赞助。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +211,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2430,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

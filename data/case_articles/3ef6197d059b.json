@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "西班牙自由职业者发票SaaS的中国市场验证路线",
+      "items": [
+        "选择目标国家/地区（如中国或西班牙），研究当地自由职业者税务法规，找出刚需合规点。",
+        "开发MVP，包含发票生成、税率计算、合规格式导出，用低代码工具或现有框架快速上线。",
+        "在自由职业者社群、税务论坛推广，提供免费试用，收集反馈迭代，设置订阅付费。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "西班牙自由职业者发票SaaS的经营验证仪表盘",
+      "items": [
+        "西班牙自由职业者发票SaaS，按月订阅赚钱。",
+        "按月订阅制，提供发票模板、税务合规、自动计算等功能，满足西班牙自由职业者报税需求。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2479,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

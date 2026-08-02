@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "高尔夫球场管理SaaS的中国市场验证路线",
+      "items": [
+        "调研中国高尔夫球场痛点，聚焦中小球场，设计轻量级赛事管理MVP，含计分、分组、排名功能。",
+        "与2-3家球场合作免费试用，收集反馈，完善产品，同时接入微信支付和公众号通知。",
+        "推出基础版免费+高级版订阅模式，通过高尔夫协会和赛事组织者推广，建立行业口碑。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "高尔夫球场管理SaaS的经营验证仪表盘",
+      "items": [
+        "高尔夫球场管理SaaS，通过订阅制收费。",
+        "按月/年订阅SaaS，提供赛事管理、计分、日程等工具，按球场规模分级定价。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2436,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -149,8 +149,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/612/original/open-uri20201028-4-1ednyis?1603906724",
-      "caption": "高端自行车锁品牌：原始案例中的产品与运营配图（第1张）",
-      "alt": "高端自行车锁品牌：原始案例中的产品与运营配图（第1张）",
+      "caption": "高端自行车锁品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "高端自行车锁品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/we-increased-our-sales-by-200-and-launched-a-new-product-this-year",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -159,8 +159,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/613/original/open-uri20201028-4-1xkr3gb?1603906725",
-      "caption": "高端自行车锁品牌：原始案例中的产品与运营配图（第2张）",
-      "alt": "高端自行车锁品牌：原始案例中的产品与运营配图（第2张）",
+      "caption": "高端自行车锁品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "高端自行车锁品牌：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-increased-our-sales-by-200-and-launched-a-new-product-this-year",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -169,8 +169,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/614/original/open-uri20201028-4-vjbplo?1603906725",
-      "caption": "高端自行车锁品牌：原始案例中的产品与运营配图（第3张）",
-      "alt": "高端自行车锁品牌：原始案例中的产品与运营配图（第3张）",
+      "caption": "高端自行车锁品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "高端自行车锁品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-increased-our-sales-by-200-and-launched-a-new-product-this-year",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -179,8 +179,18 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/615/original/open-uri20201028-4-1ydy3ht?1603906725",
-      "caption": "高端自行车锁品牌：原始案例中的产品与运营配图（第4张）",
-      "alt": "高端自行车锁品牌：原始案例中的产品与运营配图（第4张）",
+      "caption": "高端自行车锁品牌：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "alt": "高端自行车锁品牌：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/we-increased-our-sales-by-200-and-launched-a-new-product-this-year",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/616/original/open-uri20201028-4-kwf27s?1603906726",
+      "caption": "高端自行车锁品牌：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "alt": "高端自行车锁品牌：创始人、核心产品与品牌起点相关原始配图（第5张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-increased-our-sales-by-200-and-launched-a-new-product-this-year",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -199,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2461,
-    "mediaCount": 5,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

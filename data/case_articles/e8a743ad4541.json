@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "医生用AI工具帮患者缓解疼痛的中国市场验证路线",
+      "items": [
+        "聚焦细分疼痛领域（如颈椎病），制作科普短视频在抖音/快手发布，积累种子用户。",
+        "开发微信小程序或APP，内置AI问卷评估，输出基础方案，高级功能付费解锁。",
+        "与三甲医院疼痛科合作，获取专业背书，通过医生推荐扩大用户群，并迭代AI模型。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "医生用AI工具帮患者缓解疼痛的经营验证仪表盘",
+      "items": [
+        "医生用AI工具帮患者缓解疼痛，月入20.8万美元。",
+        "B2C订阅制，免费提供基础疼痛管理内容，高级个性化方案按月/年收费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2426,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "提供照片亭设备和软件的中国市场验证路线",
+      "items": [
+        "采购或组装基础照片亭硬件（如iPad+打印机+灯光），成本约500-2000美元，测试市场需求。",
+        "开发或使用现成软件，支持拍照、滤镜、打印、微信分享功能，设置月费订阅模式。",
+        "通过小红书、婚礼策划公司合作推广，提供首单优惠，收集用户反馈迭代产品。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "提供照片亭设备和软件的经营验证仪表盘",
+      "items": [
+        "提供照片亭设备和软件，通过销售和订阅盈利。",
+        "硬件销售+软件订阅+耗材收入，面向活动策划、婚礼等场景。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2423,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

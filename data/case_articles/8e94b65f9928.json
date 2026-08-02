@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "社交媒体管理SaaS的中国市场验证路线",
+      "items": [
+        "选择目标平台（如微信、抖音、小红书），开发基础排程功能，支持定时发布和简单分析。",
+        "推出免费版吸引种子用户，通过社交媒体和行业KOL推广，收集反馈优化产品。",
+        "增加付费功能（如多账户管理、高级分析、AI生成文案），设定合理月费，通过邮件和产品内引导转化。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "社交媒体管理SaaS的经营验证仪表盘",
+      "items": [
+        "社交媒体管理SaaS，按月订阅收费。",
+        "按月订阅制，提供免费版（基础功能）和付费版（高级分析、多账户等），收入来自订阅费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2428,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "社交证明营销SaaS的中国市场验证路线",
+      "items": [
+        "选择细分市场（如电商、在线教育），开发基础弹窗和通知组件，支持自定义文案和样式。",
+        "集成主流建站平台（如Shopify、WordPress）或提供JS代码，设置免费版限制月展示次数。",
+        "通过行业博客、案例研究推广，提供7天免费试用，收集用户反馈迭代增加A/B测试功能。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "社交证明营销SaaS的经营验证仪表盘",
+      "items": [
+        "社交证明营销SaaS，通过展示真实用户行为提升转化率赚取订阅费。",
+        "按月订阅制，提供多种社交证明模板（弹窗、通知、计数器等），根据网站流量或功能分级定价。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2460,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

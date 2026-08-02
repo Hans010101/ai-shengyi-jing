@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "加拿大线上布料店的产品与交付路径",
+      "items": [
+        "用户注册",
+        "选择订阅计划",
+        "每月精选布料盒子",
+        "社区互动与教程"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "加拿大线上布料店的中国市场验证路线",
+      "items": [
+        "确定细分市场（如拼布、汉服、儿童手工），通过小红书、抖音发布免费教程和成品展示，积累种子用户。",
+        "设计3-4档订阅计划（如基础、高级、季度），与国内布料供应商合作，确保小批量、多品种供应。",
+        "搭建微信小程序或微店，实现订阅管理、支付和社区互动，通过限时抢购和会员日提升粘性。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2508,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

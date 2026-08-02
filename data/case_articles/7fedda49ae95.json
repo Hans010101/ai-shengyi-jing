@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "冥想与心理健康App的中国市场验证路线",
+      "items": [
+        "定位细分人群（如职场减压、学生助眠），制作3-5个高质量冥想引导音频，发布在抖音/小红书测试反响。",
+        "开发微信小程序，集成基础冥想功能+每日打卡，通过朋友圈裂变和KOL推广获取种子用户。",
+        "推出订阅会员（月卡/年卡），提供个性化冥想计划、睡眠故事等增值服务，并引入企业团购或课程分销。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "冥想与心理健康App的经营验证仪表盘",
+      "items": [
+        "冥想与心理健康App，通过订阅制赚钱",
+        "免费增值+订阅制：提供基础冥想内容免费，高级内容、个性化计划、睡眠故事等需付费订阅，月费$14.99或年费$69.99。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2552,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:HTTPError|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:HTTPError|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为电商卖家提供结账优化工具的中国市场验证路线",
+      "items": [
+        "调研国内主流电商平台（如淘宝、拼多多）的结账流程，找出弃单率高环节，明确优化点。",
+        "开发轻量级结账优化插件，支持一键追加销售、优惠券弹窗等功能，优先对接Shopify中国版或独立站。",
+        "在卖家社群（如派代、电商微信群）免费试用收集案例，定价月费99-299元，按订单量分层收费。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "为电商卖家提供结账优化工具的经营验证仪表盘",
+      "items": [
+        "为电商卖家提供结账优化工具，提升转化率并收取月费。",
+        "SaaS订阅制，按订单量分层收费，提供A/B测试、一键追加销售等功能。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2443,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

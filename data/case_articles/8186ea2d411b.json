@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "为非营利组织提供低价强大的在线筹款SaaS平台的产品与交付路径",
+      "items": [
+        "用户注册",
+        "创建筹款活动",
+        "分享捐款链接",
+        "接收捐款"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为非营利组织提供低价强大的在线筹款SaaS平台的中国市场验证路线",
+      "items": [
+        "调研中国公益组织痛点，选择1-2个细分领域（如学校、社区基金），开发MVP，包含活动创建、在线捐款、数据统计核心功能。",
+        "与小型公益组织合作免费试用，收集反馈并迭代产品，同时通过微信公众号、知乎等渠道发布筹款指南内容，积累种子用户。",
+        "推出付费套餐（如每月99-299元），提供7天免费试用，结合微信支付和社交分享功能，利用老客户推荐奖励机制实现增长。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2544,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

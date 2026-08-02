@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "销售数字游民旅行装备的DTC品牌的中国市场验证路线",
+      "items": [
+        "市场调研与选品：分析数字游民痛点，如收纳、充电、防盗，选择3-5款高需求产品，通过1688或联系工厂打样。",
+        "品牌建设与供应链：注册品牌，设计统一视觉，建立独立站（Shopify），与可靠供应商合作，确保质量与交期。",
+        "营销推广与销售：在小红书、抖音发布旅行装备测评和场景化内容，与旅行KOL合作，引导至独立站或淘宝店成交。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "销售数字游民旅行装备的DTC品牌的经营验证仪表盘",
+      "items": [
+        "销售数字游民旅行装备的DTC品牌，通过电商盈利。",
+        "垂直DTC电商，自有品牌设计+外包生产，通过独立站和亚马逊销售，利润来自产品差价。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2565,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

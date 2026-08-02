@@ -175,6 +175,26 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/707/original/open-uri20210912-3-8ii3kp?1631478152",
+      "caption": "夜生活版OpenTable：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "夜生活版OpenTable：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-3-college-friends-created-the-opentable-for-nightlife-1m-year",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/708/original/open-uri20210912-3-me15i5?1631478153",
+      "caption": "夜生活版OpenTable：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "夜生活版OpenTable：产品上线与首次发布相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-3-college-friends-created-the-opentable-for-nightlife-1m-year",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -189,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2462,
-    "mediaCount": 4,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

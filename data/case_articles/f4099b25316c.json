@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "独立开发者做的桌面AI应用的中国市场验证路线",
+      "items": [
+        "选择细分场景（如AI写周报、AI翻译），用Electron或Tauri开发跨平台桌面应用，集成OpenAI API，实现核心功能，先做MVP。",
+        "在Product Hunt、小众软件论坛、知乎发布产品，提供免费试用版，收集反馈并优化，同时积累种子用户。",
+        "设置一次性定价（如$29-49），开通支付宝/微信支付，持续迭代功能，通过用户口碑和自媒体内容（如B站教程）自然增长。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "独立开发者做的桌面AI应用的经营验证仪表盘",
+      "items": [
+        "独立开发者做的桌面AI应用，一次性付费，月入2.5万美元。",
+        "一次性付费购买桌面应用，提供AI功能（如写作、翻译等），无后续订阅费，靠持续更新吸引新用户。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2584,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

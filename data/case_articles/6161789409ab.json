@@ -175,6 +175,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "购买并运营胡须护理品牌的商业增长闭环",
+      "items": [
+        "【引流】内容营销（博客、YouTube）& 社交媒体广告",
+        "【产品】天然胡须护理产品",
+        "【变现】在线销售（自有站+亚马逊）",
+        "【留存】订阅制 & 会员计划 & 客户服务"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -189,7 +203,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2555,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 4,
+    "logicMedia": 1
   }
 }

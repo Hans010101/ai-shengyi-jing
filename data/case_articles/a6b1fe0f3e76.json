@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为品牌提供联盟营销管理SaaS的中国市场验证路线",
+      "items": [
+        "聚焦一个垂直行业（如美妆），开发MVP：联盟链接生成、点击追踪、佣金计算。",
+        "通过免费试用吸引首批客户，手动协助设置联盟计划，收集反馈优化自动化功能。",
+        "接入主流电商平台API（如淘宝、京东），实现自动归因和结算，按订单量分层定价。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "为品牌提供联盟营销管理SaaS的经营验证仪表盘",
+      "items": [
+        "为品牌提供联盟营销管理SaaS，按月收费。",
+        "SaaS订阅制，按追踪的订单/销售额或固定月费收费，客户为电商和DTC品牌。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2427,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

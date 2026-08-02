@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "环保泳装品牌的中国市场验证路线",
+      "items": [
+        "寻找国内回收塑料瓶和渔网的面料供应商，小批量定制样品，测试面料质量和成本。",
+        "搭建独立站或入驻天猫/抖音小店，拍摄环保主题产品视频，突出材料来源和设计。",
+        "通过小红书、抖音等平台发布内容，与环保KOL合作，利用直播带货快速起量，收集反馈迭代产品。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "环保泳装品牌的经营验证仪表盘",
+      "items": [
+        "环保泳装品牌，通过销售回收塑料制成的泳衣盈利。",
+        "DTC模式，线上销售可持续泳装，使用回收塑料瓶和渔网制成的面料，定价中高端。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2415,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

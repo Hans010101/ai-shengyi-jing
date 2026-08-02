@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/570/original/open-uri20190514-4-106pp26?1557856129",
+      "caption": "美食创业博客：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "美食创业博客：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-profitable-food-entrepreneurship-blog",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/571/original/open-uri20190514-4-1jka6tt?1557856129",
+      "caption": "美食创业博客：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "美食创业博客：产品上线与首次发布相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-profitable-food-entrepreneurship-blog",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/RW18PntJVgE",
       "watchUrl": "https://www.youtube.com/watch?v=RW18PntJVgE",
@@ -185,6 +205,18 @@
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-profitable-food-entrepreneurship-blog",
       "origin": "embeddable-video",
       "poster": "https://i.ytimg.com/vi/RW18PntJVgE/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/yLX15eFEHW0",
+      "watchUrl": "https://www.youtube.com/watch?v=yLX15eFEHW0",
+      "caption": "美食创业博客资料中提及的视频：Felix Dennis - Words Of Wisdom - Can You Get Rich?",
+      "alt": "Felix Dennis - Words Of Wisdom - Can You Get Rich?",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-profitable-food-entrepreneurship-blog",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/yLX15eFEHW0/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
     }
@@ -201,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2462,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

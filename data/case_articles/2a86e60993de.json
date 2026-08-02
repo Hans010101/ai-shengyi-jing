@@ -175,6 +175,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "大学生创业做植物基蛋白棒的商业增长闭环",
+      "items": [
+        "【引流】社交媒体健康KOL种草+线下试吃",
+        "【产品】植物基蛋白棒（多种口味）",
+        "【变现】线上单盒销售+线下批发",
+        "【留存】订阅制+会员积分+新品试吃"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -189,7 +203,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2496,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 4,
+    "logicMedia": 1
   }
 }

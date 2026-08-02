@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "天然护肤品牌的中国市场验证路线",
+      "items": [
+        "确定天然护肤细分领域（如敏感肌、抗衰老），研发1-2款核心产品，确保成分安全有效，并申请相关认证。",
+        "打造创始人个人IP，在抖音/小红书分享真实故事（如皮肤问题改善经历），积累种子用户，建立信任。",
+        "通过私域运营（微信群、小程序）提供护肤咨询和会员服务，促进复购，并利用用户评价进行二次传播。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "天然护肤品牌的经营验证仪表盘",
+      "items": [
+        "天然护肤品牌通过故事营销和高质量产品实现年营收380万美元。",
+        "DTC模式，通过官网和亚马逊销售天然护肤品，利用故事化内容和用户评价驱动转化，复购率高。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2467,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

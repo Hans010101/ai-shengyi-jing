@@ -175,6 +175,26 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/447/original/open-uri20181217-4-81ri37?1545024395",
+      "caption": "网站搭建工具+代理混合模式：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "网站搭建工具+代理混合模式：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/growing-a-website-builder-tool-agency-hybrid-to-37k-per-month",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/448/original/open-uri20181217-4-1d6mwdg?1545024395",
+      "caption": "网站搭建工具+代理混合模式：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "网站搭建工具+代理混合模式：产品上线与首次发布相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/growing-a-website-builder-tool-agency-hybrid-to-37k-per-month",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -189,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2482,
-    "mediaCount": 4,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

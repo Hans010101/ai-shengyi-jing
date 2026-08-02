@@ -175,6 +175,16 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/877/original/open-uri20210924-3-xpq9xv?1632495153",
+      "caption": "专注加纳创业者的垂直媒体：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "专注加纳创业者的垂直媒体：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/we-launched-a-niche-media-company-about-entrepreneurship-in-ghana",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -189,7 +199,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2462,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 5,
+    "logicMedia": 0
   }
 }

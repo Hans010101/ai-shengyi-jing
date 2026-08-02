@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/052/original/open-uri20190215-4-18gn5wa?1550242711",
+      "caption": "定制婚戒电商：创业起点与创意来源相关原始配图（第4张）",
+      "alt": "定制婚戒电商：创业起点与创意来源相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/starting-and-growing-a-jewelry-business-to-4-6m-year",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/053/original/open-uri20190215-4-ikkqfk?1550242712",
+      "caption": "定制婚戒电商：产品设计与早期打磨相关原始配图（第5张）",
+      "alt": "定制婚戒电商：产品设计与早期打磨相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/starting-and-growing-a-jewelry-business-to-4-6m-year",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/Lof_k6K2apA",
       "watchUrl": "https://www.youtube.com/watch?v=Lof_k6K2apA",
@@ -185,6 +205,18 @@
       "sourceUrl": "https://www.starterstory.com/stories/starting-and-growing-a-jewelry-business-to-4-6m-year",
       "origin": "embeddable-video",
       "poster": "https://i.ytimg.com/vi/Lof_k6K2apA/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/YCPk04McFjg",
+      "watchUrl": "https://www.youtube.com/watch?v=YCPk04McFjg",
+      "caption": "定制婚戒电商资料中提及的视频：How is an engagement ring made?",
+      "alt": "How is an engagement ring made?",
+      "sourceUrl": "https://www.starterstory.com/stories/starting-and-growing-a-jewelry-business-to-4-6m-year",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/YCPk04McFjg/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
     }
@@ -201,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2445,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

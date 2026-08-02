@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "澳洲高尔夫模拟器分销商的中国市场验证路线",
+      "items": [
+        "联系国内模拟器厂商（如衡泰信、如歌）申请代理或OEM，准备样机。",
+        "在抖音/小红书发布高尔夫技巧、模拟器体验视频，吸引精准客户，建立私域。",
+        "提供免费试用或体验活动，转化首单，并推出会员制（年费含软件更新+维护）。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "澳洲高尔夫模拟器分销商的经营验证仪表盘",
+      "items": [
+        "澳洲高尔夫模拟器分销商，B2B/B2C销售硬件+软件订阅。",
+        "代理高尔夫模拟器硬件（SkyTrak），赚取差价；同时销售软件订阅、安装维护服务及场地租赁。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2470,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

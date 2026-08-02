@@ -165,6 +165,34 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "销售圣诞树装饰产品的商业增长闭环",
+      "items": [
+        "【引流】亚马逊站内广告+关键词优化",
+        "【产品】独特圣诞树底填充产品",
+        "【变现】产品售价-成本-亚马逊费用=利润",
+        "【留存】优质产品好评+复购+节日促销"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "销售圣诞树装饰产品的产品与交付路径",
+      "items": [
+        "市场调研",
+        "产品设计",
+        "亚马逊FBA发货",
+        "广告投放"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -179,7 +207,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2482,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 3,
+    "logicMedia": 2
   }
 }

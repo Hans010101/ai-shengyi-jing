@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "受众研究SaaS的中国市场验证路线",
+      "items": [
+        "选择一个垂直领域（如美妆、母婴），用Python爬取微博、小红书等平台的公开评论和关注数据，构建基础受众画像。",
+        "开发MVP，实现简单的受众标签（年龄、兴趣、活跃时间）生成，通过免费报告吸引种子用户，收集反馈。",
+        "上线付费版本，按报告次数或月费定价，通过行业KOL合作推广，持续优化算法精度和报告可视化。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "受众研究SaaS的经营验证仪表盘",
+      "items": [
+        "受众研究SaaS，帮企业分析社交媒体粉丝画像，按月订阅赚钱。",
+        "SaaS订阅制，按数据量和用户数分层收费，免费版限制功能，付费解锁完整报告。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2483,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

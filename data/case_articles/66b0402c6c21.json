@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI驱动的客户互动与个性化SaaS平台的中国市场验证路线",
+      "items": [
+        "聚焦细分行业（如电商），开发AI驱动的客户分群和个性化推荐模块，集成主流电商平台API。",
+        "提供免费基础版，通过行业案例和SEO吸引中小企业注册，收集反馈迭代产品。",
+        "建立客户成功团队，按效果付费或分层订阅，与微信、抖音等渠道深度绑定，形成壁垒。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI驱动的客户互动与个性化SaaS平台的经营验证仪表盘",
+      "items": [
+        "AI驱动的客户互动与个性化SaaS平台，按月订阅收费。",
+        "SaaS订阅制，按客户规模分层定价，提供免费增值版本吸引用户，高级功能付费解锁。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2485,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

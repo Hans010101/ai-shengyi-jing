@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "Web3垂直招聘平台的中国市场验证路线",
+      "items": [
+        "搭建垂直招聘网站，使用WordPress+Job Board插件（如WP Job Manager），成本$500-1000，快速上线MVP。",
+        "通过Web3社群（如Discord、Twitter）和内容营销（撰写Web3求职攻略）吸引种子用户，首批免费入驻。",
+        "积累100+职位和1000+简历后，推出付费套餐，定价参考竞品（$199-299/月），并通过邮件和社群运营提升转化。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "Web3垂直招聘平台的经营验证仪表盘",
+      "items": [
+        "Web3垂直招聘平台，通过企业发布付费职位和简历订阅盈利。",
+        "向企业收取职位发布费（$299/月）和简历库订阅费（$199/月），同时提供增值服务如人才匹配和品牌推广。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2547,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

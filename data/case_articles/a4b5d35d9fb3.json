@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为电商卖家提供一站式购物车软件的中国市场验证路线",
+      "items": [
+        "搭建最小可行产品，聚焦核心功能：支付集成（微信/支付宝）、结账页面生成、订单管理。使用现成API降低开发成本。",
+        "瞄准独立站卖家（如Shopify中国用户），通过知乎、小红书发布教程和案例，免费试用吸引注册。",
+        "推出基础版免费或低价（如99元/月），逐步增加高级功能（如A/B测试、订阅管理），通过用户反馈迭代。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "为电商卖家提供一站式购物车软件的经营验证仪表盘",
+      "items": [
+        "为电商卖家提供一站式购物车软件，按订阅收费。",
+        "SaaS订阅模式，提供购物车、支付网关、A/B测试、订阅管理等工具，按月或年收费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2538,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

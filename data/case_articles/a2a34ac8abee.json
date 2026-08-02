@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI人力资源SaaS的中国市场验证路线",
+      "items": [
+        "选择细分行业（如IT、销售），利用开源NLP模型（如BERT）训练简历解析模型，实现关键词提取与技能匹配。",
+        "搭建SaaS平台，集成微信小程序或H5，提供免费版（每天处理10份简历）吸引中小企业注册。",
+        "通过企查查等渠道获取目标企业线索，以免费试用+案例展示转化付费客户，定价99-299元/月。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI人力资源SaaS的经营验证仪表盘",
+      "items": [
+        "AI人力资源SaaS，帮企业筛选简历，按月收费。",
+        "B2B SaaS订阅制，按用户数或简历处理量收费，提供免费试用吸引客户，付费解锁完整功能。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2540,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

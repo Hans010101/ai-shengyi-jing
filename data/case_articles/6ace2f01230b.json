@@ -175,6 +175,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "派对用品连锁店的商业增长闭环",
+      "items": [
+        "【引流】社交媒体（小红书、抖音）分享派对灵感",
+        "【产品】一站式派对用品+定制服务",
+        "【变现】产品销售+定制服务费+会员订阅",
+        "【留存】复购优惠、社群互动、会员积分"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -189,7 +203,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2502,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 4,
+    "logicMedia": 1
   }
 }

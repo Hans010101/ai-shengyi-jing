@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "极简习惯追踪App的中国市场验证路线",
+      "items": [
+        "选择细分领域（如学习习惯），设计极简交互原型，用Flutter快速开发iOS/Android双端。",
+        "在App Store和Google Play优化关键词（如“习惯追踪”“打卡”），同时在小红书、抖音发布“公开构建”内容吸引早期用户。",
+        "设置免费版基础功能+高级订阅（如数据导出、个性化提醒），定价$2.99/月或$19.99/年，通过App内活动提升留存。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "极简习惯追踪App的经营验证仪表盘",
+      "items": [
+        "极简习惯追踪App，通过订阅制及内购盈利。",
+        "免费下载+高级订阅（解锁全部功能），利用ASO获取自然流量。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2449,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "卖狗主题巧克力的中国市场验证路线",
+      "items": [
+        "确定公益合作伙伴（如本地动物救助站），设计狗主题巧克力包装和口味，突出捐赠承诺。",
+        "在小红书、抖音发布宠物救助故事和产品制作过程，建立情感连接，引导用户下单。",
+        "每季度公开捐赠明细和救助成果，推出限量口味和会员计划，促进复购和转介绍。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "卖狗主题巧克力的经营验证仪表盘",
+      "items": [
+        "卖狗主题巧克力，利润全捐动物救助，靠情怀溢价赚钱。",
+        "销售狗主题巧克力，利润100%捐赠给动物救助组织，通过品牌溢价和复购盈利。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2421,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

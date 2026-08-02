@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "托管数据库管理平台的中国市场验证路线",
+      "items": [
+        "聚焦一个数据库类型（如MySQL或PostgreSQL），开发自动化部署和监控脚本，提供免费试用吸引种子用户。",
+        "在技术社区（如CSDN、掘金）发布数据库运维教程，引流到官网，收集用户反馈迭代产品。",
+        "推出基础版免费、高级版收费模式，通过客户成功团队提供迁移支持，提升付费转化率。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "托管数据库管理平台的经营验证仪表盘",
+      "items": [
+        "托管数据库管理平台，按月订阅收费。",
+        "提供数据库托管、监控、备份等一站式服务，按实例和资源使用量收取月费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2444,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

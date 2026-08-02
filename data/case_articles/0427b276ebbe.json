@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为开发者提供网站托管与自动化部署的SaaS平台的中国市场验证路线",
+      "items": [
+        "定位细分领域，如为小程序或静态网站提供一键部署工具。开发MVP，支持Git仓库导入，自动构建和发布，免费提供基础套餐。",
+        "在掘金、CSDN等技术社区发布教程和案例，吸引种子用户。收集反馈，快速迭代，增加表单处理、身份验证等高频功能。",
+        "推出付费套餐，按构建次数、带宽或团队人数收费。与云厂商合作降低服务器成本，同时建立插件市场，让第三方开发者贡献功能并分成。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "为开发者提供网站托管与自动化部署的SaaS平台的经营验证仪表盘",
+      "items": [
+        "为开发者提供网站托管与自动化部署的SaaS平台，按流量和功能收费。",
+        "采用Freemium模式，免费提供基础部署服务，通过流量、构建分钟数、团队协作等高级功能收费，同时提供企业定制方案。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2684,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

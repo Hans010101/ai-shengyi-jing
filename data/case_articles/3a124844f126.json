@@ -171,6 +171,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "手工皂品牌的产品与交付路径",
+      "items": [
+        "品牌故事",
+        "产品设计（天然成分）",
+        "电商销售（官网+平台）",
+        "订阅服务"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "手工皂品牌的中国市场验证路线",
+      "items": [
+        "确定品牌定位和核心故事，如户外、自然或国风，注册商标，设计包装。",
+        "小批量生产样品，在抖音/小红书发布制作过程和使用体验视频，积累种子用户。",
+        "开设微信小程序店铺，上架产品，设置订阅选项，通过社群运营促进复购。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -185,7 +212,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2431,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

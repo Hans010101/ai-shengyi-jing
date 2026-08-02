@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为开发者提供AI驱动的代码审查与优化平台的中国市场验证路线",
+      "items": [
+        "选择垂直领域（如前端/后端），基于开源模型（如CodeBERT）微调，打造差异化代码审查能力。",
+        "开发VS Code、GitHub插件，降低用户接入门槛；设置免费版（每日50次审查）吸引种子用户。",
+        "通过技术社区（掘金、CSDN）发布评测文章，与开源项目合作推广，首月目标100个付费用户。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "为开发者提供AI驱动的代码审查与优化平台的经营验证仪表盘",
+      "items": [
+        "为开发者提供AI驱动的代码审查与优化平台，按订阅收费。",
+        "B2B SaaS订阅制，按团队规模定价，提供免费试用吸引用户，付费解锁高级功能。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2533,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

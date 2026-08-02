@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/227/original/open-uri20210522-3-14epm1c?1621649050",
+      "caption": "美食旅游团：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "alt": "美食旅游团：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-focus-on-business-growth-after-lockdown",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/228/original/open-uri20210522-3-2745w4?1621649050",
+      "caption": "美食旅游团：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "alt": "美食旅游团：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-focus-on-business-growth-after-lockdown",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/_igPTDVmEiE",
       "watchUrl": "https://www.youtube.com/watch?v=_igPTDVmEiE",
@@ -201,7 +221,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2369,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

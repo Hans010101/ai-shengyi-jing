@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "桌面优先、隐私保护的SEO工具的中国市场验证路线",
+      "items": [
+        "确定细分SEO痛点（如本地SEO、电商SEO），用Python+Electron开发桌面端MVP，集成基础关键词分析与页面审计功能。",
+        "在知乎、CSDN发布SEO技术文章，引流至官网下载试用版，设置功能限制（如仅显示前5个问题），付费解锁全部。",
+        "定价199-499元人民币，通过企业微信建立用户群，收集反馈并迭代，加入中文分词、百度适配等本地化功能。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "桌面优先、隐私保护的SEO工具的经营验证仪表盘",
+      "items": [
+        "桌面优先、隐私保护的SEO工具，一次性付费赚取月入1万美元。",
+        "一次性付费买断桌面端SEO工具，无订阅，功能完整，靠口碑和内容营销获客，高客单价覆盖开发成本。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2544,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "极简主义女装DTC品牌的中国市场验证路线",
+      "items": [
+        "定义品牌核心理念（如极简、可持续），在小红书/抖音发布穿搭内容，积累种子用户，测试市场反应。",
+        "与本土供应链合作，开发3-5款多功能基础款（如可转换连衣裙），通过小程序预售，降低库存风险。",
+        "建立用户社群，鼓励分享穿搭，推出会员订阅或旧衣回收计划，提升复购和粘性。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "极简主义女装DTC品牌的经营验证仪表盘",
+      "items": [
+        "极简主义女装DTC品牌，通过销售多功能高质量服装盈利。",
+        "DTC电商模式，自产自销多功能女装，通过官网和社交媒体直接触达消费者，赚取服装销售毛利。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2493,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

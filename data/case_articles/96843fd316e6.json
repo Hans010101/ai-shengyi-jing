@@ -179,6 +179,20 @@
       "poster": "https://i.ytimg.com/vi/9Yx0JLI3MqQ/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "YouTube男装频道的商业增长闭环",
+      "items": [
+        "【引流】YouTube SEO+社交媒体推广",
+        "【产品】男装教程视频",
+        "【变现】广告分成+品牌赞助",
+        "【留存】定期更新+社区互动"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -193,7 +207,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2457,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 4,
+    "logicMedia": 1
   }
 }

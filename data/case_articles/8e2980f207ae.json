@@ -175,6 +175,16 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/006/878/original/open-uri20200625-4-1kzs6po?1593097610",
+      "caption": "伪装成书的桌游公司：给创业者的实践建议相关原始配图（第4张）",
+      "alt": "伪装成书的桌游公司：给创业者的实践建议相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-launched-a-new-game-on-kickstarter",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -189,7 +199,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2483,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 5,
+    "logicMedia": 0
   }
 }

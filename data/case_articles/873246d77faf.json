@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "自动化内容收集SaaS的中国市场验证路线",
+      "items": [
+        "选择垂直领域（如律所、审计），开发最小化产品：支持创建表单、发送链接、自动催收。",
+        "通过行业社区（如知乎、企业微信群）免费试用，收集反馈并优化模板和提醒逻辑。",
+        "推出基础版免费（限制请求数），付费版按量或按月收费，绑定微信/钉钉通知提升粘性。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "自动化内容收集SaaS的经营验证仪表盘",
+      "items": [
+        "自动化内容收集SaaS，帮企业向客户索取文件并智能催收。",
+        "按月订阅SaaS，提供不同套餐（如50/100/500个请求），按需付费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2435,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

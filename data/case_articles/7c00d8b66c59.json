@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/007/067/original/open-uri20200714-4-ifwv9e?1594732347",
+      "caption": "电动滑板众筹项目：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "alt": "电动滑板众筹项目：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-launched-an-electric-skateboard-campaign-that-reached-100k-in-sales",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/007/068/original/open-uri20200714-4-www7rs?1594732348",
+      "caption": "电动滑板众筹项目：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "alt": "电动滑板众筹项目：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-launched-an-electric-skateboard-campaign-that-reached-100k-in-sales",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/tiJXpXGfXoM",
       "watchUrl": "https://www.youtube.com/watch?v=tiJXpXGfXoM",
@@ -185,6 +205,18 @@
       "sourceUrl": "https://www.starterstory.com/stories/how-we-launched-an-electric-skateboard-campaign-that-reached-100k-in-sales",
       "origin": "embeddable-video",
       "poster": "https://i.ytimg.com/vi/tiJXpXGfXoM/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/llzHrZFmu-Q",
+      "watchUrl": "https://www.youtube.com/watch?v=llzHrZFmu-Q",
+      "caption": "电动滑板众筹项目资料中提及的视频：FedEx Commercial 1",
+      "alt": "FedEx Commercial 1",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-launched-an-electric-skateboard-campaign-that-reached-100k-in-sales",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/llzHrZFmu-Q/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
     }
@@ -201,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2445,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

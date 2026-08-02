@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "Elastic.io是一个低代码集成平台的中国市场验证路线",
+      "items": [
+        "选择中国主流SaaS应用（如钉钉、飞书、企业微信、用友、金蝶）作为首批连接器目标，开发1-2个高频集成场景（如客户同步、审批自动化）。",
+        "搭建低代码集成编辑器，支持可视化拖拽配置数据映射和转换规则，内置错误处理和日志监控，降低使用门槛。",
+        "通过技术博客发布集成教程和案例，在知乎、CSDN等平台推广，提供30天免费试用，收集反馈快速迭代连接器库。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "Elastic.io是一个低代码集成平台的经营验证仪表盘",
+      "items": [
+        "Elastic.io是一个低代码集成平台，通过订阅收费赚钱。",
+        "SaaS订阅模式，按连接器数量和API调用量分层收费，提供免费试用吸引用户，升级付费解锁更多功能。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2568,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

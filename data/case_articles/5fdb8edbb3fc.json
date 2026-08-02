@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "面向播客主的增长型SaaS托管平台的产品与交付路径",
+      "items": [
+        "用户注册",
+        "创建播客",
+        "上传音频",
+        "自动分发至各大平台"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "面向播客主的增长型SaaS托管平台的中国市场验证路线",
+      "items": [
+        "搭建播客托管基础功能，支持音频上传、存储、RSS生成，对接国内主流平台（小宇宙、喜马拉雅、网易云音乐）API实现一键分发。",
+        "开发差异化增长工具，如听众画像分析、社交媒体自动剪辑发布、赞助商匹配，初期可手动服务种子用户。",
+        "通过免费试用和内容营销（如播客运营指南）获客，设置阶梯订阅（按存储量和功能），首月低价吸引转化。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2584,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

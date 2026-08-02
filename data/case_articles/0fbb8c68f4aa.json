@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为癌症患者设计时尚舒适的输液服的中国市场验证路线",
+      "items": [
+        "调研国内癌症患者需求，设计1-2款保暖舒适且时尚的化疗服样品。",
+        "在小红书/抖音发布患者故事和产品测评，建立品牌信任，引流至微信商城。",
+        "联系肿瘤医院或化疗中心，提供样品试用，建立批发合作关系。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "为癌症患者设计时尚舒适的输液服的经营验证仪表盘",
+      "items": [
+        "为癌症患者设计时尚舒适的输液服，通过电商和批发赚钱。",
+        "自营品牌电商销售+批发给医院/诊所，产品溢价来自功能性与情感价值。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2401,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

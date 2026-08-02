@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "在线订阅制建筑行业考试培训的产品与交付路径",
+      "items": [
+        "用户注册",
+        "选择课程",
+        "学习模块",
+        "模拟考试"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "在线订阅制建筑行业考试培训的中国市场验证路线",
+      "items": [
+        "选择1-2个高需求建筑类证书（如一级建造师），整理考试大纲和历年真题，制作核心课程内容。",
+        "搭建在线学习平台（可用WordPress+LearnDash），上传课程，设置订阅付费（月/季/年），并开发模拟考试功能。",
+        "通过行业论坛、微信公众号、建筑企业HR合作推广，提供免费试学吸引用户，转化付费订阅。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2493,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

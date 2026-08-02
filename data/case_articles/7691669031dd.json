@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "帮远程工作者找兼职赚钱的产品与交付路径",
+      "items": [
+        "用户访问网站",
+        "浏览远程工作列表",
+        "点击工作链接",
+        "跳转第三方平台"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "帮远程工作者找兼职赚钱的中国市场验证路线",
+      "items": [
+        "搭建一个简单的信息聚合网站，使用WordPress或类似工具，聚合远程工作信息（可从其他网站抓取或手动整理），确保每日更新。",
+        "在Instagram、小红书等平台创建账号，每天发布远程工作机会、赚钱技巧等内容，引导用户关注并点击链接到网站。",
+        "加入广告联盟（如Google AdSense）和远程工具联盟（如Zoom、Trello等），在网站添加广告位和推荐链接，通过流量变现。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2546,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

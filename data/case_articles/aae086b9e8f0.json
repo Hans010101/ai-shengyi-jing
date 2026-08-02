@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "帮企业减少客户流失的AI工具的中国市场验证路线",
+      "items": [
+        "选择垂直行业（如电商SaaS），开发AI流失预测模型，集成常见CRM（如Salesforce、企业微信）。",
+        "提供免费试用版，限制预测数量，通过案例展示ROI，引导客户升级付费。",
+        "持续优化算法，增加自动化挽回功能（如优惠券推送），建立客户成功团队提升续费率。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "帮企业减少客户流失的AI工具的经营验证仪表盘",
+      "items": [
+        "帮企业减少客户流失的AI工具，按月订阅收费。",
+        "SaaS订阅制，按客户规模分档收费，提供AI预测、自动化挽回流程、数据分析等功能。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2446,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

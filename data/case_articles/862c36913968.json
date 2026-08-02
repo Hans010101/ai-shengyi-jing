@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "赤足鞋品牌的产品与交付路径",
+      "items": [
+        "用户浏览官网",
+        "选择鞋款（30种）",
+        "在线试穿指南",
+        "下单购买"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "赤足鞋品牌的中国市场验证路线",
+      "items": [
+        "市场验证：在小红书/抖音发布赤足鞋概念视频，收集100+用户反馈，确认目标人群（如跑步爱好者、足部不适者）。",
+        "小批量生产：联系国内鞋厂（如莆田）定制3-5款基础赤足鞋，使用环保材料，成本控制在50元内，定价199元起。",
+        "DTC冷启动：建立微信小程序商城，通过KOL测评+朋友圈广告引流，首单包邮+30天无理由退换，积累种子用户。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2528,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

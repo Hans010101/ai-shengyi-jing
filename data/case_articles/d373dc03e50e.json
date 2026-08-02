@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "补充剂公司用专利速溶勺技术卖蛋白粉的产品与交付路径",
+      "items": [
+        "用户下单",
+        "生产速溶勺",
+        "物流配送",
+        "订阅续费"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "补充剂公司用专利速溶勺技术卖蛋白粉的中国市场验证路线",
+      "items": [
+        "选择细分市场（如健身蛋白粉或代餐），研发速溶或便携包装技术，申请专利。",
+        "通过淘宝/京东众筹测试产品，积累种子用户，同时联系健身房、健康食品店合作分销。",
+        "建立订阅制会员体系，设置首单优惠和续费折扣，在抖音/小红书投放内容，与健身博主合作推广。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2421,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

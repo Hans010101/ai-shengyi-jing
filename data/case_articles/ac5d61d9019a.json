@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "高价值个人成长与商业资讯邮件周刊的中国市场验证路线",
+      "items": [
+        "选择细分领域（如职场技能、副业赚钱），搭建邮件订阅页面或微信服务号，通过知乎、小红书发布免费干货吸引订阅。",
+        "每周固定发送高质量邮件/推文，积累到1万订阅后推出付费会员（如99元/月），提供深度案例、模板或直播答疑。",
+        "与相关品牌合作，在邮件中植入软文广告（如课程、工具），按CPM或CPA收费，同时利用会员数据优化内容。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "高价值个人成长与商业资讯邮件周刊的经营验证仪表盘",
+      "items": [
+        "高价值个人成长与商业资讯邮件周刊，通过付费订阅和广告变现。",
+        "免费邮件列表引流，付费会员提供深度内容，同时向B端收取广告费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2469,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

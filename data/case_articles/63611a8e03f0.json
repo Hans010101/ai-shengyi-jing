@@ -171,6 +171,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "硅胶婚戒品牌的产品与交付路径",
+      "items": [
+        "用户浏览",
+        "选择款式/尺寸",
+        "下单支付",
+        "佩戴体验"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "硅胶婚戒品牌的中国市场验证路线",
+      "items": [
+        "确定目标用户（如健身爱好者、医护人员），设计3-5款基础硅胶戒指，找国内硅胶代工厂（如东莞）打样，成本约10元/枚。",
+        "搭建微信小程序或独立站，拍摄佩戴场景短视频，在抖音、小红书发布，突出安全、无感、多色可选，初期投放信息流广告测试转化。",
+        "建立私域社群，鼓励用户晒图分享，推出‘买二送一’或‘季度订阅’提高复购，收集反馈迭代款式，逐步拓展至情侣对戒、亲子款。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -185,7 +212,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2532,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

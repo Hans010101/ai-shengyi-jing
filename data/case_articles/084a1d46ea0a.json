@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "海外AI工具项目的产品与交付路径",
+      "items": [
+        "广告优化",
+        "内容营销（博客/视频）",
+        "电商网站",
+        "在线课程"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "海外AI工具项目的中国市场验证路线",
+      "items": [
+        "选择细分市场（如户外烧烤工具），建立品牌官网，并制作高质量内容（食谱、技巧视频）在抖音/小红书发布。",
+        "投放抖音信息流广告，测试不同素材和人群，将预算集中在ROI高的渠道，同时通过评论区互动引流至私域。",
+        "在私域推出付费课程（如“烧烤大师课”）和会员订阅，结合工具销售，并利用老客户推荐奖励机制提升复购。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2470,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

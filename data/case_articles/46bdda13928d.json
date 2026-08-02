@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "帮电商品牌做邮件短信营销代运营的中国市场验证路线",
+      "items": [
+        "聚焦1-2个电商细分品类（如服装、美妆），提供免费邮件/SMS诊断报告，展示数据提升潜力，积累3-5个种子客户。",
+        "搭建邮件/SMS自动化工具（可先用国外工具如Klaviyo），设计模板和流程，按客户销售额的1-3%收费，或固定月费$500-2000。",
+        "通过客户案例和ROI数据在电商社群、知乎、抖音等渠道传播，建立行业口碑，逐步提高客单价至月费$2000+。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "帮电商品牌做邮件短信营销代运营的经营验证仪表盘",
+      "items": [
+        "帮电商品牌做邮件短信营销代运营，按效果收费。",
+        "按邮件发送量或订单分成收费，提供策略、文案、自动化流程一站式服务。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2534,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

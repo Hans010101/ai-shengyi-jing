@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "销售车内垃圾桶的中国市场验证路线",
+      "items": [
+        "市场调研，在亚马逊搜索车用垃圾桶，分析竞品价格、评价和痛点，确定差异化卖点（如材质、容量、挂钩设计）。",
+        "联系中国工厂（如1688），定制样品，确保质量并控制成本在$2-5/个，然后注册亚马逊账号，创建Listing并优化关键词。",
+        "发少量产品到FBA仓库，开启自动广告测试，根据数据优化出价和关键词，逐步提高排名，后续可拓展变体或关联产品。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "销售车内垃圾桶的经营验证仪表盘",
+      "items": [
+        "销售车内垃圾桶，通过亚马逊FBA赚取差价。",
+        "亚马逊FBA模式：采购低成本产品，发往亚马逊仓库，由亚马逊负责物流和客服，赚取售价与成本及费用之间的差额。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2489,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

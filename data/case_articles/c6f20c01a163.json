@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为创意人士提供硬件转软件工具的中国市场验证路线",
+      "items": [
+        "开发iPad端和桌面端应用，实现基础屏幕镜像和绘图功能，使用免费增值模式吸引用户。",
+        "在B站、小红书等平台发布使用教程和对比视频，突出低成本替代专业绘图板的卖点，引导下载。",
+        "收集用户反馈，迭代增加压感、快捷键等专业功能，推出月费/年费订阅，提供7天免费试用。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "为创意人士提供硬件转软件工具的经营验证仪表盘",
+      "items": [
+        "为创意人士提供硬件转软件工具，通过订阅制收费。",
+        "SaaS订阅制，提供iPad与Mac/PC的屏幕镜像和绘图板功能，月费或年费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2455,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

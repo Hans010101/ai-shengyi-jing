@@ -175,6 +175,26 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/011/197/original/open-uri20210407-3-1nekodk?1617820845",
+      "caption": "销售DIY林肯便士肖像套件：给创业者的实践建议相关原始配图（第4张）",
+      "alt": "销售DIY林肯便士肖像套件：给创业者的实践建议相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/penny-portrait-update-how-we-sold-over-8-000-kits",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/011/198/original/open-uri20210407-3-1ddu7p0?1617820845",
+      "caption": "销售DIY林肯便士肖像套件：给创业者的实践建议相关原始配图（第5张）",
+      "alt": "销售DIY林肯便士肖像套件：给创业者的实践建议相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/penny-portrait-update-how-we-sold-over-8-000-kits",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -189,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2399,
-    "mediaCount": 4,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

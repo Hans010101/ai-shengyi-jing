@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "监测品牌在AI回答中的提及的中国市场验证路线",
+      "items": [
+        "选择目标AI助手（如文心一言、通义千问），搭建爬虫或调用API，抓取品牌相关问答。",
+        "开发分析算法，提取品牌提及频率、情感倾向、上下文，生成可视化报告。",
+        "上线MVP，通过行业社区和自媒体推广，提供免费试用，引导企业付费订阅。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "监测品牌在AI回答中的提及的经营验证仪表盘",
+      "items": [
+        "监测品牌在AI回答中的提及，向企业收取订阅费。",
+        "SaaS订阅制，按月/年收费，提供品牌在AI助手回答中的出现频率、情感分析等报告。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2433,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

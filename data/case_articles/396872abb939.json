@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI驱动的课堂笔记生成工具的中国市场验证路线",
+      "items": [
+        "搭建MVP，集成现有语音识别API（如科大讯飞）和GPT API，实现基础音频转文字+摘要功能。",
+        "在知乎、B站发布对比视频（传统笔记 vs AI笔记），提供100个免费试用名额，收集反馈。",
+        "推出订阅制（月费19元/年费199元），增加中文优化、微信小程序端，与考研/考证机构合作分销。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI驱动的课堂笔记生成工具的经营验证仪表盘",
+      "items": [
+        "AI驱动的课堂笔记生成工具，通过订阅制收费。",
+        "SaaS订阅模式，提供免费基础功能和付费高级功能（如无限时长、多格式导出），月费约$10-20。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2506,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

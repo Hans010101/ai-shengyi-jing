@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "注册时提一个问题的中国市场验证路线",
+      "items": [
+        "搭建一个简单问卷页面，只问1个与产品选择相关的问题（如“你最看重什么功能？”），收集用户偏好。",
+        "用规则或轻量AI（如调用GPT API）根据回答匹配产品，生成个性化推荐列表，展示部分结果，完整结果需付费。",
+        "在社交媒体分享“1个问题找到最适合你的产品”的故事，吸引流量；测试转化率，优化问题和推荐算法。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "注册时提一个问题的经营验证仪表盘",
+      "items": [
+        "注册时提一个问题，分析回答推荐产品，提高销售额。",
+        "B2C订阅制，免费注册+付费解锁高级推荐功能，靠用户订阅费赚钱。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2454,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

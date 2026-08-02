@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为创作者提供邮件操作系统的中国市场验证路线",
+      "items": [
+        "搭建最小可行产品，聚焦邮件发送和基础自动化，用开源工具（如Mautic）快速验证。",
+        "针对中国创作者（公众号、小红书博主）提供微信生态集成，如自动回复、模板消息。",
+        "采用免费+付费模式，免费版限制发送量，付费版解锁高级分析、A/B测试等，按月收费。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "为创作者提供邮件操作系统的经营验证仪表盘",
+      "items": [
+        "为创作者提供邮件操作系统，通过订阅和自动化功能收费",
+        "SaaS订阅制，按功能分级收费，提供免费版引流，付费版解锁高级自动化、分析等功能。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2448,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

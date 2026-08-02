@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "爱尔兰独立照片打印网站的中国市场验证路线",
+      "items": [
+        "注册微信小程序或淘宝店，对接本地照片冲印工厂，提供基础相框/画布打印服务。",
+        "在小红书/抖音发布照片打印教程和案例，突出画质和包装，吸引追求品质的用户。",
+        "推出毕业季、宝宝成长相册等主题套餐，设置会员积分和推荐奖励，提升复购率。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "爱尔兰独立照片打印网站的经营验证仪表盘",
+      "items": [
+        "爱尔兰独立照片打印网站，通过在线销售定制相框和印刷品盈利。",
+        "B2C在线定制照片打印，用户上传照片选择尺寸/相框，工厂按单生产并邮寄，赚取产品差价。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2412,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -187,6 +187,30 @@
       "poster": "https://i.ytimg.com/vi/4f4BMaCYnT8/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/bxKfqfNHzpo&t=46s",
+      "watchUrl": "https://www.youtube.com/watch?v=bxKfqfNHzpo&t=46s",
+      "caption": "利用磁悬浮技术销售新奇展示架资料中提及的视频：Building a Wood Planter for LEVdisplay",
+      "alt": "Building a Wood Planter for LEVdisplay",
+      "sourceUrl": "https://www.starterstory.com/stories/starting-an-amazon-business-as-a-bartender",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/bxKfqfNHzpo/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/bxKfqfNHzpo&t=29s",
+      "watchUrl": "https://www.youtube.com/watch?v=bxKfqfNHzpo&t=29s",
+      "caption": "利用磁悬浮技术销售新奇展示架资料中提及的视频：Building a Wood Planter for LEVdisplay",
+      "alt": "Building a Wood Planter for LEVdisplay",
+      "sourceUrl": "https://www.starterstory.com/stories/starting-an-amazon-business-as-a-bartender",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/bxKfqfNHzpo/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -201,7 +225,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2483,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

@@ -175,6 +175,26 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/905/original/open-uri20190621-4-1udarlk?1561145783",
+      "caption": "清洁服务加盟品牌：当前经营状态与下一步规划相关原始配图（第4张）",
+      "alt": "清洁服务加盟品牌：当前经营状态与下一步规划相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-warren-buffett-inspired-my-lifelong-journey-creating-a-25m-cleaning-empire",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/906/original/open-uri20190621-4-15dneyu?1561145783",
+      "caption": "清洁服务加盟品牌：业务工具与运营系统相关原始配图（第5张）",
+      "alt": "清洁服务加盟品牌：业务工具与运营系统相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-warren-buffett-inspired-my-lifelong-journey-creating-a-25m-cleaning-empire",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -189,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2432,
-    "mediaCount": 4,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

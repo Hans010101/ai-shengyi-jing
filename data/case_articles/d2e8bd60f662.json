@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "智能时间锁容器的中国市场验证路线",
+      "items": [
+        "确定目标场景（如控制手机使用、健康饮食），设计最小可行产品（MVP），可先用3D打印制作原型。",
+        "在众筹平台（如Kickstarter）或国内平台（如淘宝众筹）发起预售，验证市场需求并获取初始资金。",
+        "与本地制造商合作批量生产，并通过电商平台（如淘宝、京东）和社交媒体（如抖音、小红书）推广，建立品牌。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "智能时间锁容器的经营验证仪表盘",
+      "items": [
+        "智能时间锁容器，通过硬件销售和配件复购盈利。",
+        "硬件销售（Kitchen Safe）为主，搭配配件（如不同尺寸锁盒）和订阅服务（如App联动）增加复购。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2462,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

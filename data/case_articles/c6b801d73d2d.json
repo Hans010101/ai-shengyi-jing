@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为开发者提供AI聚合内容平台的中国市场验证路线",
+      "items": [
+        "搭建基础内容聚合平台，利用爬虫和API抓取技术博客、新闻，用AI分类推荐。",
+        "开发浏览器插件和移动端，方便开发者随时获取内容，通过社交分享扩大用户。",
+        "引入付费订阅（去广告、高级筛选）和招聘板块，对接企业招聘需求，实现盈利。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "为开发者提供AI聚合内容平台的经营验证仪表盘",
+      "items": [
+        "为开发者提供AI聚合内容平台，通过订阅和招聘变现。",
+        "免费增值模式：基础内容免费，高级功能付费；同时通过招聘广告和赞助内容盈利。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2434,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

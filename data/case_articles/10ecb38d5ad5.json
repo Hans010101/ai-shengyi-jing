@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "白噪音App的中国市场验证路线",
+      "items": [
+        "调研中国白噪音用户偏好，确定核心场景（学习、睡眠、冥想），收集10-20种本土音效素材（如雨声、溪流、古琴）。",
+        "开发iOS/Android端App，实现基础播放、定时关闭、混音功能，设计简洁UI，接入微信支付和支付宝。",
+        "上线后通过小红书、抖音发布#白噪音#内容引流，设置7天免费试用，引导订阅，并收集反馈迭代音效库。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "白噪音App的经营验证仪表盘",
+      "items": [
+        "白噪音App，通过订阅和付费解锁盈利。",
+        "iOS付费应用+内购订阅，提供多种白噪音和混音功能，用户免费下载后通过订阅解锁全部内容。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2483,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

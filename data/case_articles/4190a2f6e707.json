@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "订阅制肉类直送服务的中国市场验证路线",
+      "items": [
+        "定位目标客群（如健身人群、家庭），选择1-2款核心肉类产品，与优质供应商建立合作，确保品质和成本优势。",
+        "搭建订阅网站或小程序，设计3个档位套餐（如基础、家庭、高端），设置首月优惠吸引订阅，并接入支付和物流系统。",
+        "通过小红书、抖音等平台发布食谱、肉类知识等内容引流，利用推荐奖励和社群运营提升复购，逐步扩展品类。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "订阅制肉类直送服务的经营验证仪表盘",
+      "items": [
+        "订阅制肉类直送服务，按月收费赚取利润。",
+        "用户按月订阅，获得定制化肉类套餐；平台集中采购、冷链配送，赚取差价和订阅费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2442,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:HTTPError|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:HTTPError|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

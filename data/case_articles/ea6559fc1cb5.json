@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "主打成人饮酒场景的保温杯品牌的中国市场验证路线",
+      "items": [
+        "聚焦细分场景，如白酒保温杯，设计专利产品，解决防漏、保温、便携痛点。",
+        "在抖音/小红书发布使用场景视频（如户外饮酒、派对），与酒类KOL合作种草。",
+        "开设微信小程序或天猫店，推出首单优惠和订阅制（如每月新色/配件），建立私域社群。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "主打成人饮酒场景的保温杯品牌的经营验证仪表盘",
+      "items": [
+        "主打成人饮酒场景的保温杯品牌，靠专利设计和DTC模式月入110万美元。",
+        "DTC销售专利保温杯，搭配配件和订阅制（如月付计划），利用社交媒体内容营销和KOL合作获客。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2561,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

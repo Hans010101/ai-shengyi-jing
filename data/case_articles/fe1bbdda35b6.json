@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "求职者/自由职业者内容营销平台的产品与交付路径",
+      "items": [
+        "用户搜索",
+        "阅读文章",
+        "点击广告/联盟链接",
+        "变现"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "求职者/自由职业者内容营销平台的中国市场验证路线",
+      "items": [
+        "选择细分领域（如程序员求职、自由职业），创建公众号或知乎号，每天发布1-2篇实用干货文章。",
+        "优化SEO关键词（如“简历模板”“面试技巧”），利用百度搜索流量，同时加入求职社群推广内容。",
+        "接入百度联盟广告，并推广求职工具（如简历制作、面试课程）获取佣金，建立邮件列表定期推送。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2453,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

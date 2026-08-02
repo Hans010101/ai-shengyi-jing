@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "简单实惠的CRM的中国市场验证路线",
+      "items": [
+        "用低代码或无代码工具（如Airtable）快速搭建MVP，仅包含联系人管理和备注功能，验证需求。",
+        "针对中国小企业常用场景（如微信客户跟进）开发插件或集成，通过公众号或知乎分享使用技巧引流。",
+        "采用免费试用+低价月费（如¥30/月），提供微信客服支持，收集反馈快速迭代功能。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "简单实惠的CRM的经营验证仪表盘",
+      "items": [
+        "简单实惠的CRM，面向小企业按月收费。",
+        "SaaS订阅制，月费$15/用户，提供联系人管理、任务追踪等核心功能，无隐藏费用。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2410,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

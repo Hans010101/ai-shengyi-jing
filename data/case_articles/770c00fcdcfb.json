@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "男性心理健康品牌的产品与交付路径",
+      "items": [
+        "用户访问网站",
+        "浏览品牌故事",
+        "选择日记本或课程",
+        "在线支付"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "男性心理健康品牌的中国市场验证路线",
+      "items": [
+        "定位细分人群（如职场男性、大学生），创建微信公众号或小红书账号，发布男性心理健康内容，积累种子用户。",
+        "设计一款高颜值日记本，内页融入情绪引导问题（如每日心情记录、感恩练习），定价99-199元，通过微店或小程序预售。",
+        "录制配套音频课程（如7天情绪管理），购买日记本用户免费获取，并建立微信群进行打卡互动，提升复购和转介绍。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2457,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

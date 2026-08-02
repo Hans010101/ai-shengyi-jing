@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "SaaStr是SaaS创业者社区的中国市场验证路线",
+      "items": [
+        "确定细分领域（如SaaS创业者），建立微信公众号或知识星球，每周发布3篇深度行业文章或案例，通过朋友圈和行业群裂变获取初始用户。",
+        "组织线上分享会，邀请行业KOL免费直播，积累口碑和用户信任。同时推出付费会员服务（如99元/月），提供独家报告、嘉宾问答和资源对接。",
+        "举办线下沙龙或年度峰会，收取门票并寻求赞助商。建立会员专属微信群，定期组织线下聚餐或私董会，增强社群粘性，形成自传播。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "SaaStr是SaaS创业者社区的经营验证仪表盘",
+      "items": [
+        "SaaStr是SaaS创业者社区，通过会员订阅和活动赞助盈利。",
+        "内容驱动社区：免费内容引流，付费会员获取深度资源，线下活动及赞助创收。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2580,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

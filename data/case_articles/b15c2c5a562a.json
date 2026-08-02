@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/575/original/open-uri20190514-4-tl5jjr?1557856515",
+      "caption": "一款惩罚用户不运动的App：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "一款惩罚用户不运动的App：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-launched-an-app-that-charges-people-if-they-don-t-exercise",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/576/original/open-uri20190514-4-erglyr?1557856515",
+      "caption": "一款惩罚用户不运动的App：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "一款惩罚用户不运动的App：产品上线与首次发布相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-launched-an-app-that-charges-people-if-they-don-t-exercise",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/lyLa70qRoMM",
       "watchUrl": "https://www.youtube.com/watch?v=lyLa70qRoMM",
@@ -201,7 +221,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2461,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI预测身高并定制睡眠营养计划的中国市场验证路线",
+      "items": [
+        "开发MVP，实现基础身高预测算法（基于中国儿童生长数据），并设计简单的睡眠和营养计划模板。",
+        "在抖音/小红书发布“预测未来身高”类短视频，引导用户下载App免费试用，收集反馈优化产品。",
+        "上线订阅功能（月卡19.9元，年卡99元），并增加打卡社区、生长曲线追踪等留存功能，逐步迭代。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI预测身高并定制睡眠营养计划的经营验证仪表盘",
+      "items": [
+        "AI预测身高并定制睡眠营养计划，按月订阅赚钱。",
+        "移动App提供身高预测和个性化计划（睡眠、营养等），免费试用后按月/年订阅。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2492,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

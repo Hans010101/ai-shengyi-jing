@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "在线表单构建器的中国市场验证路线",
+      "items": [
+        "选择细分场景（如活动报名、客户反馈），用低代码工具（如Retool）或自研搭建最小可用表单产品，免费开放基础功能。",
+        "通过知乎、小红书发布“XX场景表单模板”引流，积累早期用户，收集反馈优化产品。",
+        "推出付费版，按表单数量或提交次数收费，集成微信支付、企业微信通知，实现闭环变现。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "在线表单构建器的经营验证仪表盘",
+      "items": [
+        "在线表单构建器，通过免费增值和订阅收费。",
+        "Freemium模式：免费版提供基础表单功能，付费版按表单数量、提交次数、存储空间等分级收费，月费$39-$199。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2533,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

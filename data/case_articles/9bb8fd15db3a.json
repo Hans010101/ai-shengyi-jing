@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "摄影博主的产品与交付路径",
+      "items": [
+        "社交媒体展示作品",
+        "吸引潜在客户",
+        "提供定制摄影服务",
+        "交付成品并收费"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "摄影博主的中国市场验证路线",
+      "items": [
+        "在小红书/抖音开设账号，每周发布3-5组高质量空间摄影作品，使用热门标签如#室内设计#商业摄影，积累初始粉丝。",
+        "主动联系本地室内设计师、家具品牌、地产中介，提供免费试拍1-2个项目换取案例和推荐，建立作品集。",
+        "制定标准报价单（如室内摄影$2000/套），推出套餐（含修图+商用授权），通过私域微信群维护老客户，鼓励转介绍返佣。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2488,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

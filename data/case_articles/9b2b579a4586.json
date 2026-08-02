@@ -187,6 +187,18 @@
       "poster": "https://i.ytimg.com/vi/qCjFHH_m_os/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/xhAk8Rg2ZQ4",
+      "watchUrl": "https://www.youtube.com/watch?v=xhAk8Rg2ZQ4",
+      "caption": "销售可折叠房屋的建造技术公司资料中提及的视频：Post Malone - Steve-O's Wild Ride! Ep #57",
+      "alt": "Post Malone - Steve-O's Wild Ride! Ep #57",
+      "sourceUrl": "https://www.starterstory.com/stories/this-company-sells-foldable-homes",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/xhAk8Rg2ZQ4/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -201,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2528,
-    "mediaCount": 5,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

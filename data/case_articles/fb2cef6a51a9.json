@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "基于位置数据的本地商户发现与推荐平台的中国市场验证路线",
+      "items": [
+        "选择细分场景（如商场、景区、大学城），开发轻量级签到小程序，集成地图和POI数据，通过地推或线上活动获取首批种子用户。",
+        "与本地商户合作，提供免费入驻和基础推广位，积累用户行为数据，并开发商户后台，提供客流统计、用户画像等基础分析功能。",
+        "推出付费增值服务，如精准广告投放、竞品分析报告、API接口，同时引入会员订阅制，为高频用户提供免广告、专属优惠等权益。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "基于位置数据的本地商户发现与推荐平台的经营验证仪表盘",
+      "items": [
+        "基于位置数据的本地商户发现与推荐平台，通过广告、数据授权和SaaS订阅盈利。",
+        "向商户提供广告和推广服务（按点击或曝光收费），向企业出售位置数据和分析报告，同时提供SaaS工具（如Places API）按调用量收费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2652,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

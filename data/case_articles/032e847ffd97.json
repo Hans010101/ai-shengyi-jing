@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "IPinfo提供IP地址数据API的中国市场验证路线",
+      "items": [
+        "收集中国IP数据源（如运营商、CDN节点），构建基础IP库，提供免费查询API吸引开发者。",
+        "开发增值功能（如ASN、公司、代理检测），设计按查询量或套餐订阅的定价模型。",
+        "在技术社区（如CSDN、掘金）推广，发布使用案例，与云服务商合作嵌入，快速获取企业客户。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "IPinfo提供IP地址数据API的经营验证仪表盘",
+      "items": [
+        "IPinfo提供IP地址数据API，按查询量收费。",
+        "免费增值+按量付费：基础查询免费，高级数据、批量查询和定制服务按月/按年订阅收费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2512,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

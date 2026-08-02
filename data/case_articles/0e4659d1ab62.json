@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "员工工时追踪SaaS的中国市场验证路线",
+      "items": [
+        "搭建基础打卡功能（GPS签到、WiFi打卡、二维码扫码），支持微信小程序和钉钉/飞书集成，快速获取种子用户。",
+        "开发排班管理、加班计算、考勤报表等核心功能，设置免费版（限10人）和付费版（按人头订阅），通过SEO和免费口碑获客。",
+        "拓展API接口对接HR系统、工资计算，推出年度合同折扣，建立客户成功团队降低流失率，逐步增加高级功能如人脸识别、智能排班。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "员工工时追踪SaaS的经营验证仪表盘",
+      "items": [
+        "员工工时追踪SaaS，按月订阅收费。",
+        "按月/用户订阅收费，免费版限制功能，付费版解锁高级报表、排班、API集成等。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2535,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

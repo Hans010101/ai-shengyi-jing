@@ -175,6 +175,26 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/120/original/open-uri20190724-4-hmxmdx?1563994073",
+      "caption": "儿童生活方式服装品牌：产品设计与早期打磨相关原始配图（第4张）",
+      "alt": "儿童生活方式服装品牌：产品设计与早期打磨相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-built-a-children-s-lifestyle-clothing-brand",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/121/original/open-uri20190724-4-4vgmcx?1563994074",
+      "caption": "儿童生活方式服装品牌：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "儿童生活方式服装品牌：产品上线与首次发布相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-built-a-children-s-lifestyle-clothing-brand",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -189,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2418,
-    "mediaCount": 4,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

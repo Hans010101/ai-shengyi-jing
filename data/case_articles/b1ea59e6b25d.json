@@ -175,6 +175,26 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/507/original/open-uri20190502-4-ek12s6?1556797630",
+      "caption": "DTC自行车品牌：业务工具与运营系统相关原始配图（第4张）",
+      "alt": "DTC自行车品牌：业务工具与运营系统相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-generated-10m-in-sales-with-our-online-bicycle-business",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/509/original/open-uri20190502-4-iz6st5?1556797631",
+      "caption": "DTC自行车品牌：学习方法与行业资源相关原始配图（第5张）",
+      "alt": "DTC自行车品牌：学习方法与行业资源相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-generated-10m-in-sales-with-our-online-bicycle-business",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -189,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2386,
-    "mediaCount": 4,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

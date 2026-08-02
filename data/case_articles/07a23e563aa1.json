@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI新闻聚合与简报服务的中国市场验证路线",
+      "items": [
+        "搭建邮件订阅系统（如Mailchimp），每日用AI抓取5-10篇中文AI新闻，自动摘要生成简报。",
+        "在知乎、公众号、AI社群发布免费简报摘录，引导用户订阅完整版，初期免费积累种子用户。",
+        "推出付费订阅（9.9元/月），增加深度分析、行业报告、专家访谈等增值内容，通过社群运营提升续费率。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI新闻聚合与简报服务的经营验证仪表盘",
+      "items": [
+        "AI新闻聚合与简报服务，订阅制赚钱。",
+        "免费邮件简报吸引用户，付费订阅（$10/月）解锁每日深度AI新闻、分析及独家内容。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2444,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

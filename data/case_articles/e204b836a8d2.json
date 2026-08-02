@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为WordPress网站提供按月付费的技术维护服的中国市场验证路线",
+      "items": [
+        "搭建自动化维护工具，集成WordPress安全扫描、更新、备份功能，部署在云服务器上。",
+        "针对国内CMS（如Z-Blog、织梦）开发插件，提供类似服务，定价99-299元/月。",
+        "通过知乎、CSDN发布WordPress/网站维护教程引流，提供免费试用7天转化付费用户。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "为WordPress网站提供按月付费的技术维护服的经营验证仪表盘",
+      "items": [
+        "为WordPress网站提供按月付费的技术维护服务。",
+        "按月订阅（$29-$199/月），提供安全监控、插件更新、备份恢复、性能优化等标准化服务。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2546,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

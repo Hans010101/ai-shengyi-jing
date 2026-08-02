@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "离线文字RPG手游的中国市场验证路线",
+      "items": [
+        "使用Cocos Creator或Unity开发简易文字RPG框架，实现离线挂机核心循环，测试核心玩法留存。",
+        "接入穿山甲或优量汇广告SDK，设计激励视频广告（加速、复活）和内购点（VIP、稀有道具）。",
+        "在TapTap、B站等渠道进行小规模测试，根据用户反馈优化数值和交易系统，逐步买量扩大用户规模。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "离线文字RPG手游的经营验证仪表盘",
+      "items": [
+        "离线文字RPG手游，通过内购和广告盈利。",
+        "免费下载+内购（加速道具、皮肤）+广告变现，玩家交易抽取手续费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2440,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

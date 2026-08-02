@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "极简网页托管工具的中国市场验证路线",
+      "items": [
+        "搭建基础托管服务，支持上传HTML/CSS/JS文件，自动生成临时域名，使用免费CDN加速。",
+        "开发付费功能，如自定义域名、密码保护、访问统计，集成支付宝/微信支付，设置月/年订阅。",
+        "通过技术博客、知乎、B站发布教程，内容围绕“如何快速分享网页”，引导免费用户升级付费。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "极简网页托管工具的经营验证仪表盘",
+      "items": [
+        "极简网页托管工具，通过免费+付费订阅盈利。",
+        "免费增值模式：基础功能免费，付费用户获得自定义域名、密码保护、分析等高级功能。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2459,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

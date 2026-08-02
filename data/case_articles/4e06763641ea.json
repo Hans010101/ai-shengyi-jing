@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "Chili Piper是一款B2B销售日程自动化的中国市场验证路线",
+      "items": [
+        "聚焦细分场景，如针对中国B2B企业常见的微信沟通+邮件确认流程，开发一个轻量级日程自动匹配插件，免费集成到企业微信或钉钉。",
+        "通过行业社群和知乎等平台发布销售效率提升案例，吸引种子用户，提供1个月免费试用，收集反馈快速迭代产品。",
+        "推出付费版本，按团队席位定价，首年提供优惠，并建立客户成功团队，定期回访，确保持续续费。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "Chili Piper是一款B2B销售日程自动化的经营验证仪表盘",
+      "items": [
+        "Chili Piper是一款B2B销售日程自动化工具，通过优化会议预约流程，按席位订阅收费。",
+        "SaaS订阅制，按用户席位收费，提供免费试用，高级功能付费解锁。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2595,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

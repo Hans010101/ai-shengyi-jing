@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "在线翻页电子书制作SaaS的中国市场验证路线",
+      "items": [
+        "开发MVP，实现PDF上传、翻页效果生成、基础自定义（品牌色、Logo），免费版加水印，支持导出链接。",
+        "通过知乎、B站发布教程视频，SEO优化“翻页电子书”、“在线制作电子书”等关键词，提供免费模板引流。",
+        "上线付费订阅，设置个人版（$9/月）、企业版（$29/月），企业版增加分析、无品牌、自定义域名，对接微信支付。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "在线翻页电子书制作SaaS的经营验证仪表盘",
+      "items": [
+        "在线翻页电子书制作SaaS，按月订阅收费",
+        "提供翻页电子书制作工具，免费版有品牌水印和页数限制，付费订阅解锁高级功能（去水印、分析、自定义域名等），月费$19起。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2518,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

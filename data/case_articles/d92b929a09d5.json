@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI拍照记录热量的中国市场验证路线",
+      "items": [
+        "用现成AI视觉API（如百度AI）快速搭建拍照识别食物Demo，验证准确率，先在小范围用户内测。",
+        "在微信做小程序，加入基础社交功能（好友点赞、周排名），通过减脂群、小红书KOC免费推广，积累种子用户。",
+        "设计7天免费试用，之后按月/季订阅，同时推出付费挑战赛（如21天减脂营，用户付费参与，达标返现），提高转化和留存。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI拍照记录热量的经营验证仪表盘",
+      "items": [
+        "AI拍照记录热量，社交化减肥订阅赚钱",
+        "免费试用基础功能，订阅解锁高级分析、社交挑战、个性化建议，月费约$10-15。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2487,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

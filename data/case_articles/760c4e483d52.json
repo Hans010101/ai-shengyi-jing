@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "个人知识管理在线课程与会员服务的中国市场验证路线",
+      "items": [
+        "在知乎、B站发布知识管理干货内容，建立个人品牌，引流到公众号或微信群。",
+        "设计一套简化版知识管理方法论（如“四步整理法”），制作成低价录播课（99元）在小鹅通上架。",
+        "建立付费社群（199元/月），提供模板、答疑和直播，逐步迭代出高阶课程和会员体系。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "个人知识管理在线课程与会员服务的经营验证仪表盘",
+      "items": [
+        "个人知识管理在线课程与会员服务，通过课程和订阅赚钱。",
+        "B2C知识付费：提供自定进度课程、社群课程和会员订阅，按课程或月/年收费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2478,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI代码编辑器及编码助手的中国市场验证路线",
+      "items": [
+        "选择技术栈（如Python/JavaScript），利用开源LLM（如CodeLlama）微调一个代码补全模型，集成到VS Code扩展中，实现基础AI辅助功能。",
+        "搭建网站和支付系统，提供免费版（限制每日请求次数）和专业版（无限请求+团队协作），定价约29-49元/月。",
+        "在GitHub、掘金、知乎等平台发布技术文章和演示视频，邀请早期用户内测，通过口碑传播和KOL合作获取种子用户。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI代码编辑器及编码助手的经营验证仪表盘",
+      "items": [
+        "AI代码编辑器及编码助手，通过订阅制收费。",
+        "Freemium模式，免费版提供基础AI辅助，付费版解锁无限生成、团队协作等高级功能，按用户数月订阅。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2545,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

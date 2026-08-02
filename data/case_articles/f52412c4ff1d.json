@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "教用户期权交易每月赚1000美元的中国市场验证路线",
+      "items": [
+        "定位细分领域，如A股期权或ETF策略，制作10-20个免费教学短视频发布在抖音/B站，积累种子用户。",
+        "搭建微信社群，提供免费策略周报，筛选付费意向用户；同时开发简单策略工具（如Excel或小程序版）。",
+        "推出99-299元/月订阅服务，包含课程、策略信号和社群答疑；用老带新返佣机制裂变增长。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "教用户期权交易每月赚1000美元的经营验证仪表盘",
+      "items": [
+        "教用户期权交易每月赚1000美元，通过订阅收费。",
+        "提供期权交易培训课程和自动化策略工具，用户按月付费获取内容与软件使用权。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2457,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

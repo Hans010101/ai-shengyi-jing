@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/199/original/open-uri20181022-4-1oya3r2?1540232691",
+      "caption": "男性发圈DTC品牌：产品设计与早期打磨相关原始配图（第4张）",
+      "alt": "男性发圈DTC品牌：产品设计与早期打磨相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-the-longhairs-grew-to-30k-per-month-selling-hair-ties-for-men",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/200/original/open-uri20181022-4-18txpdn?1540232692",
+      "caption": "男性发圈DTC品牌：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "Agency life",
+      "sourceUrl": "https://www.starterstory.com/stories/how-the-longhairs-grew-to-30k-per-month-selling-hair-ties-for-men",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/IHs_1S1xJns",
       "watchUrl": "https://www.youtube.com/watch?v=IHs_1S1xJns",
@@ -185,6 +205,18 @@
       "sourceUrl": "https://www.starterstory.com/stories/how-the-longhairs-grew-to-30k-per-month-selling-hair-ties-for-men",
       "origin": "embeddable-video",
       "poster": "https://i.ytimg.com/vi/IHs_1S1xJns/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/wXlTZaf0OUU",
+      "watchUrl": "https://www.youtube.com/watch?v=wXlTZaf0OUU",
+      "caption": "男性发圈DTC品牌资料中提及的视频：Why We Don’t Call It A Man Bun (And How To Do One)",
+      "alt": "Why We Don’t Call It A Man Bun (And How To Do One)",
+      "sourceUrl": "https://www.starterstory.com/stories/how-the-longhairs-grew-to-30k-per-month-selling-hair-ties-for-men",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/wXlTZaf0OUU/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
     }
@@ -201,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2456,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

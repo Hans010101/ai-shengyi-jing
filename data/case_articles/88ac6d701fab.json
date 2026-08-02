@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "自制身体磨砂膏产品的中国市场验证路线",
+      "items": [
+        "确定细分市场（如敏感肌、去角质），研发1-2款天然配方，小批量手工制作并测试。",
+        "在淘宝或微信小程序开设店铺，拍摄产品制作和使用视频，发布在小红书、抖音吸引流量。",
+        "收集用户反馈优化产品，推出订阅制或礼盒装，与美妆博主合作推广，扩大品牌知名度。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "自制身体磨砂膏产品的经营验证仪表盘",
+      "items": [
+        "自制身体磨砂膏产品，通过线上零售和批发赚钱。",
+        "B2C直接销售+批发给小型零售商，通过网站和电商平台销售自有品牌护肤品。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2390,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

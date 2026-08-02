@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "Nylas是邮件与日历API平台的中国市场验证路线",
+      "items": [
+        "选择目标平台（如钉钉、飞书、企业微信），研究其开放API，封装统一的邮件、日历、联系人接口。",
+        "开发SDK和示例代码，在GitHub、掘金等技术社区发布教程，吸引种子开发者用户。",
+        "推出免费额度吸引试用，设置合理的阶梯定价，通过技术支持和迭代优化留存客户。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "Nylas是邮件与日历API平台的经营验证仪表盘",
+      "items": [
+        "Nylas是邮件与日历API平台，通过开发者订阅API调用量赚钱。",
+        "B2D SaaS模式，提供邮件、日历、联系人等API，开发者按API调用次数或功能套餐付费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2510,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

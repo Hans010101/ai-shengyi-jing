@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "智能冰激凌勺的中国市场验证路线",
+      "items": [
+        "调研中国冰激凌消费者痛点，如硬冰激凌难挖、融化问题，通过问卷或社交媒体收集反馈。",
+        "利用3D打印快速制作原型，在淘宝或京东发起众筹测试市场反应，收集早期用户。",
+        "与国内小家电代工厂合作量产，通过抖音、小红书等平台进行内容营销，突出科技感和实用价值。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "智能冰激凌勺的经营验证仪表盘",
+      "items": [
+        "智能冰激凌勺，通过众筹销售硬件盈利",
+        "硬件销售模式，通过Kickstarter众筹预售，直接面向消费者销售智能冰激凌勺。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2400,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

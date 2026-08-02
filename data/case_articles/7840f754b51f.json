@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/021/original/open-uri20210806-3-daz5wg?1628223057",
+      "caption": "博客+YouTube教写作赚钱：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "博客+YouTube教写作赚钱：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-got-fired-it-fueled-me-to-build-my-own-300k-year-business",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/022/original/open-uri20210806-3-udlnc?1628223058",
+      "caption": "博客+YouTube教写作赚钱：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "博客+YouTube教写作赚钱：产品上线与首次发布相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-got-fired-it-fueled-me-to-build-my-own-300k-year-business",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/gbfUQMTH1f0",
       "watchUrl": "https://www.youtube.com/watch?v=gbfUQMTH1f0",
@@ -185,6 +205,18 @@
       "sourceUrl": "https://www.starterstory.com/stories/i-got-fired-it-fueled-me-to-build-my-own-300k-year-business",
       "origin": "embeddable-video",
       "poster": "https://i.ytimg.com/vi/gbfUQMTH1f0/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/UuWPUnhgsXI",
+      "watchUrl": "https://www.youtube.com/watch?v=UuWPUnhgsXI",
+      "caption": "博客+YouTube教写作赚钱资料中提及的视频：The TOP 7 BUSINESS BOOKS You NEED To Read as a WRITER",
+      "alt": "The TOP 7 BUSINESS BOOKS You NEED To Read as a WRITER",
+      "sourceUrl": "https://www.starterstory.com/stories/i-got-fired-it-fueled-me-to-build-my-own-300k-year-business",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/UuWPUnhgsXI/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
     }
@@ -201,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2448,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

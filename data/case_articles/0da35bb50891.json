@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "邮件营销自动化SaaS的中国市场验证路线",
+      "items": [
+        "搭建最小化产品，支持邮件发送和基础自动化流程（如欢迎邮件、生日优惠），使用现有邮件API（SendGrid等），快速验证需求。",
+        "聚焦特定行业（如电商、教育），提供行业模板和场景化自动化方案，通过行业论坛、社群精准获客。",
+        "引入AI优化发送时间和内容，推出免费版限制联系人数量，引导付费升级，同时建立客户成功团队降低流失率。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "邮件营销自动化SaaS的经营验证仪表盘",
+      "items": [
+        "邮件营销自动化SaaS，按月订阅收费。",
+        "SaaS订阅模式，提供邮件营销自动化、CRM等功能，按联系人数量分层定价。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2463,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

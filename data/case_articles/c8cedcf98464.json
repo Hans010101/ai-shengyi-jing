@@ -181,6 +181,20 @@
       "poster": "https://i.ytimg.com/vi/NLdVG5wmTYQ/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "在线3D打印商店的商业增长闭环",
+      "items": [
+        "【引流】SEO+YouTube教程+社媒内容",
+        "【产品】3D打印机/耗材/打印服务",
+        "【变现】产品差价+服务费",
+        "【留存】社区论坛+会员订阅+复购耗材"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -195,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2474,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 4,
+    "logicMedia": 1
   }
 }

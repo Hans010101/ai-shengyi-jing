@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "数字男性杂志的中国市场验证路线",
+      "items": [
+        "选择垂直男性领域（如职场、健身、数码），在微信公众号或抖音开设账号，每周发布3-5篇原创内容。",
+        "积累1万粉丝后，联系相关品牌（如男士护肤、电子产品）洽谈原生广告或赞助，报价按阅读量或粉丝数。",
+        "建立网站或小程序聚合内容，开通广告联盟（如腾讯广告）或自营广告位，同时推出会员或电商推荐赚取佣金。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "数字男性杂志的经营验证仪表盘",
+      "items": [
+        "数字男性杂志，通过广告和赞助盈利。",
+        "内容驱动，流量变现：靠高质量文章吸引读者，通过展示广告、原生广告和品牌赞助获得收入。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2421,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

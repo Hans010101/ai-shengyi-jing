@@ -171,6 +171,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "将旧T恤定制成纪念被子的产品与交付路径",
+      "items": [
+        "用户下单",
+        "寄送旧T恤",
+        "工厂裁剪拼接",
+        "制成被子并寄回"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "将旧T恤定制成纪念被子的中国市场验证路线",
+      "items": [
+        "建立最小可行产品。联系本地裁缝或小型纺织厂，合作制作样品，确定标准尺寸（如单人、双人）和价格。",
+        "在闲鱼、小红书发布成品照片和视频，突出情感故事。提供限时优惠（如首单8折）吸引第一批客户。",
+        "优化流程，客户下单后寄送T恤，工厂在7-10天内完成制作。收集用户反馈，推出抱枕、毯子等衍生品。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -185,7 +212,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2450,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

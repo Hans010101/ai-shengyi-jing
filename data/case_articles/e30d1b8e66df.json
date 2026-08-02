@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI自动化簿记与税务合规SaaS的中国市场验证路线",
+      "items": [
+        "选择细分客群（如电商、个体户），开发银行/支付API对接模块，实现交易数据自动抓取。",
+        "构建AI分类引擎，训练模型识别常见收支类别，并接入金税系统实现自动计税。",
+        "推出MVP免费版（限10笔/月），通过财税社群、抖音获客，以低价订阅（￥99/月）快速转化。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI自动化簿记与税务合规SaaS的经营验证仪表盘",
+      "items": [
+        "AI自动化簿记与税务合规SaaS，按月订阅赚钱。",
+        "为小微企业提供AI驱动的簿记、发票、税务申报自动化服务，按月收取订阅费（$100-$500/月）。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2529,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

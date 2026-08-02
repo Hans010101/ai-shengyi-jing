@@ -189,6 +189,30 @@
       "poster": "https://i.ytimg.com/vi/KZSonmUB9DA/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/GuuBVrWpuds&t=1s",
+      "watchUrl": "https://www.youtube.com/watch?v=GuuBVrWpuds&t=1s",
+      "caption": "用废弃火车轨道等材料手工制作手表资料中提及的视频：Our Foundation",
+      "alt": "Our Foundation",
+      "sourceUrl": "https://www.starterstory.com/stories/steve-christensen-is-building-watches-from-old-train-tracks",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/GuuBVrWpuds/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/lD1zUO_T0qo",
+      "watchUrl": "https://www.youtube.com/watch?v=lD1zUO_T0qo",
+      "caption": "用废弃火车轨道等材料手工制作手表资料中提及的视频：Hand Engraved Movements - NOVO watch",
+      "alt": "Hand Engraved Movements - NOVO watch",
+      "sourceUrl": "https://www.starterstory.com/stories/steve-christensen-is-building-watches-from-old-train-tracks",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/lD1zUO_T0qo/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -203,7 +227,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2549,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "Doist是远程协作软件Todoist的开发商的中国市场验证路线",
+      "items": [
+        "搭建极简MVP，专注任务创建、列表和提醒核心功能，使用React Native快速开发跨平台应用。",
+        "通过博客和社交媒体分享效率技巧，吸引种子用户，收集反馈迭代产品。",
+        "推出免费版限制协作人数，设置Pro版月费，接入支付宝/微信支付实现变现。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "Doist是远程协作软件Todoist的开发商的经营验证仪表盘",
+      "items": [
+        "Doist是远程协作软件Todoist的开发商，通过订阅制SaaS盈利。",
+        "B2C+B2B订阅制，免费版提供基础功能，付费版解锁协作、标签等高级功能。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2492,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

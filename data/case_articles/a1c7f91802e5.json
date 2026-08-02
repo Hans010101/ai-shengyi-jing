@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI语音克隆与生成平台的中国市场验证路线",
+      "items": [
+        "选择开源语音合成模型（如Tacotron、WaveNet）或接入第三方API，快速搭建MVP，支持中文语音合成。",
+        "聚焦垂直场景（如短视频配音、有声书制作），提供免费试用额度，收集用户反馈优化音质和延迟。",
+        "与内容平台（如抖音、喜马拉雅）合作嵌入API，推出按量付费套餐，逐步积累企业客户。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI语音克隆与生成平台的经营验证仪表盘",
+      "items": [
+        "AI语音克隆与生成平台，按使用量订阅收费。",
+        "SaaS订阅+按量计费，提供免费试用额度，付费解锁更多时长、语音库和商业使用权限。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2514,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:HTTPError|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:HTTPError|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

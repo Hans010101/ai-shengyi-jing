@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "Zernio是一个AI驱动的商业分析工具的中国市场验证路线",
+      "items": [
+        "选择细分市场（如餐饮、电商），收集公开数据源，训练AI模型生成基础报告模板。",
+        "开发MVP，支持用户输入公司名，自动生成摘要报告，提供免费预览吸引种子用户。",
+        "通过SEO和行业KOL合作推广，设置付费墙解锁完整报告，并根据用户反馈迭代模板。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "Zernio是一个AI驱动的商业分析工具的经营验证仪表盘",
+      "items": [
+        "Zernio是一个AI驱动的商业分析工具，通过订阅制收费。",
+        "SaaS订阅制，按月或年收费，提供免费试用吸引用户，付费解锁完整报告。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2473,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

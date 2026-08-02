@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "面向客服团队的轻量级工单系统的中国市场验证路线",
+      "items": [
+        "使用开源客服系统（如UVdesk）搭建MVP，部署到云服务器，实现工单创建、分配、回复基础功能。",
+        "面向身边小商家（餐饮、电商）免费试用，收集反馈，优化UI和操作流程，确保3步内完成工单。",
+        "推出月费99元/座席的付费版本，通过知乎、公众号发布客服效率提升案例，用SEO获取搜索流量。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "面向客服团队的轻量级工单系统的经营验证仪表盘",
+      "items": [
+        "面向客服团队的轻量级工单系统，按月订阅收费。",
+        "SaaS订阅制，按座席数收费，提供自助部署和云端托管两种方式。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2465,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

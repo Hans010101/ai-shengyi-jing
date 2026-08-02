@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为视频创作者提供AI工具和服务的中国市场验证路线",
+      "items": [
+        "聚焦一个痛点，如自动字幕生成。用开源模型或API快速搭建MVP，提供免费试用。",
+        "在B站/抖音发布教程视频，展示工具效果，引导用户注册。收集反馈迭代。",
+        "推出付费订阅（月/年），如基础版免费，高级版$9.9/月；增加增值服务如人工审核。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "为视频创作者提供AI工具和服务的经营验证仪表盘",
+      "items": [
+        "为视频创作者提供AI工具和服务，助其增长变现，月入1.5万美元。",
+        "SaaS订阅+增值服务，按月或年收费，提供AI视频编辑、字幕、缩略图生成等工具。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2488,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

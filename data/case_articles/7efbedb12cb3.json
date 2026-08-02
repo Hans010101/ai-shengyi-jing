@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "音乐制作人数字资源平台的产品与交付路径",
+      "items": [
+        "用户访问网站",
+        "浏览免费教程/试听音效",
+        "选择付费商品（单次或订阅）",
+        "下载/在线使用"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "音乐制作人数字资源平台的中国市场验证路线",
+      "items": [
+        "确定细分音乐类型（如电子、嘻哈），收集或制作50-100个高质量音效样本，建立基础资源库。",
+        "在B站、抖音发布免费制作教程，引流至个人网站或小程序，展示免费试听和付费包。",
+        "设置单次购买和订阅两种模式，初期定价9.9-99元，通过社群运营和更新留住用户。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2505,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

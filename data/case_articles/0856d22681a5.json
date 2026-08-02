@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "海外AI工具项目的产品与交付路径",
+      "items": [
+        "AI运营系统",
+        "标准化流程",
+        "多门店管理",
+        "数据反馈优化"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "海外AI工具项目的中国市场验证路线",
+      "items": [
+        "选择本地服务细分领域（如家政、维修），开发AI驱动的标准化运营SaaS，包含排班、客户管理、质量监控模块。",
+        "在抖音/快手发布服务对比视频，突出AI效率提升，吸引首批直营店客户，同时招募种子加盟商。",
+        "与地方电视台或自媒体合作制作创业故事，放大品牌声量，快速复制加盟店，并持续迭代AI系统。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2465,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

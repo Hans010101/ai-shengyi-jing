@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "姐妹创办的冷冻溶脂连锁的产品与交付路径",
+      "items": [
+        "线上预约",
+        "到店咨询",
+        "冷冻溶脂治疗",
+        "术后回访"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "姐妹创办的冷冻溶脂连锁的中国市场验证路线",
+      "items": [
+        "选择高毛利医美项目（如冷冻溶脂），采购1-2台设备，租赁小型店面，总投入约10-20万人民币。",
+        "在小红书、抖音发布科普内容，突出效果对比，同时与本地美容院合作分成导流，快速积累首批客户。",
+        "推出次卡和转介绍奖励（如送一次治疗），建立客户社群，定期回访维护，提升复购率。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2442,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

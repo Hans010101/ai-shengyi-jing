@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "在Medium上运营创业类刊物的中国市场验证路线",
+      "items": [
+        "选择细分领域（如创业、副业），在知乎专栏或微信公众号注册账号，规划内容日历。",
+        "每周发布2-3篇深度文章，利用知乎热榜、百度SEO获取初始流量，积累1000粉丝。",
+        "开通付费专栏或广告位，通过微信群、知识星球建立社群，提升用户粘性和复购。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "在Medium上运营创业类刊物的经营验证仪表盘",
+      "items": [
+        "在Medium上运营创业类刊物，通过付费订阅和广告赚钱。",
+        "在Medium平台创建垂直领域刊物，通过持续输出优质内容吸引关注，利用平台付费墙和广告分成获取收入。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2464,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

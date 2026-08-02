@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/733/original/open-uri20210913-3-bg02px?1631552973",
+      "caption": "开源加密交易平台：产品设计与早期打磨相关原始配图（第4张）",
+      "alt": "开源加密交易平台：产品设计与早期打磨相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/we-built-an-open-source-crypto-platform-make-420k-year",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/734/original/open-uri20210913-3-4gdmon?1631552973",
+      "caption": "开源加密交易平台：产品设计与早期打磨相关原始配图（第5张）",
+      "alt": "开源加密交易平台：产品设计与早期打磨相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/we-built-an-open-source-crypto-platform-make-420k-year",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/7ha4Fs8upTs",
       "watchUrl": "https://www.youtube.com/watch?v=7ha4Fs8upTs",
@@ -185,6 +205,18 @@
       "sourceUrl": "https://www.starterstory.com/stories/we-built-an-open-source-crypto-platform-make-420k-year",
       "origin": "embeddable-video",
       "poster": "https://i.ytimg.com/vi/7ha4Fs8upTs/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/-ohmMcxsXBY",
+      "watchUrl": "https://www.youtube.com/watch?v=-ohmMcxsXBY",
+      "caption": "开源加密交易平台资料中提及的视频：YouTube",
+      "alt": "YouTube",
+      "sourceUrl": "https://www.starterstory.com/stories/we-built-an-open-source-crypto-platform-make-420k-year",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/-ohmMcxsXBY/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
     }
@@ -201,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2456,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

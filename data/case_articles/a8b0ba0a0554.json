@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/276/original/open-uri20181102-4-1dzk0ii?1541131340",
+      "caption": "面向矮个子男性的时尚媒体：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "alt": "面向矮个子男性的时尚媒体：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/starting-a-men-s-style-publication-reaching-a-million-people-per-month",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/277/original/open-uri20181102-4-1l3n04p?1541131341",
+      "caption": "面向矮个子男性的时尚媒体：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "面向矮个子男性的时尚媒体：产品上线与首次发布相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/starting-a-men-s-style-publication-reaching-a-million-people-per-month",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/1jRGcz2NTGc",
       "watchUrl": "https://www.youtube.com/watch?v=1jRGcz2NTGc",
@@ -185,6 +205,18 @@
       "sourceUrl": "https://www.starterstory.com/stories/starting-a-men-s-style-publication-reaching-a-million-people-per-month",
       "origin": "embeddable-video",
       "poster": "https://i.ytimg.com/vi/1jRGcz2NTGc/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/SfFFIY7G2l0",
+      "watchUrl": "https://www.youtube.com/watch?v=SfFFIY7G2l0",
+      "caption": "面向矮个子男性的时尚媒体资料中提及的视频：Subscription Boxes for Men (my opinion)",
+      "alt": "Subscription Boxes for Men (my opinion)",
+      "sourceUrl": "https://www.starterstory.com/stories/starting-a-men-s-style-publication-reaching-a-million-people-per-month",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/SfFFIY7G2l0/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
     }
@@ -201,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2451,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

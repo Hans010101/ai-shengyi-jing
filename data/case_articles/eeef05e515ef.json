@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "高端CEO私密社群的中国市场验证路线",
+      "items": [
+        "锁定细分领域（如AI创业者），通过LinkedIn、微信社群筛选10-20位高潜力CEO，免费邀请加入测试群。",
+        "每周组织线上闭门分享会，邀请成功创业者或投资人，录制精华内容用于传播吸引新成员。",
+        "设定年费门槛（如¥2万），提供1对1导师匹配、资源对接，通过老会员推荐裂变增长。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "高端CEO私密社群的经营验证仪表盘",
+      "items": [
+        "高端CEO私密社群，会员费年入$650K。",
+        "会员制订阅，年费约$5K-10K，提供私密小组、导师对接、闭门活动。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2409,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

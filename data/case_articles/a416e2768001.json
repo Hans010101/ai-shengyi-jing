@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "Sunsama是融合任务与日历的每日规划器的中国市场验证路线",
+      "items": [
+        "开发MVP，聚焦每日规划与日历同步核心功能，使用React Native跨平台开发，集成Google/Outlook日历API。",
+        "在知乎、小红书发布效率提升内容，提供免费试用，收集种子用户反馈，优化引导流程。",
+        "推出付费订阅（月/年），加入专注计时和周报复盘功能，通过邮件推送提升留存，并建立用户社群。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "Sunsama是融合任务与日历的每日规划器的经营验证仪表盘",
+      "items": [
+        "Sunsama是融合任务与日历的每日规划器，通过订阅制赚钱。",
+        "SaaS订阅制，提供月度/年度付费，核心功能包括每日规划、任务同步、专注计时等，通过免费试用转化付费用户。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2540,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "True Leaf Market 是一家种子和园的产品与交付路径",
+      "items": [
+        "用户访问网站",
+        "浏览种子/园艺用品",
+        "加入购物车",
+        "下单支付"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "True Leaf Market 是一家种子和园的中国市场验证路线",
+      "items": [
+        "选定细分市场（如阳台蔬菜、香草种子），注册域名和电商平台（Shopify或微信小程序），准备基础库存。",
+        "制作高质量种植教程视频和图文，发布到抖音、小红书，引导用户关注并进入电商页面。",
+        "优化转化路径，设置优惠券和会员体系，通过邮件或微信触达复购，逐步扩展品类。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2552,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为创作者和小企业提供订阅支付工具的中国市场验证路线",
+      "items": [
+        "注册Stripe或支付宝/微信支付商户，搭建基础订阅支付API，支持固定金额和自定义周期。",
+        "开发简易管理后台，让用户能创建订阅计划、生成支付链接，并查看收入、续费状态。",
+        "针对知识付费、会员制社群等场景，制作使用教程和案例，通过知乎、小红书等平台引流，提供免费试用期。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "为创作者和小企业提供订阅支付工具的经营验证仪表盘",
+      "items": [
+        "为创作者和小企业提供订阅支付工具，按月收费。",
+        "SaaS订阅制，按月收取平台使用费（如$29/月），从交易额中抽取少量手续费（如2%+$0.30）。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2499,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

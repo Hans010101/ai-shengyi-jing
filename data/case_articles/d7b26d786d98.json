@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI图像生成与网页抓取工具的中国市场验证路线",
+      "items": [
+        "用开源模型（如Stable Diffusion）搭建图像生成原型，集成简单网页抓取功能，验证市场需求。",
+        "针对中国电商卖家推出淘宝/京东商品图生成、竞品评论抓取等垂直功能，定价每月99-199元。",
+        "通过小红书、抖音分享AI生成效果对比和教程引流，提供7天免费试用，收集反馈迭代产品。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI图像生成与网页抓取工具的经营验证仪表盘",
+      "items": [
+        "AI图像生成与网页抓取工具，按月订阅收费。",
+        "提供AI图像生成和网页抓取API/工具，按使用量或月费订阅，面向中小企业和开发者。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2501,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

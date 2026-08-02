@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "为亚马逊卖家提供AI驱动的Listing优化和广的产品与交付路径",
+      "items": [
+        "卖家提交产品信息",
+        "AI分析关键词与竞品",
+        "生成优化方案",
+        "人工审核与投放"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为亚马逊卖家提供AI驱动的Listing优化和广的中国市场验证路线",
+      "items": [
+        "聚焦1-2个电商平台（如淘宝或拼多多），开发AI工具自动分析关键词、竞品和Listing质量，生成优化建议。",
+        "提供免费试用或低价诊断服务，吸引首批卖家客户，收集反馈并迭代AI模型。",
+        "推出分层订阅制（基础AI建议+高级人工优化），建立客户成功团队，通过效果数据复购和转介绍。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2552,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

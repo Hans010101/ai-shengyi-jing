@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "面向教师的教育创新内容平台的产品与交付路径",
+      "items": [
+        "免费文章/博客",
+        "邮件订阅/社区",
+        "付费课程/电子书",
+        "会员增值服务"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "面向教师的教育创新内容平台的中国市场验证路线",
+      "items": [
+        "创建垂直公众号或知乎专栏，聚焦“教学创新”主题，每周发布3-5篇高质量原创文章，积累种子教师用户。",
+        "搭建邮件列表或微信群，通过免费电子书（如《课堂互动100招》）引流，建立信任并收集需求。",
+        "开发低客单价付费课程（如9.9元微课），测试付费意愿；后续推出会员制（年费99元）提供独家资源与社群服务。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2501,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

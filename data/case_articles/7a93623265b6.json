@@ -171,6 +171,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "在线珠宝店的产品与交付路径",
+      "items": [
+        "用户浏览社交平台",
+        "点击链接进入官网",
+        "浏览产品详情",
+        "加入购物车并支付"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "在线珠宝店的中国市场验证路线",
+      "items": [
+        "确定细分市场，如国风或极简风格，设计10-20款初始产品，联系国内珠宝代工厂打样，成本控制在2000元内。",
+        "在抖音和小红书开设账号，发布产品制作过程、佩戴效果视频，积累1000粉丝后，与中小KOL合作推广。",
+        "搭建微信小程序或淘宝店，设置预售机制，首批限量100件，通过社群预热，收集订单后生产，降低库存风险。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -185,7 +212,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2468,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

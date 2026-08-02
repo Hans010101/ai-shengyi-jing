@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "网站用户行为分析工具的中国市场验证路线",
+      "items": [
+        "开发轻量级JS SDK，嵌入网站即可采集点击、滚动等基础行为数据，支持主流建站平台插件。",
+        "构建可视化热图、录屏回放和表单分析功能，MVP聚焦3个核心洞察，提供14天免费试用。",
+        "上线付费套餐（按站点数/月浏览量分级），通过SEO、技术博客和行业KOL合作获取种子用户，首月目标1000注册。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "网站用户行为分析工具的经营验证仪表盘",
+      "items": [
+        "网站用户行为分析工具，通过热图、录屏等洞察用户行为，按月收费。",
+        "SaaS订阅制，提供免费基础版吸引用户，付费版按站点和功能分级收费，核心功能包括热图、录屏、反馈调查。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2500,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

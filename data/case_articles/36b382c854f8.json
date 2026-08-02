@@ -177,6 +177,20 @@
       "poster": "https://i.ytimg.com/vi/pZ2kr0UXLIg/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "Gmail邮件营销插件的商业增长闭环",
+      "items": [
+        "【引流】SEO、内容营销、Chrome商店推荐",
+        "【产品】GMass插件",
+        "【变现】免费试用后订阅付费",
+        "【留存】持续功能更新、客户支持、社区运营"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -191,7 +205,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2537,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 4,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:36:21.223625+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 4,
+    "logicMedia": 1
   }
 }
