@@ -129,14 +129,19 @@ try {
       const candidates = [...preferred, ...accepted.filter(item => !preferred.includes(item))];
       const ranked = [...new Map(candidates.map(item => [item.hash, item])).values()].sort((a,b) => (mediaUse.get(a.hash) || 0) - (mediaUse.get(b.hash) || 0));
       const item = ranked.find(candidate => candidate.hash !== previousHash) || ranked[0] || accepted[index % accepted.length];
-      mediaUse.set(item.hash, (mediaUse.get(item.hash) || 0) + 1); usedMediaHashes.add(item.hash); previousHash = item.hash;
-      const secondary = index % 4 === 2 && item.type === 'image' ? ranked.find(candidate => candidate.type === 'image' && candidate.hash !== item.hash) : null;
-      if (secondary) { mediaUse.set(secondary.hash, (mediaUse.get(secondary.hash) || 0) + 1); usedMediaHashes.add(secondary.hash); }
-      const captionLabel = /公开展示|真实项目素材|项目主图/u.test(item.caption || '') ? '' : item.caption;
-      const trimStart = item.type === 'video' && item.duration > 6 ? ((mediaUse.get(item.hash) - 1) * 3.7) % Math.max(1, item.duration - 4) : 0;
-      if (item.type === 'video') sceneHtml.push(`<video id="shot-${index}" class="shot clip" ${timing} data-layout-allow-overflow data-trim-start="${trimStart.toFixed(2)}" src="${safe(item.local)}" muted playsinline></video>`);
-      else if (secondary) sceneHtml.push(`<div id="shot-${index}" class="shot shot-pair clip" ${timing} data-layout-allow-overflow><img src="${safe(item.local)}" alt="${safe(item.caption)}"><img src="${safe(secondary.local)}" alt="${safe(secondary.caption)}">${captionLabel ? `<span class="media-caption">${safe(captionLabel)}</span>` : ''}</div>`);
-      else sceneHtml.push(`<div id="shot-${index}" class="shot clip" ${timing} data-layout-allow-overflow><img src="${safe(item.local)}" alt="${safe(item.caption)}">${captionLabel ? `<span class="media-caption">${safe(captionLabel)}</span>` : ''}</div>`);
+      if (!item) {
+        sceneHtml.push(logicDiagram(beatIndex, beat, timing));
+        renderedDiagramBeats.add(beatIndex);
+      } else {
+        mediaUse.set(item.hash, (mediaUse.get(item.hash) || 0) + 1); usedMediaHashes.add(item.hash); previousHash = item.hash;
+        const secondary = index % 4 === 2 && item.type === 'image' ? ranked.find(candidate => candidate.type === 'image' && candidate.hash !== item.hash) : null;
+        if (secondary) { mediaUse.set(secondary.hash, (mediaUse.get(secondary.hash) || 0) + 1); usedMediaHashes.add(secondary.hash); }
+        const captionLabel = /公开展示|真实项目素材|项目主图/u.test(item.caption || '') ? '' : item.caption;
+        const trimStart = item.type === 'video' && item.duration > 6 ? ((mediaUse.get(item.hash) - 1) * 3.7) % Math.max(1, item.duration - 4) : 0;
+        if (item.type === 'video') sceneHtml.push(`<video id="shot-${index}" class="shot clip" ${timing} data-layout-allow-overflow data-trim-start="${trimStart.toFixed(2)}" src="${safe(item.local)}" muted playsinline></video>`);
+        else if (secondary) sceneHtml.push(`<div id="shot-${index}" class="shot shot-pair clip" ${timing} data-layout-allow-overflow><img src="${safe(item.local)}" alt="${safe(item.caption)}"><img src="${safe(secondary.local)}" alt="${safe(secondary.caption)}">${captionLabel ? `<span class="media-caption">${safe(captionLabel)}</span>` : ''}</div>`);
+        else sceneHtml.push(`<div id="shot-${index}" class="shot clip" ${timing} data-layout-allow-overflow><img src="${safe(item.local)}" alt="${safe(item.caption)}">${captionLabel ? `<span class="media-caption">${safe(captionLabel)}</span>` : ''}</div>`);
+      }
     }
     captionHtml.push(`<div id="caption-${index}" class="caption clip" data-start="${caption.start.toFixed(3)}" data-duration="${Math.max(caption.duration, .35).toFixed(3)}" data-track-index="${200 + index}">${safe(caption.text)}</div>`);
     if (index === 0 || captions[index - 1]?.beatId !== caption.beatId) chapterHtml.push(`<div id="chapter-${safe(caption.beatId)}" class="chapter clip" data-start="${caption.start.toFixed(3)}" data-duration="${captions.filter(x => x.beatId === caption.beatId).reduce((sum, x) => sum + x.duration + manifest.voice.phrasePauseSeconds, 0).toFixed(3)}" data-track-index="${300 + index}"><span>${safe(caption.chapter)}</span><strong>${safe(caption.onScreen)}</strong></div>`);
