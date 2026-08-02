@@ -1,11 +1,11 @@
 import { Buffer } from 'node:buffer';
 import { WorkflowEntrypoint, type WorkflowEvent, type WorkflowStep } from 'cloudflare:workers';
-import { buildManifest, buildSnapshot, generateScript, similarity } from './pipeline';
+import { buildContentSnapshot, buildManifest, buildSnapshot, generateScript, similarity } from './pipeline';
 import { enrichSnapshotMedia } from './media';
 import { event as addEvent, updateJob } from './db';
-import type { Env, RenderManifest } from './types';
+import type { Env, ProductionOptions, RenderManifest, SourceType } from './types';
 
-type Params = { jobId: string; caseId: string; template: 'editorial-v1' };
+type Params = { jobId: string; caseId?: string; source?: { sourceType: SourceType; title?: string; text?: string; url?: string }; options?: Partial<ProductionOptions>; template?: string };
 
 async function fetchJson(url: string) {
   const response = await fetch(url, { headers: { 'User-Agent': 'AI-Shengyi-Video-Factory/0.1' } });
@@ -78,12 +78,12 @@ async function asrCheck(env: Env, audioKey: string, expected: string) {
 
 export class VideoProductionWorkflow extends WorkflowEntrypoint<Env, Params> {
   async run(event: WorkflowEvent<Params>, step: WorkflowStep) {
-    const { jobId, caseId } = event.payload;
+    const { jobId, caseId, source, options } = event.payload;
     try {
-      await step.do('mark-started', async () => { await updateJob(this.env, jobId, { status: 'running', stage: 'source', progress: 5 }); await addEvent(this.env, jobId, 'source', '开始读取案例事实，并扩充官网与可商用场景素材'); });
-      const snapshot = await step.do('load-case-snapshot', async () => loadSnapshot(this.env, caseId));
-      if (snapshot.media.length < 3) throw new Error(`INSUFFICIENT_MEDIA:${snapshot.media.length}`);
-      await step.do('store-snapshot', async () => { const key = `jobs/${jobId}/case-snapshot.json`; await this.env.VIDEO_BUCKET.put(key, JSON.stringify(snapshot, null, 2), { httpMetadata: { contentType: 'application/json' } }); await updateJob(this.env, jobId, { case_name: snapshot.nameZh, stage: 'script', progress: 16 }); await addEvent(this.env, jobId, 'source', `读取到${snapshot.facts.length}条事实、${snapshot.media.length}项素材`); });
+      await step.do('mark-started', async () => { await updateJob(this.env, jobId, { status: 'running', stage: 'source', progress: 5 }); await addEvent(this.env, jobId, 'source', '开始解析内容、提炼事实与主题'); });
+      const snapshot = await step.do('load-content-snapshot', async () => caseId ? loadSnapshot(this.env, caseId) : buildContentSnapshot(source!));
+      if (snapshot.sourceType === 'ai-shengyi-case' && snapshot.media.length < 3) throw new Error(`INSUFFICIENT_MEDIA:${snapshot.media.length}`);
+      await step.do('store-snapshot', async () => { const key = `jobs/${jobId}/content-snapshot.json`; await this.env.VIDEO_BUCKET.put(key, JSON.stringify(snapshot, null, 2), { httpMetadata: { contentType: 'application/json' } }); await updateJob(this.env, jobId, { case_name: snapshot.title, source_title: snapshot.title, stage: 'script', progress: 16 }); await addEvent(this.env, jobId, 'source', `提炼到${snapshot.facts.length}条内容依据、${snapshot.media.length}项外部素材`); });
       const generated = await step.do('generate-grounded-script', async () => generateScript(snapshot, this.env));
       await step.do('store-script', async () => { await this.env.VIDEO_BUCKET.put(`jobs/${jobId}/script.json`, JSON.stringify(generated.script, null, 2), { httpMetadata: { contentType: 'application/json' } }); await updateJob(this.env, jobId, { provider: generated.provider, stage: 'render', progress: 28 }); await addEvent(this.env, jobId, 'script', `脚本完成：${generated.script.beats.length}个叙事段落`, { provider: generated.provider }); });
 
@@ -91,7 +91,7 @@ export class VideoProductionWorkflow extends WorkflowEntrypoint<Env, Params> {
       let finalKeys: any = null;
       for (let attempt = 1; attempt <= 2; attempt++) {
         const renderJobId = attempt === 1 ? jobId : `${jobId}-retry-${attempt}`;
-        const manifest = buildManifest(renderJobId, snapshot, generated.script, attempt);
+        const manifest = buildManifest(renderJobId, snapshot, generated.script, attempt, options);
         const manifestKey = `jobs/${jobId}/attempt-${attempt}/render-manifest.json`;
         await step.do(`submit-render-${attempt}`, async () => {
           await this.env.VIDEO_BUCKET.put(manifestKey, JSON.stringify(manifest, null, 2), { httpMetadata: { contentType: 'application/json' } });

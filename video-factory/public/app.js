@@ -1,188 +1,22 @@
-const $ = selector => document.querySelector(selector);
-const $$ = selector => [...document.querySelectorAll(selector)];
-const state = {
-  key: localStorage.getItem('factoryKey') || '', jobs: [], catalog: [], selected: new Map(),
-  category: '', catalogQuery: '', catalogPage: 1, catalogTotal: 0, categories: [], jobStatus: 'all', jobQuery: '', activeJob: null, pendingStart: false
-};
-const stages = {queued:'等待调度',source:'读取事实与素材',script:'编写中文脚本',render:'画面与配音渲染',quality:'七道质量检查',published:'成片已发布',failed:'任务未通过'};
-const statusNames = {queued:'排队中',running:'生产中',succeeded:'已通过品控',failed:'需要处理'};
-const errorNames = {CASE_NOT_FOUND:'没有找到这个案例',INSUFFICIENT_MEDIA:'有效素材不足 3 份',INSUFFICIENT_VALID_MEDIA:'素材清晰度或相关性不足',QUALITY_GATE_FAILED:'成片未通过自动品控',RENDER_FAILED:'渲染过程失败',RENDER_TIMEOUT:'渲染超时',RENDERER_UNAVAILABLE:'云端渲染服务尚未开通'};
-const isLocalFile = location.protocol === 'file:';
-const productionApiOrigin = 'https://ai-shengyi-video-factory.hans-pan007.workers.dev';
-const apiOrigin = location.hostname.endsWith('.pages.dev') ? productionApiOrigin : '';
-const publicCatalogUrl = 'https://ai-shengyi-jing.pages.dev/data/projects_live.json';
-let catalogTimer;
-
-function escapeHtml(value=''){return String(value).replace(/[&<>'"]/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]))}
-function formatDate(value,withTime=true){if(!value)return '—';const date=new Date(value);if(Number.isNaN(date.getTime()))return '—';return new Intl.DateTimeFormat('zh-CN',withTime?{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'}:{year:'numeric',month:'2-digit',day:'2-digit'}).format(date)}
-function showToast(text){const toast=$('#toast');toast.textContent=text;toast.classList.add('show');clearTimeout(showToast.timer);showToast.timer=setTimeout(()=>toast.classList.remove('show'),2600)}
-function setConnected(mode){const el=$('#connectionState');const production=mode==='production';el.classList.toggle('online',mode!=='offline');el.lastChild.textContent=production?' 云端生产已启用':mode==='catalog'?' 案例库已连接':' 后端待激活';$('#keyButton').textContent=production?'生产权限':'启用生产';$('#forgetKey').hidden=!state.key}
-function showAccess(message=''){$('#accessKey').value=state.key;$('#accessError').textContent=message;if(!$('#accessDialog').open)$('#accessDialog').showModal();setTimeout(()=>$('#accessKey').focus(),30)}
-
-async function api(path,options={}){
-  const attempts=(options.method||'GET').toUpperCase()==='GET'?2:1;
-  let lastError;
-  for(let attempt=0;attempt<attempts;attempt+=1){
-    const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),12000);
-    try{
-      const response=await fetch(`${apiOrigin}${path}`,{...options,signal:controller.signal,headers:{'Content-Type':'application/json','X-Factory-Key':state.key,...options.headers}});
-      const data=await response.json().catch(()=>({}));
-      if(!response.ok){const error=new Error(data.detail||errorNames[data.error]||data.error||`请求失败（${response.status}）`);error.status=response.status;throw error}
-      return data;
-    }catch(error){lastError=error;if(error?.status||attempt===attempts-1)break}
-    finally{clearTimeout(timeout)}
-  }
-  if(lastError?.name==='AbortError')throw new Error('云端响应超时，请重试');
-  throw lastError||new Error('暂时无法连接云端');
-}
-
-async function fallbackCatalog(){
-  const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),12000);
-  try{
-    const response=await fetch(publicCatalogUrl,{signal:controller.signal,cache:'no-store'});
-    if(!response.ok)throw new Error(`公开案例库请求失败（${response.status}）`);
-    const projects=await response.json();
-    const query=state.catalogQuery.toLocaleLowerCase('zh-CN');
-    const categories=[...new Set(projects.map(item=>String(item.niche||'其他')).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'zh-CN'));
-    const filtered=projects.filter(item=>{
-      const searchable=[item.id,item.nameZh,item.name,item.summary,item.insight,item.niche,...(Array.isArray(item.tags)?item.tags:[])].join(' ').toLocaleLowerCase('zh-CN');
-      return(!query||searchable.includes(query))&&(!state.category||item.niche===state.category);
-    });
-    const start=(state.catalogPage-1)*20;
-    return{items:filtered.slice(start,start+20).map(item=>({
-      id:String(item.id),name:item.nameZh||item.name,summary:item.summary||item.insight||'',category:item.niche||'其他',
-      image:item.image||'',mediaCount:Number(item.mediaCount||0),mediaReady:true,
-      caseUrl:`https://ai-shengyi-jing.pages.dev/case?id=${encodeURIComponent(item.id)}`
-    })),total:filtered.length,categories};
-  }finally{clearTimeout(timeout)}
-}
-
-function updateStats(){
-  const running=state.jobs.filter(job=>job.status==='running'||job.status==='queued').length;
-  const passed=state.jobs.filter(job=>job.status==='succeeded').length;
-  $('#statAll').textContent=state.jobs.length;$('#statRunning').textContent=running;$('#statPassed').textContent=passed;
-  const counts={all:state.jobs.length,running, succeeded:passed, failed:state.jobs.filter(job=>job.status==='failed').length};
-  $$('#statusFilters button').forEach(button=>button.querySelector('span').textContent=counts[button.dataset.status]||0);
-}
-
-async function loadJobs({quiet=false}={}){
-  if(!state.key){setConnected('catalog');$('#jobs').innerHTML='<div class="empty"><b>尚未启用云端生产</b>先从案例库选题；提交第一条任务时验证一次生产密钥即可。</div>';return}
-  try{const data=await api('/api/jobs');state.jobs=data.jobs||[];setConnected('production');renderJobs();updateStats();if(state.activeJob)await openJob(state.activeJob,true)}
-  catch(error){setConnected('catalog');if(error.status===401){state.key='';localStorage.removeItem('factoryKey');showAccess('生产密钥不正确，请重新输入。')}else if(!quiet)showToast(error.message)}
-}
-
-function jobMatches(job){
-  const statusOk=state.jobStatus==='all'||(state.jobStatus==='running'?(job.status==='running'||job.status==='queued'):job.status===state.jobStatus);
-  const query=state.jobQuery.toLocaleLowerCase('zh-CN');
-  return statusOk&&(!query||`${job.case_name||''} ${job.case_id}`.toLocaleLowerCase('zh-CN').includes(query));
-}
-function renderJobs(){
-  const jobs=state.jobs.filter(jobMatches);const root=$('#jobs');
-  if(!jobs.length){root.innerHTML='<div class="empty"><b>没有符合条件的任务</b>选择案例开始生产，或调整上方筛选条件。</div>';return}
-  root.innerHTML=jobs.map(job=>{
-    const deleted=Boolean(job.artifacts_deleted_at);const stage=stages[job.stage]||job.stage;const status=statusNames[job.status]||job.status;
-    const thumb=job.status==='succeeded'&&!deleted?`<img class="job-thumb" src="${apiOrigin}/output/${job.id}/poster.jpg" alt="${escapeHtml(job.case_name||'案例')}成片封面" loading="lazy">`:'<span class="job-thumb"></span>';
-    const canDelete=job.status==='succeeded'||job.status==='failed';
-    return `<article class="job" data-job-id="${job.id}" tabindex="0"><div class="job-case">${thumb}<div><h3>${escapeHtml(job.case_name||job.case_id)}</h3><small>${escapeHtml(job.case_id)} · ${formatDate(job.created_at)}</small></div></div><div><div class="progress-copy"><span>${escapeHtml(stage)}</span><span>${job.progress||0}%</span></div><div class="bar"><i style="width:${Math.max(0,Math.min(100,job.progress||0))}%"></i></div></div><div class="job-status ${job.status}">${deleted?'成片已释放':status}${job.qa_score?` · ${job.qa_score}分`:''}</div><div class="job-action"><button type="button" data-open-job="${job.id}">${job.status==='succeeded'&&!deleted?'查看成片':'查看详情'} →</button>${canDelete?`<button class="delete-job" type="button" data-delete-job="${job.id}" data-job-name="${escapeHtml(job.case_name||job.case_id)}">删除</button>`:''}</div></article>`
-  }).join('');
-  $$('[data-open-job]').forEach(button=>button.onclick=event=>{event.stopPropagation();openJob(button.dataset.openJob)});
-  $$('[data-delete-job]').forEach(button=>button.onclick=event=>{event.stopPropagation();deleteJob(button.dataset.deleteJob,button.dataset.jobName)});
-  $$('.job').forEach(card=>{card.onclick=()=>openJob(card.dataset.jobId);card.onkeydown=event=>{if(event.key==='Enter')openJob(card.dataset.jobId)}});
-}
-
-async function deleteJob(id,name){
-  if(!window.confirm(`确定删除“${name}”这条生产任务吗？\n\n任务记录、成片、封面、音频和质检文件都会一并清理，且无法恢复。`))return;
-  try{await api(`/api/jobs/${id}`,{method:'DELETE'});if(state.activeJob===id){state.activeJob=null;$('#jobDialog').close()}await loadJobs();showToast('任务与云端文件已删除')}
-  catch(error){showToast(error.message)}
-}
-
-async function loadCatalog({append=false}={}){
-  const root=$('#catalogGrid');if(!append){root.innerHTML='<div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div>';$('#catalogMeta').textContent='正在读取案例库…'}
-  const params=new URLSearchParams({q:state.catalogQuery,category:state.category,page:String(state.catalogPage),pageSize:'20'});
-  try{
-    let data;
-    try{data=await api(`/api/catalog?${params}`)}catch{data=await fallbackCatalog();setConnected('catalog')}
-    state.catalog=append?[...state.catalog,...data.items]:data.items;state.catalogTotal=data.total;state.categories=data.categories||[];renderCategories();renderCatalog();
-  }catch(error){
-    root.innerHTML=`<div class="empty"><b>案例库暂时无法读取</b><span>${escapeHtml(error.message)}</span><button class="button quiet" id="retryCatalog" type="button">重新加载案例</button></div>`;
-    $('#catalogMeta').textContent='加载失败，可立即重试';$('#loadMore').hidden=true;$('#retryCatalog').onclick=()=>loadCatalog();
-  }
-}
-function renderCategories(){
-  const root=$('#categoryFilters');const visible=state.categories.slice(0,12);
-  root.innerHTML=[{label:'全部案例',value:''},...visible.map(value=>({label:value,value}))].map(item=>`<button type="button" class="${state.category===item.value?'active':''}" data-category="${escapeHtml(item.value)}">${escapeHtml(item.label)}</button>`).join('');
-  root.querySelectorAll('button').forEach(button=>button.onclick=()=>{state.category=button.dataset.category;state.catalogPage=1;loadCatalog()});
-}
-function renderCatalog(){
-  const root=$('#catalogGrid');
-  if(!state.catalog.length){root.innerHTML='<div class="empty"><b>没有找到相关案例</b>换一个关键词或选择其他分类。</div>';$('#loadMore').hidden=true;$('#catalogMeta').textContent='0 个案例';return}
-  root.innerHTML=state.catalog.map(item=>{const selected=state.selected.has(item.id);const ready=item.mediaReady!==false;return `<article class="case-card ${selected?'selected':''} ${ready?'':'not-ready'}"><img class="case-cover" src="${escapeHtml(item.image)}" alt="${escapeHtml(item.name)}项目图片" loading="lazy"><div class="case-info"><div class="case-meta"><span>${escapeHtml(item.category)}</span><span>${item.mediaCount||0} 份原始素材</span></div><h3>${escapeHtml(item.name)}</h3><p>${escapeHtml(item.summary)}</p><div class="case-actions"><a href="${escapeHtml(item.caseUrl)}" target="_blank" rel="noopener">查看案例</a><button type="button" data-select-case="${item.id}" ${ready?'':'disabled'}>${ready?(selected?'✓ 已加入生产':'＋ 加入生产'):'素材不足'}</button></div></div></article>`}).join('');
-  root.querySelectorAll('[data-select-case]').forEach(button=>button.onclick=()=>toggleCase(button.dataset.selectCase));
-  $('#catalogMeta').textContent=`已显示 ${state.catalog.length} / ${state.catalogTotal} 个案例`;$('#loadMore').hidden=state.catalog.length>=state.catalogTotal;
-}
-function toggleCase(id){
-  if(state.selected.has(id))state.selected.delete(id);else{const item=state.catalog.find(entry=>entry.id===id)||{id,name:id,category:'手工导入',image:''};state.selected.set(id,item)}
-  renderSelection();renderCatalog();
-}
-function renderSelection(){
-  const items=[...state.selected.values()];$('#selectedCounter strong').textContent=items.length;const root=$('#selectedCases');
-  if(!items.length)root.innerHTML='<div class="empty-selection"><span>＋</span><b>还没有选择案例</b><p>在左侧案例库中点击“加入生产”</p></div>';
-  else root.innerHTML=items.map(item=>`<div class="selected-item">${item.image?`<img src="${escapeHtml(item.image)}" alt="">`:'<span></span>'}<div><b>${escapeHtml(item.name||item.id)}</b><small>${escapeHtml(item.category||'案例库')}</small></div><button type="button" data-remove-case="${item.id}" aria-label="移除${escapeHtml(item.name||item.id)}">×</button></div>`).join('');
-  root.querySelectorAll('[data-remove-case]').forEach(button=>button.onclick=()=>toggleCase(button.dataset.removeCase));
-  const start=$('#startProduction');start.disabled=!items.length;start.querySelector('small').textContent=items.length?`将提交 ${items.length} 条视频任务`:'选择案例后可提交';
-}
-
-async function startProduction(){
-  const button=$('#startProduction'),message=$('#createMessage'),caseIds=[...state.selected.keys()];if(!caseIds.length)return;
-  if(!state.key){state.pendingStart=true;showAccess('验证后会直接提交当前选择的案例。');return}
-  button.disabled=true;button.querySelector('span').textContent='正在提交任务';message.textContent='系统正在创建生产工作流……';message.className='form-message';
-  try{const result=await api('/api/jobs',{method:'POST',body:JSON.stringify({caseIds})});message.textContent=`已提交 ${result.count} 条任务，生产过程将在后台自动完成。`;message.classList.add('success');state.selected.clear();renderSelection();renderCatalog();await loadJobs();location.hash='queueSection';showToast(`${result.count} 条任务已进入生产队列`)}
-  catch(error){message.textContent=error.message}
-  finally{button.querySelector('span').textContent='开始生产';button.disabled=!state.selected.size}
-}
-
-async function openJob(id,refreshOnly=false){
-  try{
-    const job=await api(`/api/jobs/${id}`);state.activeJob=id;const dialog=$('#jobDialog');const detail=$('#jobDetail');const deleted=Boolean(job.artifacts_deleted_at);const outputs=job.outputs&&!deleted;
-    const outputUrl=value=>`${apiOrigin}${value}`;
-    const preview=outputs?`<video controls preload="metadata" poster="${outputUrl(job.outputs.poster)}"><source src="${outputUrl(job.outputs.video)}" type="video/mp4">浏览器无法播放该视频。</video><small>竖屏成片 · 1080 × 1920 · H.264 / AAC</small>`:`<div class="preview-placeholder">${job.status==='failed'?'任务未生成可用成片':deleted?'成片已从云端释放':'生产完成后将在这里预览'}</div>`;
-    const events=(job.events||[]).map(event=>`<li><i></i><div><b>${escapeHtml(event.message)}</b><small>${escapeHtml(stages[event.stage]||event.stage)}</small></div><small>${formatDate(event.created_at)}</small></li>`).join('')||'<li><i></i><div><b>任务已创建</b><small>等待第一条生产记录</small></div></li>';
-    detail.innerHTML=`<div class="detail-shell"><section class="detail-preview">${preview}</section><section class="detail-content"><div class="detail-top"><div><p class="section-index">JOB / ${escapeHtml(job.case_id)}</p><h2>${escapeHtml(job.case_name||job.case_id)}</h2></div><button type="button" data-close-detail aria-label="关闭">×</button></div><div class="detail-meta"><span class="job-status ${job.status}">${deleted?'云端成片已释放':statusNames[job.status]||job.status}</span><span>${escapeHtml(stages[job.stage]||job.stage)}</span><span>第 ${job.attempt||0} 轮</span></div><div class="detail-score"><div><span>品控评分</span><b>${job.qa_score||'—'}</b></div><div><span>生产进度</span><b>${job.progress||0}%</b></div><div><span>缓存到期</span><b>${job.retention_until&&!deleted?formatDate(job.retention_until,false):deleted?'已释放':'—'}</b></div></div><div class="detail-actions">${outputs?`<a class="button primary" href="${outputUrl(job.outputs.video)}?download=1" download>下载成片到本机</a><a class="button quiet" href="${outputUrl(job.outputs.video)}" target="_blank">新窗口播放</a><a class="button quiet" href="${outputUrl(job.outputs.qa)}" target="_blank">查看质检报告</a>`:''}${job.status==='failed'?'<button class="button secondary" type="button" data-retry-job>重新生产</button>':''}</div>${job.error_message?`<div class="confirm-release"><b>${escapeHtml(errorNames[job.error_code]||job.error_code||'任务失败')}</b><br>${escapeHtml(job.error_message)}</div>`:''}<h3 class="timeline-title">生产记录</h3><ol class="timeline">${events}</ol>${outputs?'<div class="danger-zone"><p>确认已下载到本机后，可以立即删除云端缓存；不操作也会在到期日自动清理。</p><button type="button" data-release-output>释放云端缓存</button></div><div id="releaseConfirm"></div>':''}</section></div>`;
-    $('[data-close-detail]').onclick=()=>{state.activeJob=null;dialog.close()};
-    if($('[data-retry-job]'))$('[data-retry-job]').onclick=async()=>{await api(`/api/jobs/${id}/retry`,{method:'POST'});showToast('已创建新的生产任务');state.activeJob=null;dialog.close();loadJobs()};
-    if($('[data-release-output]'))$('[data-release-output]').onclick=()=>{$('#releaseConfirm').innerHTML='<div class="confirm-release">删除后网页将无法再次下载。请确认文件已经保存到本机。 <button class="button" type="button" id="confirmRelease">确认释放</button></div>';$('#confirmRelease').onclick=async()=>{await api(`/api/jobs/${id}/artifacts`,{method:'DELETE'});showToast('云端缓存已释放');await loadJobs();await openJob(id,true)}};
-    if(!refreshOnly&&!dialog.open)dialog.showModal();
-  }catch(error){showToast(error.message)}
-}
-
-$('#accessForm').onsubmit=async event=>{
-  event.preventDefault();const next=$('#accessKey').value.trim();if(!next){$('#accessError').textContent='请输入访问密钥。';return}
-  state.key=next;
-  try{await api('/api/jobs');localStorage.setItem('factoryKey',state.key);$('#accessDialog').close();setConnected('production');await loadJobs();showToast('云端生产已启用');if(state.pendingStart){state.pendingStart=false;await startProduction()}}
-  catch(error){state.key='';localStorage.removeItem('factoryKey');$('#accessError').textContent=error.status===401?'生产密钥不正确。':error.message;setConnected('catalog')}
-};
-$('#keyButton').onclick=()=>showAccess();$('#toggleKey').onclick=()=>{const input=$('#accessKey');input.type=input.type==='password'?'text':'password';$('#toggleKey').textContent=input.type==='password'?'显示':'隐藏'};
-$('#forgetKey').onclick=()=>{state.key='';state.pendingStart=false;localStorage.removeItem('factoryKey');$('#accessDialog').close();setConnected('catalog');loadJobs();showToast('已清除本机生产密钥')};
-$('.access-dialog .dialog-close').onclick=()=>$('#accessDialog').close();
-$$('.mode-tabs button').forEach(button=>button.onclick=()=>{$$('.mode-tabs button').forEach(item=>{item.classList.toggle('active',item===button);item.setAttribute('aria-selected',String(item===button))});$('#catalogMode').hidden=button.dataset.mode!=='catalog';$('#idsMode').hidden=button.dataset.mode!=='ids'});
-$('#catalogSearch').oninput=event=>{state.catalogQuery=event.target.value.trim();state.catalogPage=1;clearTimeout(catalogTimer);catalogTimer=setTimeout(()=>loadCatalog(),320)};
-$('#clearSearch').onclick=()=>{$('#catalogSearch').value='';state.catalogQuery='';state.catalogPage=1;loadCatalog()};
-$('#loadMore').onclick=()=>{state.catalogPage+=1;loadCatalog({append:true})};
-$('#importIds').onclick=()=>{const ids=$('#caseIds').value.split(/[\s,，]+/).map(value=>value.trim()).filter(value=>/^[a-z0-9]{8,32}$/i.test(value));ids.forEach(id=>state.selected.set(id,{id,name:id,category:'手工导入',image:''}));renderSelection();showToast(`已加入 ${ids.length} 个有效案例 ID`)};
-$('#clearSelection').onclick=()=>{state.selected.clear();renderSelection();renderCatalog()};$('#startProduction').onclick=startProduction;
-$$('#statusFilters button').forEach(button=>button.onclick=()=>{$$('#statusFilters button').forEach(item=>item.classList.toggle('active',item===button));state.jobStatus=button.dataset.status;renderJobs()});
-$('#jobSearch').oninput=event=>{state.jobQuery=event.target.value.trim();renderJobs()};$('#refresh').onclick=()=>loadJobs();
-$('#jobDialog').addEventListener('click',event=>{if(event.target===$('#jobDialog')){state.activeJob=null;$('#jobDialog').close()}});
-
-async function bootstrap(){
-renderSelection();
-if(isLocalFile){
-  $('#localPreviewNotice').hidden=false;$('#connectionState').lastChild.textContent=' 本地预览';
-  $('#catalogGrid').innerHTML='<div class="empty"><b>正式网址上线后读取案例库</b>本地文件只用于检查视觉，不会连接生产接口。</div>';
-  $('#catalogMeta').textContent='本地视觉预览';$('#jobs').innerHTML='<div class="empty"><b>正式网址上线后显示任务</b>请从 Cloudflare 固定网址使用完整生产功能。</div>';
-}else{
-  try{const healthResponse=await fetch(`${apiOrigin}/api/health`,{signal:AbortSignal.timeout(12000),cache:'no-store'});if(!healthResponse.ok)throw new Error('API unavailable');const health=await healthResponse.json();const rendererReady=health?.renderer?.enabled===true;$('#systemState').lastChild.textContent=rendererReady?' 系统就绪':' 案例库已就绪';setConnected(rendererReady?(state.key?'production':'catalog'):'catalog');$('#keyButton').disabled=!rendererReady;$('#keyButton').textContent=rendererReady?(state.key?'生产权限':'启用生产'):'渲染待开通';await Promise.allSettled([loadCatalog(),loadJobs()])}
-  catch{$('#localPreviewNotice').hidden=false;$('#localPreviewNotice').innerHTML='<div><b>产品入口已上线</b><span>视频渲染服务等待 Cloudflare R2 激活后接通。</span></div><a href="https://ai-shengyi-jing.pages.dev">返回 AI生意经主站 →</a>';setConnected('offline');$('#systemState').lastChild.textContent=' 后端待激活';$('#catalogGrid').innerHTML='<div class="empty"><b>生产后端正在配置</b>固定产品入口已经可用，R2 激活后将自动接通案例库与生产任务。</div>';$('#jobs').innerHTML='<div class="empty"><b>暂未连接渲染服务</b>完成 Cloudflare R2 激活后即可开始批量生产。</div>'}
-}}
-bootstrap();
-setInterval(()=>{if(!isLocalFile&&state.key)loadJobs({quiet:true})},10000);
+const apiOrigin=location.hostname==='ai-shengyi-video-studio.pages.dev'?'https://ai-shengyi-video-factory.hans-pan007.workers.dev':location.origin;
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+const state={sourceType:'text',key:localStorage.getItem('factoryKey')||'',selectedCase:null,jobs:[],health:null,pending:false};
+const escapeHtml=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const stageNames={queued:'排队等待',source:'解析与提炼',script:'脚本与节奏',render:'分镜 / 素材 / 配音 / 字幕',quality:'质量检查',published:'成片已发布',failed:'需要处理'};
+function toast(message){const el=$('#toast');el.textContent=message;el.classList.add('show');setTimeout(()=>el.classList.remove('show'),2600)}
+async function api(path,options={}){const response=await fetch(`${apiOrigin}${path}`,{...options,headers:{'Content-Type':'application/json',...(state.key?{'X-Factory-Key':state.key}:{}),...options.headers}});const data=await response.json().catch(()=>({}));if(!response.ok){const e=new Error(data.detail||data.error||`请求失败（${response.status}）`);e.status=response.status;throw e}return data}
+function switchSource(type){state.sourceType=type;$$('.source-tabs button').forEach(b=>b.classList.toggle('active',b.dataset.source===type));$('#caseSource').hidden=type!=='ai-shengyi-case';$('#standardSource').hidden=type==='ai-shengyi-case';$('#urlLabel').hidden=type!=='article';$('#bookInput').hidden=type!=='book';$('#textLabel').hidden=type==='article'||type==='book';const placeholders={text:'粘贴文章、章节摘录或你的笔记。建议 300 字以上。',topic:'描述你想讲清楚的主题、目标观众和核心观点。'};$('#sourceText').placeholder=placeholders[type]||'';if(type==='topic')$('#title').placeholder='例如：用三分钟讲清楚机会成本'}
+$$('.source-tabs button').forEach(b=>b.onclick=()=>switchSource(b.dataset.source));
+$('#sourceText').oninput=e=>$('#charCount').textContent=e.target.value.length.toLocaleString('zh-CN');
+$('#bookFile').onchange=async e=>{const file=e.target.files[0];if(!file)return;const ext=file.name.split('.').pop().toLowerCase();$('#title').value=$('#title').value||file.name.replace(/\.[^.]+$/,'');if(['txt','md','html','htm'].includes(ext)){const text=await file.text();$('#sourceText').value=text.replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').slice(0,16000);$('#textLabel').hidden=false;$('#charCount').textContent=$('#sourceText').value.length.toLocaleString('zh-CN');toast(`已读取 ${file.name}`)}else{$('#formError').textContent='当前云端不直接解析 PDF / EPUB / DOCX。请在本机导出为 TXT 后重新选择，或复制正文到文本入口。';e.target.value=''}};
+async function searchCases(){const q=$('#caseQuery').value.trim();$('#caseGrid').innerHTML='<p class="empty">正在读取案例库…</p>';try{const data=await api(`/api/catalog?q=${encodeURIComponent(q)}&pageSize=12`);$('#caseGrid').innerHTML=data.items.map(item=>`<article class="case-card" data-case="${escapeHtml(item.id)}"><img src="${escapeHtml(item.image)}" alt=""><div><b>${escapeHtml(item.name)}</b><p>${escapeHtml(item.category)} · ${item.mediaCount} 份素材</p></div></article>`).join('')||'<p class="empty">没有找到相关案例。</p>';$$('[data-case]').forEach(card=>card.onclick=()=>{$$('[data-case]').forEach(x=>x.classList.remove('selected'));card.classList.add('selected');state.selectedCase=card.dataset.case})}catch(e){$('#caseGrid').innerHTML=`<p class="empty">${escapeHtml(e.message)}</p>`}}
+$('#searchCase').onclick=searchCases;$('#caseQuery').onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();searchCases()}};
+function getPayload(){const sourceType=state.sourceType;const options={templateId:sourceType==='ai-shengyi-case'?'ai-shengyi-case-v1':'knowledge-director-v1',visualPreset:$('#visual').value,aspectRatio:$('#ratio').value,durationSeconds:Number($('#duration').value),voice:$('#voice').value,voiceRate:Number($('#voiceRate').value),brandPreset:sourceType==='ai-shengyi-case'?'ai-shengyi-jing':'studio-neutral',bgm:$('#bgm').checked,autoDucking:$('#ducking').checked};if(sourceType==='ai-shengyi-case')return{caseId:state.selectedCase,options};return{source:{sourceType,title:$('#title').value.trim(),text:$('#sourceText').value.trim(),url:$('#sourceUrl').value.trim()},options}}
+async function submit(){const payload=getPayload();if(state.sourceType==='ai-shengyi-case'&&!payload.caseId)throw new Error('请先选择一个案例。');if(state.sourceType==='article'&&!payload.source.url)throw new Error('请输入公开文章链接。');if(!['article'].includes(state.sourceType)&&payload.source&&payload.source.text.length<12)throw new Error('请至少提供 12 个字的主题或正文。');if(!state.key){state.pending=true;$('#keyDialog').showModal();return}const button=$('#submit');button.disabled=true;button.querySelector('span').textContent='正在创建生产任务';try{const result=await api('/api/jobs',{method:'POST',body:JSON.stringify(payload)});toast('任务已进入生产队列');$('#formError').textContent='';await loadJobs();location.hash='jobs';return result}finally{button.disabled=false;button.querySelector('span').textContent='生成脚本并开始生产'}}
+$('#createForm').onsubmit=async e=>{e.preventDefault();try{await submit()}catch(err){$('#formError').textContent=err.message}};
+async function loadJobs(){if(!state.key){$('#jobList').innerHTML='<p class="empty">启用生产权限后，这里会显示脚本、分镜、音频、质检与成片状态。</p>';return}try{const data=await api('/api/jobs');state.jobs=data.jobs||[];renderJobs()}catch(e){if(e.status===401){state.key='';localStorage.removeItem('factoryKey')}$('#jobList').innerHTML=`<p class="empty">${escapeHtml(e.message)}</p>`}}
+function renderJobs(){if(!state.jobs.length){$('#jobList').innerHTML='<p class="empty">还没有任务。从上方创建第一条视频。</p>';return}$('#jobList').innerHTML=state.jobs.map(j=>`<article class="job" data-job="${j.id}" tabindex="0"><div><h3>${escapeHtml(j.source_title||j.case_name||j.case_id)}</h3><small>${escapeHtml(j.source_type||'ai-shengyi-case')} · ${new Date(j.created_at).toLocaleString('zh-CN')}</small></div><div><small>${escapeHtml(stageNames[j.stage]||j.stage)}</small><div class="bar"><i style="width:${Math.max(0,Math.min(100,j.progress||0))}%"></i></div></div><span class="tag ${j.status}">${j.artifacts_deleted_at?'成片已清理':j.status==='succeeded'?`通过 · ${j.qa_score||'—'}分`:j.status==='failed'?'需要处理':'生产中'}</span><button class="quiet">详情</button></article>`).join('');$$('[data-job]').forEach(card=>{card.onclick=()=>openJob(card.dataset.job);card.onkeydown=e=>{if(e.key==='Enter')openJob(card.dataset.job)}})}
+async function openJob(id){try{const j=await api(`/api/jobs/${id}`);const events=(j.events||[]).map(e=>`<li><b>${escapeHtml(stageNames[e.stage]||e.stage)}</b> ${escapeHtml(e.message)} <small>${new Date(e.created_at).toLocaleString('zh-CN')}</small></li>`).join('');const outputs=j.outputs&&!j.artifacts_deleted_at;$('#jobDetail').innerHTML=`<button class="close" type="button">×</button><p class="section-no">${escapeHtml(j.source_type||'PROJECT')}</p><h2>${escapeHtml(j.source_title||j.case_name||j.case_id)}</h2><p>${escapeHtml(stageNames[j.stage]||j.stage)} · ${j.progress||0}% · 第 ${j.attempt||0} 轮${j.qa_score?` · ${j.qa_score}分`:''}</p>${j.error_message?`<p class="error">${escapeHtml(j.error_message)}</p>`:''}<div class="detail-actions">${outputs?`<a class="primary" href="${apiOrigin}${j.outputs.video}?download=1">下载成片</a><a class="quiet" target="_blank" href="${apiOrigin}${j.outputs.video}">播放</a><a class="quiet" target="_blank" href="${apiOrigin}${j.outputs.qa}">质量报告</a>`:''}${j.status==='failed'?'<button id="retryJob" class="quiet">自动修复并重试</button>':''}</div><h3>生产记录</h3><ol class="timeline">${events||'<li>任务已创建</li>'}</ol>`;$('#jobDialog .close').onclick=()=>$('#jobDialog').close();if($('#retryJob'))$('#retryJob').onclick=async()=>{await api(`/api/jobs/${id}/retry`,{method:'POST'});$('#jobDialog').close();toast('已重新提交');loadJobs()};$('#jobDialog').showModal()}catch(e){toast(e.message)}}
+$('#refresh').onclick=loadJobs;$('#keyButton').onclick=()=>$('#keyDialog').showModal();$('#keyDialog .close').onclick=()=>$('#keyDialog').close();
+$('#keyForm').onsubmit=async e=>{e.preventDefault();state.key=$('#factoryKey').value.trim();try{await api('/api/jobs');localStorage.setItem('factoryKey',state.key);$('#keyDialog').close();$('#keyError').textContent='';toast('云端生产已启用');await loadJobs();if(state.pending){state.pending=false;await submit()}}catch(err){state.key='';$('#keyError').textContent=err.status===401?'生产密钥不正确。':err.message}};
+async function bootstrap(){try{state.health=await api('/api/health');$('#cloudState').innerHTML=`<i style="background:${state.health.renderer.enabled?'#356b55':'#bd9b59'}"></i>${state.health.renderer.enabled?'云端生产就绪':'渲染服务未启用'}`;if(!state.health.renderer.enabled)$('#formError').textContent='当前云端渲染未启用；可浏览产品，但无法创建真实生产任务。'}catch{$('#cloudState').innerHTML='<i style="background:#a13f35"></i>服务离线'}await loadJobs()}bootstrap();setInterval(()=>{if(state.key)loadJobs()},12000);

@@ -59,7 +59,7 @@ export function extractPageMedia(html: string, pageUrl: string): MediaItem[] {
 }
 
 async function visualQueries(snapshot: CaseSnapshot, env: Env) {
-  const fallback = [snapshot.name.replace(/\[[^\]]+\]|\$[\d.,]+[KMB]?\/?\w*/gi, '').replace(/\b(?:how|our|we|to|on|starting|growing|built|update|year)\b/gi, ' ').replace(/\s+/g, ' ').trim()].filter(Boolean);
+  const fallback = [(snapshot.name || snapshot.title).replace(/\[[^\]]+\]|\$[\d.,]+[KMB]?\/?\w*/gi, '').replace(/\b(?:how|our|we|to|on|starting|growing|built|update|year)\b/gi, ' ').replace(/\s+/g, ' ').trim()].filter(Boolean);
   try {
     const result: any = await env.AI.run(env.SCRIPT_MODEL, {
       messages: [

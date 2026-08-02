@@ -1,7 +1,7 @@
 import { VideoProductionWorkflow } from './workflow';
 import { VideoRenderer } from './renderer';
 import { getJob } from './db';
-import type { Env } from './types';
+import type { Env, ProductionOptions, SourceType } from './types';
 
 export { VideoProductionWorkflow, VideoRenderer };
 
@@ -21,12 +21,29 @@ async function authorized(request: Request, env: Env) {
 
 function id() { return crypto.randomUUID(); }
 
-async function enqueueCase(env: Env, caseId: string) {
+async function enqueue(env: Env, input: { caseId?: string; source?: { sourceType: SourceType; title?: string; text?: string; url?: string }; options?: Partial<ProductionOptions> }) {
   const jobId = id(), now = new Date().toISOString();
-  await env.VIDEO_DB.prepare('INSERT INTO jobs(id, case_id, template_id, status, stage, progress, created_at, updated_at) VALUES(?, ?, ?, ?, ?, ?, ?, ?)').bind(jobId, caseId, 'editorial-v1', 'queued', 'queued', 0, now, now).run();
-  const workflow = await env.VIDEO_WORKFLOW.create({ id: jobId, params: { jobId, caseId, template: 'editorial-v1' } });
+  const sourceType = input.caseId ? 'ai-shengyi-case' : input.source!.sourceType;
+  const sourceTitle = input.caseId || input.source?.title || input.source?.text?.slice(0, 48) || '未命名视频';
+  const template = input.options?.templateId || (sourceType === 'ai-shengyi-case' ? 'ai-shengyi-case-v1' : 'knowledge-director-v1');
+  await env.VIDEO_DB.prepare('INSERT INTO jobs(id, case_id, source_type, source_title, source_payload, options, template_id, status, stage, progress, created_at, updated_at) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)').bind(jobId, input.caseId || jobId, sourceType, sourceTitle, JSON.stringify(input.source || { caseId: input.caseId }), JSON.stringify(input.options || {}), template, 'queued', 'queued', 0, now, now).run();
+  const workflow = await env.VIDEO_WORKFLOW.create({ id: jobId, params: { jobId, ...input, template } });
   await env.VIDEO_DB.prepare('UPDATE jobs SET workflow_id = ? WHERE id = ?').bind(workflow.id, jobId).run();
-  return { jobId, workflowId: workflow.id, caseId, status: 'queued' };
+  return { jobId, workflowId: workflow.id, sourceType, title: sourceTitle, status: 'queued' };
+}
+
+async function safeArticleText(rawUrl: string) {
+  const url = new URL(rawUrl);
+  if (!['http:', 'https:'].includes(url.protocol) || url.username || url.password) throw new Error('INVALID_ARTICLE_URL');
+  const hostname = url.hostname.toLowerCase();
+  if (hostname === 'localhost' || hostname.endsWith('.local') || /^127\./.test(hostname) || /^10\./.test(hostname) || /^192\.168\./.test(hostname) || /^169\.254\./.test(hostname) || /^172\.(1[6-9]|2\d|3[01])\./.test(hostname) || hostname === '::1') throw new Error('UNSAFE_ARTICLE_URL');
+  const response = await fetch(url, { redirect: 'manual', headers: { 'User-Agent': 'Universal-Video-Studio/1.0' }, signal: AbortSignal.timeout(10000) });
+  if (!response.ok) throw new Error(`ARTICLE_FETCH_${response.status}`);
+  if (!String(response.headers.get('content-type') || '').includes('text/html')) throw new Error('ARTICLE_NOT_HTML');
+  const html = (await response.text()).slice(0, 1_000_000);
+  const text = html.replace(/<script[\s\S]*?<\/script>/gi, ' ').replace(/<style[\s\S]*?<\/style>/gi, ' ').replace(/<[^>]+>/g, ' ').replace(/&nbsp;|&amp;|&quot;|&#39;/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 16000);
+  if (text.length < 120) throw new Error('ARTICLE_TEXT_TOO_SHORT');
+  return text;
 }
 
 function parseRange(value: string | null, size: number) {
@@ -124,7 +141,8 @@ export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url);
     if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: { 'Access-Control-Allow-Origin': 'https://ai-shengyi-video-studio.pages.dev', 'Access-Control-Allow-Headers': 'Content-Type, X-Factory-Key, Authorization', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Max-Age': '86400' } });
-    if (url.pathname === '/api/health') return json({ ok: true, service: 'AI生意经视频工厂', version: env.FACTORY_VERSION, renderer: { enabled: env.RENDERER_ENABLED === 'true', provider: 'Cloudflare Containers' }, ai: { primary: 'Cloudflare Workers AI', fallback: env.DEEPSEEK_API_KEY ? 'DeepSeek' : 'deterministic' }, caseSource: 'AI生意经', retentionDays: Number(env.ARTIFACT_RETENTION_DAYS || 3), time: new Date().toISOString() });
+    if (url.pathname === '/api/health') return json({ ok: true, service: 'AI视频创作台', version: env.FACTORY_VERSION, renderer: { enabled: env.RENDERER_ENABLED === 'true', provider: 'Cloudflare Containers + HyperFrames' }, ai: { primary: 'Cloudflare Workers AI', fallback: env.DEEPSEEK_API_KEY ? 'DeepSeek' : 'deterministic' }, sources: ['text','topic','article','book','ai-shengyi-case'], retentionDays: Number(env.ARTIFACT_RETENTION_DAYS || 3), time: new Date().toISOString() });
+    if (url.pathname === '/api/presets' && request.method === 'GET') return json({ templates: [{ id:'knowledge-director-v1', name:'知识导演', sourceTypes:['text','topic','article','book'] },{ id:'ai-shengyi-case-v1', name:'AI生意经商业案例', sourceTypes:['ai-shengyi-case'] }], visuals: ['smart-director','knowledge-diagram','comic','sand-art','scenery','satisfying','real-montage'], limits: { textCharacters:16000, batch:10, durations:[30,60,90,120,180], fileDirect:['text/plain','text/markdown','text/html'], fileExtractFirst:['application/pdf','application/epub+zip','application/vnd.openxmlformats-officedocument.wordprocessingml.document'] } });
     if (url.pathname.startsWith('/output/')) {
       const [, , jobId, filename] = url.pathname.split('/');
       const job: any = await env.VIDEO_DB.prepare('SELECT output_key, poster_key, audio_key, qa_key, status, artifacts_deleted_at FROM jobs WHERE id = ?').bind(jobId).first();
@@ -138,22 +156,31 @@ export default {
     if (url.pathname === '/api/jobs' && request.method === 'POST') {
       if (env.RENDERER_ENABLED !== 'true') return json({ error: 'RENDERER_UNAVAILABLE', detail: '云端渲染服务尚未开通，请先启用 Cloudflare Workers Paid / Containers。' }, 503);
       const body: any = await request.json().catch(() => null);
+      if (body?.source && body.source.sourceType !== 'ai-shengyi-case') {
+        const allowed = new Set(['text','topic','article','book']); const sourceType = String(body.source.sourceType);
+        if (!allowed.has(sourceType)) return json({ error:'INVALID_SOURCE_TYPE' },400);
+        const source: any = { sourceType, title: String(body.source.title || '').trim().slice(0,120), text: String(body.source.text || '').trim().slice(0,16000), url: String(body.source.url || '').trim().slice(0,2000) };
+        if (sourceType === 'article' && source.url && !source.text) { try { source.text = await safeArticleText(source.url); } catch (error) { return json({ error:'ARTICLE_IMPORT_FAILED', detail:error instanceof Error ? error.message : String(error) },422); } }
+        if (source.text.length < 12) return json({ error:'SOURCE_TOO_SHORT', detail:'请至少提供12个字的主题或正文。书籍 PDF/EPUB/DOCX 请先在本机提取正文后粘贴。' },400);
+        return json({ jobs:[await enqueue(env,{ source, options:body.options })], count:1, status:'queued' },202);
+      }
       const values = Array.isArray(body?.caseIds) ? body.caseIds : [body?.caseId];
       const caseIds = [...new Set(values.map((value: unknown) => String(value || '').trim()).filter(Boolean))] as string[];
       if (!caseIds.length || caseIds.length > 50 || caseIds.some(caseId => !/^[a-z0-9]{8,32}$/i.test(caseId))) return json({ error: 'INVALID_CASE_IDS', detail: '每批需包含1至50个有效案例ID' }, 400);
       const jobs = [];
-      for (const caseId of caseIds) jobs.push(await enqueueCase(env, caseId));
+      for (const caseId of caseIds) jobs.push(await enqueue(env, { caseId, options:body.options }));
       return json({ jobs, count: jobs.length, status: 'queued' }, 202);
     }
     if (url.pathname === '/api/jobs' && request.method === 'GET') {
-      const rows = await env.VIDEO_DB.prepare('SELECT id, case_id, case_name, status, stage, progress, attempt, qa_score, error_code, error_message, created_at, updated_at, completed_at, retention_until, artifacts_deleted_at, poster_key FROM jobs ORDER BY created_at DESC LIMIT 100').all();
+      const rows = await env.VIDEO_DB.prepare('SELECT id, case_id, case_name, source_type, source_title, template_id, options, status, stage, progress, attempt, qa_score, needs_review, error_code, error_message, created_at, updated_at, completed_at, retention_until, artifacts_deleted_at, poster_key FROM jobs ORDER BY created_at DESC LIMIT 100').all();
       return json({ jobs: rows.results });
     }
     const retryMatch = url.pathname.match(/^\/api\/jobs\/([a-f0-9-]+)\/retry$/i);
     if (retryMatch && request.method === 'POST') {
-      const previous: any = await env.VIDEO_DB.prepare('SELECT case_id FROM jobs WHERE id = ?').bind(retryMatch[1]).first();
+      const previous: any = await env.VIDEO_DB.prepare('SELECT case_id, source_type, source_payload, options FROM jobs WHERE id = ?').bind(retryMatch[1]).first();
       if (!previous) return json({ error: 'NOT_FOUND' }, 404);
-      return json(await enqueueCase(env, String(previous.case_id)), 202);
+      const payload = previous.source_payload ? JSON.parse(String(previous.source_payload)) : null;
+      return json(await enqueue(env, previous.source_type === 'ai-shengyi-case' ? { caseId:String(previous.case_id) } : { source:payload, options: previous.options ? JSON.parse(String(previous.options)) : {} }), 202);
     }
     const artifactMatch = url.pathname.match(/^\/api\/jobs\/([a-f0-9-]+)\/artifacts$/i);
     if (artifactMatch && request.method === 'DELETE') {
@@ -204,6 +231,6 @@ export default {
       if (validMedia >= 3) selected.push(project);
       if (selected.length >= limit) break;
     }
-    for (const project of selected) await enqueueCase(env, String(project.id));
+    for (const project of selected) await enqueue(env, { caseId: String(project.id) });
   }
 };
