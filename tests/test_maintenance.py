@@ -6,7 +6,7 @@ from pathlib import Path
 from pipeline.article_pipeline import normalize_article, normalize_media
 from pipeline.project_store import merge_projects, project_ids
 from pipeline.content_quality import derive_chinese_name, is_placeholder
-from pipeline.scraper import make_id, parse_listing_html
+from pipeline.scraper import make_id, parse_detail_html, parse_listing_html
 from scripts.build_edgeone import EDGEONE_PATHS, build as build_edgeone
 from scripts.build_site import PUBLISH_PATHS, build, public_output_paths
 from scripts.generate_case_catalog import clean_existing_media, ensure_visual_media
@@ -69,6 +69,25 @@ class DailyScraperTests(unittest.TestCase):
     def test_listing_ids_are_stable_when_display_name_changes(self):
         url = "https://www.starterstory.com/businesses/browserless"
         self.assertEqual(make_id(url), make_id(url + "/"))
+
+    def test_business_detail_recovers_full_name_image_and_official_site(self):
+        detail = parse_detail_html(
+            """
+            <html><head>
+              <meta name="description" content="Web Browser Automation">
+              <meta property="og:image" content="https://cdn.example/hero.jpg">
+            </head><body>
+              <h1>Browserless</h1>
+              <a href="https://www.starterstory.com/data">Data</a>
+              <a href="https://browserless.io">Official website</a>
+            </body></html>
+            """
+        )
+
+        self.assertEqual(detail["name"], "Browserless")
+        self.assertEqual(detail["description"], "Web Browser Automation")
+        self.assertEqual(detail["image"], "https://cdn.example/hero.jpg")
+        self.assertEqual(detail["website"], "https://browserless.io")
 
 
 class BuildTests(unittest.TestCase):

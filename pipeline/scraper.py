@@ -12,13 +12,12 @@ import datetime
 import requests
 from bs4 import BeautifulSoup
 from pathlib import Path
+from urllib.parse import urlparse
 
 try:
-    from .article_pipeline import upsert_articles
     from .content_quality import derive_chinese_name
     from .project_store import merge_projects, project_ids
 except ImportError:
-    from article_pipeline import upsert_articles
     from content_quality import derive_chinese_name
     from project_store import merge_projects, project_ids
 
@@ -154,15 +153,8 @@ def scrape_listing_page():
         )
     return projects
 
-def scrape_detail_page(url):
-    if not url:
-        return {}
-
-    time.sleep(REQUEST_DELAY)
-    html = fetch_page(url)
-    if not html:
-        return {}
-
+def parse_detail_html(html):
+    """Extract stable public metadata from a Starter Story business page."""
     soup = BeautifulSoup(html, "html.parser")
     detail = {}
 
@@ -186,7 +178,33 @@ def scrape_detail_page(url):
     if image_el and image_el.get("content"):
         detail["image"] = image_el["content"]
 
+    blocked_hosts = {
+        "starterstory.com", "www.starterstory.com", "build.starterstory.com",
+        "x.com", "twitter.com", "facebook.com", "instagram.com",
+        "linkedin.com", "youtube.com", "www.youtube.com", "tiktok.com",
+        "api.placid.app", "d1coqmn8qm80r4.cloudfront.net",
+    }
+    for link in soup.find_all("a", href=True):
+        href = link.get("href", "").strip()
+        parsed = urlparse(href)
+        host = (parsed.hostname or "").lower()
+        if parsed.scheme in {"http", "https"} and host not in blocked_hosts:
+            detail["website"] = href
+            break
+
     return detail
+
+
+def scrape_detail_page(url):
+    if not url:
+        return {}
+
+    time.sleep(REQUEST_DELAY)
+    html = fetch_page(url)
+    if not html:
+        return {}
+
+    return parse_detail_html(html)
 
 # ========== AI ANALYSIS ==========
 def generate_chinese_analysis(project):
@@ -374,8 +392,10 @@ def run_pipeline():
 
     if results:
         generate_content_drafts(results)
-        print("\n[INFO] Generating on-site case articles...")
-        upsert_articles(results, len(results))
+        print(
+            "\n[INFO] Project records are ready; the catalog generator will "
+            "build full-length case pages and visual media next."
+        )
 
 def generate_content_drafts(projects):
     draft_dir = Path(__file__).parent / "drafts"
