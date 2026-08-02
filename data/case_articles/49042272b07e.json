@@ -147,32 +147,44 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "为中小企业提供员工休假管理SaaS工具的商业增长闭环",
-      "items": [
-        "【引流】内容营销+SEO",
-        "【产品】休假管理SaaS",
-        "【变现】月/年订阅费",
-        "【留存】持续更新+客户成功服务"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://vacationtracker.io/static/img/featured-image.png",
+      "caption": "为中小企业提供员工休假管理SaaS工具官网：产品界面与核心功能展示",
+      "alt": "为中小企业提供员工休假管理SaaS工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://vacationtracker.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "为中小企业提供员工休假管理SaaS工具的产品与交付路径",
-      "items": [
-        "用户注册",
-        "导入员工数据",
-        "设置休假规则",
-        "员工申请/审批"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://cms.vacationtracker.io/uploads/hero_a6e6cfaa7c.png",
+      "caption": "为中小企业提供员工休假管理SaaS工具官网：官网展示的产品与实际使用场景",
+      "alt": "为中小企业提供员工休假管理SaaS工具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://vacationtracker.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://vacationtracker.io/static/img/home/hero-home-img-mob-v3.png",
+      "caption": "为中小企业提供员工休假管理SaaS工具官网：官网展示的产品与实际使用场景",
+      "alt": "为中小企业提供员工休假管理SaaS工具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://vacationtracker.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://vacationtracker.io/static/img/home/hero-home-img-v3.png",
+      "caption": "为中小企业提供员工休假管理SaaS工具官网：官网展示的产品与实际使用场景",
+      "alt": "为中小企业提供员工休假管理SaaS工具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://vacationtracker.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -187,7 +199,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2470,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

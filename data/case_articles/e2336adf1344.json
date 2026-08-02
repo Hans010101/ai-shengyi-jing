@@ -157,18 +157,14 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "碳抵消平台的商业增长闭环",
-      "items": [
-        "【引流】内容营销+ESG报告案例",
-        "【产品】碳抵消API/SaaS平台",
-        "【变现】按交易抽成+订阅费",
-        "【留存】碳抵消报告+品牌曝光+用户忠诚度提升"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://images.prismic.io/carbon-click/c2d1714c-9a80-4a43-a358-76595cdb9ae2_home-cooler.jpg?auto=compress,format&rect=0,0,3228,1700&w=600&h=316",
+      "caption": "碳抵消平台官网：产品界面与核心功能展示",
+      "alt": "碳抵消平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.carbonclick.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -185,5 +181,9 @@
     "bodyCharacters": 2478,
     "mediaCount": 3,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

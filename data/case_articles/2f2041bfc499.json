@@ -147,32 +147,34 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "B2B销售AI工具的商业增长闭环",
-      "items": [
-        "【引流】LinkedIn/行业内容营销",
-        "【产品】AI线索生成工具",
-        "【变现】月订阅+按线索付费",
-        "【留存】数据更新+CRM集成"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://valkre.com/wp-content/uploads/Valkre-Featured.webp",
+      "caption": "B2B销售AI工具官网：产品界面与核心功能展示",
+      "alt": "B2B销售AI工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://valkre.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "B2B销售AI工具的产品与交付路径",
-      "items": [
-        "用户注册",
-        "设置客户画像",
-        "AI匹配企业数据",
-        "输出线索列表"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://valkre.com/wp-content/uploads/Valkre-dashboard-Salesforce-integration.webp",
+      "caption": "B2B销售AI工具官网：产品后台与数据看板",
+      "alt": "B2B销售AI工具官网：产品后台与数据看板",
+      "sourceUrl": "https://valkre.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://valkre.com/wp-content/uploads/active-management-1.webp",
+      "caption": "B2B销售AI工具官网：产品后台与数据看板",
+      "alt": "B2B销售AI工具官网：产品后台与数据看板",
+      "sourceUrl": "https://valkre.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -187,7 +189,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2434,
-    "mediaCount": 3,
+    "mediaCount": 4,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

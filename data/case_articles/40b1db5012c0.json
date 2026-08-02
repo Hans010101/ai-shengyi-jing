@@ -147,6 +147,16 @@
       "context": "project-hero"
     },
     {
+      "type": "image",
+      "url": "https://substackcdn.com/image/fetch/$s_!Boeq!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fnotboring.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D808001550%26version%3D9",
+      "caption": "深度科技创业分析付费通讯官网：产品界面与核心功能展示",
+      "alt": "深度科技创业分析付费通讯官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.notboring.co/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
       "type": "infographic",
       "variant": "business-loop",
       "title": "深度科技创业分析付费通讯的商业增长闭环",
@@ -157,20 +167,6 @@
         "【留存】独家内容+社群互动"
       ],
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
-    },
-    {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "深度科技创业分析付费通讯的产品与交付路径",
-      "items": [
-        "用户访问网站",
-        "浏览免费文章",
-        "注册邮箱",
-        "付费订阅"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
     }
@@ -189,5 +185,9 @@
     "bodyCharacters": 2465,
     "mediaCount": 3,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

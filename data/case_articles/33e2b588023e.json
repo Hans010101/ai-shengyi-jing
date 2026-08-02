@@ -147,32 +147,27 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "AI识别网站访客身份的商业增长闭环",
-      "items": [
-        "【引流】SEO内容营销+LinkedIn推广",
-        "【产品】AI识别访客身份",
-        "【变现】月费订阅",
-        "【留存】持续增加新线索+邮件提醒"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "video",
+      "url": "https://www.youtube.com/embed/I9ZKzbVwMLw",
+      "watchUrl": "https://www.youtube.com/watch?v=I9ZKzbVwMLw",
+      "caption": "AI识别网站访客身份资料中提及的视频：Happierleads - Identify your Website Visitors even when they work from home",
+      "alt": "Happierleads - Identify your Website Visitors even when they work from home",
+      "sourceUrl": "https://happierleads.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/I9ZKzbVwMLw/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "AI识别网站访客身份的产品与交付路径",
-      "items": [
-        "网站嵌入JS",
-        "AI分析访客行为",
-        "匹配企业数据库",
-        "生成线索详情"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://happierleads.com/images/general/cta.png",
+      "caption": "AI识别网站访客身份官网：产品界面与核心功能展示",
+      "alt": "AI识别网站访客身份官网：产品界面与核心功能展示",
+      "sourceUrl": "https://happierleads.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,5 +184,9 @@
     "bodyCharacters": 2494,
     "mediaCount": 3,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

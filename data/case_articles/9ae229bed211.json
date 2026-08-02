@@ -147,32 +147,44 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "电子签名SaaS的商业增长闭环",
-      "items": [
-        "【引流】SEO内容营销（如电子签名指南）+ 免费模板",
-        "【产品】免费电子签名工具",
-        "【变现】订阅付费（个人Pro/团队版）",
-        "【留存】API集成、团队管理、合规认证"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://www.signwell.com/social.jpg",
+      "caption": "电子签名SaaS官网：产品界面与核心功能展示",
+      "alt": "电子签名SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.signwell.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "电子签名SaaS的产品与交付路径",
-      "items": [
-        "用户注册",
-        "上传文档",
-        "添加签名/填写字段",
-        "发送签名请求"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://www.signwell.com/assets/homepage/features_document_signing_1-f962881a0694c1b7743045a8b4934e44c51cc3c31429b95bf15bcbc38cdbd6a1.png",
+      "caption": "电子签名SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "电子签名SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.signwell.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.signwell.com/assets/homepage/features_document_signing_2-cff1e0313a72e9e60c10f56927ec59a83d100e7f807d5449fb6998de54a3e747.png",
+      "caption": "电子签名SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "电子签名SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.signwell.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.signwell.com/assets/homepage/features_esignature_api-3a9319bb59f77b8ab9ba6d1cf7225dfa9186ea64e803905fc9c82452828d14a6.png",
+      "caption": "电子签名SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "电子签名SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.signwell.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -187,7 +199,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2508,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

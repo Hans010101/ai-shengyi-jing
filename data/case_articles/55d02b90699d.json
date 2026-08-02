@@ -157,18 +157,26 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "帮商家自动索评的SaaS工具的商业增长闭环",
-      "items": [
-        "【引流】SEO内容+社交媒体分享",
-        "【产品】自动索评SaaS",
-        "【变现】月订阅费",
-        "【留存】持续增加好评数与客户粘性"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "video-file",
+      "url": "https://reputationstacker.com/wp-content/uploads/2025/03/Review-Management-Software-to-Get-More-Reviews.mp4#t=0.1",
+      "watchUrl": "https://reputationstacker.com/wp-content/uploads/2025/03/Review-Management-Software-to-Get-More-Reviews.mp4#t=0.1",
+      "poster": "https://reputationstacker.com/wp-content/uploads/2025/12/Review-Management-Software-for-Customer-Experience.webp",
+      "caption": "帮商家自动索评的SaaS工具官网：产品界面与核心功能展示",
+      "alt": "帮商家自动索评的SaaS工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://reputationstacker.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://reputationstacker.com/wp-content/uploads/2025/12/Review-Management-Software-for-Customer-Experience.webp",
+      "caption": "帮商家自动索评的SaaS工具官网：产品界面与核心功能展示",
+      "alt": "帮商家自动索评的SaaS工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://reputationstacker.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -183,7 +191,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2462,
-    "mediaCount": 3,
+    "mediaCount": 4,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

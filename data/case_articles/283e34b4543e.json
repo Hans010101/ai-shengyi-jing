@@ -157,18 +157,14 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "SEO代理服务的商业增长闭环",
-      "items": [
-        "【引流】Upwork平台+客户转介绍",
-        "【产品】SEO优化服务",
-        "【变现】月度/项目收费",
-        "【留存】定期报告+持续优化"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://paperboxseo.com/wp-content/uploads/2026/02/homepage-hero-237x300.png",
+      "caption": "SEO代理服务官网：官网展示的产品与实际使用场景",
+      "alt": "SEO代理服务官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://paperboxseo.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -185,5 +181,9 @@
     "bodyCharacters": 2482,
     "mediaCount": 3,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

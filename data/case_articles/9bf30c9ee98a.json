@@ -157,18 +157,14 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "高端床垫品牌的商业增长闭环",
-      "items": [
-        "【引流】社交媒体广告+口碑推荐",
-        "【产品】高端床垫及配件",
-        "【变现】官网直接销售",
-        "【留存】100天试用+会员优惠"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://cdn.shopify.com/s/files/1/0307/1167/7063/files/split-king-adjustable-set-luxe-foam-product-image-1-with-remotes.webp?v=1746129430",
+      "caption": "高端床垫品牌官网：产品界面与核心功能展示",
+      "alt": "高端床垫品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.ghostbed.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -185,5 +181,9 @@
     "bodyCharacters": 2413,
     "mediaCount": 3,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

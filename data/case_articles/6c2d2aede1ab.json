@@ -157,18 +157,27 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "房车免费停车平台的商业增长闭环",
-      "items": [
-        "【引流】社交媒体、房车论坛、合作俱乐部",
-        "【产品】免费停靠点匹配平台",
-        "【变现】会员年费、增值服务（保险、导航）",
-        "【留存】社区互动、积分系统、房东奖励"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "video",
+      "url": "https://www.youtube.com/embed/xdLJ4hx-W_Q",
+      "watchUrl": "https://www.youtube.com/watch?v=xdLJ4hx-W_Q",
+      "caption": "房车免费停车平台资料中提及的视频：Boondockers Welcome Review | Free Campsites",
+      "alt": "Boondockers Welcome Review | Free Campsites",
+      "sourceUrl": "https://www.boondockerswelcome.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/xdLJ4hx-W_Q/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://harvesthosts-marketing-assets.s3.amazonaws.com/wp-content/uploads/2021/11/Boondockers-Welcome-Boondocking-and-Free-RV-Camping.jpg",
+      "caption": "房车免费停车平台官网：产品界面与核心功能展示",
+      "alt": "房车免费停车平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.boondockerswelcome.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -183,7 +192,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2429,
-    "mediaCount": 3,
+    "mediaCount": 4,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

@@ -157,18 +157,14 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "西班牙家族地毯电商的商业增长闭环",
-      "items": [
-        "【引流】SEO+社交媒体内容营销",
-        "【产品】定制地毯",
-        "【变现】在线销售",
-        "【留存】会员折扣+复购推荐"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://www.mundoalfombra.com/stupload/stthemeeditor/27a3b075eabc8181f29df6ce6655c23b.jpg",
+      "caption": "西班牙家族地毯电商官网：官网展示的产品与实际使用场景",
+      "alt": "西班牙家族地毯电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.mundoalfombra.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -185,5 +181,9 @@
     "bodyCharacters": 2413,
     "mediaCount": 3,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

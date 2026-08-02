@@ -157,18 +157,34 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "SaaS活动营销自动化平台的商业增长闭环",
-      "items": [
-        "【引流】内容营销+SEO+免费试用",
-        "【产品】活动创建/推广/分析一体化SaaS",
-        "【变现】月度/年度订阅费",
-        "【留存】持续功能更新+客户成功服务"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/61967dbb50eec57a4e7fde97/61a9095ab7d2ce13de38baf5_blog-featured-arrow-alone-left.png",
+      "caption": "SaaS活动营销自动化平台官网：官网展示的产品与实际使用场景",
+      "alt": "SaaS活动营销自动化平台官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.banzai.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/61967dbb50eec57a4e7fde97/61a9095a5f705a1a10d2112e_blog-featured-arrow-alone-right.png",
+      "caption": "SaaS活动营销自动化平台官网：官网展示的产品与实际使用场景",
+      "alt": "SaaS活动营销自动化平台官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.banzai.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/61967dbb50eec57a4e7fde97/672bdaa04cc00d823e4b9458_Curate%20Product%20(1).gif",
+      "caption": "SaaS活动营销自动化平台官网：官网展示的产品与实际使用场景",
+      "alt": "SaaS活动营销自动化平台官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.banzai.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -183,7 +199,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2493,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

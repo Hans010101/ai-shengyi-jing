@@ -147,32 +147,44 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "内容营销SEO代理的商业增长闭环",
-      "items": [
-        "【引流】SEO博客+社交媒体内容",
-        "【产品】内容营销服务",
-        "【变现】项目费/月费",
-        "【留存】定期报告+持续优化"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://www.siegemedia.com/wp-content/uploads/2026/06/best-x-benchmark-study-hero_800x800-400x400.webp",
+      "caption": "内容营销SEO代理官网：官网展示的产品与实际使用场景",
+      "alt": "内容营销SEO代理官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.siegemedia.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "内容营销SEO代理的产品与交付路径",
-      "items": [
-        "客户咨询",
-        "内容策略制定",
-        "内容创作与优化",
-        "发布推广与效果追踪"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://www.siegemedia.com/wp-content/uploads/2025/07/featured-content.webp",
+      "caption": "内容营销SEO代理官网：官网展示的产品与实际使用场景",
+      "alt": "内容营销SEO代理官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.siegemedia.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.siegemedia.com/wp-content/uploads/2025/10/blueprintiq-screenshot-nav.webp",
+      "caption": "内容营销SEO代理官网：官网展示的产品与实际使用场景",
+      "alt": "内容营销SEO代理官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.siegemedia.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.siegemedia.com/wp-content/uploads/2026/07/tom-critchlow-cta-image-2.png",
+      "caption": "内容营销SEO代理官网：产品界面与核心功能展示",
+      "alt": "内容营销SEO代理官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.siegemedia.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -187,7 +199,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2432,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

@@ -147,32 +147,56 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "每日科技商业资讯邮件订阅的商业增长闭环",
-      "items": [
-        "【引流】社交媒体、SEO、口碑传播免费邮件订阅",
-        "【产品】每日科技商业资讯邮件",
-        "【变现】广告收入+付费会员订阅",
-        "【留存】高质量内容+会员专属福利+社群互动"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "video",
+      "url": "https://www.youtube.com/embed/4ENdX6wmb8A",
+      "watchUrl": "https://www.youtube.com/watch?v=4ENdX6wmb8A",
+      "caption": "每日科技商业资讯邮件订阅资料中提及的视频：How Billionaires Are Taking Over This Mountain Range",
+      "alt": "How Billionaires Are Taking Over This Mountain Range",
+      "sourceUrl": "https://thehustle.co/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/4ENdX6wmb8A/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "每日科技商业资讯邮件订阅的产品与交付路径",
-      "items": [
-        "用户注册邮箱",
-        "每日免费邮件推送",
-        "点击广告/赞助商链接",
-        "付费升级会员获取深度内容"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "video",
+      "url": "https://www.youtube.com/embed/jeLZlxqO70Q",
+      "watchUrl": "https://www.youtube.com/watch?v=jeLZlxqO70Q",
+      "caption": "每日科技商业资讯邮件订阅资料中提及的视频：Why America Loves This Gas Station",
+      "alt": "Why America Loves This Gas Station",
+      "sourceUrl": "https://thehustle.co/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/jeLZlxqO70Q/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/Pc_mWd_XnCU",
+      "watchUrl": "https://www.youtube.com/watch?v=Pc_mWd_XnCU",
+      "caption": "每日科技商业资讯邮件订阅资料中提及的视频：Why Everyone is Sick of Luxury Brands",
+      "alt": "Why Everyone is Sick of Luxury Brands",
+      "sourceUrl": "https://thehustle.co/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/Pc_mWd_XnCU/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/l8Rt3zN9YY8",
+      "watchUrl": "https://www.youtube.com/watch?v=l8Rt3zN9YY8",
+      "caption": "每日科技商业资讯邮件订阅资料中提及的视频：Why American Trucks Are So Big",
+      "alt": "Why American Trucks Are So Big",
+      "sourceUrl": "https://thehustle.co/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/l8Rt3zN9YY8/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -187,7 +211,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2557,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

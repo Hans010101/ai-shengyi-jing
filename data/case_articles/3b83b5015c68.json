@@ -157,18 +157,14 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "海外创业项目的商业增长闭环",
-      "items": [
-        "【引流】SEO长尾关键词获取搜索流量",
-        "【产品】高质量教程文章",
-        "【变现】广告展示+联盟链接",
-        "【留存】持续更新内容+邮件订阅"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://thecustomizewindows.com/TheCustomizeWindows.png",
+      "caption": "海外创业项目官网：产品界面与核心功能展示",
+      "alt": "海外创业项目官网：产品界面与核心功能展示",
+      "sourceUrl": "https://thecustomizewindows.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -185,5 +181,9 @@
     "bodyCharacters": 2451,
     "mediaCount": 3,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

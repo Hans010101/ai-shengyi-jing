@@ -157,18 +157,14 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "海外其他项目的商业增长闭环",
-      "items": [
-        "【引流】SEO+社交媒体",
-        "【产品】行业新闻网站",
-        "【变现】广告+会员",
-        "【留存】持续更新+社区互动"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://www.rfidjournal.com/wp-content/uploads/2026/01/RFID-Institute-Adobe.jpeg",
+      "caption": "海外其他项目官网：产品界面与核心功能展示",
+      "alt": "海外其他项目官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.rfidjournal.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -185,5 +181,9 @@
     "bodyCharacters": 2355,
     "mediaCount": 3,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

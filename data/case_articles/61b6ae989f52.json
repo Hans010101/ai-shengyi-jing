@@ -147,32 +147,49 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "播客转录与索引平台的商业增长闭环",
-      "items": [
-        "【引流】SEO内容+播客主合作",
-        "【产品】播客转录与监测平台",
-        "【变现】月度订阅+API调用",
-        "【留存】持续更新播客库+客户成功"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "video",
+      "url": "https://www.youtube.com/embed/fIEJFEd-Dek",
+      "watchUrl": "https://www.youtube.com/watch?v=fIEJFEd-Dek",
+      "caption": "播客转录与索引平台资料中提及的视频：The Podscan Platform: Search / Monitoring / Automation (Demo by Arvid Kahl)",
+      "alt": "The Podscan Platform: Search / Monitoring / Automation (Demo by Arvid Kahl)",
+      "sourceUrl": "https://podscan.fm/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/fIEJFEd-Dek/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "播客转录与索引平台的产品与交付路径",
-      "items": [
-        "用户注册",
-        "上传/选择播客源",
-        "AI转录与索引",
-        "搜索/监测面板"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "video-file",
+      "url": "https://podscan.fm/videos/podscan-explainer-v3.mp4?v=1785599381",
+      "watchUrl": "https://podscan.fm/videos/podscan-explainer-v3.mp4?v=1785599381",
+      "poster": "https://podscan.fm/videos/podscan-explainer-v3-poster.jpg?v=1785599381",
+      "caption": "播客转录与索引平台官网：产品界面与核心功能展示",
+      "alt": "播客转录与索引平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://podscan.fm/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://podscan.fm/images/customer-logos/fathom-analytics-mono-dark.png",
+      "caption": "播客转录与索引平台官网：官网展示的产品与实际使用场景",
+      "alt": "播客转录与索引平台官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://podscan.fm/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://podscan.fm/images/og/home-og.png",
+      "caption": "播客转录与索引平台官网：产品界面与核心功能展示",
+      "alt": "播客转录与索引平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://podscan.fm/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -187,7 +204,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2429,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

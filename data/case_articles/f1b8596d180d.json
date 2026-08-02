@@ -147,6 +147,16 @@
       "context": "project-hero"
     },
     {
+      "type": "image",
+      "url": "https://framerusercontent.com/images/liRX0rbebhLZU5Ubj26RqyhdBzk.png",
+      "caption": "为AI代理构建ERP系统官网：产品界面与核心功能展示",
+      "alt": "为AI代理构建ERP系统官网：产品界面与核心功能展示",
+      "sourceUrl": "https://runflow.ai/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
       "type": "infographic",
       "variant": "business-loop",
       "title": "为AI代理构建ERP系统的商业增长闭环",
@@ -157,20 +167,6 @@
         "【留存】持续更新+客户成功"
       ],
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
-    },
-    {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "为AI代理构建ERP系统的产品与交付路径",
-      "items": [
-        "用户注册",
-        "创建AI代理",
-        "配置工作流",
-        "监控与优化"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
     }
@@ -189,5 +185,9 @@
     "bodyCharacters": 2399,
     "mediaCount": 3,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

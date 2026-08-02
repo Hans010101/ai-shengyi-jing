@@ -147,6 +147,16 @@
       "context": "project-hero"
     },
     {
+      "type": "image",
+      "url": "https://substackcdn.com/image/fetch/$s_!w3EF!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fnewcomer.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D74227249%26version%3D9",
+      "caption": "前记者创办的付费科技新闻通讯官网：产品界面与核心功能展示",
+      "alt": "前记者创办的付费科技新闻通讯官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.newcomer.co/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
       "type": "infographic",
       "variant": "business-loop",
       "title": "前记者创办的付费科技新闻通讯的商业增长闭环",
@@ -157,20 +167,6 @@
         "【留存】独家分析+社群互动+线下聚会"
       ],
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
-    },
-    {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "前记者创办的付费科技新闻通讯的产品与交付路径",
-      "items": [
-        "用户注册",
-        "邮件订阅",
-        "每日/周深度分析",
-        "付费解锁完整内容"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
     }
@@ -189,5 +185,9 @@
     "bodyCharacters": 2505,
     "mediaCount": 3,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

@@ -147,32 +147,24 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "独立开发者社区的商业增长闭环",
-      "items": [
-        "【引流】SEO+社交媒体分享创业故事",
-        "【产品】社区+访谈+课程",
-        "【变现】会员订阅+广告",
-        "【留存】每日推送+社区互动+用户贡献内容"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://images.indiehackers.com/post-images/5kZRj2Lln7jO7nVVoYFP/vOqaQ3DJwYRP8MNEjUOSMger71w1/jonathan-geiger-founder-of-socialkit.png?w=1160",
+      "caption": "独立开发者社区官网：官网展示的产品与实际使用场景",
+      "alt": "独立开发者社区官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.indiehackers.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "独立开发者社区的产品与交付路径",
-      "items": [
-        "用户访问",
-        "浏览免费故事",
-        "注册会员",
-        "解锁付费内容"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://www.indiehackers.com/images/shareables/home.jpg",
+      "caption": "独立开发者社区官网：产品界面与核心功能展示",
+      "alt": "独立开发者社区官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.indiehackers.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,5 +181,9 @@
     "bodyCharacters": 2510,
     "mediaCount": 3,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

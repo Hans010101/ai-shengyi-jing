@@ -157,18 +157,27 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "线上女性领导力培训平台的商业增长闭环",
-      "items": [
-        "【引流】社交媒体内容+免费试听课",
-        "【产品】线上课程+教练辅导",
-        "【变现】课程订阅+企业合同",
-        "【留存】社群+定期直播+毕业证书"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "video",
+      "url": "https://www.youtube.com/embed/bqLUp7GuUTg",
+      "watchUrl": "https://www.youtube.com/watch?v=bqLUp7GuUTg",
+      "caption": "线上女性领导力培训平台资料中提及的视频：HugeDomains.com - Location Matters",
+      "alt": "HugeDomains.com - Location Matters",
+      "sourceUrl": "https://www.hugedomains.com/domain_profile.cfm?d=umaglobal.com",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/bqLUp7GuUTg/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://static.hugedomains.com/images/hdv3-img/og_hugedomains.png",
+      "caption": "线上女性领导力培训平台官网：产品界面与核心功能展示",
+      "alt": "线上女性领导力培训平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.hugedomains.com/domain_profile.cfm?d=umaglobal.com",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -183,7 +192,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2453,
-    "mediaCount": 3,
+    "mediaCount": 4,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

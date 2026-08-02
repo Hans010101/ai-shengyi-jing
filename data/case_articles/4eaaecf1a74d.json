@@ -147,32 +147,52 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "SEO工具SaaS的商业增长闭环",
-      "items": [
-        "【引流】SEO博客+免费工具（如网站诊断）",
-        "【产品】Ahrefs SaaS工具",
-        "【变现】按月/年订阅",
-        "【留存】持续更新数据+社区+教育内容"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "video-file",
+      "url": "https://ahrefs.com/assets/esbuild/hero-video-DJBMT2DT.mp4",
+      "watchUrl": "https://ahrefs.com/assets/esbuild/hero-video-DJBMT2DT.mp4",
+      "poster": "https://ahrefs.com/assets/esbuild/hero-image-6TGH6R72.png",
+      "caption": "SEO工具SaaS官网：产品界面与核心功能展示",
+      "alt": "SEO工具SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://ahrefs.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "SEO工具SaaS的产品与交付路径",
-      "items": [
-        "用户注册",
-        "免费试用（基础功能）",
-        "关键词研究/外链分析",
-        "导出报告/深度分析"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "video-file",
+      "url": "https://ahrefs.com/assets/esbuild/brand-radar-XTGNTY6F.mp4",
+      "watchUrl": "https://ahrefs.com/assets/esbuild/brand-radar-XTGNTY6F.mp4",
+      "poster": "https://ahrefs.com/assets/esbuild/brand-radar-TW64NGH5.png",
+      "caption": "SEO工具SaaS官网：产品界面与核心功能展示",
+      "alt": "SEO工具SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://ahrefs.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://ahrefs.com/assets/esbuild/rank-tracker-FFV5MG7K.mp4",
+      "watchUrl": "https://ahrefs.com/assets/esbuild/rank-tracker-FFV5MG7K.mp4",
+      "poster": "https://ahrefs.com/assets/esbuild/rank-tracker-JRX33GIZ.png",
+      "caption": "SEO工具SaaS官网：产品界面与核心功能展示",
+      "alt": "SEO工具SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://ahrefs.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://ahrefs.com/assets/esbuild/track-brand-visibility-YCQM7RGD.mp4",
+      "watchUrl": "https://ahrefs.com/assets/esbuild/track-brand-visibility-YCQM7RGD.mp4",
+      "poster": "https://static.ahrefs.com/assets/img/og/ahrefs.png?v=2",
+      "caption": "SEO工具SaaS官网：产品界面与核心功能展示",
+      "alt": "SEO工具SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://ahrefs.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -187,7 +207,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2511,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

@@ -157,18 +157,40 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "AI合同自动化平台的商业增长闭环",
-      "items": [
-        "【引流】内容营销（法务干货）",
-        "【产品】合同自动化平台",
-        "【变现】月度/年度订阅",
-        "【留存】持续功能更新+客户成功服务"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "video-file",
+      "url": "https://cdn.prod.website-files.com/612c95056c9d4b399ddfd2ef%2F686e690909350172586cc22c_0196a597-3f16-744f-8222-c345c8c464f1-transcode.mp4",
+      "watchUrl": "https://cdn.prod.website-files.com/612c95056c9d4b399ddfd2ef%2F686e690909350172586cc22c_0196a597-3f16-744f-8222-c345c8c464f1-transcode.mp4",
+      "poster": "https://cdn.prod.website-files.com/612c95056c9d4b399ddfd2ef/681b76bdf3051d222fd5d9cc_photo_2025-05-07_18-05-20.jpg",
+      "caption": "AI合同自动化平台官网：产品界面与核心功能展示",
+      "alt": "AI合同自动化平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://juro.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://cdn.prod.website-files.com/612c95056c9d4b399ddfd2ef%2F68827a285c1c428400711219_jessie-talentful-juro-preview-trim-1080p-transcode.mp4",
+      "watchUrl": "https://cdn.prod.website-files.com/612c95056c9d4b399ddfd2ef%2F68827a285c1c428400711219_jessie-talentful-juro-preview-trim-1080p-transcode.mp4",
+      "poster": "https://cdn.prod.website-files.com/612c95056c9d4b399ddfd2ef/681b76bdf3051d222fd5d9cc_photo_2025-05-07_18-05-20.jpg",
+      "caption": "AI合同自动化平台官网：产品界面与核心功能展示",
+      "alt": "AI合同自动化平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://juro.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://cdn.prod.website-files.com/612c95056c9d4b399ddfd2ef%2F689445fb81626a443df5dd8b_pareen-trim-loop-1080p-transcode.mp4",
+      "watchUrl": "https://cdn.prod.website-files.com/612c95056c9d4b399ddfd2ef%2F689445fb81626a443df5dd8b_pareen-trim-loop-1080p-transcode.mp4",
+      "poster": "https://cdn.prod.website-files.com/612c95056c9d4b399ddfd2ef/681b76bdf3051d222fd5d9cc_photo_2025-05-07_18-05-20.jpg",
+      "caption": "AI合同自动化平台官网：产品界面与核心功能展示",
+      "alt": "AI合同自动化平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://juro.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -183,7 +205,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2445,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

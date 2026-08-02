@@ -147,32 +147,44 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "PostgreSQL性能监控SaaS的商业增长闭环",
-      "items": [
-        "【引流】技术博客/社区分享",
-        "【产品】PG性能监控SaaS",
-        "【变现】月/年订阅",
-        "【留存】持续优化建议+专家服务"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://pganalyze.com/_astro/explain_plan.CFVEDHAb_BVBwG.webp",
+      "caption": "PostgreSQL性能监控SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "PostgreSQL性能监控SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://pganalyze.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "PostgreSQL性能监控SaaS的产品与交付路径",
-      "items": [
-        "用户注册",
-        "连接数据库",
-        "数据采集",
-        "性能分析"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://pganalyze.com/_astro/pganalyze_index_advisor.26Wcploh_2kh33y.webp",
+      "caption": "PostgreSQL性能监控SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "PostgreSQL性能监控SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://pganalyze.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://pganalyze.com/_astro/query_details2.Bq3vaU6a_Z90qMS.webp",
+      "caption": "PostgreSQL性能监控SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "PostgreSQL性能监控SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://pganalyze.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://pganalyze.com/_astro/autovacuum_monitoring.BGQKfopp_2tRpaN.webp",
+      "caption": "PostgreSQL性能监控SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "PostgreSQL性能监控SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://pganalyze.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -187,7 +199,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2479,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

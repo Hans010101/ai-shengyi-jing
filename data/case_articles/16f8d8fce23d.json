@@ -157,18 +157,34 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "线上礼品店的商业增长闭环",
-      "items": [
-        "【引流】社交媒体内容+SEO",
-        "【产品】精选道德礼品",
-        "【变现】线上销售",
-        "【留存】邮件营销+会员计划"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://cdn.shopify.com/s/files/1/0860/2746/products/Redblackgingerjar_4e883171-7b79-4b97-8fb9-5535a82dba3c_84x84.png?v=1603598277",
+      "caption": "线上礼品店官网：官网展示的产品与实际使用场景",
+      "alt": "线上礼品店官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://templesandmarkets.com.au/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.shopify.com/s/files/1/0860/2746/products/Mustardgreytissuebox_84x84.png?v=1628050939",
+      "caption": "线上礼品店官网：官网展示的产品与实际使用场景",
+      "alt": "线上礼品店官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://templesandmarkets.com.au/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.shopify.com/s/files/1/0860/2746/products/plain-silver-bangle-fashioned-from-recycled-aluminium-jewellery-lovebomb_84x84.jpg?v=1576464956",
+      "caption": "线上礼品店官网：官网展示的产品与实际使用场景",
+      "alt": "线上礼品店官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://templesandmarkets.com.au/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -183,7 +199,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2401,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

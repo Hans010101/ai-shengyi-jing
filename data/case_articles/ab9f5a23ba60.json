@@ -147,32 +147,34 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "B2B营收归因SaaS的商业增长闭环",
-      "items": [
-        "【引流】内容营销+SEO",
-        "【产品】归因平台",
-        "【变现】订阅收费",
-        "【留存】持续优化模型+客户成功"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://images.squarespace-cdn.com/content/v1/60880c8985e48a388d33bd16/6c5773a2-b190-4582-bf14-4b314f5c5ddc/products_audience-hub-8+copy+2.png?format=2500w",
+      "caption": "B2B营收归因SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "B2B营收归因SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://dreamdata.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "B2B营收归因SaaS的产品与交付路径",
-      "items": [
-        "数据接入",
-        "数据清洗与整合",
-        "归因模型计算",
-        "可视化报告"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://images.squarespace-cdn.com/content/v1/60880c8985e48a388d33bd16/fbfcf886-d4ee-43a0-81a7-9b29463b7bd4/products_audience-hub-8+copy.png?format=2500w",
+      "caption": "B2B营收归因SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "B2B营收归因SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://dreamdata.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "http://static1.squarespace.com/static/60880c8985e48a388d33bd16/t/6821cbca7c756751d5f1473a/1748866920123/Activation+and+Attribution+for+B2B+Marketing.png?format=1500w",
+      "caption": "B2B营收归因SaaS官网：产品界面与核心功能展示",
+      "alt": "B2B营收归因SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://dreamdata.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -187,7 +189,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2415,
-    "mediaCount": 3,
+    "mediaCount": 4,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

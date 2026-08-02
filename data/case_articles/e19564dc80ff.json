@@ -157,18 +157,14 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "Impact-as-a-Service平台的商业增长闭环",
-      "items": [
-        "【引流】社交媒体内容营销、合作伙伴推荐",
-        "【产品】Impact-as-a-Service平台",
-        "【变现】月费订阅+按项目付费",
-        "【留存】定期报告、客户案例、续费优惠"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://clickatree.com/wp-content/uploads/2024/07/B-Corp-Click-A-Tree-Mit-Bestnoten-zertifiziert.jpg",
+      "caption": "Impact-as-a-Service平台官网：产品界面与核心功能展示",
+      "alt": "Impact-as-a-Service平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://clickatree.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -185,5 +181,9 @@
     "bodyCharacters": 2481,
     "mediaCount": 3,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

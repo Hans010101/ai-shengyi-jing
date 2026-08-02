@@ -157,18 +157,38 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "可溶解蛋白粉包装的商业增长闭环",
-      "items": [
-        "【引流】Instagram/YouTube健身KOL合作",
-        "【产品】可溶解蛋白粉包",
-        "【变现】订阅制+单次购买",
-        "【留存】订阅折扣+社区互动"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://vade-nutrition.com/cdn/shop/products/ShakerBottle.jpg?v=1597949092&width=560",
+      "caption": "可溶解蛋白粉包装官网：官网展示的产品与实际使用场景",
+      "alt": "可溶解蛋白粉包装官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://vade-nutrition.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "video-file",
+      "url": "https://vade-nutrition.com/cdn/shop/videos/c/vp/67ab43acc3fa48a292143575c59e58e1/67ab43acc3fa48a292143575c59e58e1.SD-480p-1.5Mbps-30155408.mp4?v=0",
+      "watchUrl": "https://vade-nutrition.com/cdn/shop/videos/c/vp/67ab43acc3fa48a292143575c59e58e1/67ab43acc3fa48a292143575c59e58e1.SD-480p-1.5Mbps-30155408.mp4?v=0",
+      "poster": "https://vade-nutrition.com/cdn/shop/files/preview_images/67ab43acc3fa48a292143575c59e58e1.thumbnail.0000000000_small.jpg?v=1717756304",
+      "caption": "可溶解蛋白粉包装官网：产品界面与核心功能展示",
+      "alt": "可溶解蛋白粉包装官网：产品界面与核心功能展示",
+      "sourceUrl": "https://vade-nutrition.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://vade-nutrition.com/cdn/shop/videos/c/vp/97ad8d702159445dbe1cfb7c7ca9a89f/97ad8d702159445dbe1cfb7c7ca9a89f.SD-480p-1.5Mbps-30158194.mp4?v=0",
+      "watchUrl": "https://vade-nutrition.com/cdn/shop/videos/c/vp/97ad8d702159445dbe1cfb7c7ca9a89f/97ad8d702159445dbe1cfb7c7ca9a89f.SD-480p-1.5Mbps-30158194.mp4?v=0",
+      "poster": "https://vade-nutrition.com/cdn/shop/files/preview_images/97ad8d702159445dbe1cfb7c7ca9a89f.thumbnail.0000000000_small.jpg?v=1717760427",
+      "caption": "可溶解蛋白粉包装官网：产品界面与核心功能展示",
+      "alt": "可溶解蛋白粉包装官网：产品界面与核心功能展示",
+      "sourceUrl": "https://vade-nutrition.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -183,7 +203,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2413,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

@@ -157,18 +157,43 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "远程人才招聘中介的商业增长闭环",
-      "items": [
-        "【引流】内容营销+行业合作",
-        "【产品】人才匹配+面试服务",
-        "【变现】成功入职佣金",
-        "【留存】人才库维护+售后支持"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "video",
+      "url": "https://www.youtube.com/embed/akFTT3jyqUw",
+      "watchUrl": "https://www.youtube.com/watch?v=akFTT3jyqUw",
+      "caption": "远程人才招聘中介资料中提及的视频：DistantJob TeamLogicIT",
+      "alt": "DistantJob TeamLogicIT",
+      "sourceUrl": "https://distantjob.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/akFTT3jyqUw/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/vwGKwi7gh3Y",
+      "watchUrl": "https://www.youtube.com/watch?v=vwGKwi7gh3Y",
+      "caption": "远程人才招聘中介资料中提及的视频：Testimonial - Joel Brown, President at Site 5",
+      "alt": "Testimonial - Joel Brown, President at Site 5",
+      "sourceUrl": "https://distantjob.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/vwGKwi7gh3Y/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/uWR3zUyAnts",
+      "watchUrl": "https://www.youtube.com/watch?v=uWR3zUyAnts",
+      "caption": "远程人才招聘中介资料中提及的视频：Remote recruitment agency",
+      "alt": "Remote recruitment agency",
+      "sourceUrl": "https://distantjob.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/uWR3zUyAnts/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -183,7 +208,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2396,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

@@ -157,18 +157,37 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "AI工具帮内容创作者证明赞助价值的商业增长闭环",
-      "items": [
-        "【引流】内容营销（博客、推特）",
-        "【产品】自动化影响力报告工具",
-        "【变现】月订阅$29-$99",
-        "【留存】持续更新报告模板、客户支持"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "video",
+      "url": "https://www.youtube.com/embed/-ER6_Suij9U",
+      "watchUrl": "https://www.youtube.com/watch?v=-ER6_Suij9U",
+      "caption": "AI工具帮内容创作者证明赞助价值资料中提及的视频：Influencer Hub Walkthrough",
+      "alt": "Influencer Hub Walkthrough",
+      "sourceUrl": "https://www.influencekit.com",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/-ER6_Suij9U/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://ik-marketing-site.pages.dev/assets/ik/usercontent/images/1nSUGUHAkWrHiQ55HqNRJp2Zw.ce5318b6.png",
+      "caption": "AI工具帮内容创作者证明赞助价值官网：产品后台与数据看板",
+      "alt": "AI工具帮内容创作者证明赞助价值官网：产品后台与数据看板",
+      "sourceUrl": "https://www.influencekit.com",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://ik-marketing-site.pages.dev/assets/ik/usercontent/images/NBkylpwVSxxCzh3VSuaV4cJAzk.40b2776f.png",
+      "caption": "AI工具帮内容创作者证明赞助价值官网：社交媒体内容与营销活动场景",
+      "alt": "AI工具帮内容创作者证明赞助价值官网：社交媒体内容与营销活动场景",
+      "sourceUrl": "https://www.influencekit.com",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -183,7 +202,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2452,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

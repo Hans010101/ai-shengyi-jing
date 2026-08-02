@@ -157,18 +157,37 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "卖宠物狗专用防掉毛连体衣的商业增长闭环",
-      "items": [
-        "【引流】社交媒体内容营销（Instagram/TikTok）",
-        "【产品】防掉毛连体衣",
-        "【变现】一次性购买+订阅服务",
-        "【留存】宠物社群互动、定期推送新品和护理知识"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "video",
+      "url": "https://www.youtube.com/embed/gTUBt2beGbY",
+      "watchUrl": "https://www.youtube.com/watch?v=gTUBt2beGbY",
+      "caption": "卖宠物狗专用防掉毛连体衣资料中提及的视频：How to Put the Shed Defender On - Dog Onesie Helps with Shedding, Anxiety and Surgical Recovery",
+      "alt": "How to Put the Shed Defender On - Dog Onesie Helps with Shedding, Anxiety and Surgical Recovery",
+      "sourceUrl": "https://sheddefender.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/gTUBt2beGbY/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://sheddefender.com/cdn/shop/files/black-onesie-final_120x120.jpg?v=1747422844",
+      "caption": "卖宠物狗专用防掉毛连体衣官网：官网展示的产品与实际使用场景",
+      "alt": "卖宠物狗专用防掉毛连体衣官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://sheddefender.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://sheddefender.com/cdn/shop/files/onesie-sport-grey_120x120.jpg?v=1747422842",
+      "caption": "卖宠物狗专用防掉毛连体衣官网：官网展示的产品与实际使用场景",
+      "alt": "卖宠物狗专用防掉毛连体衣官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://sheddefender.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -183,7 +202,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2489,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

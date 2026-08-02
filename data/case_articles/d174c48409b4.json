@@ -147,32 +147,44 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "AI会议记录与洞察工具的商业增长闭环",
-      "items": [
-        "【引流】免费会议录制与基础转录",
-        "【产品】AI生成摘要与行动项",
-        "【变现】订阅付费解锁高级功能",
-        "【留存】持续优化AI准确度与集成"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/5f5e90c17e7c9eb95c7acb17/69fa600d8a8b7d2c2d3004c4_video%20open%20(2)%20(1).webp",
+      "caption": "AI会议记录与洞察工具官网：官网展示的产品与实际使用场景",
+      "alt": "AI会议记录与洞察工具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://grain.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "AI会议记录与洞察工具的产品与交付路径",
-      "items": [
-        "会议录制",
-        "AI转录与摘要",
-        "行动项提取",
-        "付费解锁完整功能"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/5f5e90c17e7c9eb95c7acb17/69e15cc1827e6b658bf0ac97_bot-less-transcription.avif",
+      "caption": "AI会议记录与洞察工具官网：产品界面与核心功能展示",
+      "alt": "AI会议记录与洞察工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://grain.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/5f5e90c17e7c9eb95c7acb17/69e006e24daa2335395e4ff3_video-recording-with-bots.avif",
+      "caption": "AI会议记录与洞察工具官网：产品界面与核心功能展示",
+      "alt": "AI会议记录与洞察工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://grain.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/5f5e90c17e7c9eb95c7acb17/69e129bb0161ae096d709f18_Container.avif",
+      "caption": "AI会议记录与洞察工具官网：产品界面与核心功能展示",
+      "alt": "AI会议记录与洞察工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://grain.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -187,7 +199,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2416,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

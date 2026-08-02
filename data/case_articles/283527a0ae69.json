@@ -147,6 +147,16 @@
       "context": "project-hero"
     },
     {
+      "type": "image",
+      "url": "https://typefully.com/cards/card.png",
+      "caption": "AI驱动的社交媒体排程工具官网：产品界面与核心功能展示",
+      "alt": "AI驱动的社交媒体排程工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://typefully.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
       "type": "infographic",
       "variant": "business-loop",
       "title": "AI驱动的社交媒体排程工具的商业增长闭环",
@@ -157,20 +167,6 @@
         "【留存】数据沉淀+团队协作+持续AI优化"
       ],
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
-    },
-    {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "AI驱动的社交媒体排程工具的产品与交付路径",
-      "items": [
-        "用户注册",
-        "连接社交媒体账号",
-        "AI内容生成/优化",
-        "智能排程发布"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
     }
@@ -189,5 +185,9 @@
     "bodyCharacters": 2561,
     "mediaCount": 3,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

@@ -147,32 +147,44 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "AI驱动的建筑承包商获客工具的商业增长闭环",
-      "items": [
-        "【引流】行业博客/SEO/社交媒体广告",
-        "【产品】AI内容生成工具",
-        "【变现】月费订阅",
-        "【留存】持续更新模板/数据分析"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/66dacc76fb28939d860bf57c/670635b68755a96f4cf78883_hero-mobile-paper.webp",
+      "caption": "AI驱动的建筑承包商获客工具官网：官网展示的产品与实际使用场景",
+      "alt": "AI驱动的建筑承包商获客工具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.builderprime.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "AI驱动的建筑承包商获客工具的产品与交付路径",
-      "items": [
-        "用户输入项目信息",
-        "AI生成营销文案/设计",
-        "多渠道发布",
-        "客户线索管理"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/66dacc76fb28939d860bf57c/67076fae616d5db8660b3270_hero-mobile-paper.webp",
+      "caption": "AI驱动的建筑承包商获客工具官网：官网展示的产品与实际使用场景",
+      "alt": "AI驱动的建筑承包商获客工具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.builderprime.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/66dacc76fb28939d860bf57c/66e452040dee17d22aaa7789_imagine.webp",
+      "caption": "AI驱动的建筑承包商获客工具官网：产品后台与数据看板",
+      "alt": "AI驱动的建筑承包商获客工具官网：产品后台与数据看板",
+      "sourceUrl": "https://www.builderprime.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/66dacc76fb28939d860bf57c/67078a7d3003831bec08544d_grow.webp",
+      "caption": "AI驱动的建筑承包商获客工具官网：产品界面与核心功能展示",
+      "alt": "AI驱动的建筑承包商获客工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.builderprime.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -187,7 +199,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2446,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

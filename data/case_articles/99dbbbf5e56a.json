@@ -157,18 +157,34 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "内容创作者的商业增长闭环",
-      "items": [
-        "【引流】SEO和社交媒体内容",
-        "【产品】博客和付费通讯",
-        "【变现】订阅费+联盟佣金+数字产品",
-        "【留存】定期发送优质邮件和更新"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://alltopstartups.com/wp-content/uploads/2025/10/10-Features-of-Excel-That-Startups-Can-Utilise-for-Enhanced-Productivity.jpg.webp",
+      "caption": "内容创作者官网：开发者技能评估与人才筛选界面",
+      "alt": "内容创作者官网：开发者技能评估与人才筛选界面",
+      "sourceUrl": "https://alltopstartups.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://alltopstartups.com/wp-content/uploads/2025/07/Blurred-Lines-Between-Work-and-Home-Are-Harming-SME-Productivity-–-Heres-How-to-Fix-It.jpg.webp",
+      "caption": "内容创作者官网：官网展示的产品与实际使用场景",
+      "alt": "内容创作者官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://alltopstartups.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://alltopstartups.com/wp-content/uploads/2025/02/Could-an-Office-Makeover-Boost-Productivity.jpg.webp",
+      "caption": "内容创作者官网：官网展示的产品与实际使用场景",
+      "alt": "内容创作者官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://alltopstartups.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -183,7 +199,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2395,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

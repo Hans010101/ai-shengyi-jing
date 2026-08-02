@@ -147,6 +147,18 @@
       "context": "project-hero"
     },
     {
+      "type": "video-file",
+      "url": "https://www.postbridge.ai/assets/marketing/postbridge-demo-video3-hero.mp4",
+      "watchUrl": "https://www.postbridge.ai/assets/marketing/postbridge-demo-video3-hero.mp4",
+      "poster": "https://www.postbridge.ai/assets/marketing/postbridge-demo-video3-poster.jpg",
+      "caption": "AI工具帮创作者将短视频转为多平台内容官网：产品界面与核心功能展示",
+      "alt": "AI工具帮创作者将短视频转为多平台内容官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.postbridge.ai/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
       "type": "infographic",
       "variant": "business-loop",
       "title": "AI工具帮创作者将短视频转为多平台内容的商业增长闭环",
@@ -157,20 +169,6 @@
         "【留存】持续更新模板、多平台支持"
       ],
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
-    },
-    {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "AI工具帮创作者将短视频转为多平台内容的产品与交付路径",
-      "items": [
-        "用户上传视频",
-        "AI识别语音与字幕",
-        "生成多格式文案",
-        "导出或一键分发"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
     }
@@ -189,5 +187,9 @@
     "bodyCharacters": 2507,
     "mediaCount": 3,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

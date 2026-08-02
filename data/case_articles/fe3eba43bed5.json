@@ -147,32 +147,34 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "监控SaaS状态并通知的商业增长闭环",
-      "items": [
-        "【引流】SEO+内容营销",
-        "【产品】状态监控仪表盘",
-        "【变现】订阅付费",
-        "【留存】持续更新监控源+多通知渠道"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://static.statusgator.com/assets/home/outage_visibility/cloud-service-monitoring-c6b9aa90db63647b6c262b0acc1cfc6bf34f90d72b39af16cea5500ddcb5aba1.png",
+      "caption": "监控SaaS状态并通知官网：官网展示的产品与实际使用场景",
+      "alt": "监控SaaS状态并通知官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://statusgator.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "监控SaaS状态并通知的产品与交付路径",
-      "items": [
-        "用户注册",
-        "选择监控服务",
-        "配置通知渠道",
-        "实时状态监控"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://statusgator.com/blog/wp-content/uploads/2026/07/Dependencies-thumbnail.png",
+      "caption": "监控SaaS状态并通知官网：官网展示的产品与实际使用场景",
+      "alt": "监控SaaS状态并通知官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://statusgator.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://static.statusgator.com/assets/og/og-home-017ab4c85f74782c23db73e036d5bd5e8805393e25f6c59a71b6a461f12c1140.png",
+      "caption": "监控SaaS状态并通知官网：产品界面与核心功能展示",
+      "alt": "监控SaaS状态并通知官网：产品界面与核心功能展示",
+      "sourceUrl": "https://statusgator.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -187,7 +189,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2411,
-    "mediaCount": 3,
+    "mediaCount": 4,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

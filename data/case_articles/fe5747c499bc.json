@@ -147,32 +147,44 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "在线问卷与市场研究SaaS平台的商业增长闭环",
-      "items": [
-        "【引流】内容营销+免费模板",
-        "【产品】在线问卷工具",
-        "【变现】订阅+增值服务",
-        "【留存】持续更新+客户成功"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://cdn.questionpro.com/userimages/site_media/main-surveys-research-26.png",
+      "caption": "在线问卷与市场研究SaaS平台官网：官网展示的产品与实际使用场景",
+      "alt": "在线问卷与市场研究SaaS平台官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.questionpro.com/us/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "在线问卷与市场研究SaaS平台的产品与交付路径",
-      "items": [
-        "用户注册",
-        "创建问卷",
-        "分发收集",
-        "数据分析"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://cdn.questionpro.com/userimages/site_media/main-customer-experience-26.png",
+      "caption": "在线问卷与市场研究SaaS平台官网：产品界面与核心功能展示",
+      "alt": "在线问卷与市场研究SaaS平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.questionpro.com/us/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.questionpro.com/userimages/site_media/main-employee-experience-26.png",
+      "caption": "在线问卷与市场研究SaaS平台官网：官网展示的产品与实际使用场景",
+      "alt": "在线问卷与市场研究SaaS平台官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.questionpro.com/us/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://questionpro.com/images/qphome/questionpro-thumbnail.png",
+      "caption": "在线问卷与市场研究SaaS平台官网：产品界面与核心功能展示",
+      "alt": "在线问卷与市场研究SaaS平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.questionpro.com/us/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -187,7 +199,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2404,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

@@ -157,18 +157,34 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "定制印刷桌布电商的商业增长闭环",
-      "items": [
-        "【引流】SEO内容（博客、案例）",
-        "【产品】定制桌布/横幅",
-        "【变现】按件收费",
-        "【留存】复购折扣、企业年单"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://cdn11.bigcommerce.com/s-dw57ootmu7/images/stencil/80w/products/295/2157/Screenshot_2026-01-05_at_11.41.32PM__76329.1767739705.png?c=2",
+      "caption": "定制印刷桌布电商官网：官网展示的产品与实际使用场景",
+      "alt": "定制印刷桌布电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://logoclothz.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn11.bigcommerce.com/s-dw57ootmu7/images/stencil/80w/products/294/2147/Screenshot_2026-01-05_at_11.41.32PM__57808.1767734223.png?c=2",
+      "caption": "定制印刷桌布电商官网：官网展示的产品与实际使用场景",
+      "alt": "定制印刷桌布电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://logoclothz.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn11.bigcommerce.com/s-dw57ootmu7/images/stencil/80w/products/267/2145/Screenshot_2026-01-05_at_11.42.44PM__75792.1767745436.png?c=2",
+      "caption": "定制印刷桌布电商官网：官网展示的产品与实际使用场景",
+      "alt": "定制印刷桌布电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://logoclothz.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -183,7 +199,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2422,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

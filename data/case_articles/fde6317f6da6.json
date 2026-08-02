@@ -157,18 +157,14 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "天然男士护理品牌的商业增长闭环",
-      "items": [
-        "【引流】SEO+社交媒体内容（如除臭剂评测）",
-        "【产品】天然除臭剂/沐浴露",
-        "【变现】一次性购买+订阅制",
-        "【留存】订阅折扣+会员专属内容"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "http://static1.squarespace.com/static/63d9326ff18c734258eba177/t/63da7947dd3e94195b9eacf3/1675262279144/AP_Logo2018_TextWhite.png?format=1500w",
+      "caption": "天然男士护理品牌官网：产品界面与核心功能展示",
+      "alt": "天然男士护理品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.americanprovenance.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -185,5 +181,9 @@
     "bodyCharacters": 2439,
     "mediaCount": 3,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

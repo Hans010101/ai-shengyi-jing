@@ -147,32 +147,44 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "无代码漏斗构建器的商业增长闭环",
-      "items": [
-        "【引流】SEO+内容营销",
-        "【产品】无代码漏斗构建器",
-        "【变现】月费订阅",
-        "【留存】模板库+数据分析"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://www.involve.me/img/asset/YXNzZXRzL2RldmVsb3BtZW50L25ldy1ob21wYWdlX3Zpc3VhbHMvcG5nc180eC9nb2FsLWltZ19yZWNvbW1lbmQtcHJvZHVjdHMucG5n/goal-img_recommend-products.png?w=1024&h=1140&q=85&fit=contain&s=cff29c6ee64e14caed3505a7d5a79794",
+      "caption": "无代码漏斗构建器官网：产品界面与核心功能展示",
+      "alt": "无代码漏斗构建器官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.involve.me/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "无代码漏斗构建器的产品与交付路径",
-      "items": [
-        "模板选择",
-        "拖拽编辑",
-        "逻辑配置",
-        "集成发布"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://www.involve.me/img/asset/YXNzZXRzL2Jvb2stcXVhbGlmaWVkLXNhbGVzLWFwcG9pbnRtZW50cy9wcm9kdWN0LWZpbmRlci10aHVtYm5haWwucG5n/product-finder-thumbnail.png?w=1024&h=1400&q=85&fit=contain&s=ead355382580ed021bee86f2a103394f",
+      "caption": "无代码漏斗构建器官网：产品界面与核心功能展示",
+      "alt": "无代码漏斗构建器官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.involve.me/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.involve.me/img/asset/YXNzZXRzL2RldmVsb3BtZW50L25ldy1ob21wYWdlX3Zpc3VhbHMvcHJvZHVjdC1yZWNvbW1lbmRhdGlvbi1mdW5uZWwucG5n/product-recommendation-funnel.png?w=1024&h=981&q=85&fit=contain&s=69072ff98effef97c963c0923afa12b7",
+      "caption": "无代码漏斗构建器官网：产品界面与核心功能展示",
+      "alt": "无代码漏斗构建器官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.involve.me/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.involve.me/img/asset/YXNzZXRzL2ZlYXR1cmUtb3ZlcnZpZXctY292ZXIucG5n/feature-overview-cover.png?w=1024&h=638&q=85&fit=contain&s=75275474a030e1ce6bc08e1510b49e26",
+      "caption": "无代码漏斗构建器官网：产品界面与核心功能展示",
+      "alt": "无代码漏斗构建器官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.involve.me/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -187,7 +199,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2375,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

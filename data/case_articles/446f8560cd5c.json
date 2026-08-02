@@ -147,32 +147,44 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "零信任网络即服务的商业增长闭环",
-      "items": [
-        "【引流】技术博客、开源社区、开发者关系",
-        "【产品】免费版吸引个人开发者，付费版提供高级功能",
-        "【变现】按月/年订阅收费，企业版按用户数定价",
-        "【留存】持续更新功能，社区支持，企业服务"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://cdn.sanity.io/images/w77i7m8x/production-v2/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png",
+      "caption": "零信任网络即服务官网：产品界面与核心功能展示",
+      "alt": "零信任网络即服务官网：产品界面与核心功能展示",
+      "sourceUrl": "https://tailscale.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "零信任网络即服务的产品与交付路径",
-      "items": [
-        "用户注册",
-        "安装客户端",
-        "设备认证",
-        "创建网络"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://tailscale.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fw77i7m8x%2Fproduction-v2%2Fe5991fe7c8e4b4598d8450afeb9cf84a51c092de-399x399.jpg%3Fw%3D800%26q%3D75%26fit%3Dclip%26auto%3Dformat&w=1920&q=75",
+      "caption": "零信任网络即服务官网：官网展示的产品与实际使用场景",
+      "alt": "零信任网络即服务官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://tailscale.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://tailscale.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fw77i7m8x%2Fproduction%2F46050f1c19bfefdb091abddca162b8f2e510163a-400x400.jpg%3Fw%3D800%26q%3D75%26fit%3Dclip%26auto%3Dformat&w=1920&q=75",
+      "caption": "零信任网络即服务官网：官网展示的产品与实际使用场景",
+      "alt": "零信任网络即服务官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://tailscale.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://tailscale.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fw77i7m8x%2Fproduction%2Fef46b8df2a49b866ddbd790e525d4fe017da7808-247x247.jpg%3Fw%3D800%26q%3D75%26fit%3Dclip%26auto%3Dformat&w=1920&q=75",
+      "caption": "零信任网络即服务官网：官网展示的产品与实际使用场景",
+      "alt": "零信任网络即服务官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://tailscale.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -187,7 +199,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2571,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

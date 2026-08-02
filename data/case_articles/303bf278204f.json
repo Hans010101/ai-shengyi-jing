@@ -147,32 +147,37 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "无代码数据自动化平台的商业增长闭环",
-      "items": [
-        "【引流】内容营销(博客/模板库/案例)",
-        "【产品】免费版+试用",
-        "【变现】订阅付费",
-        "【留存】持续更新模板、社区支持、企业服务"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "video",
+      "url": "https://www.youtube.com/embed/9zW7X7IO0tU",
+      "watchUrl": "https://www.youtube.com/watch?v=9zW7X7IO0tU",
+      "caption": "无代码数据自动化平台资料中提及的视频：Fabletics x Parabola | AI Workflows for Ops",
+      "alt": "Fabletics x Parabola | AI Workflows for Ops",
+      "sourceUrl": "https://parabola.io/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/9zW7X7IO0tU/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "无代码数据自动化平台的产品与交付路径",
-      "items": [
-        "用户注册",
-        "连接数据源(CSV/API/数据库)",
-        "拖拽构建工作流(过滤/合并/转换)",
-        "自动化执行"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://parabola.io/animations/figma/cobuilder-loader-lava.webp",
+      "caption": "无代码数据自动化平台官网：官网展示的产品与实际使用场景",
+      "alt": "无代码数据自动化平台官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://parabola.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://parabola.io/images/og-default.jpg",
+      "caption": "无代码数据自动化平台官网：产品界面与核心功能展示",
+      "alt": "无代码数据自动化平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://parabola.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -187,7 +192,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2507,
-    "mediaCount": 3,
+    "mediaCount": 4,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

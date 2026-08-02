@@ -147,32 +147,46 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "为组织提供会员管理与销售SaaS的商业增长闭环",
-      "items": [
-        "【引流】内容营销、SEO、口碑",
-        "【产品】会员管理SaaS",
-        "【变现】月费订阅",
-        "【留存】持续功能更新、客户支持"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/625d41a24ba26520fa739e33/68a88088f8e70bdc7e37484a_Hero%20-%20Specialized%20Hobby%20%26%20Lifestyle%20Clubs.png",
+      "caption": "为组织提供会员管理与销售SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "为组织提供会员管理与销售SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://joinit.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "为组织提供会员管理与销售SaaS的产品与交付路径",
-      "items": [
-        "用户注册",
-        "创建会员计划",
-        "会员购买/续费",
-        "管理会员数据"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/625d41a24ba26520fa739e33/68a881eb3f699819caff47ae_Hero%20-%20Consumer%20%26%20Service-Oriented%20Memberships.png",
+      "caption": "为组织提供会员管理与销售SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "为组织提供会员管理与销售SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://joinit.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "video-file",
+      "url": "https://cdn.prod.website-files.com/62559f10d346a48347577030%2F6a6a2407a65ec04f30ba969f_Animation%20-%20V3_compressed_mp4.mp4",
+      "watchUrl": "https://cdn.prod.website-files.com/62559f10d346a48347577030%2F6a6a2407a65ec04f30ba969f_Animation%20-%20V3_compressed_mp4.mp4",
+      "poster": "https://res.cloudinary.com/joinit/image/upload/v1663705884/open_graph_image_zxokhj.png",
+      "caption": "为组织提供会员管理与销售SaaS官网：产品界面与核心功能展示",
+      "alt": "为组织提供会员管理与销售SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://joinit.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/62559f10d346a48347577030/656e2cd8c88938ecfbf6b7a9_Set%20apart%20image.png",
+      "caption": "为组织提供会员管理与销售SaaS官网：产品界面与核心功能展示",
+      "alt": "为组织提供会员管理与销售SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://joinit.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -187,7 +201,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2442,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

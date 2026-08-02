@@ -157,18 +157,43 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "个人理财与生活方式博客的商业增长闭环",
-      "items": [
-        "【引流】SEO优化文章吸引搜索流量",
-        "【产品】博客文章和免费资源",
-        "【变现】展示广告、联盟链接、数字产品",
-        "【留存】邮件订阅、定期更新内容"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "video",
+      "url": "https://www.youtube.com/embed/Ib7z4o9VD-o",
+      "watchUrl": "https://www.youtube.com/watch?v=Ib7z4o9VD-o",
+      "caption": "个人理财与生活方式博客资料中提及的视频：How to Make Money with Google Maps in 2026 (No Experience Needed)",
+      "alt": "How to Make Money with Google Maps in 2026 (No Experience Needed)",
+      "sourceUrl": "https://thesavvycouple.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/Ib7z4o9VD-o/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/q_JoQlR7y0g",
+      "watchUrl": "https://www.youtube.com/watch?v=q_JoQlR7y0g",
+      "caption": "个人理财与生活方式博客资料中提及的视频：Best Budgeting Apps 2026 (I Tested Them All So You Don't Have To)",
+      "alt": "Best Budgeting Apps 2026 (I Tested Them All So You Don't Have To)",
+      "sourceUrl": "https://thesavvycouple.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/q_JoQlR7y0g/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/3aeAy3Qs2UA",
+      "watchUrl": "https://www.youtube.com/watch?v=3aeAy3Qs2UA",
+      "caption": "个人理财与生活方式博客资料中提及的视频：How to Sell AI Websites to Local Businesses in 2026 (No Tech Skills)",
+      "alt": "How to Sell AI Websites to Local Businesses in 2026 (No Tech Skills)",
+      "sourceUrl": "https://thesavvycouple.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/3aeAy3Qs2UA/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -183,7 +208,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2526,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

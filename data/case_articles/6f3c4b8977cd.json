@@ -157,18 +157,27 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "提供高速WordPress托管服务的商业增长闭环",
-      "items": [
-        "【引流】SEO内容+口碑+联盟",
-        "【产品】高速WordPress托管",
-        "【变现】订阅费+增值服务",
-        "【留存】优质客服+性能保障"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://wpx.net/img/wpx_social_thumbnail.png",
+      "caption": "提供高速WordPress托管服务官网：产品界面与核心功能展示",
+      "alt": "提供高速WordPress托管服务官网：产品界面与核心功能展示",
+      "sourceUrl": "https://wpx.net/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/SMDsOPrU88c",
+      "watchUrl": "https://www.youtube.com/watch?v=SMDsOPrU88c",
+      "caption": "提供高速WordPress托管服务资料中提及的视频：Best Hosting Companies for SEO (The Search is Over!)",
+      "alt": "Best Hosting Companies for SEO (The Search is Over!)",
+      "sourceUrl": "https://wpx.net/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/SMDsOPrU88c/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -183,7 +192,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2422,
-    "mediaCount": 3,
+    "mediaCount": 4,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

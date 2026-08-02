@@ -147,32 +147,24 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "AI招聘CRM的商业增长闭环",
-      "items": [
-        "【引流】SEO内容营销+招聘社区分享",
-        "【产品】AI招聘CRM",
-        "【变现】月订阅+增值功能",
-        "【留存】持续优化AI匹配+客户成功服务"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://recruitcrm.io/static-assets/_next/image/?url=%2Fstatic-assets%2F_next%2Fstatic%2Fmedia%2FDemobg.4ec7c499.png&w=3840&q=75",
+      "caption": "AI招聘CRM官网：官网展示的产品与实际使用场景",
+      "alt": "AI招聘CRM官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://recruitcrm.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "AI招聘CRM的产品与交付路径",
-      "items": [
-        "用户注册",
-        "导入职位",
-        "AI筛选简历",
-        "自动沟通候选人"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://recruitcrm.io/wp-content/uploads/2026/03/recruitcrm.io-_-Thumbnail-scaled.webp",
+      "caption": "AI招聘CRM官网：产品界面与核心功能展示",
+      "alt": "AI招聘CRM官网：产品界面与核心功能展示",
+      "sourceUrl": "https://recruitcrm.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,5 +181,9 @@
     "bodyCharacters": 2415,
     "mediaCount": 3,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

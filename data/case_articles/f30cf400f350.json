@@ -147,6 +147,16 @@
       "context": "project-hero"
     },
     {
+      "type": "image",
+      "url": "http://static1.squarespace.com/static/6238ba8fd02d3a47aa7fc5c2/t/62531ac7d2ec8f731b94fd7b/1649613511500/a+block+from+home.png?format=1500w",
+      "caption": "睡前故事播客官网：产品界面与核心功能展示",
+      "alt": "睡前故事播客官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.nothingmuchhappens.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
       "type": "infographic",
       "variant": "business-loop",
       "title": "睡前故事播客的商业增长闭环",
@@ -157,20 +167,6 @@
         "【留存】定期更新+社区互动"
       ],
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
-    },
-    {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "睡前故事播客的产品与交付路径",
-      "items": [
-        "内容创作",
-        "音频录制",
-        "平台分发",
-        "听众收听"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
     }
@@ -189,5 +185,9 @@
     "bodyCharacters": 2385,
     "mediaCount": 3,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

@@ -147,32 +147,44 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "客户反馈管理SaaS的商业增长闭环",
-      "items": [
-        "【引流】SEO内容营销+免费版",
-        "【产品】反馈收集+路线图+帮助中心+聊天",
-        "【变现】订阅付费",
-        "【留存】持续功能更新+社区运营"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://www.featurebase.app/images/redesign3/product-ill/inbox5.png",
+      "caption": "客户反馈管理SaaS官网：产品界面与核心功能展示",
+      "alt": "客户反馈管理SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.featurebase.app/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "客户反馈管理SaaS的产品与交付路径",
-      "items": [
-        "用户注册",
-        "创建项目",
-        "集成反馈小部件/API",
-        "收集用户反馈"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://www.featurebase.app/images/redesign3/product-ill/messenger2.jpg",
+      "caption": "客户反馈管理SaaS官网：产品界面与核心功能展示",
+      "alt": "客户反馈管理SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.featurebase.app/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.featurebase.app/images/redesign3/product-ill/board12.png",
+      "caption": "客户反馈管理SaaS官网：产品界面与核心功能展示",
+      "alt": "客户反馈管理SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.featurebase.app/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.featurebase.app/images/redesign3/product-ill/help2.png",
+      "caption": "客户反馈管理SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "客户反馈管理SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.featurebase.app/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -187,7 +199,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2461,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

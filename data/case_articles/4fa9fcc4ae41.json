@@ -147,6 +147,16 @@
       "context": "project-hero"
     },
     {
+      "type": "image",
+      "url": "https://pyimagesearch.com/wp-content/uploads/2020/01/illustration.png",
+      "caption": "PyImageSearch是计算机视觉教育平台官网：产品界面与核心功能展示",
+      "alt": "PyImageSearch是计算机视觉教育平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://pyimagesearch.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
       "type": "infographic",
       "variant": "business-loop",
       "title": "PyImageSearch是计算机视觉教育平台的商业增长闭环",
@@ -157,20 +167,6 @@
         "【留存】社区讨论、更新内容"
       ],
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
-    },
-    {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "PyImageSearch是计算机视觉教育平台的产品与交付路径",
-      "items": [
-        "免费博客文章",
-        "电子邮件订阅",
-        "付费电子书/课程",
-        "社区会员"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
     }
@@ -189,5 +185,9 @@
     "bodyCharacters": 2488,
     "mediaCount": 3,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

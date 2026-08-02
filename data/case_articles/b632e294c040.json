@@ -157,18 +157,40 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "自助视频制作平台的商业增长闭环",
-      "items": [
-        "【引流】SEO+内容营销+社交媒体广告",
-        "【产品】自助视频制作平台",
-        "【变现】按视频收费+订阅制",
-        "【留存】优质交付+客户成功团队"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://www.lemonlight.com/wp-content/uploads/2025/07/featured-img-home-1-1024x574.png",
+      "caption": "自助视频制作平台官网：产品界面与核心功能展示",
+      "alt": "自助视频制作平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.lemonlight.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "video",
+      "url": "https://player.vimeo.com/video/922638687",
+      "watchUrl": "https://vimeo.com/922638687",
+      "caption": "自助视频制作平台资料中提及的视频：Lemonlight Platform, Hero Promo",
+      "alt": "Lemonlight Platform, Hero Promo",
+      "sourceUrl": "https://www.lemonlight.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.vimeocdn.com/video/1819937172-a223111c6c7f742106015690290194193d874139c8cb2ca0bda48dd9f1993308-d_295x166?region=us",
+      "provider": "Vimeo",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://player.vimeo.com/video/1063396810",
+      "watchUrl": "https://vimeo.com/1063396810",
+      "caption": "自助视频制作平台资料中提及的视频：42153_LL Marketing 2025 Reel_Hero_60sec_16x9_8568404865-vFINAL",
+      "alt": "42153_LL Marketing 2025 Reel_Hero_60sec_16x9_8568404865-vFINAL",
+      "sourceUrl": "https://www.lemonlight.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.vimeocdn.com/video/2003275298-ed099e7684d05fac937543866bc18fa3a2d5fe61e749ec24b12f91cecfd837df-d_295x166?region=us",
+      "provider": "Vimeo",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -183,7 +205,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2504,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

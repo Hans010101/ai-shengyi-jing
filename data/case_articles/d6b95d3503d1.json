@@ -157,18 +157,34 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "卖反战主题饰品的商业增长闭环",
-      "items": [
-        "【引流】社交媒体故事内容（TikTok/小红书）",
-        "【产品】反战/文化主题饰品",
-        "【变现】官网/电商直接销售",
-        "【留存】定期新品故事+社群互动"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://www.combatflipflops.com/cdn/shop/products/AK-Outsole.png?v=1759170161&width=1000",
+      "caption": "卖反战主题饰品官网：官网展示的产品与实际使用场景",
+      "alt": "卖反战主题饰品官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.combatflipflops.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.combatflipflops.com/cdn/shop/files/AK-Product-2.png?v=1759170161&width=1080",
+      "caption": "卖反战主题饰品官网：官网展示的产品与实际使用场景",
+      "alt": "卖反战主题饰品官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.combatflipflops.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.combatflipflops.com/cdn/shop/files/AK-Product-3.png?v=1759170161&width=1080",
+      "caption": "卖反战主题饰品官网：官网展示的产品与实际使用场景",
+      "alt": "卖反战主题饰品官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.combatflipflops.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -183,7 +199,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2448,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

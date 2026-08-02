@@ -147,32 +147,46 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "建站和销售漏斗构建SaaS工具的商业增长闭环",
-      "items": [
-        "【引流】内容营销+SEO+联盟营销",
-        "【产品】销售漏斗构建SaaS",
-        "【变现】订阅付费+升级套餐",
-        "【留存】持续更新模板+社区+客户成功"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "video-file",
+      "url": "https://s3content.s3.amazonaws.com/clickfunnels/2025%20Site/06-HomePage_Courses_V28Jan.mp4",
+      "watchUrl": "https://s3content.s3.amazonaws.com/clickfunnels/2025%20Site/06-HomePage_Courses_V28Jan.mp4",
+      "poster": "https://statics.myclickfunnels.com/workspace/Yjxavr/image/9617921/file/22460862290f4b950fab4f532553d969.png",
+      "caption": "建站和销售漏斗构建SaaS工具官网：产品界面与核心功能展示",
+      "alt": "建站和销售漏斗构建SaaS工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.clickfunnels.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "建站和销售漏斗构建SaaS工具的产品与交付路径",
-      "items": [
-        "注册试用",
-        "选择模板",
-        "拖拽编辑",
-        "集成支付"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://images.clickfunnels.com/cdn-cgi/image/width=1000px,fit=scale-down,f=auto,q=100/https://statics.myclickfunnels.com/workspace/Yjxavr/image/10694207/file/21ea5179154ce8ad447c35ac77a82f85.png",
+      "caption": "建站和销售漏斗构建SaaS工具官网：官网展示的产品与实际使用场景",
+      "alt": "建站和销售漏斗构建SaaS工具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.clickfunnels.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://images.clickfunnels.com/cdn-cgi/image/width=1000px,fit=scale-down,f=auto,q=100/https://statics.myclickfunnels.com/workspace/Yjxavr/image/10694441/file/51bbde5e72f56bfa02e7688a19f07d93.png",
+      "caption": "建站和销售漏斗构建SaaS工具官网：用户社区与产品使用场景",
+      "alt": "建站和销售漏斗构建SaaS工具官网：用户社区与产品使用场景",
+      "sourceUrl": "https://www.clickfunnels.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://images.clickfunnels.com/cdn-cgi/image/width=1000px,fit=scale-down,f=auto,q=100/https://statics.myclickfunnels.com/workspace/Yjxavr/image/10694523/file/1c0e85c63e02fa713564de651dd76c1c.png",
+      "caption": "建站和销售漏斗构建SaaS工具官网：官网展示的产品与实际使用场景",
+      "alt": "建站和销售漏斗构建SaaS工具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.clickfunnels.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -187,7 +201,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2451,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

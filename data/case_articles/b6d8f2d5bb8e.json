@@ -157,18 +157,34 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "亚马逊卖家数据自动化工具的商业增长闭环",
-      "items": [
-        "【引流】亚马逊卖家论坛、YouTube教程、SEO",
-        "【产品】Google Sheets插件",
-        "【变现】月费订阅（$29-$99/月）",
-        "【留存】持续更新数据源、增加报表模板、客户支持"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/67e3abefe5f7ee5f74fe396f/69320b8bc1dd7df55197097c_Amazon-shopify-walmart-ecommerce-google-sheets-data-connector-HERO-700px.avif",
+      "caption": "亚马逊卖家数据自动化工具官网：官网展示的产品与实际使用场景",
+      "alt": "亚马逊卖家数据自动化工具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.gorillaroi.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/67e3abefe5f7ee5f74fe396f/683981451169e25593b8fd69_Group%201171277832.avif",
+      "caption": "亚马逊卖家数据自动化工具官网：数据分析与决策功能界面",
+      "alt": "亚马逊卖家数据自动化工具官网：数据分析与决策功能界面",
+      "sourceUrl": "https://www.gorillaroi.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/67e3abefe5f7ee5f74fe396f/69b86a27c58e121bd043d5c1_amazon-before-mess-files-exports.avif",
+      "caption": "亚马逊卖家数据自动化工具官网：产品后台与数据看板",
+      "alt": "亚马逊卖家数据自动化工具官网：产品后台与数据看板",
+      "sourceUrl": "https://www.gorillaroi.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -183,7 +199,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2504,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

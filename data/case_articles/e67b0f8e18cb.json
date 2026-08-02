@@ -147,6 +147,16 @@
       "context": "project-hero"
     },
     {
+      "type": "image",
+      "url": "https://waterllama.com/images/drink-water-challenge.png",
+      "caption": "趣味习惯养成喝水提醒App官网：官网展示的产品与实际使用场景",
+      "alt": "趣味习惯养成喝水提醒App官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://waterllama.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
       "type": "infographic",
       "variant": "business-loop",
       "title": "趣味习惯养成喝水提醒App的商业增长闭环",
@@ -157,20 +167,6 @@
         "【留存】宠物养成/社交排名/连续打卡奖励"
       ],
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
-    },
-    {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "趣味习惯养成喝水提醒App的产品与交付路径",
-      "items": [
-        "用户注册",
-        "每日饮水记录",
-        "游戏化反馈（宠物/成就）",
-        "数据分析"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
     }
@@ -189,5 +185,9 @@
     "bodyCharacters": 2497,
     "mediaCount": 3,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

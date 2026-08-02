@@ -147,6 +147,16 @@
       "context": "project-hero"
     },
     {
+      "type": "image",
+      "url": "https://s40vlb3kca.ufs.sh/f/7v4pu1gTNmoZeEa4ZxyxpbCZzXFwSk2WBqaeGJvrsE1lhQKg",
+      "caption": "为创作者提供视频通话软件及开发者工具官网：产品界面与核心功能展示",
+      "alt": "为创作者提供视频通话软件及开发者工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://ping.gg/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
       "type": "infographic",
       "variant": "business-loop",
       "title": "为创作者提供视频通话软件及开发者工具的商业增长闭环",
@@ -157,20 +167,6 @@
         "【留存】持续更新功能、社区互动"
       ],
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
-    },
-    {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "为创作者提供视频通话软件及开发者工具的产品与交付路径",
-      "items": [
-        "用户注册",
-        "免费使用基础视频通话",
-        "升级订阅解锁高级功能",
-        "多平台推流与录制"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
     }
@@ -189,5 +185,9 @@
     "bodyCharacters": 2526,
     "mediaCount": 3,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

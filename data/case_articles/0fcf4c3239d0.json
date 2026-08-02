@@ -157,18 +157,14 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "德国IT自由职业者在线社区的商业增长闭环",
-      "items": [
-        "【引流】社交媒体内容+口碑传播",
-        "【产品】线上社区+线下活动",
-        "【变现】会员订阅+活动门票",
-        "【留存】持续价值输出+人脉连接"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://uplink.tech/assets/web/header/home-d76a8dbe.jpg",
+      "caption": "德国IT自由职业者在线社区官网：产品界面与核心功能展示",
+      "alt": "德国IT自由职业者在线社区官网：产品界面与核心功能展示",
+      "sourceUrl": "https://uplink.tech/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -185,5 +181,9 @@
     "bodyCharacters": 2476,
     "mediaCount": 3,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

@@ -157,18 +157,14 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "AI生成营销内容的SaaS平台的商业增长闭环",
-      "items": [
-        "【引流】SEO+内容营销+免费试用",
-        "【产品】AI文案生成工具",
-        "【变现】订阅付费+按量计费",
-        "【留存】持续优化模型+客户成功+积分体系"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://copysmith.ai/og-image.png",
+      "caption": "AI生成营销内容的SaaS平台官网：产品界面与核心功能展示",
+      "alt": "AI生成营销内容的SaaS平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.copysmith.ai/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -185,5 +181,9 @@
     "bodyCharacters": 2477,
     "mediaCount": 3,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

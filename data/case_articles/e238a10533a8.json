@@ -147,32 +147,46 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "健身房管理SaaS的商业增长闭环",
-      "items": [
-        "【引流】SEO+内容营销",
-        "【产品】SaaS管理平台",
-        "【变现】月费订阅",
-        "【留存】持续更新功能+客户成功"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "video-file",
+      "url": "https://cdn.prod.website-files.com/6914b85333e33b4edbc7c2dd%2F6a30f899fb3ffd5ef52abb26_home_no-lucas_no-text_mp4.mp4",
+      "watchUrl": "https://cdn.prod.website-files.com/6914b85333e33b4edbc7c2dd%2F6a30f899fb3ffd5ef52abb26_home_no-lucas_no-text_mp4.mp4",
+      "poster": "https://cdn.prod.website-files.com/6914b85333e33b4edbc7c2dd/6a1819927365d964abc51d71_209b8daaae24b8c3ce91d30c1359377f_og.webp",
+      "caption": "健身房管理SaaS官网：产品界面与核心功能展示",
+      "alt": "健身房管理SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://gymdesk.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "健身房管理SaaS的产品与交付路径",
-      "items": [
-        "用户注册",
-        "会员管理",
-        "计费与支付",
-        "营销自动化"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/6914b85333e33b4edbc7c2dd/69f34763cbccbe92b75c55ce_pantheon.gymdesk.com_manager_attendance_overview%20(3)%2014.png",
+      "caption": "健身房管理SaaS官网：产品后台与数据看板",
+      "alt": "健身房管理SaaS官网：产品后台与数据看板",
+      "sourceUrl": "https://gymdesk.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/6914b85333e33b4edbc7c2dd/6a0dc72ac6c3eaf7eb1057bf_643df1737c3f91d5fcfdaa3f475f79c4_GU-manager_automations_templates.webp",
+      "caption": "健身房管理SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "健身房管理SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://gymdesk.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/6914b85333e33b4edbc7c2dd/69f347d6940f1894ace11418_billing.png",
+      "caption": "健身房管理SaaS官网：产品后台与数据看板",
+      "alt": "健身房管理SaaS官网：产品后台与数据看板",
+      "sourceUrl": "https://gymdesk.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -187,7 +201,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2350,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

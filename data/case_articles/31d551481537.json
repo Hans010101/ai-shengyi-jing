@@ -157,18 +157,14 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "创业者福利聚合平台的商业增长闭环",
-      "items": [
-        "【引流】社交媒体内容+创始人故事",
-        "【产品】会员专属折扣目录",
-        "【变现】会员年费+联盟佣金",
-        "【留存】定期新增合作+专属社群"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://www.joinsecret.com/assets/OG_Secret_2-feb5a8d7f9d65c05ee6955f8fb6e8906e778b7343f50d26e66faa56a71ebf412.png",
+      "caption": "创业者福利聚合平台官网：产品界面与核心功能展示",
+      "alt": "创业者福利聚合平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.joinsecret.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -185,5 +181,9 @@
     "bodyCharacters": 2447,
     "mediaCount": 3,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

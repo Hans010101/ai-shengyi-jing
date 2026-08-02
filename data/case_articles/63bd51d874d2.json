@@ -157,18 +157,14 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "Meister提供协作应用的商业增长闭环",
-      "items": [
-        "【引流】内容营销+口碑传播",
-        "【产品】免费协作工具",
-        "【变现】订阅付费+团队版升级",
-        "【留存】持续更新+客户成功支持"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://a.storyblok.com/f/289344/1200x631/472173adb4/mt_default-sharing-image_1200x630_en.png",
+      "caption": "Meister提供协作应用官网：产品界面与核心功能展示",
+      "alt": "Meister提供协作应用官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.meistertask.com/pages/about-us",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -185,5 +181,9 @@
     "bodyCharacters": 2441,
     "mediaCount": 3,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

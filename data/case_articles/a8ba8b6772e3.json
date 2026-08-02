@@ -147,6 +147,16 @@
       "context": "project-hero"
     },
     {
+      "type": "image",
+      "url": "https://huckabuy.com/_next/image/?url=%2Fmedia%2Foptimized%2Fguages-infographic.webp&w=1200&q=30",
+      "caption": "SEO性能优化SaaS官网：产品界面与核心功能展示",
+      "alt": "SEO性能优化SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://huckabuy.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
       "type": "infographic",
       "variant": "business-loop",
       "title": "SEO性能优化SaaS的商业增长闭环",
@@ -157,20 +167,6 @@
         "【留存】持续优化效果+客户成功服务"
       ],
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
-    },
-    {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "SEO性能优化SaaS的产品与交付路径",
-      "items": [
-        "网站接入",
-        "AI分析SEO问题",
-        "自动优化结构化数据",
-        "生成优化报告"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
     }
@@ -189,5 +185,9 @@
     "bodyCharacters": 2476,
     "mediaCount": 3,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

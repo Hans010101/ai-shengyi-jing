@@ -147,32 +147,44 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "A/B测试及转化优化SaaS平台的商业增长闭环",
-      "items": [
-        "【引流】内容营销+SEO",
-        "【产品】A/B测试SaaS",
-        "【变现】订阅付费",
-        "【留存】持续优化+客户成功"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://www.convert.com/wp-content/themes/olympus/img/mcp-feature-placeholder-mobile.webp",
+      "caption": "A/B测试及转化优化SaaS平台官网：全栈项目与数据看板练习界面",
+      "alt": "A/B测试及转化优化SaaS平台官网：全栈项目与数据看板练习界面",
+      "sourceUrl": "https://www.convert.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "A/B测试及转化优化SaaS平台的产品与交付路径",
-      "items": [
-        "用户注册",
-        "创建实验",
-        "设定目标",
-        "运行测试"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://www.convert.com/wp-content/themes/olympus/img/mcp-feature-placeholder.webp",
+      "caption": "A/B测试及转化优化SaaS平台官网：官网展示的产品与实际使用场景",
+      "alt": "A/B测试及转化优化SaaS平台官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.convert.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.convert.com/wp-content/themes/olympus/img/features-section-desktop.jpg",
+      "caption": "A/B测试及转化优化SaaS平台官网：产品界面与核心功能展示",
+      "alt": "A/B测试及转化优化SaaS平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.convert.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.convert.com/wp-content/themes/olympus/img/features-section-mobile.jpg",
+      "caption": "A/B测试及转化优化SaaS平台官网：产品界面与核心功能展示",
+      "alt": "A/B测试及转化优化SaaS平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.convert.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -187,7 +199,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2469,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

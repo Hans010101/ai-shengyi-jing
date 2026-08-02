@@ -147,32 +147,24 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "SEO测试SaaS的商业增长闭环",
-      "items": [
-        "【引流】SEO内容营销+社交媒体",
-        "【产品】SEO测试SaaS",
-        "【变现】月费订阅",
-        "【留存】持续更新报告+邮件提醒"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://seotesting.com/wp-content/uploads/2026/06/seotesting-social-card.webp",
+      "caption": "SEO测试SaaS官网：产品界面与核心功能展示",
+      "alt": "SEO测试SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://seotesting.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "SEO测试SaaS的产品与交付路径",
-      "items": [
-        "用户注册",
-        "输入网站",
-        "运行SEO测试",
-        "生成报告"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://seotesting.com/wp-content/uploads/2026/03/time-based-test-long.webp",
+      "caption": "SEO测试SaaS官网：产品界面与核心功能展示",
+      "alt": "SEO测试SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://seotesting.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,5 +181,9 @@
     "bodyCharacters": 2412,
     "mediaCount": 3,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

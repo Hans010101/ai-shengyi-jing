@@ -157,18 +157,14 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "现代育儿博客的商业增长闭环",
-      "items": [
-        "【引流】SEO+社交媒体分享育儿干货",
-        "【产品】博客文章+邮件内容",
-        "【变现】广告+联盟+数字产品",
-        "【留存】定期更新+社群互动"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "http://static1.squarespace.com/static/5a821cbfcd39c397b751ce11/t/5cd112501381d900014699dc/1557205586260/she+wears+love.png?format=1500w",
+      "caption": "现代育儿博客官网：产品界面与核心功能展示",
+      "alt": "现代育儿博客官网：产品界面与核心功能展示",
+      "sourceUrl": "https://shewearslove.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -185,5 +181,9 @@
     "bodyCharacters": 2412,
     "mediaCount": 3,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

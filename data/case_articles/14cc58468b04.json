@@ -157,18 +157,34 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "在线宠物用品电商的商业增长闭环",
-      "items": [
-        "【引流】社交媒体内容+SEO+付费广告",
-        "【产品】自有品牌宠物零食/用品",
-        "【变现】官网在线销售",
-        "【留存】订阅服务+会员积分+复购优惠"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://www.pawstruck.com/cdn/shop/products/PS_Bag_Mockup_NaturalDentalChews_Large_NoCount.jpg?v=1762458646&width=600",
+      "caption": "在线宠物用品电商官网：官网展示的产品与实际使用场景",
+      "alt": "在线宠物用品电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.pawstruck.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.pawstruck.com/cdn/shop/files/206014-EA_MAIN.png?v=1773678495&width=600",
+      "caption": "在线宠物用品电商官网：官网展示的产品与实际使用场景",
+      "alt": "在线宠物用品电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.pawstruck.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.pawstruck.com/cdn/shop/files/PS_Bag_Mockup_BeefJerky_Medium_15count.jpg?v=1762466411&width=600",
+      "caption": "在线宠物用品电商官网：官网展示的产品与实际使用场景",
+      "alt": "在线宠物用品电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.pawstruck.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -183,7 +199,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2494,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

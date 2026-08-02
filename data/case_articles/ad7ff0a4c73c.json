@@ -157,18 +157,14 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "AI驱动的电商增长平台的商业增长闭环",
-      "items": [
-        "【引流】SEO+内容营销+电商社区",
-        "【产品】AI自动化工具",
-        "【变现】月费订阅+佣金",
-        "【留存】持续优化效果+客户成功"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://framerusercontent.com/assets/qRFLiifVOZ9RJ8mJXssBYLf3CU.png",
+      "caption": "AI驱动的电商增长平台官网：产品界面与核心功能展示",
+      "alt": "AI驱动的电商增长平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://xenaintelligence.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -185,5 +181,9 @@
     "bodyCharacters": 2491,
     "mediaCount": 3,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

@@ -147,32 +147,44 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "AI批改作业工具的商业增长闭环",
-      "items": [
-        "【引流】教师社群/SEO内容",
-        "【产品】AI批改工具",
-        "【变现】月度/年度订阅",
-        "【留存】持续优化准确度+数据报告"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/66d4ca8898912b9b735e0bdd/6a3baeabce2456610be2400c_Essay%20Grader%20Dashboard.avif",
+      "caption": "AI批改作业工具官网：产品后台与数据看板",
+      "alt": "AI批改作业工具官网：产品后台与数据看板",
+      "sourceUrl": "https://www.essaygrader.ai/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "AI批改作业工具的产品与交付路径",
-      "items": [
-        "教师注册",
-        "上传学生作文",
-        "AI评分与反馈",
-        "生成报告"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/66d4ca8898912b9b735e0bdd/66dd72b797b19303b1056624_Bulk%20Uploading.avif",
+      "caption": "AI批改作业工具官网：产品界面与核心功能展示",
+      "alt": "AI批改作业工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.essaygrader.ai/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/66d4ca8898912b9b735e0bdd/66dd77a7396af3b5cc8de2e6_Custom%20Rubrics.avif",
+      "caption": "AI批改作业工具官网：官网展示的产品与实际使用场景",
+      "alt": "AI批改作业工具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.essaygrader.ai/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/66d4ca8898912b9b735e0bdd/66dd780f3de86b5508c920ec_Default%20Rubrics.avif",
+      "caption": "AI批改作业工具官网：官网展示的产品与实际使用场景",
+      "alt": "AI批改作业工具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.essaygrader.ai/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -187,7 +199,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2402,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

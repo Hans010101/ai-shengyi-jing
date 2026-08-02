@@ -147,6 +147,16 @@
       "context": "project-hero"
     },
     {
+      "type": "image",
+      "url": "https://assets.softr-files.com/applications/3d966864-2ae6-4de4-aae5-9aa59eb6066f/assets/dc0eaace-b5d2-4bf9-8276-00bc837d7475.png",
+      "caption": "海外营销工具项目官网：产品界面与核心功能展示",
+      "alt": "海外营销工具项目官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.marketingmax.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
       "type": "infographic",
       "variant": "business-loop",
       "title": "海外营销工具项目的商业增长闭环",
@@ -157,20 +167,6 @@
         "【留存】持续优化效果+客户成功团队"
       ],
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
-    },
-    {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "海外营销工具项目的产品与交付路径",
-      "items": [
-        "用户注册",
-        "安装追踪代码",
-        "AI分析按钮点击数据",
-        "生成优化建议"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
     }
@@ -189,5 +185,9 @@
     "bodyCharacters": 2510,
     "mediaCount": 3,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

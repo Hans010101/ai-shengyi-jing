@@ -157,18 +157,39 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "滑雪护目镜和头盔品牌的商业增长闭环",
-      "items": [
-        "【引流】社交媒体内容+滑雪KOL合作",
-        "【产品】高性价比滑雪护目镜和头盔",
-        "【变现】官网直接销售+配件",
-        "【留存】社区互动+老客折扣"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "video",
+      "url": "https://www.youtube.com/embed/QQ-fBwFv-Ns",
+      "watchUrl": "https://www.youtube.com/watch?v=QQ-fBwFv-Ns",
+      "caption": "滑雪护目镜和头盔品牌资料中提及的视频：What is REVEAL™ Photochromic?",
+      "alt": "What is REVEAL™ Photochromic?",
+      "sourceUrl": "https://www.shopglade.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/QQ-fBwFv-Ns/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://cdn.shopify.com/videos/c/o/v/8ad8d49ee725486abea4ee1fa772a03d.mp4",
+      "watchUrl": "https://cdn.shopify.com/videos/c/o/v/8ad8d49ee725486abea4ee1fa772a03d.mp4",
+      "poster": "http://www.shopglade.com/cdn/shop/files/IMG_2438.jpg?v=1758660713",
+      "caption": "滑雪护目镜和头盔品牌官网：产品界面与核心功能展示",
+      "alt": "滑雪护目镜和头盔品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.shopglade.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://i.shgcdn.com/f033dc4e-ec25-4d24-ae5e-6b061b9ea186/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+      "caption": "滑雪护目镜和头盔品牌官网：官网展示的产品与实际使用场景",
+      "alt": "滑雪护目镜和头盔品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.shopglade.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -183,7 +204,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2483,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

@@ -147,32 +147,24 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "AI市场研究SaaS的商业增长闭环",
-      "items": [
-        "【引流】内容营销（市场研究案例）➕ 免费试用",
-        "【产品】AI市场研究SaaS",
-        "【变现】月/年订阅",
-        "【留存】持续更新数据源、客户成功服务"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://www.stravito.com/hubfs/stravito%20-%20insights%20intelligence%20platform.png",
+      "caption": "AI市场研究SaaS官网：产品界面与核心功能展示",
+      "alt": "AI市场研究SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.stravito.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "AI市场研究SaaS的产品与交付路径",
-      "items": [
-        "用户注册",
-        "连接数据源（API/上传）",
-        "AI分析生成报告",
-        "导出或分享"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://www.stravito.com/hubfs/book_a_demo_banner.png",
+      "caption": "AI市场研究SaaS官网：官网展示的产品主场景",
+      "alt": "AI市场研究SaaS官网：官网展示的产品主场景",
+      "sourceUrl": "https://www.stravito.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,5 +181,9 @@
     "bodyCharacters": 2530,
     "mediaCount": 3,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

@@ -157,18 +157,37 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "中式婚服电商的商业增长闭环",
-      "items": [
-        "【引流】SEO优化+社交媒体内容+婚礼博主合作",
-        "【产品】现代改良旗袍+中式婚服",
-        "【变现】在线销售服装",
-        "【留存】客户好评+复购+转介绍"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "video",
+      "url": "https://www.youtube.com/embed/9U83A3NIF1s",
+      "watchUrl": "https://www.youtube.com/watch?v=9U83A3NIF1s",
+      "caption": "中式婚服电商资料中提及的视频：Finding the PERFECT Qipao for Helen's Wedding!",
+      "alt": "Finding the PERFECT Qipao for Helen's Wedding!",
+      "sourceUrl": "https://eastmeetsdress.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/9U83A3NIF1s/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://heapanalytics.com/img/badgeLight.png",
+      "caption": "中式婚服电商官网：数据分析与决策功能界面",
+      "alt": "中式婚服电商官网：数据分析与决策功能界面",
+      "sourceUrl": "https://eastmeetsdress.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "http://eastmeetsdress.com/cdn/shop/files/East-Meets-Dress-Chinese-New-Year-Cheongsam-Wedding-Dress_1200x1200.jpg?v=1614299129",
+      "caption": "中式婚服电商官网：产品界面与核心功能展示",
+      "alt": "中式婚服电商官网：产品界面与核心功能展示",
+      "sourceUrl": "https://eastmeetsdress.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -183,7 +202,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2474,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

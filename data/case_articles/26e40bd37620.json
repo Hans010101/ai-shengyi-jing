@@ -157,18 +157,14 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "为保洁公司提供排班SaaS软件的商业增长闭环",
-      "items": [
-        "【引流】SEO+内容营销+行业展会",
-        "【产品】排班SaaS系统",
-        "【变现】月费订阅",
-        "【留存】持续功能迭代+客服支持"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://framerusercontent.com/assets/loSaM9MsA9S4gwKwzFClJai4hKo.png",
+      "caption": "为保洁公司提供排班SaaS软件官网：产品界面与核心功能展示",
+      "alt": "为保洁公司提供排班SaaS软件官网：产品界面与核心功能展示",
+      "sourceUrl": "https://get.zenmaid.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -185,5 +181,9 @@
     "bodyCharacters": 2415,
     "mediaCount": 3,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

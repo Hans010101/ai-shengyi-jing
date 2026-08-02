@@ -157,18 +157,38 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "设计并销售环保极简钱包的商业增长闭环",
-      "items": [
-        "【引流】社交媒体内容营销与口碑传播",
-        "【产品】环保极简钱包",
-        "【变现】在线销售+企业定制",
-        "【留存】品牌忠诚度与复购"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://paperwallet.com/cdn/shop/files/hero_img_mobile.png?v=1783428827&width=900",
+      "caption": "设计并销售环保极简钱包官网：官网展示的产品与实际使用场景",
+      "alt": "设计并销售环保极简钱包官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://paperwallet.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "video-file",
+      "url": "https://cdn.shopify.com/videos/c/o/v/cee2eebeb7094bc3b7c0ae0dd9c683d0.mp4",
+      "watchUrl": "https://cdn.shopify.com/videos/c/o/v/cee2eebeb7094bc3b7c0ae0dd9c683d0.mp4",
+      "poster": "https://paperwallet.com/cdn/shop/files/video_background_800x.png?v=1777907276",
+      "caption": "设计并销售环保极简钱包官网：产品界面与核心功能展示",
+      "alt": "设计并销售环保极简钱包官网：产品界面与核心功能展示",
+      "sourceUrl": "https://paperwallet.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://paperwallet.com/cdn/shop/videos/c/vp/59c2c06e42424cc8baef58b3f5f62240/59c2c06e42424cc8baef58b3f5f62240.HD-1080p-3.3Mbps-83334336.mp4?v=0",
+      "watchUrl": "https://paperwallet.com/cdn/shop/videos/c/vp/59c2c06e42424cc8baef58b3f5f62240/59c2c06e42424cc8baef58b3f5f62240.HD-1080p-3.3Mbps-83334336.mp4?v=0",
+      "poster": "https://paperwallet.com/cdn/shop/files/preview_images/59c2c06e42424cc8baef58b3f5f62240.thumbnail.0000000000_small.jpg?v=1777904236",
+      "caption": "设计并销售环保极简钱包官网：产品界面与核心功能展示",
+      "alt": "设计并销售环保极简钱包官网：产品界面与核心功能展示",
+      "sourceUrl": "https://paperwallet.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -183,7 +203,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2463,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

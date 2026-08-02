@@ -157,18 +157,14 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "个人理财博客的商业增长闭环",
-      "items": [
-        "【引流】SEO+社交媒体内容",
-        "【产品】理财文章/指南",
-        "【变现】广告+联盟营销",
-        "【留存】邮件订阅+持续更新"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://www.moneycrashers.com/wp-content/uploads/2025/09/image2.webp",
+      "caption": "个人理财博客官网：产品界面与核心功能展示",
+      "alt": "个人理财博客官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.moneycrashers.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -185,5 +181,9 @@
     "bodyCharacters": 2380,
     "mediaCount": 3,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

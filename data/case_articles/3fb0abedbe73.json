@@ -147,32 +147,46 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "Attest提供消费者调研SaaS的商业增长闭环",
-      "items": [
-        "【引流】SEO内容营销+案例展示",
-        "【产品】自助式调研平台",
-        "【变现】月费/按项目付费",
-        "【留存】持续更新模板、数据分析功能、客户成功服务"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "video-file",
+      "url": "https://www.askattest.com/wp-content/uploads/2026/05/product-interview-video-gradient-Small-1-1-1x.webm",
+      "watchUrl": "https://www.askattest.com/wp-content/uploads/2026/05/product-interview-video-gradient-Small-1-1-1x.webm",
+      "poster": "https://emx2zzfzxax.exactdn.com/wp-content/uploads/2026/06/attest-open-graph.png?strip=all",
+      "caption": "Attest提供消费者调研SaaS官网：产品界面与核心功能展示",
+      "alt": "Attest提供消费者调研SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.askattest.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "Attest提供消费者调研SaaS的产品与交付路径",
-      "items": [
-        "创建项目",
-        "设计问卷（AI辅助）",
-        "选择受众",
-        "收集数据"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://emx2zzfzxax.exactdn.com/wp-content/uploads/2026/06/Obj-product-development_1x.png?strip=all&w=200",
+      "caption": "Attest提供消费者调研SaaS官网：产品界面与核心功能展示",
+      "alt": "Attest提供消费者调研SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.askattest.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://emx2zzfzxax.exactdn.com/wp-content/uploads/2026/05/For-product-teams.png?strip=all&w=225",
+      "caption": "Attest提供消费者调研SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "Attest提供消费者调研SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.askattest.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://emx2zzfzxax.exactdn.com/wp-content/uploads/2025/08/cs-demo5.jpg?strip=all&w=577",
+      "caption": "Attest提供消费者调研SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "Attest提供消费者调研SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.askattest.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -187,7 +201,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2537,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

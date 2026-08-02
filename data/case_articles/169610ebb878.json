@@ -157,18 +157,34 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "销售手机挂绳的电商项目的商业增长闭环",
-      "items": [
-        "【引流】社交媒体广告+SEO内容营销",
-        "【产品】创新手机挂绳",
-        "【变现】在线支付购买",
-        "【留存】邮件营销+复购优惠"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "http://phoneloops.com/cdn/shop/files/phone-loops-phone-strap-accessory-og-social_1200x630.jpg?v=1776868887",
+      "caption": "销售手机挂绳的电商项目官网：产品界面与核心功能展示",
+      "alt": "销售手机挂绳的电商项目官网：产品界面与核心功能展示",
+      "sourceUrl": "https://phoneloops.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://phoneloops.com/cdn/shop/files/MERK_PHONE_LOOPS_{width}x.jpg?v=1741704705",
+      "caption": "销售手机挂绳的电商项目官网：官网展示的产品主场景",
+      "alt": "销售手机挂绳的电商项目官网：官网展示的产品主场景",
+      "sourceUrl": "https://phoneloops.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://phoneloops.com/cdn/shop/files/MERK_PHONE_LOOPS_1400x.jpg?v=1741704705",
+      "caption": "销售手机挂绳的电商项目官网：官网展示的产品主场景",
+      "alt": "销售手机挂绳的电商项目官网：官网展示的产品主场景",
+      "sourceUrl": "https://phoneloops.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -183,7 +199,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2404,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

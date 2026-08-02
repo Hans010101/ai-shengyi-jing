@@ -147,32 +147,44 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "邮件验证SaaS的商业增长闭环",
-      "items": [
-        "【引流】SEO+内容营销+合作伙伴",
-        "【产品】邮件验证API+批量工具",
-        "【变现】按量付费/月订阅",
-        "【留存】高准确率+持续优化+客户支持"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://www.zerobounce.net/metadata=none/top-pages/assets_next/homepage/email-delivery-tools/dashboard-2.webp",
+      "caption": "邮件验证SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "邮件验证SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.zerobounce.net/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "邮件验证SaaS的产品与交付路径",
-      "items": [
-        "用户注册/上传列表",
-        "实时/批量验证",
-        "结果报告",
-        "付费下载/API调用"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://www.zerobounce.net/metadata=none/top-pages/assets_next/homepage/email-delivery-tools/email_validation_1.webp",
+      "caption": "邮件验证SaaS官网：产品后台与数据看板",
+      "alt": "邮件验证SaaS官网：产品后台与数据看板",
+      "sourceUrl": "https://www.zerobounce.net/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.zerobounce.net/metadata=none/top-pages/assets_next/homepage/email-delivery-tools/email-activity-data-1.webp",
+      "caption": "邮件验证SaaS官网：产品后台与数据看板",
+      "alt": "邮件验证SaaS官网：产品后台与数据看板",
+      "sourceUrl": "https://www.zerobounce.net/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.zerobounce.net/metadata=none/top-pages/assets_next/homepage/email-delivery-tools/email-finder-1.webp",
+      "caption": "邮件验证SaaS官网：产品后台与数据看板",
+      "alt": "邮件验证SaaS官网：产品后台与数据看板",
+      "sourceUrl": "https://www.zerobounce.net/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -187,7 +199,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2421,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

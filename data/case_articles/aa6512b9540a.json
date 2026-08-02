@@ -157,18 +157,34 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "Artfinder是艺术品电商平台的商业增长闭环",
-      "items": [
-        "【引流】社交媒体内容+SEO",
-        "【产品】在线艺术品市场",
-        "【变现】销售佣金+增值服务",
-        "【留存】艺术家社区+买家个性化推荐"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://d3rf6j5nx5r04a.cloudfront.net/AoEm_FoDWGKYOzQtz6tjAvq_h54=/500x0/product/c/e/d7f54886a6cf46e6a21fef56e59b3f88_opt.jpg",
+      "caption": "Artfinder是艺术品电商平台官网：官网展示的产品与实际使用场景",
+      "alt": "Artfinder是艺术品电商平台官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.artfinder.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://d3rf6j5nx5r04a.cloudfront.net/IRpL3scjI1f-jphC3rlUSIMv_R8=/500x0/product/c/f/b23fb13cb6dd4435b98bb95754f91ac1_opt.jpg",
+      "caption": "Artfinder是艺术品电商平台官网：官网展示的产品与实际使用场景",
+      "alt": "Artfinder是艺术品电商平台官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.artfinder.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://d3rf6j5nx5r04a.cloudfront.net/PytgSW6zRArwWpLEEEKWNZaVOE4=/500x0/product/3/c/40310ecd7bb54379a4cbcbc2b992dcbd_opt.jpg",
+      "caption": "Artfinder是艺术品电商平台官网：官网展示的产品与实际使用场景",
+      "alt": "Artfinder是艺术品电商平台官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.artfinder.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -183,7 +199,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2460,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

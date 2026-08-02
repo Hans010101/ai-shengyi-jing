@@ -147,32 +147,44 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "社交媒体内容日历SaaS的商业增长闭环",
-      "items": [
-        "【引流】SEO博客+免费模板",
-        "【产品】内容日历SaaS",
-        "【变现】月费订阅",
-        "【留存】自动发布+数据分析+客户成功"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://cdn-web.loomly.com/hubfs/Featured%20image.png",
+      "caption": "社交媒体内容日历SaaS官网：产品界面与核心功能展示",
+      "alt": "社交媒体内容日历SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.loomly.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "社交媒体内容日历SaaS的产品与交付路径",
-      "items": [
-        "用户注册",
-        "创建品牌账号",
-        "添加社交平台",
-        "内容日历规划"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://cdn-web.loomly.com/hubfs/images/frontend/landing-v2/landing-v2-feature-1-plan-content.png",
+      "caption": "社交媒体内容日历SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "社交媒体内容日历SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.loomly.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn-web.loomly.com/hubfs/images/frontend/landing-v2/landing-v2-feature-2-genereate-posts.png",
+      "caption": "社交媒体内容日历SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "社交媒体内容日历SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.loomly.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn-web.loomly.com/hubfs/images/frontend/landing-v2/landing-v2-feature-3-streamline-collaboration.png",
+      "caption": "社交媒体内容日历SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "社交媒体内容日历SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.loomly.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -187,7 +199,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2476,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

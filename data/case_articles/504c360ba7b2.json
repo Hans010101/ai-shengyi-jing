@@ -147,32 +147,46 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "为内容团队提供可视化Headless CMS的商业增长闭环",
-      "items": [
-        "【引流】内容营销、SEO、社区",
-        "【产品】可视化Headless CMS",
-        "【变现】订阅付费",
-        "【留存】插件生态、客户成功"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://a.storyblok.com/f/88751/3260x1774/35fe276995/hero-visual-editor-ai-mcp.png/m/3200x0/",
+      "caption": "为内容团队提供可视化Headless CMS官网：AI辅助代码编辑与作品集构建界面",
+      "alt": "为内容团队提供可视化Headless CMS官网：AI辅助代码编辑与作品集构建界面",
+      "sourceUrl": "https://www.storyblok.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "为内容团队提供可视化Headless CMS的产品与交付路径",
-      "items": [
-        "用户注册",
-        "创建内容模型",
-        "可视化编辑",
-        "API分发内容"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "video-file",
+      "url": "https://a.storyblok.com/f/88751/x/5660542b24/flowmotion-announcement.mp4",
+      "watchUrl": "https://a.storyblok.com/f/88751/x/5660542b24/flowmotion-announcement.mp4",
+      "poster": "https://a.storyblok.com/f/88751/1940x1160/80254f7124/storyblok-default-og.png/m/1000x593/",
+      "caption": "为内容团队提供可视化Headless CMS官网：产品界面与核心功能展示",
+      "alt": "为内容团队提供可视化Headless CMS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.storyblok.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://a.storyblok.com/f/88751/2114x1188/0041662600/storyblok-mcp-hp.png/m/2112x0/",
+      "caption": "为内容团队提供可视化Headless CMS官网：产品界面与核心功能展示",
+      "alt": "为内容团队提供可视化Headless CMS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.storyblok.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://a.storyblok.com/f/88751/2256x2032/800859251f/visual-editor-marketers-orange.png/m/2001x0/",
+      "caption": "为内容团队提供可视化Headless CMS官网：官网展示的产品与实际使用场景",
+      "alt": "为内容团队提供可视化Headless CMS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.storyblok.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -187,7 +201,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2512,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

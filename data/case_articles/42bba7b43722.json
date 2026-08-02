@@ -147,32 +147,48 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "在线视频编辑SaaS的商业增长闭环",
-      "items": [
-        "【引流】社交媒体内容营销、SEO、免费工具吸引用户",
-        "【产品】在线视频编辑平台",
-        "【变现】订阅制付费解锁高级功能",
-        "【留存】持续更新模板、提升编辑体验"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://cdn-site-assets.veed.io/g2_badge_ai_products_d9fbda876b/g2_badge_ai_products_d9fbda876b.webp",
+      "caption": "在线视频编辑SaaS官网：产品界面与核心功能展示",
+      "alt": "在线视频编辑SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.veed.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "在线视频编辑SaaS的产品与交付路径",
-      "items": [
-        "用户注册",
-        "上传视频",
-        "AI自动字幕/特效编辑",
-        "预览"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://cdn-site-assets.veed.io/g2_badge_design_products_1b87aa120a/g2_badge_design_products_1b87aa120a.webp",
+      "caption": "在线视频编辑SaaS官网：产品界面与核心功能展示",
+      "alt": "在线视频编辑SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.veed.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "video-file",
+      "url": "https://cdn-site-assets.veed.io/explainer_f6002e993a_93dbb828aa/explainer_f6002e993a_93dbb828aa.webm",
+      "watchUrl": "https://cdn-site-assets.veed.io/explainer_f6002e993a_93dbb828aa/explainer_f6002e993a_93dbb828aa.webm",
+      "poster": "https://cdn-site-assets.veed.io/explainer_thumbnail_3768659367/explainer_thumbnail_3768659367.webp",
+      "caption": "在线视频编辑SaaS官网：产品界面与核心功能展示",
+      "alt": "在线视频编辑SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.veed.io/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://cdn-site-assets.veed.io/product_demo_d6abfa2c8f_63c9063ae7/product_demo_d6abfa2c8f_63c9063ae7.webm",
+      "watchUrl": "https://cdn-site-assets.veed.io/product_demo_d6abfa2c8f_63c9063ae7/product_demo_d6abfa2c8f_63c9063ae7.webm",
+      "poster": "https://cdn-site-assets.veed.io/product_demo_thumbnail_25a699f4f9/product_demo_thumbnail_25a699f4f9.webp",
+      "caption": "在线视频编辑SaaS官网：产品界面与核心功能展示",
+      "alt": "在线视频编辑SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.veed.io/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -187,7 +203,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2490,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

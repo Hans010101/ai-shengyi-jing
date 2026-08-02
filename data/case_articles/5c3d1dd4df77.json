@@ -157,18 +157,14 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "夫妻店转型可持续包装电商的商业增长闭环",
-      "items": [
-        "【引流】SEO内容营销+行业博客",
-        "【产品】环保包装+定制服务",
-        "【变现】产品销售+咨询费",
-        "【留存】复购折扣+包装知识社区"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://cdn.salazarpackaging.com/wp-content/uploads/2025/05/ph-transparent-1px-01.png",
+      "caption": "夫妻店转型可持续包装电商官网：产品界面与核心功能展示",
+      "alt": "夫妻店转型可持续包装电商官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.salazarpackaging.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -185,5 +181,9 @@
     "bodyCharacters": 2458,
     "mediaCount": 3,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }

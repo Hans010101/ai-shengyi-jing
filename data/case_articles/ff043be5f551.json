@@ -147,32 +147,34 @@
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "B2B营销人社群的商业增长闭环",
-      "items": [
-        "【引流】LinkedIn/Twitter内容营销",
-        "【产品】付费社群+课程+活动",
-        "【变现】订阅费+活动票+赞助",
-        "【留存】每日讨论、独家资源、人脉连接"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://exitfive.com/wp-content/uploads/2026/05/hero-1024x748.webp",
+      "caption": "B2B营销人社群官网：官网展示的产品与实际使用场景",
+      "alt": "B2B营销人社群官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://exitfive.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "infographic",
-      "variant": "product-path",
-      "title": "B2B营销人社群的产品与交付路径",
-      "items": [
-        "用户注册",
-        "免费内容引流",
-        "加入付费社群",
-        "参与活动/课程"
-      ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://exitfive.com/wp-content/uploads/2026/05/peer-groups-1024x840.webp",
+      "caption": "B2B营销人社群官网：官网展示的产品与实际使用场景",
+      "alt": "B2B营销人社群官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://exitfive.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://exitfive.com/wp-content/uploads/2026/05/event-retreat.webp",
+      "caption": "B2B营销人社群官网：产品界面与核心功能展示",
+      "alt": "B2B营销人社群官网：产品界面与核心功能展示",
+      "sourceUrl": "https://exitfive.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -187,7 +189,11 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2402,
-    "mediaCount": 3,
+    "mediaCount": 4,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "officialStatus": "ok",
+    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
   }
 }
