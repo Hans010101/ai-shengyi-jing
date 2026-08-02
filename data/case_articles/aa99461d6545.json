@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "提供低保真线框图设计工具的中国市场验证路线",
+      "items": [
+        "搭建轻量级Web应用，使用开源框架（如React）和画布库（如Fabric.js），实现基础拖拽组件和导出功能。",
+        "聚焦垂直场景，如移动端APP原型或小程序原型，提供20-30个行业模板，通过知乎、B站发布教程引流。",
+        "上线免费版（限制项目数），通过微信支付或支付宝实现订阅付费，并加入团队协作功能，如实时评论和版本管理。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "提供低保真线框图设计工具的经营验证仪表盘",
+      "items": [
+        "提供低保真线框图设计工具，按月订阅收费。",
+        "SaaS订阅模式，提供个人版和团队版，按月或年收费，免费试用吸引用户，付费解锁全部功能。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2505,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

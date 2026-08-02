@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "辞职后意外创建的AI工具的中国市场验证路线",
+      "items": [
+        "确定细分市场，如电商客服或会计自动化，调研痛点并设计MVP。",
+        "开发AI原型，利用现有API（如GPT）快速搭建，上线免费版收集反馈。",
+        "设置分级订阅（月/年），通过行业KOL推广，优化转化率并迭代功能。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "辞职后意外创建的AI工具的经营验证仪表盘",
+      "items": [
+        "辞职后意外创建的AI工具，通过订阅制提供自动化服务月入千万。",
+        "SaaS订阅制，按用户量或功能分级收费，提供AI自动化解决方案。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2402,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

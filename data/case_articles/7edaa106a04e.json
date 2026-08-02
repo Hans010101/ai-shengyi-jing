@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "游戏美术外包工作室的中国市场验证路线",
+      "items": [
+        "组建核心美术团队（2-3人），专精1-2种风格（如二次元、像素风），在ArtStation、B站等平台发布高质量作品集吸引客户。",
+        "在游戏开发者社区（如TapTap、GameRes、独立游戏群）主动联系中小团队，提供首单优惠或免费概念图，积累案例和口碑。",
+        "建立标准化流程（报价模板、项目管理系统、交付规范），逐步扩展团队，通过老客户推荐和案例展示实现稳定获客。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "游戏美术外包工作室的经营验证仪表盘",
+      "items": [
+        "游戏美术外包工作室，为游戏开发者提供定制2D/3D美术资产。",
+        "项目制外包服务，按资产复杂度或工时收费，客户包括游戏开发团队和发行商。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2529,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

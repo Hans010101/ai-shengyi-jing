@@ -175,6 +175,26 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/1402c374a6b1cf2c",
+      "caption": "AI视频梗图生成工具：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "My early days experimenting with SEO.",
+      "sourceUrl": "https://www.starterstory.com/stories/automemes-ai-create-viral-memes-in-seconds",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/83d2f74ac6d3d0e1",
+      "caption": "AI视频梗图生成工具：获客渠道与客户留存相关原始配图（第6张）",
+      "alt": "100+ free green screen meme templates",
+      "sourceUrl": "https://www.starterstory.com/stories/automemes-ai-create-viral-memes-in-seconds",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -189,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2470,
-    "mediaCount": 4,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

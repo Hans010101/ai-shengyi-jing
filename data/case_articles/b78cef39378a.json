@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "欧洲电商代运营服务的产品与交付路径",
+      "items": [
+        "品牌入驻",
+        "店铺搭建",
+        "运营优化",
+        "销售分成"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "欧洲电商代运营服务的中国市场验证路线",
+      "items": [
+        "选定1-2个欧洲主流平台（如亚马逊、Bol），注册成为第三方服务商，准备服务套餐和案例。",
+        "通过LinkedIn、行业论坛和线上广告，寻找有意出海欧洲的中国品牌，提供免费诊断吸引客户。",
+        "为前3个客户提供低价甚至免费试用，积累成功案例和口碑，然后逐步提高收费并标准化服务流程。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2435,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

@@ -187,6 +187,30 @@
       "poster": "https://i.ytimg.com/vi/YUeqIOJwExM/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/A-edsWHwGCA",
+      "watchUrl": "https://www.youtube.com/watch?v=A-edsWHwGCA",
+      "caption": "贷款中介平台资料中提及的视频：Multifamily and Residential Lending with Instalend #multifamily #lending #BRRRR",
+      "alt": "Multifamily and Residential Lending with Instalend #multifamily #lending #BRRRR",
+      "sourceUrl": "https://www.starterstory.com/stories/instalend",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/A-edsWHwGCA/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/7omcyU8yiMk",
+      "watchUrl": "https://www.youtube.com/watch?v=7omcyU8yiMk",
+      "caption": "贷款中介平台资料中提及的视频：Borrowing From A Bank Vs. Private Online Lender With Saurabh Shah: Discovering Multifamily 158",
+      "alt": "Borrowing From A Bank Vs. Private Online Lender With Saurabh Shah: Discovering Multifamily 158",
+      "sourceUrl": "https://www.starterstory.com/stories/instalend",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/7omcyU8yiMk/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -201,7 +225,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2380,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

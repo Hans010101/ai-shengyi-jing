@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "WordPress维护托管代理的中国市场验证路线",
+      "items": [
+        "建立专业WordPress维护服务清单，包括安全、备份、更新、性能优化等，并设定基础年费价格。",
+        "通过SEO博客、建站公司合作、自由职业者社群获取首批客户，提供首月免费试用。",
+        "开发自动化监控工具或使用现有插件，提高服务效率；收集客户反馈，推出增值服务（如SEO、内容更新）。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "WordPress维护托管代理的经营验证仪表盘",
+      "items": [
+        "WordPress维护托管代理，通过年费订阅和按需服务盈利。",
+        "年费订阅制（核心）+ 按需服务费，客户按月或年支付固定费用，获得网站维护、更新、安全监控等服务。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2539,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

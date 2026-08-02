@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "面向学校的AI教育SaaS的中国市场验证路线",
+      "items": [
+        "选择细分领域（如K12数学），开发MVP，包含学生评估、智能推荐学习路径和教师报告功能。",
+        "与2-3所私立学校试点，免费试用一学期，收集反馈并优化产品，建立成功案例。",
+        "通过教育局合作或教育渠道商，以年费模式（每校$2K-5K）推广，并提供教师培训等增值服务提升客单价。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "面向学校的AI教育SaaS的经营验证仪表盘",
+      "items": [
+        "面向学校的AI教育SaaS，年费订阅+增值服务盈利",
+        "为学校提供AI驱动的学习平台，按学校订阅收费，同时提供教师培训、数据分析等增值服务。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2488,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

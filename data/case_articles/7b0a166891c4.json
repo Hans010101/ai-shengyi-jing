@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "艺术家的中国市场验证路线",
+      "items": [
+        "在抖音/小红书注册账号，每天发布创作短视频（如绘画过程、成品展示），积累初始粉丝，定位为“你的私人艺术家”。",
+        "建立微信社群，将粉丝转化为私域用户，定期分享创作故事，推出限量版画预售，设置早鸟价刺激购买。",
+        "提供个性化定制服务（如肖像画、家居装饰画），通过社群投票决定下一幅作品主题，增强参与感，并推出会员制（月费99元享优先购买权）。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "艺术家的经营验证仪表盘",
+      "items": [
+        "艺术家通过VIP收藏家社群和限量版画实现月入$7.5K。",
+        "以原创艺术品为核心，通过社交媒体吸引粉丝，建立VIP社群，销售限量版画和接受定制订单。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2463,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "开发者脱离原有粉丝的中国市场验证路线",
+      "items": [
+        "选择细分场景（如应届生、程序员），开发MVP，聚焦简历优化核心功能，使用GPT API实现AI解析与改写。",
+        "建立SEO内容矩阵，发布“简历模板”“面试技巧”等文章，引导免费试用，收集用户反馈迭代产品。",
+        "推出付费订阅（如周卡￥9.9、月卡￥29.9），结合微信小程序分享裂变，用邮件或公众号推送简历优化建议提升留存。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "开发者脱离原有粉丝的经营验证仪表盘",
+      "items": [
+        "开发者脱离原有粉丝，靠AI简历工具月入百万美元。",
+        "AI简历生成SaaS，免费试用+付费订阅，用户上传简历后AI优化并导出，按周/月/年收费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2452,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

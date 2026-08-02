@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "男性生活方式博客的中国市场验证路线",
+      "items": [
+        "选择细分领域（如男性护肤、数码评测），搭建公众号或抖音账号，每周发布3篇高质量原创内容。",
+        "优化内容SEO（标题、关键词、内链），同时在其他平台（知乎、B站）分发引流，积累种子用户。",
+        "接入广告平台（如腾讯广告）和联盟计划（如淘宝客），当流量稳定后开启付费社群或课程变现。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "男性生活方式博客的经营验证仪表盘",
+      "items": [
+        "男性生活方式博客，通过广告和联盟营销年入480万美元。",
+        "内容驱动流量，通过展示广告、赞助内容和联盟链接变现。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2404,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

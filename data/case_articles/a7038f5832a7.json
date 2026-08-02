@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "用AI工具帮小企业低成本获客的中国市场验证路线",
+      "items": [
+        "选择细分市场（如本地餐饮、电商），用开源AI视频工具（如Runway）快速搭建MVP，支持上传图片/文案生成15秒广告。",
+        "在抖音/小红书发布免费广告模板教程，引导用户注册试用，收集反馈迭代产品，重点优化视频质量和投放效果。",
+        "推出基础版免费（带水印），专业版按月收费（如99元/月），或按视频条数收费（如9.9元/条），通过效果案例持续获客。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "用AI工具帮小企业低成本获客的经营验证仪表盘",
+      "items": [
+        "用AI工具帮小企业低成本获客，月收4千美元。",
+        "SaaS订阅+按量付费：用户上传素材，AI自动生成广告视频并投放，按月或按视频数量收费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2507,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

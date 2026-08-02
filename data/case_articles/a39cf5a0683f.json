@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为游戏服务器提供AI反作弊和托管服务的中国市场验证路线",
+      "items": [
+        "选择一款热门游戏（如《永劫无间》），开发针对该游戏的AI反作弊插件，利用开源机器学习框架（如TensorFlow）训练异常行为检测模型。",
+        "在游戏贴吧、QQ群、Discord等渠道发布免费试用版，收集反馈并优化算法；同时建立官网，提供自助注册和订阅支付功能。",
+        "推出基础免费版（限1台服务器）和付费专业版（多服务器+高级分析），通过游戏主播合作推广，逐步拓展至更多游戏品类。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "为游戏服务器提供AI反作弊和托管服务的经营验证仪表盘",
+      "items": [
+        "为游戏服务器提供AI反作弊和托管服务，按月订阅收费。",
+        "B2B SaaS模式：为游戏服务器提供AI反作弊检测、自动化管理及托管服务，按服务器数量或功能分级订阅收费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2615,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

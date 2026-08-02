@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI技术招聘平台的中国市场验证路线",
+      "items": [
+        "聚焦一个垂直技术领域（如AI工程师），建立人才数据库，通过LinkedIn、GitHub等渠道手动或自动化收集简历。",
+        "开发AI简历解析和匹配MVP，利用开源NLP模型实现技能提取和职位匹配，在小范围企业客户中测试。",
+        "向首批企业客户提供免费试用，收集反馈优化匹配算法，成功后按招聘结果收费，并逐步推出高级订阅。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI技术招聘平台的经营验证仪表盘",
+      "items": [
+        "AI技术招聘平台，通过匹配企业与开发者收取佣金。",
+        "向企业收取成功招聘的佣金，同时提供高级订阅服务，为开发者提供职业发展工具。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2455,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

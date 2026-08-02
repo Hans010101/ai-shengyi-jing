@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "设计公司的中国市场验证路线",
+      "items": [
+        "在知乎、小红书等平台发布设计案例和行业洞察，积累粉丝。建立私域社群，提供免费设计诊断，吸引潜在客户。",
+        "整理案例和知识，出版电子书或开设低价录播课（如99元），验证内容价值。同时推出1对1咨询，按小时收费。",
+        "开发标准化品牌设计套餐（如Logo+VI+网站，定价1-5万元），结合工作坊（线上/线下）提升客单价。建立会员体系，年费制提供持续服务。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "设计公司的经营验证仪表盘",
+      "items": [
+        "设计公司通过出书、办工作坊和品牌咨询实现多元化营收。",
+        "内容营销（书籍/工作坊）吸引精准客户，提供价值导向的设计咨询和品牌策略服务，按项目或订阅收费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2508,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

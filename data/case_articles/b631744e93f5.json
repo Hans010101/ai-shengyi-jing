@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "男士个人护理品牌的产品与交付路径",
+      "items": [
+        "产品研发",
+        "原料采购",
+        "工厂生产",
+        "亚马逊FBA发货"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "男士个人护理品牌的中国市场验证路线",
+      "items": [
+        "市场调研与产品定位。分析亚马逊上男士护理品类，选择竞争较小但需求明确的细分（如敏感肌剃须膏），确定天然成分、高端定价策略。",
+        "寻找代工厂或自建小规模生产线。与国内有资质的化妆品代工厂合作，开发1-2款核心产品，确保配方和包装符合亚马逊要求，并申请相关认证。",
+        "亚马逊开店与运营。注册亚马逊卖家账号，使用FBA发货，优化产品标题、图片和关键词，设置合理价格，通过早期买家评价和PPC广告提升排名。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2585,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI人才匹配平台的中国市场验证路线",
+      "items": [
+        "选择细分行业（如程序员、设计师），收集500+公开简历训练AI匹配模型，定义关键匹配维度。",
+        "开发简易版AI匹配工具，通过微信群/朋友圈免费帮中小企业匹配3个候选人，积累案例和口碑。",
+        "推出付费套餐（如基础版$99/月匹配10人，成功入职再收佣金），用成功案例吸引更多企业，持续优化AI。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI人才匹配平台的经营验证仪表盘",
+      "items": [
+        "AI人才匹配平台，通过AI筛选候选人，向企业收取招聘成功费。",
+        "B2B模式，企业发布职位后AI自动匹配候选人，按成功入职收取佣金（约年薪20%）。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2481,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

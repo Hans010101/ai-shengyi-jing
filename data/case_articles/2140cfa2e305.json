@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "AI视频摘要Chrome插件的产品与交付路径",
+      "items": [
+        "用户安装插件",
+        "浏览YouTube视频",
+        "AI自动提取字幕并生成摘要",
+        "免费查看简短摘要"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI视频摘要Chrome插件的中国市场验证路线",
+      "items": [
+        "选择目标平台（如B站），利用现有AI摘要API（如OpenAI）快速开发浏览器插件或小程序，实现基础摘要功能。",
+        "在知乎、小红书等平台分享AI摘要技巧，引导用户安装；设置免费试用（如每日5次），收集反馈优化算法。",
+        "推出月度订阅（如¥19.9/月），解锁无限摘要、多语言翻译、导出PDF等高级功能；通过邮件推送新功能保持用户活跃。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2552,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

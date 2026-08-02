@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "AI赋能经典文学的产品与交付路径",
+      "items": [
+        "用户注册",
+        "兴趣选择",
+        "AI个性化推荐",
+        "互动阅读（摘要、问答）"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI赋能经典文学的中国市场验证路线",
+      "items": [
+        "确定目标文学领域（如中国古典名著），收集高质量文本数据，训练或调用NLP模型实现摘要、问答功能。",
+        "开发MVP，包含用户注册、兴趣选择、个性化推荐、基础阅读互动（摘要、金句），上线吸引早期用户。",
+        "通过社交媒体（如小红书、抖音）发布AI生成的文学解读内容引流，设置付费墙（月/年订阅），根据用户反馈迭代功能。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2497,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

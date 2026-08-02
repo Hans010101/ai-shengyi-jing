@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "白标CRM系统的中国市场验证路线",
+      "items": [
+        "选择开源CRM（如SuiteCRM）或采购成熟CRM源码，进行白标化改造，支持自定义Logo、域名和配色。",
+        "设计2-3个定价套餐（按客户数/功能分级），建立合作伙伴注册与自动部署流程，降低合作门槛。",
+        "通过行业论坛、SaaS社群招募种子合作伙伴，提供首月免费试用和销售素材，快速验证市场需求。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "白标CRM系统的经营验证仪表盘",
+      "items": [
+        "白标CRM系统，通过向代理商收取月费赚钱。",
+        "提供可定制品牌、功能完整的CRM系统，按月向合作伙伴收费，合作伙伴再向终端客户销售。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2472,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

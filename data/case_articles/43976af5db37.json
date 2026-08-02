@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "极简钱包品牌的中国市场验证路线",
+      "items": [
+        "确定极简钱包细分市场（如男士/女士、材质偏好），设计1-2款原型，通过3D打印或小作坊打样。",
+        "在Shopify搭建独立站，拍摄高质量产品图，撰写品牌故事，设置$30-50定价。",
+        "在Reddit r/minimalism、小红书等平台分享制作过程和使用体验，引导至独立站购买，初期可免费寄送样品给KOL换取曝光。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "极简钱包品牌的经营验证仪表盘",
+      "items": [
+        "极简钱包品牌，通过独立站和亚马逊销售，月入$4K。",
+        "自有品牌销售极简钱包，通过独立站和亚马逊渠道，赚取产品利润。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2434,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

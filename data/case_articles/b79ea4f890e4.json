@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "密室逃脱连锁品牌的中国市场验证路线",
+      "items": [
+        "调研本地密室市场，选择人流量大的商圈或写字楼，租用200-500平米场地。",
+        "设计2-3个原创主题剧本，结合机械机关或VR技术，确保用户体验独特。",
+        "通过抖音、大众点评等渠道发布体验视频和优惠券，首月推出早鸟票吸引种子用户。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "密室逃脱连锁品牌的经营验证仪表盘",
+      "items": [
+        "密室逃脱连锁品牌，通过自营+加盟扩张，门票和包场收入。",
+        "自营+加盟模式，收入来自门票、包场、会员及衍生品，轻资产扩张。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2393,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

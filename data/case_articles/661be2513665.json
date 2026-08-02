@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/128/original/open-uri20240710-48-15mxlxd?1720595896",
+      "caption": "帮助非美国居民注册美国公司并获取税号：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "帮助非美国居民注册美国公司并获取税号：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/theitin",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/028/129/original/open-uri20240710-48-1yxxeiy?1720595897",
+      "caption": "帮助非美国居民注册美国公司并获取税号：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "帮助非美国居民注册美国公司并获取税号：产品上线与首次发布相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/theitin",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/Z-NvPFMx1aA&t=1s",
       "watchUrl": "https://www.youtube.com/watch?v=Z-NvPFMx1aA&t=1s",
@@ -185,6 +205,18 @@
       "sourceUrl": "https://www.starterstory.com/stories/theitin",
       "origin": "embeddable-video",
       "poster": "https://i.ytimg.com/vi/Z-NvPFMx1aA/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/PKrF9SByvHI",
+      "watchUrl": "https://www.youtube.com/watch?v=PKrF9SByvHI",
+      "caption": "帮助非美国居民注册美国公司并获取税号资料中提及的视频：How to Apply for an ITIN Number Online (For Non-US Citizens)",
+      "alt": "How to Apply for an ITIN Number Online (For Non-US Citizens)",
+      "sourceUrl": "https://www.starterstory.com/stories/theitin",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/PKrF9SByvHI/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
     }
@@ -201,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2480,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

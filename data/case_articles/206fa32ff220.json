@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "B2B技术公司内容营销代理的产品与交付路径",
+      "items": [
+        "客户需求分析",
+        "内容策略制定",
+        "内容创作与优化",
+        "多渠道分发"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "B2B技术公司内容营销代理的中国市场验证路线",
+      "items": [
+        "确定细分领域（如SaaS、AI），建立行业博客或LinkedIn账号，发布高质量内容吸引潜在客户。",
+        "提供免费内容审计或策略咨询，展示专业能力，转化1-2个种子客户，收取较低费用积累案例。",
+        "优化服务流程，制定标准化套餐，通过客户口碑和案例展示，逐步提高客单价，实现规模化。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2468,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

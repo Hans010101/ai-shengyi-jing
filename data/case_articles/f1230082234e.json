@@ -187,6 +187,18 @@
       "poster": "https://i.ytimg.com/vi/qquer2Z0Q2o/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/8_qOiOlRjH4&t=",
+      "watchUrl": "https://www.youtube.com/watch?v=8_qOiOlRjH4&t=",
+      "caption": "Shark Wheel是重新发明轮子的公司资料中提及的视频：Shark Wheel - Shark Tank",
+      "alt": "Shark Wheel - Shark Tank",
+      "sourceUrl": "https://www.starterstory.com/stories/shark-wheel-2a2f4231-caa7-4d38-bd1d-3178ef1746d9",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/8_qOiOlRjH4/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -201,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2507,
-    "mediaCount": 5,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

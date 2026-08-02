@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "3天赚6.5万美元的中国市场验证路线",
+      "items": [
+        "选择细分领域（如餐饮、电商），收集行业数据和常见问题，训练AI模型生成报告框架。",
+        "搭建简易网站或使用微信小程序，设置问卷收集用户需求，AI自动生成报告并人工审核优化。",
+        "在抖音、小红书发布行业洞察视频，引导用户点击链接购买报告，使用限时折扣促进转化。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "3天赚6.5万美元的经营验证仪表盘",
+      "items": [
+        "3天赚6.5万美元，通过AI生成定制化商业报告并销售。",
+        "AI生成商业报告，按份销售，定价$97-$197，通过社交媒体和邮件营销引流。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2426,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

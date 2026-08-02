@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI驱动的应用开发公司的中国市场验证路线",
+      "items": [
+        "聚焦一个垂直行业（如电商、教育），开发一个AI辅助的MVP（最小可行产品），如自动化客服或内容生成工具，快速验证需求。",
+        "通过自媒体（公众号、知乎）分享行业AI解决方案案例，积累种子用户，并提供免费试用或低价体验包。",
+        "根据反馈迭代产品，推出订阅制SaaS服务，同时承接定制开发项目，形成“标准产品+定制服务”的双轮驱动模式。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI驱动的应用开发公司的经营验证仪表盘",
+      "items": [
+        "AI驱动的应用开发公司，通过定制软件开发和SaaS产品赚钱。",
+        "混合模式：按项目收费的定制开发 + 标准化SaaS订阅（如AI集成工具），通过差异化服务和技术优势获取溢价。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2549,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI辅助小说写作SaaS的中国市场验证路线",
+      "items": [
+        "搭建轻量AI写作原型，集成GPT等模型，专注小说场景，提供大纲生成、角色设定等基础功能。",
+        "在网文作者社群（如起点、晋江论坛）推广，邀请早期用户免费试用，收集反馈迭代。",
+        "推出付费订阅（月/年），设置免费额度吸引体验，通过写作挑战、作品展示等社区功能提升粘性。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI辅助小说写作SaaS的经营验证仪表盘",
+      "items": [
+        "AI辅助小说写作SaaS，通过订阅制赚钱。",
+        "SaaS订阅制，提供AI写作辅助功能，用户按月或年付费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2400,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

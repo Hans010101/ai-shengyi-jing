@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "线上床垫零售商的中国市场验证路线",
+      "items": [
+        "选择1-2个高性价比床垫品牌（如喜临门、梦百合），搭建简易电商网站或入驻淘宝/京东，主推低价爆款。",
+        "在社区或写字楼附近租赁小面积展示厅（月租3000-5000元），摆放样品，提供免费试睡体验，引导线上下单。",
+        "通过本地社交媒体（抖音、小红书）发布床垫选购知识、客户好评视频，配合微信私域运营，复购推荐返现。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "线上床垫零售商的经营验证仪表盘",
+      "items": [
+        "线上床垫零售商，通过低价和便利性吸引客户，并逐步扩展实体店。",
+        "自营电商+实体店，采购品牌床垫，通过线上低价引流，线下体验成交，赚取差价。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2461,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

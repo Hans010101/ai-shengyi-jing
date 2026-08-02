@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "海外其他项目的中国市场验证路线",
+      "items": [
+        "选择细分场景，如AI照片修复、AI生成头像等，开发一款最小可行产品（MVP），用现成AI API快速实现。",
+        "在App Store上架，优化关键词和截图，利用社交媒体（抖音、小红书）做内容营销，展示AI效果吸引下载。",
+        "根据用户反馈迭代，增加付费功能（如去水印、高清输出），设置免费试用后订阅，提升转化率。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "海外其他项目的经营验证仪表盘",
+      "items": [
+        "通过3款iPhone App实现月入1000万美元的AI工具集合。",
+        "开发多款轻量级AI应用，每款解决单一问题，采用订阅或一次性付费，通过App Store分发。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2460,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

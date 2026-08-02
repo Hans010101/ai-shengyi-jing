@@ -175,6 +175,26 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/8dc3bfba0a5c450a",
+      "caption": "为交易者提供工具折扣的联盟营销网站：获客渠道与客户留存相关原始配图（第5张）",
+      "alt": "Landing Page",
+      "sourceUrl": "https://www.starterstory.com/stories/saveontrading",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/production/images/dddb2880aa0d493c",
+      "caption": "为交易者提供工具折扣的联盟营销网站：获客渠道与客户留存相关原始配图（第6张）",
+      "alt": "Co-Registration Page #1 with partners",
+      "sourceUrl": "https://www.starterstory.com/stories/saveontrading",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -189,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2445,
-    "mediaCount": 4,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

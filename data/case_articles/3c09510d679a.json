@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "海外营销工具项目的中国市场验证路线",
+      "items": [
+        "选定细分领域（如婴儿辅食、早教），搭建网站或公众号，注册淘宝客/京东联盟账号。",
+        "每天产出2-3篇SEO优化文章，标题包含长尾关键词，内容嵌入产品推荐链接。",
+        "通过百度搜索资源平台提交站点，使用百度统计监测流量，根据数据调整内容策略，逐步扩大内容库。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "海外营销工具项目的经营验证仪表盘",
+      "items": [
+        "通过SEO和联盟营销打造母婴内容网站，靠广告和佣金月入25万美元。",
+        "内容驱动型联盟营销：创作母婴相关优质内容，通过SEO获取搜索流量，嵌入亚马逊等联盟链接赚取佣金，同时展示广告赚取CPC收入。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2519,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

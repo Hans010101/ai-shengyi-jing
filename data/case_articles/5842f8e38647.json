@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "副业资源博客+播客的产品与交付路径",
+      "items": [
+        "免费电子书引流",
+        "博客文章/播客",
+        "付费课程/会员",
+        "联盟营销链接"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "副业资源博客+播客的中国市场验证路线",
+      "items": [
+        "选定细分副业领域（如自媒体、电商代运营），创建公众号/播客，每周发布3篇干货文章或2期播客，用免费电子书（如《副业新手指南》）吸引订阅。",
+        "与相关工具或服务商（如Canva、Shopify）建立联盟合作，在内容中嵌入推荐链接；同时开发低价课程（如99元《副业启动课》），通过私域流量销售。",
+        "建立付费社群（如知识星球），提供额外答疑、资源对接；定期举办直播分享，提高用户粘性，并通过用户口碑裂变增长。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2524,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "用AI快速生成Notion模板的中国市场验证路线",
+      "items": [
+        "选择目标平台（如飞书/语雀），开发AI模板生成功能，集成GPT等API，实现从用户输入到模板输出的自动化。",
+        "建立模板市场，初期手动制作50个高质量模板作为冷启动，同时设置用户反馈机制持续优化AI生成质量。",
+        "通过知乎、小红书发布模板使用教程和案例，引导用户免费试用，再推出月卡/年卡订阅，定价参考国内SaaS（如19-99元/月）。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "用AI快速生成Notion模板的经营验证仪表盘",
+      "items": [
+        "用AI快速生成Notion模板，按月收费。",
+        "SaaS订阅模式，用户付费获取AI生成的Notion模板，月费$37K。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2479,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

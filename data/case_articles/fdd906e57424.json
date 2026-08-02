@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "开发多个AI小工具网站的中国市场验证路线",
+      "items": [
+        "选定3-5个高频小需求（如文案生成、图片压缩），用现成AI API快速搭建MVP，每个工具一周内上线。",
+        "针对每个工具做SEO优化，发布教程文章到知乎、B站，引导免费用户使用，收集反馈迭代。",
+        "在工具中嵌入广告（百度联盟），对高级功能（去水印、批量处理）设置付费墙，月费9.9元。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "开发多个AI小工具网站的经营验证仪表盘",
+      "items": [
+        "开发多个AI小工具网站，通过展示广告和付费订阅盈利。",
+        "开发一系列AI驱动的在线工具（如图像处理、文本生成），免费使用但含广告，高级功能付费订阅。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2486,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

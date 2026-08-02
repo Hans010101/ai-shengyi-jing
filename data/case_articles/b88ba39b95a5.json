@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "邮件模板设计SaaS平台的中国市场验证路线",
+      "items": [
+        "聚焦垂直行业（如电商、SaaS），开发10-20个高质量邮件模板，提供免费下载吸引种子用户。",
+        "搭建简易编辑器，支持拖拽修改模板，集成主流邮件发送服务（如SendCloud），快速验证付费意愿。",
+        "推出团队协作和品牌定制功能，设置月费$29-99，通过LinkedIn、行业论坛精准获客。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "邮件模板设计SaaS平台的经营验证仪表盘",
+      "items": [
+        "邮件模板设计SaaS平台，按月订阅赚钱",
+        "B2B SaaS订阅制，提供免费试用和付费套餐，按功能和使用量收费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2461,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

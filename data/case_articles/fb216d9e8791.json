@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "面向实体企业的运营数据AI控制塔SaaS的产品与交付路径",
+      "items": [
+        "数据接入（ERP/POS/物流API）",
+        "AI数据处理与建模",
+        "实时仪表盘与异常预警",
+        "自动化决策建议与行动派发"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "面向实体企业的运营数据AI控制塔SaaS的中国市场验证路线",
+      "items": [
+        "选择垂直行业（如连锁餐饮），对接2-3家客户，免费试用3个月，收集运营数据痛点。",
+        "开发最小可用产品，聚焦1-2个核心场景（如库存预警、客流分析），用AI生成可操作建议。",
+        "通过行业案例和口碑传播，定价$500-2000/月，提供7天免费试用，快速迭代产品。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2541,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

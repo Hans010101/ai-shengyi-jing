@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "从房车起步的5百万美元年收入AI内容创作工具的中国市场验证路线",
+      "items": [
+        "选择垂直领域（如电商文案），用现成AI API（如GPT）搭建最小可行产品，提供免费试用吸引种子用户。",
+        "通过知乎、小红书等平台分享AI创作技巧，引流到产品，收集反馈优化模板和生成质量。",
+        "推出按月/年订阅，定价9.9-99元，逐步增加高级功能（如批量生成、多平台发布），提升客单价。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "从房车起步的5百万美元年收入AI内容创作工具的经营验证仪表盘",
+      "items": [
+        "从房车起步的5百万美元年收入AI内容创作工具",
+        "SaaS订阅制，用户按月或年付费使用AI内容生成平台，提供模板和自定义选项，降低创作门槛。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2519,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

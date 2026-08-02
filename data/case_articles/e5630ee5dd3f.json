@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "利用ChatGPT生成儿童故事书的中国市场验证路线",
+      "items": [
+        "注册亚马逊KDP账号，了解平台规则和畅销儿童书类型，用ChatGPT生成10个故事大纲。",
+        "使用Midjourney或DALL-E生成与故事匹配的插图，用Canva或Vellum排版成标准电子书格式。",
+        "上传至KDP，设置低价（$2.99-$4.99），通过Facebook群组、Pinterest和TikTok分享故事片段引流。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "利用ChatGPT生成儿童故事书的经营验证仪表盘",
+      "items": [
+        "利用ChatGPT生成儿童故事书，在亚马逊KDP出版盈利。",
+        "使用ChatGPT生成故事文本，结合AI绘图工具制作插图，自出版电子书和按需印刷纸质书，通过亚马逊KDP销售，赚取版税。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2531,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

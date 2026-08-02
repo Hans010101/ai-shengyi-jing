@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "海外其他项目的中国市场验证路线",
+      "items": [
+        "选择一个已被验证的轻量级工具（如笔记、待办、图片编辑），调研其用户痛点，确定AI可优化的具体功能点。",
+        "使用现有AI API（如GPT、Stable Diffusion）快速开发MVP，核心功能实现从输入到AI输出的闭环，并设置付费墙。",
+        "在Product Hunt、小众论坛、知乎等渠道发布产品，收集反馈并迭代，同时通过SEO内容吸引自然流量。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "海外其他项目的经营验证仪表盘",
+      "items": [
+        "通过AI工具优化现有成功应用，实现月入1.2万美元。",
+        "SaaS订阅模式，提供AI增强的实用工具，按月或年收费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2454,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "文案代写业务年营收17万美元的中国市场验证路线",
+      "items": [
+        "选择细分领域（如电商详情页、广告文案），建立个人品牌，通过公众号或知乎发布案例和干货。",
+        "提供免费初稿或低价试用，积累客户案例和口碑，同时优化服务流程。",
+        "建立标准化服务包（如基础版、进阶版），逐步提高客单价，并推出复购优惠和推荐奖励。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "文案代写业务年营收17万美元的经营验证仪表盘",
+      "items": [
+        "文案代写业务年营收17万美元，靠高转化文案服务赚钱。",
+        "为B2B客户提供高转化率的文案撰写服务，按项目或 retainers 收费，并通过内容营销吸引客户。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2463,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

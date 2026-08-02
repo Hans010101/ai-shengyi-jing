@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "企业商旅与费用管理SaaS的中国市场验证路线",
+      "items": [
+        "聚焦垂直行业（如科技公司），开发最小可行产品，实现差旅申请、预订和费用上传功能，通过企业微信等渠道推广。",
+        "对接国内主流商旅平台（如携程商旅、滴滴企业版），实现一站式预订与费用自动归集，提供免费试用吸引首批客户。",
+        "引入智能审批和报销规则引擎，支持自定义审批流和发票识别，根据员工数定价，并通过客户案例和转介绍机制扩大用户群。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "企业商旅与费用管理SaaS的经营验证仪表盘",
+      "items": [
+        "企业商旅与费用管理SaaS，按用户订阅收费。",
+        "B2B SaaS订阅制，按员工数或功能分级收费，提供免费试用吸引客户。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2466,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

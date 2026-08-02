@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "将个人爱好（如AI绘画）做成付费应用的中国市场验证路线",
+      "items": [
+        "选定一个细分爱好领域（如宠物头像、二次元壁纸），使用现有AI API（如Stable Diffusion）搭建最小可行产品，仅支持单一功能。",
+        "在抖音/小红书发布免费生成案例，吸引用户尝试，设置微信支付或支付宝，提供免费试用3次，之后按次收费（如2元/次）。",
+        "根据用户反馈迭代，增加批量生成、自定义风格等付费功能，推出月卡（如30元无限次），并建立用户社群促进传播。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "将个人爱好（如AI绘画）做成付费应用的经营验证仪表盘",
+      "items": [
+        "将个人爱好（如AI绘画）做成付费应用，月入2.5万美元。",
+        "SaaS订阅+按次付费：基础功能免费，高级功能或批量生成需付费订阅或购买点数。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2546,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

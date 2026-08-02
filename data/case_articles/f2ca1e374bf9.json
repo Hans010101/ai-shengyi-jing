@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "B2B销售咨询公司的中国市场验证路线",
+      "items": [
+        "确定目标行业（如SaaS、IT服务），通过LinkedIn或行业社群发布销售干货内容，建立专业形象，吸引潜在客户。",
+        "提供免费销售审计或试运行服务，展示效果后签订月度合约，收费$2000-5000/月，团队2-3人即可启动。",
+        "开发标准化销售流程和CRM模板，通过客户成功案例和转介绍机制扩大客户群，逐步提价并增加培训等增值服务。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "B2B销售咨询公司的经营验证仪表盘",
+      "items": [
+        "B2B销售咨询公司，通过提供客户开发和销售外包服务盈利。",
+        "为B2B科技公司提供销售外包和客户开发服务，按项目或月费收费，团队规模小，利润率高。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2496,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

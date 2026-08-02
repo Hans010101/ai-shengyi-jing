@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "意大利餐饮SaaS的中国市场验证路线",
+      "items": [
+        "选择餐饮细分场景（如快餐、火锅），开发一个AI功能MVP，例如智能推荐菜单或预测客流，快速验证需求。",
+        "通过餐饮行业社群、短视频平台发布AI工具使用案例，积累种子用户，采用免费试用+低价月费策略。",
+        "根据反馈迭代功能，建立客户成功体系，提供数据报告和优化建议，提升续费率，逐步推出高级版。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "意大利餐饮SaaS的经营验证仪表盘",
+      "items": [
+        "意大利餐饮SaaS，通过AI提升餐厅运营效率，月订阅收费。",
+        "面向餐厅提供AI驱动的SaaS工具（如订单管理、客户分析），按月或年收取订阅费，通过社区运营和内容营销获客。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2465,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

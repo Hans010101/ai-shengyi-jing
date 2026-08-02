@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "远程B2B服务公司的中国市场验证路线",
+      "items": [
+        "确定1-2个细分服务领域（如电商客服、数据录入），组建3-5人远程团队，用飞书/钉钉协作。",
+        "在知乎、脉脉发布行业痛点解决方案文章，或加入商会微信群，获取首批客户。",
+        "提供免费试用1周，用数据证明效率提升，签订月度合同，并设计推荐奖励机制。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "远程B2B服务公司的经营验证仪表盘",
+      "items": [
+        "远程B2B服务公司，通过提供灵活外包解决方案月入$14K。",
+        "为客户提供远程外包服务（如行政、客服、技术支持），按项目或月度收取服务费，客户覆盖多行业。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2455,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

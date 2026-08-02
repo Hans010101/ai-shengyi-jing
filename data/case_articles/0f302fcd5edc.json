@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "将企业财报等非结构化数据转为标准化数据的产品与交付路径",
+      "items": [
+        "用户上传财报",
+        "AI解析提取字段",
+        "人工校验",
+        "导出标准化报表"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "将企业财报等非结构化数据转为标准化数据的中国市场验证路线",
+      "items": [
+        "聚焦细分领域（如新三板企业财报），用Python+OCR构建基础提取模型，人工标注100份样本。",
+        "开发简易Web端上传功能，对接微信支付，按份收费（如50元/份），面向会计师/审计师推广。",
+        "积累客户后推出月费套餐（如1999元/月不限量），增加API接口，嵌入客户ERP系统。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2490,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

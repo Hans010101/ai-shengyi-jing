@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "教练业务年入20万美元的中国市场验证路线",
+      "items": [
+        "选定细分领域（如职场晋升），创建公众号/抖音号，每周发布3篇干货内容，积累种子用户。",
+        "推出低价体验课（如9.9元1对1诊断），筛选付费意愿强的用户，转为高价私教（1999元/月）。",
+        "建立学员社群，定期分享案例，鼓励老学员转介绍，形成口碑裂变，稳定收入。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "教练业务年入20万美元的经营验证仪表盘",
+      "items": [
+        "教练业务年入20万美元，通过个人品牌和内容营销获客。",
+        "提供一对一/团体教练服务，按小时或套餐收费；同时通过内容营销（博客、视频）建立信任，持续引流。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2455,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

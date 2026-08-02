@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "为Shopify店铺开发运费计算等插件的产品与交付路径",
+      "items": [
+        "用户安装插件",
+        "配置运费规则",
+        "实时计算运费",
+        "展示在前端"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为Shopify店铺开发运费计算等插件的中国市场验证路线",
+      "items": [
+        "选择Shopify App Store中一个未被充分满足的细分需求（如运费计算、折扣管理），调研竞品和用户评价，确定功能差异点。",
+        "使用Shopify Polaris设计系统快速开发MVP，包含核心功能，并设置免费版和付费版（如每月$9-$29），提交到Shopify App Store审核。",
+        "通过Shopify社区、Reddit、YouTube教程推广插件，收集早期用户反馈并迭代，同时提供优质客服以提升评分，争取进入App Store推荐列表。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2623,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

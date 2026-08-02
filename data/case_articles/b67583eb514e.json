@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "开发4款轻量级AI工具App的中国市场验证路线",
+      "items": [
+        "选择3-5个高频小需求（如AI头像、AI文案），用现成API开发MVP版本，每个App核心功能不超过3个。",
+        "上架各大应用商店，设置免费试用3天，之后自动转为订阅（月费$4.99），同时嵌入激励视频广告。",
+        "通过ASO优化关键词，并在小红书、抖音发布使用教程视频引流，根据用户反馈快速迭代功能。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "开发4款轻量级AI工具App的经营验证仪表盘",
+      "items": [
+        "开发4款轻量级AI工具App，通过订阅和广告月入6万美元。",
+        "开发多款轻量级AI工具App，用户免费试用基础功能，付费订阅解锁高级功能，同时嵌入广告获取额外收入。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2494,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

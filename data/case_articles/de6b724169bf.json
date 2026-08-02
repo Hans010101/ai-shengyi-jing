@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "恶作剧贺卡公司的中国市场验证路线",
+      "items": [
+        "注册Shopify或微信小店，选品10款恶作剧贺卡（如假罚单、假中奖通知），联系本地印刷厂小批量生产，成本控制在5元/张。",
+        "在抖音/小红书发布“整蛊朋友”短视频，展示贺卡效果，挂商品链接。初期投500元信息流广告测试转化，优化素材。",
+        "设置节日促销（如愚人节满减），推出“定制服务”（写名字/照片），提高客单价。收集用户反馈，每月迭代2-3款新设计。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "恶作剧贺卡公司的经营验证仪表盘",
+      "items": [
+        "恶作剧贺卡公司，通过销售整蛊卡片年入350万美元。",
+        "自建电商网站销售定制恶作剧贺卡，用户在线设计或选择模板，下单后生产发货。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2503,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI冷邮件自动化工具的中国市场验证路线",
+      "items": [
+        "开发MVP，聚焦核心功能：AI邮件生成+自动发送+打开率追踪，用低代码工具或调用GPT API快速搭建。",
+        "找到种子用户，在创业论坛、LinkedIn群组免费提供试用，收集反馈并迭代产品，重点优化AI邮件个性化程度。",
+        "设计定价策略（如免费版每月100封，付费版$29/月起），通过邮件模板库、成功案例等内容营销持续获客。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI冷邮件自动化工具的经营验证仪表盘",
+      "items": [
+        "AI冷邮件自动化工具，通过订阅制收费赚钱。",
+        "SaaS订阅模式，提供AI驱动的冷邮件自动化服务，按邮件量或功能分档收费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2515,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

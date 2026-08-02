@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "VR教育/培训SaaS的中国市场验证路线",
+      "items": [
+        "选定一个垂直领域（如消防培训），用Unity/Unreal开发一个VR体验Demo，在行业展会上展示获取首批意向客户。",
+        "与1-2家职业院校或企业合作，免费试用并收集反馈，迭代产品，同时积累案例和口碑。",
+        "基于案例包装成标准化SaaS产品，按年收费；通过合作伙伴（如硬件厂商）分销，并建立客户成功团队确保持续续费。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "VR教育/培训SaaS的经营验证仪表盘",
+      "items": [
+        "VR教育/培训SaaS，向学校和企业收取年费或项目费。",
+        "SaaS订阅+定制开发费：按用户数收年费，大客户另收项目定制费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2459,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

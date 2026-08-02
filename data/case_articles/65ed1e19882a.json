@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "高端补充剂品牌的中国市场验证路线",
+      "items": [
+        "选择细分赛道（如女性抗衰、男性精力），找国内代工厂定制小批量产品，强调成分和功效。",
+        "在小红书、抖音创建品牌账号，发布专业营养知识内容，积累种子用户，通过私信或挂车引流到微信或小程序。",
+        "设计订阅制套餐，提供首月优惠，利用微信社群做复购和口碑裂变，逐步优化产品配方和包装。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "高端补充剂品牌的经营验证仪表盘",
+      "items": [
+        "高端补充剂品牌，通过优化产品定位和营销实现月营收百万美元。",
+        "DTC模式，销售高端维生素和补充剂，通过订阅制实现复购，利用内容营销和口碑获客。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2445,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

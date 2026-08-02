@@ -149,8 +149,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/407/original/open-uri20221203-12-1dr5wky?1670038709",
-      "caption": "从手工品电商转型为卖手工品指南的博客：原始案例中的产品与运营配图（第1张）",
-      "alt": "从手工品电商转型为卖手工品指南的博客：原始案例中的产品与运营配图（第1张）",
+      "caption": "从手工品电商转型为卖手工品指南的博客：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "从手工品电商转型为卖手工品指南的博客：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/made-urban",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -159,12 +159,40 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/408/original/open-uri20221203-12-uep19y?1670038709",
-      "caption": "从手工品电商转型为卖手工品指南的博客：原始案例中的产品与运营配图（第2张）",
-      "alt": "从手工品电商转型为卖手工品指南的博客：原始案例中的产品与运营配图（第2张）",
+      "caption": "从手工品电商转型为卖手工品指南的博客：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "从手工品电商转型为卖手工品指南的博客：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/made-urban",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "从手工品电商转型为卖手工品指南的博客的商业增长闭环",
+      "items": [
+        "【引流】SEO优化和社交媒体分享",
+        "【产品】手工品销售指南文章",
+        "【变现】广告收入和联盟营销佣金",
+        "【留存】持续更新高质量内容，邮件订阅"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "从手工品电商转型为卖手工品指南的博客的产品与交付路径",
+      "items": [
+        "博客文章",
+        "SEO优化",
+        "自然流量",
+        "广告展示/联盟链接"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -179,7 +207,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2515,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 3,
+    "logicMedia": 2
   }
 }

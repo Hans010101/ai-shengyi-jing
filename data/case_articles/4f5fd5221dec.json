@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "将电子表格转化为AI驱动的微SaaS的中国市场验证路线",
+      "items": [
+        "使用GPT-4或开源模型，开发一个能识别常见表格结构（如销售数据、库存）的AI模块，并封装为API。",
+        "搭建简易Web应用，支持上传Excel/CSV，调用AI模块进行清洗、分类、生成图表，提供免费试用。",
+        "在知乎、小红书发布“Excel自动化”教程引流，设置免费版限制行数，付费版解锁全部功能，定价9.9元/月。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "将电子表格转化为AI驱动的微SaaS的经营验证仪表盘",
+      "items": [
+        "将电子表格转化为AI驱动的微SaaS，按月订阅收费。",
+        "SaaS订阅制，月费$30-$100，提供AI数据处理功能，按使用量或功能分级收费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2508,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

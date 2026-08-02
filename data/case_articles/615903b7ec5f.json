@@ -177,6 +177,16 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/505/original/open-uri20221210-12-1xq5rd3?1670637259",
+      "caption": "个人与企业教练服务：给创业者的实践建议相关原始配图（第4张）",
+      "alt": "个人与企业教练服务：给创业者的实践建议相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/blue-sky-coaching",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/FPFMcCgWCdg&list=PLM-mXPjwiAXoFzdVSBVWfM-a82YwHKe9V&index=2",
       "watchUrl": "https://www.youtube.com/watch?v=FPFMcCgWCdg&list=PLM-mXPjwiAXoFzdVSBVWfM-a82YwHKe9V&index=2",
@@ -185,6 +195,30 @@
       "sourceUrl": "https://www.starterstory.com/stories/blue-sky-coaching",
       "origin": "embeddable-video",
       "poster": "https://i.ytimg.com/vi/FPFMcCgWCdg/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/HAnw168huqA&list=PLM-mXPjwiAXoFzdVSBVWfM-a82YwHKe9V&index=1&t=139s",
+      "watchUrl": "https://www.youtube.com/watch?v=HAnw168huqA&list=PLM-mXPjwiAXoFzdVSBVWfM-a82YwHKe9V&index=1&t=139s",
+      "caption": "个人与企业教练服务资料中提及的视频：Think Fast, Talk Smart: Communication Techniques",
+      "alt": "Think Fast, Talk Smart: Communication Techniques",
+      "sourceUrl": "https://www.starterstory.com/stories/blue-sky-coaching",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/HAnw168huqA/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/KZIGekgoaz4&list=LL&index=1&t=16s",
+      "watchUrl": "https://www.youtube.com/watch?v=KZIGekgoaz4&list=LL&index=1&t=16s",
+      "caption": "个人与企业教练服务资料中提及的视频：Happy Brain: How to Overcome Our Neural Predispositions to Suffering | Amit Sood, MD | TEDxUNI",
+      "alt": "Happy Brain: How to Overcome Our Neural Predispositions to Suffering | Amit Sood, MD | TEDxUNI",
+      "sourceUrl": "https://www.starterstory.com/stories/blue-sky-coaching",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/KZIGekgoaz4/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
     }
@@ -201,7 +235,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2415,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

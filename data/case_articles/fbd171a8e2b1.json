@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "开发者闭门造17个AI工具的中国市场验证路线",
+      "items": [
+        "用Cursor或GPT-4快速搭建一个AI工具原型，聚焦一个细分痛点（如小红书文案生成），部署到Vercel并设置Stripe支付。",
+        "在即刻、小红书等平台分享开发日志和产品截图，吸引种子用户，收集反馈并迭代功能。",
+        "基于用户反馈开发第二个工具，复用同一套代码和支付系统，形成工具矩阵，交叉推广提升客单价。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "开发者闭门造17个AI工具的经营验证仪表盘",
+      "items": [
+        "开发者闭门造17个AI工具，卖2个赚26.5万美元。",
+        "开发多个小型AI工具（如写作、设计助手），每个独立定价，通过一次性付费或订阅销售，利用社交媒体和Product Hunt引流。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2540,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "芝加哥排名第一的房地产公司的中国市场验证路线",
+      "items": [
+        "选择目标城市或区域，注册房地产经纪公司，获取资质。组建小团队，专注服务一个细分市场（如首次购房者）。",
+        "建立线上获客渠道，如抖音、小红书发布房产知识内容，获取客户线索。同时与本地中介合作获取房源。",
+        "提供差异化服务，如免费咨询、全程陪同看房、交易流程透明化。通过客户推荐返佣机制实现裂变增长。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "芝加哥排名第一的房地产公司的经营验证仪表盘",
+      "items": [
+        "芝加哥排名第一的房地产公司，通过买卖双方佣金赚钱。",
+        "房地产经纪服务，赚取买卖双方佣金，通过团队运营和品牌效应扩大市场份额。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2448,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

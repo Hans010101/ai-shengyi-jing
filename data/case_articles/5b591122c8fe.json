@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "作者放弃高薪工作的中国市场验证路线",
+      "items": [
+        "选择细分领域（如自我提升、小说），使用AI写作工具（如ChatGPT）快速生成初稿，确保内容质量。",
+        "在亚马逊Kindle、微信读书等平台出版电子书，定价0.99-2.99美元，使用自动广告工具推广。",
+        "建立邮件列表，通过免费赠书引流，定期推送新书和付费课程，实现持续收入。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "作者放弃高薪工作的经营验证仪表盘",
+      "items": [
+        "作者放弃高薪工作，通过AI辅助写作和出版电子书月入25万美元。",
+        "作者通过AI写作工具快速创作电子书，在亚马逊等平台出版，利用低价策略和广告推广获取销量，收入来自版税和课程。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2460,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

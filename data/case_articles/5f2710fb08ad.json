@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "一人经营6家公司的中国市场验证路线",
+      "items": [
+        "选择3个低竞争利基市场（如AI写作工具、宠物用品DTC、在线课程），每个市场月搜索量>5000且竞争度低。",
+        "用无代码工具（如Bubble、Shopify）快速搭建MVP，每个项目投入<2000元，外包设计和技术到Fiverr或猪八戒网。",
+        "建立自动化系统（Zapier+虚拟助理），每周每个项目投入<5小时，专注优化转化率和广告ROI，逐步复制到更多业务。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "一人经营6家公司的经营验证仪表盘",
+      "items": [
+        "一人经营6家公司，年入千万美元的多元化创业模式。",
+        "同时运营多个在线业务（如SaaS、电商、内容站），每个业务独立盈利，通过系统化流程和虚拟助理管理，降低边际成本。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2513,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

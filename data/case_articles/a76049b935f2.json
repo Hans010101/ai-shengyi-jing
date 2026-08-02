@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "荷兰高端伴游服务的中国市场验证路线",
+      "items": [
+        "定位高端细分市场，如商务社交、私人宴会，注册公司并申请相关资质，确保合法合规。",
+        "招募并培训高素质伴游人员，制定严格的服务标准和保密协议，建立信任背书。",
+        "通过高端俱乐部、私人银行等渠道获客，开发小程序或APP实现预约、支付和评价闭环。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "荷兰高端伴游服务的经营验证仪表盘",
+      "items": [
+        "荷兰高端伴游服务，通过会员费和服务佣金盈利。",
+        "平台连接高端客户与伴游人员，收取会员费（客户）和佣金（伴游），同时提供培训、安全保障等增值服务。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2435,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

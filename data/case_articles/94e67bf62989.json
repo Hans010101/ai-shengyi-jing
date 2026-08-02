@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "单人创办在线游戏公司的产品与交付路径",
+      "items": [
+        "用户注册",
+        "选择游戏类型",
+        "免费游玩（含广告）",
+        "内购解锁特权/去广告"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "单人创办在线游戏公司的中国市场验证路线",
+      "items": [
+        "选择一款经典棋牌游戏（如斗地主、麻将），使用Unity或Cocos引擎快速开发跨平台（Web/iOS/Android）原型。",
+        "集成广告SDK（如AdMob）和支付SDK（微信/支付宝），设置内购项（去广告、金币、皮肤），上线各大应用商店。",
+        "通过社交媒体（抖音、快手）发布游戏短视频引流，利用每日签到、好友对战等功能提升留存，逐步优化变现效率。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2491,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

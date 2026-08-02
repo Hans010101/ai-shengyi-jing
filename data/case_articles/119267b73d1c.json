@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "菲律宾在线招聘平台的中国市场验证路线",
+      "items": [
+        "选定细分市场（如家政、外卖），开发简易招聘网站，支持雇主免费发布职位。",
+        "集成AI简历解析和匹配功能，自动推荐候选人，雇主付费查看联系方式。",
+        "推出订阅制（如月费99元），提供无限发布、优先推荐等增值服务，并优化SEO获取自然流量。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "菲律宾在线招聘平台的经营验证仪表盘",
+      "items": [
+        "菲律宾在线招聘平台，通过雇主付费发布职位和增值服务赚钱。",
+        "雇主付费发布职位+订阅高级功能（如Apply Points），按效果付费，年营收1400万美元。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2428,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

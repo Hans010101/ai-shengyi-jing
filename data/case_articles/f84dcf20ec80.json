@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "定制企业吉祥物毛绒玩具的中国市场验证路线",
+      "items": [
+        "定位目标客户（如互联网公司、连锁品牌），制作案例作品集，展示设计能力与品质。",
+        "通过LinkedIn、行业展会、企业礼品采购平台获取线索，提供免费设计初稿吸引合作。",
+        "与本地玩具厂合作，建立小批量快速打样能力，确保交付周期与质量，逐步积累口碑。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "定制企业吉祥物毛绒玩具的经营验证仪表盘",
+      "items": [
+        "定制企业吉祥物毛绒玩具，B2B模式盈利",
+        "为企业客户提供定制化毛绒玩具设计、生产服务，按订单收费，客单价高，注重客户关系维护和复购。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2435,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "代理服务提供商的产品与交付路径",
+      "items": [
+        "用户注册",
+        "选择代理类型",
+        "分配IP",
+        "按流量计费"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "代理服务提供商的中国市场验证路线",
+      "items": [
+        "搭建代理IP池，购买或租用住宅/数据中心IP，确保稳定性和速度。初期可从小规模开始，用AWS或自建服务器。",
+        "开发用户管理后台和API接口，支持按流量/时间计费，集成支付（如Stripe、支付宝）。提供免费试用吸引用户。",
+        "通过SEO优化网站，在技术社区（如GitHub、V2EX）推广，提供行业解决方案（如爬虫、社媒运营），并建立客服体系。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2505,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

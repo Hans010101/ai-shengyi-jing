@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI驱动的Chrome扩展的中国市场验证路线",
+      "items": [
+        "确定一个高频痛点场景（如邮件回复、数据提取），用现有AI API快速开发MVP，发布到Chrome商店获取反馈。",
+        "设置免费额度（如每日10次），超出后引导订阅，定价参考国内消费水平（如月费9.9元）。",
+        "通过知乎、B站等平台发布教程和案例，利用SEO优化商店描述，积累用户口碑实现自然增长。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI驱动的Chrome扩展的经营验证仪表盘",
+      "items": [
+        "AI驱动的Chrome扩展，通过订阅制帮助用户提升效率，月入2万美元。",
+        "免费增值模式：基础功能免费，高级功能按月/年订阅，用户基数大则收入稳定。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2476,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

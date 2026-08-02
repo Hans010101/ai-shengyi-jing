@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "利用Reddit社区获取用户的中国市场验证路线",
+      "items": [
+        "选择一个垂直领域（如电商文案、小红书笔记），开发一款免费在线工具（如标题生成器），部署到Vercel。",
+        "在知乎、贴吧等社区发布教程帖，展示工具效果，引导用户免费使用，并收集反馈。",
+        "根据用户需求添加付费功能（如批量生成、高级分析），设置月费订阅，并通过邮件/社群维护老用户。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "利用Reddit社区获取用户的经营验证仪表盘",
+      "items": [
+        "利用Reddit社区获取用户，开发SaaS工具实现月入2.5万美元。",
+        "SaaS订阅模式，提供免费版引流，付费版解锁高级功能，月费$29-$99。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2463,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

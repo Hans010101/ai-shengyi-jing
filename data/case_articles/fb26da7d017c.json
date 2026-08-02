@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "出售公司经验分享平台的中国市场验证路线",
+      "items": [
+        "收集10个中国创业者出售公司的真实案例，整理成图文或短视频，发布在公众号、抖音等平台。",
+        "建立网站或小程序，集中展示案例，并嵌入第三方服务链接（如法律咨询、财务顾问），设置佣金。",
+        "通过SEO优化（关键词如“公司出售经验”）和社群分享获取流量，定期更新案例，用邮件或微信触达订阅用户。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "出售公司经验分享平台的经营验证仪表盘",
+      "items": [
+        "出售公司经验分享平台，通过广告和联盟营销赚钱。",
+        "内容驱动流量，通过展示广告和推荐服务（如估值工具、律师）获得佣金。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2428,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

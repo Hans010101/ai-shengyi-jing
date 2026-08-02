@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "快速匹配远程工程师平台的产品与交付路径",
+      "items": [
+        "企业发布需求",
+        "AI匹配工程师",
+        "视频面试",
+        "成功入职付费"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "快速匹配远程工程师平台的中国市场验证路线",
+      "items": [
+        "建立种子工程师库。通过猎头、技术社群、开源贡献者等渠道，筛选100名资深工程师，并获取其简历与技能标签。",
+        "开发简易匹配系统。用Airtable或低代码工具搭建需求-简历匹配流程，手动+规则引擎实现24小时响应。",
+        "获取首批客户。在创业者社群、VC投资组合公司中推广，提供免费试用或低价套餐，积累案例和口碑。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2488,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

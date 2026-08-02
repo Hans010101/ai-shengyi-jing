@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "收购并运营百年珠宝品牌的产品与交付路径",
+      "items": [
+        "品牌收购",
+        "供应链整合",
+        "定制设计",
+        "高端销售"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "收购并运营百年珠宝品牌的中国市场验证路线",
+      "items": [
+        "寻找具有历史底蕴但经营不善的区域珠宝品牌，评估其品牌资产和客户基础，进行收购谈判。",
+        "保留原核心团队，引入新设计师和数字化营销人才，打造‘经典+创新’产品线，建立私域流量池。",
+        "通过高端定制服务、限量款发布和会员活动提升客户粘性，利用品牌故事在社交媒体传播，吸引新客。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2448,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

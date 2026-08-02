@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "在线招聘中介的中国市场验证路线",
+      "items": [
+        "选择细分行业（如IT、医疗），注册公司并搭建简单网站，使用WordPress或轻量SaaS。",
+        "在LinkedIn、行业社群发布招聘信息，积累求职者简历；同时开发10-20家中小企业客户，承诺免费试招。",
+        "使用AI简历解析工具（如Zoho Recruit）提高匹配效率，每成功入职一单收取佣金，逐步扩大客户群。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "在线招聘中介的经营验证仪表盘",
+      "items": [
+        "在线招聘中介，通过匹配求职者与雇主赚取佣金。",
+        "为中小企业提供招聘服务，按成功入职收取佣金（通常为年薪的15-20%），远程团队降低固定成本。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2462,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "采访创作者的博客的产品与交付路径",
+      "items": [
+        "采访创作者",
+        "发布博客内容",
+        "SEO优化",
+        "广告/联盟链接"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "采访创作者的博客的中国市场验证路线",
+      "items": [
+        "选择一个垂直领域（如B站UP主），通过社交媒体私信或邮件联系5-10位中小创作者，邀请他们接受采访。",
+        "搭建博客网站（使用WordPress或类似平台），发布采访文章，优化SEO标题和关键词，同时将内容同步到知乎、公众号等平台。",
+        "在文章中嵌入相关产品推荐（如相机、软件），申请加入淘宝客或京东联盟获取佣金，同时开通百度广告联盟展示广告。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2460,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "这是一个AI驱动的SaaS平台的中国市场验证路线",
+      "items": [
+        "搭建AI内容生成原型，选择1-2个垂直场景（如小红书文案、短视频脚本），使用开源模型快速实现MVP。",
+        "在知乎、B站等平台发布免费教程引流，收集种子用户反馈，迭代产品功能。",
+        "设置免费版与付费版功能差异，定价99-199元/月，通过微信支付收款，并建立用户社群提升粘性。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "这是一个AI驱动的SaaS平台的经营验证仪表盘",
+      "items": [
+        "这是一个AI驱动的SaaS平台，通过订阅制向创作者提供内容生成服务盈利。",
+        "B2C订阅制：用户按月或年付费使用AI生成文章、视频脚本等，免费版限制功能，付费解锁完整能力。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2520,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

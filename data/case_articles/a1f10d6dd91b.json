@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "作为私人放贷人的产品与交付路径",
+      "items": [
+        "线上获客",
+        "资质审核与房产评估",
+        "签订合同放款",
+        "贷后管理并收取本息"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "作为私人放贷人的中国市场验证路线",
+      "items": [
+        "注册公司并获取放贷资质，或与持牌机构合作；准备启动资金（自有或募集），明确贷款产品（如装修贷、过桥贷）。",
+        "建立获客渠道，如在抖音、小红书发布房产金融知识内容，或与房产中介、装修公司合作获取客户。",
+        "制定标准化风控流程，包括房产估值、征信查询、抵押登记；设计贷款合同，确保法律合规，并建立贷后催收机制。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2446,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

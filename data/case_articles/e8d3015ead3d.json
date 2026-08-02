@@ -167,14 +167,59 @@
       "context": "source-article-body"
     },
     {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/j-W_a182DAg",
+      "watchUrl": "https://www.youtube.com/watch?v=j-W_a182DAg",
+      "caption": "多产品企业SaaS资料中提及的视频：Life at Kovai.co",
+      "alt": "Life at Kovai.co",
+      "sourceUrl": "https://www.kovai.co/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/j-W_a182DAg/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://www.kovai.co/wp-content/themes/kovai/images/video/life-at-kovai-co.mp4?ver=2",
+      "watchUrl": "https://www.kovai.co/wp-content/themes/kovai/images/video/life-at-kovai-co.mp4?ver=2",
+      "poster": "https://www.kovai.co/wp-content/uploads/2025/02/kovai-og.jpg",
+      "caption": "多产品企业SaaS官网：产品界面与核心功能展示",
+      "alt": "多产品企业SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.kovai.co/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/685/original/open-uri20230912-60-e1x169?1694486621",
-      "caption": "多产品企业SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "alt": "多产品企业SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/kovai-co",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://www.kovai.co/wp-content/themes/kovai/images/home/biztalk360-product.png",
+      "caption": "多产品企业SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "多产品企业SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.kovai.co/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.kovai.co/wp-content/themes/kovai/images/home/turbo60-product.png?ver=2",
+      "caption": "多产品企业SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "多产品企业SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.kovai.co/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.kovai.co/wp-content/themes/kovai/images/home/documnet360-product.png",
+      "caption": "多产品企业SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "多产品企业SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.kovai.co/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +234,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2465,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "UX博客吸引流量的产品与交付路径",
+      "items": [
+        "博客内容引流",
+        "用户浏览案例",
+        "提交审计需求",
+        "付费获取报告"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "UX博客吸引流量的中国市场验证路线",
+      "items": [
+        "选择一个垂直行业（如电商、教育），创建公众号/知乎号，每周发布2篇深度UX案例分析，积累初始读者。",
+        "开发标准化UX审计流程，制作审计报告模板，在文章底部或菜单栏设置“企业审计咨询”入口。",
+        "主动联系行业中小型企业，提供免费初诊（如首页UX快速评估），展示价值后推荐付费审计服务，定价$500-2000/次。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2497,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

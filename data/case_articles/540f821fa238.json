@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/585/original/open-uri20221015-12-bdny28?1665846043",
+      "caption": "开发减少屏幕时间的手机应用：产品设计与早期打磨相关原始配图（第4张）",
+      "alt": "开发减少屏幕时间的手机应用：产品设计与早期打磨相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/minimalist-phone-app",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/586/original/open-uri20221015-12-1hrarf1?1665846044",
+      "caption": "开发减少屏幕时间的手机应用：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "开发减少屏幕时间的手机应用：产品上线与首次发布相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/minimalist-phone-app",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/q7qwznBq1Po",
       "watchUrl": "https://www.youtube.com/watch?v=q7qwznBq1Po",
@@ -185,6 +205,18 @@
       "sourceUrl": "https://www.starterstory.com/stories/minimalist-phone-app",
       "origin": "embeddable-video",
       "poster": "https://i.ytimg.com/vi/q7qwznBq1Po/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/-GO9YB46avI",
+      "watchUrl": "https://www.youtube.com/watch?v=-GO9YB46avI",
+      "caption": "开发减少屏幕时间的手机应用资料中提及的视频：minimalist phone setup by Luis",
+      "alt": "minimalist phone setup by Luis",
+      "sourceUrl": "https://www.starterstory.com/stories/minimalist-phone-app",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/-GO9YB46avI/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
     }
@@ -201,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2415,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "数字营销代理的中国市场验证路线",
+      "items": [
+        "选择细分市场（如电商、本地服务），建立基础服务包（SEO+社交媒体运营），定价$500-2000/月。",
+        "通过行业论坛、知乎、公众号发布案例和干货，吸引潜在客户；同时申请成为百度、阿里等平台合作伙伴。",
+        "交付首个客户后，制作成功案例，用数据证明效果，通过转介绍和续费实现增长，逐步扩展团队。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "数字营销代理的经营验证仪表盘",
+      "items": [
+        "数字营销代理，通过SEO、SEM等服务收取月费。",
+        "为客户提供数字营销（SEO、SEM、邮件营销等）服务，按月收取服务费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2439,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "海外营销工具项目的中国市场验证路线",
+      "items": [
+        "选择细分领域（如AI编程、跨境电商），用AI工具（如ChatGPT）批量生成高质量内容，搭建邮件列表。",
+        "通过知乎、小红书等平台发布免费内容引流，引导用户订阅邮件；设置免费+付费两级内容。",
+        "与行业KOL合作推广，推出年度订阅制（如199元/年），并接品牌广告或联盟产品。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "海外营销工具项目的经营验证仪表盘",
+      "items": [
+        "通过AI工具和内容营销，将小众邮件通讯从$4K增长到$250K/月。",
+        "内容订阅+广告+联盟营销，通过高质量邮件通讯吸引付费用户，同时向B端收取广告费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2422,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

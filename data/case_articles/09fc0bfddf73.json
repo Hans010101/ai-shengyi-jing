@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI辅助iOS开发课程的中国市场验证路线",
+      "items": [
+        "确定目标用户（如零基础想转行iOS开发的人群），录制3-5个免费AI编程短视频，发布到抖音/B站引流。",
+        "开发一套AI辅助iOS开发的课程，包含Claude Code实操，定价99-299元，同时设置月度会员（19.9元/月）提供额外案例和答疑。",
+        "建立微信社群，每周直播答疑，收集反馈迭代课程，通过老学员推荐返现机制裂变增长。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI辅助iOS开发课程的经营验证仪表盘",
+      "items": [
+        "AI辅助iOS开发课程，卖课程和会员赚钱。",
+        "销售AI辅助iOS开发课程（一次性付费）+ 月度会员订阅（持续收入）。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2482,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

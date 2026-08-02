@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "户外淋浴设备品牌的中国市场验证路线",
+      "items": [
+        "市场验证。在淘宝/拼多多上架简易版产品（成本<50元），通过短视频测试转化率，收集用户反馈。",
+        "产品迭代。根据反馈优化设计，寻找OEM工厂量产，申请外观专利，建立品牌独立站。",
+        "内容营销。在抖音/小红书持续输出户外淋浴场景视频，与露营KOL合作，引导至店铺成交。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "户外淋浴设备品牌的经营验证仪表盘",
+      "items": [
+        "户外淋浴设备品牌，通过电商销售创新便携淋浴产品盈利。",
+        "自主研发生产便携淋浴设备，通过独立站和电商平台销售，毛利率高，复购来自配件和耗材。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2454,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

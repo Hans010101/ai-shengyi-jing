@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI语音适配工具的中国市场验证路线",
+      "items": [
+        "搭建最小可行产品——使用现有语音识别和合成API（如科大讯飞、百度），实现基础的语气转换功能，支持中英文。",
+        "针对中国主流内容平台（抖音、快手、B站）开发专属语气模板，如“带货激情风”、“知识科普风”，并设置免费试用3次。",
+        "通过小红书、知乎发布教程类内容引流，与中小博主合作推广，首月定价¥99/月或¥999/年，快速验证付费意愿。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI语音适配工具的经营验证仪表盘",
+      "items": [
+        "AI语音适配工具，帮内容创作者调整语气风格，按订阅收费。",
+        "SaaS订阅制，提供免费试用（有限次数），付费解锁无限使用和高级语气库。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2482,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

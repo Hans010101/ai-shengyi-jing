@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "匿名电商新闻通讯的产品与交付路径",
+      "items": [
+        "用户订阅",
+        "每周邮件推送",
+        "赞助商广告嵌入",
+        "付费推荐合作"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "匿名电商新闻通讯的中国市场验证路线",
+      "items": [
+        "确定垂直电商细分领域（如跨境电商、抖音电商），注册匿名账号，在知乎、即刻等平台发布深度内容积累种子用户。",
+        "使用Mailchimp等工具搭建邮件列表，每周推送1-2篇高质量行业分析，初期免费，同时寻找小赞助商（如SaaS工具）合作。",
+        "当订阅者超过1000人后，推出付费推荐服务（如产品测评、招聘广告），定价$100-500/次，逐步提升内容质量与读者粘性。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2488,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

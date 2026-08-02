@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "财务预测模板+定制咨询的中国市场验证路线",
+      "items": [
+        "选择细分市场（如电商、餐饮），开发一套标准财务预测模板（Excel或在线工具），定价$29-99。",
+        "通过知乎、小红书发布《XX行业财务预测指南》等内容引流，提供免费模板试用，收集用户反馈迭代。",
+        "推出付费定制咨询服务，为高需求客户提供一对一报表优化，客单价$500-2000，逐步建立案例库。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "财务预测模板+定制咨询的经营验证仪表盘",
+      "items": [
+        "财务预测模板+定制咨询，年营收73万美元。",
+        "销售财务预测模板（SaaS） + 按需定制咨询服务，模板提供标准化工具，咨询满足个性化需求。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2495,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

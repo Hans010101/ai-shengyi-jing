@@ -171,6 +171,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "动画素材授权平台的产品与交付路径",
+      "items": [
+        "用户注册",
+        "浏览素材",
+        "选择动画",
+        "付费下载"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "动画素材授权平台的中国市场验证路线",
+      "items": [
+        "聚焦细分领域（如电商促销动画），用AI工具快速生成100+模板，上传至自有网站或第三方平台（如Envato）测试需求。",
+        "建立网站，接入支付宝/微信支付，设置订阅制（月/年）和单次下载，初期定价9.9元/次或99元/月。",
+        "在抖音/小红书发布教程视频，展示素材效果，引导至网站；与中小MCN合作，提供免费试用，收集反馈优化素材。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -185,7 +212,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2445,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

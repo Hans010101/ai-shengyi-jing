@@ -148,16 +148,6 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/896/original/open-uri20220606-12-qf66es?1654534808",
-      "caption": "美业SaaS系统：创始人、核心产品与品牌起点相关原始配图",
-      "alt": "美业SaaS系统：创始人、核心产品与品牌起点相关原始配图",
-      "sourceUrl": "https://www.starterstory.com/stories/salonist-software",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
-    },
-    {
-      "type": "image",
       "url": "https://d2mad3kkxvcl7w.cloudfront.net/front-images/run-your-salon.webp",
       "caption": "美业SaaS系统官网：产品界面与核心功能展示",
       "alt": "美业SaaS系统官网：产品界面与核心功能展示",
@@ -185,6 +175,16 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/896/original/open-uri20220606-12-qf66es?1654534808",
+      "caption": "美业SaaS系统：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "美业SaaS系统：创始人、核心产品与品牌起点相关原始配图",
+      "sourceUrl": "https://www.starterstory.com/stories/salonist-software",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -203,7 +203,15 @@
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:http-429|official:ok",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:http-429|official:ok",
+    "realMedia": 5,
+    "logicMedia": 0
   }
 }

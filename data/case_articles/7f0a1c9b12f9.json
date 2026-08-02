@@ -175,6 +175,26 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/770/original/open-uri20240110-48-15qwugv?1704873402",
+      "caption": "为投资者提供股票研究报告和数据的订阅服务：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "alt": "为投资者提供股票研究报告和数据的订阅服务：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/marketbeat-5f78e043-30f3-4865-9f7f-43fd07518079",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/771/original/open-uri20240110-48-tu5uf5?1704873403",
+      "caption": "为投资者提供股票研究报告和数据的订阅服务：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "alt": "为投资者提供股票研究报告和数据的订阅服务：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/marketbeat-5f78e043-30f3-4865-9f7f-43fd07518079",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -189,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2536,
-    "mediaCount": 4,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

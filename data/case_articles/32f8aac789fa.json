@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "为女性教练打造高端个人品牌的产品与交付路径",
+      "items": [
+        "客户咨询",
+        "品牌诊断",
+        "定位设计",
+        "视觉输出"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为女性教练打造高端个人品牌的中国市场验证路线",
+      "items": [
+        "定位细分市场，选择女性教练/咨询师群体，打造个人品牌案例，如免费为2-3位客户做品牌设计，积累作品集和口碑。",
+        "建立专业形象，创建个人网站、社交媒体账号（小红书、公众号），发布品牌设计案例、行业洞察，吸引潜在客户。",
+        "设计服务套餐，如基础品牌诊断（$500）、完整品牌打造（$3000起），通过免费咨询引导付费，并寻求行业媒体曝光提升权威性。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2531,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

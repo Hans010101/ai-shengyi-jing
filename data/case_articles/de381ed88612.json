@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "便携式四向排球网的产品与交付路径",
+      "items": [
+        "产品设计（便携网+球）",
+        "官网/电商上架",
+        "社交媒体种草",
+        "零售渠道铺货"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "便携式四向排球网的中国市场验证路线",
+      "items": [
+        "设计一款便携、易搭建的球网产品（如四向羽毛球），成本控制在30元以内，找国内代工厂小批量生产。",
+        "在抖音、小红书发布创意玩法短视频，突出家庭/朋友聚会场景，引导至淘宝/拼多多店铺购买。",
+        "与线下玩具店、体育用品店、户外露营店合作铺货，同时推出配件（如专用球、网袋）增加复购。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2504,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

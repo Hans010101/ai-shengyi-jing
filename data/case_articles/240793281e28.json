@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "在线教练业务的中国市场验证路线",
+      "items": [
+        "选择一个垂直领域（如健身、职场技能），建立个人品牌，通过短视频/公众号输出专业内容吸引目标用户。",
+        "设计最小可行课程或一对一服务，用微信社群或小程序进行交付，初期可低价或免费积累案例和口碑。",
+        "招募兼职教练或助理，复制服务流程，利用工具（如企业微信、飞书）提升效率，逐步转为订阅制模式。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "在线教练业务的经营验证仪表盘",
+      "items": [
+        "在线教练业务，通过提供个性化指导服务月入6.8万美元。",
+        "提供付费在线教练服务，按订阅或课程收费，依靠口碑和内容营销获客。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2400,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

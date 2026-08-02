@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "在线编程课程平台的中国市场验证路线",
+      "items": [
+        "确定细分领域（如Python入门、Web开发），录制10-20节免费课程，在B站/抖音发布引流。",
+        "搭建简易课程平台（使用小鹅通或自建），设置月卡/年卡，加入AI代码批改功能（调用GPT API）。",
+        "建立学员社群，每周直播答疑，收集反馈迭代课程，与招聘平台合作推荐优秀学员。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "在线编程课程平台的经营验证仪表盘",
+      "items": [
+        "在线编程课程平台，通过订阅制销售课程盈利。",
+        "按月/年订阅付费，提供从入门到进阶的编程课程，结合AI练习与项目实战。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2424,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -191,6 +191,42 @@
       "poster": "https://i.ytimg.com/vi/v-uhjlMg9L0/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/EF3uyvHHBfM",
+      "watchUrl": "https://www.youtube.com/watch?v=EF3uyvHHBfM",
+      "caption": "创始人故事媒体资料中提及的视频：I make $40K/month with this one website",
+      "alt": "I make $40K/month with this one website",
+      "sourceUrl": "https://www.starterstory.com/stories/starter-story-breakdown",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/EF3uyvHHBfM/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/orzDLscxSw8",
+      "watchUrl": "https://www.youtube.com/watch?v=orzDLscxSw8",
+      "caption": "创始人故事媒体资料中提及的视频：Pat Walls: Opens Up About The Truth Of Entrepreneurship | The Danny Miranda Podcast 364",
+      "alt": "Pat Walls: Opens Up About The Truth Of Entrepreneurship | The Danny Miranda Podcast 364",
+      "sourceUrl": "https://www.starterstory.com/stories/starter-story-breakdown",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/orzDLscxSw8/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/qGi1pyuykJU",
+      "watchUrl": "https://www.youtube.com/watch?v=qGi1pyuykJU",
+      "caption": "创始人故事媒体资料中提及的视频：Pat Walls on Founding Starter Story and His Mission To Help 1 Billion People Make Money Online",
+      "alt": "Pat Walls on Founding Starter Story and His Mission To Help 1 Billion People Make Money Online",
+      "sourceUrl": "https://www.starterstory.com/stories/starter-story-breakdown",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/qGi1pyuykJU/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -205,7 +241,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2368,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

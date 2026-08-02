@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "相机评测网站的中国市场验证路线",
+      "items": [
+        "选择细分领域（如入门相机、手机摄影），搭建WordPress网站，安装SEO插件，撰写10篇高质量评测文章。",
+        "注册Google AdSense和京东联盟/淘宝联盟，在文章中嵌入广告位和产品链接，优化关键词排名。",
+        "通过摄影论坛、小红书、B站等渠道推广内容，建立用户社群，定期发布摄影技巧和相机资讯，提升回访率。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "相机评测网站的经营验证仪表盘",
+      "items": [
+        "相机评测网站，通过广告和联盟营销赚钱。",
+        "内容驱动型网站，通过撰写相机评测、指南等吸引流量，利用Google AdSense广告和相机/配件联盟链接（如Amazon）变现。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2496,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

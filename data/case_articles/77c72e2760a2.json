@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "出售AI生成的商业报告的产品与交付路径",
+      "items": [
+        "用户选择行业/主题",
+        "AI抓取数据并分析",
+        "生成报告预览",
+        "付费下载完整版"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "出售AI生成的商业报告的中国市场验证路线",
+      "items": [
+        "选择垂直行业（如餐饮、跨境电商），收集公开数据源（财报、行业报告、新闻），用AI工具（如GPT+爬虫）生成模板报告。",
+        "搭建简易网站或微信小程序，提供1-2份免费报告吸引种子用户，通过社群和知乎引流，收集反馈优化报告质量。",
+        "设置阶梯定价（如单份99元，月订阅299元），与行业KOL合作推广，利用用户数据持续更新报告，提升复购率。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2474,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

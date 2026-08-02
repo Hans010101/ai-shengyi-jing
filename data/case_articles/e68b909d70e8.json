@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "用Claude为SaaS产品做品牌重塑的中国市场验证路线",
+      "items": [
+        "选择一个垂直行业（如餐饮、电商），收集100+品牌案例，训练或微调AI模型理解行业品牌风格。",
+        "搭建简易Web应用，实现上传品牌信息、AI生成品牌名称、标语、视觉风格建议等功能。",
+        "在行业社群、小红书等渠道发布免费试用，收集反馈迭代，推出付费版本（如9.9元/次或99元/月）。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "用Claude为SaaS产品做品牌重塑的经营验证仪表盘",
+      "items": [
+        "用Claude为SaaS产品做品牌重塑，按效果付费。",
+        "提供AI驱动的品牌重塑服务，用户上传现有品牌信息，AI生成新品牌方案，按使用次数或项目收费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2491,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

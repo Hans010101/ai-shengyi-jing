@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "小众YouTuber年入12.5万美元的中国市场验证路线",
+      "items": [
+        "选择一个你真正热爱且竞争较小的小众领域（如复古游戏、手工皮具），确保有足够的内容素材。",
+        "在B站或抖音注册账号，每周发布2-3条高质量视频，注重封面和标题优化，利用平台算法获取初始流量。",
+        "积累1000粉丝后开通平台激励计划，同时主动联系相关品牌寻求赞助，或设计数字产品（如教程、模板）销售。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "小众YouTuber年入12.5万美元的经营验证仪表盘",
+      "items": [
+        "小众YouTuber年入12.5万美元，通过广告和赞助赚钱。",
+        "内容创作者通过YouTube广告收入、品牌赞助、会员订阅或数字产品销售赚钱。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2506,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

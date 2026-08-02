@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/630/original/open-uri20230911-60-1v0xlba?1694407276",
+      "caption": "面向销售人员的AI辅助工具：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "面向销售人员的AI辅助工具：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/wave-cnct",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/631/original/open-uri20230911-60-1n1s2rd?1694407277",
+      "caption": "面向销售人员的AI辅助工具：学习方法与行业资源相关原始配图（第5张）",
+      "alt": "面向销售人员的AI辅助工具：学习方法与行业资源相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/wave-cnct",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/94JHqztcFEE",
       "watchUrl": "https://www.youtube.com/watch?v=94JHqztcFEE",
@@ -185,6 +205,18 @@
       "sourceUrl": "https://www.starterstory.com/stories/wave-cnct",
       "origin": "embeddable-video",
       "poster": "https://i.ytimg.com/vi/94JHqztcFEE/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/srToTrRUTfU",
+      "watchUrl": "https://www.youtube.com/watch?v=srToTrRUTfU",
+      "caption": "面向销售人员的AI辅助工具资料中提及的视频：Wave For Teams | Digital Business Card Dashboard",
+      "alt": "Wave For Teams | Digital Business Card Dashboard",
+      "sourceUrl": "https://www.starterstory.com/stories/wave-cnct",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/srToTrRUTfU/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
     }
@@ -201,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2490,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

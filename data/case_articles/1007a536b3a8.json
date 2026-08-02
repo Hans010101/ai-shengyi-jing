@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "开设投斧娱乐场馆的中国市场验证路线",
+      "items": [
+        "调研本地商圈，选址300-500平米场地，办理营业执照和消防许可，采购专业投斧靶和防护设备，初期投入约10万元。",
+        "设计差异化体验，如加入灯光音效、积分排行榜，培训教练确保安全；与团建平台、密室逃脱等合作引流。",
+        "推出会员储值卡和季度联赛，鼓励复购；运营抖音/小红书，发布投斧技巧和挑战视频，吸引年轻群体到店。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "开设投斧娱乐场馆的经营验证仪表盘",
+      "items": [
+        "开设投斧娱乐场馆，通过门票、会员和活动收费盈利。",
+        "线下娱乐场馆模式，收入来自单次体验票、会员费、团体活动包场及零售商品。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2473,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

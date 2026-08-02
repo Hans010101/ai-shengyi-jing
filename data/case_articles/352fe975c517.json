@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI自媒体内容工厂的中国市场验证路线",
+      "items": [
+        "聚焦一个垂直领域（如小红书图文），使用GPT-4或Claude搭建内容生成API，快速开发MVP。",
+        "在知乎、B站发布AI生成内容教程，引流至微信或网页，提供免费试用3天转化付费。",
+        "根据用户反馈迭代模板和功能，建立付费社群，按月收费并推出年费优惠锁定长期用户。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI自媒体内容工厂的经营验证仪表盘",
+      "items": [
+        "AI自媒体内容工厂，帮创作者快速生成图文视频赚订阅费。",
+        "提供AI驱动的自媒体内容生成工具，按月订阅收费，用户输入主题即可获得高质量图文或视频。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2445,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

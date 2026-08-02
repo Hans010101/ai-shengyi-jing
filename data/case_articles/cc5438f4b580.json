@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "记录Roblox百万富豪的日常的中国市场验证路线",
+      "items": [
+        "注册Roblox或迷你世界账号，研究平台上最富有的玩家和虚拟商品，确定3-5个热门题材。",
+        "使用OBS录制游戏内富豪生活场景，用剪映或Premiere剪辑，加入解说和背景音乐，制作5-10分钟视频。",
+        "在抖音/B站发布，标题带“Roblox富豪”等关键词，引导关注，同时开通创作者激励和商品橱窗变现。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "记录Roblox百万富豪的日常的经营验证仪表盘",
+      "items": [
+        "记录Roblox百万富豪的日常，通过YouTube广告和赞助赚钱。",
+        "制作Roblox富豪生活Vlog，在YouTube发布，靠广告分成和品牌赞助盈利。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2509,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

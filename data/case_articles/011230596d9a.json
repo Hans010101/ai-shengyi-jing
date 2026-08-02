@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI工具帮用户分析是否离开Meta创业的中国市场验证路线",
+      "items": [
+        "调研目标用户（如Meta/字节员工）的离职痛点，收集常见问题，构建初始数据集。",
+        "开发AI分析模型，整合财务、职业市场数据，生成个性化报告，用低代码工具快速MVP。",
+        "在LinkedIn/知乎发布免费内容（如离职决策清单），引流至网站，设置7天免费试用后收费。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI工具帮用户分析是否离开Meta创业的经营验证仪表盘",
+      "items": [
+        "AI工具帮用户分析是否离开Meta创业，按订阅收费。",
+        "SaaS订阅制，用户支付月费获取AI生成的离职分析报告和持续建议。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2480,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

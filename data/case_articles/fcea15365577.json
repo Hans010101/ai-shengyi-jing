@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "一款AI驱动的移动应用的中国市场验证路线",
+      "items": [
+        "选择细分场景（如自动生成周报、社交媒体文案），用低代码或无代码工具（如Bubble）快速搭建MVP，核心功能为AI处理+导出。",
+        "在知乎、小红书发布案例教程，展示产品效果；同步在微信开放平台申请小程序，接入微信支付。",
+        "设置免费额度（如每月10次），超出后引导订阅；通过用户反馈迭代，推出行业定制版（如电商、教育）。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "一款AI驱动的移动应用的经营验证仪表盘",
+      "items": [
+        "一款AI驱动的移动应用，通过订阅制提供自动化服务，月入1.5万美元。",
+        "SaaS订阅制，用户免费使用基础功能，付费解锁高级AI处理、批量导出等权益。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2497,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

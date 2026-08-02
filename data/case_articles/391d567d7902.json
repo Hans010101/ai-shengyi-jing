@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI驱动的挑战式营销漏斗的中国市场验证路线",
+      "items": [
+        "选择一个垂直领域（如健身、编程、英语），设计一个7天挑战主题，利用ChatGPT生成每日任务和内容。",
+        "搭建简单的落地页和邮件/微信自动推送流程，使用Zapier或类似工具实现用户注册后自动发送任务。",
+        "设置付费解锁环节，如挑战结束后的个性化报告或证书，定价9.9-99元，通过朋友圈或社群裂变传播。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI驱动的挑战式营销漏斗的经营验证仪表盘",
+      "items": [
+        "AI驱动的挑战式营销漏斗，通过自动化挑战活动实现付费转化。",
+        "提供AI工具帮助用户创建并运行在线挑战活动，用户免费参与，完成挑战后付费解锁结果或进阶功能。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2487,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

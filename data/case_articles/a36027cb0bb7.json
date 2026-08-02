@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI工具帮电商卖家优化产品列表以适配亚马逊AI搜的中国市场验证路线",
+      "items": [
+        "调研国内电商平台（如淘宝、京东）的搜索算法规则，确定优化痛点。",
+        "开发MVP，集成基础AI功能（如关键词生成、标题优化），对接小卖家测试。",
+        "通过卖家社群和付费广告获客，按效果收费或月费模式快速变现。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI工具帮电商卖家优化产品列表以适配亚马逊AI搜的经营验证仪表盘",
+      "items": [
+        "AI工具帮电商卖家优化产品列表以适配亚马逊AI搜索，通过SaaS订阅赚钱。",
+        "SaaS订阅制，按功能或使用量收费，面向亚马逊卖家提供AI驱动的列表优化服务。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2467,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/802/original/open-uri20220601-12-hicc8c?1654091312",
+      "caption": "多语言在线教育平台：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "alt": "多语言在线教育平台：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/andalusinstitute",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/803/original/open-uri20220601-12-f7kzjw?1654091312",
+      "caption": "多语言在线教育平台：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "alt": "多语言在线教育平台：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/andalusinstitute",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/81amGw21-2Q",
       "watchUrl": "https://www.youtube.com/watch?v=81amGw21-2Q",
@@ -185,6 +205,18 @@
       "sourceUrl": "https://www.starterstory.com/stories/andalusinstitute",
       "origin": "embeddable-video",
       "poster": "https://i.ytimg.com/vi/81amGw21-2Q/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/M-_4qlkffEc",
+      "watchUrl": "https://www.youtube.com/watch?v=M-_4qlkffEc",
+      "caption": "多语言在线教育平台资料中提及的视频：Andalus Institute - ArabicLikeAnArab 2.0",
+      "alt": "Andalus Institute - ArabicLikeAnArab 2.0",
+      "sourceUrl": "https://www.starterstory.com/stories/andalusinstitute",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/M-_4qlkffEc/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
     }
@@ -201,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2410,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 2,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:11:38.945793+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }
