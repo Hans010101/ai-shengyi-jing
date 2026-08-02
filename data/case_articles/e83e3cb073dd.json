@@ -168,9 +168,49 @@
     },
     {
       "type": "image",
+      "url": "https://plausible.io/assets/images/privacy-focused-web-analytics.jpg",
+      "caption": "开源隐私友好的网站分析工具官网：产品后台与数据看板",
+      "alt": "开源隐私友好的网站分析工具官网：产品后台与数据看板",
+      "sourceUrl": "https://plausible.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://plausible.io/assets/images/twitter/robhope.jpg",
+      "caption": "开源隐私友好的网站分析工具官网：产品界面与核心功能展示",
+      "alt": "开源隐私友好的网站分析工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://plausible.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://plausible.io/assets/images/plausible_promo.jpg",
+      "caption": "开源隐私友好的网站分析工具官网：产品界面与核心功能展示",
+      "alt": "开源隐私友好的网站分析工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://plausible.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/785/original/open-uri20220108-3-1ouokyq?1641633324",
       "caption": "开源隐私友好的网站分析工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "alt": "开源隐私友好的网站分析工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-from-4k-to-38k-mrr",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/786/original/open-uri20220108-3-e79gcx?1641633325",
+      "caption": "开源隐私友好的网站分析工具：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "alt": "开源隐私友好的网站分析工具：创始人、核心产品与品牌起点相关原始配图（第4张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grown-from-4k-to-38k-mrr",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2398,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

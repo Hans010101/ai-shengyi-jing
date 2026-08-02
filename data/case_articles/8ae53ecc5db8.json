@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "金融求职社区+付费内容+招聘广告变现的产品与交付路径",
+      "items": [
+        "用户注册",
+        "浏览免费论坛",
+        "访问付费内容（文章、模板、课程）",
+        "订阅会员"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "金融求职社区+付费内容+招聘广告变现的中国市场验证路线",
+      "items": [
+        "搭建垂直社区网站，使用Discourse或类似论坛软件，聚焦金融求职话题，通过SEO和知乎/小红书内容吸引种子用户。",
+        "开发付费会员体系，提供独家面试题库、简历模板、在线课程，定价99-299元/月，初期可免费赠送部分内容。",
+        "联系金融机构和招聘平台投放广告，或提供付费职位发布服务，同时与职业培训机构联盟分成，扩大收入来源。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,11 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2528,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "no-semantic-media",
-    "attemptedAt": "2026-08-02T09:41:26.688381+00:00"
+    "status": "source:ok|official:no-semantic-media",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:no-semantic-media",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

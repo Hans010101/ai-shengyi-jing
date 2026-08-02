@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "数字营销机构的产品与交付路径",
+      "items": [
+        "品牌诊断",
+        "策略制定",
+        "创意执行",
+        "广告投放"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "数字营销机构的中国市场验证路线",
+      "items": [
+        "确定细分领域（如本地餐饮、电商品牌），建立1-2个成功案例，用低价或免费服务换取案例和口碑。",
+        "搭建专业团队或外包设计、文案、投放等环节，利用抖音、小红书等平台发布行业洞察内容吸引客户。",
+        "开发标准化服务包（如品牌定位+视觉设计+投放策略），设定阶梯报价，通过客户转介绍和续约实现增长。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2441,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

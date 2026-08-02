@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "PyImageSearch是计算机视觉教育平台的产品与交付路径",
+      "items": [
+        "免费博客文章",
+        "电子邮件订阅",
+        "付费电子书/课程",
+        "社区会员"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "PyImageSearch是计算机视觉教育平台的中国市场验证路线",
+      "items": [
+        "选择细分领域（如人脸识别、目标检测），搭建中文博客或公众号，发布高质量免费教程，积累种子用户。",
+        "制作付费电子书或视频课程，定价合理（如99-199元），通过邮件列表或社群推广。",
+        "建立会员社区（微信群或知识星球），提供额外答疑、代码更新，增加用户粘性，实现复购。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,11 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2488,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:content-root-missing|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:ok",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

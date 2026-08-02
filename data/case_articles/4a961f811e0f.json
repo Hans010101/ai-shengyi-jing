@@ -168,13 +168,56 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/482/original/open-uri20210606-3-nqppw9?1622965010",
-      "caption": "为网站发布商提供广告技术：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "alt": "为网站发布商提供广告技术：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-118-despite-covid-and-grown-to-190-team-members",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://www.monetizemore.com/wp-content/uploads/2025/10/Home-Hero_banner_graphic-4_USP-1200w-min.png",
+      "caption": "为网站发布商提供广告技术官网：内容排期与发布管理界面",
+      "alt": "为网站发布商提供广告技术官网：内容排期与发布管理界面",
+      "sourceUrl": "https://www.monetizemore.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.monetizemore.com/wp-content/uploads/2025/03/2025-illus-TC-dashboard_office_mockup-Vertical-min.jpg",
+      "caption": "为网站发布商提供广告技术官网：产品后台与数据看板",
+      "alt": "为网站发布商提供广告技术官网：产品后台与数据看板",
+      "sourceUrl": "https://www.monetizemore.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/jQ6P6l5EarM",
+      "watchUrl": "https://www.youtube.com/watch?v=jQ6P6l5EarM",
+      "caption": "为网站发布商提供广告技术资料中提及的视频：Maximize Your Ad Revenue for Long-term Growth",
+      "alt": "Maximize Your Ad Revenue for Long-term Growth",
+      "sourceUrl": "https://www.monetizemore.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/jQ6P6l5EarM/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://www.monetizemore.com/wp-content/uploads/2025/03/2025-illus-TC_IVT_with_desktop_frame-Vertical-min.jpg",
+      "caption": "为网站发布商提供广告技术官网：产品后台与数据看板",
+      "alt": "为网站发布商提供广告技术官网：产品后台与数据看板",
+      "sourceUrl": "https://www.monetizemore.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.monetizemore.com/wp-content/uploads/2025/01/PublisherAdServer_HighPerformer_HighPerformer-W107-min.png",
+      "caption": "为网站发布商提供广告技术官网：官网展示的产品与实际使用场景",
+      "alt": "为网站发布商提供广告技术官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.monetizemore.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +232,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2495,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

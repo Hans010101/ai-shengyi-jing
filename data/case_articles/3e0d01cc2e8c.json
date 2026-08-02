@@ -178,6 +178,20 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "线上女性领导力培训平台的商业增长闭环",
+      "items": [
+        "【引流】社交媒体内容+免费试听课",
+        "【产品】线上课程+教练辅导",
+        "【变现】课程订阅+企业合同",
+        "【留存】社群+定期直播+毕业证书"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -192,11 +206,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2453,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 4,
+    "logicMedia": 1
   }
 }

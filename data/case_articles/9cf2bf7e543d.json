@@ -193,6 +193,18 @@
       "origin": "official-site-video",
       "usage": "official-site-reference",
       "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://3akathletics.com/athletes/braylin-byrd.mp4",
+      "watchUrl": "https://3akathletics.com/athletes/braylin-byrd.mp4",
+      "poster": "https://3akathletics.com/athletes/braylin-byrd.jpg",
+      "caption": "3AK田径俱乐部官网：产品界面与核心功能展示",
+      "alt": "3AK田径俱乐部官网：产品界面与核心功能展示",
+      "sourceUrl": "https://3akathletics.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -207,7 +219,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2363,
-    "mediaCount": 5,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:ok",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

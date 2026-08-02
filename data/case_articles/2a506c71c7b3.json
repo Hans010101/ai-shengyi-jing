@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI自动化播客后期制作与发布的中国市场验证路线",
+      "items": [
+        "开发MVP，聚焦音频降噪和自动剪辑功能，使用开源模型如Whisper。",
+        "在播客创作者社群（如小宇宙、即刻）推广，提供免费试用。",
+        "根据用户反馈增加多平台发布、shownotes生成等功能，设置订阅收费。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI自动化播客后期制作与发布的经营验证仪表盘",
+      "items": [
+        "AI自动化播客后期制作与发布，按订阅收费。",
+        "SaaS订阅制，按使用量或功能分级收费，月费$15-$99。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,11 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2383,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "no-semantic-media",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:content-root-missing|official:no-semantic-media",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:no-semantic-media",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -167,6 +167,26 @@
       "poster": "https://i.ytimg.com/vi/EaJxLPc-l-I/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "image",
+      "url": "https://urbantastebud.com/wp-content/uploads/2016/01/Beauty-Box-Hero3-scaled.jpg",
+      "caption": "订阅盒评测联盟博客官网：官网展示的产品与实际使用场景",
+      "alt": "订阅盒评测联盟博客官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://urbantastebud.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://urbantastebud.com/wp-content/uploads/2016/01/Beauty-Box-Hero3-180x72.jpg",
+      "caption": "订阅盒评测联盟博客官网：官网展示的产品与实际使用场景",
+      "alt": "订阅盒评测联盟博客官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://urbantastebud.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -181,7 +201,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2453,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 5,
+    "logicMedia": 0
   }
 }

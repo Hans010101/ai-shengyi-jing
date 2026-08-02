@@ -165,6 +165,46 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/69467ea1a3ad4a6a4f1a8644/69492f5289f22f5ba18bc832_Image%20Fill.webp",
+      "caption": "健身房SaaS管理系统官网：产品界面与核心功能展示",
+      "alt": "健身房SaaS管理系统官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.pushpress.com:443/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/69467ea1a3ad4a6a4f1a8644/694a861de8b12a7de53536e2_Group%201%20(2).webp",
+      "caption": "健身房SaaS管理系统官网：产品后台与数据看板",
+      "alt": "健身房SaaS管理系统官网：产品后台与数据看板",
+      "sourceUrl": "https://www.pushpress.com:443/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/69467ea1a3ad4a6a4f1a8644/694bacab871be6f3b7923079_Group%205.webp",
+      "caption": "健身房SaaS管理系统官网：官网展示的产品与实际使用场景",
+      "alt": "健身房SaaS管理系统官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.pushpress.com:443/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/69467ea1a3ad4a6a4f1a8644/69495dd8162f9835e62e0adc_Frame%204.jpg",
+      "caption": "健身房SaaS管理系统官网：产品界面与核心功能展示",
+      "alt": "健身房SaaS管理系统官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.pushpress.com:443/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -179,7 +219,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2472,
-    "mediaCount": 3,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

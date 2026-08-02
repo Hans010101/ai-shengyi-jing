@@ -168,13 +168,53 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/543/original/open-uri20220406-3-14rm4kc?1649250279",
-      "caption": "灰发女性垂直内容站：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "alt": "灰发女性垂直内容站：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/katie-goes-platinum",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://katiegoesplatinum.com/wp-content/uploads/2026/05/Blog-Home-Social-Media-Image.jpg",
+      "caption": "灰发女性垂直内容站官网：产品界面与核心功能展示",
+      "alt": "灰发女性垂直内容站官网：产品界面与核心功能展示",
+      "sourceUrl": "https://katiegoesplatinum.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://katiegoesplatinum.com/wp-content/uploads/2026/06/NEW-Silvering-Doubles-Featured-Image-IMG_3885.jpg",
+      "caption": "灰发女性垂直内容站官网：官网展示的产品与实际使用场景",
+      "alt": "灰发女性垂直内容站官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://katiegoesplatinum.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://katiegoesplatinum.com/wp-content/uploads/2026/06/Start-Here-Page-Preview-800-x-800-96x96.jpg",
+      "caption": "灰发女性垂直内容站官网：官网展示的产品与实际使用场景",
+      "alt": "灰发女性垂直内容站官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://katiegoesplatinum.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://katiegoesplatinum.com/wp-content/uploads/2021/08/Katie-Goes-Platinum-Featured-Boxes2-768x768.jpg",
+      "caption": "灰发女性垂直内容站官网：官网展示的产品与实际使用场景",
+      "alt": "灰发女性垂直内容站官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://katiegoesplatinum.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://katiegoesplatinum.com/wp-content/uploads/2021/08/Katie-Goes-Platinum-Featured-Boxes3-768x768.jpg",
+      "caption": "灰发女性垂直内容站官网：官网展示的产品与实际使用场景",
+      "alt": "灰发女性垂直内容站官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://katiegoesplatinum.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2482,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

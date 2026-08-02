@@ -165,6 +165,34 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "Impact-as-a-Service平台的商业增长闭环",
+      "items": [
+        "【引流】社交媒体内容营销、合作伙伴推荐",
+        "【产品】Impact-as-a-Service平台",
+        "【变现】月费订阅+按项目付费",
+        "【留存】定期报告、客户案例、续费优惠"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "Impact-as-a-Service平台的产品与交付路径",
+      "items": [
+        "企业注册",
+        "选择订阅计划",
+        "自动分配植树项目",
+        "生成ESG报告"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -179,11 +207,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2481,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 3,
+    "logicMedia": 2
   }
 }

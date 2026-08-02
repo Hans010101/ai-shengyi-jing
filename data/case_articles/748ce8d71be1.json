@@ -168,13 +168,53 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/760/original/open-uri20210627-3-1kghltc?1624814793",
-      "caption": "植物基冰淇淋品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "alt": "植物基冰淇淋品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/how-investing-in-an-organic-content-strategy-brought-success-to-our-business-65780d20-d8b3-4a41-b4e7-0f32dc5e615f",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://dreampops.com/cdn/shop/files/0606-RevisedCookieDoughCrunchwithflourv1_800x.png?v=1688433371",
+      "caption": "植物基冰淇淋品牌官网：官网展示的产品与实际使用场景",
+      "alt": "植物基冰淇淋品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://dreampops.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://dreampops.com/cdn/shop/files/0606-RevisedCookieDoughCrunchround_1_png_700x.png?v=1688433371",
+      "caption": "植物基冰淇淋品牌官网：官网展示的产品与实际使用场景",
+      "alt": "植物基冰淇淋品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://dreampops.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://dreampops.com/cdn/shop/files/0606-RevisedVanillaSkyCrunchNEWwithflour_700x.png?v=1688433417",
+      "caption": "植物基冰淇淋品牌官网：官网展示的产品与实际使用场景",
+      "alt": "植物基冰淇淋品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://dreampops.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://dreampops.com/cdn/shop/files/0606-RevisedVanillaSkyCrunchroundcrunch_700x.png?v=1688433417",
+      "caption": "植物基冰淇淋品牌官网：官网展示的产品与实际使用场景",
+      "alt": "植物基冰淇淋品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://dreampops.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "http://dreampops.com/cdn/shop/files/BITESg0595_1.jpg?v=1658532618",
+      "caption": "植物基冰淇淋品牌官网：产品界面与核心功能展示",
+      "alt": "植物基冰淇淋品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://dreampops.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2419,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

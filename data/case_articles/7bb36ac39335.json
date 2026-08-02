@@ -175,6 +175,16 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/915/original/open-uri20190201-4-goipxv?1549019969",
+      "caption": "男士风格博客：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "alt": "男士风格博客：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-a-developer-grew-his-blog-to-150-000-visitors-per-month",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -189,7 +199,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2399,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:http-403",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:http-403",
+    "realMedia": 5,
+    "logicMedia": 0
   }
 }

@@ -167,6 +167,28 @@
       "poster": "https://i.ytimg.com/vi/5g2SC8_c1rk/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "video-file",
+      "url": "https://www.mavan.com/wp-content/uploads/2023/06/Homepage_1200x1048.mp4",
+      "watchUrl": "https://www.mavan.com/wp-content/uploads/2023/06/Homepage_1200x1048.mp4",
+      "poster": "http://www.mavan.com/wp-content/uploads/2025/08/seasoned.webp",
+      "caption": "按需VP专家网络官网：产品界面与核心功能展示",
+      "alt": "按需VP专家网络官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.mavan.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "http://www.mavan.com/wp-content/uploads/2025/08/seasoned.webp",
+      "caption": "按需VP专家网络官网：产品界面与核心功能展示",
+      "alt": "按需VP专家网络官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.mavan.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -181,7 +203,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2409,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 5,
+    "logicMedia": 0
   }
 }

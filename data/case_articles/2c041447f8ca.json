@@ -168,13 +168,61 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/634/original/open-uri20190519-4-1d74kxg?1558271232",
-      "caption": "蛋白粉便携包装品牌：产品上线与首次发布相关原始配图（第3张）",
-      "alt": "蛋白粉便携包装品牌：产品上线与首次发布相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-protein-powder-business-and-landed-shark-tank",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://vade-nutrition.com/cdn/shop/products/ShakerBottle.jpg?v=1597949092&width=560",
+      "caption": "蛋白粉便携包装品牌官网：官网展示的产品与实际使用场景",
+      "alt": "蛋白粉便携包装品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://vade-nutrition.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "video-file",
+      "url": "https://vade-nutrition.com/cdn/shop/videos/c/vp/67ab43acc3fa48a292143575c59e58e1/67ab43acc3fa48a292143575c59e58e1.SD-480p-1.5Mbps-30155408.mp4?v=0",
+      "watchUrl": "https://vade-nutrition.com/cdn/shop/videos/c/vp/67ab43acc3fa48a292143575c59e58e1/67ab43acc3fa48a292143575c59e58e1.SD-480p-1.5Mbps-30155408.mp4?v=0",
+      "poster": "https://vade-nutrition.com/cdn/shop/files/preview_images/67ab43acc3fa48a292143575c59e58e1.thumbnail.0000000000_small.jpg?v=1717756304",
+      "caption": "蛋白粉便携包装品牌官网：产品界面与核心功能展示",
+      "alt": "蛋白粉便携包装品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://vade-nutrition.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://vade-nutrition.com/cdn/shop/videos/c/vp/97ad8d702159445dbe1cfb7c7ca9a89f/97ad8d702159445dbe1cfb7c7ca9a89f.SD-480p-1.5Mbps-30158194.mp4?v=0",
+      "watchUrl": "https://vade-nutrition.com/cdn/shop/videos/c/vp/97ad8d702159445dbe1cfb7c7ca9a89f/97ad8d702159445dbe1cfb7c7ca9a89f.SD-480p-1.5Mbps-30158194.mp4?v=0",
+      "poster": "https://vade-nutrition.com/cdn/shop/files/preview_images/97ad8d702159445dbe1cfb7c7ca9a89f.thumbnail.0000000000_small.jpg?v=1717760427",
+      "caption": "蛋白粉便携包装品牌官网：产品界面与核心功能展示",
+      "alt": "蛋白粉便携包装品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://vade-nutrition.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://vade-nutrition.com/cdn/shop/videos/c/vp/59581370e9c54c3b84e1d47bd2785f8c/59581370e9c54c3b84e1d47bd2785f8c.HD-1080p-7.2Mbps-32770393.mp4?v=0",
+      "watchUrl": "https://vade-nutrition.com/cdn/shop/videos/c/vp/59581370e9c54c3b84e1d47bd2785f8c/59581370e9c54c3b84e1d47bd2785f8c.HD-1080p-7.2Mbps-32770393.mp4?v=0",
+      "poster": "https://vade-nutrition.com/cdn/shop/files/img1.webp?v=1722959619&width=900",
+      "caption": "蛋白粉便携包装品牌官网：产品界面与核心功能展示",
+      "alt": "蛋白粉便携包装品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://vade-nutrition.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://vade-nutrition.com/cdn/shop/videos/c/vp/53c7a1b6d606464e9b77ae2ccb97c996/53c7a1b6d606464e9b77ae2ccb97c996.HD-720p-1.6Mbps-32838462.mp4?v=0",
+      "watchUrl": "https://vade-nutrition.com/cdn/shop/videos/c/vp/53c7a1b6d606464e9b77ae2ccb97c996/53c7a1b6d606464e9b77ae2ccb97c996.HD-720p-1.6Mbps-32838462.mp4?v=0",
+      "poster": "https://vade-nutrition.com/cdn/shop/files/img2.webp?v=1722960174&width=900",
+      "caption": "蛋白粉便携包装品牌官网：产品界面与核心功能展示",
+      "alt": "蛋白粉便携包装品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://vade-nutrition.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -189,7 +237,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2419,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

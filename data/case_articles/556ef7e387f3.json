@@ -167,14 +167,69 @@
       "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/204/original/open-uri20210818-3-1s4c69g?1629258606",
-      "caption": "出租DIY婚礼灯光设备：创业起点与创意来源相关原始配图（第3张）",
-      "alt": "出租DIY婚礼灯光设备：创业起点与创意来源相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/how-ship-our-wedding-is-disrupting-event-rentals-with-diy",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "type": "video",
+      "url": "https://www.youtube.com/embed/QwCsjM3wwac",
+      "watchUrl": "https://www.youtube.com/watch?v=QwCsjM3wwac",
+      "caption": "出租DIY婚礼灯光设备资料中提及的视频：Ship Our Wedding Decor Rentals & DIY Supplies",
+      "alt": "Ship Our Wedding Decor Rentals & DIY Supplies",
+      "sourceUrl": "https://shipour.wedding/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/QwCsjM3wwac/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/2pgqgf2c7Ig",
+      "watchUrl": "https://www.youtube.com/watch?v=2pgqgf2c7Ig",
+      "caption": "出租DIY婚礼灯光设备资料中提及的视频：CEILING DRAPERY FOR $25 — BEGINNER GUIDE ON HOW TO HANG FABRIC",
+      "alt": "CEILING DRAPERY FOR $25 — BEGINNER GUIDE ON HOW TO HANG FABRIC",
+      "sourceUrl": "https://shipour.wedding/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/2pgqgf2c7Ig/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/1atDD6OQ3sQ",
+      "watchUrl": "https://www.youtube.com/watch?v=1atDD6OQ3sQ",
+      "caption": "出租DIY婚礼灯光设备资料中提及的视频：DIY WINTER WEDDING WONDERLAND THEME ❄️️ CHEAP DECOR + IDEAS",
+      "alt": "DIY WINTER WEDDING WONDERLAND THEME ❄️️ CHEAP DECOR + IDEAS",
+      "sourceUrl": "https://shipour.wedding/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/1atDD6OQ3sQ/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/9ARcRThTylY",
+      "watchUrl": "https://www.youtube.com/watch?v=9ARcRThTylY",
+      "caption": "出租DIY婚礼灯光设备资料中提及的视频：HOW TO DRAPE A TENT (BUDGET WEDDING GUIDE 😍)",
+      "alt": "HOW TO DRAPE A TENT (BUDGET WEDDING GUIDE 😍)",
+      "sourceUrl": "https://shipour.wedding/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/9ARcRThTylY/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/dpnhbQDAy7A",
+      "watchUrl": "https://www.youtube.com/watch?v=dpnhbQDAy7A",
+      "caption": "出租DIY婚礼灯光设备资料中提及的视频：DANCING ON A CLOUD MACHINE RENTAL FOR BUDGET WEDDINGS: CREATE A GORGEOUS DANCE ☁️",
+      "alt": "DANCING ON A CLOUD MACHINE RENTAL FOR BUDGET WEDDINGS: CREATE A GORGEOUS DANCE ☁️",
+      "sourceUrl": "https://shipour.wedding/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/dpnhbQDAy7A/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -189,7 +244,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2433,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

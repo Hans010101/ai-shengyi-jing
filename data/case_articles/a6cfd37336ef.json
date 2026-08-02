@@ -167,6 +167,16 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://mailmanhq.com/images/webflow/open-graph.jpeg",
+      "caption": "Gmail插件官网：产品界面与核心功能展示",
+      "alt": "Gmail插件官网：产品界面与核心功能展示",
+      "sourceUrl": "https://mailmanhq.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/wdYRJHc0G-U",
       "watchUrl": "https://www.youtube.com/watch?v=wdYRJHc0G-U",
@@ -191,7 +201,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2378,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 5,
+    "logicMedia": 0
   }
 }

@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "AI驱动的社交媒体排程工具的产品与交付路径",
+      "items": [
+        "用户注册",
+        "连接社交媒体账号",
+        "AI内容生成/优化",
+        "智能排程发布"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI驱动的社交媒体排程工具的中国市场验证路线",
+      "items": [
+        "聚焦单一平台（如微信公众号或抖音），开发最小可行产品：手动排程+基础分析，通过API接入发布。",
+        "集成AI文案生成和最佳发布时间预测，利用开源模型（如GPT）降低成本，设置免费版限制发布数量。",
+        "上线付费订阅（月费19-99元），针对小团队推出协作功能，通过社交媒体和KOL推广获取种子用户。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,11 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2561,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:content-root-missing|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:ok",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

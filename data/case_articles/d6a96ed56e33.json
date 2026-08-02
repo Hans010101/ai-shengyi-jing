@@ -168,6 +168,16 @@
     },
     {
       "type": "image",
+      "url": "https://cdn11.bigcommerce.com/s-7wqdm8gvmj/images/stencil/400x200/products/5460/12315/c3bd7601-bc2c-4597-8a25-f404dba30837__73382.1539292545.jpg",
+      "caption": "家居用品电商官网：产品界面与核心功能展示",
+      "alt": "家居用品电商官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.totalhomesupply.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/556/original/open-uri20220406-3-1nu5d1m?1649256028",
       "caption": "家居用品电商：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "alt": "家居用品电商：创始人、核心产品与品牌起点相关原始配图（第3张）",
@@ -189,7 +199,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2434,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 5,
+    "logicMedia": 0
   }
 }

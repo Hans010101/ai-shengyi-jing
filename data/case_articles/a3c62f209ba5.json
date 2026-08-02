@@ -167,26 +167,58 @@
       "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/005/original/open-uri20220427-24-yg4azz?1651078946",
-      "caption": "企业礼品SaaS平台：产品上线与首次发布相关原始配图（第3张）",
-      "alt": "企业礼品SaaS平台：产品上线与首次发布相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/giftsenda",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "type": "video-file",
+      "url": "https://www.giftsenda.com/wp-content/uploads/2026/03/Promo-video-desktop-1.mp4",
+      "watchUrl": "https://www.giftsenda.com/wp-content/uploads/2026/03/Promo-video-desktop-1.mp4",
+      "poster": "https://www.giftsenda.com/",
+      "caption": "企业礼品SaaS平台官网：产品界面与核心功能展示",
+      "alt": "企业礼品SaaS平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.giftsenda.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     },
     {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/_69KrxGqcoE",
-      "watchUrl": "https://www.youtube.com/watch?v=_69KrxGqcoE",
-      "caption": "企业礼品SaaS平台：创始人、核心产品与品牌起点相关视频",
-      "alt": "企业礼品SaaS平台相关视频",
-      "sourceUrl": "https://www.starterstory.com/stories/giftsenda",
-      "origin": "embeddable-video",
-      "poster": "https://i.ytimg.com/vi/_69KrxGqcoE/hqdefault.jpg",
-      "provider": "YouTube",
-      "usage": ""
+      "type": "video-file",
+      "url": "https://www.giftsenda.com/wp-content/uploads/2026/06/home-page-video-gif.webm",
+      "watchUrl": "https://www.giftsenda.com/wp-content/uploads/2026/06/home-page-video-gif.webm",
+      "poster": "https://www.giftsenda.com/",
+      "caption": "企业礼品SaaS平台官网：产品界面与核心功能展示",
+      "alt": "企业礼品SaaS平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.giftsenda.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://www.giftsenda.com/wp-content/uploads/2026/02/DirectMailAutomation_EasiestToDoBusinessWith_Small-Business_EaseOfDoingBusinessWith-1-480x552.png",
+      "caption": "企业礼品SaaS平台官网：官网展示的产品与实际使用场景",
+      "alt": "企业礼品SaaS平台官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.giftsenda.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.giftsenda.com/wp-content/uploads/2026/02/DirectMailAutomation_EasiestAdmin_Small-Business_EaseOfAdmin-1-480x552.png",
+      "caption": "企业礼品SaaS平台官网：官网展示的产品与实际使用场景",
+      "alt": "企业礼品SaaS平台官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.giftsenda.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.giftsenda.com/wp-content/uploads/2026/02/DirectMailAutomation_BestMeetsRequirements_Small-Business_MeetsRequirements-1-480x552.png",
+      "caption": "企业礼品SaaS平台官网：官网展示的产品与实际使用场景",
+      "alt": "企业礼品SaaS平台官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.giftsenda.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -201,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2520,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

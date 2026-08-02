@@ -175,6 +175,26 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/681/original/open-uri20210911-3-xj7orv?1631368032",
+      "caption": "推出缓解压力的薄荷糖品牌：当前经营状态与下一步规划相关原始配图（第4张）",
+      "alt": "推出缓解压力的薄荷糖品牌：当前经营状态与下一步规划相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/launching-a-stress-diffusing-mints-brand-after-building-a-10m-cdb-business",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/682/original/open-uri20210911-3-elwbrq?1631368034",
+      "caption": "推出缓解压力的薄荷糖品牌：当前经营状态与下一步规划相关原始配图（第5张）",
+      "alt": "推出缓解压力的薄荷糖品牌：当前经营状态与下一步规划相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/launching-a-stress-diffusing-mints-brand-after-building-a-10m-cdb-business",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -189,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2480,
-    "mediaCount": 4,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

@@ -185,6 +185,26 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.omnisend.com/wp-content/themes/omnisend-v2/assets/img/v2-home/channels.png",
+      "caption": "邮件营销自动化官网：产品界面与核心功能展示",
+      "alt": "邮件营销自动化官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.omnisend.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.omnisend.com/wp-content/uploads/2026/05/main-th.png",
+      "caption": "邮件营销自动化官网：产品界面与核心功能展示",
+      "alt": "邮件营销自动化官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.omnisend.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -199,7 +219,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2590,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

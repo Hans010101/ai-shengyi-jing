@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "无代码Notion网站构建器的中国市场验证路线",
+      "items": [
+        "调研Notion中国用户需求，确定核心功能（如自定义域名、SEO优化），搭建MVP，使用No-code工具如Bubble快速开发。",
+        "在知乎、B站发布教程视频，展示从Notion到网站的全流程，吸引种子用户，提供免费版积累口碑。",
+        "上线付费版，定价参考国内SaaS（如49元/月），接入微信支付，通过用户反馈迭代，添加飞书、语雀集成。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "无代码Notion网站构建器的经营验证仪表盘",
+      "items": [
+        "无代码Notion网站构建器，按月订阅收费。",
+        "SaaS订阅模式，提供免费版和付费版（$9-$49/月），付费解锁自定义域名、更多页面等功能。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2522,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

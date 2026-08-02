@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "个人信息聚合SaaS的产品与交付路径",
+      "items": [
+        "用户输入查询",
+        "多源数据抓取",
+        "数据清洗聚合",
+        "生成报告"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "个人信息聚合SaaS的中国市场验证路线",
+      "items": [
+        "选择细分市场（如招聘背调），搭建最小可行产品：集成1-2个公开数据源（如企查查、法院公告），实现基础查询功能。",
+        "通过SEO优化网站内容（如“如何查某人背景”），吸引B端用户，提供免费试用查询3次，收集反馈并迭代产品。",
+        "上线付费计划（如$49/月100次查询），建立客户成功团队，定期更新数据源，提升报告准确性，通过推荐计划扩大用户。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,11 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2511,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "no-semantic-media",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:no-semantic-media",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:no-semantic-media",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

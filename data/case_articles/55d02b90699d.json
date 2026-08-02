@@ -177,6 +177,20 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "帮商家自动索评的SaaS工具的商业增长闭环",
+      "items": [
+        "【引流】SEO内容+社交媒体分享",
+        "【产品】自动索评SaaS",
+        "【变现】月订阅费",
+        "【留存】持续增加好评数与客户粘性"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -191,11 +205,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2462,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 4,
+    "logicMedia": 1
   }
 }

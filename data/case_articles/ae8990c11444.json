@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/325/original/open-uri20190328-4-116w59l?1553769901",
+      "caption": "销售环保纯素运动鞋的DTC品牌：产品设计与早期打磨相关原始配图（第4张）",
+      "alt": "销售环保纯素运动鞋的DTC品牌：产品设计与早期打磨相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-business-selling-vegan-sneakers",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/326/original/open-uri20190328-4-1yp8ea1?1553769901",
+      "caption": "销售环保纯素运动鞋的DTC品牌：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "销售环保纯素运动鞋的DTC品牌：产品上线与首次发布相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-business-selling-vegan-sneakers",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/gQalIYTqvco",
       "watchUrl": "https://www.youtube.com/watch?v=gQalIYTqvco",
@@ -185,6 +205,18 @@
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-business-selling-vegan-sneakers",
       "origin": "embeddable-video",
       "poster": "https://i.ytimg.com/vi/gQalIYTqvco/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/iHbI3xFsYKQ",
+      "watchUrl": "https://www.youtube.com/watch?v=iHbI3xFsYKQ",
+      "caption": "销售环保纯素运动鞋的DTC品牌资料中提及的视频：Atlantis Shoes x The Masters Institute of Creative Education",
+      "alt": "Atlantis Shoes x The Masters Institute of Creative Education",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-business-selling-vegan-sneakers",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/iHbI3xFsYKQ/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
     }
@@ -201,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2504,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

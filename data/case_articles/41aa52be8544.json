@@ -168,9 +168,49 @@
     },
     {
       "type": "image",
+      "url": "https://cdn.prod.website-files.com/5e5fd80427932172e564a883/639c95778848493f9f261ef7_projected-income-statement-template.png",
+      "caption": "销售财务预测模板的SaaS工具官网：官网展示的产品与实际使用场景",
+      "alt": "销售财务预测模板的SaaS工具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.projectionhub.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/5e5fd80427932172e564a883/64c2d34ebbaffca0c8b2b5d4_ProjectionHub%20(1).png",
+      "caption": "销售财务预测模板的SaaS工具官网：产品界面与核心功能展示",
+      "alt": "销售财务预测模板的SaaS工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.projectionhub.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/419/original/open-uri20211211-3-rz9fnz?1639250858",
       "caption": "销售财务预测模板的SaaS工具：产品上线与首次发布相关原始配图（第3张）",
       "alt": "销售财务预测模板的SaaS工具：产品上线与首次发布相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-grew-my-spreadsheet-templates-side-hustle-into-a-240k-year-business",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/420/original/open-uri20211211-3-w3mmsx?1639250859",
+      "caption": "销售财务预测模板的SaaS工具：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "销售财务预测模板的SaaS工具：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-grew-my-spreadsheet-templates-side-hustle-into-a-240k-year-business",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/421/original/open-uri20211211-3-1lijif8?1639250860",
+      "caption": "销售财务预测模板的SaaS工具：当前经营状态与下一步规划相关原始配图（第5张）",
+      "alt": "销售财务预测模板的SaaS工具：当前经营状态与下一步规划相关原始配图（第5张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-grew-my-spreadsheet-templates-side-hustle-into-a-240k-year-business",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2462,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

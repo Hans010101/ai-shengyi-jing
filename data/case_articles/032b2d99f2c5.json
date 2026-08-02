@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "高端皮具品牌JAQET的产品与交付路径",
+      "items": [
+        "客户浏览官网",
+        "定制咨询",
+        "手工制作",
+        "品质检验"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "高端皮具品牌JAQET的中国市场验证路线",
+      "items": [
+        "定位高端皮具细分市场，如商务男士公文包，设计2-3款核心产品，寻找国内优质代工厂，建立品控标准。",
+        "在小红书、抖音发布制作过程、材质讲解等内容，积累种子用户，通过一对一咨询提供定制服务，建立信任。",
+        "推出“零退货承诺”和终身保养服务，收集用户反馈优化产品，利用口碑裂变，逐步扩大品牌影响力。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,11 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2469,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "no-semantic-media",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:no-semantic-media",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:no-semantic-media",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

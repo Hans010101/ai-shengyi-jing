@@ -168,13 +168,53 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/766/original/open-uri20210628-3-1h28r53?1624850289",
-      "caption": "瑞典可持续生活方式品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "alt": "瑞典可持续生活方式品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-worked-with-major-retailers-and-collaborated-with-fashion-brands",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://www.agood.com/cdn/shop/files/Backintheusacompy.jpg?v=1765469486&width=2400",
+      "caption": "瑞典可持续生活方式品牌官网：官网展示的产品与实际使用场景",
+      "alt": "瑞典可持续生活方式品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.agood.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.agood.com/cdn/shop/files/Backintheusa.jpg?v=1765469481&width=2000",
+      "caption": "瑞典可持续生活方式品牌官网：官网展示的产品与实际使用场景",
+      "alt": "瑞典可持续生活方式品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.agood.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.agood.com/cdn/shop/files/01-Banner_bda7d674-da6c-46f1-9d25-a87c668e6da6.jpg?v=1752449266&width=2400",
+      "caption": "瑞典可持续生活方式品牌官网：官网展示的产品与实际使用场景",
+      "alt": "瑞典可持续生活方式品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.agood.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.agood.com/cdn/shop/files/notebook40mob.jpg?v=1757427326&width=2000",
+      "caption": "瑞典可持续生活方式品牌官网：官网展示的产品与实际使用场景",
+      "alt": "瑞典可持续生活方式品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.agood.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.agood.com/cdn/shop/files/Industry-Leaders.jpg?v=1738552966&width=2400",
+      "caption": "瑞典可持续生活方式品牌官网：官网展示的产品与实际使用场景",
+      "alt": "瑞典可持续生活方式品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.agood.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2444,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

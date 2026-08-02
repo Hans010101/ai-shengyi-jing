@@ -187,6 +187,18 @@
       "poster": "https://i.ytimg.com/vi/Li7IvSmbQ6w/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/yNX7e3UHCBU",
+      "watchUrl": "https://www.youtube.com/watch?v=yNX7e3UHCBU",
+      "caption": "制作派对桌游并举办线下活动资料中提及的视频：Anchorman: The Legend of Ron Burgundy - THE GAME! (Kickstarter)",
+      "alt": "Anchorman: The Legend of Ron Burgundy - THE GAME! (Kickstarter)",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-created-a-game-with-another-company-and-added-an-employee-to-the-team",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/yNX7e3UHCBU/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -201,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2417,
-    "mediaCount": 5,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

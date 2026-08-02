@@ -168,9 +168,39 @@
     },
     {
       "type": "image",
+      "url": "https://cdn.marutitech.com/Software_Product_Engineering_03475a873f.webp",
+      "caption": "数字产品开发服务官网：产品界面与核心功能展示",
+      "alt": "数字产品开发服务官网：产品界面与核心功能展示",
+      "sourceUrl": "https://marutitech.com",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.marutitech.com/AI_Agent_Development_Services_3_f379b51687.webp",
+      "caption": "数字产品开发服务官网：官网展示的产品与实际使用场景",
+      "alt": "数字产品开发服务官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://marutitech.com",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/602/original/open-uri20211027-3-ysr5by?1635342128",
       "caption": "数字产品开发服务：创业复盘与关键经验相关原始配图（第3张）",
       "alt": "数字产品开发服务：创业复盘与关键经验相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/on-building-a-digital-product-development-services",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/603/original/open-uri20211027-3-1gvss0w?1635342129",
+      "caption": "数字产品开发服务：团队建设与人才需求相关原始配图（第4张）",
+      "alt": "数字产品开发服务：团队建设与人才需求相关原始配图（第4张）",
       "sourceUrl": "https://www.starterstory.com/stories/on-building-a-digital-product-development-services",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +219,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2436,
-    "mediaCount": 4,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

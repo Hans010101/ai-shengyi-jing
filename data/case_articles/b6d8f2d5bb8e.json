@@ -185,6 +185,16 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/67e3abefe5f7ee5f74fe396f/698160473899bb1e6df624fb_gorilla-roi-open-graph.webp",
+      "caption": "亚马逊卖家数据自动化工具官网：产品界面与核心功能展示",
+      "alt": "亚马逊卖家数据自动化工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.gorillaroi.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -199,11 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2504,
-    "mediaCount": 5,
+    "mediaCount": 6,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

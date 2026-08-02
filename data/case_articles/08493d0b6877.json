@@ -168,13 +168,53 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/952/original/open-uri20220316-3-hp16s6?1647461821",
-      "caption": "LiveWebinar 是一个视频会议平台：产品上线与首次发布相关原始配图（第3张）",
-      "alt": "LiveWebinar 是一个视频会议平台：产品上线与首次发布相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/two-college-friends-created-a-600k-year-video-conferencing-platform",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://cdn.livewebinar.com/site/img/marketing/home/welcome_screen_min.png",
+      "caption": "LiveWebinar 是一个视频会议平台官网：产品界面与核心功能展示",
+      "alt": "LiveWebinar 是一个视频会议平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.livewebinar.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.livewebinar.com/site/img/marketing/integrations/constant-contact.png",
+      "caption": "LiveWebinar 是一个视频会议平台官网：社交媒体内容与营销活动场景",
+      "alt": "LiveWebinar 是一个视频会议平台官网：社交媒体内容与营销活动场景",
+      "sourceUrl": "https://www.livewebinar.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.livewebinar.com/site/img/marketing/integrations/active-campaing.png",
+      "caption": "LiveWebinar 是一个视频会议平台官网：社交媒体内容与营销活动场景",
+      "alt": "LiveWebinar 是一个视频会议平台官网：社交媒体内容与营销活动场景",
+      "sourceUrl": "https://www.livewebinar.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.livewebinar.com/site/img/marketing/integrations/moosend_logo.png",
+      "caption": "LiveWebinar 是一个视频会议平台官网：官网展示的产品与实际使用场景",
+      "alt": "LiveWebinar 是一个视频会议平台官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.livewebinar.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.livewebinar.com/site/img/marketing/home/share.jpg",
+      "caption": "LiveWebinar 是一个视频会议平台官网：产品界面与核心功能展示",
+      "alt": "LiveWebinar 是一个视频会议平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.livewebinar.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2570,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

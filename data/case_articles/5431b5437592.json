@@ -167,6 +167,38 @@
       "context": "source-article-body"
     },
     {
+      "type": "video-file",
+      "url": "https://www.loopcv.pro/assets/images/others/loop-cv-video.webm",
+      "watchUrl": "https://www.loopcv.pro/assets/images/others/loop-cv-video.webm",
+      "poster": "https://www.loopcv.pro/assets/images/others/loop-cv-video-poster.webp",
+      "caption": "自动化求职申请平台官网：产品界面与核心功能展示",
+      "alt": "自动化求职申请平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.loopcv.pro/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://www.loopcv.pro/assets/images/screens/dashboard home with shapes.webp",
+      "caption": "自动化求职申请平台官网：产品后台与数据看板",
+      "alt": "自动化求职申请平台官网：产品后台与数据看板",
+      "sourceUrl": "https://www.loopcv.pro/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.loopcv.pro/og-image.png",
+      "caption": "自动化求职申请平台官网：产品界面与核心功能展示",
+      "alt": "自动化求职申请平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.loopcv.pro/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/076/original/open-uri20220501-12-zd2g5e?1651410387",
       "caption": "自动化求职申请平台：产品设计与早期打磨相关原始配图（第3张）",
@@ -177,16 +209,14 @@
       "context": "source-article-body"
     },
     {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/sfGtw2C95Ms&ab_channel=EdwardCapaldi",
-      "watchUrl": "https://www.youtube.com/watch?v=sfGtw2C95Ms&ab_channel=EdwardCapaldi",
-      "caption": "自动化求职申请平台资料中提及的视频：Understanding the Job",
-      "alt": "Understanding the Job",
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/077/original/open-uri20220501-12-16y0icf?1651410388",
+      "caption": "自动化求职申请平台：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "自动化求职申请平台：产品上线与首次发布相关原始配图（第4张）",
       "sourceUrl": "https://www.starterstory.com/stories/loopcv",
-      "origin": "embeddable-video",
-      "poster": "https://i.ytimg.com/vi/sfGtw2C95Ms/hqdefault.jpg",
-      "provider": "YouTube",
-      "usage": ""
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -201,7 +231,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2414,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

@@ -100,9 +100,19 @@
   "media": [
     {
       "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/5h7iha2ir1nh6f35ofg4z9a168iu",
+      "caption": "冷邮件外展平台：通过SaaS订阅赚钱",
+      "alt": "冷邮件外展平台：通过SaaS订阅赚钱",
+      "sourceUrl": "https://www.starterstory.com/stories/postaga",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/635/original/open-uri20220718-25-1yfs1?1658151654",
-      "caption": "Postaga产品界面公开展示图",
-      "alt": "Postaga产品界面",
+      "caption": "冷邮件外展平台：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "冷邮件外展平台：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/postaga",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -111,8 +121,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/636/original/open-uri20220718-25-j9dvwv?1658151655",
-      "caption": "Postaga早期首页：当时的价值主张集中在链接建设与内容推广",
-      "alt": "Postaga早期首页",
+      "caption": "冷邮件外展平台：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "冷邮件外展平台：产品设计与早期打磨相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/postaga",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -121,8 +131,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/637/original/open-uri20220718-25-a25v94?1658151656",
-      "caption": "Postaga 2022年前后的首页版本，定位已经扩展到更广泛的冷邮件外展",
-      "alt": "Postaga更新后的首页",
+      "caption": "冷邮件外展平台：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "冷邮件外展平台：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/postaga",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -131,8 +141,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/638/original/open-uri20220718-25-l99k3z?1658151656",
-      "caption": "第一版活动创建页面，展示早期工作流设计",
-      "alt": "Postaga早期活动创建页面",
+      "caption": "冷邮件外展平台：产品设计与早期打磨相关原始配图（第4张）",
+      "alt": "冷邮件外展平台：产品设计与早期打磨相关原始配图（第4张）",
       "sourceUrl": "https://www.starterstory.com/stories/postaga",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -141,8 +151,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/639/original/open-uri20220718-25-1lmzdjc?1658151657",
-      "caption": "迭代后的活动创建页面，可对照观察信息架构与引导流程的变化",
-      "alt": "Postaga迭代后的活动创建页面",
+      "caption": "冷邮件外展平台：产品设计与早期打磨相关原始配图（第5张）",
+      "alt": "冷邮件外展平台：产品设计与早期打磨相关原始配图（第5张）",
       "sourceUrl": "https://www.starterstory.com/stories/postaga",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -171,6 +181,18 @@
     "scrapedAt": "2026-07-21T16:03:55.071163"
   },
   "quality": {
-    "mediaCount": 5
+    "mediaCount": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:HTTPError",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:HTTPError",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

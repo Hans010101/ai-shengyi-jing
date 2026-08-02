@@ -185,6 +185,26 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.zerobounce.net/metadata=none/top-pages/assets_next/homepage/email-delivery-tools/email-warmup-2.webp",
+      "caption": "邮件验证SaaS官网：产品后台与数据看板",
+      "alt": "邮件验证SaaS官网：产品后台与数据看板",
+      "sourceUrl": "https://www.zerobounce.net/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.zerobounce.net/metadata=none/top-pages/assets_next/homepage/email-delivery-tools/inbox-placement-test-3.webp",
+      "caption": "邮件验证SaaS官网：产品后台与数据看板",
+      "alt": "邮件验证SaaS官网：产品后台与数据看板",
+      "sourceUrl": "https://www.zerobounce.net/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -199,11 +219,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2421,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

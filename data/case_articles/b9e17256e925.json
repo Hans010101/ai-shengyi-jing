@@ -149,8 +149,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/195/original/open-uri20220324-3-p28l5v?1648150796",
-      "caption": "为在法英语人士提供签证保险：原始案例中的产品与运营配图（第1张）",
-      "alt": "为在法英语人士提供签证保险：原始案例中的产品与运营配图（第1张）",
+      "caption": "为在法英语人士提供签证保险：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "为在法英语人士提供签证保险：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-offer-visa-insurance-for-the-english-speaking-in-france-3m-year",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -159,8 +159,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/196/original/open-uri20220324-3-tjqb0b?1648150796",
-      "caption": "为在法英语人士提供签证保险：原始案例中的产品与运营配图（第2张）",
-      "alt": "为在法英语人士提供签证保险：原始案例中的产品与运营配图（第2张）",
+      "caption": "为在法英语人士提供签证保险：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "为在法英语人士提供签证保险：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-offer-visa-insurance-for-the-english-speaking-in-france-3m-year",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -169,8 +169,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/197/original/open-uri20220324-3-18hjb6k?1648150797",
-      "caption": "为在法英语人士提供签证保险：原始案例中的产品与运营配图（第3张）",
-      "alt": "为在法英语人士提供签证保险：原始案例中的产品与运营配图（第3张）",
+      "caption": "为在法英语人士提供签证保险：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "为在法英语人士提供签证保险：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-offer-visa-insurance-for-the-english-speaking-in-france-3m-year",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -179,8 +179,18 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/198/original/open-uri20220324-3-1xdrtl0?1648150797",
-      "caption": "为在法英语人士提供签证保险：原始案例中的产品与运营配图（第4张）",
-      "alt": "为在法英语人士提供签证保险：原始案例中的产品与运营配图（第4张）",
+      "caption": "为在法英语人士提供签证保险：产品设计与早期打磨相关原始配图（第4张）",
+      "alt": "为在法英语人士提供签证保险：产品设计与早期打磨相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-offer-visa-insurance-for-the-english-speaking-in-france-3m-year",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/199/original/open-uri20220324-3-1392hjt?1648150797",
+      "caption": "为在法英语人士提供签证保险：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "为在法英语人士提供签证保险：产品上线与首次发布相关原始配图（第5张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-offer-visa-insurance-for-the-english-speaking-in-france-3m-year",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -199,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2419,
-    "mediaCount": 5,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

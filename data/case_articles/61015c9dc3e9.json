@@ -178,6 +178,20 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "高端口腔护理DTC品牌的商业增长闭环",
+      "items": [
+        "【引流】社交媒体种草+口碑推荐",
+        "【产品】高端牙膏+口腔护理配件",
+        "【变现】订阅制收费",
+        "【留存】定期配送+会员权益+社区互动"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -192,11 +206,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2468,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 4,
+    "logicMedia": 1
   }
 }

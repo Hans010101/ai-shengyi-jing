@@ -165,6 +165,46 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://hnointl.com/wp-content/uploads/2025/04/HNO-International-Social-Share-Image.png",
+      "caption": "减排设备专利技术官网：产品界面与核心功能展示",
+      "alt": "减排设备专利技术官网：产品界面与核心功能展示",
+      "sourceUrl": "https://hnointl.com/leefh2-engine/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://hnointl.com/wp-content/uploads/2026/07/leefh2-engine-machines-1.png",
+      "caption": "减排设备专利技术官网：产品界面与核心功能展示",
+      "alt": "减排设备专利技术官网：产品界面与核心功能展示",
+      "sourceUrl": "https://hnointl.com/leefh2-engine/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://hnointl.com/wp-content/uploads/2026/07/LeefH2™-for-Engines-7.0L-png-img-100x100.png",
+      "caption": "减排设备专利技术官网：产品界面与核心功能展示",
+      "alt": "减排设备专利技术官网：产品界面与核心功能展示",
+      "sourceUrl": "https://hnointl.com/leefh2-engine/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://hnointl.com/wp-content/uploads/2026/07/LeefH2™-for-Engines-9.0L-to-16.0L-png-100x100.png",
+      "caption": "减排设备专利技术官网：产品界面与核心功能展示",
+      "alt": "减排设备专利技术官网：产品界面与核心功能展示",
+      "sourceUrl": "https://hnointl.com/leefh2-engine/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -179,7 +219,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2428,
-    "mediaCount": 3,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

@@ -165,6 +165,56 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://www.popovleather.com/cdn/shop/files/leather-belt-1-5-popov-leather-1174378949.jpg?v=1762472539&width=1800",
+      "caption": "手工皮具DTC品牌官网：官网展示的产品与实际使用场景",
+      "alt": "手工皮具DTC品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.popovleather.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.popovleather.com/cdn/shop/files/leather-belt-natural-popov-leather-40281839108319.jpg?v=1743361411&width=1600",
+      "caption": "手工皮具DTC品牌官网：官网展示的产品与实际使用场景",
+      "alt": "手工皮具DTC品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.popovleather.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.popovleather.com/cdn/shop/files/wallet-gauntlet-rfid-blocking-card-popov-leather-41488041017567.jpg?v=1762457416&width=1600",
+      "caption": "手工皮具DTC品牌官网：官网展示的产品与实际使用场景",
+      "alt": "手工皮具DTC品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.popovleather.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.popovleather.com/cdn/shop/files/wallet-gauntlet-rfid-blocking-card-popov-leather-41308563144927.jpg?v=1737495771&width=1600",
+      "caption": "手工皮具DTC品牌官网：官网展示的产品与实际使用场景",
+      "alt": "手工皮具DTC品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.popovleather.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.popovleather.com/cdn/shop/files/leather-vanguard-belt-1-5-popov-leather-1174379292.jpg?v=1762474222&width=1800",
+      "caption": "手工皮具DTC品牌官网：官网展示的产品与实际使用场景",
+      "alt": "手工皮具DTC品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.popovleather.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -179,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2406,
-    "mediaCount": 3,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

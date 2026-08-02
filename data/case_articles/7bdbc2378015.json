@@ -168,9 +168,49 @@
     },
     {
       "type": "image",
+      "url": "https://babelbark.com/wp-content/uploads/2022/05/Dog-Health-Dashboard-and-Marketing-to-Dog-Owners.png",
+      "caption": "宠物生态SaaS平台官网：官网展示的产品与实际使用场景",
+      "alt": "宠物生态SaaS平台官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://babelbark.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://babelbark.com/wp-content/uploads/2022/05/Dog-Health-Dashboard-and-Marketing-to-Dog-Owners-300x203.png",
+      "caption": "宠物生态SaaS平台官网：官网展示的产品与实际使用场景",
+      "alt": "宠物生态SaaS平台官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://babelbark.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://babelbark.com/wp-content/uploads/2024/01/Screenshot-2024-01-16-at-3.26.15â¯AM.png",
+      "caption": "宠物生态SaaS平台官网：官网展示的产品与实际使用场景",
+      "alt": "宠物生态SaaS平台官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://babelbark.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/655/original/open-uri20190822-4-17kb1ko?1566438365",
       "caption": "宠物生态SaaS平台：产品设计与早期打磨相关原始配图（第3张）",
       "alt": "宠物生态SaaS平台：产品设计与早期打磨相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-a-simple-idea-turned-into-a-pet-platform-with-thousands-of-users",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/656/original/open-uri20190822-4-v9x2q?1566438366",
+      "caption": "宠物生态SaaS平台：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "宠物生态SaaS平台：产品上线与首次发布相关原始配图（第4张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-a-simple-idea-turned-into-a-pet-platform-with-thousands-of-users",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2537,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

@@ -167,6 +167,52 @@
       "context": "source-article-body"
     },
     {
+      "type": "video-file",
+      "url": "https://cdn.shopify.com/videos/c/o/v/aefc2632d0bc433ebbdf944667979690.mp4",
+      "watchUrl": "https://cdn.shopify.com/videos/c/o/v/aefc2632d0bc433ebbdf944667979690.mp4",
+      "poster": "https://cdn.shopify.com/s/files/1/0093/1466/4484/files/PINK-shaker-WHATS-IN-YOUR_375.jpg?v=1593500592",
+      "caption": "高端运动摇摇杯品牌官网：产品界面与核心功能展示",
+      "alt": "高端运动摇摇杯品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.shakesphere.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://cdn.shopify.com/videos/c/o/v/4c6203f8b9c046039a6356ac258bd0ea.mp4",
+      "watchUrl": "https://cdn.shopify.com/videos/c/o/v/4c6203f8b9c046039a6356ac258bd0ea.mp4",
+      "poster": "https://cdn.shopify.com/s/files/1/0093/1466/4484/files/PINK-shaker-WHATS-IN-YOUR_375.jpg?v=1593500592",
+      "caption": "高端运动摇摇杯品牌官网：产品界面与核心功能展示",
+      "alt": "高端运动摇摇杯品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.shakesphere.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://cdn.shopify.com/videos/c/o/v/5a17f37d49f44e2a819f77ae390782d5.mp4",
+      "watchUrl": "https://cdn.shopify.com/videos/c/o/v/5a17f37d49f44e2a819f77ae390782d5.mp4",
+      "poster": "https://cdn.shopify.com/s/files/1/0093/1466/4484/files/PINK-shaker-WHATS-IN-YOUR_375.jpg?v=1593500592",
+      "caption": "高端运动摇摇杯品牌官网：产品界面与核心功能展示",
+      "alt": "高端运动摇摇杯品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.shakesphere.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.shopify.com/s/files/1/0093/1466/4484/files/PINK-shaker-WHATS-IN-YOUR_375.jpg?v=1593500592",
+      "caption": "高端运动摇摇杯品牌官网：产品界面与核心功能展示",
+      "alt": "高端运动摇摇杯品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.shakesphere.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/928/original/open-uri20220127-3-1ms08k2?1643292291",
       "caption": "高端运动摇摇杯品牌：创业起点与创意来源相关原始配图（第3张）",
@@ -189,7 +235,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2464,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

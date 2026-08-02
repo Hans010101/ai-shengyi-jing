@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "播客制作营销机构的产品与交付路径",
+      "items": [
+        "客户咨询",
+        "播客策划",
+        "录制制作",
+        "发布推广"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "播客制作营销机构的中国市场验证路线",
+      "items": [
+        "选定垂直领域（如健康、商业），创建个人播客或协助客户制作样片，积累作品集。",
+        "在知乎、小宇宙等平台发布免费内容，吸引目标客户，提供免费咨询或试做一集。",
+        "设计标准化服务套餐（如基础制作、全案营销），按客户预算分级定价，通过口碑和转介绍获客。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,11 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2419,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ConnectTimeout",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ConnectTimeout",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ConnectTimeout",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

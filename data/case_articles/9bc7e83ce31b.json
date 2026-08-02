@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "退伍军人创办的财务辅导公司的产品与交付路径",
+      "items": [
+        "用户咨询",
+        "信用评估",
+        "个性化计划",
+        "付费辅导/课程"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "退伍军人创办的财务辅导公司的中国市场验证路线",
+      "items": [
+        "获取财务认证（如AFP、CFP或国内理财规划师），建立专业形象。",
+        "在抖音、小红书发布理财干货，吸引粉丝，引导私信咨询。",
+        "设计标准化课程包（如债务管理、信用修复），通过微信社群或知识星球变现。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,11 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2375,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ConnectionError",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ConnectionError",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ConnectionError",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

@@ -168,6 +168,46 @@
     },
     {
       "type": "image",
+      "url": "https://ashlandleather.com/cdn/shop/files/HERO_BF_banner_d7080b76-f877-4dd8-b8a0-c01ae0da1388.png?v=1764395298&width=1200",
+      "caption": "手工皮具品牌官网：官网展示的产品与实际使用场景",
+      "alt": "手工皮具品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://ashlandleather.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://ashlandleather.com/cdn/shop/files/HERO_BF_banner_d7080b76-f877-4dd8-b8a0-c01ae0da1388.png?v=1764395298&width=750",
+      "caption": "手工皮具品牌官网：官网展示的产品与实际使用场景",
+      "alt": "手工皮具品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://ashlandleather.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://ashlandleather.com/cdn/shop/products/johnny-the-fox-dublin-english-tan-front.jpg?v=1769190779",
+      "caption": "手工皮具品牌官网：产品界面与核心功能展示",
+      "alt": "手工皮具品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://ashlandleather.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://ashlandleather.com/cdn/shop/files/Ashland-1_1_opt_fb8db2cb-d7ed-4252-bb38-1cf4974ed948.webp?v=1760091349&width=600",
+      "caption": "手工皮具品牌官网：产品界面与核心功能展示",
+      "alt": "手工皮具品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://ashlandleather.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/756/original/open-uri20190118-4-c3j0em?1547830925",
       "caption": "手工皮具品牌：创业起点与创意来源相关原始配图（第3张）",
       "alt": "手工皮具品牌：创业起点与创意来源相关原始配图（第3张）",
@@ -175,18 +215,6 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
-    },
-    {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/mlYl_qlFe0k",
-      "watchUrl": "https://www.youtube.com/watch?v=mlYl_qlFe0k",
-      "caption": "手工皮具品牌资料中提及的视频：Horween Leather Alden Boots - History of Chromexcel Leather",
-      "alt": "Horween Leather Alden Boots - History of Chromexcel Leather",
-      "sourceUrl": "https://www.starterstory.com/stories/growing-a-handcrafted-leather-goods-business-to-600k-year",
-      "origin": "embeddable-video",
-      "poster": "https://i.ytimg.com/vi/mlYl_qlFe0k/hqdefault.jpg",
-      "provider": "YouTube",
-      "usage": ""
     }
   ],
   "source": {
@@ -201,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2399,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

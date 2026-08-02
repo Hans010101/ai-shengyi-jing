@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "自出版小众旅游指南的产品与交付路径",
+      "items": [
+        "内容调研",
+        "写作编辑",
+        "排版设计",
+        "出版上架（亚马逊KDP/自有网站）"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "自出版小众旅游指南的中国市场验证路线",
+      "items": [
+        "选定一个你熟悉的小众主题（如本地观星点、徒步路线），调研市场需求，确保有足够受众。",
+        "撰写内容并排版，使用亚马逊KDP或国内平台（如豆瓣阅读）自出版，设置定价。",
+        "在社交媒体（小红书、抖音）发布主题相关内容引流，引导至购买链接，并收集反馈迭代版本。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2454,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

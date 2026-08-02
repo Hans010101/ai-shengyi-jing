@@ -168,6 +168,46 @@
     },
     {
       "type": "image",
+      "url": "https://images.prismic.io/tutor-cruncher/Z1SFj5bqstJ98Mtd_home-hero-placeholder.jpg?auto=format%2Ccompress&fit=max&w=1920",
+      "caption": "为家教机构提供SaaS管理软件官网：官网展示的产品与实际使用场景",
+      "alt": "为家教机构提供SaaS管理软件官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://tutorcruncher.com/us",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://images.prismic.io/tutor-cruncher/Z1Q_oZbqstJ98Mg9_Calendarwithreminder.png?auto=format%2Ccompress&fit=max&w=3840",
+      "caption": "为家教机构提供SaaS管理软件官网：官网展示的产品与实际使用场景",
+      "alt": "为家教机构提供SaaS管理软件官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://tutorcruncher.com/us",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://images.prismic.io/tutor-cruncher/Z1v7MpbqstJ98dvK_Analytics.png?auto=format%2Ccompress&fit=max&w=3840",
+      "caption": "为家教机构提供SaaS管理软件官网：数据分析与决策功能界面",
+      "alt": "为家教机构提供SaaS管理软件官网：数据分析与决策功能界面",
+      "sourceUrl": "https://tutorcruncher.com/us",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://tutorcruncher.com/assets/rectangle-dino-name-description-titillium.0d28e72.png",
+      "caption": "为家教机构提供SaaS管理软件官网：产品界面与核心功能展示",
+      "alt": "为家教机构提供SaaS管理软件官网：产品界面与核心功能展示",
+      "sourceUrl": "https://tutorcruncher.com/us",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/355/original/open-uri20210826-3-1x7kyep?1630001815",
       "caption": "为家教机构提供SaaS管理软件：产品上线与首次发布相关原始配图（第3张）",
       "alt": "为家教机构提供SaaS管理软件：产品上线与首次发布相关原始配图（第3张）",
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2522,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

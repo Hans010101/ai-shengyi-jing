@@ -185,6 +185,26 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.featurebase.app/images/redesign3/product-ill/changelog_page_3.png",
+      "caption": "客户反馈管理SaaS官网：产品界面与核心功能展示",
+      "alt": "客户反馈管理SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.featurebase.app/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://featurebase.app/images/banner-new.jpg",
+      "caption": "客户反馈管理SaaS官网：产品界面与核心功能展示",
+      "alt": "客户反馈管理SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.featurebase.app/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -199,11 +219,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2461,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:content-root-missing|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

@@ -187,6 +187,26 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://emx2zzfzxax.exactdn.com/wp-content/uploads/2026/06/Obj-brand-campaign_1x.png?strip=all&w=200",
+      "caption": "Attest提供消费者调研SaaS官网：社交媒体内容与营销活动场景",
+      "alt": "Attest提供消费者调研SaaS官网：社交媒体内容与营销活动场景",
+      "sourceUrl": "https://www.askattest.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://emx2zzfzxax.exactdn.com/wp-content/uploads/2026/06/attest-open-graph.png?strip=all",
+      "caption": "Attest提供消费者调研SaaS官网：产品界面与核心功能展示",
+      "alt": "Attest提供消费者调研SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.askattest.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -201,11 +221,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2537,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:content-root-missing|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

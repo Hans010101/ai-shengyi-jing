@@ -168,9 +168,39 @@
     },
     {
       "type": "image",
+      "url": "https://pictures.tinyaway.com/filters:format(jpg)/1024x683/fb_share_image.png",
+      "caption": "出租环保微型房屋给旅行者官网：产品界面与核心功能展示",
+      "alt": "出租环保微型房屋给旅行者官网：产品界面与核心功能展示",
+      "sourceUrl": "https://tinyaway.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/557/original/open-uri20211026-3-yabrhq?1635276582",
       "caption": "出租环保微型房屋给旅行者：产品设计与早期打磨相关原始配图（第3张）",
       "alt": "出租环保微型房屋给旅行者：产品设计与早期打磨相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/we-make-1-8m-year-selling-holidays-in-tiny-houses",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/558/original/open-uri20211026-3-1btnm5p?1635276582",
+      "caption": "出租环保微型房屋给旅行者：产品设计与早期打磨相关原始配图（第4张）",
+      "alt": "出租环保微型房屋给旅行者：产品设计与早期打磨相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/we-make-1-8m-year-selling-holidays-in-tiny-houses",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/559/original/open-uri20211026-3-blfwcg?1635276583",
+      "caption": "出租环保微型房屋给旅行者：产品设计与早期打磨相关原始配图（第5张）",
+      "alt": "出租环保微型房屋给旅行者：产品设计与早期打磨相关原始配图（第5张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-make-1-8m-year-selling-holidays-in-tiny-houses",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +219,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2461,
-    "mediaCount": 4,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

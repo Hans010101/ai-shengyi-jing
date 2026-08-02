@@ -168,9 +168,39 @@
     },
     {
       "type": "image",
+      "url": "https://dermestidarium.com/wp-content/uploads/2018/07/headerlogoonly.png",
+      "caption": "用食肉甲虫清理动物骨骼官网：产品界面与核心功能展示",
+      "alt": "用食肉甲虫清理动物骨骼官网：产品界面与核心功能展示",
+      "sourceUrl": "https://dermestidarium.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/239/original/open-uri20190313-4-3dflyx?1552456905",
       "caption": "用食肉甲虫清理动物骨骼：产品设计与早期打磨相关原始配图（第3张）",
       "alt": "用食肉甲虫清理动物骨骼：产品设计与早期打磨相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-successful-side-business-cleaning-animal-skulls",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/240/original/open-uri20190313-4-qyi1vj?1552456906",
+      "caption": "用食肉甲虫清理动物骨骼：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "用食肉甲虫清理动物骨骼：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-successful-side-business-cleaning-animal-skulls",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/241/original/open-uri20190313-4-1gy3nmi?1552456906",
+      "caption": "用食肉甲虫清理动物骨骼：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "用食肉甲虫清理动物骨骼：产品上线与首次发布相关原始配图（第5张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-successful-side-business-cleaning-animal-skulls",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -201,7 +231,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2386,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

@@ -165,6 +165,34 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "线上家居HVAC设备零售的商业增长闭环",
+      "items": [
+        "【引流】SEO+谷歌广告",
+        "【产品】HVAC设备及配件",
+        "【变现】在线销售赚差价",
+        "【留存】会员优惠+邮件营销"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "线上家居HVAC设备零售的产品与交付路径",
+      "items": [
+        "官网展示",
+        "商品搜索",
+        "下单支付",
+        "仓储发货"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -179,11 +207,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2431,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 3,
+    "logicMedia": 2
   }
 }

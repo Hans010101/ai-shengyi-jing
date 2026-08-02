@@ -168,25 +168,53 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/003/231/original/open-uri20191013-4-dvwcx5?1570998962",
-      "caption": "军人创办的运动营养补充剂品牌：产品设计与早期打磨相关原始配图（第3张）",
-      "alt": "军人创办的运动营养补充剂品牌：产品设计与早期打磨相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-grinded-for-years-to-build-6m-year-bare-performance-nutrition",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://www.bareperformancenutrition.com/cdn/shop/files/z2025-11-13BPNProductFlatLays-320_websize-min_400x400_crop_center.jpg?v=1763350094",
+      "caption": "军人创办的运动营养补充剂品牌官网：官网展示的产品与实际使用场景",
+      "alt": "军人创办的运动营养补充剂品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.bareperformancenutrition.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/DvDLNE0ysjM",
-      "watchUrl": "https://www.youtube.com/watch?v=DvDLNE0ysjM",
-      "caption": "军人创办的运动营养补充剂品牌资料中提及的视频：THIS IS OUR STORY",
-      "alt": "THIS IS OUR STORY",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-grinded-for-years-to-build-6m-year-bare-performance-nutrition",
-      "origin": "embeddable-video",
-      "poster": "https://i.ytimg.com/vi/DvDLNE0ysjM/hqdefault.jpg",
-      "provider": "YouTube",
-      "usage": ""
+      "type": "image",
+      "url": "https://www.bareperformancenutrition.com/cdn/shop/files/z2025-11-13_BPN_Product_Flat_Lays-77_websize-min_400x400_crop_center.jpg?v=1763349052",
+      "caption": "军人创办的运动营养补充剂品牌官网：官网展示的产品与实际使用场景",
+      "alt": "军人创办的运动营养补充剂品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.bareperformancenutrition.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.bareperformancenutrition.com/cdn/shop/files/z2025-11-13_BPN_Product_Flat_Lays-80_websize-min_400x400_crop_center.jpg?v=1763349033",
+      "caption": "军人创办的运动营养补充剂品牌官网：官网展示的产品与实际使用场景",
+      "alt": "军人创办的运动营养补充剂品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.bareperformancenutrition.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.bareperformancenutrition.com/cdn/shop/files/z2025-11-13_BPN_Product_Flat_Lays-71_websize-min-min_400x400_crop_center.jpg?v=1763340186",
+      "caption": "军人创办的运动营养补充剂品牌官网：官网展示的产品与实际使用场景",
+      "alt": "军人创办的运动营养补充剂品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.bareperformancenutrition.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.bareperformancenutrition.com/cdn/shop/files/z2025-11-13_BPN_Product_Flat_Lays-70_websize-min-min_400x400_crop_center.jpg?v=1763340186",
+      "caption": "军人创办的运动营养补充剂品牌官网：官网展示的产品与实际使用场景",
+      "alt": "军人创办的运动营养补充剂品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.bareperformancenutrition.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -201,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2433,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

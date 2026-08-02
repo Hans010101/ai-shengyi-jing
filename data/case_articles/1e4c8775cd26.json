@@ -168,6 +168,16 @@
     },
     {
       "type": "image",
+      "url": "https://hallow.com/opengraph-image.png",
+      "caption": "天主教冥想App官网：产品界面与核心功能展示",
+      "alt": "天主教冥想App官网：产品界面与核心功能展示",
+      "sourceUrl": "https://hallow.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/479/original/open-uri20210606-3-15fcmi7?1622961547",
       "caption": "天主教冥想App：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "alt": "天主教冥想App：创始人、核心产品与品牌起点相关原始配图（第3张）",
@@ -189,7 +199,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2347,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 5,
+    "logicMedia": 0
   }
 }

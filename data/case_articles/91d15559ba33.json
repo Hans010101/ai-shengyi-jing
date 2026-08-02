@@ -168,6 +168,16 @@
     },
     {
       "type": "image",
+      "url": "https://cultivatedculture.com/wp-content/uploads/2024/11/Screenshot-2024-11-27-at-10.45.40 AM.png",
+      "caption": "教人不用网申就能进名企官网：官网展示的产品与实际使用场景",
+      "alt": "教人不用网申就能进名企官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://cultivatedculture.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/887/original/open-uri20190903-4-10m1wvd?1567505017",
       "caption": "教人不用网申就能进名企：产品上线与首次发布相关原始配图（第3张）",
       "alt": "教人不用网申就能进名企：产品上线与首次发布相关原始配图（第3张）",
@@ -189,7 +199,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2451,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 5,
+    "logicMedia": 0
   }
 }

@@ -148,6 +148,46 @@
     },
     {
       "type": "image",
+      "url": "https://www.heepsy.com/_next/image?url=/home/variant/home-variant.webp&w=1200&q=75",
+      "caption": "网红营销平台官网：官网展示的产品主场景",
+      "alt": "网红营销平台官网：官网展示的产品主场景",
+      "sourceUrl": "https://www.heepsy.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.heepsy.com/_next/image?url=/home/variant/1.webp&w=1200&q=75",
+      "caption": "网红营销平台官网：产品界面与核心功能展示",
+      "alt": "网红营销平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.heepsy.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.heepsy.com/_next/image?url=/home/variant/discover3.webp&w=1200&q=75",
+      "caption": "网红营销平台官网：产品界面与核心功能展示",
+      "alt": "网红营销平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.heepsy.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.heepsy.com/_next/image?url=/home/variant/discover5.webp&w=1200&q=75",
+      "caption": "网红营销平台官网：社交媒体内容与营销活动场景",
+      "alt": "网红营销平台官网：社交媒体内容与营销活动场景",
+      "sourceUrl": "https://www.heepsy.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/506/original/open-uri20210903-3-iejf5l?1630696654",
       "caption": "网红营销平台：产品上线与首次发布相关原始配图",
       "alt": "网红营销平台：产品上线与首次发布相关原始配图",
@@ -175,18 +215,6 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
-    },
-    {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/KEVC74jbKE0",
-      "watchUrl": "https://www.youtube.com/watch?v=KEVC74jbKE0",
-      "caption": "网红营销平台：创始人、核心产品与品牌起点相关视频",
-      "alt": "网红营销平台相关视频",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-started-an-influencer-marketing-platform",
-      "origin": "embeddable-video",
-      "poster": "https://i.ytimg.com/vi/KEVC74jbKE0/hqdefault.jpg",
-      "provider": "YouTube",
-      "usage": ""
     }
   ],
   "source": {
@@ -201,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2581,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:http-429|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

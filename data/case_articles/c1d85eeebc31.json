@@ -168,6 +168,26 @@
     },
     {
       "type": "image",
+      "url": "https://www.themodestman.com/wp-content/uploads/2020/09/best-gym-bags-featured-590x590.jpg",
+      "caption": "男性形象与室内设计内容网站官网：产品界面与核心功能展示",
+      "alt": "男性形象与室内设计内容网站官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.themodestman.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.themodestman.com/wp-content/uploads/2019/05/The-Modest-Man-mens-style-and-fashion-blog.jpg",
+      "caption": "男性形象与室内设计内容网站官网：产品界面与核心功能展示",
+      "alt": "男性形象与室内设计内容网站官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.themodestman.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/680/original/open-uri20210105-3-5rhd3r?1609877604",
       "caption": "男性形象与室内设计内容网站：学习方法与行业资源相关原始配图（第3张）",
       "alt": "男性形象与室内设计内容网站：学习方法与行业资源相关原始配图（第3张）",
@@ -189,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2437,
-    "mediaCount": 4,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

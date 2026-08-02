@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/781/original/open-uri20220413-24-x83zdo?1649857124",
+      "caption": "健康狗零食品牌：产品设计与早期打磨相关原始配图（第4张）",
+      "alt": "健康狗零食品牌：产品设计与早期打磨相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/bell-bone",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/782/original/open-uri20220413-24-e3v5g6?1649857125",
+      "caption": "健康狗零食品牌：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "健康狗零食品牌：产品上线与首次发布相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/bell-bone",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/aXN159ZldLE",
       "watchUrl": "https://www.youtube.com/watch?v=aXN159ZldLE",
@@ -185,6 +205,18 @@
       "sourceUrl": "https://www.starterstory.com/stories/bell-bone",
       "origin": "embeddable-video",
       "poster": "https://i.ytimg.com/vi/aXN159ZldLE/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/KRph8L8Yeyk",
+      "watchUrl": "https://www.youtube.com/watch?v=KRph8L8Yeyk",
+      "caption": "健康狗零食品牌资料中提及的视频：Dental Healthcare for Puppies and Dogs",
+      "alt": "Dental Healthcare for Puppies and Dogs",
+      "sourceUrl": "https://www.starterstory.com/stories/bell-bone",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/KRph8L8Yeyk/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
     }
@@ -201,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2445,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ConnectionError",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ConnectionError",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

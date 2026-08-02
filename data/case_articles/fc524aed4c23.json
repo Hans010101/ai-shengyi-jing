@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "WordPress维护服务的中国市场验证路线",
+      "items": [
+        "定位目标客户，如中小企业或博客主，建立基础服务包（安全、备份、更新），定价99-299元/月。",
+        "搭建官网，通过SEO和中文内容营销（如WordPress维护教程）引流，提供免费试用1个月。",
+        "与WordPress主题/插件开发者合作，互相推荐，积累案例和口碑，逐步提价并推出高级套餐。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "WordPress维护服务的经营验证仪表盘",
+      "items": [
+        "WordPress维护服务，按月收费提供技术支持。",
+        "按月订阅制，提供WordPress网站维护、安全、备份、更新等服务，按功能复杂度分档收费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,11 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2494,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "http-403",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:http-403",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:http-403",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

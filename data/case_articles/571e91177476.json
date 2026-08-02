@@ -175,6 +175,26 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/082/original/open-uri20211005-3-jhkkio?1633455759",
+      "caption": "高端网页设计代理：当前经营状态与下一步规划相关原始配图（第4张）",
+      "alt": "高端网页设计代理：当前经营状态与下一步规划相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-went-from-designing-website-for-200-to-starting-a-studio-that-makes-100k-projects",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/083/original/open-uri20211005-3-utxywx?1633455759",
+      "caption": "高端网页设计代理：当前经营状态与下一步规划相关原始配图（第5张）",
+      "alt": "高端网页设计代理：当前经营状态与下一步规划相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-went-from-designing-website-for-200-to-starting-a-studio-that-makes-100k-projects",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -189,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2433,
-    "mediaCount": 4,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:SSLError",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:SSLError",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

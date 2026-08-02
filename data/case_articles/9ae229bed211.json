@@ -185,6 +185,26 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.signwell.com/assets/homepage/features_document_workflows-58ee90e3ce691f853563b95b086fe2056585747e439d1b4fb1787a295dd32029.png",
+      "caption": "电子签名SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "电子签名SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.signwell.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.signwell.com/assets/homepage/features_audit_reports-877b27c58fecc3cf6f3a7edb6bff283ff49e93a0b67f4602573811469b5fcc3c.png",
+      "caption": "电子签名SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "电子签名SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.signwell.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -199,11 +219,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2508,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:content-root-missing|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

@@ -168,9 +168,51 @@
     },
     {
       "type": "image",
+      "url": "https://www.wolfpack-digital.com/images/social_share_preview.jpg",
+      "caption": "罗马尼亚端到端Web与App开发公司官网：产品界面与核心功能展示",
+      "alt": "罗马尼亚端到端Web与App开发公司官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.wolfpack-digital.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "video-file",
+      "url": "https://www.wolfpack-digital.com/gif/wolf-launch-animation.mp4",
+      "watchUrl": "https://www.wolfpack-digital.com/gif/wolf-launch-animation.mp4",
+      "poster": "https://www.wolfpack-digital.com/gif/wolf-launch-poster.webp",
+      "caption": "罗马尼亚端到端Web与App开发公司官网：产品界面与核心功能展示",
+      "alt": "罗马尼亚端到端Web与App开发公司官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.wolfpack-digital.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/424/original/open-uri20220401-3-1i7pn5p?1648838562",
       "caption": "罗马尼亚端到端Web与App开发公司：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "alt": "罗马尼亚端到端Web与App开发公司：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/wolfpack-digital",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/425/original/open-uri20220401-3-1m4xqvr?1648838562",
+      "caption": "罗马尼亚端到端Web与App开发公司：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "alt": "罗马尼亚端到端Web与App开发公司：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/wolfpack-digital",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/426/original/open-uri20220401-3-r7spdq?1648838563",
+      "caption": "罗马尼亚端到端Web与App开发公司：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "alt": "罗马尼亚端到端Web与App开发公司：创始人、核心产品与品牌起点相关原始配图（第5张）",
       "sourceUrl": "https://www.starterstory.com/stories/wolfpack-digital",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +231,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2492,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

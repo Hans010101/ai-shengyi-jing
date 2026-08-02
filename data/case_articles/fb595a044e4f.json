@@ -157,6 +157,16 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://cdn.shopify.com/s/files/1/0357/2947/3671/files/Basketball_Alt_Cover.png?v=1748900232",
+      "caption": "运动鞋品牌官网：产品界面与核心功能展示",
+      "alt": "运动鞋品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://striasport.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
       "type": "infographic",
       "variant": "business-loop",
       "title": "运动鞋品牌的商业增长闭环",
@@ -167,6 +177,20 @@
         "【留存】社区互动+限量复购"
       ],
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "运动鞋品牌的产品与交付路径",
+      "items": [
+        "品牌故事",
+        "限量鞋款设计",
+        "官网预售",
+        "社交媒体种草"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
     }
@@ -183,11 +207,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2389,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "http-429",
-    "attemptedAt": "2026-08-02T09:37:46.068137+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 3,
+    "logicMedia": 2
   }
 }

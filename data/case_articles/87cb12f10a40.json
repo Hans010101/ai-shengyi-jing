@@ -168,13 +168,57 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/988/original/open-uri20210729-3-j45k83?1627569972",
-      "caption": "智能钱包品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "alt": "智能钱包品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-quadrupled-our-revenue-over-last-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "http://www.ekster.com/cdn/shop/files/Social_Sharing_Image_Wide_1.jpg?v=1758099496",
+      "caption": "智能钱包品牌官网：产品界面与核心功能展示",
+      "alt": "智能钱包品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.ekster.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.ekster.com/cdn/shop/files/hp-hero-steven-bartlett-desktop.jpg?v=1783497764&width=3396",
+      "caption": "智能钱包品牌官网：官网展示的产品与实际使用场景",
+      "alt": "智能钱包品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.ekster.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.ekster.com/cdn/shop/files/hp-hero-magsafe-orange-desktop.jpg?v=1783497765&width=2400",
+      "caption": "智能钱包品牌官网：官网展示的产品与实际使用场景",
+      "alt": "智能钱包品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.ekster.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "video-file",
+      "url": "https://www.ekster.com/cdn/shop/videos/c/vp/ef836acabcfa432989c221605fdfa9d9/ef836acabcfa432989c221605fdfa9d9.HD-1080p-4.8Mbps-88413193.mp4?v=0",
+      "watchUrl": "https://www.ekster.com/cdn/shop/videos/c/vp/ef836acabcfa432989c221605fdfa9d9/ef836acabcfa432989c221605fdfa9d9.HD-1080p-4.8Mbps-88413193.mp4?v=0",
+      "poster": "https://www.ekster.com/cdn/shop/files/preview_images/ef836acabcfa432989c221605fdfa9d9.thumbnail.0000000000.jpg?v=1783512947&width=1440",
+      "caption": "智能钱包品牌官网：产品界面与核心功能展示",
+      "alt": "智能钱包品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.ekster.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://www.ekster.com/cdn/shop/videos/c/vp/d1d6069b0fb7450bac429049ddbd4389/d1d6069b0fb7450bac429049ddbd4389.HD-1080p-4.8Mbps-57730799.mp4?v=0",
+      "watchUrl": "https://www.ekster.com/cdn/shop/videos/c/vp/d1d6069b0fb7450bac429049ddbd4389/d1d6069b0fb7450bac429049ddbd4389.HD-1080p-4.8Mbps-57730799.mp4?v=0",
+      "poster": "https://www.ekster.com/cdn/shop/files/preview_images/d1d6069b0fb7450bac429049ddbd4389.thumbnail.0000000000.jpg?v=1758187798&width=1440",
+      "caption": "智能钱包品牌官网：产品界面与核心功能展示",
+      "alt": "智能钱包品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.ekster.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -189,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2503,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

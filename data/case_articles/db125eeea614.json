@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "游戏化销售激励平台的中国市场验证路线",
+      "items": [
+        "开发MVP，集成主流CRM（如Salesforce、HubSpot）数据，实现基础排行榜和竞赛功能。",
+        "针对中国销售团队，开发企业微信和小程序版本，支持红包、虚拟礼物等本土化激励方式。",
+        "通过销售管理社群、行业KOL合作推广，提供免费试用，收集反馈快速迭代。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "游戏化销售激励平台的经营验证仪表盘",
+      "items": [
+        "游戏化销售激励平台，按月订阅收费",
+        "B2B SaaS订阅模式，按用户数收费，提供游戏化销售竞赛、实时排行榜、奖励积分等功能。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2449,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

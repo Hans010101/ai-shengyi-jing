@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI驱动的网络安全培训SaaS的中国市场验证路线",
+      "items": [
+        "聚焦1-2个垂直行业（如金融、医疗），开发符合等保2.0要求的AI课程模板，快速验证付费意愿。",
+        "与IT服务商或安全厂商合作，通过其客户网络推广，采用免费试用+低门槛入门套餐（如100员工以下免费）。",
+        "建立自动化营销漏斗，利用LinkedIn/微信投放白皮书，引导注册试用；收集用户反馈迭代AI生成质量。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI驱动的网络安全培训SaaS的经营验证仪表盘",
+      "items": [
+        "AI驱动的网络安全培训SaaS，通过订阅制向企业收费。",
+        "B2B SaaS订阅制，按员工数收费，提供AI自动生成课程、模拟钓鱼攻击等功能。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2516,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "定制月相首饰品牌的产品与交付路径",
+      "items": [
+        "用户浏览TikTok",
+        "点击链接进入官网",
+        "选择日期定制月相",
+        "在线支付"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "定制月相首饰品牌的中国市场验证路线",
+      "items": [
+        "注册TikTok账号，拍摄展示月相项链定制过程的短视频，强调情感故事，使用热门标签如#moonnecklace。",
+        "搭建Shopify独立站，集成月相生成插件（如Moon Phase Jewelry），用户选择日期即可预览月相图，并下单。",
+        "与微影响者合作，赠送产品换取开箱视频，鼓励用户生成内容，利用TikTok广告定向精准人群，快速起量。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,11 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2540,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ConnectionError",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ConnectionError",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ConnectionError",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

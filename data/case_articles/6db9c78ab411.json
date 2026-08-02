@@ -167,10 +167,52 @@
       "context": "source-article-body"
     },
     {
+      "type": "video-file",
+      "url": "https://cdn.prod.website-files.com/5eaee36f30994e3cfd0eea66/634e83cd9e9cd1613696808e_Home-page-video-3-transcode.mp4",
+      "watchUrl": "https://cdn.prod.website-files.com/5eaee36f30994e3cfd0eea66/634e83cd9e9cd1613696808e_Home-page-video-3-transcode.mp4",
+      "poster": "https://cdn.prod.website-files.com/5eaee36f30994e3cfd0eea66/65081158d7729cbae81fe0e5_filmbaker%20website.webp",
+      "caption": "工程师创办的视频制作公司官网：产品界面与核心功能展示",
+      "alt": "工程师创办的视频制作公司官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.filmbaker.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/5eafdb0a9675c118b225dc7e/664c8516570f137cdcb3d6b7_Filmbaker%20Portfolio%20Thumbnails%20(17).avif",
+      "caption": "工程师创办的视频制作公司官网：产品界面与核心功能展示",
+      "alt": "工程师创办的视频制作公司官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.filmbaker.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/5eaee36f30994e3cfd0eea66/65081158d7729cbae81fe0e5_filmbaker%20website.webp",
+      "caption": "工程师创办的视频制作公司官网：产品界面与核心功能展示",
+      "alt": "工程师创办的视频制作公司官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.filmbaker.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/242/original/open-uri20220619-24-179n7hg?1655642683",
       "caption": "工程师创办的视频制作公司：产品设计与早期打磨相关原始配图（第3张）",
       "alt": "工程师创办的视频制作公司：产品设计与早期打磨相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/filmbaker",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/244/original/open-uri20220619-24-1tagyug?1655642684",
+      "caption": "工程师创办的视频制作公司：当前经营状态与下一步规划相关原始配图（第4张）",
+      "alt": "工程师创办的视频制作公司：当前经营状态与下一步规划相关原始配图（第4张）",
       "sourceUrl": "https://www.starterstory.com/stories/filmbaker",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +231,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2416,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

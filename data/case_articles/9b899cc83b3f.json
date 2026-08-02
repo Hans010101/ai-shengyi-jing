@@ -171,6 +171,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "视频制作公司的产品与交付路径",
+      "items": [
+        "客户咨询",
+        "需求分析",
+        "拍摄执行",
+        "后期剪辑"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "视频制作公司的中国市场验证路线",
+      "items": [
+        "用个人手机或租赁设备拍摄样片，在朋友圈、本地商会群免费为3-5家小企业制作短视频，积累作品集。",
+        "针对本地婚庆、餐饮、培训等高频需求行业，推出1999元基础套餐（含1分钟视频+剪辑），通过地推或美团开店获取首批付费客户。",
+        "建立标准化拍摄流程，招募兼职摄影师按单分成，同时开发企业年框服务（如每月2条视频），提升复购率。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -185,7 +212,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2499,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

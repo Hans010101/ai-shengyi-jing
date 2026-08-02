@@ -165,6 +165,34 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "德国IT自由职业者在线社区的商业增长闭环",
+      "items": [
+        "【引流】社交媒体内容+口碑传播",
+        "【产品】线上社区+线下活动",
+        "【变现】会员订阅+活动门票",
+        "【留存】持续价值输出+人脉连接"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "德国IT自由职业者在线社区的产品与交付路径",
+      "items": [
+        "用户注册",
+        "加入社区",
+        "参与讨论/活动",
+        "获取合作资源"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -179,11 +207,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2476,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 3,
+    "logicMedia": 2
   }
 }

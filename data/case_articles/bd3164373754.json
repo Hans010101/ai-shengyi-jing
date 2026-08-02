@@ -168,6 +168,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "椅背上的猫的产品与交付路径",
+      "items": [
+        "用户上传照片",
+        "支付模块",
+        "后端处理（Python）",
+        "绘画API（或人工）"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "椅背上的猫的中国市场验证路线",
+      "items": [
+        "市场调研，确认目标人群，设计产品风格，准备样图。",
+        "搭建简易电商网站或微信小程序，集成支付功能，上传产品展示。",
+        "在小红书、抖音等平台发布制作过程视频，吸引用户下单，优化服务流程。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -182,11 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2440,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T09:37:46.068137+00:00"
+    "status": "source:content-root-missing|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:ok",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

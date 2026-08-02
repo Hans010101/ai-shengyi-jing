@@ -168,6 +168,26 @@
     },
     {
       "type": "image",
+      "url": "https://cdn.prod.website-files.com/61aa482275701e897156da77/68b07ca96dcc7569128dd2b8_Screenshot%202025-08-27%20at%202.46.35%E2%80%AFPM.avif",
+      "caption": "SaaS平台帮中小企业建立知识库和培训系统官网：产品界面与核心功能展示",
+      "alt": "SaaS平台帮中小企业建立知识库和培训系统官网：产品界面与核心功能展示",
+      "sourceUrl": "https://trainual.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/61aa482275701e897156da77/68a5fd9ea9ca647ae2674e56_trainual-og-thumbnail.avif",
+      "caption": "SaaS平台帮中小企业建立知识库和培训系统官网：产品界面与核心功能展示",
+      "alt": "SaaS平台帮中小企业建立知识库和培训系统官网：产品界面与核心功能展示",
+      "sourceUrl": "https://trainual.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/263/original/open-uri20220328-3-19dpgu2?1648505883",
       "caption": "SaaS平台帮中小企业建立知识库和培训系统：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "alt": "SaaS平台帮中小企业建立知识库和培训系统：创始人、核心产品与品牌起点相关原始配图（第3张）",
@@ -187,6 +207,18 @@
       "poster": "https://i.ytimg.com/vi/8R7qaX5vBzE/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/EvtUHphBc8g&list=PLUi76BI4p3hDIjLNvmym9C4i_E4_p71HU&index=22",
+      "watchUrl": "https://www.youtube.com/watch?v=EvtUHphBc8g&list=PLUi76BI4p3hDIjLNvmym9C4i_E4_p71HU&index=22",
+      "caption": "SaaS平台帮中小企业建立知识库和培训系统资料中提及的视频：How to Build a Business That Can Scale Beyond You",
+      "alt": "How to Build a Business That Can Scale Beyond You",
+      "sourceUrl": "https://www.starterstory.com/stories/trainual-07736271-de85-46b7-ae9a-18b8a5559d4e",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/EvtUHphBc8g/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -201,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2475,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

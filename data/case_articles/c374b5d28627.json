@@ -167,16 +167,56 @@
       "context": "source-article-body"
     },
     {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/hQixhNL-g1k",
-      "watchUrl": "https://www.youtube.com/watch?v=hQixhNL-g1k",
-      "caption": "帮企业开发数字产品的技术公司资料中提及的视频：How to Build A Successful Business? Incorporate My Three P's To Build A Business",
-      "alt": "How to Build A Successful Business? Incorporate My Three P's To Build A Business",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-closed-deals-with-other-companies-and-grown-our-traffic-by-500",
-      "origin": "embeddable-video",
-      "poster": "https://i.ytimg.com/vi/hQixhNL-g1k/hqdefault.jpg",
-      "provider": "YouTube",
-      "usage": ""
+      "type": "image",
+      "url": "https://imaginovation.net/static/8ffdbe119e9058b9014dd815c7f85dde/ebook-featured-image.webp",
+      "caption": "帮企业开发数字产品的技术公司官网：官网展示的产品与实际使用场景",
+      "alt": "帮企业开发数字产品的技术公司官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://imaginovation.net/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "video-file",
+      "url": "https://imaginovation.net/videos/homepage-hero-globe.mp4",
+      "watchUrl": "https://imaginovation.net/videos/homepage-hero-globe.mp4",
+      "poster": "https://imaginovation.net",
+      "caption": "帮企业开发数字产品的技术公司官网：产品界面与核心功能展示",
+      "alt": "帮企业开发数字产品的技术公司官网：产品界面与核心功能展示",
+      "sourceUrl": "https://imaginovation.net/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://imaginovation.net/static/a74decae2f47de51cbb3aa5270110594/design-first-top-banner.webp",
+      "caption": "帮企业开发数字产品的技术公司官网：产品界面与核心功能展示",
+      "alt": "帮企业开发数字产品的技术公司官网：产品界面与核心功能展示",
+      "sourceUrl": "https://imaginovation.net/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://imaginovation.net/static/5b1577529bc50ba07b08327ee6b7ec71/everflex-top-banner.webp",
+      "caption": "帮企业开发数字产品的技术公司官网：产品界面与核心功能展示",
+      "alt": "帮企业开发数字产品的技术公司官网：产品界面与核心功能展示",
+      "sourceUrl": "https://imaginovation.net/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://imaginovation.net/static/b89117f6c48b0e0476bd9df74c57c1e5/magictask-top-banner.webp",
+      "caption": "帮企业开发数字产品的技术公司官网：产品界面与核心功能展示",
+      "alt": "帮企业开发数字产品的技术公司官网：产品界面与核心功能展示",
+      "sourceUrl": "https://imaginovation.net/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -191,7 +231,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2395,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

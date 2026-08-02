@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "小型AI工具组合产品的中国市场验证路线",
+      "items": [
+        "选择3-5个中国市场需求大的轻量AI场景（如文案生成、图片美化），用GPT API或开源模型快速开发MVP。",
+        "搭建独立站或微信小程序，设置免费试用（每日5次）和订阅套餐（月费9.9-29.9元），接入微信支付。",
+        "在知乎、小红书发布工具使用教程和对比评测，引导免费用户转化为付费订阅，根据反馈迭代工具。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "小型AI工具组合产品的经营验证仪表盘",
+      "items": [
+        "小型AI工具组合产品，通过订阅制收费。",
+        "开发多个小型AI工具（如聊天、图像等），按功能分层订阅，月费$10-20，吸引个人和小团队用户。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2506,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

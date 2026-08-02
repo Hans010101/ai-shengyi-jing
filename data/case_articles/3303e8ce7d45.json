@@ -194,6 +194,45 @@
       "provider": "YouTube",
       "usage": "official-site-reference",
       "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/dFKM-dojNf8",
+      "watchUrl": "https://www.youtube.com/watch?v=dFKM-dojNf8",
+      "caption": "个人理财与生活方式博客资料中提及的视频：Why Quitting Your Job Might Be the BEST Decision You Make",
+      "alt": "Why Quitting Your Job Might Be the BEST Decision You Make",
+      "sourceUrl": "https://thesavvycouple.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/dFKM-dojNf8/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/swuTJPB79LI",
+      "watchUrl": "https://www.youtube.com/watch?v=swuTJPB79LI",
+      "caption": "个人理财与生活方式博客资料中提及的视频：7 Legit Night Jobs You Can Do From Home (No Degree Needed!)",
+      "alt": "7 Legit Night Jobs You Can Do From Home (No Degree Needed!)",
+      "sourceUrl": "https://thesavvycouple.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/swuTJPB79LI/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/7oM-Nfl8CtQ",
+      "watchUrl": "https://www.youtube.com/watch?v=7oM-Nfl8CtQ",
+      "caption": "个人理财与生活方式博客资料中提及的视频：5 Best Remote Side Hustles to Make Money From Home in 2026",
+      "alt": "5 Best Remote Side Hustles to Make Money From Home in 2026",
+      "sourceUrl": "https://thesavvycouple.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/7oM-Nfl8CtQ/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -208,11 +247,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2526,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

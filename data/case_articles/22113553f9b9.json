@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "销售天然清洁产品的产品与交付路径",
+      "items": [
+        "产品研发",
+        "原料采购",
+        "生产灌装",
+        "批发渠道"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "销售天然清洁产品的中国市场验证路线",
+      "items": [
+        "选定细分人群（如母婴或宠物家庭），研发1-2款天然清洁产品，通过小批量试产验证配方和包装。",
+        "在本地社区或线上社群（如小红书、微信群）进行种子用户推广，收集反馈并优化产品。",
+        "联系本地母婴店、有机超市或社区团购团长，以批发价供货，同时建立官网或小程序零售渠道。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,11 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2420,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "http-403",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:http-403",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:http-403",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

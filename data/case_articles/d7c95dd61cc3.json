@@ -167,16 +167,50 @@
       "context": "source-article-body"
     },
     {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/iE25K7ijWe8",
-      "watchUrl": "https://www.youtube.com/watch?v=iE25K7ijWe8",
-      "caption": "女性金融社区Basis资料中提及的视频：We are Basis!",
-      "alt": "We are Basis!",
-      "sourceUrl": "https://www.starterstory.com/stories/basis",
-      "origin": "embeddable-video",
-      "poster": "https://i.ytimg.com/vi/iE25K7ijWe8/hqdefault.jpg",
-      "provider": "YouTube",
-      "usage": ""
+      "type": "image",
+      "url": "https://basis.com/wp-content/uploads/2026/04/Basis-Social-Share-Image.jpg",
+      "caption": "女性金融社区Basis官网：产品界面与核心功能展示",
+      "alt": "女性金融社区Basis官网：产品界面与核心功能展示",
+      "sourceUrl": "https://basis.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "video-file",
+      "url": "https://player.vimeo.com/progressive_redirect/playback/958495172/rendition/720p/file.mp4?loc=external&log_user=0&signature=ebde2f3697ba901aadba1bebb15dad023a0173bbb9e7076f3f1543b7286b59cd",
+      "watchUrl": "https://player.vimeo.com/progressive_redirect/playback/958495172/rendition/720p/file.mp4?loc=external&log_user=0&signature=ebde2f3697ba901aadba1bebb15dad023a0173bbb9e7076f3f1543b7286b59cd",
+      "poster": "https://basis.com/wp-content/uploads/2026/04/Basis-Social-Share-Image.jpg",
+      "caption": "女性金融社区Basis官网：产品界面与核心功能展示",
+      "alt": "女性金融社区Basis官网：产品界面与核心功能展示",
+      "sourceUrl": "https://basis.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://basis.com/wp-content/uploads/2023/03/homepage-tab-1-1.mp4",
+      "watchUrl": "https://basis.com/wp-content/uploads/2023/03/homepage-tab-1-1.mp4",
+      "poster": "https://basis.com/wp-content/uploads/2026/04/Basis-Social-Share-Image.jpg",
+      "caption": "女性金融社区Basis官网：产品界面与核心功能展示",
+      "alt": "女性金融社区Basis官网：产品界面与核心功能展示",
+      "sourceUrl": "https://basis.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://basis.com/wp-content/uploads/2023/03/homepage-tab-2.mp4",
+      "watchUrl": "https://basis.com/wp-content/uploads/2023/03/homepage-tab-2.mp4",
+      "poster": "https://basis.com/wp-content/uploads/2026/04/Basis-Social-Share-Image.jpg",
+      "caption": "女性金融社区Basis官网：产品界面与核心功能展示",
+      "alt": "女性金融社区Basis官网：产品界面与核心功能展示",
+      "sourceUrl": "https://basis.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -191,7 +225,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2474,
-    "mediaCount": 4,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

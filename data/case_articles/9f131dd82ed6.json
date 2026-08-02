@@ -168,9 +168,49 @@
     },
     {
       "type": "image",
+      "url": "https://hostscore.net/wp-content/uploads/gtmetrix.jpg",
+      "caption": "海外营销工具项目官网：产品界面与核心功能展示",
+      "alt": "海外营销工具项目官网：产品界面与核心功能展示",
+      "sourceUrl": "https://hostscore.net/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://hostscore.net/wp-content/uploads/5-1.png",
+      "caption": "海外营销工具项目官网：产品界面与核心功能展示",
+      "alt": "海外营销工具项目官网：产品界面与核心功能展示",
+      "sourceUrl": "https://hostscore.net/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://hostscore.net/wp-content/uploads/hostscore-cover.jpg",
+      "caption": "海外营销工具项目官网：产品界面与核心功能展示",
+      "alt": "海外营销工具项目官网：产品界面与核心功能展示",
+      "sourceUrl": "https://hostscore.net/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/674/original/open-uri20211030-3-1vjzszd?1635620208",
       "caption": "海外营销工具项目：产品设计与早期打磨相关原始配图（第3张）",
       "alt": "海外营销工具项目：产品设计与早期打磨相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-went-from-making-extra-income-with-affiliate-websites-to-building-360k-year-business",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/675/original/open-uri20211030-3-12kcgxy?1635620209",
+      "caption": "海外营销工具项目：产品设计与早期打磨相关原始配图（第4张）",
+      "alt": "海外营销工具项目：产品设计与早期打磨相关原始配图（第4张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-went-from-making-extra-income-with-affiliate-websites-to-building-360k-year-business",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2472,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

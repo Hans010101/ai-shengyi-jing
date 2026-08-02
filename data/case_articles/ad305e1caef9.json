@@ -185,6 +185,16 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.ecomcrew.com/wp-content/uploads/2026/03/EcomCrew-Featured-Blog-Images-13-1-scaled-1.png",
+      "caption": "电商教育平台官网：官网展示的产品与实际使用场景",
+      "alt": "电商教育平台官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.ecomcrew.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -199,11 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2429,
-    "mediaCount": 5,
+    "mediaCount": 6,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

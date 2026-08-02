@@ -148,6 +148,16 @@
     },
     {
       "type": "image",
+      "url": "https://tourscanner.com/blog/wp-content/uploads/og_image.png",
+      "caption": "旅游活动搜索引擎官网：产品界面与核心功能展示",
+      "alt": "旅游活动搜索引擎官网：产品界面与核心功能展示",
+      "sourceUrl": "https://tourscanner.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/724/original/open-uri20220102-3-zbdtf1?1641140194",
       "caption": "旅游活动搜索引擎：创始人、核心产品与品牌起点相关原始配图",
       "alt": "旅游活动搜索引擎：创始人、核心产品与品牌起点相关原始配图",
@@ -189,7 +199,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2412,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:http-429|official:ok",
+    "realMedia": 5,
+    "logicMedia": 0
   }
 }

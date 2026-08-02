@@ -167,6 +167,34 @@
       "poster": "https://i.ytimg.com/vi/eMwXV_uEiqo/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "养蜂产蜜业务的商业增长闭环",
+      "items": [
+        "【引流】社交媒体分享养蜂日常",
+        "【产品】纯天然蜂蜜及蜂产品",
+        "【变现】线上电商+线下市集",
+        "【留存】会员订阅/蜂蜜礼盒复购"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "养蜂产蜜业务的产品与交付路径",
+      "items": [
+        "蜂箱搭建",
+        "蜜蜂养殖",
+        "蜂蜜采收",
+        "过滤装瓶"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -181,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2378,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 3,
+    "logicMedia": 2
   }
 }

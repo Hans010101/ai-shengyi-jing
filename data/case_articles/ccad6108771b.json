@@ -167,16 +167,54 @@
       "context": "source-article-body"
     },
     {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/Vge7TXeC23c",
-      "watchUrl": "https://www.youtube.com/watch?v=Vge7TXeC23c",
-      "caption": "苹果设备效率工具：团队建设与人才需求相关视频",
-      "alt": "苹果设备效率工具相关视频",
-      "sourceUrl": "https://www.starterstory.com/stories/on-launching-an-app-subscription-service-for-macos-and-ios",
-      "origin": "embeddable-video",
-      "poster": "https://i.ytimg.com/vi/Vge7TXeC23c/hqdefault.jpg",
-      "provider": "YouTube",
-      "usage": ""
+      "type": "image",
+      "url": "https://macpaw.com/dpr=5/images/product-icons/cleanmymac-5/cleanmymac-5-hero.webp",
+      "caption": "苹果设备效率工具官网：官网展示的产品与实际使用场景",
+      "alt": "苹果设备效率工具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://macpaw.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://macpaw.com/dpr=5/images/product-icons/cleanmyphone/cleanmyphone-hero.webp",
+      "caption": "苹果设备效率工具官网：官网展示的产品与实际使用场景",
+      "alt": "苹果设备效率工具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://macpaw.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://macpaw.com/dpr=5/images/product-icons/gemini/gemini-hero.webp",
+      "caption": "苹果设备效率工具官网：官网展示的产品与实际使用场景",
+      "alt": "苹果设备效率工具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://macpaw.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://macpaw.com/dpr=5/images/product-icons/the-unarchiver/the-unarchiver-hero.webp",
+      "caption": "苹果设备效率工具官网：官网展示的产品与实际使用场景",
+      "alt": "苹果设备效率工具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://macpaw.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn3.macpaw.com/images/products/cleanmyphone/qr-code-main-page.png?id=ac1bccc9595a434dc256ea57f76a9cfd",
+      "caption": "苹果设备效率工具官网：官网展示的产品与实际使用场景",
+      "alt": "苹果设备效率工具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://macpaw.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -191,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2535,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

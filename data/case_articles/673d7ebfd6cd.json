@@ -157,18 +157,34 @@
       "context": "source-article-body"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "DTC电商销售空气和净水滤芯的商业增长闭环",
-      "items": [
-        "【引流】SEO+内容营销+社交媒体",
-        "【产品】兼容大品牌的滤芯",
-        "【变现】一次性购买+订阅制",
-        "【留存】定期更换提醒+订阅折扣+复购优惠"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://purefilters.ca/cdn/shop/articles/Screen_Shot_2024-09-09_at_2.23.42_PM_200x.png?v=1725906246",
+      "caption": "DTC电商销售空气和净水滤芯官网：官网展示的产品与实际使用场景",
+      "alt": "DTC电商销售空气和净水滤芯官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://purefilters.ca",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://purefilters.ca/cdn/shop/articles/Screen_Shot_2024-09-09_at_2.23.42_PM_600x.png?v=1725906246",
+      "caption": "DTC电商销售空气和净水滤芯官网：官网展示的产品与实际使用场景",
+      "alt": "DTC电商销售空气和净水滤芯官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://purefilters.ca",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.shopify.com/s/files/1/0052/6388/4381/files/Pure_twitter_blue_1c77daaf-e37a-4151-9d25-be1e9fad7fc4.png?v=1588627550",
+      "caption": "DTC电商销售空气和净水滤芯官网：产品界面与核心功能展示",
+      "alt": "DTC电商销售空气和净水滤芯官网：产品界面与核心功能展示",
+      "sourceUrl": "https://purefilters.ca",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -183,11 +199,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2532,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "HTTPError",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 5,
+    "logicMedia": 0
   }
 }

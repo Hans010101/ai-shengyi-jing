@@ -171,6 +171,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "AI工具帮创作者将短视频转为多平台内容的产品与交付路径",
+      "items": [
+        "用户上传视频",
+        "AI识别语音与字幕",
+        "生成多格式文案",
+        "导出或一键分发"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI工具帮创作者将短视频转为多平台内容的中国市场验证路线",
+      "items": [
+        "开发核心AI能力，利用现有API（如Whisper、GPT）实现视频转文字、自动改写摘要。",
+        "针对中国市场优化，支持抖音、快手、视频号等平台内容输入，输出适配小红书、公众号等格式。",
+        "通过免费试用吸引种子用户，在创作者社群（如即刻、小红书）推广，收集反馈迭代。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -185,11 +212,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2507,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:content-root-missing|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:ok",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

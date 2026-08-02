@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "海外营销工具项目的产品与交付路径",
+      "items": [
+        "用户注册",
+        "安装追踪代码",
+        "AI分析按钮点击数据",
+        "生成优化建议"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "海外营销工具项目的中国市场验证路线",
+      "items": [
+        "聚焦一个垂直场景（如电商结算按钮），开发轻量级Chrome插件或WordPress插件，免费提供基础A/B测试功能，收集用户反馈。",
+        "利用爬虫抓取公开案例数据，训练AI模型生成优化建议；与中小电商平台合作，提供免费试用期换取案例背书。",
+        "推出付费版本，按站点数或转化提升效果收费；建立客户成功团队，定期输出行业报告，提升留存和口碑。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,11 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2510,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:content-root-missing|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:ok",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

@@ -177,6 +177,20 @@
       "poster": "https://i.ytimg.com/vi/XN2TJALzRkE/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "无经验创办SEO和B2B获客代理的商业增长闭环",
+      "items": [
+        "【引流】内容营销+合作伙伴",
+        "【产品】SEO/B2B获客服务",
+        "【变现】月服务费",
+        "【留存】定期报告+持续优化"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -191,7 +205,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2587,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:http-403",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:http-403",
+    "realMedia": 4,
+    "logicMedia": 1
   }
 }

@@ -168,9 +168,49 @@
     },
     {
       "type": "image",
+      "url": "https://knightscope.com/hubfs/social-suggested-images/knightscope.comhubfsKS_FeatureImage.png",
+      "caption": "AI安防机器人租赁与SaaS服务官网：产品界面与核心功能展示",
+      "alt": "AI安防机器人租赁与SaaS服务官网：产品界面与核心功能展示",
+      "sourceUrl": "https://knightscope.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://knightscope.com/hubfs/raw_assets/public/knightscope/assets/pillar_twin_poster_v3.jpg",
+      "caption": "AI安防机器人租赁与SaaS服务官网：产品界面与核心功能展示",
+      "alt": "AI安防机器人租赁与SaaS服务官网：产品界面与核心功能展示",
+      "sourceUrl": "https://knightscope.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/579/original/open-uri20211226-3-1shg63w?1640554672",
       "caption": "AI安防机器人租赁与SaaS服务：创业复盘与关键经验相关原始配图（第3张）",
       "alt": "AI安防机器人租赁与SaaS服务：创业复盘与关键经验相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-generated-13m-lifetime-revenue",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/580/original/open-uri20211226-3-vfhr6p?1640554672",
+      "caption": "AI安防机器人租赁与SaaS服务：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "alt": "AI安防机器人租赁与SaaS服务：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-generated-13m-lifetime-revenue",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/581/original/open-uri20211226-3-1rchjx1?1640554673",
+      "caption": "AI安防机器人租赁与SaaS服务：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "alt": "AI安防机器人租赁与SaaS服务：创始人、核心产品与品牌起点相关原始配图（第5张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-generated-13m-lifetime-revenue",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2512,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

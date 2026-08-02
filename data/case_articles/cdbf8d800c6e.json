@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "面向JS开发者的CSS付费课程的中国市场验证路线",
+      "items": [
+        "确定细分领域（如前端开发者CSS痛点），制作3-5个高质量免费教程（博客/视频），建立个人品牌和邮件列表。",
+        "开发MVP课程，包含交互式代码编辑器（可使用CodeSandbox或自建），设置付费墙（单课或订阅），定价参考国内知识付费水平。",
+        "通过技术社区（掘金、知乎、B站）推广，利用免费内容引流，收集反馈迭代课程，并建立微信群/知识星球增强用户粘性。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "面向JS开发者的CSS付费课程的经营验证仪表盘",
+      "items": [
+        "面向JS开发者的CSS付费课程，通过订阅和课程销售盈利",
+        "B2C付费课程+订阅制，提供交互式CSS教程、练习和社区支持，年收入约600万美元。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2564,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "高端沙滩生活品牌的产品与交付路径",
+      "items": [
+        "用户访问官网",
+        "浏览产品详情",
+        "加入购物车",
+        "在线支付"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "高端沙滩生活品牌的中国市场验证路线",
+      "items": [
+        "选择中国高增长户外细分品类（如桨板、露营装备），注册品牌域名，搭建Shopify或微信小程序商城。",
+        "制作高质量产品使用教程和生活方式内容，在抖音、小红书等平台发布，吸引精准用户。",
+        "建立私域社群（微信群），提供专属客服和会员福利，鼓励用户分享，提升复购和转介绍。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,11 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2446,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ConnectionError",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ConnectionError",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ConnectionError",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

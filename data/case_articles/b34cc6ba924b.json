@@ -99,55 +99,96 @@
   "riskNote": "销售、团队、渠道和展会信息主要来自2022年前后的公开资料，当前数据可能变化。电动园艺工具涉及电池运输、刀具安全、专利、认证、产品责任和使用环境限制，进入任何市场前均需独立核验。",
   "media": [
     {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/dt24DresEbE",
-      "caption": "RotoShovel官网主视频：用直观演示解释“手持自动铲”的核心价值",
-      "alt": "Rotoshovel- 5X Torque Handheld Automatic Shovel with Brushless Motor & Long Lasting Battery",
-      "sourceUrl": "https://www.rotoshovel.com/",
-      "origin": "embeddable-video",
-      "watchUrl": "https://www.youtube.com/watch?v=dt24DresEbE",
-      "poster": "https://i.ytimg.com/vi/dt24DresEbE/hqdefault.jpg",
-      "provider": "YouTube"
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/t82pm542l8vxf4ahtv1pr90y3fm3",
+      "caption": "手持电动铲土工具：通过DTC电商和批发销售盈利",
+      "alt": "手持电动铲土工具：通过DTC电商和批发销售盈利",
+      "sourceUrl": "https://www.starterstory.com/stories/rotoshovel",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
     },
     {
       "type": "image",
-      "url": "https://cdn.shopify.com/s/files/1/0580/8223/0453/files/roto5_89_311x.png?v=1744919211",
-      "caption": "RotoShovel手持自动铲官方产品图",
-      "alt": "RotoShovel手持电动铲",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/145/original/open-uri20220323-3-17622go?1648048515",
+      "caption": "手持电动铲土工具：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "手持电动铲土工具：创始人、核心产品与品牌起点相关原始配图",
+      "sourceUrl": "https://www.starterstory.com/stories/rotoshovel",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/146/original/open-uri20220323-3-143i38s?1648048515",
+      "caption": "手持电动铲土工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "手持电动铲土工具：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "sourceUrl": "https://www.starterstory.com/stories/rotoshovel",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/dt24DresEbE",
+      "watchUrl": "https://www.youtube.com/watch?v=dt24DresEbE",
+      "caption": "手持电动铲土工具资料中提及的视频：Rotoshovel- 5X Torque Handheld Automatic Shovel with Brushless Motor & Long Lasting Battery",
+      "alt": "Rotoshovel- 5X Torque Handheld Automatic Shovel with Brushless Motor & Long Lasting Battery",
       "sourceUrl": "https://www.rotoshovel.com/",
-      "origin": "official-site",
-      "context": "official-site"
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/dt24DresEbE/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/fT-RZmHYcBQ",
-      "caption": "官网“立杆”使用场景演示",
+      "watchUrl": "https://www.youtube.com/watch?v=fT-RZmHYcBQ",
+      "caption": "手持电动铲土工具资料中提及的视频：Meet the World's First Electric Shovel - The Rotoshovel!",
       "alt": "Meet the World's First Electric Shovel - The Rotoshovel!",
       "sourceUrl": "https://www.rotoshovel.com/",
       "origin": "embeddable-video",
-      "watchUrl": "https://www.youtube.com/watch?v=fT-RZmHYcBQ",
       "poster": "https://i.ytimg.com/vi/fT-RZmHYcBQ/hqdefault.jpg",
-      "provider": "YouTube"
-    },
-    {
-      "type": "image",
-      "url": "https://cdn.shopify.com/s/files/1/0580/8223/0453/files/Rotoshovel_Lifestyle_7-30-23_-65_685549c4-827c-44d9-bc1e-4904e32928cb.jpg?v=1714407782",
-      "caption": "RotoShovel园艺使用场景",
-      "alt": "RotoShovel园艺使用场景",
-      "sourceUrl": "https://www.rotoshovel.com/",
-      "origin": "official-site",
-      "context": "official-site"
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/embed/cnww3_Ea--0",
-      "caption": "官网“种植”场景演示",
+      "watchUrl": "https://www.youtube.com/watch?v=cnww3_Ea--0",
+      "caption": "手持电动铲土工具资料中提及的视频：TESTING the CRAZIEST SHOVEL Ever Made - Rotoshovel",
       "alt": "TESTING the CRAZIEST SHOVEL Ever Made - Rotoshovel",
       "sourceUrl": "https://www.rotoshovel.com/",
       "origin": "embeddable-video",
-      "watchUrl": "https://www.youtube.com/watch?v=cnww3_Ea--0",
       "poster": "https://i.ytimg.com/vi/cnww3_Ea--0/hqdefault.jpg",
-      "provider": "YouTube"
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/y4meICgj0vk",
+      "watchUrl": "https://www.youtube.com/watch?v=y4meICgj0vk",
+      "caption": "手持电动铲土工具资料中提及的视频：Rotoshovel Gardeners New Favorite Tool",
+      "alt": "Rotoshovel Gardeners New Favorite Tool",
+      "sourceUrl": "https://www.rotoshovel.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/y4meICgj0vk/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.shopify.com/s/files/1/0580/8223/0453/files/Battery_Rotoshovel.png?v=1688730450",
+      "caption": "手持电动铲土工具官网：产品界面与核心功能展示",
+      "alt": "手持电动铲土工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.rotoshovel.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -172,6 +213,18 @@
     "scrapedAt": "2026-07-21T16:04:24.545190"
   },
   "quality": {
-    "mediaCount": 5
+    "mediaCount": 8
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

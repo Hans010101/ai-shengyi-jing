@@ -167,6 +167,52 @@
       "context": "source-article-body"
     },
     {
+      "type": "video-file",
+      "url": "https://cdn.prod.website-files.com/5f0f24981c9b60db01c14cc7/5fc6731e10e3c73f79ef9589_allin_light-transcode.mp4",
+      "watchUrl": "https://cdn.prod.website-files.com/5f0f24981c9b60db01c14cc7/5fc6731e10e3c73f79ef9589_allin_light-transcode.mp4",
+      "poster": "https://cdn.prod.website-files.com/5f0f24981c9b60db01c14cc7/629297c0c22401f44c8e4b61_og.png",
+      "caption": "社交媒体排程工具官网：产品界面与核心功能展示",
+      "alt": "社交媒体排程工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.oneup.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://cdn.prod.website-files.com/5f0f24981c9b60db01c14cc7/633d676a08f2a9775734fafa_video-1080-transcode.mp4",
+      "watchUrl": "https://cdn.prod.website-files.com/5f0f24981c9b60db01c14cc7/633d676a08f2a9775734fafa_video-1080-transcode.mp4",
+      "poster": "https://cdn.prod.website-files.com/5f0f24981c9b60db01c14cc7/629297c0c22401f44c8e4b61_og.png",
+      "caption": "社交媒体排程工具官网：产品界面与核心功能展示",
+      "alt": "社交媒体排程工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.oneup.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://cdn.prod.website-files.com/5f0f24981c9b60db01c14cc7/656615ba32a97303c1864cfd_ai-compressed-transcode.mp4",
+      "watchUrl": "https://cdn.prod.website-files.com/5f0f24981c9b60db01c14cc7/656615ba32a97303c1864cfd_ai-compressed-transcode.mp4",
+      "poster": "https://cdn.prod.website-files.com/5f0f24981c9b60db01c14cc7/629297c0c22401f44c8e4b61_og.png",
+      "caption": "社交媒体排程工具官网：产品界面与核心功能展示",
+      "alt": "社交媒体排程工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.oneup.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/5f0f24981c9b60db01c14cc7/629297c0c22401f44c8e4b61_og.png",
+      "caption": "社交媒体排程工具官网：产品界面与核心功能展示",
+      "alt": "社交媒体排程工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.oneup.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/010/169/original/open-uri20210208-3-18qqi5i?1612810309",
       "caption": "社交媒体排程工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
@@ -189,7 +235,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2383,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

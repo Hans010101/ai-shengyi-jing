@@ -165,6 +165,64 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/66dadfdc037e3f34eaf1c027/66dae35b5d98bf1884528505_visore-hero-test2.jpg",
+      "caption": "法国创意工作室官网：产品界面与核心功能展示",
+      "alt": "法国创意工作室官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.visorelab.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "video-file",
+      "url": "https://www.image2url.com/r2/default/videos/1776901833187-46bd62f5-343f-4b6d-84ee-71d25b2a6d6b.webm",
+      "watchUrl": "https://www.image2url.com/r2/default/videos/1776901833187-46bd62f5-343f-4b6d-84ee-71d25b2a6d6b.webm",
+      "poster": "https://cdn.prod.website-files.com/66dadfdc037e3f34eaf1c027/66dae35b5d98bf1884528505_visore-hero-test2.jpg",
+      "caption": "法国创意工作室官网：产品界面与核心功能展示",
+      "alt": "法国创意工作室官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.visorelab.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://www.image2url.com/r2/default/videos/1783015765747-a7e990be-420f-4980-9835-5ebe66fedffb.webm",
+      "watchUrl": "https://www.image2url.com/r2/default/videos/1783015765747-a7e990be-420f-4980-9835-5ebe66fedffb.webm",
+      "poster": "https://cdn.prod.website-files.com/66dadfdc037e3f34eaf1c027/66dae35b5d98bf1884528505_visore-hero-test2.jpg",
+      "caption": "法国创意工作室官网：产品界面与核心功能展示",
+      "alt": "法国创意工作室官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.visorelab.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://cdn.prod.website-files.com/66dadfdc037e3f34eaf1c027%2F68089ab65e474d8e81adfecb_PARALLELISM%20DESKTOP1-transcode.webm",
+      "watchUrl": "https://cdn.prod.website-files.com/66dadfdc037e3f34eaf1c027%2F68089ab65e474d8e81adfecb_PARALLELISM%20DESKTOP1-transcode.webm",
+      "poster": "https://cdn.prod.website-files.com/66dadfdc037e3f34eaf1c027/66dae35b5d98bf1884528505_visore-hero-test2.jpg",
+      "caption": "法国创意工作室官网：产品界面与核心功能展示",
+      "alt": "法国创意工作室官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.visorelab.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://cdn.prod.website-files.com/66dadfdc037e3f34eaf1c027%2F68089ac2fb8b7c137998a5db_VANISHING%20DESKTOP2-transcode.webm",
+      "watchUrl": "https://cdn.prod.website-files.com/66dadfdc037e3f34eaf1c027%2F68089ac2fb8b7c137998a5db_VANISHING%20DESKTOP2-transcode.webm",
+      "poster": "https://cdn.prod.website-files.com/66dadfdc037e3f34eaf1c027/66dae35b5d98bf1884528505_visore-hero-test2.jpg",
+      "caption": "法国创意工作室官网：产品界面与核心功能展示",
+      "alt": "法国创意工作室官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.visorelab.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -179,7 +237,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2450,
-    "mediaCount": 3,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

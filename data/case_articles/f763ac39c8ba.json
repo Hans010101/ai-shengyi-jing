@@ -189,6 +189,40 @@
       "origin": "official-site-video",
       "usage": "official-site-reference",
       "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://cdn.gmass.co/assets/videos/gmass_cold_email_3.mp4",
+      "watchUrl": "https://cdn.gmass.co/assets/videos/gmass_cold_email_3.mp4",
+      "poster": "https://cdn.gmass.co/SocialImages/gmass-ogimage-home-tinified.png",
+      "caption": "基于Gmail的邮件营销Chrome扩展官网：产品界面与核心功能展示",
+      "alt": "基于Gmail的邮件营销Chrome扩展官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.gmass.co/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://cdn.gmass.co/assets/videos/video_2.mp4",
+      "watchUrl": "https://cdn.gmass.co/assets/videos/video_2.mp4",
+      "poster": "https://cdn.gmass.co/SocialImages/gmass-ogimage-home-tinified.png",
+      "caption": "基于Gmail的邮件营销Chrome扩展官网：产品界面与核心功能展示",
+      "alt": "基于Gmail的邮件营销Chrome扩展官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.gmass.co/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.gmass.co/assets/videos/video_1.gif",
+      "caption": "基于Gmail的邮件营销Chrome扩展官网：产品界面与核心功能展示",
+      "alt": "基于Gmail的邮件营销Chrome扩展官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.gmass.co/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -203,11 +237,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2464,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T09:37:46.068137+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

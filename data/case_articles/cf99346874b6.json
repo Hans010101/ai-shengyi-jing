@@ -167,6 +167,34 @@
       "poster": "https://i.ytimg.com/vi/qwBoC5KcHIU%26list=PLYAFWkWnQLHn3Zeow6iHaDE75nJ9KyKNk/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "海外AI工具项目的商业增长闭环",
+      "items": [
+        "【引流】播客内容吸引销售从业者",
+        "【产品】Badger Maps SaaS应用",
+        "【变现】按月或年订阅费",
+        "【留存】持续更新功能、客户成功服务"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "海外AI工具项目的产品与交付路径",
+      "items": [
+        "用户注册",
+        "导入客户地址",
+        "AI路线优化",
+        "日程同步"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -181,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2449,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:SSLError",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:SSLError",
+    "realMedia": 3,
+    "logicMedia": 2
   }
 }

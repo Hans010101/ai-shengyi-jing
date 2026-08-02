@@ -177,6 +177,16 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/967/original/open-uri20211115-3-1v0gypq?1637005654",
+      "caption": "为电影人提供数字特效产品：创业复盘与关键经验相关原始配图（第4张）",
+      "alt": "为电影人提供数字特效产品：创业复盘与关键经验相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-2x-d-revenue-and-hit-85k-during-our-best-selling-month",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://player.vimeo.com/video/328491188",
       "watchUrl": "https://vimeo.com/328491188",
@@ -186,6 +196,18 @@
       "origin": "embeddable-video",
       "poster": "https://i.vimeocdn.com/video/773157341-370d67e26c2d28eabb5894f619f16be4795b2863cd198365964d872a648ff51d-d_640?region=us",
       "provider": "Vimeo",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/SLStk36wLZc",
+      "watchUrl": "https://www.youtube.com/watch?v=SLStk36wLZc",
+      "caption": "为电影人提供数字特效产品资料中提及的视频：WARLIKE - Action Short Film",
+      "alt": "WARLIKE - Action Short Film",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-2x-d-revenue-and-hit-85k-during-our-best-selling-month",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/SLStk36wLZc/hqdefault.jpg",
+      "provider": "YouTube",
       "usage": ""
     }
   ],
@@ -201,7 +223,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2359,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ConnectionError",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ConnectionError",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

@@ -187,6 +187,18 @@
       "poster": "https://i.ytimg.com/vi/WiAA4AIKhGE/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/OU5vyHaCCXg",
+      "watchUrl": "https://www.youtube.com/watch?v=OU5vyHaCCXg",
+      "caption": "售卖免版税动画和GIF素材的订阅平台资料中提及的视频：How to Make Explainer Animation in PowerPoint [Beginner Friendly]",
+      "alt": "How to Make Explainer Animation in PowerPoint [Beginner Friendly]",
+      "sourceUrl": "https://www.starterstory.com/stories/i-built-a-120k-year-stock-animation-and-gif-images-side-hustle",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/OU5vyHaCCXg/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -201,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2490,
-    "mediaCount": 5,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:http-403",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:http-403",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

@@ -168,13 +168,57 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/543/original/open-uri20190814-4-slb8gz?1565821042",
-      "caption": "父子创办的膳食补充剂品牌：产品上线与首次发布相关原始配图（第3张）",
-      "alt": "父子创办的膳食补充剂品牌：产品上线与首次发布相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/how-this-father-son-combo-built-a-9m-year-dietary-supplement",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://cdn.shopify.com/s/files/1/0286/5666/4654/files/jigsaw-generic-social-share_971d924f-cf7d-4606-8157-d6aa1f13f4a1.jpg?v=1750197443",
+      "caption": "父子创办的膳食补充剂品牌官网：产品界面与核心功能展示",
+      "alt": "父子创办的膳食补充剂品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.jigsawhealth.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.jigsawhealth.com/cdn/shop/files/hero-title-img--desktop.png?v=1731634141&width=1200",
+      "caption": "父子创办的膳食补充剂品牌官网：官网展示的产品与实际使用场景",
+      "alt": "父子创办的膳食补充剂品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.jigsawhealth.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.jigsawhealth.com/cdn/shop/products/jigsaw-magnesium-w-srt-thumbnail-1000px-v3_{width}x.jpg?v=1762459238",
+      "caption": "父子创办的膳食补充剂品牌官网：产品界面与核心功能展示",
+      "alt": "父子创办的膳食补充剂品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.jigsawhealth.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "video-file",
+      "url": "https://www.jigsawhealth.com/cdn/shop/videos/c/vp/469794c3c91747e5b6be9daa9b267c61/469794c3c91747e5b6be9daa9b267c61.HD-1080p-7.2Mbps-28421528.mp4?v=0",
+      "watchUrl": "https://www.jigsawhealth.com/cdn/shop/videos/c/vp/469794c3c91747e5b6be9daa9b267c61/469794c3c91747e5b6be9daa9b267c61.HD-1080p-7.2Mbps-28421528.mp4?v=0",
+      "poster": "https://cdn.shopify.com/s/files/1/0286/5666/4654/files/jigsaw-generic-social-share_971d924f-cf7d-4606-8157-d6aa1f13f4a1.jpg?v=1750197443",
+      "caption": "父子创办的膳食补充剂品牌官网：产品界面与核心功能展示",
+      "alt": "父子创办的膳食补充剂品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.jigsawhealth.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://cdn.shopify.com/videos/c/o/v/5dfe8bbf50f74f8fb4fe1fcba99292d9.mp4",
+      "watchUrl": "https://cdn.shopify.com/videos/c/o/v/5dfe8bbf50f74f8fb4fe1fcba99292d9.mp4",
+      "poster": "https://cdn.shopify.com/s/files/1/0286/5666/4654/files/jigsaw-generic-social-share_971d924f-cf7d-4606-8157-d6aa1f13f4a1.jpg?v=1750197443",
+      "caption": "父子创办的膳食补充剂品牌官网：产品界面与核心功能展示",
+      "alt": "父子创办的膳食补充剂品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.jigsawhealth.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -189,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2454,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

@@ -148,29 +148,69 @@
     },
     {
       "type": "image",
+      "url": "https://woodies.com/cdn/shop/products/WOODIES-1-273-2_{width}x.jpg?v=1606513003",
+      "caption": "木制太阳镜品牌官网：官网展示的产品与实际使用场景",
+      "alt": "木制太阳镜品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://woodies.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://woodies.com/cdn/shop/products/1-273_{width}x.png?v=1606513003",
+      "caption": "木制太阳镜品牌官网：官网展示的产品与实际使用场景",
+      "alt": "木制太阳镜品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://woodies.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://woodies.com/cdn/shop/products/WOODIES-EBONY-CLUBangled_{width}x.jpg?v=1606512603",
+      "caption": "木制太阳镜品牌官网：官网展示的产品与实际使用场景",
+      "alt": "木制太阳镜品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://woodies.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://woodies.com/cdn/shop/products/ebony-club_{width}x.png?v=1606512603",
+      "caption": "木制太阳镜品牌官网：官网展示的产品与实际使用场景",
+      "alt": "木制太阳镜品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://woodies.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://woodies.com/cdn/shop/products/WOODIES-1-888angled_{width}x.jpg?v=1606510648",
+      "caption": "木制太阳镜品牌官网：官网展示的产品与实际使用场景",
+      "alt": "木制太阳镜品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://woodies.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://woodies.com/cdn/shop/products/Woodies1-888_{width}x.png?v=1606510648",
+      "caption": "木制太阳镜品牌官网：官网展示的产品与实际使用场景",
+      "alt": "木制太阳镜品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://woodies.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/883/original/open-uri20190128-4-11ouwjq?1548677230",
       "caption": "木制太阳镜品牌：创始人、核心产品与品牌起点相关原始配图",
       "alt": "木制太阳镜品牌：创始人、核心产品与品牌起点相关原始配图",
-      "sourceUrl": "https://www.starterstory.com/stories/woodies-sunglasses-3-5-million-per-year-with-one-employee",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/884/original/open-uri20190128-4-eraqtb?1548677231",
-      "caption": "木制太阳镜品牌：创业起点与创意来源相关原始配图（第2张）",
-      "alt": "木制太阳镜品牌：创业起点与创意来源相关原始配图（第2张）",
-      "sourceUrl": "https://www.starterstory.com/stories/woodies-sunglasses-3-5-million-per-year-with-one-employee",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
-    },
-    {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/885/original/open-uri20190128-4-10s95q8?1548677231",
-      "caption": "木制太阳镜品牌：创业起点与创意来源相关原始配图（第3张）",
-      "alt": "木制太阳镜品牌：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/woodies-sunglasses-3-5-million-per-year-with-one-employee",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2381,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:http-429|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

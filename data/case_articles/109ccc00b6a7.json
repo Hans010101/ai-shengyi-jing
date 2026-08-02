@@ -165,6 +165,56 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://brainworks.ai/wp-content/uploads/2025/12/Screenshot-2025-12-18-at-2.11.20-PM-1.png",
+      "caption": "AI非接触式生命体征监测与数字医疗工具官网：官网展示的产品与实际使用场景",
+      "alt": "AI非接触式生命体征监测与数字医疗工具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://brainworks.ai/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://brainworks.ai/wp-content/uploads/2025/12/Screenshot-2025-12-18-at-2.10.32-PM-1.png",
+      "caption": "AI非接触式生命体征监测与数字医疗工具官网：官网展示的产品与实际使用场景",
+      "alt": "AI非接触式生命体征监测与数字医疗工具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://brainworks.ai/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://brainworks.ai/wp-content/uploads/2025/12/Screenshot-2025-12-18-at-2.10.09-PM-1.png",
+      "caption": "AI非接触式生命体征监测与数字医疗工具官网：官网展示的产品与实际使用场景",
+      "alt": "AI非接触式生命体征监测与数字医疗工具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://brainworks.ai/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://brainworks.ai/wp-content/uploads/2025/12/Screenshot-2025-12-18-at-2.09.05-PM-1.png",
+      "caption": "AI非接触式生命体征监测与数字医疗工具官网：官网展示的产品与实际使用场景",
+      "alt": "AI非接触式生命体征监测与数字医疗工具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://brainworks.ai/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://brainworks.ai/wp-content/uploads/2025/12/Screenshot-2025-12-18-at-2.09.27-PM-1.png",
+      "caption": "AI非接触式生命体征监测与数字医疗工具官网：官网展示的产品与实际使用场景",
+      "alt": "AI非接触式生命体征监测与数字医疗工具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://brainworks.ai/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -179,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2508,
-    "mediaCount": 3,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

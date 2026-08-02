@@ -175,6 +175,26 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/494/original/open-uri20211221-3-r1vy50?1640126276",
+      "caption": "房地产专业人士的订阅制营销工具包：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "房地产专业人士的订阅制营销工具包：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-created-a-1m-year-subscription-based-toolkit-for-real-estate-professionals",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/495/original/open-uri20211221-3-n0w3d?1640126277",
+      "caption": "房地产专业人士的订阅制营销工具包：当前经营状态与下一步规划相关原始配图（第5张）",
+      "alt": "房地产专业人士的订阅制营销工具包：当前经营状态与下一步规划相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-created-a-1m-year-subscription-based-toolkit-for-real-estate-professionals",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -189,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2448,
-    "mediaCount": 4,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

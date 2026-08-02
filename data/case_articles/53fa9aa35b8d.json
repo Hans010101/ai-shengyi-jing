@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI电商工具的中国市场验证路线",
+      "items": [
+        "选择细分电商平台（如淘宝、拼多多），调研卖家常见痛点（如标题优化、广告文案），确定最小可行功能。",
+        "开发MVP，集成GPT等API实现基础功能，如产品标题生成、关键词提取，并设置免费试用吸引早期用户。",
+        "通过电商卖家社群、知乎、小红书等渠道推广，收集反馈快速迭代，推出付费订阅计划（月费99-299元）。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI电商工具的经营验证仪表盘",
+      "items": [
+        "AI电商工具，帮助卖家优化产品列表和广告，按月收费。",
+        "SaaS订阅模式，提供AI驱动的产品列表优化、广告文案生成等功能，按月或年收费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2447,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -175,6 +175,20 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "为科技公司撰写技术内容的商业增长闭环",
+      "items": [
+        "【引流】SEO、技术社区、口碑",
+        "【产品】技术内容创作服务",
+        "【变现】月费订阅",
+        "【留存】高质量内容、客户成功"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -189,11 +203,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2374,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 4,
+    "logicMedia": 1
   }
 }

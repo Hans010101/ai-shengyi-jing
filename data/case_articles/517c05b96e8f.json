@@ -168,9 +168,49 @@
     },
     {
       "type": "image",
+      "url": "https://attributer.io/wp-content/uploads/2022/09/ROI-of-campaigns.png",
+      "caption": "营销归因工具SaaS官网：社交媒体内容与营销活动场景",
+      "alt": "营销归因工具SaaS官网：社交媒体内容与营销活动场景",
+      "sourceUrl": "https://attributer.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://attributer.io/wp-content/uploads/2022/09/ROI-of-campaigns-768x754.png",
+      "caption": "营销归因工具SaaS官网：社交媒体内容与营销活动场景",
+      "alt": "营销归因工具SaaS官网：社交媒体内容与营销活动场景",
+      "sourceUrl": "https://attributer.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://attributer.io/wp-content/uploads/2024/11/Open-Graph-Image.png",
+      "caption": "营销归因工具SaaS官网：产品界面与核心功能展示",
+      "alt": "营销归因工具SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://attributer.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/100/original/open-uri20220501-16-1t64aci?1651433372",
       "caption": "营销归因工具SaaS：创业起点与创意来源相关原始配图（第3张）",
       "alt": "营销归因工具SaaS：创业起点与创意来源相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/attributer",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/101/original/open-uri20220501-16-1uywzrx?1651433372",
+      "caption": "营销归因工具SaaS：产品设计与早期打磨相关原始配图（第4张）",
+      "alt": "营销归因工具SaaS：产品设计与早期打磨相关原始配图（第4张）",
       "sourceUrl": "https://www.starterstory.com/stories/attributer",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2445,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

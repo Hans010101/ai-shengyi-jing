@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/882/original/open-uri20190901-4-1e5kby0?1567346688",
+      "caption": "AI匹配制造商与产品：产品设计与早期打磨相关原始配图（第4张）",
+      "alt": "AI匹配制造商与产品：产品设计与早期打磨相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-m-building-a-manufacturing-platform",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/883/original/open-uri20190901-4-1fwhz3u?1567346689",
+      "caption": "AI匹配制造商与产品：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "alt": "AI匹配制造商与产品：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-m-building-a-manufacturing-platform",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://player.vimeo.com/video/288896932",
       "watchUrl": "https://vimeo.com/288896932",
@@ -185,6 +205,18 @@
       "sourceUrl": "https://www.starterstory.com/stories/how-i-m-building-a-manufacturing-platform",
       "origin": "embeddable-video",
       "poster": "https://i.vimeocdn.com/video/724418659-7461006a7bad5c71c5ce0663aa79460185bdec5bf086fac9ef96b5fc884accc8-d_295x166?region=us",
+      "provider": "Vimeo",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://player.vimeo.com/video/288896980",
+      "watchUrl": "https://vimeo.com/288896980",
+      "caption": "AI匹配制造商与产品资料中提及的视频：Manufacturer Demo with VO",
+      "alt": "Manufacturer Demo with VO",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-m-building-a-manufacturing-platform",
+      "origin": "embeddable-video",
+      "poster": "https://i.vimeocdn.com/video/724418747-03605a7c52f7fd76b44b5dde6c0cd972bb8150a2b9cee5089de44b7ff139e3be-d_295x166?region=us",
       "provider": "Vimeo",
       "usage": ""
     }
@@ -201,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2354,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:no-semantic-media",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:no-semantic-media",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

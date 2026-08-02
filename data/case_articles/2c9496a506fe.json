@@ -177,6 +177,20 @@
       "poster": "https://i.ytimg.com/vi/kxEjx636NfI/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "南欧奢侈品手表在线市场的商业增长闭环",
+      "items": [
+        "【引流】社交媒体内容营销",
+        "【产品】手表交易平台+鉴定服务",
+        "【变现】交易佣金+鉴定费",
+        "【留存】会员体系+复购优惠"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -191,7 +205,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2430,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ConnectTimeout",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ConnectTimeout",
+    "realMedia": 4,
+    "logicMedia": 1
   }
 }

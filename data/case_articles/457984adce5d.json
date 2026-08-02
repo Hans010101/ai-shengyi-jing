@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "将Reddit分发与AI搜索打包成会员工具的中国市场验证路线",
+      "items": [
+        "选定中国高价值社区（如知乎、小红书），手动整理内容分发策略，验证需求。",
+        "开发轻量级AI工具，实现内容改写、最佳发布时间推荐和自动发布，MVP用无代码工具搭建。",
+        "以“社区营销增长”为卖点，通过行业社群和内容营销获客，推出月费制，早期用户提供折扣。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "将Reddit分发与AI搜索打包成会员工具的经营验证仪表盘",
+      "items": [
+        "将Reddit分发与AI搜索打包成会员工具，月入2.9万美元。",
+        "订阅制会员模式，提供AI驱动的Reddit内容分发工具和策略，按月收费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,11 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2489,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "no-semantic-media",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:content-root-missing|official:no-semantic-media",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:no-semantic-media",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

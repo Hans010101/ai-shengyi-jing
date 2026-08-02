@@ -185,6 +185,26 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/66dacc76fb28939d860bf57c/67078dbd6b94f04ca53297e0_manage.webp",
+      "caption": "AI驱动的建筑承包商获客工具官网：官网展示的产品与实际使用场景",
+      "alt": "AI驱动的建筑承包商获客工具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.builderprime.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/66dd4e99e48b57744a61140e/68b9914d9c067e4df90a6b7e_681a83b63a202edbedcac746_Builder%20Prime%20x%20Bath%20Fitter%20videos%20_%C2%A0Thumbnail_LOGO.jpg",
+      "caption": "AI驱动的建筑承包商获客工具官网：官网展示的产品与实际使用场景",
+      "alt": "AI驱动的建筑承包商获客工具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.builderprime.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -199,11 +219,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2446,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:content-root-missing|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

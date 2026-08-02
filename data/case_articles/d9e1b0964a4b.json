@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为中小企业提供AI驱动的财务规划与分析SaaS工的中国市场验证路线",
+      "items": [
+        "选择细分市场（如电商、餐饮），开发针对性的财务模板，用低代码搭建MVP。",
+        "通过行业社群和知乎/公众号发布免费财务分析报告，获取种子用户并收集反馈。",
+        "推出免费版（限制数据量）和付费版（多用户+高级预测），以月费99-299元定价，快速迭代。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "为中小企业提供AI驱动的财务规划与分析SaaS工的经营验证仪表盘",
+      "items": [
+        "为中小企业提供AI驱动的财务规划与分析SaaS工具。",
+        "SaaS订阅制，按用户数和功能层级收费，提供免费试用后转化付费用户。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2449,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

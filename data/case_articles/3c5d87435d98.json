@@ -168,13 +168,53 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/045/original/open-uri20190213-4-199g59n?1550064411",
-      "caption": "圣诞树底座美化产品：产品上线与首次发布相关原始配图（第3张）",
-      "alt": "圣诞树底座美化产品：产品上线与首次发布相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/how-ryan-kenny-started-the-christmas-tree-hugger",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://thechristmastreehugger.com/cdn/shop/products/ApplyingHugger_{width}x.jpg?v=1601776487",
+      "caption": "圣诞树底座美化产品官网：官网展示的产品与实际使用场景",
+      "alt": "圣诞树底座美化产品官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://thechristmastreehugger.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://thechristmastreehugger.com/cdn/shop/products/BrownBeforeAfter_{width}x.jpg?v=1601776487",
+      "caption": "圣诞树底座美化产品官网：官网展示的产品与实际使用场景",
+      "alt": "圣诞树底座美化产品官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://thechristmastreehugger.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://thechristmastreehugger.com/cdn/shop/products/DoubleBarkShot_{width}x.jpg?v=1601776496",
+      "caption": "圣诞树底座美化产品官网：官网展示的产品与实际使用场景",
+      "alt": "圣诞树底座美化产品官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://thechristmastreehugger.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://thechristmastreehugger.com/cdn/shop/products/Image03_CTHD01_{width}x.jpg?v=1601776496",
+      "caption": "圣诞树底座美化产品官网：官网展示的产品与实际使用场景",
+      "alt": "圣诞树底座美化产品官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://thechristmastreehugger.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://thechristmastreehugger.com/cdn/shop/products/Image04_CTHD01_{width}x.jpg?v=1601776487",
+      "caption": "圣诞树底座美化产品官网：官网展示的产品与实际使用场景",
+      "alt": "圣诞树底座美化产品官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://thechristmastreehugger.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2417,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

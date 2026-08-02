@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "IdeaScale 创意管理平台的产品与交付路径",
+      "items": [
+        "前端创意提交表单",
+        "后端Java/Spring微服务",
+        "数据库MySQL/Redis",
+        "邮件/短信通知模块"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "IdeaScale 创意管理平台的中国市场验证路线",
+      "items": [
+        "市场验证：访谈10-20家企业，确认创意管理需求，调研竞品（如国内的共创平台），确定差异化定位（如聚焦中小型企业或特定行业）。",
+        "MVP开发：构建最小可行产品，包括创意提交、投票、评论、管理后台，使用低代码工具（如简道云）或快速搭建Web应用，先服务3-5家种子客户。",
+        "商业化与迭代：上线定价（免费+付费），通过行业社群、LinkedIn推广，收集反馈，迭代功能（如AI分析），建立客户成功体系，实现续费。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,11 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2713,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:content-root-missing|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:ok",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

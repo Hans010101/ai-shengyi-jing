@@ -168,13 +168,13 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/292/original/open-uri20220215-3-1dwvvt7?1644935553",
-      "caption": "美国本土床上用品DTC品牌：产品上线与首次发布相关原始配图（第3张）",
-      "alt": "美国本土床上用品DTC品牌：产品上线与首次发布相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-grew-my-made-in-the-usa-bedding-brand-to-600k-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://americanblossomlinens.com/cdn/shop/products/Folded_Sheet_Color_Natural_Single_Fitted_Bed_Sheet_Separate_Cotton_Made_in_USA_2000x.jpg?v=1725915679",
+      "caption": "美国本土床上用品DTC品牌官网：官网展示的产品与实际使用场景",
+      "alt": "美国本土床上用品DTC品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://americanblossomlinens.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
       "type": "video",
@@ -182,11 +182,48 @@
       "watchUrl": "https://www.youtube.com/watch?v=sQXV5DM0tTo",
       "caption": "美国本土床上用品DTC品牌资料中提及的视频：ABC NEWS - Unique 'Made in America' Christmas gifts",
       "alt": "ABC NEWS - Unique 'Made in America' Christmas gifts",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-grew-my-made-in-the-usa-bedding-brand-to-600k-year",
+      "sourceUrl": "https://americanblossomlinens.com/",
       "origin": "embeddable-video",
       "poster": "https://i.ytimg.com/vi/sQXV5DM0tTo/hqdefault.jpg",
       "provider": "YouTube",
-      "usage": ""
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/YCfUAhtEb4o",
+      "watchUrl": "https://www.youtube.com/watch?v=YCfUAhtEb4o",
+      "caption": "美国本土床上用品DTC品牌资料中提及的视频：American Blossom Linens on CBS Saturday Morning",
+      "alt": "American Blossom Linens on CBS Saturday Morning",
+      "sourceUrl": "https://americanblossomlinens.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/YCfUAhtEb4o/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/WBeUAKENKQM",
+      "watchUrl": "https://www.youtube.com/watch?v=WBeUAKENKQM",
+      "caption": "美国本土床上用品DTC品牌资料中提及的视频：Janet Wischnia on Fox News",
+      "alt": "Janet Wischnia on Fox News",
+      "sourceUrl": "https://americanblossomlinens.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/WBeUAKENKQM/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://americanblossomlinens.com/cdn/shop/files/FINAL_ABLlogo_Linear4cTag_28697dce-936b-424e-9c4b-b6f7214a854a_1200x.png?v=1613685955",
+      "caption": "美国本土床上用品DTC品牌官网：产品界面与核心功能展示",
+      "alt": "美国本土床上用品DTC品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://americanblossomlinens.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -201,7 +238,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2469,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

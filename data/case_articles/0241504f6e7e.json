@@ -191,6 +191,42 @@
       "origin": "official-site-video",
       "usage": "official-site-reference",
       "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://cdn.prod.website-files.com/612c95056c9d4b399ddfd2ef%2F686f8904008bc954bba98b8d_0196a597-981b-7821-8f7d-fc443f75fd67-transcode.mp4",
+      "watchUrl": "https://cdn.prod.website-files.com/612c95056c9d4b399ddfd2ef%2F686f8904008bc954bba98b8d_0196a597-981b-7821-8f7d-fc443f75fd67-transcode.mp4",
+      "poster": "https://cdn.prod.website-files.com/612c95056c9d4b399ddfd2ef/681b76bdf3051d222fd5d9cc_photo_2025-05-07_18-05-20.jpg",
+      "caption": "AI合同自动化平台官网：产品界面与核心功能展示",
+      "alt": "AI合同自动化平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://juro.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://cdn.prod.website-files.com/612c95056c9d4b399ddfd2ef%2F686f893504699206b875fd0a_0196a597-5a1f-7e35-8eb4-d84987a770e4-transcode.mp4",
+      "watchUrl": "https://cdn.prod.website-files.com/612c95056c9d4b399ddfd2ef%2F686f893504699206b875fd0a_0196a597-5a1f-7e35-8eb4-d84987a770e4-transcode.mp4",
+      "poster": "https://cdn.prod.website-files.com/612c95056c9d4b399ddfd2ef/681b76bdf3051d222fd5d9cc_photo_2025-05-07_18-05-20.jpg",
+      "caption": "AI合同自动化平台官网：产品界面与核心功能展示",
+      "alt": "AI合同自动化平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://juro.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://cdn.prod.website-files.com/612c95056c9d4b399ddfd2ef%2F686f8975571b3542e03d8881_0196a597-79db-760b-bb0d-7c857ae65dd0-transcode.mp4",
+      "watchUrl": "https://cdn.prod.website-files.com/612c95056c9d4b399ddfd2ef%2F686f8975571b3542e03d8881_0196a597-79db-760b-bb0d-7c857ae65dd0-transcode.mp4",
+      "poster": "https://cdn.prod.website-files.com/612c95056c9d4b399ddfd2ef/681b76bdf3051d222fd5d9cc_photo_2025-05-07_18-05-20.jpg",
+      "caption": "AI合同自动化平台官网：产品界面与核心功能展示",
+      "alt": "AI合同自动化平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://juro.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -205,11 +241,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2445,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

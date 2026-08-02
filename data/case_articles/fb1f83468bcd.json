@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "DTC手机配件品牌的中国市场验证路线",
+      "items": [
+        "在1688或义乌寻找手机壳代工厂，设计3-5款原创图案，小批量试单。",
+        "在抖音和小红书创建品牌账号，制作开箱、搭配等短视频，挂小黄车或引导至微信小程序。",
+        "利用微信社群做私域运营，推出会员折扣和限量款，刺激复购和口碑传播。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "DTC手机配件品牌的经营验证仪表盘",
+      "items": [
+        "DTC手机配件品牌，通过在线销售手机壳等配件盈利。",
+        "自建DTC网站销售手机壳等配件，通过Instagram等社交媒体引流，利用代工模式降低成本。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2391,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

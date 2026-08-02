@@ -197,6 +197,32 @@
       "provider": "YouTube",
       "usage": "official-site-reference",
       "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/WMZCMLauUWA",
+      "watchUrl": "https://www.youtube.com/watch?v=WMZCMLauUWA",
+      "caption": "每日科技商业资讯邮件订阅资料中提及的视频：How Gas Station Pizza Became the Most Popular Pizza in America",
+      "alt": "How Gas Station Pizza Became the Most Popular Pizza in America",
+      "sourceUrl": "https://thehustle.co/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/WMZCMLauUWA/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/Uc726aogLjw",
+      "watchUrl": "https://www.youtube.com/watch?v=Uc726aogLjw",
+      "caption": "每日科技商业资讯邮件订阅资料中提及的视频：Why This One Company is So Good at Making Everything",
+      "alt": "Why This One Company is So Good at Making Everything",
+      "sourceUrl": "https://thehustle.co/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/Uc726aogLjw/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -211,11 +237,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2557,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:content-root-missing|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

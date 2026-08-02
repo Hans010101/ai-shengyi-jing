@@ -167,16 +167,54 @@
       "context": "source-article-body"
     },
     {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/nheNHvBAofg",
-      "watchUrl": "https://www.youtube.com/watch?v=nheNHvBAofg",
-      "caption": "交互式电子书平台资料中提及的视频：What is Kotobee?",
-      "alt": "What is Kotobee?",
-      "sourceUrl": "https://www.starterstory.com/stories/kotobee",
-      "origin": "embeddable-video",
-      "poster": "https://i.ytimg.com/vi/nheNHvBAofg/hqdefault.jpg",
-      "provider": "YouTube",
-      "usage": ""
+      "type": "image",
+      "url": "https://www.kotobee.com/img/web/home/products/author/cursor.png",
+      "caption": "交互式电子书平台官网：社交媒体内容与营销活动场景",
+      "alt": "交互式电子书平台官网：社交媒体内容与营销活动场景",
+      "sourceUrl": "https://www.kotobee.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.kotobee.com/img/web/home/products/author/bar.png",
+      "caption": "交互式电子书平台官网：社交媒体内容与营销活动场景",
+      "alt": "交互式电子书平台官网：社交媒体内容与营销活动场景",
+      "sourceUrl": "https://www.kotobee.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.kotobee.com/img/web/home/products/author/content.jpg",
+      "caption": "交互式电子书平台官网：社交媒体内容与营销活动场景",
+      "alt": "交互式电子书平台官网：社交媒体内容与营销活动场景",
+      "sourceUrl": "https://www.kotobee.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.kotobee.com/img/web/home/products/author/editScreen.gif",
+      "caption": "交互式电子书平台官网：社交媒体内容与营销活动场景",
+      "alt": "交互式电子书平台官网：社交媒体内容与营销活动场景",
+      "sourceUrl": "https://www.kotobee.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.kotobee.com/img/web/home/products/author/customizeScreen.gif",
+      "caption": "交互式电子书平台官网：社交媒体内容与营销活动场景",
+      "alt": "交互式电子书平台官网：社交媒体内容与营销活动场景",
+      "sourceUrl": "https://www.kotobee.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -191,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2479,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

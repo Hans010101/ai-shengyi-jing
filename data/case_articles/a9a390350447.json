@@ -167,14 +167,64 @@
       "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/271/original/open-uri20210822-3-11zxeu4?1629655503",
-      "caption": "搭建状态页SaaS工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "alt": "搭建状态页SaaS工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/i-quit-my-9-5-job-and-built-a-profitable-saas-tool",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "type": "video-file",
+      "url": "https://instatus.com/home/hero-astronaut-hevc-safari.mp4",
+      "watchUrl": "https://instatus.com/home/hero-astronaut-hevc-safari.mp4",
+      "poster": "https://instatus.com/og.jpg",
+      "caption": "搭建状态页SaaS工具官网：产品界面与核心功能展示",
+      "alt": "搭建状态页SaaS工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://instatus.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://instatus.com/home/hero-bg.webm",
+      "watchUrl": "https://instatus.com/home/hero-bg.webm",
+      "poster": "https://instatus.com/og.jpg",
+      "caption": "搭建状态页SaaS工具官网：产品界面与核心功能展示",
+      "alt": "搭建状态页SaaS工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://instatus.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://instatus.com/home/services/monitor-mobile.mp4",
+      "watchUrl": "https://instatus.com/home/services/monitor-mobile.mp4",
+      "poster": "https://instatus.com/og.jpg",
+      "caption": "搭建状态页SaaS工具官网：产品界面与核心功能展示",
+      "alt": "搭建状态页SaaS工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://instatus.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://instatus.com/home/services/fix-mobile.mp4",
+      "watchUrl": "https://instatus.com/home/services/fix-mobile.mp4",
+      "poster": "https://instatus.com/og.jpg",
+      "caption": "搭建状态页SaaS工具官网：产品界面与核心功能展示",
+      "alt": "搭建状态页SaaS工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://instatus.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://instatus.com/home/services/share-mobile.mp4",
+      "watchUrl": "https://instatus.com/home/services/share-mobile.mp4",
+      "poster": "https://instatus.com/og.jpg",
+      "caption": "搭建状态页SaaS工具官网：产品界面与核心功能展示",
+      "alt": "搭建状态页SaaS工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://instatus.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -189,7 +239,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2479,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

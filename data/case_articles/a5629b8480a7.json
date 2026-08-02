@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "外包转录服务的产品与交付路径",
+      "items": [
+        "客户上传音频",
+        "AI初转",
+        "人工校对",
+        "交付文本"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "外包转录服务的中国市场验证路线",
+      "items": [
+        "聚焦一个垂直领域（如法律庭审），招募兼职转录员，采购低价语音转文字API（如讯飞），搭建人工校对流程。",
+        "开发简单订单管理系统，支持文件上传、任务分配、交付跟踪，定价为0.5-1元/分钟，提供试用。",
+        "通过百度SEO、法律/医疗社群推广，与律所、医院签订长期合同，积累案例后提价并拓展新行业。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,11 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2475,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ConnectionError",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ConnectionError",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ConnectionError",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

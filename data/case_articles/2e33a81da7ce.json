@@ -168,9 +168,39 @@
     },
     {
       "type": "image",
+      "url": "https://cdn.yogatrade.com/wp-content/uploads/2022/09/Screenshot_20211215-182720_WhatsAppBusiness-aspect-ratio-900-900.jpg",
+      "caption": "瑜伽工作旅行平台官网：官网展示的产品与实际使用场景",
+      "alt": "瑜伽工作旅行平台官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://yogatrade.com",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.yogatrade.com/wp-content/uploads/2020/11/MaryTilsonYogaTrade.jpg",
+      "caption": "瑜伽工作旅行平台官网：产品界面与核心功能展示",
+      "alt": "瑜伽工作旅行平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://yogatrade.com",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/473/original/open-uri20220402-3-t3x2ff?1648879708",
       "caption": "瑜伽工作旅行平台：创业复盘与关键经验相关原始配图（第3张）",
       "alt": "瑜伽工作旅行平台：创业复盘与关键经验相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/yoga-trade",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/474/original/open-uri20220402-3-63tig3?1648879709",
+      "caption": "瑜伽工作旅行平台：给创业者的实践建议相关原始配图（第4张）",
+      "alt": "瑜伽工作旅行平台：给创业者的实践建议相关原始配图（第4张）",
       "sourceUrl": "https://www.starterstory.com/stories/yoga-trade",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -201,7 +231,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2536,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

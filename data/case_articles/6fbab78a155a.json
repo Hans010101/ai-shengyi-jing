@@ -187,6 +187,18 @@
       "poster": "https://i.ytimg.com/vi/rdUeq09cGJ0/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/u4ZoJKF_VuA&vl=en",
+      "watchUrl": "https://www.youtube.com/watch?v=u4ZoJKF_VuA&vl=en",
+      "caption": "数据驱动营销代理资料中提及的视频：Start with why -- how great leaders inspire action | Simon Sinek | TEDxPugetSound",
+      "alt": "Start with why -- how great leaders inspire action | Simon Sinek | TEDxPugetSound",
+      "sourceUrl": "https://www.starterstory.com/stories/regex-seo",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/u4ZoJKF_VuA/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -201,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2468,
-    "mediaCount": 5,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

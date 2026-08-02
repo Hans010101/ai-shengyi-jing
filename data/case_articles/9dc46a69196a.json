@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "健身工作室的产品与交付路径",
+      "items": [
+        "获客（线下地推/线上广告）",
+        "体验课（低价引流）",
+        "付费课程（私教/半私教）",
+        "续费/转介绍"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "健身工作室的中国市场验证路线",
+      "items": [
+        "在社区或写字楼附近租用小场地，提供低价体验课（如9.9元），通过地推、朋友圈广告吸引周边用户。",
+        "设计标准化私教课程体系，培养1-2名教练，采用月卡或次卡收费，同时录制线上训练视频作为附加服务。",
+        "建立学员微信群，定期分享健身知识、学员成果，推出推荐有奖活动，促进转介绍和续费。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2460,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

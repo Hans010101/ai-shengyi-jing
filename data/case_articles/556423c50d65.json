@@ -167,10 +167,54 @@
       "context": "source-article-body"
     },
     {
+      "type": "video-file",
+      "url": "https://res.cloudinary.com/mailmodo/video/upload/f_auto,q_auto:good/v1668167520/strapi/avatar_animation_video_55a30e78a0.mp4",
+      "watchUrl": "https://res.cloudinary.com/mailmodo/video/upload/f_auto,q_auto:good/v1668167520/strapi/avatar_animation_video_55a30e78a0.mp4",
+      "poster": "https://res.cloudinary.com/mailmodo/video/upload/f_webp,q_10/v1668167520/strapi/avatar_animation_video_55a30e78a0.mp4",
+      "caption": "无代码AMP邮件营销工具官网：产品界面与核心功能展示",
+      "alt": "无代码AMP邮件营销工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.mailmodo.com",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://res.cloudinary.com/mailmodo/video/upload/v1769577610/strapi/mm4_Hero_c7dd874522.webm",
+      "watchUrl": "https://res.cloudinary.com/mailmodo/video/upload/v1769577610/strapi/mm4_Hero_c7dd874522.webm",
+      "poster": "https://res.cloudinary.com/mailmodo/image/upload/v1763639453/strapi/Screenshot_2025_11_20_at_5_05_01_PM_7f170b87c0.png",
+      "caption": "无代码AMP邮件营销工具官网：产品界面与核心功能展示",
+      "alt": "无代码AMP邮件营销工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.mailmodo.com",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://www.mailmodo.com/static/images/og-image.png",
+      "caption": "无代码AMP邮件营销工具官网：产品界面与核心功能展示",
+      "alt": "无代码AMP邮件营销工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.mailmodo.com",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/827/original/open-uri20210706-3-sxzrn6?1625586964",
       "caption": "无代码AMP邮件营销工具：产品设计与早期打磨相关原始配图（第3张）",
       "alt": "无代码AMP邮件营销工具：产品设计与早期打磨相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-created-a-8-5k-month-no-code-amp-email-marketing-tool",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/828/original/open-uri20210706-3-1x3uzum?1625586966",
+      "caption": "无代码AMP邮件营销工具：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "无代码AMP邮件营销工具：产品上线与首次发布相关原始配图（第4张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-created-a-8-5k-month-no-code-amp-email-marketing-tool",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2442,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

@@ -167,14 +167,60 @@
       "context": "source-article-body"
     },
     {
+      "type": "video-file",
+      "url": "https://tinilux.com/cdn/shop/videos/c/vp/d311cfa3e02947e4a85079680d99c0a9/d311cfa3e02947e4a85079680d99c0a9.HD-720p-4.5Mbps-88528061.mp4?v=0",
+      "watchUrl": "https://tinilux.com/cdn/shop/videos/c/vp/d311cfa3e02947e4a85079680d99c0a9/d311cfa3e02947e4a85079680d99c0a9.HD-720p-4.5Mbps-88528061.mp4?v=0",
+      "poster": "https://tinilux.com/cdn/shop/files/preview_images/d311cfa3e02947e4a85079680d99c0a9.thumbnail.0000000000_1440x.jpg?v=1783607501",
+      "caption": "非过敏时尚珠宝品牌官网：产品界面与核心功能展示",
+      "alt": "非过敏时尚珠宝品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://tinilux.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://tinilux.com/cdn/shop/videos/c/vp/c31bf41ba00e4e9f85c1ee1afccef812/c31bf41ba00e4e9f85c1ee1afccef812.HD-1080p-7.2Mbps-88527904.mp4?v=0",
+      "watchUrl": "https://tinilux.com/cdn/shop/videos/c/vp/c31bf41ba00e4e9f85c1ee1afccef812/c31bf41ba00e4e9f85c1ee1afccef812.HD-1080p-7.2Mbps-88527904.mp4?v=0",
+      "poster": "https://tinilux.com/cdn/shop/files/preview_images/c31bf41ba00e4e9f85c1ee1afccef812.thumbnail.0000000000_750x.jpg?v=1783607378",
+      "caption": "非过敏时尚珠宝品牌官网：产品界面与核心功能展示",
+      "alt": "非过敏时尚珠宝品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://tinilux.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://tinilux.com/cdn/shop/videos/c/vp/756158f1e8824de7a78c7123669574f4/756158f1e8824de7a78c7123669574f4.HD-1080p-2.5Mbps-87824705.mp4?v=0",
+      "watchUrl": "https://tinilux.com/cdn/shop/videos/c/vp/756158f1e8824de7a78c7123669574f4/756158f1e8824de7a78c7123669574f4.HD-1080p-2.5Mbps-87824705.mp4?v=0",
+      "poster": "https://tinilux.com/cdn/shop/files/preview_images/756158f1e8824de7a78c7123669574f4.thumbnail.0000000000.jpg?v=1782886651&width=1312",
+      "caption": "非过敏时尚珠宝品牌官网：产品界面与核心功能展示",
+      "alt": "非过敏时尚珠宝品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://tinilux.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/005/877/original/open-uri20200421-4-1uf37e2?1587486430",
-      "caption": "非过敏时尚珠宝品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "alt": "非过敏时尚珠宝品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-ve-grow-our-revenue-by-400-over-last-year-through-seo-and-word-of-mouth",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://tinilux.com/cdn/shop/files/46_6e672f2f-b84d-460d-8f1f-ec41a259fbba.png?v=1784042925&width=322",
+      "caption": "非过敏时尚珠宝品牌官网：官网展示的产品与实际使用场景",
+      "alt": "非过敏时尚珠宝品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://tinilux.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://tinilux.com/cdn/shop/files/zaya_peach.jpg?v=1783610944&width=322",
+      "caption": "非过敏时尚珠宝品牌官网：官网展示的产品与实际使用场景",
+      "alt": "非过敏时尚珠宝品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://tinilux.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +235,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2430,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

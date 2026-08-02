@@ -177,6 +177,16 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/005/967/original/open-uri20200430-4-eoskuo?1588260457",
+      "caption": "惊喜旅行策划服务：给创业者的实践建议相关原始配图（第4张）",
+      "alt": "惊喜旅行策划服务：给创业者的实践建议相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-pivoted-from-reaching-out-social-media-followers",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/YhxYg9nTcDg",
       "watchUrl": "https://www.youtube.com/watch?v=YhxYg9nTcDg",
@@ -201,7 +211,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2378,
-    "mediaCount": 5,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

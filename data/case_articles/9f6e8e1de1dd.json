@@ -168,9 +168,49 @@
     },
     {
       "type": "image",
+      "url": "https://cdn.prod.website-files.com/646bbbfbff79188751a8200e/66b9fd18f5836d3a9c0168f7_ayn-hero.avif",
+      "caption": "AI智能广告创建平台官网：官网展示的产品与实际使用场景",
+      "alt": "AI智能广告创建平台官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.adyouneed.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/646bbbfbff79188751a8200e/66ba0f13979d4f272794fabe_ai-features-wrap.avif",
+      "caption": "AI智能广告创建平台官网：社交媒体内容与营销活动场景",
+      "alt": "AI智能广告创建平台官网：社交媒体内容与营销活动场景",
+      "sourceUrl": "https://www.adyouneed.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/60cc5e30dd8a2c2c80bebb85/60e805549d0438d29e86a5a6_Meta.png",
+      "caption": "AI智能广告创建平台官网：产品界面与核心功能展示",
+      "alt": "AI智能广告创建平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.adyouneed.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/087/original/open-uri20211005-3-1c176ff?1633456988",
       "caption": "AI智能广告创建平台：创业复盘与关键经验相关原始配图（第3张）",
       "alt": "AI智能广告创建平台：创业复盘与关键经验相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-built-a-smart-ad-creator-that-generates-1-14m-year",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/088/original/open-uri20211005-3-1vil00p?1633456989",
+      "caption": "AI智能广告创建平台：团队建设与人才需求相关原始配图（第4张）",
+      "alt": "AI智能广告创建平台：团队建设与人才需求相关原始配图（第4张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-a-smart-ad-creator-that-generates-1-14m-year",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2386,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

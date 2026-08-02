@@ -168,9 +168,54 @@
     },
     {
       "type": "image",
+      "url": "https://yubabikes.com/wp-content/uploads/2025/01/social-graph-1200-x-675px-1.png",
+      "caption": "电动货运自行车品牌官网：产品界面与核心功能展示",
+      "alt": "电动货运自行车品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://yubabikes.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "video",
+      "url": "https://player.vimeo.com/video/1035178520",
+      "watchUrl": "https://vimeo.com/1035178520",
+      "caption": "电动货运自行车品牌资料中提及的视频：Yuba - Mashup 2025",
+      "alt": "Yuba - Mashup 2025",
+      "sourceUrl": "https://yubabikes.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.vimeocdn.com/video/1956641847-1abaff33de3d1d9b48ab3a6f8cfc50a5790587f0edc5bd4eb74077126e9188b2-d_295x166?region=us",
+      "provider": "Vimeo",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://yubabikes.com/wp-content/uploads/2024/12/SPICY-CURRY_LIFESTYLE-GIF2-ezgif.com-gif-to-mp4-converter.mp4",
+      "watchUrl": "https://yubabikes.com/wp-content/uploads/2024/12/SPICY-CURRY_LIFESTYLE-GIF2-ezgif.com-gif-to-mp4-converter.mp4",
+      "poster": "https://yubabikes.com/wp-content/uploads/2025/01/social-graph-1200-x-675px-1.png",
+      "caption": "电动货运自行车品牌官网：产品界面与核心功能展示",
+      "alt": "电动货运自行车品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://yubabikes.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/441/original/open-uri20220223-3-1wwuky8?1645614019",
       "caption": "电动货运自行车品牌：产品上线与首次发布相关原始配图（第3张）",
       "alt": "电动货运自行车品牌：产品上线与首次发布相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-turned-my-love-for-bikes-into-a-12m-year-electric-cargo-bike-business",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/442/original/open-uri20220223-3-hfxl8n?1645614019",
+      "caption": "电动货运自行车品牌：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "电动货运自行车品牌：产品上线与首次发布相关原始配图（第4张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-turned-my-love-for-bikes-into-a-12m-year-electric-cargo-bike-business",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +234,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2428,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

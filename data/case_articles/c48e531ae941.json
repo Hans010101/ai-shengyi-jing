@@ -168,6 +168,16 @@
     },
     {
       "type": "image",
+      "url": "https://rytr.me/images/hero.gif?dpl=dpl_7oKsJ6Hdepm3UoRYW1pFBxnRSsgu",
+      "caption": "AI写作助手官网：官网展示的产品主场景",
+      "alt": "AI写作助手官网：官网展示的产品主场景",
+      "sourceUrl": "https://rytr.me/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/020/original/open-uri20211117-3-gbugqk?1637177617",
       "caption": "AI写作助手：产品上线与首次发布相关原始配图（第3张）",
       "alt": "AI写作助手：产品上线与首次发布相关原始配图（第3张）",
@@ -189,7 +199,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2450,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 5,
+    "logicMedia": 0
   }
 }

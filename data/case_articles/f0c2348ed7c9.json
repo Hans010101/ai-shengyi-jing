@@ -167,14 +167,69 @@
       "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/836/original/open-uri20190123-4-z2y2un?1548215640",
-      "caption": "在线网站买卖中介平台：产品上线与首次发布相关原始配图（第3张）",
-      "alt": "在线网站买卖中介平台：产品上线与首次发布相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/empire-flippers-20m-year-helping-people-buy-and-sell-websites",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "type": "video",
+      "url": "https://www.youtube.com/embed/CKeHKudiDlI",
+      "watchUrl": "https://www.youtube.com/watch?v=CKeHKudiDlI",
+      "caption": "在线网站买卖中介平台资料中提及的视频：Empire Flippers Review (Are they legit?)",
+      "alt": "Empire Flippers Review (Are they legit?)",
+      "sourceUrl": "https://empireflippers.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/CKeHKudiDlI/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/scGj8_Hv0XQ",
+      "watchUrl": "https://www.youtube.com/watch?v=scGj8_Hv0XQ",
+      "caption": "在线网站买卖中介平台资料中提及的视频：Buying Millions with Empire Flippers",
+      "alt": "Buying Millions with Empire Flippers",
+      "sourceUrl": "https://empireflippers.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/scGj8_Hv0XQ/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/hWCiu5W6rlE",
+      "watchUrl": "https://www.youtube.com/watch?v=hWCiu5W6rlE",
+      "caption": "在线网站买卖中介平台资料中提及的视频：Expert Buyer of Online Businesses Discusses Buying with Empire Flippers",
+      "alt": "Expert Buyer of Online Businesses Discusses Buying with Empire Flippers",
+      "sourceUrl": "https://empireflippers.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/hWCiu5W6rlE/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/JT-4OG59Hic",
+      "watchUrl": "https://www.youtube.com/watch?v=JT-4OG59Hic",
+      "caption": "在线网站买卖中介平台资料中提及的视频：Selling a Six-Figure Amazon Affiliate Website | Empire Flippers Testimonial",
+      "alt": "Selling a Six-Figure Amazon Affiliate Website | Empire Flippers Testimonial",
+      "sourceUrl": "https://empireflippers.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/JT-4OG59Hic/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/Y5D-BdBeEts",
+      "watchUrl": "https://www.youtube.com/watch?v=Y5D-BdBeEts",
+      "caption": "在线网站买卖中介平台资料中提及的视频：Selling An Online Business With Empire Flippers (Are they worth it?)",
+      "alt": "Selling An Online Business With Empire Flippers (Are they worth it?)",
+      "sourceUrl": "https://empireflippers.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/Y5D-BdBeEts/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -189,7 +244,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2578,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

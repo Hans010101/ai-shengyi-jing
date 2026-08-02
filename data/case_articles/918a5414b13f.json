@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI驱动的自动化市场调研工具的中国市场验证路线",
+      "items": [
+        "用Python+OpenAI API搭建MVP，输入项目名自动抓取Crunchbase、新闻等公开数据，生成结构化报告。",
+        "在知乎、即刻等平台发布免费案例吸引种子用户，设置邮箱收集订阅。",
+        "上线订阅页面，定价¥199/月，提供7天免费试用，通过用户反馈迭代报告质量。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI驱动的自动化市场调研工具的经营验证仪表盘",
+      "items": [
+        "AI驱动的自动化市场调研工具，按月订阅赚钱。",
+        "SaaS订阅制，用户每月支付$49获取无限次案例研究生成，并提供免费预览吸引转化。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2453,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -167,6 +167,52 @@
       "context": "source-article-body"
     },
     {
+      "type": "video-file",
+      "url": "https://biteplay.com/assets/videos/video02.mp4?v=14afe5df",
+      "watchUrl": "https://biteplay.com/assets/videos/video02.mp4?v=14afe5df",
+      "poster": "https://biteplay.com/assets/videos/video02_poster.jpg?v=14afe5df",
+      "caption": "AI工具帮YouTube广告主找到精准投放内容官网：产品界面与核心功能展示",
+      "alt": "AI工具帮YouTube广告主找到精准投放内容官网：产品界面与核心功能展示",
+      "sourceUrl": "https://biteplay.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://biteplay.com/assets/videos/video04.mp4?v=14afe5df",
+      "watchUrl": "https://biteplay.com/assets/videos/video04.mp4?v=14afe5df",
+      "poster": "https://biteplay.com/assets/videos/video04_poster.jpg?v=14afe5df",
+      "caption": "AI工具帮YouTube广告主找到精准投放内容官网：产品界面与核心功能展示",
+      "alt": "AI工具帮YouTube广告主找到精准投放内容官网：产品界面与核心功能展示",
+      "sourceUrl": "https://biteplay.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://biteplay.com/assets/videos/video05.mp4?v=14afe5df",
+      "watchUrl": "https://biteplay.com/assets/videos/video05.mp4?v=14afe5df",
+      "poster": "https://biteplay.com/assets/videos/video05_poster.jpg?v=14afe5df",
+      "caption": "AI工具帮YouTube广告主找到精准投放内容官网：产品界面与核心功能展示",
+      "alt": "AI工具帮YouTube广告主找到精准投放内容官网：产品界面与核心功能展示",
+      "sourceUrl": "https://biteplay.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://biteplay.com/assets/images/card.jpg?v=14afe5df",
+      "caption": "AI工具帮YouTube广告主找到精准投放内容官网：产品界面与核心功能展示",
+      "alt": "AI工具帮YouTube广告主找到精准投放内容官网：产品界面与核心功能展示",
+      "sourceUrl": "https://biteplay.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/250/original/open-uri20211013-3-hdhk9a?1634137039",
       "caption": "AI工具帮YouTube广告主找到精准投放内容：产品设计与早期打磨相关原始配图（第3张）",
@@ -189,7 +235,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2524,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

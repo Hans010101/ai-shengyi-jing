@@ -168,6 +168,46 @@
     },
     {
       "type": "image",
+      "url": "https://ashlandleather.com/cdn/shop/files/HERO_BF_banner_d7080b76-f877-4dd8-b8a0-c01ae0da1388.png?v=1764395298&width=1200",
+      "caption": "手工皮具品牌官网：官网展示的产品与实际使用场景",
+      "alt": "手工皮具品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://ashlandleather.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://ashlandleather.com/cdn/shop/files/HERO_BF_banner_d7080b76-f877-4dd8-b8a0-c01ae0da1388.png?v=1764395298&width=750",
+      "caption": "手工皮具品牌官网：官网展示的产品与实际使用场景",
+      "alt": "手工皮具品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://ashlandleather.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://ashlandleather.com/cdn/shop/products/johnny-the-fox-dublin-english-tan-front.jpg?v=1769190779",
+      "caption": "手工皮具品牌官网：产品界面与核心功能展示",
+      "alt": "手工皮具品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://ashlandleather.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://ashlandleather.com/cdn/shop/files/Ashland-1_1_opt_fb8db2cb-d7ed-4252-bb38-1cf4974ed948.webp?v=1760091349&width=600",
+      "caption": "手工皮具品牌官网：产品界面与核心功能展示",
+      "alt": "手工皮具品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://ashlandleather.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/005/293/original/open-uri20200307-4-1v2b36s?1583547871",
       "caption": "手工皮具品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "alt": "手工皮具品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2400,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

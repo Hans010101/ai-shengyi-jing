@@ -168,6 +168,26 @@
     },
     {
       "type": "image",
+      "url": "https://beatboxbeverages.com/cdn/shop/files/new_hero_mobile.png?v=1785522669",
+      "caption": "BeatBox是预调酒品牌官网：官网展示的产品与实际使用场景",
+      "alt": "BeatBox是预调酒品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://beatboxbeverages.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "http://beatboxbeverages.com/cdn/shop/files/1200.png?v=1732723278",
+      "caption": "BeatBox是预调酒品牌官网：产品界面与核心功能展示",
+      "alt": "BeatBox是预调酒品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://beatboxbeverages.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/054/original/open-uri20220321-3-1maf5ro?1647875070",
       "caption": "BeatBox是预调酒品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "alt": "BeatBox是预调酒品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
@@ -189,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2497,
-    "mediaCount": 4,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

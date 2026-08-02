@@ -165,6 +165,34 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "企业员工入职与培训SaaS的商业增长闭环",
+      "items": [
+        "【引流】SEO+内容营销",
+        "【产品】在线培训系统",
+        "【变现】月费订阅",
+        "【留存】模板库+自动化提醒"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "企业员工入职与培训SaaS的产品与交付路径",
+      "items": [
+        "注册试用",
+        "创建培训手册",
+        "分配员工",
+        "员工完成"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -179,11 +207,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2466,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:content-root-missing|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:ok",
+    "realMedia": 3,
+    "logicMedia": 2
   }
 }

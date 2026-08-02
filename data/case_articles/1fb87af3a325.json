@@ -188,6 +188,36 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://sheddefender.com/cdn/shop/files/black_post_surgery_recovery_suit_120x120.jpg?v=1778188683",
+      "caption": "卖宠物狗专用防掉毛连体衣官网：官网展示的产品与实际使用场景",
+      "alt": "卖宠物狗专用防掉毛连体衣官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://sheddefender.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://sheddefender.com/cdn/shop/files/black-bungee-leash_120x120.jpg?v=1747422836",
+      "caption": "卖宠物狗专用防掉毛连体衣官网：官网展示的产品与实际使用场景",
+      "alt": "卖宠物狗专用防掉毛连体衣官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://sheddefender.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://ucarecdn.com/e91b7ae2-58bd-44ea-be74-47f8911bcd5e/-/format/auto/-/preview/120x120/-/quality/lighter/new%20resized%20product%20features%20shed%20defender%20OG.png",
+      "caption": "卖宠物狗专用防掉毛连体衣官网：官网展示的产品与实际使用场景",
+      "alt": "卖宠物狗专用防掉毛连体衣官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://sheddefender.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -202,11 +232,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2489,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

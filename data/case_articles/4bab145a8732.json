@@ -168,25 +168,53 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/900/original/open-uri20220126-3-ufk5jb?1643209525",
-      "caption": "音乐练习硬件+订阅服务：创业复盘与关键经验相关原始配图（第3张）",
-      "alt": "音乐练习硬件+订阅服务：创业复盘与关键经验相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-added-a-subscription-service-and-grew-revenue-to-280k-month",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "http://www.soundbrenner.com/cdn/shop/files/Preview_thumbnail.png?v=1724996667&width=1000",
+      "caption": "音乐练习硬件+订阅服务官网：产品界面与核心功能展示",
+      "alt": "音乐练习硬件+订阅服务官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.soundbrenner.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/eim8REOYLzA",
-      "watchUrl": "https://www.youtube.com/watch?v=eim8REOYLzA",
-      "caption": "音乐练习硬件+订阅服务资料中提及的视频：Balaji Srinivasan — Bitcoin and Ethereum, Lee Kuan Yew, US vs China, and More",
-      "alt": "Balaji Srinivasan — Bitcoin and Ethereum, Lee Kuan Yew, US vs China, and More",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-added-a-subscription-service-and-grew-revenue-to-280k-month",
-      "origin": "embeddable-video",
-      "poster": "https://i.ytimg.com/vi/eim8REOYLzA/hqdefault.jpg",
-      "provider": "YouTube",
-      "usage": ""
+      "type": "image",
+      "url": "https://www.soundbrenner.com/cdn/shop/products/pulse-metronome-wrist-strap.jpg?v=1784363198&width=584",
+      "caption": "音乐练习硬件+订阅服务官网：官网展示的产品与实际使用场景",
+      "alt": "音乐练习硬件+订阅服务官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.soundbrenner.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.soundbrenner.com/cdn/shop/products/pulse-body-strap-holder.jpg?v=1784363073&width=584",
+      "caption": "音乐练习硬件+订阅服务官网：官网展示的产品与实际使用场景",
+      "alt": "音乐练习硬件+订阅服务官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.soundbrenner.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.soundbrenner.com/cdn/shop/products/black-genki-wave-midi-ring.jpg?v=1784363123&width=584",
+      "caption": "音乐练习硬件+订阅服务官网：产品界面与核心功能展示",
+      "alt": "音乐练习硬件+订阅服务官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.soundbrenner.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.soundbrenner.com/cdn/shop/products/playtron-midi-circuit-board-front.jpg?v=1784363221&width=584",
+      "caption": "音乐练习硬件+订阅服务官网：产品界面与核心功能展示",
+      "alt": "音乐练习硬件+订阅服务官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.soundbrenner.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -201,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2535,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

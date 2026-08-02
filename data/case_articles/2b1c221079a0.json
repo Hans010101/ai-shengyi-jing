@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为中小企业提供AI驱动的市场调研报告生成服务的中国市场验证路线",
+      "items": [
+        "搭建简易网站，使用低代码工具（如Bubble）创建用户输入表单，收集公司名称和调研需求。",
+        "集成OpenAI API和爬虫工具（如Scrapy），自动抓取公开数据并生成报告草稿。",
+        "在社交媒体（如知乎、抖音）发布免费行业洞察报告引流，引导用户试用付费完整版。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "为中小企业提供AI驱动的市场调研报告生成服务的经营验证仪表盘",
+      "items": [
+        "为中小企业提供AI驱动的市场调研报告生成服务，按报告收费。",
+        "通过网站收集用户需求，AI自动生成定制化市场调研报告，用户付费下载。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2484,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

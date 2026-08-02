@@ -177,6 +177,16 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/717/original/open-uri20190115-4-kcj701?1547589263",
+      "caption": "钻石搜索引擎：业务工具与运营系统相关原始配图（第4张）",
+      "alt": "钻石搜索引擎：业务工具与运营系统相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/generating-passive-income-with-a-diamond-search-engine",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/vhzM51z9BaA",
       "watchUrl": "https://www.youtube.com/watch?v=vhzM51z9BaA",
@@ -201,7 +211,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2391,
-    "mediaCount": 5,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:no-semantic-media",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:no-semantic-media",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

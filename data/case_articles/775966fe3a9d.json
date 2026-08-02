@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "天然洗浴护肤品牌的产品与交付路径",
+      "items": [
+        "原料采购",
+        "厨房小批量生产",
+        "线上店铺销售",
+        "客户复购与推荐"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "天然洗浴护肤品牌的中国市场验证路线",
+      "items": [
+        "选择细分品类（如手工皂、浴盐），学习基础配方，采购天然原料，在厨房小批量试制，通过朋友圈或二手平台测试需求。",
+        "注册公司、办理化妆品生产许可（如适用），建立简易官网或入驻淘宝/拼多多，拍摄制作过程视频，在小红书、抖音发布内容引流。",
+        "优化产品包装和定价，推出订阅或礼盒装，与瑜伽馆、民宿等合作批发，利用用户评价和推荐裂变，逐步扩大规模。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2492,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

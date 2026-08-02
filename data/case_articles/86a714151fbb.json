@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI驱动的B2B销售线索挖掘平台的中国市场验证路线",
+      "items": [
+        "选择垂直行业（如跨境电商），收集公开企业数据（工商信息、招聘、新闻），构建种子数据库。",
+        "开发AI模型，实现从自然语言描述到企业匹配、联系人提取、验证功能，集成企业微信或钉钉通知。",
+        "在行业社群推广，提供免费100条线索试用，收集反馈迭代，定价99-299元/月，按线索量分级。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI驱动的B2B销售线索挖掘平台的经营验证仪表盘",
+      "items": [
+        "AI驱动的B2B销售线索挖掘平台，按月订阅付费。",
+        "SaaS订阅制，按用户数或线索量收费，提供免费试用。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2445,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

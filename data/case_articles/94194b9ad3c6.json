@@ -185,6 +185,26 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.onestepgps.com/assets/dashboard-zone-51-dVk40.webp",
+      "caption": "低成本车队追踪SaaS官网：产品后台与数据看板",
+      "alt": "低成本车队追踪SaaS官网：产品后台与数据看板",
+      "sourceUrl": "https://www.onestepgps.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.onestepgps.com/assets/dashboard-alerts-BpcEE1xq.webp",
+      "caption": "低成本车队追踪SaaS官网：产品后台与数据看板",
+      "alt": "低成本车队追踪SaaS官网：产品后台与数据看板",
+      "sourceUrl": "https://www.onestepgps.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -199,11 +219,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2372,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T09:37:46.068137+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI驱动的数据标注平台的中国市场验证路线",
+      "items": [
+        "选择垂直领域（如电商商品图片标注），收集少量样本数据，使用开源模型（如YOLO）训练基础标注模型。",
+        "搭建简易Web平台，支持用户上传数据、自动标注、人工校验和导出，对接支付接口实现按量收费。",
+        "通过知乎、B站发布行业教程和案例，吸引种子用户，提供免费额度试用，收集反馈迭代模型和平台体验。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI驱动的数据标注平台的经营验证仪表盘",
+      "items": [
+        "AI驱动的数据标注平台，按量收费",
+        "SaaS订阅+按量付费，提供AI数据标注服务，用户上传原始数据，系统自动标注并返回结果。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2481,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

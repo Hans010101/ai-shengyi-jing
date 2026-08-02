@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "JAMS是AI驱动的音乐创作平台的中国市场验证路线",
+      "items": [
+        "聚焦细分场景（如短视频BGM），用开源模型（如MusicGen）搭建MVP，支持中文标签和风格。",
+        "在B站/抖音发布AI音乐生成教程，吸引种子用户，提供免费每日生成次数。",
+        "推出9.9元/月订阅或按次付费，绑定商用授权，与MCN机构合作推广。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "JAMS是AI驱动的音乐创作平台的经营验证仪表盘",
+      "items": [
+        "JAMS是AI驱动的音乐创作平台，通过订阅制赚钱。",
+        "AI生成音乐+免费试用+月度订阅制，用户付费解锁完整功能和商用版权。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2463,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

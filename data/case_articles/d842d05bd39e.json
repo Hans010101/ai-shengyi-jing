@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "Apiculus是面向中小企业的AI驱动的云服务的中国市场验证路线",
+      "items": [
+        "调研目标客户（如中小企业IT负责人），明确痛点（如云成本高、管理复杂），设计MVP功能：成本分析、自动化扩缩容。",
+        "选择阿里云或腾讯云API，快速开发集成，用低代码工具搭建前端，3个月内部署测试。",
+        "通过免费试用吸引首批用户，收集反馈迭代，推出基础版（月费$99）和高级版（月费$299），并建立客户成功团队降低流失率。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "Apiculus是面向中小企业的AI驱动的云服务的经营验证仪表盘",
+      "items": [
+        "Apiculus是面向中小企业的AI驱动的云服务平台，通过订阅制提供云资源管理和自动化服务盈利。",
+        "商业模式：SaaS订阅制，按用户数或资源使用量收费，提供自动化云管理、成本优化和监控功能。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2575,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -148,16 +148,6 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/785/original/open-uri20220310-3-1xr5ud?1646941183",
-      "caption": "美国CBD品牌FAB CBD：创始人、核心产品与品牌起点相关原始配图",
-      "alt": "美国CBD品牌FAB CBD：创始人、核心产品与品牌起点相关原始配图",
-      "sourceUrl": "https://www.starterstory.com/stories/on-launching-our-cbd-brand-and-doubled-revenue-yoy",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
-    },
-    {
-      "type": "image",
       "url": "https://fabcbd.com/cdn/shop/products/CBG_Natural_2400_Single.jpg?crop=center&height=1036&v=1672318701&width=1036",
       "caption": "美国CBD品牌FAB CBD官网：官网展示的产品与实际使用场景",
       "alt": "美国CBD品牌FAB CBD官网：官网展示的产品与实际使用场景",
@@ -185,6 +175,46 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://fabcbd.com/cdn/shop/products/Oil.jpg?crop=center&height=925&v=1664545762&width=740",
+      "caption": "美国CBD品牌FAB CBD官网：官网展示的产品与实际使用场景",
+      "alt": "美国CBD品牌FAB CBD官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://fabcbd.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://fabcbd.com/cdn/shop/products/CBD_CBG_Capsules.jpg?crop=center&height=1036&v=1720707131&width=1036",
+      "caption": "美国CBD品牌FAB CBD官网：产品界面与核心功能展示",
+      "alt": "美国CBD品牌FAB CBD官网：产品界面与核心功能展示",
+      "sourceUrl": "https://fabcbd.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://fabcbd.com/cdn/shop/products/CBD_CBG_Capsules.jpg?crop=center&height=740&v=1720707131&width=740",
+      "caption": "美国CBD品牌FAB CBD官网：产品界面与核心功能展示",
+      "alt": "美国CBD品牌FAB CBD官网：产品界面与核心功能展示",
+      "sourceUrl": "https://fabcbd.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/785/original/open-uri20220310-3-1xr5ud?1646941183",
+      "caption": "美国CBD品牌FAB CBD：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "美国CBD品牌FAB CBD：创始人、核心产品与品牌起点相关原始配图",
+      "sourceUrl": "https://www.starterstory.com/stories/on-launching-our-cbd-brand-and-doubled-revenue-yoy",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -199,11 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2430,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:http-429|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:http-429|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

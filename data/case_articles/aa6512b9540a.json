@@ -185,6 +185,36 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://d3rf6j5nx5r04a.cloudfront.net/WYTovMUgVUq5Jha-ETl0uDiohWg=/500x0/product/7/b/ca14af6fb807488c810e534769f9eb3a_opt.jpg",
+      "caption": "Artfinder是艺术品电商平台官网：产品界面与核心功能展示",
+      "alt": "Artfinder是艺术品电商平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.artfinder.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://d3rf6j5nx5r04a.cloudfront.net/veOZCQyRq2-rIFnac8fTVhse9A0=/500x0/product/3/8/8dfd36bbe11f44cf870d4b6d5cad2033_opt.jpg",
+      "caption": "Artfinder是艺术品电商平台官网：产品界面与核心功能展示",
+      "alt": "Artfinder是艺术品电商平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.artfinder.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://d3rf6j5nx5r04a.cloudfront.net/ORDIN4Q752JbMP--bFFa1nS5O8U=/500x0/product/d/8/989de8c2a1ea489c8c005f5904859c21_opt.jpg",
+      "caption": "Artfinder是艺术品电商平台官网：产品界面与核心功能展示",
+      "alt": "Artfinder是艺术品电商平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.artfinder.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -199,11 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2460,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

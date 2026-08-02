@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "手工定制刀具的中国市场验证路线",
+      "items": [
+        "学习基础锻造和磨刀技术，购买必要工具（如锻炉、砂轮机），成本约1000-2000美元。",
+        "在抖音/小红书发布制作过程短视频，积累粉丝，展示工艺细节和成品效果，吸引定制订单。",
+        "先以低价接单积累口碑，逐步提高定价，同时提供刻字、特殊材质等增值服务，提升客单价。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "手工定制刀具的经营验证仪表盘",
+      "items": [
+        "手工定制刀具，通过优化生产和提价增收。",
+        "B2C手工定制刀具，线上展示+线下定制，高客单价，低销量高利润。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2389,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

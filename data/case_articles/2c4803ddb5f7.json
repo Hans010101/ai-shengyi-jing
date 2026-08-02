@@ -168,6 +168,46 @@
     },
     {
       "type": "image",
+      "url": "https://www.tarotstack.com/cdn/shop/products/iris-oracle-deck_360x.png?v=1640203664",
+      "caption": "销售独立艺术家设计的塔罗牌官网：官网展示的产品与实际使用场景",
+      "alt": "销售独立艺术家设计的塔罗牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.tarotstack.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.tarotstack.com/cdn/shop/products/the-cosmos-oracle_360x.jpg?v=1648995877",
+      "caption": "销售独立艺术家设计的塔罗牌官网：官网展示的产品与实际使用场景",
+      "alt": "销售独立艺术家设计的塔罗牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.tarotstack.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.tarotstack.com/cdn/shop/products/the-creatives-compass-oracle_360x.png?v=1681221110",
+      "caption": "销售独立艺术家设计的塔罗牌官网：官网展示的产品与实际使用场景",
+      "alt": "销售独立艺术家设计的塔罗牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.tarotstack.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.shopify.com/s/files/1/0567/4827/7945/files/Tarot_Stack_Logo--1200x628.jpg?v=1734748019",
+      "caption": "销售独立艺术家设计的塔罗牌官网：产品界面与核心功能展示",
+      "alt": "销售独立艺术家设计的塔罗牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.tarotstack.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/220/original/open-uri20211201-3-5nph3p?1638373891",
       "caption": "销售独立艺术家设计的塔罗牌：产品上线与首次发布相关原始配图（第3张）",
       "alt": "销售独立艺术家设计的塔罗牌：产品上线与首次发布相关原始配图（第3张）",
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2425,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

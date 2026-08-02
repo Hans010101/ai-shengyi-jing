@@ -148,6 +148,46 @@
     },
     {
       "type": "image",
+      "url": "https://www.diesellaptops.com/cdn/shop/files/ToolBoxGiveaway-Hero.jpg?v=1784548939&width=1900",
+      "caption": "为柴油维修店提供诊断工具和软件订阅服务官网：官网展示的产品主场景",
+      "alt": "为柴油维修店提供诊断工具和软件订阅服务官网：官网展示的产品主场景",
+      "sourceUrl": "https://www.diesellaptops.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.diesellaptops.com/cdn/shop/files/MasterSeriesHero-A-Updated.jpg?v=1774984428&width=1900",
+      "caption": "为柴油维修店提供诊断工具和软件订阅服务官网：官网展示的产品主场景",
+      "alt": "为柴油维修店提供诊断工具和软件订阅服务官网：官网展示的产品主场景",
+      "sourceUrl": "https://www.diesellaptops.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.diesellaptops.com/cdn/shop/products/ExplorerBox_c209caae-16f5-42fa-a70a-426b12260cd4.jpg?v=1684508313&width=360",
+      "caption": "为柴油维修店提供诊断工具和软件订阅服务官网：官网展示的产品与实际使用场景",
+      "alt": "为柴油维修店提供诊断工具和软件订阅服务官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.diesellaptops.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.diesellaptops.com/cdn/shop/products/ServiceMaxxJ1708.jpg?v=1568995354&width=360",
+      "caption": "为柴油维修店提供诊断工具和软件订阅服务官网：官网展示的产品与实际使用场景",
+      "alt": "为柴油维修店提供诊断工具和软件订阅服务官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.diesellaptops.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/010/228/original/open-uri20210210-3-1fm0o32?1612978387",
       "caption": "为柴油维修店提供诊断工具和软件订阅服务：创始人、核心产品与品牌起点相关原始配图",
       "alt": "为柴油维修店提供诊断工具和软件订阅服务：创始人、核心产品与品牌起点相关原始配图",
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2431,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:http-429|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

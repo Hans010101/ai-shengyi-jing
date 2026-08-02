@@ -168,13 +168,53 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/679/original/open-uri20220410-24-keikmq?1649595519",
-      "caption": "有机植物护肤品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "alt": "有机植物护肤品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/everlasting-herb-farm",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "http://static1.squarespace.com/static/67685c8a6950ed67f746925f/t/67cdaef4f0338604a06da8fc/1741532916788/Meadow+Bee+social+share+image.png?format=1500w",
+      "caption": "有机植物护肤品牌官网：产品界面与核心功能展示",
+      "alt": "有机植物护肤品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.everlastingherbfarm.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://images.squarespace-cdn.com/content/v1/67685c8a6950ed67f746925f/660269cc-ba5b-47ce-bf2d-9750d74fe55e/Banner+Shot+with+most+of+the+products+2.jpg?format=2500w",
+      "caption": "有机植物护肤品牌官网：官网展示的产品与实际使用场景",
+      "alt": "有机植物护肤品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.everlastingherbfarm.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://images.squarespace-cdn.com/content/v1/67685c8a6950ed67f746925f/5c4a5d01-022b-4598-bff9-b4f842ab2a36/Floral+Nomad+Balm+Deodorant+Geranium+Background+%282%29.jpg?format=2500w",
+      "caption": "有机植物护肤品牌官网：官网展示的产品与实际使用场景",
+      "alt": "有机植物护肤品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.everlastingherbfarm.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://images.squarespace-cdn.com/content/v1/67685c8a6950ed67f746925f/bee72aac-6f63-4bb7-a5cd-a8feb60036f7/Meadow+Bee+Solid+Deodorant+Patchouli+Background.jpg?format=2500w",
+      "caption": "有机植物护肤品牌官网：官网展示的产品与实际使用场景",
+      "alt": "有机植物护肤品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.everlastingherbfarm.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://images.squarespace-cdn.com/content/v1/67685c8a6950ed67f746925f/0f29c4f8-3c62-481e-86d5-e8c93a1c2d52/Facecream+Duo+Background-2+%281%29.jpg?format=2500w",
+      "caption": "有机植物护肤品牌官网：官网展示的产品与实际使用场景",
+      "alt": "有机植物护肤品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.everlastingherbfarm.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2447,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

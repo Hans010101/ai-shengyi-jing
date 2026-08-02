@@ -168,6 +168,16 @@
     },
     {
       "type": "image",
+      "url": "https://inventora.com/assets/images/og-image.png",
+      "caption": "夫妻创业解决自身库存管理痛点官网：产品界面与核心功能展示",
+      "alt": "夫妻创业解决自身库存管理痛点官网：产品界面与核心功能展示",
+      "sourceUrl": "https://inventora.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/415/original/open-uri20210828-3-3qh1hd?1630148102",
       "caption": "夫妻创业解决自身库存管理痛点：产品设计与早期打磨相关原始配图（第3张）",
       "alt": "夫妻创业解决自身库存管理痛点：产品设计与早期打磨相关原始配图（第3张）",
@@ -201,7 +211,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2482,
-    "mediaCount": 5,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

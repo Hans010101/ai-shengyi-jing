@@ -168,9 +168,29 @@
     },
     {
       "type": "image",
+      "url": "http://vitafive.com/cdn/shop/files/gempages_533407879852459255-0a42f0d0-53ce-4e57-a29e-6407a93fdb40.webp?v=1732116558",
+      "caption": "定制维生素软糖包官网：产品界面与核心功能展示",
+      "alt": "定制维生素软糖包官网：产品界面与核心功能展示",
+      "sourceUrl": "https://vitafive.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/745/original/open-uri20211104-3-1e3741m?1636058420",
       "caption": "定制维生素软糖包：产品设计与早期打磨相关原始配图（第3张）",
       "alt": "定制维生素软糖包：产品设计与早期打磨相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/we-started-our-gummy-vitamin-packs-in-college-and-now-earn-3m-year",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/746/original/open-uri20211104-3-1ks7qtj?1636058420",
+      "caption": "定制维生素软糖包：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "定制维生素软糖包：产品上线与首次发布相关原始配图（第4张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-started-our-gummy-vitamin-packs-in-college-and-now-earn-3m-year",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2366,
-    "mediaCount": 4,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

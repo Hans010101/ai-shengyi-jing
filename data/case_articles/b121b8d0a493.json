@@ -167,10 +167,53 @@
       "context": "source-article-body"
     },
     {
+      "type": "video",
+      "url": "https://player.vimeo.com/video/1169957736",
+      "watchUrl": "https://vimeo.com/1169957736",
+      "caption": "每日播客访谈企业家资料中提及的视频：EOFire.com Homepage",
+      "alt": "EOFire.com Homepage",
+      "sourceUrl": "https://www.eofire.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.vimeocdn.com/video/2128907944-b4faa72b2cd4d63bfa8a73b2ada5b4a19a1895ca15b568a20fe75f0f547cd6fd-d_295x166?region=us",
+      "provider": "Vimeo",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://www.eofire.com/wp-content/uploads/2019/05/EOFCoverArt2019-R4_200x200.jpg",
+      "caption": "每日播客访谈企业家官网：产品界面与核心功能展示",
+      "alt": "每日播客访谈企业家官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.eofire.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/629/original/open-uri20190103-4-1j88edy?1546540351",
       "caption": "每日播客访谈企业家：产品上线与首次发布相关原始配图（第3张）",
       "alt": "每日播客访谈企业家：产品上线与首次发布相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-john-lee-dumas-grew-a-podcast-into-2m-year-business",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/630/original/open-uri20190103-4-s4a1u2?1546540352",
+      "caption": "每日播客访谈企业家：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "每日播客访谈企业家：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-john-lee-dumas-grew-a-podcast-into-2m-year-business",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/631/original/open-uri20190103-4-1srilsx?1546540352",
+      "caption": "每日播客访谈企业家：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "每日播客访谈企业家：产品上线与首次发布相关原始配图（第5张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-john-lee-dumas-grew-a-podcast-into-2m-year-business",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +232,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2487,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "阿拉伯婚恋社交App的产品与交付路径",
+      "items": [
+        "用户注册",
+        "填写文化偏好",
+        "AI匹配推荐",
+        "聊天互动"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "阿拉伯婚恋社交App的中国市场验证路线",
+      "items": [
+        "选定目标文化群体（如回族、藏族），调研其婚恋痛点与文化禁忌，设计差异化功能（如家庭参与、宗教过滤）。",
+        "开发MVP，包含注册、个人资料、匹配、聊天核心功能，使用Flutter或React Native快速跨平台发布。",
+        "在抖音、小红书发布文化相关短视频（如民族婚礼习俗），引导下载；初期免费，积累用户后推出会员订阅（¥30/月）。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2490,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

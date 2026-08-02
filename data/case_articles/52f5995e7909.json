@@ -168,9 +168,49 @@
     },
     {
       "type": "image",
+      "url": "https://www.ocushield.com/cdn/shop/products/Ocushield_Product-image_iphone6-Plus-2100x1500.jpg?v=1768238261&width=1280",
+      "caption": "防蓝光屏幕贴膜品牌官网：官网展示的产品与实际使用场景",
+      "alt": "防蓝光屏幕贴膜品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.ocushield.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.instant.so/sites/e5QsI9M4ZX3HuWdD/assets/5hGtEytGEGZjHR9S/medicinesandhealthcareproductsregulatoryagency-1-1-vectorized.png?width=1280",
+      "caption": "防蓝光屏幕贴膜品牌官网：官网展示的产品与实际使用场景",
+      "alt": "防蓝光屏幕贴膜品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.ocushield.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "http://www.ocushield.com/cdn/shop/files/ocushield-share_674da2f1-4ae0-47d1-9226-a81c03bb5ab1.jpg?v=1619089185",
+      "caption": "防蓝光屏幕贴膜品牌官网：产品界面与核心功能展示",
+      "alt": "防蓝光屏幕贴膜品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.ocushield.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/154/original/open-uri20220207-3-w7lo3q?1644255794",
       "caption": "防蓝光屏幕贴膜品牌：创业起点与创意来源相关原始配图（第3张）",
       "alt": "防蓝光屏幕贴膜品牌：创业起点与创意来源相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-invented-a-3-6m-year-blue-light-filter",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/155/original/open-uri20220207-3-eawg7c?1644255795",
+      "caption": "防蓝光屏幕贴膜品牌：创业起点与创意来源相关原始配图（第4张）",
+      "alt": "防蓝光屏幕贴膜品牌：创业起点与创意来源相关原始配图（第4张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-invented-a-3-6m-year-blue-light-filter",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2414,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

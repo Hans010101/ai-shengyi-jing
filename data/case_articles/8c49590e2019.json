@@ -168,6 +168,26 @@
     },
     {
       "type": "image",
+      "url": "https://www.youngpioneertours.com/wp-content/uploads/2017/08/YPT-Productions.jpg",
+      "caption": "小众冒险旅游公司官网：产品界面与核心功能展示",
+      "alt": "小众冒险旅游公司官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.youngpioneertours.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.youngpioneertours.com/wp-content/uploads/2021/09/yptlogo.jpeg",
+      "caption": "小众冒险旅游公司官网：产品界面与核心功能展示",
+      "alt": "小众冒险旅游公司官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.youngpioneertours.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/703/original/open-uri20220410-24-mrffzo?1649607708",
       "caption": "小众冒险旅游公司：当前经营状态与下一步规划相关原始配图（第3张）",
       "alt": "小众冒险旅游公司：当前经营状态与下一步规划相关原始配图（第3张）",
@@ -189,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2443,
-    "mediaCount": 4,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

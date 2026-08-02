@@ -168,9 +168,39 @@
     },
     {
       "type": "image",
+      "url": "https://www.textmagic.com/wp-content/uploads/2026/07/desktopv3.webp",
+      "caption": "TextMagic提供SMS营销SaaS服务官网：官网展示的产品主场景",
+      "alt": "TextMagic提供SMS营销SaaS服务官网：官网展示的产品主场景",
+      "sourceUrl": "https://www.textmagic.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/889/original/open-uri20220606-12-10lb81l?1654530183",
       "caption": "TextMagic提供SMS营销SaaS服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "alt": "TextMagic提供SMS营销SaaS服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/textmagic",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/890/original/open-uri20220606-12-sz88em?1654530183",
+      "caption": "TextMagic提供SMS营销SaaS服务：产品设计与早期打磨相关原始配图（第4张）",
+      "alt": "TextMagic提供SMS营销SaaS服务：产品设计与早期打磨相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/textmagic",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/891/original/open-uri20220606-12-1tu0v5h?1654530184",
+      "caption": "TextMagic提供SMS营销SaaS服务：产品设计与早期打磨相关原始配图（第5张）",
+      "alt": "TextMagic提供SMS营销SaaS服务：产品设计与早期打磨相关原始配图（第5张）",
       "sourceUrl": "https://www.starterstory.com/stories/textmagic",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -201,7 +231,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2498,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

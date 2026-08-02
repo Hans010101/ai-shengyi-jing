@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为独自旅行者提供实时社交活动匹配的App的中国市场验证路线",
+      "items": [
+        "开发微信小程序MVP，聚焦单一城市（如大理），提供“组队吃饭”“拼车”功能，手动审核活动保证质量。",
+        "与当地青旅、民宿合作，获取种子用户；利用小红书发布“旅行组队”内容，引导用户扫码入群。",
+        "上线付费功能，如“超级曝光”（让活动置顶）或“月卡免手续费”；根据用户行为优化推荐算法，提升匹配效率。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "为独自旅行者提供实时社交活动匹配的App的经营验证仪表盘",
+      "items": [
+        "为独自旅行者提供实时社交活动匹配的App，通过订阅和活动佣金赚钱。",
+        "免费下载+订阅高级功能（如无限匹配、活动创建）+活动组织者佣金。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2513,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

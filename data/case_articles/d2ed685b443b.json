@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "巴西个人理财AI应用的中国市场验证路线",
+      "items": [
+        "获取开放银行API权限（如巴西的Open Finance），或与国内银行/支付平台合作获取交易数据。",
+        "开发AI分类模型，基于交易描述自动打标签（如餐饮、交通），并生成可视化报表。",
+        "推出免费版积累用户，再设计高级订阅（如预算规划、投资分析）和金融产品推荐功能变现。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "巴西个人理财AI应用的经营验证仪表盘",
+      "items": [
+        "巴西个人理财AI应用，通过订阅和交易佣金赚钱。",
+        "免费增值模式：基础功能免费，高级分析/报告订阅付费；另通过推荐金融产品赚取佣金。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2447,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

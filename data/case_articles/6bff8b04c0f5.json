@@ -167,6 +167,39 @@
       "context": "source-article-body"
     },
     {
+      "type": "video",
+      "url": "https://player.vimeo.com/video/501535470",
+      "watchUrl": "https://vimeo.com/501535470",
+      "caption": "EMDR心理疗法培训资料中提及的视频：THE EVOLUTION OF EMDR",
+      "alt": "THE EVOLUTION OF EMDR",
+      "sourceUrl": "https://emdrconsulting.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.vimeocdn.com/video/1037741223-0ca25054c37d4e31b2b3f3d43fcb52593ad7597711cb3dec60f5cd86097b1b81-d_295x166?region=us",
+      "provider": "Vimeo",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://emdrconsulting.com/wp-content/uploads/2024/04/emdr_eye_homepage-05.jpg",
+      "caption": "EMDR心理疗法培训官网：产品界面与核心功能展示",
+      "alt": "EMDR心理疗法培训官网：产品界面与核心功能展示",
+      "sourceUrl": "https://emdrconsulting.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://emdrconsulting.com/wp-content/uploads/2024/11/practice_emdr_cropped.jpg",
+      "caption": "EMDR心理疗法培训官网：产品界面与核心功能展示",
+      "alt": "EMDR心理疗法培训官网：产品界面与核心功能展示",
+      "sourceUrl": "https://emdrconsulting.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/230/original/open-uri20211011-3-tcut45?1633983875",
       "caption": "EMDR心理疗法培训：产品上线与首次发布相关原始配图（第3张）",
@@ -189,7 +222,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2410,
-    "mediaCount": 4,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

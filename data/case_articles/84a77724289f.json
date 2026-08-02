@@ -168,13 +168,53 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/565/original/open-uri20201220-4-qb3oh9?1608488930",
-      "caption": "男性长发社群电商：创业复盘与关键经验相关原始配图（第3张）",
-      "alt": "男性长发社群电商：创业复盘与关键经验相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-online-sales-and-increased-revenue-by-100",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://thelonghairs.us/cdn/shop/files/BirdofPreyShopifyProductPhotos2026Side.jpg?v=1768954498&width=2860",
+      "caption": "男性长发社群电商官网：官网展示的产品与实际使用场景",
+      "alt": "男性长发社群电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://thelonghairs.us/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://thelonghairs.us/cdn/shop/products/BlackTies_2048.webp?crop=region&crop_height=2036&crop_left=0&crop_top=5&crop_width=2048&v=1762288477&width=2048",
+      "caption": "男性长发社群电商官网：官网展示的产品与实际使用场景",
+      "alt": "男性长发社群电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://thelonghairs.us/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://thelonghairs.us/cdn/shop/products/IMG_6572.jpg?crop=region&crop_height=2036&crop_left=0&crop_top=5&crop_width=2048&v=1685059820&width=2048",
+      "caption": "男性长发社群电商官网：官网展示的产品与实际使用场景",
+      "alt": "男性长发社群电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://thelonghairs.us/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://thelonghairs.us/cdn/shop/products/IMG_6591-2.jpg?crop=region&crop_height=2036&crop_left=0&crop_top=5&crop_width=2048&v=1685057404&width=2048",
+      "caption": "男性长发社群电商官网：官网展示的产品与实际使用场景",
+      "alt": "男性长发社群电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://thelonghairs.us/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://thelonghairs.us/cdn/shop/products/IMG_6652.jpg?crop=region&crop_height=2036&crop_left=0&crop_top=5&crop_width=2048&v=1685057404&width=2048",
+      "caption": "男性长发社群电商官网：官网展示的产品与实际使用场景",
+      "alt": "男性长发社群电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://thelonghairs.us/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2425,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

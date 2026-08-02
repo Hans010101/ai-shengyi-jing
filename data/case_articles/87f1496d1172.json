@@ -177,6 +177,20 @@
       "poster": "https://i.ytimg.com/vi/E-3igVQ_Mfk/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "协作项目管理工具的商业增长闭环",
+      "items": [
+        "【引流】内容营销（博客/社交媒体）+免费版口碑",
+        "【产品】Ora PM项目管理工具",
+        "【变现】月/年订阅费",
+        "【留存】持续更新功能+客户支持"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -191,7 +205,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2446,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ConnectionError",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ConnectionError",
+    "realMedia": 4,
+    "logicMedia": 1
   }
 }

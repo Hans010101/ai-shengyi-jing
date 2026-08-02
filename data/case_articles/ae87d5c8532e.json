@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI驱动的广告创意生成与优化SaaS工具的中国市场验证路线",
+      "items": [
+        "聚焦单一平台（如抖音），开发AI生成广告文案和图片的MVP，支持模板选择和简单编辑。",
+        "对接抖音开放平台API，实现一键发布和基础数据回传，通过免费生成额度吸引第一批种子用户。",
+        "根据用户反馈增加A/B测试和效果分析功能，推出阶梯订阅（按生成量或账户数），并建立客户成功团队提升续费率。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI驱动的广告创意生成与优化SaaS工具的经营验证仪表盘",
+      "items": [
+        "AI驱动的广告创意生成与优化SaaS工具，按月订阅收费。",
+        "B2B SaaS订阅制，按广告账户或生成量收费，提供免费试用吸引用户，付费解锁高级功能。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2546,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

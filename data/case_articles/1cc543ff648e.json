@@ -100,6 +100,46 @@
   "media": [
     {
       "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/2pdjugwboohtltwomtyvsq8of67k",
+      "caption": "销售手机指环扣和挂绳的电商品牌：靠产品差异化和品牌溢价盈利",
+      "alt": "销售手机指环扣和挂绳的电商品牌：靠产品差异化和品牌溢价盈利",
+      "sourceUrl": "https://www.starterstory.com/stories/phone-loops-f2258cf3-8102-4a49-bd86-9b11ad33b98c",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
+    },
+    {
+      "type": "image",
+      "url": "http://phoneloops.com/cdn/shop/files/phone-loops-phone-strap-accessory-og-social_1200x630.jpg?v=1776868887",
+      "caption": "销售手机指环扣和挂绳的电商品牌官网：产品界面与核心功能展示",
+      "alt": "销售手机指环扣和挂绳的电商品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://phoneloops.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://phoneloops.com/cdn/shop/files/MERK_PHONE_LOOPS_{width}x.jpg?v=1741704705",
+      "caption": "销售手机指环扣和挂绳的电商品牌官网：官网展示的产品主场景",
+      "alt": "销售手机指环扣和挂绳的电商品牌官网：官网展示的产品主场景",
+      "sourceUrl": "https://phoneloops.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://phoneloops.com/cdn/shop/files/MERK_PHONE_LOOPS_1400x.jpg?v=1741704705",
+      "caption": "销售手机指环扣和挂绳的电商品牌官网：官网展示的产品主场景",
+      "alt": "销售手机指环扣和挂绳的电商品牌官网：官网展示的产品主场景",
+      "sourceUrl": "https://phoneloops.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://phoneloops.com/cdn/shop/products/Phone-Sling-Product-Picture-3WEB_1080x.jpg?v=1754680235",
       "caption": "Phone Sling官方产品图：品牌从手指挂带扩展到可穿戴手机配件",
       "alt": "Phone Loops黑色斜挎手机挂绳",
@@ -133,15 +173,6 @@
       "sourceUrl": "https://phoneloops.com/products/crossbody-phone-sling-lanyard",
       "origin": "official-site",
       "context": "official-site"
-    },
-    {
-      "type": "image",
-      "url": "https://phoneloops.com/cdn/shop/products/RINGS-AND-SLING-2_1080x.jpg?v=1746227318",
-      "caption": "挂绳与连接件展示了品牌围绕核心结构延展配件组合的方式",
-      "alt": "Phone Loops挂绳与连接件",
-      "sourceUrl": "https://phoneloops.com/products/crossbody-phone-sling-lanyard",
-      "origin": "official-site",
-      "context": "official-site"
     }
   ],
   "source": {
@@ -166,6 +197,18 @@
     "scrapedAt": "2026-07-21T16:04:17.125379"
   },
   "quality": {
-    "mediaCount": 5
+    "mediaCount": 8
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:http-429|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

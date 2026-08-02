@@ -167,10 +167,56 @@
       "context": "source-article-body"
     },
     {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/V_MOaCVq4-0",
+      "watchUrl": "https://www.youtube.com/watch?v=V_MOaCVq4-0",
+      "caption": "旅游生活方式内容网站资料中提及的视频：Manhattan Beach 6-man Wild Beach Volleyball Party Singing Of Sweet Caroline",
+      "alt": "Manhattan Beach 6-man Wild Beach Volleyball Party Singing Of Sweet Caroline",
+      "sourceUrl": "https://www.pubclub.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/V_MOaCVq4-0/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/2NrW24_5QGQ",
+      "watchUrl": "https://www.youtube.com/watch?v=2NrW24_5QGQ",
+      "caption": "旅游生活方式内容网站资料中提及的视频：Blue Waters - A Rick Waters Novel Trailer",
+      "alt": "Blue Waters - A Rick Waters Novel Trailer",
+      "sourceUrl": "https://www.pubclub.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/2NrW24_5QGQ/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/905/original/open-uri20211114-3-1p38m00?1636906973",
       "caption": "旅游生活方式内容网站：产品设计与早期打磨相关原始配图（第3张）",
       "alt": "旅游生活方式内容网站：产品设计与早期打磨相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-missed-out-on-a-party-in-amsterdam-so-i-decided-to-build-a-profitable-tourist-guide-website",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/906/original/open-uri20211114-3-1rsmpcl?1636906973",
+      "caption": "旅游生活方式内容网站：产品设计与早期打磨相关原始配图（第4张）",
+      "alt": "旅游生活方式内容网站：产品设计与早期打磨相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-missed-out-on-a-party-in-amsterdam-so-i-decided-to-build-a-profitable-tourist-guide-website",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/907/original/open-uri20211114-3-we0d8z?1636906974",
+      "caption": "旅游生活方式内容网站：产品设计与早期打磨相关原始配图（第5张）",
+      "alt": "旅游生活方式内容网站：产品设计与早期打磨相关原始配图（第5张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-missed-out-on-a-party-in-amsterdam-so-i-decided-to-build-a-profitable-tourist-guide-website",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +235,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2440,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

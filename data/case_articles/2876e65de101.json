@@ -167,6 +167,50 @@
       "context": "source-article-body"
     },
     {
+      "type": "video-file",
+      "url": "https://firebasestorage.googleapis.com/v0/b/prod-hitchd.appspot.com/o/videos%2F6321397_Hugging%20Kissing%20Outdoors%20Switzerland_By_Reinis_Kaspars_Artlist_HD-high.webm?alt=media&token=545e43b8-0a66-4e40-83f5-a5fbd62875d4",
+      "watchUrl": "https://firebasestorage.googleapis.com/v0/b/prod-hitchd.appspot.com/o/videos%2F6321397_Hugging%20Kissing%20Outdoors%20Switzerland_By_Reinis_Kaspars_Artlist_HD-high.webm?alt=media&token=545e43b8-0a66-4e40-83f5-a5fbd62875d4",
+      "poster": "https://www.hitchd.com/marketing/images/open-graph-hitchd-honeymoon-registry.jpg",
+      "caption": "蜜月现金礼物登记平台官网：产品界面与核心功能展示",
+      "alt": "蜜月现金礼物登记平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.hitchd.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://firebasestorage.googleapis.com/v0/b/prod-hitchd.appspot.com/o/videos%2Fhitchd-wedding-website-hero-video-high.webm?alt=media&token=17ba6673-4452-4d4a-a82f-132eda9fb9e4",
+      "watchUrl": "https://firebasestorage.googleapis.com/v0/b/prod-hitchd.appspot.com/o/videos%2Fhitchd-wedding-website-hero-video-high.webm?alt=media&token=17ba6673-4452-4d4a-a82f-132eda9fb9e4",
+      "poster": "https://www.hitchd.com/marketing/images/open-graph-hitchd-honeymoon-registry.jpg",
+      "caption": "蜜月现金礼物登记平台官网：产品界面与核心功能展示",
+      "alt": "蜜月现金礼物登记平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.hitchd.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://www.hitchd.com/marketing/images/do-less-guest-management.png",
+      "caption": "蜜月现金礼物登记平台官网：产品后台与数据看板",
+      "alt": "蜜月现金礼物登记平台官网：产品后台与数据看板",
+      "sourceUrl": "https://www.hitchd.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.hitchd.com/marketing/images/open-graph-hitchd-honeymoon-registry.jpg",
+      "caption": "蜜月现金礼物登记平台官网：产品界面与核心功能展示",
+      "alt": "蜜月现金礼物登记平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.hitchd.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/077/original/open-uri20220202-3-1oja2g9?1643833004",
       "caption": "蜜月现金礼物登记平台：创业复盘与关键经验相关原始配图（第3张）",
@@ -189,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2447,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

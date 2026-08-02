@@ -167,6 +167,26 @@
       "poster": "https://i.ytimg.com/vi/_uF-tcpc1PU/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "image",
+      "url": "https://assets.epixelmlmsoftware.com/sites/default/files/home-page/mlm-software-dashboard-v13.png",
+      "caption": "为MLM公司提供软件解决方案官网：产品后台与数据看板",
+      "alt": "为MLM公司提供软件解决方案官网：产品后台与数据看板",
+      "sourceUrl": "https://www.epixelmlmsoftware.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://assets.epixelmlmsoftware.com/sites/default/files/images/epixel-mlm-software.png",
+      "caption": "为MLM公司提供软件解决方案官网：产品界面与核心功能展示",
+      "alt": "为MLM公司提供软件解决方案官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.epixelmlmsoftware.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -181,7 +201,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2425,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 5,
+    "logicMedia": 0
   }
 }

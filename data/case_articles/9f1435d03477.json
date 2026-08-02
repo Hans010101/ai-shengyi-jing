@@ -168,13 +168,53 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/005/559/original/open-uri20200329-4-1c2p6m1?1585508035",
-      "caption": "售卖迷你建筑材料的电商：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "alt": "售卖迷你建筑材料的电商：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-added-new-products-as-a-promotional-giveaways",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://www.minimaterials.com/cdn/shop/products/112-scale-mini-cinder-block-pallet-24pk-499362_{width}x.jpg?v=1689287646",
+      "caption": "售卖迷你建筑材料的电商官网：官网展示的产品与实际使用场景",
+      "alt": "售卖迷你建筑材料的电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.minimaterials.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.minimaterials.com/cdn/shop/products/112-scale-mini-cinder-block-pallet-24pk-499362_360x.jpg?v=1689287646",
+      "caption": "售卖迷你建筑材料的电商官网：官网展示的产品与实际使用场景",
+      "alt": "售卖迷你建筑材料的电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.minimaterials.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.minimaterials.com/cdn/shop/products/16-scale-mini-red-brick-pallet-24pk-983609_{width}x.jpg?v=1689287816",
+      "caption": "售卖迷你建筑材料的电商官网：官网展示的产品与实际使用场景",
+      "alt": "售卖迷你建筑材料的电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.minimaterials.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.minimaterials.com/cdn/shop/products/16-scale-mini-red-brick-pallet-24pk-983609_360x.jpg?v=1689287816",
+      "caption": "售卖迷你建筑材料的电商官网：官网展示的产品与实际使用场景",
+      "alt": "售卖迷你建筑材料的电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.minimaterials.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.minimaterials.com/cdn/shop/products/112-scale-mini-breeze-block-pallet-24pk-vista-vue-857356_{width}x.jpg?v=1689287648",
+      "caption": "售卖迷你建筑材料的电商官网：官网展示的产品与实际使用场景",
+      "alt": "售卖迷你建筑材料的电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.minimaterials.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2455,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

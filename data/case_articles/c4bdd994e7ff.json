@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI驱动的Meme生成与分发平台的中国市场验证路线",
+      "items": [
+        "搭建AI生成Meme的MVP，集成现有AI API（如GPT-4、Stable Diffusion），支持文本转Meme和模板库。",
+        "在微博、抖音、小红书发布Meme挑战，邀请KOL试用，设置分享裂变机制（如生成带推广链接的Meme）。",
+        "上线基础免费版，开通微信/支付宝支付，推出9.9元/月订阅，提供去水印、高清导出、批量生成等功能。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI驱动的Meme生成与分发平台的经营验证仪表盘",
+      "items": [
+        "AI驱动的Meme生成与分发平台，通过订阅和广告赚钱。",
+        "SaaS订阅制（月费/年费）+ 广告收入，用户免费生成Meme，付费去水印、高级模板和批量分发。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2534,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

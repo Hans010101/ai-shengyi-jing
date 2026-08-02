@@ -168,13 +168,53 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/827/original/open-uri20190123-4-1ef8gmj?1548213243",
-      "caption": "高蛋白蛋糕粉品牌：产品设计与早期打磨相关原始配图（第3张）",
-      "alt": "高蛋白蛋糕粉品牌：产品设计与早期打磨相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/how-christine-moore-started-a-healthy-cake-treat-product",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://www.lilbuff.com/cdn/shop/products/image_44a0a097-a658-4ccb-a514-d9c6851c4abc_large.png?v=1666384013",
+      "caption": "高蛋白蛋糕粉品牌官网：官网展示的产品与实际使用场景",
+      "alt": "高蛋白蛋糕粉品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.lilbuff.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.lilbuff.com/cdn/shop/products/cocoacravefront_1800x1800_8a21d250-3302-4468-96c6-9f5e3ed9113c_large.jpg?v=1614186102",
+      "caption": "高蛋白蛋糕粉品牌官网：官网展示的产品与实际使用场景",
+      "alt": "高蛋白蛋糕粉品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.lilbuff.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.lilbuff.com/cdn/shop/products/image_1800x1800_b006ebf7-34bf-4baa-8543-9eca8df5ba73_large.png?v=1577737696",
+      "caption": "高蛋白蛋糕粉品牌官网：官网展示的产品与实际使用场景",
+      "alt": "高蛋白蛋糕粉品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.lilbuff.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.lilbuff.com/cdn/shop/products/carrotcakevegan_large.png?v=1616105555",
+      "caption": "高蛋白蛋糕粉品牌官网：官网展示的产品与实际使用场景",
+      "alt": "高蛋白蛋糕粉品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.lilbuff.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.lilbuff.com/cdn/shop/products/IMG_2801_8046a24b-3d8d-408b-ba06-569d97270058_large.JPG?v=1575384508",
+      "caption": "高蛋白蛋糕粉品牌官网：官网展示的产品与实际使用场景",
+      "alt": "高蛋白蛋糕粉品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.lilbuff.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2443,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

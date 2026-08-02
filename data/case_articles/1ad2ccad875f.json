@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/823/original/open-uri20220113-3-52i9wg?1642047281",
+      "caption": "事件策划移动应用：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "事件策划移动应用：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/plans-collective-on-creating-an-event-planning-mobile-app-with-250-users",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/824/original/open-uri20220113-3-1yzvt95?1642047282",
+      "caption": "事件策划移动应用：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "事件策划移动应用：产品上线与首次发布相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/plans-collective-on-creating-an-event-planning-mobile-app-with-250-users",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/JHe9CzYL8hU",
       "watchUrl": "https://www.youtube.com/watch?v=JHe9CzYL8hU",
@@ -201,7 +221,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2401,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

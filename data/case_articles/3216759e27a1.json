@@ -168,9 +168,39 @@
     },
     {
       "type": "image",
+      "url": "https://cdn.prod.website-files.com/5f5b93c1e1c2efc64e306e42/6177acbe38741b2ee2256945_thumbnail%20website.png",
+      "caption": "多款SaaS工具组合官网：产品界面与核心功能展示",
+      "alt": "多款SaaS工具组合官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.lempire.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/526/original/open-uri20220406-3-1x7i6lv?1649248685",
       "caption": "多款SaaS工具组合：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "alt": "多款SaaS工具组合：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/cryptoradar",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/527/original/open-uri20220406-3-10hk086?1649248686",
+      "caption": "多款SaaS工具组合：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "alt": "多款SaaS工具组合：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/cryptoradar",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/528/original/open-uri20220406-3-gjtrfv?1649248686",
+      "caption": "多款SaaS工具组合：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "alt": "多款SaaS工具组合：创始人、核心产品与品牌起点相关原始配图（第5张）",
       "sourceUrl": "https://www.starterstory.com/stories/cryptoradar",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -201,7 +231,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2604,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

@@ -168,6 +168,46 @@
     },
     {
       "type": "image",
+      "url": "https://static.instatext.io/prod/uploads/2024/01/11190327/instatext_word_screenshot-136x80.png",
+      "caption": "AI写作助手官网：官网展示的产品与实际使用场景",
+      "alt": "AI写作助手官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://instatext.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://instatext.io/wp-content/themes/instatext/assets/images/testimonials/hero-mft.jpg",
+      "caption": "AI写作助手官网：官网展示的产品与实际使用场景",
+      "alt": "AI写作助手官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://instatext.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://static.instatext.io/prod/uploads/2024/01/11190304/instatext_word_screenshot_track_changes-124x80.png",
+      "caption": "AI写作助手官网：官网展示的产品与实际使用场景",
+      "alt": "AI写作助手官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://instatext.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://instatext.io/wp-content/themes/instatext/assets/images/instatext.png",
+      "caption": "AI写作助手官网：产品界面与核心功能展示",
+      "alt": "AI写作助手官网：产品界面与核心功能展示",
+      "sourceUrl": "https://instatext.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/743/original/open-uri20220310-3-ty0pdr?1646908651",
       "caption": "AI写作助手：产品上线与首次发布相关原始配图（第3张）",
       "alt": "AI写作助手：产品上线与首次发布相关原始配图（第3张）",
@@ -175,18 +215,6 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
-    },
-    {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/czP5N6M9HA4",
-      "watchUrl": "https://www.youtube.com/watch?v=czP5N6M9HA4",
-      "caption": "AI写作助手资料中提及的视频：InstaText Browser Extension",
-      "alt": "InstaText Browser Extension",
-      "sourceUrl": "https://www.starterstory.com/stories/my-ai-writing-tool-won-startup-of-the-year",
-      "origin": "embeddable-video",
-      "poster": "https://i.ytimg.com/vi/czP5N6M9HA4/hqdefault.jpg",
-      "provider": "YouTube",
-      "usage": ""
     }
   ],
   "source": {
@@ -201,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2422,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

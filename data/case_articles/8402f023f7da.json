@@ -165,6 +165,56 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/67038d599583773eaf113692/68a61d3654a6d49acfc07cdb_Portal%201.avif",
+      "caption": "一站式代理机构管理SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "一站式代理机构管理SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://manyrequests.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/67038d599583773eaf113692/68a626a5b10c52c20847c8cd_640e5d181d435005f8ba972d9a8b516e_Time-Sheets.avif",
+      "caption": "一站式代理机构管理SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "一站式代理机构管理SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://manyrequests.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/67038d599583773eaf113692/68a62a1b461c18e43b4ee459_Projects.avif",
+      "caption": "一站式代理机构管理SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "一站式代理机构管理SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://manyrequests.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/67038d599583773eaf113692/68af9466e6cfb71b66fb32ab_Checkout.avif",
+      "caption": "一站式代理机构管理SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "一站式代理机构管理SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://manyrequests.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/67038d599583773eaf113692/68a64a8d21c211c707b7f270_edd62f0ee1d7f9f235b198bf45166751_CRM.avif",
+      "caption": "一站式代理机构管理SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "一站式代理机构管理SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://manyrequests.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -179,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2462,
-    "mediaCount": 3,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

@@ -165,6 +165,34 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "云端餐厅后厨管理SaaS的商业增长闭环",
+      "items": [
+        "【引流】餐饮行业论坛、SEO内容营销",
+        "【产品】云端后厨管理SaaS",
+        "【变现】月度订阅费",
+        "【留存】持续功能更新、客户成功服务"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "云端餐厅后厨管理SaaS的产品与交付路径",
+      "items": [
+        "餐厅注册",
+        "菜单与库存设置",
+        "订单录入与处理",
+        "成本分析与报表"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -179,7 +207,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2467,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 3,
+    "logicMedia": 2
   }
 }

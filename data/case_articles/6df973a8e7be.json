@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI租房管理SaaS的中国市场验证路线",
+      "items": [
+        "搭建微信小程序MVP，核心功能为AI自动回复租客常见问题（如房租、维修），使用现有API（如ChatGPT）快速实现。",
+        "在房东微信群、豆瓣租房小组等渠道免费邀请100位房东内测，收集反馈并优化AI回复准确率。",
+        "推出基础版免费（限5套房源），付费版按房源数量收费（9.9元/套/月），通过分销裂变扩大用户量。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI租房管理SaaS的经营验证仪表盘",
+      "items": [
+        "AI租房管理SaaS，月费订阅盈利",
+        "SaaS订阅制，按房源数量或功能分档收费，目标小型房东和物业管理公司。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2447,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

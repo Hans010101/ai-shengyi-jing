@@ -168,9 +168,39 @@
     },
     {
       "type": "image",
+      "url": "https://flevy.com/images/meta_homepage.jpg",
+      "caption": "销售顶级咨询公司方法论模板的在线市场官网：产品界面与核心功能展示",
+      "alt": "销售顶级咨询公司方法论模板的在线市场官网：产品界面与核心功能展示",
+      "sourceUrl": "https://flevy.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/709/original/open-uri20211103-3-ivru01?1635967088",
       "caption": "销售顶级咨询公司方法论模板的在线市场：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "alt": "销售顶级咨询公司方法论模板的在线市场：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-marketplace-for-business-practice",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/710/original/open-uri20211103-3-1ds2gdr?1635967088",
+      "caption": "销售顶级咨询公司方法论模板的在线市场：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "alt": "销售顶级咨询公司方法论模板的在线市场：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-marketplace-for-business-practice",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/711/original/open-uri20211103-3-1ry25w1?1635967089",
+      "caption": "销售顶级咨询公司方法论模板的在线市场：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "alt": "销售顶级咨询公司方法论模板的在线市场：创始人、核心产品与品牌起点相关原始配图（第5张）",
       "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-marketplace-for-business-practice",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +219,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2513,
-    "mediaCount": 4,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

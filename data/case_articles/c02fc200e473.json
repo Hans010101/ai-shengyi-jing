@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "将餐车业务企业化的中国市场验证路线",
+      "items": [
+        "调研本地企业、学校、园区等团餐需求，锁定目标客户群体，注册公司并办理食品经营许可证、餐车运营资质。",
+        "采购或租赁2-3辆标准化餐车，与中央厨房合作开发适合外卖和现场制作的菜单，确保出餐速度和品质统一。",
+        "通过企业拜访、参加展会、线上推广等方式获取首批企业客户，提供试吃优惠，建立口碑后逐步扩大车队和客户群。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "将餐车业务企业化的经营验证仪表盘",
+      "items": [
+        "将餐车业务企业化，年营收1800万美元",
+        "B2B模式，为企业活动、大型聚会等提供一站式餐饮解决方案，通过规模化采购和标准化运营降低成本，赚取餐食销售差价和服务费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2510,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

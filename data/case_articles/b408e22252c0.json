@@ -165,6 +165,26 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.shopify.com/s/files/1/0573/0549/7766/files/Bourbon_Hero_Image_FINAL_500x.jpg?v=1699556028",
+      "caption": "订阅制精酿烈酒礼盒官网：官网展示的产品主场景",
+      "alt": "订阅制精酿烈酒礼盒官网：官网展示的产品主场景",
+      "sourceUrl": "https://tastersclub.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "http://tastersclub.com/cdn/shop/files/Taster_s_Club_-_Main.webp?v=1762544853",
+      "caption": "订阅制精酿烈酒礼盒官网：产品界面与核心功能展示",
+      "alt": "订阅制精酿烈酒礼盒官网：产品界面与核心功能展示",
+      "sourceUrl": "https://tastersclub.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -179,7 +199,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2421,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 5,
+    "logicMedia": 0
   }
 }

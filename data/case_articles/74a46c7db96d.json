@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "一站式数字商品交易平台的中国市场验证路线",
+      "items": [
+        "搭建最小可行平台，支持卖家上传数字商品（如PDF、软件下载链接），集成微信支付或支付宝，实现自动交付。",
+        "聚焦一个垂直领域（如AI工具、在线课程），邀请10-20个早期卖家免费入驻，通过佣金分成激励推广。",
+        "优化卖家后台，添加客户管理、数据分析功能，并引入订阅制（如月费$9.9）解锁高级功能，逐步提高平台抽成至5%。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "一站式数字商品交易平台的经营验证仪表盘",
+      "items": [
+        "一站式数字商品交易平台，靠交易抽成和订阅费赚钱。",
+        "平台模式：卖家创建数字商品（软件、课程等），Whop 负责支付、交付和客户管理，抽取交易佣金（约5%）并收取订阅费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2546,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:HTTPError|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:HTTPError|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -165,6 +165,56 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://www.modernproducers.com/cdn/shop/products/DrillEssentialsCorrectedgraphic_large.png?v=1606042485",
+      "caption": "卖音乐制作工具给音乐人官网：官网展示的产品与实际使用场景",
+      "alt": "卖音乐制作工具给音乐人官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.modernproducers.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.modernproducers.com/cdn/shop/products/ChaosDrillDrumKitartwork_large.jpg?v=1653164302",
+      "caption": "卖音乐制作工具给音乐人官网：官网展示的产品与实际使用场景",
+      "alt": "卖音乐制作工具给音乐人官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.modernproducers.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.modernproducers.com/cdn/shop/products/oxymoron_large.jpg?v=1626806320",
+      "caption": "卖音乐制作工具给音乐人官网：官网展示的产品与实际使用场景",
+      "alt": "卖音乐制作工具给音乐人官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.modernproducers.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.modernproducers.com/cdn/shop/products/FREE-600_large.png?v=1626800797",
+      "caption": "卖音乐制作工具给音乐人官网：官网展示的产品与实际使用场景",
+      "alt": "卖音乐制作工具给音乐人官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.modernproducers.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.modernproducers.com/cdn/shop/products/Labyrinth_large.jpg?v=1583440714",
+      "caption": "卖音乐制作工具给音乐人官网：官网展示的产品与实际使用场景",
+      "alt": "卖音乐制作工具给音乐人官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.modernproducers.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -179,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2413,
-    "mediaCount": 3,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

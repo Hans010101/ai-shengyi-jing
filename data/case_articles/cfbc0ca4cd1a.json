@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/339/original/open-uri20210824-3-lwpa8i?1629826155",
+      "caption": "为职业游戏玩家举办抽奖活动：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "为职业游戏玩家举办抽奖活动：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/we-started-a-300k-year-business-doing-giveaways-for-pro-gamers",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/340/original/open-uri20210824-3-w0j9zb?1629826155",
+      "caption": "为职业游戏玩家举办抽奖活动：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "为职业游戏玩家举办抽奖活动：产品上线与首次发布相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/we-started-a-300k-year-business-doing-giveaways-for-pro-gamers",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/nPylhaQING4",
       "watchUrl": "https://www.youtube.com/watch?v=nPylhaQING4",
@@ -201,7 +221,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2448,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

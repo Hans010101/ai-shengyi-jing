@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "Twitter增长与变现工具的中国市场验证路线",
+      "items": [
+        "选择目标平台（如微博），开发基础功能：自动发布、定时排程、粉丝数据分析，用Python+API快速实现MVP。",
+        "通过免费工具引流，如提供‘粉丝分析报告’生成器，要求用户注册获取，积累种子用户。",
+        "设计定价策略，如月费$9-29，先免费试用7天，再通过邮件序列和功能限制促转化，同时收集反馈迭代。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "Twitter增长与变现工具的经营验证仪表盘",
+      "items": [
+        "Twitter增长与变现工具，按月订阅赚钱。",
+        "按月/年订阅制SaaS，提供Twitter增长、内容排程、分析等高级功能。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2482,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

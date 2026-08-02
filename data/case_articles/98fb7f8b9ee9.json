@@ -168,13 +168,53 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/372/original/open-uri20210526-3-h8fadn?1622013074",
-      "caption": "云端商业管理软件Flowlu：业务工具与运营系统相关原始配图（第3张）",
-      "alt": "云端商业管理软件Flowlu：业务工具与运营系统相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/on-building-a-cloud-based-software-with-30-increased-of-active-users",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://www.flowlu.com/site/assets/files/28155/documents-1.png",
+      "caption": "云端商业管理软件Flowlu官网：官网展示的产品与实际使用场景",
+      "alt": "云端商业管理软件Flowlu官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.flowlu.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.flowlu.com/site/assets/files/10695/crm_1.webp",
+      "caption": "云端商业管理软件Flowlu官网：官网展示的产品与实际使用场景",
+      "alt": "云端商业管理软件Flowlu官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.flowlu.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.flowlu.com/site/assets/files/45828/bl3-1.jpg",
+      "caption": "云端商业管理软件Flowlu官网：官网展示的产品与实际使用场景",
+      "alt": "云端商业管理软件Flowlu官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.flowlu.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.flowlu.com/site/assets/files/21544/ga-features_and_functionality-2024-1.webp",
+      "caption": "云端商业管理软件Flowlu官网：官网展示的产品与实际使用场景",
+      "alt": "云端商业管理软件Flowlu官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.flowlu.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.flowlu.com/site/templates/img/flowlu_572x120.jpg",
+      "caption": "云端商业管理软件Flowlu官网：产品界面与核心功能展示",
+      "alt": "云端商业管理软件Flowlu官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.flowlu.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2445,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

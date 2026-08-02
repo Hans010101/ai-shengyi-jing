@@ -175,6 +175,26 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/006/051/original/open-uri20200507-4-ddos3h?1588890208",
+      "caption": "篮球约球平台：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "alt": "篮球约球平台：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-curated-runs-brought-progress-on-our-booking-session",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/006/052/original/open-uri20200507-4-whv2pe?1588890209",
+      "caption": "篮球约球平台：给创业者的实践建议相关原始配图（第5张）",
+      "alt": "篮球约球平台：给创业者的实践建议相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-curated-runs-brought-progress-on-our-booking-session",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -189,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2440,
-    "mediaCount": 4,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:HTTPError",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:HTTPError",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

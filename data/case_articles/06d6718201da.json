@@ -167,6 +167,30 @@
       "context": "source-article-body"
     },
     {
+      "type": "video-file",
+      "url": "https://ateios.com/_nuxt/videos/ateios-b-roll.8cb0adb.mp4",
+      "watchUrl": "https://ateios.com/_nuxt/videos/ateios-b-roll.8cb0adb.mp4",
+      "poster": "https://ateios.com/",
+      "caption": "用光固化技术制造可定制柔性电池官网：产品界面与核心功能展示",
+      "alt": "用光固化技术制造可定制柔性电池官网：产品界面与核心功能展示",
+      "sourceUrl": "https://ateios.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://ateios.com/_nuxt/videos/roller-small.f30fe76.mp4",
+      "watchUrl": "https://ateios.com/_nuxt/videos/roller-small.f30fe76.mp4",
+      "poster": "https://ateios.com/",
+      "caption": "用光固化技术制造可定制柔性电池官网：产品界面与核心功能展示",
+      "alt": "用光固化技术制造可定制柔性电池官网：产品界面与核心功能展示",
+      "sourceUrl": "https://ateios.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/386/original/open-uri20220520-20467-1qra3ek?1653054467",
       "caption": "用光固化技术制造可定制柔性电池：产品上线与首次发布相关原始配图（第3张）",
@@ -189,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2474,
-    "mediaCount": 4,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

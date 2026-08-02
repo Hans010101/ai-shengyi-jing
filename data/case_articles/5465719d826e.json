@@ -167,6 +167,63 @@
       "poster": "https://i.ytimg.com/vi/GwMczmdExJM/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "image",
+      "url": "https://photoboothsupplyco.com/cdn/shop/files/salsa-booth-hero-section-desktop-v31.jpg?v=1757986348&width=2000",
+      "caption": "销售AI拍照亭软件和硬件官网：官网展示的产品与实际使用场景",
+      "alt": "销售AI拍照亭软件和硬件官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://photoboothsupplyco.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://photoboothsupplyco.com/cdn/shop/files/ProfitCal-Hero.jpg?v=1693428657&width=3200",
+      "caption": "销售AI拍照亭软件和硬件官网：官网展示的产品与实际使用场景",
+      "alt": "销售AI拍照亭软件和硬件官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://photoboothsupplyco.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "video",
+      "url": "https://player.vimeo.com/video/860324494",
+      "watchUrl": "https://vimeo.com/860324494",
+      "caption": "销售AI拍照亭软件和硬件资料中提及的视频：Profit Calculator Salse Video v5 (Updated 2023)",
+      "alt": "Profit Calculator Salse Video v5 (Updated 2023)",
+      "sourceUrl": "https://photoboothsupplyco.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.vimeocdn.com/video/1718405028-aea1f47cccc2e9150b39d2d8408b96a4e0d99191bddccdac2c25503d146a2a02-d_295x166?region=us",
+      "provider": "Vimeo",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://photoboothsupplyco.com/cdn/shop/videos/c/vp/12de6a1d58a145b4a89005a0fb304dd9/12de6a1d58a145b4a89005a0fb304dd9.HD-1080p-2.5Mbps-14335553.mp4?v=0",
+      "watchUrl": "https://photoboothsupplyco.com/cdn/shop/videos/c/vp/12de6a1d58a145b4a89005a0fb304dd9/12de6a1d58a145b4a89005a0fb304dd9.HD-1080p-2.5Mbps-14335553.mp4?v=0",
+      "poster": "http://photoboothsupplyco.com/cdn/shop/files/1200_x_628_1.jpg?v=1763683876&width=2048",
+      "caption": "销售AI拍照亭软件和硬件官网：产品界面与核心功能展示",
+      "alt": "销售AI拍照亭软件和硬件官网：产品界面与核心功能展示",
+      "sourceUrl": "https://photoboothsupplyco.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://photoboothsupplyco.com/cdn/shop/videos/c/vp/59690aa3d56649ec8c978dc8c736df7c/59690aa3d56649ec8c978dc8c736df7c.HD-720p-1.6Mbps-17964077.mp4?v=0",
+      "watchUrl": "https://photoboothsupplyco.com/cdn/shop/videos/c/vp/59690aa3d56649ec8c978dc8c736df7c/59690aa3d56649ec8c978dc8c736df7c.HD-720p-1.6Mbps-17964077.mp4?v=0",
+      "poster": "http://photoboothsupplyco.com/cdn/shop/files/1200_x_628_1.jpg?v=1763683876&width=2048",
+      "caption": "销售AI拍照亭软件和硬件官网：产品界面与核心功能展示",
+      "alt": "销售AI拍照亭软件和硬件官网：产品界面与核心功能展示",
+      "sourceUrl": "https://photoboothsupplyco.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -181,7 +238,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2531,
-    "mediaCount": 3,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

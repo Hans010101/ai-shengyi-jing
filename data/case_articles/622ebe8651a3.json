@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "联合办公社区的产品与交付路径",
+      "items": [
+        "用户注册",
+        "选择会员计划",
+        "参加线下活动",
+        "社区互动"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "联合办公社区的中国市场验证路线",
+      "items": [
+        "在目标城市租赁或合作一个共享空间，布置为适合远程办公的环境，配备WiFi、咖啡等基础设施。",
+        "通过社交媒体（如小红书、微信）发布免费体验日活动，吸引首批用户，建立微信社群，收集反馈。",
+        "设计会员等级（如日卡、月卡、年卡），推出主题活动（如创业者沙龙、技能工作坊），开始收费并持续运营社群。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,11 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2444,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "http-403",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:http-403",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:http-403",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

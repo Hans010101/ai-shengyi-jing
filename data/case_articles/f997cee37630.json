@@ -168,6 +168,16 @@
     },
     {
       "type": "image",
+      "url": "https://wp-ok.com/wp-content/uploads/wordpress-support.png",
+      "caption": "WordPress网站无限维护服务官网：产品界面与核心功能展示",
+      "alt": "WordPress网站无限维护服务官网：产品界面与核心功能展示",
+      "sourceUrl": "https://wp-ok.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/423/original/open-uri20190416-4-zr9144?1555410589",
       "caption": "WordPress网站无限维护服务：产品上线与首次发布相关原始配图（第3张）",
       "alt": "WordPress网站无限维护服务：产品上线与首次发布相关原始配图（第3张）",
@@ -189,7 +199,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2522,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 5,
+    "logicMedia": 0
   }
 }

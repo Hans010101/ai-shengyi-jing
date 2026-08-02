@@ -167,14 +167,69 @@
       "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/249/original/open-uri20220213-3-1muh5ys?1644777989",
-      "caption": "B2B服务外包平台：创业起点与创意来源相关原始配图（第3张）",
-      "alt": "B2B服务外包平台：创业起点与创意来源相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/on-starting-an-outsourcing-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "type": "video",
+      "url": "https://www.youtube.com/embed/pRGKB2S0vJc",
+      "watchUrl": "https://www.youtube.com/watch?v=pRGKB2S0vJc",
+      "caption": "B2B服务外包平台资料中提及的视频：Pro5.ai Intro Video",
+      "alt": "Pro5.ai Intro Video",
+      "sourceUrl": "https://www.pro5.ai/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/pRGKB2S0vJc/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/cOwXmBWBpiQ",
+      "watchUrl": "https://www.youtube.com/watch?v=cOwXmBWBpiQ",
+      "caption": "B2B服务外包平台资料中提及的视频：Pro5 Client Testimonial - IHG Hotels & Resorts",
+      "alt": "Pro5 Client Testimonial - IHG Hotels & Resorts",
+      "sourceUrl": "https://www.pro5.ai/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/cOwXmBWBpiQ/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/3XrAVCuxdXA",
+      "watchUrl": "https://www.youtube.com/watch?v=3XrAVCuxdXA",
+      "caption": "B2B服务外包平台资料中提及的视频：Pro5 Client Testimonial - Insite Managed Solutions",
+      "alt": "Pro5 Client Testimonial - Insite Managed Solutions",
+      "sourceUrl": "https://www.pro5.ai/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/3XrAVCuxdXA/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/Ke44Dn4IWQ8",
+      "watchUrl": "https://www.youtube.com/watch?v=Ke44Dn4IWQ8",
+      "caption": "B2B服务外包平台资料中提及的视频：Pro5 Client Testimonial - Career International",
+      "alt": "Pro5 Client Testimonial - Career International",
+      "sourceUrl": "https://www.pro5.ai/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/Ke44Dn4IWQ8/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/gDrGg-jKTuI",
+      "watchUrl": "https://www.youtube.com/watch?v=gDrGg-jKTuI",
+      "caption": "B2B服务外包平台资料中提及的视频：Pro5 Client Testimonial - Deel",
+      "alt": "Pro5 Client Testimonial - Deel",
+      "sourceUrl": "https://www.pro5.ai/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/gDrGg-jKTuI/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -189,7 +244,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2569,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

@@ -187,6 +187,18 @@
       "poster": "https://i.ytimg.com/vi/nvACEXTpsbQ/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/7f7m7Id7LC8",
+      "watchUrl": "https://www.youtube.com/watch?v=7f7m7Id7LC8",
+      "caption": "定制金属墙饰电商资料中提及的视频：Hoagard Warehouse ' 14",
+      "alt": "Hoagard Warehouse ' 14",
+      "sourceUrl": "https://www.starterstory.com/stories/i-turned-my-hobby-into-a-4-5m-year-metal-wall-art-business",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/7f7m7Id7LC8/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -201,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2501,
-    "mediaCount": 5,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

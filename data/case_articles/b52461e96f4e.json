@@ -185,6 +185,36 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://luggagehero.com/wp-content/uploads/2020/08/app-3.png",
+      "caption": "行李临时寄存平台官网：官网展示的产品主场景",
+      "alt": "行李临时寄存平台官网：官网展示的产品主场景",
+      "sourceUrl": "https://luggagehero.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://luggagehero.com/wp-content/uploads/2020/08/app-4.png",
+      "caption": "行李临时寄存平台官网：官网展示的产品主场景",
+      "alt": "行李临时寄存平台官网：官网展示的产品主场景",
+      "sourceUrl": "https://luggagehero.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://luggagehero.com/wp-content/uploads/2020/08/app-5.png",
+      "caption": "行李临时寄存平台官网：官网展示的产品主场景",
+      "alt": "行李临时寄存平台官网：官网展示的产品主场景",
+      "sourceUrl": "https://luggagehero.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -199,11 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2446,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T09:37:46.068137+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

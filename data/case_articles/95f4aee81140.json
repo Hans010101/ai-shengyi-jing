@@ -175,6 +175,26 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/569/original/open-uri20220407-3-15956w5?1649337335",
+      "caption": "阿育吠陀护肤品牌：创业复盘与关键经验相关原始配图（第4张）",
+      "alt": "阿育吠陀护肤品牌：创业复盘与关键经验相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/auric-525fe072-44f3-497f-87f0-70ce63fb162b",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/570/original/open-uri20220407-3-1n387gk?1649337336",
+      "caption": "阿育吠陀护肤品牌：创业复盘与关键经验相关原始配图（第5张）",
+      "alt": "阿育吠陀护肤品牌：创业复盘与关键经验相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/auric-525fe072-44f3-497f-87f0-70ce63fb162b",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -189,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2467,
-    "mediaCount": 4,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

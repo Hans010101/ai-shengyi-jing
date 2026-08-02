@@ -185,6 +185,16 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/68a2ea29e0edb929471b5239/68f9d27219d86ea99e251c1d_image%20(16).png",
+      "caption": "在线发票融资平台官网：产品界面与核心功能展示",
+      "alt": "在线发票融资平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://incomlend.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -199,11 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2390,
-    "mediaCount": 5,
+    "mediaCount": 6,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T09:41:26.688766+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

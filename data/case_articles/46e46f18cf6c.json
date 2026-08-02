@@ -149,8 +149,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/339/original/open-uri20220220-3-1q3zu1c?1645364676",
-      "caption": "免费音效库Freemium模式：原始案例中的产品与运营配图（第1张）",
-      "alt": "免费音效库Freemium模式：原始案例中的产品与运营配图（第1张）",
+      "caption": "免费音效库Freemium模式：给创业者的实践建议相关原始配图",
+      "alt": "免费音效库Freemium模式：给创业者的实践建议相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/on-creating-a-website-for-free-sound-effects-and-music-online-with-1-7m-members",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -159,12 +159,62 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/340/original/open-uri20220220-3-16h7nyv?1645364677",
-      "caption": "免费音效库Freemium模式：原始案例中的产品与运营配图（第2张）",
-      "alt": "免费音效库Freemium模式：原始案例中的产品与运营配图（第2张）",
+      "caption": "免费音效库Freemium模式：给创业者的实践建议相关原始配图（第2张）",
+      "alt": "免费音效库Freemium模式：给创业者的实践建议相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/on-creating-a-website-for-free-sound-effects-and-music-online-with-1-7m-members",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://www.zapsplat.com/wp-content/uploads/2026/07/audiohero_pack_cover_warp_and_drums_adventures-150x150.jpg",
+      "caption": "免费音效库Freemium模式官网：官网展示的产品与实际使用场景",
+      "alt": "免费音效库Freemium模式官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.zapsplat.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.zapsplat.com/wp-content/uploads/2026/07/audiohero_pack_cover_victory_protocol-150x150.jpg",
+      "caption": "免费音效库Freemium模式官网：官网展示的产品与实际使用场景",
+      "alt": "免费音效库Freemium模式官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.zapsplat.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.zapsplat.com/wp-content/uploads/2026/07/audiohero_pack_cover_on_the_road-150x150.jpg",
+      "caption": "免费音效库Freemium模式官网：官网展示的产品与实际使用场景",
+      "alt": "免费音效库Freemium模式官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.zapsplat.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.zapsplat.com/wp-content/uploads/2026/07/audiohero_pack_cover_neuromancers_dreams-150x150.jpg",
+      "caption": "免费音效库Freemium模式官网：官网展示的产品与实际使用场景",
+      "alt": "免费音效库Freemium模式官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.zapsplat.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.zapsplat.com/wp-content/uploads/2026/07/audiohero_pack_cover_action_packed-150x150.jpg",
+      "caption": "免费音效库Freemium模式官网：官网展示的产品与实际使用场景",
+      "alt": "免费音效库Freemium模式官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.zapsplat.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -179,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2492,
-    "mediaCount": 3,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

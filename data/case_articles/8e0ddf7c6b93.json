@@ -167,14 +167,56 @@
       "context": "source-article-body"
     },
     {
+      "type": "video-file",
+      "url": "https://rightmessage.com/img/brennan-thinking-meme.mp4",
+      "watchUrl": "https://rightmessage.com/img/brennan-thinking-meme.mp4",
+      "poster": "https://rightmessage.com/img/asset/YXNzZXRzL3NpdGV3aWRlL3Jtb2dpbWFnZS5wbmc/rmogimage.png?p=seo_pro_og&s=5f6b11a881f75ab32b3c97ba2aabeaae",
+      "caption": "网站个性化工具SaaS官网：产品界面与核心功能展示",
+      "alt": "网站个性化工具SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://rightmessage.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/302/original/open-uri20190321-4-13c2mpl?1553153849",
-      "caption": "网站个性化工具SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "alt": "网站个性化工具SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-our-saas-to-30k-mrr-in-one-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://rightmessage.com/assets/img/hero-demo/support-inbox.png",
+      "caption": "网站个性化工具SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "网站个性化工具SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://rightmessage.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://rightmessage.com/assets/img/hero-demo/product-insights.jpg",
+      "caption": "网站个性化工具SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "网站个性化工具SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://rightmessage.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://rightmessage.com/assets/img/hero-demo/agency-clients.jpg",
+      "caption": "网站个性化工具SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "网站个性化工具SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://rightmessage.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://rightmessage.com/assets/img/hero-demo/default-hero.jpg",
+      "caption": "网站个性化工具SaaS官网：产品界面与核心功能展示",
+      "alt": "网站个性化工具SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://rightmessage.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +231,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2399,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

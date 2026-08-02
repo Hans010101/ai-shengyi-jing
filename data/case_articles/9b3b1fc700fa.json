@@ -149,8 +149,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/005/897/original/open-uri20200425-4-16xsjal?1587818817",
-      "caption": "数据驱动儿童服装订阅服务：原始案例中的产品与运营配图（第1张）",
-      "alt": "数据驱动儿童服装订阅服务：原始案例中的产品与运营配图（第1张）",
+      "caption": "数据驱动儿童服装订阅服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "数据驱动儿童服装订阅服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-landed-a-free-tv-commercial-driving-new-customers-exposure",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -159,8 +159,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/005/898/original/open-uri20200425-4-3kie3w?1587818818",
-      "caption": "数据驱动儿童服装订阅服务：原始案例中的产品与运营配图（第2张）",
-      "alt": "数据驱动儿童服装订阅服务：原始案例中的产品与运营配图（第2张）",
+      "caption": "数据驱动儿童服装订阅服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "数据驱动儿童服装订阅服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-landed-a-free-tv-commercial-driving-new-customers-exposure",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -169,12 +169,24 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/005/899/original/open-uri20200425-4-37g9yo?1587818818",
-      "caption": "数据驱动儿童服装订阅服务：原始案例中的产品与运营配图（第3张）",
-      "alt": "数据驱动儿童服装订阅服务：原始案例中的产品与运营配图（第3张）",
+      "caption": "数据驱动儿童服装订阅服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "数据驱动儿童服装订阅服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-landed-a-free-tv-commercial-driving-new-customers-exposure",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/qLZxNWX8gJA",
+      "watchUrl": "https://www.youtube.com/watch?v=qLZxNWX8gJA",
+      "caption": "数据驱动儿童服装订阅服务资料中提及的视频：Bundleboon Dutch TV commercial",
+      "alt": "Bundleboon Dutch TV commercial",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-landed-a-free-tv-commercial-driving-new-customers-exposure",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/qLZxNWX8gJA/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -189,7 +201,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2448,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:no-semantic-media",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:no-semantic-media",
+    "realMedia": 5,
+    "logicMedia": 0
   }
 }

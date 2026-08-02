@@ -167,14 +167,58 @@
       "context": "source-article-body"
     },
     {
+      "type": "video-file",
+      "url": "https://jelvix.com/wp-content/themes/jelvix/video/video.mute.hevc.mp4",
+      "watchUrl": "https://jelvix.com/wp-content/themes/jelvix/video/video.mute.hevc.mp4",
+      "poster": "https://jelvix.com/wp-content/uploads/2025/12/banner-home.jpg",
+      "caption": "乌克兰软件外包公司官网：产品界面与核心功能展示",
+      "alt": "乌克兰软件外包公司官网：产品界面与核心功能展示",
+      "sourceUrl": "https://jelvix.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://jelvix.com/wp-content/uploads/2026/04/press-release-optimized.mp4",
+      "watchUrl": "https://jelvix.com/wp-content/uploads/2026/04/press-release-optimized.mp4",
+      "poster": "https://jelvix.com/wp-content/themes/jelvix/images/logo_Jelvix_black.png",
+      "caption": "乌克兰软件外包公司官网：产品界面与核心功能展示",
+      "alt": "乌克兰软件外包公司官网：产品界面与核心功能展示",
+      "sourceUrl": "https://jelvix.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/489/original/open-uri20210901-3-1xsch6h?1630522124",
-      "caption": "乌克兰软件外包公司：创业起点与创意来源相关原始配图（第3张）",
-      "alt": "乌克兰软件外包公司：创业起点与创意来源相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/i-built-a-3-6m-year-software-dev-agency-from-scratch-from-ukraine",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://jelvix.com/wp-content/uploads/2026/05/Blog-Preview-Image.png",
+      "caption": "乌克兰软件外包公司官网：官网展示的产品与实际使用场景",
+      "alt": "乌克兰软件外包公司官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://jelvix.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://jelvix.com/wp-content/uploads/2026/05/preview_1x-26.png",
+      "caption": "乌克兰软件外包公司官网：官网展示的产品与实际使用场景",
+      "alt": "乌克兰软件外包公司官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://jelvix.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://jelvix.com/wp-content/uploads/2026/04/preview_1x-31.png",
+      "caption": "乌克兰软件外包公司官网：官网展示的产品与实际使用场景",
+      "alt": "乌克兰软件外包公司官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://jelvix.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2577,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

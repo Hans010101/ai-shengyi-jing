@@ -175,6 +175,16 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/292/original/open-uri20201207-4-1u485ot?1607363240",
+      "caption": "Etsy上卖定制木制装饰品：给创业者的实践建议相关原始配图（第4张）",
+      "alt": "Etsy上卖定制木制装饰品：给创业者的实践建议相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/timber-grove-update-how-i-plan-to-reach-100k-in-revenue-by-2021",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -189,7 +199,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2496,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 5,
+    "logicMedia": 0
   }
 }

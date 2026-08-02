@@ -165,6 +165,26 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://refiner.io/_astro/macbook.BVmYomuI_Z1F5FQR.webp",
+      "caption": "为SaaS公司提供客户反馈调查工具官网：官网展示的产品与实际使用场景",
+      "alt": "为SaaS公司提供客户反馈调查工具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://refiner.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://refiner.io/images/og-image.png",
+      "caption": "为SaaS公司提供客户反馈调查工具官网：产品界面与核心功能展示",
+      "alt": "为SaaS公司提供客户反馈调查工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://refiner.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -179,7 +199,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2442,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 5,
+    "logicMedia": 0
   }
 }

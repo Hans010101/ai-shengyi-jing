@@ -168,9 +168,39 @@
     },
     {
       "type": "image",
+      "url": "https://mywifequitherjob.com/blog/wp-content/themes/MyWifeQuitThemeSEO/images/socialphoto.jpg",
+      "caption": "定制手帕与亚麻制品电商官网：官网展示的产品与实际使用场景",
+      "alt": "定制手帕与亚麻制品电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://mywifequitherjob.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/011/900/original/open-uri20210506-3-11c183y?1620329865",
       "caption": "定制手帕与亚麻制品电商：产品上线与首次发布相关原始配图（第3张）",
       "alt": "定制手帕与亚麻制品电商：产品上线与首次发布相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-7-figure-ecommerce-store-selling-handkerchiefs-and-linens",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/011/901/original/open-uri20210506-3-1dmlynd?1620329865",
+      "caption": "定制手帕与亚麻制品电商：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "定制手帕与亚麻制品电商：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-7-figure-ecommerce-store-selling-handkerchiefs-and-linens",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/011/902/original/open-uri20210506-3-78q7bw?1620329865",
+      "caption": "定制手帕与亚麻制品电商：当前经营状态与下一步规划相关原始配图（第5张）",
+      "alt": "定制手帕与亚麻制品电商：当前经营状态与下一步规划相关原始配图（第5张）",
       "sourceUrl": "https://www.starterstory.com/stories/on-starting-a-7-figure-ecommerce-store-selling-handkerchiefs-and-linens",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -201,7 +231,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2450,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

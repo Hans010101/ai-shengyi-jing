@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI自动生成深度研究报告的中国市场验证路线",
+      "items": [
+        "选择细分领域（如行业分析、竞品调研），用GPT-4等大模型搭建MVP，支持输入主题自动生成报告框架。",
+        "接入百度、头条等中文数据源，训练模型生成符合中国用户习惯的报告，设置免费预览前3页。",
+        "通过知乎、公众号发布免费报告摘要引流，引导用户注册试用，推出月卡/年卡会员解锁全部功能。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI自动生成深度研究报告的经营验证仪表盘",
+      "items": [
+        "AI自动生成深度研究报告，按订阅或单次付费赚钱。",
+        "SaaS订阅+按需付费，用户输入主题，AI自动搜索、分析并生成报告，免费预览部分内容，付费解锁完整报告。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2503,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

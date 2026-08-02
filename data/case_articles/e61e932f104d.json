@@ -168,6 +168,36 @@
     },
     {
       "type": "image",
+      "url": "https://barn2.com/wp-content/uploads/2023/08/Barn2-Facebook-Social-Link.png",
+      "caption": "WordPress插件开发官网：产品界面与核心功能展示",
+      "alt": "WordPress插件开发官网：产品界面与核心功能展示",
+      "sourceUrl": "https://barn2.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://barn2.com/wp-content/uploads/2019/08/home-Product-Table.png",
+      "caption": "WordPress插件开发官网：产品界面与核心功能展示",
+      "alt": "WordPress插件开发官网：产品界面与核心功能展示",
+      "sourceUrl": "https://barn2.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://barn2.com/wp-content/uploads/2021/09/product-options-Circle.png",
+      "caption": "WordPress插件开发官网：产品界面与核心功能展示",
+      "alt": "WordPress插件开发官网：产品界面与核心功能展示",
+      "sourceUrl": "https://barn2.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/004/original/open-uri20211117-3-1ihb1g6?1637164653",
       "caption": "WordPress插件开发：产品上线与首次发布相关原始配图（第3张）",
       "alt": "WordPress插件开发：产品上线与首次发布相关原始配图（第3张）",
@@ -177,16 +207,14 @@
       "context": "source-article-body"
     },
     {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/yKVHKj0BMs8",
-      "watchUrl": "https://www.youtube.com/watch?v=yKVHKj0BMs8",
-      "caption": "WordPress插件开发资料中提及的视频：Create a WooCommerce Online Food Ordering Website",
-      "alt": "Create a WooCommerce Online Food Ordering Website",
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/005/original/open-uri20211117-3-874531?1637164654",
+      "caption": "WordPress插件开发：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "WordPress插件开发：产品上线与首次发布相关原始配图（第4张）",
       "sourceUrl": "https://www.starterstory.com/stories/we-quit-our-jobs-and-now-we-make-1-2m-year-developing-wordpress-woocommerce-plugins",
-      "origin": "embeddable-video",
-      "poster": "https://i.ytimg.com/vi/yKVHKj0BMs8/hqdefault.jpg",
-      "provider": "YouTube",
-      "usage": ""
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -201,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2499,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

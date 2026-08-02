@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "Teqtivity是AI驱动的资产追踪SaaS的中国市场验证路线",
+      "items": [
+        "聚焦中小企业，开发MVP版本，支持资产录入、AI盘点、报告生成，使用低代码平台快速搭建。",
+        "通过行业社群和B2B平台推广，提供免费试用期，收集反馈并迭代产品。",
+        "与IT服务商合作，嵌入其产品生态，推出按资产数计费的灵活定价，快速获客。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "Teqtivity是AI驱动的资产追踪SaaS的经营验证仪表盘",
+      "items": [
+        "Teqtivity是AI驱动的资产追踪SaaS，按月订阅收费。",
+        "B2B SaaS订阅制，提供资产追踪、AI盘点、报告生成等功能，按用户数或资产数收费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2492,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

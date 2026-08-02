@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI音乐生成平台的中国市场验证路线",
+      "items": [
+        "选择垂直场景（如短视频BGM、直播开场曲），训练或微调开源音乐生成模型（如MusicGen）。",
+        "开发Web/小程序，支持输入歌词、选择风格（古风、电子等），快速生成30秒片段。",
+        "上线免费版（每日3次），付费版（月费9.9元）提供无限生成和商用授权，通过抖音、B站推广。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI音乐生成平台的经营验证仪表盘",
+      "items": [
+        "AI音乐生成平台，用户付费订阅生成歌曲。",
+        "Freemium+订阅制：免费用户每日生成有限歌曲，付费用户无限生成并商用，月费$10-$30。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2431,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:HTTPError|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:HTTPError|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

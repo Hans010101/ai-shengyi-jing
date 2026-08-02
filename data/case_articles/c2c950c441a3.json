@@ -167,14 +167,66 @@
       "context": "source-article-body"
     },
     {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/nv7V5xxcV9U",
+      "watchUrl": "https://www.youtube.com/watch?v=nv7V5xxcV9U",
+      "caption": "防水更衣袍品牌资料中提及的视频：Need to take Shower OUTSIDE?-We got you covered. Shower Toga-As seen on Shark Tank Camp, Boat, Beach",
+      "alt": "Need to take Shower OUTSIDE?-We got you covered. Shower Toga-As seen on Shark Tank Camp, Boat, Beach",
+      "sourceUrl": "https://showertoga.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/nv7V5xxcV9U/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/QbtBxNi8W9g",
+      "watchUrl": "https://www.youtube.com/watch?v=QbtBxNi8W9g",
+      "caption": "防水更衣袍品牌资料中提及的视频：Shower Toga",
+      "alt": "Shower Toga",
+      "sourceUrl": "https://showertoga.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/QbtBxNi8W9g/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/HZpGEVDHyV8",
+      "watchUrl": "https://www.youtube.com/watch?v=HZpGEVDHyV8",
+      "caption": "防水更衣袍品牌资料中提及的视频：Showertoga Testimonial Video",
+      "alt": "Showertoga Testimonial Video",
+      "sourceUrl": "https://showertoga.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/HZpGEVDHyV8/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/4Fh6gScU3xY",
+      "watchUrl": "https://www.youtube.com/watch?v=4Fh6gScU3xY",
+      "caption": "防水更衣袍品牌资料中提及的视频：Shower To Go",
+      "alt": "Shower To Go",
+      "sourceUrl": "https://showertoga.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/4Fh6gScU3xY/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/921/original/open-uri20210924-3-8hhy33?1632507466",
-      "caption": "防水更衣袍品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "alt": "防水更衣袍品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/traveling-in-an-rv-to-promote-our-240k-year-waterproof-changing-garment-as-seen-on-shark-tank",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://showertoga.com/cdn/shop/t/32/assets/featuredin_720x89.png?v=171157583698055558261775849836",
+      "caption": "防水更衣袍品牌官网：官网展示的产品与实际使用场景",
+      "alt": "防水更衣袍品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://showertoga.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +241,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2450,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

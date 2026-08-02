@@ -168,9 +168,39 @@
     },
     {
       "type": "image",
+      "url": "http://static1.squarespace.com/static/58a095553e00be6bfe60c358/t/68be09180ddc3c70e0e7cf36/1759167230870/Oh+My+Balm+Home+Page+Banner.png?format=1500w",
+      "caption": "两位妈妈自制天然身体乳官网：产品界面与核心功能展示",
+      "alt": "两位妈妈自制天然身体乳官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.ohmybalm.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/918/original/open-uri20190201-4-12jvacf?1549021208",
       "caption": "两位妈妈自制天然身体乳：创业起点与创意来源相关原始配图（第3张）",
       "alt": "两位妈妈自制天然身体乳：创业起点与创意来源相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-two-moms-started-a-business-selling-homemade-body-butter",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/919/original/open-uri20190201-4-10uyf6m?1549021209",
+      "caption": "两位妈妈自制天然身体乳：创业起点与创意来源相关原始配图（第4张）",
+      "alt": "两位妈妈自制天然身体乳：创业起点与创意来源相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-two-moms-started-a-business-selling-homemade-body-butter",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/920/original/open-uri20190201-4-6chttm?1549021209",
+      "caption": "两位妈妈自制天然身体乳：产品设计与早期打磨相关原始配图（第5张）",
+      "alt": "两位妈妈自制天然身体乳：产品设计与早期打磨相关原始配图（第5张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-two-moms-started-a-business-selling-homemade-body-butter",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +219,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2437,
-    "mediaCount": 4,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

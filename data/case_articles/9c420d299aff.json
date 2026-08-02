@@ -168,6 +168,26 @@
     },
     {
       "type": "image",
+      "url": "https://www.mediavine.com/wp-content/uploads/2025/11/hp-hero-image.png",
+      "caption": "为内容创作者提供全托管广告管理服务官网：产品界面与核心功能展示",
+      "alt": "为内容创作者提供全托管广告管理服务官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.mediavine.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.mediavine.com/wp-content/uploads/2025/11/hp-hero-image-768x695.png",
+      "caption": "为内容创作者提供全托管广告管理服务官网：官网展示的产品与实际使用场景",
+      "alt": "为内容创作者提供全托管广告管理服务官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.mediavine.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/662/original/open-uri20210103-3-1f3fgu8?1609706104",
       "caption": "为内容创作者提供全托管广告管理服务：产品设计与早期打磨相关原始配图（第3张）",
       "alt": "为内容创作者提供全托管广告管理服务：产品设计与早期打磨相关原始配图（第3张）",
@@ -177,16 +197,24 @@
       "context": "source-article-body"
     },
     {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/X1TaWxh2Fuw",
-      "watchUrl": "https://www.youtube.com/watch?v=X1TaWxh2Fuw",
-      "caption": "为内容创作者提供全托管广告管理服务资料中提及的视频：The Mediavine Difference",
-      "alt": "The Mediavine Difference",
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/663/original/open-uri20210103-3-vfusb9?1609706104",
+      "caption": "为内容创作者提供全托管广告管理服务：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "为内容创作者提供全托管广告管理服务：产品上线与首次发布相关原始配图（第4张）",
       "sourceUrl": "https://www.starterstory.com/stories/on-building-a-full-service-advertising-management-company",
-      "origin": "embeddable-video",
-      "poster": "https://i.ytimg.com/vi/X1TaWxh2Fuw/hqdefault.jpg",
-      "provider": "YouTube",
-      "usage": ""
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/664/original/open-uri20210103-3-wr9xm3?1609706104",
+      "caption": "为内容创作者提供全托管广告管理服务：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "为内容创作者提供全托管广告管理服务：产品上线与首次发布相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/on-building-a-full-service-advertising-management-company",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -201,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2510,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

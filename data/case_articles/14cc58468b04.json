@@ -185,6 +185,36 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.pawstruck.com/cdn/shop/files/PS_Bag_Mockup_BullyStickRings_4in_3Count.jpg?v=1762457066&width=600",
+      "caption": "在线宠物用品电商官网：官网展示的产品与实际使用场景",
+      "alt": "在线宠物用品电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.pawstruck.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.pawstruck.com/cdn/shop/files/PS_Bag_Mockup_BraidedBullySticks_7in_1200px.jpg?v=1762457060&width=600",
+      "caption": "在线宠物用品电商官网：官网展示的产品与实际使用场景",
+      "alt": "在线宠物用品电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.pawstruck.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.pawstruck.com/cdn/shop/files/PS-SBPSADCKN2-3_AirDried_Chicken_2lb_PackageFront_RGB72dpi.png?v=1762467517&width=600",
+      "caption": "在线宠物用品电商官网：官网展示的产品与实际使用场景",
+      "alt": "在线宠物用品电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.pawstruck.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -199,11 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2494,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

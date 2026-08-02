@@ -168,13 +168,53 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/001/original/open-uri20220128-3-43nbfq?1643366783",
-      "caption": "开源BI工具：产品上线与首次发布相关原始配图（第3张）",
-      "alt": "开源BI工具：产品上线与首次发布相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/from-several-failed-startups-to-building-a-960k-year-enterprise-bi-business",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://www.helicalinsight.com/wp-content/uploads/elementor/thumbs/self-service-qvvnvad0bo5liov4y0oi0nwaqs7czqm0qanutu0nko.png",
+      "caption": "开源BI工具官网：产品后台与数据看板",
+      "alt": "开源BI工具官网：产品后台与数据看板",
+      "sourceUrl": "https://www.helicalinsight.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.helicalinsight.com/wp-content/uploads/elementor/thumbs/nlp-neurolinguistic-programation-qvvnvad0bo5liov4y0oi0nwaqs7czqm0qanutu0nko.png",
+      "caption": "开源BI工具官网：数据分析与决策功能界面",
+      "alt": "开源BI工具官网：数据分析与决策功能界面",
+      "sourceUrl": "https://www.helicalinsight.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.helicalinsight.com/wp-content/uploads/2022/10/responsive-design.png",
+      "caption": "开源BI工具官网：数据分析与决策功能界面",
+      "alt": "开源BI工具官网：数据分析与决策功能界面",
+      "sourceUrl": "https://www.helicalinsight.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.helicalinsight.com/wp-content/uploads/elementor/thumbs/key-qvvnvad0bo5liov4y0oi0nwaqs7czqm0qanutu0nko.png",
+      "caption": "开源BI工具官网：数据分析与决策功能界面",
+      "alt": "开源BI工具官网：数据分析与决策功能界面",
+      "sourceUrl": "https://www.helicalinsight.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.helicalinsight.com/wp-content/uploads/elementor/thumbs/mail-qvvnvad0bo5liov4y0oi0nwaqs7czqm0qanutu0nko.png",
+      "caption": "开源BI工具官网：产品后台与数据看板",
+      "alt": "开源BI工具官网：产品后台与数据看板",
+      "sourceUrl": "https://www.helicalinsight.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2473,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

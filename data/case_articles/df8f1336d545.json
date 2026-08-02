@@ -168,13 +168,53 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/065/original/open-uri20220321-3-i42by7?1647898324",
-      "caption": "数字规划师：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "alt": "数字规划师：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/outline-planner",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://sctrolley.com//?$144_80_PNG$",
+      "caption": "数字规划师官网：官网展示的产品与实际使用场景",
+      "alt": "数字规划师官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://sctrolley.com//",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://images.samsung.com/is/image/samsung/assets/id/f2507/gnb/Galaxy-Z_Fold7_GNB_L1_Shop_88x88.png?$LazyLoad_Home_PNG$",
+      "caption": "数字规划师官网：官网展示的产品与实际使用场景",
+      "alt": "数字规划师官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://sctrolley.com//",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://images.samsung.com/is/image/samsung/assets/id/offer/2025/9/gnb/GNB_Shop_S25_FE_88x88.png?$LazyLoad_Home_PNG$",
+      "caption": "数字规划师官网：官网展示的产品与实际使用场景",
+      "alt": "数字规划师官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://sctrolley.com//",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://images.samsung.com/is/image/samsung/assets/id/offer/2025/9/gnb/GNB_Shop_Tab_S11_88x88.png?$LazyLoad_Home_PNG$",
+      "caption": "数字规划师官网：官网展示的产品与实际使用场景",
+      "alt": "数字规划师官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://sctrolley.com//",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://images.samsung.com/is/image/samsung/assets/id/offer/2025/8/watch-ultra-blue/GNB_L1_Mobile_Galaxy-Watche_Ultra_88x88-id.png?$LazyLoad_Home_PNG$",
+      "caption": "数字规划师官网：官网展示的产品与实际使用场景",
+      "alt": "数字规划师官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://sctrolley.com//",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2427,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

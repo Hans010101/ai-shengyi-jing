@@ -189,6 +189,26 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://website-images.growsurf.com/site-images/b90d3589-b2f5-4e75-bf91-c0fba9e89952/2d0f4d53-3705-481e-9215-6a30ca661f09.png",
+      "caption": "增长裂变工具官网：产品界面与核心功能展示",
+      "alt": "增长裂变工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://growsurf.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://website-images.growsurf.com/site-images/b90d3589-b2f5-4e75-bf91-c0fba9e89952/552ef0cb-0840-4e74-926b-3e6afd637fbb.png",
+      "caption": "增长裂变工具官网：产品界面与核心功能展示",
+      "alt": "增长裂变工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://growsurf.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -203,7 +223,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2525,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

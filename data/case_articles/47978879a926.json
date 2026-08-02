@@ -168,13 +168,65 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/955/original/open-uri20220127-3-1istyps?1643307314",
-      "caption": "数字营销代理公司：产品设计与早期打磨相关原始配图（第3张）",
-      "alt": "数字营销代理公司：产品设计与早期打磨相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-started-a-3m-year-digital-marketing-agency-with-250-employees",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://www.socialbeat.in/wp-content/themes/socialbeat/assets/images/homepage/new/slider_img1.png",
+      "caption": "数字营销代理公司官网：产品界面与核心功能展示",
+      "alt": "数字营销代理公司官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.socialbeat.in/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/88v652tBuUM",
+      "watchUrl": "https://www.youtube.com/watch?v=88v652tBuUM",
+      "caption": "数字营销代理公司资料中提及的视频：Customer acquisition cost: How to hyper-scale and maintain CAC - By Suneil Chawla.",
+      "alt": "Customer acquisition cost: How to hyper-scale and maintain CAC - By Suneil Chawla.",
+      "sourceUrl": "https://www.socialbeat.in/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/88v652tBuUM/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/QTn_rbs5kE4",
+      "watchUrl": "https://www.youtube.com/watch?v=QTn_rbs5kE4",
+      "caption": "数字营销代理公司资料中提及的视频：Indian Terrain - Cut From the Same Cloth | Case Study",
+      "alt": "Indian Terrain - Cut From the Same Cloth | Case Study",
+      "sourceUrl": "https://www.socialbeat.in/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/QTn_rbs5kE4/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/2dC9dkL0Z1Y",
+      "watchUrl": "https://www.youtube.com/watch?v=2dC9dkL0Z1Y",
+      "caption": "数字营销代理公司资料中提及的视频：How We Drove 25X Growth For Happilo",
+      "alt": "How We Drove 25X Growth For Happilo",
+      "sourceUrl": "https://www.socialbeat.in/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/2dC9dkL0Z1Y/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/5ml12U-e6Ek",
+      "watchUrl": "https://www.youtube.com/watch?v=5ml12U-e6Ek",
+      "caption": "数字营销代理公司资料中提及的视频：The Power of Earned Media | David Appasamy",
+      "alt": "The Power of Earned Media | David Appasamy",
+      "sourceUrl": "https://www.socialbeat.in/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/5ml12U-e6Ek/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -189,7 +241,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2395,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

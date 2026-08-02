@@ -185,6 +185,26 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/66d4ca8898912b9b735e0bdd/6a3bae76350ccab89708f3c9_AI%20Content%20Detector.avif",
+      "caption": "AI批改作业工具官网：官网展示的产品与实际使用场景",
+      "alt": "AI批改作业工具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.essaygrader.ai/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/66d4ca8898912b9b735e0bdd/6a3bae8d0ed8b761a40e23f6_Plagiarism%20Detection.avif",
+      "caption": "AI批改作业工具官网：产品界面与核心功能展示",
+      "alt": "AI批改作业工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.essaygrader.ai/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -199,11 +219,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2402,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:content-root-missing|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

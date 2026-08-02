@@ -168,13 +168,53 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/749/original/open-uri20210627-3-1wog4nd?1624807805",
-      "caption": "抹茶订阅电商品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "alt": "抹茶订阅电商品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/matcha-com-update-how-we-grew-300-yoy",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://matcha.com/cdn/shop/files/fermented-okinawan-turmeric-powder-scoop-open-container-matcha-com_{width}x.webp?v=1778695974",
+      "caption": "抹茶订阅电商品牌官网：产品界面与核心功能展示",
+      "alt": "抹茶订阅电商品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://matcha.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://matcha.com/cdn/shop/files/Weil_Whirl_{width}x.jpg?v=1614348191",
+      "caption": "抹茶订阅电商品牌官网：官网展示的产品与实际使用场景",
+      "alt": "抹茶订阅电商品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://matcha.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://matcha.com/cdn/shop/files/IMG_1864_1_{width}x.jpg?v=1618517304",
+      "caption": "抹茶订阅电商品牌官网：官网展示的产品与实际使用场景",
+      "alt": "抹茶订阅电商品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://matcha.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://matcha.com/cdn/shop/files/whiskandfroth_{width}x.jpg?v=1697215780",
+      "caption": "抹茶订阅电商品牌官网：官网展示的产品与实际使用场景",
+      "alt": "抹茶订阅电商品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://matcha.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://matcha.com/cdn/shop/files/matcha_starter_mothers_{width}x.gif?v=1614335696",
+      "caption": "抹茶订阅电商品牌官网：官网展示的产品与实际使用场景",
+      "alt": "抹茶订阅电商品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://matcha.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2465,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

@@ -194,6 +194,45 @@
       "provider": "YouTube",
       "usage": "official-site-reference",
       "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/23LAyc5ZxO4",
+      "watchUrl": "https://www.youtube.com/watch?v=23LAyc5ZxO4",
+      "caption": "汇款费率比较网站资料中提及的视频：My Experience with WorldRemit: How Good Is It?",
+      "alt": "My Experience with WorldRemit: How Good Is It?",
+      "sourceUrl": "https://moneytransfers.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/23LAyc5ZxO4/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/Ynlul7Rpz64",
+      "watchUrl": "https://www.youtube.com/watch?v=Ynlul7Rpz64",
+      "caption": "汇款费率比较网站资料中提及的视频：TorFX Review: Expert Currency Broker Review",
+      "alt": "TorFX Review: Expert Currency Broker Review",
+      "sourceUrl": "https://moneytransfers.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/Ynlul7Rpz64/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/BUoX0euz3jU",
+      "watchUrl": "https://www.youtube.com/watch?v=BUoX0euz3jU",
+      "caption": "汇款费率比较网站资料中提及的视频：Currencies Direct Review: The Right Money Transfer Service for You?",
+      "alt": "Currencies Direct Review: The Right Money Transfer Service for You?",
+      "sourceUrl": "https://moneytransfers.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/BUoX0euz3jU/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -208,11 +247,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2491,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T09:37:46.068137+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

@@ -185,6 +185,26 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://tailscale.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fw77i7m8x%2Fproduction%2F40c1d528c878e8a2617ec2e2822587ca2408f651-400x400.jpg%3Fw%3D800%26q%3D75%26fit%3Dclip%26auto%3Dformat&w=1920&q=75",
+      "caption": "零信任网络即服务官网：官网展示的产品与实际使用场景",
+      "alt": "零信任网络即服务官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://tailscale.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://tailscale.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fw77i7m8x%2Fproduction%2F3a0fb88ac6fdfc10fa3e4048590243ffcca69b5d-400x400.jpg%3Fw%3D800%26q%3D75%26fit%3Dclip%26auto%3Dformat&w=1920&q=75",
+      "caption": "零信任网络即服务官网：官网展示的产品与实际使用场景",
+      "alt": "零信任网络即服务官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://tailscale.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -199,11 +219,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2571,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:content-root-missing|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

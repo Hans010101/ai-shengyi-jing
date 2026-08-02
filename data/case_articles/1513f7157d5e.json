@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI发票处理SaaS的中国市场验证路线",
+      "items": [
+        "搭建最小可行产品，使用OCR API（如百度AI）实现发票识别，支持拍照上传和邮件转发。",
+        "对接国内主流会计软件（用友、金蝶）或Excel导出，提供免费试用吸引首批用户。",
+        "通过财务博主合作、百度竞价投放，定价月费¥19-99，以低价快速获客。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI发票处理SaaS的经营验证仪表盘",
+      "items": [
+        "AI发票处理SaaS，按订阅收费",
+        "按月/年订阅SaaS，提供发票扫描、数据提取、会计软件集成等功能。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,11 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2421,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "no-semantic-media",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:http-429|official:no-semantic-media",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:http-429|official:no-semantic-media",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -168,13 +168,53 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/468/original/open-uri20220226-3-e61jbb?1645895530",
-      "caption": "卖袜子服饰：创业起点与创意来源相关原始配图（第3张）",
-      "alt": "卖袜子服饰：创业起点与创意来源相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-bootstrapped-a-720k-year-sock-and-apparel-company-that-supports-the-homeless-community",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://hippyfeet.com/cdn/shop/files/Check3pack_1536x1536.png?v=1744748324",
+      "caption": "卖袜子服饰官网：官网展示的产品与实际使用场景",
+      "alt": "卖袜子服饰官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://hippyfeet.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://hippyfeet.com/<svg%20xmlns='http:/www.w3.org/2000/svg'%20width='384'%20height='384'></svg>",
+      "caption": "卖袜子服饰官网：官网展示的产品与实际使用场景",
+      "alt": "卖袜子服饰官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://hippyfeet.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://hippyfeet.com/cdn/shop/files/SS23-EDIT-FIX-09886-2_d0c1fd5c-4de3-4a2c-9d02-6123a3bd577d_998x998.png?v=1766130470",
+      "caption": "卖袜子服饰官网：官网展示的产品与实际使用场景",
+      "alt": "卖袜子服饰官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://hippyfeet.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://hippyfeet.com/<svg%20xmlns='http:/www.w3.org/2000/svg'%20width='640'%20height='640'></svg>",
+      "caption": "卖袜子服饰官网：官网展示的产品与实际使用场景",
+      "alt": "卖袜子服饰官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://hippyfeet.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://hippyfeet.com/cdn/shop/files/WXH09885_998x998.png?v=1732225908",
+      "caption": "卖袜子服饰官网：官网展示的产品与实际使用场景",
+      "alt": "卖袜子服饰官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://hippyfeet.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2455,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

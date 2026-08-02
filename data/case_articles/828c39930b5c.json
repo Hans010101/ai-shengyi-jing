@@ -168,25 +168,53 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/885/original/open-uri20220122-3-h3p1f9?1642876665",
-      "caption": "在线销售平价家用健身器材：创业起点与创意来源相关原始配图（第3张）",
-      "alt": "在线销售平价家用健身器材：创业起点与创意来源相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/being-a-gym-freak-led-me-to-start-a-15m-year-fitness-equipment-e-commerce",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "http://bellsofsteel.com/cdn/shop/files/Social_Sharing_Image.jpg?crop=center&height=1200&v=1713974777&width=1200",
+      "caption": "在线销售平价家用健身器材官网：产品界面与核心功能展示",
+      "alt": "在线销售平价家用健身器材官网：产品界面与核心功能展示",
+      "sourceUrl": "https://bellsofsteel.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/LmomteumW04",
-      "watchUrl": "https://www.youtube.com/watch?v=LmomteumW04",
-      "caption": "在线销售平价家用健身器材资料中提及的视频：Bells of Steel // Calgary Showroom",
-      "alt": "Bells of Steel // Calgary Showroom",
-      "sourceUrl": "https://www.starterstory.com/stories/being-a-gym-freak-led-me-to-start-a-15m-year-fitness-equipment-e-commerce",
-      "origin": "embeddable-video",
-      "poster": "https://i.ytimg.com/vi/LmomteumW04/hqdefault.jpg",
-      "provider": "YouTube",
-      "usage": ""
+      "type": "image",
+      "url": "https://bellsofsteel.com/cdn/shop/files/hero_desktop_8361f678-8f6e-4062-a7d5-a0a1d3fb89e6.webp?v=1759479401&width=2500",
+      "caption": "在线销售平价家用健身器材官网：官网展示的产品与实际使用场景",
+      "alt": "在线销售平价家用健身器材官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://bellsofsteel.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://bellsofsteel.com/cdn/shop/files/hero_desktop_8361f678-8f6e-4062-a7d5-a0a1d3fb89e6.webp?v=1759479401&width=2000",
+      "caption": "在线销售平价家用健身器材官网：官网展示的产品与实际使用场景",
+      "alt": "在线销售平价家用健身器材官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://bellsofsteel.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://bellsofsteel.com/cdn/shop/files/hero_desktop_8361f678-8f6e-4062-a7d5-a0a1d3fb89e6.webp?v=1759479401&width=3840",
+      "caption": "在线销售平价家用健身器材官网：官网展示的产品与实际使用场景",
+      "alt": "在线销售平价家用健身器材官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://bellsofsteel.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://bellsofsteel.com/cdn/shop/files/RBR-P2-carousel-primary.jpg?v=1764590779&width=1500",
+      "caption": "在线销售平价家用健身器材官网：产品界面与核心功能展示",
+      "alt": "在线销售平价家用健身器材官网：产品界面与核心功能展示",
+      "sourceUrl": "https://bellsofsteel.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -201,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2460,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "上传照片由艺术家制作卡通头像的产品与交付路径",
+      "items": [
+        "用户上传照片",
+        "选择风格",
+        "支付下单",
+        "AI初稿"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "上传照片由艺术家制作卡通头像的中国市场验证路线",
+      "items": [
+        "搭建简单网站，使用WordPress+WooCommerce，集成Stripe收款，部署在Vercel或阿里云。",
+        "利用AI工具（如Stable Diffusion）生成初稿，再雇佣兼职画师精修，降低人力成本。",
+        "针对“卡通头像”“微信头像”等关键词做SEO，同时在抖音/小红书发布对比视频引流。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,11 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2457,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "no-semantic-media",
-    "attemptedAt": "2026-08-02T09:37:46.068137+00:00"
+    "status": "source:ok|official:no-semantic-media",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:no-semantic-media",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

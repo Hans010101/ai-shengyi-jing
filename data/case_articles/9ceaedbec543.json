@@ -185,6 +185,36 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/61967dbb50eec57a4e7fde97/64e61983e999a96cfd0ac7ec_Banzai%20Platform%20Image.webp",
+      "caption": "SaaS活动营销自动化平台官网：产品界面与核心功能展示",
+      "alt": "SaaS活动营销自动化平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.banzai.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/61967dbb50eec57a4e7fde97/6483487eee28fa9727e3500c_banzai-hero-photo%20(1).webp",
+      "caption": "SaaS活动营销自动化平台官网：官网展示的产品与实际使用场景",
+      "alt": "SaaS活动营销自动化平台官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.banzai.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/61967dbb50eec57a4e7fde97/679cebfbdb53397994542908_openreel%20icon%20(1).png",
+      "caption": "SaaS活动营销自动化平台官网：官网展示的产品与实际使用场景",
+      "alt": "SaaS活动营销自动化平台官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.banzai.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -199,11 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2493,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

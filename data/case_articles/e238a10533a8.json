@@ -187,6 +187,26 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/6914b85333e33b4edbc7c2dd/6a313d7524ebe1dcd399876a_dashboard-zero-guesswork.jpg",
+      "caption": "健身房管理SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "健身房管理SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://gymdesk.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/6914b85333e33b4edbc7c2dd/6a1819927365d964abc51d71_209b8daaae24b8c3ce91d30c1359377f_og.webp",
+      "caption": "健身房管理SaaS官网：产品界面与核心功能展示",
+      "alt": "健身房管理SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://gymdesk.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -201,11 +221,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2350,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:content-root-missing|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

@@ -185,6 +185,26 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.involve.me/img/http/aHR0cHM6Ly9jbXMuaW52b2x2ZS5tZS9kZXZlbG9wbWVudC9uZXctaG9tcGFnZV92aXN1YWxzL3BuZ3NfNHgvc2xpZGVyX2FuYWx5dGljcy5wbmc/slider_analytics.png?w=1024&h=1412&q=85&fit=contain&s=944f62556e7e733dae9680e6d35378c1",
+      "caption": "无代码漏斗构建器官网：产品后台与数据看板",
+      "alt": "无代码漏斗构建器官网：产品后台与数据看板",
+      "sourceUrl": "https://www.involve.me/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.involve.me/img/asset/YXNzZXRzL2FubWltYXRpb24tc3RhdGljX2FuYWx5emUucG5n/anmimation-static_analyze.png?w=1024&h=900&q=85&fit=contain&s=fb5708463c425bc76cb2843b91b446cf",
+      "caption": "无代码漏斗构建器官网：产品后台与数据看板",
+      "alt": "无代码漏斗构建器官网：产品后台与数据看板",
+      "sourceUrl": "https://www.involve.me/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -199,11 +219,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2375,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:content-root-missing|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

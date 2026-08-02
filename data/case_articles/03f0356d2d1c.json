@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI驱动的数据提取与自动化平台的中国市场验证路线",
+      "items": [
+        "聚焦一个垂直场景（如发票识别），用开源OCR模型（如PaddleOCR）搭建原型，验证数据提取准确率。",
+        "开发API接口，提供免费试用额度（如每月100页），通过技术博客和知乎分享使用案例吸引开发者。",
+        "根据用户反馈迭代模型，推出按量付费套餐（如0.1元/页），并接入企业微信或钉钉机器人降低使用门槛。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI驱动的数据提取与自动化平台的经营验证仪表盘",
+      "items": [
+        "AI驱动的数据提取与自动化平台，按使用量收费。",
+        "SaaS按量付费，提供AI数据提取API和文档处理工具，企业按使用量（如API调用次数、处理页数）付费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,11 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2523,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ConnectTimeout",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:content-root-missing|official:ConnectTimeout",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:ConnectTimeout",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

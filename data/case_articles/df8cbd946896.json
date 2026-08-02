@@ -189,6 +189,16 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://bambooliving.com/cdn/shop/files/preview_images/caf07dd3aa3e470a871abc5600a646fe.thumbnail.0000000000_800x.jpg?v=1723581055",
+      "caption": "用竹材制造环保房屋和建材官网：官网展示的产品与实际使用场景",
+      "alt": "用竹材制造环保房屋和建材官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://bambooliving.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -203,11 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2464,
-    "mediaCount": 5,
+    "mediaCount": 6,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

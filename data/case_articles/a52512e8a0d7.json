@@ -168,6 +168,46 @@
     },
     {
       "type": "image",
+      "url": "http://static1.squarespace.com/static/52f067e9e4b0cdd199811bbe/t/68e6ed5c5cb7ab46e54aa536/1759964509066/BuB_Social-Post.jpg?format=1500w",
+      "caption": "手工珠宝DIY变副业官网：产品界面与核心功能展示",
+      "alt": "手工珠宝DIY变副业官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.bangupbetty.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://images.squarespace-cdn.com/content/v1/52f067e9e4b0cdd199811bbe/f03032da-24af-4ade-9178-3bd1822fbbc0/Edited-081.jpg?format=2500w",
+      "caption": "手工珠宝DIY变副业官网：官网展示的产品与实际使用场景",
+      "alt": "手工珠宝DIY变副业官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.bangupbetty.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://images.squarespace-cdn.com/content/v1/52f067e9e4b0cdd199811bbe/812d8520-8030-4d41-a0d8-a89b66856c3d/Untitled-219.jpg?format=2500w",
+      "caption": "手工珠宝DIY变副业官网：官网展示的产品与实际使用场景",
+      "alt": "手工珠宝DIY变副业官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.bangupbetty.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://images.squarespace-cdn.com/content/v1/52f067e9e4b0cdd199811bbe/07ffef6d-3329-45d8-9114-71bd2e6030a2/Untitled-215.jpg?format=2500w",
+      "caption": "手工珠宝DIY变副业官网：官网展示的产品与实际使用场景",
+      "alt": "手工珠宝DIY变副业官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.bangupbetty.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/711/original/open-uri20190115-4-11x3udy?1547584633",
       "caption": "手工珠宝DIY变副业：产品设计与早期打磨相关原始配图（第3张）",
       "alt": "手工珠宝DIY变副业：产品设计与早期打磨相关原始配图（第3张）",
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2505,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI驱动的货运铁路调度SaaS的中国市场验证路线",
+      "items": [
+        "聚焦一个细分场景（如煤炭运输），与3-5家中小物流企业合作，免费提供调度优化服务，收集数据并打磨AI模型。",
+        "基于反馈开发标准化SaaS产品，包含基础调度、实时监控、报表功能，设置免费版（限制调度次数）和付费版（$99/月起）。",
+        "通过物流行业社群、短视频（如抖音）展示调度前后对比案例，引导注册免费试用，再通过电话销售转化付费客户。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI驱动的货运铁路调度SaaS的经营验证仪表盘",
+      "items": [
+        "AI驱动的货运铁路调度SaaS，按月订阅收费。",
+        "SaaS订阅制，按车队规模或调度频次分层收费，提供免费试用转化。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2479,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -168,6 +168,48 @@
     },
     {
       "type": "image",
+      "url": "https://www.factofly.com/wp-content/uploads/2024/07/factofly-mobile-dashboard-da-942x1024.webp",
+      "caption": "为自由职业者提供AI行政管理SaaS官网：产品后台与数据看板",
+      "alt": "为自由职业者提供AI行政管理SaaS官网：产品后台与数据看板",
+      "sourceUrl": "https://www.factofly.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.factofly.com/wp-content/uploads/2024/07/factofly-mobile-dashboard-da.webp",
+      "caption": "为自由职业者提供AI行政管理SaaS官网：产品后台与数据看板",
+      "alt": "为自由职业者提供AI行政管理SaaS官网：产品后台与数据看板",
+      "sourceUrl": "https://www.factofly.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "video-file",
+      "url": "https://www.factofly.com/wp-content/uploads/2024/07/Testimonial-mobile-1.3.mp4",
+      "watchUrl": "https://www.factofly.com/wp-content/uploads/2024/07/Testimonial-mobile-1.3.mp4",
+      "poster": "https://www.factofly.com/wp-content/uploads/2026/03/factofly-home.webp",
+      "caption": "为自由职业者提供AI行政管理SaaS官网：产品界面与核心功能展示",
+      "alt": "为自由职业者提供AI行政管理SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.factofly.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://www.factofly.com/wp-content/uploads/2026/03/factofly-home.webp",
+      "caption": "为自由职业者提供AI行政管理SaaS官网：产品界面与核心功能展示",
+      "alt": "为自由职业者提供AI行政管理SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.factofly.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/012/original/open-uri20220201-3-zkfa5u?1643722116",
       "caption": "为自由职业者提供AI行政管理SaaS：产品设计与早期打磨相关原始配图（第3张）",
       "alt": "为自由职业者提供AI行政管理SaaS：产品设计与早期打磨相关原始配图（第3张）",
@@ -189,7 +231,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2481,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

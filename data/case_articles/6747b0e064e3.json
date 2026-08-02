@@ -168,6 +168,16 @@
     },
     {
       "type": "image",
+      "url": "https://www.bigstarcopywriting.com/wp-content/uploads/2026/02/onefine-stay-fin.jpg",
+      "caption": "英国文案代写机构官网：产品界面与核心功能展示",
+      "alt": "英国文案代写机构官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.bigstarcopywriting.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/592/original/open-uri20220303-3-lv7u61?1646323020",
       "caption": "英国文案代写机构：产品上线与首次发布相关原始配图（第3张）",
       "alt": "英国文案代写机构：产品上线与首次发布相关原始配图（第3张）",
@@ -189,7 +199,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2452,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 5,
+    "logicMedia": 0
   }
 }

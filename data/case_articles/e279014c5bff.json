@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "专注力提升应用的产品与交付路径",
+      "items": [
+        "用户注册",
+        "设置屏蔽规则",
+        "跨平台拦截分心源",
+        "专注计时与工作记录"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "专注力提升应用的中国市场验证路线",
+      "items": [
+        "开发最小可行产品（MVP），先做浏览器扩展，支持自定义屏蔽网站和简单计时器，使用React+Chrome API，1-2周内上线。",
+        "在知乎、B站发布“如何戒掉手机”类内容引流，免费提供基础版，收集用户反馈，优先优化屏蔽规则和交互体验。",
+        "推出付费订阅（19元/月或199元/年），增加跨设备同步、详细数据统计、白噪音等增值功能，通过邮件推送周报提升留存。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,11 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2527,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "no-semantic-media",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:no-semantic-media",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:no-semantic-media",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "SEO自动化工具的中国市场验证路线",
+      "items": [
+        "聚焦细分SEO痛点，如本地商家SEO，开发最小可行性产品（MVP），手动服务前几个客户验证需求。",
+        "利用个人社交媒体（如知乎、公众号）分享SEO技巧，积累受众，同时将工具作为案例展示，吸引早期用户。",
+        "根据用户反馈迭代功能，设置免费试用+付费订阅模式，定价参考国内SaaS标准（如99-299元/月）。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "SEO自动化工具的经营验证仪表盘",
+      "items": [
+        "SEO自动化工具，通过订阅制赚钱。",
+        "SaaS订阅制，提供SEO自动化功能，按月度收费，$2K/mo营收。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2439,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

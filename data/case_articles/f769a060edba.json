@@ -167,14 +167,69 @@
       "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/967/original/open-uri20220609-24-118nlcu?1654784568",
-      "caption": "打造年入60万美元的电商平台：产品上线与首次发布相关原始配图（第3张）",
-      "alt": "打造年入60万美元的电商平台：产品上线与首次发布相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/launch-cart",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "type": "video",
+      "url": "https://www.youtube.com/embed/tzXkEygHU50",
+      "watchUrl": "https://www.youtube.com/watch?v=tzXkEygHU50",
+      "caption": "打造年入60万美元的电商平台资料中提及的视频：Ricky Mendez Shout Out For Launch Cart & Candace",
+      "alt": "Ricky Mendez Shout Out For Launch Cart & Candace",
+      "sourceUrl": "https://launchcart.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/tzXkEygHU50/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/pXrfAeFb-II",
+      "watchUrl": "https://www.youtube.com/watch?v=pXrfAeFb-II",
+      "caption": "打造年入60万美元的电商平台资料中提及的视频：Fran Drescher Loves THIS eCommerce Platform",
+      "alt": "Fran Drescher Loves THIS eCommerce Platform",
+      "sourceUrl": "https://launchcart.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/pXrfAeFb-II/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/8NseEepBv1w",
+      "watchUrl": "https://www.youtube.com/watch?v=8NseEepBv1w",
+      "caption": "打造年入60万美元的电商平台资料中提及的视频：Congressional Candidate Joe Collins III Praises Launch Cart & Greg Writer",
+      "alt": "Congressional Candidate Joe Collins III Praises Launch Cart & Greg Writer",
+      "sourceUrl": "https://launchcart.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/8NseEepBv1w/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/OTsZtH5gfhI",
+      "watchUrl": "https://www.youtube.com/watch?v=OTsZtH5gfhI",
+      "caption": "打造年入60万美元的电商平台资料中提及的视频：Josh Marsden Endorsement of Launch Cart",
+      "alt": "Josh Marsden Endorsement of Launch Cart",
+      "sourceUrl": "https://launchcart.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/OTsZtH5gfhI/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/bnhYS8bFWBQ",
+      "watchUrl": "https://www.youtube.com/watch?v=bnhYS8bFWBQ",
+      "caption": "打造年入60万美元的电商平台资料中提及的视频：Onstage Shoutout For Launch Cart",
+      "alt": "Onstage Shoutout For Launch Cart",
+      "sourceUrl": "https://launchcart.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/bnhYS8bFWBQ/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -189,7 +244,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2414,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

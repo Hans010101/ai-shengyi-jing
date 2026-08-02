@@ -167,6 +167,16 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://s14171.pcdn.co/wp-content/uploads/2021/08/worthpoint.png",
+      "caption": "古董收藏品估值订阅服务官网：产品界面与核心功能展示",
+      "alt": "古董收藏品估值订阅服务官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.worthpoint.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/IgD0HlZ1QiU",
       "watchUrl": "https://www.youtube.com/watch?v=IgD0HlZ1QiU",
@@ -191,7 +201,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2353,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 5,
+    "logicMedia": 0
   }
 }

@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "智能搬家估价平台的中国市场验证路线",
+      "items": [
+        "开发MVP，实现基础AI估价功能，使用公开数据集训练模型，支持输入物品清单和距离自动计算价格。",
+        "寻找10-20家中小搬家公司免费试用，收集反馈优化报价准确度，同时建立案例库用于营销。",
+        "推出付费版本，定价$29/月或$0.5/次，通过搬家行业社群和百度推广获取客户，提供首月免费试用。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "智能搬家估价平台的经营验证仪表盘",
+      "items": [
+        "MoveitPro：AI搬家估价平台，按报价收费。",
+        "SaaS模式，为搬家公司提供AI估价工具，按月订阅或按报价次数收费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2446,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

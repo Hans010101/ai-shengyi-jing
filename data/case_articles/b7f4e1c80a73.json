@@ -168,9 +168,49 @@
     },
     {
       "type": "image",
+      "url": "https://www.makingsenseofcents.com/wp-content/uploads/2026/05/faceless-business-ideas-featured-image-600x400.jpg",
+      "caption": "个人理财博客官网：官网展示的产品与实际使用场景",
+      "alt": "个人理财博客官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.makingsenseofcents.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.makingsenseofcents.com/wp-content/uploads/2022/01/blogging5-400x400.jpg",
+      "caption": "个人理财博客官网：官网展示的产品与实际使用场景",
+      "alt": "个人理财博客官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.makingsenseofcents.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.makingsenseofcents.com/wp-content/uploads/2023/08/Family-7-scaled.jpg",
+      "caption": "个人理财博客官网：产品界面与核心功能展示",
+      "alt": "个人理财博客官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.makingsenseofcents.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/007/364/original/open-uri20200804-4-wmwasu?1596540398",
       "caption": "个人理财博客：产品上线与首次发布相关原始配图（第3张）",
       "alt": "个人理财博客：产品上线与首次发布相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-100k-month-blog-about-personal-finance",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/007/365/original/open-uri20200804-4-gmx1nq?1596540399",
+      "caption": "个人理财博客：当前经营状态与下一步规划相关原始配图（第4张）",
+      "alt": "个人理财博客：当前经营状态与下一步规划相关原始配图（第4张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-100k-month-blog-about-personal-finance",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2410,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

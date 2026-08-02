@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI驱动的全渠道客户体验平台的中国市场验证路线",
+      "items": [
+        "选择垂直行业（如电商），开发对接微信、抖音等渠道的API，构建基础的多渠道消息聚合模块。",
+        "集成开源NLP模型（如ChatGLM），实现自动分类、情感分析和简单回复，快速上线MVP。",
+        "通过免费试用吸引第一批客户，收集数据优化AI，推出按消息量计费的灵活套餐，逐步迭代。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI驱动的全渠道客户体验平台的经营验证仪表盘",
+      "items": [
+        "AI驱动的全渠道客户体验平台，按月订阅收费。",
+        "SaaS订阅制，按用户数或消息量分层收费，月费$99-$999，面向中大型企业。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2466,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

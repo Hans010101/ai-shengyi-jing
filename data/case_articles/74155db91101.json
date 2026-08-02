@@ -168,13 +168,53 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/489/original/open-uri20210606-3-xmj94k?1622966875",
-      "caption": "澳洲进口分销环保教育玩具：当前经营状态与下一步规划相关原始配图（第3张）",
-      "alt": "澳洲进口分销环保教育玩具：当前经营状态与下一步规划相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/on-providing-a-heirloom-quality-eco-friendly-toys",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://www.artiwood.com.au/media/catalog/product/cache/3/small_image/272x272/9df78eab33525d08d6e5fb8d27136e95/t/l/tl76104_1_1.jpg",
+      "caption": "澳洲进口分销环保教育玩具官网：产品界面与核心功能展示",
+      "alt": "澳洲进口分销环保教育玩具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.artiwood.com.au/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.artiwood.com.au/media/catalog/product/cache/3/small_image/272x272/9df78eab33525d08d6e5fb8d27136e95/b/j/bj415_1.jpg",
+      "caption": "澳洲进口分销环保教育玩具官网：产品界面与核心功能展示",
+      "alt": "澳洲进口分销环保教育玩具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.artiwood.com.au/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.artiwood.com.au/media/catalog/product/cache/3/small_image/272x272/9df78eab33525d08d6e5fb8d27136e95/b/j/bj36061_1_2.jpg",
+      "caption": "澳洲进口分销环保教育玩具官网：产品界面与核心功能展示",
+      "alt": "澳洲进口分销环保教育玩具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.artiwood.com.au/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.artiwood.com.au/media/catalog/product/cache/3/small_image/272x272/9df78eab33525d08d6e5fb8d27136e95/g/a/ga353_1_4.jpg",
+      "caption": "澳洲进口分销环保教育玩具官网：产品界面与核心功能展示",
+      "alt": "澳洲进口分销环保教育玩具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.artiwood.com.au/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.artiwood.com.au/media/catalog/product/cache/3/small_image/272x272/9df78eab33525d08d6e5fb8d27136e95/n/c/nct11944_1.jpg",
+      "caption": "澳洲进口分销环保教育玩具官网：产品界面与核心功能展示",
+      "alt": "澳洲进口分销环保教育玩具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.artiwood.com.au/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2427,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

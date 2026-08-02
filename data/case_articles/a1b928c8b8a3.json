@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为B2B公司提供设计+Webflow订阅服务的中国市场验证路线",
+      "items": [
+        "组建2-3人团队，包括1名设计师和1名Webflow开发者，准备3-5个高质量案例作品。",
+        "在LinkedIn、小红书等平台发布B2B网站设计案例，吸引初创公司客户，提供免费初次诊断。",
+        "制定3档月费套餐（如$500/$1000/$2000），通过试用期或案例展示转化客户，并收集反馈优化服务。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "为B2B公司提供设计+Webflow订阅服务的经营验证仪表盘",
+      "items": [
+        "为B2B公司提供设计+Webflow订阅服务，按月收费。",
+        "按月收取固定费用，为客户提供无限次设计修改和Webflow开发，按项目复杂度分级定价。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2527,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

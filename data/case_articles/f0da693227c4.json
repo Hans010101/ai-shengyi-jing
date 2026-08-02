@@ -167,14 +167,69 @@
       "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/285/original/open-uri20211201-3-oos21s?1638392102",
-      "caption": "Salesforce咨询公司：当前经营状态与下一步规划相关原始配图（第3张）",
-      "alt": "Salesforce咨询公司：当前经营状态与下一步规划相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/i-started-a-120k-year-salesforce-consultancy-business-from-india",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "type": "video",
+      "url": "https://www.youtube.com/embed/jKdgtuqBLLU",
+      "watchUrl": "https://www.youtube.com/watch?v=jKdgtuqBLLU",
+      "caption": "Salesforce咨询公司资料中提及的视频：Client Testimonial | HIC Global Solutions - Success Story | Cameron Stevens Capital Mortgage",
+      "alt": "Client Testimonial | HIC Global Solutions - Success Story | Cameron Stevens Capital Mortgage",
+      "sourceUrl": "https://hicglobalsolutions.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/jKdgtuqBLLU/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/iU--pcXoPoI",
+      "watchUrl": "https://www.youtube.com/watch?v=iU--pcXoPoI",
+      "caption": "Salesforce咨询公司资料中提及的视频：Client Testimonial | HIC Global Solutions - Success Story | NBI Financial Group LLC",
+      "alt": "Client Testimonial | HIC Global Solutions - Success Story | NBI Financial Group LLC",
+      "sourceUrl": "https://hicglobalsolutions.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/iU--pcXoPoI/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/KXfZER0jsTA",
+      "watchUrl": "https://www.youtube.com/watch?v=KXfZER0jsTA",
+      "caption": "Salesforce咨询公司资料中提及的视频：Client testimonial | HIC Global Solutions - Success Story | Novami",
+      "alt": "Client testimonial | HIC Global Solutions - Success Story | Novami",
+      "sourceUrl": "https://hicglobalsolutions.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/KXfZER0jsTA/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/t4YBSMWv-1c",
+      "watchUrl": "https://www.youtube.com/watch?v=t4YBSMWv-1c",
+      "caption": "Salesforce咨询公司资料中提及的视频：Client testimonial | HIC Global Solutions - Success Story | Matti d",
+      "alt": "Client testimonial | HIC Global Solutions - Success Story | Matti d",
+      "sourceUrl": "https://hicglobalsolutions.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/t4YBSMWv-1c/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/EcKizMbks3s",
+      "watchUrl": "https://www.youtube.com/watch?v=EcKizMbks3s",
+      "caption": "Salesforce咨询公司资料中提及的视频：Client testimonial | HIC Global Solutions - Success Story | Karlville",
+      "alt": "Client testimonial | HIC Global Solutions - Success Story | Karlville",
+      "sourceUrl": "https://hicglobalsolutions.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/EcKizMbks3s/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -189,7 +244,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2523,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

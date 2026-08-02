@@ -167,6 +167,56 @@
       "poster": "https://i.ytimg.com/vi/QiiSAvKJIHo/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/65e89895c5a4b8d764c0d710/68da8d9a660b67d1cef4feeb_556ea8b5924177589a1514861b66137d_nav-features-temp.webp",
+      "caption": "AI视频生成SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "AI视频生成SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.synthesia.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/65e89895c5a4b8d764c0d710/68089aada8ffc65bece30099_publish.webp",
+      "caption": "AI视频生成SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "AI视频生成SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.synthesia.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/65e89895c5a4b8d764c0d710/67ffa4c269d3564a9085e9b8_Free-demo-dark-tablet.webp",
+      "caption": "AI视频生成SaaS官网：数据分析与决策功能界面",
+      "alt": "AI视频生成SaaS官网：数据分析与决策功能界面",
+      "sourceUrl": "https://www.synthesia.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/65e89895c5a4b8d764c0d710/6a6b02389158e2e4f720c955_867165343b07dd44a4ac598ed163bb20_free-demo-luke-poster.webp",
+      "caption": "AI视频生成SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "AI视频生成SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.synthesia.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/65e89895c5a4b8d764c0d710/6a6b0237653ddfe58e9be15a_ccca5dfb68bf2f841fa98b9169d423fd_free-demo-temi-poster.webp",
+      "caption": "AI视频生成SaaS官网：官网展示的产品与实际使用场景",
+      "alt": "AI视频生成SaaS官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.synthesia.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -181,7 +231,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2463,
-    "mediaCount": 3,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

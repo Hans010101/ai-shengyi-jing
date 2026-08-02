@@ -168,9 +168,49 @@
     },
     {
       "type": "image",
+      "url": "https://www.tediber.com/cdn/shop/files/hero_section_desktop_e4a46df3-620a-4ba3-bbd1-3f7559a674df.png?v=1784725629&width=5000",
+      "caption": "法国床垫DTC品牌官网：官网展示的产品与实际使用场景",
+      "alt": "法国床垫DTC品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.tediber.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.tediber.com/cdn/shop/files/card-product_pack-3_card_hover.jpg?v=1780581073",
+      "caption": "法国床垫DTC品牌官网：官网展示的产品与实际使用场景",
+      "alt": "法国床垫DTC品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.tediber.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/988/original/open-uri20201121-4-1u6zzmb?1605966538",
       "caption": "法国床垫DTC品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "alt": "法国床垫DTC品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-3-strategy-to-be-profitable",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/989/original/open-uri20201121-4-1rugozb?1605966538",
+      "caption": "法国床垫DTC品牌：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "alt": "法国床垫DTC品牌：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-3-strategy-to-be-profitable",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/008/990/original/open-uri20201121-4-18rrfyx?1605966539",
+      "caption": "法国床垫DTC品牌：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "alt": "法国床垫DTC品牌：创始人、核心产品与品牌起点相关原始配图（第5张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-3-strategy-to-be-profitable",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2440,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

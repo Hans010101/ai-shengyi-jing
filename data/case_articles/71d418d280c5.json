@@ -169,6 +169,30 @@
       "poster": "https://i.ytimg.com/vi/uKUJT3ATk28/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "image",
+      "url": "https://web-assets.lemlist.com/lemlist/Home - Graph URL.png",
+      "caption": "冷邮件自动化SaaS官网：产品界面与核心功能展示",
+      "alt": "冷邮件自动化SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.lemlist.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "冷邮件自动化SaaS的商业增长闭环",
+      "items": [
+        "【引流】内容营销+免费工具",
+        "【产品】冷邮件自动化平台",
+        "【变现】按月订阅+按量收费",
+        "【留存】模板市场+数据分析+客户成功"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +207,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2448,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 4,
+    "logicMedia": 1
   }
 }

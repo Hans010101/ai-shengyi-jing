@@ -193,6 +193,30 @@
       "origin": "official-site-video",
       "usage": "official-site-reference",
       "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://storage.crisp.chat/public/videos/website/home/agents/measure-av1.webm",
+      "watchUrl": "https://storage.crisp.chat/public/videos/website/home/agents/measure-av1.webm",
+      "poster": "https://storage.crisp.chat/public/videos/website/home/agents/measure-preview.webp",
+      "caption": "AI驱动的数据聚合与洞察平台官网：产品界面与核心功能展示",
+      "alt": "AI驱动的数据聚合与洞察平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://crisp.chat/en/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://storage.crisp.chat/public/videos/website/home/features/inbox-av1.webm",
+      "watchUrl": "https://storage.crisp.chat/public/videos/website/home/features/inbox-av1.webm",
+      "poster": "https://storage.crisp.chat/public/videos/website/home/features/inbox-preview.webp",
+      "caption": "AI驱动的数据聚合与洞察平台官网：产品界面与核心功能展示",
+      "alt": "AI驱动的数据聚合与洞察平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://crisp.chat/en/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -207,11 +231,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2461,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:content-root-missing|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

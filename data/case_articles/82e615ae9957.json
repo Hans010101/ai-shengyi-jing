@@ -165,6 +165,56 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://stencilstop.com/cdn/shop/products/large-custom-wall-stencil-dr-suess-stencil-stop.jpg?v=1651186967&width=1800",
+      "caption": "定制模板电商官网：官网展示的产品与实际使用场景",
+      "alt": "定制模板电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://stencilstop.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://stencilstop.com/cdn/shop/products/custom-metal-stencil-stop-a24.jpg?v=1651186155&width=1800",
+      "caption": "定制模板电商官网：官网展示的产品与实际使用场景",
+      "alt": "定制模板电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://stencilstop.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://stencilstop.com/cdn/shop/products/supreme-metal-stencil.jpg?v=1693260408&width=1800",
+      "caption": "定制模板电商官网：官网展示的产品与实际使用场景",
+      "alt": "定制模板电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://stencilstop.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://stencilstop.com/cdn/shop/products/custom-adhesive-wonder-woman-stencil-stop.jpg?v=1651184380&width=1800",
+      "caption": "定制模板电商官网：官网展示的产品与实际使用场景",
+      "alt": "定制模板电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://stencilstop.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://stencilstop.com/cdn/shop/products/custom-adhesive-stencils-stencil-stop.jpg?v=1651184380&width=1800",
+      "caption": "定制模板电商官网：官网展示的产品与实际使用场景",
+      "alt": "定制模板电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://stencilstop.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -179,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2398,
-    "mediaCount": 3,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "哥伦比亚青旅+共享办公的产品与交付路径",
+      "items": [
+        "线上预订",
+        "入住青旅",
+        "使用共享办公",
+        "付费活动/餐饮"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "哥伦比亚青旅+共享办公的中国市场验证路线",
+      "items": [
+        "选定旅游城市（如大理、阳朔），租赁或改造一栋带公共区域的民宿，划分出住宿区和共享办公区。",
+        "在Airbnb、携程等平台上线住宿产品，同时通过小红书、抖音发布数字游民生活方式内容吸引目标客群。",
+        "推出周/月住宿+办公套餐，组织线下社交活动（如创业分享、瑜伽课），建立社群并收取会员费。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2426,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

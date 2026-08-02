@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI自动化利润分析工具的中国市场验证路线",
+      "items": [
+        "使用无代码工具（如Bubble）搭建MVP，实现基础财务数据上传和AI分析功能。",
+        "针对中国中小企业常见财务问题（如增值税优化）训练AI模型，提升本土化准确性。",
+        "通过知乎、微信公众号发布财税干货内容引流，提供免费试用吸引首批用户。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI自动化利润分析工具的经营验证仪表盘",
+      "items": [
+        "AI自动化利润分析工具，按月订阅收费",
+        "SaaS订阅制，提供多级套餐，基础功能免费，高级分析和导出付费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,11 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2411,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "no-semantic-media",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:content-root-missing|official:no-semantic-media",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:no-semantic-media",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

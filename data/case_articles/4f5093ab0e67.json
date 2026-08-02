@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "在线倒计时器SaaS的中国市场验证路线",
+      "items": [
+        "用无代码工具（如Bubble）搭建MVP，实现核心计时功能，支持自定义颜色和声音，上线免费版。",
+        "通过知乎、小红书发布“高效会议工具”类内容引流，引导用户试用，收集反馈迭代。",
+        "推出付费版，增加团队协作、统计报告等功能，定价$5-15/月，支持微信支付，利用企业微信做客户服务。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "在线倒计时器SaaS的经营验证仪表盘",
+      "items": [
+        "在线倒计时器SaaS，按月订阅收费",
+        "Freemium模式，免费版基础功能，付费版（$9-$29/月）提供自定义、团队协作等高级功能。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2458,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

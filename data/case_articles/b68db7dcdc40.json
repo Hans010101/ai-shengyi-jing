@@ -168,13 +168,53 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/010/361/original/open-uri20210222-3-1p7jfur?1614017574",
-      "caption": "澳洲手工木制礼品电商：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "alt": "澳洲手工木制礼品电商：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/australian-woodwork-update-how-we-grew-the-business-to-40k-month",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://www.australianwoodwork.com.au/cdn/shop/files/australian-woodwork-products-slider.jpg?v=1630041731",
+      "caption": "澳洲手工木制礼品电商官网：官网展示的产品与实际使用场景",
+      "alt": "澳洲手工木制礼品电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.australianwoodwork.com.au/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.australianwoodwork.com.au/cdn/shop/files/australian-woodwork-products-slider-mobile2.jpg?v=1630138954",
+      "caption": "澳洲手工木制礼品电商官网：官网展示的产品与实际使用场景",
+      "alt": "澳洲手工木制礼品电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.australianwoodwork.com.au/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.australianwoodwork.com.au/cdn/shop/products/classic-spurtle-blackwood-huon-pine-7_900x.jpg?v=1635897608",
+      "caption": "澳洲手工木制礼品电商官网：官网展示的产品与实际使用场景",
+      "alt": "澳洲手工木制礼品电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.australianwoodwork.com.au/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.australianwoodwork.com.au/cdn/shop/products/classic-spurtle-blackwood-huon-pine-1_900x.jpg?v=1635897609",
+      "caption": "澳洲手工木制礼品电商官网：官网展示的产品与实际使用场景",
+      "alt": "澳洲手工木制礼品电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.australianwoodwork.com.au/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.australianwoodwork.com.au/cdn/shop/products/french-style-rolling-pins-4_900x.jpg?v=1632196097",
+      "caption": "澳洲手工木制礼品电商官网：官网展示的产品与实际使用场景",
+      "alt": "澳洲手工木制礼品电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.australianwoodwork.com.au/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2463,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

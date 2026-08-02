@@ -149,8 +149,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/114/original/open-uri20211124-3-6m5ovs?1637783534",
-      "caption": "波兰IT咨询公司：原始案例中的产品与运营配图（第1张）",
-      "alt": "波兰IT咨询公司：原始案例中的产品与运营配图（第1张）",
+      "caption": "波兰IT咨询公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "波兰IT咨询公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/on-creating-an-it-consulting-company",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -159,8 +159,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/115/original/open-uri20211124-3-jpjwza?1637783535",
-      "caption": "波兰IT咨询公司：原始案例中的产品与运营配图（第2张）",
-      "alt": "波兰IT咨询公司：原始案例中的产品与运营配图（第2张）",
+      "caption": "波兰IT咨询公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "波兰IT咨询公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/on-creating-an-it-consulting-company",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -168,23 +168,60 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/116/original/open-uri20211124-3-14sdg9o?1637783535",
-      "caption": "波兰IT咨询公司：原始案例中的产品与运营配图（第3张）",
-      "alt": "波兰IT咨询公司：原始案例中的产品与运营配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/on-creating-an-it-consulting-company",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://www.digiteum.com/wp-content/uploads/2024/05/Legacy-to-cloud-migration-hero.jpg",
+      "caption": "波兰IT咨询公司官网：官网展示的产品主场景",
+      "alt": "波兰IT咨询公司官网：官网展示的产品主场景",
+      "sourceUrl": "https://www.digiteum.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/117/original/open-uri20211124-3-186j7t7?1637783535",
-      "caption": "波兰IT咨询公司：原始案例中的产品与运营配图（第4张）",
-      "alt": "波兰IT咨询公司：原始案例中的产品与运营配图（第4张）",
-      "sourceUrl": "https://www.starterstory.com/stories/on-creating-an-it-consulting-company",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://www.digiteum.com/wp-content/uploads/2024/04/web-app-development-costs-hero.jpg",
+      "caption": "波兰IT咨询公司官网：官网展示的产品与实际使用场景",
+      "alt": "波兰IT咨询公司官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.digiteum.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/R1ZyzMFSNC4",
+      "watchUrl": "https://www.youtube.com/watch?v=R1ZyzMFSNC4",
+      "caption": "波兰IT咨询公司资料中提及的视频：Digiteum focuses on creating customer-centric digital solutions.",
+      "alt": "Digiteum focuses on creating customer-centric digital solutions.",
+      "sourceUrl": "https://www.digiteum.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/R1ZyzMFSNC4/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://www.digiteum.com/wp-content/uploads/2024/09/Hero_1920_comp1.mp4",
+      "watchUrl": "https://www.digiteum.com/wp-content/uploads/2024/09/Hero_1920_comp1.mp4",
+      "poster": "https://www.digiteum.com/",
+      "caption": "波兰IT咨询公司官网：产品界面与核心功能展示",
+      "alt": "波兰IT咨询公司官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.digiteum.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://www.digiteum.com/wp-content/uploads/2024/09/Hero_mobile_1080_comp1.mp4",
+      "watchUrl": "https://www.digiteum.com/wp-content/uploads/2024/09/Hero_mobile_1080_comp1.mp4",
+      "poster": "https://www.digiteum.com/",
+      "caption": "波兰IT咨询公司官网：产品界面与核心功能展示",
+      "alt": "波兰IT咨询公司官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.digiteum.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -199,7 +236,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2460,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

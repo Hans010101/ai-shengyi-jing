@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "女性服饰品牌的产品与交付路径",
+      "items": [
+        "社群引流",
+        "限量款设计",
+        "会员专属预售",
+        "复购与裂变"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "女性服饰品牌的中国市场验证路线",
+      "items": [
+        "选择垂直女性细分市场（如职场、运动），在微信/抖音建立种子用户群，通过穿搭分享、话题讨论吸引首批1000名忠实粉丝。",
+        "设计3-5款限量版服饰，采用预售模式，仅限社群成员购买，利用饥饿营销制造稀缺感，收集反馈迭代。",
+        "推出会员体系，如月卡/年卡，提供专属折扣、生日礼、线下聚会等权益，激励用户拉新，形成自传播闭环。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,11 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2444,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "no-semantic-media",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:http-429|official:no-semantic-media",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:http-429|official:no-semantic-media",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

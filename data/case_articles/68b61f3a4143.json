@@ -175,6 +175,26 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/450/original/open-uri20190426-4-1423gff?1556247215",
+      "caption": "面向8-12岁儿童的探险教育订阅盒：产品设计与早期打磨相关原始配图（第4张）",
+      "alt": "面向8-12岁儿童的探险教育订阅盒：产品设计与早期打磨相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/lessons-learned-from-launching-an-education-media-startup",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/451/original/open-uri20190426-4-td1ufz?1556247216",
+      "caption": "面向8-12岁儿童的探险教育订阅盒：产品设计与早期打磨相关原始配图（第5张）",
+      "alt": "面向8-12岁儿童的探险教育订阅盒：产品设计与早期打磨相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/lessons-learned-from-launching-an-education-media-startup",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -189,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2558,
-    "mediaCount": 4,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:http-403",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:http-403",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

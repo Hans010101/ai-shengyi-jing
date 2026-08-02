@@ -168,13 +168,53 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/050/original/open-uri20201123-4-kwf4xm?1606144665",
-      "caption": "独立烈酒品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "alt": "独立烈酒品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-launched-a-new-product-and-reached-90-of-goal-revenue-this-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://ourwolfspirit.com/cdn/shop/files/SocialShareIcon_1200x.png?v=1633624944",
+      "caption": "独立烈酒品牌官网：产品界面与核心功能展示",
+      "alt": "独立烈酒品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://ourwolfspirit.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://ourwolfspirit.com/cdn/shop/files/ws-home-hero-3-texture_2000x.png?v=1622751665",
+      "caption": "独立烈酒品牌官网：官网展示的产品与实际使用场景",
+      "alt": "独立烈酒品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://ourwolfspirit.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://ourwolfspirit.com/cdn/shop/products/punchers-chance-undisputed-web-4_2000x.jpg?v=1683133343",
+      "caption": "独立烈酒品牌官网：官网展示的产品与实际使用场景",
+      "alt": "独立烈酒品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://ourwolfspirit.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://ourwolfspirit.com/cdn/shop/products/PC_onblack_2000x.jpg?v=1618859976",
+      "caption": "独立烈酒品牌官网：官网展示的产品与实际使用场景",
+      "alt": "独立烈酒品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://ourwolfspirit.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://ourwolfspirit.com/cdn/shop/products/Bottle3_2000x.jpg?v=1620945717",
+      "caption": "独立烈酒品牌官网：官网展示的产品与实际使用场景",
+      "alt": "独立烈酒品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://ourwolfspirit.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2389,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

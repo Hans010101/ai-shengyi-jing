@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/862/original/open-uri20190127-4-3hyae3?1548568130",
+      "caption": "防过敏口罩电商：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "防过敏口罩电商：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/starting-a-90k-month-respirator-mask-business",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/863/original/open-uri20190127-4-1200b89?1548568131",
+      "caption": "防过敏口罩电商：当前经营状态与下一步规划相关原始配图（第5张）",
+      "alt": "防过敏口罩电商：当前经营状态与下一步规划相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/starting-a-90k-month-respirator-mask-business",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/JsWyXQxL3zE",
       "watchUrl": "https://www.youtube.com/watch?v=JsWyXQxL3zE",
@@ -185,6 +205,18 @@
       "sourceUrl": "https://www.starterstory.com/stories/starting-a-90k-month-respirator-mask-business",
       "origin": "embeddable-video",
       "poster": "https://i.ytimg.com/vi/JsWyXQxL3zE/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/tRPFWUMXRH8",
+      "watchUrl": "https://www.youtube.com/watch?v=tRPFWUMXRH8",
+      "caption": "防过敏口罩电商资料中提及的视频：BreatheHealthy® Masks Introduction",
+      "alt": "BreatheHealthy® Masks Introduction",
+      "sourceUrl": "https://www.starterstory.com/stories/starting-a-90k-month-respirator-mask-business",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/tRPFWUMXRH8/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
     }
@@ -201,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2421,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:HTTPError",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:HTTPError",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

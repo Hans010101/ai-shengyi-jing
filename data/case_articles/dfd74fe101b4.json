@@ -168,9 +168,39 @@
     },
     {
       "type": "image",
+      "url": "http://pastreez.com/cdn/shop/files/Valrhona_chocolate_covered_macarons_be0a51c8-c3f9-4e57-b4f4-79fa5afcede2.jpg?crop=center&height=1200&v=1736209234&width=1200",
+      "caption": "线上法式烘焙店官网：产品界面与核心功能展示",
+      "alt": "线上法式烘焙店官网：产品界面与核心功能展示",
+      "sourceUrl": "https://pastreez.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/923/original/open-uri20220421-12-46pqv6?1650565998",
       "caption": "线上法式烘焙店：产品设计与早期打磨相关原始配图（第3张）",
       "alt": "线上法式烘焙店：产品设计与早期打磨相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/pastreez",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/924/original/open-uri20220421-12-1gjqzdd?1650565999",
+      "caption": "线上法式烘焙店：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "线上法式烘焙店：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/pastreez",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/925/original/open-uri20220421-12-uw01k5?1650566000",
+      "caption": "线上法式烘焙店：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "线上法式烘焙店：产品上线与首次发布相关原始配图（第5张）",
       "sourceUrl": "https://www.starterstory.com/stories/pastreez",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +219,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2478,
-    "mediaCount": 4,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

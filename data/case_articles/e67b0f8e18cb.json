@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "趣味习惯养成喝水提醒App的产品与交付路径",
+      "items": [
+        "用户注册",
+        "每日饮水记录",
+        "游戏化反馈（宠物/成就）",
+        "数据分析"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "趣味习惯养成喝水提醒App的中国市场验证路线",
+      "items": [
+        "开发最小可行产品，聚焦核心功能：饮水记录、定时提醒、简单游戏化反馈（如植物生长）。使用Flutter跨平台框架快速上线。",
+        "在抖音/小红书发布趣味喝水挑战视频，引导下载；设置邀请奖励机制，如双方获得限定皮肤，实现裂变增长。",
+        "推出7天免费试用，试用结束后引导订阅（月/年）；收集用户反馈，迭代加入社交排行榜、健康报告导出等增值功能。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,11 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2497,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:content-root-missing|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:ok",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

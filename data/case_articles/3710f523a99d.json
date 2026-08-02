@@ -167,10 +167,54 @@
       "context": "source-article-body"
     },
     {
+      "type": "video-file",
+      "url": "https://document360.com/wp-content/themes/document360/images/home/2026/migration-bg.mp4",
+      "watchUrl": "https://document360.com/wp-content/themes/document360/images/home/2026/migration-bg.mp4",
+      "poster": "https://document360.com/wp-content/uploads/2025/01/OG-general.jpg",
+      "caption": "知识库SaaS工具官网：产品界面与核心功能展示",
+      "alt": "知识库SaaS工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://document360.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://document360v2.wpengine.com/wp-content/themes/document360/images/home/2026/eddy-new.mp4",
+      "watchUrl": "https://document360v2.wpengine.com/wp-content/themes/document360/images/home/2026/eddy-new.mp4",
+      "poster": "https://document360.com/wp-content/uploads/2025/01/OG-general.jpg",
+      "caption": "知识库SaaS工具官网：产品界面与核心功能展示",
+      "alt": "知识库SaaS工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://document360.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://document360.com/wp-content/uploads/2025/01/OG-general.jpg",
+      "caption": "知识库SaaS工具官网：产品界面与核心功能展示",
+      "alt": "知识库SaaS工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://document360.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/762/original/open-uri20211109-3-4izo3k?1636474380",
       "caption": "知识库SaaS工具：产品设计与早期打磨相关原始配图（第3张）",
       "alt": "知识库SaaS工具：产品设计与早期打磨相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-built-a-408k-year-knowledge-base-saas-tool",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/763/original/open-uri20211109-3-1nct2l3?1636474380",
+      "caption": "知识库SaaS工具：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "知识库SaaS工具：产品上线与首次发布相关原始配图（第4张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-built-a-408k-year-knowledge-base-saas-tool",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2418,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

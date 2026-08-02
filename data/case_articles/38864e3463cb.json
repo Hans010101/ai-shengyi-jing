@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/891/original/open-uri20190905-4-m1x3ka?1567666875",
+      "caption": "DIY衬衫裁剪工具ZipSeam：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "DIY衬衫裁剪工具ZipSeam：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-created-a-diy-shirt-tailor-and-raised-60k-on-kickstarter",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/002/892/original/open-uri20190905-4-1j3b117?1567666875",
+      "caption": "DIY衬衫裁剪工具ZipSeam：当前经营状态与下一步规划相关原始配图（第5张）",
+      "alt": "DIY衬衫裁剪工具ZipSeam：当前经营状态与下一步规划相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-created-a-diy-shirt-tailor-and-raised-60k-on-kickstarter",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/zXBQI9FPYO4",
       "watchUrl": "https://www.youtube.com/watch?v=zXBQI9FPYO4",
@@ -201,7 +221,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2560,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

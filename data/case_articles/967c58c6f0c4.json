@@ -172,6 +172,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "创意预售验证营的中国市场验证路线",
+      "items": [
+        "整理自己或他人的创业验证案例，制作成电子书或课程大纲，突出低成本验证方法。",
+        "搭建简单的销售页面（如使用Notion或WordPress），设置支付（如PayPal或Stripe），并发布到创业社区和社交媒体。",
+        "提供免费或低价咨询作为预售权益，收集反馈，迭代内容，并利用客户评价进行二次传播。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "创意预售验证营的经营验证仪表盘",
+      "items": [
+        "通过预售验证创业点子，提供咨询和资源，月入6千美元。",
+        "定价80美元，包含电子书和1小时咨询。客户为早期创业者，通过预售订单验证想法。收入主要来自课程销售和咨询服务。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -186,11 +212,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2538,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "no-semantic-media",
-    "attemptedAt": "2026-08-02T09:37:46.068137+00:00"
+    "status": "source:content-root-missing|official:no-semantic-media",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:no-semantic-media",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

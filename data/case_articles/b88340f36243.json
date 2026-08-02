@@ -168,13 +168,53 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/007/116/original/open-uri20200719-4-1sz5a7x?1595156776",
-      "caption": "男士双囊袋内裤品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "alt": "男士双囊袋内裤品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/on-growing-our-annual-sales-to-1-3m",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://www.sheathunderwear.com/cdn/shop/files/sheath-soft-landing-desktop-hero.webp?v=1784832031&width=1600",
+      "caption": "男士双囊袋内裤品牌官网：官网展示的产品主场景",
+      "alt": "男士双囊袋内裤品牌官网：官网展示的产品主场景",
+      "sourceUrl": "https://www.sheathunderwear.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.sheathunderwear.com/cdn/shop/files/sheath-soft-landing-mobile-hero.webp?v=1784832031&width=800",
+      "caption": "男士双囊袋内裤品牌官网：官网展示的产品主场景",
+      "alt": "男士双囊袋内裤品牌官网：官网展示的产品主场景",
+      "sourceUrl": "https://www.sheathunderwear.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.sheathunderwear.com/cdn/shop/files/sheath-isolation-pouch-underwear-desktop-hero.webp?v=1771358575&width=1600",
+      "caption": "男士双囊袋内裤品牌官网：官网展示的产品主场景",
+      "alt": "男士双囊袋内裤品牌官网：官网展示的产品主场景",
+      "sourceUrl": "https://www.sheathunderwear.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.sheathunderwear.com/cdn/shop/files/sheath-isolation-pouch-underwear-mobile-hero-01.webp?v=1771426972&width=1200",
+      "caption": "男士双囊袋内裤品牌官网：官网展示的产品主场景",
+      "alt": "男士双囊袋内裤品牌官网：官网展示的产品主场景",
+      "sourceUrl": "https://www.sheathunderwear.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.sheathunderwear.com/cdn/shop/files/sheath-fabric-hero-desktop.jpg?v=1757602535&width=1600",
+      "caption": "男士双囊袋内裤品牌官网：官网展示的产品主场景",
+      "alt": "男士双囊袋内裤品牌官网：官网展示的产品主场景",
+      "sourceUrl": "https://www.sheathunderwear.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2515,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

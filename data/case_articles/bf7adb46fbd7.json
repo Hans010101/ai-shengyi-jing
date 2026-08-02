@@ -168,9 +168,29 @@
     },
     {
       "type": "image",
+      "url": "https://scribit.design/cdn/shop/files/share-facebook.png?v=1560673723319687087",
+      "caption": "Scribit是一款写在墙上的机器人官网：产品界面与核心功能展示",
+      "alt": "Scribit是一款写在墙上的机器人官网：产品界面与核心功能展示",
+      "sourceUrl": "https://scribit.design/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/987/original/open-uri20190206-4-1f8h5kr?1549467101",
       "caption": "Scribit是一款写在墙上的机器人：产品上线与首次发布相关原始配图（第3张）",
       "alt": "Scribit是一款写在墙上的机器人：产品上线与首次发布相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/raising-2-3m-on-indiegogo-with-a-robot",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/988/original/open-uri20190206-4-1w5v5ys?1549467103",
+      "caption": "Scribit是一款写在墙上的机器人：当前经营状态与下一步规划相关原始配图（第4张）",
+      "alt": "Scribit是一款写在墙上的机器人：当前经营状态与下一步规划相关原始配图（第4张）",
       "sourceUrl": "https://www.starterstory.com/stories/raising-2-3m-on-indiegogo-with-a-robot",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -187,6 +207,18 @@
       "poster": "https://i.ytimg.com/vi/QAue1P8CSAY/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/aIukJlB9QFs",
+      "watchUrl": "https://www.youtube.com/watch?v=aIukJlB9QFs",
+      "caption": "Scribit是一款写在墙上的机器人资料中提及的视频：Turn Your Wall Into A Piece Of Art (Andrea Baldereschi) | DLD 19",
+      "alt": "Turn Your Wall Into A Piece Of Art (Andrea Baldereschi) | DLD 19",
+      "sourceUrl": "https://www.starterstory.com/stories/raising-2-3m-on-indiegogo-with-a-robot",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/aIukJlB9QFs/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -201,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2530,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

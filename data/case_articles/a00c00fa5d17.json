@@ -165,6 +165,29 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/-GrcWcbp-70",
+      "watchUrl": "https://www.youtube.com/watch?v=-GrcWcbp-70",
+      "caption": "策划惊喜旅行套餐资料中提及的视频：This Startup Sends Travelers on Vacation to Destinations Unknown | NBC Nightly News",
+      "alt": "This Startup Sends Travelers on Vacation to Destinations Unknown | NBC Nightly News",
+      "sourceUrl": "https://www.packupgo.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/-GrcWcbp-70/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "http://static1.squarespace.com/static/62f56359d110327a0e003ca1/t/63dd4ac6b853fd00717fb5b9/1735827040581/PU%2BG+Go+Solid+Background+%283%29.png?format=1500w",
+      "caption": "策划惊喜旅行套餐官网：产品界面与核心功能展示",
+      "alt": "策划惊喜旅行套餐官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.packupgo.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -179,7 +202,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2468,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 5,
+    "logicMedia": 0
   }
 }

@@ -167,6 +167,49 @@
       "context": "source-article-body"
     },
     {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/DVMBkmJ1pgE",
+      "watchUrl": "https://www.youtube.com/watch?v=DVMBkmJ1pgE",
+      "caption": "高端砾石自行车品牌资料中提及的视频：BIKES 2025",
+      "alt": "BIKES 2025",
+      "sourceUrl": "https://bombtrack.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/DVMBkmJ1pgE/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://bombtrack.com/cdn/shop/articles/bootshaus-resized_34f6a49f-0cd3-4b30-a771-90c2b4015849_{width}x.jpg?v=1783416752",
+      "caption": "高端砾石自行车品牌官网：官网展示的产品与实际使用场景",
+      "alt": "高端砾石自行车品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://bombtrack.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://bombtrack.com/cdn/shop/articles/bootshaus-resized_34f6a49f-0cd3-4b30-a771-90c2b4015849_1024x1024.jpg?v=1783416752",
+      "caption": "高端砾石自行车品牌官网：官网展示的产品与实际使用场景",
+      "alt": "高端砾石自行车品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://bombtrack.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "http://bombtrack.com/cdn/shop/files/Unbenannter_Katalog4963_1200x1200.jpg?v=1763552544",
+      "caption": "高端砾石自行车品牌官网：产品界面与核心功能展示",
+      "alt": "高端砾石自行车品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://bombtrack.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/711/original/open-uri20220411-24-ynefnm?1649686599",
       "caption": "高端砾石自行车品牌：当前经营状态与下一步规划相关原始配图（第3张）",
@@ -189,7 +232,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2396,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

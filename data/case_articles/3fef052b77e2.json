@@ -168,6 +168,16 @@
     },
     {
       "type": "image",
+      "url": "https://www.redlinegoods.com/grafika/splash.jpg",
+      "caption": "销售高端皮革汽车内饰配件官网：产品界面与核心功能展示",
+      "alt": "销售高端皮革汽车内饰配件官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.redlinegoods.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/308/original/open-uri20211014-3-151cf9i?1634231291",
       "caption": "销售高端皮革汽车内饰配件：创业起点与创意来源相关原始配图（第3张）",
       "alt": "销售高端皮革汽车内饰配件：创业起点与创意来源相关原始配图（第3张）",
@@ -189,7 +199,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2400,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 5,
+    "logicMedia": 0
   }
 }

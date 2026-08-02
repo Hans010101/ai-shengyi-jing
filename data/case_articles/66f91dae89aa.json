@@ -189,6 +189,36 @@
       "origin": "official-site-video",
       "usage": "official-site-reference",
       "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://paperwallet.com/cdn/shop/files/desktopa.png?v=1785513114&width=1200",
+      "caption": "设计并销售环保极简钱包官网：官网展示的产品与实际使用场景",
+      "alt": "设计并销售环保极简钱包官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://paperwallet.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://paperwallet.com/cdn/shop/files/mobilea.png?v=1785513576&width=900",
+      "caption": "设计并销售环保极简钱包官网：官网展示的产品与实际使用场景",
+      "alt": "设计并销售环保极简钱包官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://paperwallet.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://paperwallet.com/cdn/shop/files/desktop_70a16a26-8c72-40e4-a3b2-4569a5699795.png?v=1785190828&width=1200",
+      "caption": "设计并销售环保极简钱包官网：官网展示的产品与实际使用场景",
+      "alt": "设计并销售环保极简钱包官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://paperwallet.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -203,11 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2463,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

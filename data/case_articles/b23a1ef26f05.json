@@ -168,13 +168,55 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/498/original/open-uri20220404-3-ol53a4?1649105145",
-      "caption": "订阅制设计与代码服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "alt": "订阅制设计与代码服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/draftss",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://draftss.com/images/hero/New-Hero-image.webp",
+      "caption": "订阅制设计与代码服务官网：官网展示的产品主场景",
+      "alt": "订阅制设计与代码服务官网：官网展示的产品主场景",
+      "sourceUrl": "https://draftss.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://draftss.com/images/hero/Mobile-Hero.webp",
+      "caption": "订阅制设计与代码服务官网：官网展示的产品与实际使用场景",
+      "alt": "订阅制设计与代码服务官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://draftss.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://draftss.com/images/dashboard/preview.webp",
+      "caption": "订阅制设计与代码服务官网：产品后台与数据看板",
+      "alt": "订阅制设计与代码服务官网：产品后台与数据看板",
+      "sourceUrl": "https://draftss.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "video-file",
+      "url": "https://draftss.com/images/services/service-6.webm",
+      "watchUrl": "https://draftss.com/images/services/service-6.webm",
+      "poster": "https://draftss.com/assets/og-images/OG-img.jpg",
+      "caption": "订阅制设计与代码服务官网：产品界面与核心功能展示",
+      "alt": "订阅制设计与代码服务官网：产品界面与核心功能展示",
+      "sourceUrl": "https://draftss.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://draftss.com/assets/book-demo/Ellipse-18.webp",
+      "caption": "订阅制设计与代码服务官网：官网展示的产品与实际使用场景",
+      "alt": "订阅制设计与代码服务官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://draftss.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +231,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2407,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

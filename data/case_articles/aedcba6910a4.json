@@ -168,13 +168,53 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/949/original/open-uri20210125-3-1gx4xpi?1611599510",
-      "caption": "地理编码SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "alt": "地理编码SaaS：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-our-revenue-by-70-in-one-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://www.geoapify.com/static/location-platform-ad66e16bc6f4dfcfe1f4dd14f2744f29.png",
+      "caption": "地理编码SaaS官网：产品界面与核心功能展示",
+      "alt": "地理编码SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.geoapify.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.geoapify.com/static/d162e2c1992f9b5493f29d85d046182d/aa2be/geoapify-location-platform.png",
+      "caption": "地理编码SaaS官网：产品界面与核心功能展示",
+      "alt": "地理编码SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.geoapify.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.geoapify.com/static/e89ae80794b5d0f67e53caf21a952563/090af/api-card-maps.png",
+      "caption": "地理编码SaaS官网：产品界面与核心功能展示",
+      "alt": "地理编码SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.geoapify.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.geoapify.com/static/53bb49a6906a1f05fc6ba152fe9b9118/090af/api-card-address-search.png",
+      "caption": "地理编码SaaS官网：产品界面与核心功能展示",
+      "alt": "地理编码SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.geoapify.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.geoapify.com/static/03f921511f5ae0e4ac290bde004cead5/090af/api-card-routes.png",
+      "caption": "地理编码SaaS官网：产品界面与核心功能展示",
+      "alt": "地理编码SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.geoapify.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2448,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

@@ -168,13 +168,53 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/488/original/open-uri20220705-24-14crdgw?1657021821",
-      "caption": "电动自行车月销120万美元：产品上线与首次发布相关原始配图（第3张）",
-      "alt": "电动自行车月销120万美元：产品上线与首次发布相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/ebikebc",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://cdn.shopify.com/s/files/1/0607/0819/2509/products/Envo-Lynx-20-Black-electric-bike-Side_70x70.jpg?v=1692125070",
+      "caption": "电动自行车月销120万美元官网：官网展示的产品与实际使用场景",
+      "alt": "电动自行车月销120万美元官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://ebikebc.com/en-us",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.shopify.com/s/files/1/0607/0819/2509/products/Envo-Step-thru-ebike-Side-view_70x70.jpg?v=1665613275",
+      "caption": "电动自行车月销120万美元官网：官网展示的产品与实际使用场景",
+      "alt": "电动自行车月销120万美元官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://ebikebc.com/en-us",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.shopify.com/s/files/1/0607/0819/2509/products/840413-01_1_70x70.jpg?v=1638376793",
+      "caption": "电动自行车月销120万美元官网：官网展示的产品与实际使用场景",
+      "alt": "电动自行车月销120万美元官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://ebikebc.com/en-us",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.shopify.com/s/files/1/0607/0819/2509/products/Envo-Step-thru-ebike-Side-view_2816c2d3-d888-42ed-960a-f6fbc7efa3f9_70x70.jpg?v=1663879178",
+      "caption": "电动自行车月销120万美元官网：官网展示的产品与实际使用场景",
+      "alt": "电动自行车月销120万美元官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://ebikebc.com/en-us",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.shopify.com/s/files/1/0607/0819/2509/products/20200122_111621-scaled_70x70.jpg?v=1638376407",
+      "caption": "电动自行车月销120万美元官网：官网展示的产品与实际使用场景",
+      "alt": "电动自行车月销120万美元官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://ebikebc.com/en-us",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2400,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

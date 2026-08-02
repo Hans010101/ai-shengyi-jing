@@ -168,6 +168,16 @@
     },
     {
       "type": "image",
+      "url": "https://cdn.prod.website-files.com/661cf76f6672e3c7b8afecc4/68a2993eccd947662ba6b556_Social%20Media%20Ads.avif",
+      "caption": "按需订阅平面设计服务官网：社交媒体内容与营销活动场景",
+      "alt": "按需订阅平面设计服务官网：社交媒体内容与营销活动场景",
+      "sourceUrl": "https://www.delesign.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/491/original/open-uri20220404-3-b2nqnx?1649083140",
       "caption": "按需订阅平面设计服务：产品设计与早期打磨相关原始配图（第3张）",
       "alt": "按需订阅平面设计服务：产品设计与早期打磨相关原始配图（第3张）",
@@ -189,7 +199,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2467,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 5,
+    "logicMedia": 0
   }
 }

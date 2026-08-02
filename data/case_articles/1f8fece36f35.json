@@ -168,9 +168,39 @@
     },
     {
       "type": "image",
+      "url": "https://understandingecommerce.com/wp-content/uploads/2025/07/Image_fx-12.png",
+      "caption": "电商博客官网：产品界面与核心功能展示",
+      "alt": "电商博客官网：产品界面与核心功能展示",
+      "sourceUrl": "https://understandingecommerce.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/304/original/open-uri20210824-3-y42qpx?1629817183",
       "caption": "电商博客：创业起点与创意来源相关原始配图（第3张）",
       "alt": "电商博客：创业起点与创意来源相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-make-10-000-per-month-with-my-e-commerce-blog",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/305/original/open-uri20210824-3-1hu86qk?1629817184",
+      "caption": "电商博客：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "电商博客：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-make-10-000-per-month-with-my-e-commerce-blog",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/306/original/open-uri20210824-3-1bvtxjt?1629817184",
+      "caption": "电商博客：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "电商博客：产品上线与首次发布相关原始配图（第5张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-make-10-000-per-month-with-my-e-commerce-blog",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +219,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2366,
-    "mediaCount": 4,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

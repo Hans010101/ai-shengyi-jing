@@ -175,6 +175,26 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/280/original/open-uri20190317-4-rgbha8?1552797311",
+      "caption": "房车租赁平台：产品设计与早期打磨相关原始配图（第4张）",
+      "alt": "房车租赁平台：产品设计与早期打磨相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-started-a-camper-van-rental-business-and-quit-our-full-time-jobs",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/281/original/open-uri20190317-4-1b213qr?1552797311",
+      "caption": "房车租赁平台：产品设计与早期打磨相关原始配图（第5张）",
+      "alt": "房车租赁平台：产品设计与早期打磨相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-started-a-camper-van-rental-business-and-quit-our-full-time-jobs",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -189,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2410,
-    "mediaCount": 4,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:SSLError",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:SSLError",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

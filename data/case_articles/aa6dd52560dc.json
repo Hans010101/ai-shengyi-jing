@@ -168,9 +168,39 @@
     },
     {
       "type": "image",
+      "url": "https://www.canyouhandlebar.com/assets/images/img-situs-slot-gacor-gampang-menang.webp",
+      "caption": "自制胡须蜡官网：产品界面与核心功能展示",
+      "alt": "自制胡须蜡官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.canyouhandlebar.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/396/original/open-uri20190411-4-1psckue?1554971955",
       "caption": "自制胡须蜡：创业起点与创意来源相关原始配图（第3张）",
       "alt": "自制胡须蜡：创业起点与创意来源相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-turned-a-moustache-wax-recipe-into-a-million-dollar-business",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/397/original/open-uri20190411-4-16iod7h?1554971955",
+      "caption": "自制胡须蜡：产品设计与早期打磨相关原始配图（第4张）",
+      "alt": "自制胡须蜡：产品设计与早期打磨相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-turned-a-moustache-wax-recipe-into-a-million-dollar-business",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/398/original/open-uri20190411-4-qe2ko7?1554971955",
+      "caption": "自制胡须蜡：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "自制胡须蜡：产品上线与首次发布相关原始配图（第5张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-turned-a-moustache-wax-recipe-into-a-million-dollar-business",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +219,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2433,
-    "mediaCount": 4,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

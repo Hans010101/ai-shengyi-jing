@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI辅助医生临床决策的搜索引擎的中国市场验证路线",
+      "items": [
+        "选择垂直医疗领域（如儿科或心血管），收集公开中文医学指南、论文和病例，构建结构化知识库。",
+        "基于开源LLM（如ChatGLM或Qwen）微调模型，实现“问题输入→检索知识库→生成带引用的答案”流程。",
+        "与2-3家基层医院或诊所合作试点，收集反馈并迭代产品，同时通过医学社群和学术会议推广，启动订阅收费。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI辅助医生临床决策的搜索引擎的经营验证仪表盘",
+      "items": [
+        "AI辅助医生临床决策的搜索引擎，按订阅收费。",
+        "面向医疗机构和医生个人提供SaaS订阅服务，按用户数或机构规模收费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,11 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2534,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "http-403",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:HTTPError|official:http-403",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:HTTPError|official:http-403",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/808/original/open-uri20190122-4-1hc78ho?1548129512",
+      "caption": "13岁少年创办的狗玩具品牌：创业起点与创意来源相关原始配图（第4张）",
+      "alt": "13岁少年创办的狗玩具品牌：创业起点与创意来源相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-this-13-year-old-made-it-on-shark-tank-and-did-500k-in-sales",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/809/original/open-uri20190122-4-fhugio?1548129512",
+      "caption": "13岁少年创办的狗玩具品牌：创业起点与创意来源相关原始配图（第5张）",
+      "alt": "13岁少年创办的狗玩具品牌：创业起点与创意来源相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-this-13-year-old-made-it-on-shark-tank-and-did-500k-in-sales",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/m_qDwaa-IKw",
       "watchUrl": "https://www.youtube.com/watch?v=m_qDwaa-IKw",
@@ -201,7 +221,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2442,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

@@ -169,6 +169,29 @@
       "poster": "https://i.ytimg.com/vi/ejX4asW6W7g/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/bqLUp7GuUTg",
+      "watchUrl": "https://www.youtube.com/watch?v=bqLUp7GuUTg",
+      "caption": "用100美元创建小众招聘平台资料中提及的视频：HugeDomains.com - Location Matters",
+      "alt": "HugeDomains.com - Location Matters",
+      "sourceUrl": "https://www.hugedomains.com/domain_profile.cfm?d=nichejobboard.com",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/bqLUp7GuUTg/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://static.hugedomains.com/images/hdv3-img/og_hugedomains.png",
+      "caption": "用100美元创建小众招聘平台官网：产品界面与核心功能展示",
+      "alt": "用100美元创建小众招聘平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.hugedomains.com/domain_profile.cfm?d=nichejobboard.com",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -183,7 +206,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2530,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 5,
+    "logicMedia": 0
   }
 }

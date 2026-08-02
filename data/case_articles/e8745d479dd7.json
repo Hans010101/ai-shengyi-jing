@@ -168,6 +168,36 @@
     },
     {
       "type": "image",
+      "url": "https://conductscience.com/_next/image?url=https%3A%2F%2Fconductscience.com%2Fwp-content%2Fuploads%2F2026%2F03%2Fme-protocol-hero.jpg&w=1920&q=75",
+      "caption": "面向科研人员的迷宫实验耗材与技术服务订阅平台官网：官网展示的产品与实际使用场景",
+      "alt": "面向科研人员的迷宫实验耗材与技术服务订阅平台官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://conductscience.com/mazeengineers",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://conductscience.com/_next/image?url=https%3A%2F%2Fconductscience.com%2Fwp-content%2Fuploads%2F2026%2F03%2Fcat_social-behavior-tests-5-1024x768.jpg&w=1920&q=75",
+      "caption": "面向科研人员的迷宫实验耗材与技术服务订阅平台官网：官网展示的产品与实际使用场景",
+      "alt": "面向科研人员的迷宫实验耗材与技术服务订阅平台官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://conductscience.com/mazeengineers",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://conductscience.com/og-default.png",
+      "caption": "面向科研人员的迷宫实验耗材与技术服务订阅平台官网：产品界面与核心功能展示",
+      "alt": "面向科研人员的迷宫实验耗材与技术服务订阅平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://conductscience.com/mazeengineers",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/076/original/open-uri20210811-3-6kqdvi?1628702755",
       "caption": "面向科研人员的迷宫实验耗材与技术服务订阅平台：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "alt": "面向科研人员的迷宫实验耗材与技术服务订阅平台：创始人、核心产品与品牌起点相关原始配图（第3张）",
@@ -189,7 +219,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2553,
-    "mediaCount": 4,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

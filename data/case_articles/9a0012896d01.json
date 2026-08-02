@@ -168,6 +168,36 @@
     },
     {
       "type": "image",
+      "url": "https://assets.moomin.com/uploads/2018/05/moomin-product-placeholder.png",
+      "caption": "电商品牌官网：官网展示的产品与实际使用场景",
+      "alt": "电商品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.moomin.com/en/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://assets.moomin.com/uploads/2026/07/Lush-Moomin-header-1600x837.jpg",
+      "caption": "电商品牌官网：官网展示的产品与实际使用场景",
+      "alt": "电商品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.moomin.com/en/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://assets.moomin.com/uploads/2019/11/moomin.png",
+      "caption": "电商品牌官网：产品界面与核心功能展示",
+      "alt": "电商品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.moomin.com/en/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/005/940/original/open-uri20200428-4-v5brie?1588063932",
       "caption": "电商品牌：创业复盘与关键经验相关原始配图（第3张）",
       "alt": "电商品牌：创业复盘与关键经验相关原始配图（第3张）",
@@ -189,7 +219,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2364,
-    "mediaCount": 4,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

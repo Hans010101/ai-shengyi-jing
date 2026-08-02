@@ -167,16 +167,60 @@
       "context": "source-article-body"
     },
     {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/8_CpduhcvM4",
-      "watchUrl": "https://www.youtube.com/watch?v=8_CpduhcvM4",
-      "caption": "AI视频录制工具资料中提及的视频：The story of Vmaker by Raghav - CEO, Animaker",
-      "alt": "The story of Vmaker by Raghav - CEO, Animaker",
-      "sourceUrl": "https://www.starterstory.com/stories/on-launching-a-video-communication-tool-with-30k-users",
-      "origin": "embeddable-video",
-      "poster": "https://i.ytimg.com/vi/8_CpduhcvM4/hqdefault.jpg",
-      "provider": "YouTube",
-      "usage": ""
+      "type": "video-file",
+      "url": "https://www.vmaker.com/assets/video/short-vmaker.mp4",
+      "watchUrl": "https://www.vmaker.com/assets/video/short-vmaker.mp4",
+      "poster": "https://www.vmaker.com/assets/img/vmaker-ai-720.webp",
+      "caption": "AI视频录制工具官网：产品界面与核心功能展示",
+      "alt": "AI视频录制工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.vmaker.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://www.vmaker.com/assets/video/text-to-video.mp4",
+      "watchUrl": "https://www.vmaker.com/assets/video/text-to-video.mp4",
+      "poster": "https://www.vmaker.com/static/img/vmakerhomenew/ai-home-og.png",
+      "caption": "AI视频录制工具官网：产品界面与核心功能展示",
+      "alt": "AI视频录制工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.vmaker.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://www.vmaker.com/assets/video/audio-to-video.mp4",
+      "watchUrl": "https://www.vmaker.com/assets/video/audio-to-video.mp4",
+      "poster": "https://www.vmaker.com/static/img/vmakerhomenew/ai-home-og.png",
+      "caption": "AI视频录制工具官网：产品界面与核心功能展示",
+      "alt": "AI视频录制工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.vmaker.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://www.vmaker.com/assets/img/ai-editor.webp",
+      "caption": "AI视频录制工具官网：官网展示的产品与实际使用场景",
+      "alt": "AI视频录制工具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.vmaker.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.vmaker.com/assets/img/wow.webp",
+      "caption": "AI视频录制工具官网：官网展示的产品与实际使用场景",
+      "alt": "AI视频录制工具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.vmaker.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -191,7 +235,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2497,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

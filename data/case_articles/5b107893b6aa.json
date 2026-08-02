@@ -168,9 +168,39 @@
     },
     {
       "type": "image",
+      "url": "https://naturesgift.com/wp-content/uploads/2025/05/NAHA-seal-for-site.jpg",
+      "caption": "进口精油零售官网：产品界面与核心功能展示",
+      "alt": "进口精油零售官网：产品界面与核心功能展示",
+      "sourceUrl": "https://naturesgift.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/151/original/data?1629185285",
       "caption": "进口精油零售：产品设计与早期打磨相关原始配图（第3张）",
       "alt": "进口精油零售：产品设计与早期打磨相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-was-told-i-could-never-work-again-instead-i-started-a-900k-year-aromatherapy-business",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/152/original/open-uri20210817-3-esj3ky?1629185285",
+      "caption": "进口精油零售：产品设计与早期打磨相关原始配图（第4张）",
+      "alt": "进口精油零售：产品设计与早期打磨相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-was-told-i-could-never-work-again-instead-i-started-a-900k-year-aromatherapy-business",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/153/original/open-uri20210817-3-nwqr0q?1629185285",
+      "caption": "进口精油零售：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "进口精油零售：产品上线与首次发布相关原始配图（第5张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-was-told-i-could-never-work-again-instead-i-started-a-900k-year-aromatherapy-business",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +219,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2438,
-    "mediaCount": 4,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

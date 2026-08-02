@@ -168,13 +168,59 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/178/original/open-uri20220510-24-19qnahm?1652199406",
-      "caption": "AI生成社交媒体营销内容：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "alt": "AI生成社交媒体营销内容：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/predis",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://predis.ai/assets/img/customer-stories/kim-featured.webp",
+      "caption": "AI生成社交媒体营销内容官网：官网展示的产品与实际使用场景",
+      "alt": "AI生成社交媒体营销内容官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://predis.ai/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://predis.ai/assets/img/new-design/home/ai-product-photoshoot.webp",
+      "caption": "AI生成社交媒体营销内容官网：社交媒体内容与营销活动场景",
+      "alt": "AI生成社交媒体营销内容官网：社交媒体内容与营销活动场景",
+      "sourceUrl": "https://predis.ai/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "video-file",
+      "url": "https://predis.ai/predis-ai-ad-generator/assets/work/01.webm",
+      "watchUrl": "https://predis.ai/predis-ai-ad-generator/assets/work/01.webm",
+      "poster": "https://predis.ai/predis-ai-ad-generator/assets/work/01.jpg",
+      "caption": "AI生成社交媒体营销内容官网：产品界面与核心功能展示",
+      "alt": "AI生成社交媒体营销内容官网：产品界面与核心功能展示",
+      "sourceUrl": "https://predis.ai/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://predis.ai/predis-ai-ad-generator/assets/work/02.webm",
+      "watchUrl": "https://predis.ai/predis-ai-ad-generator/assets/work/02.webm",
+      "poster": "https://predis.ai/predis-ai-ad-generator/assets/work/02.jpg",
+      "caption": "AI生成社交媒体营销内容官网：产品界面与核心功能展示",
+      "alt": "AI生成社交媒体营销内容官网：产品界面与核心功能展示",
+      "sourceUrl": "https://predis.ai/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://predis.ai/predis-ai-ad-generator/assets/work/03.webm",
+      "watchUrl": "https://predis.ai/predis-ai-ad-generator/assets/work/03.webm",
+      "poster": "https://predis.ai/predis-ai-ad-generator/assets/work/03.jpg",
+      "caption": "AI生成社交媒体营销内容官网：产品界面与核心功能展示",
+      "alt": "AI生成社交媒体营销内容官网：产品界面与核心功能展示",
+      "sourceUrl": "https://predis.ai/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -189,7 +235,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2525,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

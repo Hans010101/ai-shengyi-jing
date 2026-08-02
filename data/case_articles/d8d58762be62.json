@@ -158,13 +158,26 @@
     },
     {
       "type": "video",
-      "url": "https://www.youtube.com/embed/wytzYSfHBD4",
-      "watchUrl": "https://www.youtube.com/watch?v=wytzYSfHBD4",
-      "caption": "教人做停车场垃圾清理的绿色小生意：创始人、核心产品与品牌起点相关视频",
-      "alt": "教人做停车场垃圾清理的绿色小生意相关视频",
+      "url": "https://www.youtube.com/embed/uYu9LpJJP1E",
+      "watchUrl": "https://www.youtube.com/watch?v=uYu9LpJJP1E",
+      "caption": "教人做停车场垃圾清理的绿色小生意资料中提及的视频：Ep: #59 Making 6 Figures Picking Up Trash? The Secret To Cleaning Up In The Cleaning Biz-Brian Winch",
+      "alt": "Ep: #59 Making 6 Figures Picking Up Trash? The Secret To Cleaning Up In The Cleaning Biz-Brian Winch",
       "sourceUrl": "https://cleanlots.com/",
       "origin": "embeddable-video",
-      "poster": "https://i.ytimg.com/vi/wytzYSfHBD4/hqdefault.jpg",
+      "poster": "https://i.ytimg.com/vi/uYu9LpJJP1E/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/BT5pm3rxCnQ",
+      "watchUrl": "https://www.youtube.com/watch?v=BT5pm3rxCnQ",
+      "caption": "教人做停车场垃圾清理的绿色小生意资料中提及的视频：A Simple Business - with Brian Winch",
+      "alt": "A Simple Business - with Brian Winch",
+      "sourceUrl": "https://cleanlots.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/BT5pm3rxCnQ/hqdefault.jpg",
       "provider": "YouTube",
       "usage": "official-site-reference",
       "context": "official-product-video"
@@ -184,13 +197,39 @@
     },
     {
       "type": "video",
-      "url": "https://www.youtube.com/embed/uYu9LpJJP1E",
-      "watchUrl": "https://www.youtube.com/watch?v=uYu9LpJJP1E",
-      "caption": "教人做停车场垃圾清理的绿色小生意资料中提及的视频：Ep: #59 Making 6 Figures Picking Up Trash? The Secret To Cleaning Up In The Cleaning Biz-Brian Winch",
-      "alt": "Ep: #59 Making 6 Figures Picking Up Trash? The Secret To Cleaning Up In The Cleaning Biz-Brian Winch",
+      "url": "https://www.youtube.com/embed/9K_XWGkGvPc",
+      "watchUrl": "https://www.youtube.com/watch?v=9K_XWGkGvPc",
+      "caption": "教人做停车场垃圾清理的绿色小生意资料中提及的视频：BWCA S6:E10 - From Trash to TV, Learn about Brian's 6 Figure \"Side Hustle\".",
+      "alt": "BWCA S6:E10 - From Trash to TV, Learn about Brian's 6 Figure \"Side Hustle\".",
       "sourceUrl": "https://cleanlots.com/",
       "origin": "embeddable-video",
-      "poster": "https://i.ytimg.com/vi/uYu9LpJJP1E/hqdefault.jpg",
+      "poster": "https://i.ytimg.com/vi/9K_XWGkGvPc/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/DJXFzBLed8E",
+      "watchUrl": "https://www.youtube.com/watch?v=DJXFzBLed8E",
+      "caption": "教人做停车场垃圾清理的绿色小生意资料中提及的视频：Cleanlots - America s Simplest Business",
+      "alt": "Cleanlots - America s Simplest Business",
+      "sourceUrl": "https://cleanlots.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/DJXFzBLed8E/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/wytzYSfHBD4",
+      "watchUrl": "https://www.youtube.com/watch?v=wytzYSfHBD4",
+      "caption": "教人做停车场垃圾清理的绿色小生意：创始人、核心产品与品牌起点相关视频",
+      "alt": "教人做停车场垃圾清理的绿色小生意相关视频",
+      "sourceUrl": "https://cleanlots.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/wytzYSfHBD4/hqdefault.jpg",
       "provider": "YouTube",
       "usage": "official-site-reference",
       "context": "official-product-video"
@@ -208,11 +247,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2467,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

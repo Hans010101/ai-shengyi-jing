@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/584/original/open-uri20211026-3-13u6lcw?1635281022",
+      "caption": "为服务公司提供AI盈利优化工具：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "为服务公司提供AI盈利优化工具：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-built-a-profitability-tool-for-service-companies-and-earn-1-24m-year",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/585/original/open-uri20211026-3-hsr8gq?1635281023",
+      "caption": "为服务公司提供AI盈利优化工具：业务工具与运营系统相关原始配图（第5张）",
+      "alt": "为服务公司提供AI盈利优化工具：业务工具与运营系统相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-built-a-profitability-tool-for-service-companies-and-earn-1-24m-year",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/VLWtGYPmgqM",
       "watchUrl": "https://www.youtube.com/watch?v=VLWtGYPmgqM",
@@ -201,7 +221,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2492,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:no-semantic-media",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:no-semantic-media",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

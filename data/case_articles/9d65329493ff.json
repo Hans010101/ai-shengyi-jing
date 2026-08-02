@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "21岁创业者的产品与交付路径",
+      "items": [
+        "用户注册",
+        "导入客户列表",
+        "AI生成个性化邮件",
+        "自动发送与跟进"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "21岁创业者的中国市场验证路线",
+      "items": [
+        "搭建最小可行产品，核心功能包括邮件模板、联系人管理、自动发送和基础分析，使用SendGrid等API。",
+        "聚焦一个细分行业（如SaaS），提供行业定制模板和最佳实践，通过LinkedIn或行业社区获取前100个付费用户。",
+        "迭代优化，加入AI个性化推荐、A/B测试和CRM集成，通过用户案例和口碑传播实现增长。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2469,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

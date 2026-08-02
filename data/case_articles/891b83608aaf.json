@@ -167,10 +167,53 @@
       "context": "source-article-body"
     },
     {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/5rHCSa5ad34",
+      "watchUrl": "https://www.youtube.com/watch?v=5rHCSa5ad34",
+      "caption": "开源桌面项目管理软件资料中提及的视频：Introduction into GanttProject 2.5",
+      "alt": "Introduction into GanttProject 2.5",
+      "sourceUrl": "https://www.ganttproject.biz/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/5rHCSa5ad34/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://www.ganttproject.biz/img/ganttproject_128.png",
+      "caption": "开源桌面项目管理软件官网：产品界面与核心功能展示",
+      "alt": "开源桌面项目管理软件官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.ganttproject.biz/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/729/original/open-uri20220102-3-fwxzpl?1641159122",
       "caption": "开源桌面项目管理软件：当前经营状态与下一步规划相关原始配图（第3张）",
       "alt": "开源桌面项目管理软件：当前经营状态与下一步规划相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-grew-my-open-source-software-side-project-to-3k-month-0-spent-on-ads",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/730/original/open-uri20220102-3-af0079?1641159122",
+      "caption": "开源桌面项目管理软件：当前经营状态与下一步规划相关原始配图（第4张）",
+      "alt": "开源桌面项目管理软件：当前经营状态与下一步规划相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-grew-my-open-source-software-side-project-to-3k-month-0-spent-on-ads",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/731/original/open-uri20220102-3-4dqfwo?1641159123",
+      "caption": "开源桌面项目管理软件：学习方法与行业资源相关原始配图（第5张）",
+      "alt": "开源桌面项目管理软件：学习方法与行业资源相关原始配图（第5张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-grew-my-open-source-software-side-project-to-3k-month-0-spent-on-ads",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +232,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2542,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

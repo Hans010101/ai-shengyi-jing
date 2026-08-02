@@ -168,6 +168,26 @@
     },
     {
       "type": "image",
+      "url": "https://online-solitaire.com/images/frontpage_solitaire_desktop@3x.jpg?v=40c009377f10d735aa0f82cc0b6b21d30e28a377",
+      "caption": "在线纸牌游戏网站官网：官网展示的产品与实际使用场景",
+      "alt": "在线纸牌游戏网站官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://online-solitaire.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://online-solitaire.com/images/frontpage_solitaire_desktop@2x.jpg?v=40c009377f10d735aa0f82cc0b6b21d30e28a377",
+      "caption": "在线纸牌游戏网站官网：产品界面与核心功能展示",
+      "alt": "在线纸牌游戏网站官网：产品界面与核心功能展示",
+      "sourceUrl": "https://online-solitaire.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/974/original/open-uri20210927-3-1cm4151?1632749168",
       "caption": "在线纸牌游戏网站：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "alt": "在线纸牌游戏网站：创始人、核心产品与品牌起点相关原始配图（第3张）",
@@ -189,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2415,
-    "mediaCount": 4,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

@@ -168,6 +168,46 @@
     },
     {
       "type": "image",
+      "url": "https://kahindo.com/cdn/shop/products/cleopatra-maxi-dress-kahindo-1.jpg?v=1762531410&width=945",
+      "caption": "非洲裔设计师创立的奢华可持续女装品牌官网：官网展示的产品与实际使用场景",
+      "alt": "非洲裔设计师创立的奢华可持续女装品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://kahindo.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://kahindo.com/cdn/shop/products/chidi-midi-dress-kahindo-1.jpg?v=1762531420&width=945",
+      "caption": "非洲裔设计师创立的奢华可持续女装品牌官网：官网展示的产品与实际使用场景",
+      "alt": "非洲裔设计师创立的奢华可持续女装品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://kahindo.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://kahindo.com/cdn/shop/articles/KAHINDO_carousel_slide_1_e492f6fa-d66a-4d54-ac98-38d6805163b8.png?v=1781880801&width=1000",
+      "caption": "非洲裔设计师创立的奢华可持续女装品牌官网：官网展示的产品与实际使用场景",
+      "alt": "非洲裔设计师创立的奢华可持续女装品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://kahindo.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "http://kahindo.com/cdn/shop/files/Photo_Mar_22_2026_8_36_31_AM.jpg?v=1775682793&width=2048",
+      "caption": "非洲裔设计师创立的奢华可持续女装品牌官网：产品界面与核心功能展示",
+      "alt": "非洲裔设计师创立的奢华可持续女装品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://kahindo.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/418/original/open-uri20220221-3-zoyanu?1645457577",
       "caption": "非洲裔设计师创立的奢华可持续女装品牌：创业起点与创意来源相关原始配图（第3张）",
       "alt": "非洲裔设计师创立的奢华可持续女装品牌：创业起点与创意来源相关原始配图（第3张）",
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2490,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

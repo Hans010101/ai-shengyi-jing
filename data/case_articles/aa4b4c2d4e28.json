@@ -168,6 +168,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "云成本优化平台的产品与交付路径",
+      "items": [
+        "用户上传云账单",
+        "数据解析模块",
+        "成本优化引擎",
+        "转售管理模块"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "云成本优化平台的中国市场验证路线",
+      "items": [
+        "市场调研，确定目标客户（如云代理商或大型企业），分析其成本管理痛点，并研究阿里云、腾讯云等API。",
+        "开发MVP，实现云账单导入、成本分析、优化建议功能，集成主流云API，提供简单的仪表盘。",
+        "上线免费试用，通过行业社群和内容营销推广，收集反馈，迭代优化，并设计订阅定价，引导付费。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -182,11 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2552,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:content-root-missing|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:ok",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

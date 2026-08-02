@@ -168,9 +168,49 @@
     },
     {
       "type": "image",
+      "url": "https://d2qp0siotla746.cloudfront.net/img/home/hero.jpg",
+      "caption": "为非设计师提供简易在线图形设计工具官网：官网展示的产品与实际使用场景",
+      "alt": "为非设计师提供简易在线图形设计工具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://snappa.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://d2qp0siotla746.cloudfront.net/img/home/share-graphics.jpg",
+      "caption": "为非设计师提供简易在线图形设计工具官网：社交媒体内容与营销活动场景",
+      "alt": "为非设计师提供简易在线图形设计工具官网：社交媒体内容与营销活动场景",
+      "sourceUrl": "https://snappa.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://d2qp0siotla746.cloudfront.net/img/og-image.jpg",
+      "caption": "为非设计师提供简易在线图形设计工具官网：产品界面与核心功能展示",
+      "alt": "为非设计师提供简易在线图形设计工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://snappa.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/038/original/open-uri20190210-4-a40zab?1549790059",
       "caption": "为非设计师提供简易在线图形设计工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "alt": "为非设计师提供简易在线图形设计工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-two-friends-bootstrapped-a-saas-business-to-55k-mrr",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/039/original/open-uri20190210-4-19xy6j6?1549790060",
+      "caption": "为非设计师提供简易在线图形设计工具：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "为非设计师提供简易在线图形设计工具：产品上线与首次发布相关原始配图（第4张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-two-friends-bootstrapped-a-saas-business-to-55k-mrr",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2499,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

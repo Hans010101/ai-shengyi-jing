@@ -167,6 +167,34 @@
       "poster": "https://i.ytimg.com/vi/YXSO-wD_ZnE/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "疫情中启动的体育卡和宝可梦卡买卖与评级服务的商业增长闭环",
+      "items": [
+        "【引流】社交媒体分享开箱、评级案例",
+        "【产品】卡片买卖平台+评级服务",
+        "【变现】交易佣金+评级费",
+        "【留存】会员折扣、独家卡牌资讯"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "疫情中启动的体育卡和宝可梦卡买卖与评级服务的产品与交付路径",
+      "items": [
+        "用户注册",
+        "选择卡片买卖或评级服务",
+        "提交卡片/订单",
+        "专家鉴定评级"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -181,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2532,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 3,
+    "logicMedia": 2
   }
 }

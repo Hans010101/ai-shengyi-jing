@@ -168,13 +168,53 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/005/original/open-uri20220318-3-1edg4pq?1647637325",
-      "caption": "线上健身教练服务：创业复盘与关键经验相关原始配图（第3张）",
-      "alt": "线上健身教练服务：创业复盘与关键经验相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/teamfflex",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://www.teamfflex.com/quality_auto/Screenshot%202025-01-21%20at%2012_12_07%E2%80%AFPM.png",
+      "caption": "线上健身教练服务官网：官网展示的产品与实际使用场景",
+      "alt": "线上健身教练服务官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.teamfflex.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.teamfflex.com/quality_auto/BikiniBuilder2021.png",
+      "caption": "线上健身教练服务官网：官网展示的产品与实际使用场景",
+      "alt": "线上健身教练服务官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.teamfflex.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.teamfflex.com/quality_auto/WellnessBuilder2021.png",
+      "caption": "线上健身教练服务官网：官网展示的产品与实际使用场景",
+      "alt": "线上健身教练服务官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.teamfflex.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.teamfflex.com/quality_auto/FigureBuilder%20copy.jpg",
+      "caption": "线上健身教练服务官网：官网展示的产品与实际使用场景",
+      "alt": "线上健身教练服务官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.teamfflex.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://static.wixstatic.com/media/52997f_98ecef87075e4d44992969381d6a8627~mv2.png",
+      "caption": "线上健身教练服务官网：产品界面与核心功能展示",
+      "alt": "线上健身教练服务官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.teamfflex.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2412,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

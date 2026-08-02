@@ -194,6 +194,36 @@
       "provider": "YouTube",
       "usage": "official-site-reference",
       "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://distantjob.com/wp-content/uploads/2025/01/hero-img.webp",
+      "caption": "远程人才招聘中介官网：官网展示的产品与实际使用场景",
+      "alt": "远程人才招聘中介官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://distantjob.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://distantjob.com/wp-content/uploads/2025/01/soulbound_logo-removebg-preview.webp",
+      "caption": "远程人才招聘中介官网：官网展示的产品与实际使用场景",
+      "alt": "远程人才招聘中介官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://distantjob.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://distantjob.com/wp-content/uploads/2024/12/22nd-Jan-DJ-VISUAL-9-DistantJob.png",
+      "caption": "远程人才招聘中介官网：产品界面与核心功能展示",
+      "alt": "远程人才招聘中介官网：产品界面与核心功能展示",
+      "sourceUrl": "https://distantjob.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -208,11 +238,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2396,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

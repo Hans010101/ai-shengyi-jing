@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "帮助企业申请研发税收抵免的SaaS平台的中国市场验证路线",
+      "items": [
+        "开发AI引擎，接入中国税法规则，支持自动识别研发费用类别（如人员人工、直接投入等），并生成合规申报表。",
+        "与地方税务局或代账公司合作获取初始客户，提供免费试用，按节税效果收费，降低客户决策风险。",
+        "建立财税专家团队，提供人工复核服务兜底，同时积累案例数据优化AI模型，逐步拓展到其他税收优惠场景。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "帮助企业申请研发税收抵免的SaaS平台的经营验证仪表盘",
+      "items": [
+        "帮助企业申请研发税收抵免的SaaS平台，按成功减免额收费。",
+        "SaaS+结果分成：客户提交研发数据，AI自动计算可抵扣税额并生成申报材料，平台按减免金额的10%-20%收费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2537,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

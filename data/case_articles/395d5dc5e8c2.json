@@ -168,9 +168,49 @@
     },
     {
       "type": "image",
+      "url": "https://www.marketbeat.com/images/MBAA-Features-small.png",
+      "caption": "金融媒体平台官网：产品界面与核心功能展示",
+      "alt": "金融媒体平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.marketbeat.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://c.statcounter.com/11737899/0/f8e30cc4/1/",
+      "caption": "金融媒体平台官网：数据分析与决策功能界面",
+      "alt": "金融媒体平台官网：数据分析与决策功能界面",
+      "sourceUrl": "https://www.marketbeat.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://c.statcounter.com/7602069/0/74cbf3e8/1/",
+      "caption": "金融媒体平台官网：数据分析与决策功能界面",
+      "alt": "金融媒体平台官网：数据分析与决策功能界面",
+      "sourceUrl": "https://www.marketbeat.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/967/original/open-uri20210127-3-aa5s1h?1611773988",
       "caption": "金融媒体平台：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "alt": "金融媒体平台：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/marketbeat-update-how-we-increased-revenue-from-8m-to-14m-year",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/968/original/open-uri20210127-3-1pt3ri7?1611773989",
+      "caption": "金融媒体平台：创业复盘与关键经验相关原始配图（第4张）",
+      "alt": "金融媒体平台：创业复盘与关键经验相关原始配图（第4张）",
       "sourceUrl": "https://www.starterstory.com/stories/marketbeat-update-how-we-increased-revenue-from-8m-to-14m-year",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2389,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

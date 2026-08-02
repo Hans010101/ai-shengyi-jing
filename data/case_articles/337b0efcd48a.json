@@ -167,6 +167,34 @@
       "poster": "https://i.ytimg.com/vi/Tn_DCDFAOjg/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "篮球场地图应用的商业增长闭环",
+      "items": [
+        "【引流】社交媒体病毒传播（如抖音挑战赛）",
+        "【产品】球场地图+约球功能",
+        "【变现】广告+会员订阅+场地合作抽成",
+        "【留存】社区互动+比赛记录+积分系统"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "篮球场地图应用的产品与交付路径",
+      "items": [
+        "用户注册",
+        "定位附近球场",
+        "查看球场详情（人数、时间）",
+        "加入或创建比赛"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -181,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2429,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:HTTPError",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:HTTPError",
+    "realMedia": 3,
+    "logicMedia": 2
   }
 }

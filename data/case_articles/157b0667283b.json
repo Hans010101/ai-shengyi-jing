@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "播客商业化案例的产品与交付路径",
+      "items": [
+        "内容策划",
+        "嘉宾邀约",
+        "录制与编辑",
+        "多平台分发"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "播客商业化案例的中国市场验证路线",
+      "items": [
+        "选定细分赛道（如AI创业），注册播客平台，录制10期样片，明确内容定位。",
+        "通过LinkedIn、行业社群联系潜在嘉宾，提供价值互推，积累初期口碑。",
+        "制作媒体包，联系中小品牌洽谈广告合作，定价按CPM或固定费用，逐步提价。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,11 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2443,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ReadTimeout",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:HTTPError",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:HTTPError",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

@@ -175,6 +175,38 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/535/original/open-uri20211026-3-7468hj?1635272025",
+      "caption": "销售自动化软件：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "销售自动化软件：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-came-home-from-africa-to-build-a-200k-year-sales-automation-software",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/536/original/open-uri20211026-3-879ru4?1635272030",
+      "caption": "销售自动化软件：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "销售自动化软件：产品上线与首次发布相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-came-home-from-africa-to-build-a-200k-year-sales-automation-software",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/Cg1kn0WsBDQ",
+      "watchUrl": "https://www.youtube.com/watch?v=Cg1kn0WsBDQ",
+      "caption": "销售自动化软件资料中提及的视频：Kickass Lead Promo",
+      "alt": "Kickass Lead Promo",
+      "sourceUrl": "https://www.starterstory.com/stories/i-came-home-from-africa-to-build-a-200k-year-sales-automation-software",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/Cg1kn0WsBDQ/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -189,7 +221,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2461,
-    "mediaCount": 4,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

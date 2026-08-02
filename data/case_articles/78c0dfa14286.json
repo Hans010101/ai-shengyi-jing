@@ -168,9 +168,49 @@
     },
     {
       "type": "image",
+      "url": "https://cdn.productfocus.com/wp/wp-content/uploads/2026/02/Cream-test-1-scaled.png?tr=w-2200,h-780",
+      "caption": "面向产品经理的在线培训课程官网：产品界面与核心功能展示",
+      "alt": "面向产品经理的在线培训课程官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.productfocus.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.productfocus.com/wp/wp-content/uploads/2022/05/Online-Product-Leader-Training-700x476.jpg?tr=w-350",
+      "caption": "面向产品经理的在线培训课程官网：官网展示的产品与实际使用场景",
+      "alt": "面向产品经理的在线培训课程官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.productfocus.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/699/original/open-uri20220102-3-7fk7d?1641110849",
       "caption": "面向产品经理的在线培训课程：产品上线与首次发布相关原始配图（第3张）",
       "alt": "面向产品经理的在线培训课程：产品上线与首次发布相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-created-a-1-8m-year-product-management-course",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/700/original/open-uri20220102-3-1aous9m?1641110851",
+      "caption": "面向产品经理的在线培训课程：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "面向产品经理的在线培训课程：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-created-a-1-8m-year-product-management-course",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/701/original/open-uri20220102-3-1s5am4e?1641110851",
+      "caption": "面向产品经理的在线培训课程：创业复盘与关键经验相关原始配图（第5张）",
+      "alt": "面向产品经理的在线培训课程：创业复盘与关键经验相关原始配图（第5张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-created-a-1-8m-year-product-management-course",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2460,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "Uma帮助女性和少数族裔重返职场的产品与交付路径",
+      "items": [
+        "用户注册",
+        "职业评估",
+        "AI匹配课程/导师",
+        "付费解锁服务"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "Uma帮助女性和少数族裔重返职场的中国市场验证路线",
+      "items": [
+        "聚焦细分人群（如产后返岗女性），在知乎、小红书发布职业转型干货，积累初始粉丝。",
+        "与3-5家企业HR合作推出免费试听课程，收集案例和口碑，同时申请主流媒体采访。",
+        "开发标准化线上课程（199元/节）和高端1对1咨询（2000元/小时），通过企业团购和个人订阅实现收入。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,11 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2472,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ConnectionError",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ConnectionError",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ConnectionError",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

@@ -168,13 +168,55 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/158/original/open-uri20211008-3-1yxaiy2?1633715046",
-      "caption": "帮商家管理差评的SaaS平台：产品上线与首次发布相关原始配图（第3张）",
-      "alt": "帮商家管理差评的SaaS平台：产品上线与首次发布相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/i-helping-businesses-deal-with-bad-online-reviews",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://reviewinc.com/wp-content/uploads/2025/01/Review-Online-Reputation-Management-Software-Dashboard-Splash.webp",
+      "caption": "帮商家管理差评的SaaS平台官网：产品界面与核心功能展示",
+      "alt": "帮商家管理差评的SaaS平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://reviewinc.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "video-file",
+      "url": "https://staticshared-ayb4fhhcb3c5h4fh.a02.azurefd.net/staticshared/ReviewIncMain/Videos/ReviewincReviewManagementCompressed.mp4",
+      "watchUrl": "https://staticshared-ayb4fhhcb3c5h4fh.a02.azurefd.net/staticshared/ReviewIncMain/Videos/ReviewincReviewManagementCompressed.mp4",
+      "poster": "https://reviewinc.com/wp-content/uploads/2026/04/review-reputation-management-demo-2026.png",
+      "caption": "帮商家管理差评的SaaS平台官网：产品界面与核心功能展示",
+      "alt": "帮商家管理差评的SaaS平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://reviewinc.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://reviewinc.com/wp-content/uploads/2026/04/reputation-and-review-management-partner-e1776374218838-768x512.webp",
+      "caption": "帮商家管理差评的SaaS平台官网：产品界面与核心功能展示",
+      "alt": "帮商家管理差评的SaaS平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://reviewinc.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://reviewinc.com/wp-content/uploads/2024/06/how-can-we-help-ReviewInc-768x432.webp",
+      "caption": "帮商家管理差评的SaaS平台官网：产品界面与核心功能展示",
+      "alt": "帮商家管理差评的SaaS平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://reviewinc.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://reviewinc.com/wp-content/uploads/2026/05/social-reputation-management-update-768x512.webp",
+      "caption": "帮商家管理差评的SaaS平台官网：社交媒体内容与营销活动场景",
+      "alt": "帮商家管理差评的SaaS平台官网：社交媒体内容与营销活动场景",
+      "sourceUrl": "https://reviewinc.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +231,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2446,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

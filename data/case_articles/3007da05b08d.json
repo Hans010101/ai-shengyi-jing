@@ -165,6 +165,46 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://newlawbusinessmodel.com/hs-fs/hubfs/Homepage-Hero-v4.jpg?width=1920&name=Homepage-Hero-v4.jpg",
+      "caption": "指导律师转型家族财富规划官网：官网展示的产品与实际使用场景",
+      "alt": "指导律师转型家族财富规划官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://newlawbusinessmodel.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://newlawbusinessmodel.com/hs-fs/hubfs/Case-study-hero.png?width=600&name=Case-study-hero.png",
+      "caption": "指导律师转型家族财富规划官网：官网展示的产品与实际使用场景",
+      "alt": "指导律师转型家族财富规划官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://newlawbusinessmodel.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://newlawbusinessmodel.com/hubfs/David-Feakes-circle-3.png",
+      "caption": "指导律师转型家族财富规划官网：产品界面与核心功能展示",
+      "alt": "指导律师转型家族财富规划官网：产品界面与核心功能展示",
+      "sourceUrl": "https://newlawbusinessmodel.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://newlawbusinessmodel.com/hubfs/Screen-Shot-2022-08-31-at-10.28.14-AM-circle-3.png",
+      "caption": "指导律师转型家族财富规划官网：产品界面与核心功能展示",
+      "alt": "指导律师转型家族财富规划官网：产品界面与核心功能展示",
+      "sourceUrl": "https://newlawbusinessmodel.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -179,7 +219,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2422,
-    "mediaCount": 3,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

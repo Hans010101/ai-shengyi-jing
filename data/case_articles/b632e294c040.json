@@ -191,6 +191,45 @@
       "provider": "Vimeo",
       "usage": "official-site-reference",
       "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://player.vimeo.com/video/896277309",
+      "watchUrl": "https://vimeo.com/896277309",
+      "caption": "自助视频制作平台资料中提及的视频：34880-HelenOfTroy-Vicks-Hero-45Sec-1920x1080-16x9-5632216570-vFINAL",
+      "alt": "34880-HelenOfTroy-Vicks-Hero-45Sec-1920x1080-16x9-5632216570-vFINAL",
+      "sourceUrl": "https://www.lemonlight.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.vimeocdn.com/video/1803094126-3da9a15055e08b6d5b52c875ada2d7121b3d0cf87076839b6fa170344f8cfa3f-d_295x166?region=us",
+      "provider": "Vimeo",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://player.vimeo.com/video/871926012",
+      "watchUrl": "https://vimeo.com/871926012",
+      "caption": "自助视频制作平台资料中提及的视频：34412-theFifth_Edmunds-30s_Hero_1920x1080-Dealership-5022418590-v7_2",
+      "alt": "34412-theFifth_Edmunds-30s_Hero_1920x1080-Dealership-5022418590-v7_2",
+      "sourceUrl": "https://www.lemonlight.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.vimeocdn.com/video/1734643392-eae2aedc7af30887c55a7404bbae5d9346ee44a30b20d6b725e82d6f2acf1ac6-d_295x166?region=us",
+      "provider": "Vimeo",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://player.vimeo.com/video/906824463",
+      "watchUrl": "https://vimeo.com/906824463",
+      "caption": "自助视频制作平台资料中提及的视频：40065-Walmart Maui-aspect-90s-1920x1080-5940406544-vFINAL",
+      "alt": "40065-Walmart Maui-aspect-90s-1920x1080-5940406544-vFINAL",
+      "sourceUrl": "https://www.lemonlight.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.vimeocdn.com/video/1929920814-536bc846d11e48e660dd2dd036f53febe5204fc704d2976c3da555f7a10452ee-d_295x166?region=us",
+      "provider": "Vimeo",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -205,11 +244,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2504,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

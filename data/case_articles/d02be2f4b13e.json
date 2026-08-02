@@ -168,25 +168,53 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/006/578/original/open-uri20200610-4-1w67zyv?1591829742",
-      "caption": "CBD保健品电商：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "alt": "CBD保健品电商：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-re-focusing-on-long-term-marketing-and-measurable-channels",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://populum.com/cdn/shop/products/250mgnewfeaturev5.jpg?v=1661911210",
+      "caption": "CBD保健品电商官网：产品界面与核心功能展示",
+      "alt": "CBD保健品电商官网：产品界面与核心功能展示",
+      "sourceUrl": "https://populum.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/vIea19q8ARA",
-      "watchUrl": "https://www.youtube.com/watch?v=vIea19q8ARA",
-      "caption": "CBD保健品电商：创始人、核心产品与品牌起点相关视频",
-      "alt": "CBD保健品电商相关视频",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-re-focusing-on-long-term-marketing-and-measurable-channels",
-      "origin": "embeddable-video",
-      "poster": "https://i.ytimg.com/vi/vIea19q8ARA/hqdefault.jpg",
-      "provider": "YouTube",
-      "usage": ""
+      "type": "image",
+      "url": "https://populum.com/cdn/shop/products/2.png?v=1661911215",
+      "caption": "CBD保健品电商官网：产品界面与核心功能展示",
+      "alt": "CBD保健品电商官网：产品界面与核心功能展示",
+      "sourceUrl": "https://populum.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://populum.com/cdn/shop/products/9.png?v=1758134412",
+      "caption": "CBD保健品电商官网：官网展示的产品与实际使用场景",
+      "alt": "CBD保健品电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://populum.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://populum.com/cdn/shop/products/POPULUM_PHOENIX_032019-8968_copyresized_1800px.JPG?v=1758134412",
+      "caption": "CBD保健品电商官网：官网展示的产品与实际使用场景",
+      "alt": "CBD保健品电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://populum.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://populum.com/cdn/shop/products/12.webp?v=1663332108",
+      "caption": "CBD保健品电商官网：官网展示的产品与实际使用场景",
+      "alt": "CBD保健品电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://populum.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -201,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2488,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

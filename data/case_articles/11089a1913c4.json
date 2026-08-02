@@ -168,13 +168,65 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/120/original/open-uri20211124-3-1vwcjt5?1637784413",
-      "caption": "为学校提供SIS系统及在线招生财务工具：产品上线与首次发布相关原始配图（第3张）",
-      "alt": "为学校提供SIS系统及在线招生财务工具：产品上线与首次发布相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/our-comprehensive-student-information-system-yeilds-in-1-2m-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://gradelink.com/wp-content/uploads/2019/06/GradelinkPreview.jpg",
+      "caption": "为学校提供SIS系统及在线招生财务工具官网：产品界面与核心功能展示",
+      "alt": "为学校提供SIS系统及在线招生财务工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://gradelink.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/SYWOKNZYqQU",
+      "watchUrl": "https://www.youtube.com/watch?v=SYWOKNZYqQU",
+      "caption": "为学校提供SIS系统及在线招生财务工具资料中提及的视频：Gradelink SIS Saves Schools Time",
+      "alt": "Gradelink SIS Saves Schools Time",
+      "sourceUrl": "https://gradelink.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/SYWOKNZYqQU/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/3IDyyevULQA",
+      "watchUrl": "https://www.youtube.com/watch?v=3IDyyevULQA",
+      "caption": "为学校提供SIS系统及在线招生财务工具资料中提及的视频：The Best SIS Program Available for Schools",
+      "alt": "The Best SIS Program Available for Schools",
+      "sourceUrl": "https://gradelink.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/3IDyyevULQA/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/W_FMmxOQBgo",
+      "watchUrl": "https://www.youtube.com/watch?v=W_FMmxOQBgo",
+      "caption": "为学校提供SIS系统及在线招生财务工具资料中提及的视频：Gradelink Continually Gets Rated as the Best SIS Program Available",
+      "alt": "Gradelink Continually Gets Rated as the Best SIS Program Available",
+      "sourceUrl": "https://gradelink.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/W_FMmxOQBgo/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/NxuyEsCZ2Nc",
+      "watchUrl": "https://www.youtube.com/watch?v=NxuyEsCZ2Nc",
+      "caption": "为学校提供SIS系统及在线招生财务工具资料中提及的视频：School Websites Made Easy",
+      "alt": "School Websites Made Easy",
+      "sourceUrl": "https://gradelink.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/NxuyEsCZ2Nc/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -189,7 +241,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2547,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

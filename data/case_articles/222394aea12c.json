@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "TikTok营销卖腿毛剃刀的产品与交付路径",
+      "items": [
+        "TikTok内容引流",
+        "独立站着陆页",
+        "产品购买",
+        "支付完成"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "TikTok营销卖腿毛剃刀的中国市场验证路线",
+      "items": [
+        "在1688或义乌采购类似剃刀（成本<$5），设计差异化卖点（如可剃后颈），定制包装和品牌。",
+        "注册TikTok/抖音账号，拍摄剃毛前后对比、使用场景等短平快视频，使用热门标签和音乐。",
+        "搭建Shopify或微信小程序店铺，定价¥99-129，通过TikTok/抖音橱窗或直播带货，初期可免费送产品换用户测评视频。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,11 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2485,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "no-semantic-media",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:no-semantic-media",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:no-semantic-media",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

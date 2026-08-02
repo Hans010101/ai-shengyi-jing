@@ -167,6 +167,16 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://mostrecommendedbooks.com/og-default.webp",
+      "caption": "推荐名人推荐书籍官网：产品界面与核心功能展示",
+      "alt": "推荐名人推荐书籍官网：产品界面与核心功能展示",
+      "sourceUrl": "https://mostrecommendedbooks.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/mBlJVazr4A0",
       "watchUrl": "https://www.youtube.com/watch?v=mBlJVazr4A0",
@@ -191,7 +201,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2427,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 5,
+    "logicMedia": 0
   }
 }

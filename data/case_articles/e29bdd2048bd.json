@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/458/original/open-uri20211020-3-iuwrbt?1634756860",
+      "caption": "网站聊天工具：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "网站聊天工具：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-built-a-website-chat-tool-grew-it-to-30k-arr",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/459/original/open-uri20211020-3-d8j7v?1634756861",
+      "caption": "网站聊天工具：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "网站聊天工具：产品上线与首次发布相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-built-a-website-chat-tool-grew-it-to-30k-arr",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/BMJGZDnmTfo",
       "watchUrl": "https://www.youtube.com/watch?v=BMJGZDnmTfo",
@@ -185,6 +205,18 @@
       "sourceUrl": "https://www.starterstory.com/stories/i-built-a-website-chat-tool-grew-it-to-30k-arr",
       "origin": "embeddable-video",
       "poster": "https://i.ytimg.com/vi/BMJGZDnmTfo/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/Ilg3-1h50g4&t=689s",
+      "watchUrl": "https://www.youtube.com/watch?v=Ilg3-1h50g4&t=689s",
+      "caption": "网站聊天工具资料中提及的视频：Explorando Pabbly Connect: ¿Una alternativa real a Zapier?",
+      "alt": "Explorando Pabbly Connect: ¿Una alternativa real a Zapier?",
+      "sourceUrl": "https://www.starterstory.com/stories/i-built-a-website-chat-tool-grew-it-to-30k-arr",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/Ilg3-1h50g4/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
     }
@@ -201,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2389,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ConnectionError",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ConnectionError",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

@@ -167,14 +167,59 @@
       "context": "source-article-body"
     },
     {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/sTQRb_4o0sI",
+      "watchUrl": "https://www.youtube.com/watch?v=sTQRb_4o0sI",
+      "caption": "前NFL球员创立冰摇杯品牌资料中提及的视频：Shark Tank - Chris Gronkowski Pitches Ice Shaker - Stainless Steel Shakers",
+      "alt": "Shark Tank - Chris Gronkowski Pitches Ice Shaker - Stainless Steel Shakers",
+      "sourceUrl": "https://www.iceshaker.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/sTQRb_4o0sI/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://www.iceshaker.com/cdn/shop/videos/c/vp/a8f5cdee2f334cd4a341ebde5d115114/a8f5cdee2f334cd4a341ebde5d115114.HD-1080p-7.2Mbps-57365976.mp4?v=0",
+      "watchUrl": "https://www.iceshaker.com/cdn/shop/videos/c/vp/a8f5cdee2f334cd4a341ebde5d115114/a8f5cdee2f334cd4a341ebde5d115114.HD-1080p-7.2Mbps-57365976.mp4?v=0",
+      "poster": "https://www.iceshaker.com/cdn/shop/files/preview_images/a8f5cdee2f334cd4a341ebde5d115114.thumbnail.0000000000_small.jpg?v=1757712571",
+      "caption": "前NFL球员创立冰摇杯品牌官网：产品界面与核心功能展示",
+      "alt": "前NFL球员创立冰摇杯品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.iceshaker.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/854/original/open-uri20190124-4-1rxvevi?1548293129",
-      "caption": "前NFL球员创立冰摇杯品牌：产品上线与首次发布相关原始配图（第3张）",
-      "alt": "前NFL球员创立冰摇杯品牌：产品上线与首次发布相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/how-chris-gronkowski-left-the-nfl-and-became-an-entrepreneur",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://www.iceshaker.com/cdn/shop/files/40PALMTREE_FRONT.jpg?v=1781629492&width=1800",
+      "caption": "前NFL球员创立冰摇杯品牌官网：官网展示的产品与实际使用场景",
+      "alt": "前NFL球员创立冰摇杯品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.iceshaker.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.iceshaker.com/cdn/shop/files/40PALMTREE_LIDCLOSEUP.jpg?v=1781629492&width=1800",
+      "caption": "前NFL球员创立冰摇杯品牌官网：官网展示的产品与实际使用场景",
+      "alt": "前NFL球员创立冰摇杯品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.iceshaker.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.iceshaker.com/cdn/shop/files/LEGENDOCEANBREEZE-MAIN.jpg?v=1785337216&width=1800",
+      "caption": "前NFL球员创立冰摇杯品牌官网：官网展示的产品与实际使用场景",
+      "alt": "前NFL球员创立冰摇杯品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.iceshaker.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +234,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2488,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

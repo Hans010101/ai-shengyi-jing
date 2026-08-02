@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "小众AI语音工具的中国市场验证路线",
+      "items": [
+        "选择细分场景（如方言配音、儿童故事），利用开源TTS模型（如Coqui TTS）搭建MVP。",
+        "在小红书、B站发布免费试用教程和效果对比，吸引种子用户，收集反馈迭代。",
+        "设置免费额度（如每日100字），付费解锁高级功能（如情感语调、长文本），定价月费9.9元起。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "小众AI语音工具的经营验证仪表盘",
+      "items": [
+        "小众AI语音工具，通过免费试用+付费订阅赚钱。",
+        "免费增值模式：提供基础TTS功能免费，高级语音、长文本、商业授权等付费解锁。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,11 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2446,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ConnectionError",
-    "attemptedAt": "2026-08-02T09:37:46.068137+00:00"
+    "status": "source:ok|official:ConnectionError",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ConnectionError",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

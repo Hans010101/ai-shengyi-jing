@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI驱动的订阅取消挽留SaaS的中国市场验证路线",
+      "items": [
+        "开发MVP：集成主流支付网关（如Stripe），实现用户取消时触发AI模型预测，自动发送折扣或问卷。可用GPT-4 API实现基础预测。",
+        "种子客户获取：在Product Hunt、Hacker News发布，或加入SaaS社区免费试用。聚焦中小型订阅制SaaS企业，提供首月免费。",
+        "迭代优化：根据客户反馈调整AI模型，增加A/B测试、数据分析功能。推出按挽留用户数计费的灵活套餐，建立客户成功团队。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI驱动的订阅取消挽留SaaS的经营验证仪表盘",
+      "items": [
+        "AI驱动的订阅取消挽留SaaS，按月收费。",
+        "SaaS订阅制，按每月挽留用户数分档收费，提供AI自动化挽留流程。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,11 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2520,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "no-semantic-media",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:content-root-missing|official:no-semantic-media",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:no-semantic-media",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

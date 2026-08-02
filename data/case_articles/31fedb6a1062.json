@@ -148,6 +148,16 @@
     },
     {
       "type": "image",
+      "url": "https://cdn.vayo.io/wp-content/uploads/2025/12/xoilac-1.jpg",
+      "caption": "为电商平台提供AI驱动的个性化推荐插件官网：产品界面与核心功能展示",
+      "alt": "为电商平台提供AI驱动的个性化推荐插件官网：产品界面与核心功能展示",
+      "sourceUrl": "https://vayo.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/504/original/open-uri20211026-3-1aoavtb?1635265816",
       "caption": "为电商平台提供AI驱动的个性化推荐插件：当前经营状态与下一步规划相关原始配图",
       "alt": "为电商平台提供AI驱动的个性化推荐插件：当前经营状态与下一步规划相关原始配图",
@@ -165,6 +175,20 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "为电商平台提供AI驱动的个性化推荐插件的商业增长闭环",
+      "items": [
+        "【引流】SEO、电商论坛、合作伙伴推荐",
+        "【产品】AI推荐插件",
+        "【变现】订阅费或营收分成",
+        "【留存】持续优化推荐算法、提供数据分析报告"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -179,7 +203,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2503,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:http-429|official:ok",
+    "realMedia": 4,
+    "logicMedia": 1
   }
 }

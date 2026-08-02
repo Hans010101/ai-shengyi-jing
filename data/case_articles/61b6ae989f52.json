@@ -161,9 +161,9 @@
     },
     {
       "type": "video-file",
-      "url": "https://podscan.fm/videos/podscan-explainer-v3.mp4?v=1785599381",
-      "watchUrl": "https://podscan.fm/videos/podscan-explainer-v3.mp4?v=1785599381",
-      "poster": "https://podscan.fm/videos/podscan-explainer-v3-poster.jpg?v=1785599381",
+      "url": "https://podscan.fm/videos/podscan-explainer-v3.mp4?v=1785675287",
+      "watchUrl": "https://podscan.fm/videos/podscan-explainer-v3.mp4?v=1785675287",
+      "poster": "https://podscan.fm/videos/podscan-explainer-v3-poster.jpg?v=1785675287",
       "caption": "播客转录与索引平台官网：产品界面与核心功能展示",
       "alt": "播客转录与索引平台官网：产品界面与核心功能展示",
       "sourceUrl": "https://podscan.fm/",
@@ -190,6 +190,18 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "video-file",
+      "url": "https://podscan.fm/videos/podscan-explainer-v3.mp4?v=1785599381",
+      "watchUrl": "https://podscan.fm/videos/podscan-explainer-v3.mp4?v=1785599381",
+      "poster": "https://podscan.fm/videos/podscan-explainer-v3-poster.jpg?v=1785599381",
+      "caption": "播客转录与索引平台官网：产品界面与核心功能展示",
+      "alt": "播客转录与索引平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://podscan.fm/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -204,11 +216,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2429,
-    "mediaCount": 5,
+    "mediaCount": 6,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:content-root-missing|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:ok",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

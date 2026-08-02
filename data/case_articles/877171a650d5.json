@@ -168,9 +168,39 @@
     },
     {
       "type": "image",
+      "url": "https://images.squarespace-cdn.com/content/v1/569314869cadb61a0a196529/1553004461628-JT3VM15NV3VJK3OQF3KJ/Screen+Shot+2019-03-15+at+9.13.42+AM.png",
+      "caption": "心理咨询师官网：官网展示的产品与实际使用场景",
+      "alt": "心理咨询师官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://copingskillsforkids.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://images.squarespace-cdn.com/content/v1/569314869cadb61a0a196529/1553004583377-XV8BF63KU6LPO8ZYCD28/Screen+Shot+2019-03-19+at+10.09.24+AM.png",
+      "caption": "心理咨询师官网：官网展示的产品与实际使用场景",
+      "alt": "心理咨询师官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://copingskillsforkids.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/897/original/open-uri20190131-4-1cd9v8v?1548925387",
       "caption": "心理咨询师：产品设计与早期打磨相关原始配图（第3张）",
       "alt": "心理咨询师：产品设计与早期打磨相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-a-therapist-increased-her-income-creating-products",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/898/original/open-uri20190131-4-d5601j?1548925388",
+      "caption": "心理咨询师：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "心理咨询师：产品上线与首次发布相关原始配图（第4张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-a-therapist-increased-her-income-creating-products",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +219,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2442,
-    "mediaCount": 4,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

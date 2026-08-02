@@ -185,6 +185,36 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://capewhoopies.com/cdn/shop/products/BE1CD53C-4D6B-4F8D-8385-AEA4713F2406_large.jpg?v=1647105735",
+      "caption": "手工美食品牌官网：产品界面与核心功能展示",
+      "alt": "手工美食品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://capewhoopies.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://capewhoopies.com/cdn/shop/products/VanillaLoversAssortment2_300x300.jpg?v=1645993356",
+      "caption": "手工美食品牌官网：产品界面与核心功能展示",
+      "alt": "手工美食品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://capewhoopies.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://capewhoopies.com/cdn/shop/products/VanillaLoversAssortment2_large.jpg?v=1645993356",
+      "caption": "手工美食品牌官网：产品界面与核心功能展示",
+      "alt": "手工美食品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://capewhoopies.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -199,11 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2384,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

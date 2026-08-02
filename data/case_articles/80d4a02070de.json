@@ -100,6 +100,66 @@
   "media": [
     {
       "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/apfv4qfr874majn6e3c354xnu6qh",
+      "caption": "英国筋膜枪品牌：通过DTC电商销售肌肉恢复设备盈利",
+      "alt": "英国筋膜枪品牌：通过DTC电商销售肌肉恢复设备盈利",
+      "sourceUrl": "https://www.starterstory.com/stories/pulseroll",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "project-hero"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/015/original/open-uri20220427-24-zdp3ak?1651084224",
+      "caption": "英国筋膜枪品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "英国筋膜枪品牌：创始人、核心产品与品牌起点相关原始配图",
+      "sourceUrl": "https://www.starterstory.com/stories/pulseroll",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/016/original/open-uri20220427-24-tgolhm?1651084226",
+      "caption": "英国筋膜枪品牌：产品设计与早期打磨相关原始配图（第2张）",
+      "alt": "英国筋膜枪品牌：产品设计与早期打磨相关原始配图（第2张）",
+      "sourceUrl": "https://www.starterstory.com/stories/pulseroll",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/017/original/open-uri20220427-24-nm05rk?1651084228",
+      "caption": "英国筋膜枪品牌：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "英国筋膜枪品牌：产品设计与早期打磨相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/pulseroll",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/018/original/open-uri20220427-24-1um30wx?1651084231",
+      "caption": "英国筋膜枪品牌：产品设计与早期打磨相关原始配图（第4张）",
+      "alt": "英国筋膜枪品牌：产品设计与早期打磨相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/pulseroll",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/019/original/open-uri20220427-24-cfqpcl?1651084232",
+      "caption": "英国筋膜枪品牌：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "英国筋膜枪品牌：产品上线与首次发布相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/pulseroll",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
       "url": "https://pulseroll.com.au/wp-content/uploads/product-range.jpg",
       "caption": "Pulseroll恢复产品组合，展示品牌从单一设备向场景化产品线延展",
       "alt": "Pulseroll运动恢复产品系列",
@@ -112,24 +172,6 @@
       "url": "https://pulseroll.com.au/wp-content/uploads/Pulseroll-massage-guns.jpg",
       "caption": "Pulseroll筋膜枪系列的官方展示图",
       "alt": "Pulseroll筋膜枪系列",
-      "sourceUrl": "https://pulseroll.com.au/",
-      "origin": "official-site",
-      "context": "official-site"
-    },
-    {
-      "type": "image",
-      "url": "https://pulseroll.com.au/wp-content/uploads/slider/cache/77651c031fc9c526ad77e9852411d8e3/PMG003.jpg",
-      "caption": "产品使用场景是体验型硬件建立认知的重要内容资产",
-      "alt": "Pulseroll筋膜枪使用场景",
-      "sourceUrl": "https://pulseroll.com.au/",
-      "origin": "official-site",
-      "context": "official-site"
-    },
-    {
-      "type": "image",
-      "url": "https://pulseroll.com.au/wp-content/uploads/slider/cache/e29e2a2461d0c9b6441a440c5860d317/PPR002.jpg",
-      "caption": "Pulseroll振动泡沫轴产品图",
-      "alt": "Pulseroll振动泡沫轴",
       "sourceUrl": "https://pulseroll.com.au/",
       "origin": "official-site",
       "context": "official-site"
@@ -157,6 +199,18 @@
     "scrapedAt": "2026-07-21T16:03:31.168190"
   },
   "quality": {
-    "mediaCount": 4
+    "mediaCount": 8
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:HTTPError",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:HTTPError",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

@@ -185,6 +185,29 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.convert.com/wp-content/themes/olympus/img/features-privacy-wise.jpg",
+      "caption": "A/B测试及转化优化SaaS平台官网：官网展示的产品与实际使用场景",
+      "alt": "A/B测试及转化优化SaaS平台官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.convert.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "video",
+      "url": "https://player.vimeo.com/video/1083001655",
+      "watchUrl": "https://vimeo.com/1083001655",
+      "caption": "A/B测试及转化优化SaaS平台资料中提及的视频：Advanced Goal",
+      "alt": "Advanced Goal",
+      "sourceUrl": "https://www.convert.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.vimeocdn.com/video/2014105940-d6303b616b8c2089bc79e56dde8c12cedb096a75ed1193a4e8fc941c057a12b8-d_295x166?region=us",
+      "provider": "Vimeo",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -199,11 +222,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2469,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:content-root-missing|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

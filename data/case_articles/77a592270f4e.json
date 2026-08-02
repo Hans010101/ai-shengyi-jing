@@ -177,6 +177,16 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/776/original/open-uri20190119-4-o6k53p?1547897907",
+      "caption": "旧金山城市徒步旅行导览服务：当前经营状态与下一步规划相关原始配图（第4张）",
+      "alt": "旧金山城市徒步旅行导览服务：当前经营状态与下一步规划相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/leaving-google-and-starting-a-hiking-tour-business",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/AYrrhZgVTiw",
       "watchUrl": "https://www.youtube.com/watch?v=AYrrhZgVTiw",
@@ -201,7 +211,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2510,
-    "mediaCount": 5,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

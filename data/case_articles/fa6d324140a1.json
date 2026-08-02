@@ -149,8 +149,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/130/original/open-uri20190222-4-267avh?1550830005",
-      "caption": "儿童服饰订阅盒服务：原始案例中的产品与运营配图（第1张）",
-      "alt": "儿童服饰订阅盒服务：原始案例中的产品与运营配图（第1张）",
+      "caption": "儿童服饰订阅盒服务：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "儿童服饰订阅盒服务：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-subscription-box-business-for-kids",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -159,8 +159,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/131/original/open-uri20190222-4-ar8v76?1550830006",
-      "caption": "儿童服饰订阅盒服务：原始案例中的产品与运营配图（第2张）",
-      "alt": "儿童服饰订阅盒服务：原始案例中的产品与运营配图（第2张）",
+      "caption": "儿童服饰订阅盒服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "儿童服饰订阅盒服务：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-subscription-box-business-for-kids",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -169,8 +169,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/132/original/open-uri20190222-4-w8yblm?1550830007",
-      "caption": "儿童服饰订阅盒服务：原始案例中的产品与运营配图（第3张）",
-      "alt": "儿童服饰订阅盒服务：原始案例中的产品与运营配图（第3张）",
+      "caption": "儿童服饰订阅盒服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "儿童服饰订阅盒服务：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-subscription-box-business-for-kids",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -179,12 +179,34 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/133/original/open-uri20190222-4-1siylwk?1550830008",
-      "caption": "儿童服饰订阅盒服务：原始案例中的产品与运营配图（第4张）",
-      "alt": "儿童服饰订阅盒服务：原始案例中的产品与运营配图（第4张）",
+      "caption": "儿童服饰订阅盒服务：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "alt": "儿童服饰订阅盒服务：创始人、核心产品与品牌起点相关原始配图（第4张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-subscription-box-business-for-kids",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/001/134/original/open-uri20190222-4-8vhima?1550830009",
+      "caption": "儿童服饰订阅盒服务：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "alt": "儿童服饰订阅盒服务：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-subscription-box-business-for-kids",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/KksStb54owY&t=6s",
+      "watchUrl": "https://www.youtube.com/watch?v=KksStb54owY&t=6s",
+      "caption": "儿童服饰订阅盒服务资料中提及的视频：here",
+      "alt": "here",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-started-a-subscription-box-business-for-kids",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/KksStb54owY&t=6s/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -199,7 +221,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2527,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:no-semantic-media",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:no-semantic-media",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

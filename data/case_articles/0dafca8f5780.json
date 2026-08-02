@@ -168,6 +168,16 @@
     },
     {
       "type": "image",
+      "url": "https://image.simplecastcdn.com/images/f4815144-b38e-446b-a84a-9a0b83ba5f93/2aef805c-07b6-4c72-994d-d3e50f697138/showart_original.jpg",
+      "caption": "播客变现官网：产品界面与核心功能展示",
+      "alt": "播客变现官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.unofficialshopifypodcast.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/596/original/open-uri20190103-4-1ljgttb?1546526543",
       "caption": "播客变现：产品上线与首次发布相关原始配图（第3张）",
       "alt": "播客变现：产品上线与首次发布相关原始配图（第3张）",
@@ -189,7 +199,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2414,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 5,
+    "logicMedia": 0
   }
 }

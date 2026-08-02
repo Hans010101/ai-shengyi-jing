@@ -189,6 +189,30 @@
       "origin": "official-site-video",
       "usage": "official-site-reference",
       "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://cdn-site-assets.veed.io/ad_19a9e711bc_543babf5be/ad_19a9e711bc_543babf5be.webm",
+      "watchUrl": "https://cdn-site-assets.veed.io/ad_19a9e711bc_543babf5be/ad_19a9e711bc_543babf5be.webm",
+      "poster": "https://cdn-site-assets.veed.io/ad_thumbnail_e2d966af2f/ad_thumbnail_e2d966af2f.webp",
+      "caption": "在线视频编辑SaaS官网：产品界面与核心功能展示",
+      "alt": "在线视频编辑SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.veed.io/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://cdn-site-assets.veed.io/testimonial_0c0ce3bb84_3b7b09718d/testimonial_0c0ce3bb84_3b7b09718d.webm",
+      "watchUrl": "https://cdn-site-assets.veed.io/testimonial_0c0ce3bb84_3b7b09718d/testimonial_0c0ce3bb84_3b7b09718d.webm",
+      "poster": "https://cdn-site-assets.veed.io/testimonial_thumbnail_19133c385f/testimonial_thumbnail_19133c385f.webp",
+      "caption": "在线视频编辑SaaS官网：产品界面与核心功能展示",
+      "alt": "在线视频编辑SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.veed.io/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -203,11 +227,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2490,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:content-root-missing|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

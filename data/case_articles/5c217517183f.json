@@ -168,6 +168,36 @@
     },
     {
       "type": "image",
+      "url": "https://images.squarespace-cdn.com/content/v1/5a5ccb53ccc5c5e98ccd9457/1604927357992-MQ2OIVLNP0YPQ1NZA3M8/Web_Size_Product_Crop-Cadence_LeatherSneaker_Black_StillLife_ToeLeft.jpg",
+      "caption": "男士服装品牌推荐YouTube频道+博客官网：官网展示的产品与实际使用场景",
+      "alt": "男士服装品牌推荐YouTube频道+博客官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://thekavalier.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://images.squarespace-cdn.com/content/v1/5a5ccb53ccc5c5e98ccd9457/1519920538508-6DOI1JKFH7YD40WKHS9W/P1090524_preview.jpeg",
+      "caption": "男士服装品牌推荐YouTube频道+博客官网：官网展示的产品与实际使用场景",
+      "alt": "男士服装品牌推荐YouTube频道+博客官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://thekavalier.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://images.squarespace-cdn.com/content/v1/5a5ccb53ccc5c5e98ccd9457/1519917113750-L8ZI4EDRI4MSTN1L19E5/P1090734_preview.jpeg",
+      "caption": "男士服装品牌推荐YouTube频道+博客官网：官网展示的产品与实际使用场景",
+      "alt": "男士服装品牌推荐YouTube频道+博客官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://thekavalier.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/850/original/open-uri20190124-4-sgqk76?1548292015",
       "caption": "男士服装品牌推荐YouTube频道+博客：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "alt": "男士服装品牌推荐YouTube频道+博客：创始人、核心产品与品牌起点相关原始配图（第3张）",
@@ -177,16 +207,14 @@
       "context": "source-article-body"
     },
     {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/U2flPxtGWoU",
-      "watchUrl": "https://www.youtube.com/watch?v=U2flPxtGWoU",
-      "caption": "男士服装品牌推荐YouTube频道+博客资料中提及的视频：I AM LEGEND alternate ending.",
-      "alt": "I AM LEGEND alternate ending.",
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/851/original/open-uri20190124-4-tjasb7?1548292016",
+      "caption": "男士服装品牌推荐YouTube频道+博客：当前经营状态与下一步规划相关原始配图（第4张）",
+      "alt": "男士服装品牌推荐YouTube频道+博客：当前经营状态与下一步规划相关原始配图（第4张）",
       "sourceUrl": "https://www.starterstory.com/stories/starting-a-youtube-channel-and-blog-making-6-000-month",
-      "origin": "embeddable-video",
-      "poster": "https://i.ytimg.com/vi/U2flPxtGWoU/hqdefault.jpg",
-      "provider": "YouTube",
-      "usage": ""
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -201,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2515,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/756/original/open-uri20211108-3-11m62a9?1636390876",
+      "caption": "AI驱动的演示文稿制作网站：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "alt": "AI驱动的演示文稿制作网站：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-run-a-portfolio-of-50-affiliate-marketing-websites",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/757/original/open-uri20211108-3-1o6v4a8?1636390877",
+      "caption": "AI驱动的演示文稿制作网站：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "alt": "AI驱动的演示文稿制作网站：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-run-a-portfolio-of-50-affiliate-marketing-websites",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/djViMJAOwUM",
       "watchUrl": "https://www.youtube.com/watch?v=djViMJAOwUM",
@@ -201,7 +221,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2464,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:no-semantic-media",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:no-semantic-media",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

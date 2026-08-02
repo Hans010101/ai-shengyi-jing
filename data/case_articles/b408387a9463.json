@@ -165,6 +165,56 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://dirtylabs.com/cdn/shop/collections/Luxe-Bundle-Hero-2-2_{width}x.jpg?v=1773713570",
+      "caption": "高端环保洗衣液品牌官网：官网展示的产品与实际使用场景",
+      "alt": "高端环保洗衣液品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://dirtylabs.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://dirtylabs.com/cdn/shop/collections/Luxe-Bundle-Hero-2-2_1024x1024.jpg?v=1773713570",
+      "caption": "高端环保洗衣液品牌官网：官网展示的产品与实际使用场景",
+      "alt": "高端环保洗衣液品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://dirtylabs.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://dirtylabs.com/cdn/shop/collections/Luxe-Bundle-Hero-2-2.jpg?v=1773713570&width=600",
+      "caption": "高端环保洗衣液品牌官网：官网展示的产品与实际使用场景",
+      "alt": "高端环保洗衣液品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://dirtylabs.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://dirtylabs.com/cdn/shop/collections/0y9a7677.jpg__2000x1334_q55_crop_subsampling-2_upscale_{width}x.jpg?v=1773713767",
+      "caption": "高端环保洗衣液品牌官网：官网展示的产品与实际使用场景",
+      "alt": "高端环保洗衣液品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://dirtylabs.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://dirtylabs.com/cdn/shop/collections/0y9a7677.jpg__2000x1334_q55_crop_subsampling-2_upscale_1024x1024.jpg?v=1773713767",
+      "caption": "高端环保洗衣液品牌官网：官网展示的产品与实际使用场景",
+      "alt": "高端环保洗衣液品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://dirtylabs.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -179,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2543,
-    "mediaCount": 3,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

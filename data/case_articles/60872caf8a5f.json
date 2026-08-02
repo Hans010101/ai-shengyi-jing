@@ -148,6 +148,16 @@
     },
     {
       "type": "image",
+      "url": "https://www.companyfolders.com/images/img--portfolios.jpg",
+      "caption": "定制文件夹电商官网：官网展示的产品与实际使用场景",
+      "alt": "定制文件夹电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.companyfolders.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/987/original/open-uri20220318-3-7xbws1?1647630665",
       "caption": "定制文件夹电商：创始人、核心产品与品牌起点相关原始配图",
       "alt": "定制文件夹电商：创始人、核心产品与品牌起点相关原始配图",
@@ -157,14 +167,32 @@
       "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://www.companyfolders.com/images/img--portfolios.jpg",
-      "caption": "定制文件夹电商官网：官网展示的产品与实际使用场景",
-      "alt": "定制文件夹电商官网：官网展示的产品与实际使用场景",
-      "sourceUrl": "https://www.companyfolders.com/",
-      "origin": "official-site",
-      "usage": "official-site-reference",
-      "context": "official-product"
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "定制文件夹电商的商业增长闭环",
+      "items": [
+        "【引流】SEO+线上广告",
+        "【产品】定制文件夹",
+        "【变现】订单收费",
+        "【留存】复购优惠+客户推荐"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "定制文件夹电商的产品与交付路径",
+      "items": [
+        "官网展示",
+        "在线设计工具",
+        "提交订单",
+        "生产制造"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -179,11 +207,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2356,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:http-429|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:http-429|official:ok",
+    "realMedia": 3,
+    "logicMedia": 2
   }
 }

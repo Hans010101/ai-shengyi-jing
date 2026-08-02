@@ -167,10 +167,32 @@
       "context": "source-article-body"
     },
     {
+      "type": "video-file",
+      "url": "https://responsiveadvisors.com/wp-content/uploads/2019/04/Lisa-Responsive-Advisors-Testimonial-720.mp4?_=1",
+      "watchUrl": "https://responsiveadvisors.com/wp-content/uploads/2019/04/Lisa-Responsive-Advisors-Testimonial-720.mp4?_=1",
+      "poster": "https://responsiveadvisors.com/wp-content/uploads/2026/06/RA000216-lisa-testimonial-main-landing-page.jpg",
+      "caption": "敏捷培训与咨询业务官网：产品界面与核心功能展示",
+      "alt": "敏捷培训与咨询业务官网：产品界面与核心功能展示",
+      "sourceUrl": "https://responsiveadvisors.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/078/original/open-uri20220612-12-17bax8e?1655053708",
       "caption": "敏捷培训与咨询业务：产品上线与首次发布相关原始配图（第3张）",
       "alt": "敏捷培训与咨询业务：产品上线与首次发布相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/responsive-advisors",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/019/079/original/open-uri20220612-12-gr654q?1655053709",
+      "caption": "敏捷培训与咨询业务：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "敏捷培训与咨询业务：产品上线与首次发布相关原始配图（第4张）",
       "sourceUrl": "https://www.starterstory.com/stories/responsive-advisors",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -201,7 +223,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2427,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

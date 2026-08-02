@@ -168,13 +168,53 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/788/original/open-uri20220413-24-pnje7f?1649861352",
-      "caption": "双胞胎兄弟用$200创立的平价高品质墨镜品牌：产品上线与首次发布相关原始配图（第3张）",
-      "alt": "双胞胎兄弟用$200创立的平价高品质墨镜品牌：产品上线与首次发布相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/tomahawk-shades-122f0377-bcba-4407-b165-0da1c35bfb95",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://tomahawkshades.com/cdn/shop/products/Artboard25_20e71b01-b3bd-4003-b423-495bebdf1940.jpg?v=1661375732&width=800",
+      "caption": "双胞胎兄弟用$200创立的平价高品质墨镜品牌官网：官网展示的产品与实际使用场景",
+      "alt": "双胞胎兄弟用$200创立的平价高品质墨镜品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://tomahawkshades.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://tomahawkshades.com/cdn/shop/products/Artboard75_ac2f16e5-051f-4b29-baaf-2205fcdc870e.jpg?v=1661375735&width=800",
+      "caption": "双胞胎兄弟用$200创立的平价高品质墨镜品牌官网：官网展示的产品与实际使用场景",
+      "alt": "双胞胎兄弟用$200创立的平价高品质墨镜品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://tomahawkshades.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://tomahawkshades.com/cdn/shop/products/Artboard34_6380d066-db3d-4f7f-a11d-74358244c865.jpg?v=1661375550&width=800",
+      "caption": "双胞胎兄弟用$200创立的平价高品质墨镜品牌官网：官网展示的产品与实际使用场景",
+      "alt": "双胞胎兄弟用$200创立的平价高品质墨镜品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://tomahawkshades.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://tomahawkshades.com/cdn/shop/products/Artboard65_d7665701-578e-4491-8616-3dd00c1b0981.jpg?v=1661375554&width=800",
+      "caption": "双胞胎兄弟用$200创立的平价高品质墨镜品牌官网：官网展示的产品与实际使用场景",
+      "alt": "双胞胎兄弟用$200创立的平价高品质墨镜品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://tomahawkshades.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://tomahawkshades.com/cdn/shop/products/Artboard14_5cec45d6-5662-4935-8ae5-c6069d6be590.jpg?v=1661375331&width=800",
+      "caption": "双胞胎兄弟用$200创立的平价高品质墨镜品牌官网：官网展示的产品与实际使用场景",
+      "alt": "双胞胎兄弟用$200创立的平价高品质墨镜品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://tomahawkshades.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2492,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

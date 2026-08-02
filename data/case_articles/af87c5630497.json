@@ -167,10 +167,42 @@
       "context": "source-article-body"
     },
     {
+      "type": "video-file",
+      "url": "https://assets.onlinepianist.com/video/op-preview.mp4",
+      "watchUrl": "https://assets.onlinepianist.com/video/op-preview.mp4",
+      "poster": "https://www.onlinepianist.com:443/",
+      "caption": "钢琴教学App官网：产品界面与核心功能展示",
+      "alt": "钢琴教学App官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.onlinepianist.com:443/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/380/original/open-uri20211019-3-cnq0ti?1634679479",
       "caption": "钢琴教学App：产品设计与早期打磨相关原始配图（第3张）",
       "alt": "钢琴教学App：产品设计与早期打磨相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/my-personal-crisis-fueled-me-to-build-an-840k-year-piano-tutorial-app",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/381/original/open-uri20211019-3-wu3vo2?1634679480",
+      "caption": "钢琴教学App：产品设计与早期打磨相关原始配图（第4张）",
+      "alt": "钢琴教学App：产品设计与早期打磨相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/my-personal-crisis-fueled-me-to-build-an-840k-year-piano-tutorial-app",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/382/original/open-uri20211019-3-1korfb5?1634679481",
+      "caption": "钢琴教学App：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "钢琴教学App：产品上线与首次发布相关原始配图（第5张）",
       "sourceUrl": "https://www.starterstory.com/stories/my-personal-crisis-fueled-me-to-build-an-840k-year-piano-tutorial-app",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +221,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2460,
-    "mediaCount": 4,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

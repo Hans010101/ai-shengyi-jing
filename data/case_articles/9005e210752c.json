@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "Strike Graph是AI驱动的安全合规Sa的中国市场验证路线",
+      "items": [
+        "选定一个中国合规标准（如等保二级），开发最小可行产品，实现自动化证据收集与报告生成。",
+        "与会计师事务所或合规咨询机构合作，获取首批客户，提供免费试用。",
+        "根据客户反馈迭代产品，增加更多合规框架，建立内容营销体系，吸引更多中小企业。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "Strike Graph是AI驱动的安全合规Sa的经营验证仪表盘",
+      "items": [
+        "Strike Graph是AI驱动的安全合规SaaS平台，通过订阅制向企业收费。",
+        "B2B SaaS订阅模式，按年或月收费，提供安全合规自动化工具，帮助客户快速通过SOC 2等审计。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2515,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

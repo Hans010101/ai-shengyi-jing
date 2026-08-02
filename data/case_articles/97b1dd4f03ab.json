@@ -148,6 +148,26 @@
     },
     {
       "type": "image",
+      "url": "https://cdn.prod.website-files.com/682f27d37c688eebddd16d9c/69d60e88a0c2fcaf6bd726a6_image%202%20(1).png",
+      "caption": "为电商提供AI驱动的邮件营销自动化SaaS工具官网：官网展示的产品与实际使用场景",
+      "alt": "为电商提供AI驱动的邮件营销自动化SaaS工具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.smartrmail.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/682f27d37c688eebddd16d9c/69d60ec6e5128c7139b531b7_image%203.png",
+      "caption": "为电商提供AI驱动的邮件营销自动化SaaS工具官网：官网展示的产品与实际使用场景",
+      "alt": "为电商提供AI驱动的邮件营销自动化SaaS工具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.smartrmail.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/010/356/original/open-uri20210222-3-1r4l419?1614015865",
       "caption": "为电商提供AI驱动的邮件营销自动化SaaS工具：创始人、核心产品与品牌起点相关原始配图",
       "alt": "为电商提供AI驱动的邮件营销自动化SaaS工具：创始人、核心产品与品牌起点相关原始配图",
@@ -189,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2610,
-    "mediaCount": 4,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:http-429|official:ok",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "AI帮助个人理财和实现财务自由的SaaS应用的产品与交付路径",
+      "items": [
+        "用户注册",
+        "连接银行/证券账户",
+        "AI财务分析",
+        "个性化建议报告"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI帮助个人理财和实现财务自由的SaaS应用的中国市场验证路线",
+      "items": [
+        "开发MVP，聚焦核心功能（账户聚合、AI分析、建议生成），使用开源金融数据API和AI模型。",
+        "在小红书、知乎发布理财科普内容引流，邀请首批用户免费内测，收集反馈迭代产品。",
+        "上线付费订阅（月费19.9元），与银行、券商合作获取数据授权，推出“财务健康挑战”活动提升留存。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2500,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

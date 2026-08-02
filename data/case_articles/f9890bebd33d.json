@@ -168,13 +168,53 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/004/280/original/open-uri20191229-4-ucuz59?1577663999",
-      "caption": "在线音频课程教音乐制作：产品设计与早期打磨相关原始配图（第3张）",
-      "alt": "在线音频课程教音乐制作：产品设计与早期打磨相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/how-i-generate-1-2m-year-working-5-hours-per-week-with-audio-online-courses",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2152107003/settings_images/b00222c-cb2f-c1e3-cd10-2d0c3ee02c_feature-credibility-bar.png",
+      "caption": "在线音频课程教音乐制作官网：官网展示的产品与实际使用场景",
+      "alt": "在线音频课程教音乐制作官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.recordingrevolution.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2152107003/settings_images/8435f5f-e4b2-86cb-ccad-deedbc832a5_recording-thumbnail.png",
+      "caption": "在线音频课程教音乐制作官网：官网展示的产品与实际使用场景",
+      "alt": "在线音频课程教音乐制作官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.recordingrevolution.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2152107003/settings_images/e2760ae-c4e-88a0-1dde-128208bdaae4_mixing-thumbnail.png",
+      "caption": "在线音频课程教音乐制作官网：官网展示的产品与实际使用场景",
+      "alt": "在线音频课程教音乐制作官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.recordingrevolution.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2152107003/settings_images/c88abd0-d277-674f-d6f5-7d4fa505716_studio-thumbnail.png",
+      "caption": "在线音频课程教音乐制作官网：官网展示的产品与实际使用场景",
+      "alt": "在线音频课程教音乐制作官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.recordingrevolution.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2152107003/settings_images/ea6f16-a2a8-451a-d0bd-d6a44f4eecaf_maxresdefault.jpeg",
+      "caption": "在线音频课程教音乐制作官网：官网展示的产品与实际使用场景",
+      "alt": "在线音频课程教音乐制作官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.recordingrevolution.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2419,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

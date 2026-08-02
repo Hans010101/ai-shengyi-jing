@@ -168,9 +168,52 @@
     },
     {
       "type": "image",
+      "url": "https://zionbuilder.io/wp-content/uploads/2020/05/featured-image3.png",
+      "caption": "WordPress可视化建站插件官网：产品界面与核心功能展示",
+      "alt": "WordPress可视化建站插件官网：产品界面与核心功能展示",
+      "sourceUrl": "https://zionbuilder.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/S-GvgnOLGpg",
+      "watchUrl": "https://www.youtube.com/watch?v=S-GvgnOLGpg",
+      "caption": "WordPress可视化建站插件资料中提及的视频：How to use the Theme Builder with Zion Builder ( header & footer builder )",
+      "alt": "How to use the Theme Builder with Zion Builder ( header & footer builder )",
+      "sourceUrl": "https://zionbuilder.io/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/S-GvgnOLGpg/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://zionbuilder.io/wp-content/uploads/2020/05/illustration04-300x243.png",
+      "caption": "WordPress可视化建站插件官网：官网展示的产品与实际使用场景",
+      "alt": "WordPress可视化建站插件官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://zionbuilder.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/288/original/open-uri20211210-3-1qac0ib?1639152099",
       "caption": "WordPress可视化建站插件：产品上线与首次发布相关原始配图（第3张）",
       "alt": "WordPress可视化建站插件：产品上线与首次发布相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-learned-to-code-at-8-yrs-old-this-led-me-to-build-a-240k-year-wordpress-site-builder",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/289/original/open-uri20211210-3-1kkzchu?1639152100",
+      "caption": "WordPress可视化建站插件：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "WordPress可视化建站插件：产品上线与首次发布相关原始配图（第4张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-learned-to-code-at-8-yrs-old-this-led-me-to-build-a-240k-year-wordpress-site-builder",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +232,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2517,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

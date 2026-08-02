@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "YouTube内容创业+金融教育的产品与交付路径",
+      "items": [
+        "YouTube视频",
+        "引流至官网/邮箱",
+        "免费资源（电子书/模板）",
+        "付费课程/咨询"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "YouTube内容创业+金融教育的中国市场验证路线",
+      "items": [
+        "在B站或抖音开设个人频道，定位“年轻人债务管理”或“理财入门”，每周发布2-3条干货视频，积累初始粉丝。",
+        "制作一份免费电子书或债务管理模板，通过视频描述或评论区引导粉丝私信领取，收集邮箱或微信。",
+        "设计一门付费课程（如“30天摆脱债务计划”），定价199-499元，在私域或知识付费平台销售；同时提供一对一咨询，每小时300-500元。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2547,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

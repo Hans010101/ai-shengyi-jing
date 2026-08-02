@@ -168,13 +168,53 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/005/355/original/open-uri20200311-4-15s3r6z?1583924109",
-      "caption": "高端活动制作公司：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "alt": "高端活动制作公司：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/improving-our-events-business-by-increasing-our-margins-and-focusing-on-one-market",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://images.squarespace-cdn.com/content/v1/5a35c51ef43b5511730b7cde/1546537491181-N1KZ6YBZLHNXJ4MMTJ8X/google.png",
+      "caption": "高端活动制作公司官网：产品界面与核心功能展示",
+      "alt": "高端活动制作公司官网：产品界面与核心功能展示",
+      "sourceUrl": "https://entireproductions.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://images.squarespace-cdn.com/content/v1/5a35c51ef43b5511730b7cde/1546537491937-HV0R7XZYIKNAMNRMP664/microsoft.png",
+      "caption": "高端活动制作公司官网：产品界面与核心功能展示",
+      "alt": "高端活动制作公司官网：产品界面与核心功能展示",
+      "sourceUrl": "https://entireproductions.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://images.squarespace-cdn.com/content/v1/5a35c51ef43b5511730b7cde/1546537488441-9HW7Y6CXIVBROK73BREY/box.png",
+      "caption": "高端活动制作公司官网：产品界面与核心功能展示",
+      "alt": "高端活动制作公司官网：产品界面与核心功能展示",
+      "sourceUrl": "https://entireproductions.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://images.squarespace-cdn.com/content/v1/5a35c51ef43b5511730b7cde/1546537489574-U9CZ56Q4PY6B2FFWGRT0/ea.png",
+      "caption": "高端活动制作公司官网：产品界面与核心功能展示",
+      "alt": "高端活动制作公司官网：产品界面与核心功能展示",
+      "sourceUrl": "https://entireproductions.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://images.squarespace-cdn.com/content/v1/5a35c51ef43b5511730b7cde/1546537492856-SOE0EIBAC0QH4SDDYNSD/PW.png",
+      "caption": "高端活动制作公司官网：产品界面与核心功能展示",
+      "alt": "高端活动制作公司官网：产品界面与核心功能展示",
+      "sourceUrl": "https://entireproductions.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2405,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

@@ -168,25 +168,61 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/304/original/open-uri20220518-25-zsfb5t?1652877425",
-      "caption": "AI驱动的解释视频制作SaaS：创业起点与创意来源相关原始配图（第3张）",
-      "alt": "AI驱动的解释视频制作SaaS：创业起点与创意来源相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/mysimpleshow-84de2ee7-5754-429c-a176-ff6cef9684ae",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://simpleshow.com/wp-content/uploads/2022/09/Featured-Image_Homepage-1.png",
+      "caption": "AI驱动的解释视频制作SaaS官网：产品界面与核心功能展示",
+      "alt": "AI驱动的解释视频制作SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://simpleshow.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/F8H663vP8bE",
-      "watchUrl": "https://www.youtube.com/watch?v=F8H663vP8bE",
-      "caption": "AI驱动的解释视频制作SaaS资料中提及的视频：Six Top Tips On How To Use Corporate Storytelling - simpleshow",
-      "alt": "Six Top Tips On How To Use Corporate Storytelling - simpleshow",
-      "sourceUrl": "https://www.starterstory.com/stories/mysimpleshow-84de2ee7-5754-429c-a176-ff6cef9684ae",
-      "origin": "embeddable-video",
-      "poster": "https://i.ytimg.com/vi/F8H663vP8bE/hqdefault.jpg",
-      "provider": "YouTube",
-      "usage": ""
+      "type": "video-file",
+      "url": "https://simpleshow.com/wp-content/uploads/2025/04/EN_simpleshow_Home-Page-Video-2025_250326-1920x1080-1.mp4",
+      "watchUrl": "https://simpleshow.com/wp-content/uploads/2025/04/EN_simpleshow_Home-Page-Video-2025_250326-1920x1080-1.mp4",
+      "poster": "https://simpleshow.com/wp-content/uploads/2022/09/Featured-Image_Homepage-1.png",
+      "caption": "AI驱动的解释视频制作SaaS官网：产品界面与核心功能展示",
+      "alt": "AI驱动的解释视频制作SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://simpleshow.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://video-assets.simpleshow.com/[EN]_simpleshow_Home Page Video 2025_250326-1920x1080.mp4",
+      "watchUrl": "https://video-assets.simpleshow.com/[EN]_simpleshow_Home Page Video 2025_250326-1920x1080.mp4",
+      "poster": "https://simpleshow.com/wp-content/uploads/2025/04/image-42.png",
+      "caption": "AI驱动的解释视频制作SaaS官网：产品界面与核心功能展示",
+      "alt": "AI驱动的解释视频制作SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://simpleshow.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://video-assets.simpleshow.com/User+Friendly+Interface.mp4",
+      "watchUrl": "https://video-assets.simpleshow.com/User+Friendly+Interface.mp4",
+      "poster": "https://simpleshow.com/wp-content/uploads/2022/09/Featured-Image_Homepage-1.png",
+      "caption": "AI驱动的解释视频制作SaaS官网：产品界面与核心功能展示",
+      "alt": "AI驱动的解释视频制作SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://simpleshow.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://video-assets.simpleshow.com/Creative+Services_Square.mp4",
+      "watchUrl": "https://video-assets.simpleshow.com/Creative+Services_Square.mp4",
+      "poster": "https://simpleshow.com/wp-content/uploads/2022/09/Featured-Image_Homepage-1.png",
+      "caption": "AI驱动的解释视频制作SaaS官网：产品界面与核心功能展示",
+      "alt": "AI驱动的解释视频制作SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://simpleshow.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -201,7 +237,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2432,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

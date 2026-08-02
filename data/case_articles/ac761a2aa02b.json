@@ -148,6 +148,36 @@
     },
     {
       "type": "image",
+      "url": "https://www.marketmuse.com/wp-content/uploads/2025/08/Frame-2738-1.png",
+      "caption": "AI内容智能平台官网：产品界面与核心功能展示",
+      "alt": "AI内容智能平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.marketmuse.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.marketmuse.com/wp-content/uploads/2025/08/Frame-2279.png",
+      "caption": "AI内容智能平台官网：产品界面与核心功能展示",
+      "alt": "AI内容智能平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.marketmuse.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://mms-app.s3.amazonaws.com/wordpress/2021/06/15120226/marketmuse-share.png",
+      "caption": "AI内容智能平台官网：产品界面与核心功能展示",
+      "alt": "AI内容智能平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.marketmuse.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/980/original/open-uri20210927-3-hrgv98?1632752480",
       "caption": "AI内容智能平台：创业起点与创意来源相关原始配图",
       "alt": "AI内容智能平台：创业起点与创意来源相关原始配图",
@@ -191,7 +221,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2396,
-    "mediaCount": 4,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:http-429|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

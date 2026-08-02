@@ -148,6 +148,36 @@
     },
     {
       "type": "image",
+      "url": "https://thb.tildacdn.net/tild3539-3364-4565-a138-393135386138/-/resize/20x/What-is-TimeFlip2-il.png",
+      "caption": "TimeFlip是物理时间追踪设备+SaaS官网：产品界面与核心功能展示",
+      "alt": "TimeFlip是物理时间追踪设备+SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://timeflip.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://thb.tildacdn.net/tild3234-3531-4231-b138-363039386130/-/resize/20x/apps.jpg",
+      "caption": "TimeFlip是物理时间追踪设备+SaaS官网：产品界面与核心功能展示",
+      "alt": "TimeFlip是物理时间追踪设备+SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://timeflip.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://static.tildacdn.net/tild3236-3765-4635-b539-313331646664/TIMEFLIP_phone_RS.png",
+      "caption": "TimeFlip是物理时间追踪设备+SaaS官网：产品界面与核心功能展示",
+      "alt": "TimeFlip是物理时间追踪设备+SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://timeflip.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/781/original/open-uri20210118-3-1oxj0i8?1610993827",
       "caption": "TimeFlip是物理时间追踪设备+SaaS：创始人、核心产品与品牌起点相关原始配图",
       "alt": "TimeFlip是物理时间追踪设备+SaaS：创始人、核心产品与品牌起点相关原始配图",
@@ -189,7 +219,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2486,
-    "mediaCount": 4,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:http-429|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

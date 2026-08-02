@@ -168,9 +168,49 @@
     },
     {
       "type": "image",
+      "url": "https://images.squarespace-cdn.com/content/v1/633778fd3cd44d438c218ecc/b69d65be-1ebd-402f-845c-598b6c4aa9ee/hero-image.jpg?format=2500w",
+      "caption": "高端活动策划公司官网：官网展示的产品与实际使用场景",
+      "alt": "高端活动策划公司官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.natashamiller.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://images.squarespace-cdn.com/content/v1/633778fd3cd44d438c218ecc/779d4f63-56ef-4b15-8cae-c19b1083f11c/Angle-Mockup-WSJ-USA-Today+1.png?format=2500w",
+      "caption": "高端活动策划公司官网：官网展示的产品与实际使用场景",
+      "alt": "高端活动策划公司官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.natashamiller.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/682/original/open-uri20190111-4-o9k4im?1547207843",
       "caption": "高端活动策划公司：产品设计与早期打磨相关原始配图（第3张）",
       "alt": "高端活动策划公司：产品设计与早期打磨相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-natasha-miller-started-a-4m-event-management-company",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/683/original/open-uri20190111-4-1tkqr8m?1547207845",
+      "caption": "高端活动策划公司：产品设计与早期打磨相关原始配图（第4张）",
+      "alt": "高端活动策划公司：产品设计与早期打磨相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-natasha-miller-started-a-4m-event-management-company",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/000/684/original/open-uri20190111-4-3psb07?1547207846",
+      "caption": "高端活动策划公司：产品设计与早期打磨相关原始配图（第5张）",
+      "alt": "高端活动策划公司：产品设计与早期打磨相关原始配图（第5张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-natasha-miller-started-a-4m-event-management-company",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2420,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

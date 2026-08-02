@@ -168,25 +168,53 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/465/original/open-uri20211221-3-1gm8oai?1640090324",
-      "caption": "游戏化SEO工具：产品设计与早期打磨相关原始配图（第3张）",
-      "alt": "游戏化SEO工具：产品设计与早期打磨相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/we-created-a-420k-year-seo-tool-with-fun-game-mechanics",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://morningscore.io/wp-content/uploads/2025/12/Screenshot-2025-12-11-at-19.32.38-46x24.png",
+      "caption": "游戏化SEO工具官网：产品界面与核心功能展示",
+      "alt": "游戏化SEO工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://morningscore.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/gfA3O_7A2ow",
-      "watchUrl": "https://www.youtube.com/watch?v=gfA3O_7A2ow",
-      "caption": "游戏化SEO工具资料中提及的视频：Morningscore version 3 out now",
-      "alt": "Morningscore version 3 out now",
-      "sourceUrl": "https://www.starterstory.com/stories/we-created-a-420k-year-seo-tool-with-fun-game-mechanics",
-      "origin": "embeddable-video",
-      "poster": "https://i.ytimg.com/vi/gfA3O_7A2ow/hqdefault.jpg",
-      "provider": "YouTube",
-      "usage": ""
+      "type": "image",
+      "url": "https://morningscore.io/wp-content/uploads/2025/12/Screenshot-2025-12-11-at-19.51.23-46x24.png",
+      "caption": "游戏化SEO工具官网：AI辅助代码编辑与作品集构建界面",
+      "alt": "游戏化SEO工具官网：AI辅助代码编辑与作品集构建界面",
+      "sourceUrl": "https://morningscore.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://morningscore.io/wp-content/uploads/2025/12/Screenshot-2025-12-11-at-19.41.28-46x24.png",
+      "caption": "游戏化SEO工具官网：产品后台与数据看板",
+      "alt": "游戏化SEO工具官网：产品后台与数据看板",
+      "sourceUrl": "https://morningscore.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://morningscore.io/wp-content/uploads/2025/12/Screenshot-2025-12-11-at-19.38.27-46x24.png",
+      "caption": "游戏化SEO工具官网：产品后台与数据看板",
+      "alt": "游戏化SEO工具官网：产品后台与数据看板",
+      "sourceUrl": "https://morningscore.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://morningscore.io/wp-content/uploads/2025/12/Screenshot-2025-12-11-at-19.44.35-46x24.png",
+      "caption": "游戏化SEO工具官网：产品界面与核心功能展示",
+      "alt": "游戏化SEO工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://morningscore.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -201,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2400,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

@@ -165,6 +165,36 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://sunhaven.com/cdn/shop/files/2019-10-20_2247_carlton_holley_lic_real_estate_broker_states_CROPPED_USED_200x200.jpg?v=1613530831",
+      "caption": "在线销售户外家具官网：官网展示的产品与实际使用场景",
+      "alt": "在线销售户外家具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://sunhaven.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://sunhaven.com/cdn/shop/files/2019-10-20_2247_carlton_holley_lic_real_estate_broker_states_CROPPED_USED_600x600@2x.jpg?v=1613530831",
+      "caption": "在线销售户外家具官网：官网展示的产品与实际使用场景",
+      "alt": "在线销售户外家具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://sunhaven.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.shopify.com/s/files/1/0222/8106/0448/files/2019-10-09_1411_sunhaven_website_logo_color_PNG_CROPPED.png?height=628&pad_color=fff&v=1613522208&width=1200",
+      "caption": "在线销售户外家具官网：产品界面与核心功能展示",
+      "alt": "在线销售户外家具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://sunhaven.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -179,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2469,
-    "mediaCount": 3,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

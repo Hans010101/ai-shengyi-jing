@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为宠物品牌提供设计+品牌套餐的中国市场验证路线",
+      "items": [
+        "在抖音/小红书发布宠物设计案例，积累粉丝和作品集，突出差异化风格。",
+        "推出标准化品牌套餐（如Logo+包装+社交媒体模板），定价¥3000-8000，提供限时优惠。",
+        "与宠物博主/宠物店合作分成，获取首批客户，并建立客户推荐奖励机制。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "为宠物品牌提供设计+品牌套餐的经营验证仪表盘",
+      "items": [
+        "为宠物品牌提供设计+品牌套餐，月入2万美元。",
+        "为宠物企业提供品牌设计套餐（Logo、包装等），按项目收费，客单价$500-$2000。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2437,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

@@ -185,6 +185,36 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.combatflipflops.com/cdn/shop/files/AK-Product-4.png?v=1759170161&width=1080",
+      "caption": "卖反战主题饰品官网：官网展示的产品与实际使用场景",
+      "alt": "卖反战主题饰品官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.combatflipflops.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.combatflipflops.com/cdn/shop/files/AK-Product-5.png?v=1759170161&width=1080",
+      "caption": "卖反战主题饰品官网：官网展示的产品与实际使用场景",
+      "alt": "卖反战主题饰品官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.combatflipflops.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.combatflipflops.com/cdn/shop/products/ColombiaProductionVideoSQUAREPhoto.jpg?v=1759170161&width=1080",
+      "caption": "卖反战主题饰品官网：官网展示的产品与实际使用场景",
+      "alt": "卖反战主题饰品官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.combatflipflops.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -199,11 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2448,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

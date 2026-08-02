@@ -167,6 +167,49 @@
       "context": "source-article-body"
     },
     {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/9rYXyau8x-w",
+      "watchUrl": "https://www.youtube.com/watch?v=9rYXyau8x-w",
+      "caption": "远程+线下创始人社区资料中提及的视频：The right way to build a bootstrapped community with WeekendClub",
+      "alt": "The right way to build a bootstrapped community with WeekendClub",
+      "sourceUrl": "https://ramenclub.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/9rYXyau8x-w/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://ramenclub.com/_astro/44-w3dtPEo6Sw.gP635-Pw_ZDFkMB.webp",
+      "caption": "远程+线下创始人社区官网：用户社区与产品使用场景",
+      "alt": "远程+线下创始人社区官网：用户社区与产品使用场景",
+      "sourceUrl": "https://ramenclub.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://ramenclub.com/_astro/nR9zuiHIp3EYtApi6NSw0V8n18.Bq3Xoc8U_Z1ipyVR.webp",
+      "caption": "远程+线下创始人社区官网：用户社区与产品使用场景",
+      "alt": "远程+线下创始人社区官网：用户社区与产品使用场景",
+      "sourceUrl": "https://ramenclub.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://ramenclub.com/_astro/nR9zuiHIp3EYtApi6NSw0V8n18.Bq3Xoc8U.png",
+      "caption": "远程+线下创始人社区官网：产品界面与核心功能展示",
+      "alt": "远程+线下创始人社区官网：产品界面与核心功能展示",
+      "sourceUrl": "https://ramenclub.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/361/original/open-uri20220518-18-1lot3dh?1652889716",
       "caption": "远程+线下创始人社区：产品设计与早期打磨相关原始配图（第3张）",
@@ -175,18 +218,6 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
-    },
-    {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/9rYXyau8x-w",
-      "watchUrl": "https://www.youtube.com/watch?v=9rYXyau8x-w",
-      "caption": "远程+线下创始人社区资料中提及的视频：The right way to build a bootstrapped community with WeekendClub",
-      "alt": "The right way to build a bootstrapped community with WeekendClub",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-bootstrapped-a-co-working-space-and-make-48k-year-united-kingdom",
-      "origin": "embeddable-video",
-      "poster": "https://i.ytimg.com/vi/9rYXyau8x-w/hqdefault.jpg",
-      "provider": "YouTube",
-      "usage": ""
     }
   ],
   "source": {
@@ -201,7 +232,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2454,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

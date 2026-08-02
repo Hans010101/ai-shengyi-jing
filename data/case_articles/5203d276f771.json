@@ -167,10 +167,42 @@
       "context": "source-article-body"
     },
     {
+      "type": "video-file",
+      "url": "https://www.designevo.com/media/pages/images/home/web-animation-1280.mp4?v=1773889974",
+      "watchUrl": "https://www.designevo.com/media/pages/images/home/web-animation-1280.mp4?v=1773889974",
+      "poster": "https://www.designevo.com/media/pages/images/home/web_animation_scrn.png?v=1773889974",
+      "caption": "在线Logo设计工具官网：产品界面与核心功能展示",
+      "alt": "在线Logo设计工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.designevo.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/155/original/open-uri20211128-3-gemvzl?1638137957",
       "caption": "在线Logo设计工具：产品上线与首次发布相关原始配图（第3张）",
       "alt": "在线Logo设计工具：产品上线与首次发布相关原始配图（第3张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-created-a-12m-year-online-logo-maker-with-29-million-users",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/156/original/open-uri20211128-3-1opyykz?1638137957",
+      "caption": "在线Logo设计工具：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "在线Logo设计工具：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-created-a-12m-year-online-logo-maker-with-29-million-users",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/157/original/open-uri20211128-3-ot8qf1?1638137958",
+      "caption": "在线Logo设计工具：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "在线Logo设计工具：产品上线与首次发布相关原始配图（第5张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-created-a-12m-year-online-logo-maker-with-29-million-users",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -189,7 +221,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2511,
-    "mediaCount": 4,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

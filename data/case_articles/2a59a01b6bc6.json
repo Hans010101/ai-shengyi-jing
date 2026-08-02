@@ -168,6 +168,16 @@
     },
     {
       "type": "image",
+      "url": "https://cdn.fitsw.com/assets/img/FitSW-App-For-Personal-Trainers-Social-Share.png",
+      "caption": "为健身教练提供SaaS工具官网：产品界面与核心功能展示",
+      "alt": "为健身教练提供SaaS工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.fitsw.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/013/977/original/open-uri20210927-3-1lv99k8?1632750084",
       "caption": "为健身教练提供SaaS工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "alt": "为健身教练提供SaaS工具：创始人、核心产品与品牌起点相关原始配图（第3张）",
@@ -189,7 +199,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2439,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 5,
+    "logicMedia": 0
   }
 }

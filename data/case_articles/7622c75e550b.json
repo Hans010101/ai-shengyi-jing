@@ -190,6 +190,36 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://i.shgcdn.com/893cfac7-8909-481c-b2ff-5ae2bb5b9247/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+      "caption": "滑雪护目镜和头盔品牌官网：官网展示的产品与实际使用场景",
+      "alt": "滑雪护目镜和头盔品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.shopglade.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://i.shgcdn.com/92310316-fd73-4d39-ae44-90e6900bcf33/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+      "caption": "滑雪护目镜和头盔品牌官网：官网展示的产品与实际使用场景",
+      "alt": "滑雪护目镜和头盔品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.shopglade.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://i.shgcdn.com/a29a3b3d-5cac-4222-aa60-ad8623cb486e/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+      "caption": "滑雪护目镜和头盔品牌官网：官网展示的产品与实际使用场景",
+      "alt": "滑雪护目镜和头盔品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.shopglade.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -204,11 +234,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2483,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

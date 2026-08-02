@@ -165,6 +165,56 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://www.projectorscreen.com/cdn/shop/files/PSCO-BundleHero-Rev6_copy.avif?v=1752685999",
+      "caption": "垂直电商销售投影设备官网：官网展示的产品与实际使用场景",
+      "alt": "垂直电商销售投影设备官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.projectorscreen.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.projectorscreen.com/cdn/shop/files/Equinox150-Main.jpg?v=1764370815",
+      "caption": "垂直电商销售投影设备官网：官网展示的产品与实际使用场景",
+      "alt": "垂直电商销售投影设备官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.projectorscreen.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.projectorscreen.com/cdn/shop/files/PSCO-Helios-Image-0_04211e55-37be-4aef-ad33-1ed00cdc1c8f.jpg?v=1753817135",
+      "caption": "垂直电商销售投影设备官网：官网展示的产品与实际使用场景",
+      "alt": "垂直电商销售投影设备官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.projectorscreen.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.projectorscreen.com/cdn/shop/files/spectra-vantage-1_c59f7eb0-ef18-4f2d-8cae-1c26ae0d4f5e.jpg?v=1753814018",
+      "caption": "垂直电商销售投影设备官网：官网展示的产品与实际使用场景",
+      "alt": "垂直电商销售投影设备官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.projectorscreen.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.projectorscreen.com/cdn/shop/files/Cima-Fixed_20Frame-Blank-Neve.jpg?v=1753811704",
+      "caption": "垂直电商销售投影设备官网：官网展示的产品与实际使用场景",
+      "alt": "垂直电商销售投影设备官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.projectorscreen.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -179,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2481,
-    "mediaCount": 3,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

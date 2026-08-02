@@ -165,6 +165,46 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://makingfriends.com/wp-content/uploads/2026/02/feature-photos-gs-week-250x141.png",
+      "caption": "女童军博客官网：官网展示的产品与实际使用场景",
+      "alt": "女童军博客官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://makingfriends.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://makingfriends.com/wp-content/uploads/2023/11/simple-meals-product.jpg",
+      "caption": "女童军博客官网：官网展示的产品与实际使用场景",
+      "alt": "女童军博客官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://makingfriends.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://makingfriends.com/wp-content/uploads/2026/03/community-service-patches-250x138.png",
+      "caption": "女童军博客官网：用户社区与产品使用场景",
+      "alt": "女童军博客官网：用户社区与产品使用场景",
+      "sourceUrl": "https://makingfriends.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://makingfriends.com/wp-content/uploads/2026/02/making-friends.jpg",
+      "caption": "女童军博客官网：产品界面与核心功能展示",
+      "alt": "女童军博客官网：产品界面与核心功能展示",
+      "sourceUrl": "https://makingfriends.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -179,7 +219,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2454,
-    "mediaCount": 3,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

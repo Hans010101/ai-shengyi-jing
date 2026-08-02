@@ -185,6 +185,36 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn11.bigcommerce.com/s-dw57ootmu7/images/stencil/80w/products/262/2059/Custom_Printed_Table_Throw_Corner_Drape__57206.1694079599.jpg?c=2",
+      "caption": "定制印刷桌布电商官网：官网展示的产品与实际使用场景",
+      "alt": "定制印刷桌布电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://logoclothz.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn11.bigcommerce.com/s-dw57ootmu7/images/stencil/80w/products/260/2043/Custom_Printed_Table_Drape_Front_View_2__55430.1694079199.jpg?c=2",
+      "caption": "定制印刷桌布电商官网：官网展示的产品与实际使用场景",
+      "alt": "定制印刷桌布电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://logoclothz.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn11.bigcommerce.com/s-dw57ootmu7/images/stencil/80w/products/195/1473/3-Sided-Portable-Pop-Up-Display-Banner-Zippo-Lighter-Fire-Logoclothz__89363.1748386439.jpg?c=2",
+      "caption": "定制印刷桌布电商官网：官网展示的产品与实际使用场景",
+      "alt": "定制印刷桌布电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://logoclothz.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -199,11 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2422,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

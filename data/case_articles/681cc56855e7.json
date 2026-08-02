@@ -167,6 +167,30 @@
       "poster": "https://i.ytimg.com/vi/PdpuFp3mU9A/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "image",
+      "url": "https://recurpost.com/wp-content/uploads/2024/02/recurpost-og-image-1.png",
+      "caption": "社交媒体定时发布SaaS官网：产品界面与核心功能展示",
+      "alt": "社交媒体定时发布SaaS官网：产品界面与核心功能展示",
+      "sourceUrl": "https://recurpost.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "社交媒体定时发布SaaS的商业增长闭环",
+      "items": [
+        "【引流】SEO博客+免费版口碑",
+        "【产品】重复排程SaaS",
+        "【变现】月订阅付费",
+        "【留存】持续功能更新+客户支持"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -181,7 +205,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2509,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 4,
+    "logicMedia": 1
   }
 }

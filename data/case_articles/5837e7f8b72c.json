@@ -188,6 +188,36 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://ik-marketing-site.pages.dev/assets/ik/usercontent/images/ZZygUOOwLV6CkIqqo5UOlWwhu8.e621dc9c.png",
+      "caption": "AI工具帮内容创作者证明赞助价值官网：产品后台与数据看板",
+      "alt": "AI工具帮内容创作者证明赞助价值官网：产品后台与数据看板",
+      "sourceUrl": "https://www.influencekit.com",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://ik-marketing-site.pages.dev/assets/ik/usercontent/images/rdEiiyIIiagIw1U0YNJr4lHmh1w.031b0116.png",
+      "caption": "AI工具帮内容创作者证明赞助价值官网：官网展示的产品与实际使用场景",
+      "alt": "AI工具帮内容创作者证明赞助价值官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.influencekit.com",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://ik-marketing-site.pages.dev/assets/ik/usercontent/images/aY8SV4ctO27XDEjzB48wVsdFO4.c4278802.png",
+      "caption": "AI工具帮内容创作者证明赞助价值官网：社交媒体内容与营销活动场景",
+      "alt": "AI工具帮内容创作者证明赞助价值官网：社交媒体内容与营销活动场景",
+      "sourceUrl": "https://www.influencekit.com",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -202,11 +232,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2452,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

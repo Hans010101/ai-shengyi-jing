@@ -157,6 +157,18 @@
       "context": "source-article-body"
     },
     {
+      "type": "video-file",
+      "url": "https://31930884.s21v.faiusr.com/58/ABUIABA6GAAgnefhrQYo5MeSmwY.mp4",
+      "watchUrl": "https://31930884.s21v.faiusr.com/58/ABUIABA6GAAgnefhrQYo5MeSmwY.mp4",
+      "poster": "https://www.mobilepixels.com/",
+      "caption": "便携式笔记本外接显示器官网：产品界面与核心功能展示",
+      "alt": "便携式笔记本外接显示器官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.mobilepixels.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
       "type": "infographic",
       "variant": "business-loop",
       "title": "便携式笔记本外接显示器的商业增长闭环",
@@ -167,6 +179,20 @@
         "【留存】高质量产品、保修服务、社区运营、新品推送"
       ],
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "便携式笔记本外接显示器的产品与交付路径",
+      "items": [
+        "市场调研与设计",
+        "众筹验证",
+        "生产制造",
+        "电商直销"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
     }
@@ -183,11 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2508,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ReadTimeout",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 3,
+    "logicMedia": 2
   }
 }

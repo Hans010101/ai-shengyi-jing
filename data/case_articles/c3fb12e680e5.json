@@ -167,6 +167,28 @@
       "context": "source-article-body"
     },
     {
+      "type": "video-file",
+      "url": "https://www.uglyducklingcolor.com/modules/homepage/views/img/video-background.mp4",
+      "watchUrl": "https://www.uglyducklingcolor.com/modules/homepage/views/img/video-background.mp4",
+      "poster": "https://www.uglyducklingcolor.com/",
+      "caption": "专业染发品牌官网：产品界面与核心功能展示",
+      "alt": "专业染发品牌官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.uglyducklingcolor.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://www.uglyducklingcolor.com/modules/categorymanager//views/img/poup-product-image.png",
+      "caption": "专业染发品牌官网：官网展示的产品与实际使用场景",
+      "alt": "专业染发品牌官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.uglyducklingcolor.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/720/original/open-uri20210107-3-y3fpau?1610039091",
       "caption": "专业染发品牌：创始人、核心产品与品牌起点相关原始配图（第3张）",
@@ -177,16 +199,24 @@
       "context": "source-article-body"
     },
     {
-      "type": "video",
-      "url": "https://www.youtube.com/embed/8RymWny2vII",
-      "watchUrl": "https://www.youtube.com/watch?v=8RymWny2vII",
-      "caption": "专业染发品牌资料中提及的视频：How To Bleach Dark Hair Blonde...in 1 Sitting!",
-      "alt": "How To Bleach Dark Hair Blonde...in 1 Sitting!",
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/721/original/open-uri20210107-3-p76m0b?1610039092",
+      "caption": "专业染发品牌：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "alt": "专业染发品牌：创始人、核心产品与品牌起点相关原始配图（第4张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-email-marketing-and-grew-30-yoy",
-      "origin": "embeddable-video",
-      "poster": "https://i.ytimg.com/vi/8RymWny2vII/hqdefault.jpg",
-      "provider": "YouTube",
-      "usage": ""
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/722/original/open-uri20210107-3-punxiq?1610039092",
+      "caption": "专业染发品牌：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "alt": "专业染发品牌：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-focused-on-email-marketing-and-grew-30-yoy",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -201,7 +231,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2397,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

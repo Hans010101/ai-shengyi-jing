@@ -168,6 +168,49 @@
     },
     {
       "type": "image",
+      "url": "https://writingincomeaccelerator.com/wp-content/uploads/2023/04/Screen-Shot-2023-04-01-at-11.35.12-AM-212x300.png",
+      "caption": "针对中高级自由撰稿人的付费课程和教练服务官网：产品界面与核心功能展示",
+      "alt": "针对中高级自由撰稿人的付费课程和教练服务官网：产品界面与核心功能展示",
+      "sourceUrl": "https://writingincomeaccelerator.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "video",
+      "url": "https://player.vimeo.com/video/497970984",
+      "watchUrl": "https://vimeo.com/497970984",
+      "caption": "针对中高级自由撰稿人的付费课程和教练服务资料中提及的视频：Welcome To Writing Income Accelerator!",
+      "alt": "Welcome To Writing Income Accelerator!",
+      "sourceUrl": "https://writingincomeaccelerator.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.vimeocdn.com/video/1030516602-4ca92453db45cd06331d6857493af0efca7ba5ac35c51945e7b73b291c61c7d3-d_295x166?region=us",
+      "provider": "Vimeo",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "image",
+      "url": "https://writingincomeaccelerator.com/wp-content/uploads/2023/04/Screen-Shot-2023-04-01-at-11.35.12-AM.png",
+      "caption": "针对中高级自由撰稿人的付费课程和教练服务官网：官网展示的产品与实际使用场景",
+      "alt": "针对中高级自由撰稿人的付费课程和教练服务官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://writingincomeaccelerator.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://writingincomeaccelerator.com/wp-content/uploads/2020/12/Screen-Shot-2020-12-19-at-12.49.47-PM-e1609373268712.png",
+      "caption": "针对中高级自由撰稿人的付费课程和教练服务官网：官网展示的产品与实际使用场景",
+      "alt": "针对中高级自由撰稿人的付费课程和教练服务官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://writingincomeaccelerator.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/012/585/original/open-uri20210611-3-rfywio?1623408366",
       "caption": "针对中高级自由撰稿人的付费课程和教练服务：创业复盘与关键经验相关原始配图（第3张）",
       "alt": "针对中高级自由撰稿人的付费课程和教练服务：创业复盘与关键经验相关原始配图（第3张）",
@@ -189,7 +232,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2500,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

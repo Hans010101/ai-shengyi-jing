@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI驱动的简历优化工具的中国市场验证路线",
+      "items": [
+        "用GPT-4或开源模型（如ChatGLM）搭建简历分析原型，支持PDF/Word上传，提取关键信息并给出基础建议。",
+        "开发高级功能，如针对不同行业（IT、金融）的定制优化、面试模拟，设置免费试用7天，后续月费19.9元。",
+        "在知乎、小红书发布简历优化攻略引流，与高校就业中心合作推广，积累用户后接入招聘平台API提供职位匹配。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "AI驱动的简历优化工具的经营验证仪表盘",
+      "items": [
+        "AI驱动的简历优化工具，通过订阅制赚钱。",
+        "SaaS订阅制，免费基础功能+付费高级功能（如AI深度优化、面试模拟），月费$15-30。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,11 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2480,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "no-semantic-media",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:content-root-missing|official:no-semantic-media",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:no-semantic-media",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

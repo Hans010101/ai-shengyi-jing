@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "高尔夫球具DTC品牌的产品与交付路径",
+      "items": [
+        "用户浏览官网",
+        "选择球杆型号",
+        "加入购物车",
+        "在线支付"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "高尔夫球具DTC品牌的中国市场验证路线",
+      "items": [
+        "调研中国高尔夫业余爱好者痛点，确定产品定位（如入门级/女性专用），联系国内球具代工厂打样，成本控制在200-500元/支。",
+        "在抖音、小红书创建品牌账号，发布高尔夫技巧、产品评测短视频，积累粉丝；同时建立微信社群，提供免费教学问答。",
+        "上线微信小程序商城，首款产品采用预售模式，利用社群口碑传播，结合限时折扣和推荐返佣，快速完成冷启动。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,11 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2620,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "no-semantic-media",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:no-semantic-media",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:no-semantic-media",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

@@ -185,6 +185,36 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.shopify.com/s/files/1/0860/2746/products/zsiskaprimavera3beadnecklace_84x84.jpg?v=1598258708",
+      "caption": "线上礼品店官网：官网展示的产品与实际使用场景",
+      "alt": "线上礼品店官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://templesandmarkets.com.au/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.shopify.com/s/files/1/0860/2746/products/AngkorGeckoEarrings_84x84.png?v=1603689076",
+      "caption": "线上礼品店官网：官网展示的产品与实际使用场景",
+      "alt": "线上礼品店官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://templesandmarkets.com.au/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.shopify.com/s/files/1/0860/2746/products/brass-flower-of-angkor-pendant-jewellery-angkor-bullet-jewellery-cambodia_84x84.jpg?v=1576470947",
+      "caption": "线上礼品店官网：官网展示的产品与实际使用场景",
+      "alt": "线上礼品店官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://templesandmarkets.com.au/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -199,11 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2401,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

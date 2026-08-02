@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "WebMerge是一个文档自动化工具的中国市场验证路线",
+      "items": [
+        "选择垂直场景（如合同、报告），开发一套模板和字段映射工具，支持Word/Excel/PDF格式。",
+        "搭建网站，提供免费试用（限5份文档），通过SEO（如“自动生成合同”）获取流量。",
+        "接入微信支付和支付宝，设置阶梯定价（如$19/月基础版），并开放API供企业集成。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "WebMerge是一个文档自动化工具的经营验证仪表盘",
+      "items": [
+        "WebMerge是一个文档自动化工具，通过模板合并数据生成PDF/Word文档并收费。",
+        "SaaS订阅+按量付费，用户上传模板和数据源，系统自动合并生成文档，按文档数量或月费收费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2519,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

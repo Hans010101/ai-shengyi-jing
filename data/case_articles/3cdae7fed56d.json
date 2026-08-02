@@ -167,14 +167,65 @@
       "context": "source-article-body"
     },
     {
-      "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/726/original/open-uri20210107-3-wcj46r?1610041394",
-      "caption": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "alt": "海外AI工具项目：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-our-revenue-260-through-inbound-marketing",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "type": "video",
+      "url": "https://www.youtube.com/embed/Git8jJxFl7s",
+      "watchUrl": "https://www.youtube.com/watch?v=Git8jJxFl7s",
+      "caption": "海外AI工具项目资料中提及的视频：UserGuiding's 7 New Features for User Onboarding (Live Walkthrough)",
+      "alt": "UserGuiding's 7 New Features for User Onboarding (Live Walkthrough)",
+      "sourceUrl": "https://userguiding.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/Git8jJxFl7s/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://cdn.userguiding.com/hero.mp4",
+      "watchUrl": "https://cdn.userguiding.com/hero.mp4",
+      "poster": "https://userguiding.com/",
+      "caption": "海外AI工具项目官网：产品界面与核心功能展示",
+      "alt": "海外AI工具项目官网：产品界面与核心功能展示",
+      "sourceUrl": "https://userguiding.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://cdn.userguiding.com/guides.mp4",
+      "watchUrl": "https://cdn.userguiding.com/guides.mp4",
+      "poster": "https://userguiding.com/",
+      "caption": "海外AI工具项目官网：产品界面与核心功能展示",
+      "alt": "海外AI工具项目官网：产品界面与核心功能展示",
+      "sourceUrl": "https://userguiding.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://cdn.userguiding.com/hotspots.mp4",
+      "watchUrl": "https://cdn.userguiding.com/hotspots.mp4",
+      "poster": "https://userguiding.com/",
+      "caption": "海外AI工具项目官网：产品界面与核心功能展示",
+      "alt": "海外AI工具项目官网：产品界面与核心功能展示",
+      "sourceUrl": "https://userguiding.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://cdn.userguiding.com/ai-assistant.mp4",
+      "watchUrl": "https://cdn.userguiding.com/ai-assistant.mp4",
+      "poster": "https://userguiding.com/",
+      "caption": "海外AI工具项目官网：产品界面与核心功能展示",
+      "alt": "海外AI工具项目官网：产品界面与核心功能展示",
+      "sourceUrl": "https://userguiding.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -189,7 +240,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2451,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

@@ -185,6 +185,26 @@
       "origin": "official-site",
       "usage": "official-site-reference",
       "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/5f5e90c17e7c9eb95c7acb17/69dd572698a69dad649d3f08__.avif",
+      "caption": "AI会议记录与洞察工具官网：产品界面与核心功能展示",
+      "alt": "AI会议记录与洞察工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://grain.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/5f5e90c17e7c9eb95c7acb17/69dd5975567cb1cb174461be_Popover.png",
+      "caption": "AI会议记录与洞察工具官网：产品界面与核心功能展示",
+      "alt": "AI会议记录与洞察工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://grain.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -199,11 +219,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2416,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:content-root-missing|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

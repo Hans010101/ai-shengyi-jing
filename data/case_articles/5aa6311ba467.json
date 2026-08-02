@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "前记者创办的付费科技新闻通讯的产品与交付路径",
+      "items": [
+        "用户注册",
+        "邮件订阅",
+        "每日/周深度分析",
+        "付费解锁完整内容"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "前记者创办的付费科技新闻通讯的中国市场验证路线",
+      "items": [
+        "确定细分领域（如AI、新能源），开设微信公众号/邮件列表，每周发布2-3篇免费深度分析，积累种子用户。",
+        "推出付费订阅计划（如199元/年），提供独家内容、行业报告和社群权限，通过朋友圈和行业KOL推广。",
+        "组织线下沙龙或线上直播，邀请行业嘉宾，收取门票或寻找赞助，同时拓展企业定制内容服务。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,11 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2505,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ok",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:content-root-missing|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:ok",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

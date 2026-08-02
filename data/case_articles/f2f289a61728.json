@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "英国父子创办的 gourmet 咖啡订阅服务的产品与交付路径",
+      "items": [
+        "官网/小程序下单",
+        "订阅管理",
+        "订单处理",
+        "物流配送"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "英国父子创办的 gourmet 咖啡订阅服务的中国市场验证路线",
+      "items": [
+        "确定精品咖啡/茶供应链，选择3-5款特色产品，设计订阅套餐（月/季/年），定价覆盖成本并预留利润。",
+        "搭建微信小程序或独立站，实现订阅管理、支付和物流对接；利用小红书/抖音种草，引导用户注册订阅。",
+        "建立邮件/微信私域池，通过自动化营销发送新品推荐、生日优惠等，提升复购；收集反馈优化产品。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2520,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

@@ -168,13 +168,53 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/450/original/open-uri20211212-3-u4b5h4?1639334563",
-      "caption": "在线定制百叶窗电商：产品上线与首次发布相关原始配图（第3张）",
-      "alt": "在线定制百叶窗电商：产品上线与首次发布相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/i-built-a-36m-year-ecommerce-selling-window-blinds",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://cdn.blindster.com/cdn-cgi/image/format=auto,width=384/site/uploads/promo/web_ms1_m_940x480_scs0726_feature_tdbu.png",
+      "caption": "在线定制百叶窗电商官网：官网展示的产品与实际使用场景",
+      "alt": "在线定制百叶窗电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.blindster.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.blindster.com/cdn-cgi/image/format=auto,width=384/site/uploads/promo/web_ms1_m_940x480_scs0726_feature_cellular.png",
+      "caption": "在线定制百叶窗电商官网：官网展示的产品与实际使用场景",
+      "alt": "在线定制百叶窗电商官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.blindster.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.blindster.com/width=3840/site/uploads/features/features-blackout.jpg",
+      "caption": "在线定制百叶窗电商官网：产品界面与核心功能展示",
+      "alt": "在线定制百叶窗电商官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.blindster.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.blindster.com/width=3840/site/uploads/features/motorized-blinds-and-shades-landing.webp",
+      "caption": "在线定制百叶窗电商官网：产品界面与核心功能展示",
+      "alt": "在线定制百叶窗电商官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.blindster.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.blindster.com/width=3840/site/uploads/features/features-no-tools.jpg",
+      "caption": "在线定制百叶窗电商官网：产品界面与核心功能展示",
+      "alt": "在线定制百叶窗电商官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.blindster.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2391,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

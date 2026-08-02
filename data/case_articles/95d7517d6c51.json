@@ -175,6 +175,26 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/265/original/open-uri20220215-3-14f7qt4?1644931307",
+      "caption": "利用视错觉设计提供装饰服务：创业起点与创意来源相关原始配图（第4张）",
+      "alt": "利用视错觉设计提供装饰服务：创业起点与创意来源相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/from-passionate-3d-artist-to-making-1-2m-year-designing-optical-illusions",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/266/original/open-uri20220215-3-hjcc3g?1644931307",
+      "caption": "利用视错觉设计提供装饰服务：创业起点与创意来源相关原始配图（第5张）",
+      "alt": "利用视错觉设计提供装饰服务：创业起点与创意来源相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/from-passionate-3d-artist-to-making-1-2m-year-designing-optical-illusions",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -189,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2419,
-    "mediaCount": 4,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

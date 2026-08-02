@@ -168,6 +168,36 @@
     },
     {
       "type": "image",
+      "url": "https://cdn.prod.website-files.com/61120cb2509e011efcf0b1e4/692580574c744abbc0fd4ad4_Tactiq-ATF-Hero-New.avif",
+      "caption": "会议转录总结工具官网：官网展示的产品与实际使用场景",
+      "alt": "会议转录总结工具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://tactiq.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/61120cb2509e011efcf0b1e4/6783525b781b67ce3900f534_MS%20teams.avif",
+      "caption": "会议转录总结工具官网：官网展示的产品与实际使用场景",
+      "alt": "会议转录总结工具官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://tactiq.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.prod.website-files.com/61120cb2509e011efcf0b1e4/64260a921251ab86040d920b_Remember-website.png",
+      "caption": "会议转录总结工具官网：产品界面与核心功能展示",
+      "alt": "会议转录总结工具官网：产品界面与核心功能展示",
+      "sourceUrl": "https://tactiq.io/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/642/original/open-uri20220409-12-c7t2p4?1649533693",
       "caption": "会议转录总结工具：产品上线与首次发布相关原始配图（第3张）",
       "alt": "会议转录总结工具：产品上线与首次发布相关原始配图（第3张）",
@@ -189,7 +219,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2421,
-    "mediaCount": 4,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

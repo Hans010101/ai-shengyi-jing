@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/004/901/original/open-uri20200211-4-v7sqdw?1581455907",
+      "caption": "手工珠宝品牌：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "alt": "手工珠宝品牌：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-our-revenue-50-and-landed-a-spot-on-the-today-show",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/004/902/original/open-uri20200211-4-1mp9hax?1581455907",
+      "caption": "手工珠宝品牌：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "alt": "手工珠宝品牌：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-increased-our-revenue-50-and-landed-a-spot-on-the-today-show",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/5d2H96hsK0U",
       "watchUrl": "https://www.youtube.com/watch?v=5d2H96hsK0U",
@@ -201,7 +221,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2456,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:http-403",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:http-403",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

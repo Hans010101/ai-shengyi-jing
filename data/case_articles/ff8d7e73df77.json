@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "海外内容/媒体项目的中国市场验证路线",
+      "items": [
+        "确定细分领域（如消费心理学），创建公众号或邮件列表，每周发布2-3篇免费内容积累种子用户。",
+        "设计付费产品，如每月4篇深度分析+1次直播答疑，定价9.9-19.9元/月，通过免费内容引导订阅。",
+        "建立会员社群，提供额外互动和案例讨论，利用口碑传播和分销机制扩大订阅量。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "海外内容/媒体项目的经营验证仪表盘",
+      "items": [
+        "通过付费邮件通讯分享消费者心理洞察，年入百万美元。",
+        "订阅制邮件通讯，免费+付费双轨，付费用户获取深度分析和独家内容。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,11 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2430,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "ConnectionError",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:content-root-missing|official:ConnectionError",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:ConnectionError",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

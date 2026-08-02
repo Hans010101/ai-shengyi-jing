@@ -168,13 +168,64 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/818/original/open-uri20220312-3-1p6vi1q?1647068339",
-      "caption": "动画解说视频制作服务：产品上线与首次发布相关原始配图（第3张）",
-      "alt": "动画解说视频制作服务：产品上线与首次发布相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/how-being-a-pioneer-of-explainer-videos-made-my-company-2-16m-year",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://breadnbeyond.com/wp-content/uploads/2021/12/Product-Demo-Video-Best-Sample.jpg",
+      "caption": "动画解说视频制作服务官网：产品界面与核心功能展示",
+      "alt": "动画解说视频制作服务官网：产品界面与核心功能展示",
+      "sourceUrl": "https://breadnbeyond.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/US6agntBpQo",
+      "watchUrl": "https://www.youtube.com/watch?v=US6agntBpQo",
+      "caption": "动画解说视频制作服务资料中提及的视频：Explainer Video for RSVMotors | Cartoon Animation",
+      "alt": "Explainer Video for RSVMotors | Cartoon Animation",
+      "sourceUrl": "https://breadnbeyond.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/US6agntBpQo/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/qFCnUNNKpnY",
+      "watchUrl": "https://www.youtube.com/watch?v=qFCnUNNKpnY",
+      "caption": "动画解说视频制作服务资料中提及的视频：Health & Fitness Cartoon Explainer Video for 360 Hoops",
+      "alt": "Health & Fitness Cartoon Explainer Video for 360 Hoops",
+      "sourceUrl": "https://breadnbeyond.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/qFCnUNNKpnY/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/-oN0axKnuTU",
+      "watchUrl": "https://www.youtube.com/watch?v=-oN0axKnuTU",
+      "caption": "动画解说视频制作服务资料中提及的视频：OLEDworks Aerospace: A 3D Realistic Video",
+      "alt": "OLEDworks Aerospace: A 3D Realistic Video",
+      "sourceUrl": "https://breadnbeyond.com/",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/-oN0axKnuTU/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
+    },
+    {
+      "type": "video-file",
+      "url": "https://breadnbeyond.com/wp-content/themes/breadnbeyondv4/images/home/Snippet WWAD 1_0412a_o.mp4",
+      "watchUrl": "https://breadnbeyond.com/wp-content/themes/breadnbeyondv4/images/home/Snippet WWAD 1_0412a_o.mp4",
+      "poster": "https://breadnbeyond.com/wp-content/uploads/2021/09/homepage-card-1200x630-1.jpg",
+      "caption": "动画解说视频制作服务官网：产品界面与核心功能展示",
+      "alt": "动画解说视频制作服务官网：产品界面与核心功能展示",
+      "sourceUrl": "https://breadnbeyond.com/",
+      "origin": "official-site-video",
+      "usage": "official-site-reference",
+      "context": "official-product-video"
     }
   ],
   "source": {
@@ -189,7 +240,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2436,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

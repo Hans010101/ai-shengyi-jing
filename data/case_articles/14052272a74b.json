@@ -168,13 +168,53 @@
     },
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/009/623/original/open-uri20210103-3-j2nzct?1609692839",
-      "caption": "销售高性能运动营养品：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "alt": "销售高性能运动营养品：创始人、核心产品与品牌起点相关原始配图（第3张）",
-      "sourceUrl": "https://www.starterstory.com/stories/how-we-grew-nearly-400-and-expanded-our-team-to-16-employees",
-      "origin": "source-attributed",
-      "usage": "non-commercial-attributed",
-      "context": "source-article-body"
+      "url": "https://www.bareperformancenutrition.com/cdn/shop/files/z2025-11-13BPNProductFlatLays-320_websize-min_400x400_crop_center.jpg?v=1763350094",
+      "caption": "销售高性能运动营养品官网：官网展示的产品与实际使用场景",
+      "alt": "销售高性能运动营养品官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.bareperformancenutrition.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.bareperformancenutrition.com/cdn/shop/files/z2025-11-13_BPN_Product_Flat_Lays-77_websize-min_400x400_crop_center.jpg?v=1763349052",
+      "caption": "销售高性能运动营养品官网：官网展示的产品与实际使用场景",
+      "alt": "销售高性能运动营养品官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.bareperformancenutrition.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.bareperformancenutrition.com/cdn/shop/files/z2025-11-13_BPN_Product_Flat_Lays-80_websize-min_400x400_crop_center.jpg?v=1763349033",
+      "caption": "销售高性能运动营养品官网：官网展示的产品与实际使用场景",
+      "alt": "销售高性能运动营养品官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.bareperformancenutrition.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.bareperformancenutrition.com/cdn/shop/files/z2025-11-13_BPN_Product_Flat_Lays-71_websize-min-min_400x400_crop_center.jpg?v=1763340186",
+      "caption": "销售高性能运动营养品官网：官网展示的产品与实际使用场景",
+      "alt": "销售高性能运动营养品官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.bareperformancenutrition.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://www.bareperformancenutrition.com/cdn/shop/files/z2025-11-13_BPN_Product_Flat_Lays-70_websize-min-min_400x400_crop_center.jpg?v=1763340186",
+      "caption": "销售高性能运动营养品官网：官网展示的产品与实际使用场景",
+      "alt": "销售高性能运动营养品官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://www.bareperformancenutrition.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -189,7 +229,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2437,
-    "mediaCount": 4,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

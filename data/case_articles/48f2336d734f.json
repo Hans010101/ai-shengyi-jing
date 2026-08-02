@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/211/original/open-uri20220210-3-16nmncv?1644522308",
+      "caption": "去中心化广告网络：产品设计与早期打磨相关原始配图（第4张）",
+      "alt": "去中心化广告网络：产品设计与早期打磨相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-created-the-bitcoin-for-ads-600k-year",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/212/original/open-uri20220210-3-i9hkyy?1644522308",
+      "caption": "去中心化广告网络：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "去中心化广告网络：产品上线与首次发布相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-created-the-bitcoin-for-ads-600k-year",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/5_atO1a0szA",
       "watchUrl": "https://www.youtube.com/watch?v=5_atO1a0szA",
@@ -185,6 +205,18 @@
       "sourceUrl": "https://www.starterstory.com/stories/how-i-created-the-bitcoin-for-ads-600k-year",
       "origin": "embeddable-video",
       "poster": "https://i.ytimg.com/vi/5_atO1a0szA/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/JPvmtrX1ZXE",
+      "watchUrl": "https://www.youtube.com/watch?v=JPvmtrX1ZXE",
+      "caption": "去中心化广告网络资料中提及的视频：The Dashboard - Bitfari 101",
+      "alt": "The Dashboard - Bitfari 101",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-created-the-bitcoin-for-ads-600k-year",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/JPvmtrX1ZXE/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
     }
@@ -201,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2501,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:no-semantic-media",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:no-semantic-media",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

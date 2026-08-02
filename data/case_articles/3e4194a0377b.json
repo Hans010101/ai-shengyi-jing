@@ -165,6 +165,46 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://bounce.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flanding-hero-v2.1zx_pkmqrfh2c.webp&w=1466&q=75&dpl=dpl_A4FGAsuMXjzYy5QE8MDu88CaBDST",
+      "caption": "行李寄存平台官网：官网展示的产品与实际使用场景",
+      "alt": "行李寄存平台官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://bounce.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://bounce.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flanding-hero-desktop-v2.2fcf5bj8103qc.webp&w=1466&q=75&dpl=dpl_A4FGAsuMXjzYy5QE8MDu88CaBDST",
+      "caption": "行李寄存平台官网：官网展示的产品与实际使用场景",
+      "alt": "行李寄存平台官网：官网展示的产品与实际使用场景",
+      "sourceUrl": "https://bounce.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://bounce.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fphone-profile.1chzouqatartw.webp&w=1466&q=75&dpl=dpl_A4FGAsuMXjzYy5QE8MDu88CaBDST",
+      "caption": "行李寄存平台官网：产品界面与核心功能展示",
+      "alt": "行李寄存平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://bounce.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
+    },
+    {
+      "type": "image",
+      "url": "https://bounce.com/static/thumbnail.png",
+      "caption": "行李寄存平台官网：产品界面与核心功能展示",
+      "alt": "行李寄存平台官网：产品界面与核心功能展示",
+      "sourceUrl": "https://bounce.com/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     }
   ],
   "source": {
@@ -179,7 +219,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2454,
-    "mediaCount": 3,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:ok",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:ok|official:ok",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

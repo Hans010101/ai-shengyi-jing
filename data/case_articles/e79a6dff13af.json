@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "营销归因SaaS的中国市场验证路线",
+      "items": [
+        "选择细分市场（如电商或教育行业），开发最小可行产品，先支持微信广告和抖音广告的归因追踪。",
+        "免费提供基础归因报告，吸引首批种子用户，收集反馈并迭代模型，积累行业案例。",
+        "推出付费版本，按广告支出规模定价，同时提供定制化报告和优化建议，建立客户成功团队确保持续续费。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "营销归因SaaS的经营验证仪表盘",
+      "items": [
+        "营销归因SaaS，帮企业追踪广告效果并优化投放，按月收费。",
+        "SaaS订阅制，按数据量或功能分层收费，提供免费试用转化付费用户。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2446,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:content-root-missing|official:website-missing",
+    "attemptedAt": "2026-08-02T13:00:22.296500+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 1,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T13:00:22.296500+00:00",
+    "status": "source:content-root-missing|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }
