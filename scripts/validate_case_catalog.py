@@ -116,9 +116,14 @@ def validate(
             media = []
         if require_media and not media:
             errors.append(f"{project_id}: media is required")
-        if not 3 <= len(media) <= 5:
+        enrichment = article.get("mediaEnrichment", {})
+        if not 3 <= len(media) <= 8:
             errors.append(
-                f"{project_id}: expected 3-5 visual media items, got {len(media)}"
+                f"{project_id}: expected 3-8 visual media items, got {len(media)}"
+            )
+        if enrichment.get("batch") and not 5 <= len(media) <= 8:
+            errors.append(
+                f"{project_id}: enriched batch article must have 5-8 media items"
             )
         for index, item in enumerate(media):
             media_type = item.get("type")
@@ -163,7 +168,12 @@ def validate(
                     item.get("origin") != "editorial-generated"
                     or item.get("usage") != "site-original"
                     or item.get("variant")
-                    not in {"business-loop", "product-path", "china-launch"}
+                    not in {
+                        "business-loop",
+                        "product-path",
+                        "china-launch",
+                        "validation-scorecard",
+                    }
                     or not str(item.get("title", "")).strip()
                     or not isinstance(infographic_items, list)
                     or not 2 <= len(infographic_items) <= 4
@@ -230,6 +240,7 @@ def validate(
                 "sections": len(sections),
                 "media": len(media),
                 "status": article.get("status", ""),
+                "mediaBatch": enrichment.get("batch"),
             }
         )
 
@@ -238,6 +249,9 @@ def validate(
     ]
     below_three_media = [
         record["projectId"] for record in records if record["media"] < 3
+    ]
+    below_five_media = [
+        record["projectId"] for record in records if record["media"] < 5
     ]
     media_distribution = Counter(record["media"] for record in records)
     report = {
@@ -270,6 +284,14 @@ def validate(
         },
         "belowThreeMedia": len(below_three_media),
         "belowThreeMediaIds": below_three_media,
+        "belowFiveMedia": len(below_five_media),
+        "mediaEnrichmentBatches": dict(
+            Counter(
+                str(record["mediaBatch"])
+                for record in records
+                if record["mediaBatch"]
+            )
+        ),
         "withoutMediaIds": without_media,
         "errors": errors,
     }

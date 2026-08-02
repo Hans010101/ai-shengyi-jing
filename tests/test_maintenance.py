@@ -450,7 +450,7 @@ class ContentQualityTests(unittest.TestCase):
         )
         self.assertEqual(youtube["provider"], "YouTube")
 
-    def test_visual_media_is_filled_to_three_and_capped_at_five(self):
+    def test_visual_media_supports_five_to_eight_item_enrichment(self):
         project = {
             "id": "example",
             "nameZh": "示例项目",
@@ -468,7 +468,21 @@ class ContentQualityTests(unittest.TestCase):
 
         empty = ensure_visual_media(project, [])
         one = ensure_visual_media(project, [source_image])
-        six = ensure_visual_media(project, [source_image] * 6)
+        six = ensure_visual_media(
+            project,
+            [
+                {**source_image, "url": f"https://cdn.example.com/{index}.jpg"}
+                for index in range(6)
+            ],
+            min_items=5,
+            max_items=8,
+        )
+        enriched_one = ensure_visual_media(
+            project,
+            [source_image],
+            min_items=5,
+            max_items=8,
+        )
 
         self.assertEqual(len(empty), 3)
         self.assertTrue(all(item["type"] == "infographic" for item in empty))
@@ -478,10 +492,13 @@ class ContentQualityTests(unittest.TestCase):
             [item["type"] for item in one[1:]],
             ["infographic", "infographic"],
         )
-        self.assertEqual(len(six), 3)
+        self.assertEqual(len(six), 6)
+        self.assertTrue(all(item["type"] == "image" for item in six))
+        self.assertEqual(len(enriched_one), 5)
+        self.assertEqual(enriched_one[0]["type"], "image")
         self.assertEqual(
-            [item["type"] for item in six],
-            ["image", "infographic", "infographic"],
+            [item["type"] for item in enriched_one[1:]],
+            ["infographic"] * 4,
         )
         self.assertTrue(
             all(
@@ -497,6 +514,8 @@ class ContentQualityTests(unittest.TestCase):
         self.assertIn("editorial-infographic", case_js)
         self.assertIn("AI生意经原创信息图", case_js)
         self.assertIn(".infographic-flow", case_css)
+        self.assertIn("validation-scorecard", case_js)
+        self.assertIn(".infographic-validation-scorecard", case_css)
 
     def test_case_page_uses_editorial_navigation_and_distributed_media(self):
         case_js = Path("assets/case.js").read_text(encoding="utf-8")

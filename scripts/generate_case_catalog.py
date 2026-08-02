@@ -32,8 +32,8 @@ LEGACY_ARTICLES_FILE = ROOT / "data" / "case_articles.json"
 ARTICLES_DIR = ROOT / "data" / "case_articles"
 REPORT_FILE = ROOT / "pipeline" / "data" / "case_catalog_report.json"
 SOURCE_HOST = "www.starterstory.com"
-MAX_MEDIA = 5
-MAX_SOURCE_IMAGES = 4
+MAX_MEDIA = 8
+MAX_SOURCE_IMAGES = 6
 REQUEST_TIMEOUT = 25
 GENERIC_CAPTION_MARKERS = (
     "项目公开展示素材",
@@ -590,7 +590,7 @@ def extract_official_media(
             continue
         seen.add(key)
         result.append(item)
-        if len(result) >= 4:
+        if len(result) >= 6:
             break
     return result
 
@@ -794,6 +794,13 @@ def editorial_infographics(project: dict) -> list[dict]:
         for step in project.get("getStartedPath", [])
         if clean_text(step)
     ][:4]
+    scorecard_items = [
+        clean_text(project.get("problem"), 90),
+        clean_text(project.get("pricing"), 90),
+        clean_text(project.get("growthLoop"), 90),
+        clean_text(project.get("risks"), 90),
+    ]
+    scorecard_items = [item for item in scorecard_items if item][:4]
     if len(business_items) < 2:
         business_items = [
             "找到高频需求与目标用户",
@@ -811,6 +818,12 @@ def editorial_infographics(project: dict) -> list[dict]:
             "访谈目标用户并确认付费问题",
             "用最小版本完成一次真实交付",
             "根据成交、成本与复购数据决定是否扩大",
+        ]
+    if len(scorecard_items) < 2:
+        scorecard_items = [
+            clean_text(project.get("summary"), 90) or "需求是否足够高频",
+            clean_text(project.get("businessModel"), 90) or "收入是否能够重复",
+            "获客成本与交付效率是否可控",
         ]
     return [
         {
@@ -840,11 +853,27 @@ def editorial_infographics(project: dict) -> list[dict]:
             "origin": "editorial-generated",
             "usage": "site-original",
         },
+        {
+            "type": "infographic",
+            "variant": "validation-scorecard",
+            "title": f"{name}的经营验证仪表盘",
+            "items": scorecard_items,
+            "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+            "origin": "editorial-generated",
+            "usage": "site-original",
+        },
     ]
 
 
-def ensure_visual_media(project: dict, media: list[dict]) -> list[dict]:
-    """Guarantee 3-5 distinct visuals without inventing third-party photos."""
+def ensure_visual_media(
+    project: dict,
+    media: list[dict],
+    min_items: int = 3,
+    max_items: int = MAX_MEDIA,
+) -> list[dict]:
+    """Keep genuine media first and use diagrams only to fill real gaps."""
+    max_items = max(1, min(MAX_MEDIA, max_items))
+    min_items = max(0, min(max_items, min_items))
     external = []
     seen = set()
     for item in media:
@@ -855,9 +884,9 @@ def ensure_visual_media(project: dict, media: list[dict]) -> list[dict]:
             continue
         seen.add(key)
         external.append(item)
-        if len(external) == 5:
+        if len(external) == max_items:
             break
-    needed = max(0, 3 - len(external))
+    needed = max(0, min_items - len(external))
     return [*external, *editorial_infographics(project)[:needed]]
 
 
@@ -1382,6 +1411,23 @@ def main() -> None:
         ),
     )
     parser.add_argument(
+        "--enrich-media-batch",
+        type=int,
+        default=0,
+        metavar="BATCH",
+        help=(
+            "Refresh one deterministic project batch with source and official "
+            "media, targeting five to eight visuals per article"
+        ),
+    )
+    parser.add_argument(
+        "--media-batch-size",
+        type=int,
+        default=1000,
+        metavar="COUNT",
+        help="Number of projects in each deterministic media batch",
+    )
+    parser.add_argument(
         "--normalize-local-media",
         action="store_true",
         help=(
@@ -1487,6 +1533,116 @@ def main() -> None:
                 )
                 print(f"[SELECTED MEDIA] {index}/{len(futures)} {project_id}")
         print(json.dumps({"refreshed": records}, ensure_ascii=False, indent=2))
+        return
+
+    if args.enrich_media_batch:
+        batch_number = max(1, args.enrich_media_batch)
+        batch_size = max(1, args.media_batch_size)
+        start = (batch_number - 1) * batch_size
+        selected_projects = projects[start : start + batch_size]
+        selected_projects = [
+            project
+            for project in selected_projects
+            if str(project.get("id")) in existing
+        ]
+        selected_by_id = {
+            str(project["id"]): project for project in selected_projects
+        }
+        now = datetime.datetime.now(datetime.timezone.utc).isoformat()
+
+        def enrich_batch_project(project: dict):
+            discovered, status = discover_project_media(project)
+            return str(project["id"]), discovered, status
+
+        records = []
+        with concurrent.futures.ThreadPoolExecutor(
+            max_workers=max(1, args.workers)
+        ) as executor:
+            futures = [
+                executor.submit(enrich_batch_project, project)
+                for project in selected_projects
+            ]
+            for index, future in enumerate(
+                concurrent.futures.as_completed(futures),
+                start=1,
+            ):
+                project_id, discovered, status = future.result()
+                project = selected_by_id[project_id]
+                article = existing[project_id]
+                before = article.get("media", [])
+                real_existing = [
+                    item for item in before if item.get("type") != "infographic"
+                ]
+                genuine = merge_media(discovered, real_existing, limit=MAX_MEDIA)
+                final_media = ensure_visual_media(
+                    project,
+                    genuine,
+                    min_items=5,
+                    max_items=MAX_MEDIA,
+                )
+                real_count = sum(
+                    item.get("type") != "infographic" for item in final_media
+                )
+                logic_count = len(final_media) - real_count
+                article["media"] = final_media
+                article.setdefault("quality", {})["mediaCount"] = len(final_media)
+                article["mediaDiscovery"] = {
+                    "status": status,
+                    "attemptedAt": now,
+                }
+                article["mediaEnrichment"] = {
+                    "batch": batch_number,
+                    "batchSize": batch_size,
+                    "processedAt": now,
+                    "status": status,
+                    "realMedia": real_count,
+                    "logicMedia": logic_count,
+                }
+                save_json(ARTICLES_DIR / f"{project_id}.json", article)
+                records.append(
+                    {
+                        "projectId": project_id,
+                        "status": status,
+                        "beforeCount": len(before),
+                        "mediaCount": len(final_media),
+                        "realMedia": real_count,
+                        "logicMedia": logic_count,
+                    }
+                )
+                if index % 50 == 0 or index == len(futures):
+                    print(f"[MEDIA BATCH {batch_number}] {index}/{len(futures)}")
+
+        updated_reviewed = [
+            existing[project_id]
+            for project_id in reviewed
+            if project_id in existing
+        ]
+        if updated_reviewed:
+            reviewed_order = {
+                str(item.get("projectId")): index
+                for index, item in enumerate(legacy)
+            }
+            updated_reviewed.sort(
+                key=lambda item: reviewed_order.get(
+                    str(item.get("projectId")), len(reviewed_order)
+                )
+            )
+            save_json(LEGACY_ARTICLES_FILE, updated_reviewed)
+
+        summary = {
+            "batch": batch_number,
+            "batchSize": batch_size,
+            "range": [start + 1, start + len(selected_projects)],
+            "processed": len(records),
+            "mediaItems": sum(item["mediaCount"] for item in records),
+            "realMediaItems": sum(item["realMedia"] for item in records),
+            "logicMediaItems": sum(item["logicMedia"] for item in records),
+            "mediaDistribution": dict(
+                sorted(Counter(item["mediaCount"] for item in records).items())
+            ),
+            "statuses": dict(Counter(item["status"] for item in records)),
+        }
+        print(json.dumps(summary, ensure_ascii=False, indent=2))
         return
 
     if args.enrich_official_batch:

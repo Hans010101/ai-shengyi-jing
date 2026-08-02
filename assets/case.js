@@ -75,7 +75,8 @@ function renderMedia(media, index) {
     const allowedVariants = new Set([
       'business-loop',
       'product-path',
-      'china-launch'
+      'china-launch',
+      'validation-scorecard'
     ]);
     const variant = allowedVariants.has(media.variant)
       ? media.variant

@@ -1,0 +1,57 @@
+name: 案例素材分批精修
+
+on:
+  workflow_dispatch:
+    inputs:
+      batch:
+        description: 批次编号（1-4）
+        required: true
+        default: '1'
+      batch_size:
+        description: 每批案例数
+        required: true
+        default: '1000'
+
+concurrency:
+  group: case-media-enrichment
+  cancel-in-progress: false
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Enrich selected batch
+        run: |
+          python3 scripts/generate_case_catalog.py \
+            --enrich-media-batch "${{ inputs.batch }}" \
+            --media-batch-size "${{ inputs.batch_size }}" \
+            --workers 12 \
+            --request-interval 0.2 \
+            --request-retries 2
+          python3 scripts/validate_case_catalog.py
+
+      - name: Commit enriched case media
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/case_articles/ data/case_articles.json pipeline/data/case_catalog_report.json
+          git diff --staged --quiet || git commit -m "🖼️ 案例素材精修：第 ${{ inputs.batch }} 批"
+          if git diff --quiet HEAD origin/main; then
+            echo "No enriched media to push"
+          else
+            git pull --rebase origin main
+            git push origin main
+          fi

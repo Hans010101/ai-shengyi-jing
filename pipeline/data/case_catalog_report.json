@@ -1,5 +1,5 @@
 {
-  "validatedAt": "2026-08-02T10:36:54.977678+00:00",
+  "validatedAt": "2026-08-02T12:44:12.340480+00:00",
   "projectCount": 3666,
   "articleCount": 3666,
   "coveragePercent": 100.0,
@@ -21,6 +21,8 @@
   },
   "belowThreeMedia": 0,
   "belowThreeMediaIds": [],
+  "belowFiveMedia": 3223,
+  "mediaEnrichmentBatches": {},
   "withoutMediaIds": [],
   "errors": []
 }
