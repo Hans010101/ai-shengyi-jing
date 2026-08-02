@@ -563,6 +563,14 @@ class ContentQualityTests(unittest.TestCase):
         self.assertIn("--enrich-official-batch 500", workflow)
         self.assertIn("--workers 12", workflow)
 
+    def test_case_media_batches_are_published_after_enrichment(self):
+        workflow = Path(".github/workflows/case_media_batch.yml").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("--media-batch-size", workflow)
+        self.assertIn("actions: write", workflow)
+        self.assertIn("gh workflow run deploy_cloudflare.yml", workflow)
+
     def test_official_media_prefers_product_scenes_and_playable_video(self):
         project = {
             "id": "example",

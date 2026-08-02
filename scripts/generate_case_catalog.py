@@ -1548,8 +1548,27 @@ def main() -> None:
     if args.enrich_media_batch:
         batch_number = max(1, args.enrich_media_batch)
         batch_size = max(1, args.media_batch_size)
-        start = (batch_number - 1) * batch_size
-        selected_projects = projects[start : start + batch_size]
+        existing_batch_ids = {
+            project_id
+            for project_id, article in existing.items()
+            if article.get("mediaEnrichment", {}).get("batch") == batch_number
+        }
+        if existing_batch_ids:
+            selected_projects = [
+                project
+                for project in projects
+                if str(project.get("id")) in existing_batch_ids
+            ][:batch_size]
+            selection_policy = "existing-batch-membership"
+        else:
+            selected_projects = [
+                project
+                for project in projects
+                if not existing.get(str(project.get("id")), {}).get(
+                    "mediaEnrichment", {}
+                ).get("batch")
+            ][:batch_size]
+            selection_policy = "next-unprocessed-projects"
         selected_projects = [
             project
             for project in selected_projects
@@ -1642,7 +1661,7 @@ def main() -> None:
         summary = {
             "batch": batch_number,
             "batchSize": batch_size,
-            "range": [start + 1, start + len(selected_projects)],
+            "selectionPolicy": selection_policy,
             "processed": len(records),
             "mediaItems": sum(item["mediaCount"] for item in records),
             "realMediaItems": sum(item["realMedia"] for item in records),
