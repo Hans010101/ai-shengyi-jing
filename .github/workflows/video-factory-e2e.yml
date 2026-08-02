@@ -1,0 +1,54 @@
+name: Video factory end-to-end smoke test
+
+on:
+  workflow_dispatch:
+    inputs:
+      title:
+        description: Knowledge video title
+        required: false
+        default: 为什么我们总是低估复利
+
+jobs:
+  knowledge-video:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - name: Create non-case production job
+        id: create
+        env:
+          FACTORY_KEY: ${{ secrets.VIDEO_FACTORY_ADMIN_TOKEN }}
+          TITLE: ${{ inputs.title }}
+        run: |
+          payload=$(jq -n --arg title "$TITLE" '{source:{sourceType:"book",title:$title,text:"复利不是短期暴涨，而是收益持续进入下一轮增长。时间、稳定投入和减少中断共同决定长期结果。真正困难的不是理解公式，而是在波动中保持纪律。把目标拆成可持续的小动作，定期复盘，让每一轮经验也进入下一轮，复利才从概念变成系统。"},options:{templateId:"knowledge-director-v1",visualPreset:"knowledge-diagram",aspectRatio:"9:16",durationSeconds:60,voice:"zh-CN-XiaoxiaoNeural",voiceRate:1.0,brandPreset:"studio-neutral",bgm:false,autoDucking:false}}')
+          response=$(curl --fail-with-body --silent --show-error -X POST \
+            -H 'Content-Type: application/json' -H "X-Factory-Key: $FACTORY_KEY" \
+            --data "$payload" https://ai-shengyi-video-factory.hans-pan007.workers.dev/api/jobs)
+          job_id=$(jq -er '.jobs[0].jobId' <<<"$response")
+          echo "job_id=$job_id" >> "$GITHUB_OUTPUT"
+          echo "Created non-case job: $job_id"
+
+      - name: Wait for script, storyboard, audio, QA and render
+        env:
+          FACTORY_KEY: ${{ secrets.VIDEO_FACTORY_ADMIN_TOKEN }}
+          JOB_ID: ${{ steps.create.outputs.job_id }}
+        run: |
+          last_stage=''
+          for attempt in $(seq 1 105); do
+            response=$(curl --fail-with-body --silent --show-error \
+              -H "X-Factory-Key: $FACTORY_KEY" \
+              "https://ai-shengyi-video-factory.hans-pan007.workers.dev/api/jobs/$JOB_ID")
+            status=$(jq -r '.status' <<<"$response")
+            stage=$(jq -r '.stage' <<<"$response")
+            progress=$(jq -r '.progress' <<<"$response")
+            if [[ "$stage" != "$last_stage" ]]; then echo "Stage: $stage ($progress%)"; last_stage="$stage"; fi
+            if [[ "$status" == succeeded ]]; then
+              jq -e '.outputs.video and .outputs.audio and .outputs.qa and (.qa_score >= 80)' <<<"$response" >/dev/null
+              curl --fail --silent --show-error --head "https://ai-shengyi-video-factory.hans-pan007.workers.dev/output/$JOB_ID/video.mp4" >/dev/null
+              echo "E2E succeeded: $JOB_ID, QA $(jq -r '.qa_score' <<<"$response")"
+              exit 0
+            fi
+            if [[ "$status" == failed ]]; then jq '{id,status,stage,error_code,error_message,events}' <<<"$response"; exit 1; fi
+            sleep 15
+          done
+          echo "Timed out waiting for $JOB_ID" >&2
+          exit 1
