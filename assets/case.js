@@ -76,7 +76,8 @@ function renderMedia(media, index) {
       'business-loop',
       'product-path',
       'china-launch',
-      'validation-scorecard'
+      'validation-scorecard',
+      'unit-economics'
     ]);
     const variant = allowedVariants.has(media.variant)
       ? media.variant

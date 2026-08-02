@@ -532,6 +532,8 @@ class ContentQualityTests(unittest.TestCase):
         self.assertIn(".infographic-flow", case_css)
         self.assertIn("validation-scorecard", case_js)
         self.assertIn(".infographic-validation-scorecard", case_css)
+        self.assertIn("unit-economics", case_js)
+        self.assertIn(".infographic-unit-economics", case_css)
 
     def test_case_page_uses_editorial_navigation_and_distributed_media(self):
         case_js = Path("assets/case.js").read_text(encoding="utf-8")

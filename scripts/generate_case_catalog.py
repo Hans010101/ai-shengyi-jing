@@ -801,6 +801,20 @@ def editorial_infographics(project: dict) -> list[dict]:
         clean_text(project.get("risks"), 90),
     ]
     scorecard_items = [item for item in scorecard_items if item][:4]
+    economics_items = [
+        f"营收口径：{clean_text(project.get('revenue'), 70)}"
+        if clean_text(project.get("revenue"))
+        else "营收口径：先验证真实付费",
+        f"启动成本：{clean_text(project.get('startCost'), 70)}"
+        if clean_text(project.get("startCost"))
+        else "启动成本：控制最小验证投入",
+        f"首次盈利：{clean_text(project.get('profitTime'), 70)}"
+        if clean_text(project.get("profitTime"))
+        else "盈利节点：跟踪回本周期",
+        f"团队配置：{clean_text(project.get('teamSize'), 70)}"
+        if clean_text(project.get("teamSize"))
+        else "团队配置：优先标准化交付",
+    ]
     if len(business_items) < 2:
         business_items = [
             "找到高频需求与目标用户",
@@ -859,6 +873,15 @@ def editorial_infographics(project: dict) -> list[dict]:
             "title": f"{name}的经营验证仪表盘",
             "items": scorecard_items,
             "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+            "origin": "editorial-generated",
+            "usage": "site-original",
+        },
+        {
+            "type": "infographic",
+            "variant": "unit-economics",
+            "title": f"{name}的单位经济与经营指标",
+            "items": economics_items,
+            "caption": "AI生意经原创信息图：根据案例公开经营指标与验证口径整理",
             "origin": "editorial-generated",
             "usage": "site-original",
         },

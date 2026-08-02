@@ -173,6 +173,7 @@ def validate(
                         "product-path",
                         "china-launch",
                         "validation-scorecard",
+                        "unit-economics",
                     }
                     or not str(item.get("title", "")).strip()
                     or not isinstance(infographic_items, list)
