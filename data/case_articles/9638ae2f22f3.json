@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/907/original/open-uri20230118-24-1sc81xs?1674050468",
+      "caption": "夫妻档公证服务：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "alt": "夫妻档公证服务：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/noble-notary-legal-document-preparers",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/908/original/open-uri20230118-24-3s6itn?1674050470",
+      "caption": "夫妻档公证服务：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "夫妻档公证服务：产品上线与首次发布相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/noble-notary-legal-document-preparers",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/SeoBrqAG-9s",
       "watchUrl": "https://www.youtube.com/watch?v=SeoBrqAG-9s",
@@ -201,7 +221,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2394,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

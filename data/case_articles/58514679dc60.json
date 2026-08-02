@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为中小企业提供一站式后台运营外包服务的中国市场验证路线",
+      "items": [
+        "选择1-2个细分服务（如代账或社保），搭建标准化服务流程，利用现有财务或HR软件提高效率。",
+        "通过本地商会、园区或线上内容（如知乎、抖音）获取第一批客户，提供低价试用套餐。",
+        "收集客户反馈优化服务，建立转介绍机制，逐步扩展服务品类，形成口碑效应。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "为中小企业提供一站式后台运营外包服务的经营验证仪表盘",
+      "items": [
+        "为中小企业提供一站式后台运营外包服务，按年收费。",
+        "按年订阅制，提供会计、HR、IT等后台服务，通过高效运营和规模效应获取利润。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2486,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

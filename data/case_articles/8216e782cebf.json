@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "为作者提供自助营销平台的产品与交付路径",
+      "items": [
+        "用户注册",
+        "创建作者主页",
+        "使用营销工具（书评、横幅、邮件）",
+        "付费解锁高级功能"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为作者提供自助营销平台的中国市场验证路线",
+      "items": [
+        "验证需求。在知乎、豆瓣等平台调研作者营销痛点，确认付费意愿。用MVP（如简单主页+书评管理）测试转化率。",
+        "开发核心功能。先做作者主页生成器、书评收集工具、社交媒体推广模板。采用免费+付费模式，基础功能免费，高级分析按月收费。",
+        "冷启动获客。在网文论坛（如起点、晋江）发布教程，与作者合作推广。利用SEO优化作者主页排名，吸引自然流量。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2530,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

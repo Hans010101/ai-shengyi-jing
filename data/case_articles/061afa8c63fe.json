@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "夫妻档CFO外包服务的产品与交付路径",
+      "items": [
+        "客户咨询",
+        "财务诊断",
+        "定制方案",
+        "月度报告"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "夫妻档CFO外包服务的中国市场验证路线",
+      "items": [
+        "考取CPA或CMA等财务认证，积累3-5年企业财务经验，专注新兴行业（如电商、Web3）的财税知识。",
+        "通过知乎、B站发布财税干货，建立个人品牌，吸引中小企业主；同时夫妻/合伙人分工，一人负责专业交付，一人负责销售运营。",
+        "推出标准化服务包（如月度财务报告+税务合规检查），定价2000-5000元/月，先服务5-10家种子客户，迭代服务流程。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2535,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

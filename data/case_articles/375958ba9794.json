@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "桌面端Facebook Messenger应用的产品与交付路径",
+      "items": [
+        "用户下载安装",
+        "登录Facebook账号",
+        "使用基础聊天功能",
+        "付费解锁高级功能"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "桌面端Facebook Messenger应用的中国市场验证路线",
+      "items": [
+        "使用Electron或Tauri框架，封装微信/QQ的Web版为桌面应用，实现基础聊天、通知功能。",
+        "在官网、知乎、小众软件论坛发布免费版，收集用户反馈，增加多账号、主题等高级功能。",
+        "设置付费墙，基础功能免费，高级功能收费（如$2-5一次性或订阅），并上架国内软件商店。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2556,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

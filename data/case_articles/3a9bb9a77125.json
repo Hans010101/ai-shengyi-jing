@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "婴儿用品按月租赁平台的产品与交付路径",
+      "items": [
+        "用户注册",
+        "选择订阅套餐",
+        "挑选商品",
+        "下单支付"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "婴儿用品按月租赁平台的中国市场验证路线",
+      "items": [
+        "调研本地婴儿用品租赁需求，确定目标品类（如婴儿车、安全座椅、玩具），联系供应商或二手货源，建立库存。",
+        "开发小程序或网站，实现商品展示、订阅管理、订单处理功能，对接物流和消毒服务。",
+        "通过母婴社群、小红书、抖音等渠道推广，与月子中心、早教机构合作，推出首月优惠吸引用户。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2461,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

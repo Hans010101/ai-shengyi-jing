@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "开发类似Hotjar的网站分析工具的产品与交付路径",
+      "items": [
+        "用户注册",
+        "安装追踪代码",
+        "数据采集",
+        "热图/录屏分析"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "开发类似Hotjar的网站分析工具的中国市场验证路线",
+      "items": [
+        "选择细分市场（如电商/教育网站），开发核心热图分析功能，采用开源库（如Heatmap.js）降低开发成本。",
+        "推出免费版限制页面数或历史数据，通过SEO和行业社区推广，收集用户反馈迭代。",
+        "上线付费版解锁高级功能（如录屏、漏斗分析），定价$29-99/月，提供7天免费试用。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2455,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

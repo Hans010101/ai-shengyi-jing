@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "美食博主转型的中国市场验证路线",
+      "items": [
+        "选择细分领域（如美食、旅行），创建个人博客或视频号，发布高质量内容积累粉丝，建立信任。",
+        "根据粉丝需求推出相关产品，如设备推荐（联盟营销或自营电商）、模板/素材包（数字产品）、简单编辑服务。",
+        "开发轻量级SaaS工具（如自动字幕、视频剪辑模板），提供免费版引流，付费版解锁高级功能，实现订阅收入。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "美食博主转型的经营验证仪表盘",
+      "items": [
+        "美食博主转型，通过电商、SaaS、服务等多业务矩阵变现。",
+        "通过电商销售视频设备、提供视频编辑服务、SaaS工具订阅及内容变现，多业务协同。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2457,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

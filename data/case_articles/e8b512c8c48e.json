@@ -157,16 +157,45 @@
       "context": "source-article-body"
     },
     {
-      "type": "video",
-      "url": "https://player.vimeo.com/video/378878330",
-      "watchUrl": "https://vimeo.com/378878330",
-      "caption": "品牌营销代理资料中提及的视频：HypeLife Brands Presents Making the Brand: HUDL Music",
-      "alt": "HypeLife Brands Presents Making the Brand: HUDL Music",
-      "sourceUrl": "https://www.starterstory.com/stories/startup-marketing-agency",
-      "origin": "embeddable-video",
-      "poster": "https://i.vimeocdn.com/video/839430984-a86f7ce7cecf5a30b2f3e883af23b4efe93eea4920c5a13d7be735a3d022f741-d_295x166?region=us",
-      "provider": "Vimeo",
-      "usage": ""
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "品牌营销代理的商业增长闭环",
+      "items": [
+        "【引流】内容营销+行业口碑",
+        "【产品】品牌开发+营销代理",
+        "【变现】服务费+项目制收费",
+        "【留存】持续优化+客户成功"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "品牌营销代理的产品与交付路径",
+      "items": [
+        "客户咨询",
+        "品牌诊断",
+        "策略制定",
+        "营销执行"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "品牌营销代理的中国市场验证路线",
+      "items": [
+        "聚焦1-2个细分行业（如新消费食品饮料），建立行业案例和专业知识库。",
+        "通过知乎、小红书等平台输出行业洞察，吸引初创品牌客户，提供免费咨询。",
+        "推出标准化服务包（如品牌定位+小红书营销），按效果收费，逐步积累口碑。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -181,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2379,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

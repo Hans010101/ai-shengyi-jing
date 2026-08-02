@@ -177,6 +177,20 @@
       "poster": "https://i.ytimg.com/vi/UdTgBzMvDAY/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "用户研究SaaS平台的商业增长闭环",
+      "items": [
+        "【引流】SEO+内容营销（博客、案例）",
+        "【产品】网站可用性测试SaaS工具",
+        "【变现】订阅制付费",
+        "【留存】持续更新功能+客户成功服务"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -191,7 +205,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2557,
-    "mediaCount": 4,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 4,
+    "logicMedia": 1
   }
 }

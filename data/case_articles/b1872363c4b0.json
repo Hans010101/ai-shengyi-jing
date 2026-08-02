@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "Windows任务栏进度条应用的产品与交付路径",
+      "items": [
+        "用户下载安装",
+        "选择进度类型（日/年）",
+        "任务栏实时显示",
+        "付费解锁主题/统计"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "Windows任务栏进度条应用的中国市场验证路线",
+      "items": [
+        "用Electron或WinForm开发最小原型，实现基础进度条功能，发布到小众论坛（如V2EX）获取早期用户反馈。",
+        "加入3-5个付费主题和年度数据统计功能，设置$2.99一次性购买或$0.99/月订阅，利用微信支付/支付宝。",
+        "在知乎/B站发布效率工具测评视频，突出“时间可视化”卖点，引导至官网下载，通过邮件推送更新日志和节日主题。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2533,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

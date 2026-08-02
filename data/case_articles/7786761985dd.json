@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "制造并销售高性价比空气净化器的产品与交付路径",
+      "items": [
+        "用户需求分析",
+        "硬件设计（风机+滤网）",
+        "生产制造（OEM）",
+        "销售（线上+线下）"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "制造并销售高性价比空气净化器的中国市场验证路线",
+      "items": [
+        "市场验证。调研本地空气质量痛点（如甲醛、PM2.5），确定目标用户（母婴、办公室），通过预售或众筹测试需求。",
+        "产品研发。与OEM/ODM合作设计差异化滤芯（如除甲醛、杀菌），申请相关认证（如新国标），建立品控体系。",
+        "渠道搭建。开设天猫/京东旗舰店，同时入驻线下暖通店、母婴店；推出滤芯订阅服务，绑定长期复购。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2557,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

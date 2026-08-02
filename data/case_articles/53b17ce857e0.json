@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "NFL新闻通讯订阅的产品与交付路径",
+      "items": [
+        "内容创作",
+        "Substack发布",
+        "付费订阅",
+        "用户阅读"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "NFL新闻通讯订阅的中国市场验证路线",
+      "items": [
+        "选定一个垂直体育领域（如CBA或电竞），建立个人品牌，在微博、知乎等平台发布免费深度分析内容吸引粉丝。",
+        "在知识星球或微信公众号开通付费订阅，设定月费或年费，每周发布独家比赛分析、战术解读等深度内容。",
+        "通过粉丝互动、社群运营提升粘性，定期推出优惠活动或免费试读，扩大订阅用户规模。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,11 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2447,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
   },
   "mediaDiscovery": {
-    "officialStatus": "http-403",
-    "attemptedAt": "2026-08-02T10:36:15.546328+00:00"
+    "status": "source:ok|official:http-403",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:http-403",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

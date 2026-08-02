@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "海外开发者工具项目的产品与交付路径",
+      "items": [
+        "免费咨询",
+        "网站/营销诊断",
+        "定制方案",
+        "执行服务"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "海外开发者工具项目的中国市场验证路线",
+      "items": [
+        "选定一个垂直行业（如本地餐饮），免费为3-5家客户提供网站诊断或营销建议，积累案例和口碑。",
+        "建立内容矩阵，在公众号、知乎、抖音发布行业干货，同时设计推荐奖励机制（如推荐成功返现10%）。",
+        "打磨服务流程，提供标准化套餐（如网站优化套餐、广告投放套餐），通过客户转介绍和内容引流持续获客，逐步提价。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2524,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

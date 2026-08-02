@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为创业加速器提供AI工具的中国市场验证路线",
+      "items": [
+        "调研中国加速器痛点，如项目筛选效率低、跟踪繁琐，确定核心功能。",
+        "开发MVP，包括项目申请自动筛选、进度跟踪、报告生成，用低代码平台快速搭建。",
+        "与3-5家加速器合作试用，收集反馈迭代，推出付费版本，定价$500-2000/月。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "为创业加速器提供AI工具的经营验证仪表盘",
+      "items": [
+        "为创业加速器提供AI工具，优化流程，收取订阅费。",
+        "B2B SaaS订阅制，为加速器提供项目管理、筛选、跟踪等AI工具，按团队或项目收费。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2416,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

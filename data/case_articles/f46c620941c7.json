@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "Eden Data提供AI驱动的数据安全与隐私合的产品与交付路径",
+      "items": [
+        "数据源接入",
+        "AI自动发现与分类",
+        "风险评估与报告",
+        "合规建议与监控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "Eden Data提供AI驱动的数据安全与隐私合的中国市场验证路线",
+      "items": [
+        "聚焦一个细分行业（如电商或医疗），开发MVP，实现数据自动分类与基本合规报告功能。",
+        "通过行业公众号、知乎专栏发布合规指南文章，免费试用吸引第一批客户，收集反馈迭代。",
+        "建立销售团队，针对中小企业推出低价入门版，与会计师事务所等渠道合作分销。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2491,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "个性化珠宝定制电商的产品与交付路径",
+      "items": [
+        "用户浏览设计",
+        "选择定制内容（名字/日期）",
+        "下单支付",
+        "手工雕刻生产"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "个性化珠宝定制电商的中国市场验证路线",
+      "items": [
+        "定位细分情感场景（如母亲节、宝宝出生），设计3-5款可定制的珠宝原型，如字母吊坠、生肖手链。",
+        "搭建小程序或淘宝店，接入简单定制工具（用户输入名字/日期），展示手工雕刻过程视频以建立信任。",
+        "通过小红书/抖音发布定制过程短视频，投放母亲节关键词广告，首单优惠促进转化，并鼓励晒单分享。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2459,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

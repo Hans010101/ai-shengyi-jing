@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "加密货币挖矿平台的产品与交付路径",
+      "items": [
+        "用户注册",
+        "选择挖矿套餐",
+        "自动挖矿",
+        "收益提现或交易"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "加密货币挖矿平台的中国市场验证路线",
+      "items": [
+        "搭建云挖矿平台，对接合规算力供应商（如阿里云、腾讯云），开发用户注册和挖矿模块。",
+        "设计免费挖矿额度吸引用户，同时推出付费加速包（如月卡、季卡），设置邀请返佣机制。",
+        "通过抖音、小红书等渠道投放短视频教程，强调“零门槛挖矿”，并建立社群进行用户运营。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2441,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

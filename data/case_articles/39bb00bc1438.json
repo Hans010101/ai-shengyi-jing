@@ -149,8 +149,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/773/original/open-uri20211109-3-1y0llww?1636478231",
-      "caption": "销售DIY混凝土台面材料与教程：原始案例中的产品与运营配图（第1张）",
-      "alt": "销售DIY混凝土台面材料与教程：原始案例中的产品与运营配图（第1张）",
+      "caption": "销售DIY混凝土台面材料与教程：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "销售DIY混凝土台面材料与教程：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/i-make-13-2m-year-selling-concrete-countertops-for-diy-ers",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -159,8 +159,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/774/original/open-uri20211109-3-1pvh0d6?1636478232",
-      "caption": "销售DIY混凝土台面材料与教程：原始案例中的产品与运营配图（第2张）",
-      "alt": "销售DIY混凝土台面材料与教程：原始案例中的产品与运营配图（第2张）",
+      "caption": "销售DIY混凝土台面材料与教程：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "销售DIY混凝土台面材料与教程：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-make-13-2m-year-selling-concrete-countertops-for-diy-ers",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -169,8 +169,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/775/original/open-uri20211109-3-de698x?1636478232",
-      "caption": "销售DIY混凝土台面材料与教程：原始案例中的产品与运营配图（第3张）",
-      "alt": "销售DIY混凝土台面材料与教程：原始案例中的产品与运营配图（第3张）",
+      "caption": "销售DIY混凝土台面材料与教程：产品设计与早期打磨相关原始配图（第3张）",
+      "alt": "销售DIY混凝土台面材料与教程：产品设计与早期打磨相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-make-13-2m-year-selling-concrete-countertops-for-diy-ers",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -179,12 +179,34 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/776/original/open-uri20211109-3-ge8ak3?1636478234",
-      "caption": "销售DIY混凝土台面材料与教程：原始案例中的产品与运营配图（第4张）",
-      "alt": "销售DIY混凝土台面材料与教程：原始案例中的产品与运营配图（第4张）",
+      "caption": "销售DIY混凝土台面材料与教程：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "销售DIY混凝土台面材料与教程：产品上线与首次发布相关原始配图（第4张）",
       "sourceUrl": "https://www.starterstory.com/stories/i-make-13-2m-year-selling-concrete-countertops-for-diy-ers",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/777/original/open-uri20211109-3-13977xm?1636478235",
+      "caption": "销售DIY混凝土台面材料与教程：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "销售DIY混凝土台面材料与教程：产品上线与首次发布相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-make-13-2m-year-selling-concrete-countertops-for-diy-ers",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/LVulL1bWGC4&feature=emb_imp_woyt",
+      "watchUrl": "https://www.youtube.com/watch?v=LVulL1bWGC4&feature=emb_imp_woyt",
+      "caption": "销售DIY混凝土台面材料与教程资料中提及的视频：Concrete Countertop Solutions Instructional Video",
+      "alt": "Concrete Countertop Solutions Instructional Video",
+      "sourceUrl": "https://www.starterstory.com/stories/i-make-13-2m-year-selling-concrete-countertops-for-diy-ers",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/LVulL1bWGC4/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -199,7 +221,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2531,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

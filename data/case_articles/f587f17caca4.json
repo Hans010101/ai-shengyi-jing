@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/362/original/open-uri20211019-3-fajb9q?1634671059",
+      "caption": "电脑硬件升级与维修服务：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "电脑硬件升级与维修服务：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-was-too-young-to-drive-but-started-my-business-anyway-now-we-re-approaching-200m-year",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/363/original/open-uri20211019-3-1spwtyj?1634671061",
+      "caption": "电脑硬件升级与维修服务：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "电脑硬件升级与维修服务：产品上线与首次发布相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-was-too-young-to-drive-but-started-my-business-anyway-now-we-re-approaching-200m-year",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/1aYUDamzkK0",
       "watchUrl": "https://www.youtube.com/watch?v=1aYUDamzkK0",
@@ -201,7 +221,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2469,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

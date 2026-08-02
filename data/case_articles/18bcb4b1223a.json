@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "健身教练在线培训+社群的产品与交付路径",
+      "items": [
+        "Instagram内容引流",
+        "免费直播/电子书",
+        "付费课程（录播+直播）",
+        "社群+一对一辅导"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "健身教练在线培训+社群的中国市场验证路线",
+      "items": [
+        "在抖音/小红书发布健身教练赚钱干货内容，每天1-2条，聚焦痛点（如“如何线上获客”），积累粉丝和信任。",
+        "设计低价引流课（如99元3天训练营），通过私信或评论区引导报名，在群内转化高客单价课程（如1999元系统课）。",
+        "建立付费社群，每周直播答疑+案例拆解，提供作业批改和一对一咨询，提升完课率和口碑，推动转介绍和续费。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2544,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

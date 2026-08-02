@@ -175,6 +175,26 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/917/original/open-uri20230413-51-1nztbu?1681360491",
+      "caption": "数字营销与制作服务：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "alt": "数字营销与制作服务：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/prodigi-cad634c7-f302-4bb1-bc55-c60d634f7c0e",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/023/918/original/open-uri20230413-51-156d02d?1681360494",
+      "caption": "数字营销与制作服务：创业复盘与关键经验相关原始配图（第5张）",
+      "alt": "数字营销与制作服务：创业复盘与关键经验相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/prodigi-cad634c7-f302-4bb1-bc55-c60d634f7c0e",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -189,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2489,
-    "mediaCount": 4,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

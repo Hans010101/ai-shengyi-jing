@@ -165,6 +165,34 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "帮用户抢美国海关面试预约的短信通知工具的商业增长闭环",
+      "items": [
+        "【引流】Reddit/小红书/知乎攻略帖",
+        "【产品】自动监控预约空位并通知",
+        "【变现】月费$10或单次$5",
+        "【留存】持续推送有价值提醒+推荐亲友折扣"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "帮用户抢美国海关面试预约的短信通知工具的产品与交付路径",
+      "items": [
+        "用户注册",
+        "选择服务",
+        "系统监控预约系统",
+        "检测到空位"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -179,7 +207,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2567,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 3,
+    "logicMedia": 2
   }
 }

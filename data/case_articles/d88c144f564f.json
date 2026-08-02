@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "面向中小企业的云端CRM的产品与交付路径",
+      "items": [
+        "注册试用",
+        "客户管理",
+        "销售自动化",
+        "报表分析"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "面向中小企业的云端CRM的中国市场验证路线",
+      "items": [
+        "选择细分行业（如电商、教育），调研其CRM痛点，确定核心功能（客户管理、跟进提醒、基础报表）。",
+        "使用低代码平台（如Airtable、腾讯云微搭）快速搭建MVP，集成微信或钉钉消息通知，上线免费试用。",
+        "通过行业社群、知乎、抖音发布使用教程和案例，获取前100个种子用户，根据反馈迭代功能并设置付费墙。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2446,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

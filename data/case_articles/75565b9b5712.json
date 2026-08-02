@@ -149,8 +149,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/024/original/open-uri20221110-24-1ta0dge?1668077898",
-      "caption": "加拿大本土服装品牌：原始案例中的产品与运营配图（第1张）",
-      "alt": "加拿大本土服装品牌：原始案例中的产品与运营配图（第1张）",
+      "caption": "加拿大本土服装品牌：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "加拿大本土服装品牌：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/local-laundry",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "加拿大本土服装品牌的产品与交付路径",
+      "items": [
+        "品牌定位",
+        "TikTok内容创作",
+        "用户互动",
+        "在线商城销售"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "加拿大本土服装品牌的中国市场验证路线",
+      "items": [
+        "注册抖音企业号，定位本土特色或文化主题，发布10条以上展示生产流程、品牌故事或用户真实体验的短视频。",
+        "与5-10位本地中小KOL合作，通过免费样品或佣金方式，让他们创作穿搭或测评内容，快速积累初始粉丝和信任。",
+        "开通抖音小店或微信小程序，设置限时优惠和会员体系，将粉丝转化为首单用户，并通过社群运营促进复购。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2500,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

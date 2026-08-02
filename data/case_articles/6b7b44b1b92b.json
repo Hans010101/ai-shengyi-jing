@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "在线健身教练的产品与交付路径",
+      "items": [
+        "用户注册",
+        "填写健康问卷",
+        "AI生成个性化计划",
+        "教练审核+调整"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "在线健身教练的中国市场验证路线",
+      "items": [
+        "打造个人IP。在抖音/小红书持续发布专业健身内容（如动作教学、饮食误区），积累粉丝和信任，定位细分领域（如减脂、增肌）。",
+        "设计轻量产品。开发标准化健身计划（如28天减脂营），定价199-999元，通过微信小程序或社群交付，初期可手动服务验证需求。",
+        "私域转化。引导粉丝添加企业微信，提供免费体测评估或7天体验营，再通过1对1沟通转化为付费会员，利用打卡群提升留存和转介绍。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2545,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

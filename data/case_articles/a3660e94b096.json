@@ -175,6 +175,26 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/911/original/open-uri20220126-3-1qhdz94?1643211966",
+      "caption": "Keto糖果品牌：创业复盘与关键经验相关原始配图（第4张）",
+      "alt": "Keto糖果品牌：创业复盘与关键经验相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/on-pivoting-towards-tiktok-and-increased-website-visits",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/912/original/open-uri20220126-3-1uz2av9?1643211966",
+      "caption": "Keto糖果品牌：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "alt": "Keto糖果品牌：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/on-pivoting-towards-tiktok-and-increased-website-visits",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -189,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2480,
-    "mediaCount": 4,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

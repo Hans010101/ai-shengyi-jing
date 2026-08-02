@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "内容创作者的产品与交付路径",
+      "items": [
+        "TikTok短视频引流",
+        "网站博客内容",
+        "用户浏览",
+        "广告点击/联盟链接购买"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "内容创作者的中国市场验证路线",
+      "items": [
+        "在抖音/小红书创建垂直账号，每日发布1-2条15-30秒短视频，内容聚焦本地小众旅行攻略，使用热门话题标签。",
+        "搭建微信公众号或独立网站，将短视频用户引导至长图文或视频，提供详细攻略和实用工具（如行程模板）。",
+        "与携程、美团等平台申请联盟营销，在内容中嵌入酒店、景点门票等推广链接，同时开启流量主广告。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2444,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

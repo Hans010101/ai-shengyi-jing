@@ -177,6 +177,16 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/024/725/original/open-uri20230605-63-4zchnn?1685978884",
+      "caption": "宠物狗咀嚼玩具品牌：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "alt": "宠物狗咀嚼玩具品牌：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/bullibone",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/TKPe7IlyLPs",
       "watchUrl": "https://www.youtube.com/watch?v=TKPe7IlyLPs",
@@ -185,6 +195,30 @@
       "sourceUrl": "https://www.starterstory.com/stories/bullibone",
       "origin": "embeddable-video",
       "poster": "https://i.ytimg.com/vi/TKPe7IlyLPs/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/MYrWZwhL1J0",
+      "watchUrl": "https://www.youtube.com/watch?v=MYrWZwhL1J0",
+      "caption": "宠物狗咀嚼玩具品牌资料中提及的视频：World's Best Dog Chew Toys - Bullibone",
+      "alt": "World's Best Dog Chew Toys - Bullibone",
+      "sourceUrl": "https://www.starterstory.com/stories/bullibone",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/MYrWZwhL1J0/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/dpcCt7KflO8",
+      "watchUrl": "https://www.youtube.com/watch?v=dpcCt7KflO8",
+      "caption": "宠物狗咀嚼玩具品牌资料中提及的视频：Best Dog Chew Toy. What is Bullibone?",
+      "alt": "Best Dog Chew Toy. What is Bullibone?",
+      "sourceUrl": "https://www.starterstory.com/stories/bullibone",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/dpcCt7KflO8/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
     }
@@ -201,7 +235,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2407,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

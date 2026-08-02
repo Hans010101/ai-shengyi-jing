@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "婴儿围兜品牌的产品与交付路径",
+      "items": [
+        "产品设计（防漏围兜）",
+        "生产制造（外包）",
+        "电商上架（亚马逊/独立站）",
+        "社交媒体推广"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "婴儿围兜品牌的中国市场验证路线",
+      "items": [
+        "确定细分痛点（如宝宝吃饭弄脏衣服），设计差异化产品（如防水、易清洗围兜），小批量试产。",
+        "在抖音/小红书发布宝宝吃饭视频展示产品效果，挂小黄车或引导至淘宝店，积累初始用户。",
+        "根据用户反馈优化产品，增加SKU（如餐垫、勺子），通过微信社群维护老客，鼓励分享裂变。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2476,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

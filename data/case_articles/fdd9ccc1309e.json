@@ -187,6 +187,42 @@
       "poster": "https://i.ytimg.com/vi/gDOgKr-_Si0/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/3FuGY0yJ9uM",
+      "watchUrl": "https://www.youtube.com/watch?v=3FuGY0yJ9uM",
+      "caption": "每日商业资讯邮件资料中提及的视频：Welcome dear Morning Brew colleagues!",
+      "alt": "Welcome dear Morning Brew colleagues!",
+      "sourceUrl": "https://www.starterstory.com/stories/morning-brew-breakdown",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/3FuGY0yJ9uM/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/I1Ajg4Vf64c",
+      "watchUrl": "https://www.youtube.com/watch?v=I1Ajg4Vf64c",
+      "caption": "每日商业资讯邮件资料中提及的视频：Stop writing your content manually #ai #productivity #automation",
+      "alt": "Stop writing your content manually #ai #productivity #automation",
+      "sourceUrl": "https://www.starterstory.com/stories/morning-brew-breakdown",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/I1Ajg4Vf64c/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/DUPksBXCJD0",
+      "watchUrl": "https://www.youtube.com/watch?v=DUPksBXCJD0",
+      "caption": "每日商业资讯邮件资料中提及的视频：The Highest ROI Thing Founders Can Do",
+      "alt": "The Highest ROI Thing Founders Can Do",
+      "sourceUrl": "https://www.starterstory.com/stories/morning-brew-breakdown",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/DUPksBXCJD0/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -201,7 +237,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2446,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

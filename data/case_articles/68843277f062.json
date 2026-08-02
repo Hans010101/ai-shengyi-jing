@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "健康烘焙品牌的产品与交付路径",
+      "items": [
+        "用户需求识别",
+        "产品研发（低糖配方）",
+        "线上零售（官网/电商）",
+        "批发渠道（B2B合作）"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "健康烘焙品牌的中国市场验证路线",
+      "items": [
+        "确定健康烘焙细分品类（如低糖饼干、代餐棒），研发差异化配方，小批量生产测试市场。",
+        "开设线上店铺（微信小程序/抖音小店），通过短视频和KOL合作引流，积累种子用户。",
+        "主动联系本地咖啡店、健身房、便利店等B端渠道，提供试吃和批发报价，逐步扩大批发业务。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2423,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

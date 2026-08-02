@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/642/original/open-uri20211030-3-1870ks?1635610137",
+      "caption": "为Shopify商家提供AI分析工具：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "Analyzify Shopify App First Successful Reviews",
+      "sourceUrl": "https://www.starterstory.com/stories/our-analytics-app-for-shopify-reached-12k-mrr-in-just-7-months",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/643/original/open-uri20211030-3-vlxgbm?1635610137",
+      "caption": "为Shopify商家提供AI分析工具：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "Analyzify Youtube Channel Performance",
+      "sourceUrl": "https://www.starterstory.com/stories/our-analytics-app-for-shopify-reached-12k-mrr-in-just-7-months",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/K0kUtXVi0cE",
       "watchUrl": "https://www.youtube.com/watch?v=K0kUtXVi0cE",
@@ -201,7 +221,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2463,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/398/original/open-uri20231206-60-36kbg7?1701863494",
+      "caption": "AI情感伴侣订阅服务：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "alt": "AI情感伴侣订阅服务：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/evolwe",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/399/original/open-uri20231206-60-17lqbdh?1701863495",
+      "caption": "AI情感伴侣订阅服务：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "alt": "AI情感伴侣订阅服务：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/evolwe",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/iXtGL9euKV4",
       "watchUrl": "https://www.youtube.com/watch?v=iXtGL9euKV4",
@@ -185,6 +205,18 @@
       "sourceUrl": "https://www.starterstory.com/stories/evolwe",
       "origin": "embeddable-video",
       "poster": "https://i.ytimg.com/vi/iXtGL9euKV4/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/PfNwGWDNRPA",
+      "watchUrl": "https://www.youtube.com/watch?v=PfNwGWDNRPA",
+      "caption": "AI情感伴侣订阅服务资料中提及的视频：Aliya Prokofyeva - CEO & Founder @ Galaktika | Global Seedstars Summit 2018",
+      "alt": "Aliya Prokofyeva - CEO & Founder @ Galaktika | Global Seedstars Summit 2018",
+      "sourceUrl": "https://www.starterstory.com/stories/evolwe",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/PfNwGWDNRPA/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
     }
@@ -201,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2421,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

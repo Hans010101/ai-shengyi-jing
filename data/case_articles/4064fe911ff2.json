@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "无代码SaaS工具的产品与交付路径",
+      "items": [
+        "用户注册",
+        "选择模板/创建引导流",
+        "嵌入应用",
+        "数据分析"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "无代码SaaS工具的中国市场验证路线",
+      "items": [
+        "聚焦一个细分B2B场景（如电商SaaS），开发最小无代码编辑器，支持创建弹窗、进度条等基础引导组件。",
+        "通过知乎、B站发布教程视频，展示如何提升转化率，免费试用吸引种子用户，收集反馈迭代。",
+        "推出按用户量分层的付费套餐，首月低价或免费，绑定客户成功服务，利用客户案例做口碑传播。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2453,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

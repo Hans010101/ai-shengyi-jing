@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "垂直电商+内容营销的中国市场验证路线",
+      "items": [
+        "选择垂直品类（如烧烤设备），搭建独立站或电商店铺，利用Shopify等工具快速上线。",
+        "创建高质量内容（评测、使用教程），通过抖音、小红书等平台吸引精准用户，建立信任。",
+        "优化供应链，与国内工厂合作，控制成本；通过私域运营（微信群、会员）提升复购率。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "垂直电商+内容营销的经营验证仪表盘",
+      "items": [
+        "垂直电商+内容营销，销售烧烤设备和配件赚钱",
+        "自营垂直电商（BBQGrills.com）+ 内容营销（博客、视频、社交媒体），销售烧烤设备、配件和耗材，赚取商品差价。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2446,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

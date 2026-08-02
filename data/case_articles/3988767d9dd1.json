@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "免费导师匹配平台的产品与交付路径",
+      "items": [
+        "用户注册",
+        "填写需求",
+        "AI匹配导师",
+        "预约视频/语音会议"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "免费导师匹配平台的中国市场验证路线",
+      "items": [
+        "选择垂直细分领域（如AI产品经理），通过知乎、小红书发布高质量职场问答和导师访谈，积累种子用户。",
+        "开发最小可行产品（小程序或Web），实现用户注册、导师列表、预约日历和视频会议集成（使用腾讯会议API）。",
+        "邀请第一批导师（可来自朋友圈或行业KOL），提供免费曝光；同时联系中小科技公司，以招聘广告位换取赞助，实现早期收入。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2508,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

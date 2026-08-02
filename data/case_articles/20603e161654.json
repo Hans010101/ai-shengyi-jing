@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "从Reddit争议起步的健身补剂品牌的产品与交付路径",
+      "items": [
+        "Reddit争议引流",
+        "官网产品页",
+        "下单购买",
+        "复购推荐"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "从Reddit争议起步的健身补剂品牌的中国市场验证路线",
+      "items": [
+        "选择小众健身补剂成分（如植物提取物），在小红书/知乎发布争议性内容，引发讨论并引流至私域。",
+        "建立微信小程序或独立站，设计简洁产品页，强调成分稀缺性和科学背书，设置订阅制折扣。",
+        "运营健身社群，鼓励用户分享使用效果，通过KOL测评和用户证言扩大口碑，定期推出新品保持热度。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2522,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

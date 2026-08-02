@@ -189,6 +189,18 @@
       "poster": "https://i.ytimg.com/vi/pq5g1Ck5xxg/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/ZsFIxiGLOZY",
+      "watchUrl": "https://www.youtube.com/watch?v=ZsFIxiGLOZY",
+      "caption": "为NBA和英超球员提供语言教学资料中提及的视频：Boucle d'oreille",
+      "alt": "Boucle d'oreille",
+      "sourceUrl": "https://www.starterstory.com/stories/hyperfluent",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/ZsFIxiGLOZY/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -203,7 +215,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2413,
-    "mediaCount": 5,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

@@ -187,6 +187,18 @@
       "poster": "https://i.ytimg.com/vi/ZRjpoHhtBZg/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/Vc523goQ1R8",
+      "watchUrl": "https://www.youtube.com/watch?v=Vc523goQ1R8",
+      "caption": "为英语教师和学习者提供教育游戏和卡片资料中提及的视频：Welcome to ESL With Purpose - Learn American English with Alex",
+      "alt": "Welcome to ESL With Purpose - Learn American English with Alex",
+      "sourceUrl": "https://www.starterstory.com/stories/esl-with-purpose",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/Vc523goQ1R8/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -201,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2505,
-    "mediaCount": 5,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

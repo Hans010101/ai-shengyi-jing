@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "可持续连体裤品牌的产品与交付路径",
+      "items": [
+        "用户访问网站",
+        "浏览产品页（视频/图片展示）",
+        "选择款式/尺码",
+        "下单支付"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "可持续连体裤品牌的中国市场验证路线",
+      "items": [
+        "选定细分品类（如家居服/亲子装），注册品牌域名，搭建Shopify独立站，拍摄高质量产品视频和图片。",
+        "在抖音/小红书发布穿搭教程、场景化内容，引导用户关注并点击链接购买，初期可找KOC合作种草。",
+        "收集用户反馈优化产品，建立私域社群（微信群），定期推送新品和优惠，鼓励用户晒单分享形成裂变。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2512,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

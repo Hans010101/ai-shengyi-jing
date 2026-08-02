@@ -149,8 +149,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/544/original/open-uri20220525-12-128297z?1653495956",
-      "caption": "全球管理咨询公司：原始案例中的产品与运营配图（第1张）",
-      "alt": "全球管理咨询公司：原始案例中的产品与运营配图（第1张）",
+      "caption": "全球管理咨询公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "全球管理咨询公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/assuras",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -159,8 +159,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/545/original/open-uri20220525-12-szcnyj?1653495956",
-      "caption": "全球管理咨询公司：原始案例中的产品与运营配图（第2张）",
-      "alt": "全球管理咨询公司：原始案例中的产品与运营配图（第2张）",
+      "caption": "全球管理咨询公司：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "全球管理咨询公司：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/assuras",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -169,8 +169,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/546/original/open-uri20220525-12-1k60qf4?1653495957",
-      "caption": "全球管理咨询公司：原始案例中的产品与运营配图（第3张）",
-      "alt": "全球管理咨询公司：原始案例中的产品与运营配图（第3张）",
+      "caption": "全球管理咨询公司：创业起点与创意来源相关原始配图（第3张）",
+      "alt": "全球管理咨询公司：创业起点与创意来源相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/assuras",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -179,8 +179,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/547/original/open-uri20220525-12-1twiwgi?1653495957",
-      "caption": "全球管理咨询公司：原始案例中的产品与运营配图（第4张）",
-      "alt": "全球管理咨询公司：原始案例中的产品与运营配图（第4张）",
+      "caption": "全球管理咨询公司：创业起点与创意来源相关原始配图（第4张）",
+      "alt": "全球管理咨询公司：创业起点与创意来源相关原始配图（第4张）",
       "sourceUrl": "https://www.starterstory.com/stories/assuras",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -201,5 +201,17 @@
     "bodyCharacters": 2496,
     "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 5,
+    "logicMedia": 0
   }
 }

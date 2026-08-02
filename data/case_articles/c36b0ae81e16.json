@@ -187,6 +187,18 @@
       "poster": "https://i.ytimg.com/vi/aGZ5FvttU7w/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/PRfdxa0-BdM",
+      "watchUrl": "https://www.youtube.com/watch?v=PRfdxa0-BdM",
+      "caption": "AI会议记录工具资料中提及的视频：Don’t get complacent in AI | Fireflies.ai CEO",
+      "alt": "Don’t get complacent in AI | Fireflies.ai CEO",
+      "sourceUrl": "https://www.starterstory.com/stories/fireflies-ai-breakdown",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/PRfdxa0-BdM/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -201,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2388,
-    "mediaCount": 5,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

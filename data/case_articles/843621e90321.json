@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "主动降噪睡眠耳塞的产品与交付路径",
+      "items": [
+        "用户需求识别",
+        "主动降噪硬件设计",
+        "耳塞生产",
+        "线上销售"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "主动降噪睡眠耳塞的中国市场验证路线",
+      "items": [
+        "调研中国用户睡眠噪音痛点，设计符合亚洲人耳道形状的降噪耳塞原型，小批量试产。",
+        "在抖音/小红书发布睡眠噪音困扰内容，吸引种子用户，通过众筹平台预售验证需求。",
+        "建立线上直销渠道，提供30天无理由退货，收集用户反馈迭代产品，推出配件订阅服务。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2394,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

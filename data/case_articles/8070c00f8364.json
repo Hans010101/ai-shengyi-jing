@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "芝加哥房地产公司的中国市场验证路线",
+      "items": [
+        "选择1-2个高潜力社区，深耕本地关系网，参加社区活动、加入商会，建立信任。",
+        "打造个人品牌，通过短视频或公众号分享房产知识和市场洞察，吸引潜在客户。",
+        "设计客户推荐激励方案，如推荐成功送物业费减免或礼品卡，并系统化跟进。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "芝加哥房地产公司的经营验证仪表盘",
+      "items": [
+        "芝加哥房地产公司，通过团队销售和客户推荐实现10亿美元销售额。",
+        "通过房地产交易佣金盈利，团队模式放大个人产能，客户推荐降低获客成本。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2382,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

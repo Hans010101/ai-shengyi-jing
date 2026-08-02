@@ -176,6 +176,33 @@
       "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "收集微SaaS案例并付费报告的经营验证仪表盘",
+      "items": [
+        "收集微SaaS案例并付费报告，靠订阅和广告赚钱。",
+        "提供微SaaS案例库和营收报告，按月订阅或单次付费获取深度数据。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "unit-economics",
+      "title": "收集微SaaS案例并付费报告的单位经济与经营指标",
+      "items": [
+        "营收口径：$20K",
+        "启动成本：控制最小验证投入",
+        "盈利节点：跟踪回本周期",
+        "团队配置：优先标准化交付"
+      ],
+      "caption": "AI生意经原创信息图：根据案例公开经营指标与验证口径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -190,7 +217,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2407,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 0,
+    "logicMedia": 5
   }
 }

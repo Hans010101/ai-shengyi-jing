@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "男性约会教练的产品与交付路径",
+      "items": [
+        "免费内容（短视频/文章）",
+        "引流到私域（微信/公众号）",
+        "低价引流课（9.9元）",
+        "高价1对1辅导（2000-5000元）"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "男性约会教练的中国市场验证路线",
+      "items": [
+        "定位细分领域（如“程序员脱单”），在抖音/小红书发布10条以上干货视频，积累1000粉丝。",
+        "设计低价引流产品（如19.9元恋爱诊断报告），引导用户添加微信，建立私域流量池。",
+        "推出1对1辅导服务（定价3000-5000元/月），通过成功案例和转介绍裂变，持续优化课程体系。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2504,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

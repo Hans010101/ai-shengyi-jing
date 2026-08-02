@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/434/original/open-uri20221011-24-vdb5lt?1665467851",
+      "caption": "AI工具将博客转为视频：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "AI工具将博客转为视频：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/vidon-ai",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/435/original/open-uri20221011-24-1me5rnz?1665467852",
+      "caption": "AI工具将博客转为视频：创业复盘与关键经验相关原始配图（第5张）",
+      "alt": "AI工具将博客转为视频：创业复盘与关键经验相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/vidon-ai",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/PHVRA612Zgk",
       "watchUrl": "https://www.youtube.com/watch?v=PHVRA612Zgk",
@@ -201,7 +221,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2473,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

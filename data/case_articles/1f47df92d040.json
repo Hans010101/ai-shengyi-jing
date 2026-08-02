@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "海外其他项目的中国市场验证路线",
+      "items": [
+        "选择垂直领域（如书评、科技），用ChatGPT生成脚本，再用剪映或腾讯智影自动配音和合成视频。",
+        "注册抖音/快手/视频号，每天发布1-2条AI视频，使用热门话题标签，观察数据优化内容。",
+        "粉丝过千后开通平台广告分成，同时加入淘宝客或京东联盟推广相关产品，赚取佣金。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "海外其他项目的经营验证仪表盘",
+      "items": [
+        "通过AI生成视频在YouTube获利。",
+        "创建无脸YouTube频道，使用AI生成视频内容，靠广告收入和推广产品赚佣金。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2417,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

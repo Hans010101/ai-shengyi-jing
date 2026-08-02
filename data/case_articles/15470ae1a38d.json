@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "为B2B公司提供冷邮件获客代运营服务的产品与交付路径",
+      "items": [
+        "客户需求分析",
+        "邮件模板与策略设计",
+        "冷邮件发送与A/B测试",
+        "会议预约与CRM对接"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为B2B公司提供冷邮件获客代运营服务的中国市场验证路线",
+      "items": [
+        "确定目标行业（如SaaS、咨询），提供免费冷邮件审计，吸引潜在客户。",
+        "搭建基础冷邮件系统，使用工具如Lemlist或Woodpecker，并设计3-5套模板。",
+        "以低价或试用方式服务首批客户，积累案例和口碑，逐步提高定价并标准化流程。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2482,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

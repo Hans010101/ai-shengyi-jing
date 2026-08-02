@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/491/original/open-uri20221210-12-1gruhw3?1670634322",
+      "caption": "开源加密货币交易所白标软件：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "alt": "开源加密货币交易所白标软件：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/hollaex",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/492/original/open-uri20221210-12-18x68os?1670634323",
+      "caption": "开源加密货币交易所白标软件：获客渠道与客户留存相关原始配图（第5张）",
+      "alt": "开源加密货币交易所白标软件：获客渠道与客户留存相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/hollaex",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/zPqvqgiMtzU",
       "watchUrl": "https://www.youtube.com/watch?v=zPqvqgiMtzU",
@@ -185,6 +205,18 @@
       "sourceUrl": "https://www.starterstory.com/stories/hollaex",
       "origin": "embeddable-video",
       "poster": "https://i.ytimg.com/vi/zPqvqgiMtzU/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/XnpZSbxPlMU",
+      "watchUrl": "https://www.youtube.com/watch?v=XnpZSbxPlMU",
+      "caption": "开源加密货币交易所白标软件资料中提及的视频：What Is the OTC Broker? — HollaEx White Label Solution Exchange",
+      "alt": "What Is the OTC Broker? — HollaEx White Label Solution Exchange",
+      "sourceUrl": "https://www.starterstory.com/stories/hollaex",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/XnpZSbxPlMU/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
     }
@@ -201,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2452,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

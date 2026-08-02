@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "一个收集Instagram配文的社交网站的产品与交付路径",
+      "items": [
+        "用户搜索配文",
+        "浏览分类/关键词",
+        "选择配文",
+        "复制/分享"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "一个收集Instagram配文的社交网站的中国市场验证路线",
+      "items": [
+        "搭建网站（使用WordPress或静态站点），安装广告插件（如Ezoic）。收集1000条以上配文，按场景分类（如励志、爱情、旅行）。",
+        "针对中文长尾关键词（如“朋友圈励志文案”）写文章，每篇包含10-20条配文，内嵌广告。利用百度站长工具提交链接。",
+        "增加AI配文生成功能（调用免费API），设置每日生成限制，引导用户订阅付费解锁无限生成。同时与文案类KOL合作投稿。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2580,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

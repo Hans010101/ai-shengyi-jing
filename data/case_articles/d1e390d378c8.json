@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/758/original/open-uri20220601-12-1lx5aik?1654085988",
+      "caption": "外包数字营销的产消化服务：创业起点与创意来源相关原始配图（第4张）",
+      "alt": "外包数字营销的产消化服务：创业起点与创意来源相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/vettted",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/759/original/open-uri20220601-12-1uso87b?1654085989",
+      "caption": "外包数字营销的产消化服务：创业起点与创意来源相关原始配图（第5张）",
+      "alt": "外包数字营销的产消化服务：创业起点与创意来源相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/vettted",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/0q_eB_LLFBI",
       "watchUrl": "https://www.youtube.com/watch?v=0q_eB_LLFBI",
@@ -185,6 +205,18 @@
       "sourceUrl": "https://www.starterstory.com/stories/vettted",
       "origin": "embeddable-video",
       "poster": "https://i.ytimg.com/vi/0q_eB_LLFBI/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/oZmk0Gayfnc",
+      "watchUrl": "https://www.youtube.com/watch?v=oZmk0Gayfnc",
+      "caption": "外包数字营销的产消化服务资料中提及的视频：I started a business from a basement",
+      "alt": "I started a business from a basement",
+      "sourceUrl": "https://www.starterstory.com/stories/vettted",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/oZmk0Gayfnc/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
     }
@@ -201,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2428,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

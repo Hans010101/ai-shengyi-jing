@@ -149,8 +149,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/065/original/open-uri20240204-65-1m0met8?1707025821",
-      "caption": "面向21-35岁年轻人的团体旅行公司：原始案例中的产品与运营配图（第1张）",
-      "alt": "面向21-35岁年轻人的团体旅行公司：原始案例中的产品与运营配图（第1张）",
+      "caption": "面向21-35岁年轻人的团体旅行公司：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "面向21-35岁年轻人的团体旅行公司：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/under30experiences-768fc237-666d-46d5-90f8-69869df28daa",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -159,12 +159,40 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/027/066/original/open-uri20240204-65-1x2dst3?1707025822",
-      "caption": "面向21-35岁年轻人的团体旅行公司：原始案例中的产品与运营配图（第2张）",
-      "alt": "面向21-35岁年轻人的团体旅行公司：原始案例中的产品与运营配图（第2张）",
+      "caption": "面向21-35岁年轻人的团体旅行公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "面向21-35岁年轻人的团体旅行公司：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/under30experiences-768fc237-666d-46d5-90f8-69869df28daa",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "infographic",
+      "variant": "business-loop",
+      "title": "面向21-35岁年轻人的团体旅行公司的商业增长闭环",
+      "items": [
+        "【引流】社交媒体种草+口碑推荐",
+        "【产品】主题团体旅行",
+        "【变现】团费+增值服务",
+        "【留存】社群运营+复购优惠"
+      ],
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "面向21-35岁年轻人的团体旅行公司的产品与交付路径",
+      "items": [
+        "用户注册",
+        "选择目的地",
+        "支付团费",
+        "参与旅行"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -179,7 +207,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2479,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 3,
+    "logicMedia": 2
   }
 }

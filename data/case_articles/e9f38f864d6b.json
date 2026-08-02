@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "搭建反诈骗内容平台的中国市场验证路线",
+      "items": [
+        "选定细分诈骗领域（如网贷、杀猪盘），用WordPress建站，产出10篇高质量深度文章，优化SEO关键词。",
+        "通过知乎、小红书、抖音发布短视频/图文引流，引导至网站；加入百度联盟或淘宝客广告。",
+        "积累流量后，推出付费工具（如诈骗查询API）或与企业合作，提供反诈培训服务，提升客单价。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "搭建反诈骗内容平台的经营验证仪表盘",
+      "items": [
+        "搭建反诈骗内容平台，靠广告和联盟营销赚取微薄收入。",
+        "免费内容吸引流量，通过展示广告和推荐安全产品（联盟营销）获得收入。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2440,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

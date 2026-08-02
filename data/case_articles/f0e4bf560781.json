@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "邮件营销代运营机构的产品与交付路径",
+      "items": [
+        "客户获取",
+        "策略制定",
+        "邮件设计/文案",
+        "自动化流程搭建"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "邮件营销代运营机构的中国市场验证路线",
+      "items": [
+        "选定细分市场（如跨境电商或国内私域），深入学习一个主流平台（如Klaviyo或微信营销工具），考取官方认证，建立专业壁垒。",
+        "免费或低价为3-5家小电商提供邮件营销诊断和优化，积累案例和数据，制作成详细ROI报告，作为销售素材。",
+        "通过LinkedIn、行业论坛或线下活动精准触达目标客户，提供免费咨询，展示过往成功案例，以结果为导向签订服务合同。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2526,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

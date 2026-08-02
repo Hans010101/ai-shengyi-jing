@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "为保险业提供AI数字员工的产品与交付路径",
+      "items": [
+        "客户导入任务",
+        "AI理解任务",
+        "数字员工执行",
+        "结果审核与交付"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为保险业提供AI数字员工的中国市场验证路线",
+      "items": [
+        "选择保险业一个高频重复场景（如保单录入），用开源RPA+GPT API搭建最小可行数字员工，在5家保险公司试用。",
+        "根据反馈优化任务处理准确率至95%以上，设计按机器人数量/月收费的定价方案，首批客户年签合同。",
+        "建立客户成功团队，定期复盘机器人效率提升数据，推出行业白皮书，通过案例营销扩展至更多保险公司。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2504,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

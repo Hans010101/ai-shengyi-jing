@@ -177,6 +177,16 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/021/792/original/open-uri20221028-24-tqusyz?1666929622",
+      "caption": "绿色建筑咨询顾问：给创业者的实践建议相关原始配图（第4张）",
+      "alt": "绿色建筑咨询顾问：给创业者的实践建议相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/green-ideas",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/KQLhYJ4nKP8",
       "watchUrl": "https://www.youtube.com/watch?v=KQLhYJ4nKP8",
@@ -201,7 +211,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2442,
-    "mediaCount": 5,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

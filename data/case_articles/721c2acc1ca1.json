@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "个人理财博客的中国市场验证路线",
+      "items": [
+        "选择细分领域（如理财入门、省钱技巧），注册域名和博客平台（如WordPress），搭建网站。",
+        "每周发布3-5篇SEO优化的文章，内容聚焦长尾关键词，同时开通Google AdSense和联盟营销账号（如淘宝联盟）。",
+        "通过知乎、小红书等平台分享文章摘要引流，建立邮件列表，定期发送理财干货，增加用户粘性。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "个人理财博客的经营验证仪表盘",
+      "items": [
+        "个人理财博客通过广告和联盟营销赚取流量收入。",
+        "通过博客文章吸引免费流量，利用Google AdSense和金融产品联盟佣金（如信用卡、投资平台）获利。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2438,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

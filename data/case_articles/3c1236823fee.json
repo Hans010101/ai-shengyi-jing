@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/255/original/open-uri20220328-3-y0enc6?1648478599",
+      "caption": "为全球电竞馆提供SaaS管理软件与增值服务：当前经营状态与下一步规划相关原始配图（第4张）",
+      "alt": "为全球电竞馆提供SaaS管理软件与增值服务：当前经营状态与下一步规划相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/we-offer-premium-services-for-e-sports-arenas-worldwide-3-6m-year",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/256/original/open-uri20220328-3-1csmyhi?1648478600",
+      "caption": "为全球电竞馆提供SaaS管理软件与增值服务：当前经营状态与下一步规划相关原始配图（第5张）",
+      "alt": "为全球电竞馆提供SaaS管理软件与增值服务：当前经营状态与下一步规划相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/we-offer-premium-services-for-e-sports-arenas-worldwide-3-6m-year",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/F1b6HF6xeE8",
       "watchUrl": "https://www.youtube.com/watch?v=F1b6HF6xeE8",
@@ -201,7 +221,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2559,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

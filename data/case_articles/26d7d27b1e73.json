@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "健身网红的产品与交付路径",
+      "items": [
+        "YouTube引流",
+        "邮件列表订阅",
+        "邮件内容培育",
+        "购买服装/课程"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "健身网红的中国市场验证路线",
+      "items": [
+        "在抖音/小红书创建健身搞笑账号，积累粉丝；同时搭建微信个人号或企微，引导粉丝添加。",
+        "设计低价引流品（如9.9元训练计划），通过私域推送，收集用户邮箱或微信，建立邮件/社群列表。",
+        "每周发送2-3次有价值内容（训练技巧、搞笑段子），穿插推荐自有品牌服装或高阶课程，逐步提升客单价。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2421,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

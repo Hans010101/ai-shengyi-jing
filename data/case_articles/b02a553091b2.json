@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "法律科技SaaS的产品与交付路径",
+      "items": [
+        "用户注册",
+        "创建案件",
+        "AI辅助文件处理",
+        "在线庭审/调解"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "法律科技SaaS的中国市场验证路线",
+      "items": [
+        "聚焦细分场景（如在线调解或合同审核），开发MVP，用低代码工具快速搭建原型，先服务5-10家种子用户。",
+        "与本地律师协会或法院合作，提供免费试用期，收集反馈迭代产品，同时建立信任背书。",
+        "设计分层定价（如基础版免费+高级版订阅），通过法律社群和行业媒体推广，利用案例和效果数据驱动付费转化。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2500,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

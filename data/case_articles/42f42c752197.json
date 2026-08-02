@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "专注SMS营销平台的产品与交付路径",
+      "items": [
+        "用户注册",
+        "创建短信模板",
+        "导入客户列表",
+        "设置自动化触发规则"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "专注SMS营销平台的中国市场验证路线",
+      "items": [
+        "选择垂直行业（如电商、本地服务），搭建最小可行产品，核心功能包括短信模板、联系人管理、定时发送。使用Twilio或国内短信API（如阿里云短信）实现发送。",
+        "通过行业论坛、微信群、知乎等渠道发布免费教程和案例，吸引种子用户。提供7天免费试用，收集反馈快速迭代。",
+        "推出付费计划（如基础版$29/月，专业版$99/月），根据发送量和使用功能定价。同时提供增值服务如A/B测试、高级分析，提升客单价。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2584,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

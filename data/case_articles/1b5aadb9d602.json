@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "代工生产膳食补充剂的产品与交付路径",
+      "items": [
+        "品牌咨询",
+        "配方研发",
+        "生产包装",
+        "物流配送"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "代工生产膳食补充剂的中国市场验证路线",
+      "items": [
+        "注册公司并取得食品生产许可证（SC），租赁小型GMP车间，采购混合、封装设备，初始投入约10-20万元。",
+        "聚焦1-2个热门品类（如蛋白粉、益生菌），开发标准化配方模板，通过1688或抖音小店承接小B订单。",
+        "建立10-20家电商品牌客户，提供免费样品和配方优化，利用口碑传播扩大规模，逐步增加品类。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2443,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

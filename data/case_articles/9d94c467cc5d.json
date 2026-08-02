@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "帮助普通人成为出版作者的在线课程的产品与交付路径",
+      "items": [
+        "引流广告",
+        "常青网络研讨会",
+        "限时优惠",
+        "课程交付"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "帮助普通人成为出版作者的在线课程的中国市场验证路线",
+      "items": [
+        "确定细分领域（如职场写作、小说创作），制作高质量网络研讨会视频，内容包含痛点、解决方案和成功案例。",
+        "搭建自动化营销系统，使用工具如ActiveCampaign或微信生态工具，设置广告投放、邮件/微信跟进、限时优惠。",
+        "测试广告素材和受众，优化转化率；通过社群运营和追加销售（如一对一辅导）提高客户终身价值。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2506,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

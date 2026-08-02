@@ -177,6 +177,16 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/025/769/original/open-uri20230920-60-1bbhh1q?1695221193",
+      "caption": "自学音频制作人：当前经营状态与下一步规划相关原始配图（第4张）",
+      "alt": "自学音频制作人：当前经营状态与下一步规划相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/kate-brunott",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/u9iiuBl-Y5k",
       "watchUrl": "https://www.youtube.com/watch?v=u9iiuBl-Y5k",
@@ -185,6 +195,18 @@
       "sourceUrl": "https://www.starterstory.com/stories/kate-brunott",
       "origin": "embeddable-video",
       "poster": "https://i.ytimg.com/vi/u9iiuBl-Y5k/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/dDDpeLL_ov4",
+      "watchUrl": "https://www.youtube.com/watch?v=dDDpeLL_ov4",
+      "caption": "自学音频制作人：当前经营状态与下一步规划相关视频",
+      "alt": "自学音频制作人相关视频",
+      "sourceUrl": "https://www.starterstory.com/stories/kate-brunott",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/dDDpeLL_ov4/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
     }
@@ -201,7 +223,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2481,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

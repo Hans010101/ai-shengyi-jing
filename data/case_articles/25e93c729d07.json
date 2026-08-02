@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/934/original/open-uri20220316-3-162ft5?1647447116",
+      "caption": "提供网页数据抓取API：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "提供网页数据抓取API：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-bootstrapped-a-264k-year-data-scrapping-api-from-india",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/935/original/open-uri20220316-3-1uz1t1j?1647447117",
+      "caption": "提供网页数据抓取API：当前经营状态与下一步规划相关原始配图（第5张）",
+      "alt": "提供网页数据抓取API：当前经营状态与下一步规划相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-i-bootstrapped-a-264k-year-data-scrapping-api-from-india",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/btwC4zmewss&list=PLvJ_dXFSpd2vk6rQ4Rta5MhDIRmakFbp6",
       "watchUrl": "https://www.youtube.com/watch?v=btwC4zmewss&list=PLvJ_dXFSpd2vk6rQ4Rta5MhDIRmakFbp6",
@@ -201,7 +221,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2415,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

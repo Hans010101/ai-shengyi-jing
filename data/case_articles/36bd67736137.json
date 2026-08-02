@@ -149,8 +149,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/842/original/open-uri20220415-12-18hwerp?1650038619",
-      "caption": "Santafixie是城市与砾石自行车DTC电商：原始案例中的产品与运营配图（第1张）",
-      "alt": "Santafixie是城市与砾石自行车DTC电商：原始案例中的产品与运营配图（第1张）",
+      "caption": "Santafixie是城市与砾石自行车DTC电商：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "Santafixie是城市与砾石自行车DTC电商：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/santafixie-5b7bc5d5-5c29-4c89-92d0-6095ca276af7",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -159,8 +159,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/843/original/open-uri20220415-12-1k2asmh?1650038620",
-      "caption": "Santafixie是城市与砾石自行车DTC电商：原始案例中的产品与运营配图（第2张）",
-      "alt": "Santafixie是城市与砾石自行车DTC电商：原始案例中的产品与运营配图（第2张）",
+      "caption": "Santafixie是城市与砾石自行车DTC电商：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "Santafixie是城市与砾石自行车DTC电商：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/santafixie-5b7bc5d5-5c29-4c89-92d0-6095ca276af7",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -169,8 +169,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/844/original/open-uri20220415-12-sc00qp?1650038621",
-      "caption": "Santafixie是城市与砾石自行车DTC电商：原始案例中的产品与运营配图（第3张）",
-      "alt": "Santafixie是城市与砾石自行车DTC电商：原始案例中的产品与运营配图（第3张）",
+      "caption": "Santafixie是城市与砾石自行车DTC电商：创始人、核心产品与品牌起点相关原始配图（第3张）",
+      "alt": "Santafixie是城市与砾石自行车DTC电商：创始人、核心产品与品牌起点相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/santafixie-5b7bc5d5-5c29-4c89-92d0-6095ca276af7",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -179,8 +179,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/845/original/open-uri20220415-12-knjmau?1650038622",
-      "caption": "Santafixie是城市与砾石自行车DTC电商：原始案例中的产品与运营配图（第4张）",
-      "alt": "Santafixie是城市与砾石自行车DTC电商：原始案例中的产品与运营配图（第4张）",
+      "caption": "Santafixie是城市与砾石自行车DTC电商：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "alt": "Santafixie是城市与砾石自行车DTC电商：创始人、核心产品与品牌起点相关原始配图（第4张）",
       "sourceUrl": "https://www.starterstory.com/stories/santafixie-5b7bc5d5-5c29-4c89-92d0-6095ca276af7",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -201,5 +201,17 @@
     "bodyCharacters": 2611,
     "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 5,
+    "logicMedia": 0
   }
 }

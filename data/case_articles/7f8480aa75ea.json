@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "卖衬衫领口定型片的产品与交付路径",
+      "items": [
+        "用户痛点识别",
+        "产品设计研发",
+        "电商平台销售",
+        "用户反馈迭代"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "卖衬衫领口定型片的中国市场验证路线",
+      "items": [
+        "市场验证。在电商平台搜索“领口定型”相关关键词，分析竞品和用户评论，确认需求强度和痛点。",
+        "产品开发。寻找服装辅料供应商，打样测试不同材质和粘性，确保定型效果且不伤衣物，申请外观或实用新型专利。",
+        "渠道铺设。先在淘宝/拼多多上架，拍摄使用前后对比视频，投抖音/小红书信息流广告，以“男士衬衫救星”为卖点快速获客。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2440,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

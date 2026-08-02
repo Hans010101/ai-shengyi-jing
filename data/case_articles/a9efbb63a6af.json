@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/582/original/open-uri20220303-3-1cb0z7p?1646317657",
+      "caption": "印度阿育吠陀美容品牌：当前经营状态与下一步规划相关原始配图（第4张）",
+      "alt": "印度阿育吠陀美容品牌：当前经营状态与下一步规划相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-created-a-30k-month-ayurvedic-beauty-products-brand-from-india",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/583/original/open-uri20220303-3-y8of9a?1646317657",
+      "caption": "印度阿育吠陀美容品牌：当前经营状态与下一步规划相关原始配图（第5张）",
+      "alt": "印度阿育吠陀美容品牌：当前经营状态与下一步规划相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/how-we-created-a-30k-month-ayurvedic-beauty-products-brand-from-india",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/b0kVTq5iK_g",
       "watchUrl": "https://www.youtube.com/watch?v=b0kVTq5iK_g",
@@ -201,7 +221,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2472,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

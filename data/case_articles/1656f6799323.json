@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "定制球鞋品牌的产品与交付路径",
+      "items": [
+        "客户提交需求",
+        "设计师沟通确认",
+        "手工制作",
+        "交付成品"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "定制球鞋品牌的中国市场验证路线",
+      "items": [
+        "学习基础球鞋定制技能（如喷绘、缝纫），购买工具和材料（约500-2000元），通过在线教程或短期课程入门。",
+        "在抖音、小红书开设账号，发布定制过程视频和成品展示，积累初始粉丝，通过免费抽奖或低价体验单吸引首批客户。",
+        "建立标准化服务流程，包括需求沟通、设计确认、制作周期和售后，逐步提高价格，推出限量款或联名款提升品牌价值。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2426,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

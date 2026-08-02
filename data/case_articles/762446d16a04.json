@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "AI驱动的PR工具的产品与交付路径",
+      "items": [
+        "用户注册",
+        "行业与目标设定",
+        "AI媒体监测与记者匹配",
+        "AI新闻稿生成"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI驱动的PR工具的中国市场验证路线",
+      "items": [
+        "搭建最小可行产品，聚焦AI新闻稿生成和媒体匹配功能，使用开源NLP模型如GPT-J或调用API，快速验证需求。",
+        "通过知乎、公众号等平台发布PR干货内容，吸引中小企业主试用；提供免费生成3篇新闻稿的体验，收集反馈。",
+        "与地方媒体或行业自媒体合作，建立初始媒体库；推出低价月费（如199元/月）并加入微信生态监测功能，形成差异化。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2547,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

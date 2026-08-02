@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/121/original/open-uri20220204-3-1qg8r9k?1643995204",
+      "caption": "在线会议和网络研讨会SaaS平台：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "在线会议和网络研讨会SaaS平台：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/our-online-meetings-platform-skyrocketed-in-pandemic-and-grew-to-10-8m-year",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/122/original/open-uri20220204-3-g8ixgv?1643995204",
+      "caption": "在线会议和网络研讨会SaaS平台：当前经营状态与下一步规划相关原始配图（第5张）",
+      "alt": "在线会议和网络研讨会SaaS平台：当前经营状态与下一步规划相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/our-online-meetings-platform-skyrocketed-in-pandemic-and-grew-to-10-8m-year",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/zIkJWnOSGhc",
       "watchUrl": "https://www.youtube.com/watch?v=zIkJWnOSGhc",
@@ -185,6 +205,18 @@
       "sourceUrl": "https://www.starterstory.com/stories/our-online-meetings-platform-skyrocketed-in-pandemic-and-grew-to-10-8m-year",
       "origin": "embeddable-video",
       "poster": "https://i.ytimg.com/vi/zIkJWnOSGhc/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/_GQeNHuDJY0",
+      "watchUrl": "https://www.youtube.com/watch?v=_GQeNHuDJY0",
+      "caption": "在线会议和网络研讨会SaaS平台资料中提及的视频：Best webinar software for small business",
+      "alt": "Best webinar software for small business",
+      "sourceUrl": "https://www.starterstory.com/stories/our-online-meetings-platform-skyrocketed-in-pandemic-and-grew-to-10-8m-year",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/_GQeNHuDJY0/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
     }
@@ -201,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2641,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

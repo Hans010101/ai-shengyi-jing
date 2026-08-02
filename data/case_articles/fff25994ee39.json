@@ -187,6 +187,18 @@
       "poster": "https://i.ytimg.com/vi/EHlczKlmIDM/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/UZb2NOHPA2A",
+      "watchUrl": "https://www.youtube.com/watch?v=UZb2NOHPA2A",
+      "caption": "AI驱动的开发环境资料中提及的视频：The Pursuit of Happyness (5/8) Movie CLIP - Basketball and Dreams (2006) HD",
+      "alt": "The Pursuit of Happyness (5/8) Movie CLIP - Basketball and Dreams (2006) HD",
+      "sourceUrl": "https://www.starterstory.com/stories/fine",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/UZb2NOHPA2A/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -201,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2406,
-    "mediaCount": 5,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

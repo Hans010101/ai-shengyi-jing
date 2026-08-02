@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "全案营销代理机构的产品与交付路径",
+      "items": [
+        "客户咨询",
+        "品牌诊断",
+        "策略制定",
+        "内容创作"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "全案营销代理机构的中国市场验证路线",
+      "items": [
+        "组建核心团队，包括策略、创意、媒介、数据分析角色，并选定1-2个垂直行业（如餐饮、教育）深耕。",
+        "打造标杆案例，通过免费或低价服务1-2家客户，积累作品集和口碑，在知乎、小红书发布行业洞察内容引流。",
+        "建立标准化服务流程和定价体系，推出入门级月度套餐（如$2000/月），逐步扩展客户，并通过转介绍机制获取新客。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2527,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

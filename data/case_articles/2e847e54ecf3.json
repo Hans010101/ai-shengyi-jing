@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "父子加盟InXpress的产品与交付路径",
+      "items": [
+        "客户下单",
+        "系统自动匹配最优物流商",
+        "生成运单",
+        "追踪运输状态"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "父子加盟InXpress的中国市场验证路线",
+      "items": [
+        "注册物流平台（如云途、燕文）成为代理，或加盟类似InXpress的国内品牌（如跨境好运），获取物流报价。",
+        "搭建简单网站或小程序，展示服务、价格和优势，通过SEO、社交媒体广告吸引跨境电商卖家。",
+        "与小型电商卖家合作，提供比官网更优惠的运费，并逐步建立客户群，优化物流渠道降低成本。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2471,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

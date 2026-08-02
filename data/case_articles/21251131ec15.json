@@ -149,8 +149,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/976/original/open-uri20211115-3-zws25?1637009047",
-      "caption": "医疗设备公司销售疼痛缓解产品：原始案例中的产品与运营配图（第1张）",
-      "alt": "医疗设备公司销售疼痛缓解产品：原始案例中的产品与运营配图（第1张）",
+      "caption": "医疗设备公司销售疼痛缓解产品：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "医疗设备公司销售疼痛缓解产品：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/how-our-medical-device-business-grew-50-yoy",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -159,8 +159,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/977/original/open-uri20211115-3-1at2gwm?1637009048",
-      "caption": "医疗设备公司销售疼痛缓解产品：原始案例中的产品与运营配图（第2张）",
-      "alt": "医疗设备公司销售疼痛缓解产品：原始案例中的产品与运营配图（第2张）",
+      "caption": "医疗设备公司销售疼痛缓解产品：创始人、核心产品与品牌起点相关原始配图（第2张）",
+      "alt": "医疗设备公司销售疼痛缓解产品：创始人、核心产品与品牌起点相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-our-medical-device-business-grew-50-yoy",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -169,12 +169,48 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/014/979/original/open-uri20211115-3-1towd6a?1637009049",
-      "caption": "医疗设备公司销售疼痛缓解产品：原始案例中的产品与运营配图（第3张）",
-      "alt": "医疗设备公司销售疼痛缓解产品：原始案例中的产品与运营配图（第3张）",
+      "caption": "医疗设备公司销售疼痛缓解产品：团队建设与人才需求相关原始配图（第3张）",
+      "alt": "医疗设备公司销售疼痛缓解产品：团队建设与人才需求相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/how-our-medical-device-business-grew-50-yoy",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/4_IWhJvu0jU",
+      "watchUrl": "https://www.youtube.com/watch?v=4_IWhJvu0jU",
+      "caption": "医疗设备公司销售疼痛缓解产品资料中提及的视频：Pain, empathy and public health: Amy Baxter at TEDxPeachtree",
+      "alt": "Pain, empathy and public health: Amy Baxter at TEDxPeachtree",
+      "sourceUrl": "https://www.starterstory.com/stories/how-our-medical-device-business-grew-50-yoy",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/4_IWhJvu0jU/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/UXNTGFOlw-g",
+      "watchUrl": "https://www.youtube.com/watch?v=UXNTGFOlw-g",
+      "caption": "医疗设备公司销售疼痛缓解产品资料中提及的视频：Amy Baxter MD Testimony on Needle Fear to HHS",
+      "alt": "Amy Baxter MD Testimony on Needle Fear to HHS",
+      "sourceUrl": "https://www.starterstory.com/stories/how-our-medical-device-business-grew-50-yoy",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/UXNTGFOlw-g/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/qcdd4Kqr09A",
+      "watchUrl": "https://www.youtube.com/watch?v=qcdd4Kqr09A",
+      "caption": "医疗设备公司销售疼痛缓解产品资料中提及的视频：Addressing Needle Fear with Pain Care Labs",
+      "alt": "Addressing Needle Fear with Pain Care Labs",
+      "sourceUrl": "https://www.starterstory.com/stories/how-our-medical-device-business-grew-50-yoy",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/qcdd4Kqr09A/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -189,7 +225,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2475,
-    "mediaCount": 4,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

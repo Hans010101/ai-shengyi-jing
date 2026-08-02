@@ -175,6 +175,26 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/531/original/open-uri20221210-12-xdanwt?1670666568",
+      "caption": "健身营养补剂品牌：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "alt": "健身营养补剂品牌：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/bare-performance-nutrition-78239a99-aceb-4034-b4d2-d4ec44be0187",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/532/original/open-uri20221210-12-e0901a?1670666569",
+      "caption": "健身营养补剂品牌：创业复盘与关键经验相关原始配图（第5张）",
+      "alt": "健身营养补剂品牌：创业复盘与关键经验相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/bare-performance-nutrition-78239a99-aceb-4034-b4d2-d4ec44be0187",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -189,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2443,
-    "mediaCount": 4,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

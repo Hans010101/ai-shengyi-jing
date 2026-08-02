@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "专注慢性病女性康复的健康食谱博客的产品与交付路径",
+      "items": [
+        "用户搜索",
+        "访问博客",
+        "浏览食谱文章",
+        "点击广告或购买付费内容"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "专注慢性病女性康复的健康食谱博客的中国市场验证路线",
+      "items": [
+        "选择细分领域，如甲状腺健康食谱，建立微信公众号或小红书账号，每日发布高质量图文内容。",
+        "通过SEO优化关键词（如‘桥本氏甲状腺炎食谱’）吸引搜索流量，同时加入相关社群分享内容。",
+        "积累粉丝后推出付费食谱电子书或在线课程，并接入百度联盟广告或电商佣金链接实现变现。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2506,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "AI驱动的个人安全穿戴设备SaaS的产品与交付路径",
+      "items": [
+        "用户佩戴设备",
+        "传感器监测异常",
+        "AI分析风险",
+        "自动报警并通知联系人"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI驱动的个人安全穿戴设备SaaS的中国市场验证路线",
+      "items": [
+        "选择细分场景（如校园），开发低成本智能手环原型，集成跌倒检测、一键报警功能，与2-3所学校试点合作。",
+        "搭建AI响应平台，实现7x24小时人工+AI双重确认，与本地安保公司、医院对接，形成闭环服务。",
+        "推出家庭版套餐，通过家长群、社区推广，按月收费（如9.9元/月），并开发小程序让家人实时查看状态。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2538,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

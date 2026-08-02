@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "SEO/PPA数字营销代理公司的产品与交付路径",
+      "items": [
+        "客户咨询",
+        "网站审计",
+        "策略制定",
+        "执行优化"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "SEO/PPA数字营销代理公司的中国市场验证路线",
+      "items": [
+        "选择细分领域（如本地SEO或抖音广告），搭建个人或小团队，提供免费审计或低价试用服务积累案例。",
+        "通过行业社群、知乎、抖音分享专业内容，建立信任，吸引首批客户，采用月费模式锁定长期合作。",
+        "建立标准化服务流程和工具，提升效率，逐步提高客单价，扩展至20-40个稳定客户，实现规模化营收。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2553,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

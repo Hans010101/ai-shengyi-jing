@@ -189,6 +189,42 @@
       "poster": "https://i.ytimg.com/vi/WaWTKiWgpBI/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/i1RkqoU56GA",
+      "watchUrl": "https://www.youtube.com/watch?v=i1RkqoU56GA",
+      "caption": "API自动生成社交媒体视觉内容资料中提及的视频：Banner Bear by Jon Yongfook | Promptmatic + ChatGPT review",
+      "alt": "Banner Bear by Jon Yongfook | Promptmatic + ChatGPT review",
+      "sourceUrl": "https://www.starterstory.com/stories/bannerbear-breakdown",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/i1RkqoU56GA/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/QpJB7L562MY",
+      "watchUrl": "https://www.youtube.com/watch?v=QpJB7L562MY",
+      "caption": "API自动生成社交媒体视觉内容资料中提及的视频：Automate Image Updates with Make.com & Bannerbear: AI Tools for Scaling Your Freelance Business",
+      "alt": "Automate Image Updates with Make.com & Bannerbear: AI Tools for Scaling Your Freelance Business",
+      "sourceUrl": "https://www.starterstory.com/stories/bannerbear-breakdown",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/QpJB7L562MY/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/VNcUMY26oo0",
+      "watchUrl": "https://www.youtube.com/watch?v=VNcUMY26oo0",
+      "caption": "API自动生成社交媒体视觉内容资料中提及的视频：Watch Me Build A Video Generator With Bannerbear & Google Sheets",
+      "alt": "Watch Me Build A Video Generator With Bannerbear & Google Sheets",
+      "sourceUrl": "https://www.starterstory.com/stories/bannerbear-breakdown",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/VNcUMY26oo0/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -203,7 +239,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2455,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

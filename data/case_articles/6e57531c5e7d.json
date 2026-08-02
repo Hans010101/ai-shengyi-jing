@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "AI网站聊天机器人SaaS的产品与交付路径",
+      "items": [
+        "用户注册",
+        "输入网站URL",
+        "AI爬取并训练模型",
+        "嵌入聊天插件"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "AI网站聊天机器人SaaS的中国市场验证路线",
+      "items": [
+        "注册OpenAI API，用Next.js搭建基础聊天UI，实现根据URL爬取内容并生成向量数据库。",
+        "开发插件嵌入代码，让用户复制粘贴到网站即可使用。设置免费额度（如100次对话/月）吸引试用。",
+        "上线后到Product Hunt、Hacker News推广，收集反馈迭代。定价$29/月起，支持按年折扣。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2489,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

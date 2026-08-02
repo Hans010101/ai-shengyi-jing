@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "在线艺术咨询与鉴定平台的产品与交付路径",
+      "items": [
+        "免费内容（文章/视频）",
+        "用户注册",
+        "付费会员订阅",
+        "在线提交鉴定请求"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "在线艺术咨询与鉴定平台的中国市场验证路线",
+      "items": [
+        "在知乎、小红书等平台发布艺术品鉴定、收藏知识内容，吸引目标用户，建立专业形象。",
+        "搭建微信小程序或网站，提供免费估价工具和基础鉴定服务，引导用户注册并体验。",
+        "推出会员订阅（如月卡/年卡），包含深度报告、专家问答和折扣鉴定，同时开放按次付费的权威鉴定服务。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2470,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

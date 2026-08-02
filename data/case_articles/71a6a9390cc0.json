@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "个人理财教育网站的产品与交付路径",
+      "items": [
+        "SEO内容",
+        "免费电子书/工具",
+        "邮件列表",
+        "付费课程/联盟链接"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "个人理财教育网站的中国市场验证路线",
+      "items": [
+        "选择细分领域（如基金定投），搭建公众号/网站，每周发布3篇高质量SEO文章，积累初始内容库。",
+        "制作免费电子书或工具（如定投计算器），通过文章引导用户下载并加入邮件列表，建立私域流量。",
+        "与券商、基金平台合作联盟推广，同时开发低价课程（如99元理财入门课），通过邮件和付费广告（如微信广点通）持续变现。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2444,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

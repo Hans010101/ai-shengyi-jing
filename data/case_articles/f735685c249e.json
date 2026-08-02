@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "为教师提供数字化课堂活动平台的产品与交付路径",
+      "items": [
+        "教师注册",
+        "上传PDF/图片",
+        "添加互动元素（填空、选择题等）",
+        "发布给学生"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为教师提供数字化课堂活动平台的中国市场验证路线",
+      "items": [
+        "开发MVP，支持上传PDF并添加选择题、填空题等互动元素，实现自动评分。先用免费版吸引教师注册。",
+        "与5-10所试点学校合作，收集反馈优化产品，同时建立教师社群，通过口碑传播扩大用户基础。",
+        "推出学校/学区订阅计划，提供数据分析、班级管理、定制题库等高级功能。定价参考同类SaaS，年费2000-5000元/校。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2559,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

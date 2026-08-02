@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/778/original/open-uri20220918-12-ntbuek?1663498144",
+      "caption": "提供YouTube缩略图A/B测试服务：创业起点与创意来源相关原始配图（第4张）",
+      "alt": "提供YouTube缩略图A/B测试服务：创业起点与创意来源相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/thumbnailtest",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/020/779/original/open-uri20220918-12-anjd4c?1663498144",
+      "caption": "提供YouTube缩略图A/B测试服务：产品设计与早期打磨相关原始配图（第5张）",
+      "alt": "提供YouTube缩略图A/B测试服务：产品设计与早期打磨相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/thumbnailtest",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/6reLWfFNer0",
       "watchUrl": "https://www.youtube.com/watch?v=6reLWfFNer0",
@@ -185,6 +205,18 @@
       "sourceUrl": "https://www.starterstory.com/stories/thumbnailtest",
       "origin": "embeddable-video",
       "poster": "https://i.ytimg.com/vi/6reLWfFNer0/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/xP3m27Pl5eU",
+      "watchUrl": "https://www.youtube.com/watch?v=xP3m27Pl5eU",
+      "caption": "提供YouTube缩略图A/B测试服务资料中提及的视频：The Hardest Decision I've Ever Made",
+      "alt": "The Hardest Decision I've Ever Made",
+      "sourceUrl": "https://www.starterstory.com/stories/thumbnailtest",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/xP3m27Pl5eU/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
     }
@@ -201,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2479,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

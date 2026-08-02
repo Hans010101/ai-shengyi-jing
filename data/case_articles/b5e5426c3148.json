@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/398/original/open-uri20220221-3-mn3th6?1645454267",
+      "caption": "为海外用户代购礼物送本地亲友：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "为海外用户代购礼物送本地亲友：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-started-a-5k-month-side-hustle-sending-gifts-to-expats-bangladesh",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/016/399/original/open-uri20220221-3-9norll?1645454267",
+      "caption": "为海外用户代购礼物送本地亲友：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "为海外用户代购礼物送本地亲友：产品上线与首次发布相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/i-started-a-5k-month-side-hustle-sending-gifts-to-expats-bangladesh",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/TmxiATalbsU",
       "watchUrl": "https://www.youtube.com/watch?v=TmxiATalbsU",
@@ -201,7 +221,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2401,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

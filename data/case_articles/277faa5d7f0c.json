@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/118/original/open-uri20231111-60-7dnczj?1699680367",
+      "caption": "AI音乐视频生成工具：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "alt": "AI音乐视频生成工具：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/neural-frames",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/119/original/open-uri20231111-60-iapukj?1699680367",
+      "caption": "AI音乐视频生成工具：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "alt": "AI音乐视频生成工具：创始人、核心产品与品牌起点相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/neural-frames",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/gY9B9x4Ku7Y",
       "watchUrl": "https://www.youtube.com/watch?v=gY9B9x4Ku7Y",
@@ -185,6 +205,18 @@
       "sourceUrl": "https://www.starterstory.com/stories/neural-frames",
       "origin": "embeddable-video",
       "poster": "https://i.ytimg.com/vi/gY9B9x4Ku7Y/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/UQ5ccbgf08Q",
+      "watchUrl": "https://www.youtube.com/watch?v=UQ5ccbgf08Q",
+      "caption": "AI音乐视频生成工具资料中提及的视频：\"Broken Rhythm\" by /Dev/Null from album \"devplyr\". Animated by Ben Nash with #neuralframes",
+      "alt": "\"Broken Rhythm\" by /Dev/Null from album \"devplyr\". Animated by Ben Nash with #neuralframes",
+      "sourceUrl": "https://www.starterstory.com/stories/neural-frames",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/UQ5ccbgf08Q/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
     }
@@ -201,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2492,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

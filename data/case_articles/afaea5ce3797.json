@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "数据分析师与科学家的自由职业平台的产品与交付路径",
+      "items": [
+        "用户注册",
+        "人才筛选认证",
+        "项目发布与匹配",
+        "在线协作与交付"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "数据分析师与科学家的自由职业平台的中国市场验证路线",
+      "items": [
+        "选定细分领域（如电商数据分析），招募10-20名经过严格测试的顶尖自由职业者，建立初始人才库。",
+        "通过知乎、B站等平台发布行业干货，吸引中小企业主，同时免费提供1-2个小型数据项目试单，积累案例和口碑。",
+        "开发轻量级项目协作工具（如在线看板、文件共享），并设置阶梯佣金（首单低佣，复购正常），逐步形成双边网络效应。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2580,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

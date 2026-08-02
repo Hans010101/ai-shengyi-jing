@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "网页数据抓取SaaS服务的产品与交付路径",
+      "items": [
+        "用户注册",
+        "配置抓取规则",
+        "API/SDK调用",
+        "数据返回与存储"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "网页数据抓取SaaS服务的中国市场验证路线",
+      "items": [
+        "搭建基础抓取引擎，选用Scrapy或Puppeteer，实现代理IP轮换、浏览器指纹模拟等反爬功能。",
+        "封装REST API和SDK（Python/Node.js），提供免费试用额度（如1000次请求），吸引开发者注册。",
+        "上线SEO博客，分享爬虫技术、行业数据报告，并通过GitHub开源部分代码建立技术社区，驱动自然增长。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2508,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

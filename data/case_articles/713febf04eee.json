@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "面向电商的营销自动化SaaS平台的产品与交付路径",
+      "items": [
+        "用户接入",
+        "数据整合（CRM/订单）",
+        "受众分群",
+        "自动化营销（邮件/短信/推送）"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "面向电商的营销自动化SaaS平台的中国市场验证路线",
+      "items": [
+        "选择垂直电商场景（如淘宝女装店），开发最小可行产品：支持客户数据导入、分群、邮件/短信自动发送功能。",
+        "免费邀请10-20家中小电商内测，收集反馈，优化自动化流程与模板，积累成功案例。",
+        "以案例为卖点，通过电商社群、行业论坛推广，提供7天免费试用，按联系人数量定价（如每月$50起）。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2538,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:http-429|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:http-429|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

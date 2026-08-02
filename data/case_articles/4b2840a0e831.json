@@ -187,6 +187,30 @@
       "poster": "https://i.ytimg.com/vi/Exl-VBhTLrg/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/MfHThKIqhd8",
+      "watchUrl": "https://www.youtube.com/watch?v=MfHThKIqhd8",
+      "caption": "木质托盘回收翻新后转售资料中提及的视频：The Side Hustle That'll Make You Want to Quit Your Job - The Simplest Biz",
+      "alt": "The Side Hustle That'll Make You Want to Quit Your Job - The Simplest Biz",
+      "sourceUrl": "https://www.starterstory.com/stories/the-simple-biz",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/MfHThKIqhd8/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/94Prl6YVYuk",
+      "watchUrl": "https://www.youtube.com/watch?v=94Prl6YVYuk",
+      "caption": "木质托盘回收翻新后转售资料中提及的视频：How to Earn More Income With The Simplest Biz",
+      "alt": "How to Earn More Income With The Simplest Biz",
+      "sourceUrl": "https://www.starterstory.com/stories/the-simple-biz",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/94Prl6YVYuk/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -201,7 +225,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2435,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

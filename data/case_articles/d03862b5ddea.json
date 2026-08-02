@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "开发WordPress主题和插件的产品与交付路径",
+      "items": [
+        "YouTube教程引流",
+        "官网展示主题/插件",
+        "免费试用/演示",
+        "付费购买/订阅"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "开发WordPress主题和插件的中国市场验证路线",
+      "items": [
+        "定位细分市场（如电商、博客），开发一款高需求WordPress主题，集成常见功能（页面构建器、响应式设计），定价$49-99。",
+        "在YouTube创建频道，每周发布2-3个建站教程视频，展示主题优势，嵌入官网链接，积累种子用户。",
+        "推出免费版插件（如Borderless基础功能），通过付费解锁高级模块（如多语言、自定义CSS），建立用户反馈群优化产品。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2584,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

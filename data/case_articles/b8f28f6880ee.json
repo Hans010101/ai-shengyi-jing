@@ -187,6 +187,18 @@
       "poster": "https://i.ytimg.com/vi/7saBbAqsoOM/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/yFtDSWWfYmI",
+      "watchUrl": "https://www.youtube.com/watch?v=yFtDSWWfYmI",
+      "caption": "卖定制化相框推文资料中提及的视频：Bikram Yoga Series | 30 Minute Yoga Class | All Levels & Beginner’s Yoga",
+      "alt": "Bikram Yoga Series | 30 Minute Yoga Class | All Levels & Beginner’s Yoga",
+      "sourceUrl": "https://www.starterstory.com/stories/framed-tweets",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/yFtDSWWfYmI/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
     }
   ],
   "source": {
@@ -201,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2431,
-    "mediaCount": 5,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

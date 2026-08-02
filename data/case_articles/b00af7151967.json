@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/642/original/open-uri20220101-3-k95py?1641047530",
+      "caption": "主动降噪睡眠耳塞：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "主动降噪睡眠耳塞：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/we-designed-a-6m-year-innovative-noise-cancelling-earbuds-for-better-sleep-travel",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/015/643/original/open-uri20220101-3-15im88q?1641047532",
+      "caption": "主动降噪睡眠耳塞：当前经营状态与下一步规划相关原始配图（第5张）",
+      "alt": "主动降噪睡眠耳塞：当前经营状态与下一步规划相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/we-designed-a-6m-year-innovative-noise-cancelling-earbuds-for-better-sleep-travel",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/hcl6aeoe0gk",
       "watchUrl": "https://www.youtube.com/watch?v=hcl6aeoe0gk",
@@ -201,7 +221,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2427,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "新墨西哥美食徒步导览的中国市场验证路线",
+      "items": [
+        "选择本地美食丰富的旅游街区，与3-5家特色小吃店谈合作，确定试吃套餐和佣金比例。",
+        "设计2小时标准路线，包含5个站点，每站停留15分钟，加入文化故事讲解，定价150-200元。",
+        "在抖音和小红书发布探店短视频，联合酒店前台推广，首月招募50名体验官获取反馈。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "新墨西哥美食徒步导览的经营验证仪表盘",
+      "items": [
+        "新墨西哥美食徒步导览，通过门票和合作佣金盈利。",
+        "提供付费美食徒步导览服务，与本地餐厅合作抽取佣金，同时销售周边商品。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2408,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

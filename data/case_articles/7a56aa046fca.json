@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/631/original/open-uri20220409-12-s843ru?1649522980",
+      "caption": "开源会员管理SaaS：创业起点与创意来源相关原始配图（第4张）",
+      "alt": "开源会员管理SaaS：创业起点与创意来源相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/tendenci",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/017/632/original/open-uri20220409-12-1qtjs2u?1649522980",
+      "caption": "开源会员管理SaaS：创业起点与创意来源相关原始配图（第5张）",
+      "alt": "开源会员管理SaaS：创业起点与创意来源相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/tendenci",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/ZORNC7NI39o",
       "watchUrl": "https://www.youtube.com/watch?v=ZORNC7NI39o",
@@ -201,7 +221,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2554,
-    "mediaCount": 5,
+    "mediaCount": 7,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 7,
+    "logicMedia": 0
   }
 }

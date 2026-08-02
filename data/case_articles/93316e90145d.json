@@ -173,6 +173,32 @@
       "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "为B2B SaaS公司提供兼职首席营销官服务的中国市场验证路线",
+      "items": [
+        "选定细分行业（如财税SaaS），打造个人品牌，在知乎/公众号输出行业营销洞察，积累种子用户。",
+        "设计标准化服务包（如诊断+策略+执行），定价3000-8000元/月，利用AI工具（如ChatGPT写文案）提效。",
+        "与SaaS厂商合作，提供免费诊断换取推荐，首单成功后收取佣金，逐步建立口碑和案例库。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "validation-scorecard",
+      "title": "为B2B SaaS公司提供兼职首席营销官服务的经营验证仪表盘",
+      "items": [
+        "为B2B SaaS公司提供兼职首席营销官服务，按月收费。",
+        "按月订阅制，提供战略咨询、执行支持等分层服务，客单价$2000-5000/月。",
+        "获客成本与交付效率是否可控"
+      ],
+      "caption": "AI生意经原创信息图：根据案例需求、收入与增长证据整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -187,7 +213,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2512,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 1,
+    "logicMedia": 4
   }
 }

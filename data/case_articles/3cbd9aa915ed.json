@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "SEO分析SaaS工具的产品与交付路径",
+      "items": [
+        "用户注册",
+        "输入网站URL",
+        "爬取分析",
+        "生成SEO报告"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "SEO分析SaaS工具的中国市场验证路线",
+      "items": [
+        "开发最小可行产品（MVP），专注一个核心功能如网站SEO健康检查，使用开源爬虫库（如Scrapy）快速搭建后端，前端用简单模板，1-2周内上线。",
+        "通过SEO内容营销获客，写针对长尾关键词的博客文章（如“网站加载速度优化”），并提供免费版工具（如检查5个页面），吸引用户注册。",
+        "设置付费墙，免费用户查看基础报告，付费用户解锁详细建议和批量分析。定价参考$29/月起，初期通过邮件手动跟进免费用户转化。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2563,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

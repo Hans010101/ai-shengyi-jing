@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "订阅制推送机票和住宿优惠的产品与交付路径",
+      "items": [
+        "用户注册",
+        "偏好设置",
+        "数据抓取+AI筛选",
+        "每日推送"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "订阅制推送机票和住宿优惠的中国市场验证路线",
+      "items": [
+        "搭建轻量网站或小程序，使用携程/飞猪等公开API抓取低价机票数据，设置筛选规则（如低于均价30%）。",
+        "通过微信社群或小红书发布“今日特价”内容，积累种子用户，引导注册并设置偏好（出发地、目的地、预算）。",
+        "推出月卡/年卡订阅，提供每日推送服务，同时嵌入比价链接赚取联盟佣金，初期可免费试用7天。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2474,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

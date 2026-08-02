@@ -177,6 +177,26 @@
       "context": "source-article-body"
     },
     {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/375/original/open-uri20220518-12-1v8r52v?1652892597",
+      "caption": "在线教培转线上课程销售：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "在线教培转线上课程销售：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/teacher-jade-masterclass",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/018/376/original/open-uri20220518-12-mbu5sw?1652892598",
+      "caption": "在线教培转线上课程销售：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "在线教培转线上课程销售：产品上线与首次发布相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/teacher-jade-masterclass",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
       "type": "video",
       "url": "https://www.youtube.com/embed/UmsWnGw89Wg",
       "watchUrl": "https://www.youtube.com/watch?v=UmsWnGw89Wg",
@@ -185,6 +205,18 @@
       "sourceUrl": "https://www.starterstory.com/stories/teacher-jade-masterclass",
       "origin": "embeddable-video",
       "poster": "https://i.ytimg.com/vi/UmsWnGw89Wg/hqdefault.jpg",
+      "provider": "YouTube",
+      "usage": ""
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/embed/-5Wv32IICn4",
+      "watchUrl": "https://www.youtube.com/watch?v=-5Wv32IICn4",
+      "caption": "在线教培转线上课程销售资料中提及的视频：What’s on Your Reading List?",
+      "alt": "What’s on Your Reading List?",
+      "sourceUrl": "https://www.starterstory.com/stories/teacher-jade-masterclass",
+      "origin": "embeddable-video",
+      "poster": "https://i.ytimg.com/vi/-5Wv32IICn4/hqdefault.jpg",
       "provider": "YouTube",
       "usage": ""
     }
@@ -201,7 +233,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2371,
-    "mediaCount": 5,
+    "mediaCount": 8,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 8,
+    "logicMedia": 0
   }
 }

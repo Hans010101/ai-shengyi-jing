@@ -149,8 +149,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/303/original/open-uri20221129-12-emthhl?1669701697",
-      "caption": "播客网络+广告赞助：原始案例中的产品与运营配图（第1张）",
-      "alt": "播客网络+广告赞助：原始案例中的产品与运营配图（第1张）",
+      "caption": "播客网络+广告赞助：创始人、核心产品与品牌起点相关原始配图",
+      "alt": "播客网络+广告赞助：创始人、核心产品与品牌起点相关原始配图",
       "sourceUrl": "https://www.starterstory.com/stories/sober-powered",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -159,8 +159,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/304/original/open-uri20221129-12-yhmxlp?1669701698",
-      "caption": "播客网络+广告赞助：原始案例中的产品与运营配图（第2张）",
-      "alt": "播客网络+广告赞助：原始案例中的产品与运营配图（第2张）",
+      "caption": "播客网络+广告赞助：创业起点与创意来源相关原始配图（第2张）",
+      "alt": "播客网络+广告赞助：创业起点与创意来源相关原始配图（第2张）",
       "sourceUrl": "https://www.starterstory.com/stories/sober-powered",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -169,8 +169,8 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/305/original/open-uri20221129-12-oamjk9?1669701699",
-      "caption": "播客网络+广告赞助：原始案例中的产品与运营配图（第3张）",
-      "alt": "播客网络+广告赞助：原始案例中的产品与运营配图（第3张）",
+      "caption": "播客网络+广告赞助：产品上线与首次发布相关原始配图（第3张）",
+      "alt": "播客网络+广告赞助：产品上线与首次发布相关原始配图（第3张）",
       "sourceUrl": "https://www.starterstory.com/stories/sober-powered",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -179,8 +179,18 @@
     {
       "type": "image",
       "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/306/original/open-uri20221129-12-wdoz0f?1669701700",
-      "caption": "播客网络+广告赞助：原始案例中的产品与运营配图（第4张）",
-      "alt": "播客网络+广告赞助：原始案例中的产品与运营配图（第4张）",
+      "caption": "播客网络+广告赞助：产品上线与首次发布相关原始配图（第4张）",
+      "alt": "播客网络+广告赞助：产品上线与首次发布相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/sober-powered",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/022/307/original/open-uri20221129-12-1xlvukw?1669701701",
+      "caption": "播客网络+广告赞助：产品上线与首次发布相关原始配图（第5张）",
+      "alt": "播客网络+广告赞助：产品上线与首次发布相关原始配图（第5张）",
       "sourceUrl": "https://www.starterstory.com/stories/sober-powered",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
@@ -199,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2449,
-    "mediaCount": 5,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

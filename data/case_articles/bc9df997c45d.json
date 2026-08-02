@@ -175,6 +175,26 @@
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/970/original/open-uri20240127-65-ak5clo?1706357619",
+      "caption": "为跨境电商卖家提供一键选品和导入功能的SaaS工：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "alt": "为跨境电商卖家提供一键选品和导入功能的SaaS工：创始人、核心产品与品牌起点相关原始配图（第4张）",
+      "sourceUrl": "https://www.starterstory.com/stories/importify-0cd1db69-d4e2-4bc6-8565-e19bcca5b687",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
+    },
+    {
+      "type": "image",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/story_images/images/000/026/971/original/open-uri20240127-65-1bz2emi?1706357620",
+      "caption": "为跨境电商卖家提供一键选品和导入功能的SaaS工：团队建设与人才需求相关原始配图（第5张）",
+      "alt": "为跨境电商卖家提供一键选品和导入功能的SaaS工：团队建设与人才需求相关原始配图（第5张）",
+      "sourceUrl": "https://www.starterstory.com/stories/importify-0cd1db69-d4e2-4bc6-8565-e19bcca5b687",
+      "origin": "source-attributed",
+      "usage": "non-commercial-attributed",
+      "context": "source-article-body"
     }
   ],
   "source": {
@@ -189,7 +209,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2551,
-    "mediaCount": 4,
+    "mediaCount": 6,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 6,
+    "logicMedia": 0
   }
 }

@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "建筑项目财务预测SaaS的产品与交付路径",
+      "items": [
+        "项目数据录入",
+        "财务模型分析",
+        "预测报告生成",
+        "订阅付费解锁完整功能"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "建筑项目财务预测SaaS的中国市场验证路线",
+      "items": [
+        "聚焦建筑行业细分领域（如装修、土建），开发MVP，支持手动录入项目预算和实际支出，生成基础现金流预测。",
+        "与3-5家本地小型建筑公司合作，免费试用并收集反馈，优化财务模型和用户体验，同时积累案例。",
+        "推出付费套餐（按项目数或用户数），通过行业展会、微信群和短视频（如抖音）推广，提供7天免费试用，快速转化付费。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2478,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }

@@ -169,6 +169,33 @@
       "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "product-path",
+      "title": "DIY博客的产品与交付路径",
+      "items": [
+        "博客文章",
+        "邮件订阅",
+        "广告展示",
+        "联盟链接"
+      ],
+      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "origin": "editorial-generated",
+      "usage": "site-original"
+    },
+    {
+      "type": "infographic",
+      "variant": "china-launch",
+      "title": "DIY博客的中国市场验证路线",
+      "items": [
+        "选择细分DIY领域（如旧房改造），搭建公众号或小红书账号，每周发布3篇图文/视频教程，注重真实感和失败案例。",
+        "在内容中嵌入邮件订阅入口，用免费PDF教程（如《10个低成本改造技巧》）激励订阅，积累种子用户。",
+        "与淘宝、京东等联盟平台合作，在文章中嵌入商品链接；同时申请广告平台（如百度联盟），当流量稳定后开启变现。"
+      ],
+      "caption": "AI生意经原创信息图：根据案例资料生成的本土验证步骤",
+      "origin": "editorial-generated",
+      "usage": "site-original"
     }
   ],
   "source": {
@@ -183,7 +210,19 @@
   "quality": {
     "sectionCount": 8,
     "bodyCharacters": 2439,
-    "mediaCount": 3,
+    "mediaCount": 5,
     "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:24:18.985885+00:00"
+  },
+  "mediaEnrichment": {
+    "batch": 3,
+    "batchSize": 1000,
+    "processedAt": "2026-08-02T14:24:18.985885+00:00",
+    "status": "source:ok|official:website-missing",
+    "realMedia": 2,
+    "logicMedia": 3
   }
 }
