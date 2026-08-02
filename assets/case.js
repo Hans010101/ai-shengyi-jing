@@ -262,13 +262,37 @@ function renderArticle(project, article, collectionDate) {
     'span',
     ['pilot', 'full'].includes(article.status) ? '深度案例' : '简版资料'
   );
+  const readingMinutes = Number(article?.quality?.readingMinutes || 0);
+  if (readingMinutes > 0) {
+    appendText(meta, 'span', `阅读约 ${readingMinutes} 分钟`);
+  }
   if (collectionDate) {
     appendText(meta, 'span', `采集：${collectionDate}`);
   }
   root.appendChild(meta);
 
-  const opening = appendText(root, 'p', article.opening, 'case-opening');
-  opening.insertAdjacentElement('beforebegin', document.createElement('hr'));
+  root.appendChild(document.createElement('hr'));
+  const intro = document.createElement('div');
+  intro.className = 'case-intro';
+  String(article.opening || '')
+    .split(/\n{2,}/)
+    .filter(Boolean)
+    .forEach((paragraph, index) => {
+      appendText(
+        intro,
+        'p',
+        paragraph,
+        index === 0 ? 'case-opening case-opening-lead' : 'case-opening'
+      );
+    });
+  if (article.editorNote) {
+    const note = document.createElement('div');
+    note.className = 'editor-note';
+    appendText(note, 'span', '编辑手记');
+    appendText(note, 'strong', article.editorNote);
+    intro.appendChild(note);
+  }
+  root.appendChild(intro);
 
   const media = Array.isArray(article.media) ? article.media : [];
   const firstMedia = renderMedia(media[0], 0);
@@ -287,9 +311,46 @@ function renderArticle(project, article, collectionDate) {
     root.appendChild(facts);
   }
 
-  (article.sections || []).forEach((section, sectionIndex) => {
+  const sections = Array.isArray(article.sections) ? article.sections : [];
+  if (sections.length) {
+    const toc = document.createElement('nav');
+    toc.className = 'article-toc';
+    appendText(toc, 'span', '本篇导航', 'article-toc-label');
+    const tocGrid = document.createElement('div');
+    tocGrid.className = 'article-toc-grid';
+    sections.forEach((section, sectionIndex) => {
+      const link = document.createElement('a');
+      link.href = `#section-${sectionIndex + 1}`;
+      appendText(link, 'small', String(sectionIndex + 1).padStart(2, '0'));
+      appendText(link, 'strong', section.heading || `第 ${sectionIndex + 1} 部分`);
+      tocGrid.appendChild(link);
+    });
+    toc.appendChild(tocGrid);
+    root.appendChild(toc);
+  }
+
+  const mediaSlots = new Map();
+  const remainingMedia = media.slice(1);
+  remainingMedia.forEach((item, mediaIndex) => {
+    const sectionIndex = Math.min(
+      Math.max(sections.length - 1, 0),
+      Math.max(
+        0,
+        Math.round(((mediaIndex + 1) * sections.length) / remainingMedia.length) - 1
+      )
+    );
+    const slot = mediaSlots.get(sectionIndex) || [];
+    slot.push({ item, mediaIndex: mediaIndex + 1 });
+    mediaSlots.set(sectionIndex, slot);
+  });
+
+  sections.forEach((section, sectionIndex) => {
     const block = document.createElement('section');
     block.className = 'article-section';
+    block.id = `section-${sectionIndex + 1}`;
+    if (section.kicker) {
+      appendText(block, 'span', section.kicker, 'article-section-kicker');
+    }
     appendText(block, 'h2', section.heading || `第 ${sectionIndex + 1} 部分`);
     (section.paragraphs || []).forEach(paragraph => {
       appendText(block, 'p', paragraph);
@@ -299,8 +360,10 @@ function renderArticle(project, article, collectionDate) {
     }
     root.appendChild(block);
 
-    const nextMedia = renderMedia(media[sectionIndex + 1], sectionIndex + 1);
-    if (nextMedia) root.appendChild(nextMedia);
+    (mediaSlots.get(sectionIndex) || []).forEach(({ item, mediaIndex }) => {
+      const nextMedia = renderMedia(item, mediaIndex);
+      if (nextMedia) root.appendChild(nextMedia);
+    });
   });
 
   const conclusion = document.createElement('section');
@@ -333,6 +396,18 @@ function renderAside(project, article) {
     appendText(item, 'strong', value);
     card.appendChild(item);
   });
+
+  if (Array.isArray(article.highlights) && article.highlights.length) {
+    const highlights = document.createElement('div');
+    highlights.className = 'aside-highlights';
+    appendText(highlights, 'span', '本篇看点');
+    const list = document.createElement('ul');
+    article.highlights.slice(0, 4).forEach(item => {
+      appendText(list, 'li', item);
+    });
+    highlights.appendChild(list);
+    card.appendChild(highlights);
+  }
 
   const website = safeExternalUrl(article.website || project.website);
   if (website) {

@@ -498,6 +498,36 @@ class ContentQualityTests(unittest.TestCase):
         self.assertIn("AI生意经原创信息图", case_js)
         self.assertIn(".infographic-flow", case_css)
 
+    def test_case_page_uses_editorial_navigation_and_distributed_media(self):
+        case_js = Path("assets/case.js").read_text(encoding="utf-8")
+        case_css = Path("assets/case.css").read_text(encoding="utf-8")
+        article = json.loads(
+            Path("data/case_articles/a80ee1def467.json").read_text(
+                encoding="utf-8"
+            )
+        )
+
+        self.assertIn("营收背后", article["title"])
+        self.assertEqual(len(article["sections"]), 8)
+        self.assertTrue(article["editorNote"])
+        self.assertEqual(len(article["highlights"]), 4)
+        self.assertTrue(
+            all(section.get("kicker") for section in article["sections"])
+        )
+        self.assertGreaterEqual(article["quality"]["readingMinutes"], 5)
+        self.assertIn("article-toc-grid", case_js)
+        self.assertIn("mediaSlots", case_js)
+        self.assertIn("case-opening-lead", case_js)
+        self.assertIn(".article-toc-grid", case_css)
+        self.assertIn(".editor-note", case_css)
+
+    def test_daily_official_media_backfill_processes_five_hundred(self):
+        workflow = Path(".github/workflows/daily_scrape.yml").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("--enrich-official-batch 500", workflow)
+        self.assertIn("--workers 12", workflow)
+
     def test_official_media_prefers_product_scenes_and_playable_video(self):
         project = {
             "id": "example",
