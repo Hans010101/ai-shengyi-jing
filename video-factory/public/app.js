@@ -10,6 +10,7 @@ const errorNames = {CASE_NOT_FOUND:'没有找到这个案例',INSUFFICIENT_MEDIA
 const isLocalFile = location.protocol === 'file:';
 const productionApiOrigin = 'https://ai-shengyi-video-factory.hans-pan007.workers.dev';
 const apiOrigin = location.hostname.endsWith('.pages.dev') ? productionApiOrigin : '';
+const publicCatalogUrl = 'https://ai-shengyi-jing.pages.dev/data/projects_live.json';
 let catalogTimer;
 
 function escapeHtml(value=''){return String(value).replace(/[&<>'"]/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]))}
@@ -19,10 +20,41 @@ function setConnected(mode){const el=$('#connectionState');const production=mode
 function showAccess(message=''){$('#accessKey').value=state.key;$('#accessError').textContent=message;if(!$('#accessDialog').open)$('#accessDialog').showModal();setTimeout(()=>$('#accessKey').focus(),30)}
 
 async function api(path,options={}){
-  const response=await fetch(`${apiOrigin}${path}`,{...options,headers:{'Content-Type':'application/json','X-Factory-Key':state.key,...options.headers}});
-  const data=await response.json().catch(()=>({}));
-  if(!response.ok){const error=new Error(data.detail||errorNames[data.error]||data.error||`请求失败（${response.status}）`);error.status=response.status;throw error}
-  return data;
+  const attempts=(options.method||'GET').toUpperCase()==='GET'?2:1;
+  let lastError;
+  for(let attempt=0;attempt<attempts;attempt+=1){
+    const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),12000);
+    try{
+      const response=await fetch(`${apiOrigin}${path}`,{...options,signal:controller.signal,headers:{'Content-Type':'application/json','X-Factory-Key':state.key,...options.headers}});
+      const data=await response.json().catch(()=>({}));
+      if(!response.ok){const error=new Error(data.detail||errorNames[data.error]||data.error||`请求失败（${response.status}）`);error.status=response.status;throw error}
+      return data;
+    }catch(error){lastError=error;if(error?.status||attempt===attempts-1)break}
+    finally{clearTimeout(timeout)}
+  }
+  if(lastError?.name==='AbortError')throw new Error('云端响应超时，请重试');
+  throw lastError||new Error('暂时无法连接云端');
+}
+
+async function fallbackCatalog(){
+  const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),12000);
+  try{
+    const response=await fetch(publicCatalogUrl,{signal:controller.signal,cache:'no-store'});
+    if(!response.ok)throw new Error(`公开案例库请求失败（${response.status}）`);
+    const projects=await response.json();
+    const query=state.catalogQuery.toLocaleLowerCase('zh-CN');
+    const categories=[...new Set(projects.map(item=>String(item.niche||'其他')).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'zh-CN'));
+    const filtered=projects.filter(item=>{
+      const searchable=[item.id,item.nameZh,item.name,item.summary,item.insight,item.niche,...(Array.isArray(item.tags)?item.tags:[])].join(' ').toLocaleLowerCase('zh-CN');
+      return(!query||searchable.includes(query))&&(!state.category||item.niche===state.category);
+    });
+    const start=(state.catalogPage-1)*20;
+    return{items:filtered.slice(start,start+20).map(item=>({
+      id:String(item.id),name:item.nameZh||item.name,summary:item.summary||item.insight||'',category:item.niche||'其他',
+      image:item.image||'',mediaCount:Number(item.mediaCount||0),mediaReady:true,
+      caseUrl:`https://ai-shengyi-jing.pages.dev/case?id=${encodeURIComponent(item.id)}`
+    })),total:filtered.length,categories};
+  }finally{clearTimeout(timeout)}
 }
 
 function updateStats(){
@@ -65,10 +97,16 @@ async function deleteJob(id,name){
 }
 
 async function loadCatalog({append=false}={}){
-  const root=$('#catalogGrid');if(!append)root.innerHTML='<div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div>';
+  const root=$('#catalogGrid');if(!append){root.innerHTML='<div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div>';$('#catalogMeta').textContent='正在读取案例库…'}
   const params=new URLSearchParams({q:state.catalogQuery,category:state.category,page:String(state.catalogPage),pageSize:'20'});
-  try{const data=await api(`/api/catalog?${params}`);state.catalog=append?[...state.catalog,...data.items]:data.items;state.catalogTotal=data.total;state.categories=data.categories||[];renderCategories();renderCatalog()}
-  catch(error){root.innerHTML=`<div class="empty"><b>案例库暂时无法读取</b>${escapeHtml(error.message)}</div>`}
+  try{
+    let data;
+    try{data=await api(`/api/catalog?${params}`)}catch{data=await fallbackCatalog();setConnected('catalog')}
+    state.catalog=append?[...state.catalog,...data.items]:data.items;state.catalogTotal=data.total;state.categories=data.categories||[];renderCategories();renderCatalog();
+  }catch(error){
+    root.innerHTML=`<div class="empty"><b>案例库暂时无法读取</b><span>${escapeHtml(error.message)}</span><button class="button quiet" id="retryCatalog" type="button">重新加载案例</button></div>`;
+    $('#catalogMeta').textContent='加载失败，可立即重试';$('#loadMore').hidden=true;$('#retryCatalog').onclick=()=>loadCatalog();
+  }
 }
 function renderCategories(){
   const root=$('#categoryFilters');const visible=state.categories.slice(0,12);
@@ -143,7 +181,7 @@ if(isLocalFile){
   $('#catalogGrid').innerHTML='<div class="empty"><b>正式网址上线后读取案例库</b>本地文件只用于检查视觉，不会连接生产接口。</div>';
   $('#catalogMeta').textContent='本地视觉预览';$('#jobs').innerHTML='<div class="empty"><b>正式网址上线后显示任务</b>请从 Cloudflare 固定网址使用完整生产功能。</div>';
 }else{
-  try{const healthResponse=await fetch(`${apiOrigin}/api/health`);if(!healthResponse.ok)throw new Error('API unavailable');const health=await healthResponse.json();const rendererReady=health?.renderer?.enabled===true;$('#systemState').lastChild.textContent=rendererReady?' 系统就绪':' 案例库已就绪';setConnected(rendererReady?(state.key?'production':'catalog'):'catalog');$('#keyButton').disabled=!rendererReady;$('#keyButton').textContent=rendererReady?(state.key?'生产权限':'启用生产'):'渲染待开通';await Promise.all([loadCatalog(),loadJobs()])}
+  try{const healthResponse=await fetch(`${apiOrigin}/api/health`,{signal:AbortSignal.timeout(12000),cache:'no-store'});if(!healthResponse.ok)throw new Error('API unavailable');const health=await healthResponse.json();const rendererReady=health?.renderer?.enabled===true;$('#systemState').lastChild.textContent=rendererReady?' 系统就绪':' 案例库已就绪';setConnected(rendererReady?(state.key?'production':'catalog'):'catalog');$('#keyButton').disabled=!rendererReady;$('#keyButton').textContent=rendererReady?(state.key?'生产权限':'启用生产'):'渲染待开通';await Promise.allSettled([loadCatalog(),loadJobs()])}
   catch{$('#localPreviewNotice').hidden=false;$('#localPreviewNotice').innerHTML='<div><b>产品入口已上线</b><span>视频渲染服务等待 Cloudflare R2 激活后接通。</span></div><a href="https://ai-shengyi-jing.pages.dev">返回 AI生意经主站 →</a>';setConnected('offline');$('#systemState').lastChild.textContent=' 后端待激活';$('#catalogGrid').innerHTML='<div class="empty"><b>生产后端正在配置</b>固定产品入口已经可用，R2 激活后将自动接通案例库与生产任务。</div>';$('#jobs').innerHTML='<div class="empty"><b>暂未连接渲染服务</b>完成 Cloudflare R2 激活后即可开始批量生产。</div>'}
 }}
 bootstrap();
