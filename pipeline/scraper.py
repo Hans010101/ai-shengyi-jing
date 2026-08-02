@@ -24,6 +24,7 @@ except ImportError:
 
 # ========== CONFIG ==========
 BASE_URL = "https://www.starterstory.com"
+LISTING_URL = f"{BASE_URL}/data?sort=recently_added"
 DATA_DIR = Path(__file__).parent / "data"
 SEEN_FILE = DATA_DIR / "seen_ids.json"
 OUTPUT_FILE = Path(__file__).parent.parent / "data" / "projects_live.json"
@@ -41,6 +42,7 @@ HEADERS = {
 }
 
 REQUEST_DELAY = 3  # 秒
+MIN_LISTING_PROJECTS = 10
 
 def load_seen_ids():
     if SEEN_FILE.exists():
@@ -54,8 +56,9 @@ def save_seen_ids(ids):
         json.dump(sorted(ids), f, ensure_ascii=False, indent=2)
         f.write("\n")
 
-def make_id(name):
-    return hashlib.md5(name.lower().encode()).hexdigest()[:12]
+def make_id(value):
+    """Build a stable ID from the canonical source URL when available."""
+    return hashlib.md5(value.strip().lower().rstrip("/").encode()).hexdigest()[:12]
 
 def fetch_page(url, retries=3):
     for i in range(retries):
@@ -68,51 +71,87 @@ def fetch_page(url, retries=3):
             time.sleep(REQUEST_DELAY * 2)
     return None
 
-def scrape_listing_page():
-    print("[INFO] Fetching global listings...")
-    html = fetch_page(f"{BASE_URL}/data")
-    if not html:
-        return []
-
+def parse_listing_html(html):
+    """Parse both the current Starter Story table and its legacy markup."""
     soup = BeautifulSoup(html, "html.parser")
     projects = []
 
-    rows = soup.find_all("tr", class_=lambda c: c and "border-b" in c)
+    # Starter Story removed the old ``border-b`` row class in late July 2026.
+    # A case-study link is a much more durable contract than Tailwind classes.
+    rows = soup.select("tr:has(td.business-details-col)")
+    if not rows:
+        rows = soup.find_all("tr", class_=lambda c: c and "border-b" in c)
+
     for row in rows:
         try:
-            name_el = row.find("span", class_=lambda c: c and "font-bold" in str(c))
-            if not name_el:
+            link_el = row.select_one(
+                'a[data-posthog-action="view_case_study"][href^="/businesses/"], '
+                'a.nostylelink[href^="/businesses/"], '
+                'a[href^="/stories/"]'
+            )
+            if not link_el:
                 continue
-            name = name_el.get_text(strip=True)
-
-            rev_el = row.find("span", class_=lambda c: c and "bg-emerald-50" in str(c))
-            revenue_str = rev_el.get_text(strip=True) if rev_el else "Unknown"
-
-            link_el = row.find("a", href=True)
-            url = BASE_URL + link_el["href"] if link_el and link_el["href"].startswith("/") else ""
-            if not url or not any(path in url for path in ("/stories/", "/businesses/")):
+            href = link_el.get("href", "")
+            if not href.startswith(("/stories/", "/businesses/")):
                 continue
-            if name.endswith("..."):
+            url = BASE_URL + href
+
+            name_el = link_el.find(
+                "span", class_=lambda c: c and "font-bold" in str(c)
+            ) or row.find(
+                "span", class_=lambda c: c and "font-bold" in str(c)
+            )
+            name = (name_el or link_el).get_text(" ", strip=True)
+            if not name:
                 continue
 
             cells = row.find_all("td")
+            revenue_cell = cells[1] if len(cells) > 1 else None
+            rev_el = revenue_cell.find("span") if revenue_cell else None
+            revenue_str = (
+                rev_el.get_text(" ", strip=True) if rev_el else "Unknown"
+            )
+
             startup_info = ""
-            if len(cells) >= 3:
-                startup_info = cells[-1].get_text(strip=True)
+            domain_el = row.select_one("td.business-details-col span.font-mono")
+            if domain_el:
+                startup_info = domain_el.get_text(" ", strip=True)
+
+            image_el = row.select_one("td.business-details-col img[src]")
+            image = image_el.get("src", "") if image_el else ""
 
             projects.append({
                 "name": name,
                 "revenue": revenue_str,
                 "startupInfo": startup_info,
                 "url": url,
-                "id": make_id(name),
+                "slug": href.rstrip("/").split("/")[-1],
+                "image": image,
+                "niche": "其他",
+                "id": make_id(url),
                 "scrapedAt": datetime.datetime.now().isoformat()
             })
         except Exception as e:
             print(f"  [WARN] Row parse error: {e}")
             continue
 
+    # Protect against duplicate anchors or repeated responsive table rows.
+    return list({project["id"]: project for project in projects}.values())
+
+
+def scrape_listing_page():
+    print("[INFO] Fetching global listings...")
+    html = fetch_page(LISTING_URL)
+    if not html:
+        raise RuntimeError("Starter Story listing request failed")
+
+    projects = parse_listing_html(html)
     print(f"[INFO] Found {len(projects)} projects on listing page")
+    if len(projects) < MIN_LISTING_PROJECTS:
+        raise RuntimeError(
+            "Starter Story parser health check failed: "
+            f"expected at least {MIN_LISTING_PROJECTS} projects, found {len(projects)}"
+        )
     return projects
 
 def scrape_detail_page(url):
@@ -127,13 +166,25 @@ def scrape_detail_page(url):
     soup = BeautifulSoup(html, "html.parser")
     detail = {}
 
+    title_el = soup.find("h1")
+    if title_el:
+        title = title_el.get_text(" ", strip=True)
+        if title:
+            detail["name"] = title
+
     rev_blocks = soup.find_all(string=lambda s: s and "$" in s and "/mo" in s)
     if rev_blocks:
         detail["revenueDetail"] = rev_blocks[0].strip()
 
     desc_el = soup.find("meta", attrs={"name": "description"})
     if desc_el:
-        detail["metaDesc"] = desc_el.get("content", "")
+        description = desc_el.get("content", "")
+        detail["metaDesc"] = description
+        detail["description"] = description
+
+    image_el = soup.find("meta", attrs={"property": "og:image"})
+    if image_el and image_el.get("content"):
+        detail["image"] = image_el["content"]
 
     return detail
 
@@ -279,9 +330,6 @@ def run_pipeline():
     print(f"[INFO] Already seen: {len(seen_ids)} projects")
 
     projects = scrape_listing_page()
-    if not projects:
-        print("[WARN] No projects found. Exiting.")
-        return
 
     new_projects = merge_projects(
         [p for p in projects if p["id"] not in seen_ids],

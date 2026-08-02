@@ -6,6 +6,7 @@ from pathlib import Path
 from pipeline.article_pipeline import normalize_article, normalize_media
 from pipeline.project_store import merge_projects, project_ids
 from pipeline.content_quality import derive_chinese_name, is_placeholder
+from pipeline.scraper import make_id, parse_listing_html
 from scripts.build_edgeone import EDGEONE_PATHS, build as build_edgeone
 from scripts.build_site import PUBLISH_PATHS, build, public_output_paths
 from scripts.generate_case_catalog import clean_existing_media, ensure_visual_media
@@ -35,6 +36,39 @@ class ProjectStoreTests(unittest.TestCase):
 
     def test_rows_without_ids_are_ignored(self):
         self.assertEqual(merge_projects([{"name": "invalid"}], []), [])
+
+
+class DailyScraperTests(unittest.TestCase):
+    def test_current_starter_story_table_markup_is_parsed(self):
+        html = """
+        <table><tbody><tr>
+          <td class="business-details-col">
+            <img src="https://cdn.example/cover.jpg">
+            <a class="nostylelink" data-posthog-action="view_case_study"
+               href="/businesses/browserless">
+              <span class="text-sm font-bold">Cloud headless browser service</span>
+            </a>
+            <span class="font-mono">browserless.io</span>
+          </td>
+          <td><span>$300K/mo</span></td><td>—</td>
+        </tr></tbody></table>
+        """
+
+        projects = parse_listing_html(html)
+
+        self.assertEqual(len(projects), 1)
+        self.assertEqual(projects[0]["name"], "Cloud headless browser service")
+        self.assertEqual(projects[0]["revenue"], "$300K/mo")
+        self.assertEqual(projects[0]["slug"], "browserless")
+        self.assertEqual(projects[0]["image"], "https://cdn.example/cover.jpg")
+        self.assertEqual(
+            projects[0]["id"],
+            make_id("https://www.starterstory.com/businesses/browserless"),
+        )
+
+    def test_listing_ids_are_stable_when_display_name_changes(self):
+        url = "https://www.starterstory.com/businesses/browserless"
+        self.assertEqual(make_id(url), make_id(url + "/"))
 
 
 class BuildTests(unittest.TestCase):
