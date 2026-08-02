@@ -879,6 +879,16 @@ def ensure_visual_media(
     for item in media:
         if item.get("type") == "infographic":
             continue
+        if item.get("type") == "video":
+            poster = urlparse(clean_text(item.get("poster"), 2_000))
+            watch = urlparse(clean_text(item.get("watchUrl"), 2_000))
+            if (
+                poster.scheme not in {"http", "https"}
+                or not poster.hostname
+                or watch.scheme not in {"http", "https"}
+                or not watch.hostname
+            ):
+                continue
         key = canonical_media_url(item.get("url", ""))
         if not key or key in seen:
             continue

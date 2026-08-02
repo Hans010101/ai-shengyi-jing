@@ -483,6 +483,21 @@ class ContentQualityTests(unittest.TestCase):
             min_items=5,
             max_items=8,
         )
+        invalid_video = ensure_visual_media(
+            project,
+            [
+                source_image,
+                {
+                    "type": "video",
+                    "url": "https://www.youtube.com/embed/demo",
+                    "watchUrl": "https://www.youtube.com/watch?v=demo",
+                    "poster": "",
+                    "caption": "产品演示",
+                },
+            ],
+            min_items=5,
+            max_items=8,
+        )
 
         self.assertEqual(len(empty), 3)
         self.assertTrue(all(item["type"] == "infographic" for item in empty))
@@ -500,6 +515,7 @@ class ContentQualityTests(unittest.TestCase):
             [item["type"] for item in enriched_one[1:]],
             ["infographic"] * 4,
         )
+        self.assertNotIn("video", [item["type"] for item in invalid_video])
         self.assertTrue(
             all(
                 "AI生意经原创信息图" in item["caption"]
