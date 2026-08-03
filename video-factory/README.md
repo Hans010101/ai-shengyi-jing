@@ -6,7 +6,7 @@
 
 - Workers + 静态后台：生产控制台与API
 - Workflows：长任务、步骤状态和自动重试
-- Workers AI：脚本生成与Whisper反向校对
+- Workers AI：脚本生成、FLUX 漫画分镜与 Whisper 反向校对
 - DeepSeek：脚本生成的备用通道
 - Containers：HyperFrames、Chromium、FFmpeg和Edge Neural TTS
 - R2：案例快照、脚本、音频、MP4、联系表和质检报告的短期中转缓存
@@ -19,15 +19,17 @@
 
 ## 质量门
 
-1. 至少3项不同原始素材，且通过下载、尺寸、解码和低熵检查。
+1. 商业路线至少 3 项不同原始素材；漫画路线要求每个叙事段落有一幅独立生成且通过尺寸、解码和低熵检查的插画。
 2. 脚本的每段事实绑定案例`evidenceIds`，素材绑定`mediaIds`。
 3. 中文旁白按语义短句生成，字幕直接使用最终配音短句。
 4. 1080×1920、30fps、H.264/AAC、含有效音轨。
-5. 约-16 LUFS、True Peak不高于-1.5dB附近。
+5. 目标 -14 LUFS、True Peak 不高于 -1.5 dBTP。
 6. 无连续黑帧，成片时长与音频一致。
 7. Whisper反向转写与脚本文字达到阈值；不通过自动降速重做一次。
 
-生产台支持案例名称与分类搜索、可视化选择、批量导入ID、生产进度、失败重试、成片预览、本地下载、质检报告和云端缓存释放。自动批量大小由`AUTO_BATCH_SIZE`配置，设为`0`即可暂停每日自动生产；缓存天数由`ARTIFACT_RETENTION_DAYS`配置。
+生产台默认支持一次导入 1–20 份 DOCX、Markdown 或 TXT 口播文案，一份文案对应一条任务。原稿路线不调用大模型改写文本，只做分段、分镜、配音和字幕。旧版 `.doc` 必须先另存为 `.docx`；单份直稿限制 100–760 字，对应约 30–180 秒。生产进度、失败重试、成片预览、本地下载和质检报告均继续保留。自动批量大小由`AUTO_BATCH_SIZE`配置，设为`0`即可暂停每日案例生产；缓存天数由`ARTIFACT_RETENTION_DAYS`配置。
+
+三条路线由 `src/presets.ts` 和 D1 `template_versions` 同时版本化：`comic-engraving-v1`、`knowledge-director-v1`、`ai-shengyi-case-v1`。后端会重新解析并锁定视觉、品牌和媒体策略，前端不能把一种路线的参数注入另一种路线。
 
 ## 本地开发
 
