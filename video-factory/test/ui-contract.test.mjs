@@ -16,7 +16,7 @@ test('all six source connectors are real tabs', () => {
 
 test('file preview can run the classic script and points production to HTTPS', () => {
   assert.doesNotMatch(html, /type="module"/);
-  assert.match(html, /app\.js\?v=2\.0\.0/);
+  assert.match(html, /app\.js\?v=\d+\.\d+\.\d+/);
   assert.match(app, /location\.protocol === 'file:'/);
   assert.match(app, /https:\/\/ai-shengyi-video-studio\.pages\.dev/);
 });
