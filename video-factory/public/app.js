@@ -70,6 +70,12 @@ function chooseRouteForSource(type) {
   $('#lineDescription').textContent = lineCopy[select.value];
 }
 
+function updateSubmitCopy() {
+  const label = state.sourceType === 'script' ? '创建批量生产任务' : state.sourceType === 'ai-shengyi-case' ? '创建商业案例任务' : '生成脚本并开始生产';
+  const hint = state.sourceType === 'script' ? `${state.imports.length} 份文案 · Cloudflare AI → HyperFrames → R2` : state.sourceType === 'ai-shengyi-case' ? 'AI 生意经案例路线 · 真实来源素材' : '内容提炼 → 脚本 → HyperFrames → R2';
+  $('#submit span').textContent = label; $('#submitHint').textContent = hint;
+}
+
 function switchSource(type, focus = false) {
   if (!sourceCopy[type]) return;
   state.sourceType = type;
@@ -84,7 +90,7 @@ function switchSource(type, focus = false) {
   $('#title').parentElement.hidden = type === 'article' || (type === 'book' && !state.bookLoaded);
   $('#standardSource').setAttribute('aria-labelledby', `tab-${type}`);
   const [title, description] = sourceCopy[type]; $('#sourceGuide').innerHTML = `<b>${escapeHtml(title)}</b><span>${escapeHtml(description)}</span>`;
-  chooseRouteForSource(type); $('#formError').textContent = '';
+  chooseRouteForSource(type); updateSubmitCopy(); $('#formError').textContent = '';
 }
 
 $$('.source-tabs button').forEach((button, index, buttons) => {
@@ -104,7 +110,7 @@ function renderImportQueue() {
   if (!state.imports.length) queue.innerHTML = '<p class="empty">尚未导入文案。支持一次选择多份文件。</p>';
   else queue.innerHTML = state.imports.map(item => `<article class="file-row"><div><b title="${escapeHtml(item.filename)}">${escapeHtml(item.title)}</b><small>${escapeHtml(item.filename)} · ${item.characters} 字 · 约 ${item.estimatedSeconds} 秒</small></div><span class="ready">可生产</span><button type="button" data-remove="${item.id}" aria-label="移除">×</button></article>`).join('');
   $$('[data-remove]').forEach(button => button.onclick = () => { state.imports = state.imports.filter(item => item.id !== button.dataset.remove); renderImportQueue(); });
-  $('#submitHint').textContent = `${state.imports.length} 份文案 · Cloudflare AI → HyperFrames → R2`;
+  if (state.sourceType === 'script') updateSubmitCopy();
 }
 
 function closestDuration(seconds) { return [30,60,90,120,180].find(value => seconds <= value) || 180; }
@@ -175,7 +181,7 @@ async function submit() {
     toast(`已创建 ${result.count} 条生产任务`); $('#formError').textContent = '';
     if (state.sourceType === 'script') { state.imports = []; renderImportQueue(); }
     await loadJobs(); location.hash = 'jobs'; return result;
-  } finally { button.disabled = false; button.querySelector('span').textContent = state.sourceType === 'script' ? '创建批量生产任务' : '生成脚本并开始生产'; }
+  } finally { button.disabled = false; updateSubmitCopy(); }
 }
 $('#createForm').onsubmit = async event => { event.preventDefault(); try { await submit(); } catch (error) { $('#formError').textContent = error.message; } };
 
