@@ -11,7 +11,7 @@ const storage = {
 };
 
 const state = {
-  sourceType: 'script', imports: [], selectedCase: null, bookLoaded: false, jobs: [], health: null, pending: false,
+  sourceType: 'script', imports: [], importing: false, selectedCase: null, bookLoaded: false, jobs: [], health: null, pending: false,
   accessMode: 'activation', session: storage.get('factorySession'), sessionExpiry: storage.get('factorySessionExpiry'), key: storage.get('factoryKey'), routeTouched: false
 };
 const hasAccess = () => Boolean(state.session || state.key);
@@ -76,6 +76,20 @@ function updateSubmitCopy() {
   $('#submit span').textContent = label; $('#submitHint').textContent = hint;
 }
 
+function setImportFeedback(kind, title, detail) {
+  const panel = $('#importFeedback');
+  const mark = { idle: '↓', loading: '···', success: '✓', warning: '!', error: '×' }[kind] || '↓';
+  panel.className = `import-feedback ${kind}`;
+  $('#importFeedbackMark').textContent = mark;
+  $('#importFeedbackTitle').textContent = title;
+  $('#importFeedbackDetail').textContent = detail;
+  featuredDrop.classList.toggle('importing', kind === 'loading');
+  featuredDrop.classList.toggle('has-files', state.imports.length > 0 && kind !== 'error');
+  featuredDrop.classList.toggle('has-error', kind === 'error');
+  featuredDrop.setAttribute('aria-busy', String(kind === 'loading'));
+  $('#scriptFiles').disabled = kind === 'loading';
+}
+
 function switchSource(type, focus = false) {
   if (!sourceCopy[type]) return;
   state.sourceType = type;
@@ -109,7 +123,12 @@ function renderImportQueue() {
   const queue = $('#fileQueue');
   if (!state.imports.length) queue.innerHTML = '<p class="empty">尚未导入文案。支持一次选择多份文件。</p>';
   else queue.innerHTML = state.imports.map(item => `<article class="file-row"><div><b title="${escapeHtml(item.filename)}">${escapeHtml(item.title)}</b><small>${escapeHtml(item.filename)} · ${item.characters} 字 · 约 ${item.estimatedSeconds} 秒</small></div><span class="ready">可生产</span><button type="button" data-remove="${item.id}" aria-label="移除">×</button></article>`).join('');
-  $$('[data-remove]').forEach(button => button.onclick = () => { state.imports = state.imports.filter(item => item.id !== button.dataset.remove); renderImportQueue(); });
+  $$('[data-remove]').forEach(button => button.onclick = () => {
+    state.imports = state.imports.filter(item => item.id !== button.dataset.remove);
+    renderImportQueue();
+    if (state.imports.length) setImportFeedback('success', `已成功导入 ${state.imports.length} 份文案`, '文件已解析，可继续添加或直接创建批量生产任务。');
+    else setImportFeedback('idle', '等待导入文案', '拖入文件后，这里会持续显示读取结果。');
+  });
   if (state.sourceType === 'script') updateSubmitCopy();
 }
 
@@ -117,25 +136,63 @@ function closestDuration(seconds) { return [30,60,90,120,180].find(value => seco
 async function importFiles(fileList) {
   const files = [...fileList];
   $('#formError').textContent = '';
-  if (state.imports.length + files.length > 20) { $('#formError').textContent = '每批最多 20 份文案。'; return; }
-  let failures = [];
+  if (!files.length || state.importing) return;
+  if (state.imports.length + files.length > 20) {
+    const message = `当前已有 ${state.imports.length} 份；每批最多 20 份文案。`;
+    $('#formError').textContent = message;
+    setImportFeedback('error', '未能加入这批文件', message);
+    return;
+  }
+  state.importing = true;
+  setImportFeedback('loading', `正在读取 ${files.length} 份文案`, '正在检查文件格式、正文长度与段落结构。');
+  const failures = [];
+  let added = 0;
+  let duplicates = 0;
   for (const file of files) {
     try {
       const imported = await window.ScriptImporter.read(file);
-      if (!state.imports.some(item => item.filename === imported.filename && item.text === imported.text)) state.imports.push(imported);
+      if (state.imports.some(item => item.filename === imported.filename && item.text === imported.text)) duplicates += 1;
+      else { state.imports.push(imported); added += 1; }
     } catch (error) { failures.push(`${file.name}：${error.message}`); }
   }
   renderImportQueue();
   if (state.imports.length) $('#duration').value = String(closestDuration(Math.max(...state.imports.map(item => item.estimatedSeconds))));
-  if (failures.length) $('#formError').textContent = failures.join('；'); else if (files.length) toast(`已读取 ${files.length} 份文案`);
+  state.importing = false;
+  if (failures.length) {
+    const detail = failures.join('；');
+    $('#formError').textContent = detail;
+    if (added) setImportFeedback('warning', `已导入 ${added} 份，${failures.length} 份未通过`, detail);
+    else setImportFeedback('error', '文档未能导入', detail);
+    toast(added ? `已成功导入 ${added} 份，另有文件需要处理` : '文档未能导入，请查看原因');
+  } else if (added) {
+    const duplicateCopy = duplicates ? `；另有 ${duplicates} 份重复文件未再次加入` : '';
+    setImportFeedback('success', `已成功导入 ${added} 份文案`, `当前批次共 ${state.imports.length} 份，可继续添加或直接生产${duplicateCopy}。`);
+    toast(`已成功导入 ${added} 份文案`);
+  } else {
+    setImportFeedback('warning', '这些文案已在队列中', `检测到 ${duplicates} 份重复文件，没有重复加入。`);
+    toast('文案已在当前队列中');
+  }
   $('#scriptFiles').value = '';
 }
 
 $('#scriptFiles').onchange = event => importFiles(event.target.files);
 const featuredDrop = $('.featured-drop');
-for (const eventName of ['dragenter','dragover']) featuredDrop.addEventListener(eventName, event => { event.preventDefault(); featuredDrop.classList.add('dragging'); });
-for (const eventName of ['dragleave','drop']) featuredDrop.addEventListener(eventName, event => { event.preventDefault(); featuredDrop.classList.remove('dragging'); });
-featuredDrop.addEventListener('drop', event => importFiles(event.dataTransfer.files));
+for (const eventName of ['dragenter','dragover']) featuredDrop.addEventListener(eventName, event => {
+  event.preventDefault();
+  if (event.dataTransfer) event.dataTransfer.dropEffect = 'copy';
+  featuredDrop.classList.add('dragging');
+});
+featuredDrop.addEventListener('dragleave', event => {
+  event.preventDefault();
+  if (!featuredDrop.contains(event.relatedTarget)) featuredDrop.classList.remove('dragging');
+});
+featuredDrop.addEventListener('drop', event => {
+  event.preventDefault();
+  featuredDrop.classList.remove('dragging');
+  const files = event.dataTransfer?.files;
+  if (files?.length) importFiles(files);
+  else setImportFeedback('error', '没有检测到文档', '请拖入 DOCX、Markdown 或 TXT 文件，而不是文件夹或网页内容。');
+});
 
 $('#bookFile').onchange = async event => {
   const file = event.target.files[0]; if (!file) return;
@@ -179,7 +236,7 @@ async function submit() {
   try {
     const result = await api('/api/jobs', { method: 'POST', body: JSON.stringify(payload) });
     toast(`已创建 ${result.count} 条生产任务`); $('#formError').textContent = '';
-    if (state.sourceType === 'script') { state.imports = []; renderImportQueue(); }
+    if (state.sourceType === 'script') { state.imports = []; renderImportQueue(); setImportFeedback('idle', '等待导入文案', '拖入文件后，这里会持续显示读取结果。'); }
     await loadJobs(); location.hash = 'jobs'; return result;
   } finally { button.disabled = false; updateSubmitCopy(); }
 }

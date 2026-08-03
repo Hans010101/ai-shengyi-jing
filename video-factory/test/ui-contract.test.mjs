@@ -23,8 +23,12 @@ test('file preview can run the classic script and points production to HTTPS', (
 
 test('default workflow accepts multiple DOCX and Markdown scripts', () => {
   assert.match(html, /id="scriptFiles"[^>]+multiple/);
+  assert.match(html, /id="importFeedback"[^>]+aria-live="polite"/);
   assert.match(html, /comic-engraving-v1/);
   assert.match(app, /sources: state\.imports\.map/);
+  assert.match(app, /function setImportFeedback\(kind, title, detail\)/);
+  assert.match(app, /已成功导入/);
+  assert.match(app, /文档未能导入/);
   assert.match(docx, /word\/document\.xml/);
   assert.match(docx, /DecompressionStream\('deflate-raw'\)/);
   assert.match(docx, /超过单条|180 秒内/);
