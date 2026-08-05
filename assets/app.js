@@ -6,6 +6,40 @@ let currentPage = 1;
 const ITEMS_PER_PAGE = 9;
 let ALL_PROJECTS = []; // Holds normalized live database items
 
+const PROJECT_CATEGORY_STYLES = {
+  'AI工具': { icon: '🤖', color: '#8b5cf6' },
+  'Micro SaaS': { icon: '⚡', color: '#3b82f6' },
+  '内容创业': { icon: '✍️', color: '#ec4899' },
+  '电商品牌': { icon: '🛒', color: '#f59e0b' },
+  '服务类': { icon: '🤝', color: '#6366f1' },
+  '知识付费': { icon: '🎓', color: '#a855f7' },
+  '本地生意': { icon: '📍', color: '#ef4444' },
+  '无代码': { icon: '🔧', color: '#10b981' }
+};
+
+const CATEGORY_ALIASES = {
+  'AI工具': 'AI工具',
+  'AI Tools': 'AI工具',
+  'SaaS': 'Micro SaaS',
+  'Micro-SaaS': 'Micro SaaS',
+  'Micro SaaS': 'Micro SaaS',
+  '内容/媒体': '内容创业',
+  '内容创业': '内容创业',
+  '电商/DTC': '电商品牌',
+  '电商品牌': '电商品牌',
+  '电商': '电商品牌',
+  'DTC': '电商品牌',
+  'B2B服务': '服务类',
+  '服务类': '服务类',
+  '知识付费': '知识付费',
+  '在线教育': '知识付费',
+  '本地生活': '本地生意',
+  '本地服务': '本地生意',
+  '本地生意': '本地生意',
+  '无代码': '无代码',
+  '低代码': '无代码'
+};
+
 // =========== INIT ===========
 document.addEventListener('DOMContentLoaded', () => {
   // 0. Initialize the login-free local favorites and history library.
@@ -227,20 +261,22 @@ function bindProjectCards(grid) {
 // =========== CREATE CARD ===========
 function createProjectCard(p, featured) {
   const stars = '★'.repeat(Math.round(p.replicabilityScore / 2)) + '☆'.repeat(5 - Math.round(p.replicabilityScore / 2));
-  const emojiAlpha = hexToRgba(p.heroColor, 0.08);
+  const categoryName = classifyProjectCategory(p);
+  const categoryStyle = PROJECT_CATEGORY_STYLES[categoryName];
+  const emojiAlpha = hexToRgba(categoryStyle.color, 0.1);
   const isFav = isProjectFavorited(p.id);
   const favIcon = isFav ? '⭐' : '☆';
   const favActive = isFav ? 'active' : '';
 
   return `
-    <article class="project-card fade-in" data-id="${p.id}" style="--card-color:${p.heroColor}"
+    <article class="project-card fade-in" data-id="${p.id}" style="--card-color:${categoryStyle.color}"
       tabindex="0" aria-label="查看${p.name}的项目介绍与商业逻辑">
       <button class="card-fav-btn ${favActive}" onclick="event.stopPropagation(); toggleFavorite('${p.id}')" title="${isFav ? '已收藏' : '加入收藏'}">
         ${favIcon}
       </button>
       ${featured ? '<span class="featured-badge">精选</span>' : ''}
       <div class="card-header">
-        <div class="card-emoji" style="background:${emojiAlpha}">${p.heroEmoji}</div>
+        <div class="card-emoji" style="background:${emojiAlpha}" title="${categoryName}" aria-label="${categoryName}">${categoryStyle.icon}</div>
         <div class="card-title-group">
           <div class="card-name">${p.name}</div>
         </div>
@@ -692,6 +728,53 @@ function hexToRgba(hex, alpha) {
 }
 
 // =========== NORMALIZE LIVE DATABASE ITEMS ===========
+function canonicalCategoryName(value) {
+  return CATEGORY_ALIASES[String(value || '').trim()] || '';
+}
+
+function classifyProjectCategory(p) {
+  const explicitPrimary = Array.isArray(p.category)
+    ? canonicalCategoryName(p.category[0])
+    : '';
+  if (explicitPrimary) return explicitPrimary;
+
+  const values = [
+    p.niche,
+    ...(Array.isArray(p.tags) ? p.tags : [])
+  ].filter(Boolean);
+
+  // Specific business forms take priority over generic AI/SaaS technology tags.
+  const priority = ['无代码', '电商品牌', '知识付费', '本地生意', '内容创业', '服务类'];
+  for (const target of priority) {
+    if (values.some(value => canonicalCategoryName(value) === target)) return target;
+  }
+  if (values.some(value => canonicalCategoryName(value) === 'AI工具')) return 'AI工具';
+  if (values.some(value => canonicalCategoryName(value) === 'Micro SaaS')) return 'Micro SaaS';
+
+  const searchable = [
+    ...values,
+    p.nameZh,
+    p.name,
+    p.summary,
+    p.businessModel
+  ].filter(Boolean).join(' ').toLocaleLowerCase('zh-CN');
+
+  const keywordGroups = [
+    ['无代码', /无代码|低代码|no[- ]?code|low[- ]?code/i],
+    ['电商品牌', /电商|dtc|shopify|亚马逊|消费品牌|实体产品|订阅电商/i],
+    ['知识付费', /知识付费|在线教育|教育|课程|培训|训练营|辅导|教练/i],
+    ['本地生意', /本地生活|本地服务|线下门店|餐厅|健身房|维修|清洁服务/i],
+    ['内容创业', /内容创业|自媒体|创作者|博客|播客|newsletter|媒体业务|个人ip/i],
+    ['服务类', /b2b服务|企业服务|咨询|外包|代运营|代理机构|工作室|顾问服务/i]
+  ];
+  for (const [target, pattern] of keywordGroups) {
+    if (pattern.test(searchable)) return target;
+  }
+
+  if (/人工智能|ai工具|生成式ai|大模型|gpt/i.test(searchable)) return 'AI工具';
+  return 'Micro SaaS';
+}
+
 function normalizeProject(p) {
   if (p.nameEn && p.revenueDisplay && p.category) return p;
 
@@ -725,7 +808,8 @@ function normalizeProject(p) {
     }
   }
 
-  const category = p.tags && p.tags.length > 0 ? [p.niche || '其他'] : ['其他'];
+  const primaryCategory = classifyProjectCategory(p);
+  const category = [primaryCategory];
   const tags = p.tags || [];
 
   const cnTitle = getChineseName(p);
@@ -749,8 +833,8 @@ function normalizeProject(p) {
     startupDays: rawDays,
     replicabilityScore: p.replicabilityScore || 7,
     featured: p.featured || false,
-    heroEmoji: getEmojiForNiche(p.niche || '其他'),
-    heroColor: getColorForNiche(p.niche || '其他'),
+    heroEmoji: PROJECT_CATEGORY_STYLES[primaryCategory].icon,
+    heroColor: PROJECT_CATEGORY_STYLES[primaryCategory].color,
     summary: p.summary || p.description || '暂无项目介绍',
     insight: p.insight || p.description || '暂无商业解读',
     businessModel: p.businessModel || '订阅付费/按量收费',
@@ -766,38 +850,6 @@ function normalizeProject(p) {
     techStack: p.tags ? p.tags.slice(2, 5) : ['Node.js', 'LLM API'],
     teamSize: p.difficulty === '高' ? 3 : (p.difficulty === '中' ? 2 : 1)
   };
-}
-
-function getEmojiForNiche(niche) {
-  const emojis = {
-    'AI工具': '🤖',
-    'SaaS': '⚡',
-    '内容/媒体': '✍️',
-    '电商/DTC': '🛒',
-    '开发者工具': '🔧',
-    '营销工具': '📢',
-    '金融/支付': '💳',
-    '健康/生活': '❤️',
-    'B2B服务': '🤝',
-    '游戏/娱乐': '🎮'
-  };
-  return emojis[niche] || '💡';
-}
-
-function getColorForNiche(niche) {
-  const colors = {
-    'AI工具': '#8b5cf6',
-    'SaaS': '#3b82f6',
-    '内容/媒体': '#ec4899',
-    '电商/DTC': '#f59e0b',
-    '开发者工具': '#10b981',
-    '营销工具': '#ef4444',
-    '金融/支付': '#06b6d4',
-    '健康/生活': '#14b8a6',
-    'B2B服务': '#6366f1',
-    '游戏/娱乐': '#f43f5e'
-  };
-  return colors[niche] || '#64748b';
 }
 
 // =========== AI BUSINESS ADVISOR CHATBOT LOGIC ===========

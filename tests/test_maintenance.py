@@ -271,6 +271,28 @@ class BuildTests(unittest.TestCase):
         self.assertIn(".radar-node", style_css)
         self.assertIn("@media (prefers-reduced-motion: reduce)", style_css)
 
+    def test_homepage_project_icons_follow_the_eight_filter_categories(self):
+        app_js = Path("assets/app.js").read_text(encoding="utf-8")
+        index_html = Path("index.html").read_text(encoding="utf-8")
+
+        expected = {
+            "AI工具": "🤖",
+            "Micro SaaS": "⚡",
+            "内容创业": "✍️",
+            "电商品牌": "🛒",
+            "服务类": "🤝",
+            "知识付费": "🎓",
+            "本地生意": "📍",
+            "无代码": "🔧",
+        }
+        self.assertIn("PROJECT_CATEGORY_STYLES", app_js)
+        self.assertIn("classifyProjectCategory", app_js)
+        self.assertIn("categoryStyle.icon", app_js)
+        self.assertIn('aria-label="${categoryName}">${categoryStyle.icon}</div>', app_js)
+        for category, icon in expected.items():
+            self.assertIn(f"'{category}': {{ icon: '{icon}'", app_js)
+        self.assertIn("20260805-category-icons", index_html)
+
     def test_case_catalog_covers_every_project(self):
         report, errors = validate_case_catalog(write_report=False)
 
