@@ -1761,6 +1761,7 @@ def main() -> None:
                 final_media = ensure_visual_media(
                     projects_by_id[project_id],
                     merge_media(real_existing, discovered),
+                    min_items=5 if article.get("mediaEnrichment", {}).get("batch") else 3,
                 )
                 article["media"] = final_media
                 article.setdefault("quality", {})["mediaCount"] = len(final_media)

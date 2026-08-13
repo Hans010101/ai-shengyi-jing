@@ -580,12 +580,11 @@ class ContentQualityTests(unittest.TestCase):
         self.assertIn(".article-toc-grid", case_css)
         self.assertIn(".editor-note", case_css)
 
-    def test_daily_official_media_backfill_processes_five_hundred(self):
+    def test_daily_scrape_is_not_blocked_by_legacy_media_backfill(self):
         workflow = Path(".github/workflows/daily_scrape.yml").read_text(
             encoding="utf-8"
         )
-        self.assertIn("--enrich-official-batch 500", workflow)
-        self.assertIn("--workers 12", workflow)
+        self.assertNotIn("--enrich-official-batch", workflow)
 
     def test_case_media_batches_are_published_after_enrichment(self):
         workflow = Path(".github/workflows/case_media_batch.yml").read_text(
