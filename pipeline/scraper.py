@@ -360,8 +360,8 @@ def run_pipeline():
         return
 
     results = []
-    for i, project in enumerate(new_projects[:10]):
-        print(f"\n[{i+1}/{min(len(new_projects),10)}] Processing: {project['name']}")
+    for i, project in enumerate(new_projects):
+        print(f"\n[{i+1}/{len(new_projects)}] Processing: {project['name']}")
 
         if project.get("url"):
             detail = scrape_detail_page(project["url"])

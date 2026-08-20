@@ -586,6 +586,10 @@ class ContentQualityTests(unittest.TestCase):
         )
         self.assertNotIn("--enrich-official-batch", workflow)
 
+    def test_daily_scraper_processes_every_discovered_project(self):
+        scraper = Path("pipeline/scraper.py").read_text(encoding="utf-8")
+        self.assertNotIn("new_projects[:10]", scraper)
+
     def test_case_media_batches_are_published_after_enrichment(self):
         workflow = Path(".github/workflows/case_media_batch.yml").read_text(
             encoding="utf-8"
