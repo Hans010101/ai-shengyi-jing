@@ -17,6 +17,19 @@ body {
   background: #f4f6f9;
   font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
 }
+
+.language-toggle {
+  margin-left: auto;
+  border: 1px solid #d7dce5;
+  border-radius: 999px;
+  background: #fff;
+  color: #172033;
+  padding: 8px 13px;
+  font: 700 13px/1 Inter, sans-serif;
+  cursor: pointer;
+}
+
+.language-toggle:hover { border-color: #f97316; color: #c95713; }
 a { color: inherit; }
 button, input, select { font: inherit; }
 .directory-container { width: min(1180px, calc(100% - 40px)); margin: 0 auto; }

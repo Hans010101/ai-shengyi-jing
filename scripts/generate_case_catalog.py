@@ -1046,6 +1046,8 @@ def project_snapshot(project: dict) -> dict:
             "name",
             "nameZh",
             "summary",
+            "metaDesc",
+            "description",
             "revenue",
             "businessModel",
             "chinaOpportunity",
@@ -1053,6 +1055,137 @@ def project_snapshot(project: dict) -> dict:
             "updatedAt",
             "scrapedAt",
         )
+    }
+
+
+def english_value(value, fallback: str) -> str:
+    """Keep English output free of untranslated Chinese source fragments."""
+    text = clean_text(value, 500)
+    return text if text and not re.search(r"[\u4e00-\u9fff]", text) else fallback
+
+
+def build_english_article(project: dict) -> dict:
+    """Build the English edition from the same verified project facts."""
+    name = english_value(project.get("name"), "Independent business")
+    description = english_value(
+        project.get("metaDesc") or project.get("description"),
+        f"{name} is an independently operated business documented in the public case database.",
+    )
+    description = re.sub(
+        r"\s*[—-]\s*researched(?: and written)? from public sources by.*$",
+        "",
+        description,
+        flags=re.I,
+    ).strip()
+    revenue = english_value(project.get("revenue"), "Not disclosed")
+    score = int(project.get("replicabilityScore") or 7)
+    title = (
+        f"{name}: The Business System Behind {revenue} in Revenue"
+        if revenue != "Not disclosed"
+        else f"{name}: How a Focused Problem Became a Repeatable Business"
+    )
+    sections = [
+        {
+            "kicker": "01 / OUTCOME",
+            "heading": "Start with the outcome—but study the cause",
+            "paragraphs": [
+                f"{description} The public record lists revenue at {revenue}. That number is useful as a snapshot, but it does not explain why customers bought, how the team delivered the result, or whether the economics can hold as volume grows.",
+                "A practical reading works backward from the outcome. What costly or frustrating job brought the customer in? What promise was clear enough to trigger action? Which part of the delivery created the first visible win? Those questions turn a success story into a business model that can actually be evaluated.",
+                "The goal is not to copy the result. It is to identify the smallest chain of causes behind it: a defined customer, a painful problem, a credible offer, a repeatable delivery process, and a reason to return or refer someone else.",
+            ],
+            "callout": "Revenue is evidence that someone paid; the operating chain explains whether the result can repeat.",
+        },
+        {
+            "kicker": "02 / CUSTOMER",
+            "heading": "Customers do not buy features; they buy a shorter path",
+            "paragraphs": [
+                f"The most useful question in the {name} case is not how broad the market might be, but which customer feels the problem often enough to change an existing habit. The real competitor may be a spreadsheet, a freelancer, a patchwork workflow, or simply the decision to tolerate the pain for another month.",
+                "A strong opportunity has a visible cost. It wastes time, blocks revenue, creates risk, or produces unreliable outcomes. When the cost can be described in the customer's own language, the offer becomes easier to position and the buying decision becomes easier to measure.",
+                "Early validation should therefore target a narrow group with high problem frequency. Interviews matter, but behavior matters more: will prospects share their current workflow, try a new process, introduce decision makers, or pay for a pilot? Action is a stronger signal than praise.",
+            ],
+            "callout": "Real demand changes behavior; polite interest does not.",
+        },
+        {
+            "kicker": "03 / PRODUCT",
+            "heading": "Design the product as a result-delivery path",
+            "paragraphs": [
+                f"For {name}, the product should be read as a sequence rather than a feature list: the customer arrives with a job, supplies the minimum input, experiences an early win, receives the core result, and knows what to do next. The clearer that path is, the easier it becomes to improve both conversion and delivery quality.",
+                "A small team needs a simple entry point, a fast first success, a repeatable core workflow, and an explicit way to handle exceptions. If every customer requires the founder to explain, improvise, and rescue the process, the business is still a custom service even when the interface looks like software.",
+                "The first version does not need to cover every use case. It needs to solve one frequent job from beginning to end. Automation, collaboration, analytics, and premium services should be added only after the shortest valuable path works reliably.",
+            ],
+            "callout": "Product maturity is the ability to deliver the promised outcome consistently, not the number of features shipped.",
+        },
+        {
+            "kicker": "04 / ECONOMICS",
+            "heading": "Pricing is visible; fulfillment economics decide the business",
+            "paragraphs": [
+                f"The published revenue figure for {name} is {revenue}. It confirms that a market transaction occurred, but a durable model also depends on gross margin, acquisition cost, support load, refund risk, payment timing, and the amount of founder attention required for each customer.",
+                "One-time sales can generate cash quickly but require a steady supply of new buyers. Subscriptions improve predictability but must keep producing ongoing value. Services can reach deep into a customer workflow, yet they are often constrained by people and delivery complexity. Every pricing model creates a different operating responsibility.",
+                "The disciplined approach is to trace one unit of revenue from lead to cash: source, conversion, onboarding, delivery time, variable cost, support, and repeat purchase. Revenue proves demand; contribution margin and cash flow determine whether the business can continue.",
+            ],
+            "callout": "A price tells customers how to pay. The delivery model determines whether the company can keep earning.",
+        },
+        {
+            "kicker": "05 / GROWTH",
+            "heading": "Make acquisition, conversion, and retention tell one story",
+            "paragraphs": [
+                f"Growth for {name} should connect a specific promise to a matching product experience. Content or outreach attracts the right customer, the landing page names the same problem, onboarding creates the first win, and continued use produces enough value to justify renewal, repeat purchase, or referral.",
+                "The loop breaks when the message and the experience disagree. More traffic cannot repair a weak promise, delayed value, or inconsistent delivery. In fact, scaling acquisition usually exposes those problems faster and makes them more expensive.",
+                "An early team can learn more by concentrating on one dense channel and tracking five numbers: qualified attention, serious conversations, activation, payment, and retention. The weakest transition points to the next product or marketing decision.",
+            ],
+            "callout": "Healthy growth brings the right people into a value path that gives them a reason to stay and share.",
+        },
+        {
+            "kicker": "06 / MOAT",
+            "heading": "The hardest part to copy rarely appears on the homepage",
+            "paragraphs": [
+                f"This case carries a replicability score of {score}/10. That is useful for screening, not a substitute for diligence. The real barrier may sit in supplier relationships, professional judgment, distribution, compliance, proprietary data, customer trust, or the accumulated knowledge required to handle edge cases.",
+                "A process that works for ten customers may fail at one hundred. Volume exposes onboarding friction, quality variation, support pressure, cash requirements, and weak handoffs. Documentation, service standards, exception handling, and operating metrics are therefore part of the product, not administrative overhead.",
+                "The most transferable advantage is feedback speed. After every delivery, record where time was lost, which promise drove the sale, which customers succeeded fastest, and which failures repeated. Converting those lessons into the workflow builds a capability that surface-level imitation cannot match.",
+            ],
+            "callout": "Pages and features are easy to imitate; a reliable operating system is not.",
+        },
+        {
+            "kicker": "07 / LOCALIZATION",
+            "heading": "Entering a new market means re-validating, not translating",
+            "paragraphs": [
+                f"The {name} case proves that a form of the problem and offer worked in one context. It does not prove that the same acquisition channel, price, workflow, or trust signal will work in another country or customer segment.",
+                "Local payment behavior, platform distribution, regulation, service expectations, language, and competitive substitutes can change the entire unit model. A translated landing page may preserve the words while losing the causal chain that made the original business work.",
+                "A safer entry starts with one industry, city, or user group. Conduct focused interviews, map the current workflow, and sell a small paid delivery before investing in a full product. The objective is to discover the local moment when value becomes clear enough for a customer to pay.",
+            ],
+            "callout": "Localization is not copying the answer; it is finding the local buying moment again.",
+        },
+        {
+            "kicker": "08 / ACTION",
+            "heading": "A seven-day test before a larger commitment",
+            "paragraphs": [
+                f"Day one: choose one customer segment for {name} and write down the recurring job, the current workaround, and the measurable cost of the problem. Days two and three: speak with at least five people who perform that job and collect examples rather than opinions.",
+                "Days four and five: offer the smallest paid result you can deliver manually or with existing tools. Keep the promise narrow, define the input and output, and record every minute of delivery work. A paid pilot reveals more than a polished prototype with no buyer.",
+                "Days six and seven: review qualified conversations, willingness to pay, delivery time, customer outcome, and the likelihood of repeat use. Set pass criteria before the test. If the numbers miss, change the customer, promise, price, or workflow before adding features.",
+            ],
+            "callout": "The first version exists to produce honest evidence, not to look complete.",
+        },
+    ]
+    words = sum(len(paragraph.split()) for section in sections for paragraph in section["paragraphs"])
+    return {
+        "language": "en",
+        "title": title,
+        "dek": f"A practical breakdown of {name}: customer demand, product delivery, economics, growth, defensibility, localization, and a seven-day validation plan.",
+        "opening": f"Start with the public facts: {description}\n\nThis analysis treats the case as a set of operating hypotheses rather than a success formula. It follows the path from customer pain to product delivery, payment, growth, and repeatability so readers can understand both the opportunity and the constraints.",
+        "editorNote": "A case study is not an answer. It is a set of business assumptions waiting to be tested.",
+        "highlights": ["Why customers change their current behavior", "How the product turns value into repeatable delivery", "How revenue, growth, and retention connect", "What to validate before entering a new market"],
+        "keyFacts": [
+            {"label": "Revenue reference", "value": revenue},
+            {"label": "Case type", "value": "Independent business"},
+            {"label": "Replicability", "value": f"{score}/10"},
+            {"label": "Validation horizon", "value": "7 days"},
+        ],
+        "sections": sections,
+        "conclusion": f"The most useful lesson from {name} is not its surface design or revenue headline. It is the discipline of finding a customer who is already paying a cost, organizing a result into a repeatable delivery path, charging where value is clearest, and using evidence to decide what deserves to scale. The next step is not to bookmark the case. It is to write down one customer, one problem, one offer, one price, and one measurable pass condition for a small real-world test.",
+        "riskNote": "Revenue, team, growth, and channel information reflects public reporting at a specific point in time and may have changed. Verify current facts, regulations, and unit economics independently before making a business decision.",
+        "source": {"name": "Starter Story", "url": project.get("url", ""), "notice": "This page is an original structured analysis based on public facts; it is not a line-by-line translation of the source."},
+        "quality": {"sectionCount": len(sections), "bodyWords": words, "readingMinutes": max(6, round(words / 220))},
+        "status": "full",
     }
 
 
@@ -1319,6 +1452,7 @@ def build_structured_article(project: dict, media: list[dict]) -> dict:
             "可能已经变化；涉及健康、金融、教育、数据和跨境业务时，应按经营所在地最新规则独立核验。"
         ),
         "media": visual_media,
+        "translations": {"en": build_english_article(project)},
         "source": {
             "name": "Starter Story",
             "url": project.get("url", ""),
@@ -1416,6 +1550,11 @@ def main() -> None:
         help="Generate only project IDs that do not yet have an article file",
     )
     parser.add_argument(
+        "--ensure-english",
+        action="store_true",
+        help="Add or refresh the English edition of every existing article",
+    )
+    parser.add_argument(
         "--refresh-all-media",
         action="store_true",
         help=(
@@ -1509,6 +1648,38 @@ def main() -> None:
         path.stem: load_json(path, {})
         for path in ARTICLES_DIR.glob("*.json")
     }
+
+    if args.ensure_english:
+        projects_by_id = {str(project["id"]): project for project in projects}
+        updated = 0
+        for project_id, article in existing.items():
+            project = projects_by_id.get(project_id)
+            if not project:
+                continue
+            english = build_english_article(project)
+            if article.get("translations", {}).get("en") != english:
+                article.setdefault("translations", {})["en"] = english
+                article["project"] = project_snapshot(project)
+                save_json(ARTICLES_DIR / f"{project_id}.json", article)
+                updated += 1
+        updated_reviewed = [
+            existing[project_id]
+            for project_id in reviewed
+            if project_id in existing
+        ]
+        if updated_reviewed:
+            reviewed_order = {
+                str(item.get("projectId")): index
+                for index, item in enumerate(legacy)
+            }
+            updated_reviewed.sort(
+                key=lambda item: reviewed_order.get(
+                    str(item.get("projectId")), len(reviewed_order)
+                )
+            )
+            save_json(LEGACY_ARTICLES_FILE, updated_reviewed)
+        print(json.dumps({"englishEditions": len(existing), "updated": updated}, indent=2))
+        return
 
     if args.refresh_media_ids:
         projects_by_id = {str(project["id"]): project for project in projects}

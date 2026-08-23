@@ -1,4 +1,6 @@
 const CASES_PER_PAGE = 24;
+const directoryI18n = window.SiteI18n;
+const directoryText = (zh, en) => directoryI18n?.t(zh, en) ?? zh;
 const CATEGORY_ICONS = {
   'AI工具': '🤖',
   'SaaS': '⚡',
@@ -27,10 +29,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const projects = await response.json();
     caseProjects = projects.map(normalizeCaseProject).filter(project => project.id);
-    document.getElementById('caseTotalCount').textContent = caseProjects.length.toLocaleString('zh-CN');
+    document.getElementById('caseTotalCount').textContent = caseProjects.length.toLocaleString(directoryI18n?.locale() || 'zh-CN');
     renderCaseDirectory();
   } catch (error) {
-    document.getElementById('caseResultSummary').textContent = '案例目录暂时无法加载，请稍后刷新。';
+    document.getElementById('caseResultSummary').textContent = directoryText('案例目录暂时无法加载，请稍后刷新。', 'The case directory is temporarily unavailable. Please refresh shortly.');
     document.getElementById('caseDirectoryEmpty').hidden = false;
     console.warn('[WARN] Case directory unavailable.', error);
   }
@@ -70,8 +72,12 @@ function readDirectoryStateFromUrl() {
 function normalizeCaseProject(project) {
   return {
     id: String(project.id || ''),
-    name: String(project.nameZh || project.name || '未命名案例'),
-    summary: String(project.summary || '查看完整商业模式、增长闭环与落地路径。'),
+    name: directoryI18n?.projectName(project) || String(project.nameZh || project.name || '未命名案例'),
+    nameZh: String(project.nameZh || ''),
+    nameEn: String(project.name || ''),
+    summary: directoryI18n?.projectSummary(project) || String(project.summary || '查看完整商业模式、增长闭环与落地路径。'),
+    summaryZh: String(project.summary || ''),
+    summaryEn: String(project.metaDesc || project.description || ''),
     category: String(project.niche || '其他'),
     tags: Array.isArray(project.tags) ? project.tags.map(String) : [],
     revenue: String(project.revenue || '未披露'),
@@ -90,16 +96,16 @@ function parseRevenue(value) {
 }
 
 function filteredCaseProjects() {
-  const query = caseSearch.toLocaleLowerCase('zh-CN');
+  const query = caseSearch.toLocaleLowerCase(directoryI18n?.locale() || 'zh-CN');
   const filtered = caseProjects.filter(project => {
     const categoryMatch = activeCategory === '全部' || project.category === activeCategory;
-    const searchText = [project.name, project.summary, project.category, ...project.tags].join(' ').toLocaleLowerCase('zh-CN');
+    const searchText = [project.name, project.nameZh, project.nameEn, project.summary, project.summaryZh, project.summaryEn, project.category, ...project.tags].join(' ').toLocaleLowerCase(directoryI18n?.locale() || 'zh-CN');
     return categoryMatch && (!query || searchText.includes(query));
   });
 
   return filtered.sort((a, b) => {
     if (caseSort === 'revenue') return b.revenueValue - a.revenueValue;
-    if (caseSort === 'name') return a.name.localeCompare(b.name, 'zh-CN');
+    if (caseSort === 'name') return a.name.localeCompare(b.name, directoryI18n?.locale() || 'zh-CN');
     return b.updatedAt - a.updatedAt || b.revenueValue - a.revenueValue;
   });
 }
@@ -115,7 +121,8 @@ function renderCaseDirectory() {
   renderCaseCategories();
   document.getElementById('caseDirectoryGrid').innerHTML = visible.map(caseCardHtml).join('');
   document.getElementById('caseDirectoryEmpty').hidden = filtered.length !== 0;
-  document.getElementById('caseResultSummary').textContent = `${activeCategory === '全部' ? '全部分类' : activeCategory} · 共 ${filtered.length.toLocaleString('zh-CN')} 篇案例`;
+  const categoryLabel = activeCategory === '全部' ? directoryText('全部分类', 'All categories') : (directoryI18n?.category(activeCategory) || activeCategory);
+  document.getElementById('caseResultSummary').textContent = directoryText(`${categoryLabel} · 共 ${filtered.length.toLocaleString('zh-CN')} 篇案例`, `${categoryLabel} · ${filtered.length.toLocaleString('en-US')} case studies`);
   renderCasePagination(filtered.length, totalPages);
   syncDirectoryUrl();
 }
@@ -128,7 +135,7 @@ function renderCaseCategories() {
   bar.innerHTML = categories.map(category => {
     const count = category === '全部' ? caseProjects.length : counts.get(category);
     const icon = category === '全部' ? '✨' : CATEGORY_ICONS[category];
-    return `<button type="button" class="case-category-pill${activeCategory === category ? ' active' : ''}" data-category="${escapeAttr(category)}" aria-pressed="${activeCategory === category}"><span>${icon} ${escapeHtml(category)}</span><small>${count.toLocaleString('zh-CN')}</small></button>`;
+    return `<button type="button" class="case-category-pill${activeCategory === category ? ' active' : ''}" data-category="${escapeAttr(category)}" aria-pressed="${activeCategory === category}"><span>${icon} ${escapeHtml(directoryI18n?.category(category) || category)}</span><small>${count.toLocaleString(directoryI18n?.locale() || 'zh-CN')}</small></button>`;
   }).join('');
 
   bar.querySelectorAll('[data-category]').forEach(button => {
@@ -146,13 +153,15 @@ function caseCardHtml(project) {
   const visual = project.image
     ? `<img src="${escapeAttr(project.image)}" alt="" loading="lazy" referrerpolicy="no-referrer">`
     : `<span class="case-card-placeholder" aria-hidden="true">${icon}</span>`;
+  const href = directoryI18n?.withLanguage(`case.html?id=${encodeURIComponent(project.id)}`) || `case.html?id=${encodeURIComponent(project.id)}`;
+  const category = directoryI18n?.category(project.category) || project.category;
   return `<article class="case-directory-card">
-    <a class="case-card-visual" href="case.html?id=${encodeURIComponent(project.id)}" aria-label="查看${escapeAttr(project.name)}案例详情">${visual}<span>${escapeHtml(project.category)}</span></a>
+    <a class="case-card-visual" href="${escapeAttr(href)}" aria-label="${escapeAttr(directoryText(`查看${project.name}案例详情`, `Read the ${project.name} case study`))}">${visual}<span>${escapeHtml(category)}</span></a>
     <div class="case-card-body">
-      <div class="case-card-meta"><span>${icon} ${escapeHtml(project.category)}</span><span>可复制 ${project.score || '—'}/10</span></div>
-      <h3><a href="case.html?id=${encodeURIComponent(project.id)}">${escapeHtml(project.name)}</a></h3>
+      <div class="case-card-meta"><span>${icon} ${escapeHtml(category)}</span><span>${directoryText('可复制', 'Replicability')} ${project.score || '—'}/10</span></div>
+      <h3><a href="${escapeAttr(href)}">${escapeHtml(project.name)}</a></h3>
       <p>${escapeHtml(project.summary)}</p>
-      <div class="case-card-footer"><span><small>营收口径</small><strong>${escapeHtml(project.revenue)}</strong></span><a href="case.html?id=${encodeURIComponent(project.id)}">阅读案例详情 <b>→</b></a></div>
+      <div class="case-card-footer"><span><small>${directoryText('营收口径', 'Revenue reference')}</small><strong>${escapeHtml(project.revenue)}</strong></span><a href="${escapeAttr(href)}">${directoryText('阅读案例详情', 'Read case study')} <b>→</b></a></div>
     </div>
   </article>`;
 }
@@ -167,7 +176,7 @@ function renderCasePagination(totalItems, totalPages) {
   const start = Math.max(1, Math.min(casePage - 2, totalPages - 4));
   const end = Math.min(totalPages, Math.max(5, casePage + 2));
   for (let page = start; page <= end; page += 1) pages.push(page);
-  nav.innerHTML = `<button type="button" data-page="${casePage - 1}" ${casePage === 1 ? 'disabled' : ''}>← 上一页</button>${pages.map(page => `<button type="button" data-page="${page}" class="${page === casePage ? 'active' : ''}" aria-current="${page === casePage ? 'page' : 'false'}">${page}</button>`).join('')}<button type="button" data-page="${casePage + 1}" ${casePage === totalPages ? 'disabled' : ''}>下一页 →</button>`;
+  nav.innerHTML = `<button type="button" data-page="${casePage - 1}" ${casePage === 1 ? 'disabled' : ''}>← ${directoryText('上一页', 'Previous')}</button>${pages.map(page => `<button type="button" data-page="${page}" class="${page === casePage ? 'active' : ''}" aria-current="${page === casePage ? 'page' : 'false'}">${page}</button>`).join('')}<button type="button" data-page="${casePage + 1}" ${casePage === totalPages ? 'disabled' : ''}>${directoryText('下一页', 'Next')} →</button>`;
   nav.querySelectorAll('[data-page]').forEach(button => {
     button.addEventListener('click', () => {
       casePage = Number(button.dataset.page);
@@ -181,6 +190,7 @@ function syncDirectoryUrl() {
   const params = new URLSearchParams();
   if (activeCategory !== '全部') params.set('category', activeCategory);
   if (caseSearch) params.set('q', caseSearch);
+  if (directoryI18n?.isEnglish()) params.set('lang', 'en');
   const suffix = params.toString() ? `?${params.toString()}` : window.location.pathname;
   window.history.replaceState(null, '', suffix);
 }

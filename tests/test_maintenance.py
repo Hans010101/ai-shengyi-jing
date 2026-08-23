@@ -288,7 +288,7 @@ class BuildTests(unittest.TestCase):
         self.assertIn("PROJECT_CATEGORY_STYLES", app_js)
         self.assertIn("classifyProjectCategory", app_js)
         self.assertIn("categoryStyle.icon", app_js)
-        self.assertIn('aria-label="${categoryName}">${categoryStyle.icon}</div>', app_js)
+        self.assertIn('aria-label="${displayCategory(categoryName)}">${categoryStyle.icon}</div>', app_js)
         for category, icon in expected.items():
             self.assertIn(f"'{category}': {{ icon: '{icon}'", app_js)
         self.assertIn("20260805-category-icons", index_html)

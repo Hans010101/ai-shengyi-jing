@@ -46,6 +46,21 @@ def body_characters(article: dict) -> int:
     )
 
 
+def body_words(article: dict) -> int:
+    text = " ".join(
+        [
+            str(article.get("opening", "")),
+            str(article.get("conclusion", "")),
+            *[
+                str(paragraph)
+                for section in article.get("sections", [])
+                for paragraph in section.get("paragraphs", [])
+            ],
+        ]
+    )
+    return len(text.split())
+
+
 def validate(
     require_media: bool = False,
     write_report: bool = True,
@@ -102,6 +117,26 @@ def validate(
         facts = article.get("keyFacts", [])
         if not isinstance(facts, list) or len(facts) < 3:
             errors.append(f"{project_id}: expected at least 3 key facts")
+
+        english = article.get("translations", {}).get("en")
+        if not isinstance(english, dict):
+            errors.append(f"{project_id}: English edition is missing")
+        else:
+            english_sections = english.get("sections", [])
+            if not isinstance(english_sections, list) or len(english_sections) != 8:
+                errors.append(f"{project_id}: English edition must have 8 sections")
+            elif any(
+                not 2 <= len(section.get("paragraphs", [])) <= 4
+                for section in english_sections
+            ):
+                errors.append(f"{project_id}: English section depth is invalid")
+            english_words = body_words(english)
+            if english_words < 650:
+                errors.append(
+                    f"{project_id}: English edition too short ({english_words} words)"
+                )
+            if CHINESE_RE.search(json.dumps(english, ensure_ascii=False)):
+                errors.append(f"{project_id}: English edition contains untranslated Chinese")
 
         serialized = json.dumps(article, ensure_ascii=False)
         for removed_label in REMOVED_LABELS:

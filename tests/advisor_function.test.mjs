@@ -59,6 +59,16 @@ test('returns a fallback signal when the AI binding is unavailable', async () =>
   });
 });
 
+test('answers English requests with an English system prompt', async () => {
+  let messages;
+  const response = await onRequestPost({
+    request: createRequest({ query: 'How should I validate this idea?', language: 'en' }),
+    env: { AI: { async run(_model, input) { messages = input.messages; return { response: 'Start with five customer interviews.' }; } } }
+  });
+  assert.equal(response.status, 200);
+  assert.match(messages[0].content, /practical English/);
+});
+
 test('rejects empty queries and oversized request bodies', async () => {
   const emptyResponse = await onRequestPost({
     request: createRequest({ query: '   ' }),

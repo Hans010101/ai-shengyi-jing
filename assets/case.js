@@ -6,6 +6,10 @@ function appendText(parent, tag, text, className) {
   return element;
 }
 
+const caseI18n = typeof window !== 'undefined' ? window.SiteI18n : null;
+const isEnglishCase = () => caseI18n?.isEnglish() || false;
+const caseText = (zh, en) => caseI18n?.t(zh, en) ?? zh;
+
 function safeExternalUrl(value) {
   try {
     const url = new URL(value);
@@ -89,11 +93,19 @@ function renderMedia(media, index) {
 
     const visual = document.createElement('div');
     visual.className = `editorial-infographic infographic-${variant}`;
-    appendText(visual, 'span', 'AI生意经原创信息图', 'infographic-kicker');
-    appendText(visual, 'h3', media.title || '商业路径拆解');
+    appendText(visual, 'span', caseText('AI生意经原创信息图', 'AI Business Insights · Original Diagram'), 'infographic-kicker');
+    const englishInfographics = {
+      'business-loop': ['Business Growth Loop', ['Audience', 'Offer', 'Revenue', 'Retention']],
+      'product-path': ['Product Delivery Path', ['Discover', 'Try', 'Deliver', 'Repeat']],
+      'china-launch': ['New-Market Validation Path', ['Interview', 'Pilot', 'Measure', 'Iterate']],
+      'validation-scorecard': ['Business Validation Scorecard', ['Problem', 'Payment', 'Delivery', 'Retention']],
+      'unit-economics': ['Unit Economics Dashboard', ['Revenue', 'Cost', 'Payback', 'Capacity']]
+    };
+    const englishDiagram = englishInfographics[variant];
+    appendText(visual, 'h3', isEnglishCase() ? englishDiagram[0] : (media.title || '商业路径拆解'));
     const flow = document.createElement('div');
     flow.className = 'infographic-flow';
-    items.forEach((item, itemIndex) => {
+    (isEnglishCase() ? englishDiagram[1].slice(0, items.length) : items).forEach((item, itemIndex) => {
       const step = document.createElement('div');
       step.className = 'infographic-step';
       appendText(step, 'span', String(itemIndex + 1).padStart(2, '0'), 'infographic-number');
@@ -109,7 +121,7 @@ function renderMedia(media, index) {
     if (!mediaUrl) return null;
     const image = document.createElement('img');
     image.src = mediaUrl;
-    image.alt = media.alt || media.caption || '项目相关图片';
+    image.alt = isEnglishCase() ? 'Project product and operating visual' : (media.alt || media.caption || '项目相关图片');
     image.loading = 'lazy';
     image.referrerPolicy = 'no-referrer';
     image.addEventListener('error', () => figure.remove());
@@ -119,7 +131,7 @@ function renderMedia(media, index) {
       sourceAnchor.target = '_blank';
       sourceAnchor.rel = 'noopener noreferrer';
       sourceAnchor.className = 'article-media-link';
-      sourceAnchor.setAttribute('aria-label', '查看图片原始页面');
+      sourceAnchor.setAttribute('aria-label', caseText('查看图片原始页面', 'View the original image page'));
       sourceAnchor.appendChild(image);
       figure.appendChild(sourceAnchor);
     } else {
@@ -142,14 +154,14 @@ function renderMedia(media, index) {
     videoCard.href = videoWatchUrl;
     videoCard.target = '_blank';
     videoCard.rel = 'noopener noreferrer';
-    videoCard.setAttribute('aria-label', `观看完整视频：${media.caption || '项目相关视频'}`);
+    videoCard.setAttribute('aria-label', caseText(`观看完整视频：${media.caption || '项目相关视频'}`, 'Watch the complete project video'));
 
     const poster = safeExternalUrl(media.poster);
     if (poster) {
       const posterImage = document.createElement('img');
       posterImage.className = 'article-video-poster';
       posterImage.src = poster;
-      posterImage.alt = media.alt || media.caption || '视频封面';
+      posterImage.alt = isEnglishCase() ? 'Video cover' : (media.alt || media.caption || '视频封面');
       posterImage.loading = 'lazy';
       posterImage.referrerPolicy = 'no-referrer';
       posterImage.addEventListener('error', () => videoCard.classList.add('poster-unavailable'));
@@ -163,7 +175,7 @@ function renderMedia(media, index) {
     const label = document.createElement('span');
     label.className = 'article-video-label';
     appendText(label, 'small', media.provider || (host.includes('youtube') ? 'YouTube' : 'Vimeo'));
-    appendText(label, 'strong', media.alt || media.caption || '观看完整视频');
+    appendText(label, 'strong', isEnglishCase() ? 'Watch the complete video' : (media.alt || media.caption || '观看完整视频'));
     videoCard.appendChild(label);
     figure.appendChild(videoCard);
   } else if (
@@ -186,9 +198,9 @@ function renderMedia(media, index) {
   }
 
   const caption = document.createElement('figcaption');
-  appendText(caption, 'span', media.caption || '项目相关素材');
+  appendText(caption, 'span', isEnglishCase() ? 'Product and operating material from the public case record' : (media.caption || '项目相关素材'));
   if (videoWatchUrl) {
-    const watchLink = appendText(caption, 'a', '观看完整视频 ↗');
+    const watchLink = appendText(caption, 'a', caseText('观看完整视频 ↗', 'Watch full video ↗'));
     watchLink.href = videoWatchUrl;
     watchLink.target = '_blank';
     watchLink.rel = 'noopener noreferrer';
@@ -198,6 +210,28 @@ function renderMedia(media, index) {
 }
 
 function buildFallbackArticle(project) {
+  if (isEnglishCase()) {
+    const name = project.name || 'International business case';
+    return {
+      projectId: project.id,
+      title: name,
+      dek: caseI18n?.projectSummary(project),
+      opening: 'This is a concise case summary built from the current project database. The full English editorial edition is being synchronized.',
+      keyFacts: [
+        { label: 'Revenue reference', value: project.revenueDisplay || project.revenue || 'Not disclosed' },
+        { label: 'Case type', value: 'Independent business' },
+        { label: 'Replicability', value: `${project.replicabilityScore || 7}/10` }
+      ],
+      sections: [
+        { heading: 'The customer problem', paragraphs: ['The opportunity begins with a recurring problem for a clearly defined customer.', 'Validation should focus on behavior and willingness to pay.'], callout: '' },
+        { heading: 'The business model', paragraphs: ['The product must turn a promise into a repeatable delivery path.', 'Revenue quality depends on margin, support effort, and retention.'], callout: '' },
+        { heading: 'A practical validation path', paragraphs: ['Start with a narrow customer group and a paid pilot.', 'Use real delivery data before investing in a larger product.'], callout: '' }
+      ],
+      conclusion: 'Test one customer, one problem, one offer, and one measurable outcome before scaling.',
+      media: [], source: { name: 'Starter Story', url: project.url, notice: '' },
+      website: project.website || '', status: 'summary'
+    };
+  }
   return {
     projectId: project.id,
     title: project.nameZh || project.name || '海外创业案例',
@@ -251,25 +285,25 @@ function renderArticle(project, article, collectionDate) {
   const root = document.getElementById('caseArticle');
   root.replaceChildren();
 
-  const eyebrow = appendText(root, 'div', 'AI 生意经 · 案例详情', 'case-eyebrow');
-  eyebrow.setAttribute('aria-label', 'AI生意经案例详情');
+  const eyebrow = appendText(root, 'div', caseText('AI 生意经 · 案例详情', 'AI Business Insights · Case Study'), 'case-eyebrow');
+  eyebrow.setAttribute('aria-label', caseText('AI生意经案例详情', 'AI Business Insights case study'));
   appendText(root, 'h1', article.title, 'case-title');
   appendText(root, 'p', article.dek, 'case-dek');
 
   const meta = document.createElement('div');
   meta.className = 'case-meta';
-  appendText(meta, 'span', `项目：${project.nameZh || project.name || '海外项目'}`);
+  appendText(meta, 'span', caseText(`项目：${project.nameZh || project.name || '海外项目'}`, `Project: ${project.name || 'International business'}`));
   appendText(
     meta,
     'span',
-    ['pilot', 'full'].includes(article.status) ? '深度案例' : '简版资料'
+    ['pilot', 'full'].includes(article.status) ? caseText('深度案例', 'In-depth case') : caseText('简版资料', 'Brief')
   );
   const readingMinutes = Number(article?.quality?.readingMinutes || 0);
   if (readingMinutes > 0) {
-    appendText(meta, 'span', `阅读约 ${readingMinutes} 分钟`);
+    appendText(meta, 'span', caseText(`阅读约 ${readingMinutes} 分钟`, `${readingMinutes} min read`));
   }
   if (collectionDate) {
-    appendText(meta, 'span', `采集：${collectionDate}`);
+    appendText(meta, 'span', caseText(`采集：${collectionDate}`, `Collected: ${collectionDate}`));
   }
   root.appendChild(meta);
 
@@ -290,7 +324,7 @@ function renderArticle(project, article, collectionDate) {
   if (article.editorNote) {
     const note = document.createElement('div');
     note.className = 'editor-note';
-    appendText(note, 'span', '编辑手记');
+    appendText(note, 'span', caseText('编辑手记', 'Editor’s note'));
     appendText(note, 'strong', article.editorNote);
     intro.appendChild(note);
   }
@@ -317,14 +351,14 @@ function renderArticle(project, article, collectionDate) {
   if (sections.length) {
     const toc = document.createElement('nav');
     toc.className = 'article-toc';
-    appendText(toc, 'span', '本篇导航', 'article-toc-label');
+    appendText(toc, 'span', caseText('本篇导航', 'In this case'), 'article-toc-label');
     const tocGrid = document.createElement('div');
     tocGrid.className = 'article-toc-grid';
     sections.forEach((section, sectionIndex) => {
       const link = document.createElement('a');
       link.href = `#section-${sectionIndex + 1}`;
       appendText(link, 'small', String(sectionIndex + 1).padStart(2, '0'));
-      appendText(link, 'strong', section.heading || `第 ${sectionIndex + 1} 部分`);
+      appendText(link, 'strong', section.heading || caseText(`第 ${sectionIndex + 1} 部分`, `Part ${sectionIndex + 1}`));
       tocGrid.appendChild(link);
     });
     toc.appendChild(tocGrid);
@@ -353,7 +387,7 @@ function renderArticle(project, article, collectionDate) {
     if (section.kicker) {
       appendText(block, 'span', section.kicker, 'article-section-kicker');
     }
-    appendText(block, 'h2', section.heading || `第 ${sectionIndex + 1} 部分`);
+    appendText(block, 'h2', section.heading || caseText(`第 ${sectionIndex + 1} 部分`, `Part ${sectionIndex + 1}`));
     (section.paragraphs || []).forEach(paragraph => {
       appendText(block, 'p', paragraph);
     });
@@ -370,11 +404,11 @@ function renderArticle(project, article, collectionDate) {
 
   const conclusion = document.createElement('section');
   conclusion.className = 'article-conclusion';
-  appendText(conclusion, 'h2', '写在最后');
+  appendText(conclusion, 'h2', caseText('写在最后', 'Final perspective'));
   appendText(conclusion, 'p', article.conclusion);
   root.appendChild(conclusion);
 
-  document.title = `${article.title}｜AI生意经`;
+  document.title = `${article.title}｜${caseText('AI生意经', 'AI Business Insights')}`;
 }
 
 function renderAside(project, article) {
@@ -383,13 +417,13 @@ function renderAside(project, article) {
 
   const card = document.createElement('div');
   card.className = 'aside-card';
-  appendText(card, 'h2', '项目速览');
-  appendText(card, 'p', project.summary || article.dek);
+  appendText(card, 'h2', caseText('项目速览', 'Project snapshot'));
+  appendText(card, 'p', isEnglishCase() ? (caseI18n?.projectSummary(project) || article.dek) : (project.summary || article.dek));
 
   const metrics = [
-    ['营收口径', project.revenueDisplay || project.revenue || '未披露'],
-    ['商业模式', project.businessModel || '待补充'],
-    ['中国机会', project.chinaOpportunity || '待验证']
+    [caseText('营收口径', 'Revenue reference'), project.revenueDisplay || project.revenue || caseText('未披露', 'Not disclosed')],
+    [caseText('商业模式', 'Business model'), isEnglishCase() ? 'See the operating-model analysis in the article.' : (project.businessModel || '待补充')],
+    [caseText('中国机会', 'Market expansion'), isEnglishCase() ? 'Requires local customer and channel validation.' : (project.chinaOpportunity || '待验证')]
   ];
   metrics.forEach(([label, value]) => {
     const item = document.createElement('div');
@@ -402,7 +436,7 @@ function renderAside(project, article) {
   if (Array.isArray(article.highlights) && article.highlights.length) {
     const highlights = document.createElement('div');
     highlights.className = 'aside-highlights';
-    appendText(highlights, 'span', '本篇看点');
+    appendText(highlights, 'span', caseText('本篇看点', 'Key takeaways'));
     const list = document.createElement('ul');
     article.highlights.slice(0, 4).forEach(item => {
       appendText(list, 'li', item);
@@ -418,7 +452,7 @@ function renderAside(project, article) {
     link.href = website;
     link.target = '_blank';
     link.rel = 'noopener noreferrer';
-    link.textContent = '访问项目官网 ↗';
+    link.textContent = caseText('访问项目官网 ↗', 'Visit project website ↗');
     card.appendChild(link);
   }
   aside.appendChild(card);
@@ -428,7 +462,7 @@ async function initCasePage() {
   const projectId = new URLSearchParams(location.search).get('id');
   const root = document.getElementById('caseArticle');
   if (!projectId) {
-    root.textContent = '缺少项目 ID，请从项目库重新进入。';
+    root.textContent = caseText('缺少项目 ID，请从项目库重新进入。', 'Missing project ID. Please return to the case directory.');
     return;
   }
 
@@ -443,11 +477,14 @@ async function initCasePage() {
     let project = article?.project || findCuratedProject(projectId);
     if (!project) {
       const projects = await fetchJsonIfAvailable('data/projects_live.json');
-      if (!Array.isArray(projects)) throw new Error('项目数据加载失败');
+      if (!Array.isArray(projects)) throw new Error(caseText('项目数据加载失败', 'Project data could not be loaded'));
       project = projects.find(item => item.id === projectId) || null;
     }
-    if (!project) throw new Error('未找到该项目');
+    if (!project) throw new Error(caseText('未找到该项目', 'Project not found'));
     article ||= buildFallbackArticle(project);
+    if (isEnglishCase() && article.translations?.en) {
+      article = { ...article, ...article.translations.en, media: article.media || [] };
+    }
     const collectionDate = resolveCollectionDate(
       projectId,
       article,
@@ -457,7 +494,7 @@ async function initCasePage() {
     renderArticle(project, article, collectionDate);
     renderAside(project, article);
   } catch (error) {
-    root.textContent = `案例详情暂时无法加载：${error.message}`;
+    root.textContent = caseText(`案例详情暂时无法加载：${error.message}`, `Case study could not be loaded: ${error.message}`);
   }
 }
 

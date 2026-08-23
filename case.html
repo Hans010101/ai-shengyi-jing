@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-title-en="Case Study | AI Business Insights" data-description-en="An in-depth English business case with product, growth, economics, images, and videos.">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,25 +9,27 @@
 </head>
 <body>
   <header class="case-header">
-    <a class="case-brand" href="index.html">💡 AI生意经</a>
+    <a class="case-brand" href="index.html" data-zh="💡 AI生意经" data-en="💡 AI Business Insights">💡 AI生意经</a>
     <nav class="case-header-nav" aria-label="案例导航">
-      <a class="case-directory" href="cases.html">案例详情库</a>
-      <a class="case-back" href="index.html#all-projects">← 返回项目库</a>
+      <a class="case-directory" href="cases.html" data-zh="案例详情库" data-en="Case Library"></a>
+      <a class="case-back" href="index.html#all-projects" data-zh="← 返回项目库" data-en="← All Projects"></a>
+      <button type="button" class="language-toggle" data-language-toggle>EN</button>
     </nav>
   </header>
 
   <main class="case-shell">
     <article class="case-article" id="caseArticle" aria-live="polite">
-      <div class="case-loading">正在加载案例详情…</div>
+      <div class="case-loading" data-zh="正在加载案例详情…" data-en="Loading case study…"></div>
     </article>
     <aside class="case-aside" id="caseAside"></aside>
   </main>
 
   <footer class="case-footer">
-    <p>AI生意经原创商业编辑 · 数据仅供研究参考，创业决策请独立核验。</p>
+    <p data-zh="AI生意经原创商业编辑 · 数据仅供研究参考，创业决策请独立核验。" data-en="Original editorial analysis by AI Business Insights · Verify facts independently before making business decisions."></p>
   </footer>
 
   <script src="data/projects.js"></script>
+  <script src="assets/i18n.js"></script>
   <script src="assets/case.js"></script>
 </body>
 </html>

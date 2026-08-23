@@ -17,6 +17,7 @@ PUBLISH_PATHS = (
     Path("cases.html"),
     Path("case.html"),
     Path("assets/app.js"),
+    Path("assets/i18n.js"),
     Path("assets/cases.js"),
     Path("assets/case.js"),
     Path("assets/style.css"),

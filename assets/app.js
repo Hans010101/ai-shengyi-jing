@@ -5,6 +5,13 @@ let currentSort = 'date-desc';
 let currentPage = 1;
 const ITEMS_PER_PAGE = 9;
 let ALL_PROJECTS = []; // Holds normalized live database items
+const siteI18n = window.SiteI18n;
+const isEnglish = () => siteI18n?.isEnglish() === true;
+const ui = (zh, en) => siteI18n?.t(zh, en) || zh;
+const locale = () => siteI18n?.locale() || 'zh-CN';
+const displayCategory = value => siteI18n?.category(value) || value;
+const displayTag = value => siteI18n?.tag(value) || value;
+const caseHref = id => siteI18n?.withLanguage(`case.html?id=${encodeURIComponent(id)}`) || `case.html?id=${encodeURIComponent(id)}`;
 
 const PROJECT_CATEGORY_STYLES = {
   'AI工具': { icon: '🤖', color: '#8b5cf6' },
@@ -61,7 +68,12 @@ document.addEventListener('DOMContentLoaded', () => {
       // Update dynamic total stats
       const totalCount = ALL_PROJECTS.length;
       const heroBadgeTotal = document.getElementById('hero-badge-total');
-      if (heroBadgeTotal) heroBadgeTotal.innerText = totalCount.toLocaleString('zh-CN') + '+';
+      if (heroBadgeTotal) heroBadgeTotal.innerText = totalCount.toLocaleString(locale()) + '+';
+      const heroBadge = document.querySelector('.hero-badge');
+      if (heroBadge) {
+        const template = isEnglish() ? heroBadge.dataset.enTemplate : heroBadge.dataset.zhTemplate;
+        heroBadge.innerHTML = `<span class="badge-dot"></span>${template.replace('{count}', `<span id="hero-badge-total">${totalCount.toLocaleString(locale())}+</span>`)}`;
+      }
       
       const heroTotalNum = document.getElementById('hero-total-number');
       if (heroTotalNum) {
@@ -70,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
       
       const totalDbCount = document.getElementById('totalDbCount');
-      if (totalDbCount) totalDbCount.innerText = totalCount.toLocaleString('zh-CN') + '个';
+      if (totalDbCount) totalDbCount.innerText = totalCount.toLocaleString(locale()) + (isEnglish() ? '' : '个');
       
       // Initial render for the main projects list
       renderProjects();
@@ -90,12 +102,15 @@ document.addEventListener('DOMContentLoaded', () => {
   setupHeader();
   setupMobileMenu();
   setupAiAdvisor(); // Init chatbot listeners
+  document.querySelectorAll('.panel-suggestions button').forEach(button => {
+    button.addEventListener('click', () => sendSuggestion(isEnglish() ? button.dataset.suggestionEn : button.dataset.suggestionZh));
+  });
 });
 
 // =========== RENDER FEATURED ===========
 function renderFeatured() {
   const grid = document.getElementById('featuredGrid');
-  const featured = PROJECTS.filter(p => p.featured);
+  const featured = PROJECTS.filter(p => p.featured).map(normalizeProject);
   grid.innerHTML = featured.map(p => createProjectCard(p, true)).join('');
   bindProjectCards(grid);
 }
@@ -122,6 +137,8 @@ function renderProjects() {
       p.name.toLowerCase().includes(q) || 
       p.nameEn.toLowerCase().includes(q) ||
       p.summary.toLowerCase().includes(q) || 
+      String(p.summaryZh || '').toLowerCase().includes(q) ||
+      String(p.summaryEn || '').toLowerCase().includes(q) ||
       p.category.some(c => c.toLowerCase().includes(q)) || 
       p.tags.some(t => t.toLowerCase().includes(q));
     return matchFilter && matchSearch;
@@ -209,12 +226,12 @@ function renderPagination(totalItems, totalPages) {
 
   wrapper.innerHTML = `
     <div class="pagination-info">
-      共 <strong>${totalItems.toLocaleString('zh-CN')}</strong> 个项目 · 第 ${currentPage} / ${totalPages} 页
+      ${isEnglish() ? `<strong>${totalItems.toLocaleString(locale())}</strong> businesses · Page ${currentPage} of ${totalPages}` : `共 <strong>${totalItems.toLocaleString(locale())}</strong> 个项目 · 第 ${currentPage} / ${totalPages} 页`}
     </div>
     <div class="pagination-buttons">
-      <button class="page-nav-btn" ${prevDisabled} onclick="goToPage(${currentPage - 1})">← 上一页</button>
+      <button class="page-nav-btn" ${prevDisabled} onclick="goToPage(${currentPage - 1})">${ui('← 上一页', '← Previous')}</button>
       ${pageNumsHtml}
-      <button class="page-nav-btn" ${nextDisabled} onclick="goToPage(${currentPage + 1})">下一页 →</button>
+      <button class="page-nav-btn" ${nextDisabled} onclick="goToPage(${currentPage + 1})">${ui('下一页 →', 'Next →')}</button>
     </div>
   `;
 }
@@ -270,42 +287,42 @@ function createProjectCard(p, featured) {
 
   return `
     <article class="project-card fade-in" data-id="${p.id}" style="--card-color:${categoryStyle.color}"
-      tabindex="0" aria-label="查看${p.name}的项目介绍与商业逻辑">
-      <button class="card-fav-btn ${favActive}" onclick="event.stopPropagation(); toggleFavorite('${p.id}')" title="${isFav ? '已收藏' : '加入收藏'}">
+      tabindex="0" aria-label="${ui(`查看${p.name}的项目介绍与商业逻辑`, `View the ${p.name} business case`)}">
+      <button class="card-fav-btn ${favActive}" onclick="event.stopPropagation(); toggleFavorite('${p.id}')" title="${isFav ? ui('已收藏', 'Saved') : ui('加入收藏', 'Save')}">
         ${favIcon}
       </button>
-      ${featured ? '<span class="featured-badge">精选</span>' : ''}
+      ${featured ? `<span class="featured-badge">${ui('精选', 'Featured')}</span>` : ''}
       <div class="card-header">
-        <div class="card-emoji" style="background:${emojiAlpha}" title="${categoryName}" aria-label="${categoryName}">${categoryStyle.icon}</div>
+        <div class="card-emoji" style="background:${emojiAlpha}" title="${displayCategory(categoryName)}" aria-label="${displayCategory(categoryName)}">${categoryStyle.icon}</div>
         <div class="card-title-group">
           <div class="card-name">${p.name}</div>
         </div>
       </div>
       <div class="card-tags">
-        ${p.category.slice(0,2).map(c => `<span class="card-tag">${c}</span>`).join('')}
-        ${p.tags.slice(0,1).map(t => `<span class="card-tag">${t}</span>`).join('')}
+        ${p.category.slice(0,2).map(c => `<span class="card-tag">${displayCategory(c)}</span>`).join('')}
+        ${p.tags.slice(0,1).map(t => `<span class="card-tag">${displayTag(t)}</span>`).join('')}
       </div>
       <p class="card-summary">${p.summary}</p>
       <div class="card-metrics">
         <div class="metric-item">
           <span class="metric-value gold">${p.revenueDisplay}</span>
-          <span class="metric-label">月营收</span>
+          <span class="metric-label">${ui('月营收', 'Monthly revenue')}</span>
         </div>
         <div class="metric-item">
           <span class="metric-value blue">$${formatNum(p.startupCost)}</span>
-          <span class="metric-label">启动成本</span>
+          <span class="metric-label">${ui('启动成本', 'Startup cost')}</span>
         </div>
         <div class="metric-item">
-          <span class="metric-value">${p.startupDays}天</span>
-          <span class="metric-label">首次盈利</span>
+          <span class="metric-value">${p.startupDays}${ui('天', ' days')}</span>
+          <span class="metric-label">${ui('首次盈利', 'Time to revenue')}</span>
         </div>
       </div>
       <div class="card-footer">
         <div class="score-badge">
           <span class="score-stars">${stars}</span>
-          <span>可复制 ${p.replicabilityScore}/10</span>
+          <span>${ui('可复制', 'Replicability')} ${p.replicabilityScore}/10</span>
         </div>
-        <div class="card-detail-link">查看完整拆解 <span class="card-arrow">→</span></div>
+        <div class="card-detail-link">${ui('查看完整拆解', 'View deep dive')} <span class="card-arrow">→</span></div>
       </div>
     </article>
   `;
@@ -317,8 +334,8 @@ function renderCategoryPills() {
   if (!bar) return;
 
   const items = [
-    { name: 'all', label: '✨ 全部', icon: '' },
-    ...CATEGORIES.map(c => ({ name: c.name, label: `${c.icon} ${c.name}` }))
+    { name: 'all', label: ui('✨ 全部', '✨ All'), icon: '' },
+    ...CATEGORIES.map(c => ({ name: c.name, label: `${c.icon} ${displayCategory(c.name)}` }))
   ];
 
   bar.innerHTML = items.map(c => `
@@ -375,6 +392,8 @@ function setupSearch() {
           return p.name.toLowerCase().includes(q) || 
                  (p.nameEn && p.nameEn.toLowerCase().includes(q)) ||
                  p.summary.toLowerCase().includes(q) || 
+                 String(p.summaryZh || '').toLowerCase().includes(q) ||
+                 String(p.summaryEn || '').toLowerCase().includes(q) ||
                  p.category.some(c => c.toLowerCase().includes(q)) || 
                  p.tags.some(t => t.toLowerCase().includes(q));
         }).length;
@@ -382,7 +401,7 @@ function setupSearch() {
         if (hint) {
           hint.style.display = 'block';
           if (count > 0) {
-            hint.innerHTML = `🎯 找到 <strong>${count}</strong> 个与 "<strong>${currentSearch}</strong>" 相关的项目 (点击直达结果) ↓`;
+            hint.innerHTML = isEnglish() ? `🎯 Found <strong>${count}</strong> businesses matching “<strong>${currentSearch}</strong>” ↓` : `🎯 找到 <strong>${count}</strong> 个与 "<strong>${currentSearch}</strong>" 相关的项目 (点击直达结果) ↓`;
             hint.style.color = '#e67e22';
             hint.style.cursor = 'pointer';
             hint.onclick = () => {
@@ -392,7 +411,7 @@ function setupSearch() {
               }
             };
           } else {
-            hint.innerHTML = `😔 没有找到与 "<strong>${currentSearch}</strong>" 匹配的项目，试试其他关键词？`;
+            hint.innerHTML = isEnglish() ? `😔 No businesses match “<strong>${currentSearch}</strong>”. Try another keyword.` : `😔 没有找到与 "<strong>${currentSearch}</strong>" 匹配的项目，试试其他关键词？`;
             hint.style.color = '#999';
             hint.style.cursor = 'default';
             hint.onclick = null;
@@ -448,94 +467,98 @@ function openModal(id) {
   const content = document.getElementById('modalContent');
   const emojiAlpha = hexToRgba(p.heroColor, 0.08);
   const isFav = isProjectFavorited(p.id);
-  const favText = isFav ? '⭐ 已收藏' : '☆ 收藏案例';
+  const favText = isFav ? ui('⭐ 已收藏', '⭐ Saved') : ui('☆ 收藏案例', '☆ Save case');
   const repPct = Math.min(100, Math.max(0, Number(p.replicabilityScore) || 0) * 10);
+  const modalInsight = isEnglish() ? p.summary : p.insight;
+  const modalBusinessModel = isEnglish() ? 'See the complete editorial case study for the offer, pricing logic, acquisition channels, operating model, and major risks.' : p.businessModel;
+  const modalArch = isEnglish() ? 'Customer need ➔ focused product experience ➔ measurable outcome ➔ payment ➔ retained value' : (p.productArch || '暂无产品架构数据');
+  const modalLoop = isEnglish() ? 'Discovery ➔ useful first result ➔ paid conversion ➔ repeat use ➔ referrals and expansion' : (p.businessLoop || '暂无商业闭环数据');
 
   content.innerHTML = `
     <div class="modal-hero" style="background:linear-gradient(135deg, ${hexToRgba(p.heroColor,0.02)}, transparent)">
       <div class="modal-emoji-wrap" style="background:${emojiAlpha}">${p.heroEmoji}</div>
       <h2 class="modal-name">${p.name}</h2>
       <div class="modal-tags-row" style="margin-bottom:16px">
-        ${[...p.category, ...p.tags].map(t => `<span class="modal-tag">${t}</span>`).join('')}
+        ${[...p.category.map(displayCategory), ...p.tags.map(displayTag)].map(t => `<span class="modal-tag">${t}</span>`).join('')}
       </div>
       <p class="modal-summary">${p.summary}</p>
       <div class="modal-links-row" style="margin-top: 14px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center;">
-        <button class="modal-fav-btn" onclick="toggleFavorite('${p.id}'); this.innerText = isProjectFavorited('${p.id}') ? '⭐ 已收藏' : '☆ 收藏案例';" style="background:rgba(230, 126, 34, 0.1);color:var(--primary);border:1px solid rgba(230, 126, 34, 0.3);padding:6px 14px;border-radius:8px;font-size:12px;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;gap:4px;">
+        <button class="modal-fav-btn" onclick="toggleFavorite('${p.id}'); this.innerText = isProjectFavorited('${p.id}') ? '${ui('⭐ 已收藏', '⭐ Saved')}' : '${ui('☆ 收藏案例', '☆ Save case')}';" style="background:rgba(230, 126, 34, 0.1);color:var(--primary);border:1px solid rgba(230, 126, 34, 0.3);padding:6px 14px;border-radius:8px;font-size:12px;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;gap:4px;">
           ${favText}
         </button>
-        <a href="case.html?id=${encodeURIComponent(p.id)}" class="modal-link-btn modal-source-link">📖 案例详情</a>
-        ${p.website ? `<a href="${p.website}" target="_blank" rel="noopener noreferrer" class="modal-link-btn" style="background:var(--accent-blue);color:#fff;padding:6px 14px;border-radius:8px;font-size:12px;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:4px;transition:opacity 0.2s;">🌐 官网链接</a>` : ''}
-        ${p.twitter_url ? `<a href="${p.twitter_url}" target="_blank" rel="noopener noreferrer" class="modal-link-btn" style="background:#0f172a;color:#fff;padding:6px 14px;border-radius:8px;font-size:12px;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:4px;transition:opacity 0.2s;">🐦 官方 X</a>` : ''}
-        ${p.github_url ? `<a href="${p.github_url}" target="_blank" rel="noopener noreferrer" class="modal-link-btn" style="background:#334155;color:#fff;padding:6px 14px;border-radius:8px;font-size:12px;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:4px;transition:opacity 0.2s;">🐙 GitHub 开源</a>` : ''}
+        <a href="${caseHref(p.id)}" class="modal-link-btn modal-source-link">${ui('📖 案例详情', '📖 Full case study')}</a>
+        ${p.website ? `<a href="${p.website}" target="_blank" rel="noopener noreferrer" class="modal-link-btn" style="background:var(--accent-blue);color:#fff;padding:6px 14px;border-radius:8px;font-size:12px;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:4px;transition:opacity 0.2s;">${ui('🌐 官网链接', '🌐 Website')}</a>` : ''}
+        ${p.twitter_url ? `<a href="${p.twitter_url}" target="_blank" rel="noopener noreferrer" class="modal-link-btn" style="background:#0f172a;color:#fff;padding:6px 14px;border-radius:8px;font-size:12px;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:4px;transition:opacity 0.2s;">${ui('🐦 官方 X', '🐦 Official X')}</a>` : ''}
+        ${p.github_url ? `<a href="${p.github_url}" target="_blank" rel="noopener noreferrer" class="modal-link-btn" style="background:#334155;color:#fff;padding:6px 14px;border-radius:8px;font-size:12px;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:4px;transition:opacity 0.2s;">${ui('🐙 GitHub 开源', '🐙 GitHub')}</a>` : ''}
       </div>
     </div>
     <div class="modal-metrics">
       <div class="modal-metric">
         <span class="modal-metric-value" style="color:${p.heroColor}">${p.revenueDisplay}</span>
-        <span class="modal-metric-label">月营收 (MRR)</span>
+        <span class="modal-metric-label">${ui('月营收 (MRR)', 'Monthly revenue')}</span>
       </div>
       <div class="modal-metric">
         <span class="modal-metric-value" style="color:var(--accent-blue)">$${formatNum(p.startupCost)}</span>
-        <span class="modal-metric-label">启动成本</span>
+        <span class="modal-metric-label">${ui('启动成本', 'Startup cost')}</span>
       </div>
       <div class="modal-metric">
-        <span class="modal-metric-value" style="color:var(--accent-emerald)">${p.startupDays}天</span>
-        <span class="modal-metric-label">首次盈利</span>
+        <span class="modal-metric-value" style="color:var(--accent-emerald)">${p.startupDays}${ui('天', ' days')}</span>
+        <span class="modal-metric-label">${ui('首次盈利', 'Time to revenue')}</span>
       </div>
       <div class="modal-metric">
-        <span class="modal-metric-value" style="color:var(--accent-purple)">${p.teamSize}人</span>
-        <span class="modal-metric-label">团队规模</span>
+        <span class="modal-metric-value" style="color:var(--accent-purple)">${p.teamSize}${ui('人', '')}</span>
+        <span class="modal-metric-label">${ui('团队规模', 'Team size')}</span>
       </div>
     </div>
     
     <!-- Tab Navigation -->
     <div class="modal-tabs">
-      <button class="modal-tab-btn active" onclick="switchTab(event, 'basic-info')">📋 基础解读</button>
-      <button class="modal-tab-btn" onclick="switchTab(event, 'architecture')">🏗️ 产品与闭环</button>
-      <button class="modal-tab-btn" onclick="switchTab(event, 'get-started')">🚀 快速上手</button>
+      <button class="modal-tab-btn active" onclick="switchTab(event, 'basic-info')">${ui('📋 基础解读', '📋 Overview')}</button>
+      <button class="modal-tab-btn" onclick="switchTab(event, 'architecture')">${ui('🏗️ 产品与闭环', '🏗️ Product & Loop')}</button>
+      <button class="modal-tab-btn" onclick="switchTab(event, 'get-started')">${ui('🚀 快速上手', '🚀 Launch Path')}</button>
     </div>
     
     <div class="modal-body">
       <!-- Tab 1: 基础解读 -->
       <div id="basic-info" class="modal-tab-content active">
         <div class="modal-section">
-          <div class="modal-section-title">💡 创意亮点剖析</div>
-          <div class="modal-section-content">${p.insight}</div>
+          <div class="modal-section-title">${ui('💡 创意亮点剖析', '💡 Why it works')}</div>
+          <div class="modal-section-content">${modalInsight}</div>
         </div>
         <div class="modal-section">
-          <div class="modal-section-title">💰 商业模式与收费</div>
-          <div class="modal-section-content">${p.businessModel}</div>
+          <div class="modal-section-title">${ui('💰 商业模式与收费', '💰 Business model')}</div>
+          <div class="modal-section-content">${modalBusinessModel}</div>
         </div>
       </div>
       
       <!-- Tab 2: 产品架构与商业闭环 -->
       <div id="architecture" class="modal-tab-content">
         <div class="modal-section">
-          <div class="modal-section-title">🌐 系统与产品架构</div>
+          <div class="modal-section-title">${ui('🌐 系统与产品架构', '🌐 Product architecture')}</div>
           <div class="modal-section-content">
-            <p>该项目的核心技术实现流程非常明确，以下是系统架构流向：</p>
+            <p>${ui('该项目的核心技术实现流程非常明确，以下是系统架构流向：', 'A compact view of how the product turns customer demand into a paid outcome:')}</p>
             <div class="arch-flow">
-              ${p.productArch || "暂无产品架构数据"}
+              ${modalArch}
             </div>
           </div>
         </div>
         <div class="modal-section">
-          <div class="modal-section-title">🔄 商业闭环运转逻辑</div>
+          <div class="modal-section-title">${ui('🔄 商业闭环运转逻辑', '🔄 Business loop')}</div>
           <div class="modal-section-content">
-            <p>本项目的流量循环和交易闭环运转方式：</p>
+            <p>${ui('本项目的流量循环和交易闭环运转方式：', 'How acquisition, conversion, retention, and expansion reinforce one another:')}</p>
             <div class="loop-flow">
-              ${p.businessLoop || "暂无商业闭环数据"}
+              ${modalLoop}
             </div>
           </div>
         </div>
         <div class="modal-section">
-          <div class="modal-section-title">📣 推荐营销获客渠道</div>
+          <div class="modal-section-title">${ui('📣 推荐营销获客渠道', '📣 Acquisition channels')}</div>
           <div class="modal-tags-row">
             ${p.marketingChannels.map(c => `<span class="modal-tag">📢 ${c}</span>`).join('')}
           </div>
         </div>
         <div class="modal-section">
-          <div class="modal-section-title">⚙️ 技术栈与依赖</div>
+          <div class="modal-section-title">${ui('⚙️ 技术栈与依赖', '⚙️ Technology stack')}</div>
           <div class="modal-tags-row">
             ${p.techStack.map(t => `<span class="modal-tag">🔧 ${t}</span>`).join('')}
           </div>
@@ -545,22 +568,22 @@ function openModal(id) {
       <!-- Tab 3: 快速上手与中国落地 -->
       <div id="get-started" class="modal-tab-content">
         <div class="modal-section">
-          <div class="modal-section-title">🛠️ 3步模仿上手指南</div>
+          <div class="modal-section-title">${ui('🛠️ 3步模仿上手指南', '🛠️ Three-step launch path')}</div>
           <div class="modal-section-content">
-            ${p.getStartedPath ? p.getStartedPath.map((step, idx) => `
+            ${(isEnglish() ? ['Validate one narrow customer problem and define a measurable outcome.', 'Build the smallest reliable workflow and charge a small group of early adopters.', 'Use customer evidence to improve retention, then scale the strongest acquisition channel.'] : p.getStartedPath).map((step, idx) => `
               <div class="step-card">
                 <div class="step-number">${idx + 1}</div>
                 <div class="step-text">${step}</div>
               </div>
-            `).join('') : "暂无上手指南"}
+            `).join('')}
           </div>
         </div>
         <div class="modal-section">
-          <div class="modal-section-title">🇨🇳 中国本土落地机会</div>
-          <div class="modal-china-box modal-section-content">${p.chinaOpportunity}</div>
+          <div class="modal-section-title">${ui('🇨🇳 中国本土落地机会', '🌏 Market adaptation')}</div>
+          <div class="modal-china-box modal-section-content">${isEnglish() ? 'Adapt the offer to local buying habits, payment methods, regulations, and distribution channels before scaling.' : p.chinaOpportunity}</div>
         </div>
         <div class="modal-section">
-          <div class="modal-section-title">⭐ 综合可复制指数</div>
+          <div class="modal-section-title">${ui('⭐ 综合可复制指数', '⭐ Replicability score')}</div>
           <div class="rep-bar">
             <div class="rep-track">
               <div class="rep-fill" style="width:${repPct}%;background:${p.heroColor}"></div>
@@ -674,7 +697,7 @@ function countUpStats() {
         current = target;
         clearInterval(timer);
       }
-      el.textContent = Math.floor(current).toLocaleString('zh-CN');
+      el.textContent = Math.floor(current).toLocaleString(locale());
     }, 16);
   });
 }
@@ -776,7 +799,17 @@ function classifyProjectCategory(p) {
 }
 
 function normalizeProject(p) {
-  if (p.nameEn && p.revenueDisplay && p.category) return p;
+  if (p.nameEn && p.revenueDisplay && p.category) {
+    return {
+      ...p,
+      nameZh: p.name,
+      name: isEnglish() ? p.nameEn : p.name,
+      summaryZh: p.summary,
+      summary: isEnglish()
+        ? (p.summaryEn || `A proven ${p.nameEn} business with a practical product, revenue model, and repeatable growth path.`)
+        : p.summary
+    };
+  }
 
   let rawRevenue = 0;
   let revenueDisplay = p.revenue || '未披露';
@@ -821,7 +854,8 @@ function normalizeProject(p) {
 
   return {
     id: p.id || Math.random().toString(36).substr(2, 9),
-    name: cnTitle,
+    name: isEnglish() ? enTitle : cnTitle,
+    nameZh: cnTitle,
     nameEn: enTitle,
     sourceUrl: p.url || '',
     dateVal: dateVal,
@@ -835,7 +869,11 @@ function normalizeProject(p) {
     featured: p.featured || false,
     heroEmoji: PROJECT_CATEGORY_STYLES[primaryCategory].icon,
     heroColor: PROJECT_CATEGORY_STYLES[primaryCategory].color,
-    summary: p.summary || p.description || '暂无项目介绍',
+    summary: isEnglish()
+      ? (siteI18n?.cleanEnglishDescription(p.summaryEn || p.metaDesc || p.description) || 'Explore the complete product, revenue model, growth loop, and launch path.')
+      : (p.summary || p.description || '暂无项目介绍'),
+    summaryZh: p.summary || p.description || '暂无项目介绍',
+    summaryEn: siteI18n?.cleanEnglishDescription(p.summaryEn || p.metaDesc || p.description) || '',
     insight: p.insight || p.description || '暂无商业解读',
     businessModel: p.businessModel || '订阅付费/按量收费',
     productArch: p.productArch || '用户入口 ➔ AI运算 ➔ 支付结算',
@@ -886,7 +924,7 @@ function setupAiAdvisor() {
     input.value = '';
     
     const matches = findBestMatches(text);
-    const typingId = appendMessage('🤖 Cloudflare AI 正在结合项目大盘生成建议...', 'bot-msg');
+    const typingId = appendMessage(ui('🤖 Cloudflare AI 正在结合项目大盘生成建议...', '🤖 Cloudflare AI is analyzing the business database...'), 'bot-msg');
 
     try {
       const reply = await requestAdvisorResponse(text, matches);
@@ -926,7 +964,7 @@ window.sendSuggestion = function(text) {
 async function requestAdvisorResponse(query, matches) {
   const projects = matches.map(p => ({
     id: p.id,
-    name: getChineseName(p),
+    name: p.name,
     summary: p.summary,
     revenue: p.revenueDisplay,
     category: p.category,
@@ -939,7 +977,7 @@ async function requestAdvisorResponse(query, matches) {
   const response = await fetch('/api/advisor', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ query, projects })
+    body: JSON.stringify({ query, projects, language: isEnglish() ? 'en' : 'zh' })
   });
   const payload = await response.json().catch(() => ({}));
   if (!response.ok || typeof payload.answer !== 'string' || !payload.answer.trim()) {
@@ -981,11 +1019,11 @@ function appendMessage(text, className, matches = []) {
     .replace(/\n/g, '<br>');
   
   if (matches && matches.length > 0) {
-    html += '<div style="margin-top: 10px; border-top: 1px solid rgba(0,0,0,0.05); padding-top: 6px; font-weight:700;">💡 关联大盘推荐项目（点击直达架构拆解）：</div>';
+    html += `<div style="margin-top: 10px; border-top: 1px solid rgba(0,0,0,0.05); padding-top: 6px; font-weight:700;">${ui('💡 关联大盘推荐项目（点击直达架构拆解）：', '💡 Related cases from the database:')}</div>`;
     matches.forEach(p => {
       html += `
         <a class="chat-project-link" href="javascript:void(0);" onclick="openModal('${p.id}')">
-          ${p.heroEmoji} 【${p.category[0]}】${getChineseName(p)} · 月入 ${p.revenueDisplay}
+          ${p.heroEmoji} 【${displayCategory(p.category[0])}】${p.name} · ${ui('月入', 'Revenue')} ${p.revenueDisplay}
         </a>
       `;
     });
@@ -1040,6 +1078,12 @@ function findBestMatches(query) {
 }
 
 function generateAdvisorFallbackResponse(query, matches) {
+  if (isEnglish()) {
+    const reference = matches[0];
+    return reference
+      ? `Cloudflare AI is temporarily unavailable, so here is a database-backed starting point.\n\n**Closest case: ${reference.name}**\n${reference.summary}\n\n**Three-step test**\n1. Choose one narrow customer and one measurable outcome.\n2. Build the smallest paid workflow and recruit five early adopters.\n3. Measure activation, repeat use, and willingness to pay before investing in broader acquisition.`
+      : 'Cloudflare AI is temporarily unavailable. Choose one narrow customer problem, build the smallest paid workflow, and validate willingness to pay with five early adopters before scaling acquisition.';
+  }
   if (matches.length === 0) {
     return `当前 Cloudflare AI 免费额度暂时不可用，先为你提供本地项目库分析。
 
@@ -1143,7 +1187,9 @@ function recordProjectHistory(project) {
   
   history = history.filter(h => h.id !== project.id);
   const now = new Date();
-  const timeStr = `${now.getMonth() + 1}月${now.getDate()}日 ${String(now.getHours()).padStart(2,'0')}:${String(now.getMinutes()).padStart(2,'0')}`;
+  const timeStr = isEnglish()
+    ? now.toLocaleString('en-US', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' })
+    : `${now.getMonth() + 1}月${now.getDate()}日 ${String(now.getHours()).padStart(2,'0')}:${String(now.getMinutes()).padStart(2,'0')}`;
   
   history.unshift({
     id: project.id,
@@ -1202,7 +1248,7 @@ function renderLocalFavorites() {
   if (countEl) countEl.innerText = favIds.length;
 
   if (favIds.length === 0) {
-    grid.innerHTML = '<p style="color:var(--text-muted);font-size:13px;grid-column:1/-1;">🌟 暂无收藏项目，浏览大盘点击卡片右上角 ⭐ 即可收藏案例！</p>';
+    grid.innerHTML = `<p style="color:var(--text-muted);font-size:13px;grid-column:1/-1;">${ui('🌟 暂无收藏项目，浏览大盘点击卡片右上角 ⭐ 即可收藏案例！', '🌟 No saved cases yet. Select ⭐ on any business card to save it.')}</p>`;
     return;
   }
 
@@ -1210,8 +1256,8 @@ function renderLocalFavorites() {
   grid.innerHTML = favProjects.map(p => `
     <div class="fav-card" onclick="openModal('${p.id}')" style="background:#f8fafc;border:1px solid var(--border);border-radius:12px;padding:14px;cursor:pointer;position:relative;">
       <div style="font-weight:700;font-size:14px;color:#0f172a;margin-bottom:6px;">${p.heroEmoji} ${p.name}</div>
-      <div style="font-size:12px;color:var(--primary);font-weight:700;">${p.revenueDisplay} / 月</div>
-      <button onclick="event.stopPropagation(); toggleFavorite('${p.id}')" style="margin-top:10px;background:rgba(239,68,68,0.08);border:1px solid rgba(239,68,68,0.2);color:#ef4444;padding:4px 8px;border-radius:6px;font-size:11px;font-weight:600;cursor:pointer;">取消收藏</button>
+      <div style="font-size:12px;color:var(--primary);font-weight:700;">${p.revenueDisplay} / ${ui('月', 'month')}</div>
+      <button onclick="event.stopPropagation(); toggleFavorite('${p.id}')" style="margin-top:10px;background:rgba(239,68,68,0.08);border:1px solid rgba(239,68,68,0.2);color:#ef4444;padding:4px 8px;border-radius:6px;font-size:11px;font-weight:600;cursor:pointer;">${ui('取消收藏', 'Remove')}</button>
     </div>
   `).join('');
 }
@@ -1225,7 +1271,7 @@ function renderLocalHistory() {
   if (countEl) countEl.innerText = history.length;
 
   if (history.length === 0) {
-    timeline.innerHTML = '<p style="color:var(--text-muted);font-size:13px;">🕒 暂无浏览历史，点击任意案例弹窗开始探索吧！</p>';
+    timeline.innerHTML = `<p style="color:var(--text-muted);font-size:13px;">${ui('🕒 暂无浏览历史，点击任意案例弹窗开始探索吧！', '🕒 No browsing history yet. Open any case to start exploring.')}</p>`;
     return;
   }
 
