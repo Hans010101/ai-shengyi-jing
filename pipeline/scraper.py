@@ -9,7 +9,10 @@ import json
 import time
 import hashlib
 import datetime
+import gzip
+import re
 import requests
+import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
 from pathlib import Path
 from urllib.parse import urlparse
@@ -24,8 +27,10 @@ except ImportError:
 # ========== CONFIG ==========
 BASE_URL = "https://www.starterstory.com"
 LISTING_URL = f"{BASE_URL}/data?sort=recently_added"
+SITEMAP_URL = f"{BASE_URL}/sitemap.xml"
 DATA_DIR = Path(__file__).parent / "data"
 SEEN_FILE = DATA_DIR / "seen_ids.json"
+HEALTH_FILE = DATA_DIR / "scrape_health.json"
 OUTPUT_FILE = Path(__file__).parent.parent / "data" / "projects_live.json"
 
 # API Keys 环境变量（按优先级读取）
@@ -42,6 +47,7 @@ HEADERS = {
 
 REQUEST_DELAY = 3  # 秒
 MIN_LISTING_PROJECTS = 10
+MIN_SITEMAP_BUSINESSES = 400
 
 def load_seen_ids():
     if SEEN_FILE.exists():
@@ -59,16 +65,21 @@ def make_id(value):
     """Build a stable ID from the canonical source URL when available."""
     return hashlib.md5(value.strip().lower().rstrip("/").encode()).hexdigest()[:12]
 
-def fetch_page(url, retries=3):
+def fetch_response(url, retries=3):
     for i in range(retries):
         try:
             resp = requests.get(url, headers=HEADERS, timeout=15)
             resp.raise_for_status()
-            return resp.text
+            return resp
         except Exception as e:
             print(f"  [WARN] Attempt {i+1} failed for {url}: {e}")
             time.sleep(REQUEST_DELAY * 2)
     return None
+
+
+def fetch_page(url, retries=3):
+    response = fetch_response(url, retries)
+    return response.text if response else None
 
 def parse_listing_html(html):
     """Parse both the current Starter Story table and its legacy markup."""
@@ -138,6 +149,59 @@ def parse_listing_html(html):
     return list({project["id"]: project for project in projects}.values())
 
 
+def parse_sitemap_xml(content):
+    """Return public business pages from Starter Story's official sitemap."""
+    if content[:2] == b"\x1f\x8b":
+        content = gzip.decompress(content)
+    root = ET.fromstring(content)
+    projects = []
+    now = datetime.datetime.now().isoformat()
+    for node in root:
+        values = {child.tag.rsplit("}", 1)[-1]: child.text or "" for child in node}
+        url = values.get("loc", "").strip().rstrip("/")
+        if "/businesses/" not in url:
+            continue
+        slug = urlparse(url).path.rstrip("/").split("/")[-1]
+        projects.append({
+            "name": slug.replace("-", " ").title(),
+            "revenue": "Unknown",
+            "startupInfo": "",
+            "url": url,
+            "slug": slug,
+            "image": "",
+            "niche": "其他",
+            "id": make_id(url),
+            "sourceUpdatedAt": values.get("lastmod", ""),
+            "scrapedAt": now,
+        })
+    return sorted(
+        {project["id"]: project for project in projects}.values(),
+        key=lambda project: project.get("sourceUpdatedAt", ""),
+        reverse=True,
+    )
+
+
+def slug_key(project):
+    slug = str(project.get("slug") or urlparse(project.get("url", "")).path.rstrip("/").split("/")[-1]).lower()
+    return re.sub(r"-\d+$", "", slug)
+
+
+def find_new_projects(discovered, existing):
+    """Find unseen projects while collapsing old story/business URL aliases."""
+    known_ids = project_ids(existing)
+    known_slugs = {slug_key(project) for project in existing if slug_key(project)}
+    results = []
+    for project in discovered:
+        key = slug_key(project)
+        if project.get("id") in known_ids or (key and key in known_slugs):
+            continue
+        known_ids.add(str(project["id"]))
+        if key:
+            known_slugs.add(key)
+        results.append(project)
+    return results
+
+
 def scrape_listing_page():
     print("[INFO] Fetching global listings...")
     html = fetch_page(LISTING_URL)
@@ -150,6 +214,21 @@ def scrape_listing_page():
         raise RuntimeError(
             "Starter Story parser health check failed: "
             f"expected at least {MIN_LISTING_PROJECTS} projects, found {len(projects)}"
+        )
+    return projects
+
+
+def scrape_sitemap_businesses():
+    print("[INFO] Fetching official sitemap fallback...")
+    response = fetch_response(SITEMAP_URL)
+    if response is None:
+        raise RuntimeError("Starter Story sitemap request failed after retries")
+    projects = parse_sitemap_xml(response.content)
+    print(f"[INFO] Found {len(projects)} business pages in sitemap")
+    if len(projects) < MIN_SITEMAP_BUSINESSES:
+        raise RuntimeError(
+            "Starter Story sitemap health check failed: "
+            f"expected at least {MIN_SITEMAP_BUSINESSES} business pages, found {len(projects)}"
         )
     return projects
 
@@ -347,13 +426,25 @@ def run_pipeline():
     save_seen_ids(seen_ids)
     print(f"[INFO] Already seen: {len(seen_ids)} projects")
 
-    projects = scrape_listing_page()
-
-    new_projects = merge_projects(
-        [p for p in projects if p["id"] not in seen_ids],
-        [],
-    )
+    listing_projects = scrape_listing_page()
+    sitemap_projects = scrape_sitemap_businesses()
+    projects = merge_projects([*listing_projects, *sitemap_projects], [])
+    new_projects = find_new_projects(projects, existing)
     print(f"[INFO] New projects: {len(new_projects)}")
+
+    health = {
+        "checkedAt": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+        "status": "healthy",
+        "listingProjects": len(listing_projects),
+        "sitemapBusinesses": len(sitemap_projects),
+        "discoveredProjects": len(projects),
+        "newProjects": len(new_projects),
+        "databaseProjects": len(existing),
+    }
+    HEALTH_FILE.write_text(
+        json.dumps(health, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
 
     if not new_projects:
         print("[INFO] No new projects. Pipeline complete.")
@@ -366,6 +457,8 @@ def run_pipeline():
         if project.get("url"):
             detail = scrape_detail_page(project["url"])
             project.update(detail)
+            if project.get("revenue") in {"", "Unknown"} and detail.get("revenueDetail"):
+                project["revenue"] = detail["revenueDetail"]
 
         print(f"  Generating AI analysis...")
         analysis = generate_chinese_analysis(project)
