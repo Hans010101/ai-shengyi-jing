@@ -1,4 +1,5 @@
 import json
+import gzip
 import tempfile
 import unittest
 from pathlib import Path
@@ -6,7 +7,13 @@ from pathlib import Path
 from pipeline.article_pipeline import normalize_article, normalize_media
 from pipeline.project_store import merge_projects, project_ids
 from pipeline.content_quality import derive_chinese_name, is_placeholder
-from pipeline.scraper import make_id, parse_detail_html, parse_listing_html
+from pipeline.scraper import (
+    find_new_projects,
+    make_id,
+    parse_detail_html,
+    parse_listing_html,
+    parse_sitemap_xml,
+)
 from scripts.build_edgeone import EDGEONE_PATHS, build as build_edgeone
 from scripts.build_site import PUBLISH_PATHS, build, public_output_paths
 from scripts.generate_case_catalog import (
@@ -73,6 +80,29 @@ class DailyScraperTests(unittest.TestCase):
     def test_listing_ids_are_stable_when_display_name_changes(self):
         url = "https://www.starterstory.com/businesses/browserless"
         self.assertEqual(make_id(url), make_id(url + "/"))
+
+    def test_official_sitemap_recovers_businesses_missing_from_listing(self):
+        xml = b'''<?xml version="1.0"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+          <url><loc>https://www.starterstory.com/businesses/css-scan</loc><lastmod>2026-08-24T04:25:48+00:00</lastmod></url>
+          <url><loc>https://www.starterstory.com/stories/not-a-business-page</loc></url>
+        </urlset>'''
+
+        projects = parse_sitemap_xml(gzip.compress(xml))
+
+        self.assertEqual(len(projects), 1)
+        self.assertEqual(projects[0]["slug"], "css-scan")
+        self.assertEqual(projects[0]["id"], make_id(projects[0]["url"]))
+
+    def test_sitemap_aliases_do_not_duplicate_existing_projects(self):
+        discovered = [
+            {"id": "new-alias", "slug": "typingmind", "url": "https://www.starterstory.com/businesses/typingmind"},
+            {"id": "new-case", "slug": "css-scan", "url": "https://www.starterstory.com/businesses/css-scan"},
+        ]
+        existing = [
+            {"id": "existing", "url": "https://www.starterstory.com/businesses/typingmind-670044"},
+        ]
+
+        self.assertEqual(find_new_projects(discovered, existing), [discovered[1]])
 
     def test_business_detail_recovers_full_name_image_and_official_site(self):
         detail = parse_detail_html(
@@ -589,6 +619,12 @@ class ContentQualityTests(unittest.TestCase):
     def test_daily_scraper_processes_every_discovered_project(self):
         scraper = Path("pipeline/scraper.py").read_text(encoding="utf-8")
         self.assertNotIn("new_projects[:10]", scraper)
+
+    def test_daily_scrape_has_redundant_schedule_and_health_validation(self):
+        workflow = Path(".github/workflows/daily_scrape.yml").read_text(encoding="utf-8")
+        self.assertEqual(workflow.count("- cron:"), 2)
+        self.assertIn("pipeline/data/scrape_health.json", workflow)
+        self.assertIn("scripts/validate_data.py", workflow)
 
     def test_case_media_batches_are_published_after_enrichment(self):
         workflow = Path(".github/workflows/case_media_batch.yml").read_text(
