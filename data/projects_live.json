@@ -1,5 +1,42 @@
 [
   {
+    "name": "Swim University",
+    "revenue": "$80K/mo",
+    "startupInfo": "swimuniversity.com",
+    "url": "https://www.starterstory.com/businesses/swim-university",
+    "slug": "swim-university",
+    "image": "https://d1coqmn8qm80r4.cloudfront.net/s5i6epat4camvmrjs7kq9tqifexx",
+    "niche": "其他",
+    "id": "64596f928b09",
+    "scrapedAt": "2026-08-26T01:59:49.540418",
+    "revenueDetail": "~$85K/mo",
+    "metaDesc": "Swim University provides educational content, courses, and resources to help homeowners with swimming pool… — researched from public sources by Starter Story.",
+    "description": "Swim University provides educational content, courses, and resources to help homeowners with swimming pool… — researched from public sources by Starter Story.",
+    "website": "https://swimuniversity.com",
+    "nameZh": "泳池大学",
+    "summary": "面向泳池业主的在线教育，提供维护课程与资源，月入8万美元。",
+    "insight": "抓住泳池维护的痛点，提供系统化、易理解的教育内容，建立信任后通过课程和产品变现。",
+    "businessModel": "主要通过销售在线课程（如泳池维护、冬季化等）盈利，辅以联盟营销（推荐泳池设备）和广告。定价为一次性或订阅制，客户为泳池业主，尤其是新业主。",
+    "chinaOpportunity": "国内泳池数量增长，但维护知识匮乏，可推出本土化课程，结合短视频平台（抖音、快手）传播，与泳池服务商合作引流，并销售配套产品。",
+    "productArch": "内容创作（视频/图文） ➔ 课程平台（如自建站或小鹅通） ➔ 支付系统（微信支付） ➔ 会员/订阅管理 ➔ 联盟链接（推荐产品）",
+    "businessLoop": "【引流】：YouTube/抖音发布免费维护技巧 ➔ 【产品】：引导至课程网站或小程序，提供免费电子书/检查表 ➔ 【变现】：低价入门课程转化，再推高级课程和联盟产品 ➔ 【留存】：定期更新内容，建立社群，续费订阅。",
+    "getStartedPath": [
+      "第一步：调研国内泳池常见问题，确定课程主题，制作10个以上短视频（如“如何清理泳池”）发布到抖音/快手，积累粉丝。",
+      "第二步：搭建简单课程页面（用小鹅通或知识星球），设置低价入门课程（如9.9元）和会员订阅，并加入支付功能。",
+      "第三步：与泳池服务商合作，在视频中植入联盟链接，推荐清洁工具等，并建立微信群提供答疑，促进复购和口碑传播。"
+    ],
+    "replicabilityScore": 7,
+    "difficulty": "中",
+    "tags": [
+      "在线教育",
+      "泳池维护",
+      "内容变现",
+      "联盟营销"
+    ],
+    "updatedAt": "2026-08-26",
+    "featured": false
+  },
+  {
     "name": "CSS Scan",
     "revenue": "$100K/mo",
     "startupInfo": "",
