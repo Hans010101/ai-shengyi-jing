@@ -9,7 +9,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent.parent
-EDGEONE_PATHS = (Path("edge-functions"),)
+EDGEONE_PATHS = (Path("edge-functions"), Path("edgeone.json"))
 
 
 def build(source_dir: Path, output_dir: Path) -> list[Path]:
@@ -36,7 +36,10 @@ def build(source_dir: Path, output_dir: Path) -> list[Path]:
         if not source.exists():
             raise FileNotFoundError(f"Required EdgeOne path is missing: {relative_path}")
         destination = output_dir / relative_path
-        shutil.copytree(source, destination)
+        if source.is_dir():
+            shutil.copytree(source, destination)
+        else:
+            shutil.copy2(source, destination)
         copied.append(relative_path)
     return copied
 

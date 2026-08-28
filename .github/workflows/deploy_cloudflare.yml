@@ -10,6 +10,7 @@ on:
       - "case.html"
       - "404.html"
       - "_headers"
+      - "edgeone.json"
       - "robots.txt"
       - "assets/**"
       - "data/**"

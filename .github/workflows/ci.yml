@@ -52,12 +52,13 @@ jobs:
         run: |
           EXPECTED_PUBLIC_COUNT="$(python3 -c "from scripts.build_site import PUBLIC_OUTPUT_PATHS; print(len(PUBLIC_OUTPUT_PATHS))")"
           test "$(find dist -type f | wc -l | tr -d ' ')" = "$EXPECTED_PUBLIC_COUNT"
-          test "$(find dist-edgeone -type f | wc -l | tr -d ' ')" = "$((EXPECTED_PUBLIC_COUNT + 1))"
+          test "$(find dist-edgeone -type f | wc -l | tr -d ' ')" = "$((EXPECTED_PUBLIC_COUNT + 2))"
           test ! -e dist/.github
           test ! -e dist/.wrangler
           test ! -e dist/pipeline
           test ! -e dist/edge-functions
           test -f dist-edgeone/edge-functions/api/advisor.js
+          test -f dist-edgeone/edgeone.json
           cmp dist/deployment.json dist-edgeone/deployment.json
           cmp dist/data/projects_live.json dist-edgeone/data/projects_live.json
           cmp dist/data/case_articles.json dist-edgeone/data/case_articles.json

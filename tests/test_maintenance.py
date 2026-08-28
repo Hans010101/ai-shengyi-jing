@@ -203,7 +203,20 @@ class BuildTests(unittest.TestCase):
         self.assertTrue(shared_files.issubset(edgeone_files))
         self.assertEqual(
             edgeone_files - shared_files,
-            {Path("edge-functions/api/advisor.js")},
+            {Path("edge-functions/api/advisor.js"), Path("edgeone.json")},
+        )
+        edgeone_config = json.loads(Path("edgeone.json").read_text(encoding="utf-8"))
+        cache_headers = {
+            rule["source"]: next(
+                header["value"]
+                for header in rule["headers"]
+                if header["key"] == "Cache-Control"
+            )
+            for rule in edgeone_config["headers"]
+        }
+        self.assertEqual(
+            cache_headers["/data/projects_index.json"],
+            "public, max-age=1800, must-revalidate",
         )
 
     def test_public_ui_does_not_render_english_project_subtitles(self):
