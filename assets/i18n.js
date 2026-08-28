@@ -42,6 +42,22 @@
     return cleanEnglishDescription(project.summaryEn || project.metaDesc || project.description)
       || 'Explore the business model, growth loop, economics, and practical launch path.';
   }
+  function monthlyRevenue(value) {
+    const text = String(value || '').replace(/,/g, '');
+    const match = text.match(/\$([\d.]+)\s*([KkMm]?)/);
+    if (!match) return 0;
+    const unit = match[2].toLowerCase();
+    const multiplier = unit === 'm' ? 1000000 : unit === 'k' ? 1000 : 1;
+    const amount = Number(match[1]) * multiplier;
+    return /(?:\/\s*(?:year|yr)|\bper\s+(?:year|annum)|annual(?:ly)?)/i.test(text) ? amount / 12 : amount;
+  }
+  function monthlyRevenueDisplay(value) {
+    const amount = monthlyRevenue(value);
+    if (!amount) return String(value || t('未披露', 'Not disclosed'));
+    const scaled = amount >= 1000000 ? [amount / 1000000, 'M'] : amount >= 1000 ? [amount / 1000, 'K'] : [amount, ''];
+    const formatted = new Intl.NumberFormat(language === 'en' ? 'en-US' : 'zh-CN', { maximumFractionDigits: 1 }).format(scaled[0]);
+    return `$${formatted}${scaled[1]}`;
+  }
   function withLanguage(href) {
     if (language !== 'en' || !href || href.startsWith('#') || /^(?:https?:|mailto:|tel:)/.test(href)) return href;
     const url = new URL(href, window.location.href);
@@ -82,6 +98,6 @@
     if (language === 'en' && description && html.descriptionEn) description.content = html.descriptionEn;
   }
 
-  window.SiteI18n = { language, isEnglish: () => language === 'en', locale: () => language === 'en' ? 'en-US' : 'zh-CN', t, category, tag, projectName, projectSummary, withLanguage, applyStatic, cleanEnglishDescription };
+  window.SiteI18n = { language, isEnglish: () => language === 'en', locale: () => language === 'en' ? 'en-US' : 'zh-CN', t, category, tag, projectName, projectSummary, monthlyRevenue, monthlyRevenueDisplay, withLanguage, applyStatic, cleanEnglishDescription };
   document.addEventListener('DOMContentLoaded', init);
 })();

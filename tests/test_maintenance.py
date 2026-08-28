@@ -15,7 +15,12 @@ from pipeline.scraper import (
     parse_sitemap_xml,
 )
 from scripts.build_edgeone import EDGEONE_PATHS, build as build_edgeone
-from scripts.build_site import PUBLISH_PATHS, build, public_output_paths
+from scripts.build_site import (
+    PROJECT_INDEX_FIELDS,
+    PUBLISH_PATHS,
+    build,
+    public_output_paths,
+)
 from scripts.generate_case_catalog import (
     clean_existing_media,
     ensure_visual_media,
@@ -154,6 +159,9 @@ class BuildTests(unittest.TestCase):
                     encoding="utf-8"
                 )
             )
+            project_index_path = output / "data/projects_index.json"
+            project_index = json.loads(project_index_path.read_text(encoding="utf-8"))
+            sitemap = (output / "sitemap.xml").read_text(encoding="utf-8")
 
         self.assertEqual(set(copied), set(public_output_paths()))
         self.assertEqual(actual, set(public_output_paths()))
@@ -162,6 +170,16 @@ class BuildTests(unittest.TestCase):
         self.assertEqual(deployment["commit"], "a" * 40)
         self.assertEqual(deployment["shortCommit"], "a" * 12)
         self.assertEqual(collection_dates, expected_dates)
+        self.assertEqual(len(project_index), len(projects))
+        self.assertTrue(
+            all(set(project).issubset(PROJECT_INDEX_FIELDS) for project in project_index)
+        )
+        self.assertLess(
+            len(gzip.compress(json.dumps(project_index).encode())),
+            len(gzip.compress(Path("data/projects_live.json").read_bytes())) // 2,
+        )
+        self.assertEqual(sitemap.count("<url>"), len(projects) + 2)
+        self.assertIn("case.html?id=", sitemap)
 
     def test_edgeone_wraps_the_same_static_artifact(self):
         with tempfile.TemporaryDirectory(dir=Path.cwd()) as temp_dir:
@@ -219,6 +237,8 @@ class BuildTests(unittest.TestCase):
         self.assertIn('id="libraryOverlay"', index_html)
         self.assertIn("Cloudflare Workers AI", index_html)
         self.assertIn("'/api/advisor'", app_js)
+        self.assertNotIn('id="wechatInput"', index_html)
+        self.assertNotIn("订阅成功", app_js)
 
     def test_cloudflare_ai_binding_and_function_are_configured(self):
         config = json.loads(Path("wrangler.jsonc").read_text(encoding="utf-8"))
@@ -255,6 +275,7 @@ class BuildTests(unittest.TestCase):
         self.assertIn("观看完整视频", case_js)
         self.assertIn("data/case_collection_dates.json", case_js)
         self.assertIn("采集：${collectionDate}", case_js)
+        self.assertIn("https://ai-shengyi-jing.pages.dev/", case_js)
         self.assertNotIn("更新：${String(article.generatedAt)", case_js)
         self.assertIn(Path("case.html"), PUBLISH_PATHS)
         self.assertIn(Path("data/case_articles.json"), PUBLISH_PATHS)
@@ -278,6 +299,7 @@ class BuildTests(unittest.TestCase):
         self.assertIn("grid-template-columns: repeat(4", cases_css)
         self.assertIn("grid-template-columns: repeat(2", cases_css)
         self.assertIn("case.html?id=", cases_js)
+        self.assertIn("data/projects_index.json", cases_js)
         self.assertIn("project.niche", cases_js)
         for path in (
             Path("cases.html"),

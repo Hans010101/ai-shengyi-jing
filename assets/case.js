@@ -9,6 +9,27 @@ function appendText(parent, tag, text, className) {
 const caseI18n = typeof window !== 'undefined' ? window.SiteI18n : null;
 const isEnglishCase = () => caseI18n?.isEnglish() || false;
 const caseText = (zh, en) => caseI18n?.t(zh, en) ?? zh;
+const CANONICAL_SITE = 'https://ai-shengyi-jing.pages.dev/';
+
+function setMeta(selector, attribute, value) {
+  const element = document.querySelector(selector);
+  if (element) element.setAttribute(attribute, value);
+}
+
+function updateCaseMetadata(project, article) {
+  const canonical = new URL('case.html', CANONICAL_SITE);
+  canonical.search = '';
+  canonical.searchParams.set('id', project.id);
+  if (isEnglishCase()) canonical.searchParams.set('lang', 'en');
+  const title = `${article.title}｜${caseText('AI生意经', 'AI Business Insights')}`;
+  const description = String(article.dek || article.opening || '').replace(/\s+/g, ' ').trim().slice(0, 180);
+  setMeta('link[rel="canonical"]', 'href', canonical.href);
+  setMeta('meta[name="description"]', 'content', description);
+  setMeta('meta[property="og:title"]', 'content', title);
+  setMeta('meta[property="og:description"]', 'content', description);
+  setMeta('meta[property="og:url"]', 'content', canonical.href);
+  document.title = title;
+}
 
 function safeExternalUrl(value) {
   try {
@@ -123,6 +144,7 @@ function renderMedia(media, index) {
     image.src = mediaUrl;
     image.alt = isEnglishCase() ? 'Project product and operating visual' : (media.alt || media.caption || '项目相关图片');
     image.loading = 'lazy';
+    image.decoding = 'async';
     image.referrerPolicy = 'no-referrer';
     image.addEventListener('error', () => figure.remove());
     if (media.origin === 'source-attributed' && sourceUrl) {
@@ -163,6 +185,7 @@ function renderMedia(media, index) {
       posterImage.src = poster;
       posterImage.alt = isEnglishCase() ? 'Video cover' : (media.alt || media.caption || '视频封面');
       posterImage.loading = 'lazy';
+      posterImage.decoding = 'async';
       posterImage.referrerPolicy = 'no-referrer';
       posterImage.addEventListener('error', () => videoCard.classList.add('poster-unavailable'));
       videoCard.appendChild(posterImage);
@@ -408,7 +431,7 @@ function renderArticle(project, article, collectionDate) {
   appendText(conclusion, 'p', article.conclusion);
   root.appendChild(conclusion);
 
-  document.title = `${article.title}｜${caseText('AI生意经', 'AI Business Insights')}`;
+  updateCaseMetadata(project, article);
 }
 
 function renderAside(project, article) {
@@ -476,7 +499,7 @@ async function initCasePage() {
     let article = loadedArticle;
     let project = article?.project || findCuratedProject(projectId);
     if (!project) {
-      const projects = await fetchJsonIfAvailable('data/projects_live.json');
+      const projects = await fetchJsonIfAvailable('data/projects_index.json');
       if (!Array.isArray(projects)) throw new Error(caseText('项目数据加载失败', 'Project data could not be loaded'));
       project = projects.find(item => item.id === projectId) || null;
     }
@@ -498,4 +521,18 @@ async function initCasePage() {
   }
 }
 
-document.addEventListener('DOMContentLoaded', initCasePage);
+function setupReadingProgress() {
+  const bar = document.getElementById('readingProgressBar');
+  if (!bar) return;
+  const update = () => {
+    const maximum = document.documentElement.scrollHeight - window.innerHeight;
+    bar.style.transform = `scaleX(${maximum > 0 ? Math.min(1, window.scrollY / maximum) : 0})`;
+  };
+  window.addEventListener('scroll', update, { passive: true });
+  update();
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  setupReadingProgress();
+  initCasePage();
+});

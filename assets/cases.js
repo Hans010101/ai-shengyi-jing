@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   bindCaseDirectoryControls();
   readDirectoryStateFromUrl();
   try {
-    const response = await fetch('data/projects_live.json');
+    const response = await fetch('data/projects_index.json');
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const projects = await response.json();
     caseProjects = projects.map(normalizeCaseProject).filter(project => project.id);
@@ -43,10 +43,14 @@ function bindCaseDirectoryControls() {
   const clearButton = document.getElementById('caseSearchClear');
   const sortSelect = document.getElementById('caseSortSelect');
 
+  let searchTimer;
   searchInput.addEventListener('input', () => {
-    caseSearch = searchInput.value.trim();
-    casePage = 1;
-    renderCaseDirectory();
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => {
+      caseSearch = searchInput.value.trim();
+      casePage = 1;
+      renderCaseDirectory();
+    }, 150);
   });
   clearButton.addEventListener('click', () => {
     searchInput.value = '';
@@ -66,7 +70,12 @@ function readDirectoryStateFromUrl() {
   const params = new URLSearchParams(window.location.search);
   activeCategory = params.get('category') || '全部';
   caseSearch = params.get('q') || '';
+  caseSort = params.get('sort') || 'latest';
+  casePage = Math.max(1, Number(params.get('page')) || 1);
   document.getElementById('caseSearchInput').value = caseSearch;
+  const sortSelect = document.getElementById('caseSortSelect');
+  if ([...sortSelect.options].some(option => option.value === caseSort)) sortSelect.value = caseSort;
+  else caseSort = 'latest';
 }
 
 function normalizeCaseProject(project) {
@@ -89,10 +98,7 @@ function normalizeCaseProject(project) {
 }
 
 function parseRevenue(value) {
-  const match = String(value || '').replace(/,/g, '').match(/\$([\d.]+)\s*([KkMm]?)/);
-  if (!match) return 0;
-  const multiplier = match[2].toLowerCase() === 'm' ? 1000000 : match[2].toLowerCase() === 'k' ? 1000 : 1;
-  return Number(match[1]) * multiplier;
+  return directoryI18n?.monthlyRevenue(value) || 0;
 }
 
 function filteredCaseProjects() {
@@ -151,7 +157,7 @@ function renderCaseCategories() {
 function caseCardHtml(project) {
   const icon = CATEGORY_ICONS[project.category] || '💡';
   const visual = project.image
-    ? `<img src="${escapeAttr(project.image)}" alt="" loading="lazy" referrerpolicy="no-referrer">`
+    ? `<img src="${escapeAttr(project.image)}" alt="${escapeAttr(project.name)}" loading="lazy" decoding="async" width="640" height="360" referrerpolicy="no-referrer">`
     : `<span class="case-card-placeholder" aria-hidden="true">${icon}</span>`;
   const href = directoryI18n?.withLanguage(`case.html?id=${encodeURIComponent(project.id)}`) || `case.html?id=${encodeURIComponent(project.id)}`;
   const category = directoryI18n?.category(project.category) || project.category;
@@ -187,12 +193,14 @@ function renderCasePagination(totalItems, totalPages) {
 }
 
 function syncDirectoryUrl() {
-  const params = new URLSearchParams();
+  const params = new URLSearchParams(window.location.search);
+  ['category', 'q', 'sort', 'page'].forEach(key => params.delete(key));
   if (activeCategory !== '全部') params.set('category', activeCategory);
   if (caseSearch) params.set('q', caseSearch);
-  if (directoryI18n?.isEnglish()) params.set('lang', 'en');
-  const suffix = params.toString() ? `?${params.toString()}` : window.location.pathname;
-  window.history.replaceState(null, '', suffix);
+  if (caseSort !== 'latest') params.set('sort', caseSort);
+  if (casePage > 1) params.set('page', String(casePage));
+  const query = params.toString();
+  window.history.replaceState(null, '', `${window.location.pathname}${query ? `?${query}` : ''}`);
 }
 
 function escapeHtml(value) {

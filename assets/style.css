@@ -44,6 +44,22 @@ body {
   overflow-x: hidden;
 }
 
+.skip-link {
+  position: fixed;
+  top: 8px;
+  left: 12px;
+  z-index: 10000;
+  padding: 9px 14px;
+  color: #fff;
+  background: #0f172a;
+  border-radius: 8px;
+  text-decoration: none;
+  transform: translateY(-150%);
+}
+
+.skip-link:focus { transform: translateY(0); }
+:focus-visible { outline: 3px solid rgba(37, 99, 235, .65); outline-offset: 3px; }
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -268,6 +284,25 @@ body {
 
 .hero-subtitle strong { color: var(--text-primary); }
 
+.hero-search {
+  width: min(100%, 500px);
+  min-height: 52px;
+  margin: 0 0 10px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, .94);
+  border: 1px solid rgba(15, 23, 42, .12);
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, .08);
+}
+
+.hero-search > span { color: var(--accent-gold); font-size: 24px; }
+.hero-search input { width: 100%; border: 0; outline: 0; background: transparent; color: var(--text-primary); font: inherit; }
+.hero-search:focus-within { border-color: var(--accent-blue); box-shadow: 0 0 0 4px rgba(37, 99, 235, .1); }
+.hero-search-hint { min-height: 24px; margin-bottom: 10px; font-size: 13px; }
+
 /* CTA button row */
 .hero-cta-row {
   display: flex;
@@ -313,6 +348,8 @@ body {
   transition: var(--transition);
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
+
+.modal-loading { min-height: 320px; display: grid; place-items: center; color: var(--text-secondary); font-weight: 700; }
 
 .btn-hero-ghost:hover {
   border-color: var(--primary);

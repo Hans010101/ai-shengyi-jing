@@ -5,12 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI生意经 — 发现全球最赚钱的 AI 与数字生意</title>
   <meta name="description" content="精选全球 AI 前沿创业项目，以中国创业者视角深度拆解产品架构与商业闭环，帮你找到下一个月入万元的生意机会。">
+  <link rel="canonical" href="https://ai-shengyi-jing.pages.dev/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AI生意经 — 发现全球最赚钱的 AI 与数字生意">
+  <meta property="og:description" content="浏览数千个真实 AI 与数字生意案例，快速检索产品、营收、增长闭环与落地路径。">
+  <meta property="og:url" content="https://ai-shengyi-jing.pages.dev/">
+  <meta name="twitter:card" content="summary">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E💡%3C/text%3E%3C/svg%3E">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+<a class="skip-link" href="#main-content" data-zh="跳到主要内容" data-en="Skip to main content">跳到主要内容</a>
 
 <!-- =========== HEADER =========== -->
 <header class="site-header" id="site-header">
@@ -35,6 +40,8 @@
   </div>
 </header>
 
+<main id="main-content">
+
 <!-- =========== HERO =========== -->
 <section class="hero">
   <div class="hero-bg-grid"></div>
@@ -44,7 +51,7 @@
       <div class="hero-content">
         <div class="hero-badge" data-zh-template="全球 {count} 真实盈利项目大盘 · 实时监控更新" data-en-template="{count} proven businesses worldwide · continuously updated">
           <span class="badge-dot"></span>
-          全球 <span id="hero-badge-total">3,650+</span> 真实盈利项目大盘 · 实时监控更新
+          全球 <span id="hero-badge-total">…</span> 真实盈利项目大盘 · 实时监控更新
         </div>
         <h1 class="hero-title">
           <span data-zh="发现全球最赚钱的" data-en="Discover the world’s most profitable">发现全球最赚钱的</span><br>
@@ -54,6 +61,11 @@
           精选全球 AI 前沿创业项目，以<strong>中国创业者视角</strong>深度拆解商业闭环，
           找到你下一个可复制的生意机会。
         </p>
+        <label class="hero-search" for="searchInput">
+          <span aria-hidden="true">⌕</span>
+          <input type="search" id="searchInput" autocomplete="off" data-aria-zh="搜索项目名称、赛道或商业关键词" data-aria-en="Search businesses, categories, or keywords" aria-label="搜索项目名称、赛道或商业关键词" data-placeholder-zh="搜索项目名称、赛道或商业关键词" data-placeholder-en="Search businesses, categories, or keywords" placeholder="搜索项目名称、赛道或商业关键词">
+        </label>
+        <div id="searchResultHint" class="hero-search-hint" aria-live="polite"></div>
         <div class="hero-cta-row">
           <a href="#all-projects" class="btn-hero-primary" data-zh="🚀 浏览全量项目库" data-en="🚀 Explore all businesses">🚀 浏览全量项目库</a>
           <a href="#projects" class="btn-hero-ghost" data-zh="🔥 查看精选案例" data-en="🔥 View featured cases">🔥 查看精选案例</a>
@@ -131,16 +143,16 @@
 
         <div class="hero-map-metrics" aria-label="核心数据">
           <div class="hero-map-metric">
-            <span class="stat-number" id="statCuratedCount">15+</span>
-            <span class="stat-label" data-zh="深度拆解" data-en="Deep Dives">深度拆解</span>
+            <span class="stat-number">100%</span>
+            <span class="stat-label" data-zh="详情覆盖" data-en="Detail Coverage">详情覆盖</span>
           </div>
           <div class="hero-map-metric">
             <span class="stat-number" id="hero-total-number" data-target="0">0</span>
             <span class="stat-label" data-zh="全球案例" data-en="Global Cases">全球案例</span>
           </div>
           <div class="hero-map-metric">
-            <span class="stat-number">$3B+</span>
-            <span class="stat-label" data-zh="月营收追踪" data-en="Monthly Revenue Tracked">月营收追踪</span>
+            <span class="stat-number" data-zh="中英" data-en="ZH·EN">中英</span>
+            <span class="stat-label" data-zh="双语浏览" data-en="Bilingual">双语浏览</span>
           </div>
           <div class="hero-map-metric">
             <span class="stat-number" data-zh="每日" data-en="Daily">每日</span>
@@ -150,9 +162,6 @@
       </div>
     </div>
   </div>
-  <!-- Hidden search input kept for JS compatibility -->
-  <input type="text" id="searchInput" style="display:none;" autocomplete="off">
-  <div id="searchResultHint" style="display:none;"></div>
 </section>
 
 <!-- =========== FEATURED =========== -->
@@ -172,9 +181,9 @@
 <section class="all-projects-section" id="all-projects">
   <div class="container">
     <div class="section-header">
-      <h2 class="section-title"><span data-zh="📊 全量项目数据库" data-en="📊 Complete Business Database">📊 全量项目数据库</span> (<span id="totalDbCount">3,650个</span>)</h2>
+      <h2 class="section-title"><span data-zh="📊 全量项目数据库" data-en="📊 Complete Business Database">📊 全量项目数据库</span> (<span id="totalDbCount">…</span>)</h2>
       <div class="sort-controls">
-        <select id="sortSelect" class="sort-select">
+        <select id="sortSelect" class="sort-select" data-aria-zh="项目排序" data-aria-en="Sort businesses" aria-label="项目排序">
           <option value="date-desc" selected data-zh="📅 按最新更新时间" data-en="📅 Recently updated">📅 按最新更新时间</option>
           <option value="revenue-desc" data-zh="💰 按月收入从高到低" data-en="💰 Monthly revenue: high to low">💰 按月收入从高到低</option>
           <option value="revenue-asc" data-zh="📉 按月收入从低到高" data-en="📉 Monthly revenue: low to high">📉 按月收入从低到高</option>
@@ -270,7 +279,7 @@
         </div>
 
         <div class="radar-status-row" aria-hidden="true">
-          <span data-zh="↗ 今日新增 12" data-en="↗ 12 added today">↗ 今日新增 <strong>12</strong></span>
+          <span data-zh="↗ 自动同步 · 每日更新" data-en="↗ Auto-synced · Updated daily">↗ 自动同步 · 每日更新</span>
           <span data-zh="● 监控中" data-en="● Monitoring live"><i class="status-live-dot"></i> 监控中</span>
           <span data-zh="⌖ 中国适配" data-en="⌖ Localized insights">⌖ 中国适配</span>
         </div>
@@ -316,6 +325,8 @@
   </div>
 </section>
 
+</main>
+
 <!-- =========== FOOTER =========== -->
 <footer class="site-footer">
   <div class="container">
@@ -348,25 +359,22 @@
 </footer>
 
 <!-- =========== PROJECT MODAL =========== -->
-<div class="modal-overlay" id="modalOverlay">
+<div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" data-aria-zh="项目完整拆解" data-aria-en="Complete business case" aria-label="项目完整拆解">
   <div class="modal-container" id="modalContainer">
-    <button class="modal-close" id="modalClose">✕</button>
+    <button class="modal-close" id="modalClose" data-aria-zh="关闭项目详情" data-aria-en="Close case details" aria-label="关闭项目详情">✕</button>
     <div id="modalContent"></div>
   </div>
 </div>
 
 <!-- =========== SUBSCRIBE MODAL =========== -->
-<div class="subscribe-overlay" id="subscribeOverlay">
+<div class="subscribe-overlay" id="subscribeOverlay" role="dialog" aria-modal="true" aria-labelledby="subscribeTitle">
   <div class="subscribe-modal">
-    <button class="modal-close" id="subscribeClose">✕</button>
+    <button class="modal-close" id="subscribeClose" data-aria-zh="关闭订阅窗口" data-aria-en="Close subscription dialog" aria-label="关闭订阅窗口">✕</button>
     <div class="subscribe-icon">🔔</div>
-    <h3 data-zh="订阅 AI生意经" data-en="Subscribe to AI Business Insights">订阅 AI生意经</h3>
+    <h3 id="subscribeTitle" data-zh="订阅 AI生意经" data-en="Subscribe to AI Business Insights">订阅 AI生意经</h3>
     <p data-zh="每周精选全球热门 AI 生意案例，中国视角深度拆解系统架构与商业闭环，直达你的手机。" data-en="Get a weekly selection of global AI business cases with product, economics, and growth-loop analysis.">每周精选全球热门 AI 生意案例，中国视角深度拆解系统架构与商业闭环，直达你的手机。</p>
-    <div class="subscribe-form">
-      <input type="text" placeholder="你的微信号" data-placeholder-zh="你的微信号" data-placeholder-en="Your email or WeChat ID" class="sub-input" id="wechatInput">
-      <button class="btn-sub-submit" id="subSubmit" data-zh="立即订阅 →" data-en="Subscribe →">立即订阅 →</button>
-    </div>
-    <p class="sub-note" data-zh="已有 1,240+ 创业者订阅 · 随时可退订" data-en="Join 1,240+ builders · Unsubscribe anytime">已有 1,240+ 创业者订阅 · 随时可退订</p>
+    <div class="subscribe-form"><button class="btn-sub-submit" id="subSubmit" data-zh="我知道了" data-en="Got it">我知道了</button></div>
+    <p class="sub-note" data-zh="订阅通道正在筹备，当前不会收集联系方式。" data-en="The subscription channel is being prepared. We are not collecting contact details yet.">订阅通道正在筹备，当前不会收集联系方式。</p>
   </div>
 </div>
 
@@ -404,13 +412,13 @@
 </div>
 
 <!-- =========== LOCAL PROJECT LIBRARY =========== -->
-<div class="library-overlay" id="libraryOverlay" style="display:none;">
+<div class="library-overlay" id="libraryOverlay" role="dialog" aria-modal="true" aria-labelledby="libraryTitle" style="display:none;">
   <div class="library-modal">
-    <button class="modal-close" id="libraryClose">✕</button>
+    <button class="modal-close" id="libraryClose" data-aria-zh="关闭我的项目库" data-aria-en="Close My Library" aria-label="关闭我的项目库">✕</button>
     <div class="library-sidebar">
       <div class="library-heading">
         <div class="library-icon">📚</div>
-        <div class="library-title" data-zh="我的项目库" data-en="My Library">我的项目库</div>
+        <div class="library-title" id="libraryTitle" data-zh="我的项目库" data-en="My Library">我的项目库</div>
         <div class="library-note" data-zh="无需登录 · 保存在当前浏览器" data-en="No login · Saved in this browser">无需登录 · 保存在当前浏览器</div>
       </div>
       <nav class="library-nav">

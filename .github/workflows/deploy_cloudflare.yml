@@ -6,7 +6,11 @@ on:
       - main
     paths:
       - "index.html"
+      - "cases.html"
       - "case.html"
+      - "404.html"
+      - "_headers"
+      - "robots.txt"
       - "assets/**"
       - "data/**"
       - "functions/**"

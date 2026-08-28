@@ -5,6 +5,9 @@ let currentSort = 'date-desc';
 let currentPage = 1;
 const ITEMS_PER_PAGE = 9;
 let ALL_PROJECTS = []; // Holds normalized live database items
+const PROJECT_DETAIL_CACHE = new Map();
+let activeModalProjectId = '';
+let modalReturnFocus = null;
 const siteI18n = window.SiteI18n;
 const isEnglish = () => siteI18n?.isEnglish() === true;
 const ui = (zh, en) => siteI18n?.t(zh, en) || zh;
@@ -51,6 +54,7 @@ const CATEGORY_ALIASES = {
 document.addEventListener('DOMContentLoaded', () => {
   // 0. Initialize the login-free local favorites and history library.
   setupLocalLibrary();
+  readPageStateFromUrl();
 
   // 1. Initial render of static featured items
   renderFeatured();
@@ -58,8 +62,11 @@ document.addEventListener('DOMContentLoaded', () => {
   
   // 2. Fetch the database shipped with this exact deployment. Keeping code
   // and data in one immutable artifact avoids mixed GitHub/Cloudflare versions.
-  fetch('data/projects_live.json')
-    .then(r => r.json())
+  fetch('data/projects_index.json')
+    .then(r => {
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      return r.json();
+    })
     .then(data => {
       ALL_PROJECTS = data.map(p => normalizeProject(p));
       renderLocalFavorites();
@@ -67,8 +74,6 @@ document.addEventListener('DOMContentLoaded', () => {
       
       // Update dynamic total stats
       const totalCount = ALL_PROJECTS.length;
-      const heroBadgeTotal = document.getElementById('hero-badge-total');
-      if (heroBadgeTotal) heroBadgeTotal.innerText = totalCount.toLocaleString(locale()) + '+';
       const heroBadge = document.querySelector('.hero-badge');
       if (heroBadge) {
         const template = isEnglish() ? heroBadge.dataset.enTemplate : heroBadge.dataset.zhTemplate;
@@ -185,6 +190,7 @@ function renderProjects() {
       });
     }, 10);
   }
+  syncPageStateToUrl();
 }
 
 function renderPagination(totalItems, totalPages) {
@@ -208,17 +214,17 @@ function renderPagination(totalItems, totalPages) {
   }
 
   if (startPage > 1) {
-    pageNumsHtml += `<button class="page-num" onclick="goToPage(1)">1</button>`;
+    pageNumsHtml += `<button class="page-num" aria-label="${ui('第 1 页', 'Page 1')}" onclick="goToPage(1)">1</button>`;
     if (startPage > 2) pageNumsHtml += `<span class="page-ellipsis">...</span>`;
   }
 
   for (let i = startPage; i <= endPage; i++) {
-    pageNumsHtml += `<button class="page-num ${i === currentPage ? 'active' : ''}" onclick="goToPage(${i})">${i}</button>`;
+    pageNumsHtml += `<button class="page-num ${i === currentPage ? 'active' : ''}" ${i === currentPage ? 'aria-current="page"' : ''} aria-label="${ui(`第 ${i} 页`, `Page ${i}`)}" onclick="goToPage(${i})">${i}</button>`;
   }
 
   if (endPage < totalPages) {
     if (endPage < totalPages - 1) pageNumsHtml += `<span class="page-ellipsis">...</span>`;
-    pageNumsHtml += `<button class="page-num" onclick="goToPage(${totalPages})">${totalPages}</button>`;
+    pageNumsHtml += `<button class="page-num" aria-label="${ui(`第 ${totalPages} 页`, `Page ${totalPages}`)}" onclick="goToPage(${totalPages})">${totalPages}</button>`;
   }
 
   const prevDisabled = currentPage === 1 ? 'disabled' : '';
@@ -397,11 +403,12 @@ function setupSearch() {
                  p.category.some(c => c.toLowerCase().includes(q)) || 
                  p.tags.some(t => t.toLowerCase().includes(q));
         }).length;
+        const safeQuery = escapeHtml(currentSearch);
         
         if (hint) {
           hint.style.display = 'block';
           if (count > 0) {
-            hint.innerHTML = isEnglish() ? `🎯 Found <strong>${count}</strong> businesses matching “<strong>${currentSearch}</strong>” ↓` : `🎯 找到 <strong>${count}</strong> 个与 "<strong>${currentSearch}</strong>" 相关的项目 (点击直达结果) ↓`;
+            hint.innerHTML = isEnglish() ? `🎯 Found <strong>${count}</strong> businesses matching “<strong>${safeQuery}</strong>” ↓` : `🎯 找到 <strong>${count}</strong> 个与 “<strong>${safeQuery}</strong>” 相关的项目（点击查看）↓`;
             hint.style.color = '#e67e22';
             hint.style.cursor = 'pointer';
             hint.onclick = () => {
@@ -411,7 +418,7 @@ function setupSearch() {
               }
             };
           } else {
-            hint.innerHTML = isEnglish() ? `😔 No businesses match “<strong>${currentSearch}</strong>”. Try another keyword.` : `😔 没有找到与 "<strong>${currentSearch}</strong>" 匹配的项目，试试其他关键词？`;
+            hint.innerHTML = isEnglish() ? `😔 No businesses match “<strong>${safeQuery}</strong>”. Try another keyword.` : `😔 没有找到与 “<strong>${safeQuery}</strong>” 匹配的项目，试试其他关键词。`;
             hint.style.color = '#999';
             hint.style.cursor = 'default';
             hint.onclick = null;
@@ -448,22 +455,108 @@ function setupSort() {
   });
 }
 
-// =========== MODAL ===========
-function setupModal() {
-  document.getElementById('modalOverlay').addEventListener('click', e => {
-    if (e.target === document.getElementById('modalOverlay')) closeModal();
-  });
-  document.getElementById('modalClose').addEventListener('click', closeModal);
-  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+function readPageStateFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+  currentSearch = params.get('q') || '';
+  currentFilter = params.get('category') || 'all';
+  if (!['all', ...CATEGORIES.map(category => category.name)].includes(currentFilter)) currentFilter = 'all';
+  currentSort = params.get('sort') || 'date-desc';
+  currentPage = Math.max(1, Number(params.get('page')) || 1);
+  const searchInput = document.getElementById('searchInput');
+  const sortSelect = document.getElementById('sortSelect');
+  if (searchInput) searchInput.value = currentSearch;
+  if (sortSelect && [...sortSelect.options].some(option => option.value === currentSort)) {
+    sortSelect.value = currentSort;
+  } else {
+    currentSort = 'date-desc';
+  }
 }
 
-function openModal(id) {
-  const p = ALL_PROJECTS.find(x => x.id === id) || PROJECTS.find(x => x.id === id);
-  if (!p) return;
+function syncPageStateToUrl() {
+  const params = new URLSearchParams(window.location.search);
+  ['q', 'category', 'sort', 'page'].forEach(key => params.delete(key));
+  if (currentSearch) params.set('q', currentSearch);
+  if (currentFilter !== 'all') params.set('category', currentFilter);
+  if (currentSort !== 'date-desc') params.set('sort', currentSort);
+  if (currentPage > 1) params.set('page', String(currentPage));
+  const query = params.toString();
+  window.history.replaceState(null, '', `${window.location.pathname}${query ? `?${query}` : ''}${window.location.hash}`);
+}
 
-  // Track history
-  recordProjectHistory(p);
+// =========== MODAL ===========
+function setupModal() {
+  const overlay = document.getElementById('modalOverlay');
+  overlay.addEventListener('click', e => {
+    if (e.target === overlay) closeModal();
+  });
+  document.getElementById('modalClose').addEventListener('click', closeModal);
+  document.addEventListener('keydown', e => {
+    if (!overlay.classList.contains('open')) return;
+    if (e.key === 'Escape') closeModal();
+    if (e.key !== 'Tab') return;
+    const focusable = [...overlay.querySelectorAll('button, a[href], input, select, textarea, [tabindex]:not([tabindex="-1"])')]
+      .filter(element => !element.disabled && element.offsetParent !== null);
+    if (!focusable.length) return;
+    const first = focusable[0];
+    const last = focusable.at(-1);
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  });
+}
 
+async function loadProjectDetail(project) {
+  if (PROJECT_DETAIL_CACHE.has(project.id)) return PROJECT_DETAIL_CACHE.get(project.id);
+  try {
+    const response = await fetch(`data/case_articles/${encodeURIComponent(project.id)}.json`);
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const rawArticle = await response.json();
+    const article = isEnglish() && rawArticle.translations?.en
+      ? { ...rawArticle, ...rawArticle.translations.en }
+      : rawArticle;
+    const source = rawArticle.project || {};
+    const sections = Array.isArray(article.sections) ? article.sections : [];
+    const sectionText = pattern => {
+      const section = sections.find(item => pattern.test(`${item.kicker || ''} ${item.heading || ''}`));
+      return Array.isArray(section?.paragraphs) ? section.paragraphs.join('\n\n') : '';
+    };
+    const launchSection = sections.find(item => /验证|启动|落地|launch|validation|start/i.test(`${item.kicker || ''} ${item.heading || ''}`));
+    const detailed = {
+      ...project,
+      website: rawArticle.website || source.website || project.website,
+      insight: article.opening || source.description || project.insight,
+      businessModel: source.businessModel || sectionText(/商业模式|钱从哪里|定价|business model|pricing|revenue/i) || project.businessModel,
+      productArch: sectionText(/产品|交付|架构|product|delivery/i) || project.productArch,
+      businessLoop: sectionText(/增长|获客|闭环|growth|acquisition|retention/i) || project.businessLoop,
+      getStartedPath: Array.isArray(launchSection?.paragraphs) && launchSection.paragraphs.length
+        ? launchSection.paragraphs.slice(0, 3)
+        : project.getStartedPath,
+      chinaOpportunity: source.chinaOpportunity || sectionText(/中国|本土|市场|local|market/i) || project.chinaOpportunity
+    };
+    PROJECT_DETAIL_CACHE.set(project.id, detailed);
+    return detailed;
+  } catch (error) {
+    console.warn(`[WARN] Detail unavailable for ${project.id}; using index summary.`, error);
+    return project;
+  }
+}
+
+async function openModal(id) {
+  const project = ALL_PROJECTS.find(x => x.id === id) || PROJECTS.find(x => x.id === id);
+  if (!project) return;
+
+  recordProjectHistory(project);
+  activeModalProjectId = id;
+  modalReturnFocus = document.activeElement;
+  const overlay = document.getElementById('modalOverlay');
+  overlay.classList.add('open');
+  document.body.style.overflow = 'hidden';
+  document.getElementById('modalContent').innerHTML = `<div class="modal-loading" role="status">${ui('正在加载完整拆解…', 'Loading the complete case…')}</div>`;
+  document.getElementById('modalClose').focus();
+  const detailed = await loadProjectDetail(project);
+  if (activeModalProjectId === id && overlay.classList.contains('open')) renderProjectModal(detailed);
+}
+
+function renderProjectModal(p) {
   const content = document.getElementById('modalContent');
   const emojiAlpha = hexToRgba(p.heroColor, 0.08);
   const isFav = isProjectFavorited(p.id);
@@ -616,6 +709,9 @@ function switchTab(event, tabId) {
 function closeModal() {
   document.getElementById('modalOverlay').classList.remove('open');
   document.body.style.overflow = '';
+  activeModalProjectId = '';
+  if (modalReturnFocus instanceof HTMLElement) modalReturnFocus.focus();
+  modalReturnFocus = null;
 }
 
 // =========== SUBSCRIBE ===========
@@ -643,13 +739,10 @@ function setupSubscribe() {
   });
 
   document.getElementById('subSubmit').addEventListener('click', () => {
-    const val = document.getElementById('wechatInput').value.trim();
-    if (!val) return;
     document.getElementById('subscribeOverlay').classList.remove('open');
     document.body.style.overflow = '';
-    // Success feedback
     setTimeout(() => {
-      showToast('🎉 订阅成功！我们会通过微信联系你。');
+      showToast(ui('订阅通道准备中，本站当前不会收集你的联系方式。', 'Subscriptions are being prepared; no contact details are being collected yet.'));
     }, 300);
   });
 }
@@ -811,19 +904,8 @@ function normalizeProject(p) {
     };
   }
 
-  let rawRevenue = 0;
-  let revenueDisplay = p.revenue || '未披露';
-  if (p.revenue && typeof p.revenue === 'string') {
-    const cleanRev = p.revenue.replace(/,/g, '');
-    const numMatch = cleanRev.match(/\$([\d.]+)\s*([KkMm]?)/);
-    if (numMatch) {
-      let val = parseFloat(numMatch[1]);
-      let multiplier = numMatch[2].toLowerCase();
-      if (multiplier === 'k') val *= 1000;
-      else if (multiplier === 'm') val *= 1000000;
-      rawRevenue = val;
-    }
-  }
+  const rawRevenue = siteI18n?.monthlyRevenue(p.revenue) || 0;
+  const revenueDisplay = siteI18n?.monthlyRevenueDisplay(p.revenue) || p.revenue || ui('未披露', 'Not disclosed');
 
   let rawCost = 0;
   if (p.startupCost && typeof p.startupCost === 'string') {
@@ -857,7 +939,6 @@ function normalizeProject(p) {
     name: isEnglish() ? enTitle : cnTitle,
     nameZh: cnTitle,
     nameEn: enTitle,
-    sourceUrl: p.url || '',
     dateVal: dateVal,
     category: category,
     tags: tags,
@@ -927,7 +1008,8 @@ function setupAiAdvisor() {
     const typingId = appendMessage(ui('🤖 Cloudflare AI 正在结合项目大盘生成建议...', '🤖 Cloudflare AI is analyzing the business database...'), 'bot-msg');
 
     try {
-      const reply = await requestAdvisorResponse(text, matches);
+      const detailedMatches = await Promise.all(matches.map(loadProjectDetail));
+      const reply = await requestAdvisorResponse(text, detailedMatches);
       const typingEl = document.getElementById(typingId);
       if (typingEl) typingEl.remove();
       appendMessage(reply, 'bot-msg', matches);

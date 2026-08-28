@@ -1,0 +1,27 @@
+/
+  Cache-Control: public, max-age=0, must-revalidate
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+
+/assets/*
+  Cache-Control: public, max-age=3600, must-revalidate
+  X-Content-Type-Options: nosniff
+
+/data/projects_index.json
+  Cache-Control: public, max-age=1800, must-revalidate
+  X-Content-Type-Options: nosniff
+
+/data/case_articles/*
+  Cache-Control: public, max-age=86400, must-revalidate
+  X-Content-Type-Options: nosniff
+
+/data/case_collection_dates.json
+  Cache-Control: public, max-age=1800, must-revalidate
+  X-Content-Type-Options: nosniff
