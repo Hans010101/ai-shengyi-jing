@@ -1,5 +1,42 @@
 [
   {
+    "name": "EventCatalog",
+    "revenue": "$30K/mo",
+    "startupInfo": "eventcatalog.dev",
+    "url": "https://www.starterstory.com/businesses/eventcatalog",
+    "slug": "eventcatalog",
+    "image": "https://d1coqmn8qm80r4.cloudfront.net/bx41qvoiifaodp0xterx1cj1mu16",
+    "niche": "其他",
+    "id": "79cc9aaaa907",
+    "scrapedAt": "2026-08-29T16:52:28.332220",
+    "revenueDetail": "~$28K/mo",
+    "metaDesc": "EventCatalog is an open source tool that helps teams document, visualize, and discover their event-driven… — researched from public sources by Starter Story.",
+    "description": "EventCatalog is an open source tool that helps teams document, visualize, and discover their event-driven… — researched from public sources by Starter Story.",
+    "website": "https://eventcatalog.dev",
+    "nameZh": "事件目录平台",
+    "summary": "开源工具帮团队文档化、可视化事件驱动架构，月入3万美元。",
+    "insight": "核心洞察是事件驱动架构日益复杂，团队缺乏直观工具来管理和理解事件流。通过开源模式吸引开发者社区，建立信任和口碑，再通过托管服务盈利，形成社区驱动的增长飞轮。",
+    "businessModel": "采用开源核心+托管服务模式。基础功能免费，企业级功能（如高级可视化、权限管理、专属支持）收费。客户群体为采用事件驱动架构的技术团队，尤其是中大型企业的开发者和架构师。定价按团队规模或事件量订阅。",
+    "chinaOpportunity": "国内微服务、消息队列（如Kafka、RocketMQ）使用广泛，事件驱动架构需求增长，但缺乏成熟的文档化工具。可本土化，支持国内主流消息中间件，提供中文文档和社区，结合云服务（阿里云、腾讯云）集成。",
+    "productArch": "前端界面 ➔ 后端API（Node.js） ➔ 事件解析器 ➔ 可视化引擎 ➔ 存储（数据库/对象存储） ➔ 托管服务（可选）",
+    "businessLoop": "【引流】：开源社区、技术博客、GitHub ➔ 【产品】：免费开源工具，提供价值 ➔ 【变现】：引导至托管服务，提供企业功能，订阅付费",
+    "getStartedPath": [
+      "第一步：确定目标用户，如使用Kafka的Java团队。开发基础事件文档化功能，支持导入事件定义（如AsyncAPI）并生成可视化图谱。",
+      "第二步：开源项目，在GitHub、技术社区（如掘金、InfoQ）发布，收集反馈，优化体验。同时搭建官网，提供在线Demo。",
+      "第三步：推出托管版，提供团队协作、权限管理、监控告警等高级功能，设置免费试用和按量付费，通过社区口碑和内容营销持续获客。"
+    ],
+    "replicabilityScore": 7,
+    "difficulty": "中",
+    "tags": [
+      "开发者工具",
+      "开源",
+      "事件驱动",
+      "SaaS"
+    ],
+    "updatedAt": "2026-08-29",
+    "featured": false
+  },
+  {
     "name": "Reply",
     "revenue": "$200K/mo",
     "startupInfo": "reply.io",
