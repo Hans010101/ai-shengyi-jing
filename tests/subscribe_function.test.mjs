@@ -54,6 +54,30 @@ test('renders the welcome email in Chinese and English', () => {
   assert.match(welcomeEmail('en').text, /Explore the latest cases/);
 });
 
+test('falls back to the verified sender while the primary domain is pending', async () => {
+  const senders = [];
+  globalThis.fetch = async (_url, options) => {
+    if (options.method === 'GET') return new Response(null, { status: 404 });
+    const payload = JSON.parse(options.body || '{}');
+    if (payload.from) {
+      senders.push(payload.from);
+      return new Response(null, { status: senders.length === 1 ? 403 : 200 });
+    }
+    return new Response(null, { status: 200 });
+  };
+
+  const response = await onRequestPost({
+    request: request({ email: 'founder@example.com', consent: true }),
+    env
+  });
+
+  assert.equal(response.status, 200);
+  assert.deepEqual(senders, [
+    'AI 生意经 <newsletter@aishengyijing.asia>',
+    'AI 生意经 <ai-shengyi-jing@midastrade.asia>'
+  ]);
+});
+
 test('resubscribes an existing contact and keeps it in the segment', async () => {
   const methods = [];
   globalThis.fetch = async (_url, options) => {

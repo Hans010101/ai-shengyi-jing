@@ -4,6 +4,7 @@ const EDGEONE_ORIGIN = 'https://ai-shengyi-jing-cn-vfh61o1a.edgeone.dev';
 const MAX_BODY_BYTES = 2048;
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const WELCOME_FROM = 'AI 生意经 <newsletter@aishengyijing.asia>';
+const FALLBACK_WELCOME_FROM = 'AI 生意经 <ai-shengyi-jing@midastrade.asia>';
 
 function corsOrigin(request) {
   const origin = request.headers.get('Origin') || '';
@@ -102,7 +103,7 @@ async function welcomeIdempotencyKey(email) {
 
 async function sendWelcomeEmail(email, language, env) {
   const content = welcomeEmail(language);
-  await resend('/emails', {
+  const options = {
     method: 'POST',
     headers: { 'Idempotency-Key': await welcomeIdempotencyKey(email) },
     body: JSON.stringify({
@@ -112,7 +113,17 @@ async function sendWelcomeEmail(email, language, env) {
       html: content.html,
       text: content.text
     })
-  }, env.RESEND_API_KEY);
+  };
+  try {
+    await resend('/emails', options, env.RESEND_API_KEY);
+  } catch (error) {
+    if (!/failed with (400|403|422)$/.test(error instanceof Error ? error.message : '')) throw error;
+    const payload = JSON.parse(options.body);
+    await resend('/emails', {
+      ...options,
+      body: JSON.stringify({ ...payload, from: FALLBACK_WELCOME_FROM })
+    }, env.RESEND_API_KEY);
+  }
 }
 
 async function upsertSubscriber(email, language, env) {
