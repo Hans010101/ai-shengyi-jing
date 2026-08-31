@@ -252,6 +252,7 @@ class BuildTests(unittest.TestCase):
         self.assertIn("'/api/advisor'", app_js)
         self.assertNotIn('id="wechatInput"', index_html)
         self.assertIn('id="subscribeForm"', index_html)
+        self.assertIn('name="website" type="text" tabindex="-1" autocomplete="off" aria-hidden="true" hidden', index_html)
         self.assertIn("'/api/subscribe'", app_js)
 
     def test_cloudflare_ai_binding_and_function_are_configured(self):

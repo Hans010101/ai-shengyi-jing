@@ -376,7 +376,7 @@
     <form class="subscribe-form" id="subscribeForm" novalidate>
       <label class="sub-email-label" for="subEmail" data-zh="邮箱地址" data-en="Email address">邮箱地址</label>
       <input class="sub-input" id="subEmail" name="email" type="email" required maxlength="254" inputmode="email" autocomplete="email" data-placeholder-zh="name@example.com" data-placeholder-en="name@example.com" placeholder="name@example.com" data-aria-zh="邮箱地址" data-aria-en="Email address" aria-label="邮箱地址">
-      <input class="subscribe-honeypot" name="website" type="text" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <input name="website" type="text" tabindex="-1" autocomplete="off" aria-hidden="true" hidden>
       <button class="btn-sub-submit" id="subSubmit" type="submit" data-zh="免费订阅" data-en="Subscribe free">免费订阅</button>
       <p class="sub-status" id="subStatus" role="status" aria-live="polite"></p>
     </form>

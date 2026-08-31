@@ -1777,13 +1777,6 @@ body {
 
 .btn-sub-submit:disabled { cursor: wait; opacity: 0.65; transform: none; }
 
-.subscribe-honeypot {
-  position: absolute;
-  left: -10000px;
-  width: 1px;
-  height: 1px;
-}
-
 .subscribe-modal .sub-status {
   min-height: 22px;
   margin: 0;
