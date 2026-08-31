@@ -8,6 +8,7 @@ let ALL_PROJECTS = []; // Holds normalized live database items
 const PROJECT_DETAIL_CACHE = new Map();
 let activeModalProjectId = '';
 let modalReturnFocus = null;
+let subscribeReturnFocus = null;
 const siteI18n = window.SiteI18n;
 const isEnglish = () => siteI18n?.isEnglish() === true;
 const ui = (zh, en) => siteI18n?.t(zh, en) || zh;
@@ -716,34 +717,82 @@ function closeModal() {
 
 // =========== SUBSCRIBE ===========
 function setupSubscribe() {
-  document.getElementById('subscribeBtn').addEventListener('click', () => {
-    document.getElementById('subscribeOverlay').classList.add('open');
-    document.body.style.overflow = 'hidden';
-  });
+  const overlay = document.getElementById('subscribeOverlay');
+  const form = document.getElementById('subscribeForm');
+  const email = document.getElementById('subEmail');
+  const submit = document.getElementById('subSubmit');
+  const status = document.getElementById('subStatus');
+  const endpoint = window.location.hostname.endsWith('.edgeone.dev')
+    ? 'https://ai-shengyi-jing.pages.dev/api/subscribe'
+    : '/api/subscribe';
 
-  document.getElementById('radarBtn').addEventListener('click', () => {
-    document.getElementById('subscribeOverlay').classList.add('open');
+  const open = event => {
+    subscribeReturnFocus = event.currentTarget;
+    form.reset();
+    status.textContent = '';
+    status.className = 'sub-status';
+    overlay.classList.add('open');
     document.body.style.overflow = 'hidden';
-  });
+    requestAnimationFrame(() => email.focus());
+  };
 
-  document.getElementById('subscribeClose').addEventListener('click', () => {
-    document.getElementById('subscribeOverlay').classList.remove('open');
+  const close = () => {
+    overlay.classList.remove('open');
     document.body.style.overflow = '';
+    if (subscribeReturnFocus instanceof HTMLElement) subscribeReturnFocus.focus();
+    subscribeReturnFocus = null;
+  };
+
+  document.getElementById('subscribeBtn').addEventListener('click', open);
+  document.getElementById('radarBtn').addEventListener('click', open);
+  document.getElementById('subscribeClose').addEventListener('click', close);
+
+  overlay.addEventListener('click', event => {
+    if (event.target === overlay) close();
   });
 
-  document.getElementById('subscribeOverlay').addEventListener('click', e => {
-    if (e.target === document.getElementById('subscribeOverlay')) {
-      document.getElementById('subscribeOverlay').classList.remove('open');
-      document.body.style.overflow = '';
+  document.addEventListener('keydown', event => {
+    if (!overlay.classList.contains('open')) return;
+    if (event.key === 'Escape') close();
+    if (event.key !== 'Tab') return;
+    const focusable = [...overlay.querySelectorAll('button, input:not([tabindex="-1"])')]
+      .filter(element => !element.disabled && element.offsetParent !== null);
+    const first = focusable[0];
+    const last = focusable.at(-1);
+    if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+    else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+  });
+
+  form.addEventListener('submit', async event => {
+    event.preventDefault();
+    if (!form.reportValidity()) return;
+
+    submit.disabled = true;
+    submit.textContent = ui('订阅中…', 'Subscribing…');
+    status.textContent = ui('正在保存你的订阅…', 'Saving your subscription…');
+    status.className = 'sub-status';
+    try {
+      const response = await fetch(endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          email: email.value,
+          website: form.elements.website.value,
+          consent: true
+        })
+      });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      form.reset();
+      status.textContent = ui('订阅成功！下一期 AI 生意经会发到你的邮箱。', 'You are subscribed. The next AI Business Insights digest will arrive by email.');
+      status.className = 'sub-status success';
+    } catch (error) {
+      console.warn('[WARN] Subscription failed.', error);
+      status.textContent = ui('暂时无法完成订阅，请稍后再试。', 'We could not complete your subscription. Please try again shortly.');
+      status.className = 'sub-status error';
+    } finally {
+      submit.disabled = false;
+      submit.textContent = ui('免费订阅', 'Subscribe free');
     }
-  });
-
-  document.getElementById('subSubmit').addEventListener('click', () => {
-    document.getElementById('subscribeOverlay').classList.remove('open');
-    document.body.style.overflow = '';
-    setTimeout(() => {
-      showToast(ui('订阅通道准备中，本站当前不会收集你的联系方式。', 'Subscriptions are being prepared; no contact details are being collected yet.'));
-    }, 300);
   });
 }
 

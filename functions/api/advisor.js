@@ -16,9 +16,9 @@ function jsonResponse(body, status = 200) {
   });
 }
 
-async function readBoundedBody(request) {
+async function readBoundedBody(request, maxBytes = MAX_BODY_BYTES) {
   const declaredLength = Number(request.headers.get('Content-Length') || 0);
-  if (declaredLength > MAX_BODY_BYTES) {
+  if (declaredLength > maxBytes) {
     throw new PayloadTooLargeError('Request body is too large');
   }
   if (!request.body) {
@@ -33,7 +33,7 @@ async function readBoundedBody(request) {
     const { done, value } = await reader.read();
     if (done) break;
     totalBytes += value.byteLength;
-    if (totalBytes > MAX_BODY_BYTES) {
+    if (totalBytes > maxBytes) {
       await reader.cancel();
       throw new PayloadTooLargeError('Request body is too large');
     }
@@ -234,7 +234,9 @@ export async function onRequestPost(context) {
 
 export {
   MODEL,
+  PayloadTooLargeError,
   PROXY_MAX_CLOCK_SKEW_SECONDS,
+  readBoundedBody,
   signedPayload,
   verifyEdgeOneProxy
 };

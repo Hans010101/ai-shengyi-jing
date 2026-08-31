@@ -1735,7 +1735,9 @@ body {
   margin-bottom: 28px;
 }
 
-.subscribe-form { display: flex; flex-direction: column; gap: 12px; margin-bottom: 16px; }
+.subscribe-form { display: flex; flex-direction: column; gap: 12px; margin-bottom: 16px; text-align: left; }
+
+.sub-email-label { color: var(--text-primary); font-size: 14px; font-weight: 700; }
 
 .sub-input {
   background: #f8fafc;
@@ -1773,7 +1775,28 @@ body {
 
 .btn-sub-submit:hover { opacity: 0.9; transform: translateY(-1px); }
 
-.sub-note { font-size: 13px; color: var(--text-muted); }
+.btn-sub-submit:disabled { cursor: wait; opacity: 0.65; transform: none; }
+
+.subscribe-honeypot {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+}
+
+.subscribe-modal .sub-status {
+  min-height: 22px;
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.subscribe-modal .sub-status.success { color: #047857; }
+.subscribe-modal .sub-status.error { color: #b91c1c; }
+
+.subscribe-modal .sub-note { margin: 0; font-size: 13px; color: var(--text-muted); }
 
 /* =========== ANIMATIONS =========== */
 @keyframes fadeInDown {
@@ -1847,6 +1870,8 @@ body {
 }
 
 @media (max-width: 600px) {
+  .subscribe-modal { padding: 42px 22px 28px; }
+  .subscribe-icon { font-size: 40px; margin-bottom: 14px; }
   .featured-grid, .projects-grid { grid-template-columns: 1fr; }
   .categories-grid { grid-template-columns: repeat(2, 1fr); }
   .footer-grid { grid-template-columns: 1fr; }

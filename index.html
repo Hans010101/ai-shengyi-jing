@@ -372,9 +372,15 @@
     <button class="modal-close" id="subscribeClose" data-aria-zh="关闭订阅窗口" data-aria-en="Close subscription dialog" aria-label="关闭订阅窗口">✕</button>
     <div class="subscribe-icon">🔔</div>
     <h3 id="subscribeTitle" data-zh="订阅 AI生意经" data-en="Subscribe to AI Business Insights">订阅 AI生意经</h3>
-    <p data-zh="每周精选全球热门 AI 生意案例，中国视角深度拆解系统架构与商业闭环，直达你的手机。" data-en="Get a weekly selection of global AI business cases with product, economics, and growth-loop analysis.">每周精选全球热门 AI 生意案例，中国视角深度拆解系统架构与商业闭环，直达你的手机。</p>
-    <div class="subscribe-form"><button class="btn-sub-submit" id="subSubmit" data-zh="我知道了" data-en="Got it">我知道了</button></div>
-    <p class="sub-note" data-zh="订阅通道正在筹备，当前不会收集联系方式。" data-en="The subscription channel is being prepared. We are not collecting contact details yet.">订阅通道正在筹备，当前不会收集联系方式。</p>
+    <p data-zh="每周精选全球热门 AI 生意案例，用中国视角拆解产品、收入与增长闭环。" data-en="Get a weekly selection of global AI business cases with product, economics, and growth-loop analysis.">每周精选全球热门 AI 生意案例，用中国视角拆解产品、收入与增长闭环。</p>
+    <form class="subscribe-form" id="subscribeForm" novalidate>
+      <label class="sub-email-label" for="subEmail" data-zh="邮箱地址" data-en="Email address">邮箱地址</label>
+      <input class="sub-input" id="subEmail" name="email" type="email" required maxlength="254" inputmode="email" autocomplete="email" data-placeholder-zh="name@example.com" data-placeholder-en="name@example.com" placeholder="name@example.com" data-aria-zh="邮箱地址" data-aria-en="Email address" aria-label="邮箱地址">
+      <input class="subscribe-honeypot" name="website" type="text" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="btn-sub-submit" id="subSubmit" type="submit" data-zh="免费订阅" data-en="Subscribe free">免费订阅</button>
+      <p class="sub-status" id="subStatus" role="status" aria-live="polite"></p>
+    </form>
+    <p class="sub-note" data-zh="每周最多 1 封，可随时退订。邮箱仅用于 AI 生意经更新。" data-en="At most one email per week. Unsubscribe anytime. Your email is used only for AI Business Insights updates.">每周最多 1 封，可随时退订。邮箱仅用于 AI 生意经更新。</p>
   </div>
 </div>
 
