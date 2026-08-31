@@ -778,12 +778,16 @@ function setupSubscribe() {
         body: JSON.stringify({
           email: email.value,
           website: form.elements.website.value,
-          consent: true
+          consent: true,
+          language: isEnglish() ? 'en' : 'zh'
         })
       });
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const result = await response.json();
       form.reset();
-      status.textContent = ui('订阅成功！下一期 AI 生意经会发到你的邮箱。', 'You are subscribed. The next AI Business Insights digest will arrive by email.');
+      status.textContent = result.welcomeSent
+        ? ui('订阅成功！欢迎邮件已发送，请查收。', 'You are subscribed. A welcome email is on its way.')
+        : ui('这个邮箱已经订阅，无需重复操作。', 'This email is already subscribed.');
       status.className = 'sub-status success';
     } catch (error) {
       console.warn('[WARN] Subscription failed.', error);

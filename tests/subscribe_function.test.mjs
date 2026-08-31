@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 
-import { EDGEONE_ORIGIN, onRequestOptions, onRequestPost } from '../functions/api/subscribe.js';
+import { EDGEONE_ORIGIN, onRequestOptions, onRequestPost, welcomeEmail } from '../functions/api/subscribe.js';
 
 const originalFetch = globalThis.fetch;
 const env = { RESEND_API_KEY: 're_test', RESEND_SEGMENT_ID: 'segment_test' };
@@ -16,7 +16,7 @@ function request(body, origin = 'https://ai-shengyi-jing.pages.dev') {
 
 test.afterEach(() => { globalThis.fetch = originalFetch; });
 
-test('creates a normalized contact in the configured Resend segment', async () => {
+test('welcomes a new subscriber before creating the normalized contact', async () => {
   const calls = [];
   globalThis.fetch = async (url, options) => {
     calls.push([url, options]);
@@ -24,19 +24,34 @@ test('creates a normalized contact in the configured Resend segment', async () =
   };
 
   const response = await onRequestPost({
-    request: request({ email: ' Founder@Example.com ', consent: true, website: '' }),
+    request: request({ email: ' Founder@Example.com ', consent: true, website: '', language: 'en' }),
     env
   });
 
   assert.equal(response.status, 200);
-  assert.equal(calls.length, 2);
+  assert.deepEqual(await response.json(), { ok: true, welcomeSent: true });
+  assert.equal(calls.length, 3);
   assert.equal(calls[0][0], 'https://api.resend.com/contacts/founder%40example.com');
-  assert.deepEqual(JSON.parse(calls[1][1].body), {
+  assert.equal(calls[1][0], 'https://api.resend.com/emails');
+  const welcome = JSON.parse(calls[1][1].body);
+  assert.equal(welcome.from, 'AI 生意经 <ai-shengyi-jing@midastrade.asia>');
+  assert.deepEqual(welcome.to, ['founder@example.com']);
+  assert.equal(welcome.subject, 'Welcome to AI Business Insights — subscription confirmed');
+  assert.match(calls[1][1].headers['Idempotency-Key'], /^welcome-[a-f0-9]{64}$/);
+  assert.match(welcome.html, /Explore the latest cases/);
+  assert.equal(calls[2][0], 'https://api.resend.com/contacts');
+  assert.deepEqual(JSON.parse(calls[2][1].body), {
     email: 'founder@example.com',
     unsubscribed: false,
     segments: [{ id: 'segment_test' }]
   });
-  assert.equal(calls[1][1].headers.Authorization, 'Bearer re_test');
+  assert.equal(calls[2][1].headers.Authorization, 'Bearer re_test');
+});
+
+test('renders the welcome email in Chinese and English', () => {
+  assert.match(welcomeEmail('zh').subject, /欢迎订阅 AI 生意经/);
+  assert.match(welcomeEmail('zh').html, /ai-shengyi-jing-cn-vfh61o1a\.edgeone\.dev/);
+  assert.match(welcomeEmail('en').text, /Explore the latest cases/);
 });
 
 test('resubscribes an existing contact and keeps it in the segment', async () => {
@@ -52,6 +67,7 @@ test('resubscribes an existing contact and keeps it in the segment', async () =>
   });
 
   assert.equal(response.status, 200);
+  assert.deepEqual(await response.json(), { ok: true, welcomeSent: false });
   assert.deepEqual(methods, ['GET', 'PATCH', 'POST']);
 });
 
