@@ -3,7 +3,7 @@ import { PayloadTooLargeError, readBoundedBody } from './advisor.js';
 const EDGEONE_ORIGIN = 'https://ai-shengyi-jing-cn-vfh61o1a.edgeone.dev';
 const MAX_BODY_BYTES = 2048;
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-const WELCOME_FROM = 'AI 生意经 <ai-shengyi-jing@midastrade.asia>';
+const WELCOME_FROM = 'AI 生意经 <newsletter@aishengyijing.asia>';
 
 function corsOrigin(request) {
   const origin = request.headers.get('Origin') || '';
@@ -43,8 +43,8 @@ async function resend(path, options, apiKey, allowedStatuses = []) {
 function welcomeEmail(language) {
   const english = language === 'en';
   const siteUrl = english
-    ? 'https://ai-shengyi-jing.pages.dev/?lang=en'
-    : 'https://ai-shengyi-jing-cn-vfh61o1a.edgeone.dev/';
+    ? 'https://aishengyijing.asia/?lang=en'
+    : 'https://aishengyijing.asia/';
   const copy = english ? {
     subject: 'Welcome to AI Business Insights — subscription confirmed',
     preheader: 'Your subscription is confirmed. Expect at most one curated update per week.',

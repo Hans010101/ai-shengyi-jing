@@ -34,7 +34,7 @@ test('welcomes a new subscriber before creating the normalized contact', async (
   assert.equal(calls[0][0], 'https://api.resend.com/contacts/founder%40example.com');
   assert.equal(calls[1][0], 'https://api.resend.com/emails');
   const welcome = JSON.parse(calls[1][1].body);
-  assert.equal(welcome.from, 'AI 生意经 <ai-shengyi-jing@midastrade.asia>');
+  assert.equal(welcome.from, 'AI 生意经 <newsletter@aishengyijing.asia>');
   assert.deepEqual(welcome.to, ['founder@example.com']);
   assert.equal(welcome.subject, 'Welcome to AI Business Insights — subscription confirmed');
   assert.match(calls[1][1].headers['Idempotency-Key'], /^welcome-[a-f0-9]{64}$/);
@@ -50,7 +50,7 @@ test('welcomes a new subscriber before creating the normalized contact', async (
 
 test('renders the welcome email in Chinese and English', () => {
   assert.match(welcomeEmail('zh').subject, /欢迎订阅 AI 生意经/);
-  assert.match(welcomeEmail('zh').html, /ai-shengyi-jing-cn-vfh61o1a\.edgeone\.dev/);
+  assert.match(welcomeEmail('zh').html, /https:\/\/aishengyijing\.asia\//);
   assert.match(welcomeEmail('en').text, /Explore the latest cases/);
 });
 

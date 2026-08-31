@@ -9,7 +9,7 @@ function appendText(parent, tag, text, className) {
 const caseI18n = typeof window !== 'undefined' ? window.SiteI18n : null;
 const isEnglishCase = () => caseI18n?.isEnglish() || false;
 const caseText = (zh, en) => caseI18n?.t(zh, en) ?? zh;
-const CANONICAL_SITE = 'https://ai-shengyi-jing.pages.dev/';
+const CANONICAL_SITE = 'https://aishengyijing.asia/';
 
 function setMeta(selector, attribute, value) {
   const element = document.querySelector(selector);

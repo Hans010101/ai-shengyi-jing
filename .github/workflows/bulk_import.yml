@@ -87,5 +87,5 @@ jobs:
           echo "=========================================="
           echo "  ✅ 批次 ${{ inputs.batch_num }} 执行完毕"
           echo "  📊 数据库当前总计: $TOTAL 个项目"
-          echo "  🔗 网站: https://ai-shengyi-jing.pages.dev"
+          echo "  🔗 网站: https://aishengyijing.asia"
           echo "=========================================="

@@ -235,7 +235,7 @@ def run_controller(start_batch=1, max_batches=37):
                     if remaining == 0:
                         print("\n" + "="*65)
                         print("  🎉🎉🎉 全量迁移完成！所有项目已导入！")
-                        print("  🌐 网站: https://ai-shengyi-jing.pages.dev")
+                        print("  🌐 网站: https://aishengyijing.asia")
                         print("="*65)
                         return
 

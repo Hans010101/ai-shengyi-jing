@@ -290,7 +290,7 @@ class BuildTests(unittest.TestCase):
         self.assertIn("观看完整视频", case_js)
         self.assertIn("data/case_collection_dates.json", case_js)
         self.assertIn("采集：${collectionDate}", case_js)
-        self.assertIn("https://ai-shengyi-jing.pages.dev/", case_js)
+        self.assertIn("https://aishengyijing.asia/", case_js)
         self.assertNotIn("更新：${String(article.generatedAt)", case_js)
         self.assertIn(Path("case.html"), PUBLISH_PATHS)
         self.assertIn(Path("data/case_articles.json"), PUBLISH_PATHS)

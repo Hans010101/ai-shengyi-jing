@@ -9,10 +9,11 @@
 | GitHub 仓库 | `Hans010101/ai-shengyi-jing` |
 | 默认/生产分支 | `main` |
 | Cloudflare Pages 项目 | `ai-shengyi-jing` |
-| 生产地址 | `https://ai-shengyi-jing.pages.dev` |
+| 主站地址 | `https://aishengyijing.asia` |
+| Cloudflare 备用地址 | `https://ai-shengyi-jing.pages.dev` |
 | EdgeOne Makers 项目 | `ai-shengyi-jing-cn` |
 | EdgeOne 试运行区域 | 全球可用区（不含中国大陆） |
-| 自定义域 | 暂无 |
+| 自定义域 | `aishengyijing.asia` |
 | Pages Git 直连 | 未启用 |
 | 发布方式 | GitHub Actions + Wrangler |
 | 公共发布目录 | `dist/`（两个平台共用） |

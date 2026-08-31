@@ -60,7 +60,7 @@ PROJECT_INDEX_FIELDS = (
     "updatedAt",
     "scrapedAt",
 )
-SITE_URL = "https://ai-shengyi-jing.pages.dev"
+SITE_URL = "https://aishengyijing.asia"
 
 
 def public_output_paths() -> tuple[Path, ...]:

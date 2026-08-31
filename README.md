@@ -2,7 +2,8 @@
 
 发现全球可验证的盈利项目，以中国创业者视角拆解产品架构、商业闭环和落地路径。
 
-- 生产站点：<https://ai-shengyi-jing.pages.dev>
+- 主站：<https://aishengyijing.asia>
+- Cloudflare 备用地址：<https://ai-shengyi-jing.pages.dev>
 - 国内镜像项目：EdgeOne Makers `ai-shengyi-jing-cn`
 - 托管平台：Cloudflare Pages + EdgeOne Makers
 - 生产分支：`main`
