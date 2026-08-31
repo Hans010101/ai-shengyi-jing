@@ -1,5 +1,41 @@
 [
   {
+    "name": "Teamcamp",
+    "revenue": "$4K/mo",
+    "startupInfo": "teamcamp.app",
+    "url": "https://www.starterstory.com/businesses/teamcamp",
+    "slug": "teamcamp",
+    "image": "https://d1coqmn8qm80r4.cloudfront.net/yyci0c9v5990in7jajcexu42snpy",
+    "niche": "其他",
+    "id": "faa2d0393ea4",
+    "scrapedAt": "2026-08-31T19:14:38.604137",
+    "revenueDetail": "~$4K/mo",
+    "metaDesc": "Teamcamp is a lean, opinionated project management tool designed to simplify team and client collaboration… — researched from public sources by Starter Story.",
+    "description": "Teamcamp is a lean, opinionated project management tool designed to simplify team and client collaboration… — researched from public sources by Starter Story.",
+    "website": "https://teamcamp.app",
+    "nameZh": "团队营地",
+    "summary": "轻量级项目管理工具，专注团队与客户协作。",
+    "insight": "成功在于聚焦小团队协作痛点，提供简洁直观的界面和客户参与功能，避免功能臃肿，快速获得用户认可。",
+    "businessModel": "按月订阅收费，提供免费试用，客户为小型团队和自由职业者。",
+    "chinaOpportunity": "国内小团队协作需求大，但工具多偏重复杂。可本土化集成微信/钉钉通知，提供中文界面和国内云存储。",
+    "productArch": "前端界面 ➔ 后端服务 ➔ 数据库 ➔ 通知模块 ➔ 支付网关",
+    "businessLoop": "【引流】：内容营销和口碑 ➔ 【产品】：免费试用 ➔ 【变现】：订阅付费 ➔ 【留存】：持续更新和客户支持",
+    "getStartedPath": [
+      "第一步：调研目标用户，确定核心功能，如任务管理、客户共享。",
+      "第二步：开发MVP，使用现成框架（如React+Node.js），快速上线。",
+      "第三步：通过社交媒体和行业社区推广，收集反馈迭代，设置订阅收费。"
+    ],
+    "replicabilityScore": 7,
+    "difficulty": "中",
+    "tags": [
+      "项目管理",
+      "SaaS",
+      "协作工具"
+    ],
+    "updatedAt": "2026-08-31",
+    "featured": false
+  },
+  {
     "name": "XmartClock",
     "revenue": "$7K/mo",
     "startupInfo": "xmartclock.com",
