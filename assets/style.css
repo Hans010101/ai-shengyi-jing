@@ -1353,6 +1353,7 @@ body {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   gap: 48px;
+  padding-inline: 60px;
   margin-bottom: 48px;
 }
 
@@ -1392,6 +1393,7 @@ body {
 
 .footer-bottom {
   border-top: 1px solid var(--border);
+  margin-inline: 60px;
   padding-top: 24px;
   text-align: center;
   color: var(--text-muted);
@@ -1867,7 +1869,8 @@ body {
   .subscribe-icon { font-size: 40px; margin-bottom: 14px; }
   .featured-grid, .projects-grid { grid-template-columns: 1fr; }
   .categories-grid { grid-template-columns: repeat(2, 1fr); }
-  .footer-grid { grid-template-columns: 1fr; }
+  .footer-grid { grid-template-columns: 1fr; padding-inline: 24px; }
+  .footer-bottom { margin-inline: 24px; }
   .hero-title { font-size: 28px; letter-spacing: -0.5px; }
   .hero {
     padding: 96px 0 46px;
