@@ -1,5 +1,41 @@
 [
   {
+    "name": "Baremetrics",
+    "revenue": "$100K/mo",
+    "startupInfo": "baremetrics.com",
+    "url": "https://www.starterstory.com/businesses/baremetrics",
+    "slug": "baremetrics",
+    "image": "https://d1coqmn8qm80r4.cloudfront.net/5j0rwtbjib09j835if469n000hpt",
+    "niche": "其他",
+    "id": "492f2b8f6f7e",
+    "scrapedAt": "2026-09-01T05:12:15.371942",
+    "revenueDetail": "~$100K/mo",
+    "metaDesc": "Baremetrics provides real-time subscription analytics and metrics for SaaS and subscription businesses by… — researched from public sources by Starter Story.",
+    "description": "Baremetrics provides real-time subscription analytics and metrics for SaaS and subscription businesses by… — researched from public sources by Starter Story.",
+    "website": "https://baremetrics.com",
+    "nameZh": "订阅生意仪表盘",
+    "summary": "为SaaS提供实时订阅分析，帮助优化营收。",
+    "insight": "核心洞察是SaaS公司缺乏对订阅数据的深度理解，Baremetrics通过连接支付平台，提供清晰、实时的订阅指标，帮助客户降低流失、提升收入。其成功在于解决了一个普遍且高价值的痛点，并以简单易用的方式呈现复杂数据。",
+    "businessModel": "按订阅收费，提供不同版本（如基础版、专业版、企业版），定价基于月经常性收入（MRR）或功能需求。客户群体为SaaS和订阅制企业，尤其是使用Stripe等支付平台的公司。",
+    "chinaOpportunity": "国内SaaS及订阅制服务（如知识付费、会员制电商）同样需要精细化运营，但缺乏类似工具。可本土化落地，对接微信支付、支付宝、招商银行等，提供订阅分析、流失预警、LTV计算等功能，并适配国内私域流量运营模式。",
+    "productArch": "用户授权支付平台（如Stripe） ➔ 后端定时同步订阅数据 ➔ 数据清洗与指标计算 ➔ 前端可视化仪表盘 ➔ 异常警报与报告导出",
+    "businessLoop": "【引流】：通过内容营销（博客、SEO）吸引SaaS创始人 ➔ 【产品】：免费试用仪表盘，展示核心指标价值 ➔ 【变现】：按MRR规模分级订阅，提供高级功能（如预测、细分） ➔ 【留存】：持续更新功能，提供客户成功支持，定期发送报告",
+    "getStartedPath": [
+      "第一步：明确目标客户，选择垂直领域（如SaaS或会员制电商），调研其订阅数据需求和现有工具痛点。",
+      "第二步：开发MVP，对接主流支付平台（国内为微信/支付宝），实现核心订阅指标（MRR、流失率、LTV）的可视化。",
+      "第三步：通过内容营销（如撰写SaaS运营指南）和免费试用吸引客户，收集反馈迭代，并推出付费版本。"
+    ],
+    "replicabilityScore": 7,
+    "difficulty": "中",
+    "tags": [
+      "SaaS",
+      "订阅分析",
+      "数据可视化"
+    ],
+    "updatedAt": "2026-09-01",
+    "featured": false
+  },
+  {
     "name": "Teamcamp",
     "revenue": "$4K/mo",
     "startupInfo": "teamcamp.app",
