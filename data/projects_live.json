@@ -1,5 +1,43 @@
 [
   {
+    "name": "Supermeme",
+    "revenue": "$1K/mo",
+    "startupInfo": "supermeme.ai",
+    "url": "https://www.starterstory.com/businesses/supermeme",
+    "slug": "supermeme",
+    "image": "https://d1coqmn8qm80r4.cloudfront.net/w6j64o56w5k41tths9ax0xtp3h71",
+    "niche": "其他",
+    "id": "e035e9a33360",
+    "scrapedAt": "2026-09-02T04:37:07.790184",
+    "revenueDetail": "~$1.3K/mo",
+    "metaDesc": "SuperMeme.ai is an AI-powered meme generator app that creates memes from text input. — researched from public sources by Starter Story.",
+    "description": "SuperMeme.ai is an AI-powered meme generator app that creates memes from text input. — researched from public sources by Starter Story.",
+    "website": "https://supermeme.ai",
+    "nameZh": "AI迷因工坊",
+    "summary": "AI生成梗图，轻松传播，小成本高回报。",
+    "insight": "梗图是互联网通用语言，SuperMeme抓住用户快速制作趣味图片的需求，利用AI降低创作门槛，让不会设计的人也能轻松产出高质量梗图，满足社交分享和营销需求。",
+    "businessModel": "订阅制，免费试用生成带水印的低质图，付费解锁高清无水印及更多模板。目标用户包括社交媒体运营者、内容创作者、营销人员及普通网友。",
+    "chinaOpportunity": "国内社交平台活跃，梗图文化浓厚，但缺乏简单易用的AI梗图工具。可结合国内流行热梗、表情包文化，提供本土化模板，并接入微信、微博等分享渠道，甚至结合电商营销场景。",
+    "productArch": "用户输入文本 ➔ 前端界面 ➔ 后端API ➔ 大模型生成梗图 ➔ 图像处理 ➔ 支付/订阅模块 ➔ 输出下载/分享",
+    "businessLoop": "【引流】：SEO关键词、社交媒体内容营销（展示搞笑梗图） ➔ 【产品】：网页/小程序输入文字生成梗图 ➔ 【变现】：免费试用付费订阅，或按张付费 ➔ 【留存】：每日更新模板、用户社区分享，鼓励UGC传播。",
+    "getStartedPath": [
+      "第一步：确定目标用户和场景，如微博、微信表情包用户。收集国内热门梗和模板，建立素材库。",
+      "第二步：开发简单易用的网页或小程序，调用现有AI生图API（如DALL-E），实现文字转梗图功能，并设置水印和免费/付费功能。",
+      "第三步：通过社交媒体发布生成的趣味梗图引流，提供免费试用吸引用户，结合会员订阅或单次付费盈利，根据反馈迭代模板和功能。"
+    ],
+    "replicabilityScore": 8,
+    "difficulty": "低",
+    "tags": [
+      "AI生成",
+      "梗图",
+      "内容创作",
+      "SaaS",
+      "社交媒体"
+    ],
+    "updatedAt": "2026-09-02",
+    "featured": false
+  },
+  {
     "name": "Baremetrics",
     "revenue": "$100K/mo",
     "startupInfo": "baremetrics.com",
