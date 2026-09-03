@@ -1,5 +1,43 @@
 [
   {
+    "name": "Visualizee.ai",
+    "revenue": "$10K/mo",
+    "startupInfo": "visualizee.ai",
+    "url": "https://www.starterstory.com/businesses/visualizee-ai",
+    "slug": "visualizee-ai",
+    "image": "https://d1coqmn8qm80r4.cloudfront.net/p2r3chah4kl3irtds3esao5mlt2w",
+    "niche": "其他",
+    "id": "7c01de10f046",
+    "scrapedAt": "2026-09-03T04:35:38.951440",
+    "revenueDetail": "~$10K/mo",
+    "metaDesc": "Visualizee.ai is an AI-powered rendering tool that creates photorealistic visualizations from sketches, ph… — researched from public sources by Starter Story.",
+    "description": "Visualizee.ai is an AI-powered rendering tool that creates photorealistic visualizations from sketches, ph… — researched from public sources by Starter Story.",
+    "website": "https://visualizee.ai",
+    "nameZh": "草图渲染AI",
+    "summary": "用AI将草图快速转为逼真效果图，服务建筑与室内设计。",
+    "insight": "核心洞察是设计师需要快速可视化想法，传统渲染耗时且技术门槛高。Visualizee.ai通过AI简化流程，降低使用门槛，让非专业人士也能生成高质量效果图，从而满足市场对高效、低成本可视化工具的需求。",
+    "businessModel": "采用订阅制收费，按渲染次数或功能分级，如基础版每月$10，专业版$30。主要客户为建筑师、室内设计师、房地产营销人员及DIY爱好者。通过提供免费试用吸引用户，然后转化为付费订阅。",
+    "chinaOpportunity": "国内建筑与室内设计行业庞大，存在大量可视化需求。可推出类似工具，结合国内设计软件（如酷家乐）或BIM平台，提供本土化服务，如中文界面、国内规范支持，并通过与装修公司、房地产商合作推广。",
+    "productArch": "草图上传 ➔ 前端预览 ➔ 后端图像处理 ➔ AI模型渲染（如Stable Diffusion） ➔ 后处理优化 ➔ 结果下载 ➔ 支付/订阅模块",
+    "businessLoop": "【引流】：通过设计社区（如知乎、小红书）分享效果图案例 ➔ 【产品】：提供免费在线试用，用户上传草图体验AI渲染 ➔ 【变现】：设置每月渲染次数限制，引导用户升级付费订阅，或提供额外高级功能（如高清导出、批量处理）",
+    "getStartedPath": [
+      "第一步：开发基础AI渲染功能，利用开源模型（如Stable Diffusion）进行微调，实现草图到效果图的核心转换，并搭建简单Web界面。",
+      "第二步：创建演示视频和案例，在建筑/设计类社交媒体（如B站、抖音）发布，吸引种子用户，并收集反馈优化模型。",
+      "第三步：推出订阅计划，提供免费试用次数，并针对高频用户推出付费套餐；同时与设计院校、小型设计工作室合作，获取早期付费客户。"
+    ],
+    "replicabilityScore": 7,
+    "difficulty": "中",
+    "tags": [
+      "AI",
+      "建筑",
+      "室内设计",
+      "SaaS",
+      "图像生成"
+    ],
+    "updatedAt": "2026-09-03",
+    "featured": false
+  },
+  {
     "name": "ColinGraves.com",
     "revenue": "$10K/mo",
     "startupInfo": "colingraves.com",
