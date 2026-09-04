@@ -1,5 +1,41 @@
 [
   {
+    "name": "Paku",
+    "revenue": "$2K/mo",
+    "startupInfo": "paku.app",
+    "url": "https://www.starterstory.com/businesses/paku",
+    "slug": "paku",
+    "image": "https://d1coqmn8qm80r4.cloudfront.net/fgrk3a6l0mid0gm1fqop41i6evg0",
+    "niche": "其他",
+    "id": "12c5ec5dc0c9",
+    "scrapedAt": "2026-09-04T04:36:39.306130",
+    "revenueDetail": "~$2.5K/mo",
+    "metaDesc": "Paku is a native weather and air-quality app that provides real-time air quality data from PurpleAir senso… — researched from public sources by Starter Story.",
+    "description": "Paku is a native weather and air-quality app that provides real-time air quality data from PurpleAir senso… — researched from public sources by Starter Story.",
+    "website": "https://paku.app",
+    "nameZh": "空气卫士",
+    "summary": "实时空气质量监测应用，满足健康生活需求。",
+    "insight": "Paku成功在于精准切入健康生活趋势，利用PurpleAir传感器数据，提供实时、本地化的空气质量信息，解决用户对空气污染的担忧，并通过简洁易用的界面和个性化建议增强粘性。",
+    "businessModel": "采用免费增值模式，基础功能免费，高级功能（如历史数据、多地点监测、健康建议）通过订阅付费。目标客户为关注健康的城市居民、户外运动爱好者、过敏人群及家长。",
+    "chinaOpportunity": "中国空气污染问题受到广泛关注，公众对空气质量需求强烈。可整合国内官方及民间传感器数据（如生态环境部、蔚蓝地图），结合本地化健康指导，与智能家居联动。",
+    "productArch": "数据采集（PurpleAir API） ➔ 数据处理（Python清洗） ➔ 后端服务（Node.js） ➔ 前端展示（React Native） ➔ 用户订阅（支付模块）",
+    "businessLoop": "【引流】：社交媒体健康内容 ➔ 【产品】：App提供实时空气质量及健康建议 ➔ 【变现】：高级订阅及智能硬件合作",
+    "getStartedPath": [
+      "第一步：调研国内空气质量数据源（如官方API、第三方传感器），确定数据获取方式。",
+      "第二步：开发MVP，实现地图展示和基本空气质量指数，集成健康建议。",
+      "第三步：通过健康类社群推广，收集反馈，迭代优化，并推出订阅功能。"
+    ],
+    "replicabilityScore": 7,
+    "difficulty": "中",
+    "tags": [
+      "健康",
+      "空气质量",
+      "移动应用"
+    ],
+    "updatedAt": "2026-09-04",
+    "featured": false
+  },
+  {
     "name": "Visualizee.ai",
     "revenue": "$10K/mo",
     "startupInfo": "visualizee.ai",
