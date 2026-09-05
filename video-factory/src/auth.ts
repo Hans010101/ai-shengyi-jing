@@ -60,3 +60,14 @@ export async function verifyDeviceSession(token: string, secret: string, now = D
     return false;
   }
 }
+
+export async function signInternalAsset(path: string, secret: string) {
+  const signature = new Uint8Array(await crypto.subtle.sign('HMAC', await hmacKey(secret), encoder.encode(`asset:${path}`)));
+  return toBase64Url(signature);
+}
+
+export async function verifyInternalAsset(path: string, signature: string, secret: string) {
+  if (!path || !signature || !secret) return false;
+  try { return crypto.subtle.verify('HMAC', await hmacKey(secret), fromBase64Url(signature), encoder.encode(`asset:${path}`)); }
+  catch { return false; }
+}

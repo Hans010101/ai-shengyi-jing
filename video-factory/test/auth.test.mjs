@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { issueDeviceSession, normalizeActivationCode, sha256Hex, verifyAdminKey, verifyDeviceSession } from '../src/auth.ts';
+import { issueDeviceSession, normalizeActivationCode, sha256Hex, signInternalAsset, verifyAdminKey, verifyDeviceSession, verifyInternalAsset } from '../src/auth.ts';
 
 test('activation codes normalize without weakening their value', () => {
   assert.equal(normalizeActivationCode('ab12-cd34 ef56'), 'AB12CD34EF56');
@@ -24,4 +24,12 @@ test('device sessions are signed, expire, and reject tampering', async () => {
   assert.equal(await verifyDeviceSession(token, 'other-secret', now + 30_000), false);
   assert.equal(await verifyDeviceSession(`${token}x`, 'test-secret', now + 30_000), false);
   assert.equal(await verifyDeviceSession(token, 'test-secret', now + 61_000), false);
+});
+
+test('generated media URLs use scoped signatures instead of exposing the internal token', async () => {
+  const path = 'job-id/comic-01.jpg';
+  const signature = await signInternalAsset(path, 'internal-secret');
+  assert.equal(await verifyInternalAsset(path, signature, 'internal-secret'), true);
+  assert.equal(await verifyInternalAsset('other/comic-01.jpg', signature, 'internal-secret'), false);
+  assert.doesNotMatch(signature, /internal-secret/);
 });
