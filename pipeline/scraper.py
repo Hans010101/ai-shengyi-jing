@@ -232,6 +232,27 @@ def scrape_sitemap_businesses():
         )
     return projects
 
+
+def discover_projects():
+    """Use either healthy source; never report an outage as zero new projects."""
+    sources = {}
+    errors = {}
+    for name, fetch in (("listing", scrape_listing_page), ("sitemap", scrape_sitemap_businesses)):
+        try:
+            sources[name] = fetch()
+        except (RuntimeError, requests.RequestException, ET.ParseError, OSError) as error:
+            errors[name] = str(error)
+            print(f"[WARN] {name} unavailable: {error}")
+    if not sources:
+        raise RuntimeError(f"All discovery sources failed: {errors}")
+    projects = merge_projects([*sources.get("listing", []), *sources.get("sitemap", [])], [])
+    return projects, {
+        "status": "degraded" if errors else "healthy",
+        "listingProjects": len(sources.get("listing", [])),
+        "sitemapBusinesses": len(sources.get("sitemap", [])),
+        "sourceErrors": errors,
+    }
+
 def parse_detail_html(html):
     """Extract stable public metadata from a Starter Story business page."""
     soup = BeautifulSoup(html, "html.parser")
@@ -426,17 +447,13 @@ def run_pipeline():
     save_seen_ids(seen_ids)
     print(f"[INFO] Already seen: {len(seen_ids)} projects")
 
-    listing_projects = scrape_listing_page()
-    sitemap_projects = scrape_sitemap_businesses()
-    projects = merge_projects([*listing_projects, *sitemap_projects], [])
+    projects, source_health = discover_projects()
     new_projects = find_new_projects(projects, existing)
     print(f"[INFO] New projects: {len(new_projects)}")
 
     health = {
         "checkedAt": datetime.datetime.now(datetime.timezone.utc).isoformat(),
-        "status": "healthy",
-        "listingProjects": len(listing_projects),
-        "sitemapBusinesses": len(sitemap_projects),
+        **source_health,
         "discoveredProjects": len(projects),
         "newProjects": len(new_projects),
         "databaseProjects": len(existing),

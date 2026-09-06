@@ -7,6 +7,11 @@ from urllib.parse import urlparse
 
 
 CHINESE_RE = re.compile(r"[\u4e00-\u9fff]")
+BAD_MEDIA_TEXT = re.compile(
+    r"hubspot|tool[- ]?icon|youtube[- ]?(?:icon|logo)|"
+    r"(?:icon|logo)[- ]?youtube|starter-avatar|5 stars",
+    re.I,
+)
 DETAIL_FIELDS = (
     "summary",
     "insight",

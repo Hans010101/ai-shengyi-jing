@@ -7,12 +7,17 @@ import argparse
 import datetime
 import json
 import re
+import sys
 from collections import Counter
 from pathlib import Path
 from urllib.parse import urlparse
 
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
+
+from pipeline.content_quality import BAD_MEDIA_TEXT  # noqa: E402
+
 PROJECTS_FILE = ROOT / "data" / "projects_live.json"
 ARTICLES_DIR = ROOT / "data" / "case_articles"
 REPORT_FILE = ROOT / "pipeline" / "data" / "case_catalog_report.json"
@@ -22,11 +27,6 @@ GENERIC_MEDIA_LABELS = (
     "项目公开展示素材",
     "公开案例主图",
     "项目相关公开视频",
-)
-BAD_MEDIA_TEXT = re.compile(
-    r"hubspot|tool[- ]?icon|youtube[- ]?(?:icon|logo)|"
-    r"(?:icon|logo)[- ]?youtube|starter-avatar|5 stars",
-    re.I,
 )
 
 

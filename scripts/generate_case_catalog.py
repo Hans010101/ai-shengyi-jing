@@ -16,6 +16,7 @@ import functools
 import hashlib
 import json
 import re
+import sys
 import threading
 import time
 from collections import Counter
@@ -27,6 +28,10 @@ from bs4 import BeautifulSoup
 
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
+
+from pipeline.content_quality import BAD_MEDIA_TEXT  # noqa: E402
+
 PROJECTS_FILE = ROOT / "data" / "projects_live.json"
 LEGACY_ARTICLES_FILE = ROOT / "data" / "case_articles.json"
 ARTICLES_DIR = ROOT / "data" / "case_articles"
@@ -41,13 +46,12 @@ GENERIC_CAPTION_MARKERS = (
     "项目相关公开视频",
 )
 BAD_IMAGE_TEXT = re.compile(
-    r"hubspot|tool[- ]?icon|youtube[- ]?(?:icon|logo)|"
-    r"(?:icon|logo)[- ]?youtube|avatar|5 stars|starter-avatar",
+    BAD_MEDIA_TEXT.pattern + r"|avatar",
     re.I,
 )
 OFFICIAL_BAD_MEDIA_TEXT = re.compile(
-    r"\b(?:logo|icon|favicon|avatar|portrait|headshot|badge|rating|stars?|"
-    r"testimonial|signature|emoji|sprite|trust[-_ ]?logo|customer[-_ ]?logo)\b|"
+    r"(?<![a-z0-9])(?:logos?|icons?|favicon|avatar|portrait|headshot|badge|rating|stars?|"
+    r"testimonial|signature|emoji|sprite|trust[-_ ]?logo|customer[-_ ]?logo)(?![a-z0-9])|"
     r"simpleicons\.org|producthunt\.com/widgets|facebook\.com/tr|"
     r"/customers?/|/platform/.+logo",
     re.I,
@@ -449,6 +453,7 @@ def official_image_score(element, image_url: str, is_social_image: bool = False)
     text = " ".join((direct_text, heading_text))
     if (
         parsed.scheme not in {"http", "https"}
+        or BAD_MEDIA_TEXT.search(" ".join((image_url, alt, title)))
         or OFFICIAL_BAD_MEDIA_TEXT.search(text)
         or parsed.path.lower().endswith(".svg")
         or re.search(
@@ -901,6 +906,10 @@ def ensure_visual_media(
     seen = set()
     for item in media:
         if item.get("type") == "infographic":
+            continue
+        # Apply the same gate as publication before filling gaps with diagrams.
+        media_text = " ".join(str(item.get(key, "")) for key in ("url", "alt", "caption"))
+        if BAD_MEDIA_TEXT.search(media_text):
             continue
         if item.get("type") == "video":
             poster = urlparse(clean_text(item.get("poster"), 2_000))

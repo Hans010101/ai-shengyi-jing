@@ -28,6 +28,9 @@ jobs:
       - name: Install dependencies
         run: pip install requests beautifulsoup4 openai
 
+      - name: Test ingestion safeguards
+        run: python3 -m unittest discover -s tests -p 'test_ingestion.py' -v
+
       - name: Run scraper
         env:
           CLOUDFLARE_EDITORIAL_ENDPOINT: https://ai-shengyi-jing.pages.dev/api/editorial
@@ -62,3 +65,30 @@ jobs:
             git pull --rebase origin main
             git push origin main
           fi
+
+      - name: Write run summary
+        if: always()
+        env:
+          RUN_STATUS: ${{ job.status }}
+        run: |
+          echo "## Daily collection: $RUN_STATUS" >> "$GITHUB_STEP_SUMMARY"
+          for report in pipeline/data/scrape_health.json pipeline/data/case_catalog_report.json; do
+            if [ -f "$report" ]; then
+              echo "### $report (check the report timestamp)" >> "$GITHUB_STEP_SUMMARY"
+              echo '```json' >> "$GITHUB_STEP_SUMMARY"
+              cat "$report" >> "$GITHUB_STEP_SUMMARY"
+              echo '```' >> "$GITHUB_STEP_SUMMARY"
+            fi
+          done
+
+      - name: Preserve failed collection for diagnosis
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: failed-collection-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 7
+          path: |
+            pipeline/data/scrape_health.json
+            pipeline/data/case_catalog_report.json
+            data/projects_live.json
+            data/case_articles/
