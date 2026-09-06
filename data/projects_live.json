@@ -1,5 +1,43 @@
 [
   {
+    "name": "PostPlanify",
+    "revenue": "$4K/mo",
+    "startupInfo": "postplanify.com",
+    "url": "https://www.starterstory.com/businesses/postplanify",
+    "slug": "postplanify",
+    "image": "https://d1coqmn8qm80r4.cloudfront.net/39ne3n038swin4ut8yaaagydwc1k",
+    "niche": "其他",
+    "id": "9385df2c6483",
+    "scrapedAt": "2026-09-06T15:47:31.753521",
+    "revenueDetail": "~$3.5K/mo",
+    "metaDesc": "PostPlanify is a social media management tool that helps agencies and brands schedule posts, track analyti… — researched from public sources by Starter Story.",
+    "description": "PostPlanify is a social media management tool that helps agencies and brands schedule posts, track analyti… — researched from public sources by Starter Story.",
+    "website": "https://postplanify.com",
+    "nameZh": "PostPlanify社媒管理",
+    "summary": "面向代理和品牌的社媒排期与分析工具，月入4千美元。",
+    "insight": "成功源于为代理机构提供高效管理多账户的痛点解决方案，通过自动化排期和集中分析提升效率，核心洞察是中小代理需要轻量级、易用的工具来节省时间。",
+    "businessModel": "采用订阅制，按月或年收费，提供不同功能层级（如基础版、专业版、团队版）以覆盖不同规模客户，客户主要为社媒代理、自由职业者和中小品牌。",
+    "chinaOpportunity": "国内有类似需求，如多平台内容管理、数据分析，但竞争激烈。可本土化结合微信、抖音、小红书等平台，提供中文界面和符合国内习惯的功能，如一键分发、竞品监控、KOL合作管理，并注重移动端体验。",
+    "productArch": "用户注册/登录 ➔ 绑定社媒账号（API） ➔ 内容创作与排期（前端拖拽） ➔ 后端调度（Python/Node） ➔ 定时发布（API调用） ➔ 数据抓取与分析 ➔ 可视化报表展示",
+    "businessLoop": "【引流】：SEO优化、内容营销、免费试用 ➔ 【产品】：社媒排期和分析工具，解决效率问题 ➔ 【变现】：订阅付费，升级解锁高级功能，如多账户、详细分析、团队协作",
+    "getStartedPath": [
+      "第一步：选择细分市场（如美业、电商），调研其社媒管理痛点，确定核心功能（如排期、分析），并规划MVP。",
+      "第二步：开发MVP，接入主流平台API（如抖音、小红书），实现排期和基础分析，并设计简洁的UI。",
+      "第三步：上线并推广，通过免费试用、行业KOL合作、社群营销吸引首批用户，收集反馈迭代，并设置订阅模式。"
+    ],
+    "replicabilityScore": 7,
+    "difficulty": "中",
+    "tags": [
+      "SaaS",
+      "社媒管理",
+      "自动化",
+      "数据分析",
+      "订阅制"
+    ],
+    "updatedAt": "2026-09-06",
+    "featured": false
+  },
+  {
     "name": "Tangle",
     "revenue": "$80K/mo",
     "startupInfo": "readtangle.com",
