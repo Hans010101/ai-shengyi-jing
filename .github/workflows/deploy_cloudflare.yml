@@ -25,6 +25,7 @@ on:
       - "scripts/generate_case_catalog.py"
       - "scripts/validate_data.py"
       - "scripts/validate_case_catalog.py"
+      - "scripts/check_automation.py"
       - ".github/workflows/deploy_cloudflare.yml"
   workflow_run:
     workflows:
@@ -45,6 +46,7 @@ jobs:
       github.event_name != 'workflow_run' ||
       github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     permissions:
       contents: read
       deployments: write
@@ -136,3 +138,6 @@ jobs:
           --area overseas
           --token "$EDGEONE_API_TOKEN"
           --json
+
+      - name: Verify published version, project index and bilingual case detail
+        run: python3 scripts/check_automation.py --verify-deployment

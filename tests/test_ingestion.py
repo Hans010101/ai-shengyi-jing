@@ -1,9 +1,16 @@
 """Regression checks for the September 6 collection failure and source outages."""
 
 import unittest
+import json
+import tempfile
+from pathlib import Path
 from unittest.mock import patch
 
+from pipeline import scraper
 from pipeline.scraper import discover_projects
+from scripts.check_automation import recovery_action, verify_site
+from scripts.build_site import build_project_index
+from scripts import generate_case_catalog as catalog
 from scripts.generate_case_catalog import (
     build_structured_article,
     ensure_visual_media,
@@ -84,6 +91,102 @@ class DiscoveryResilienceTests(unittest.TestCase):
             self.assertEqual(projects, [listing, extra])
             self.assertEqual(health["status"], "healthy")
             self.assertEqual(health["sourceErrors"], {})
+
+
+class UnattendedRecoveryTests(unittest.TestCase):
+    analysis = {
+        "nameZh": "测试产品", "summary": "测试摘要", "insight": "产品洞察",
+        "businessModel": "订阅服务", "chinaOpportunity": "本土分析",
+        "productArch": "输入处理交付", "businessLoop": "获客使用付费",
+        "getStartedPath": ["验证需求", "搭建原型", "验证付费"],
+    }
+
+    def test_ai_retries_then_uses_next_configured_provider(self):
+        with patch.object(scraper, "DEEPSEEK_API_KEY", "configured"), \
+             patch.object(scraper, "GEMINI_API_KEY", "configured"), \
+             patch.object(scraper, "call_deepseek", return_value={}) as primary, \
+             patch.object(scraper, "call_gemini", return_value={**self.analysis, "id": "malicious"}), \
+             patch.object(scraper.time, "sleep"):
+            result = scraper.generate_chinese_analysis({"id": "original"})
+            self.assertEqual(primary.call_count, 2)
+            self.assertEqual(result, self.analysis)
+
+    def test_missing_keys_never_publish_placeholder_analysis(self):
+        with patch.object(scraper, "DEEPSEEK_API_KEY", ""), \
+             patch.object(scraper, "GEMINI_API_KEY", ""), \
+             patch.object(scraper, "OPENAI_API_KEY", ""):
+            with self.assertRaises(RuntimeError):
+                scraper.generate_chinese_analysis({"id": "new"})
+
+    def test_bad_project_is_retained_and_recovered_even_after_leaving_listing(self):
+        good = {"id": "good", "name": "Good", "revenue": "$1K/mo"}
+        bad = {"id": "bad", "name": "Bad", "revenue": "$2K/mo"}
+        health = {"status": "healthy", "sourceErrors": {}}
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            with patch.object(scraper, "DATA_DIR", root), \
+                 patch.object(scraper, "SEEN_FILE", root / "seen.json"), \
+                 patch.object(scraper, "PENDING_FILE", root / "pending.json"), \
+                 patch.object(scraper, "HEALTH_FILE", root / "health.json"), \
+                 patch.object(scraper, "OUTPUT_FILE", root / "projects.json"), \
+                 patch.object(scraper, "discover_projects", return_value=([good, bad], health)) as discover, \
+                 patch.object(scraper, "generate_chinese_analysis", side_effect=[self.analysis, RuntimeError("API outage")]) as analyze, \
+                 patch.object(scraper, "generate_content_drafts"), \
+                 patch.object(scraper.time, "sleep"):
+                scraper.run_pipeline()
+                self.assertEqual(json.loads((root / "pending.json").read_text())[0]["id"], "bad")
+                self.assertEqual(json.loads((root / "seen.json").read_text()), ["good"])
+                report = json.loads((root / "health.json").read_text())
+                self.assertEqual((report["databaseProjects"], report["pendingProjects"]), (1, 1))
+                self.assertEqual(report["status"], "degraded")
+                discover.return_value = ([], health)
+                analyze.side_effect = [self.analysis]
+                scraper.run_pipeline()
+                self.assertEqual(json.loads((root / "pending.json").read_text()), [])
+                self.assertEqual(len(json.loads((root / "projects.json").read_text())), 2)
+                report = json.loads((root / "health.json").read_text())
+                self.assertEqual((report["databaseProjects"], report["status"], report["phase"]), (2, "healthy", "complete"))
+
+    def test_retry_is_bounded_and_does_not_override_active_or_newer_success(self):
+        failed = {"status": "completed", "conclusion": "failure", "run_attempt": 1}
+        self.assertEqual(recovery_action([failed])[0], "retry")
+        self.assertEqual(recovery_action([{**failed, "run_attempt": 3}])[0], "alert")
+        self.assertEqual(recovery_action([{**failed, "status": "in_progress"}])[0], "wait")
+        self.assertEqual(recovery_action([{**failed, "conclusion": "success"}, failed])[0], "ok")
+        self.assertEqual(recovery_action([{**failed, "conclusion": "cancelled"}])[0], "alert")
+
+    def test_bad_new_article_is_quarantined_without_removing_historical_cases(self):
+        projects = [{"id": "old"}, {"id": "new"}, {"id": "good"}]
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            articles = root / "articles"
+            articles.mkdir()
+            for project in projects:
+                (articles / f"{project['id']}.json").write_text("{}")
+            with patch.object(catalog, "ROOT", root), \
+                 patch.object(catalog, "PROJECTS_FILE", root / "projects.json"), \
+                 patch.object(catalog, "ARTICLES_DIR", articles), \
+                 patch("scripts.validate_case_catalog.validate", return_value=({}, ["new: invalid media", "old: existing problem"])):
+                catalog.isolate_new_failures(projects, {"new", "good"}, {})
+                self.assertEqual(json.loads((root / "projects.json").read_text()), [{"id": "old"}, {"id": "good"}])
+                self.assertTrue((articles / "old.json").exists())
+                self.assertFalse((articles / "new.json").exists())
+                self.assertEqual(json.loads((root / "pipeline/data/pending_projects.json").read_text()), [{"id": "new"}])
+
+    def test_live_check_rejects_stale_index_wrong_commit_and_missing_english_detail(self):
+        projects = [{"id": "new", "nameZh": "新项目"}]
+        article = {"projectId": "new", "translations": {"en": {"title": "New"}}}
+        index = build_project_index(projects)
+        for responses in ([{"commit": "old"}], [{"commit": "new"}, []],
+                          [{"commit": "new"}, index, {"projectId": "new"}]):
+            with self.subTest(responses=responses), \
+                 patch("scripts.check_automation.remote_json", side_effect=responses), \
+                 patch("scripts.check_automation.read_json", return_value=article):
+                with self.assertRaises(ValueError):
+                    verify_site("https://example.com", projects, "new")
+        with patch("scripts.check_automation.remote_json", side_effect=[{"commit": "new"}, index, article]), \
+             patch("scripts.check_automation.read_json", return_value=article):
+            verify_site("https://example.com", projects, "new")
 
 
 if __name__ == "__main__":

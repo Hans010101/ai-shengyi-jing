@@ -19,6 +19,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: main # Automatic retries must include the latest repairs/data.
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -57,7 +59,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data/ pipeline/data/seen_ids.json pipeline/data/scrape_health.json pipeline/data/case_catalog_report.json pipeline/drafts/
+          git add data/ pipeline/data/seen_ids.json pipeline/data/pending_projects.json pipeline/data/scrape_health.json pipeline/data/case_catalog_report.json pipeline/drafts/
           git diff --quiet && git diff --staged --quiet || git commit -m "📊 自动更新：$(date '+%Y-%m-%d') 项目数据"
           if git diff --quiet HEAD origin/main; then
             echo "No new project data to push"
@@ -89,6 +91,7 @@ jobs:
           retention-days: 7
           path: |
             pipeline/data/scrape_health.json
+            pipeline/data/pending_projects.json
             pipeline/data/case_catalog_report.json
             data/projects_live.json
             data/case_articles/

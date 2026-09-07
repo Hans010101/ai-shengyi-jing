@@ -1528,6 +1528,43 @@ def generate_one(
     }
 
 
+def isolate_new_failures(projects: list[dict], new_ids: set[str], failures: dict) -> None:
+    """Keep only this run's bad new cases pending; never remove historical data."""
+    from scripts import validate_case_catalog
+    from pipeline.project_store import merge_projects
+
+    _, errors = validate_case_catalog.validate(write_report=False)
+    for project_id in new_ids:
+        specific = [error for error in errors if error.startswith(f"{project_id}:")]
+        if not (ARTICLES_DIR / f"{project_id}.json").exists():
+            specific.append("Article generation did not complete")
+        if specific:
+            failures[project_id] = "; ".join(specific)
+    failed_ids = set(failures) & new_ids
+    if not failed_ids:
+        return
+    pending_file = ROOT / "pipeline/data/pending_projects.json"
+    health_file = ROOT / "pipeline/data/scrape_health.json"
+    failed = [project for project in projects if str(project["id"]) in failed_ids]
+    kept = [project for project in projects if str(project["id"]) not in failed_ids]
+    pending = merge_projects(failed, load_json(pending_file, []))
+    save_json(pending_file, pending)
+    save_json(PROJECTS_FILE, kept)
+    seen_file = ROOT / "pipeline/data/seen_ids.json"
+    save_json(seen_file, [item for item in load_json(seen_file, []) if str(item) not in failed_ids])
+    for project_id in failed_ids:
+        # These files were generated in this run and have never been published.
+        (ARTICLES_DIR / f"{project_id}.json").unlink(missing_ok=True)
+    health = load_json(health_file, {})
+    health.update({"status": "degraded", "databaseProjects": len(kept),
+                   "processedProjects": len(new_ids - failed_ids),
+                   "processedProjectIds": sorted(new_ids - failed_ids),
+                   "pendingProjects": len(pending)})
+    health.setdefault("projectErrors", {}).update({key: failures[key] for key in failed_ids})
+    save_json(health_file, health)
+    print(f"[WARN] Deferred {len(failed_ids)} invalid new cases; existing cases preserved")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -2257,10 +2294,14 @@ def main() -> None:
     )
     results: dict[str, dict] = dict(existing) if args.missing_only else {}
     records: list[dict] = []
+    # Only the daily scraper supplies this explicit list of newly added records.
+    health = load_json(ROOT / "pipeline/data/scrape_health.json", {}) if args.missing_only else {}
+    new_ids = set(health.get("processedProjectIds", [])) & {str(project["id"]) for project in selected_projects}
+    failures = {}
     with concurrent.futures.ThreadPoolExecutor(
         max_workers=max(1, args.workers)
     ) as executor:
-        futures = [
+        futures = {
             executor.submit(
                 generate_one,
                 project,
@@ -2268,14 +2309,22 @@ def main() -> None:
                 existing,
                 args.fetch_media,
                 args.overwrite_reviewed,
-            )
+            ): str(project["id"])
             for project in selected_projects
-        ]
+        }
         for index, future in enumerate(
             concurrent.futures.as_completed(futures),
             start=1,
         ):
-            project_id, article, record = future.result()
+            try:
+                project_id, article, record = future.result()
+            except Exception as error:
+                project_id = futures[future]
+                if project_id not in new_ids:
+                    raise
+                failures[project_id] = f"{type(error).__name__}: {error}"
+                print(f"[WARN] New case {project_id} deferred: {error}")
+                continue
             results[project_id] = article
             records.append(record)
             if index % 100 == 0 or index == len(futures):
@@ -2287,6 +2336,8 @@ def main() -> None:
             stale_file.unlink()
     for project in projects:
         project_id = str(project["id"])
+        if project_id in failures:
+            continue
         results[project_id]["project"] = project_snapshot(project)
         save_json(ARTICLES_DIR / f"{project_id}.json", results[project_id])
 
@@ -2325,6 +2376,8 @@ def main() -> None:
     }
     save_json(REPORT_FILE, report)
     print(json.dumps(report, ensure_ascii=False, indent=2))
+    if new_ids:
+        isolate_new_failures(projects, new_ids, failures)
 
 
 if __name__ == "__main__":

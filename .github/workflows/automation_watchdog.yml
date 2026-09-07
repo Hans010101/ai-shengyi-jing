@@ -1,0 +1,36 @@
+name: 案例更新自动巡检与恢复
+
+on:
+  schedule:
+    - cron: '37 */6 * * *'
+  workflow_run:
+    workflows:
+      - 每日项目采集
+      - 自动部署到 Cloudflare 与 EdgeOne
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: case-update-watchdog
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      actions: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check freshness, recover failures and verify live cases
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/check_automation.py --repair

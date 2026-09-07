@@ -18,10 +18,10 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 try:
-    from .content_quality import derive_chinese_name
+    from .content_quality import derive_chinese_name, project_content_errors
     from .project_store import merge_projects, project_ids
 except ImportError:
-    from content_quality import derive_chinese_name
+    from content_quality import derive_chinese_name, project_content_errors
     from project_store import merge_projects, project_ids
 
 # ========== CONFIG ==========
@@ -31,6 +31,7 @@ SITEMAP_URL = f"{BASE_URL}/sitemap.xml"
 DATA_DIR = Path(__file__).parent / "data"
 SEEN_FILE = DATA_DIR / "seen_ids.json"
 HEALTH_FILE = DATA_DIR / "scrape_health.json"
+PENDING_FILE = DATA_DIR / "pending_projects.json"
 OUTPUT_FILE = Path(__file__).parent.parent / "data" / "projects_live.json"
 
 # API Keys 环境变量（按优先级读取）
@@ -302,9 +303,12 @@ def scrape_detail_page(url):
     time.sleep(REQUEST_DELAY)
     html = fetch_page(url)
     if not html:
-        return {}
+        raise RuntimeError("Project detail request failed after retries")
 
-    return parse_detail_html(html)
+    detail = parse_detail_html(html)
+    if not detail.get("name") or not detail.get("description"):
+        raise RuntimeError("Project detail is missing its title or description")
+    return detail
 
 # ========== AI ANALYSIS ==========
 def generate_chinese_analysis(project):
@@ -343,34 +347,25 @@ def generate_chinese_analysis(project):
   "tags": ["标签1", "标签2"]
 }}"""
 
-    if DEEPSEEK_API_KEY:
-        print("  [AI] Using DeepSeek API...")
-        return call_deepseek(prompt)
-    elif GEMINI_API_KEY:
-        print("  [AI] Using Gemini API...")
-        return call_gemini(prompt)
-    elif OPENAI_API_KEY:
-        print("  [AI] Using OpenAI API...")
-        return call_openai(prompt)
-    else:
-        print("  [WARN] No AI API key configured. Returning placeholder.")
-        return {
-            "nameZh": "海外创业项目",
-            "summary": f"{project.get('name','')}，月收入{project.get('revenue','')}",
-            "insight": "AI解读功能需要配置 DEEPSEEK_API_KEY 或 GEMINI_API_KEY",
-            "businessModel": "按使用付费",
-            "chinaOpportunity": "请配置 API Key 启动完整分析",
-            "productArch": "输入端 ➔ 处理端 ➔ 支付结算 ➔ 交付端",
-            "businessLoop": "【引流】：自媒体内容曝光 ➔ 【产品】：极简页面 ➔ 【变现】：按次充值",
-            "getStartedPath": [
-                "第一步：克隆基础 Web 前端模板，连接国内主流模型 API 调试提示词。",
-                "第二步：设置微信或支付宝等免签收款通道，进行测试闭环。",
-                "第三步：在小红书、抖音制作解压或技巧类演示视频获取自然流量。"
-            ],
-            "replicabilityScore": 7,
-            "difficulty": "中",
-            "tags": ["待分析"]
-        }
+    for key, call in ((DEEPSEEK_API_KEY, call_deepseek),
+                      (GEMINI_API_KEY, call_gemini),
+                      (OPENAI_API_KEY, call_openai)):
+        if not key:
+            continue
+        for attempt in range(2):
+            analysis = call(prompt)
+            if isinstance(analysis, dict):
+                # Model output is untrusted: never let it overwrite identity/source fields.
+                analysis = {k: v for k, v in analysis.items() if k in {
+                    "nameZh", "summary", "insight", "businessModel", "chinaOpportunity",
+                    "productArch", "businessLoop", "getStartedPath", "replicabilityScore",
+                    "difficulty", "tags",
+                }}
+                if not project_content_errors({**project, **analysis}):
+                    return analysis
+            if attempt == 0:
+                time.sleep(REQUEST_DELAY)
+    raise RuntimeError("No configured AI provider returned a complete analysis")
 
 def call_deepseek(prompt):
     """调用 DeepSeek API (兼容 OpenAI 规范)"""
@@ -419,7 +414,7 @@ def call_openai(prompt):
     """调用 OpenAI API"""
     try:
         import openai
-        client = openai.OpenAI(api_key=OPENAI_API_KEY)
+        client = openai.OpenAI(api_key=OPENAI_API_KEY, timeout=45, max_retries=1)
         response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[{"role": "user", "content": prompt}],
@@ -447,8 +442,9 @@ def run_pipeline():
     save_seen_ids(seen_ids)
     print(f"[INFO] Already seen: {len(seen_ids)} projects")
 
+    pending = json.loads(PENDING_FILE.read_text(encoding="utf-8")) if PENDING_FILE.exists() else []
     projects, source_health = discover_projects()
-    new_projects = find_new_projects(projects, existing)
+    new_projects = find_new_projects(merge_projects(pending, projects), existing)
     print(f"[INFO] New projects: {len(new_projects)}")
 
     health = {
@@ -456,37 +452,41 @@ def run_pipeline():
         **source_health,
         "discoveredProjects": len(projects),
         "newProjects": len(new_projects),
+        "databaseProjectsBefore": len(existing),
         "databaseProjects": len(existing),
+        "phase": "processing",
     }
     HEALTH_FILE.write_text(
         json.dumps(health, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
 
-    if not new_projects:
-        print("[INFO] No new projects. Pipeline complete.")
-        return
-
     results = []
+    failed = []
+    project_errors = {}
     for i, project in enumerate(new_projects):
         print(f"\n[{i+1}/{len(new_projects)}] Processing: {project['name']}")
+        try:
+            if project.get("url"):
+                detail = scrape_detail_page(project["url"])
+                project.update(detail)
+                if project.get("revenue") in {"", "Unknown"} and detail.get("revenueDetail"):
+                    project["revenue"] = detail["revenueDetail"]
 
-        if project.get("url"):
-            detail = scrape_detail_page(project["url"])
-            project.update(detail)
-            if project.get("revenue") in {"", "Unknown"} and detail.get("revenueDetail"):
-                project["revenue"] = detail["revenueDetail"]
-
-        print(f"  Generating AI analysis...")
-        analysis = generate_chinese_analysis(project)
-        project.update(analysis)
-        project["nameZh"] = derive_chinese_name(project)
-
-        project["updatedAt"] = datetime.date.today().isoformat()
-        project["featured"] = False
-
-        results.append(project)
-        seen_ids.add(project["id"])
+            analysis = generate_chinese_analysis(project)
+            project.update(analysis)
+            project["nameZh"] = derive_chinese_name(project)
+            project["updatedAt"] = datetime.date.today().isoformat()
+            project["featured"] = False
+            errors = project_content_errors(project)
+            if errors:
+                raise ValueError("; ".join(errors))
+            results.append(project)
+            seen_ids.add(project["id"])
+        except (RuntimeError, ValueError, TypeError, requests.RequestException) as error:
+            failed.append(project)
+            project_errors[str(project["id"])] = str(error)
+            print(f"[WARN] Project {project['id']} deferred: {error}")
         time.sleep(REQUEST_DELAY)
 
     save_seen_ids(seen_ids)
@@ -495,6 +495,18 @@ def run_pipeline():
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(all_projects, f, ensure_ascii=False, indent=2)
+    PENDING_FILE.write_text(json.dumps(failed, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    health.update({
+        "phase": "complete",
+        "completedAt": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+        "status": "degraded" if failed or source_health["sourceErrors"] else "healthy",
+        "processedProjects": len(results),
+        "processedProjectIds": [str(project["id"]) for project in results],
+        "pendingProjects": len(failed),
+        "projectErrors": project_errors,
+        "databaseProjects": len(all_projects),
+    })
+    HEALTH_FILE.write_text(json.dumps(health, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     print(f"\n[SUCCESS] Pipeline complete!")
     print(f"  - New projects processed: {len(results)}")

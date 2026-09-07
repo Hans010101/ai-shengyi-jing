@@ -93,11 +93,17 @@ def project_content_errors(project: dict) -> list[str]:
         errors.append("nameZh must contain a Chinese project name")
 
     for field in DETAIL_FIELDS:
-        if not str(project.get(field, "")).strip():
+        if not isinstance(project.get(field), str) or not project[field].strip():
             errors.append(f"is missing detailed field: {field}")
 
     steps = project.get("getStartedPath")
-    if not isinstance(steps, list) or len([step for step in steps if step]) < 3:
+    if not isinstance(steps, list) or len(steps) < 3 or not all(
+        isinstance(step, str) and step.strip() for step in steps
+    ):
         errors.append("getStartedPath must contain at least 3 steps")
+
+    score = project.get("replicabilityScore", 7)
+    if not isinstance(score, (int, float)) or not 1 <= score <= 10:
+        errors.append("replicabilityScore must be a number between 1 and 10")
 
     return errors
