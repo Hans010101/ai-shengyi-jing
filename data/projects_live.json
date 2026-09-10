@@ -1,5 +1,41 @@
 [
   {
+    "name": "CallHippo",
+    "revenue": "$700K/mo",
+    "startupInfo": "callhippo.com",
+    "url": "https://www.starterstory.com/businesses/callhippo",
+    "slug": "callhippo",
+    "image": "https://d1coqmn8qm80r4.cloudfront.net/x1fk3zlrwquo27dx93cmzk64bddb",
+    "niche": "其他",
+    "id": "de644c51ff03",
+    "scrapedAt": "2026-09-10T16:41:01.009028",
+    "revenueDetail": "~$650K/mo",
+    "metaDesc": "CallHippo is a cloud-based business phone system that enables companies to make and receive calls globally… — researched from public sources by Starter Story.",
+    "description": "CallHippo is a cloud-based business phone system that enables companies to make and receive calls globally… — researched from public sources by Starter Story.",
+    "website": "https://go.starterstory.com/hs-main-nav",
+    "nameZh": "云呼叫中心",
+    "summary": "面向全球企业的云电话系统，月营收70万美元。",
+    "insight": "CallHippo的成功在于将传统昂贵的企业电话系统（PBX）云化，以SaaS模式提供全球通话、呼叫中心、IVR等功能，大幅降低企业通信成本。核心洞察是：中小企业需要专业电话系统但无力承担硬件和维护成本，云化+按需付费+全球覆盖是刚需。",
+    "businessModel": "订阅制SaaS，按用户数和功能分级收费，提供免费试用。客户群体为中小企业和销售团队，尤其是需要全球通话的跨境电商、外贸公司等。",
+    "chinaOpportunity": "国内中小企业同样需要云呼叫中心，但需适应国内监管（如号码资质、实名制）。可结合企业微信、钉钉生态，提供智能客服、AI外呼等增值服务。本土化落地需与运营商合作获取线路资源。",
+    "productArch": "用户注册 ➔ 云端PBX系统 ➔ 运营商线路对接 ➔ 通话管理后台 ➔ 数据分析报表",
+    "businessLoop": "【引流】：SEO/内容营销+合作伙伴推荐 ➔ 【产品】：免费试用+易用界面 ➔ 【变现】：按坐席/功能订阅收费 ➔ 【留存】：数据沉淀+团队协作依赖+持续功能更新",
+    "getStartedPath": [
+      "第一步：调研国内中小企业电话系统痛点，确定目标客户（如电销团队、客服中心），设计MVP功能（如云总机、通话记录）。",
+      "第二步：开发最小可行产品，对接运营商SIP线路，实现基础呼入呼出、IVR、录音功能，并搭建管理后台。",
+      "第三步：通过行业社群、企业服务平台推广，提供免费试用，收集反馈迭代，推出付费套餐（按坐席数收费）。"
+    ],
+    "replicabilityScore": 7,
+    "difficulty": "中",
+    "tags": [
+      "云通信",
+      "SaaS",
+      "企业服务"
+    ],
+    "updatedAt": "2026-09-10",
+    "featured": false
+  },
+  {
     "name": "Personal Best",
     "revenue": "$4K/mo",
     "startupInfo": "getpersonalbest.com",

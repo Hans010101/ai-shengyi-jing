@@ -1,19 +1,18 @@
 {
-  "checkedAt": "2026-09-10T04:45:22.722834+00:00",
+  "checkedAt": "2026-09-10T16:41:01.406191+00:00",
   "status": "healthy",
   "listingProjects": 25,
-  "sitemapBusinesses": 577,
+  "sitemapBusinesses": 581,
   "sourceErrors": {},
-  "discoveredProjects": 582,
-  "newProjects": 2,
-  "databaseProjectsBefore": 3844,
-  "databaseProjects": 3846,
+  "discoveredProjects": 583,
+  "newProjects": 1,
+  "databaseProjectsBefore": 3846,
+  "databaseProjects": 3847,
   "phase": "complete",
-  "completedAt": "2026-09-10T04:45:41.582584+00:00",
-  "processedProjects": 2,
+  "completedAt": "2026-09-10T16:41:11.628047+00:00",
+  "processedProjects": 1,
   "processedProjectIds": [
-    "cc02e51fc1b6",
-    "638c44f941c2"
+    "de644c51ff03"
   ],
   "pendingProjects": 0,
   "projectErrors": {}
