@@ -28,13 +28,13 @@ function loadStatus(id) {
   return jobs.get(id) || null;
 }
 
-function runJob(manifest) {
+function runJob(manifest, renderFetchToken = '') {
   const dir = join(ROOT, manifest.jobId);
   mkdirSync(dir, { recursive: true });
   writeFileSync(join(dir, 'manifest.json'), JSON.stringify(manifest, null, 2));
   const initial = { jobId: manifest.jobId, status: 'running', stage: 'starting', progress: 1, startedAt: new Date().toISOString() };
   jobs.set(manifest.jobId, initial); writeFileSync(join(dir, 'status.json'), JSON.stringify(initial));
-  const child = spawn(process.execPath, ['/app/render-job.mjs', join(dir, 'manifest.json'), dir], { stdio: ['ignore', 'pipe', 'pipe'], env: { ...process.env, HOME: '/work' } });
+  const child = spawn(process.execPath, ['/app/render-job.mjs', join(dir, 'manifest.json'), dir], { stdio: ['ignore', 'pipe', 'pipe'], env: { ...process.env, HOME: '/work', RENDER_FETCH_TOKEN: renderFetchToken } });
   const log = [];
   child.stdout.on('data', chunk => log.push(chunk.toString()));
   child.stderr.on('data', chunk => log.push(chunk.toString()));
@@ -57,7 +57,7 @@ const server = createServer(async (request, response) => {
       if (!manifest?.jobId || !manifest?.script?.beats?.length) return sendJson(response, 400, { error: 'INVALID_MANIFEST' });
       const current = loadStatus(manifest.jobId);
       if (current && current.status !== 'failed') return sendJson(response, 200, current);
-      runJob(manifest);
+      runJob(manifest, String(request.headers['x-internal-token'] || ''));
       return sendJson(response, 202, { jobId: manifest.jobId, status: 'running' });
     }
     const statusMatch = url.pathname.match(/^\/jobs\/([^/]+)$/);
