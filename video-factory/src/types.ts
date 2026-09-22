@@ -6,7 +6,7 @@ export interface Env {
   FACTORY_VERSION: string; AUTO_BATCH_SIZE: string; ARTIFACT_RETENTION_DAYS: string; RENDERER_ENABLED: string; PUBLIC_ORIGIN: string;
 }
 
-export type SourceType = 'text' | 'topic' | 'article' | 'book' | 'ai-shengyi-case';
+export type SourceType = 'script' | 'text' | 'topic' | 'article' | 'book' | 'ai-shengyi-case';
 export type VisualPreset = 'smart-director' | 'knowledge-diagram' | 'comic' | 'sand-art' | 'scenery' | 'satisfying' | 'real-montage';
 export type AspectRatio = '9:16' | '16:9' | '1:1';
 
@@ -18,11 +18,11 @@ export type ContentSnapshot = {
   legacy?: { caseId?: string; revenue?: string; businessModel?: string; chinaOpportunity?: string };
 };
 export type CaseSnapshot = ContentSnapshot & { caseId?: string; name?: string; nameZh?: string; revenue?: string; businessModel?: string; chinaOpportunity?: string };
-export type ProductionOptions = { templateId: string; visualPreset: VisualPreset; aspectRatio: AspectRatio; durationSeconds: number; voice: string; voiceRate: number; brandPreset: string; bgm: boolean; autoDucking: boolean };
+export type ProductionOptions = { productionLineId: string; templateId: string; visualPreset: VisualPreset; aspectRatio: AspectRatio; durationSeconds: number; voice: string; voiceRate: number; brandPreset: string; bgm: boolean; autoDucking: boolean };
 export type ScriptBeat = { id: string; chapter: string; narration: string; onScreen: string; evidenceIds: string[]; mediaIds: string[]; emphasis?: string };
 export type VideoScript = { schemaVersion: '1.0'; headline: string; subheadline: string; hook: string; beats: ScriptBeat[]; closing: string };
 export type RenderManifest = {
-  schemaVersion: '2.0'; jobId: string; template: string; templateVersion: '2.0.0'; contentSnapshot: ContentSnapshot; caseSnapshot: any; script: VideoScript; options: ProductionOptions;
+  schemaVersion: '2.0'; jobId: string; template: string; templateVersion: string; contentSnapshot: ContentSnapshot; caseSnapshot: any; script: VideoScript; options: ProductionOptions;
   voice: { provider: 'edge-neural' | 'cloudflare-melotts'; voice: string; rate: string; pitch: string; phrasePauseSeconds: number };
   quality: { width: number; height: number; fps: 30; minUniqueMedia: number; minDurationSeconds: number; maxDurationSeconds: number; targetLufs: number; truePeak: number; asrSimilarity: number };
 };
