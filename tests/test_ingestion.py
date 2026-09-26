@@ -115,6 +115,12 @@ class UnattendedRecoveryTests(unittest.TestCase):
         self.assertIn("mobile apps", detail["sourceText"])
         self.assertNotIn("website", detail)
 
+    def test_video_revenue_uses_reported_mrr_not_site_advertising(self):
+        for title, expected in (("I Grew From $17K to $143K MRR in 4 Months", "$143K/Month"), ("I Spent 24 Hours With iOS Millionaires", None)):
+            detail = scraper.parse_detail_html(f'''<meta property="og:title" content="{title} - Starter Story">
+              <nav>Our students make $100K/mo</nav><div id="transcript-container">A public interview.</div>''')
+            self.assertEqual(detail.get("revenueDetail"), expected)
+
     def test_story_metadata_and_content_hash_ignore_timestamp_only_changes(self):
         detail = scraper.parse_detail_html('''<h1>AI Support Making $500/Month</h1>
           <meta name="description" content="A founder support product">

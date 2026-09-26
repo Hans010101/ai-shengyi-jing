@@ -311,7 +311,7 @@ def parse_detail_html(html):
         title = soup.find("meta", attrs={"property": "og:title"})
         detail["name"] = (title.get("content", "") if title else soup.title.get_text(strip=True) if soup.title else "").removesuffix(" - Starter Story")
 
-    rev_blocks = soup.find_all(string=lambda s: s and "$" in s and "/mo" in s)
+    rev_blocks = [] if transcript else soup.find_all(string=lambda s: s and "$" in s and "/mo" in s)
     if rev_blocks:
         detail["revenueDetail"] = rev_blocks[0].strip()
 
@@ -344,8 +344,10 @@ def parse_detail_html(html):
         if not detail.get("description") and len(detail["sourceText"]) >= 100:
             detail["description"] = detail["sourceText"][:600]
     revenue = re.search(r"(\$[\d,.]+[KkMm]?)\s*(?:/|per\s+)\s*(month|mo|year|yr)\b", detail.get("name", ""), re.I)
+    if not revenue:
+        revenue = re.search(r"(\$[\d,.]+[KkMm]?)\s*(MRR)\b", detail.get("name", ""), re.I)
     if revenue:
-        detail["revenueDetail"] = revenue.group(1) + ("/Month" if revenue.group(2).lower().startswith("mo") else "/Year")
+        detail["revenueDetail"] = revenue.group(1) + ("/Year" if revenue.group(2).lower() in {"year", "yr"} else "/Month")
 
     blocked_hosts = {
         "starterstory.com", "www.starterstory.com", "build.starterstory.com",
