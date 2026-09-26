@@ -345,11 +345,11 @@ def parse_detail_html(html):
         "linkedin.com", "youtube.com", "www.youtube.com", "tiktok.com",
         "api.placid.app", "d1coqmn8qm80r4.cloudfront.net",
     }
-    for link in soup.find_all("a", href=True):
+    for link in (article or soup).find_all("a", href=True):
         href = link.get("href", "").strip()
         parsed = urlparse(href)
         host = (parsed.hostname or "").lower()
-        if parsed.scheme in {"http", "https"} and host not in blocked_hosts:
+        if parsed.scheme in {"http", "https"} and not any(host == blocked or host.endswith("." + blocked) for blocked in blocked_hosts):
             detail["website"] = href
             break
 
@@ -357,7 +357,7 @@ def parse_detail_html(html):
 
 
 def source_fingerprint(detail):
-    content = {k: detail.get(k, "") for k in ("name", "description", "revenueDetail", "sourceText")}
+    content = {k: detail.get(k, "") for k in ("name", "description", "revenueDetail", "sourceText", "website")}
     return hashlib.sha256(json.dumps(content, ensure_ascii=False, sort_keys=True).encode()).hexdigest()
 
 

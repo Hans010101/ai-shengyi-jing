@@ -108,9 +108,14 @@ class UnattendedRecoveryTests(unittest.TestCase):
           <meta name="description" content="A founder support product">
           <link rel="canonical" href="https://www.starterstory.com/stories/support">
           <script type="application/ld+json">{"@type":"Article","datePublished":"2026-09-23"}</script>
-          <article><p>A founder built a support agent for small teams, charging subscriptions for hosted support.</p></article>''')
+          <nav><a href="https://sponsor.example/promo">Sponsor</a></nav>
+          <article><a href="https://go.starterstory.com/hs-main-nav">Promotion</a>
+          <a href="https://www.twitter.com/founder">Founder social</a>
+          <a href="https://support.example">Product</a>
+          <p>A founder built a support agent for small teams, charging subscriptions for hosted support.</p></article>''')
         self.assertEqual(detail["sourcePublishedAt"], "2026-09-23")
         self.assertEqual(detail["revenueDetail"], "$500/Month")
+        self.assertEqual(detail["website"], "https://support.example")
         self.assertIn("subscriptions", detail["sourceText"])
         self.assertEqual(scraper.source_fingerprint(detail), scraper.source_fingerprint({**detail, "sourceUpdatedAt": "tomorrow"}))
         self.assertNotEqual(scraper.source_fingerprint(detail), scraper.source_fingerprint({**detail, "sourceText": "changed"}))
