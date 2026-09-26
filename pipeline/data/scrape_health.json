@@ -1,17 +1,57 @@
 {
-  "checkedAt": "2026-09-26T00:59:50.822939+00:00",
-  "status": "healthy",
+  "checkedAt": "2026-09-26T09:15:07.087692+00:00",
+  "status": "degraded",
   "listingProjects": 25,
   "sitemapBusinesses": 583,
+  "sitemapStories": 3295,
   "sourceErrors": {},
-  "discoveredProjects": 583,
-  "newProjects": 0,
+  "discoveredProjects": 3878,
+  "newProjects": 36,
+  "queuedProjects": 16,
+  "refreshDue": 1388,
   "databaseProjectsBefore": 3847,
-  "databaseProjects": 3847,
-  "phase": "complete",
-  "completedAt": "2026-09-26T00:59:50.938069+00:00",
-  "processedProjects": 0,
-  "processedProjectIds": [],
-  "pendingProjects": 0,
-  "projectErrors": {}
+  "databaseProjects": 3859,
+  "phase": "catalog-validated",
+  "lastNewAt": "2026-09-26T09:19:09.122642+00:00",
+  "completedAt": "2026-09-26T09:18:51.605135+00:00",
+  "processedProjects": 12,
+  "processedProjectIds": [
+    "725ad1d4464b",
+    "b0820b57b849",
+    "c683ea70205e",
+    "bc54537679a8",
+    "975393200dc1",
+    "68aacf6b92b8",
+    "53fc4cbcb60d",
+    "2a2cccfca6ad",
+    "4c2e61b48510",
+    "f1280a7c6cdd",
+    "a4fe4300cf79",
+    "a659b6d3c678"
+  ],
+  "refreshProjectIds": [
+    "d97535d33c5c",
+    "d2d6c210a01b",
+    "9e7bb3e1a055",
+    "6a27573a949e",
+    "39c07ee16bf4"
+  ],
+  "pendingProjects": 8,
+  "projectErrors": {
+    "a370bd1766b5": "Project detail is missing its title or description",
+    "a305e430de88": "Project detail is missing its title or description",
+    "a91642f9341b": "Project detail is missing its title or description",
+    "b86e01cda6f0": "Project detail is missing its title or description",
+    "ff8581de24e9": "Project detail is missing its title or description",
+    "24fd188a543f": "Project detail is missing its title or description",
+    "0f016119fa0c": "Project detail is missing its title or description",
+    "2fe33805273d": "Project detail is missing its title or description"
+  },
+  "refreshedProjectIds": [
+    "39c07ee16bf4",
+    "6a27573a949e",
+    "9e7bb3e1a055",
+    "d2d6c210a01b",
+    "d97535d33c5c"
+  ]
 }
