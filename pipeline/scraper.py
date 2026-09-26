@@ -517,6 +517,8 @@ def run_pipeline():
     # Reviewed editions are editorially owned; do not automatically rewrite them.
     refreshes = [p for p in refreshes if str(p["id"]) not in reviewed_ids]
     queued = new_projects[NEW_BATCH_SIZE:]
+    pending_ids = project_ids(pending)
+    queued.extend(p for p in refreshes[REFRESH_BATCH_SIZE:] if str(p["id"]) in pending_ids)
     selected = new_projects[:NEW_BATCH_SIZE] + refreshes[:REFRESH_BATCH_SIZE]
     print(f"[INFO] New projects: {len(new_projects)}")
 

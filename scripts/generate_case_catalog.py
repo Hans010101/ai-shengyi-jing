@@ -1559,7 +1559,7 @@ def isolate_new_failures(projects: list[dict], new_ids: set[str], failures: dict
     health.update({"status": "degraded", "databaseProjects": len(kept),
                    "processedProjects": len(new_ids - failed_ids),
                    "processedProjectIds": sorted(new_ids - failed_ids),
-                   "pendingProjects": len(pending)})
+                   "pendingProjects": health.get("pendingProjects", 0) + len(failed_ids)})
     health.setdefault("projectErrors", {}).update({key: failures[key] for key in failed_ids})
     save_json(health_file, health)
     print(f"[WARN] Deferred {len(failed_ids)} invalid new cases; existing cases preserved")
