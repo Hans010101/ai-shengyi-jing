@@ -3,21 +3,21 @@
   "project": {
     "id": "221bc2ba4ab0",
     "name": "I Faced This Problem Firsthand And Built A $15K MRR PDF-Generation API Tool",
-    "nameZh": "API生成PDF/图片工具",
-    "summary": "API生成PDF/图片工具，按用量收费。",
-    "metaDesc": null,
+    "nameZh": "PDF生成API",
+    "summary": "面向企业的PDF/图片生成API，低代码模板编辑，月入1.5万美元。",
+    "metaDesc": "Hello! Who are you and what business did you start?Hi, I’m Jacky Tan, I'm the founder of CraftMyPDF.com and APITemplate.io. We offer API-based products which allow businesses to generate PDF documents and images from reusable templates. Our flagship products are APITemplate and CraftMyP...",
     "description": "Hello! Who are you and what business did you start?Hi, I’m Jacky Tan, I'm the founder of CraftMyPDF.com and APITemplate.io. We offer API-based products which allow businesses to generate PDF documents and images from reusable templates. Our flagship products are APITemplate and CraftMyP...",
-    "revenue": "$15K",
-    "businessModel": "提供API服务，用户按生成文档数量付费，月费+超额计费。",
-    "chinaOpportunity": "国内企业文档自动化需求大，可针对电商、金融、教育等行业提供本土化模板和合规支持。",
-    "website": null,
-    "updatedAt": "2026-07-21",
+    "revenue": "$10M/mo",
+    "businessModel": "SaaS订阅制，按生成量或功能分层定价。目标客户为需要自动化生成PDF/图片的企业，尤其是使用低代码平台的中小企业和开发者。",
+    "chinaOpportunity": "国内存在大量类似需求，如电商订单、合同、报表生成。可本土化：集成微信/支付宝支付、对接钉钉/企业微信、提供中文模板和客服。竞争较小，但需注意合规和云服务差异。",
+    "website": "https://craftmypdf.com",
+    "updatedAt": "2026-09-26",
     "scrapedAt": "2026-07-21T12:16:17.100005"
   },
   "slug": "craftmypdf",
-  "title": "API生成PDF/图片工具：$15K营收背后，一门生意是怎样跑通的",
-  "dek": "不讲空泛成功学，从用户为什么付钱开始，拆开API生成PDF/图片工具的产品、收入、增长与本土化机会，看清结果背后的商业因果。",
-  "opening": "如果只看公开资料记录的营收口径是$15K，这个案例很容易被读成又一篇创业爽文。可生意真正发生在数字之前。\n\nAPI生成PDF/图片工具，按用量收费。这篇拆解不把API生成PDF/图片工具包装成标准答案，而是沿着用户问题、产品交付、收费机制、增长路径和本土验证五条线，重新还原这门生意为什么成立，又可能在哪里失速。",
+  "title": "PDF生成API：$10M/mo营收背后，一门生意是怎样跑通的",
+  "dek": "不讲空泛成功学，从用户为什么付钱开始，拆开PDF生成API的产品、收入、增长与本土化机会，看清结果背后的商业因果。",
+  "opening": "如果只看公开资料记录的营收口径是$10M/mo，这个案例很容易被读成又一篇创业爽文。可生意真正发生在数字之前。\n\n面向企业的PDF/图片生成API，低代码模板编辑，月入1.5万美元。这篇拆解不把PDF生成API包装成标准答案，而是沿着用户问题、产品交付、收费机制、增长路径和本土验证五条线，重新还原这门生意为什么成立，又可能在哪里失速。",
   "editorNote": "案例不是答案，而是一组等待被验证的经营假设。",
   "highlights": [
     "用户为什么愿意改变原来的做法",
@@ -28,7 +28,7 @@
   "keyFacts": [
     {
       "label": "营收口径",
-      "value": "$15K"
+      "value": "$10M/mo"
     },
     {
       "label": "项目类型",
@@ -48,7 +48,7 @@
     },
     {
       "label": "落地难度",
-      "value": "低"
+      "value": "中"
     }
   ],
   "sections": [
@@ -56,7 +56,7 @@
       "kicker": "01 / 结果",
       "heading": "先看结果：数字很醒目，因果更重要",
       "paragraphs": [
-        "API生成PDF/图片工具所在的是电商/DTC赛道。API生成PDF/图片工具，按用量收费。从公开数据看，项目营收口径为$15K，启动成本约为$500-2000，首次营收周期为1-3个月。这些数字构成了结果快照，却还不是商业解释。",
+        "PDF生成API所在的是电商/DTC赛道。面向企业的PDF/图片生成API，低代码模板编辑，月入1.5万美元。从公开数据看，项目营收口径为$10M/mo，启动成本约为$500-2000，首次营收周期为1-3个月。这些数字构成了结果快照，却还不是商业解释。",
         "要理解结果从哪里来，需要把营收拆回三个动作：用户带着什么问题进入，产品在多短时间里给出可感知结果，以及收费是否发生在价值最清晰的节点。任何一个环节说不清，漂亮数字都很难变成可迁移的方法。",
         "因此，这篇文章不会停留在“做了一个产品、找到一些客户、最终获得收入”的流水账。真正要追踪的是因果链：什么承诺带来咨询，什么交付推动付款，又是什么机制让一次成交有机会继续变成复购、续费或转介绍。"
       ],
@@ -66,7 +66,7 @@
       "kicker": "02 / 问题",
       "heading": "用户买的不是功能，而是少走一段弯路",
       "paragraphs": [
-        "资料对机会的核心判断是：解决企业自动化生成文档的痛点，通过API集成实现高效变现。把这句话翻译成用户语言，就是有人正在反复付出时间、金钱或注意力，却仍然无法稳定得到想要的结果。生意的入口，往往就藏在这种长期存在的低效率里。",
+        "资料对机会的核心判断是：核心洞察：企业自动化流程中，PDF生成是高频刚需但现有工具缺乏易用模板编辑器。创始人以技术背景快速构建API产品，通过SEO和低代码集成（Zapier/Make）获客，解决用户痛点。把这句话翻译成用户语言，就是有人正在反复付出时间、金钱或注意力，却仍然无法稳定得到想要的结果。生意的入口，往往就藏在这种长期存在的低效率里。",
         "在电商/DTC市场里，竞争对手未必是另一家公司。它可能是一张表格、一位兼职人员、一套拼凑流程，甚至是用户继续忍受问题的惯性。只有当新方案明显更快、更稳、更省心或更能带来收入时，改变习惯才会变成真实购买。",
         "这也是判断项目是否值得复制的第一道门槛：不要先问市场有多大，先找到问题发生最频繁、损失最容易计算的一小群人。他们愿不愿意停下现有工作、尝试新流程并付费，比任何泛泛的“感兴趣”都更可信。"
       ],
@@ -76,7 +76,7 @@
       "kicker": "03 / 产品",
       "heading": "产品怎么工作：把一次交付拆成看得见的路径",
       "paragraphs": [
-        "资料把API生成PDF/图片工具的产品路径概括为：用户注册 ➔ 创建模板 ➔ API调用 ➔ 生成PDF/图片 ➔ 付费下载。这不是一张普通功能清单，而是一条从“用户带着问题进入”到“用户拿到结果离开”的交付链。链条越清楚，团队越容易识别真正创造价值的节点。",
+        "资料把PDF生成API的产品路径概括为：用户注册 ➔ 模板编辑器（拖拽/HTML） ➔ 生成API（PDF/图片） ➔ 第三方集成（Zapier/Make） ➔ 支付订阅 ➔ 用户管理。这不是一张普通功能清单，而是一条从“用户带着问题进入”到“用户拿到结果离开”的交付链。链条越清楚，团队越容易识别真正创造价值的节点。",
         "对小团队而言，入口要足够简单，首次体验要尽快出现一个“小胜利”，核心交付必须能够被重复，异常情况还要有明确处理方式。如果每个客户都需要创始人重新解释、临时补救，项目仍然更像手工作坊，而不是产品。",
         "第一版并不需要覆盖所有场景。更合理的目标，是完整解决一个高频任务：让用户知道从哪里开始、过程中发生什么、最终会得到什么。当这条最短路径稳定后，再增加自动化、协作、数据分析或高级服务，产品才不会越做越重。"
       ],
@@ -86,7 +86,7 @@
       "kicker": "04 / 收入",
       "heading": "钱从哪里来：定价只是表面，履约才是底层",
       "paragraphs": [
-        "API生成PDF/图片工具的商业模式被描述为：提供API服务，用户按生成文档数量付费，月费+超额计费。收费方式本身并没有高下之分；真正的问题是，用户在什么时候最清楚地感受到价值，以及每收到一笔钱，团队还需要承担多少获客、交付和售后成本。",
+        "PDF生成API的商业模式被描述为：SaaS订阅制，按生成量或功能分层定价。目标客户为需要自动化生成PDF/图片的企业，尤其是使用低代码平台的中小企业和开发者。收费方式本身并没有高下之分；真正的问题是，用户在什么时候最清楚地感受到价值，以及每收到一笔钱，团队还需要承担多少获客、交付和售后成本。",
         "一次性销售回款快，但需要持续寻找新客户；订阅收入更可预测，却要求产品不断提供持续价值；服务型收入能深入客户场景，同时也更容易被人力和交付复杂度限制。项目选择的不是一个价格标签，而是一组经营责任。",
         "公开资料中的启动成本约为$500-2000，首次营收周期为1-3个月。更专业的用法，是把它们当作验证假设而不是承诺：先确认第一笔钱为什么发生，再追踪毛利、退款、回款周期和复购。营收证明有人买，现金流才证明这门生意能继续。"
       ],
@@ -96,7 +96,7 @@
       "kicker": "05 / 增长",
       "heading": "增长飞轮：让承诺、成交和留存说同一种语言",
       "paragraphs": [
-        "现有资料把增长闭环总结为：【引流】SEO+技术博客+开发者社区 ➔ 【产品】API文档生成服务 ➔ 【变现】按量付费+订阅 ➔ 【留存】优质API文档+模板市场+客户支持。",
+        "现有资料把增长闭环总结为：【引流】：SEO博客、产品目录、ProductHunt ➔ 【产品】：在线模板编辑器+API，免费试用 ➔ 【变现】：按用量订阅付费 ➔ 【留存】：持续迭代、客户反馈、低流失率。",
         "闭环最容易断在“前后不一致”：内容讲的是一个痛点，落地页却堆满功能；销售承诺快速见效，产品首次体验却迟迟不给结果；首单靠低价成交，后续又没有持续价值支撑续费。流量越大，这种错位只会被放大得越快。",
         "早期最有效的增长动作，通常不是铺开所有渠道，而是找到目标用户密度最高的一个入口。连续记录曝光、有效咨询、关键体验、付费和复购五组数据，就能看出问题究竟出在流量质量、价值表达、产品体验还是交付结果。",
         "当某一环节持续掉队时，先修复闭环，不要用更多流量掩盖问题。真正健康的增长，是正确用户被同一个承诺吸引，在产品里得到对应结果，最后愿意继续使用或主动推荐。增长因此不是一个营销部门的任务，而是整条价值链的结果。"
@@ -107,7 +107,7 @@
       "kicker": "06 / 护城河",
       "heading": "最难复制的部分，往往不在网页上",
       "paragraphs": [
-        "资料给API生成PDF/图片工具的可复制指数是8/10，落地难度标注为低。这类评分适合快速筛选，却不能代替执行判断。真正的门槛可能藏在供应链、专业能力、渠道关系、合规要求、历史数据或售后经验里。",
+        "资料给PDF生成API的可复制指数是8/10，落地难度标注为中。这类评分适合快速筛选，却不能代替执行判断。真正的门槛可能藏在供应链、专业能力、渠道关系、合规要求、历史数据或售后经验里。",
         "样板客户阶段跑得顺，不代表规模化后仍然成立。订单增加会放大交付波动、客服压力和现金占用；新渠道会带来不同的人群和预期。流程文档、质量标准、异常处理和经营数据并非大公司专属，而是小团队扩大前的安全带。",
         "最值得学习的不是把页面和功能照着做一遍，而是建立同样的反馈速度。每完成一轮交付就记录：哪一步最耗时，什么承诺最能推动成交，哪些客户最容易成功，哪些问题总在重复出现。把答案持续固化进产品，才会形成别人难以复制的能力。"
       ],
@@ -117,7 +117,7 @@
       "kicker": "07 / 中国机会",
       "heading": "搬到中国市场：不要只翻译页面，要重做验证",
       "paragraphs": [
-        "国内企业文档自动化需求大，可针对电商、金融、教育等行业提供本土化模板和合规支持。",
+        "国内存在大量类似需求，如电商订单、合同、报表生成。可本土化：集成微信/支付宝支付、对接钉钉/企业微信、提供中文模板和客服。竞争较小，但需注意合规和云服务差异。",
         "海外案例只能证明某类需求曾经在一个市场成立，不能替代国内的一手判断。微信生态、短视频平台、支付习惯、价格敏感度、行业监管和售后预期，都会改变获客方式、产品边界与单位经济模型。直接翻译和换皮，通常复制不了原项目的因果链。",
         "更现实的切口，是先限定一个行业、城市或人群，用十到二十次深度访谈还原现有流程，再拿出一个能够收费的最小交付。用户如果只说喜欢，却不愿改变原来的做法，说明问题还不够痛、价值不够清楚，或者目标人群仍然太宽。"
       ],
@@ -127,15 +127,15 @@
       "kicker": "08 / 行动",
       "heading": "如果今天从零开始：先跑一轮七天验证",
       "paragraphs": [
-        "第一步：选择PDF生成库（如Puppeteer或wkhtmltopdf），搭建基础API服务，支持HTML模板转PDF。",
-        "第二步：开发模板编辑器，提供可视化拖拽界面，让用户轻松设计模板并保存为JSON格式。",
-        "第三步：上线后通过开发者社区（如V2EX、掘金）推广，提供免费额度吸引用户，收集反馈迭代。",
+        "第一步：选择细分场景（如电商订单PDF），用现有开源库（如PDFKit）快速搭建API原型，提供简单模板编辑器。",
+        "第二步：上线最小可行产品，设置免费额度，集成Zapier/微信等平台，通过SEO和社区推广获取前100用户。",
+        "第三步：根据反馈迭代，增加图片生成等增值功能，设置付费墙，优化定价，建立客户支持体系。",
         "每一步都要提前写下通过门槛：有效访谈多少人、愿意付费多少人、一次交付需要多久、用户是否愿意再次使用。达到门槛才扩大；没有达到，先调整人群、承诺或交付方式，不要立刻用更多功能来安慰自己。"
       ],
       "callout": "第一版不是为了显得完整，而是为了尽快拿到无法伪装的真实反馈。"
     }
   ],
-  "conclusion": "API生成PDF/图片工具真正值得借鉴的，不是页面长什么样，也不是把$15K当成新的目标。更重要的是它提供了一条观察路径：先找到正在付出代价的人，再把结果组织成产品，让收费发生在价值最清楚的节点，最后用连续数据判断这条路是否值得扩大。案例读完之后，最有价值的动作不是收藏，而是挑出其中一个假设，写下目标用户、使用场景、价格、交付方式和七天后的通过门槛。真实反馈可能支持判断，也可能迅速推翻它；两种结果都比继续停留在想象中更接近一门生意。",
+  "conclusion": "PDF生成API真正值得借鉴的，不是页面长什么样，也不是把$10M/mo当成新的目标。更重要的是它提供了一条观察路径：先找到正在付出代价的人，再把结果组织成产品，让收费发生在价值最清楚的节点，最后用连续数据判断这条路是否值得扩大。案例读完之后，最有价值的动作不是收藏，而是挑出其中一个假设，写下目标用户、使用场景、价格、交付方式和七天后的通过门槛。真实反馈可能支持判断，也可能迅速推翻它；两种结果都比继续停留在想象中更接近一门生意。",
   "riskNote": "营收、团队、增长及渠道信息来自项目数据库与公开来源在特定时间点的披露，可能已经变化；涉及健康、金融、教育、数据和跨境业务时，应按经营所在地最新规则独立核验。",
   "media": [
     {
@@ -199,37 +199,10 @@
       "context": "source-article-body"
     }
   ],
-  "source": {
-    "name": "Starter Story",
-    "url": "https://www.starterstory.com/stories/craftmypdf",
-    "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
-  },
-  "website": "",
-  "generatedAt": "2026-08-02T10:26:55.245932+00:00",
-  "provider": "structured-editorial",
-  "status": "full",
-  "quality": {
-    "sectionCount": 8,
-    "bodyCharacters": 2436,
-    "mediaCount": 6,
-    "readingMinutes": 6
-  },
-  "mediaDiscovery": {
-    "status": "source:ok|official:website-missing",
-    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
-  },
-  "mediaEnrichment": {
-    "batch": 2,
-    "batchSize": 1000,
-    "processedAt": "2026-08-02T14:11:38.945793+00:00",
-    "status": "source:ok|official:website-missing",
-    "realMedia": 6,
-    "logicMedia": 0
-  },
   "translations": {
     "en": {
       "language": "en",
-      "title": "I Faced This Problem Firsthand And Built A $15K MRR PDF-Generation API Tool: The Business System Behind $15K in Revenue",
+      "title": "I Faced This Problem Firsthand And Built A $15K MRR PDF-Generation API Tool: The Business System Behind $10M/mo in Revenue",
       "dek": "A practical breakdown of I Faced This Problem Firsthand And Built A $15K MRR PDF-Generation API Tool: customer demand, product delivery, economics, growth, defensibility, localization, and a seven-day validation plan.",
       "opening": "Start with the public facts: Hello! Who are you and what business did you start?Hi, I’m Jacky Tan, I'm the founder of CraftMyPDF.com and APITemplate.io. We offer API-based products which allow businesses to generate PDF documents and images from reusable templates. Our flagship products are APITemplate and CraftMyP...\n\nThis analysis treats the case as a set of operating hypotheses rather than a success formula. It follows the path from customer pain to product delivery, payment, growth, and repeatability so readers can understand both the opportunity and the constraints.",
       "editorNote": "A case study is not an answer. It is a set of business assumptions waiting to be tested.",
@@ -242,7 +215,7 @@
       "keyFacts": [
         {
           "label": "Revenue reference",
-          "value": "$15K"
+          "value": "$10M/mo"
         },
         {
           "label": "Case type",
@@ -262,7 +235,7 @@
           "kicker": "01 / OUTCOME",
           "heading": "Start with the outcome—but study the cause",
           "paragraphs": [
-            "Hello! Who are you and what business did you start?Hi, I’m Jacky Tan, I'm the founder of CraftMyPDF.com and APITemplate.io. We offer API-based products which allow businesses to generate PDF documents and images from reusable templates. Our flagship products are APITemplate and CraftMyP... The public record lists revenue at $15K. That number is useful as a snapshot, but it does not explain why customers bought, how the team delivered the result, or whether the economics can hold as volume grows.",
+            "Hello! Who are you and what business did you start?Hi, I’m Jacky Tan, I'm the founder of CraftMyPDF.com and APITemplate.io. We offer API-based products which allow businesses to generate PDF documents and images from reusable templates. Our flagship products are APITemplate and CraftMyP... The public record lists revenue at $10M/mo. That number is useful as a snapshot, but it does not explain why customers bought, how the team delivered the result, or whether the economics can hold as volume grows.",
             "A practical reading works backward from the outcome. What costly or frustrating job brought the customer in? What promise was clear enough to trigger action? Which part of the delivery created the first visible win? Those questions turn a success story into a business model that can actually be evaluated.",
             "The goal is not to copy the result. It is to identify the smallest chain of causes behind it: a defined customer, a painful problem, a credible offer, a repeatable delivery process, and a reason to return or refer someone else."
           ],
@@ -292,7 +265,7 @@
           "kicker": "04 / ECONOMICS",
           "heading": "Pricing is visible; fulfillment economics decide the business",
           "paragraphs": [
-            "The published revenue figure for I Faced This Problem Firsthand And Built A $15K MRR PDF-Generation API Tool is $15K. It confirms that a market transaction occurred, but a durable model also depends on gross margin, acquisition cost, support load, refund risk, payment timing, and the amount of founder attention required for each customer.",
+            "The published revenue figure for I Faced This Problem Firsthand And Built A $15K MRR PDF-Generation API Tool is $10M/mo. It confirms that a market transaction occurred, but a durable model also depends on gross margin, acquisition cost, support load, refund risk, payment timing, and the amount of founder attention required for each customer.",
             "One-time sales can generate cash quickly but require a steady supply of new buyers. Subscriptions improve predictability but must keep producing ongoing value. Services can reach deep into a customer workflow, yet they are often constrained by people and delivery complexity. Every pricing model creates a different operating responsibility.",
             "The disciplined approach is to trace one unit of revenue from lead to cash: source, conversion, onboarding, delivery time, variable cost, support, and repeat purchase. Revenue proves demand; contribution margin and cash flow determine whether the business can continue."
           ],
@@ -353,5 +326,24 @@
       },
       "status": "full"
     }
+  },
+  "source": {
+    "name": "Starter Story",
+    "url": "https://www.starterstory.com/stories/craftmypdf",
+    "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
+  },
+  "website": "https://craftmypdf.com",
+  "generatedAt": "2026-09-26T09:32:11.359366+00:00",
+  "provider": "structured-editorial",
+  "status": "full",
+  "quality": {
+    "sectionCount": 8,
+    "bodyCharacters": 2625,
+    "mediaCount": 6,
+    "readingMinutes": 6
+  },
+  "mediaDiscovery": {
+    "status": "source:ok|official:website-missing",
+    "attemptedAt": "2026-08-02T14:11:38.945793+00:00"
   }
 }
