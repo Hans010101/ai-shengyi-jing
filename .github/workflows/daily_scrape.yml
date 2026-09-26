@@ -44,7 +44,7 @@ jobs:
           cd pipeline
           python3 scraper.py
 
-      - name: Generate case pages for new projects
+      - name: Generate and validate new or changed case pages
         run: |
           python3 scripts/generate_case_catalog.py \
             --missing-only \
@@ -59,7 +59,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data/ pipeline/data/seen_ids.json pipeline/data/pending_projects.json pipeline/data/scrape_health.json pipeline/data/case_catalog_report.json pipeline/drafts/
+          git add data/ pipeline/data/seen_ids.json pipeline/data/pending_projects.json pipeline/data/refresh_projects.json pipeline/data/scrape_health.json pipeline/data/case_catalog_report.json pipeline/drafts/
           git diff --quiet && git diff --staged --quiet || git commit -m "📊 自动更新：$(date '+%Y-%m-%d') 项目数据"
           if git diff --quiet HEAD origin/main; then
             echo "No new project data to push"
@@ -92,6 +92,7 @@ jobs:
           path: |
             pipeline/data/scrape_health.json
             pipeline/data/pending_projects.json
+            pipeline/data/refresh_projects.json
             pipeline/data/case_catalog_report.json
             data/projects_live.json
             data/case_articles/

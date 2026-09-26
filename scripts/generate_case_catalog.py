@@ -1565,6 +1565,37 @@ def isolate_new_failures(projects: list[dict], new_ids: set[str], failures: dict
     print(f"[WARN] Deferred {len(failed_ids)} invalid new cases; existing cases preserved")
 
 
+def finalize_refreshes(projects, previous, previous_articles, refresh_ids, failures):
+    """Validate staged updates, restoring both original record and article on failure."""
+    from scripts import validate_case_catalog
+    from pipeline.project_store import merge_projects
+
+    save_json(PROJECTS_FILE, projects)
+    _, errors = validate_case_catalog.validate(write_report=False)
+    for project_id in refresh_ids:
+        specific = [error for error in errors if error.startswith(f"{project_id}:")]
+        if specific:
+            failures[project_id] = "; ".join(specific)
+    failed_ids = refresh_ids & set(failures)
+    pending_file = ROOT / "pipeline/data/pending_projects.json"
+    save_json(pending_file, merge_projects([p for p in projects if str(p["id"]) in failed_ids], load_json(pending_file, [])))
+    previous_by_id = {str(p["id"]): p for p in previous}
+    for project_id in failed_ids:
+        save_json(ARTICLES_DIR / f"{project_id}.json", previous_articles[project_id])
+    projects = [previous_by_id[str(p["id"])] if str(p["id"]) in failed_ids else p for p in projects]
+    save_json(PROJECTS_FILE, projects)
+    save_json(ROOT / "pipeline/data/refresh_projects.json", [])
+    health_file = ROOT / "pipeline/data/scrape_health.json"
+    health = load_json(health_file, {})
+    health["refreshedProjectIds"] = sorted(refresh_ids - failed_ids)
+    if failed_ids:
+        health["status"] = "degraded"
+        health["pendingProjects"] = health.get("pendingProjects", 0) + len(failed_ids)
+        health.setdefault("projectErrors", {}).update({key: failures[key] for key in failed_ids})
+    save_json(health_file, health)
+    return projects
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -2283,11 +2314,17 @@ def main() -> None:
         )
         return
 
+    previous_projects = projects
+    refreshes = load_json(ROOT / "pipeline/data/refresh_projects.json", []) if args.missing_only else []
+    # Only update existing, non-reviewed editions; new records use the normal path.
+    refreshes = {str(p["id"]): p for p in refreshes if str(p["id"]) in existing and str(p["id"]) not in reviewed}
+    projects = [refreshes.get(str(p["id"]), p) for p in projects]
+    refresh_ids = set(refreshes)
     selected_projects = (
         [
             project
             for project in projects
-            if str(project["id"]) not in existing
+            if str(project["id"]) not in existing or str(project["id"]) in refresh_ids
         ]
         if args.missing_only
         else projects
@@ -2307,7 +2344,7 @@ def main() -> None:
                 project,
                 reviewed,
                 existing,
-                args.fetch_media,
+                args.fetch_media and str(project["id"]) not in refresh_ids,
                 args.overwrite_reviewed,
             ): str(project["id"])
             for project in selected_projects
@@ -2320,7 +2357,7 @@ def main() -> None:
                 project_id, article, record = future.result()
             except Exception as error:
                 project_id = futures[future]
-                if project_id not in new_ids:
+                if project_id not in new_ids | refresh_ids:
                     raise
                 failures[project_id] = f"{type(error).__name__}: {error}"
                 print(f"[WARN] New case {project_id} deferred: {error}")
@@ -2376,8 +2413,17 @@ def main() -> None:
     }
     save_json(REPORT_FILE, report)
     print(json.dumps(report, ensure_ascii=False, indent=2))
+    if refresh_ids:
+        projects = finalize_refreshes(projects, previous_projects, existing, refresh_ids, failures)
     if new_ids:
         isolate_new_failures(projects, new_ids, failures)
+    if args.missing_only:
+        health_file = ROOT / "pipeline/data/scrape_health.json"
+        health = load_json(health_file, {})
+        if health.get("processedProjectIds"):
+            health["lastNewAt"] = datetime.datetime.now(datetime.timezone.utc).isoformat()
+        health["phase"] = "catalog-validated"
+        save_json(health_file, health)
 
 
 if __name__ == "__main__":

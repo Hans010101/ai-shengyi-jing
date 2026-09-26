@@ -89,12 +89,16 @@ class DailyScraperTests(unittest.TestCase):
     def test_official_sitemap_recovers_businesses_missing_from_listing(self):
         xml = b'''<?xml version="1.0"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
           <url><loc>https://www.starterstory.com/businesses/css-scan</loc><lastmod>2026-08-24T04:25:48+00:00</lastmod></url>
-          <url><loc>https://www.starterstory.com/stories/not-a-business-page</loc></url>
+          <url><loc>https://www.starterstory.com/stories/new-story</loc></url>
+          <url><loc>https://other.example/stories/foreign</loc></url>
+          <url><loc>https://www.starterstory.com/businesses/css-scan</loc><lastmod>2020-01-01</lastmod></url>
         </urlset>'''
 
         projects = parse_sitemap_xml(gzip.compress(xml))
 
-        self.assertEqual(len(projects), 1)
+        self.assertEqual(len(projects), 2)
+        self.assertEqual(projects[1]["slug"], "new-story")
+        self.assertTrue(projects[0]["sourceUpdatedAt"].startswith("2026-08-24"))
         self.assertEqual(projects[0]["slug"], "css-scan")
         self.assertEqual(projects[0]["id"], make_id(projects[0]["url"]))
 

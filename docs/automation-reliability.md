@@ -7,7 +7,10 @@
 ## 云端运行
 
 - 每天 08:17 / 20:43（北京时间）计划采集，GitHub 排队可能延迟；不依赖本地电脑。
-- 最新列表与官方 sitemap 互为备用；来源均失败不视为“没有新项目”。
+- 最新列表与官方 sitemap 互为备用；同时覆盖 `/businesses/` 与 `/stories/`，分别校验数量。来源均失败不视为“没有新项目”。
+- 每轮最多补采 20 个新案例，余量保留队列；URL、slug、canonical 与完整标题去重。
+- 每轮检查最多 5 个源站标记变更的旧案例；正文指纹不变不调用 AI。历史无指纹案例首次建立基线；人工审阅版不自动改写。
+- 旧案例更新先暂存到 `refresh_projects.json`，中英详情通过验证才替换；失败恢复原记录与原详情，进入重试队列。
 - AI 输出校验与有限重试；不合格记录不发布占位内容。
 - 单条新增项目/详情失败留在 `pipeline/data/pending_projects.json`，下次即使不在列表中也会重试。
 - 只有本次新增且从未发布的失败详情会隔离；历史案例保持不动，全量质量门禁仍保留。
@@ -20,12 +23,13 @@
 
 - 失败/超时任务自动重跑，单次任务最多 3 次尝试，避免无限循环。
 - 超过 26 小时没有完成采集检查时补跑；来源正常但没有新增不算故障。
+- 连续 72 小时无新增时，独立读取 sitemap 原始 URL，与解析结果及现有目录交叉核对；发现漏采或来源异常才触发补偿/告警，不为凑每日数量制造内容。
 - 来源降级或待重试项目触发有限补偿；恢复失败后创建一个去重 GitHub Issue，恢复正常自动关闭。
 - 排队/运行超过 2 小时会告警，不取消用户主动取消的任务。
 - 采集 45 分钟、部署 25 分钟超时；原生失败通知与失败诊断附件保留。
 
 查看 Actions 中“案例更新自动巡检与恢复”和健康报告的 `completedAt`、
-`databaseProjects`、`pendingProjects`、`projectErrors`。勿用“今天必须新增几篇”判断健康。
+`databaseProjects`、`lastNewAt`、`sitemapStories`、`queuedProjects`、`pendingProjects`、`refreshedProjectIds`、`projectErrors`。`queuedProjects` 是限量后留待下轮的正常积压，`pendingProjects` 是实际失败。勿用“今天必须新增几篇”判断健康。
 若持续异常需修复来源解析/API 配额/权限等根因；监控不伪造内容，也不能修复 GitHub 全站故障。
 
 回归检查：`python3 -m unittest discover -s tests -v`。

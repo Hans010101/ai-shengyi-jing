@@ -4,11 +4,13 @@ import unittest
 import json
 import tempfile
 from pathlib import Path
+from contextlib import ExitStack
+from types import SimpleNamespace
 from unittest.mock import patch
 
 from pipeline import scraper
 from pipeline.scraper import discover_projects
-from scripts.check_automation import recovery_action, verify_site
+from scripts.check_automation import recovery_action, verify_site, check_source_coverage
 from scripts.build_site import build_project_index
 from scripts import generate_case_catalog as catalog
 from scripts.generate_case_catalog import (
@@ -101,6 +103,66 @@ class UnattendedRecoveryTests(unittest.TestCase):
         "getStartedPath": ["验证需求", "搭建原型", "验证付费"],
     }
 
+    def test_story_metadata_and_content_hash_ignore_timestamp_only_changes(self):
+        detail = scraper.parse_detail_html('''<h1>AI Support Making $500/Month</h1>
+          <meta name="description" content="A founder support product">
+          <link rel="canonical" href="https://www.starterstory.com/stories/support">
+          <script type="application/ld+json">{"@type":"Article","datePublished":"2026-09-23"}</script>
+          <article><p>A founder built a support agent for small teams, charging subscriptions for hosted support.</p></article>''')
+        self.assertEqual(detail["sourcePublishedAt"], "2026-09-23")
+        self.assertEqual(detail["revenueDetail"], "$500/Month")
+        self.assertIn("subscriptions", detail["sourceText"])
+        self.assertEqual(scraper.source_fingerprint(detail), scraper.source_fingerprint({**detail, "sourceUpdatedAt": "tomorrow"}))
+        self.assertNotEqual(scraper.source_fingerprint(detail), scraper.source_fingerprint({**detail, "sourceText": "changed"}))
+
+    def test_batch_preserves_backlog_and_unchanged_refresh_skips_ai(self):
+        detail = {"name": "Old", "description": "Original public facts", "revenueDetail": "$1K/mo"}
+        old = {"id": "old", "url": "https://www.starterstory.com/stories/old", "name": "Old", "sourceUpdatedAt": "2026-09-01", "sourceFingerprint": scraper.source_fingerprint(detail)}
+        new = [{"id": f"new{i}", "name": f"New {i}", "revenue": "$1K/mo"} for i in range(3)]
+        source = {**old, "sourceUpdatedAt": "2026-09-26"}
+        with tempfile.TemporaryDirectory() as directory, ExitStack() as stack:
+            root = Path(directory)
+            for key, path in {"DATA_DIR": root, "OUTPUT_FILE": root / "projects.json", "SEEN_FILE": root / "seen.json", "PENDING_FILE": root / "pending.json", "REFRESH_FILE": root / "refresh.json", "HEALTH_FILE": root / "health.json"}.items():
+                stack.enter_context(patch.object(scraper, key, path))
+            scraper.OUTPUT_FILE.write_text(json.dumps([old]))
+            stack.enter_context(patch.object(scraper, "NEW_BATCH_SIZE", 1))
+            stack.enter_context(patch.object(scraper, "discover_projects", return_value=(new + [source], {"sourceErrors": {}})))
+            stack.enter_context(patch.object(scraper, "scrape_detail_page", return_value=detail))
+            analyze = stack.enter_context(patch.object(scraper, "generate_chinese_analysis", return_value=self.analysis))
+            stack.enter_context(patch.object(scraper, "generate_content_drafts"))
+            stack.enter_context(patch.object(scraper.time, "sleep"))
+            scraper.run_pipeline()
+            self.assertEqual(analyze.call_count, 1)
+            self.assertEqual(len(json.loads(scraper.PENDING_FILE.read_text())), 2)
+            self.assertEqual(json.loads(scraper.REFRESH_FILE.read_text()), [])
+            health = json.loads(scraper.HEALTH_FILE.read_text())
+            self.assertEqual((health["queuedProjects"], health["pendingProjects"], health["status"]), (2, 0, "healthy"))
+            stored = json.loads(scraper.OUTPUT_FILE.read_text())
+            self.assertEqual(stored[-1]["sourceUpdatedAt"], "2026-09-26")
+
+    def test_changed_article_failure_restores_both_published_versions(self):
+        old = {"id": "old", "summary": "previous"}
+        update = {"id": "old", "summary": "changed"}
+        article = {"projectId": "old", "title": "Original"}
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            with patch.object(catalog, "ROOT", root), \
+                 patch.object(catalog, "PROJECTS_FILE", root / "projects.json"), \
+                 patch.object(catalog, "ARTICLES_DIR", root / "articles"), \
+                 patch("scripts.validate_case_catalog.validate", return_value=({}, ["old: invalid English edition"])):
+                kept = catalog.finalize_refreshes([update], [old], {"old": article}, {"old"}, {})
+                self.assertEqual(kept, [old])
+                self.assertEqual(json.loads((root / "articles/old.json").read_text()), article)
+                self.assertEqual(json.loads((root / "pipeline/data/pending_projects.json").read_text()), [update])
+                self.assertEqual(json.loads((root / "pipeline/data/refresh_projects.json").read_text()), [])
+
+    def test_independent_probe_detects_parser_omitting_stories(self):
+        response = SimpleNamespace(content=b'<urlset><url><loc>https://www.starterstory.com/stories/new</loc></url></urlset>')
+        with patch.object(scraper, "fetch_response", return_value=response), \
+             patch.object(scraper, "parse_sitemap_xml", return_value=[]):
+            with self.assertRaisesRegex(ValueError, "URL"):
+                check_source_coverage([])
+
     def test_ai_retries_then_uses_next_configured_provider(self):
         with patch.object(scraper, "DEEPSEEK_API_KEY", "configured"), \
              patch.object(scraper, "GEMINI_API_KEY", "configured"), \
@@ -127,6 +189,7 @@ class UnattendedRecoveryTests(unittest.TestCase):
             with patch.object(scraper, "DATA_DIR", root), \
                  patch.object(scraper, "SEEN_FILE", root / "seen.json"), \
                  patch.object(scraper, "PENDING_FILE", root / "pending.json"), \
+                 patch.object(scraper, "REFRESH_FILE", root / "refresh.json"), \
                  patch.object(scraper, "HEALTH_FILE", root / "health.json"), \
                  patch.object(scraper, "OUTPUT_FILE", root / "projects.json"), \
                  patch.object(scraper, "discover_projects", return_value=([good, bad], health)) as discover, \

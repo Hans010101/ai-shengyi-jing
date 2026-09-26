@@ -4,6 +4,7 @@
 import argparse
 import concurrent.futures
 import datetime as dt
+import gzip
 import json
 import os
 from pathlib import Path
@@ -11,6 +12,8 @@ import subprocess
 import sys
 import time
 import urllib.request
+import xml.etree.ElementTree as ET
+from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
@@ -89,7 +92,34 @@ def recovery_action(runs, now=None):
 
 
 def hours_since(value, now):
-    return (now - dt.datetime.fromisoformat(value.replace("Z", "+00:00"))).total_seconds() / 3600
+    parsed = dt.datetime.fromisoformat(value.replace("Z", "+00:00"))
+    return (now - parsed.replace(tzinfo=parsed.tzinfo or dt.timezone.utc)).total_seconds() / 3600
+
+
+def check_source_coverage(projects):
+    """Independently compare current sitemap URLs with the published catalog."""
+    from pipeline.scraper import SITEMAP_URL, fetch_response, parse_sitemap_xml, find_new_projects
+
+    response = fetch_response(SITEMAP_URL)
+    if response is None:
+        raise ValueError("独立漏采检查无法读取源站 sitemap，不能当作零新增。")
+    content = response.content
+    if content[:2] == b"\x1f\x8b":
+        content = gzip.decompress(content)
+    urls = {node.text.strip().rstrip("/") for node in ET.fromstring(content).iter()
+            if node.tag.rsplit("}", 1)[-1] == "loc" and node.text}
+    urls = {url for url in urls if urlparse(url).hostname == "www.starterstory.com"
+            and len(urlparse(url).path.split("/")) == 3
+            and urlparse(url).path.split("/")[1] in {"stories", "businesses"}}
+    discovered = parse_sitemap_xml(content)
+    if urls != {p["url"] for p in discovered}:
+        raise ValueError("sitemap 原始链接与采集解析结果不一致，可能漏掉 URL 类型。")
+    counts = {family: sum(f"/{family}/" in url for url in urls) for family in ("stories", "businesses")}
+    if counts["stories"] < 1000 or counts["businesses"] < 400:
+        raise ValueError(f"独立来源覆盖检查异常：{counts}")
+    missing = find_new_projects(discovered, projects)
+    print(json.dumps({"sourceCoverage": counts, "uncollected": len(missing)}, ensure_ascii=False))
+    return missing
 
 
 def watchdog(repair=False):
@@ -113,6 +143,16 @@ def watchdog(repair=False):
             errors.append(f"{workflow} 自动恢复未成功：{latest['html_url']}")
 
     health = read_json(ROOT / "pipeline" / "data" / "scrape_health.json")
+    projects = read_json(ROOT / "data/projects_live.json")
+    last_new = health.get("lastNewAt") or max((p.get("scrapedAt", "") for p in projects), default="")
+    coverage_errors = []
+    if not last_new or hours_since(last_new, now) >= 72:
+        try:
+            missing = check_source_coverage(projects)
+            if missing:
+                coverage_errors.append(f"超过 72 小时没有新案例，但独立源站检查发现 {len(missing)} 个未收录链接；示例：{missing[0]['url']}")
+        except (OSError, ValueError, ET.ParseError) as error:
+            coverage_errors.append(str(error))
     if hours_since(health.get("completedAt", health["checkedAt"]), now) > 26:
         errors.append("超过 26 小时没有完成采集检查（不以新增数量判断故障）。")
         latest = latest_runs[WORKFLOWS[0]]
@@ -120,8 +160,8 @@ def watchdog(repair=False):
             if repair:
                 gh("workflow", "run", WORKFLOWS[0], "--ref", "main")
             recovering = True
-    if health.get("status") != "healthy" or health.get("pendingProjects", 0):
-        errors.append("采集来源降级或存在待重试项目；详见 pipeline/data/scrape_health.json。")
+    if health.get("status") != "healthy" or health.get("pendingProjects", 0) or coverage_errors:
+        errors.extend(coverage_errors or ["采集来源降级或存在待重试项目；详见 pipeline/data/scrape_health.json。"])
         latest = latest_runs[WORKFLOWS[0]]
         if not recovering and latest and latest["conclusion"] == "success" and latest.get("run_attempt", 1) < 3:
             if repair:
