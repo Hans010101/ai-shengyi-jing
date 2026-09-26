@@ -1,35 +1,35 @@
 {
-  "validatedAt": "2026-09-26T09:19:12.142944+00:00",
-  "projectCount": 3859,
-  "articleCount": 3859,
+  "validatedAt": "2026-09-26T09:29:04.302033+00:00",
+  "projectCount": 3879,
+  "articleCount": 3879,
   "coveragePercent": 100.0,
   "status": {
-    "full": 3854,
+    "full": 3874,
     "pilot": 5
   },
   "minimumCharacters": 2057,
   "minimumFullCharacters": 2659,
-  "withMedia": 3859,
+  "withMedia": 3879,
   "withoutMedia": 0,
-  "mediaItems": 21078,
-  "sourceMediaItems": 15406,
-  "editorialInfographics": 5672,
+  "mediaItems": 21141,
+  "sourceMediaItems": 15439,
+  "editorialInfographics": 5702,
   "mediaDistribution": {
-    "3": 119,
-    "4": 15,
-    "5": 2438,
+    "3": 138,
+    "4": 17,
+    "5": 2436,
     "6": 798,
     "7": 229,
-    "8": 260
+    "8": 261
   },
   "belowThreeMedia": 0,
   "belowThreeMediaIds": [],
-  "belowFiveMedia": 134,
+  "belowFiveMedia": 155,
   "mediaEnrichmentBatches": {
     "4": 666,
-    "3": 997,
-    "1": 1000,
-    "2": 998
+    "3": 995,
+    "1": 999,
+    "2": 996
   },
   "withoutMediaIds": [],
   "errors": []
