@@ -301,11 +301,15 @@ def parse_detail_html(html):
     soup = BeautifulSoup(html, "html.parser")
     detail = {}
 
+    transcript = soup.select_one("#transcript-container")
     title_el = soup.find("h1")
     if title_el:
         title = title_el.get_text(" ", strip=True)
         if title:
             detail["name"] = title
+    if transcript and not detail.get("name"):
+        title = soup.find("meta", attrs={"property": "og:title"})
+        detail["name"] = (title.get("content", "") if title else soup.title.get_text(strip=True) if soup.title else "").removesuffix(" - Starter Story")
 
     rev_blocks = soup.find_all(string=lambda s: s and "$" in s and "/mo" in s)
     if rev_blocks:
@@ -335,9 +339,13 @@ def parse_detail_html(html):
     if article:
         # Only public article paragraphs; never bypass paywalls or hash site navigation.
         detail["sourceText"] = "\n".join(p.get_text(" ", strip=True) for p in article.select("p") if len(p.get_text(strip=True)) > 60)[:12000]
-    revenue = re.search(r"\$[\d,.]+[KkMm]?\s*/\s*(?:Month|month|mo|Year|year|yr)", detail.get("name", ""))
+    if transcript and not detail.get("sourceText"):
+        detail["sourceText"] = transcript.get_text(" ", strip=True)[:12000]
+        if not detail.get("description") and len(detail["sourceText"]) >= 100:
+            detail["description"] = detail["sourceText"][:600]
+    revenue = re.search(r"(\$[\d,.]+[KkMm]?)\s*(?:/|per\s+)\s*(month|mo|year|yr)\b", detail.get("name", ""), re.I)
     if revenue:
-        detail["revenueDetail"] = revenue.group()
+        detail["revenueDetail"] = revenue.group(1) + ("/Month" if revenue.group(2).lower().startswith("mo") else "/Year")
 
     blocked_hosts = {
         "starterstory.com", "www.starterstory.com", "build.starterstory.com",
@@ -345,7 +353,7 @@ def parse_detail_html(html):
         "linkedin.com", "youtube.com", "www.youtube.com", "tiktok.com",
         "api.placid.app", "d1coqmn8qm80r4.cloudfront.net",
     }
-    for link in (article or soup).find_all("a", href=True):
+    for link in (article or transcript or soup).find_all("a", href=True):
         href = link.get("href", "").strip()
         parsed = urlparse(href)
         host = (parsed.hostname or "").lower()

@@ -103,6 +103,18 @@ class UnattendedRecoveryTests(unittest.TestCase):
         "getStartedPath": ["验证需求", "搭建原型", "验证付费"],
     }
 
+    def test_public_video_transcript_without_article_or_heading(self):
+        detail = scraper.parse_detail_html('''
+          <meta property="og:title" content="I Make $50K Per Month Working 5 Hours A Week - Starter Story">
+          <nav><a href="https://sponsor.example">Sponsor</a></nav>
+          <div id="transcript-container"><div><span>This founder builds mobile apps.</span>
+          <span>Customers pay a monthly subscription to use the apps, and the founder shares how he tests demand before building.</span></div></div>''')
+        self.assertEqual(detail["name"], "I Make $50K Per Month Working 5 Hours A Week")
+        self.assertEqual(detail["revenueDetail"], "$50K/Month")
+        self.assertIn("tests demand", detail["description"])
+        self.assertIn("mobile apps", detail["sourceText"])
+        self.assertNotIn("website", detail)
+
     def test_story_metadata_and_content_hash_ignore_timestamp_only_changes(self):
         detail = scraper.parse_detail_html('''<h1>AI Support Making $500/Month</h1>
           <meta name="description" content="A founder support product">
