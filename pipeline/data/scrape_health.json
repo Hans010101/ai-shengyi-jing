@@ -1,35 +1,38 @@
 {
-  "checkedAt": "2026-10-01T01:15:24.450644+00:00",
+  "checkedAt": "2026-10-01T12:59:51.470731+00:00",
   "status": "healthy",
   "listingProjects": 25,
   "sitemapBusinesses": 583,
-  "sitemapStories": 3296,
+  "sitemapStories": 3298,
   "sourceErrors": {},
-  "discoveredProjects": 3879,
-  "newProjects": 0,
+  "discoveredProjects": 3881,
+  "newProjects": 2,
   "queuedProjects": 0,
   "refreshDue": 1358,
   "databaseProjectsBefore": 3884,
-  "databaseProjects": 3884,
+  "databaseProjects": 3886,
   "phase": "catalog-validated",
-  "lastNewAt": "2026-09-29T01:06:40.675426",
-  "completedAt": "2026-10-01T01:16:15.128640+00:00",
-  "processedProjects": 0,
-  "processedProjectIds": [],
+  "lastNewAt": "2026-10-01T13:01:16.254043+00:00",
+  "completedAt": "2026-10-01T13:01:05.510805+00:00",
+  "processedProjects": 2,
+  "processedProjectIds": [
+    "f6d4e6c48614",
+    "ee3a1f904233"
+  ],
   "refreshProjectIds": [
-    "369fd171d37e",
-    "f0c2348ed7c9",
-    "1ae35e773b04",
-    "a8993ffddcb2",
-    "ea6559fc1cb5"
+    "c246378098e8",
+    "d69998e0ead6",
+    "f6ddcbe87543",
+    "2e4d22790f5b",
+    "b7f4e1c80a73"
   ],
   "pendingProjects": 0,
   "projectErrors": {},
   "refreshedProjectIds": [
-    "1ae35e773b04",
-    "369fd171d37e",
-    "a8993ffddcb2",
-    "ea6559fc1cb5",
-    "f0c2348ed7c9"
+    "2e4d22790f5b",
+    "b7f4e1c80a73",
+    "c246378098e8",
+    "d69998e0ead6",
+    "f6ddcbe87543"
   ]
 }
