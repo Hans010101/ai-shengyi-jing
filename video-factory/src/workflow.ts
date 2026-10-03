@@ -3,9 +3,49 @@ import { WorkflowEntrypoint, type WorkflowEvent, type WorkflowStep } from 'cloud
 import { buildContentSnapshot, buildManifest, buildSnapshot, generateScript, similarity } from './pipeline';
 import { enrichSnapshotMedia } from './media';
 import { event as addEvent, updateJob } from './db';
-import type { Env, ProductionOptions, RenderManifest, SourceType } from './types';
+import { resolveProductionLine } from './presets';
+import { signInternalAsset } from './auth';
+import type { CaseSnapshot, Env, MediaItem, ProductionOptions, RenderManifest, SourceType, VideoScript } from './types';
 
 type Params = { jobId: string; caseId?: string; source?: { sourceType: SourceType; title?: string; text?: string; url?: string }; options?: Partial<ProductionOptions>; template?: string };
+
+const COMIC_IMAGE_MODEL = '@cf/black-forest-labs/flux-1-schnell';
+
+function imageBytes(result: any) {
+  const encoded = typeof result?.image === 'string' ? result.image : typeof result === 'string' ? result : '';
+  if (!encoded) throw new Error('COMIC_IMAGE_EMPTY');
+  const bytes = Uint8Array.from(Buffer.from(encoded.replace(/^data:image\/[^;]+;base64,/, ''), 'base64'));
+  if (bytes.byteLength < 8_000 || bytes.byteLength > 12_000_000) throw new Error(`COMIC_IMAGE_INVALID_SIZE:${bytes.byteLength}`);
+  return bytes;
+}
+
+async function generateComicStoryboard(env: Env, jobId: string, snapshot: CaseSnapshot, script: VideoScript) {
+  const items: MediaItem[] = [];
+  for (let start = 0; start < script.beats.length; start += 4) {
+    const group = script.beats.slice(start, start + 4);
+    const generated = await Promise.all(group.map(async (beat, offset) => {
+      const index = start + offset;
+      const prompt = `Scene ${index + 1}. Vertical editorial woodcut comic illustration for an adult Chinese social-philosophy narration set in contemporary 2020s China. Show modern urban homes, offices, streets, family life or social settings with modern clothing and objects. Deep forest-green ink background, dense ivory engraved linework, dramatic cinematic lighting, expressive adult characters, symbolic environment, layered foreground middle ground and background, restrained serious mood, high contrast, vintage print texture. Scene meaning: ${beat.narration.slice(0, 220)}. Composition must remain readable when cropped to 9:16. No ancient costume, no imperial China, no wuxia, no fantasy, no words, no letters, no captions, no logos, no watermark, no interface.`;
+      const result: any = await env.AI.run(COMIC_IMAGE_MODEL, { prompt, steps: 4 });
+      const bytes = imageBytes(result);
+      if (bytes[0] !== 0xff || bytes[1] !== 0xd8) throw new Error('COMIC_IMAGE_NOT_JPEG');
+      const filename = `comic-${String(index + 1).padStart(2, '0')}.jpg`;
+      const key = `jobs/${jobId}/generated/${filename}`;
+      const signature = await signInternalAsset(`${jobId}/${filename}`, env.INTERNAL_RENDER_TOKEN);
+      await env.VIDEO_BUCKET.put(key, bytes, { httpMetadata: { contentType: 'image/jpeg' }, customMetadata: { model: COMIC_IMAGE_MODEL, beatId: beat.id, productionLine: 'comic-engraving-v1' } });
+      return {
+        id: `comic-${index + 1}`, type: 'image' as const,
+        url: `${env.PUBLIC_ORIGIN}/internal/assets/${jobId}/${filename}?sig=${encodeURIComponent(signature)}`,
+        caption: beat.onScreen || beat.chapter, origin: 'workers-ai-generated', creator: COMIC_IMAGE_MODEL,
+        license: 'AI-generated for this production'
+      };
+    }));
+    items.push(...generated);
+  }
+  if (items.length !== script.beats.length) throw new Error(`COMIC_MEDIA_GENERATION_FAILED:${items.length}/${script.beats.length}`);
+  const storyboardScript: VideoScript = { ...script, beats: script.beats.map((beat, index) => ({ ...beat, mediaIds: [items[index].id] })) };
+  return { snapshot: { ...snapshot, media: items }, script: storyboardScript, model: COMIC_IMAGE_MODEL };
+}
 
 async function fetchJson(url: string) {
   const response = await fetch(url, { headers: { 'User-Agent': 'AI-Shengyi-Video-Factory/0.1' } });
@@ -81,11 +121,27 @@ export class VideoProductionWorkflow extends WorkflowEntrypoint<Env, Params> {
     const { jobId, caseId, source, options } = event.payload;
     try {
       await step.do('mark-started', async () => { await updateJob(this.env, jobId, { status: 'running', stage: 'source', progress: 5 }); await addEvent(this.env, jobId, 'source', '开始解析内容、提炼事实与主题'); });
-      const snapshot = await step.do('load-content-snapshot', async () => caseId ? loadSnapshot(this.env, caseId) : buildContentSnapshot(source!));
+      let snapshot = await step.do('load-content-snapshot', async () => caseId ? loadSnapshot(this.env, caseId) : buildContentSnapshot(source!));
       if (snapshot.sourceType === 'ai-shengyi-case' && snapshot.media.length < 3) throw new Error(`INSUFFICIENT_MEDIA:${snapshot.media.length}`);
       await step.do('store-snapshot', async () => { const key = `jobs/${jobId}/content-snapshot.json`; await this.env.VIDEO_BUCKET.put(key, JSON.stringify(snapshot, null, 2), { httpMetadata: { contentType: 'application/json' } }); await updateJob(this.env, jobId, { case_name: snapshot.title, source_title: snapshot.title, stage: 'script', progress: 16 }); await addEvent(this.env, jobId, 'source', `提炼到${snapshot.facts.length}条内容依据、${snapshot.media.length}项外部素材`); });
-      const generated = await step.do('generate-grounded-script', async () => generateScript(snapshot, this.env));
+      let generated = await step.do('generate-grounded-script', async () => generateScript(snapshot, this.env));
       await step.do('store-script', async () => { await this.env.VIDEO_BUCKET.put(`jobs/${jobId}/script.json`, JSON.stringify(generated.script, null, 2), { httpMetadata: { contentType: 'application/json' } }); await updateJob(this.env, jobId, { provider: generated.provider, stage: 'render', progress: 28 }); await addEvent(this.env, jobId, 'script', `脚本完成：${generated.script.beats.length}个叙事段落`, { provider: generated.provider }); });
+
+      const line = resolveProductionLine(snapshot.sourceType, options?.productionLineId || options?.templateId);
+      if (line.mediaStrategy === 'workers-ai-illustration') {
+        const storyboard = await step.do('generate-comic-storyboard', async () => generateComicStoryboard(this.env, jobId, snapshot, generated.script));
+        snapshot = storyboard.snapshot;
+        generated = { ...generated, script: storyboard.script, provider: `${generated.provider}+workers-ai:${storyboard.model}` };
+        await step.do('store-comic-storyboard', async () => {
+          await Promise.all([
+            this.env.VIDEO_BUCKET.put(`jobs/${jobId}/content-snapshot.json`, JSON.stringify(snapshot, null, 2), { httpMetadata: { contentType: 'application/json' } }),
+            this.env.VIDEO_BUCKET.put(`jobs/${jobId}/script.json`, JSON.stringify(generated.script, null, 2), { httpMetadata: { contentType: 'application/json' } }),
+            this.env.VIDEO_BUCKET.put(`jobs/${jobId}/storyboard.json`, JSON.stringify({ productionLine: line.id, version: line.version, beats: generated.script.beats.map((beat, index) => ({ ...beat, media: snapshot.media[index] })) }, null, 2), { httpMetadata: { contentType: 'application/json' } })
+          ]);
+          await updateJob(this.env, jobId, { provider: generated.provider, stage: 'render', progress: 36 });
+          await addEvent(this.env, jobId, 'render', `漫画分镜完成：${snapshot.media.length}幅独立插画`, { model: storyboard.model, productionLine: line.id });
+        });
+      }
 
       let finalQa: any = null;
       let finalKeys: any = null;

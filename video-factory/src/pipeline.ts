@@ -1,4 +1,5 @@
 import type { CaseSnapshot, ContentSnapshot, MediaItem, ProductionOptions, RenderManifest, ScriptBeat, SourceType, VideoScript } from './types';
+import { productionOptions, resolveProductionLine } from './presets';
 
 const SCRIPT_SYSTEM = `你是中文短视频总编导。把输入内容提炼成清楚、可信、自然的知识短视频。
 必须遵守：先用反差或问题给出观看理由，再按主题推进，最后给出可复述的结论；只使用输入事实，不补写未经支持的数字；每个事实绑定 evidenceIds；6到8段；每段旁白35至80个汉字；口语自然、有转折，不堆形容词；mediaIds只能来自输入；只返回JSON。`;
@@ -82,6 +83,38 @@ export function fallbackKnowledgeScript(snapshot: ContentSnapshot): VideoScript 
   return { schemaVersion: '1.0', headline: snapshot.title, subheadline: '把复杂内容讲清楚', hook: beats[0].narration, beats, closing: beats.at(-1)!.narration };
 }
 
+function titleFromScript(text: string) {
+  const first = text.split(/(?<=[。！？!?#？])|\n/u).map(value => normalizeText(value, 80)).find(Boolean) || '口播文案';
+  return first.replace(/[。！？!?#？]+$/u, '').slice(0, 32) || '口播文案';
+}
+
+export function directScriptToVideoScript(snapshot: ContentSnapshot): VideoScript {
+  const raw = normalizeText(snapshot.rawText, 16000);
+  if (!raw) throw new Error('SCRIPT_EMPTY');
+  const sentences = raw.split(/(?<=[。！？；!?;])/u).map(value => value.trim()).filter(Boolean);
+  const phrases: string[] = [];
+  for (const sentence of sentences.length ? sentences : [raw]) {
+    if (sentence.length <= 86) { phrases.push(sentence); continue; }
+    const clauses = sentence.split(/(?<=[，、：,:])/u).map(value => value.trim()).filter(Boolean);
+    let buffer = '';
+    for (const clause of clauses.length > 1 ? clauses : sentence.match(/.{1,72}/gu) || [sentence]) {
+      if (buffer && buffer.length + clause.length > 86) { phrases.push(buffer); buffer = clause; }
+      else buffer += clause;
+    }
+    if (buffer) phrases.push(buffer);
+  }
+  const beats = phrases.map((narration, index): ScriptBeat => ({
+    id: `script-${index + 1}`,
+    chapter: index === 0 ? '开场' : index === phrases.length - 1 ? '收束' : `第 ${index + 1} 段`,
+    narration,
+    onScreen: narration.replace(/[，。！？；：、,.!?;:]/gu, ' ').trim().slice(0, 26),
+    evidenceIds: [snapshot.facts[Math.min(index, snapshot.facts.length - 1)]?.id || 'source-1'],
+    mediaIds: []
+  }));
+  const headline = snapshot.title && snapshot.title !== '未命名内容' ? snapshot.title : titleFromScript(raw);
+  return { schemaVersion: '1.0', headline, subheadline: '原稿直出 · 不改写口播', hook: beats[0].narration, beats, closing: beats.at(-1)!.narration };
+}
+
 function scriptSchema() {
   return {
     type: 'object',
@@ -127,6 +160,7 @@ export function distributeMedia(script: VideoScript, snapshot: CaseSnapshot): Vi
 }
 
 export async function generateScript(snapshot: CaseSnapshot, env: any): Promise<{ script: VideoScript; provider: string }> {
+  if (snapshot.sourceType === 'script') return { script: directScriptToVideoScript(snapshot), provider: 'direct-script-v1' };
   try {
     const result: any = await env.AI.run(env.SCRIPT_MODEL, {
       messages: [{ role: 'system', content: SCRIPT_SYSTEM }, { role: 'user', content: JSON.stringify(snapshot) }],
@@ -156,28 +190,30 @@ export async function generateScript(snapshot: CaseSnapshot, env: any): Promise<
 
 export function validateScript(script: VideoScript, snapshot: CaseSnapshot) {
   const errors: string[] = [];
-  if (!script || !Array.isArray(script.beats) || script.beats.length < 6 || script.beats.length > 10) errors.push('脚本段落必须为6至10段');
+  const direct = snapshot.sourceType === 'script';
+  if (!script || !Array.isArray(script.beats) || script.beats.length < (direct ? 1 : 6) || script.beats.length > (direct ? 20 : 10)) errors.push(direct ? '直稿分镜必须为1至20段' : '脚本段落必须为6至10段');
   const evidence = new Set(snapshot.facts.map(item => item.id));
   const media = new Set(snapshot.media.map(item => item.id));
   for (const beat of script?.beats || []) {
-    if (normalizeText(beat.narration).length < 24) errors.push(`${beat.id}:旁白过短`);
+    if (!direct && normalizeText(beat.narration).length < 24) errors.push(`${beat.id}:旁白过短`);
     if (normalizeText(beat.narration).length > 95) errors.push(`${beat.id}:旁白过长`);
     if (!beat.evidenceIds?.every(id => evidence.has(id))) errors.push(`${beat.id}:存在无来源事实`);
     if (!beat.mediaIds?.every(id => media.has(id))) errors.push(`${beat.id}:存在无效素材`);
   }
   const totalNarration = (script?.beats || []).reduce((sum, beat) => sum + normalizeText(beat.narration).length, 0);
-  if (totalNarration < 320 || totalNarration > 650) errors.push(`旁白总长度需在320至650字，当前${totalNarration}字`);
+  if ((!direct && (totalNarration < 320 || totalNarration > 650)) || (direct && (totalNarration < 100 || totalNarration > 760))) errors.push(direct ? `直稿需在100至760字，当前${totalNarration}字` : `旁白总长度需在320至650字，当前${totalNarration}字`);
   return { ok: errors.length === 0, errors };
 }
 
 export function buildManifest(jobId: string, snapshot: CaseSnapshot, script: VideoScript, attempt = 1, requested?: Partial<ProductionOptions>): RenderManifest {
-  const options: ProductionOptions = { templateId: snapshot.sourceType === 'ai-shengyi-case' ? 'ai-shengyi-case-v1' : 'knowledge-director-v1', visualPreset: snapshot.sourceType === 'ai-shengyi-case' ? 'real-montage' : 'knowledge-diagram', aspectRatio: '9:16', durationSeconds: snapshot.sourceType === 'ai-shengyi-case' ? 90 : 60, voice: 'zh-CN-XiaoxiaoNeural', voiceRate: 1.08, brandPreset: snapshot.sourceType === 'ai-shengyi-case' ? 'ai-shengyi-jing' : 'studio-neutral', bgm: true, autoDucking: true, ...requested };
+  const options = productionOptions(snapshot.sourceType, requested);
+  const line = resolveProductionLine(snapshot.sourceType, options.productionLineId);
   const dimensions = options.aspectRatio === '16:9' ? [1920,1080] : options.aspectRatio === '1:1' ? [1080,1080] : [1080,1920];
   const legacy = { ...snapshot, caseId: snapshot.legacy?.caseId || snapshot.sourceId, name: snapshot.title, nameZh: snapshot.title, revenue: snapshot.legacy?.revenue || '', businessModel: snapshot.legacy?.businessModel || snapshot.summary, chinaOpportunity: snapshot.legacy?.chinaOpportunity || '', media: snapshot.media };
   return {
-    schemaVersion: '2.0', jobId, template: options.templateId, templateVersion: '2.0.0', contentSnapshot: snapshot, caseSnapshot: legacy, script, options,
+    schemaVersion: '2.0', jobId, template: line.id, templateVersion: line.version, contentSnapshot: snapshot, caseSnapshot: legacy, script, options,
     voice: { provider: 'edge-neural', voice: options.voice, rate: attempt > 1 ? '+4%' : `+${Math.round((options.voiceRate - 1) * 100)}%`, pitch: '+0Hz', phrasePauseSeconds: 0.14 },
-    quality: { width: dimensions[0], height: dimensions[1], fps: 30, minUniqueMedia: !snapshot.media.length || options.visualPreset === 'knowledge-diagram' ? 0 : snapshot.media.length >= 7 ? 5 : 3, minDurationSeconds: Math.max(30, options.durationSeconds - 25), maxDurationSeconds: Math.min(180, options.durationSeconds + 35), targetLufs: -14, truePeak: -1.5, asrSimilarity: 0.92 }
+    quality: { width: dimensions[0], height: dimensions[1], fps: 30, minUniqueMedia: line.mediaStrategy === 'knowledge-diagram' ? 0 : line.mediaStrategy === 'workers-ai-illustration' ? Math.min(script.beats.length, snapshot.media.length) : snapshot.media.length >= 7 ? 5 : 3, minDurationSeconds: Math.max(15, options.durationSeconds - 25), maxDurationSeconds: Math.min(210, options.durationSeconds + 35), targetLufs: -14, truePeak: -1.5, asrSimilarity: 0.92 }
   };
 }
 
