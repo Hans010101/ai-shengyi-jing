@@ -1,23 +1,23 @@
 {
-  "projectId": "f52412c4ff1d",
+  "projectId": "b1af5ddeeca3",
   "project": {
-    "id": "f52412c4ff1d",
-    "name": "Stan",
-    "nameZh": "创作者一站式商店",
-    "summary": "为创作者提供卖数字产品与课程的一站式链接商店。",
-    "metaDesc": "An all-in-one creator store (link-in-bio) platform that enables creators to sell digital products, courses… — researched from public sources by Starter Story.",
-    "description": "An all-in-one creator store (link-in-bio) platform that enables creators to sell digital products, courses… — researched from public sources by Starter Story.",
-    "revenue": "~$2.3M/mo",
-    "businessModel": "采用SaaS订阅制，按月收费，提供不同档位（如基础版、专业版）满足不同规模创作者需求。目标客户为社交媒体创作者、知识博主、教练等，通过提供数字产品销售、课程托管、支付处理、数据分析等功能赚钱。",
-    "chinaOpportunity": "国内同类需求旺盛，尤其抖音、小红书、B站等平台的创作者急需变现工具。本土化需集成微信支付、支付宝，适配国内社交生态（如小程序、H5），并增加直播带货、社群运营等功能。可切入细分领域如知识付费、虚拟资源销售。",
-    "website": "https://stan.store",
+    "id": "b1af5ddeeca3",
+    "name": "Archifruits.ai",
+    "nameZh": "AI建筑渲染",
+    "summary": "AI将室内外照片转为专业建筑效果图，月入5千美元。",
+    "metaDesc": "Archifruits.ai uses AI to transform interior and exterior photos into professional architectural renders b… — researched from public sources by Starter Story.",
+    "description": "Archifruits.ai uses AI to transform interior and exterior photos into professional architectural renders b… — researched from public sources by Starter Story.",
+    "revenue": "~$5K/mo",
+    "businessModel": "采用订阅制或按次付费模式。客户上传照片，支付费用后获得AI生成的渲染图。定价可能基于渲染图数量或分辨率，目标客户为建筑设计师、室内设计师、房地产营销人员等。",
+    "chinaOpportunity": "国内建筑装饰行业规模庞大，设计师和装修公司对快速渲染有强烈需求。可本土化推出微信小程序，结合国内AI模型如文心一格，提供符合中式审美的渲染风格，并接入微信支付，通过设计师社群和短视频平台引流。",
+    "website": "https://archifruits.ai",
     "updatedAt": "2026-10-04",
-    "scrapedAt": "2026-07-21T07:22:27.324778"
+    "scrapedAt": "2026-10-04T14:32:16.965440"
   },
-  "slug": "stan",
-  "title": "创作者一站式商店：~$2.3M/mo营收背后，一门生意是怎样跑通的",
-  "dek": "不讲空泛成功学，从用户为什么付钱开始，拆开创作者一站式商店的产品、收入、增长与本土化机会，看清结果背后的商业因果。",
-  "opening": "创作者一站式商店最有意思的地方，不只是~$2.3M/mo的公开营收口径，而是它把一个具体麻烦变成了可收费的交付。\n\n为创作者提供卖数字产品与课程的一站式链接商店。这篇拆解不把创作者一站式商店包装成标准答案，而是沿着用户问题、产品交付、收费机制、增长路径和本土验证五条线，重新还原这门生意为什么成立，又可能在哪里失速。",
+  "slug": "archifruits-ai",
+  "title": "AI建筑渲染：~$5K/mo营收背后，一门生意是怎样跑通的",
+  "dek": "不讲空泛成功学，从用户为什么付钱开始，拆开AI建筑渲染的产品、收入、增长与本土化机会，看清结果背后的商业因果。",
+  "opening": "先把结果摆在桌面上：公开资料记录的营收口径是~$5K/mo。但真正值得研究的，从来不是数字本身。\n\nAI将室内外照片转为专业建筑效果图，月入5千美元。这篇拆解不把AI建筑渲染包装成标准答案，而是沿着用户问题、产品交付、收费机制、增长路径和本土验证五条线，重新还原这门生意为什么成立，又可能在哪里失速。",
   "editorNote": "案例不是答案，而是一组等待被验证的经营假设。",
   "highlights": [
     "用户为什么愿意改变原来的做法",
@@ -28,7 +28,7 @@
   "keyFacts": [
     {
       "label": "营收口径",
-      "value": "~$2.3M/mo"
+      "value": "~$5K/mo"
     },
     {
       "label": "项目类型",
@@ -36,11 +36,11 @@
     },
     {
       "label": "启动成本",
-      "value": "$500-2000"
+      "value": "需重新核算"
     },
     {
       "label": "首次营收",
-      "value": "1-3个月"
+      "value": "因执行而异"
     },
     {
       "label": "可复制指数",
@@ -56,7 +56,7 @@
       "kicker": "01 / 结果",
       "heading": "先看结果：数字很醒目，因果更重要",
       "paragraphs": [
-        "创作者一站式商店所在的是其他赛道。为创作者提供卖数字产品与课程的一站式链接商店。从公开数据看，项目营收口径为~$2.3M/mo，启动成本约为$500-2000，首次营收周期为1-3个月。这些数字构成了结果快照，却还不是商业解释。",
+        "AI建筑渲染所在的是其他赛道。AI将室内外照片转为专业建筑效果图，月入5千美元。从公开数据看，项目营收口径为~$5K/mo，启动成本约为需按实际方案核算，首次营收周期为取决于验证效率。这些数字构成了结果快照，却还不是商业解释。",
         "要理解结果从哪里来，需要把营收拆回三个动作：用户带着什么问题进入，产品在多短时间里给出可感知结果，以及收费是否发生在价值最清晰的节点。任何一个环节说不清，漂亮数字都很难变成可迁移的方法。",
         "因此，这篇文章不会停留在“做了一个产品、找到一些客户、最终获得收入”的流水账。真正要追踪的是因果链：什么承诺带来咨询，什么交付推动付款，又是什么机制让一次成交有机会继续变成复购、续费或转介绍。"
       ],
@@ -66,7 +66,7 @@
       "kicker": "02 / 问题",
       "heading": "用户买的不是功能，而是少走一段弯路",
       "paragraphs": [
-        "资料对机会的核心判断是：核心洞察：创作者需要轻量、低门槛的变现工具，将分散的流量和产品聚合到一个链接中，实现从内容到交易的无缝转化。Stan 的成功在于简化了技术复杂度，让创作者专注于内容而非建站，同时通过订阅制获得持续收入。把这句话翻译成用户语言，就是有人正在反复付出时间、金钱或注意力，却仍然无法稳定得到想要的结果。生意的入口，往往就藏在这种长期存在的低效率里。",
+        "资料对机会的核心判断是：核心洞察：建筑与室内设计行业对高质量渲染图需求旺盛，但传统渲染耗时昂贵。利用AI图像生成技术，将普通照片快速转化为专业级效果图，极大降低了成本和时间，满足了设计师、房地产商等客户的即时需求。把这句话翻译成用户语言，就是有人正在反复付出时间、金钱或注意力，却仍然无法稳定得到想要的结果。生意的入口，往往就藏在这种长期存在的低效率里。",
         "在其他市场里，竞争对手未必是另一家公司。它可能是一张表格、一位兼职人员、一套拼凑流程，甚至是用户继续忍受问题的惯性。只有当新方案明显更快、更稳、更省心或更能带来收入时，改变习惯才会变成真实购买。",
         "这也是判断项目是否值得复制的第一道门槛：不要先问市场有多大，先找到问题发生最频繁、损失最容易计算的一小群人。他们愿不愿意停下现有工作、尝试新流程并付费，比任何泛泛的“感兴趣”都更可信。"
       ],
@@ -76,7 +76,7 @@
       "kicker": "03 / 产品",
       "heading": "产品怎么工作：把一次交付拆成看得见的路径",
       "paragraphs": [
-        "资料把创作者一站式商店的产品路径概括为：创作者注册 ➔ 店铺装修与产品上传 ➔ 支付网关集成（Stripe/微信支付） ➔ 订单管理与交付 ➔ 数据分析看板 ➔ 订阅计费系统。这不是一张普通功能清单，而是一条从“用户带着问题进入”到“用户拿到结果离开”的交付链。链条越清楚，团队越容易识别真正创造价值的节点。",
+        "资料把AI建筑渲染的产品路径概括为：前端上传照片 ➔ 后端调用AI模型（如Stable Diffusion） ➔ 图像处理与渲染 ➔ 生成效果图 ➔ 支付模块 ➔ 下载或分享。这不是一张普通功能清单，而是一条从“用户带着问题进入”到“用户拿到结果离开”的交付链。链条越清楚，团队越容易识别真正创造价值的节点。",
         "对小团队而言，入口要足够简单，首次体验要尽快出现一个“小胜利”，核心交付必须能够被重复，异常情况还要有明确处理方式。如果每个客户都需要创始人重新解释、临时补救，项目仍然更像手工作坊，而不是产品。",
         "第一版并不需要覆盖所有场景。更合理的目标，是完整解决一个高频任务：让用户知道从哪里开始、过程中发生什么、最终会得到什么。当这条最短路径稳定后，再增加自动化、协作、数据分析或高级服务，产品才不会越做越重。"
       ],
@@ -86,9 +86,9 @@
       "kicker": "04 / 收入",
       "heading": "钱从哪里来：定价只是表面，履约才是底层",
       "paragraphs": [
-        "创作者一站式商店的商业模式被描述为：采用SaaS订阅制，按月收费，提供不同档位（如基础版、专业版）满足不同规模创作者需求。目标客户为社交媒体创作者、知识博主、教练等，通过提供数字产品销售、课程托管、支付处理、数据分析等功能赚钱。收费方式本身并没有高下之分；真正的问题是，用户在什么时候最清楚地感受到价值，以及每收到一笔钱，团队还需要承担多少获客、交付和售后成本。",
+        "AI建筑渲染的商业模式被描述为：采用订阅制或按次付费模式。客户上传照片，支付费用后获得AI生成的渲染图。定价可能基于渲染图数量或分辨率，目标客户为建筑设计师、室内设计师、房地产营销人员等。收费方式本身并没有高下之分；真正的问题是，用户在什么时候最清楚地感受到价值，以及每收到一笔钱，团队还需要承担多少获客、交付和售后成本。",
         "一次性销售回款快，但需要持续寻找新客户；订阅收入更可预测，却要求产品不断提供持续价值；服务型收入能深入客户场景，同时也更容易被人力和交付复杂度限制。项目选择的不是一个价格标签，而是一组经营责任。",
-        "公开资料中的启动成本约为$500-2000，首次营收周期为1-3个月。更专业的用法，是把它们当作验证假设而不是承诺：先确认第一笔钱为什么发生，再追踪毛利、退款、回款周期和复购。营收证明有人买，现金流才证明这门生意能继续。"
+        "公开资料中的启动成本约为需按实际方案核算，首次营收周期为取决于验证效率。更专业的用法，是把它们当作验证假设而不是承诺：先确认第一笔钱为什么发生，再追踪毛利、退款、回款周期和复购。营收证明有人买，现金流才证明这门生意能继续。"
       ],
       "callout": "定价决定用户怎么付款，履约结构决定团队能不能长期赚钱。"
     },
@@ -96,7 +96,7 @@
       "kicker": "05 / 增长",
       "heading": "增长飞轮：让承诺、成交和留存说同一种语言",
       "paragraphs": [
-        "现有资料把增长闭环总结为：【引流】：通过创作者社群、内容营销、KOL推荐吸引创作者入驻 ➔ 【产品】：提供一站式店铺搭建、产品管理、支付与交付工具 ➔ 【变现】：按月订阅收费，高级功能额外付费 ➔ 【留存】：通过数据分析、营销工具、社群支持提升粘性，并随创作者成长升级套餐。",
+        "现有资料把增长闭环总结为：【引流】：通过设计社区、社交媒体展示案例 ➔ 【产品】：用户上传照片，AI快速生成渲染图 ➔ 【变现】：按次收费或订阅制 ➔ 【留存】：提供风格模板、批量处理、团队协作功能。",
         "闭环最容易断在“前后不一致”：内容讲的是一个痛点，落地页却堆满功能；销售承诺快速见效，产品首次体验却迟迟不给结果；首单靠低价成交，后续又没有持续价值支撑续费。流量越大，这种错位只会被放大得越快。",
         "早期最有效的增长动作，通常不是铺开所有渠道，而是找到目标用户密度最高的一个入口。连续记录曝光、有效咨询、关键体验、付费和复购五组数据，就能看出问题究竟出在流量质量、价值表达、产品体验还是交付结果。",
         "当某一环节持续掉队时，先修复闭环，不要用更多流量掩盖问题。真正健康的增长，是正确用户被同一个承诺吸引，在产品里得到对应结果，最后愿意继续使用或主动推荐。增长因此不是一个营销部门的任务，而是整条价值链的结果。"
@@ -107,7 +107,7 @@
       "kicker": "06 / 护城河",
       "heading": "最难复制的部分，往往不在网页上",
       "paragraphs": [
-        "资料给创作者一站式商店的可复制指数是8/10，落地难度标注为中。这类评分适合快速筛选，却不能代替执行判断。真正的门槛可能藏在供应链、专业能力、渠道关系、合规要求、历史数据或售后经验里。",
+        "资料给AI建筑渲染的可复制指数是8/10，落地难度标注为中。这类评分适合快速筛选，却不能代替执行判断。真正的门槛可能藏在供应链、专业能力、渠道关系、合规要求、历史数据或售后经验里。",
         "样板客户阶段跑得顺，不代表规模化后仍然成立。订单增加会放大交付波动、客服压力和现金占用；新渠道会带来不同的人群和预期。流程文档、质量标准、异常处理和经营数据并非大公司专属，而是小团队扩大前的安全带。",
         "最值得学习的不是把页面和功能照着做一遍，而是建立同样的反馈速度。每完成一轮交付就记录：哪一步最耗时，什么承诺最能推动成交，哪些客户最容易成功，哪些问题总在重复出现。把答案持续固化进产品，才会形成别人难以复制的能力。"
       ],
@@ -117,7 +117,7 @@
       "kicker": "07 / 中国机会",
       "heading": "搬到中国市场：不要只翻译页面，要重做验证",
       "paragraphs": [
-        "国内同类需求旺盛，尤其抖音、小红书、B站等平台的创作者急需变现工具。本土化需集成微信支付、支付宝，适配国内社交生态（如小程序、H5），并增加直播带货、社群运营等功能。可切入细分领域如知识付费、虚拟资源销售。",
+        "国内建筑装饰行业规模庞大，设计师和装修公司对快速渲染有强烈需求。可本土化推出微信小程序，结合国内AI模型如文心一格，提供符合中式审美的渲染风格，并接入微信支付，通过设计师社群和短视频平台引流。",
         "海外案例只能证明某类需求曾经在一个市场成立，不能替代国内的一手判断。微信生态、短视频平台、支付习惯、价格敏感度、行业监管和售后预期，都会改变获客方式、产品边界与单位经济模型。直接翻译和换皮，通常复制不了原项目的因果链。",
         "更现实的切口，是先限定一个行业、城市或人群，用十到二十次深度访谈还原现有流程，再拿出一个能够收费的最小交付。用户如果只说喜欢，却不愿改变原来的做法，说明问题还不够痛、价值不够清楚，或者目标人群仍然太宽。"
       ],
@@ -127,52 +127,48 @@
       "kicker": "08 / 行动",
       "heading": "如果今天从零开始：先跑一轮七天验证",
       "paragraphs": [
-        "第一步：市场调研，确定目标创作者群体（如知识博主），分析其变现痛点，并设计最小可行产品（MVP）功能列表。",
-        "第二步：开发核心功能，包括店铺页面、产品上传、支付集成（微信/支付宝），并邀请种子创作者内测，收集反馈快速迭代。",
-        "第三步：上线后通过创作者社群和内容平台推广，提供免费试用期，建立成功案例，逐步推出付费套餐并优化留存策略。",
+        "第一步：搭建一个简单的网站或小程序，允许用户上传室内外照片，并选择渲染风格。",
+        "第二步：集成AI图像生成API（如Stable Diffusion或国内大模型），实现照片到渲染图的转换，并设置支付接口。",
+        "第三步：在设计社群和短视频平台推广，提供免费试用次数，收集反馈并迭代优化。",
         "每一步都要提前写下通过门槛：有效访谈多少人、愿意付费多少人、一次交付需要多久、用户是否愿意再次使用。达到门槛才扩大；没有达到，先调整人群、承诺或交付方式，不要立刻用更多功能来安慰自己。"
       ],
       "callout": "第一版不是为了显得完整，而是为了尽快拿到无法伪装的真实反馈。"
     }
   ],
-  "conclusion": "创作者一站式商店真正值得借鉴的，不是页面长什么样，也不是把~$2.3M/mo当成新的目标。更重要的是它提供了一条观察路径：先找到正在付出代价的人，再把结果组织成产品，让收费发生在价值最清楚的节点，最后用连续数据判断这条路是否值得扩大。案例读完之后，最有价值的动作不是收藏，而是挑出其中一个假设，写下目标用户、使用场景、价格、交付方式和七天后的通过门槛。真实反馈可能支持判断，也可能迅速推翻它；两种结果都比继续停留在想象中更接近一门生意。",
+  "conclusion": "AI建筑渲染真正值得借鉴的，不是页面长什么样，也不是把~$5K/mo当成新的目标。更重要的是它提供了一条观察路径：先找到正在付出代价的人，再把结果组织成产品，让收费发生在价值最清楚的节点，最后用连续数据判断这条路是否值得扩大。案例读完之后，最有价值的动作不是收藏，而是挑出其中一个假设，写下目标用户、使用场景、价格、交付方式和七天后的通过门槛。真实反馈可能支持判断，也可能迅速推翻它；两种结果都比继续停留在想象中更接近一门生意。",
   "riskNote": "营收、团队、增长及渠道信息来自项目数据库与公开来源在特定时间点的披露，可能已经变化；涉及健康、金融、教育、数据和跨境业务时，应按经营所在地最新规则独立核验。",
   "media": [
     {
       "type": "image",
-      "url": "https://d1coqmn8qm80r4.cloudfront.net/l3ee5kx99cheo1m5a37dy3y1j5ln",
-      "caption": "教用户期权交易每月赚1000美元：通过订阅收费",
-      "alt": "教用户期权交易每月赚1000美元：通过订阅收费",
-      "sourceUrl": "https://www.starterstory.com/businesses/stan",
+      "url": "https://d1coqmn8qm80r4.cloudfront.net/2kmkgt8exmkbwi8kjy01f7yvcmt4",
+      "caption": "AI建筑渲染：AI将室内外照片转为专业建筑效果图，月入5千美元",
+      "alt": "AI建筑渲染：AI将室内外照片转为专业建筑效果图，月入5千美元",
+      "sourceUrl": "https://www.starterstory.com/businesses/archifruits-ai",
       "origin": "source-attributed",
       "usage": "non-commercial-attributed",
       "context": "project-hero"
     },
     {
-      "type": "infographic",
-      "variant": "business-loop",
-      "title": "创作者一站式商店的商业增长闭环",
-      "items": [
-        "【引流】：通过创作者社群、内容营销、KOL推荐吸引创作者入驻",
-        "【产品】：提供一站式店铺搭建、产品管理、支付与交付工具",
-        "【变现】：按月订阅收费，高级功能额外付费",
-        "【留存】：通过数据分析、营销工具、社群支持提升粘性，并随创作者成长升级套餐"
-      ],
-      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
-      "origin": "editorial-generated",
-      "usage": "site-original"
+      "type": "image",
+      "url": "https://www.archifruits.ai/og-cover.png",
+      "caption": "AI建筑渲染官网：产品界面与核心功能展示",
+      "alt": "AI建筑渲染官网：产品界面与核心功能展示",
+      "sourceUrl": "https://www.archifruits.ai/",
+      "origin": "official-site",
+      "usage": "official-site-reference",
+      "context": "official-product"
     },
     {
       "type": "infographic",
-      "variant": "product-path",
-      "title": "创作者一站式商店的产品与交付路径",
+      "variant": "business-loop",
+      "title": "AI建筑渲染的商业增长闭环",
       "items": [
-        "创作者注册",
-        "店铺装修与产品上传",
-        "支付网关集成（Stripe/微信支付）",
-        "订单管理与交付"
+        "【引流】：通过设计社区、社交媒体展示案例",
+        "【产品】：用户上传照片，AI快速生成渲染图",
+        "【变现】：按次收费或订阅制",
+        "【留存】：提供风格模板、批量处理、团队协作功能"
       ],
-      "caption": "AI生意经原创信息图：根据案例产品结构与交付流程整理",
+      "caption": "AI生意经原创信息图：根据案例商业模式与增长路径整理",
       "origin": "editorial-generated",
       "usage": "site-original"
     }
@@ -180,9 +176,9 @@
   "translations": {
     "en": {
       "language": "en",
-      "title": "Stan: The Business System Behind ~$2.3M/mo in Revenue",
-      "dek": "A practical breakdown of Stan: customer demand, product delivery, economics, growth, defensibility, localization, and a seven-day validation plan.",
-      "opening": "Start with the public facts: An all-in-one creator store (link-in-bio) platform that enables creators to sell digital products, courses…\n\nThis analysis treats the case as a set of operating hypotheses rather than a success formula. It follows the path from customer pain to product delivery, payment, growth, and repeatability so readers can understand both the opportunity and the constraints.",
+      "title": "Archifruits.ai: The Business System Behind ~$5K/mo in Revenue",
+      "dek": "A practical breakdown of Archifruits.ai: customer demand, product delivery, economics, growth, defensibility, localization, and a seven-day validation plan.",
+      "opening": "Start with the public facts: Archifruits.ai uses AI to transform interior and exterior photos into professional architectural renders b…\n\nThis analysis treats the case as a set of operating hypotheses rather than a success formula. It follows the path from customer pain to product delivery, payment, growth, and repeatability so readers can understand both the opportunity and the constraints.",
       "editorNote": "A case study is not an answer. It is a set of business assumptions waiting to be tested.",
       "highlights": [
         "Why customers change their current behavior",
@@ -193,7 +189,7 @@
       "keyFacts": [
         {
           "label": "Revenue reference",
-          "value": "~$2.3M/mo"
+          "value": "~$5K/mo"
         },
         {
           "label": "Case type",
@@ -213,7 +209,7 @@
           "kicker": "01 / OUTCOME",
           "heading": "Start with the outcome—but study the cause",
           "paragraphs": [
-            "An all-in-one creator store (link-in-bio) platform that enables creators to sell digital products, courses… The public record lists revenue at ~$2.3M/mo. That number is useful as a snapshot, but it does not explain why customers bought, how the team delivered the result, or whether the economics can hold as volume grows.",
+            "Archifruits.ai uses AI to transform interior and exterior photos into professional architectural renders b… The public record lists revenue at ~$5K/mo. That number is useful as a snapshot, but it does not explain why customers bought, how the team delivered the result, or whether the economics can hold as volume grows.",
             "A practical reading works backward from the outcome. What costly or frustrating job brought the customer in? What promise was clear enough to trigger action? Which part of the delivery created the first visible win? Those questions turn a success story into a business model that can actually be evaluated.",
             "The goal is not to copy the result. It is to identify the smallest chain of causes behind it: a defined customer, a painful problem, a credible offer, a repeatable delivery process, and a reason to return or refer someone else."
           ],
@@ -223,7 +219,7 @@
           "kicker": "02 / CUSTOMER",
           "heading": "Customers do not buy features; they buy a shorter path",
           "paragraphs": [
-            "The most useful question in the Stan case is not how broad the market might be, but which customer feels the problem often enough to change an existing habit. The real competitor may be a spreadsheet, a freelancer, a patchwork workflow, or simply the decision to tolerate the pain for another month.",
+            "The most useful question in the Archifruits.ai case is not how broad the market might be, but which customer feels the problem often enough to change an existing habit. The real competitor may be a spreadsheet, a freelancer, a patchwork workflow, or simply the decision to tolerate the pain for another month.",
             "A strong opportunity has a visible cost. It wastes time, blocks revenue, creates risk, or produces unreliable outcomes. When the cost can be described in the customer's own language, the offer becomes easier to position and the buying decision becomes easier to measure.",
             "Early validation should therefore target a narrow group with high problem frequency. Interviews matter, but behavior matters more: will prospects share their current workflow, try a new process, introduce decision makers, or pay for a pilot? Action is a stronger signal than praise."
           ],
@@ -233,7 +229,7 @@
           "kicker": "03 / PRODUCT",
           "heading": "Design the product as a result-delivery path",
           "paragraphs": [
-            "For Stan, the product should be read as a sequence rather than a feature list: the customer arrives with a job, supplies the minimum input, experiences an early win, receives the core result, and knows what to do next. The clearer that path is, the easier it becomes to improve both conversion and delivery quality.",
+            "For Archifruits.ai, the product should be read as a sequence rather than a feature list: the customer arrives with a job, supplies the minimum input, experiences an early win, receives the core result, and knows what to do next. The clearer that path is, the easier it becomes to improve both conversion and delivery quality.",
             "A small team needs a simple entry point, a fast first success, a repeatable core workflow, and an explicit way to handle exceptions. If every customer requires the founder to explain, improvise, and rescue the process, the business is still a custom service even when the interface looks like software.",
             "The first version does not need to cover every use case. It needs to solve one frequent job from beginning to end. Automation, collaboration, analytics, and premium services should be added only after the shortest valuable path works reliably."
           ],
@@ -243,7 +239,7 @@
           "kicker": "04 / ECONOMICS",
           "heading": "Pricing is visible; fulfillment economics decide the business",
           "paragraphs": [
-            "The published revenue figure for Stan is ~$2.3M/mo. It confirms that a market transaction occurred, but a durable model also depends on gross margin, acquisition cost, support load, refund risk, payment timing, and the amount of founder attention required for each customer.",
+            "The published revenue figure for Archifruits.ai is ~$5K/mo. It confirms that a market transaction occurred, but a durable model also depends on gross margin, acquisition cost, support load, refund risk, payment timing, and the amount of founder attention required for each customer.",
             "One-time sales can generate cash quickly but require a steady supply of new buyers. Subscriptions improve predictability but must keep producing ongoing value. Services can reach deep into a customer workflow, yet they are often constrained by people and delivery complexity. Every pricing model creates a different operating responsibility.",
             "The disciplined approach is to trace one unit of revenue from lead to cash: source, conversion, onboarding, delivery time, variable cost, support, and repeat purchase. Revenue proves demand; contribution margin and cash flow determine whether the business can continue."
           ],
@@ -253,7 +249,7 @@
           "kicker": "05 / GROWTH",
           "heading": "Make acquisition, conversion, and retention tell one story",
           "paragraphs": [
-            "Growth for Stan should connect a specific promise to a matching product experience. Content or outreach attracts the right customer, the landing page names the same problem, onboarding creates the first win, and continued use produces enough value to justify renewal, repeat purchase, or referral.",
+            "Growth for Archifruits.ai should connect a specific promise to a matching product experience. Content or outreach attracts the right customer, the landing page names the same problem, onboarding creates the first win, and continued use produces enough value to justify renewal, repeat purchase, or referral.",
             "The loop breaks when the message and the experience disagree. More traffic cannot repair a weak promise, delayed value, or inconsistent delivery. In fact, scaling acquisition usually exposes those problems faster and makes them more expensive.",
             "An early team can learn more by concentrating on one dense channel and tracking five numbers: qualified attention, serious conversations, activation, payment, and retention. The weakest transition points to the next product or marketing decision."
           ],
@@ -273,7 +269,7 @@
           "kicker": "07 / LOCALIZATION",
           "heading": "Entering a new market means re-validating, not translating",
           "paragraphs": [
-            "The Stan case proves that a form of the problem and offer worked in one context. It does not prove that the same acquisition channel, price, workflow, or trust signal will work in another country or customer segment.",
+            "The Archifruits.ai case proves that a form of the problem and offer worked in one context. It does not prove that the same acquisition channel, price, workflow, or trust signal will work in another country or customer segment.",
             "Local payment behavior, platform distribution, regulation, service expectations, language, and competitive substitutes can change the entire unit model. A translated landing page may preserve the words while losing the causal chain that made the original business work.",
             "A safer entry starts with one industry, city, or user group. Conduct focused interviews, map the current workflow, and sell a small paid delivery before investing in a full product. The objective is to discover the local moment when value becomes clear enough for a customer to pay."
           ],
@@ -283,18 +279,18 @@
           "kicker": "08 / ACTION",
           "heading": "A seven-day test before a larger commitment",
           "paragraphs": [
-            "Day one: choose one customer segment for Stan and write down the recurring job, the current workaround, and the measurable cost of the problem. Days two and three: speak with at least five people who perform that job and collect examples rather than opinions.",
+            "Day one: choose one customer segment for Archifruits.ai and write down the recurring job, the current workaround, and the measurable cost of the problem. Days two and three: speak with at least five people who perform that job and collect examples rather than opinions.",
             "Days four and five: offer the smallest paid result you can deliver manually or with existing tools. Keep the promise narrow, define the input and output, and record every minute of delivery work. A paid pilot reveals more than a polished prototype with no buyer.",
             "Days six and seven: review qualified conversations, willingness to pay, delivery time, customer outcome, and the likelihood of repeat use. Set pass criteria before the test. If the numbers miss, change the customer, promise, price, or workflow before adding features."
           ],
           "callout": "The first version exists to produce honest evidence, not to look complete."
         }
       ],
-      "conclusion": "The most useful lesson from Stan is not its surface design or revenue headline. It is the discipline of finding a customer who is already paying a cost, organizing a result into a repeatable delivery path, charging where value is clearest, and using evidence to decide what deserves to scale. The next step is not to bookmark the case. It is to write down one customer, one problem, one offer, one price, and one measurable pass condition for a small real-world test.",
+      "conclusion": "The most useful lesson from Archifruits.ai is not its surface design or revenue headline. It is the discipline of finding a customer who is already paying a cost, organizing a result into a repeatable delivery path, charging where value is clearest, and using evidence to decide what deserves to scale. The next step is not to bookmark the case. It is to write down one customer, one problem, one offer, one price, and one measurable pass condition for a small real-world test.",
       "riskNote": "Revenue, team, growth, and channel information reflects public reporting at a specific point in time and may have changed. Verify current facts, regulations, and unit economics independently before making a business decision.",
       "source": {
         "name": "Starter Story",
-        "url": "https://www.starterstory.com/businesses/stan",
+        "url": "https://www.starterstory.com/businesses/archifruits-ai",
         "notice": "This page is an original structured analysis based on public facts; it is not a line-by-line translation of the source."
       },
       "quality": {
@@ -307,21 +303,17 @@
   },
   "source": {
     "name": "Starter Story",
-    "url": "https://www.starterstory.com/businesses/stan",
+    "url": "https://www.starterstory.com/businesses/archifruits-ai",
     "notice": "本文依据公开事实与本站结构化资料重新编辑，不是原文翻译。"
   },
-  "website": "https://stan.store",
-  "generatedAt": "2026-10-04T14:35:42.392235+00:00",
+  "website": "https://archifruits.ai",
+  "generatedAt": "2026-10-04T14:35:40.242567+00:00",
   "provider": "structured-editorial",
   "status": "full",
   "quality": {
     "sectionCount": 8,
-    "bodyCharacters": 2715,
+    "bodyCharacters": 2617,
     "mediaCount": 3,
     "readingMinutes": 6
-  },
-  "mediaDiscovery": {
-    "status": "source:content-root-missing|official:website-missing",
-    "attemptedAt": "2026-08-02T14:36:21.223625+00:00"
   }
 }
