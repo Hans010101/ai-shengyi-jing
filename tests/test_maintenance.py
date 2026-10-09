@@ -673,7 +673,7 @@ class ContentQualityTests(unittest.TestCase):
         self.assertIn("secrets.CLOUDFLARE_002_API_TOKEN", workflow)
         self.assertNotIn("secrets.CLOUDFLARE_API_TOKEN", workflow)
         self.assertNotIn("vars.CLOUDFLARE_ACCOUNT_ID", workflow)
-        self.assertIn("a828bebda1f352216c7d7da425bad17a", Path("wrangler.jsonc").read_text())
+        self.assertNotIn('"account_id"', Path("wrangler.jsonc").read_text())
         for name in (
             "assets/app.js", "edge-functions/api/advisor.js",
             "pipeline/article_pipeline.py", ".github/workflows/daily_scrape.yml",

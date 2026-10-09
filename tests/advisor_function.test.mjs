@@ -83,6 +83,16 @@ test('rejects empty queries and oversized request bodies', async () => {
   assert.equal(oversizedResponse.status, 413);
 });
 
+test('accepts the preserved first-party Origin from the migration bridge', async () => {
+  for (const origin of ['https://aishengyijing.asia', 'https://www.aishengyijing.asia', 'https://ai-shengyi-jing.pages.dev']) {
+    const response = await onRequestPost({
+      request: createRequest({ query: '测试问题' }, { Origin: origin }),
+      env: { AI: { async run() { return { response: '002 回答' }; } } }
+    });
+    assert.equal(response.status, 200, origin);
+  }
+});
+
 test('rejects cross-origin browser requests', async () => {
   const response = await onRequestPost({
     request: createRequest({ query: '测试问题' }, { Origin: 'https://example.com' }),

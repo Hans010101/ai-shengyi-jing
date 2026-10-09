@@ -3,6 +3,12 @@ const MAX_BODY_BYTES = 16 * 1024;
 const MAX_QUERY_LENGTH = 500;
 const MAX_PROJECTS = 3;
 const PROXY_MAX_CLOCK_SKEW_SECONDS = 5 * 60;
+// The legacy bridge preserves browser Origin until custom domains move to 002.
+const SITE_ORIGINS = [
+  'https://aishengyijing.asia',
+  'https://www.aishengyijing.asia',
+  'https://ai-shengyi-jing.pages.dev'
+];
 
 class PayloadTooLargeError extends Error {}
 
@@ -105,7 +111,7 @@ async function verifyEdgeOneProxy(request, body, secret, now = Date.now()) {
 async function isAuthorizedRequest(request, body, env) {
   const requestUrl = new URL(request.url);
   const origin = request.headers.get('Origin');
-  if (origin === requestUrl.origin) return true;
+  if (origin === requestUrl.origin || SITE_ORIGINS.includes(origin)) return true;
   return verifyEdgeOneProxy(request, body, env?.EDGEONE_PROXY_SECRET);
 }
 
@@ -234,6 +240,7 @@ export async function onRequestPost(context) {
 
 export {
   MODEL,
+  SITE_ORIGINS,
   PayloadTooLargeError,
   PROXY_MAX_CLOCK_SKEW_SECONDS,
   readBoundedBody,

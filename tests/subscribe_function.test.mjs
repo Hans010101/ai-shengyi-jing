@@ -110,6 +110,17 @@ test('rejects invalid input and cross-origin requests without contacting Resend'
   assert.equal(calls, 0);
 });
 
+test('preserves subscription access through first-party migration bridges', async () => {
+  let calls = 0;
+  globalThis.fetch = async () => { calls += 1; throw new Error('Must not contact Resend'); };
+  for (const origin of ['https://aishengyijing.asia', 'https://www.aishengyijing.asia', 'https://ai-shengyi-jing.pages.dev']) {
+    const response = await onRequestPost({ request: request({ email: 'bad', consent: true }, origin), env });
+    assert.equal(response.status, 400, origin);
+    assert.equal(response.headers.get('Access-Control-Allow-Origin'), origin);
+  }
+  assert.equal(calls, 0);
+});
+
 test('accepts EdgeOne preflight and silently discards honeypot submissions', async () => {
   const preflight = await onRequestOptions({
     request: new Request('https://ai-shengyi-jing-etz.pages.dev/api/subscribe', {

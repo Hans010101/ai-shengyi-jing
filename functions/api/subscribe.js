@@ -1,4 +1,4 @@
-import { PayloadTooLargeError, readBoundedBody } from './advisor.js';
+import { PayloadTooLargeError, readBoundedBody, SITE_ORIGINS } from './advisor.js';
 
 const EDGEONE_ORIGIN = 'https://ai-shengyi-jing-cn-vfh61o1a.edgeone.dev';
 const MAX_BODY_BYTES = 2048;
@@ -9,7 +9,7 @@ const FALLBACK_WELCOME_FROM = 'AI 生意经 <ai-shengyi-jing@midastrade.asia>';
 function corsOrigin(request) {
   const origin = request.headers.get('Origin') || '';
   const ownOrigin = new URL(request.url).origin;
-  return origin === ownOrigin || origin === EDGEONE_ORIGIN ? origin : '';
+  return origin === ownOrigin || origin === EDGEONE_ORIGIN || SITE_ORIGINS.includes(origin) ? origin : '';
 }
 
 function jsonResponse(body, status, origin) {
@@ -17,7 +17,7 @@ function jsonResponse(body, status, origin) {
     'Cache-Control': 'no-store',
     'X-Content-Type-Options': 'nosniff'
   };
-  if (origin === EDGEONE_ORIGIN) {
+  if (origin) {
     headers['Access-Control-Allow-Origin'] = origin;
     headers.Vary = 'Origin';
   }

@@ -125,7 +125,7 @@ EdgeOne 不配置第二套 AI。其 `/api/advisor` 读取同源访客请求，�
 ### Cloudflare 返回认证错误 10000
 
 1. 确认 GitHub 中 Cloudflare Account ID、API Token 与编辑接口 Token 配置均存在；
-2. 确认 Repository secret `CLOUDFLARE_002_API_TOKEN` 可用；官网工作流和 Wrangler 固定到 002，不读取历史共享账号变量或 007 Token；
+2. 确认 Repository secret `CLOUDFLARE_002_API_TOKEN` 可用；官网工作流通过 `CLOUDFLARE_ACCOUNT_ID` 环境变量固定到 002，不读取历史共享账号变量或 007 Token；
 3. Token 至少需要 002 账户的 Cloudflare Pages 编辑权限；禁止为绕过失败而回退到 007；
 4. 确认 `wrangler.jsonc` 中存在 `AI` binding，并在功能分支手动触发部署工作流，先验证预览部署；
 5. 不要在日志、仓库或 Issue 中粘贴 Token。
@@ -162,7 +162,7 @@ python3 scripts/validate_data.py data/projects_live.json
 - 密钥只保存在 GitHub Actions Secrets 或 Cloudflare 的受控配置中；
 - `EDGEONE_API_TOKEN` 只保存在 GitHub Actions Secret；
 - `EDGEONE_PROXY_SECRET` 只保存在 Cloudflare Secret 与 EdgeOne 环境变量；
-- Cloudflare Account ID 不是密钥，官网工作流与 `wrangler.jsonc` 固定为 002；共享 GitHub 变量留给独立的视频迁移任务处理；
+- Cloudflare Account ID 不是密钥，官网工作流环境变量固定为 002；Pages 的 `wrangler.jsonc` 不支持 `account_id`，手动部署必须显式设置 `CLOUDFLARE_ACCOUNT_ID=a828bebda1f352216c7d7da425bad17a` 并使用 002 凭据。共享 GitHub 变量留给独立的视频迁移任务处理；
 - 仓库内只记录密钥名称，不记录值；
 - `.wrangler/` 是本地缓存，已加入 `.gitignore`；
 - 更新 Token 后必须通过一次预览部署验证权限。
