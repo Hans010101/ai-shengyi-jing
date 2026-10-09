@@ -1,6 +1,6 @@
 # AI生意经运维基线
 
-最后更新：2026-07-26
+最后更新：2026-10-10
 
 ## 生产基线
 
@@ -9,8 +9,10 @@
 | GitHub 仓库 | `Hans010101/ai-shengyi-jing` |
 | 默认/生产分支 | `main` |
 | Cloudflare Pages 项目 | `ai-shengyi-jing` |
+| Cloudflare 目标账号 | `a828bebda1f352216c7d7da425bad17a`（002） |
 | 主站地址 | `https://aishengyijing.asia` |
-| Cloudflare 备用地址 | `https://ai-shengyi-jing.pages.dev` |
+| Cloudflare 新入口 | `https://ai-shengyi-jing-etz.pages.dev` |
+| 历史备用地址 | `https://ai-shengyi-jing.pages.dev`（007 过渡转接，不作为运行依赖） |
 | EdgeOne Makers 项目 | `ai-shengyi-jing-cn` |
 | EdgeOne 试运行区域 | 全球可用区（不含中国大陆） |
 | 自定义域 | `aishengyijing.asia` |
@@ -18,7 +20,9 @@
 | 发布方式 | GitHub Actions + Wrangler |
 | 公共发布目录 | `dist/`（两个平台共用） |
 | EdgeOne 发布目录 | `dist-edgeone/`（公共成品 + 转发函数） |
-| 生产环境变量/绑定 | Workers AI binding：`AI`；Secret：`EDITORIAL_API_TOKEN` |
+| 生产环境变量/绑定 | Workers AI binding：`AI`；Secrets：`EDITORIAL_API_TOKEN`、`EDGEONE_PROXY_SECRET`、`RESEND_API_KEY`、`RESEND_SEGMENT_ID` |
+
+002 的 Pages 与 API 已存在；主域名切换和长期 CI Token 仍由总迁移任务协调，详见 [002 迁移记录](cloudflare-002-migration-2026-10-10.md)。不要将临时 OAuth 写入 GitHub 充当长期部署密钥。
 
 ## 发布边界
 
@@ -105,7 +109,7 @@ EdgeOne 不配置第二套 AI。其 `/api/advisor` 读取同源访客请求，�
 
 ## 每日采集
 
-计划时间：每天 UTC 01:00，即中国标准时间 09:00。
+计划时间：每天 UTC 00:17、12:43，即北京时间 08:17、20:43；GitHub 排队可能延迟。采集、发布与巡检均在云端，不依赖本机开机。编辑接口使用 `https://ai-shengyi-jing-etz.pages.dev/api/editorial`。
 
 采集状态由两个来源共同判断：
 
@@ -121,8 +125,8 @@ EdgeOne 不配置第二套 AI。其 `/api/advisor` 读取同源访客请求，�
 ### Cloudflare 返回认证错误 10000
 
 1. 确认 GitHub 中 Cloudflare Account ID、API Token 与编辑接口 Token 配置均存在；
-2. 确认 Repository variable `CLOUDFLARE_ACCOUNT_ID` 和 Repository secret `CLOUDFLARE_API_TOKEN` 均可用；
-3. Token 至少需要该账户的 Cloudflare Pages 编辑权限；
+2. 确认 Repository secret `CLOUDFLARE_002_API_TOKEN` 可用；官网工作流和 Wrangler 固定到 002，不读取历史共享账号变量或 007 Token；
+3. Token 至少需要 002 账户的 Cloudflare Pages 编辑权限；禁止为绕过失败而回退到 007；
 4. 确认 `wrangler.jsonc` 中存在 `AI` binding，并在功能分支手动触发部署工作流，先验证预览部署；
 5. 不要在日志、仓库或 Issue 中粘贴 Token。
 
@@ -158,7 +162,7 @@ python3 scripts/validate_data.py data/projects_live.json
 - 密钥只保存在 GitHub Actions Secrets 或 Cloudflare 的受控配置中；
 - `EDGEONE_API_TOKEN` 只保存在 GitHub Actions Secret；
 - `EDGEONE_PROXY_SECRET` 只保存在 Cloudflare Secret 与 EdgeOne 环境变量；
-- Cloudflare Account ID 不是密钥，保存在 GitHub Repository variables 中；
+- Cloudflare Account ID 不是密钥，官网工作流与 `wrangler.jsonc` 固定为 002；共享 GitHub 变量留给独立的视频迁移任务处理；
 - 仓库内只记录密钥名称，不记录值；
 - `.wrangler/` 是本地缓存，已加入 `.gitignore`；
 - 更新 Token 后必须通过一次预览部署验证权限。

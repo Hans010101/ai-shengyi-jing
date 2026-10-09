@@ -21,6 +21,7 @@ test('EdgeOne forwards a signed request to the single Cloudflare advisor', async
   const originalFetch = globalThis.fetch;
   let upstreamCalls = 0;
   globalThis.fetch = async (url, init) => {
+    assert.equal(url, 'https://ai-shengyi-jing-etz.pages.dev/api/advisor');
     upstreamCalls += 1;
     return onRequestPost({
       request: new Request(url, init),

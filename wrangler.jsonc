@@ -1,6 +1,7 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "ai-shengyi-jing",
+  "account_id": "a828bebda1f352216c7d7da425bad17a",
   "pages_build_output_dir": "./dist",
   "compatibility_date": "2026-07-26",
   "compatibility_flags": [

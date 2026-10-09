@@ -1,5 +1,5 @@
 const CLOUDFLARE_ADVISOR_URL =
-  'https://ai-shengyi-jing.pages.dev/api/advisor';
+  'https://ai-shengyi-jing-etz.pages.dev/api/advisor';
 const MAX_BODY_BYTES = 16 * 1024;
 
 class PayloadTooLargeError extends Error {}

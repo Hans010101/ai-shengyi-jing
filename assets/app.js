@@ -723,7 +723,7 @@ function setupSubscribe() {
   const submit = document.getElementById('subSubmit');
   const status = document.getElementById('subStatus');
   const endpoint = window.location.hostname.endsWith('.edgeone.dev')
-    ? 'https://ai-shengyi-jing.pages.dev/api/subscribe'
+    ? 'https://ai-shengyi-jing-etz.pages.dev/api/subscribe'
     : '/api/subscribe';
 
   const open = event => {

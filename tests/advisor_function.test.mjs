@@ -8,11 +8,11 @@ import {
 } from '../functions/api/advisor.js';
 
 function createRequest(body, headers = {}) {
-  return new Request('https://ai-shengyi-jing.pages.dev/api/advisor', {
+  return new Request('https://ai-shengyi-jing-etz.pages.dev/api/advisor', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      Origin: 'https://ai-shengyi-jing.pages.dev',
+      Origin: 'https://ai-shengyi-jing-etz.pages.dev',
       ...headers
     },
     body: JSON.stringify(body)
@@ -111,7 +111,7 @@ test('accepts a fresh HMAC-signed EdgeOne proxy request', async () => {
   ).join('');
 
   const response = await onRequestPost({
-    request: new Request('https://ai-shengyi-jing.pages.dev/api/advisor', {
+    request: new Request('https://ai-shengyi-jing-etz.pages.dev/api/advisor', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -136,7 +136,7 @@ test('accepts a fresh HMAC-signed EdgeOne proxy request', async () => {
 
 test('rejects stale or invalid EdgeOne proxy signatures', async () => {
   const response = await onRequestPost({
-    request: new Request('https://ai-shengyi-jing.pages.dev/api/advisor', {
+    request: new Request('https://ai-shengyi-jing-etz.pages.dev/api/advisor', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

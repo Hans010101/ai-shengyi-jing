@@ -10,7 +10,7 @@ import {
 const TOKEN = 'test-editorial-token';
 
 function createRequest(body, token = TOKEN) {
-  return new Request('https://ai-shengyi-jing.pages.dev/api/editorial', {
+  return new Request('https://ai-shengyi-jing-etz.pages.dev/api/editorial', {
     method: 'POST',
     headers: {
       Authorization: `Bearer ${token}`,

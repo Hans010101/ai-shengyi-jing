@@ -6,8 +6,8 @@ import { EDGEONE_ORIGIN, onRequestOptions, onRequestPost, welcomeEmail } from '.
 const originalFetch = globalThis.fetch;
 const env = { RESEND_API_KEY: 're_test', RESEND_SEGMENT_ID: 'segment_test' };
 
-function request(body, origin = 'https://ai-shengyi-jing.pages.dev') {
-  return new Request('https://ai-shengyi-jing.pages.dev/api/subscribe', {
+function request(body, origin = 'https://ai-shengyi-jing-etz.pages.dev') {
+  return new Request('https://ai-shengyi-jing-etz.pages.dev/api/subscribe', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', Origin: origin },
     body: JSON.stringify(body)
@@ -112,7 +112,7 @@ test('rejects invalid input and cross-origin requests without contacting Resend'
 
 test('accepts EdgeOne preflight and silently discards honeypot submissions', async () => {
   const preflight = await onRequestOptions({
-    request: new Request('https://ai-shengyi-jing.pages.dev/api/subscribe', {
+    request: new Request('https://ai-shengyi-jing-etz.pages.dev/api/subscribe', {
       method: 'OPTIONS',
       headers: { Origin: EDGEONE_ORIGIN }
     })

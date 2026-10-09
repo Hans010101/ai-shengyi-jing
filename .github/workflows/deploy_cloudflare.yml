@@ -40,6 +40,9 @@ concurrency:
   group: dual-pages-ai-shengyi-jing
   cancel-in-progress: false
 
+env:
+  CLOUDFLARE_ACCOUNT_ID: a828bebda1f352216c7d7da425bad17a
+
 jobs:
   deploy:
     if: >-
@@ -95,39 +98,17 @@ jobs:
             echo "DEPLOY_BRANCH=${GITHUB_REF_NAME}" >> "$GITHUB_ENV"
           fi
 
-      - name: Validate deployment credentials
+      - name: Validate EdgeOne deployment credentials
         shell: bash
         env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
           EDGEONE_API_TOKEN: ${{ secrets.EDGEONE_API_TOKEN }}
         run: |
-          if [[ -z "$CLOUDFLARE_API_TOKEN" ]]; then
-            echo "::error::Repository secret CLOUDFLARE_API_TOKEN is missing or unavailable"
-            exit 1
-          fi
-          if [[ -z "$CLOUDFLARE_ACCOUNT_ID" ]]; then
-            echo "::error::Repository variable CLOUDFLARE_ACCOUNT_ID is missing"
-            exit 1
-          fi
           if [[ -z "$EDGEONE_API_TOKEN" ]]; then
             echo "::error::Repository secret EDGEONE_API_TOKEN is missing or unavailable"
             exit 1
           fi
 
-      - name: Deploy to Cloudflare Pages via Wrangler
-        uses: cloudflare/wrangler-action@v3
-        env:
-          # Keep the standard Wrangler environment variables as a fallback for
-          # action/runtime combinations that do not forward inputs correctly.
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
-          wranglerVersion: "4.113.0"
-          command: pages deploy --branch=${{ env.DEPLOY_BRANCH }} --commit-dirty=true
-
+      # EdgeOne can migrate its API callers even while 002 CI authorization is pending.
       - name: Deploy the same static artifact to EdgeOne Makers
         env:
           EDGEONE_API_TOKEN: ${{ secrets.EDGEONE_API_TOKEN }}
@@ -138,6 +119,28 @@ jobs:
           --area overseas
           --token "$EDGEONE_API_TOKEN"
           --json
+
+      - name: Validate Cloudflare 002 deployment credentials
+        shell: bash
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_002_API_TOKEN }}
+        run: |
+          if [[ -z "$CLOUDFLARE_API_TOKEN" ]]; then
+            echo "::error::Repository secret CLOUDFLARE_002_API_TOKEN is missing or unavailable; never fall back to account 007"
+            exit 1
+          fi
+
+      - name: Deploy to Cloudflare Pages via Wrangler
+        uses: cloudflare/wrangler-action@v3
+        env:
+          # Keep the standard Wrangler environment variables as a fallback for
+          # action/runtime combinations that do not forward inputs correctly.
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_002_API_TOKEN }}
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_002_API_TOKEN }}
+          accountId: ${{ env.CLOUDFLARE_ACCOUNT_ID }}
+          wranglerVersion: "4.113.0"
+          command: pages deploy --project-name=ai-shengyi-jing --branch=${{ env.DEPLOY_BRANCH }} --commit-dirty=true
 
       - name: Verify published version, project index and bilingual case detail
         run: python3 scripts/check_automation.py --verify-deployment

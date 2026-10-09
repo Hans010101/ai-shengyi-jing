@@ -35,7 +35,7 @@ jobs:
 
       - name: Run scraper
         env:
-          CLOUDFLARE_EDITORIAL_ENDPOINT: https://ai-shengyi-jing.pages.dev/api/editorial
+          CLOUDFLARE_EDITORIAL_ENDPOINT: https://ai-shengyi-jing-etz.pages.dev/api/editorial
           EDITORIAL_API_TOKEN: ${{ secrets.EDITORIAL_API_TOKEN }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}

@@ -21,7 +21,7 @@ from scripts.build_site import build_project_index
 
 SITES = (
     "https://aishengyijing.asia",
-    "https://ai-shengyi-jing.pages.dev",
+    "https://ai-shengyi-jing-etz.pages.dev",
     "https://ai-shengyi-jing-cn-vfh61o1a.edgeone.dev",
 )
 ISSUE_TITLE = "[自动巡检] 案例更新需要处理"

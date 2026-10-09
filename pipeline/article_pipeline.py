@@ -31,7 +31,7 @@ BLOCKED_MEDIA_HOSTS = {
     "www.starterstory.com",
     "cloudfront.net",
 }
-DEFAULT_EDITORIAL_ENDPOINT = "https://ai-shengyi-jing.pages.dev/api/editorial"
+DEFAULT_EDITORIAL_ENDPOINT = "https://ai-shengyi-jing-etz.pages.dev/api/editorial"
 REQUEST_DELAY = 2
 MAX_SOURCE_NOTES = 12_000
 

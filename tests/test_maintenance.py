@@ -667,6 +667,22 @@ class ContentQualityTests(unittest.TestCase):
         self.assertIn("pipeline/data/scrape_health.json", workflow)
         self.assertIn("scripts/validate_data.py", workflow)
 
+    def test_website_deployment_and_runtime_use_account_002(self):
+        workflow = Path(".github/workflows/deploy_cloudflare.yml").read_text()
+        self.assertIn("a828bebda1f352216c7d7da425bad17a", workflow)
+        self.assertIn("secrets.CLOUDFLARE_002_API_TOKEN", workflow)
+        self.assertNotIn("secrets.CLOUDFLARE_API_TOKEN", workflow)
+        self.assertNotIn("vars.CLOUDFLARE_ACCOUNT_ID", workflow)
+        self.assertIn("a828bebda1f352216c7d7da425bad17a", Path("wrangler.jsonc").read_text())
+        for name in (
+            "assets/app.js", "edge-functions/api/advisor.js",
+            "pipeline/article_pipeline.py", ".github/workflows/daily_scrape.yml",
+            "scripts/check_automation.py",
+        ):
+            source = Path(name).read_text()
+            self.assertIn("ai-shengyi-jing-etz.pages.dev", source, name)
+            self.assertNotIn("ai-shengyi-jing.pages.dev", source, name)
+
     def test_case_media_batches_are_published_after_enrichment(self):
         workflow = Path(".github/workflows/case_media_batch.yml").read_text(
             encoding="utf-8"
