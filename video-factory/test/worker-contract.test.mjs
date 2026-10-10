@@ -28,6 +28,7 @@ test('production deploy cannot pass by falling back to the API-only worker', () 
   assert.doesNotMatch(factoryWorkflow, /continue-on-error|Restore stable API|wrangler deploy --config wrangler\.api\.jsonc/);
   assert.match(factoryWorkflow, /rendererEnabled is not true/);
   assert.match(factoryWorkflow, /api\/renderer\/health/);
+  assert.match(factoryWorkflow, /X-Factory-Key: \$\{FACTORY_ADMIN_TOKEN\}/);
   assert.match(factoryWorkflow, /VIDEO_FACTORY_ADMIN_TOKEN/);
 });
 
