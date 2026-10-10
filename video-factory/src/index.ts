@@ -225,25 +225,5 @@ export default {
   async scheduled(_controller: ScheduledController, env: Env): Promise<void> {
     const expired = await env.VIDEO_DB.prepare("SELECT id FROM jobs WHERE status = 'succeeded' AND retention_until IS NOT NULL AND retention_until < ? AND artifacts_deleted_at IS NULL LIMIT 50").bind(new Date().toISOString()).all();
     for (const row of expired.results as any[]) await deleteJobArtifacts(env, String(row.id));
-    const limit = Math.max(0, Math.min(10, Number(env.AUTO_BATCH_SIZE || 0)));
-    if (!limit) return;
-    const [projectsResponse, active] = await Promise.all([
-      fetch(env.PROJECT_DATA_URL),
-      env.VIDEO_DB.prepare("SELECT DISTINCT case_id FROM jobs WHERE status IN ('queued','running','succeeded')").all()
-    ]);
-    if (!projectsResponse.ok) throw new Error('AUTO_SOURCE_FETCH_FAILED');
-    const projects: any[] = await projectsResponse.json();
-    const existing = new Set((active.results as any[]).map(row => String(row.case_id)));
-    const selected = [];
-    const candidates = projects.filter(project => !existing.has(String(project.id))).slice(0, 100);
-    for (const project of candidates) {
-      const caseId = String(project.id);
-      const articleResponse = await fetch(`${env.ARTICLE_BASE_URL}/${caseId}.json`).catch(() => null);
-      const article: any = articleResponse?.ok ? await articleResponse.json().catch(() => null) : null;
-      const validMedia = Array.isArray(article?.media) ? article.media.filter((media: any) => /^https:\/\//i.test(String(media?.url || ''))).length : 0;
-      if (validMedia >= 3) selected.push(project);
-      if (selected.length >= limit) break;
-    }
-    for (const project of selected) await enqueue(env, { caseId: String(project.id) });
   }
 };

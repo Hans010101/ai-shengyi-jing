@@ -1,6 +1,7 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "ai-shengyi-video-factory",
+  "account_id": "a828bebda1f352216c7d7da425bad17a",
   "main": "src/index.ts",
   "compatibility_date": "2026-07-31",
   "compatibility_flags": ["nodejs_compat"],
@@ -15,7 +16,7 @@
     { "binding": "VIDEO_BUCKET", "bucket_name": "ai-shengyi-video-factory" }
   ],
   "d1_databases": [
-    { "binding": "VIDEO_DB", "database_name": "ai-shengyi-video-factory", "database_id": "326c208e-23dd-4cf8-809d-29d22501e121" }
+    { "binding": "VIDEO_DB", "database_name": "ai-shengyi-video-factory", "database_id": "4207e0bb-f795-45b3-bd7f-195b08c2865d" }
   ],
   "workflows": [
     {
@@ -31,10 +32,9 @@
     "SCRIPT_MODEL": "@cf/meta/llama-3.1-8b-instruct-fast",
     "ASR_MODEL": "@cf/openai/whisper-large-v3-turbo",
     "FACTORY_VERSION": "0.3.1",
-    "AUTO_BATCH_SIZE": "0",
     "ARTIFACT_RETENTION_DAYS": "3",
     "RENDERER_ENABLED": "false",
-    "PUBLIC_ORIGIN": "https://ai-shengyi-video-factory.hans-pan007.workers.dev"
+    "PUBLIC_ORIGIN": "https://ai-shengyi-video-factory.bitman001.workers.dev"
   },
   "observability": { "enabled": true }
 }

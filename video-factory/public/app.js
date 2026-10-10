@@ -1,5 +1,5 @@
 const OFFICIAL_ORIGIN = 'https://ai-shengyi-video-studio.pages.dev';
-const WORKER_ORIGIN = 'https://ai-shengyi-video-factory.hans-pan007.workers.dev';
+const WORKER_ORIGIN = 'https://ai-shengyi-video-factory.bitman001.workers.dev';
 const isLocalFile = location.protocol === 'file:';
 const apiOrigin = location.hostname === 'ai-shengyi-video-studio.pages.dev' || isLocalFile ? WORKER_ORIGIN : location.origin;
 const $ = selector => document.querySelector(selector);

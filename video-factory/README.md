@@ -11,9 +11,9 @@
 - Containers：HyperFrames、Chromium、FFmpeg和Edge Neural TTS
 - R2：案例快照、脚本、音频、MP4、联系表和质检报告的短期中转缓存
 - D1：任务、事件和模板版本
-- 每日计划任务：自动挑选2个尚未生产、拥有3项以上素材的案例
+- 每日计划任务：只清理到期缓存，自动生产已暂停；手动生产不变
 
-二进制成片不进入Git仓库。云端成片默认在R2保留3天，用户可从生产台下载到本机，确认保存后立即点击“释放云端缓存”；每日计划任务也会自动清理到期文件。以每天2条、每条约100–150MB估算，3天滚动缓存通常低于1GB。
+二进制成片不进入Git仓库。云端成片默认在R2保留3天，用户可从生产台下载到本机，确认保存后立即点击“释放云端缓存”；每日计划任务也会自动清理到期文件，不再自动创建视频任务。
 
 案例库直接读取`data/case_articles/{caseId}.json`，3646个案例均使用各自的详情事实与3–5份素材，不再只依赖5个正式样例组成的汇总文件。
 
@@ -27,7 +27,7 @@
 6. 无连续黑帧，成片时长与音频一致。
 7. Whisper反向转写与脚本文字达到阈值；不通过自动降速重做一次。
 
-生产台支持案例名称与分类搜索、可视化选择、批量导入ID、生产进度、失败重试、成片预览、本地下载、质检报告和云端缓存释放。自动批量大小由`AUTO_BATCH_SIZE`配置，设为`0`即可暂停每日自动生产；缓存天数由`ARTIFACT_RETENTION_DAYS`配置。
+生产台支持案例名称与分类搜索、可视化选择、批量导入ID、生产进度、失败重试、成片预览、本地下载、质检报告和云端缓存释放。每日定时任务只清理超过`ARTIFACT_RETENTION_DAYS`的成片缓存，不会自动创建生产任务；批量生产由用户在工作台主动提交。
 
 ## 本地开发
 
@@ -46,7 +46,7 @@ npm run dev
 独立生产台前端部署在 Cloudflare Pages：
 
 - 固定入口：`https://ai-shengyi-video-studio.pages.dev`
-- 生产 API：`https://ai-shengyi-video-factory.hans-pan007.workers.dev`
+- 生产 API：`https://ai-shengyi-video-factory.bitman001.workers.dev`
 - GitHub 主分支更新 `video-factory/public/**` 后，由 `deploy-video-studio.yml` 自动发布前端
 
 前端与生产后端分开发布，因此 R2 或容器尚未激活时，产品入口仍能稳定访问，并显示明确的后端状态。
@@ -56,10 +56,12 @@ npm run dev
 ```bash
 npx wrangler secret put FACTORY_ADMIN_TOKEN
 npx wrangler secret put INTERNAL_RENDER_TOKEN
-npx wrangler secret put DEEPSEEK_API_KEY  # 可选
+npx wrangler secret put DEEPSEEK_API_KEY  # 可选；按 Worker 独立设置，不读取仓库共享密钥
 npm run deploy
 npm run db:remote
 ```
+
+脚本生成始终先调用 Workers AI，只有 Workers AI 失败时才调用 DeepSeek；两者都失败时使用确定性本地脚本兜底。`DEEPSEEK_API_KEY`由该 Worker 独立持有，GitHub 部署不会用其他项目的仓库级密钥覆盖它。
 
 生产后台对外可访问，但生产 API 仍然受保护。管理员自动化可携带 `X-Factory-Key`；网页端默认使用一次性设备激活码换取 30 天 HMAC 签名会话，长期生产密钥不会进入浏览器。激活码只在 D1 保存 SHA-256 摘要、使用一次后失效：
 

@@ -114,6 +114,7 @@ export class VideoProductionWorkflow extends WorkflowEntrypoint<Env, Params> {
             storeArtifact(this.env, renderer, renderJobId, 'qa.json', keys.technicalQa, 'application/json')
           ]);
         });
+        await step.do(`stop-renderer-${attempt}`, async () => renderer.stop());
         const expected = generated.script.beats.map(item => item.narration).join('');
         const qa = await step.do(`quality-gate-${attempt}`, async () => {
           const technicalObject = await this.env.VIDEO_BUCKET.get(keys.technicalQa);
