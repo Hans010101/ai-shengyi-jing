@@ -7,7 +7,7 @@ import type { Env, ProductionOptions, SourceType } from './types';
 export { VideoProductionWorkflow, VideoRenderer };
 
 function json(body: unknown, status = 200) {
-  return Response.json(body, { status, headers: { 'Cache-Control': 'no-store', 'X-Content-Type-Options': 'nosniff', 'Access-Control-Allow-Origin': 'https://ai-shengyi-video-studio.pages.dev', 'Access-Control-Allow-Headers': 'Content-Type, X-Factory-Key, Authorization', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS' } });
+  return Response.json(body, { status, headers: { 'Cache-Control': 'no-store', 'X-Content-Type-Options': 'nosniff', 'Access-Control-Allow-Origin': 'https://ai-shengyi-video-studio-5dw.pages.dev', 'Access-Control-Allow-Headers': 'Content-Type, X-Factory-Key, Authorization', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS' } });
 }
 
 async function authorized(request: Request, env: Env) {
@@ -85,7 +85,7 @@ async function serveR2(request: Request, env: Env, key: string, disposition = 'i
   headers.set('Accept-Ranges', 'bytes');
   headers.set('Cache-Control', 'public, max-age=86400, immutable');
   headers.set('Content-Disposition', disposition);
-  headers.set('Access-Control-Allow-Origin', 'https://ai-shengyi-video-studio.pages.dev');
+  headers.set('Access-Control-Allow-Origin', 'https://ai-shengyi-video-studio-5dw.pages.dev');
   headers.set('Access-Control-Expose-Headers', 'Accept-Ranges, Content-Length, Content-Range, ETag');
   if (range === false) {
     headers.set('Content-Range', `bytes */${metadata.size}`);
@@ -142,7 +142,7 @@ async function catalog(request: Request, env: Env) {
     return {
       id: caseId, name: item.nameZh || item.name, originalName: item.name, summary: item.summary || item.insight || '',
       category: item.niche || '其他', revenue: item.revenue || '未披露', image: item.image || article?.media?.[0]?.url || '',
-      mediaCount, mediaReady: mediaCount >= 3, caseUrl: `https://ai-shengyi-jing.pages.dev/case?id=${encodeURIComponent(caseId)}`,
+      mediaCount, mediaReady: mediaCount >= 3, caseUrl: `https://ai-shengyi-jing-etz.pages.dev/case?id=${encodeURIComponent(caseId)}`,
       replicabilityScore: item.replicabilityScore || null, updatedAt: item.updatedAt || item.scrapedAt || null
     };
   }));
@@ -152,7 +152,7 @@ async function catalog(request: Request, env: Env) {
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url);
-    if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: { 'Access-Control-Allow-Origin': 'https://ai-shengyi-video-studio.pages.dev', 'Access-Control-Allow-Headers': 'Content-Type, X-Factory-Key, Authorization', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Max-Age': '86400' } });
+    if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: { 'Access-Control-Allow-Origin': 'https://ai-shengyi-video-studio-5dw.pages.dev', 'Access-Control-Allow-Headers': 'Content-Type, X-Factory-Key, Authorization', 'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS', 'Access-Control-Max-Age': '86400' } });
     if (url.pathname === '/api/health') return json({ ok: true, service: 'AI视频创作台', version: env.FACTORY_VERSION, renderer: { enabled: env.RENDERER_ENABLED === 'true', provider: 'Cloudflare Containers + HyperFrames' }, ai: { primary: 'Cloudflare Workers AI', fallback: env.DEEPSEEK_API_KEY ? 'DeepSeek' : 'deterministic' }, sources: ['text','topic','article','book','ai-shengyi-case'], retentionDays: Number(env.ARTIFACT_RETENTION_DAYS || 3), time: new Date().toISOString() });
     if (url.pathname === '/api/presets' && request.method === 'GET') return json({ templates: [{ id:'knowledge-director-v1', name:'知识导演', sourceTypes:['text','topic','article','book'] },{ id:'ai-shengyi-case-v1', name:'AI生意经商业案例', sourceTypes:['ai-shengyi-case'] }], visuals: ['smart-director','knowledge-diagram','comic','sand-art','scenery','satisfying','real-montage'], limits: { textCharacters:16000, batch:10, durations:[30,60,90,120,180], fileDirect:['text/plain','text/markdown','text/html'], fileExtractFirst:['application/pdf','application/epub+zip','application/vnd.openxmlformats-officedocument.wordprocessingml.document'] } });
     if (url.pathname.startsWith('/output/')) {
@@ -166,6 +166,17 @@ export default {
     if (url.pathname === '/api/catalog' && request.method === 'GET') return catalog(request, env);
     if (url.pathname === '/api/activate' && request.method === 'POST') return activateDevice(request, env);
     if (url.pathname.startsWith('/api/') && !(await authorized(request, env))) return json({ error: 'UNAUTHORIZED' }, 401);
+    if (url.pathname === '/api/renderer/health' && request.method === 'GET') {
+      if (env.RENDERER_ENABLED !== 'true') return json({ ok: false, error: 'RENDERER_UNAVAILABLE' }, 503);
+      try {
+        const response = await env.VIDEO_RENDERER.getByName('health-check').fetch('http://container/health', { signal: AbortSignal.timeout(30_000) });
+        const health: any = await response.json().catch(() => null);
+        if (!response.ok || health?.ok !== true) return json({ ok: false, error: 'RENDERER_UNHEALTHY', status: response.status }, 502);
+        return json({ ok: true, renderer: health });
+      } catch {
+        return json({ ok: false, error: 'RENDERER_UNREACHABLE' }, 502);
+      }
+    }
     if (url.pathname === '/api/jobs' && request.method === 'POST') {
       if (env.RENDERER_ENABLED !== 'true') return json({ error: 'RENDERER_UNAVAILABLE', detail: '云端渲染服务尚未开通，请先启用 Cloudflare Workers Paid / Containers。' }, 503);
       const body: any = await request.json().catch(() => null);
