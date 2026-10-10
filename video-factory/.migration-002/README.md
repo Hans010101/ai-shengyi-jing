@@ -21,7 +21,7 @@
 - 最终 Worker 保留 Assets、3 个 secret，并已绑定 Workers AI、D1、R2 `VIDEO_BUCKET`、含 Container metadata 的 `VIDEO_RENDERER` Durable Object 和 `VIDEO_WORKFLOW`；`RENDERER_ENABLED=true`。
 - Workflow instance 列表为 0；唯一 schedule 是 R2 过期产物清理 `15 1 * * *`，没有每日 DeepSeek 或自动视频生成任务。
 - Container 的 `Dockerfile`、`entrypoint.sh`、`server.mjs`、`render-job.mjs`、`package.json` 共 5 个源文件哈希与推送 context 一致。
-- 本次 renderer 验收只做健康读取，没有调用模型、创建视频任务、激活设备或写入业务数据。
+- 此处的基础 renderer 验收只做健康读取；真实固定 composition 与 R2 闭环见下一节。两轮都没有调用 Workers AI 或 DeepSeek，也没有写入业务 D1。
 
 证据位于迁移证据目录：
 
@@ -32,6 +32,36 @@
 - `video-container-created-002-20261010.json`
 - `video-container-source-hashes-002-20261010.json`
 - `video-renderer-health-002-20261010.json`
+
+## 增量验收：真实渲染与 R2 闭环（2026-10-10）
+
+本轮目标是使用一条明确标注为迁移验收的极短内部任务，验证 002 Container 渲染、R2 写入、Worker 取回和测试资源清理；约束是不调用任何可能产生费用的模型、不向外部渠道发布，也不改动或恢复 007 资源。
+
+### 已完成的只读核对
+
+- 完整配置和 API-only 配置的 `account_id` 均为 002（`a828bebda1f352216c7d7da425bad17a`），D1 均为 `4207e0bb-f795-45b3-bd7f-195b08c2865d`，R2 绑定均为 `VIDEO_BUCKET -> ai-shengyi-video-factory`；Worker 源码、migrations、测试与两份 Wrangler 配置没有 007 账号 ID 或跨账号 R2 endpoint。
+- 新任务的所有文件引用都是当前 `VIDEO_BUCKET` 下的相对 key：`jobs/{jobId}/content-snapshot.json`、`script.json`、`attempt-{n}/...` 与最终 `video.mp4`、`voice.mp3`、海报、联系表和 QA。下载接口先查当前 D1 任务记录，再从当前 R2 binding 读取；不接受任务文件中自带的 bucket 或账号地址。
+- 渲染实现仍是既有链路：Workflow 将 manifest 提交给 002 的 `VIDEO_RENDERER` Durable Object/Container，Container 使用固定的 HyperFrames `0.7.87` 生成画面、`edge-tts` 生成中文口播，并由 FFmpeg 完成响度和编码检查；没有新建第二套渲染框架。
+- 对无外部素材的知识类短任务，现有 manifest 会把 `minUniqueMedia` 设为 0，并使用内置知识图解画面。媒体机会扫描结论是：本次验收无需第三方图片、视频、BGM 或版权素材，现成文字和内置图解足以覆盖渲染验证。
+- R2 取回代码具备 HEAD、完整 GET 和 Range GET，删除接口会枚举并删除 `jobs/{jobId}/` 前缀后再删除 D1 任务与事件；这些是代码合同核对，不等同于本轮已产生并下载了一份新文件。
+
+### 直接渲染入口与执行结果
+
+进一步检查确认，Container 已有足够的内部接口：`POST /jobs` 接收固定 manifest，`GET /jobs/{jobId}` 查询状态，`GET /jobs/{jobId}/artifacts/video.mp4` 取回成片。它只校验 `jobId` 和非空 `script.beats`，不会调用 Workers AI 或 DeepSeek；因此无需给正式产品新增“验收模式”，也无需经过会自动回退 DeepSeek 的业务建单入口。一个临时 Worker 只要外部绑定正式 `VideoRenderer` Durable Object 和现有 R2，就能用唯一 DO 名称、唯一 `migration-acceptance/{runId}/video.mp4` key 完成固定单分镜渲染、R2 写入、读回哈希校验、精确删除和 `renderer.stop()`，正式 Worker 可以保持原样。
+
+2026-10-10 已在账号 002 真实执行上述隔离方案，run ID 为 `20261010T021127Z-07b69eea`。固定 composition 通过现有 Container 和 Edge TTS 完成，状态 `succeeded`、进度 100%；成片时长 8.683 秒、大小 638,545 bytes。产物写入唯一测试 R2 key 后成功读回，写入与读回 SHA-256 均为 `7ccb83aa5064aef9a9171af0f2e38721e49ed7590a2a696101f73b37d6b81990`。
+
+唯一测试 R2 key 已精确删除并经 HEAD 确认为不存在，测试 renderer 的 `stop()` 调用成功。临时 Worker 的 CLI 删除命令返回非零，但随后两次通过 002 Cloudflare API 查询该脚本均为不存在，并确认账号内没有任何 `accept-002-*` 临时 Worker；脱敏证据保留了 `originalCliDeleteReportedFailure` 原始异常，同时按 API 最终状态记录 `cleanup.ok=true`。默认 Wrangler 当前也已切换并核对为账号 002。
+
+证据文件：`/Users/hans.pan/Library/Application Support/Dianjinshou/migration-002-20261009/video-render-002-acceptance-20261010T021127Z-07b69eea.json`。
+
+仓库内未纳入 Git 的历史验收脚本 `accept-002.sh` 仍不能满足本轮合同：它检查旧 Studio 域名，调用会自动回退 DeepSeek 的业务建单入口，并且成功后只验证视频 HEAD 与 QA，不删除任务、D1 记录和 R2 前缀。本轮没有执行或修改该历史脚本。
+
+### 验收结论与历史任务隔离
+
+**本轮隔离渲染 / R2 写入、读回与清理已通过。** 通过范围严格限定为：真实 002 Container、Edge TTS 固定 composition、MP4 产出、R2 写入与读回哈希校验、唯一 key 删除，以及测试 renderer 和临时 Worker 清理。它没有经过业务 Workflow、D1、Workers AI、DeepSeek、ASR，也不是一条正式用户任务，因此不能替代正式业务建单到下载的端到端验收。
+
+数据库里的 92 条旧失败任务继续作为历史记录单独处理：它们没有成片、海报、音频或 QA key，只有在提交渲染前可能写入的 manifest key；旧文件缺失不能用来判断 002 新链路成功或失败。本轮没有新增任务，因此也没有把任何旧失败记录误记成新任务回归结果。
 
 ## CI 发布凭据状态
 
