@@ -29,7 +29,7 @@ jobs:
       - name: Validate frontend
         run: node --check public/app.js
       - name: Deploy independent product frontend
-        run: npx wrangler pages deploy public --project-name ai-shengyi-video-studio-5dw --branch main --commit-dirty=true
+        run: npx wrangler pages deploy public --project-name ai-shengyi-video-studio --branch main --commit-dirty=true
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.VIDEO_STUDIO_CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: a828bebda1f352216c7d7da425bad17a

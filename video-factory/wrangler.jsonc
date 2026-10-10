@@ -47,7 +47,7 @@
     ]
   },
   "migrations": [
-    { "tag": "v1", "new_sqlite_classes": ["VideoRenderer"] }
+    { "tag": "copy002-empty-state-v1", "new_sqlite_classes": ["VideoRenderer"] }
   ],
   "vars": {
     "PROJECT_DATA_URL": "https://ai-shengyi-jing-etz.pages.dev/data/projects_live.json",
