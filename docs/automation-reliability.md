@@ -21,7 +21,7 @@
 - 数据与详情提交后自动用同一成品发布 Cloudflare / EdgeOne。
 - 发布后核对主域名、002 Pages（`ai-shengyi-jing-etz.pages.dev`）、EdgeOne 的提交版本、完整项目索引及最新一篇中英详情；007 历史备用入口不再是巡检必需依赖。
 
-2026-10-10 账号迁移期间，官网发布改用独立 Secret `CLOUDFLARE_002_API_TOKEN`，缺失时明确失败，不回退到 007。主域名与永久密钥尚未就绪时不能宣称自动发布迁移完成，见 [迁移记录](cloudflare-002-migration-2026-10-10.md)。
+2026-10-10 主域名与 www 已在 002 激活，HTTPS 验证正常。官网发布改用已配置的独立 Secret `CLOUDFLARE_002_API_TOKEN`，仅授权 002 Pages Edit，2027-10-10 22:00（北京时间）到期；缺失时明确失败，不回退到 007。实际完整流水线验收结果见 [迁移记录](cloudflare-002-migration-2026-10-10.md)，不能以人工发布成功替代 CI 验收。
 
 ## 自动巡检
 

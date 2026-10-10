@@ -15,14 +15,14 @@
 | 历史备用地址 | `https://ai-shengyi-jing.pages.dev`（007 过渡转接，不作为运行依赖） |
 | EdgeOne Makers 项目 | `ai-shengyi-jing-cn` |
 | EdgeOne 试运行区域 | 全球可用区（不含中国大陆） |
-| 自定义域 | `aishengyijing.asia` |
+| 自定义域 | `aishengyijing.asia`、`www.aishengyijing.asia`（002 Pages 均已激活） |
 | Pages Git 直连 | 未启用 |
 | 发布方式 | GitHub Actions + Wrangler |
 | 公共发布目录 | `dist/`（两个平台共用） |
 | EdgeOne 发布目录 | `dist-edgeone/`（公共成品 + 转发函数） |
 | 生产环境变量/绑定 | Workers AI binding：`AI`；Secrets：`EDITORIAL_API_TOKEN`、`EDGEONE_PROXY_SECRET`、`RESEND_API_KEY`、`RESEND_SEGMENT_ID` |
 
-002 的 Pages 与 API 已存在；主域名切换和长期 CI Token 仍由总迁移任务协调，详见 [002 迁移记录](cloudflare-002-migration-2026-10-10.md)。不要将临时 OAuth 写入 GitHub 充当长期部署密钥。
+主域名已切换到 002 的 `megan.ns.cloudflare.com` / `nero.ns.cloudflare.com`，HTTPS 与邮件 DNS 核验通过。`CLOUDFLARE_002_API_TOKEN` 已配置，仅授权 002 Pages Edit，2027-10-10 22:00（北京时间）到期，须提前轮换；实际自动发布结果见 [002 迁移记录](cloudflare-002-migration-2026-10-10.md)。不要将临时 OAuth 写入 GitHub 充当长期部署密钥。
 
 ## 发布边界
 
