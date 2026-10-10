@@ -14,10 +14,10 @@
 
 ## 正式运行验收（2026-10-10）
 
-- Worker `ai-shengyi-video-factory` 最新 CI Version ID：`10458053-0b31-4c44-ba4b-e2dcfb9a4bca`；`/` 与 `/api/health` 均返回 200，未带凭据访问 `/api/renderer/health` 返回 401。
+- Worker `ai-shengyi-video-factory` 最新 CI Version ID：`bc6e00da-930c-4c94-ac25-1ef21b98cf4a`；`/` 与 `/api/health` 均返回 200，未带凭据访问 `/api/renderer/health` 返回 401。
 - 使用现有 `FACTORY_ADMIN_TOKEN` 只读访问 `/api/renderer/health` 返回 200，renderer 返回 `ok: true`、`service: video-renderer`、`activeJobs: 0`。
 - Container application ID：`a0352c7a-9c23-4517-ab53-5df810b794d3`；Durable Object namespace：`210f980342744814a916f436ee8d392e`；最大实例数为 3。
-- 最新 CI 镜像 digest：`sha256:789bd0a2d8d67d3568287ad1ce884aa69a0d02f35b8f84cc26abc02555498818`。
+- 首次完整 CI 验收使用的镜像 digest：`sha256:789bd0a2d8d67d3568287ad1ce884aa69a0d02f35b8f84cc26abc02555498818`。
 - 最终 Worker 保留 Assets、3 个 secret，并已绑定 Workers AI、D1、R2 `VIDEO_BUCKET`、含 Container metadata 的 `VIDEO_RENDERER` Durable Object 和 `VIDEO_WORKFLOW`；`RENDERER_ENABLED=true`。
 - Workflow instance 列表为 0；唯一 schedule 是 R2 过期产物清理 `15 1 * * *`，没有每日 DeepSeek 或自动视频生成任务。
 - Container 的 `Dockerfile`、`entrypoint.sh`、`server.mjs`、`render-job.mjs`、`package.json` 共 5 个源文件哈希与推送 context 一致。
@@ -72,10 +72,11 @@
 
 长期业务密钥继续使用既有 `VIDEO_FACTORY_ADMIN_TOKEN` 与 `VIDEO_FACTORY_INTERNAL_TOKEN`，值不进入仓库或日志。
 
-## GitHub Actions 最终验收
+## GitHub Actions 正式验收
 
-- Video Studio：[run 38011245470](https://github.com/Hans010101/ai-shengyi-jing/actions/runs/38011245470)，结论 `success`；发布到 002 Pages 项目 `ai-shengyi-video-studio`，本次部署地址 `https://34237a41.ai-shengyi-video-studio-5dw.pages.dev`。
-- Video Factory：[run 38011509322](https://github.com/Hans010101/ai-shengyi-jing/actions/runs/38011509322)，结论 `success`；测试、类型检查、D1 migration、secret 配置、Worker 与 Container 发布均成功。最终硬健康门输出 `rendererEnabled=true` 与 `renderer health=ok`，带管理员凭据的 `/api/renderer/health` 返回有效 renderer 健康结果。
+- Video Studio 最新发布：[run 38013770137](https://github.com/Hans010101/ai-shengyi-jing/actions/runs/38013770137)，结论 `success`；目标仍为 002 Pages 项目 `ai-shengyi-video-studio`。
+- Video Factory 最新发布：[run 38013770202](https://github.com/Hans010101/ai-shengyi-jing/actions/runs/38013770202)，结论 `success`；对应 Worker Version ID 为 `bc6e00da-930c-4c94-ac25-1ef21b98cf4a`。
+- 首次完整迁移验收为 Studio [run 38011245470](https://github.com/Hans010101/ai-shengyi-jing/actions/runs/38011245470) 与 Factory [run 38011509322](https://github.com/Hans010101/ai-shengyi-jing/actions/runs/38011509322)，两者结论均为 `success`。Factory 当时的测试、类型检查、D1 migration、secret 配置、Worker 与 Container 发布均成功，硬健康门输出 `rendererEnabled=true` 与 `renderer health=ok`。
 - 工作流已移除“完整发布失败后回退 API-only 仍显示成功”的路径；完整发布或 renderer 健康检查失败都会令 Action 失败。
 - 验收没有创建视频任务、调用 Workers AI/DeepSeek 或写入业务数据。
 
@@ -84,9 +85,9 @@
 - 迁移证据中没有视频 R2 对象级清单，也没有对象复制/校验记录。`full-ai-shengyi-video-factory-assets-manifest.json` 只包含 4 个 Worker 静态资源，不是视频 R2 清单。
 - 源端、切换时源端、切换时目标端三份 D1 快照结果一致：共 135 个任务，43 个成功、92 个失败。43 个成功任务全部已有 `artifacts_deleted_at`，保留中的成功产物为 0；其保留期最晚到 2026-10-04，最晚清理记录为 2026-10-05。
 - 92 个失败任务没有 `output_key`、`poster_key`、`audio_key` 或 `qa_key`，只保留 `manifest_key`。代码会在提交渲染前写入 manifest，因此该字段不能证明存在可下载成片；失败任务也会被输出接口拒绝。失败流程可能在 007 留下未发布的 manifest、脚本、快照或尝试产物，但它们不是有效发布成片。
-- 007 控制台当前明确显示 R2 订阅已删除；临时恢复又被未结清账单阻止，因此无法执行对象级枚举。证据为 `007-r2-subscription-deleted-20261010.png`。用户已明确决定不支付 221.26 美元欠款、也不重开 007 R2；除非用户以后明确改变决定，否则旧 bucket 的物理对象状态保持未核查，不能声称历史对象已迁移。
+- 007 控制台当前明确显示 R2 订阅已删除；临时恢复又被未结清账单阻止，因此无法执行对象级枚举。证据为 `007-r2-subscription-deleted-20261010.png`。用户拒绝支付 221.26 美元欠款，但这不等于授权放弃或丢失未知历史对象；旧 bucket 的物理对象状态仍未核查，不能声称历史对象已迁移或可安全丢弃。
 
-当前结论：002 的 Worker、D1、R2、Workflow、Container 已独立运行，没有已发布历史成片继续依赖 007；007 是否仍有孤儿或失败任务中间件属于用户明确接受的未核查迁移边界。
+当前结论：002 的 Worker、D1、R2、Workflow、Container 已独立运行，没有已发布历史成片继续依赖 007；007 是否仍有孤儿、失败任务中间件或其他未知 R2 历史对象仍是未解决的数据边界。
 
 ## 删除 007 前的依赖核对（2026-10-10）
 
@@ -98,25 +99,25 @@
 - AI 生意经来源连接器使用 002 的 `ai-shengyi-jing-etz.pages.dev` 数据源，界面返回站点使用正式域名 `https://aishengyijing.asia`。
 - 当前仓库的三条 Cloudflare 发布工作流均固定到 002；视频 Studio 与 Factory 使用各自的 002 专用 GitHub secret，不会自动回退到 007。
 
-旧仓库 `/Users/hans.pan/Documents/project/ai-video-factory` 是历史 OpenMontage 手动部署源，仍含 007 的 Worker、D1、R2 和镜像地址。该仓库没有 GitHub Actions、没有项目任务文件，也没有发现对应的 launchd、运行进程或 Docker 容器；007 的在线 Worker 清单也没有同名服务，因此没有发现当前调用者。它仍是一次误执行 `wrangler deploy` 的风险，正式删除 007 前应归档或另做明确的部署禁用；本次未修改其中的用户工作区改动。
+旧仓库 `/Users/hans.pan/Documents/project/ai-video-factory` 是未部署的历史 OpenMontage 手动部署配置，仍含 007 的 Worker、D1、R2 和镜像地址。该仓库没有 GitHub Actions、项目任务、launchd、运行进程或 Docker 容器，007 在线 Worker 清单也没有同名服务，因此不是仍在线依赖；但该配置不可直接用于未来发布，避免误把历史 007 坐标重新部署。本次未修改其中的用户工作区改动。
 
-账号级结论与视频产品不同：当前还不能安全删除整个 007 账号。工作区仍有以下项目引用 007，必须逐项确认是迁移还是退役后再删除账号：
+### 007 账号级核查结论
 
-- `web3-intel-matrix` 的 Wrangler 账号仍为 007；
-- `fundarb` 仍有旧 Worker、容器 registry 和 Access 域名；
-- `geo-seo-system` 仍调用 007 的 cron Worker，并在部署配置中保留旧地址；
-- `ai-baibaoxiang` 的默认 advisor endpoint 仍指向 007；
-- `midas-trading` 的 Cloudflare 工作流仍检查 007 Worker。
+根线程已枚举 007 的 13 个 Workers、7 个 Pages 项目、8 个 D1 数据库和 5 个 zones，并完成以下项目归属核对：
 
-以上是源代码引用审计，不等同于 Cloudflare 账号级资源清单；删除账号前仍需枚举 007 的 zones、DNS/custom domains、Workers、D1、KV、Queues、R2、Access 和 Pages，防止遗漏不在本机仓库中的依赖。
+- `geo-seo-system` 当前部署与 Telegram 链路均已迁到 002，遗留 007 引用已经实际发布修复，不是在线依赖。
+- `ai-baibaoxiang` 线上运行于阿里云，不依赖 007。
+- `midas-trading` 已按项目 `AGENTS.md` 退役，不恢复旧 Cloudflare 服务。
+- `fundarb` 原云端服务早已删除，不是当前在线依赖。
+- `web3-intel-matrix` 与 OpenMontage 仅保留未部署的历史 007 配置，不是在线依赖；这些配置不可直接用于未来发布，使用前必须显式迁移到目标账号并重新验收。
 
-**结论：视频产品层面可切离 007 并在 002 上创建新任务；账号层面暂不可删除 007。** 本次按约束没有启动付费视频生成，因此“新任务最终产出成片”的业务验收仍沿用既有部署证据，不新增一条付费 E2E 证据。
+**结论：上述项目不再构成 007 的已知在线依赖，但当前仍不能把 007 账号退役标记为最终通过。** 剩余阻塞是：007 R2 的未知历史对象尚未枚举或获授权处置；Crypto Trading 缺少后端；各项真实外部业务验收尚未完成。视频产品已通过隔离 Container/R2 闭环，但该结果不能代替这些外部业务验收。
 
 ## 后续发布与安全
 
 - 只通过 GitHub Actions 和两枚 002 专用 Repository Secrets 发布；不要把历史迁移脚本当作日常部署入口。
 - 不在报告、日志或仓库中保存 Cloudflare token、Factory 管理密钥或 DeepSeek key。
-- 删除 007 前先完成上面的账号级资源清单和其他项目迁移；删除动作本身必须单独授权。
+- 删除 007 前必须先解决未知 R2 历史对象的处置授权、Crypto Trading 后端缺失和真实外部业务验收；删除动作本身必须单独授权。
 
 ## 已验证的本地事实
 
