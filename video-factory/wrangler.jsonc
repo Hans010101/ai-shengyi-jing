@@ -50,9 +50,9 @@
     { "tag": "v1", "new_sqlite_classes": ["VideoRenderer"] }
   ],
   "vars": {
-    "PROJECT_DATA_URL": "https://ai-shengyi-jing.pages.dev/data/projects_live.json",
-    "ARTICLE_DATA_URL": "https://ai-shengyi-jing.pages.dev/data/case_articles.json",
-    "ARTICLE_BASE_URL": "https://ai-shengyi-jing.pages.dev/data/case_articles",
+    "PROJECT_DATA_URL": "https://ai-shengyi-jing-etz.pages.dev/data/projects_live.json",
+    "ARTICLE_DATA_URL": "https://ai-shengyi-jing-etz.pages.dev/data/case_articles.json",
+    "ARTICLE_BASE_URL": "https://ai-shengyi-jing-etz.pages.dev/data/case_articles",
     "SCRIPT_MODEL": "@cf/meta/llama-3.1-8b-instruct-fast",
     "ASR_MODEL": "@cf/openai/whisper-large-v3-turbo",
     "FACTORY_VERSION": "0.3.1",
