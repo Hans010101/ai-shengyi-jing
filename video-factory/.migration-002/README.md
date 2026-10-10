@@ -1,6 +1,6 @@
-# 002 正式部署交接
+# 002 正式部署与 007 退役审计
 
-这套脚本完成 002 账号的 Worker、D1、Workflow、Workers AI、R2、Durable Object 和 Container 上线，并执行一条非 AI 生意经案例的书籍/漫画风真实生产验收。
+002 账号已承接 Studio、Worker、D1、Workflow、Workers AI、R2、Durable Object 和 Container。本文记录只读运行验收、历史 R2 边界，以及删除 007 账号前仍需处理的依赖。
 
 ## 交接坐标
 
@@ -9,10 +9,8 @@
 - 案例与素材数据源：账号 002 / `https://ai-shengyi-jing-etz.pages.dev/data/`，完整与 API-only 配置保持一致
 - Worker/Container 配置：`/Users/hans.pan/Documents/project/ai-shengyi-jing/video-factory/wrangler.jsonc`
 - API-only 降级配置：`/Users/hans.pan/Documents/project/ai-shengyi-jing/video-factory/wrangler.api.jsonc`
-- Worker dry-run 构建：`/Users/hans.pan/Documents/project/ai-shengyi-jing/video-factory/.migration-002/worker-dry-run`
-- 两阶段发布脚本：`/Users/hans.pan/Documents/project/ai-shengyi-jing/video-factory/.migration-002/deploy-002.sh`
-- 线上验收脚本：`/Users/hans.pan/Documents/project/ai-shengyi-jing/video-factory/.migration-002/accept-002.sh`
-- 已推送迁移与 CI 提交：`def20f27` 至 `d950dd68`；最新提交为 `d950dd68 fix: authenticate renderer deployment health check`。
+- 日常发布入口：GitHub Actions `deploy-video-studio.yml` 与 `deploy-video-factory.yml`；两者均固定使用 002 专用 token。
+- `.migration-002/` 下的本地脚本与 dry-run 目录仅保留为历史迁移材料，不是日常发布入口，也未纳入 Git。
 
 ## 正式运行验收（2026-10-10）
 
@@ -60,45 +58,35 @@
 
 当前结论：002 的 Worker、D1、R2、Workflow、Container 已独立运行，没有已发布历史成片继续依赖 007；007 是否仍有孤儿或失败任务中间件属于用户明确接受的未核查迁移边界。
 
-## 安全前置
+## 删除 007 前的依赖核对（2026-10-10）
 
-先撤销或刷新之前出现在工具输出中的 OAuth access/refresh token。不要继续使用
-`/Users/hans.pan/Documents/Codex/2026-10-06/task/.target-auth/.wrangler/config/copy002.toml`
-里的旧 token。临时 Containers token 和 DeepSeek key 没有写入本目录。
+视频产品自身已经具备切离 007 的条件：
 
-设置一枚刷新后的 Workers Scripts + D1 权限 token；现有 Containers token 继续从迁移目录的 0600 文件读取：
+- Studio 正式入口为 `https://ai-shengyi-video-studio-5dw.pages.dev`，Pages 项目和发布工作流均固定到账号 002；界面不再把用户引回旧 Studio 域名。
+- Factory 正式入口为 `https://ai-shengyi-video-factory.bitman001.workers.dev`，Workers AI、D1、R2、Workflow、Durable Object 与 Container 都通过 002 的 Wrangler 配置绑定；R2 没有跨账号 endpoint 或 007 bucket 引用。
+- Container 镜像、应用和 Durable Object 均在 002，健康检查已通过；新任务不需要访问 007 才能进入生产管线。
+- AI 生意经来源连接器使用 002 的 `ai-shengyi-jing-etz.pages.dev` 数据源，界面返回站点使用正式域名 `https://aishengyijing.asia`。
+- 当前仓库的三条 Cloudflare 发布工作流均固定到 002；视频 Studio 与 Factory 使用各自的 002 专用 GitHub secret，不会自动回退到 007。
 
-```bash
-cd /Users/hans.pan/Documents/project/ai-shengyi-jing/video-factory
-export CLOUDFLARE_WORKERS_TOKEN='<fresh workers token>'
-bash .migration-002/deploy-002.sh
-```
+旧仓库 `/Users/hans.pan/Documents/project/ai-video-factory` 是历史 OpenMontage 手动部署源，仍含 007 的 Worker、D1、R2 和镜像地址。该仓库没有 GitHub Actions、没有项目任务文件，也没有发现对应的 launchd、运行进程或 Docker 容器；007 的在线 Worker 清单也没有同名服务，因此没有发现当前调用者。它仍是一次误执行 `wrangler deploy` 的风险，正式删除 007 前应归档或另做明确的部署禁用；本次未修改其中的用户工作区改动。
 
-部署脚本会：
+账号级结论与视频产品不同：当前还不能安全删除整个 007 账号。工作区仍有以下项目引用 007，必须逐项确认是迁移还是退役后再删除账号：
 
-1. 跑单测和 TypeScript 检查；
-2. 应用 D1 migration；
-3. 以 `--containers-rollout=none --keep-vars` 发布完整 Worker，保留已配置的独立 DeepSeek secret；
-4. 推送已构建镜像 `migration-ai-shengyi-video-renderer:20261010`；
-5. 通过 Containers API 创建或更新 `ai-shengyi-video-renderer`，若发现同名应用连接了其他 Durable Object 会安全退出，不做删除；
-6. 验证镜像、DO namespace 和最大实例数。
+- `web3-intel-matrix` 的 Wrangler 账号仍为 007；
+- `fundarb` 仍有旧 Worker、容器 registry 和 Access 域名；
+- `geo-seo-system` 仍调用 007 的 cron Worker，并在部署配置中保留旧地址；
+- `ai-baibaoxiang` 的默认 advisor endpoint 仍指向 007；
+- `midas-trading` 的 Cloudflare 工作流仍检查 007 Worker。
 
-## 验收
+以上是源代码引用审计，不等同于 Cloudflare 账号级资源清单；删除账号前仍需枚举 007 的 zones、DNS/custom domains、Workers、D1、KV、Queues、R2、Access 和 Pages，防止遗漏不在本机仓库中的依赖。
 
-只读健康检查：
+**结论：视频产品层面可切离 007 并在 002 上创建新任务；账号层面暂不可删除 007。** 本次按约束没有启动付费视频生成，因此“新任务最终产出成片”的业务验收仍沿用既有部署证据，不新增一条付费 E2E 证据。
 
-```bash
-bash .migration-002/accept-002.sh
-```
+## 后续发布与安全
 
-真实端到端验收会创建一条 30 秒、书籍输入、漫画风任务，并检查 MP4 与 QA 报告：
-
-```bash
-export FACTORY_ADMIN_TOKEN='<existing video factory admin token>'
-bash .migration-002/accept-002.sh
-```
-
-证据写到 `.migration-002/evidence/`，不写入任何密钥。脚本不会删除 007 资源，也不会恢复历史渲染任务。
+- 只通过 GitHub Actions 和两枚 002 专用 Repository Secrets 发布；不要把历史迁移脚本当作日常部署入口。
+- 不在报告、日志或仓库中保存 Cloudflare token、Factory 管理密钥或 DeepSeek key。
+- 删除 007 前先完成上面的账号级资源清单和其他项目迁移；删除动作本身必须单独授权。
 
 ## 已验证的本地事实
 

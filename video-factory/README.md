@@ -47,7 +47,7 @@ npm run dev
 
 - 002 固定入口：`https://ai-shengyi-video-studio-5dw.pages.dev`
 - 生产 API：`https://ai-shengyi-video-factory.bitman001.workers.dev`
-- GitHub 主分支更新 `video-factory/public/**` 后，由 `deploy-video-studio.yml` 自动发布到账号 002 的 Pages 项目 `ai-shengyi-video-studio-5dw`
+- GitHub 主分支更新 `video-factory/public/**` 后，由 `deploy-video-studio.yml` 自动发布到账号 002 的 Pages 项目 `ai-shengyi-video-studio`（生成域名带 `-5dw` 后缀）
 
 前端与生产后端分开发布，因此 R2 或容器尚未激活时，产品入口仍能稳定访问，并显示明确的后端状态。
 
@@ -65,7 +65,7 @@ npm run db:remote
 
 GitHub Actions 使用独立的 `VIDEO_FACTORY_CLOUDFLARE_API_TOKEN` 仓库 secret；它必须属于账号 002，并包含 Workers Scripts 与 D1 编辑权限。不要复用 AI 生意经主站的 Cloudflare token。
 
-Studio Pages 使用独立的 `VIDEO_STUDIO_CLOUDFLARE_API_TOKEN` 仓库 secret，并在工作流中固定账号 002 与项目 `ai-shengyi-video-studio-5dw`，不会发布回旧 Pages 项目。
+Studio Pages 使用独立的 `VIDEO_STUDIO_CLOUDFLARE_API_TOKEN` 仓库 secret，并在工作流中固定账号 002 与项目 `ai-shengyi-video-studio`，不会发布回旧 Pages 项目。
 
 生产后台对外可访问，但生产 API 仍然受保护。管理员自动化可携带 `X-Factory-Key`；网页端默认使用一次性设备激活码换取 30 天 HMAC 签名会话，长期生产密钥不会进入浏览器。激活码只在 D1 保存 SHA-256 摘要、使用一次后失效：
 

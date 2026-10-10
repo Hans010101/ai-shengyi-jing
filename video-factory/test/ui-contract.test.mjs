@@ -15,9 +15,11 @@ test('all five source connectors are real tabs', () => {
 
 test('file preview can run the classic script and points production to HTTPS', () => {
   assert.doesNotMatch(html, /type="module"/);
-  assert.match(html, /app\.js\?v=1\.1\.0/);
+  assert.match(html, /app\.js\?v=1\.1\.1/);
   assert.match(app, /location\.protocol === 'file:'/);
-  assert.match(app, /https:\/\/ai-shengyi-video-studio\.pages\.dev/);
+  assert.match(app, /https:\/\/ai-shengyi-video-studio-5dw\.pages\.dev/);
+  assert.match(html, /https:\/\/aishengyijing\.asia/);
+  assert.doesNotMatch(`${html}\n${app}`, /ai-shengyi-(?:video-studio|jing)\.pages\.dev/);
 });
 
 test('production access supports one-time activation and an admin fallback', () => {

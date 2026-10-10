@@ -1,7 +1,7 @@
-const OFFICIAL_ORIGIN = 'https://ai-shengyi-video-studio.pages.dev';
+const OFFICIAL_ORIGIN = 'https://ai-shengyi-video-studio-5dw.pages.dev';
 const WORKER_ORIGIN = 'https://ai-shengyi-video-factory.bitman001.workers.dev';
 const isLocalFile = location.protocol === 'file:';
-const isStudioPages = location.hostname === 'ai-shengyi-video-studio.pages.dev' || location.hostname === 'ai-shengyi-video-studio-5dw.pages.dev' || location.hostname.endsWith('.ai-shengyi-video-studio-5dw.pages.dev');
+const isStudioPages = location.hostname === 'ai-shengyi-video-studio-5dw.pages.dev' || location.hostname.endsWith('.ai-shengyi-video-studio-5dw.pages.dev');
 const apiOrigin = isStudioPages || isLocalFile ? WORKER_ORIGIN : location.origin;
 const $ = selector => document.querySelector(selector);
 const $$ = selector => [...document.querySelectorAll(selector)];
