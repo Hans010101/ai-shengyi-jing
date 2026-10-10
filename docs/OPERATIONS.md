@@ -22,7 +22,7 @@
 | EdgeOne 发布目录 | `dist-edgeone/`（公共成品 + 转发函数） |
 | 生产环境变量/绑定 | Workers AI binding：`AI`；Secrets：`EDITORIAL_API_TOKEN`、`EDGEONE_PROXY_SECRET`、`RESEND_API_KEY`、`RESEND_SEGMENT_ID` |
 
-主域名已切换到 002 的 `megan.ns.cloudflare.com` / `nero.ns.cloudflare.com`，HTTPS 与邮件 DNS 核验通过。`CLOUDFLARE_002_API_TOKEN` 已配置，仅授权 002 Pages Edit，2027-10-10 22:00（北京时间）到期，须提前轮换；实际自动发布结果见 [002 迁移记录](cloudflare-002-migration-2026-10-10.md)。不要将临时 OAuth 写入 GitHub 充当长期部署密钥。
+主域名已切换到 002 的 `megan.ns.cloudflare.com` / `nero.ns.cloudflare.com`，HTTPS 与邮件 DNS 核验通过。`CLOUDFLARE_002_API_TOKEN` 已配置且通过 GitHub Actions 双站发布验收，仅授权 002 Pages Edit，2027-10-10 22:00（北京时间）到期，须提前轮换；验收记录见 [002 迁移记录](cloudflare-002-migration-2026-10-10.md)。不要将临时 OAuth 写入 GitHub 充当长期部署密钥。
 
 ## 发布边界
 
