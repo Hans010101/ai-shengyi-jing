@@ -61,7 +61,7 @@ npm run deploy
 npm run db:remote
 ```
 
-脚本生成始终先调用 Workers AI，只有 Workers AI 失败时才调用 DeepSeek；两者都失败时使用确定性本地脚本兜底。`DEEPSEEK_API_KEY`由该 Worker 独立持有，GitHub 部署不会用其他项目的仓库级密钥覆盖它。
+脚本生成始终先调用 Workers AI，只有 Workers AI 失败时才调用 DeepSeek；两者都失败时使用确定性本地脚本兜底。`DEEPSEEK_API_KEY`由该 Worker 独立持有；GitHub Actions 只读取专用 Repository Secret `VIDEO_FACTORY_DEEPSEEK_API_KEY`，不会读取或覆盖其他项目共用的 `DEEPSEEK_API_KEY`。
 
 GitHub Actions 使用独立的 `VIDEO_FACTORY_CLOUDFLARE_API_TOKEN` 仓库 secret；它必须属于账号 002，并包含 Workers Scripts 与 D1 编辑权限。不要复用 AI 生意经主站的 Cloudflare token。
 

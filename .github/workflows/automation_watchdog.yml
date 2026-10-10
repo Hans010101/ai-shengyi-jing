@@ -1,15 +1,7 @@
 name: 案例更新自动巡检与恢复
 
 on:
-  schedule:
-    - cron: '37 */6 * * *'
-  workflow_run:
-    workflows:
-      - 每日项目采集
-      - 自动部署到 Cloudflare 与 EdgeOne
-    types: [completed]
-    branches: [main]
-  workflow_dispatch:
+  workflow_dispatch: # 与采集任务一起改为仅手动运行，避免自动恢复并再次消耗模型额度。
 
 concurrency:
   group: case-update-watchdog

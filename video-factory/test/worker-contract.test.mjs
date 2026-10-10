@@ -32,6 +32,12 @@ test('production deploy cannot pass by falling back to the API-only worker', () 
   assert.match(factoryWorkflow, /VIDEO_FACTORY_ADMIN_TOKEN/);
 });
 
+test('video factory uses its own optional DeepSeek secret', () => {
+  assert.match(factoryWorkflow, /secrets\.VIDEO_FACTORY_DEEPSEEK_API_KEY/);
+  assert.doesNotMatch(factoryWorkflow, /\$\{\{ secrets\.DEEPSEEK_API_KEY \}\}/);
+  assert.match(factoryWorkflow, /if\(process\.env\.DEEPSEEK_API_KEY\)/);
+});
+
 test('studio deploy targets the 002 Pages project name, not its generated subdomain', () => {
   assert.match(studioWorkflow, /--project-name ai-shengyi-video-studio --branch main/);
   assert.doesNotMatch(studioWorkflow, /--project-name ai-shengyi-video-studio-5dw/);

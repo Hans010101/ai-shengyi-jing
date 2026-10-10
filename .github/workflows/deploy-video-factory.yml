@@ -34,13 +34,14 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.VIDEO_FACTORY_CLOUDFLARE_API_TOKEN }}
       - name: Configure production secrets
         run: |
-          node -e "const fs=require('node:fs');fs.writeFileSync('/tmp/video-factory-secrets.json',JSON.stringify({FACTORY_ADMIN_TOKEN:process.env.FACTORY_ADMIN_TOKEN,INTERNAL_RENDER_TOKEN:process.env.INTERNAL_RENDER_TOKEN}))"
+          node -e "const fs=require('node:fs');const secrets={FACTORY_ADMIN_TOKEN:process.env.FACTORY_ADMIN_TOKEN,INTERNAL_RENDER_TOKEN:process.env.INTERNAL_RENDER_TOKEN};if(process.env.DEEPSEEK_API_KEY)secrets.DEEPSEEK_API_KEY=process.env.DEEPSEEK_API_KEY;fs.writeFileSync('/tmp/video-factory-secrets.json',JSON.stringify(secrets))"
           npx wrangler secret bulk /tmp/video-factory-secrets.json --config wrangler.api.jsonc
           rm -f /tmp/video-factory-secrets.json
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.VIDEO_FACTORY_CLOUDFLARE_API_TOKEN }}
           FACTORY_ADMIN_TOKEN: ${{ secrets.VIDEO_FACTORY_ADMIN_TOKEN }}
           INTERNAL_RENDER_TOKEN: ${{ secrets.VIDEO_FACTORY_INTERNAL_TOKEN }}
+          DEEPSEEK_API_KEY: ${{ secrets.VIDEO_FACTORY_DEEPSEEK_API_KEY }}
       - name: Deploy Worker and renderer container
         run: npx wrangler deploy --containers-rollout=immediate
         env:

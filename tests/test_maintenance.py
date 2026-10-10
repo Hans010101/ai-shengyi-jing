@@ -661,9 +661,13 @@ class ContentQualityTests(unittest.TestCase):
         scraper = Path("pipeline/scraper.py").read_text(encoding="utf-8")
         self.assertNotIn("new_projects[:10]", scraper)
 
-    def test_daily_scrape_has_redundant_schedule_and_health_validation(self):
+    def test_daily_scrape_is_manual_only_and_keeps_health_validation(self):
         workflow = Path(".github/workflows/daily_scrape.yml").read_text(encoding="utf-8")
-        self.assertEqual(workflow.count("- cron:"), 2)
+        watchdog = Path(".github/workflows/automation_watchdog.yml").read_text(encoding="utf-8")
+        self.assertNotIn("schedule:", workflow)
+        self.assertNotIn("schedule:", watchdog)
+        self.assertNotIn("workflow_run:", watchdog)
+        self.assertIn("workflow_dispatch:", workflow)
         self.assertIn("pipeline/data/scrape_health.json", workflow)
         self.assertIn("scripts/validate_data.py", workflow)
 
