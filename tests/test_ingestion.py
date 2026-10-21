@@ -103,6 +103,25 @@ class UnattendedRecoveryTests(unittest.TestCase):
         "getStartedPath": ["验证需求", "搭建原型", "验证付费"],
     }
 
+    def test_cloud_schedules_and_completion_recovery_remain_enabled(self):
+        # A video-only change removed both schedules on October 10.
+        workflows = Path(__file__).resolve().parents[1] / ".github/workflows"
+        daily = (workflows / "daily_scrape.yml").read_text()
+        watchdog = (workflows / "automation_watchdog.yml").read_text()
+        for workflow in (daily, watchdog):
+            self.assertIn("\n  schedule:\n", workflow)
+            self.assertIn("\n  workflow_dispatch:", workflow)
+            self.assertIn("runs-on: ubuntu-latest", workflow)
+            self.assertIn("cancel-in-progress: false", workflow)
+        self.assertIn("- cron: '17 0 * * *'", daily)
+        self.assertIn("- cron: '43 12 * * *'", daily)
+        self.assertIn("- cron: '37 */6 * * *'", watchdog)
+        self.assertIn("\n  workflow_run:\n", watchdog)
+        self.assertIn("      - 每日项目采集\n", watchdog)
+        self.assertIn("      - 自动部署到 Cloudflare 与 EdgeOne\n", watchdog)
+        self.assertIn("    types: [completed]", watchdog)
+        self.assertIn("python3 scripts/check_automation.py --repair", watchdog)
+
     def test_public_video_transcript_without_article_or_heading(self):
         detail = scraper.parse_detail_html('''
           <meta property="og:title" content="I Make $50K Per Month Working 5 Hours A Week - Starter Story">

@@ -1,7 +1,10 @@
 name: 每日项目采集
 
 on:
-  workflow_dispatch: # 已停用定时采集，避免自动消耗 DeepSeek；需要时人工触发。
+  schedule:
+    - cron: '17 0 * * *'  # 北京时间 08:17；GitHub 云端运行，不依赖本机。
+    - cron: '43 12 * * *' # 北京时间 20:43；每轮仍限制 20 个新增、5 个复核。
+  workflow_dispatch:
 
 concurrency:
   group: daily-project-scrape
