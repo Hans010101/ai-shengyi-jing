@@ -16,7 +16,7 @@
     "canonicalUrl": "https://www.starterstory.com/businesses/simplero",
     "website": "https://simplero.com",
     "sourceFingerprint": "e5069ecf8a6c3260487cc9ea9b8be0a1dc264a09428c6a1675c7441e6008fd32",
-    "sourceCheckedAt": "2026-10-24T01:07:47.718914+00:00"
+    "sourceCheckedAt": "2026-10-24T01:17:09.993436+00:00"
   },
   {
     "name": "Komposo",
@@ -34,210 +34,7 @@
     "canonicalUrl": "https://www.starterstory.com/businesses/komposo",
     "website": "https://komposo.ai",
     "sourceFingerprint": "785d9ef3ffb4ae7223f30c391e96260b483f692596b0b78f7b4bb41fccaa8f23",
-    "sourceCheckedAt": "2026-10-24T01:07:47.718914+00:00"
-  },
-  {
-    "name": "Invintory Com",
-    "revenue": "Unknown",
-    "startupInfo": "",
-    "url": "https://www.starterstory.com/stories/invintory-com",
-    "slug": "invintory-com",
-    "image": "",
-    "niche": "其他",
-    "id": "b983da2b8925",
-    "sourceUpdatedAt": "2026-10-20T09:01:10+00:00",
-    "scrapedAt": "2026-10-22T00:59:28.180294"
-  },
-  {
-    "name": "Mausbot",
-    "revenue": "Unknown",
-    "startupInfo": "",
-    "url": "https://www.starterstory.com/businesses/mausbot",
-    "slug": "mausbot",
-    "image": "",
-    "niche": "其他",
-    "id": "d965f674ea95",
-    "sourceUpdatedAt": "2026-10-20T01:20:52+00:00",
-    "scrapedAt": "2026-10-22T00:59:28.180294"
-  },
-  {
-    "name": "Adscriptly",
-    "revenue": "Unknown",
-    "startupInfo": "",
-    "url": "https://www.starterstory.com/businesses/adscriptly",
-    "slug": "adscriptly",
-    "image": "",
-    "niche": "其他",
-    "id": "fc9268b67ae0",
-    "sourceUpdatedAt": "2026-10-20T01:02:08+00:00",
-    "scrapedAt": "2026-10-22T00:59:28.180294"
-  },
-  {
-    "name": "Instantinterior Ai",
-    "revenue": "Unknown",
-    "startupInfo": "",
-    "url": "https://www.starterstory.com/businesses/instantinterior-ai",
-    "slug": "instantinterior-ai",
-    "image": "",
-    "niche": "其他",
-    "id": "ce1bddae7d63",
-    "sourceUpdatedAt": "2026-10-20T00:38:10+00:00",
-    "scrapedAt": "2026-10-22T00:59:28.180294"
-  },
-  {
-    "name": "Theanna",
-    "revenue": "Unknown",
-    "startupInfo": "",
-    "url": "https://www.starterstory.com/businesses/theanna",
-    "slug": "theanna",
-    "image": "",
-    "niche": "其他",
-    "id": "5b49e295932f",
-    "sourceUpdatedAt": "2026-10-20T00:37:42+00:00",
-    "scrapedAt": "2026-10-22T00:59:28.180294"
-  },
-  {
-    "name": "App connections for agents",
-    "revenue": "$2K/mo",
-    "startupInfo": "claw-link.dev",
-    "url": "https://www.starterstory.com/businesses/clawlink",
-    "slug": "clawlink",
-    "image": "https://d1coqmn8qm80r4.cloudfront.net/lrjpy2ty6vu71ootfs3i379819wl",
-    "niche": "其他",
-    "id": "c99ea386f900",
-    "scrapedAt": "2026-10-22T12:58:33.587851"
-  },
-  {
-    "name": "Plain English QA testing",
-    "revenue": "$400/mo",
-    "startupInfo": "klykit.io",
-    "url": "https://www.starterstory.com/businesses/klyk",
-    "slug": "klyk",
-    "image": "https://d1coqmn8qm80r4.cloudfront.net/d4yr5h5xlwjsp8wh1nu59m8x5az3",
-    "niche": "其他",
-    "id": "d89cde62cec4",
-    "scrapedAt": "2026-10-22T12:58:33.588304"
-  },
-  {
-    "name": "Reddit pain point finder",
-    "revenue": "$1K/mo",
-    "startupInfo": "painonsocial.com",
-    "url": "https://www.starterstory.com/businesses/painonsocial-com",
-    "slug": "painonsocial-com",
-    "image": "https://d1coqmn8qm80r4.cloudfront.net/62kv5lsjexd4ce5yg809s4uhxxx8",
-    "niche": "其他",
-    "id": "0512dddc08c1",
-    "scrapedAt": "2026-10-22T12:58:33.588670"
-  },
-  {
-    "name": "AI interview prep app",
-    "revenue": "$6K/mo",
-    "startupInfo": "coprep.ai",
-    "url": "https://www.starterstory.com/businesses/coprep-ai",
-    "slug": "coprep-ai",
-    "image": "https://d1coqmn8qm80r4.cloudfront.net/v2tkqhkesh79vp1e4d52479wwssy",
-    "niche": "其他",
-    "id": "18167fb75d69",
-    "scrapedAt": "2026-10-22T12:58:33.589038"
-  },
-  {
-    "name": "Study tracker app",
-    "revenue": "$2K/mo",
-    "startupInfo": "athenify.io",
-    "url": "https://www.starterstory.com/businesses/athenify",
-    "slug": "athenify",
-    "image": "https://d1coqmn8qm80r4.cloudfront.net/c0vh5pvrweuvwp2jhddteouqbud7",
-    "niche": "其他",
-    "id": "f12f3c16b8d1",
-    "scrapedAt": "2026-10-22T12:58:33.589377"
-  },
-  {
-    "name": "WebAI embedding tool",
-    "revenue": "$500/mo",
-    "startupInfo": "hubtersai.com",
-    "url": "https://www.starterstory.com/businesses/hubtersai",
-    "slug": "hubtersai",
-    "image": "",
-    "niche": "其他",
-    "id": "525c3d8a788d",
-    "scrapedAt": "2026-10-22T12:58:33.589809"
-  },
-  {
-    "name": "Personal finance educatio...",
-    "revenue": "$300K/mo",
-    "startupInfo": "herfirst100k.com",
-    "url": "https://www.starterstory.com/businesses/her-first-100k",
-    "slug": "her-first-100k",
-    "image": "https://d1coqmn8qm80r4.cloudfront.net/c1vbpzgiw2au85ledxl6emmzguoa",
-    "niche": "其他",
-    "id": "e268b8398c79",
-    "scrapedAt": "2026-10-22T12:58:33.590161"
-  },
-  {
-    "name": "AI email marketing platform",
-    "revenue": "$600/mo",
-    "startupInfo": "lumail.io",
-    "url": "https://www.starterstory.com/businesses/lumail",
-    "slug": "lumail",
-    "image": "https://d1coqmn8qm80r4.cloudfront.net/8o18zg67f4nm4yka8n53a14likfx",
-    "niche": "其他",
-    "id": "35bb26253802",
-    "scrapedAt": "2026-10-22T12:58:33.590502"
-  },
-  {
-    "name": "Grant discovery newsletter",
-    "revenue": "$1K/mo",
-    "startupInfo": "grantsforcreators.com",
-    "url": "https://www.starterstory.com/businesses/grants-for-creators",
-    "slug": "grants-for-creators",
-    "image": "https://d1coqmn8qm80r4.cloudfront.net/ejzclry7072qt6klieq5kyuszuk7",
-    "niche": "其他",
-    "id": "aaac6aeadd72",
-    "scrapedAt": "2026-10-22T12:58:33.590834"
-  },
-  {
-    "name": "Shopify funnel builder",
-    "revenue": "$20K/mo",
-    "startupInfo": "getfunneled.com",
-    "url": "https://www.starterstory.com/businesses/plutocracy",
-    "slug": "plutocracy",
-    "image": "https://d1coqmn8qm80r4.cloudfront.net/cy8sfyev12ozgj1h4gfwvn6mk7no",
-    "niche": "其他",
-    "id": "687d2fb521d2",
-    "scrapedAt": "2026-10-22T12:58:33.591191"
-  },
-  {
-    "name": "Pet grooming shop software",
-    "revenue": "$1K/mo",
-    "startupInfo": "hellojune.io",
-    "url": "https://www.starterstory.com/businesses/june-674011",
-    "slug": "june-674011",
-    "image": "https://d1coqmn8qm80r4.cloudfront.net/af783xszf5rezqogd5gqtd2dms39",
-    "niche": "其他",
-    "id": "26824238ba48",
-    "scrapedAt": "2026-10-22T12:58:33.591522"
-  },
-  {
-    "name": "AI PNGTuber avatar maker",
-    "revenue": "$500/mo",
-    "startupInfo": "thumb-free.com",
-    "url": "https://www.starterstory.com/businesses/pngtubermaker",
-    "slug": "pngtubermaker",
-    "image": "",
-    "niche": "其他",
-    "id": "8f7186b08ad3",
-    "scrapedAt": "2026-10-22T12:58:33.591935"
-  },
-  {
-    "name": "Temporary email API",
-    "revenue": "$500/mo",
-    "startupInfo": "moemail.app",
-    "url": "https://www.starterstory.com/businesses/moemail",
-    "slug": "moemail",
-    "image": "https://d1coqmn8qm80r4.cloudfront.net/ltxbgelcqw3rys2xvkrpe343kgfk",
-    "niche": "其他",
-    "id": "ebd3bb1d76b8",
-    "scrapedAt": "2026-10-22T12:58:33.592301"
+    "sourceCheckedAt": "2026-10-24T01:17:09.993436+00:00"
   },
   {
     "name": "Product Hunt alternative",
@@ -801,5 +598,38 @@
     "niche": "其他",
     "id": "fa977f0905af",
     "scrapedAt": "2026-10-24T01:07:46.933668"
+  },
+  {
+    "name": "AI roast generator app",
+    "revenue": "$4K/mo",
+    "startupInfo": "apps.apple.com",
+    "url": "https://www.starterstory.com/businesses/roastgpt",
+    "slug": "roastgpt",
+    "image": "https://d1coqmn8qm80r4.cloudfront.net/k3m3scgbvn5k3dmzsbtyj3rsisra",
+    "niche": "其他",
+    "id": "f206da34f306",
+    "scrapedAt": "2026-10-24T01:17:09.392426"
+  },
+  {
+    "name": "WooCommerce shipping plugin",
+    "revenue": "$3K/mo",
+    "startupInfo": "wcmultishipping.com",
+    "url": "https://www.starterstory.com/businesses/mondial-relay-woocommerce-wcmultishipping",
+    "slug": "mondial-relay-woocommerce-wcmultishipping",
+    "image": "https://d1coqmn8qm80r4.cloudfront.net/9gx5lfghmdurvafz4q87bfzahv4x",
+    "niche": "其他",
+    "id": "66692eff0e72",
+    "scrapedAt": "2026-10-24T01:17:09.392724"
+  },
+  {
+    "name": "SaaS command center",
+    "revenue": "$500/mo",
+    "startupInfo": "projecthq.pro",
+    "url": "https://www.starterstory.com/businesses/projecthq",
+    "slug": "projecthq",
+    "image": "https://d1coqmn8qm80r4.cloudfront.net/5bgu2m1xh7777m2a7vpm1ocan2be",
+    "niche": "其他",
+    "id": "f54d621f0512",
+    "scrapedAt": "2026-10-24T01:17:09.392987"
   }
 ]
