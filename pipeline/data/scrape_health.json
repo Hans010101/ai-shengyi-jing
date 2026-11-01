@@ -1,46 +1,36 @@
 {
-  "checkedAt": "2026-11-01T00:47:35.518550+00:00",
+  "checkedAt": "2026-11-01T00:54:10.110618+00:00",
   "status": "degraded",
   "listingProjects": 25,
   "sitemapBusinesses": 1328,
   "sitemapStories": 3314,
   "sourceErrors": {},
   "discoveredProjects": 4661,
-  "newProjects": 9,
+  "newProjects": 1,
   "queuedProjects": 0,
-  "refreshDue": 2324,
-  "databaseProjectsBefore": 4638,
+  "refreshDue": 2319,
+  "databaseProjectsBefore": 4646,
   "databaseProjects": 4646,
   "phase": "catalog-validated",
-  "lastNewAt": "2026-11-01T00:50:35.711047+00:00",
-  "completedAt": "2026-11-01T00:50:13.542827+00:00",
-  "processedProjects": 8,
-  "processedProjectIds": [
-    "be237a9c4cc5",
-    "5456cc793447",
-    "af820b224374",
-    "697d13458222",
-    "9298d826d316",
-    "92f107d4cb4c",
-    "d7132a6bf358",
-    "1f5c8d4e288c"
-  ],
+  "lastNewAt": "2026-11-01T00:47:35.305578",
+  "completedAt": "2026-11-01T00:55:30.086179+00:00",
+  "processedProjects": 0,
+  "processedProjectIds": [],
   "refreshProjectIds": [
-    "c44706008bdb",
-    "7625d8da06f1",
-    "6a2ebaec9de0",
-    "8a5c0698b8a4",
-    "09b7a90559b2"
+    "5f2710fb08ad",
+    "c19f2af2f0ce",
+    "2f46a6a3f873",
+    "032e847ffd97"
   ],
-  "pendingProjects": 1,
+  "pendingProjects": 2,
   "projectErrors": {
-    "517cd5cc70bf": "No configured AI provider returned a complete analysis"
+    "517cd5cc70bf": "No configured AI provider returned a complete analysis",
+    "eda20888446c": "No configured AI provider returned a complete analysis"
   },
   "refreshedProjectIds": [
-    "09b7a90559b2",
-    "6a2ebaec9de0",
-    "7625d8da06f1",
-    "8a5c0698b8a4",
-    "c44706008bdb"
+    "032e847ffd97",
+    "2f46a6a3f873",
+    "5f2710fb08ad",
+    "c19f2af2f0ce"
   ]
 }
