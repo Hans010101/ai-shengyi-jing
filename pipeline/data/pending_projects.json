@@ -16,6 +16,47 @@
     "canonicalUrl": "https://www.starterstory.com/businesses/pa-crunch-674994",
     "website": "https://schumacher.jp",
     "sourceFingerprint": "e1794f6175b973412e4dadf948da41418148efdb8a5cd1bd24ba088302041348",
-    "sourceCheckedAt": "2026-11-05T00:47:44.431216+00:00"
+    "sourceCheckedAt": "2026-11-05T00:53:14.209583+00:00"
+  },
+  {
+    "name": "AppSumo",
+    "revenue": "~$8.3M/mo",
+    "startupInfo": "appsumo.com",
+    "url": "https://www.starterstory.com/businesses/appsumo",
+    "slug": "appsumo",
+    "image": "https://d1coqmn8qm80r4.cloudfront.net/7b457t25911or098iet9z3t1sk1x",
+    "niche": "其他",
+    "id": "a40098a0fb75",
+    "scrapedAt": "2026-08-05T04:16:42.772910",
+    "revenueDetail": "~$8.3M/mo",
+    "metaDesc": "AppSumo is a platform that offers entrepreneurs discounted lifetime deals on business software and digital… — researched from public sources by Starter Story.",
+    "description": "AppSumo is a platform that offers entrepreneurs discounted lifetime deals on business software and digital… — researched from public sources by Starter Story.",
+    "website": "https://appsumo.com",
+    "nameZh": "AppSumo 软件限时抢购",
+    "summary": "每日精选软件限时折扣，聚合开发者与用户，实现双赢。",
+    "insight": "核心洞察是利用限时折扣和稀缺性心理，为软件开发者提供快速获客渠道，为用户提供超值软件，平台通过分成获利。成功在于精准匹配供需，并建立品牌信任。",
+    "businessModel": "向软件开发者收取推广佣金（通常为销售额的30%-50%），用户以折扣价购买软件，平台赚取差价。定价策略为限时折扣，通常为原价的50%-90% off。客户群体为中小企业和个人开发者，以及寻求性价比软件的用户。",
+    "chinaOpportunity": "国内存在类似需求，如软件众筹、折扣平台，可结合国内软件生态（如SaaS、独立开发者）和支付习惯，打造本土化平台。注意合规、版权和软件质量把控。",
+    "productArch": "用户浏览列表 ➔ 点击详情 ➔ 支付（支付宝/微信） ➔ 获取兑换码 ➔ 开发者后台管理 ➔ 平台数据分析",
+    "businessLoop": "【引流】：SEO、社交媒体、邮件营销 ➔ 【产品】：每日限时折扣软件 ➔ 【变现】：佣金分成 + 会员订阅",
+    "getStartedPath": [
+      "第一步：选定细分市场（如设计、营销工具），联系独立开发者或小团队，获取软件折扣授权。",
+      "第二步：搭建简单网站或小程序，实现软件列表展示、用户注册、支付和兑换码发放功能。",
+      "第三步：通过社群、内容营销（如使用教程）吸引用户，每日推送折扣信息，并建立邮件列表维护用户。"
+    ],
+    "replicabilityScore": 7,
+    "difficulty": "中",
+    "tags": [
+      "软件折扣",
+      "限时抢购",
+      "开发者服务",
+      "在线交易"
+    ],
+    "updatedAt": "2026-08-05",
+    "featured": false,
+    "sourceUpdatedAt": "2026-11-03T14:59:54+00:00",
+    "canonicalUrl": "https://www.starterstory.com/businesses/appsumo",
+    "sourceFingerprint": "4d0413cf99cbcb8fa1277d7354e44f857859567d4712e5ee0784dcae07cd9493",
+    "sourceCheckedAt": "2026-11-05T00:53:14.209583+00:00"
   }
 ]
