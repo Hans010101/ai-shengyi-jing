@@ -1,37 +1,41 @@
 {
-  "checkedAt": "2026-11-05T13:02:58.265625+00:00",
+  "checkedAt": "2026-11-06T00:41:18.723250+00:00",
   "status": "degraded",
   "listingProjects": 25,
   "sitemapBusinesses": 1460,
   "sitemapStories": 3318,
   "sourceErrors": {},
   "discoveredProjects": 4803,
-  "newProjects": 1,
+  "newProjects": 4,
   "queuedProjects": 0,
-  "refreshDue": 2407,
+  "refreshDue": 2402,
   "databaseProjectsBefore": 4785,
-  "databaseProjects": 4785,
+  "databaseProjects": 4788,
   "phase": "catalog-validated",
-  "lastNewAt": "2026-11-05T12:47:15.246538",
-  "completedAt": "2026-11-05T13:04:18.186173+00:00",
-  "processedProjects": 0,
-  "processedProjectIds": [],
+  "lastNewAt": "2026-11-06T00:43:15.016159+00:00",
+  "completedAt": "2026-11-06T00:43:06.010536+00:00",
+  "processedProjects": 3,
+  "processedProjectIds": [
+    "56378690bb21",
+    "9c1b2be7dfd4",
+    "4e29e31b935e"
+  ],
   "refreshProjectIds": [
-    "20f7b3de7c00",
-    "1c9e18e54aa6",
-    "4fa09bd2a9a0",
-    "e33157272fa8",
-    "a32991d978aa"
+    "0d3accad6b29",
+    "c6f20c01a163",
+    "cde39bf9ffd4",
+    "904cfe345b3b",
+    "833ecebead45"
   ],
   "pendingProjects": 1,
   "projectErrors": {
     "0c151aa0d4c6": "No configured AI provider returned a complete analysis"
   },
   "refreshedProjectIds": [
-    "1c9e18e54aa6",
-    "20f7b3de7c00",
-    "4fa09bd2a9a0",
-    "a32991d978aa",
-    "e33157272fa8"
+    "0d3accad6b29",
+    "833ecebead45",
+    "904cfe345b3b",
+    "c6f20c01a163",
+    "cde39bf9ffd4"
   ]
 }
