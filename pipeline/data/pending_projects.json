@@ -1,1 +1,63 @@
-[]
+[
+  {
+    "name": "Kolbo.AI",
+    "revenue": "~$41K/mo",
+    "startupInfo": "",
+    "url": "https://www.starterstory.com/businesses/kolbo-ai",
+    "slug": "kolbo-ai",
+    "image": "https://d1coqmn8qm80r4.cloudfront.net/ayuelpa3ikf2gl7mh8v9ty2c8uqm",
+    "niche": "其他",
+    "id": "8f3288b2fc32",
+    "scrapedAt": "2026-11-07T12:46:31.453255",
+    "revenueDetail": "~$41K/mo",
+    "metaDesc": "Kolbo.AI is an all-in-one AI creative workspace that brings 100+ AI models (image, video, music, voice and… — researched from public sources by Starter Story.",
+    "description": "Kolbo.AI is an all-in-one AI creative workspace that brings 100+ AI models (image, video, music, voice and… — researched from public sources by Starter Story.",
+    "canonicalUrl": "https://www.starterstory.com/businesses/kolbo-ai",
+    "website": "https://kolbo.ai",
+    "sourceFingerprint": "043f1b2f0c374ecea4f51d19cfd906b69ba1af585646e9db7b15964e5045ea28",
+    "sourceCheckedAt": "2026-11-07T12:46:32.025798+00:00"
+  },
+  {
+    "id": "ce71a46d9cad",
+    "slug": "convert-com",
+    "url": "https://www.starterstory.com/businesses/convert-com",
+    "name": "Convert.com",
+    "revenue": "~$165K/mo",
+    "description": "Convert.com is an A/B testing and website conversion optimization software that helps marketers and CRO ex… — researched from public sources by Starter Story.",
+    "image": "https://d1coqmn8qm80r4.cloudfront.net/b8nytkahj19vhr0bau6xfh1yfmgt",
+    "niche": "其他",
+    "featured": false,
+    "updatedAt": "2026-07-21",
+    "scrapedAt": "2026-07-21T14:18:23.436449",
+    "summary": "A/B测试及转化优化SaaS平台，按月订阅收费。",
+    "insight": "Convert.com通过提供易用的A/B测试工具和个性化引擎，帮助网站提升转化率，以订阅制盈利，瞄准中小企业市场。",
+    "businessModel": "SaaS订阅制，提供A/B测试、热图、问卷调查等功能，按月或年收费，免费试用+付费升级。",
+    "chinaOpportunity": "中国中小企业数字化营销需求旺盛，但缺乏低成本A/B测试工具。可开发微信小程序/网站优化工具，结合本土数据分析。",
+    "productArch": "用户注册 ➔ 创建实验 ➔ 设定目标 ➔ 运行测试 ➔ 数据分析 ➔ 优化迭代",
+    "businessLoop": "【引流】内容营销+SEO ➔ 【产品】A/B测试SaaS ➔ 【变现】订阅付费 ➔ 【留存】持续优化+客户成功",
+    "getStartedPath": [
+      "第一步：聚焦一个垂直场景（如电商首页优化），开发最小可行产品，支持URL和JS片段注入。",
+      "第二步：通过知乎、公众号发布转化率优化案例，吸引种子用户，提供免费试用。",
+      "第三步：基于用户反馈迭代，增加热图、表单分析等功能，推出付费套餐（$29-99/月）。"
+    ],
+    "replicabilityScore": 8,
+    "difficulty": "低",
+    "startupCost": "$500-2000",
+    "timeToRevenue": "1-3个月",
+    "tags": [
+      "A/B测试",
+      "转化率优化",
+      "SaaS"
+    ],
+    "website": "https://convert.com",
+    "twitter_url": "https://twitter.com/convert",
+    "github_url": "",
+    "nameZh": "A/B测试及转化优化SaaS平台",
+    "sourceUpdatedAt": "2026-11-05T03:01:09+00:00",
+    "revenueDetail": "~$165K/mo",
+    "metaDesc": "Convert.com is an A/B testing and website conversion optimization software that helps marketers and CRO ex… — researched from public sources by Starter Story.",
+    "canonicalUrl": "https://www.starterstory.com/businesses/convert-com",
+    "sourceFingerprint": "5f24fb1a230ce11e5fa60cfdaf01799a33fe04efd35d974dc1e4bb6089434d5d",
+    "sourceCheckedAt": "2026-11-07T12:46:32.025798+00:00"
+  }
+]
