@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-26T12:53:59.725556+00:00",
+  "checkedAt": "2026-11-26T13:00:41.303984+00:00",
   "status": "degraded",
   "listingProjects": 25,
   "sitemapBusinesses": 1921,
@@ -8,29 +8,30 @@
   "discoveredProjects": 5261,
   "newProjects": 1,
   "queuedProjects": 0,
-  "refreshDue": 3052,
+  "refreshDue": 3048,
   "databaseProjectsBefore": 5226,
   "databaseProjects": 5226,
   "phase": "catalog-validated",
   "lastNewAt": "2026-11-26T12:47:00.835328",
-  "completedAt": "2026-11-26T12:55:22.549483+00:00",
+  "completedAt": "2026-11-26T13:01:59.463841+00:00",
   "processedProjects": 0,
   "processedProjectIds": [],
   "refreshProjectIds": [
-    "6d03c89dccbc",
-    "371f5730b38e",
-    "36846677e3a8",
-    "c563c2651c89"
+    "8e4001e2337a",
+    "2f2041bfc499",
+    "87b620119464",
+    "8c16e9b459a4",
+    "ecdb1e69c25d"
   ],
-  "pendingProjects": 2,
+  "pendingProjects": 1,
   "projectErrors": {
-    "8835e0d7424f": "Project detail request failed after retries",
-    "8e4001e2337a": "No configured AI provider returned a complete analysis"
+    "8835e0d7424f": "Project detail request failed after retries"
   },
   "refreshedProjectIds": [
-    "36846677e3a8",
-    "371f5730b38e",
-    "6d03c89dccbc",
-    "c563c2651c89"
+    "2f2041bfc499",
+    "87b620119464",
+    "8c16e9b459a4",
+    "8e4001e2337a",
+    "ecdb1e69c25d"
   ]
 }
